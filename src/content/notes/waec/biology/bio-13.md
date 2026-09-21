@@ -8,215 +8,103 @@ topicName: "Genetics: Mendelian Inheritance"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.653441"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Detailed biological diagram of Genetics: Mendelian Inheritance with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 ---
 
-# "Genetics: Mendelian Inheritance"
+# Genetics: Mendelian Inheritance
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your WAEC exam.
+> Lock these four numbers into long-term memory before any other step — they decide the score on WAEC Paper 2.
 
-**Key Terms:**
-- **Gene**: Segment of DNA that codes for a trait
-- **Allele**: Different versions of a gene
-- **Dominant**: allele that expresses in heterozygote (represented by capital letter)
-- **Recessive**: allele only expresses in homozygote (represented by lowercase)
-- **Genotype**: Genetic makeup (e.g., Tt, TT, tt)
-- **Phenotype**: Physical appearance (e.g., tall, short)
-- **Homozygous**: Two identical alleles (TT or tt)
-- **Heterozygous**: Two different alleles (Tt)
-- **Carrier**: Heterozygous individual with recessive allele but no symptoms
+Every sexually reproducing organism carries **two alleles per gene**, one from each parent. Gregor Mendel proved this in 1866 by crossing *Pisum sativum*, the garden pea, and watching how **dominant** traits mask **recessive** ones. A monohybrid F2 generation splits **3 : 1** by phenotype (dominant : recessive) but **1 : 2 : 1** by genotype (homozygous dominant : heterozygous : homozygous recessive). A dihybrid F2 splits **9 : 3 : 3 : 1**.
 
-**Mendel's First Law (Law of Segregation):**
-During gamete formation, paired alleles separate so each gamete receives one allele from each pair.
+| Cross type | Phenotypic ratio | Genotypic ratio |
+|---|---|---|
+| Monohybrid F2 | 3 : 1 | 1 : 2 : 1 |
+| Dihybrid F2 | 9 : 3 : 3 : 1 | nine classes (1 : 2 : 1 : 2 : 4 : 2 : 1 : 2 : 1) |
+| Test cross | 1 : 1 | 1 : 1 |
 
-**Mendel's Second Law (Law of Independent Assortment):**
-Alleles of different genes assort independently of one another during gamete formation. (This applies to genes on different chromosomes.)
-
-**Monohybrid Cross Pattern:**
-Parents: Tt × Tt
-Gametes: T, t from each parent
-Offspring genotypes: TT : Tt : tt = 1 : 2 : 1
-Phenotypic ratio: 3 dominant : 1 recessive
-
-⚡ **WAEC Tip**: When asked to cross a homozygous dominant with homozygous recessive, ALL offspring will be heterozygous and show the dominant phenotype. Example: TT × tt → ALL Tt (tall).
+> 💡 **High-Yield Memory Hook (Memory Hook — "GRoMP"):** **G**ametes carry **R**educed allele pairs (one allele each) — **G**amete = **R**educed = half the somatic count. Pair this with the count **"3-1, 9-3-3-1, 1-1, 1-2-1"** spoken aloud twice and you will not forget the four WAEC ratios.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
 
-**Working with Genetics Problems:**
+#### The two laws that govern every cross
 
-**Step-by-step approach:**
-1. Assign letters (choose clear letters — avoid C/c because it looks like G)
-2. Write parental genotypes
-3. Determine gametes (one allele from each gene per gamete)
-4. Use Punnett square to find offspring
-5. Calculate ratios
+**Law of Segregation** states that the two alleles sitting on homologous chromosomes split into separate gametes during meiosis I, so each sperm or egg carries exactly one allele. **Law of Independent Assortment** states that allele pairs on different chromosomes sort into gametes independently of one another, which is why a dihybrid cross produces the famous 9 : 3 : 3 : 1 split rather than a 3 : 1 in each trait treated separately.
 
-**Example - Dihybrid Cross:**
-Cross: TtRr × TtRr (where T = tall, t = short, R = round, r = wrinkled)
+Without these two laws, neither the F1 uniformity nor the F2 ratios can be derived.
 
-Gametes from TtRr: TR, Tr, tR, tr (all equally likely)
+#### Vocabulary WAEC examiners recycle
 
-**Punnett Square Results:**
-Phenotypic ratio = 9 tall round : 3 tall wrinkled : 3 short round : 1 short wrinkled
+| Term | Meaning | Example |
+|---|---|---|
+| Genotype | Allele combination an organism carries (letters) | Tt, ss, RrYy |
+| Phenotype | Observable trait that results | Tall, smooth seeds, yellow pods |
+| Homozygous | Two identical alleles at a locus | TT or tt |
+| Heterozygous | Two different alleles at a locus | Tt |
+| Pure-breeding | Homozygous; breeds true across generations | TT line, tt line |
+| F1, F2 | First and second generations after a cross | F1 = children; F2 = grandchildren |
 
-Genotypic ratio = 1 TT RR : 2 TT Rr : 1 TT rr : 2 Tt RR : 4 Tt Rr : 2 Tt rr : 1 tt RR : 2 tt Rr : 1 tt rr
+#### Resolving a standard WAEC dihybrid question
 
-**Test Cross:**
-Used to determine genotype of dominant phenotype.
-Cross with homozygous recessive (tt or aa).
-- If ALL offspring show dominant → parent was homozygous dominant (TT)
-- If 50% show dominant, 50% recessive → parent was heterozygous (Tt)
+**Question.** In garden peas, tall (T) is dominant over dwarf (t), and round seeds (R) dominant over wrinkled (r). A homozygous tall, round plant (TTRR) is crossed with a dwarf, wrinkled plant (ttrr). All F1 are tall and round. Two F1 plants are self-crossed. Out of 640 F2 offspring, how many are expected to be tall with wrinkled seeds, and how many are dwarf with round seeds?
 
-**Incomplete Dominance:**
-Neither allele is fully dominant. Heterozygote shows intermediate phenotype.
+**Step 1 — F1 genotype.** TTRR × ttrr gives all **TtRr** (dihybrid heterozygotes, uniform tall-round phenotype).
 
-Example: Snapdragons
-- Red (RR) × White (WW) → Pink (RW)
-- Pink × Pink → 1 Red : 2 Pink : 1 White
+**Step 2 — Gametes from TtRr.** Each F1 makes four gamete types in equal frequency (1/4 each): **TR, Tr, tR, tr**. The independence of T/t from R/r is what produces this quartet.
 
-**Codominance:**
-Both alleles fully expressed in heterozygote.
-Example: MN blood group
-- M antigen AND N antigen both present on RBCs in MN individuals
-- Locus: LM and LN alleles, both expressed
+**Step 3 — Build the 4 × 4 Punnett square.** Sixteen boxes collapse into four phenotypic classes:
+- Tall, round = 9/16
+- Tall, wrinkled = **3/16**
+- Dwarf, round = **3/16**
+- Dwarf, wrinkled = 1/16
 
-**Multiple Alleles:**
-When a gene has more than two alleles in a population.
-Example: ABO blood groups
-- Three alleles: Iᴬ, Iᴮ, i
-- Six genotypes: IᴬIᴬ, Iᴬi (Type A); IᴮIᴮ, Iᴮi (Type B); IᴬIᴮ (Type AB); ii (Type O)
+#### Step 4 — Convert fractions to counts out of 640.
+- Tall, wrinkled = 3/16 × 640 = **120 plants**
+- Dwarf, round = 3/16 × 640 = **120 plants**
 
-⚡ **Common Mistake**: Students confuse "dominant" with "more common." In genetics, dominant simply means it masks the recessive allele in a heterozygote. A trait can be rare and still be dominant (e.g., Huntington's disease).
+> ⚠️ **Examiner Trap:** Many candidates read "tall with wrinkled" and immediately answer 3/16 without converting to a count, losing the second mark. WAEC structured questions on Paper 2 demand both the ratio AND the calculated number from a stated sample size.
+
+#### Why a test cross exists
+
+If a tall plant could be **TT** or **Tt**, crossing it with a dwarf **tt** plant gives either all tall offspring (TT × tt → all Tt) or a 1 : 1 split (Tt × tt → 1 Tt : 1 tt). The offspring ratio tells you the unknown genotype in one generation — no selfing, no F2 needed.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious exam preparation.
 
-**Sex Determination:**
+#### Edge cases that distort Mendelian ratios
 
-In mammals:
-- Female: XX
-- Male: XY
+| Condition | What changes | Why it matters |
+|---|---|---|
+| Linked genes (same chromosome, close together) | Independent assortment fails; dihybrid ratio collapses toward two parental classes | Many real traits (e.g., red-green colour blindness and haemophilia in humans) are X-linked, not independent |
+| Lethal alleles | Homozygous recessive individuals die; 3 : 1 becomes 2 : 1 | Yellow coat in mice (A^Y allele) — A^Y A^Y embryos die in utero |
+| Incomplete dominance | Heterozygote shows intermediate phenotype; 1 : 2 : 1 holds for **both** genotype and phenotype | Snapdragon flower colour (red × white → pink F1; 1 red : 2 pink : 1 white in F2) |
+| Co-dominance | Both alleles expressed simultaneously | ABO blood alleles I^A and I^b both appear on red cell surface |
+| Sex-linked inheritance | Trait appears more in one sex; ratios differ in males vs females | Haemophilia, colour blindness — WAEC favourite for one compulsory Paper 1 item |
+| Small sample size | Random deviation from expected ratio | A family of four children can be 4 : 0 by pure chance |
 
-- XX × XY → 50% female (X from mother + X from father) : 50% male (X from mother + Y from father)
-- So sex is determined by the FATHER (which sperm fertilises the egg)
+#### Why human families rarely show clean ratios
 
-**Sex-linked Traits:**
-- Genes located on X or Y chromosome
-- X-linked recessive: more common in males (they only have one X)
-- Examples: Colour blindness, Haemophilia
+Humans produce one offspring at a time, family sizes are small (often 1–4), and most human traits are polygenic or influenced by environment. A couple who are both carriers (Aa × Aa) for an autosomal recessive disorder such as sickle-cell anaemia have a 25% risk per child, but two unaffected parents in a family of three children can still produce an affected child — a fact WAEC Theory questions test by asking why Mendelian ratios cannot be applied directly to most human crosses.
 
-**X-linked Recessive Inheritance Pattern:**
+#### Two advanced practice prompts
 
-| Cross | Female | Male |
-|-------|--------|------|
-| XᴮXᴮ × XᵇY | All normal | All normal |
-| XᴮXᵇ × XᴮY | All normal | 50% normal, 50% affected |
-| XᵇXᵇ × XᴮY | All carriers | All affected |
+1. **Linked-gene problem.** Two genes A and B sit 8 map units apart on the same chromosome. An AABB individual is crossed with aabb. The F1 (AaBb) is test-crossed to aabb. Predict the four phenotypic classes and their expected percentages, assuming A and B are in coupling (AB/ab). *(Recombinant classes each appear at 8%; parental classes each at 42%.)*
+2. **Incomplete dominance cross.** A red-flowered snapdragon (R^1 R^1) is crossed with a white-flowered one (R^2 R^2). F1 are all pink (R^1 R^2). Two F1 pinks are crossed. Out of 240 F2 seedlings, how many are red, pink and white? *(Red = 60, pink = 120, white = 60.)*
 
-**Haemophilia in Royal Families:**
-- Recessive X-linked
-- Queen Victoria was carrier (XᴴXʰ)
-- Passed to affected sons and carrier daughters
-- Tsar Nicholas II's son Alexei was haemophiliac
-- Princess Victoria Eugenie (Queen's granddaughter) was also carrier
+> 📌 **Field Note:** Whenever WAEC gives you a cross with a sample number (e.g., "out of 800 offspring"), the second mark lives in the multiplication step — never leave the answer as a fraction.
 
-**Autosomal vs Sex-linked Traits:**
+## Continue your study
 
-| Feature | Autosomal | X-linked |
-|---------|-----------|----------|
-| Affects both sexes equally | Yes | No |
-| Father-to-son transmission | Yes | No (males get Y from father) |
-| Pattern in family tree | Vertical (parent to child) | Diagonal (affected males through carrier mothers) |
-
-**Pedigree Analysis:**
-
-| Pattern | Likely Inheritance |
-|---------|-------------------|
-| Affects males and females equally, vertical transmission | Autosomal dominant |
-| Affects males and females equally, can skip generations | Autosomal recessive |
-| Affects mostly males, transmitted through carrier mothers | X-linked recessive |
-| Every affected person has affected parent | Dominant |
-
-**Probability in Genetics:**
-
-**Product Rule:** Probability of two independent events both occurring = P(A) × P(B)
-- Example: Probability of being male AND having haemophilia = ½ (male) × ½ (if carrier mother, chance of receiving Xʰ) = ¼
-
-**Sum Rule:** Probability of either of two mutually exclusive events = P(A) + P(B)
-- Example: Probability of being TT or Tt from Tt × Tt = ¼ + ½ = ¾
-
-**Calculating Ratio from Probability:**
-For cross Tt × Tt:
-- P(TT) = ¼
-- P(Tt or tT) = ½
-- P(tt) = ¼
-Phenotypic ratio = ¾ dominant : ¼ recessive
-
-**Linkage:**
-- Genes on the same chromosome tend to be inherited together
-- Crossing over can separate linked genes
-- Frequency of crossing over indicates distance between genes
-- Thomas Hunt Morgan's work with Drosophila (fruit flies)
-
-**Mutation:**
-
-**Gene mutations:**
-- Point mutation: single base change (e.g., sickle cell anaemia — GAG → GTG)
-- Frameshift: insertion or deletion shifts reading frame
-
-**Chromosomal mutations:**
-- Deletion, duplication, inversion, translocation
-
-**Sickle Cell Anaemia:**
-- Autosomal recessive
-- Single point mutation in beta-globin gene
-- Glutamic acid → Valine at position 6
-- Causes sickle-shaped RBCs that block capillaries
-- Heterozygotes (HbA HbS) have sickle cell trait — more resistant to malaria
-
-**Chromosomal Sex Disorders:**
-| Condition | Chromosomes | Cause |
-|-----------|-------------|-------|
-| Turner syndrome | XO | Missing X (female, sterile) |
-| Klinefelter syndrome | XXY | Extra X (male, often sterile) |
-| Trisomy 21 (Down) | 47, +21 | Extra chromosome 21 |
-
-⚡ **WAEC Previous Year Pattern:**
-
-| Year | Question | Concept |
-|------|----------|---------|
-| 2023 | Monohybrid cross ratio | 3:1 ratio |
-| 2022 | Sex-linked inheritance | Colour blindness pedigree |
-| 2021 | Blood group genetics | Multiple alleles, codominance |
-
-**Dihybrid Cross Extended:**
-
-When genes are LINKED (on same chromosome), they do NOT assort independently.
-- Parental types more common than recombinant types
-- Morgan found this with Drosophila eye colour and body colour genes
-
-**Calculating Genetic Distance:**
-- 1% recombination frequency = 1 map unit (centimorgan)
-- Genes farther apart on chromosome have higher recombination frequency
-- Maximum recombination = 50% (behave as if on different chromosomes)
-
-**Genetic Crosses with Two Genes (autosomal):**
-
-Example: Flower colour (P = purple, p = white) and seed shape (R = round, r = wrinkled)
-Cross: PpRr × ppRr
-
-Gametes from PpRr: PR, Pr, pR, pr
-Gametes from ppRr: pR, pr (only, because first parent is pp)
-
-⚡ **Exam Strategy**: Always start genetics problems by writing out what you're told clearly. Use a systematic approach: identify which allele is dominant, assign letters, write parental genotypes, work through gametes, and construct Punnett square. Check your work by confirming ratios add up to the right total.
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Genetics: Mendelian Inheritance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,140 +8,120 @@ topicName: Alkynes
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Alkynes
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> The triple bond makes alkynes sp-hybridised, linear, and unusually acidic at the terminal position — three facts that dominate every exam question on this topic.
 
-**Alkynes** — Key Facts for SLMC Medical (Sri Lanka)
-- Alkynes are **unsaturated hydrocarbons** with a C≡C triple bond
-- General formula: **CₙH₂ₙ₋₂** (for one triple bond)
-- Each carbon in the triple bond is **sp-hybridized** (180° bond angle, linear geometry)
-- The triple bond consists of **one σ-bond + two π-bonds**
-- ⚡ Exam tip: Addition reactions and acid-base chemistry of terminal alkynes are high-yield for SLMC
+Alkynes are open-chain hydrocarbons carrying at least one C≡C triple bond. The general molecular formula for acyclic mono-ynes is **C_nH_(2n−2)**, where *n* = number of carbon atoms.
+
+| Property | Value / Description |
+|---|---|
+| Hybridisation of triple-bonded C | sp (50% s-character) |
+| Bond angle at C≡C | 180° (linear) |
+| C≡C bond energy | ~839 kJ mol⁻¹ |
+| General formula (acyclic mono-yne) | C_nH_(2n−2) |
+| Acidic H pKa (ethyne) | ≈ 25 |
+
+- **Simplest members:** ethyne (C₂H₂) and propyne (C₃H₄).
+- The triple bond = one σ + two π bonds.
+- Terminal alkyne (≡C–H) is acidic enough to react with NaNH₂, Ag⁺/NH₃, and Cu⁺/NH₃.
+
+> 💡 **High-Yield Memory Hook:** "**sp = straight, acidic terminal H**" — sp carbons sit in a straight line (180°), and only the *terminal* alkyne H is acidic enough for the silver/copper acetylide test. Memorise: **Ag⁺ + ≡C–H → white ppt; Cu⁺ + ≡C–H → red ppt**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Acidity, stereochemistry, and Markovnikov product prediction are the three SLMC-tested reasoning skills built on this chapter.
 
-**Alkynes** — SLMC Medical (Sri Lanka) Study Guide
+#### Structure and Hybridisation
 
-## What Are Alkynes?
+Each triply-bonded carbon mixes one *s* and one *p* orbital to form two equivalent sp hybrids; the remaining two *p* orbitals overlap sideways to give two π-bonds. The C–C≡C–C unit is strictly linear, and the high s-character pulls electron density close to carbon, making the terminal ≡C–H genuinely acidic (pKa ≈ 25), unlike vinyl (pKa ≈ 36) or alkyl C–H (pKa ≈ 50).
 
-Alkynes contain at least one **carbon-carbon triple bond** (C≡C). The simplest alkyne is **ethyne** (acetylene, C₂H₂): H–C≡C–H. Their general formula is **CₙH₂ₙ₋₂** for one triple bond.
+#### Comparison Matrix: Three Series at a Glance
 
-## Nomenclature
+| Feature | Alkane (C–C) | Alkene (C=C) | Alkyne (C≡C) |
+|---|---|---|---|
+| Hybridisation | sp³ | sp² | sp |
+| C–C bond energy | ~347 kJ mol⁻¹ | ~615 kJ mol⁻¹ | ~839 kJ mol⁻¹ |
+| C–C bond length | 154 pm | 134 pm | 120 pm |
+| Geometry around C | Tetrahedral (109.5°) | Trigonal planar (120°) | Linear (180°) |
+| General formula (acyclic) | C_nH_(2n+2) | C_nH_(2n) | C_nH_(2n−2) |
+| Acidic C–H? | No | No (pKa ≈ 36) | Yes, terminal only (pKa ≈ 25) |
 
-Alkynes use the "-yne" suffix. Number the chain to give the triple bond the lowest possible number:
-- Ethyne (C₂H₂): HC≡CH
-- Propyne (C₃H₄): CH₃–C≡CH (methylacetylene)
-- But-1-yne / But-2-yne
+#### Reactions You Must Be Able to Write
 
-For compounds with both double and triple bonds, use "-en-yne" with the lowest possible numbers for both.
+1. **Hydrogenation:** C_nH_(2n−2) + 2 H₂ → C_nH_(2n+2); uses Pt, Pd, or Ni; fully reduces to alkane.
+2. **Partial hydrogenation:** Lindlar's catalyst (Pd/CaCO₃ poisoned with PbO or quinoline) stops at the *cis*-alkene.
+3. **Dissolving-metal reduction:** Na or Li in liquid NH₃ converts internal alkynes to *trans*-alkenes.
+4. **HX addition (Markovnikov):** first HX gives a vinyl halide; second HX gives a *gem*-dihalide (two halogens on the same carbon), not a vicinal dihalide.
+5. **Hydration:** H₂O/H₂SO₄ with HgSO₄; Markovnikov; produces an enol that tautomerises to a ketone (terminal alkyne → methyl ketone; ethyne → acetaldehyde).
+6. **Ozonolysis:** internal alkyne → two carboxylic acids; terminal alkyne → one carboxylic acid + CO₂ (never ketones, unlike alkenes).
+7. **Acetylide formation:** R–C≡C–H + NaNH₂ → R–C≡C⁻ Na⁺ + NH₃ (only terminal alkynes react).
+8. **Combustion:** 2 C_nH_(2n−2) + (3n−2) O₂ → 2n CO₂ + (n−1) H₂O.
 
-## Electronic Structure
+#### Concept Trap Table: Stereochemistry of Partial Reduction
 
-Each carbon in a C≡C triple bond is **sp-hybridized**:
-- Two sp orbitals form σ-bonds at **180° angles** (linear geometry)
-- Two unhybridized p orbitals on each carbon form the **two π-bonds** (at 90° to each other)
-- Total bond energy of C≡C is ~839 kJ/mol (strongest carbon-carbon bond)
+| Reagent / Catalyst | Product from R–C≡C–R | Geometry |
+|---|---|---|
+| H₂ + Pd/CaCO₃/PbO (Lindlar's) | cis-R–CH=CH–R | *cis* (Z) |
+| H₂ + Pd/BaSO₄/quinoline (Rosenmund-like) | cis-R–CH=CH–R | *cis* (Z) |
+| Na or Li in liquid NH₃ | trans-R–CH=CH–R | *trans* (E) |
 
-The σ-framework: **C(sp)–C(sp) σ-bond** plus **C(sp)–H σ-bonds**.
-The π-system: two perpendicular π-bonds above and below/beside the internuclear axis.
+#### Worked Illustration
 
-**Bond lengths**: C≡C (~120 pm) < C=C (~134 pm) < C–C (~154 pm)
-**Bond angles**: C≡C–H = 180° (linear)
+A student adds HBr (1 equiv) to but-1-yne and isolates a single product. Predict the structure, name it, and state what the second equivalent of HBr gives.
 
-## Physical Properties
+Step 1 — Markovnikov addition of the first H⁺ to the terminal carbon places Br on C-2, giving 2-bromobut-1-ene (a vinyl bromide), because the C-2 carbocation is more substituted.
 
-| Property | Observation |
-|---|---|
-| Boiling point | Increases with molecular size |
-| Solubility | Insoluble in water; soluble in organic solvents |
-| Density | Less than water |
-| State | Ethyne: gas; higher alkynes: liquids/solids |
+Step 2 — The second HBr adds Markovnikov across the remaining C=C; both bromines land on C-2, producing **2,2-dibromobutane** (a gem-dihalide).
 
-**Acetylene (ethyne)** is a colorless gas with a garlic-like odor (due to impurities). It is supplied dissolved in **acetone** in compressed gas cylinders (with porus filling material).
-
-## Chemical Properties
-
-### 1. Combustion
-- **2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O** (complete combustion)
-- Acetylene burns with a very hot, luminous flame (~3000°C in O₂)
-- Used in **oxy-acetylene welding** — important industrial/medical equipment knowledge
-
-### 2. Addition Reactions
-
-Alkynes undergo **addition reactions** stepwise — first to alkene, then to alkane:
-
-#### Hydrogenation
-- **Alkyne + H₂ → Alkene → Alkane** (with Pt/Pd/Ni)
-- With **Lindlar's catalyst** (Pd/PbO/CaCO₃, poisoned): syn addition → gives **cis-alkene** only
-- With **Na/NH₃** (dissolving metal reduction): anti addition → gives **trans-alkene** only
-
-#### Halogenation
-- **Alkyne + 2X₂ → Tetrahalide** (vicinal dihalide first, then geminal tetrahalide)
-- C₂H₂ + Br₂ → C₂H₂Br₂ (bromoethene) → C₂H₂Br₄ (tetrabromoethane)
-
-#### Addition of Hydrogen Halides (HX)
-- Follows **Markovnikov's rule**
-- **HC≡CH + HCl → CH₂=CHCl** (vinyl chloride — important industrial monomer!)
-- **HC≡CH + H₂O → CH₃CHO** (acetaldehyde) — only after Hg²⁺/H₂SO₄ catalysis
-
-#### Hydration
-- **Alkyne + H₂O → Aldehyde or Ketone** (Hg²⁺ catalyst, H₂SO₄)
-- Markovnikov addition: water adds with H to the terminal carbon
-- Tautomerization gives the carbonyl compound
-
-### 3. Acid-Base Reactions (Terminal Alkynes)
-
-Terminal alkynes (R–C≡CH) are **weakly acidic**:
-- pKa ~ 25 — much more acidic than alkanes (pKa ~ 50) or alkenes (pKa ~ 44)
-- They react with **strong bases** (Na, NaNH₂, AgNO₃, CuCl) to form **acetylides**
-- **R–C≡CH + Na → R–C≡C⁻ Na⁺ + ½H₂** (hydrogen gas evolved)
-- **R–C≡CH + AgNO₃ → R–C≡CAg↓ (white precipitate)** + HNO₃
-
-This is a test for terminal alkynes — **silver nitrate test** gives a white precipitate.
-
-Heavy metal acetylides (Ag, Cu) are **explosive when dry** — an important safety fact.
-
-### 4. Ozonolysis
-C≡C bond cleavage → two carboxylic acids (or CO₂ if terminal)
-- **HC≡CH + O₃ → 2CO₂ + H₂O** (fully oxidized)
-
-### 5. Polymerization
-- **3HC≡CH → C₆H₆ (benzene)** (Trimerization with Ni(CN)₂ catalyst at 60°C)
-- This is an industrially important route to benzene!
-
-## Preparation of Alkynes
-
-### 1. Dehydrohalogenation of vicinal dihalides
-**R–CHX–CHX–R + 2KOH/alc → R–C≡C–R + 2KBr + 2H₂O**
-(2 steps of elimination, heat)
-
-### 2. From calcium carbide
-**CaC₂ + 2H₂O → Ca(OH)₂ + HC≡CH** (acetylene from calcium carbide)
-This is how acetylene was historically produced industrially — important for SLMC!
-
-CaC₂ is produced from limestone and coke: **CaO + 3C → CaC₂ + CO** (electric arc furnace)
-
-## Clinical and Medical Relevance
-
-- **Acetylene** is used in **oxy-acetylene welding** for surgical instrument repair
-- **Vinyl chloride** (from acetylene + HCl) polymerizes to PVC — essential in IV tubing, blood bags, endotracheal tubes
-- **Trichloroethylene (TCE)** is an anesthetic alkyne derivative (now banned — hepatotoxicity)
-- **Propofol** (anesthetic) synthesis involves alkyne chemistry
-- **Heavy metal acetylides** are explosive — relevant to industrial safety and hazard management
-
-## Common SLMC Exam Traps
-- Ethyne + H₂O (hydration) gives acetaldehyde, NOT ethanol — students often confuse this
-- Terminal alkynes are acidic enough to react with **AgNO₃** — this distinguishes them from non-terminal alkynes
-- Lindlar's catalyst gives **cis** product; Na/NH₃ gives **trans** product — remember which is which
-- When adding 2 equivalents of HX to an alkyne, the second addition always gives a **geminal (same carbon)** dihalide — Markovnikov's rule applies at each step
+> ⚠️ **Examiner Trap:** Students often draw 1,2-dibromobutane (vicinal) instead of the geminal 2,2-isomer. The rule for alkynes is the same Markovnikov logic as alkenes, but the *second* addition must put both halogens on the *same* carbon — not on adjacent carbons.
 
 ---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Edge cases and combined-topic traps decide between a 70% score and a 90%+ score in the SLMC Chemistry paper.
+
+#### Industrial Routes and the Oxy-Acetylene Flame
+
+Ethyne is generated on industrial scale by **CaC₂ + 2 H₂O → C₂H₂ + Ca(OH)₂** (calcium carbide hydrolysis). Combustion in pure oxygen reaches roughly 3000 °C — hot enough for oxy-acetylene welding because the flame supplies localised, intense heat without excess oxygen corroding the metal being joined. A second modern route is the partial combustion of methane: 2 CH₄ + 3/2 O₂ → C₂H₂ + 3 H₂O.
+
+#### Common Pitfalls in Multi-Step Synthesis
+
+1. **Anti-Markovnikov HX to alkynes is unreliable.** The peroxide effect works cleanly for alkenes but is *not* syllabus-standard for alkynes; writing it on an SLMC paper earns no credit.
+2. **Ozonolysis does not give ketones from alkynes.** Unlike alkenes (which give aldehydes/ketones), internal alkynes yield two carboxylic acids and terminal alkynes yield one carboxylic acid plus CO₂.
+3. **Acetylide test is terminal-only.** Internal alkynes (R–C≡C–R) lack an acidic H and give a *negative* result with Ag⁺/NH₃ or Cu⁺/NH₃ — confusing these substrates costs the whole identification mark.
+4. **Naming pitfalls.** But-1-yne is terminal; but-2-yne is internal and will not respond to the acetylide test.
+5. **Hydration of ethyne ≠ hydration of propyne in product.** Ethyne → acetaldehyde (CH₃CHO) because the first carbon cannot bear a methyl; any other terminal alkyne → methyl ketone (R–CO–CH₃).
+
+#### Boundary Cases Worth Memorising
+
+| Substrate / Condition | Expected Product | Why It Matters |
+|---|---|---|
+| RC≡CH + Ag(NH₃)₂⁺ | RC≡C–Ag (white ppt) | Terminal identification |
+| RC≡CH + Cu(NH₃)₂⁺ | RC≡C–Cu (red ppt) | Terminal identification |
+| RC≡CR' + O₃ then H₂O | RCOOH + R'COOH | Two acids (no ketone) |
+| HC≡CH + H₂O/Hg²⁺/H⁺ | CH₃CHO | Markovnikov gives acetaldehyde |
+| RC≡CH + H₂O/Hg²⁺/H⁺ | R–CO–CH₃ | Methyl ketone from any other terminal alkyne |
+| Cyclo-yne + H₂ (excess) | Cycloalkane | Ring stays intact during reduction |
+
+#### Advanced Practice Prompts
+
+1. **Deduction question.** A hydrocarbon with empirical formula CH has molar mass 54 g mol⁻¹. It decolourises Br₂ in CCl₄, gives a red precipitate with Cu(NH₃)₂⁺, and on ozonolysis yields only butanoic acid. Draw the structure and justify every observation.
+
+2. **Selectivity question.** Outline a two-step synthesis that converts but-1-yne into *cis*-2-butene, then into *trans*-2-butene. Name the reagents and conditions for each step, and explain why changing only the catalyst switches the stereochemistry.
+
+---
+
+## Continue your study
+
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Alkynes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

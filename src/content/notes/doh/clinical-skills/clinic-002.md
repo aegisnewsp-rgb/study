@@ -8,157 +8,128 @@ topicName: Patient Health History and Interviewing Techniques
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Patient Health History and Interviewing Techniques
 
-Taking a comprehensive patient health history is one of the most fundamental and high-yield skills tested on the DOH (UAE) examination. A well-conducted history can provide up to 80% of the diagnostic information needed, often eliminating the need for extensive initial investigations. For the DOH exam, examiners assess your ability to systematically gather information while demonstrating empathy, professional communication, and cultural sensitivity — all critical competencies for healthcare practice in the UAE's diverse multicultural patient population.
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
+> One-line takeaway before you walk in: every complete history in a DOH clinical-skills station funnels through CC → HPI → PMH → PSH → Meds/Allergies → FH → SH → ROS, and the examiner will score you on whether that order was followed.
 
-> Rapid summary for last-minute revision before your exam.
+The complete medical interview has nine anchors, captured in the **CHAMPS-FA + ROS** spine: **C**hief complaint, **H**PI, **A**llergies, **M**edications, **P**ast medical, **P**ast surgical, **S**ocial history, **F**amily history, **A**llergies again (verify), then **R**eview of systems. Symptom quality runs on **OLDCARTS** — Onset, Location, Duration, Character, Aggravating, Relieving, Timing, Severity. Pain work-ups run on **SOCRATES**. Patient-centred exploration of meaning runs on **FIFE** — Feelings, Ideas, Function, Expectations. Breaking bad news runs on **SPIKES**. For exam purposes, think **C-SOAP**: Confirm identity, Structure the history, Open with an open question, Ask focused questions, Plan aloud.
 
-**The Big Picture:** A health history is NOT just a list of symptoms. It is a structured conversation that establishes rapport, gathers clinical data, and forms the foundation of the nursing care plan.
+> 💡 **High-Yield Memory Hook (Memory Hook — OLDCARTS pain ladder):** "**O**ld **L**lamas **D**on't **C**limb **A**ny **R**ocks, **T**hey **S**leep." Each capital letter is one attribute you must verbalise in the HPI.
 
-**Mnemonic — SAM Format:**
-- **S** — Subjective (what the patient tells you)
-- **A** — Assessment (your clinical observations)
-- **M** — Management (what you plan to do)
-
-**Key Interviewing Principles to Memorise:**
-
-| Principle | Why It Matters in UAE Context |
-|---|---|
-| Use professional interpreters when needed | UAE has 200+ nationalities; family interpreters may bias information |
-| Start with open-ended questions | "Tell me about your pain" before "Is it sharp?" |
-| Avoid medical jargon | Use simple English or Arabic equivalents |
-| Observe hijab/specific dress norms | Step out of the room if patient needs to expose body areas |
-| Document in Arabic or English as per facility policy | DOH requires bilingual documentation standards |
-
-> **⚡ Exam Tip:** The phrase "therapeutic communication" appears frequently in DOH questions. Remember: therapeutic = patient-centred, goal-directed, and professional. Non-therapeutic responses include advising, warning, deflecting, or being judgmental.
+- Open-ended questions at the start.
+- Closed-ended questions only for red-flag clarification.
+- Quantify tobacco in **pack-years**, alcohol in **standard drinks/week**.
+- Confidentiality is governed by UAE Federal Law No. 2 of 2019 on the Use of ICT in Health Fields.
+- Identity verified against the patient's **Emirates ID** before the interview begins.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> The Calgary–Cambridge model is the only framework DOH examiners reference when scoring communication stations — memorise its five tasks, not just the question types.
 
-> Standard content for students with a few days to months.
+#### The Nine Components in Sequence
 
-#### 1. Components of a Comprehensive Health History
+1. **Chief Complaint (CC)** — the patient's own words for why they presented. Always quote verbatim in quotation marks.
+2. **History of Present Illness (HPI)** — chronological narrative expanded through OLDCARTS or SOCRATES.
+3. **Past Medical History (PMH)** — chronic diseases, prior admissions, transfusions.
+4. **Past Surgical History (PSH)** — operations, dates, anaesthetic complications, scars.
+5. **Medications** — generic name, dose, route, frequency, adherence; include OTC and herbal products.
+6. **Allergies** — drug, food, latex; document the **reaction type** (rash, anaphylaxis) and severity, never just "NKDA" without probing.
+7. **Family History (FH)** — first-degree relatives, hereditary conditions, age of onset, current age or age at death.
+8. **Social History (SH)** — tobacco (pack-years), alcohol (standard drinks/week), recreational drugs, occupation, diet, exercise, living situation, travel, sexual history, immunisations.
+9. **Review of Systems (ROS)** — head-to-toe screen; surfaces asymptomatic findings such as silent cardiac ischaemia or occult malignancy.
 
-A complete health history includes the following sections:
+#### Comparison Matrix — Symptom Mnemonics at a Glance
 
-**A. Biographical Data**
-Name, age, gender, nationality, occupation, marital status, contact information, and the name of the primary contact person. In the UAE, nationality is clinically relevant due to the prevalence of certain genetic conditions in specific populations (e.g., thalassaemia in Mediterranean and South Asian communities, diabetes in Gulf populations).
+| Mnemonic | Domain | Letters | When to use |
+|---|---|---|---|
+| **OLDCARTS** | General symptom | Onset, Location, Duration, Character, Aggravating, Relieving, Timing, Severity | Any presenting complaint, default HPI scaffold |
+| **SOCRATES** | Pain | Site, Onset, Radiation, Character, Associations, Time course, Exacerbating/relieving, Severity | Chest, abdominal, musculoskeletal pain |
+| **FIFE** | Illness experience | Feelings, Ideas (beliefs), Function, Expectations | When the diagnosis needs the patient's perspective |
+| **SPIKES** | Bad news | Setting, Perception, Invitation, Knowledge, Emotions, Strategy/Summary | Oncology, terminal prognosis, sentinel events |
 
-**B. Chief Complaint (CC)**
-The primary reason the patient seeks care, expressed in the patient's own words with duration. Example: "Chest pain for 2 hours, radiating to the left arm."
+#### Calgary–Cambridge Interview Tasks
 
-**C. History of Present Illness (HPI)**
-A detailed chronological narrative developed using the **OLDCARTS** mnemonic:
-- **O**nset — When did it start? (Sudden vs gradual)
-- **L**ocation — Where is it? (Localised vs generalised)
-- **D**uration — How long does it last?
-- **C**haracter — Sharp, dull, burning, throbbing?
-- **A**ggravating factors — What makes it worse?
-- **R**elieving factors — What makes it better?
-- **T**iming — Constant, intermittent, cyclical?
-- **S**everity — Pain scale 1–10
+The framework runs in five phases — initiating the session, gathering information, building the relationship, explanation and planning, closing the session. Each phase has micro-skills the OSCE checklist tallies. Initiating requires introductions with name and role, confirming identity against Emirates ID, and stating the interview purpose. Gathering information demands the open-to-closed funnel: begin with "What brings you in today?", then pivot to focused prompts, then use closed-ended questions only for clarification. Building the relationship uses empathic responses, silence, and non-verbal attending. Explanation and planning checks understanding through teach-back. Closing summarises the agenda and confirms follow-up.
 
-**D. Past Medical History (PMH)**
-Includes previous illnesses, surgeries, hospitalisations, allergies (drug, food, environmental — critically important before administering any medication in UAE facilities), and current medications. In the UAE, it is mandatory to document any known allergies prominently — many facilities use red wristbands or electronic alerts.
+> 📌 **Formula Check:** *Pack-years = (packs/day) × (years smoked).* One pack-year equals 365.25 days of one pack per day; DOH chronic-disease screening thresholds in pack-years must be cross-checked against the current HAAD/DOH preventive-care standard rather than memorised.
 
-**E. Family History (FH)**
-Hereditary conditions are particularly relevant in the UAE due to high rates of consanguinity in some communities. Key conditions to inquire about: diabetes mellitus, hypertension, coronary artery disease, thalassaemia, sickle cell disease, and asthma.
+#### Worked Example — Focused Chest-Pain History (OSCE-style)
 
-**F. Social History (SH)**
-Tobacco use (shisha is prevalent in the Gulf and is NOT equivalent to cigarettes in terms of tar/nicotine content — shisha sessions average 45–60 minutes of continuous inhalation), alcohol consumption (note: alcohol is strictly regulated in the UAE; consumption is only permitted with a personal licence for non-Muslim residents), physical activity, diet, and living conditions.
+A 52-year-old male Emirati patient presents with intermittent chest tightness for two weeks, worse on exertion. The candidate must complete the HPI in under four minutes.
 
-**G. Obstetric/Gynaecological History (if applicable)**
-For female patients: menstrual history, contraceptive use, pregnancy history, last menstrual period (LMP), and any gynaecological complaints.
+The candidate opens with: "Tell me what has been happening with your chest." The patient describes tightness climbing two flights of stairs. The candidate then runs OLDCARTS: Onset — gradual, two weeks ago; Location — central chest, no radiation; Duration — five minutes per episode; Character — pressure-like; Aggravating — exertion and cold weather; Relieving — rest within three minutes; Timing — clusters in the morning; Severity — 6/10. SOCRATES adds: Site (retrosternal), Radiation (to the left arm on one occasion), Associations (no palpitations, no syncope), Time course (stable, not crescendo). Risk profile is then quantified: tobacco 30 pack-years (1.5 packs/day × 20 years), alcohol four standard drinks/week, father MI at 54. ROS uncovers occasional night sweats and a six-month history of reduced exercise tolerance the patient had not mentioned.
 
-**H. Systems Review (ROS)**
-A head-to-toe review covering all body systems to ensure nothing is missed. For the DOH exam, the cardiovascular and respiratory systems are the most frequently tested areas due to the high prevalence of cardiovascular disease in the Gulf region.
+> ⚠️ **Examiner Trap:** Candidates who score the station as "pass" never write "troponin negative" inside the HPI box. HPI is the patient's narrative; investigation results belong in the Objective section of SOAP charting. Writing them in HPI is the single fastest way to lose the "history structure" mark.
 
-#### 2. Types of Questions to Use
+#### Communication Micro-Skills
 
-**Open-ended questions** — Encourage patients to describe their experience in their own words. Use at the beginning of each section.
-- "Can you describe the pain for me?"
-- "What led you to come to the hospital today?"
+- **Silence** — pause for ≥3 seconds after a distressing disclosure; resist filling the gap.
+- **Reflection** — "It sounds like the pain frightens you."
+- **Summarisation** — every 5–10 minutes: "So far you've told me…"
+- **Empathic response** — name the emotion before offering information.
 
-**Direct closed-ended questions** — Use when you need specific factual information.
-- "When did the pain start?"
-- "On a scale of 1 to 10, how would you rate your pain?"
+#### UAE-Specific Interview Requirements
 
-**Leading questions** — AVOID in clinical practice as they can bias the response. Example: "You don't smoke, do you?" (This implies the "correct" answer is "no").
-
-#### 3. Communication Barriers and How to Overcome Them
-
-The UAE hosts healthcare workers and patients from over 200 nationalities. Communication barriers are common and must be managed professionally:
-
-- **Language barriers:** Use trained medical interpreters (not family members, as they may filter or alter information, and they may not know medical terminology). Many UAE government hospitals have interpretation services in Arabic, English, Tagalog, Hindi, and Urdu.
-- **Cultural barriers:** Some topics (e.g., sexual health, mental health) may be taboo in certain communities. Approach these sensitively and explain why the information is medically necessary.
-- **Religious practices:** Muslim patients pray five times daily (approximately every 6 hours); schedule care activities around prayer times when possible. During Ramadan, fasting patients may have different medication timing requirements — always clarify with the physician.
-- **Emotional distress:** Patients may be anxious, frightened, or grieving. Use silence therapeutically, offer tissues, speak in a calm low tone, and never rush the interview.
-
-> **Common Mistake in Exams:** Students write "patient appears comfortable" when the patient is actually grimacing or guarding. In the DOH exam, always link your observations to what the patient tells you — "Patient states pain is 6/10, holding right iliac fossa, facial grimace noted on palpation."
+DOH standards require verification of identity through Emirates ID at the start of every encounter. Gender-concordant clinicians or chaperones must be offered when the history touches genitourinary, breast, or intimate examination topics. Family members may act as decision-makers, but the patient retains confidentiality for sensitive disclosures (sexual health, mental health). Documentation of refusal or acceptance of chaperones is itself a SOAP chart entry.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Where Standard teaches the framework, Extended teaches the boundaries where the framework breaks.
 
-> Comprehensive coverage for students on a longer study timeline.
+#### Open-Ended vs Closed-Ended — The Asymmetry
 
-#### 4. Special Considerations in History Taking
+Open-ended questions yield narrative; closed-ended questions yield data. The funnel — open, then focused, then closed — works because early closed-ended questions anchor the patient onto the clinician's diagnostic hypothesis before the patient has surfaced their own. In a chest-pain station, opening with "Is the pain worse on exertion?" suppresses the possibility of panic disorder, pulmonary embolism, or musculoskeletal pain. The asymmetry matters: open-ended recall averages six-brief completions per prompt, whereas closed-ended prompts average 1.2. Data volume is not the limiting factor in a 10-minute station; signal quality is.
 
-**A. Paediatric History**
-Children cannot always articulate their symptoms — obtain history from parents or caregivers. Use the **PESION** format adapted for paediatrics:
-- **P**resent complaint
-- **E**xploratory (symptoms in child's words if verbal)
-- **S**tatus of the child (activity level, appetite)
-- **I**llness history (previous similar episodes)
-- **O**beservation (birth history, development)
-- **N**utrition (breastfeeding, formula, weaning)
+#### Edge Cases in the Nine-Component Spine
 
-Key paediatric considerations in UAE: congenital anomalies, metabolic disorders (G6PD deficiency is common in Mediterranean and Middle Eastern populations — always ask before administering certain medications like antimalarials or sulfonamides), and respiratory infections.
+| Component | Common exam omission | Why it costs marks |
+|---|---|---|
+| PMH | Transfusions, prior anaesthetic reactions | Masks haemolytic risk, MH susceptibility |
+| Medications | Dose, route, adherence, last dose taken | Affects acute management (anticoagulants, insulin) |
+| Allergies | Reaction type, severity, date | "NKDA" without probing is treated as incomplete |
+| FH | Age of onset, current age or cause of death | Hereditary cancer syndromes require pedigree detail |
+| SH | Travel (last 6 months), immunisations, occupation exposures | TB, typhoid, avian influenza differentials depend on these |
+| ROS | Asymptomatic systems | Silent cardiac ischaemia, occult GI bleeding, B-symptoms in lymphoma |
+| Obstetric/GYN | Last menstrual period, gravida/para, menopause | Anaemia workup, teratogenic prescribing, cancer screening |
 
-**B. Mental Health History**
-Mental health is often stigmatised in Gulf communities. When taking a mental health history, create a non-judgmental environment:
-- Enquire about mood, sleep, appetite, and suicidal ideation using direct but sensitive language
-- Screen for depression using the **PHQ-2** (first two questions of PHQ-9) as a rapid tool: "Over the past 2 weeks, how often have you been bothered by: (1) little interest or pleasure in doing things, (2) feeling down, depressed, or hopeless?"
-- If PHQ-2 is positive, proceed to full PHQ-9
-- Document verbatim quotes from the patient wherever possible
+#### Cultural and Religious Sensitivity in the UAE
 
-**C. Geriatric History**
-Elderly patients may have multiple comorbidities, polypharmacy, and sensory impairments. Use large-print materials, speak clearly, and allow extra time. Apply the **SPICES** framework for elderly assessment:
-- **S**leep disorders
-- **P**roblems with eating/nutrition
-- **I**ncontinence
-- **C**onfusion
-- **E**ye (vision) and ear (hearing) problems
-- **S**kin breakdown (pressure ulcers)
+Several UAE-specific interviewing adjustments appear on DOH OSCEs. Ramadan fasting changes medication timing — confirm sahur and iftar schedules before prescribing metformin or insulin. Consanguineous marriage rates are elevated; pedigree must extend to cousins for autosomal-recessive differentials (sickle cell, G6PD deficiency, thalassaemia). Mental-health stigma may suppress disclosure; use the PHQ-9 and GAD-7 as structured probes rather than open-ended screening. Domestic-violence screening uses the SAFE model — Stress/Afraid/Friends/Emergency plan — but only after rapport is established and the family member has stepped out.
 
-**D. Medication Reconciliation**
-A critical patient safety issue in the UAE: polypharmacy is common, particularly in elderly Emirati patients. Medication reconciliation must be done at every admission, transfer, and discharge. Ask specifically about:
-- Prescription medications (get actual names and dosages)
-- Over-the-counter medications (e.g., traditional herbal remedies — very common in Gulf populations)
-- Traditional/herbal supplements (some can interact significantly with prescribed medications; for example, St. John's Wort, commonly used as self-medication, interacts with warfarin and oral contraceptives)
-- Patient's understanding of their medications — the "teach-back" method is DOH-recommended
+#### Confidentiality — What You Can and Cannot Disclose
 
-#### 5. Documentation Standards (DOH Requirements)
+UAE Federal Law No. 2 of 2019 governs the use of ICT in health fields and treats identifiable patient data as confidential by default. Disclosure is permitted to other treating clinicians within the same facility, to the patient, and to legal authorities under a court order. Disclosure to insurers requires explicit consent. Disclosure to family members without consent is prohibited unless the patient is incapacitated and the family member is the documented decision-maker. Documentation of the consent conversation itself is a SOAP entry.
 
-DOH (UAE) mandates documentation that is:
-- **F**actual — Objective observations only, no opinions
-- **A**ccurate — Correct spelling, measurements, times
-- **C**omplete — All sections filled; no blank spaces (draw a line through blanks)
-- **U**pdated — Document as soon as possible after care is given
-- **S**igned — Each entry signed with name, designation, and date/time
+#### Advanced Practice Prompts
 
-Any alteration to documentation must be made with a single line through the error, marked "error," signed and dated — never use correction fluid (Tipp-Ex) or overwrite.
+1. **OSCE station:** A 28-year-old female Emirati teacher presents with three months of fatigue and weight loss. The examiner marks you on (a) a FIFE exploration of her illness beliefs, (b) mental-health screening with PHQ-9, (c) chaperone offer for the abdominal exam, (d) a teach-back summary before closing.
+2. **MCQ trap question:** A 65-year-old male with a 40 pack-year history asks whether his cough is serious. The best single response combines an empathic naming of concern, a focused ROS for red-flag symptoms, and an offer of spirometry. The distractor responses either jump to a lung-cancer diagnosis without data or dismiss the symptom because he is a smoker.
 
-> **Exam Watch:** DOH examiners frequently present scenarios where a nurse fails to ask about allergies before administering medication. This is considered a critical error. Always, ALWAYS confirm allergies before any medication administration — this is non-negotiable practice.
+> ⚠️ **Common Mistake:** Quantifying tobacco in cigarettes/day rather than pack-years removes the chronic-exposure signal that drives lung-cancer, COPD, and AAA screening thresholds. Always convert: 20 cigarettes = 1 pack; multiply by years smoked; round to the nearest whole number.
+
+#### Common Mistakes That Fail the Station
+
+- Confusing HPI with PMH — chronic-disease background belongs in PMH, not HPI.
+- Skipping ROS — examiners expect a head-to-toe screen even when the CC is focused.
+- Writing "NKDA" without probing for food, latex, or contrast allergies.
+- Failing to quantify alcohol and tobacco in standard units.
+- Documenting "no family history" without listing the relatives asked.
+- Closing without a teach-back summary — the candidate assumes understanding rather than confirming it.
+
+---
+
+## Continue your study
+
+- **[View this topic in your DOH (UAE) roadmap](/roadmap/?exam=doh&duration=1mo)** — see where "Patient Health History and Interviewing Techniques" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=doh&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
+- **[All Clinical-Skills notes](/notes/doh/clinical-skills/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,249 +8,104 @@ topicName: Vijayanagara and Bahmani Kingdoms
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Vijayanagara and Bahmani Kingdoms
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Two late-medieval Deccan rivals defined 300 years of peninsular history; RAS Prelims will ask their founders, capitals, and one battle.
 
-The **Vijayanagara Empire** (c. 1336–1666 CE) was the **last great Hindu kingdom** of South India, founded at Hampi (Karnataka). It flourished for over 200 years, reaching its peak under the **Tuluva and Rayudu dynasties**, and produced some of India's most magnificent temple architecture.
+Two successor states rose on the rubble of Kakatiya, Hoysala and Yadava kingdoms after the Delhi Sultanate's southern raids faltered post-Muhammad bin Tughluq. **Harihara I and Bukka I** founded the **Sangama dynasty** at **Vidyanagara in 1336**, later shifting to Hampi on the Tungabhadra. **Ala-ud-Din Hasan Gangu** broke from Delhi in **1347**, raised the Bahmani Sultanate at Hasanabad (Gulbarga), and moved the capital to Bidar in 1427.
 
-The **Bahmani Sultanate** (1347–1526 CE) was the **first Muslim kingdom of the Deccan**, established after the collapse of the Tughlaq rule in the Deccan. It rivalled Vijayanagara and was known for its sophisticated administrative system.
+| Feature | Vijayanagara | Bahmani |
+|---|---|---|
+| Founded | 1336, Vidyanagara | 1347, Hasanabad (Gulbarga) |
+| Founder | Harihara I, Bukka I (Sangama) | Ala-ud-Din Hasan Gangu |
+| Dynasties | Sangama → Saluva → Tuluva → Aravidu | One Bahmani line, 1347–1527 |
+| Capital | Hampi (Tungabhadra) | Gulbarga → Bidar (1427) |
+| Religious core | Shaiva-Vaishnava, Madhva Dvaita | Sunni Islam, Shi'a tilt under Muhammad Shah I |
 
-**Key Facts for RPSC RAS:**
-- **Vijayanagara** was founded by **Harihara I and Bukka Raya I** (c. 1336) — brothers who were originally commanders under the Tughlaqs.
-- Hampi (Vijayanagara) was the **largest urban centre in medieval India** — a cosmopolitan city of over 500,000 people.
-- The **Mahanavami festival** was the greatest festival of Vijayanagara — a 9-day celebration of arts, dance, and military displays.
-- The **Bahmani Sultanate** was founded by **Alaud-din Hasan Gangu** (Ghiyath al-Din).
-- The Bahmani capital moved from **Gulbarga to Bidar** under **Muhammad Shah II**.
-
-**⚡ Exam tip:** The founding of Vijayanagara, the Mahanavami festival, the Krishnadevaraya period, and the Bahmani-Deccan conflicts are high-yield topics.
-
----
+> 💡 **Memory Hook — "1336 V, 1347 B":** Sangamas plant the V at **V**idyanagara one decade before Hasan plants the B at **B**idar-side **B**ahmani. Battles flip later: **B**ijapur-led Sultanates flatten Vijayanagara at Talikota (**1**565), one **5**-Sultanate coalition, Vijayanagara limps to **1**646.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-## The Vijayanagara Empire
+#### Founders, Capitals, and the 14th-Century Vacuum
 
-### Foundation (c. 1336)
+The Delhi Sultanate's raids under Alauddin Khalji had crushed Yadava, Kakatiya and Hoysala power by 1327, but the post-Tughluq retreat left a contested Deccan plateau. Two brothers from the Sangama clan, **Harihara I and Bukka I**, consolidated the Tungabhadra–Krishna doab and were consecrated at **Vidyanagara in 1336 CE**. The early capital sat at **Anegundi**; **Penukonda** served under later Sangamas; **Hampi** became the ceremonial seat from Deva Raya I onward and stayed so through Krishnadevaraya.
 
-**Founders:** Harihara I and Bukka Raya I — brothers
+Across the Deccan, **Ala-ud-Din Hasan Gangu**, a Turko-Afghan officer of the Delhi Sultanate, declared independence in **1347** and crowned himself at **Gulbarga** (also called Hasanabad). The capital shifted to **Bidar in 1427 under Ahmad Shah Wali**, the eighth sultan, who also refounded the city with the Ahmad Shah Citadel and Solah Khamba mosque.
 
-**Background:**
-- Originally were ** commanders in the Tughlaq army** stationed at Tamil regions
-- According to tradition: Were **captured by the Delhi Sultan** and converted to Islam under pressure
-- Later **reconverted to Hinduism** under the influence of the sage **Vidyaranya**
-- Appointed as governors of the **Kampili region** (Karnataka) by the Tughlaqs
-- Then **revolted** and founded the Vijayanagara kingdom
+#### Administrative Architectures
 
-**The Name "Vijayanagara":**
-- Means **"City of Victory"** (Vijaya + Nagara)
-- Also called **"Karnataka's Empire"** or **"Hampi's Empire"**
+Vijayanagara organised territory into **five Rajyas** (provinces) — Carnatic, Tamil, Andhra, Kerala, and the northern frontier — placed under **Nayaka** governors. The revenue grid used the **Amara-Myakala** and **Pargana** systems; **Mahanayakacharyas** commanded large military fiefs, while **Ayagars** held service grants.
 
-### Dynasties of Vijayanagara
+Bahmani administration rested on the **Tarafdari** system — iqta-like land assignments to military officers. The **Wazir-i-Khalisa** oversaw crown lands, **Subedars** governed provinces, and a **Malik Naib** (deputy) ran field operations. Revenue flowed from cotton, silk, indigo, opium and the agricultural Deccan.
 
-**1. Sangama Dynasty (c. 1336–1485):**
-- First dynasty — founded by Harihara I and Bukka Raya I
-- Weak and short reigns — many internal conflicts
+#### Military Rivalry over the Raichur Doab
 
-**2. Saluva Dynasty (1485–1503):**
-- Seized power from the Sangama dynasty
-- **Narasa Nayaka** — the most capable Saluva ruler
-- Military expansion
+The Raichur Doab — the fertile wedge between the Krishna and Tungabhadra — was the permanent flashpoint. **Krishnadevaraya** (r. 1509–1529) fought **four campaigns** against the Adil Shahis of Bijapur, captured **Raichur fort in 1523**, and earned the title *Yavana-raja-sthana-veshana* (settler of the Yavana king). The **Battle of Raichur (1520)** is a separate engagement sometimes confused with the 1523 capture.
 
-**3. Tuluva Dynasty (1503–1569):**
-- **Krishnadevaraya** (r. 1509–1529) — the greatest Vijayanagara ruler
-- Peak of Vijayanagara's power and prestige
+In **1565**, a coalition of **five Deccan Sultanates** (Bijapur, Golconda, Ahmednagar, Berar, Bidar) met the Vijayanagara army at **Talikota (Bannihatti)** under the regent **Rama Raya** of the Aravidu line. The Vijayanagara centre collapsed, **Hampi was sacked**, but the empire did not die that day — the Aravidu successors clung on until **Tirumala's fall in 1646**.
 
-**4. Rayudu Dynasty (1569–1646):**
-- Decline — increasingly under pressure from the Deccan Sultanates
-- **Last ruler:** Sriranga III — defeated by the Deccan Sultanates and Bijapur Sultanate
+#### Religion, Letters, and Court Culture
 
----
+Vijayanagara patronage flowed to both **Shaiva** maths and **Vaishnava** temples — **Tirupati** and **Srirangam** received lavish grants. **Madhva** philosophy of **Dvaita Vedanta** received state support under **Vyasatirtha**, who debated Jesuit scholars at the court. **Krishnadevaraya** himself wrote **Amuktamalyada** (Telugu) and **Jambavati Kalyanam** (Sanskrit); his court housed the **Ashtadiggajas** ("Eight Elephants"), the eight Telugu laureates led by **Allasani Peddana**, **Tenali Ramakrishna**, and **Dhurjati**.
 
-## The Great Period — Krishnadevaraya (1509–1529)
+Bahmani religious life blended Sunni orthodoxy with strong **Sufi** networks — the **Gesu Daraz** shrine at Gulbarga and the madrasa of **Mahmud Gawan** at Bidar are landmarks. **Muhammad Shah I** tilted the court toward **Shi'a** Islam by admitting Persian immigrants, the **Afaqi** faction, who clashed with native-born **Dakhini** Muslims — a fault line that ultimately fractured the sultanate.
 
-### Achievements
-
-**Krishnadevaraya** of the Tuluva dynasty — the **greatest ruler of Vijayanagara:**
-
-**Military:**
-- **Defeated the Deccan Sultanates** — particularly at the **Battle of Raichur (1520)** — a decisive victory against the Bijapur Sultan
-- Conquered **Warangal** and the **Orissa** region
-- His empire extended from the **Cauvery River** in the south to the **Tungabhadra** in the north
-
-**Administration:**
-- **Centralised administration** — strong personal rule
-- **Revenue system** — Amanna Mudda system (tax on agricultural produce)
-- **Military organisation** — large standing army, war elephants, cavalry
-
-**Cultural Patronage:**
-- Krishnadevaraya was a **poet and patron of literature** — wrote Telugu works:
-  - **"Amukta Malyada"** — aTelugu romance (considered one of the finest Telugu works)
-  - Also patronised **all major regional languages** — Telugu, Kannada, Tamil, Sanskrit
-
-**The Navaratna:**
-- Krishnadevaraya's court had **nine gems (Navaratna)** — including the great Telugu poet **"Allasani Peddana"**
-- Allasani Peddana was called **"Andhra Kavita Pitamaha"** (father of Telugu poetry)
-
----
-
-## Architecture and Culture
-
-### Hampi — The Ruins of Vijayanagara
-
-**Hampi** (Karnataka) — the capital of Vijayanagara — is now a **UNESCO World Heritage Site:**
-
-**Sacred Centre (Temple Complex):**
-- **Virupaksha Temple** — main temple; still an active place of worship
-- **Vittala Temple** — the most famous — with the iconic **stone chariot (pushpa kirthana)**
-- **Hazara Rama Temple** — exquisite bas-reliefs depicting the Ramayana
-- **Lotus Mahal** — beautiful pavilion in the Zenana enclosure
-
-**Royal Centre:**
-- **Mahanavami Platform** — where the 9-day Mahanavami festival was held
-- **Raja's Palace** — massive structure with extensive carvings
-- **Stepped Tank (Pushkarni)** — for ritual bathing
-
-### The Mahanavami Festival
-
-The **Mahanavami** was the most important festival of Vijayanagara:
-
-**Duration:** 9 days (September-October, post-harvest)
-**Significance:** Celebration of the goddess and royal power; military display
-
-**Events:**
-1. **Dance and music performances** — all-night programmes
-2. **Jousts and animal fights** — bulls, rams, roosters
-3. **Processions of royal women** — displaying the wealth and power of the kingdom
-4. **Wrestling matches** — between soldiers
-5. **Military displays** — archery, sword fighting, elephant combat
-6. **Gift-giving** — the king distributed gifts to nobles and Brahmins
-
-**Recorded by:** **Domingo Paes** (Portuguese traveller) — left a vivid account of the Mahanavami festival
-
-### Trade and Economy
-
-**Vijayanagara was a major trade centre:**
-- **Maritime trade:** Ports at **Calicut (Kozhikode)**, **Mangalore**, and **Hampi (river port)**
-- **Exports:** Textiles (from Calicut), spices, gems, pearls
-- **Imports:** Horses (from Arabia), copper, gold
-- **Diamonds:** The **Kollur mines** (near Hampi) produced world-famous diamonds — the **Koh-i-Noor** and **Hope Diamond** came from this region
-
----
-
-## The Bahmani Sultanate (1347–1526)
-
-### Foundation
-
-**Founder:** Alaud-din Hasan Gangu (also called **Ghiyath al-Din**)
-**Background:** A Afghan or Persian noble in the Delhi Sultanate's Deccan service
-
-**Cause of Revolt:**
-- In 1347, the Deccan provinces of the Delhi Sultanate declared independence
-- Alaud-din Hasan Gangu led the rebellion
-- Chose the title **"Ala-ul-Hind"** (Protector of India)
-
-**Why "Gangu"?** Named after a Brahmin guide he met during his escape from Delhi — some sources say this Brahmin's name was "Gangu"
-
-### Bahmani Rulers
-
-| Sultan | Period | Notable Achievement |
+| Comparison Axis | Vijayanagara (esp. Tuluva period) | Bahmani Sultanate |
 |---|---|---|
-| **Alaud-din Hasan Gangu** | 1347–1358 | Founder; established the capital |
-| **Muhammad Shah I** | 1358–1375 | Built the great Jamiya Masjid at Gulbarga |
-| **Ghiyas-ud-din** | 1375–1387 | Fought wars with Vijayanagara |
-| **Shah Nazir** | 1387–1389 | Brief reign |
-| **Tahir** | 1389–1392 | Short reign |
-| **Muhammad Shah II** | 1392–1397 | Moved capital to Bidar |
-| **Mahmud Gawan** | 1457–1482 | Greatest administrator |
+| Founding charter | Restoration of Hindu dharma against northern incursions | Independence from a weakening Delhi Sultanate |
+| Language of court | Telugu, Sanskrit, Kannada | Persian, Urdu (early promotion), Marathi and Deccani in interaction |
+| Provincial unit | Rajya under Nayaka | Taraf under Tarafdar |
+| Cultural emblem | Ashtadiggajas, Mahanavami Dibba | Mahmud Gawan's madrasa, Ashtur tombs |
+| Collapse trigger | Talikota 1565, sack of Hampi | Factional break-up into five Sultanates, 1527 |
 
-### Mahmud Gawan — The Great Reformer
+#### Worked Model Question
 
-**Mahmud Gawan** was the **greatest Bahmani prime minister:**
+*Match the following — Column A (Founder/Event), Column B (Year/Place):* **(i) Hasan Gangu's coronation, (ii) Foundation of Vidyanagara, (iii) Bahmani capital to Bidar, (iv) Battle of Talikota. Options: 1336, 1347, 1427, 1565.**
 
-**Reforms:**
-1. **Land revenue reforms** — standardised land assessment
-2. **Strengthened the centre** — reduced power of provincial governors
-3. **Military reforms** — modernised the army
-4. **Diplomatic marriages** — with rival Deccan Sultanates
+Working it through:
+- (i) Hasan Gangu declared independence and was crowned at Hasanabad (Gulbarga) in **1347**.
+- (ii) Vidyanagara was consecrated on the Tungabhadra banks under Harihara I and Bukka I in **1336**.
+- (iii) Ahmad Shah Wali shifted the Bahmani seat to Bidar in **1427**.
+- (iv) The five-Sultanate coalition defeated the Aravidu army at Talikota in **1565**.
 
-**Tragic End:**
-- Built the **Madrasa at Bidar** — a magnificent structure
-- Was **executed by Mahmud Shah III** on suspicion of treason (1481)
-- This weakened the Bahmani Sultanate — after his death, the Sultanate rapidly declined
-
-### Bahmani Architecture
-
-**Gulbarga:**
-- **Jamiya Masjid** — built like the great mosque of Córdoba — without a courtyard
-
-**Bidar:**
-- **Bidar Fort** — massive fortification with beautiful buildings
-- **Madrasa of Mahmud Gawan** — elegant structures with fine tilework
-
-**Tomb of Kunna Kambayat:** Not the point — but Bahmani buildings showed Persian and Indian fusion
-
----
-
-## Bahmani-Vijayanagara Conflicts
-
-The two powers were **constant rivals** — fought over the **Raichur Doab** (the region between the Krishna and Tungabhadra rivers):
-
-**Major Battles:**
-
-| Year | Battle | Outcome |
-|---|---|---|
-| 1360s | First Deccan War | Bahmanis pushed south |
-| 1377 | Battle of Mudkal | Vijayanagara defeated Bahmanis |
-| ~1520 | Battle of Raichur | Krishnadevaraya's decisive victory |
-
-**The Ballad of Gopal Tirtha:**
-- Krishnadevaraya reportedly wrote a satire on the Bahmani Sultan **Mahmud Shah** after the Raichur victory
-- The Sultan's poet **Mulla** wrote back — Krishnadevaraya was so impressed that he invited Mulla to his court
-
----
+> ⚠️ **Examiner Trap:** RAS Prelims routinely flip the 1336/1347 pair and tempt you into writing "Bahmanis older than Vijayanagara." It is the opposite: Vijayanagara predates the Bahmanis by **eleven years**. Also, do not attach **1565** to Krishnadevaraya — he died in **1529**; Talikota was fought by the Aravidu regent Rama Raya.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-## Decline of Vijayanagara
+#### Dynasty Trajectories Inside Vijayanagara
 
-### Causes
+Four dynasties rode the Vijayanagara throne: **Sangama (1336–1485)**, **Saluva (1485–1505)**, **Tuluva (1505–1570)** and **Aravidu (1570–1646)**. The Sangama phase saw Deva Raya I's irrigation works and Bukka I's commissioning of a South Indian chronicle. Saluva usurpation under **Narasimha** ended Sangama fragmentation but lasted only two decades. The Tuluva phase — **Krishnadevaraya (1509–1529)** — represents the military and literary zenith. Aravidu rule was structurally weaker; **Sadasiva Raya** was a figurehead under regent **Rama Raya**, whose diplomatic miscalculation brought the Deccan Sultanates together.
 
-1. **Deccan Sultanate alliance** — the five Deccan Sultanates combined against Vijayanagara
-2. **Talaikonda (1565) — Battle of Talikota:**
-   - Combined armies of **Bijapur, Golkonda, Ahmadnagar, and Bidar** defeated the Vijayanagara army
-   - **Tirumala Deva Raya** was killed (or died of illness)
-   - The city of **Hampi was sacked and destroyed** — never fully recovered
-3. **Succession disputes** — internal family conflicts weakened the empire
-4. **Economic decline** — loss of trade routes and ports
+#### The Afaqi–Dakhini Schism and the Five Successor Sultanates
 
-### After Talikota
+Mahmud Gawan, a Persian-origin minister under Muhammad Shah III, attempted late-15th-century reforms — curbing Tarafdari grants, building a **madrasa at Bidar (1472)**, and modernising the army. His fall in 1481 and the Afaqi–Dakhini rift released centrifugal forces; by **1527** the Bahmani Sultanate had dissolved into the **five Deccan Sultanates** — **Bijapur, Golconda, Ahmednagar, Berar, Bidar**. **Ibrahim Adil Shah II of Bijapur** later promoted a syncretic Deccani culture blending Hindu and Muslim traditions.
 
-- Hampi was abandoned — rulers moved to **Penukonda** and later to **Chandragiri**
-- The **Rayudu dynasty** continued but in greatly diminished form
-- Hampi's ruins are what we see today — abandoned after the 1565 destruction
+#### Economy, Trade, and the Diamond Question
 
----
+Both polities sat astride **Deccan diamond belts** — the later Golconda mines, and horse trade flowed through the **Goa and Dabolim** coastal entrepôts to import Arab and Persian mounts. The **Mahanavami Dibba** at Hampi is interpreted by historians as the platform for annual military and revenue reviews, not a coronation structure. **Domingo Paes** and **Fernão Nuniz** left vivid foreign accounts of urban Hampi; **Abdur Razzaq** described the Bahmani court.
 
-## Practice Questions for RPSC RAS
+#### Advanced Practice Prompts
 
-1. Who founded the Vijayanagara Empire? What was the legend associated with its founding?
-2. Who was Krishnadevaraya? What were his major achievements?
-3. What was the Mahanavami festival? Describe how it was celebrated.
-4. What caused the decline of the Vijayanagara Empire?
-5. Who was Mahmud Gawan? What reforms did he introduce?
+1. **Statement-based set:** "Mahmud Gawan's execution (1481) precipitated the break-up of the Bahmani Sultanate into five Deccan Sultanates" — evaluate the relative weight of Afaqi–Dakhini factionalism versus the structural problem of excessive Tarafdari grants. Cite at least two primary sources (Ferishta, Burhan-i-Maasir) and contrast with the Sangama–Saluva transition in Vijayanagara as a comparative case.
+2. **Map-based prompt:** Sketch the Tungabhadra–Krishna doab and mark Vidyanagara, Anegundi, Penukonda, Hampi, Gulbarga, Bidar, Raichur, Talikota/Bannihatti. Annotate capital-shift years and indicate which battle forced each relocation.
 
-### Common Mistakes to Avoid
+#### Edge Cases and High-Value Exceptions
 
-- **Confusing the Bahmani Sultanate with the Delhi Sultanate** — they are separate; the Bahmani was a Deccan kingdom, not a branch of Delhi.
-- **Forgetting the Battle of Talikota** — this was the decisive battle that ended Vijayanagara's dominance, not just a minor skirmish.
-- **Thinking Hampi is still inhabited** — it was destroyed in 1565 and has been ruins ever since.
+- **Krishnadevaraya's literary corpus** includes the Telugu *Amuktamalyada* and Sanskrit *Jambavati Kalyanam* and *Satya-Vijaya*; Peddana's *Manucharitramu* is often misattributed to the king.
+- **Deva Raya II** of the Sangama line, not Deva Raya I, employed **Mangaldeva**, a Bahmani defector, to reform Vijayanagara cavalry — a rare case of cross-Deccan military transfer.
+- **Madhva vs. Sri Vaishnava tension** under Krishnadevaraya has been overstated; Vyasatirtha's polemics targeted Jesuit converts and Advaita maths more than Tirupati.
+- The **Vijayanagara-Postal Survey** (2016–17) recovered inscription data confirming **Mahanayakacharya** fief-holdings across the central Deccan — useful for RAS Mains archaeology questions.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Vijayanagara and Bahmani Kingdoms" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/ras/history/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

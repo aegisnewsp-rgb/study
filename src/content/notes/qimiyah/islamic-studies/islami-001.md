@@ -8,88 +8,99 @@ topicName: Basic Beliefs of Islam
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-21"
 ---
 
 # Basic Beliefs of Islam
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> High-yield summary of Islamic theology (Aqeedah), the Six Articles of Faith (Arkan al-Iman), and Tawhid categories for Qimiyah / General Studies examinations.
+> Distinguishing belief (Iman) from practice (Islam) is the single most-tested distinction in this topic.
 
-**Arkan al-Iman (Six Pillars of Faith) — Core Essentials**
+Aqeedah in the Saudi curriculum rests on six articles, called **Arkan al-Iman**. The sixth — Qadar — is the most heavily tested because students confuse it with fatalism.
 
-1. **The Six Articles of Faith:** Formulated in the famous Hadith of Jibril (Gabriel):
-   - **Belief in Allah (God):** The sole Creator, Sustainer, and Ruler of the universe, possessing absolute perfection without partners or equals.
-   - **Belief in the Angels (Malaikah):** Created from light; obedient beings carrying out divine commands (Jibril/Gabriel: revelation; Mikail/Michael: provision and rain; Israfil: trumpet of Resurrection; Malik: guardian of Hell).
-   - **Belief in the Revealed Scriptures (Kutub):** Divine revelations sent to prophets, including the Suhuf (Scrolls of Ibrahim), Tawrat (Torah to Musa), Zabur (Psalms to Dawud), Injeel (Gospel to Isa), and the final uncorrupted Qur'an revealed to Prophet Muhammad (peace be upon him).
-   - **Belief in the Prophets and Messengers (Rusul):** Beginning with Adam and ending with the Seal of the Prophets, Muhammad. Total of 25 messengers mentioned by name in the Qur'an.
-   - **Belief in the Day of Judgment (Yawm al-Qiyamah):** Bodily resurrection, reckoning (Hisab), the Balance (Mizan), the Traverse (Sirat), and eternal abode in Jannah (Paradise) or Jahannam (Hell).
-   - **Belief in Divine Decree and Predestination (Al-Qada wal-Qadar):** Allah's comprehensive knowledge, recording in the Preserved Tablet (Al-Lawh al-Mahfuz), sovereign will, and creation of all things.
-2. **The Three Categories of Tawhid (Islamic Monotheism):**
-   - **Tawhid ar-Rububiyyah (Oneness of Lordship):** Affirming Allah alone as the Creator, Provider, and Sovereign of all creation.
-   - **Tawhid al-Uluhiyyah / al-Ibadah (Oneness of Worship):** Directing all forms of worship (prayer, fasting, supplication, sacrifice, vows) exclusively to Allah.
-   - **Tawhid al-Asma was-Sifat (Oneness of Divine Names and Attributes):** Affirming all names and attributes Allah affirmed for Himself in the Qur'an and Sunnah without distortion (Tahrif), denial (Ta'til), questioning modality (Takyif), or anthropomorphism (Tamthil).
+- **Belief in Allah** — Tawheed in Lordship, worship, and Names & Attributes. Shirk (associating partners) nullifies it.
+- **Belief in the Angels** — created from light; Jibreel, Mikael, Israfil, Malik are the four most often asked.
+- **Belief in the Holy Books** — Quran revealed to Muhammad ﷺ is the final, uncorrupted scripture; Tawrah, Zabur, Injil, Suhuf came earlier.
+- **Belief in the Prophets** — every prophet called to Tawheed; Muhammad ﷺ is *Khatam an-Nabiyyin* (the Final Prophet).
+- **Belief in the Day of Judgment** — Barzakh, Munkar & Nakir, Hisab, Mizan, As-Sirat, then Jannah or Jahannam.
+- **Belief in Divine Decree (Qadar)** — Allah's prior knowledge and will; humans have *ikhtiyar* (acquired choice).
 
-⚡ **Exam Trap:** Polytheists of ancient Arabia accepted Tawhid ar-Rububiyyah (they acknowledged Allah created the heavens and earth), but were rejected because they violated **Tawhid al-Uluhiyyah** by directing supplications and intercession through idols.
-
----
+> 💡 **High-Yield Memory Hook (Memory Hook):** "**LAMPAQ**" — **L**ordship, **A**ngels, **M**essengers, **P**redestination, **A**fterlife, **Q**uran & Books. Letters 1, 4, 5, 6 are the books/prophets/akhirah cluster; L-A-M are the unseen pillars.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Detailed pedagogical guide covering theological classifications, nullifiers of faith, and scholastic definitions.
 
-## 1. Classical Theological Categories of Tawhid and Shirk
+#### Tawheed and its three divisions
 
-Islamic jurisprudence and creed classify theological transgressions based on severity and intent:
+Tawheed is not a single idea but three interlocking claims. **Tawheed ar-Rububiyyah** affirms Allah alone creates, sustains, and governs. **Tawheed al-Uluhiyyah** directs every act of worship — du'a, sacrifice, vows — to Allah alone. **Tawheed al-Asma wa as-Sifat** accepts Allah's names and attributes as He revealed them, without *tashbih* (resemblance to creation) or *ta'til* (denial).
 
-| Category of Belief | Scholastic Definition | Practical Manifestation | Major vs Minor Violation |
-|---|---|---|---|
-| **Tawhid ar-Rububiyyah** | Recognizing Allah as the sole Originator, Sustainer, and Sovereign of the cosmos | Believing no entity can bring benefit or harm except by Allah's divine permission | Denying Rububiyyah (e.g., philosophical atheism or dualism) is major disbelief (*Kufr Akbar*) |
-| **Tawhid al-Uluhiyyah** | Singling out Allah in all acts of external and internal worship | Offering prayer (*Salah*), slaughter (*Dhabh*), and supplication (*Du'a*) solely to Allah | Associating partners in worship is Major Shirk (*Shirk Akbar*), nullifying all good deeds |
-| **Tawhid al-Asma was-Sifat** | Believing in the 99+ attributes of Allah as revealed without humanizing or allegorizing | Affirming hearing (*As-Sami*), sight (*Al-Basir*), mercy (*Ar-Rahman*) | Equating divine attributes to creation (*Tashbih*) or denying them (*Ta'til*) is severe heresy |
-| **Minor Shirk (Shirk Asghar)** | Acts that compromise spiritual sincerity without expelling from Islam | Ostentation in worship (*Riya*), swearing by other than Allah without deification | Severe sin requiring repentance; does not place one outside the fold of Islam |
+#### The six pillars versus the five pillars
 
----
+The Saudi exam routinely asks candidates to separate internal conviction (Iman) from outward action (Islam). The grid below settles the most common confusions.
 
-## 2. Divine Decree: The Four Pillars of Al-Qadar
+| Aspect | Arkan al-Iman (6 Pillars of Belief) | Arkan al-Islam (5 Pillars of Practice) |
+|---|---|---|
+| Nature | Internal conviction | Outward worship |
+| Count | Six articles | Five obligations |
+| First item | Belief in Allah | Shahada (declaration) |
+| Includes Qadar? | Yes | No |
+| Includes Salah/Zakat? | No | Yes |
+| Time of obligation | From birth (fitrah) | From puberty |
 
-A sound understanding of Divine Decree requires mastering the four sequential tiers (*Maratib al-Qadar*):
-1. **Al-Ilm (Divine Omniscience):** Allah possesses eternal, encompassing knowledge of all past, present, future, and hypothetical events before their occurrence.
-2. **Al-Kitabah (The Preserved Record):** Allah ordered the Pen to record everything that would occur until the Day of Resurrection in the Preserved Tablet (*Al-Lawh al-Mahfuz*) fifty thousand years before the creation of the heavens and the earth.
-3. **Al-Mashi'ah (The Sovereign Will):** Whatever Allah wills happens, and whatever He does not will never happens. Human beings possess real choice and moral agency, but human will functions subordinate to divine will.
-4. **Al-Khalq (Universal Creation):** Allah is the sole Creator of all entities, actions, causes, and effects (	ext{ is the Creator of all things}$, Qur'an 39:62).
+#### Angels and their functions
 
----
+Four archangels dominate the questions. **Jibreel** delivered revelation. **Mikael** manages rain and sustenance. **Israfil** blows the Trumpet on the Last Day. **Malik** guards Jahannam. **Munkar and Nakir** question the dead in the grave. **Azrael** (Malak al-Mawt) retrieves souls — students often misattribute this to Jibreel.
+
+#### Books matched to prophets
+
+| Scripture | Revealed to | Status |
+|---|---|---|
+| Suhuf (Scrolls) | Ibrahim (AS) | Earlier revelation |
+| Tawrah (Torah) | Musa (AS) | Sent before Quran |
+| Zabur (Psalms) | Dawud (AS) | Praises and supplications |
+| Injil (Gospel) | Isa (AS) | Given before final scripture |
+| Quran | Muhammad ﷺ | Final, preserved revelation |
+
+#### Qadar and the Ash'ari–Maturidi balance
+
+Allah's decree has four levels: *al-ilm* (prior knowledge), *al-kitabah* (written record in al-Lawh al-Mahfuz), *al-mashi'ah* (will), and *al-khalq* (creation). Humans possess *ikhtiyar* (voluntary capacity) and are accountable for what they *acquire* (kasb). The Saudi mainstream rejects both the **Qadariyyah** (full free will) and **Jabariyyah** (pure determinism) extremes.
+
+#### Worked problem
+
+A candidate reads: *"Which of the following is part of Iman but NOT of Islam?"* Options: (A) Salah, (B) Zakat, (C) Belief in Qadar, (D) Hajj.
+
+Solution: Apply the table above. A, B, and D are Arkan al-Islam — pillars of practice, not belief. C is the sixth article of Arkan al-Iman. Therefore the answer is **C — Belief in Qadar**.
+
+> ⚠️ **Examiner Trap:** Options A, B, and D all look correct because they are well-known "pillars." The discriminator is the wording "part of Iman but NOT of Islam" — reverse the wording and the answer flips to A, B, or D. Read the conjunction *but not* every time.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> English scholastic terminology, comparative theology, and authentic Qimiyah examination questions.
 
-## 3. Scholastic Terminology and Epistemology
+A common structural trap on this topic comes from the 25 named prophets. The Quran names them across 37 surahs; examiners pick one obscure pairing (e.g. *Dhul-Kifl* or *Yunus*) to test whether rote memorisation replaced genuine recall.
 
-In classical Sunni Islamic scholastic theology (as codified by Imam Abu Hanifah, Imam Ahmad ibn Hanbal, and later creedal syntheses like *Al-Aqidah at-Tahawiyyah*):
-- **Iman (Faith) Definition:** Iman comprises speech of the tongue (*Qawl bil-Lisan*), conviction of the heart (*I'tiqad bil-Janan*), and actions of the limbs (*Amal bil-Arkan*). It increases with righteous obedience and decreases with sinful disobedience.
-- **Distinction between Islam and Iman:** When mentioned together in prophetic texts (e.g., Surah Al-Hujurat 49:14 and the Hadith of Gabriel), *Islam* refers to outward physical deeds (the Five Pillars: Shahadah, Salah, Zakah, Sawm, Hajj), while *Iman* refers to inward spiritual convictions (the Six Articles).
-- **Ulul-Azm (Prophets of Firm Resolve):** Five elite messengers endowed with supreme patience during adversity: Nuh (Noah), Ibrahim (Abraham), Musa (Moses), Isa (Jesus), and Muhammad (peace be upon them all).
+1. *Shu'aib* is sent to Madyan, not to the Children of Israel — a frequent wrong-answer lure.
+2. *Dhu al-Qarnayn* is mentioned in Surah al-Kahf but is **not** a prophet in the classical list.
+3. *Luqman* is a sage granted wisdom; he is **not** classified as a prophet.
+4. *Maryam* is the only woman named by name in the Quran, but she is not a prophetess.
+6. Angels have no free will; the *jinn* and humans do — confusing the two distorts questions on accountability.
+5. The Quran was revealed over 23 years; *Laylat al-Qadr* falls within the last ten nights of Ramadan.
 
-## 4. Qimiyah Examination Practice Questions
+#### Edge cases examiners exploit
 
-**Question 1 (Islamic Studies):** Directing an act of worship, such as supplication (Du'a) or sacrificial slaughter (Dhabh), to a created being is classified under Islamic creed as:  
-*(A) Minor Disbelief (Kufr Asghar)  
-(B) Major Shirk (Shirk Akbar)  
-(C) Inappropriate Innovation (Bid'ah)  
-(D) Minor Sin (Kaba'ir)*  
-**Answer:** (B) Major Shirk (Shirk Akbar) (Explanation: Uluhiyyah dictates that all worship belongs exclusively to Allah. Directing supplication or sacrifice to any entity other than Allah constitutes major polytheism, which nullifies one's faith).
+- **Bid'ah vs. Shirk.** Adding optional acts to worship is bid'ah; equating saints with Allah is shirk. Shirk is the *unforgivable* sin if death occurs without repentance; bid'ah ranges from minor to major.
+- **Al-Qada vs. al-Qadar.** Qadar is Allah's pre-eternal decree; Qada is its *execution* in the created order. Both are belief articles, but the distinction appears in 1–2 mark items.
+- **Irfan and 'Ilm al-Kalam.** Some denominational textbooks separate theological knowledge (ilm) from spiritual gnosis (irfan); the Saudi exam follows the *Salaf*-friendly Ash'ari-Maturidi synthesis.
+- **Intercession (Shafa'ah).** Believed only for monotheists and only by Allah's permission; popular depictions of saints interceding independently contradict Tawheed.
 
-**Question 2 (Islamic Studies):** Which angel is divinely commissioned with conveying revelation to the Prophets?  
-*(A) Mikail (B) Israfil (C) Jibril (D) Malik*  
-**Answer:** (C) Jibril (Archangel Gabriel is the Angel of Revelation who brought the Qur'an to Prophet Muhammad).
+#### Practice prompts
 
-**Question 3 (Islamic Studies):** The tier of Al-Qadar that affirms Allah inscribed all creation's destinies in Al-Lawh al-Mahfuz is known as:  
-*(A) Al-Ilm (B) Al-Kitabah (C) Al-Mashi'ah (D) Al-Khalq*  
-**Answer:** (B) Al-Kitabah (Explanation: Al-Kitabah refers to the divine recording of all decrees in the Preserved Tablet).
+1. A question lists Tawrah, Zabur, Quran, and Sahih Bukhari. Identify the item that does **not** belong with the revealed scriptures, and name the prophet associated with each book that does.
+2. A stem describes a person who accepts Allah's will yet denies human accountability. Identify which deviant school (*Jabariyyah*, *Qadariyyah*, or *Murji'ah*) the person follows, and cite the specific error each school commits against the Ash'ari-Maturidi position.
+
+## Continue your study
+
+- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Basic Beliefs of Islam" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qimiyah&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qimiyah Exam (Saudi) exam overview](/exams/qimiyah/)** — pattern, eligibility, and syllabus
+- **[All General Studies notes](/notes/qimiyah/islamic-studies/)** — browse sibling topics in this subject
 
 ---
-
-## Sources & verification
-- *Al-Aqidah at-Tahawiyyah* with commentary by Ibn Abi al-Izz.
-- Ibn Taymiyyah, *Al-Aqidah al-Wasitiyyah*.
-- Saudi Ministry of Education Islamic Studies Curriculum Standards.
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

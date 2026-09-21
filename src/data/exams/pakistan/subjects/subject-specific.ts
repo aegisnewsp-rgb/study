@@ -1,15 +1,15 @@
 export const subject_specific: Subject = {
   id: 'subject-specific', name: 'Subject Specific', color: '#6b7280',
   topics: [
-    { id: 'subjec-001', name: 'Business Accounting', weight: 3 as const, description: 'Accounting principles applied in business context, financial statement analysis, and management accounting basics.' },
-    { id: 'subjec-002', name: 'Business Economics', weight: 3 as const, description: 'Micro and macroeconomic concepts, supply-demand analysis, market structures, and economic policies.' },
-    { id: 'subjec-003', name: 'Business Management', weight: 3 as const, description: 'Principles of management, organizational behavior, leadership theories, and business administration.' },
-    { id: 'subjec-004', name: 'Marketing Fundamentals', weight: 3 as const, description: 'Marketing concepts, 4Ps of marketing, consumer behavior, and digital marketing basics.' },
-    { id: 'subjec-005', name: 'Human Resource Management', weight: 3 as const, description: 'HRM functions, recruitment, training, performance appraisal, and labor laws.' },
-    { id: 'subjec-006', name: 'Financial Management', weight: 3 as const, description: 'Capital budgeting, working capital management, financial ratio analysis, and investment decisions.' },
-    { id: 'subjec-007', name: 'Business Law', weight: 3 as const, description: 'Contract law, company law, sale of goods, partnership, and legal framework in Pakistan.' },
-    { id: 'subjec-008', name: 'Banking and Finance', weight: 3 as const, description: 'Banking operations, monetary policy, State Bank functions, and financial system in Pakistan.' },
-    { id: 'subjec-009', name: 'Statistics and Data Analysis', weight: 3 as const, description: 'Descriptive statistics, probability, hypothesis testing, and data interpretation.' },
-    { id: 'subjec-010', name: 'Information Technology', weight: 3 as const, description: 'Business IT applications, database management, e-commerce, and digital transformation.' }
+    { id: 'subjec-001', name: 'Principles of Management and Organizational Behavior', weight: 4 as const, description: 'Fayol and Taylor management principles, planning-organising-leading-controlling, OB models (McGregor Theory X/Y, Maslow hierarchy), team dynamics, leadership styles, and organisational structure.' },
+    { id: 'subjec-002', name: 'Marketing Management', weight: 5 as const, description: 'Marketing mix (4Ps and 7Ps), STP framework (segmentation, targeting, positioning), consumer behaviour models, brand equity, digital marketing channels, and the marketing research process.' },
+    { id: 'subjec-003', name: 'Human Resource Management', weight: 4 as const, description: 'HR planning, job analysis, recruitment and selection methods, training and development, performance appraisal (360-degree, BARS), compensation management, and Pakistan labour law (Factories Act 1934, Industrial Relations Act).' },
+    { id: 'subjec-004', name: 'Financial Management', weight: 5 as const, description: 'Time value of money, capital budgeting techniques (NPV, IRR, payback period), working capital management, cost of capital (WACC), capital structure decisions (MM theory, leverage), and dividend policy.' },
+    { id: 'subjec-005', name: 'Business Accounting and Reporting', weight: 4 as const, description: 'IFRS conceptual framework, preparation of company financial statements under IAS 1, statement of cash flows under IAS 7, ratio analysis (liquidity, profitability, leverage), and consolidated statements basics.' },
+    { id: 'subjec-006', name: 'Business Economics', weight: 3 as const, description: 'Demand-supply analysis, elasticity of demand and supply, market structures (perfect competition, monopoly, oligopoly), national income concepts, monetary and fiscal policy instruments of the State Bank of Pakistan.' },
+    { id: 'subjec-007', name: 'Business Research Methods', weight: 3 as const, description: 'Research design (exploratory, descriptive, causal), sampling techniques (probability and non-probability), data collection (questionnaire, interview, observation), and the structure of a research report.' },
+    { id: 'subjec-008', name: 'Statistics and Quantitative Techniques for Business', weight: 3 as const, description: 'Descriptive statistics, measures of central tendency and dispersion, probability distributions (normal, binomial), hypothesis testing (t-test, chi-square), and regression analysis for business forecasting.' },
+    { id: 'subjec-009', name: 'Business Law and Corporate Governance', weight: 3 as const, description: 'Contract law essentials under the Pakistan Contract Act 1872, sale of goods, partnership under the Partnership Act 1932, companies under the Companies Act 2017, and corporate governance codes by SECP.' },
+    { id: 'subjec-010', name: 'Information Technology for Business', weight: 2 as const, description: 'Enterprise systems (ERP, CRM), database management concepts, e-commerce business models, digital transformation strategy, cybersecurity basics, and emerging technologies (AI, blockchain) in business.' }
   ]
 };

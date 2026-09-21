@@ -1,13 +1,13 @@
 export const financial_report: Subject = {
   id: 'financial-report', name: 'Financial Reporting', color: '#6b7280',
   topics: [
-    { id: 'financ-001', name: 'Financial Reporting Framework', weight: 3 as const, description: 'IFRS adoption in Pakistan, conceptual framework for financial reporting, and objectives of financial statements.' },
-    { id: 'financ-002', name: 'Statement of Financial Position', weight: 3 as const, description: 'Preparation and presentation of Balance Sheet as per IAS 1, including classification of assets and liabilities.' },
-    { id: 'financ-003', name: 'Statement of Profit or Loss', weight: 3 as const, description: 'Preparation of Income Statement using single and multi-step formats, and presentation of other comprehensive income.' },
-    { id: 'financ-004', name: 'IAS 16 Property Plant and Equipment', weight: 3 as const, description: 'Recognition, measurement, depreciation, and disclosure requirements for PPE under IAS 16.' },
-    { id: 'financ-005', name: 'IAS 38 Intangible Assets', weight: 3 as const, description: 'Recognition, initial measurement, amortization, and impairment of intangible assets under IAS 38.' },
-    { id: 'financ-006', name: 'IAS 12 Income Taxes', weight: 3 as const, description: 'Accounting for current and deferred tax, recognition of temporary differences.' },
-    { id: 'financ-007', name: 'IAS 7 Statement of Cash Flows', weight: 3 as const, description: 'Preparation of cash flow statement using direct and indirect methods.' },
-    { id: 'financ-008', name: 'Financial Statement Analysis', weight: 3 as const, description: 'Horizontal and vertical analysis, ratio analysis, and interpretation of financial statements.' }
+    { id: 'financ-001', name: 'Conceptual and Regulatory Framework', weight: 3 as const, description: 'IFRS Foundation structure, IASB standard-setting process, IFRS Accounting Standards taxonomy, Conceptual Framework for Financial Reporting (objectives, qualitative characteristics, elements, recognition, measurement), and the SECP IFRS adoption status in Pakistan.' },
+    { id: 'financ-002', name: 'Statement of Financial Position (IAS 1)', weight: 3 as const, description: 'IAS 1 presentation: current vs non-current classification, order of liquidity format, primary statements (statement of financial position, profit or loss, comprehensive income, changes in equity, cash flows), and notes structure.' },
+    { id: 'financ-003', name: 'Revenue and Income Recognition', weight: 4 as const, description: 'IFRS 15 five-step model (identify contract, identify performance obligations, determine transaction price, allocate price, recognise revenue), contract modifications, variable consideration, and principal vs agent assessment.' },
+    { id: 'financ-004', name: 'IAS 16 Property, Plant and Equipment', weight: 4 as const, description: 'Recognition criteria under IAS 16, initial measurement at cost, subsequent expenditure, depreciation methods and useful lives, cost model vs revaluation model, derecognition, and impairment indicators under IAS 36.' },
+    { id: 'financ-005', name: 'IAS 38 Intangible Assets', weight: 3 as const, description: 'IAS 38 recognition of intangible assets (identifiability, control, future economic benefits), internally generated vs acquired intangibles, research vs development phase, useful life determination, and amortisation methods.' },
+    { id: 'financ-006', name: 'IAS 12 Income Taxes', weight: 3 as const, description: 'Current tax computation under Pakistan tax law, deferred tax on temporary differences, IAS 12 balance sheet liability method, unused tax losses and credits, change in tax rate adjustment, and deferred tax disclosure.' },
+    { id: 'financ-007', name: 'IAS 7 Statement of Cash Flows', weight: 4 as const, description: 'Operating, investing, and financing classification; indirect vs direct method; reconciliation of profit before tax to cash from operations; non-cash transactions disclosure; and contingent consideration in business combinations.' },
+    { id: 'financ-008', name: 'Group Accounts and Consolidation', weight: 4 as const, description: 'IFRS 10 control assessment, IFRS 3 business combinations, consolidation procedures (acquisition method), non-controlling interest, goodwill calculation, intra-group eliminations, and equity method for associates under IAS 28.' }
   ]
 };

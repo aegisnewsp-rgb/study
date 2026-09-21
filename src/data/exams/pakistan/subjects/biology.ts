@@ -1,20 +1,21 @@
 export const biology: Subject = {
   id: 'biology', name: 'Biology', color: '#16a34a',
   topics: [
-    { id: 'biolog-001', name: 'Cell Biology', weight: 3 as const, description: 'Cell structure and function, prokaryotic vs eukaryotic cells, cell organelles, and cell membrane transport.' },
-    { id: 'biolog-002', name: 'Biochemistry', weight: 3 as const, description: 'Biological molecules including carbohydrates, proteins, lipids, enzymes, vitamins, and their roles.' },
-    { id: 'biolog-003', name: 'Cell Division', weight: 3 as const, description: 'Mitosis and meiosis processes, cell cycle, chromosome behavior, and significance in growth and reproduction.' },
-    { id: 'biolog-004', name: 'Variety of Life', weight: 3 as const, description: 'Five kingdoms classification, Monera, Protista, Fungi, Plantae, Animalia, and binomial nomenclature.' },
-    { id: 'biolog-005', name: 'Kingdom Plantae', weight: 3 as const, description: 'Plant classification, bryophytes, pteridophytes, gymnosperms, angiosperms, and plant divisions.' },
-    { id: 'biolog-006', name: 'Plant Tissues', weight: 3 as const, description: 'Meristematic and permanent tissues, xylem, phloem, structure of leaves, and plant tissue systems.' },
-    { id: 'biolog-007', name: 'Photosynthesis', weight: 3 as const, description: 'Light and dark reactions, Calvin cycle, chlorophyll, factors affecting photosynthesis, and energy conversion.' },
-    { id: 'biolog-008', name: 'Human Physiology', weight: 3 as const, description: 'Organ systems of human body including digestive, respiratory, circulatory, nervous, and endocrine systems.' },
-    { id: 'biolog-009', name: 'Genetics', weight: 3 as const, description: 'Mendelian inheritance, DNA structure, RNA, gene expression, genetic disorders, and Mendels laws.' },
-    { id: 'biolog-010', name: 'Evolution', weight: 3 as const, description: 'Theories of evolution, natural selection, speciation, evidence of evolution, and evolutionary history.' },
-    { id: 'biolog-011', name: 'Biotechnology', weight: 3 as const, description: 'Genetic engineering, DNA cloning, PCR, gene therapy, fermentation technology, and biotechnology applications.' },
-    { id: 'biolog-012', name: 'Ecology', weight: 3 as const, description: 'Ecosystems, food chains, ecological pyramids, biogeochemical cycles, biodiversity, and conservation.' },
-    { id: 'biolog-013', name: 'Reproduction', weight: 3 as const, description: 'Asexual and sexual reproduction in plants and animals, pollination, fertilization, and reproductive systems.' },
-    { id: 'biolog-014', name: 'Nutrition', weight: 3 as const, description: 'Nutrient requirements, balanced diet, vitamins, minerals, digestion, absorption, and metabolic processes.' },
-    { id: 'biolog-015', name: 'Health and Diseases', weight: 3 as const, description: 'Common diseases in Pakistan, pathogens, immune system, vaccination, antibiotics, and public health.' }
+    { id: 'biolog-001', name: 'Cell Structure and Function', weight: 4 as const, description: 'Prokaryotic vs eukaryotic cells, cell organelles (mitochondria, ribosomes, ER, Golgi), membrane structure, transport (diffusion, osmosis, active transport), and the cell cycle.' },
+    { id: 'biolog-002', name: 'Biological Molecules', weight: 3 as const, description: 'Carbohydrates (mono-, di-, polysaccharides), lipids, proteins (amino acids, peptide bonds, four structure levels), nucleic acids (DNA, RNA), water, and vitamin classification.' },
+    { id: 'biolog-003', name: 'Enzymes', weight: 3 as const, description: 'Enzyme structure, lock-and-key and induced-fit models, factors affecting activity (temperature, pH, substrate concentration), and inhibition types (competitive, non-competitive, feedback).' },
+    { id: 'biolog-004', name: 'Bioenergetics', weight: 4 as const, description: 'Photosynthesis (light reactions, Calvin cycle, limiting factors), cellular respiration (glycolysis, Krebs cycle, oxidative phosphorylation), and ATP synthesis.' },
+    { id: 'biolog-005', name: 'Coordination and Control', weight: 4 as const, description: 'Nervous system (neuron, synapse, reflex arc, brain, spinal cord), endocrine system (hormones, pituitary, thyroid, feedback loops), and sense organs (eye, ear, skin).' },
+    { id: 'biolog-006', name: 'Support and Movement', weight: 2 as const, description: 'Plant tissues (meristematic, permanent, xylem, phloem), root and stem anatomy, and the human skeletal system (bone types, joints, cartilage, muscle contraction).' },
+    { id: 'biolog-007', name: 'Circulation', weight: 3 as const, description: 'Heart structure and cardiac cycle, blood vessels (arteries, veins, capillaries), blood composition and groups, lymphatic system, and disorders (hypertension, atherosclerosis).' },
+    { id: 'biolog-008', name: 'Respiration', weight: 3 as const, description: 'Human respiratory tract (nasal cavity, trachea, bronchi, alveoli), mechanism of breathing, gas exchange, O2 and CO2 transport in blood, and respiratory volume measurements.' },
+    { id: 'biolog-009', name: 'Digestion', weight: 3 as const, description: 'Digestive tract anatomy and accessory organs, digestive enzymes and their substrates, peristalsis, absorption in the small intestine, assimilation, and common disorders (ulcers, jaundice).' },
+    { id: 'biolog-010', name: 'Evolution', weight: 3 as const, description: 'Lamarckism and Darwinism, natural selection, evidence (fossil record, homologous and analogous organs, embryology), speciation, and modern evolutionary synthesis.' },
+    { id: 'biolog-011', name: 'Inheritance', weight: 5 as const, description: 'Mendelian laws (segregation, independent assortment), monohybrid and dihybrid crosses, sex-linked inheritance, molecular genetics (DNA replication, transcription, translation), and mutations.' },
+    { id: 'biolog-012', name: 'Reproduction', weight: 3 as const, description: 'Asexual reproduction (binary fission, budding, spore formation), sexual reproduction in flowering plants (flower structure, pollination, fertilization), and the human reproductive system, STDs, and infertility.' },
+    { id: 'biolog-013', name: 'Immunity', weight: 3 as const, description: 'Pathogen types (bacteria, viruses, fungi, parasites), innate defenses (skin, mucous membranes, phagocytes), adaptive immunity (B cells, T cells, antibodies), vaccines, antibiotics, and allergies.' },
+    { id: 'biolog-014', name: 'Homeostasis', weight: 2 as const, description: 'Osmoregulation in plants and animals, thermoregulation in mammals, the human excretory system (kidney structure, nephron function, urine formation), and kidney disorders with dialysis.' },
+    { id: 'biolog-015', name: 'Biotechnology', weight: 2 as const, description: 'Genetic engineering (recombinant DNA, restriction enzymes, plasmids, vectors), PCR, gel electrophoresis, gene therapy, fermentation technology, and GMO crops.' },
+    { id: 'biolog-016', name: 'Acellular Life', weight: 2 as const, description: 'Virus structure (capsid, nucleic acid, envelope), classification (DNA/RNA, single/double-stranded), bacteriophage lytic and lysogenic cycles, HIV and AIDS, viroids, and prions.' }
   ]
 };

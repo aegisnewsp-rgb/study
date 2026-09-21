@@ -1,15 +1,15 @@
 export const taxation: Subject = {
   id: 'taxation', name: 'Taxation', color: '#6b7280',
   topics: [
-    { id: 'taxati-001', name: 'Income Tax Ordinance 2001', weight: 3 as const, description: 'Overview of Pakistan Income Tax Ordinance 2001, its scope, definitions, and key provisions governing taxation.' },
-    { id: 'taxati-002', name: 'Taxable Income Heads', weight: 3 as const, description: 'Classification of income under heads: Salary, Rental Income, Business Income, Capital Gains, and Other Sources.' },
-    { id: 'taxati-003', name: 'Salary Taxation', weight: 3 as const, description: 'Taxation of salary income including exemptions, allowances, perquisites, and calculation of taxable salary.' },
-    { id: 'taxati-004', name: 'Business Taxation', weight: 3 as const, description: 'Tax treatment of business income, allowable deductions, disallowances, and computation of business taxable income.' },
-    { id: 'taxati-005', name: 'Capital Gains Tax', weight: 3 as const, description: 'Taxation of capital gains from disposal of capital assets, holding period, and applicable tax rates.' },
-    { id: 'taxati-006', name: 'Property Taxation', weight: 3 as const, description: 'Rental income taxation, allowable expenses, and tax implications for landlords.' },
-    { id: 'taxati-007', name: 'Sales Tax and Federal Excise', weight: 3 as const, description: 'Concepts of sales tax, GST, federal excise duty, registration requirements, and input tax adjustment.' },
-    { id: 'taxati-008', name: 'Withholding Tax Provisions', weight: 3 as const, description: 'TDS mechanisms, rates for various payments, obligations of withholder and deductee.' },
-    { id: 'taxati-009', name: 'Tax Returns and Assessments', weight: 3 as const, description: 'Filing of income tax returns, due dates, self-assessment, and proceedings before taxation officers.' },
-    { id: 'taxati-010', name: 'Tax Credits and Exemptions', weight: 3 as const, description: 'Available tax credits, exemptions, and rebates under the Income Tax Ordinance.' }
+    { id: 'taxati-001', name: 'Objectives of Taxation and Constitutional Framework', weight: 2 as const, description: 'Purpose and objectives of taxation (revenue, regulation, redistribution), principles of a fair tax system, constitutional provisions in the Constitution of Pakistan 1973, and professional ethics for tax practitioners.' },
+    { id: 'taxati-002', name: 'Income Tax Ordinance 2001 - Scope, Definitions and Chargeability', weight: 4 as const, description: 'Structure of the Income Tax Ordinance 2001, key definitions (income, person, resident, PKR, FBR), territorial scope of chargeability, and the distinction between Pakistan-source and foreign-source income.' },
+    { id: 'taxati-003', name: 'Salary Income Taxation', weight: 4 as const, description: 'Section 12 salary chargeability, valuation of perquisites and allowances, exemptions under Schedule III, profit in lieu of salary, provident fund and gratuity treatment, and tax credit for charitable donations under section 61.' },
+    { id: 'taxati-004', name: 'Income from Property Taxation', weight: 3 as const, description: 'Section 15 rental income charge, allowable deductions under Section 15A (tax, repairs, insurance, mortgage interest), non-adjustable amounts, and deemed rental for owner-occupied properties.' },
+    { id: 'taxati-005', name: 'Business Income Taxation', weight: 5 as const, description: 'Section 18 business income charge, admissible deductions, inadmissible expenses, depreciation under Part III of Third Schedule, brought-forward losses (4 years), and accounting periods.' },
+    { id: 'taxati-006', name: 'Capital Gains Taxation', weight: 4 as const, description: 'Section 37 charge on capital assets, immovable property holding periods, CGT rates and tax year 2026-27 rates under Finance Act 2025, and exemption for the principal residence under section 111.' },
+    { id: 'taxati-007', name: 'Income from Other Sources and Speculation', weight: 2 as const, description: 'Section 39 residual income head, dividends, interest on securities, royalties, and speculation business losses which are ring-fenced from non-speculation business income.' },
+    { id: 'taxati-008', name: 'Tax Credits, Exemptions and Rebates', weight: 3 as const, description: 'Section 62 to 100A tax credits, charitable donations, investment in shares and PPR, exemptions for specific sectors (software exports, IPPs), and rebate on tax already paid under section 236G/236H.' },
+    { id: 'taxati-009', name: 'Sales Tax and Federal Excise Duty', weight: 3 as const, description: 'Sales Tax Act 1990: taxable supplies, time and value of supply, registration thresholds, input tax adjustment, federal excise under Federal Excise Act 2005, and sales tax returns filing.' },
+    { id: 'taxati-010', name: 'Provincial Taxes and Tax Administration', weight: 2 as const, description: 'Provincial sales tax on services (Punjab/Sindh/KPK/Balochistan), withholding tax regime under sections 149-156, advance tax, filing of returns (114, 115), assessments, and appeals to CIT(A), ATIR, and High Court.' }
   ]
 };

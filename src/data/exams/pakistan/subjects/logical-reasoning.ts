@@ -1,15 +1,15 @@
 export const logical_reasoning: Subject = {
   id: 'logical-reasoning', name: 'Logical Reasoning', color: '#1d4ed8',
   topics: [
-    { id: 'logica-001', name: 'Analytical Reasoning', weight: 3 as const, description: 'Developing logical analysis skills for solving complex reasoning problems through systematic approach.' },
-    { id: 'logica-002', name: 'Blood Relations', weight: 3 as const, description: 'Family relationship problems, coding of relationships, and deducing family trees from statements.' },
-    { id: 'logica-003', name: 'Direction Sense', weight: 3 as const, description: 'Problems involving directions, distance traveled, turning angles, and navigation based reasoning.' },
-    { id: 'logica-004', name: 'Coding-Decoding', weight: 3 as const, description: 'Letter and number coding patterns, analogical relationships, and decoding encrypted messages.' },
-    { id: 'logica-005', name: 'Series Completion', weight: 3 as const, description: 'Number series, letter series, alphanumeric sequences, and finding next term in given patterns.' },
-    { id: 'logica-006', name: 'Seating Arrangement', weight: 3 as const, description: 'Linear and circular seating arrangement problems, ordering by various attributes.' },
-    { id: 'logica-007', name: 'Puzzle Solving', weight: 3 as const, description: 'Various puzzle types including ranking, scheduling, and logical deduction puzzles.' },
-    { id: 'logica-008', name: 'Syllogism', weight: 3 as const, description: 'Deductive reasoning with two premises, Venn diagram method, and drawing valid conclusions.' },
-    { id: 'logica-009', name: 'Logical Deduction', weight: 3 as const, description: 'Drawing conclusions from premises, identifying valid arguments, and evaluating logical consistency.' },
-    { id: 'logica-010', name: 'Assumptions and Conclusions', weight: 3 as const, description: 'Identifying implicit assumptions in arguments, evaluating conclusions, and testing argument validity.' }
+    { id: 'logica-001', name: 'Analytical Reasoning Fundamentals', weight: 5 as const, description: 'The NTS Analytical Reasoning section framework, problem-encoding notation, conditional rules, ordering principles, and constraint diagrams used across all GAT puzzle types.' },
+    { id: 'logica-002', name: 'Linear Sequencing and Ranking', weight: 4 as const, description: 'Slot-based puzzles, ordering by attributes (height, rank, age), left-right arrangement constraints, conditional swaps, and ranking by comparison with at-least/at-most conditions.' },
+    { id: 'logica-003', name: 'Circular Seating and Spatial Arrangements', weight: 4 as const, description: 'Circular arrangements facing centre and facing outside, square and rectangular seating, relative-position puzzles (left of, right of, opposite), and rotation-based deducing logic.' },
+    { id: 'logica-004', name: 'Grouping and Distribution Puzzles', weight: 3 as const, description: 'Bin-assignment, grouping by attributes, distribution across days/shifts, fixed and variable group sizes, and cross-clue verification between grouping and ordering constraints.' },
+    { id: 'logica-005', name: 'Team Formation and Selection Games', weight: 2 as const, description: 'Selection puzzles with must-include / must-exclude conditions, fixed team size constraints, attribute-based eligibility, and combination rules for committee formation problems.' },
+    { id: 'logica-006', name: 'Blood Relations and Family Tree', weight: 3 as const, description: 'Family relationship codes, generational deducing (grandparent, sibling, in-law), coded relational statements (A is the son of B), and reverse-deduction to find family members.' },
+    { id: 'logica-007', name: 'Direction Sense and Navigation', weight: 2 as const, description: 'Compass and clock-direction problems, distance travelled, turning angles (90, 180, 45 degrees), shadow-based sun direction, and route reconstruction from final position descriptions.' },
+    { id: 'logica-008', name: 'Coding-Decoding Patterns', weight: 2 as const, description: 'Letter-shift ciphers (Caesar, reverse alphabet), number coding, symbol-substitution patterns, analogy-based coding, and decoding encrypted messages using positional rules.' },
+    { id: 'logica-009', name: 'Syllogisms and Deductive Logic', weight: 3 as const, description: 'Two-premise deductive reasoning (All A are B, No A is B), Venn diagram method, three-statement syllogisms, immediate inference (converse, inverse, contrapositive), and conclusion validation.' },
+    { id: 'logica-010', name: 'Critical Reasoning: Assumptions and Conclusions', weight: 4 as const, description: 'Identifying hidden assumptions in arguments, distinguishing between necessary and sufficient conditions, evaluating conclusion strength, detecting logical fallacies, and conclusion strengthening/weakening.' }
   ]
 };

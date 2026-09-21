@@ -1,13 +1,13 @@
 export const general_science: Subject = {
   id: 'general-science', name: 'General Science', color: '#6b7280',
   topics: [
-    { id: 'genera-001', name: 'Physics Fundamentals', weight: 3 as const, description: 'Basic physics concepts including motion, force, energy, and matter for general science section.' },
-    { id: 'genera-002', name: 'Chemistry Basics', weight: 3 as const, description: 'Fundamental chemistry concepts including atomic structure, periodic table, and chemical reactions.' },
-    { id: 'genera-003', name: 'Biology and Life Sciences', weight: 3 as const, description: 'Basic biology covering cell structure, human body systems, plants, animals, and life processes.' },
-    { id: 'genera-004', name: 'Environmental Science', weight: 3 as const, description: 'Ecosystems, biodiversity, pollution, conservation, and environmental issues.' },
-    { id: 'genera-005', name: 'Scientific Inventions and Discoveries', weight: 3 as const, description: 'Important scientific discoveries, famous scientists, Nobel Prize winners, and their contributions.' },
-    { id: 'genera-006', name: 'Computer and IT Fundamentals', weight: 3 as const, description: 'Basic computer knowledge, software, hardware, internet, and information technology concepts.' },
-    { id: 'genera-007', name: 'Medical and Health Sciences', weight: 3 as const, description: 'Common diseases, vaccinations, health organizations, nutrition, and basic medical terminology.' },
-    { id: 'genera-008', name: 'Everyday Science Applications', weight: 3 as const, description: 'Science behind daily life phenomena, appliances, and common observations.' }
+    { id: 'genera-001', name: 'Physical Sciences — Astronomy and Earth Processes', weight: 3 as const, description: 'Universe, galaxy, solar system; eclipses, rotation and revolution; weather variables (temperature, pressure, humidity, precipitation); plate tectonics and rock types.' },
+    { id: 'genera-002', name: 'Physical Sciences — Modern Materials and Physics', weight: 3 as const, description: 'Atomic structure, chemical bonding, electromagnetic radiations; modern materials (ceramics, plastics, semiconductors); antibiotics, vaccines, fertilizers, pesticides.' },
+    { id: 'genera-003', name: 'Biological Sciences — Basis of Life', weight: 3 as const, description: 'Cell structures and subcellular organelles (nucleus, mitochondria, ribosomes); biomolecules (proteins, lipids, carbohydrates, enzymes); biofuel production methods.' },
+    { id: 'genera-004', name: 'Biological Sciences — Human Physiology and Health', weight: 3 as const, description: 'Brief survey of human physiology; common diseases and epidemics (polio, diarrhea, malaria, hepatitis, dengue): causes and prevention; survey of plant and animal kingdoms.' },
+    { id: 'genera-005', name: 'Environmental Science — Earth Systems', weight: 4 as const, description: 'Atmosphere (layered structure and composition), hydrosphere (water cycle, water compartments), biosphere (major biomes), lithosphere (minerals, rocks); remote sensing and GIS applications.' },
+    { id: 'genera-006', name: 'Environmental Science — Pollution and Disasters', weight: 4 as const, description: 'Air, water, and land pollution (sources, causes, effects); acid rain, ozone depletion, greenhouse effect, global warming; Montreal and Kyoto Protocols; earthquakes, floods, cyclones, drought, wildfire, and disaster risk management.' },
+    { id: 'genera-007', name: 'Food Science', weight: 3 as const, description: 'Balanced diet components (vitamins, carbohydrates, proteins, fats, minerals, fiber); food quality, additives, preservatives, antioxidants; food deterioration, adulteration, and preservation methods.' },
+    { id: 'genera-008', name: 'Information Technology', weight: 2 as const, description: 'Computer hardware and software fundamentals, I/O processing, data storage, networking and internet standards; telecommunications basics (mobile, satellite, GPS, fiber optic); fundamentals of AI and information systems.' }
   ]
 };

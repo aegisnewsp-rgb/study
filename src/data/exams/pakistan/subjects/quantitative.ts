@@ -1,15 +1,15 @@
 export const quantitative: Subject = {
   id: 'quantitative', name: 'Quantitative Techniques', color: '#0ea5e9',
   topics: [
-    { id: 'quanti-001', name: 'Number System', weight: 3 as const, description: 'Integers, fractions, decimals, percentages, ratios, proportions, and basic number properties.' },
-    { id: 'quanti-002', name: 'Arithmetic Operations', weight: 3 as const, description: 'Addition, subtraction, multiplication, division, squares, cubes, square roots, and simplification.' },
-    { id: 'quanti-003', name: 'Average and Percentage', weight: 3 as const, description: 'Simple average, weighted average, percentage calculations, and applications in profit-loss problems.' },
-    { id: 'quanti-004', name: 'Profit, Loss and Discount', weight: 3 as const, description: 'Cost price, selling price, marked price, discount calculations, and profit-loss percentage.' },
-    { id: 'quanti-005', name: 'Time, Distance and Work', weight: 3 as const, description: 'Speed-time-distance relationships, work efficiency problems, pipes and cisterns.' },
-    { id: 'quanti-006', name: 'Simple and Compound Interest', weight: 3 as const, description: 'Interest calculations, principal, rate, time, difference between simple and compound interest.' },
-    { id: 'quanti-007', name: 'Geometry and Mensuration', weight: 3 as const, description: 'Area, perimeter, volume of 2D and 3D shapes including triangles, circles, and spheres.' },
-    { id: 'quanti-008', name: 'Algebraic Expressions', weight: 3 as const, description: 'Simplification of algebraic expressions, identities, factorization, and basic algebraic operations.' },
-    { id: 'quanti-009', name: 'Linear Equations', weight: 3 as const, description: 'Formation and solution of linear equations in one and two variables with word problem applications.' },
-    { id: 'quanti-010', name: 'Data Interpretation', weight: 3 as const, description: 'Reading and interpreting data from tables, charts, bar graphs, and line graphs.' }
+    { id: 'quanti-001', name: 'Number System and Number Properties', weight: 2 as const, description: 'Integers, fractions and decimals, divisibility rules, HCF and LCM, prime factorisation, squares, cubes, square roots, and the BODMAS order of operations.' },
+    { id: 'quanti-002', name: 'Basic Arithmetic Operations', weight: 3 as const, description: 'Addition, subtraction, multiplication and division with whole numbers and decimals; rounding and estimation; approximation for multiple-choice arithmetic; simplification of numerical expressions.' },
+    { id: 'quanti-003', name: 'Percentage, Ratio and Proportion', weight: 5 as const, description: 'Percentage change, percentage of a number, successive percentage change, ratios and proportions, partnership division, mixtures and alligation, and unitary method applications.' },
+    { id: 'quanti-004', name: 'Profit, Loss and Discount', weight: 3 as const, description: 'Cost price, selling price, marked price, discount and successive discounts, profit and loss percentage, and breakeven pricing for wholesale-to-retail conversions.' },
+    { id: 'quanti-005', name: 'Time, Distance, Work and Interest', weight: 4 as const, description: 'Speed-time-distance relationships, relative speed, work-rate problems with pipes and cisterns, simple and compound interest, and the difference between SI and CI over multiple periods.' },
+    { id: 'quanti-006', name: 'Business and Financial Mathematics', weight: 2 as const, description: 'Business scenarios with markup and markdown, instalment payments, Zakat calculation on cash and gold, Islamic inheritance fractions (2/3, 1/8 rules), and consumer mathematics (bills, taxes).' },
+    { id: 'quanti-007', name: 'Algebraic Expressions and Linear Equations', weight: 3 as const, description: 'Polynomial simplification, factorisation, identities (a+b)^2 and a^2-b^2, formation of linear equations in one and two variables, simultaneous linear equations, and word-problem translation.' },
+    { id: 'quanti-008', name: 'Sets, Functions and Basic Statistics', weight: 2 as const, description: 'Set theory (union, intersection, Venn diagrams), linear functions and graphs, arithmetic and geometric sequences, mean/median/mode, and basic measures of dispersion.' },
+    { id: 'quanti-009', name: 'Geometry and Mensuration', weight: 4 as const, description: 'Lines, angles, triangles and the Pythagorean theorem, quadrilaterals, polygons, circles, perimeter and area of 2D shapes, surface area and volume of 3D solids (prism, cylinder, cone, sphere).' },
+    { id: 'quanti-010', name: 'Trigonometry and Coordinate Geometry', weight: 3 as const, description: 'Six trigonometric ratios (sin, cos, tan, cosec, sec, cot), basic identities, projection of sides, chords and tangents to a circle, angles in alternate segments, and Cartesian coordinate problems.' }
   ]
 };

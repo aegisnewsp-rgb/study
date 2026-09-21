@@ -8,7 +8,7 @@ topicName: Transport in Plants
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.106288"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Educational diagram illustrating Transport in Plants with clear labels, white background, exam-style illustration"
 
 ---
@@ -16,145 +16,116 @@ diagramPrompt: "Educational diagram illustrating Transport in Plants with clear 
 # Transport in Plants
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One-screen anchor for the night-before pass.
 
-**Transport in Plants** — Key Facts for MDCAT
+Plants move two streams: xylem pulls **water + minerals** upward; phloem pushes **sucrose** to wherever it is needed. Both depend on water potential (Ψw) and pressure potential (Ψp) — the formulas that always show up.
 
-**Why do plants need transport systems?**
-Plants need to transport water, minerals, and organic compounds throughout their body. Since plants are stationary, they rely on specialized vascular tissues and physical forces for long-distance transport.
+**Ψw = Ψs + Ψp** (units: pascal, Pa; often MPa). Pure water = 0 MPa. Water always runs from less negative to more negative Ψw: −0.1 (soil) → −0.5 (root) → −1.5 (leaf) → −50 MPa (air at 50 % RH).
 
-**Two Major Vascular Tissues:**
+**Osmotic pressure π = iCRT**, where i = van't Hoff factor, C = molar concentration (mol/m³), R = 8.314 J mol⁻¹ K⁻¹, T = temperature (K).
 
-1. **Xylem:** Transports water and mineral salts from roots to aerial parts
-   - **Conduction:** Passive process driven by transpiration pull
-   - **Conducting cells:** Tracheids and vessel elements (dead cells, hollow)
-   - **Types:** Protoxylem (first-formed) and Metaxylem (later-formed)
-   - **Tissue includes:** Xylem parenchyma, xylem fibres, xylem ray
+Xylem rises by **cohesion-tension**, not root pressure. Phloem flows by **Münch pressure-flow**. Stomata open when guard cells take in K⁺; ABA closes them.
 
-2. **Phloem:** Transports organic food (sugars, mainly sucrose) from leaves to all parts
-   - **Conduction:** Active process (translocation)
-   - **Conducting cells:** Sieve tube elements + companion cells
-   - **Sieve tubes:** Living cells but lack nucleus at maturity; connected by sieve plates
-   - **Companion cells:** Provide metabolic support to sieve tube elements
+> 💡 **Memory Hook — "XPS" for xylem: "eXtreme Pull from Sun."** X = Xylem, P = Pull (transpiration), S = Sun-driven (cohesion-tension). For phloem: **"PSF" — Push, Sucrose, Flow** (pressure-flow hypothesis). Ψ sign: "More solute = More negative."
 
-**Transpiration:**
-Loss of water vapour from aerial parts of plants (mainly through stomata).
-- Transpiration pull creates the force for water movement in xylem (cohesion-tension theory)
-- Cooling effect: Evaporative cooling prevents overheating
-- Creates negative pressure (tension) in xylem columns
-- Rate measured by porometer
-
-**Root Pressure:**
-Pressure generated in roots when water is absorbed osmotically and pushed upward.
-- Typical pressure: 0–2 atm (about 2–3 bars)
-- Not sufficient to lift water to tops of tall trees
-- Guttation (water droplets at leaf tips) occurs when root pressure > transpiration pull
-
-**Ascent of Sap:**
-Water rises in xylem due to:
-1. **Root pressure** (pushing from below)
-2. **Transpirational pull** (pulling from above — major contributor)
-
-⚡ **Exam tip:** Root pressure alone cannot explain water transport in tall trees (e.g., redwood trees > 100 m). The **cohesion-tension theory** states that water molecules are held together by hydrogen bonds (cohesion) and stick to xylem walls (adhesion), creating a continuous column that is pulled up by transpiration. Transpirational pull is the MAIN driver for ascent of sap. Root pressure becomes important when transpiration is low (at night, in humid conditions).
+| Process | Direction | ATP? | Driver |
+|---|---|---|---|
+| Diffusion | High → low conc. | No | Random motion |
+| Osmosis | High Ψw → low Ψw | No | Water across membrane |
+| Active transport | Low → high conc. | Yes | Carrier + H⁺-ATPase |
+| Bulk flow (xylem) | Upward | No | Transpirational pull |
+| Bulk flow (phloem) | Source → sink | Yes (loading) | Turgor gradient |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students who want genuine understanding.
+> Working knowledge with derivations, contrasts, and one fully worked MDCAT-style item.
 
-**Transport in Plants** — Complete Study Guide
+#### Water Potential and Its Components
 
-**Cohesion-Tension Theory (explaining ascent of sap):**
-1. Water evaporates from mesophyll cell walls into air spaces → vapour exits through stomata (transpiration)
-2. This creates a meniscus (concave water surface) in leaf cell walls
-3. Surface tension pulls water molecules inward → creates negative pressure (tension) in leaf xylem
-4. This tension pulls water from petiole → stem → root xylem
-5. Water molecules stick together (cohesion, ~350 kPa) and stick to xylem walls (adhesion)
-6. The continuous water column does not break because of high tensile strength of water
+Water potential governs every movement in this chapter. **Ψw = Ψs + Ψp**, where Ψs (solute potential) is always ≤ 0 and Ψp (pressure potential) can be positive (turgid cell) or negative (xylem under tension). A flaccid cell has Ψp = 0, so Ψw = Ψs — this is incipient plasmolysis. Atmospheric Ψw can hit −50 MPa at 50 % humidity, which is why a tree can "suck" water 100 m up.
 
-**Evidence supporting cohesion-tension theory:**
-- Negative pressure measured in xylem using pressure chamber
-- Air bubbles (cavitation) interrupt water columns — can cause wilting
-- A single cut through a stem causes air entry → water column breaks
+**Osmotic pressure from van't Hoff**: π = iCRT. Dimensionally, π (Pa) = (dimensionless) × (mol m⁻³) × (J mol⁻¹ K⁻¹) × (K) = N m⁻² = Pa. This relation holds for dilute, non-electrolyte-like solutes; for electrolytes i accounts for ion dissociation (NaCl ≈ 2, CaCl₂ ≈ 3).
 
-**Phloem Translocation:**
-- Organic compounds (mainly sucrose) are translocated from source (where produced) to sink (where used/stored)
-- **Sources:** Mature leaves (photosynthesis), storage organs (during growth)
-- **Sinks:** Roots, fruits, developing leaves, seeds, tubers
-- Mechanism: **Pressure flow hypothesis (mass flow hypothesis)**
-  - Sucrose actively loaded into sieve tubes at source → water follows osmotically → high turgor pressure
-  - Sucrose actively unloaded at sink → water follows → low turgor pressure
-  - Mass flow from high to low pressure
+#### Xylem Versus Phloem — Comparison Matrix
 
-**Active loading/unloading of sucrose:**
-- Sucrose is actively transported into companion cells/sieve tubes via proton-sucrose cotransport
-- ATP is used to pump H⁺ out → creates H⁺ gradient → H⁺/sucrose symport
+| Feature | Xylem | Phloem |
+|---|---|---|
+| Contents | Water + minerals | Sucrose + amino acids + hormones |
+| Living cells | Dead (vessels, tracheids) | Living (sieve tubes + companion cells) |
+| Driving force | Transpirational pull (tension) | Turgor gradient (Münch) |
+| Pressure | Negative (−1 to −2 MPa) | Positive (~+0.5 to +1 MPa) |
+| Direction | Unidirectional (root → leaf) | Multidirectional (source → sink) |
+| Key anatomical feature | Lignified walls, pits | Sieve plates with plasmodesmata |
 
-**Uptake of Water and Minerals by Roots:**
-- **Apoplast pathway:** Water moves through cell walls and intercellular spaces without crossing membranes (up to endodermis)
-- **Symplast pathway:** Water moves through cytoplasm of cells via plasmodesmata
-- **Transmembrane pathway:** Water enters cell, exits opposite side (crosses membranes twice)
+#### The Three Pathways Across the Root
 
-**Casparian Strip:**
-- Waxy band in the endodermal cell walls
-- Blocks the apoplast pathway at the endodermis
-- Forces water and dissolved minerals through the symplast pathway
-- This allows selective uptake of minerals (active transport into stele)
+Water entering a root can travel via the **apoplast** (cell walls, no membrane crossing), the **symplast** (cytoplasm through plasmodesmata), or the **transmembrane** route (crossing membranes repeatedly). The **Casparian strip** — a suberised band in the endodermis — seals the apoplast, forcing water and ions into the symplast, which is how the plant selects what enters the stele. No Casparian strip, no selectivity.
 
-⚡ **Common mistakes:** Confusing xylem (water transport, dead cells, one direction root→leaf) with phloem (food transport, living cells, bidirectional). Thinking root pressure is the main force for water ascent — actually transpirational pull is dominant. For phloem translocation, the pressure flow hypothesis requires energy for loading and unloading, not for the actual flow.
+#### Stomatal Mechanism in Two Sentences
+
+Blue light activates a H⁺-ATPase in guard-cell membranes, pumping H⁺ out; the membrane hyperpolarises, K⁺ rushes in through voltage-gated channels, malate²⁻ accumulates, Ψs drops, water enters, guard cells bow apart because their inner wall is thicker — the pore opens. ABA reverses each step during drought.
+
+> 📌 **Formula Check:** Ψw is measured in **Pa (SI) or MPa**; 1 MPa = 10⁶ Pa. Always keep units consistent when comparing values.
+
+#### A Real MDCAT-Style Item
+
+A mesophyll cell has Ψs = −0.9 MPa and Ψp = +0.4 MPa. A neighbouring xylem vessel has Ψp = −0.8 MPa and solute concentration so low that Ψs ≈ 0. In which direction will water move, and what is the driving Ψ difference?
+
+**Step 1 — Mesophyll Ψw**: Ψw = −0.9 + 0.4 = **−0.5 MPa**.
+
+**Step 2 — Xylem Ψw**: Ψw = 0 + (−0.8) = **−0.8 MPa**.
+
+**Step 3 — Direction**: water flows from higher (less negative) to lower (more negative) Ψw, so it travels from the **mesophyll (Ψw = −0.5 MPa) → xylem (Ψw = −0.8 MPa)**.
+
+**Step 4 — Driving force**: ΔΨw = |−0.5 − (−0.8)| = **0.3 MPa**. The negative xylem pressure (tension) is what physically draws water into the vessel — this is the essence of cohesion-tension.
+
+> ⚠️ **Examiner Trap:** Students answer "from xylem to mesophyll" because they confuse "more negative" with "more water." Negative Ψw means water is energetically less available; water moves **toward** more negative values.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, limits, and the integration with stomatal physiology that MDCAT assertion-reason items love.
 
-**Transport in Plants** — Advanced Notes
+#### Where Cohesion-Tension Breaks
 
-**Transpiration Pull — Physical Basis:**
-The evaporation of water from leaf surfaces creates a water potential gradient. Water potential ($\Psi$) is measured in MPa. 
-$$\Psi_{total} = \Psi_w = \Psi_s + \Psi_p + \Psi_g + \Psi_m$$
-Where: $\Psi_s$ = solute potential (always negative), $\Psi_p$ = pressure potential, $\Psi_g$ = gravitational potential, $\Psi_m$ = matric potential.
+The water column in xylem is metastable: it survives because H-bonds between water molecules (cohesion) and to cell-wall cellulose (adhesion) resist cavitation. When tension exceeds about −2 to −3 MPa in most species, an air bubble (embolism) nucleates and the vessel becomes non-functional. Conifers tolerate this far better because their tracheids are narrower and pit membranes small; ring-porous trees (oak, ash) embolise wide vessels every summer and rebuild them in spring. Eucalyptus regnans — over 100 m tall — pushes the limit, with leaf Ψw approaching −3 MPa at midday.
 
-At the leaf-air interface, $\Psi_w$ is very low (very negative) due to low humidity. Water moves from high $\Psi_w$ (soil, ~-0.1 MPa) to low $\Psi_w$ (atmosphere, can be -100 MPa in dry air).
+#### Pressure-Flow Hypothesis — The Numbers Behind It
 
-**Stomatal Mechanism:**
-- Stomata are pores flanked by two guard cells
-- **Mechanism of opening:** Active uptake of K⁺ and Cl⁻ into guard cells → water follows osmotically → guard cells swell → stomatal pore opens
-- **Mechanism of closing:** K⁺ and Cl⁻ leave guard cells → water leaves → guard cells shrink → pore closes
-- Blue light photoreceptors stimulate H⁺-ATPases in guard cell membranes
-- Stomatal opening is maximal in morning, minimal at night
-- Abscisic acid (ABA) promotes stomatal closure during drought stress
+Münch's model reduces to a Hagen-Poiseuille-style flow in the sieve element:
 
-**Wilting:**
-Temporary wilting: Stomata close, transpiration stops, turgor is recovered overnight
-Permanent wilting: Soil water potential is too low, even overnight recovery cannot restore turgor, plant dies
+**Q = A·v**, where A is cross-sectional area (m²) and v is sap velocity (m s⁻¹). Reported velocities: 0.1–1 m h⁻¹, i.e. **2.8 × 10⁻⁵ to 2.8 × 10⁻⁴ m s⁻¹** — orders of magnitude slower than xylem. A 1 m² canopy can translocate several kg of sucrose per day, which is why fruit trees must be ringed (phloem cut) to build up sugar in fruit above the girdle.
 
-**Guttation:**
-- Occurs when root pressure forces water out of leaf tips/hydathodes (special openings)
-- Seen in mornings in humid conditions (e.g., grass blades, tomato leaves)
-- Distinguish from dew (condensation from air) — guttation water has dissolved substances
+> 💡 **Boundary Condition:** Pressure-flow fails if sieve plates are blocked or if loading is passive. That is why apoplastic phloem loaders (most crops) need ATP-expensive sucrose-H⁺ symporters, while passive loaders (some trees) exploit high mesophyll turgor.
 
-**Cavitation and Embolism in Xylem:**
-- Formation of air bubbles (cavitation) breaks the water column
-- Cavitation can be caused by: freeze-thaw cycles, drought stress, high transpiration rates
-- Refilling of embolised vessels: positive root pressure can refill during low transpiration periods
+#### Guttation, Root Pressure, and Why Night ≠ No Flow
 
-**Mineral Transport in Xylem:**
-- N, P, K, Mg: Mobile in xylem (can be redistributed to young leaves)
-- Ca, Fe, B: Immobile in xylem (deficiency symptoms appear first in young leaves)
+At night transpiration drops; if soil is moist and humid, root pressure builds up (ions pumped into xylem, Ψs falls, water follows). Pressures reach 0.1–0.2 MPa in tomato and grapevine. Liquid water then squeezes out through **hydathodes** at leaf tips — guttation. This is why you see dewdrops that are not dew.
 
-**Mineral Redistribution (Phloem mobility):**
-Mobile in phloem: N, P, K, Mg, S
-Immobile in phloem: Ca, Fe, B, Mn, Zn
-This determines which elements can be recycled from older to younger leaves.
+> 📌 **Mnemonic — "Guttation = Gushes, Transpiration = Trails as vapour."**
 
-**Plant Transport Disorders:**
-- **Blossom end rot (tomato):** Calcium deficiency due to insufficient xylem transport
-- **Tip burn (lettuce):** High transpiration rate overwhelming calcium supply
-- **Chlorosis:** Yellowing due to iron or magnesium deficiency (iron deficiency first appears in young leaves because Fe is immobile in xylem)
+#### Advanced Traps and Exceptions
 
-**MDCAT Question Patterns:**
-MDCAT Pakistan transport in plants questions frequently test: (1) distinguishing xylem and phloem structure and function, (2) cohesion-tension theory components, (3) transpiration vs guttation vs root pressure, (4) apoplast vs symplast pathways and the role of Casparian strip, (5) source-sink relationship in phloem translocation, (6) stomatal opening/closing mechanism, (7) water potential components. 2–3 questions per paper. Cohesion-tension theory is high-yield.
+1. **Plasmolysis is reversible only before the cell dies.** Severe plasmolysis ruptures plasmodesmata; cells may not recover even if transferred to water.
+2. **Mycorrhizae bypass the apoplast block partly**, delivering water and P directly to cortical cells; this is why sterilised soils stunt growth even with fertiliser.
+3. **Stomata of CAM plants open at night**, the opposite of the textbook rule. MDCAT almost never asks this — but a smart assertion-reason item might.
+4. **Phloem translocation is bidirectional within one sieve tube**, not the whole plant. Two adjacent source-sink pairs can drive opposite flows in the same tube.
+5. **Active loading is not always sucrose.** Amino acids, hormones (auxin, cytokinin), and even mRNA travel in phloem — relevant for viral spread and signalling.
+
+#### Two Practice Prompts
+
+1. A girdled willow twig still has its leaves green for weeks but its roots die. Explain in terms of xylem vs phloem continuity. *(Answer: phloem is severed, sucrose cannot reach roots; xylem above the girdle still supplies water so leaves stay turgid until reserves run out.)*
+2. Why is root pressure insufficient to lift water in a 50 m tall tree? *(Answer: max root pressure ≈ 0.2 MPa, but a 50 m column needs ~0.5 MPa just to balance gravity, plus transpiration requires additional tension. Cohesion-tension, not root pressure, is the operative force.)*
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Transport in Plants" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Botany notes](/notes/mdcat/botany/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

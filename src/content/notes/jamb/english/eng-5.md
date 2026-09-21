@@ -11,154 +11,109 @@ topicName: Tenses and Their Usage
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.702266"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-20"
 diagramPrompt: "Educational diagram illustrating Tenses and Their Usage with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Tenses and Their Usage
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One sitting, one mental map: every JAMB verb question collapses to *time × aspect*.
 
-**Tenses and Their Usage** — Quick Facts
-12 tenses: present/past/future × simple/continuous/perfect/perfect continuous
-Present simple: habits, facts, routines (I drink water daily)
-Present continuous: happening now, temporary (I am studying now)
-Present perfect: completed action with present relevance, experience, unfinished time (I have eaten; I have lived here for 5 years)
-⚡ Exam tip: "For" = duration (5 hours), "since" = starting point (2015); don't confuse them
+A tense pairs a **time** (past, present, future) with an **aspect** (simple, continuous, perfect, perfect continuous). Twelve active forms sit on that grid; the JAMB Use-of-English paper rewards candidates who can spot which cell a sentence belongs to before reading the options.
+
+| Time → / Aspect ↓ | Present | Past | Future |
+|---|---|---|---|
+| **Simple** | plays | played | will play |
+| **Continuous** | is playing | was playing | will be playing |
+| **Perfect** | has played | had played | will have played |
+| **Perfect Continuous** | has been playing | had been playing | will have been playing |
+
+> 💡 **High-Yield Memory Hook (T-AS Memory Hook):** think **Time × Aspect = Tense**. Lock the time first ("when?"), then pick the aspect ("how complete?") — the auxiliary verb (`be`/`have`/`will`/`do`) tells you the aspect instantly.
+
+Three rules settle most JAMB items: (1) the **simple present** carries habits and permanent truths; (2) the **present continuous** refuses stative verbs (`know`, `like`, `own`, `seem`, `believe`); (3) the **present perfect** forbids past-time markers (`yesterday`, `ago`, `last year`).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Build the form, then read the meaning — JAMB tests both halves every year.
 
-**Tenses and Their Usage** — JAMB English Study Guide
+#### Forming Each Tense
 
-**Present tense uses:**
-- Present simple: permanent situations, scientific facts, habits, scheduled future events ("The train leaves at 6pm")
-- Present continuous: actions happening now, temporary arrangements, changing situations, with always for annoyance/praise ("He is always complaining")
-- Present perfect: past actions with present results, life experiences, ongoing situations starting in past ("I have lost my keys" = can't find them now)
-- Present perfect continuous: emphasis on duration of ongoing action ("I have been waiting for 2 hours")
+Every English tense is a tense-auxiliary plus a verb-form. The auxiliary signals aspect; the verb-form carries the lexical meaning.
 
-**Past tense uses:**
-- Past simple: completed actions in specific past time ("Yesterday, I went to Lagos")
-- Past continuous: actions in progress at specific past time, or two simultaneous past actions ("I was sleeping when she called")
-- Past perfect: action completed before another past action ("By the time I arrived, she had left")
-- Past perfect continuous: continuous action leading up to past event ("She had been studying for 3 hours when the lights went out")
+- **Simple**: base form (`play`), past form (`played`), or `will` + base.
+- **Continuous**: `be` + present participle (`-ing`).
+- **Perfect**: `have` + past participle (`-ed` / irregular).
+- **Perfect continuous**: `have` + `been` + present participle.
 
-**Future tense uses:**
-- Future simple (will): instant decisions, predictions, promises, facts ("It will rain tomorrow")
-- Future continuous: actions in progress at specific future time ("I will be travelling this time tomorrow")
-- Future perfect: action completed by specific future time ("By 2027, I will have graduated")
-- Future perfect continuous: continuous action up to future point ("By June, I will have been working here for 5 years")
+For example, *she has been reading* = `has` (perfect auxiliary) + `been` (continuous marker) + `reading` (main verb). Recognising the chain in a JAMB sentence lets you pick the right verb-form on the first pass.
 
-**Time expressions:**
-| Time expression | Tense commonly used |
-|-----------------|-------------------|
-| yesterday, last week, in 2020 | past simple |
-| ago | past simple (with "had" for past perfect) |
-| now, at the moment, currently | present continuous |
-| today, this week | any appropriate tense depending on context |
-| for, since, recently, lately | present perfect |
-| yet, already, just | present perfect |
-| tomorrow, next week, in the future | future simple |
+#### Concept Comparison Matrix
 
-Common JAMB mistakes: Using "since" with duration ("since 5 years" — wrong; should be "for 5 years"); using past tense with "this is the first time"; confusing present perfect and past simple when time reference is given.
+| Aspect | Use | Marker | Stative-verb OK? |
+|---|---|---|---|
+| **Simple** | habits, facts, timetables | `every day`, `always`, `usually` | yes |
+| **Continuous** | action in progress at a stated time | `now`, `at 5 pm`, `while` | no |
+| **Perfect** | completed action tied to a reference point | `already`, `yet`, `just`, `since`, `for` | yes |
+| **Perfect continuous** | duration up to a reference point, often with visible result | `for`, `since`, `how long` | no |
+
+#### Reported Speech and the Sequence Rule
+
+When the reporting verb is in the **simple past**, the reported clause shifts one step back: present → past, past → past perfect, will → would. *She said, "I am tired"* becomes *She said she **was** tired*. If the reporting verb is in the **simple present** (`She says she is tired`), no shift occurs. Conditional sentences obey a parallel rule — Type 1 (`if` + simple present → `will`), Type 2 (`if` + simple past → `would`), Type 3 (`if` + past perfect → `would have` + past participle).
+
+#### 🎯 Exam-Level Worked Problem
+
+**Prompt.** Choose the option that best fills the gap:  
+*Ayo told me that he ______ the report before the meeting started.*  
+(a) finished  
+(b) has finished  
+(c) had finished  
+(d) will finish
+
+**Working.** Two triggers point to the **past perfect**. First, the reporting verb *told* sits in the simple past, so the sequence-of-tenses rule shifts the reported action further back. Second, *before the meeting started* places the report's completion earlier than another past event — exactly what the past perfect marks. Form: `had` (perfect auxiliary) + `finished` (past participle of regular verb *finish*).
+
+**Answer.** (c) *had finished*.
+
+> ⚠️ **Examiner Trap (Examiner Trap):** Option (b) *has finished* survives in spoken English but breaks the sequence-of-tenses rule once a past reporting verb appears. Option (a) *finished* loses the earlier-than-past relationship that *before* demands.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Treat each tense as a contract between speaker and listener about *when* and *for how long*.
 
-**Tenses and Their Usage** — Comprehensive Notes
+#### Edge Cases and Boundaries
 
-**Advanced tense distinctions:**
+Four trouble spots separate a 70% candidate from a 90% one.
 
-**Present perfect vs Past simple:**
-Use past simple when specific time is given (yesterday, last week, in 2020).
-Use present perfect when no specific time is given, or when time period is not finished (this year, recently).
-"I have read that book" (general experience, no specific time)
-"I read that book yesterday" (specific past time)
-"I have been to London" (experience, not completed action)
-"I went to London last year" (completed past action)
+1. **Stative vs dynamic verbs.** *Have* (= possess) refuses the continuous, but *have* (= eat/experience) accepts it: *I am having lunch*. The same verb flips categories; context decides.
+2. **Future time, four ways.** *Will* = spontaneous decision or neutral prediction; *be going to* = prior plan or evidence-based prediction (*Look at those clouds — it is going to rain*); present continuous = arranged future (*I am meeting the doctor tomorrow*); simple present = timetabled events (*The train leaves at six*). Mixing them costs marks.
+3. **Time-marker conflicts.** Present perfect cannot coexist with `yesterday`, `ago`, `last week`, `in 1999`. Past simple cannot coexist with `since` for a continuing action — *I lived here for ten years* implies the speaker no longer lives there; the ongoing state requires *I have lived here for ten years*.
+4. **Conditional type shifts in reported speech.** A reported Type 2 conditional often becomes Type 3: *She said, "If I won the lottery, I would travel"* → *She said that if she had won the lottery, she would have travelled*. The shift preserves the unreal past.
 
-**Past perfect vs Past simple:**
-Past simple: both actions happened and are presented as equally in the past.
-Past perfect: one action (the one with past perfect) happened BEFORE the other.
-"I bought a new car" (both past, no sequence emphasised)
-"I had bought a new car before I lost my old one" (buying happened first)
+| Trap | Wrong Form | Correct Form |
+|---|---|---|
+| Stative verb in continuous | *I am knowing him.* | *I know him.* |
+| Past marker with present perfect | *I have seen her yesterday.* | *I saw her yesterday.* |
+| `will` for a prior plan | *I will travel tomorrow* (planned) | *I am travelling tomorrow.* |
+| Past simple with `since` for ongoing action | *I worked here since 2020.* | *I have worked here since 2020.* |
 
-**Sequence of tenses (subject-verb agreement in clauses):**
-Main clause in present → dependent clause can be any tense that makes sense.
-Main clause in past → dependent clause typically in past (but would/could/might remain unchanged).
-"He said he was coming" (not "he is coming")
-"She said she will go" → acceptable only if futurity cannot be expressed otherwise.
+#### Advanced Practice Prompts
 
-**Conditional sentences:**
-Type 0 (general truth): If + present simple, present simple ("If you heat water, it boils")
-Type 1 (real possibility): If + present simple, will + verb ("If it rains, I will stay home")
-Type 2 (unreal/imagined): If + past simple, would + verb ("If I had money, I would travel")
-Type 3 (past unreal): If + past perfect, would have + past participle ("If I had studied, I would have passed")
-
-**Wishes:**
-Wish + past simple (present unreal): "I wish I knew the answer"
-Wish + past perfect (past unreal): "I wish I had studied harder"
-Wish + would (annoyance about stubbornness): "I wish you would stop interrupting"
-
-**JAMB exam patterns:**
-- 2023 JAMB: Choose the correct: "By next month, she ___ in this company for 10 years"
-- 2022 JAMB: The correct sentence is: "If I ___ rich, I would help everyone"
-- 2021 JAMB: Select the option that expresses past perfect tense
-- 2020 JAMB: Identify the error: "I have seen him yesterday"
-
-**Key time markers:**
-- since (point in time): since 2010, since Monday, since I was a child
-- for (duration): for 5 years, for a long time, for two hours
-- ago (past marker): 5 years ago, long ago
-- before (earlier past): before the lesson, I had left before
-- after (later past): after the lesson, I left after eating
-- by the time (completed by): by the time I arrived, by tomorrow
+1. Convert the paragraph into reported speech, applying the sequence rule and noting any backshift exceptions: *"Ade says, 'I am revising for JAMB, and I have been studying since January. If I pass, I will study medicine.'"*
+2. Diagnose the aspect error in each sentence and rewrite it: (i) *By next July, we will live in Lagos for ten years.* (ii) *She is wanting a new phone.* (iii) *They have arrived yesterday morning.*
 
 ---
 
+## Continue your study
 
----
-## 📊 JAMB Exam Essentials
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Tenses and Their Usage" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
 
-| Detail | Value |
-|---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
-
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
-
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
-
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

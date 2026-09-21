@@ -329,6 +329,11 @@ import nceaLevel3 from './newzealand/ncea-level-3';
 import nceaUe from './newzealand/ncea-ue';
 import ucatAnzNz from './newzealand/ucat-anz';
 
+// Kuwait (country expansion — sr-fanout build-kuwait, 2026-09-20)
+import kuwaitSecondaryCertificate from './kuwait/kuwait-secondary-certificate';
+import ieltsKuwait from './kuwait/ielts';
+import satKuwait from './kuwait/sat';
+
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
@@ -394,6 +399,8 @@ export const ALL_EXAMS = [
   // Ireland / New Zealand (country expansion)
   caoPoints, hpat, juniorCycle, leavingCert,
   nceaLevel1, nceaLevel2, nceaLevel3, nceaUe, ucatAnzNz,
+  // Kuwait (country expansion)
+  kuwaitSecondaryCertificate, ieltsKuwait, satKuwait,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────
@@ -417,6 +424,7 @@ export const COUNTRY_FLAGS: Record<string, string> = {
   philippines: '🇵🇭',
   indonesia: '🇮🇩',
   malaysia: '🇲🇾',
+  kuwait: '🇰🇼',
 };
 
 // ─── Duration data ───────────────────────────────────────────────

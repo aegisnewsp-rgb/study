@@ -20,8 +20,8 @@ const exam: ExamTemplate = {
   examName: 'VITEEE',
   country: 'india',
   description: "VITEEE is the entrance exam for VIT University Vellore, Chennai, Amaravati, and Bhopal campuses. One of India's largest private university entrance exams with over 2 lakh candidates. Tests PCM and English in a computer-based format.",
-  examPattern: "125 MCQs: Physics(35), Chemistry(35), Mathematics/Biology(40), English(5), Aptitude(10), 2h 30min.",
-  eligibility: "Class 12 PCM/PCB with minimum 60% aggregate. NRI candidates eligible through separate channel.",
+  examPattern: "Per the official VITEEE site (viteee.vit.ac.in), the paper carries 125 questions in 2 hours 30 minutes: Mathematics or Biology (40 questions), Physics (35 questions), Chemistry (35 questions), Aptitude (10 questions), and English (5 questions). Mode and exact distribution are confirmed in the current-cycle VITEEE information brochure before you sit mocks.",
+  eligibility: "Per the VITEEE information brochure (vit.ac.in/files/VITEEE-2024-information-brochure.pdf), candidates must have passed Class 12 (or equivalent) with Physics, Chemistry and Mathematics/Biology and a minimum aggregate of 60% in these subjects for the general category, with 50% aggregate permitted for SC/ST candidates and applicants from Jammu & Kashmir, Ladakh and the notified North-Eastern states. NRI applicants apply through VIT's separate NRI channel. Verify the percentage and quota list against the current-cycle brochure before you submit the form.",
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for VITEEE — 1 Hour'),
@@ -62,7 +62,7 @@ const exam: ExamTemplate = {
     'Guessing without understanding marking rules in the brochure.',
     'Using outdated pattern claims from forums.'
   ],
-  lastUpdated: '2026-07-28',
+  lastUpdated: '2026-09-22',
   officialSource: 'https://viteee.vit.ac.in/',
 };
 

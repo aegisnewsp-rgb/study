@@ -14,86 +14,107 @@ lastUpdated: "2026-09-22"
 # Consumer Behaviour
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Use this pass to lock the one equation and the one diagram that decide the question.
 
-> Start here the night before UPPSC PCS Paper-II — this tier carries the equilibrium condition, the two curve tools, and one decision rule.
+**Consumer Behaviour** studies how a household spends a fixed income across goods to extract the highest possible satisfaction. The single condition a UPPSC PCS examiner tests is the equimarginal principle:
 
-A rational consumer picks the bundle that maximises **utility (U)** subject to a money-income **budget constraint**. Two analytical setups deliver the same answer.
+> MUx / Px = MUy / Py = λ
 
-| Approach | Equilibrium condition | Curve tool |
-|---|---|---|
-| Cardinal (utility) | MUₓ / Pₓ = MUᵧ / Pᵧ = λ | Budget line |
-| Ordinal (indifference) | MRSₓᵧ = Pₓ / Pᵧ | Indifference curve (IC) |
+Here **MUx, MUy** are marginal utilities (utils per unit), **Px, Py** are prices in ₹ per unit, and **λ** is the marginal utility of money in utils per ₹. The two goods must also sit on, not outside, the budget line **Px·X + Py·Y = M**, where **M** is income in ₹.
 
-**MU** = change in Total Utility (TU) from one extra unit; **λ** = marginal utility of money (utils per ₹); **MRSₓᵧ** = |ΔY/ΔX| along an IC.
+> 💡 **High-Yield Memory Hook:** "**MUTT** — **M**U per **R**upee, **T**wo goods, **T**angent." Equate MU/Px across goods, then check tangency on the budget line.
 
-> 💡 **High-Yield Memory Hook (MU-MA-IC):** "**M**U on top, **P**rice at bottom, equal to **MA**rgin of money; **I**C slope is **MRS** = price ratio." The triple equality MUₓ/Pₓ = MUᵧ/Pᵧ = λ is the most-failed equilibrium statement in UPPSC answer sheets.
+| Concept | One-line recall |
+|---|---|
+| Total Utility (TU) | Sum of satisfaction from all units consumed |
+| Marginal Utility (MU) | Addition to TU from the next unit |
+| Indifference Curve | All bundles giving the same TU; convex to origin |
+| Budget Line | All bundles costing exactly M; slope = −Px/Py |
+| Consumer Equilibrium | Tangency of highest IC with budget line |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Working depth for the typical two-month UPPSC revision cycle.
 
-#### Two frameworks, one answer
+#### The optimisation problem
 
-The **cardinal approach** treats utility as measurable in *utils*. TU = Σ MU over n units. MU declines as n rises — the **Law of Diminishing Marginal Utility** — so TU rises at a decreasing rate, peaks when MU = 0, and falls when MU turns negative.
+The consumer picks quantities (X, Y) to maximise U(X, Y) subject to Px·X + Py·Y ≤ M. Solving with a Lagrangian gives two conditions: (i) the slope condition MUx/Px = MUy/Py, and (ii) the budget constraint binds. Skipping either costs marks — UPPSC answer scripts commonly quote only the slope condition.
 
-The **ordinal approach** drops the utils and ranks bundles. The consumer prefers A to B if A lies on a higher **indifference curve (IC)**. ICs are downward-sloping (more X needs less Y for equal satisfaction), convex to the origin (diminishing MRS), and never cross. The **Budget Line** Pₓ·X + Pᵧ·Y = M has slope −Pₓ/Pᵧ; the consumer picks the highest IC tangent to it.
+#### Cardinal versus ordinal approach
 
-| Concept | Cardinal measure | Ordinal counterpart |
+The **cardinal approach** treats utility as measurable in utils and rests on the law of **diminishing marginal utility**: as X rises with Y held constant, MUx falls and TU rises at a decreasing rate, peaks where MUx = 0, then declines. The **ordinal approach** drops the utils and ranks bundles using indifference curves, whose key properties are downward slope, convexity to the origin, and non-intersection.
+
+#### Slopes, ratios and elasticity
+
+Along an indifference curve the slope equals the **Marginal Rate of Substitution**, MRSxy = −ΔY/ΔX = MUx/MUy, a dimensionless ratio of units. The Hicks–Allen elasticity of substitution σ = d ln(X/Y) / d ln(MRSxy) measures how easily the consumer swaps between X and Y when relative prices change.
+
+#### Decomposing a price change
+
+A fall in Px rotates the budget line outward. The resulting rise in X splits into two parts through the **Slutsky equation**:
+
+> ∂x/∂px = (∂x/∂px at constant utility) − x · (∂x/∂m)
+
+The first term on the right is the **substitution effect** (always non-positive for normal goods), the second is the **income effect**. For a **Giffen good** the income effect is negative and large enough to swamp substitution, so the demand curve slopes upward — a classic UPPSC Prelims trap.
+
+#### Comparison matrix — terms that get mixed up
+
+| Often confused | What it actually is | Typical sign/slope |
 |---|---|---|
-| Willingness to trade | MUₓ / MUᵧ | MRSₓᵧ along the IC |
-| Market trade-off | Price ratio Pₓ / Pᵧ | Slope of budget line |
-| Equilibrium equality | MUₓ/Pₓ = MUᵧ/Pᵧ = λ | MRSₓᵧ = Pₓ/Pᵧ |
-| Variable definition | λ in utils/₹ | Slope is dimensionless |
+| Giffen good vs Inferior good | Giffen is a special inferior good where |income effect| > |substitution effect| | Demand curve slopes upward |
+| Engel curve vs Demand curve | Engel: quantity vs income at fixed prices | Demand: quantity vs own price at fixed income |
+| MU of a good (MUx) vs MU of money (λ) | MUx = utils from extra unit of X | λ = utils from extra ₹ of income |
+| Hicks vs Slutsky compensation | Hicks keeps utility constant | Slutsky keeps the original bundle affordable |
+| Consumer surplus vs Producer surplus | Area under demand, above price | Area above supply, below price |
 
-#### Worked example for Paper-II (15-mark style)
+#### A 10-mark diagram question, resolved
 
-A consumer spends M = ₹200. Pₓ = ₹20, Pᵧ = ₹10. Marginal utility schedules: MUₓ = 40 − 2X, MUᵧ = 30 − 2Y.
+"Draw the indifference curve and budget line analysis to show consumer equilibrium. What happens when Px falls?" — this is a textbook UPPSC mains prompt.
 
-Setting MUₓ/Pₓ = MUᵧ/Pᵧ = λ:
+Step 1. Plot the budget line AB with A on the Y-axis at M/Py and B on the X-axis at M/Px. Its slope is −Px/Py.
 
-(40 − 2X) / 20 = (30 − 2Y) / 10  →  40 − 2X = 2(30 − 2Y)  →  2X − 4Y + 20 = 0.
+Step 2. Draw three convex indifference curves IC1 < IC2 < IC3. Equilibrium occurs at the tangency point E on IC2 where the IC touches AB.
 
-Budget constraint: 20X + 10Y = 200, i.e. Y = 20 − 2X.
+Step 3. At E, the slope of IC2 ( = MUx/MUy ) equals the slope of AB ( = Px/Py ), reproducing MUx/Px = MUy/Py.
 
-Substituting: 2X − 4(20 − 2X) + 20 = 0  →  10X = 60  →  X\* = 6, Y\* = 8.
+Step 4. When Px falls, B shifts right to B′. The new equilibrium E′ lies on a higher curve IC3 to the right of E. The horizontal distance E to E′ is the total price effect; splitting it by the dashed compensated budget line A″B″ separates the substitution effect (E to E″) from the income effect (E″ to E′).
 
-Check λ: (40 − 12)/20 = 1.4 utils/₹; (30 − 16)/10 = 1.4 utils/₹. Tangency and feasibility both hold.
-
-#### Price, income, and substitution effects
-
-A fall in Pₓ rotates the budget line outward. The **substitution effect** (Hicks: utility held constant) is always negative for X. The **income effect** adds real purchasing power — positive for **normal goods**, negative for **inferior goods**. When the negative income effect on an inferior good outweighs the substitution effect, the demand curve slopes upward and the good is a **Giffen good**.
-
-#### Self-check before moving on
-
-- TU ≠ MU. MU is a *rate of change* of TU.
-- Engel curve (X vs. M) is not the demand curve (X vs. Pₓ).
-- Consumer surplus = area under demand curve, above the price paid.
-
-> 📌 **Examiner Trap:** Answer scripts that write only MUₓ/Pₓ = MUᵧ/Pᵧ without the third term λ lose a full mark. UPPSC markers look for the equimarginal principle *and* the budget feasibility condition stated together.
+> ⚠️ **Examiner Trap:** Students draw the new equilibrium on the same indifference curve as E. A lower price raises real income, so the new IC must be strictly higher than IC2.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Edge cases, mathematical limits and links to adjacent units — for candidates targeting PCS top ranks.
 
-#### Edge cases that surface in mains
+#### Boundary conditions on the budget set
 
-| Situation | Behaviour | Predicts |
-|---|---|---|
-| Perfect substitutes (linear ICs) | Corner solution; consumer buys only the cheaper ratio | Kinked demand at kink point |
-| Perfect complements (L-shaped ICs) | Fixed proportion; MRS undefined at the kink | Rigid consumption ratio |
-| Quasilinear utility | Income effect zero; entire price effect = substitution effect | Pure substitution demands |
-| Saturation bliss point | MU negative past X\* | Backward-bending individual demand |
+Corner solutions occur when the optimum lies on an axis, typically when a consumer strongly prefers one good (perfect substitutes, MRSxy constant, or one MU/P ratio persistently higher). The interior tangency fails; the Kuhn–Tucker conditions replace equality with inequality MUx/Px ≥ λ ≥ MUy/Py. UPPSC rarely tests this, but UPSC and the UPPCS Economics optional do.
 
-The **Slutsky equation** writes the total price effect algebraically: ∂x/∂pₓ = (∂x/∂pₓ)|_u − x·(∂x/∂m). The first term is the substitution effect (always ≤ 0 by revealed preference), the second is the income effect scaled by the income share x.
+#### Limits of standard models
 
-#### Common conceptual slips
+- **Diminishing MU fails** for addictive goods (tobacco, alcohol) where MU can rise with consumption, breaking the convex-TU assumption.
+- **Revealed Preference Theory** (Samuelson, 1938) infers preferences from observed choices without measuring utility; weak axiom: if bundle A is chosen when B was affordable, B is never chosen when A is affordable. Strong axiom extends this across price regimes.
+- **Engel curve shapes**: positively sloped for normal goods, negatively sloped for inferior goods, but for **Giffen goods** the Engel curve is also negatively sloped while the demand curve is upward-sloping — an apparent paradox resolved by noting the two curves plot different variables on the x-axis.
 
-- Treating **Engel aggregation** as if every household shares one income — household-level Engel curves sum to market Engel only under Gorman’s conditions.
-- Citing the **Giffen paradox** without identifying it as an *inferior* good first; UPPSC expects the "inferior → negative income effect → large enough to dominate substitution" chain.
-- Quoting MU in monetary units instead of utils; λ already converts utils into ₹⁻¹.
+#### Slutsky versus Hicks in policy work
 
-#### Advanced prompts (try before mains)
+When the government compensates a consumer for a price rise, choosing **Hicksian** compensation (utility held constant) versus **Slutsky** compensation (original bundle still affordable) yields different substitution effects. Cost-of-living index literature uses Hicks; tax-incidence work often uses Slutsky. UPPSC Mains occasionally asks which approach welfare economics prefers — answer Hicks because utility is the welfare measure.
 
-1. Show that with **homo­thetic preferences** the **income expansion path** is a straight ray from the origin, and derive the corresponding demand function X(M, Pₓ, Pᵧ).
-2. Derive the **compensated demand curve** from the expenditure minimisation problem min P·x s.t. U(x) = Ū, and contrast its slope with the Marshallian demand for an inferior good.
+#### Advanced traps and exceptions
 
-> ⚠️ **UpPSC-Specific Note:** In Paper-II mains, a 15-marker on consumer equilibrium typically awards 4 marks for the diagram (budget line + IC + tangency), 3 for the equimarginal condition, 3 for the budget constraint, and 5 for the interpretation (consumer surplus, Engel curve link). Memorise the diagram before the day.
+1. Treating **income elasticity of demand** as the slope of the Engel curve — slope mixes units; elasticity is the % change interpretation.
+2. Forgetting that **consumer surplus** falls to zero only under perfect price discrimination, not in competitive equilibrium.
+3. Assuming **transitivity** holds for all choices — behavioural experiments (Allais, Ellsberg paradoxes) violate it.
+4. Equating the **price-consumption curve** with the **demand curve** — the PCC plots utility-maximising bundles against Px; recovering the demand curve needs re-expressing each PCC point as (Px, X).
+5. Drawing an Engel curve through the origin for a necessity — many necessities have a positive intercept (lumpy minimum consumption).
+
+#### Two practice prompts for self-test
+
+1. If MUx = 20 − 2X and MUy = 30 − 3Y, with Px = ₹4, Py = ₹6, M = ₹120, find the equilibrium (X\*, Y\*). *(Equate MUx/Px = MUy/Py, substitute into the budget line.)*
+2. A 10% rise in the price of wheat reduces quantity demanded by 2%. Show, using the Slutsky equation, whether wheat is a normal or inferior good, and state when it could be Giffen. *(Negative income effect term implies inferior; Giffen if the income-effect magnitude exceeds the substitution-effect magnitude.)*
+
+#### How UPPSC PCS actually tests this unit
+
+- **Prelims**: 1–2 MCQs on Giffen goods, Engel curve, equimarginal utility, consumer surplus.
+- **Mains (GS Paper II, Economics optional)**: 10-mark short notes on equimarginal utility with diagram; 15-mark questions demanding derivation of demand from PCC; comparison of Hicks and Slutsky.
+- **Time per question**: budget ~6 minutes for a 10-marker with diagram, ~12 minutes for a 15-marker.
+- **Topper pattern**: always label axes (X, Y in units; Px, Py in ₹/unit), shade consumer surplus, and state both the tangency condition and the budget-line binding.
 
 ## Continue your study
 

@@ -8,100 +8,114 @@ topicName: Grammar and Language Usage
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-22"
 ---
 
 # Grammar and Language Usage
 
+> A UTBK/SNPMTN Literasi Bahasa Indonesia cluster testing whether you can read EYD/PUEBI rules, fix the broken sentence, and pick the standard word over its non-baku twin — all under two minutes per item.
+
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid review of standardized Indonesian grammar, sentence structure (SPOK), effective sentences, conjunctions, and EYD Edisi V orthography for UTBK-SNBT.
 
-**Tata Bahasa Baku & Kalimat Efektif — Ringkasan Cepat**
+> If only one cluster gets revised tonight, make it this: the three errors that cost Indonesian candidates the most points are spelling (eydan), word choice (diksi), and sentence parallelism (kesepadanan).
 
-1. **Ciri-Ciri Kalimat Efektif (Effective Sentences):**
-   - **Kesepadanan Struktur:** Memiliki subjek (S) dan predikat (P) yang jelas. Tidak boleh meletakkan preposisi di depan subjek (e.g., *"Bagi mahasiswa yang belum membayar..."* menyebabkan hilangnya subjek).
-   - **Keparalelan / Kesejajaran Bentuk:** Jika bentuk pertama berupa nomina (*pe-an*), bentuk berikutnya harus nomina. Jika verba berimbuhan *me-*, bentuk berikutnya harus *me-* (*e.g., Pembersihan lingkungan dan pengecatan pagar*, bukan *membersihkan lingkungan dan pengecatan pagar*).
-   - **Kehematan Kata:** Menghindari pleonasme atau pemborosan kata (*e.g., sangat indah sekali* $	o$ *sangat indah* atau *indah sekali*; *para hadirin sekalian* $	o$ *hadirin*).
-   - **Kecermatan Penalaran:** Menghindari ketaksaan (ambiguitas) makna logis (*e.g., Waktu dan tempat kami persilakan* adalah tidak logis karena waktu/tempat tidak bisa dipersilakan; yang benar: *Bapak Bupati kami persilakan*).
-2. **Pola Kalimat Dasar Bahasa Indonesia (SPOK):**
-   - **S-P:** *Adik tidur.*
-   - **S-P-O:** *Petani memanen padi.*
-   - **S-P-Pel (Pelengkap):** *Indonesia berlandaskan hukum.* (Pelengkap tidak dapat dipasifkan).
-   - **S-P-O-Pel:** *Ibu membelikan adik sepeda baru.*
-   - **S-P-K (Keterangan):** *Mereka berdiskusi di perpustakaan.*
-3. **Konjungsi Intrakalimat vs Antarkalimat:**
-   - **Intrakalimat (Menghubungkan klausa dalam satu kalimat):** *sehingga, karena, sedangkan, dan, tetapi, agar*. Tidak boleh diletakkan di awal kalimat tunggal!
-   - **Antarkalimat (Menghubungkan dua kalimat mandiri, selalu diikuti tanda koma):** *Oleh karena itu,*, *Namun,*, *Selain itu,*, *Meskipun demikian,*, *Sebaliknya,*.
+Indonesian grammar questions on UTBK never ask you to recite a rule. They hand you a flawed sentence and ask you to spot what's wrong. The candidate who wins this cluster treats the test like proofreading: read for the error, name the rule, pick the corrected form. The four diagnostic lenses are ejaan, morfologi, sintaksis, and diksi.
 
-⚡ **Jebakan UTBK:** Penggunaan kata *"sehingga"* atau *"karena"* di awal kalimat tunggal tanpa klausa utama adalah kesalahan fatal struktur (anak kalimat tanpa induk kalimat). Contoh salah: *"Karena hujan deras. Kami membatalkan acara."*
+| Lens | What you hunt for | Sample correction |
+|------|-------------------|-------------------|
+| Ejaan (EYD/PUEBI) | Huruf kapital, tanda baca, *di-* vs *di*, *me-* spelling | *ditemukan* (prefix, no space) vs *di rumah* (preposition, spaced) |
+| Morfologi | Affixation, reduplication, composition | *memukul* not *mememukul*; *memakan* not *memakan*-*kan* doubled |
+| Sintaksis | SPOK order, parallelism, effective-sentence rules | Active voice, single subject-predicate pairing |
+| Diksi | Baku vs non-baku loanwords, synonyms in context | *aktivis*, *kuota*, *metode* — never *aktifis*, *kwota*, *metoda* |
+
+> 💡 **High-Yield Memory Hook (SPOK-AIKU):** Subjek–Predikat–Objek–Keterangan plus the four parallelism markers **A**lignment, **I**ntegrity, **K**epaduan, **U**ntuk-logika. Run SPOK first; if SPOK holds, run AIKU on every coordinate clause.
+
+The 60-second version: glance for *di*, *me-, awash affix doubling; swap non-baku loans into baku; check the second clause mirrors the first.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Panduan komprehensif struktur sintaksis, ejaan PUEBI / EYD V, dan afiksasi baku berdasarkan Badan Bahasa Kemendikbudristek.
 
-## 1. Perbedaan Kritis Objek (O) vs Pelengkap (Pel)
+#### The Four Diagnostic Lenses
 
-Membedakan objek dan pelengkap merupakan soal reguler dalam subtes Literasi Bahasa Indonesia UTBK-SNBT:
+UTBK writers group grammar items into four families, and each family rewards a different scanning habit.
 
-| Aspek Pembeda | Objek (O) | Pelengkap (Pel) |
-|---|---|---|
-| **Verba Pengisi Predikat** | Verba transitif aktif berawalan *me-* (*membaca, menulis, membeli*) | Verba intransitif atau berawalan *ber-*, *ter-*, *ber-...-an* (*bermain, belajar, berisi*) |
-| **Kemampuan Dipasifkan** | **Dapat dipasifkan** menjadi subjek dalam kalimat pasif (*Ibu memasak nasi* $	o$ *Nasi dimasak Ibu*) | **Tidak dapat dipasifkan** (*Kakak bertubuh tinggi* $	o$ Tidak ada *Tinggi ditubuhi kakak*) |
-| **Posisi dalam Kalimat** | Berada langsung di belakang predikat verba transitif aktif | Berada di belakang predikat verba intransitif atau di belakang objek pada kalimat aktif dwitransitif |
-| **Kehadiran Preposisi** | Tidak didahului preposisi | Dapat didahului preposisi atau langsung nomina |
+Ejaan (spelling) carries roughly half of the cluster's weight, so it deserves disproportionate scan time. The high-frequency traps: *di-* as a prefix is written solid (*ditemukan*, *diminta*) but *di* as a preposition is spaced (*di rumah*, *di sekolah*). The same rule governs *ke-* and *dari-*. *Me-* drops its *e* when the root begins with a vowel: *memakan*, *meminum*, but it keeps the *e* before consonants that combine naturally: *memukul*, *memanjat*. Huruf kapital marks proper nouns, sentence-initial words, and the pronoun *Saya*.
 
----
+Morfologi covers how words grow. Affixation adds prefixes (*me-*, *ber-*, *pe-*, *di-*, *ke-*, *se-*), suffixes (*-kan*, *-an*, *-i*, *-nya*), infixes (*-el-*, *-em-*, *-er-*), and circumfixes (*ke-…-an*, *pe-…-an*). Reduplication duplicates the root (*buku-buku*, *jalan-jalan*; or with affix: *memakan-makan*). Composition fuses two roots into one lexical item (*sapu tangan*, *kacamata* — written spaced or solid according to PUEBI; *dewan pertimbangan* writes solid as one lexical unit).
 
-## 2. Pedoman Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)
+Sintaksis governs clause order. The SPOK template is the default. A coordinated compound sentence (*kalimat majemuk setara*) requires parallel structure: the second clause should match the first in grammatical class. *Ia datang dan pergi* (two verbs in parallel) passes; *Ia datang dan perginya* (verb + noun phrase) fails. A complex sentence (*majemuk bertingkat*) subordinates one clause to another using *yang*, *karena*, *supaya*, *meskipun*, *ketika*, *bila*, or *kalau*.
 
-1. **Penulisan Huruf Kapital:**
-   - Nama geografi yang menjadi jenis ditulis dengan huruf kecil (*jeruk bali*, *kunci inggris*, *gula jawa*).
-   - Nama geografi yang menunjukkan kekhasan daerah / asal geografis ditulis kapital (*batik Pekalongan*, *film India*, *tari Saman*).
-   - Gelar kehormatan/akademik yang diikuti nama orang ditulis kapital (*Sultan Hasanuddin*, *Dokter Farhan*, *Profesor Sumitro*).
-2. **Penulisan Kata Gabung / Kata Depan:**
-   - **di** sebagai kata depan penunjuk tempat ditulis terpisah (*di rumah*, *di sekolah*, *di atas*).
-   - **di-** sebagai imbuhan pembentuk verba pasif ditulis serangkai (*ditulis*, *dimakan*, *diselesaikan*).
-   - Gabungan kata yang mendapat awalan dan akhiran sekaligus ditulis serangkai (*pertanggungjawaban*, *melipatgandakan*).
+Diksi tests whether you can choose the standard word. Loanwords, in particular, drift: *metoda* → *metode*, *kwota* → *kuota*, *aktifis* → *aktivis*, *frekwensi* → *frekuensi*, *analisa* → *analisis* (noun, not verb form). The trap is that some near-synonyms are not interchangeable — *banyak* modifies countable; *besar* modifies uncountable mass; *kumpulan* and *kelompok* overlap but *kumpulan lagu* (collection) differs from *kelompok pendengar* (group).
+
+#### Concept Comparison Matrix
+
+| Concept | Correct signal | Common confusion | Rule of thumb |
+|---------|---------------|------------------|---------------|
+| *di rumah* vs *dirumah* | Spaced = preposition; solid = prefix *di-* | Student writes *dirumah* because the noun is single-word | If the next token is a noun, *di* is a preposition |
+| *memakan* vs *memakani* | Direct object takes *-kan* when transitive-causative | Student over-applies *-i* to every verb | *-i* marks location, repetition, or beneficiary |
+| *analisis* vs *analisa* | Noun: *analisis*; verb: *menganalisis* | *Analisa* (verb-noun) used as noun | Indonesian nouns of Greek origin end in *-is* |
+| Kalimat majemuk setara vs bertingkat | Setara = two equal clauses (no *yang*); bertingkat = one clause embedded | Student marks *… karena hujan …* as setara | Look for explicit subordinate marker |
+| Sinonim vs. polisemi | Sinonim = different words, same meaning; polisemi = one word, multiple related meanings | Treats *mata* (eye) and *mata* (knife tip) as synonym pair | Same word = polisemi; different roots = sinonim |
+
+#### Worked Exam Item
+
+Consider the question: *"Kalimat yang tidak efektif di bawah ini adalah …"*
+
+> A. Para peserta ujian diminta **duduk** dengan tenang.
+> B. Setelah **membaca** soal, **para** siswa **segera** menjawab.
+> C. **Berdasarkan** hasil **diskusi**, **disimpulkan** bahwa program itu berhasil.
+> D. Dalam rapat itu **dihadiri** oleh seluruh anggota yang **berhadir**.
+
+The fastest scanning path is option D. Two red flags sit inside it: *berhadir* and *dihadiri*. *Berhadir* is not a standard form; *hadir* does not take *ber-* productively, so the writer should drop *ber-* or substitute *menghadiri* with active voicing. The corrective rewrite reads: *"Dalam rapat itu, seluruh anggota hadir."* — a single intransitive clause, no *di-* passive, no parasitic prefix.
+
+> ⚠️ **Examiner Trap:** Students often choose B, misreading *para* as a misplaced determiner. In fact *para* is correct for plural humans of equal status, and the only stylistic quibble is the dangling modifier. A is grammatical. C is grammatical in formal-register writing. D is the only item with two morphological failures stacked in one sentence — exactly the kind of double-fault UTBK rewards.
+
+#### Standard Problem Types
+
+- Identify-the-error items: one clause has a single flaw; the others are clean.
+- Improve-the-sentence items: the flawed sentence is given alone, four rewrites are offered, only one is both grammatical and context-faithful.
+- Choose-the-right-word items: two near-synonyms where one collocates with the noun and the other does not.
+- Effective-sentence items: a long, padding-heavy sentence must be trimmed to SPOK without losing meaning.
+
+#### Common Mistakes Catalogued
+
+- Confusing *di-* prefix with *di* preposition; the spacing rule decides.
+- Doubling affixes — writing *memakani*, *memberikani*, or *ketetapan* when *ketentuan* is meant.
+- Treating *yang* as optional; in bertingkat sentences it is the load-bearing word.
+- Reading paraphrase questions as find-and-replace: a true paraphrase restructures the sentence.
+- Ignoring context when picking the "grammatical" rewrite — sometimes the right answer is the one that fits the surrounding paragraph.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Teori linguistik komparatif, analisis kalimat majemuk bertingkat, dan latihan soal asli tipe UTBK.
 
-## 3. Bilingual Linguistic Analysis: Indonesian Syntax for Standardized Testing
+#### Boundary Conditions and Edge Cases
 
-In contemporary syntactic theory, Standard Indonesian exhibits canonical SVO typology with asymmetric head-initial phrase structure:
-- **Zero Copula and Nominal Predication:** Unlike English, Indonesian syntax does not mandate an overt copular verb (such as 'to be') for predicative nominal or adjectival phrases. The construction *Dia guru* ('He is a teacher') is grammatically complete, where *guru* functions directly as the predicate head.
-- **Syntactic Constraint on Passivization:** Passive transformations occur via two distinct structural channels: Passive Type I utilizing the affix *di-* for third-person agents (*Buku itu dibaca oleh mereka*), and Passive Type II utilizing pronominal clitic fronting without *di-* for first/second-person agents (*Buku itu telah kubaca*, never *Buku itu dibaca oleh saya* in formal register).
-- **Embedded Clauses and Subordinate Conjunctions:** Indonesian subordinate clauses embedded via prepositions (*karena*, *sebab*, *walaupun*) create sentence fragments if severed from the governing matrix clause by terminal punctuation.
+Three corner cases separate a strong candidate from a perfect scorer. The first is *ke-* and *dari-* as prepositions versus as prefix components. *Ke sekolah* (spaced) is prepositional; *keadilan* (solid) is a nominalised root. The same applies to *dari*: *dari mana* (spaced) versus *daripada* (one lexical unit meaning *than*). The second is reduplication that carries grammatical meaning: *anak-anak* pluralises human nouns, *gunung-gunung* pluralises landscape features, *berlari-lari* signals continuous or playful activity. Drop the reduplication and the register flattens. The third is foreign-word adaptation: PUEBI lists which words stay in original script (*software*, *hardware*, *online*) and which are fully localised (*telepon*, *faksimile*). The cut-off moves with the edition, so candidates should anchor to the current PUEBI PDF on badanbahasa.kemdikbud.go.id rather than memorise from older notes.
 
-## 4. Latihan Soal Literasi Bahasa Indonesia Tipe UTBK-SNBT
+#### Connections to Adjacent Clusters
 
-**Soal 1 (UTBK-SNBT):** Kalimat berikut ini merupakan kalimat yang tidak efektif karena tidak memiliki keparalelan bentuk, yaitu:  
-*(A) Pemerintah merencanakan pemindahan ibu kota dan membangun infrastruktur modern.  
-(B) Tahap awal meliputi pembersihan lahan, pembebasan tanah, dan pembangunan jalan.  
-(C) Mahasiswa itu belajar tekun agar lulus dengan predikat pujian.  
-(D) Pelari tercepat itu menerima medali emas dan piagam penghargaan.*  
-**Jawaban:** (A) (Penjelasan: Terdapat ketidaksejajaran bentuk antara verba berimbuhan nomina *pemindahan* dan verba aktif *membangun*. Kalimat efektif seharusnya: *merencanakan pemindahan ibu kota dan pembangunan infrastruktur modern*).
+Grammar intersects reading comprehension more than the syllabus admits. When LTKA passages include a flagged sentence ("Perhatikan kalimat ke-3 pada paragraf kedua"), the item is technically a comprehension question but the diagnostic skill is grammar: you need to see whether the third sentence's subject survives across the clause boundary, or whether the author slipped a dangling modifier. Similarly, essay prompts in UTBK penalise candidates who deploy non-baku loanwords or who switch verb voice mid-paragraph. Mastering this cluster pays compound interest on the writing section, even though writing is not graded.
 
-**Soal 2 (UTBK-SNBT):** Manakah penulisan kata turunan berikut yang tepat menurut EYD Edisi V?  
-*(A) mengenyampingkan  
-(B) mengesampingkan  
-(C) mensesampingkan  
-(D) mensampingkan*  
-**Jawaban:** (B) mengesampingkan (Penjelasan: Berdasarkan kaidah peluluhan fonem KTSP, kata dasar *samping* yang berawalan /s/ luluh menjadi /ny/ jika mendapat awalan *me-*. Namun, untuk bentuk *ke-samping-kan*, prefiks *me-* bertemu /k/ sehingga luluh menjadi /ng/, menghasilkan *mengesampingkan*).
+#### Practice Prompts
 
-**Soal 3 (UTBK-SNBT):** Pola kalimat yang sama dengan kalimat "Presiden menugaskan Menteri Keuangan menyelesaikan anggaran" adalah:  
-*(A) S-P-O  
-(B) S-P-Pel  
-(C) S-P-O-Pel  
-(D) S-P-O-K*  
-**Answer:** (C) S-P-O-Pel (Penjelasan: Subjek = *Presiden*, Predikat = *menugaskan*, Objek = *Menteri Keuangan*, Pelengkap = *menyelesaikan anggaran*).
+1. Rewrite *"Berdasarkan data yang telah dikumpulkan oleh tim peneliti, bahwa konsumsi protein masyarakat meningkat."* into a single effective sentence. Identify the dangling *bahwa* and the passive *dikumpulkan*, then produce the corrected form. Compare your output against the PUEBI rules on active voice and *bahwa* as a content-clause marker.
+2. Take any five loanwords you used in your last essay and convert each into its PUEBI-baku equivalent. Mark which ones would still be acceptable in original script and justify the boundary line. Track your accuracy against the official PUEBI PDF, which is the only source you should trust for borderline cases.
+
+#### Strategy Note for the UTBK Paper
+
+This cluster occupies a small slice of the Literasi subtest — typically two to three items — but the items carry high discriminative value because candidates from non-formal schooling pathways often lose marks here that stronger readers recover. Allocate roughly two minutes per grammar item: thirty seconds for the diagnostic pass, sixty seconds to apply the relevant lens, thirty seconds to confirm against the other three options. Skip the cluster only if your reading speed is so strong that the extra three minutes flips more comprehension items than grammar items would — but for most candidates, clearing grammar first clears the cognitive load for the heavier reading questions that follow.
+
+> 📌 **Diagnostic Order:** When the four lenses collide inside one sentence, run them in this sequence — ejaan, morfologi, sintaksis, diksi. Errors in the earlier lenses almost always outnumber errors in the later ones on UTBK items.
 
 ---
 
-## Sources & verification
-- Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek, *Tata Bahasa Baku Bahasa Indonesia Edisi IV*.
-- Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V), Kepmendikbudristek No. 0424/I/BS.00.01/2022.
-- Balai Pengelolaan Pengujian Pendidikan (BPPP) Kemendikbudristek, Kisi-kisi Resmi UTBK-SNBT.
+## Continue your study
+
+- **[View this topic in your UTBK/SNPMTN (Indonesia) roadmap](/roadmap/?exam=utbk&duration=1mo)** — see where "Grammar and Language Usage" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=utbk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UTBK/SNPMTN (Indonesia) exam overview](/exams/utbk/)** — pattern, eligibility, and syllabus
+- **[All Indonesian Language (Literasi Bahasa Indonesia) notes](/notes/utbk/indonesian/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

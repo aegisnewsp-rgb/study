@@ -8,90 +8,111 @@ topicName: PUEBI and Language Mechanics
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-22"
 ---
 
 # PUEBI and Language Mechanics
 
+> Bahasa Indonesia on the UNDANA PMB exam rewards orthographic precision more than literary flair. The 2–4 PUEBI items usually decide the difference between a passing and a competitive score, so mastering the 2015 Permendikbud rules is a high-yield return on a short study session.
+
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid review of capitalization, italicization, punctuation marks (colons, semicolons, hyphens), and standard spelling based on EYD Edisi V / PUEBI.
+> The single thing that matters here: PUEBI is the 2015 orthographic rulebook for Bahasa Indonesia, not a list of style suggestions — every rule is testable.
 
-**Ejaan & Tanda Baca Baku — High-Yield Essentials**
+- **PUEBI** (Pedoman Umum Ejaan Bahasa Indonesia) is regulated by **Permendikbud No. 50 Tahun 2015** and replaced the older EYD. The exam tests its prescriptions, not your opinion.
+- Four mechanics dominate the questions: **ejaan** (spelling), **penggunaan huruf** (capitalisation, italics, bold), **tanda baca** (punctuation marks), and **pembentukan kata** (affixation morphology).
+- The most-asked distinction is **preposition vs prefix**: `di Jakarta` (location, separated) versus `ditulis` (passive verb, attached). The same logic governs `ke`/`ke-`.
+- Numerals never open a sentence. Spell out *Dua puluh siswa…* instead of *20 siswa…*.
+- Memory Hook: **"DI pisah, Di- gabung"** — if `di`/`ke`/`dari`/`pada` precedes a noun or adjective, write it as a separate word; if it precedes a verb to mark passive voice, fuse it to the verb.
 
-1. **Penulisan Huruf Miring (Italics):**
-   - Menuliskan judul buku, majalah, atau surat kabar dalam teks (*Buku Laskar Pelangi karya Andrea Hirata*).
-   - Menegaskan atau mengkhususkan huruf, bagian kata, atau kelompok kata (*Huruf pertama kata abad adalah a*).
-   - Menuliskan kata atau ungkapan dalam bahasa daerah atau bahasa asing yang belum diserap (*Sistem upacara adat tefa di Timor; status quo*).
-2. **Penggunaan Tanda Titik Koma (;):**
-   - Memisahkan bagian-bagian kalimat sejenis dan setara (*Hari sudah malam; anak-anak masih membaca buku*).
-   - Memisahkan klausa panjang yang sudah mengandung tanda koma.
-   - Memisahkan butir-butir rincian dalam kalimat pernyataan resmi.
-3. **Penggunaan Tanda Titik Dua (:):**
-   - Digunakan pada akhir pernyataan lengkap yang **langsung diikuti perincian**.
-   - **Catatan Kritis:** Tanda titik dua **TIDAK** digunakan jika perincian tersebut merupakan pelengkap yang mengakhiri pernyataan (e.g., *Kami memerlukan kursi, meja, dan lemari* -> tanpa titik dua!).
-4. **Penulisan Bentuk Terikat:**
-   - Bentuk terikat (*antar-, pasca-, sub-, non-, ekstra-, multi-*) ditulis **serangkai** dengan kata yang mengikutinya (*antarkota, pascasarjana, subsektor, nonformal*).
-   - Jika bentuk terikat diikuti kata berawalan huruf kapital, gunakan tanda hubung (*non-ASEAN, pro-Indonesia*).
-
-⚡ **Jebakan Ujian:** Penulisan kata gabung yang salah kaprah: kata depan *di mana* dan *di balik* ditulis terpisah, sedangkan imbuhan pasif *dimakan* ditulis serangkai. Kata *pun* ditulis terpisah kecuali pada 12 kata penghubung baku (*walaupun, meskipun, bagaimanapun, adapun, dll.*).
-
----
+| Rule cluster | PUEBI chapter | Highest-yield fact |
+|---|---|---|
+| Huruf kapital | II | Proper nouns, *Anda*, document titles, honourific address |
+| Tanda baca | III–IV | Serial *dan/atau* precedes the final item; no Oxford comma |
+| Kata serapan | V–VI | `schedule` → `jadwal`, `psychology` → `psikologi` |
+| Imbuhan | VII | Prefixes (`me-`, `ber-`, `di-`, `ke-`, `se-`, `ter-`, `pe-`), suffixes (`-i`, `-kan`, `-an`), confixes (`ke-…-an`) |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Systematic orthographic guide covering capitalization rules, numeric writing, and hyphenation conventions.
+> Most UNDANA PUEBI items hinge on three chapters: II (capitalisation), V–VI (loanword spelling), and VII (affixation). Drill those, and you will answer the cluster with confidence.
 
-## 1. Pedoman Penulisan Huruf Kapital
+#### Capitalisation — what actually gets a capital letter
 
-Kaidah penulisan huruf kapital sering menjadi soal jebakan utama dalam ujian masuk perguruan tinggi:
+PUEBI Chapter II restricts capitalisation tightly. Capital letters mark the first word of a sentence, proper nouns (personal, geographical, institutional), honourific titles used in address (*Bapak, Ibu, Dokter, S.E.* when paired with a name), names of days, months, and national holidays, religious nouns referring to God or sacred texts, and the pronoun *Anda*. Lowercase is mandatory for common nouns, generic professions, days used adverbially in the middle of a sentence, and kinship terms that function as common nouns rather than address.
 
-| Kasus Penulisan | Aturan Baku Ejaan | Contoh Benar | Contoh Salah |
-|---|---|---|---|
-| **Nama Geografi Jenis vs Asal** | Nama geografi yang menjadi nama jenis ditulis huruf kecil; nama asal ditulis kapital | *kunci inggris, jeruk bali, pisang ambon* | *kunci Inggris, jeruk Bali* |
-| **Gelar Kehormatan & Akademik** | Ditulis kapital HANYA jika diikuti nama orang atau nama wilayah | *Haji Agus Salim, Gubernur NTT, Dokter Sinta* | *Ia baru diangkat menjadi Gubernur.* |
-| **Istilah Kekerabatan Sapaan** | Ditulis kapital jika digunakan sebagai kata sapaan langsung | *\"Kapan Bapak akan berangkat?\" tanya adik.* | *Adik bertanya kapan bapak akan berangkat.* |
-| **Nama Bangsa, Suku, dan Bahasa** | Hanya kata nama bangsa/suku/bahasanya yang kapital | *bangsa Indonesia, suku Sabu, bahasa Dawan* | *Bangsa Indonesia, Suku Sabu* |
-| **Judul Buku & Karya Ilmiah** | Huruf pertama setiap kata kapital KECUALI kata hubung/tugas di tengah | *Dari Ave Maria ke Jalan Lain ke Roma* | *Dari Ave Maria Ke Jalan Lain Ke Roma* |
+> 💡 **High-Yield Revision Hook:** Capital letter = unique identity. Common noun = generic class. *Ibu Ani* (address) is capitalised; *ibu Ani* (the mother of Ani) is not.
 
----
+#### Punctuation — serial *dan/atau* and the ellipsis
 
-## 2. Penulisan Angka dan Bilangan Menurut EYD V
+Indonesian serial lists follow a single convention: the conjunction *dan* or *atau* sits **before** the last member only, with no Oxford-style preceding comma. So *Saya membeli buku, pena, dan pensil.* is correct; the inserted comma before *dan* is a frequent Anglo-Indonesian error.
 
-1. **Bilangan yang Dapat Dinyatakan dengan Satu atau Dua Kata:** Ditulis dengan huruf, kecuali jika dipakai berurutan dalam perincian (*Mereka menonton pertandingan itu sampai tiga kali*; *Di perpustakaan terdapat 150 kursi, 50 meja, dan 10 komputer*).
-2. **Bilangan pada Awal Kalimat:** Selalu ditulis dengan huruf (*Lima puluh peserta hadir tepat waktu*, bukan *50 peserta hadir...*). Jika terlalu panjang, susunan kalimat harus diubah.
-3. **Penulisan Bilangan Tingkat:** Menggunakan angka Romawi atau tanda hubung (*Abad XX* atau *Abad ke-20*, bukan *Abad ke 20*).
-4. **Penulisan Pecahan dan Persen:** Ditulis angka rapat dengan lambang persen (*25%*, bukan *25 %*).
+The **tanda elipsis** (…) takes three unspaced dots and marks an unfinished sentence, a trailing thought, or omitted quoted text. Adjacent punctuation rules: an ellipsis at the end of a sentence is followed by a space when the sentence continues, but absorbs a final period when the sentence ends with the omission.
 
----
+> 📌 **Formula Check:** A sentence may not begin with an Arabic numeral. Write *Dua ribu dua puluh lima* or, in tables and headings, switch to Roman or alphabetic numerals per PUEBI.
+
+#### Affixation morphology — the heart of morphosyntax questions
+
+Bahasa Indonesia builds grammatical relations through affixes. The prefixes *me-, ber-, di-, ke-, se-, ter-, pe-* change the voice, transitivity, or aspect of the root; the confix *ke-…-an* nominalises states (*kebersihan, keindahan*); the confix *pe-…-an* marks agents or instruments (*petani, pakaian*); the suffix *-kan* applies a causative sense (*membesarkan*); the suffix *-i* marks locative or repetitive action (*menduduki*).
+
+| Affix | Function | Example |
+|---|---|---|
+| *me-* + root | Active transitive verb | *menulis* (root *tulis*) |
+| *di-* + root | Passive verb | *ditulis* (no space, no apostrophe) |
+| *ber-* + root | Intransitive / possessive | *bersepeda, bertopi* |
+| *ke-* + root + *-an* | Nominalised state (confix) | *keadilan, keindahan* |
+| *pe-* + root + *-an* | Agent or instrument (confix) | *petani, peralatan* |
+| *-kan* | Causative suffix | *membesarkan, menjelaskan* |
+| *-i* | Locative / repetitive suffix | *menduduki, memukuli* |
+
+#### Worked Problem
+
+**Prompt.** Choose the correctly written sentence.
+
+(A) *di Jakarta banyak pedagang dari pada daerah lain berjualan.*  
+(B) *Di jakarta banyak pedagang daripada daerah lain berjualan.*  
+(C) *Di Jakarta banyak pedagang daripada daerah lain berjualan.*  
+(D) *di Jakarta banyak pedagang Daripada daerah lain berjualan.*
+
+Resolution.
+
+1. **Sentence-initial word.** The sentence must start with a capital letter, eliminating (A) and (D), which open with a lowercase *di*.
+2. **Capitalisation of proper noun.** *Jakarta* is a geographical proper noun and takes a capital *J* in the middle of the sentence. (B) writes *jakarta*, so it fails.
+3. **Single-word conjunction.** PUEBI Chapter III prescribes *daripada* as a single word when expressing comparison; *dari pada* as two words is obsolete and non-standard.
+4. **Result.** Only (C) satisfies all three rules simultaneously.
+
+> ⚠️ **Examiner Trap:** The option that mixes one correct feature (capitalised *Di* and *Jakarta*) with one wrong feature (*daripada* split into two words) is the classic distractor. Students spot the capitals and tick it without reading the conjunction.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comparative punctuation mechanics, editorial proofreading standards, and authentic UNDANA examination questions.
+> Borderline cases are where UNDANA separates adequate test-takers from competitive ones. Three traps account for nearly every disputed PUEBI item.
 
-## 3. Bilingual Study Guide: Comparative Orthography & Mechanics
+#### Loanword boundary cases
 
-Standard Indonesian mechanics derived from EYD Edisi V parallels international publishing standards:
-- **Serial Comma (Oxford Comma):** In formal Indonesian orthography, a comma is strictly mandatory before the final coordinating conjunction in a series of three or more items (*Saya membeli apel, jeruk, dan mangga*, never *apel, jeruk dan mangga* without comma).
-- **Direct Speech Punctuation:** Quotation marks enclose direct speech where the terminal punctuation mark precedes the closing quotation mark (*\"Kami siap mengikuti ujian,\" tegas mahasiswa tersebut.*).
-- **Ellipsis Guidelines:** An ellipsis consists of exactly three dots with spaces (*...*) when indicating omission within a sentence, and four dots when terminating a sentence.
+PUEBI's loanword rules (Chapters V–VI) adapt foreign consonant clusters to Indonesian phonotactics. The consonant *f* replaces English *ph* in many scientific and philosophical terms (*filsafat, fisika, fotografi*). The cluster *ps* at the start of a word is preserved (*psikologi, psikiater*) because Indonesian tolerates /ps/. The cluster *sy* becomes *s* (*sistem, simpati*), while *sh* becomes *s* as well (*sopir* historically from *chauffeur*). Loanword verbs adopt Indonesian prefixes: *to schedule* → *menjadwalkan*, not *menjadwal*-English.
 
-## 4. Latihan Soal Masuk UNDANA (Ejaan & PUEBI)
+#### Particle and preposition ambiguities
 
-**Soal 1 (UNDANA Bahasa):** Penulisan huruf kapital yang tepat terdapat pada kalimat:  
-*(A) Danau Kelimutu terletak di Kabupaten Ende, Nusa Tenggara Timur.  
-(B) Danau kelimutu terletak di kabupaten Ende, Nusa Tenggara Timur.  
-(C) Danau Kelimutu terletak di kabupaten ende, nusa tenggara timur.  
-(D) danau Kelimutu terletak di Kabupaten Ende, Nusa Tenggara timur.*  
-**Jawaban:** (A) (Penjelasan: Nama unsur geografi diri seperti 'Danau Kelimutu' dan nama satuan wilayah administrasi 'Kabupaten Ende' serta nama provinsi 'Nusa Tenggara Timur' semuanya harus diawali huruf kapital).
+1. *di-, ke-* as **preposition** (location): written separately, lowercase — *Ia tinggal di Kupang.*
+2. *di-, ke-* as **prefix** (passive / directional verb): fused to the verb — *Surat itu dikirim ke Jakarta kemarin.*
+3. The conjunction *daripada* (comparison) is one word; the prepositional phrase *dari pada* (from + at, archaic) is not accepted in PUEBI.
+4. *Partikel pelengkap* like *-lah, -kah, -pun, -tah* attach to the host word with a hyphen when emphasising or forming questions — *apakah, inikah, siapalah*.
 
-**Soal 2 (UNDANA Bahasa):** Penggunaan tanda baca titik dua (:) yang tepat terdapat pada kalimat:  
-*(A) Ibu membeli: sayur, buah, dan ikan di pasar tradisional.  
-(B) Syarat pendaftaran meliputi: fotokopi ijazah, pasfoto, dan surat kesehatan.  
-(C) Mahasiswa baru wajib membawa perlengkapan berikut: pensil 2B, penghapus, dan kartu ujian.  
-(D) Kita memerlukan: keberanian, ketekunan, dan kejujuran.*  
-**Jawaban:** (C) (Penjelasan: Tanda titik dua digunakan pada akhir pernyataan lengkap yang diikuti rincian. Pada pilihan A, B, dan D, rincian adalah pelengkap langsung dari predikat, sehingga tidak boleh menggunakan tanda titik dua).
+#### Edge cases in punctuation
+
+- **Tanda petik tunggal** ('…') nests inside double quotation marks for a quoted term inside a quote.
+- **Tanda hubung** (-) joins repeated words for emphasis (*besar-besar, perlahan-lahan*), shortened forms to nouns (*maba-UI* would be wrong; the rule is *maba UI* without a hyphen), and clarifies ambiguous compounds.
+- **Tanda garis miring** (/) marks alternatives or per-unit rates, never replaces the conjunction *atau* in running prose.
+
+#### Advanced practice prompts
+
+1. Rewrite this sentence in fully PUEBI-compliant form, naming each rule you apply: *"10 mahasiswa dari universitas negeri di kupang mengikuti psikiater dari jepang yang memberikan ceramah filsafat di aula."*
+2. Convert the following noun phrase list into a correct PUEBI serial: *apel, jeruk, anggur dan pisang.* Then justify why an Oxford comma would be incorrect.
+
+> ⚠️ **Examiner Trap — Extended:** Avoid "tanda baca kebangsaan" reasoning (treating English punctuation norms as universal). PUEBI's serial-comma rule, ellipsis spacing, and preposition separation are distinct from English conventions, and most wrong answers come from transposing English habits into Indonesian sentences.
+
+## Continue your study
+
+- **[View this topic in your UNDANA Entrance Exam (Indonesia) roadmap](/roadmap/?exam=undana&duration=1mo)** — see where "PUEBI and Language Mechanics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=undana&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNDANA Entrance Exam (Indonesia) exam overview](/exams/undana/)** — pattern, eligibility, and syllabus
+- **[All Language notes](/notes/undana/language/)** — browse sibling topics in this subject
 
 ---
-
-## Sources & verification
-- Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V), Kepmendikbudristek No. 0424/I/BS.00.01/2022.
-- Pusat Pembinaan dan Pengembangan Bahasa, *Buku Praktis Bahasa Indonesia*.
-- Panitia Ujian Masuk Mandiri Universitas Nusa Cendana.
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

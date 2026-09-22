@@ -1,7 +1,7 @@
 export const biology: Subject = {
   id: 'biology', name: 'Biology', color: '#16a34a',
   topics: [
-    { id: 'biolog-001', name: 'Introduction to Biology', weight: 1 as const, description: 'Nature, scope and challenges of biology and the organisational patterns of living systems.' },
+    { id: 'biolog-001', name: 'Scope and Methods of Biology', weight: 1 as const, description: 'Nature, scope and importance of biology; characteristics of living organisms; hierarchical levels of organisation; the scientific method as applied in biology.' },
     { id: 'biolog-002', name: 'Chemical and Cellular Basis of Life', weight: 5 as const, description: 'Water, biomolecules, microscopy, cell structure and the chemical basis of cellular organisation.' },
     { id: 'biolog-003', name: 'Evolution and Diversity of Organisms', weight: 4 as const, description: 'Origin of life, classification, kingdoms, biodiversity and the evolutionary history of organisms.' },
     { id: 'biolog-004', name: 'Plant Form and Function', weight: 4 as const, description: 'Plant anatomy, photosynthesis, transport, reproduction and responses in flowering plants.' },

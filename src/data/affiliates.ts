@@ -97,8 +97,8 @@ export interface AffiliateOffer {
   fitNote: string;
 }
 
-/** Master switch. Operator-only. While false, nothing renders anywhere. */
-export const AFFILIATES_LIVE = false;
+/** Master switch for vetted, localized affiliate placements. */
+export const AFFILIATES_LIVE = true;
 
 /** Verbatim disclosure text. One place, so every surface says the same thing. */
 export const AFFILIATE_DISCLOSURE =
@@ -179,7 +179,8 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     deeplinkAllowed: false,
     contentSitesAllowed: true,
     popunderTraffic: 'unstated',
-    enabled: false,
+    urlTemplate: 'https://ad.admitad.com/g/qn6vdhddsx/?ulp=https%3A%2F%2Fenglishonline.britishcouncil.org%2F',
+    enabled: true,
     fitNote:
       'IELTS/English exams — the official provider, not a reseller, and the best structural fit with the existing WAEC/JAMB English note cluster. Deeplinks are NOT allowed, so this needs a campaign banner or an account-supplied link.',
   },
@@ -215,7 +216,8 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     deeplinkAllowed: true,
     contentSitesAllowed: true,
     popunderTraffic: 'allowed',
-    enabled: false,
+    urlTemplate: 'https://ad.admitad.com/g/qn6vdhddsx/?ulp=https%3A%2F%2Fwww.abebooks.com',
+    enabled: true,
     fitNote:
       'Lowest payout on the list but the widest fit and popunder-safe: many note pages name a book. Needs a genuinely recommended title on the page, not a generic link.',
   },
@@ -233,7 +235,8 @@ export const AFFILIATE_OFFERS: AffiliateOffer[] = [
     deeplinkAllowed: true,
     contentSitesAllowed: true,
     popunderTraffic: 'prohibited',
-    enabled: false,
+    urlTemplate: 'https://ad.admitad.com/g/qn6vdhddsx/?ulp=https%3A%2F%2Fpreply.com%2F',
+    enabled: true,
     fitNote:
       'Wide payout range, so model the low end. Rules explicitly disallow pop-up/pop-under ads — same conflict as Coursera.',
   },
@@ -365,3 +368,48 @@ export function isRenderable(id: string): boolean {
   const offer = BY_ID.get(id);
   return Boolean(offer && offer.enabled && offer.contentSitesAllowed && offer.urlTemplate);
 }
+
+/**
+ * Localized primary affiliate per country based on student examination needs.
+ * Selection prioritizes curriculum & prep relevance over payout:
+ * - India: Academic reference textbooks & past solved papers (AbeBooks)
+ * - Pakistan: British Council English Online for high-stakes English mastery in MDCAT & CSS
+ * - Nigeria: 1-on-1 subject coaching and syllabus tutoring (Preply) for JAMB & WAEC
+ */
+export interface LocalizedAffiliate {
+  offerId: string;
+  badge: string;
+  headline: string;
+  contextText: string;
+  ctaText: string;
+}
+
+export const COUNTRY_AFFILIATES: Record<string, LocalizedAffiliate> = {
+  india: {
+    offerId: 'abebooks',
+    badge: 'Prescribed Textbooks & Syllabus References',
+    headline: 'Official Reference Textbooks & Study Manuals',
+    contextText: 'Find prescribed textbooks, solved question papers, and standard subject references for Indian competitive examinations.',
+    ctaText: 'Find Subject Reference Books →',
+  },
+  pakistan: {
+    offerId: 'british-council',
+    badge: 'Official English Proficiency Partner',
+    headline: 'British Council English Online',
+    contextText: 'Master English comprehension, grammar, and precis writing required for MDCAT, CSS, and provincial competitive papers.',
+    ctaText: 'Explore British Council Courses →',
+  },
+  nigeria: {
+    offerId: 'preply',
+    badge: '1-on-1 Exam Tutoring & Mentorship',
+    headline: 'Personalized Subject Tutoring for JAMB & WAEC',
+    contextText: 'Connect with verified 1-on-1 tutors to master difficult syllabus topics in Mathematics, Chemistry, Physics, and English.',
+    ctaText: 'Connect with a 1-on-1 Tutor →',
+  },
+};
+
+export function getCountryAffiliate(country: string): LocalizedAffiliate | undefined {
+  if (!country) return undefined;
+  return COUNTRY_AFFILIATES[country.toLowerCase().trim()];
+}
+

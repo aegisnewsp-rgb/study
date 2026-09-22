@@ -4,6 +4,7 @@ import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import ShareRow from '../../components/ShareRow.astro';
 import ExamReadinessIsland from '../../components/ExamReadinessIsland';
+import LocalizedAffiliateCard from '../../components/LocalizedAffiliateCard.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 import { EXAM_FAQS } from '../../data/exam-faqs';
 import { getCollection } from 'astro:content';
@@ -1018,6 +1019,11 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
         </div>
       </section>
     )}
+
+    <!-- Localized Exam Preparation Partner & Study Resources -->
+    <div class="container-page">
+      <LocalizedAffiliateCard country={exam.country} examName={examName} />
+    </div>
 
     <!-- Common Mistakes to Avoid (Pitfall vs Strategic Fix) -->
     {commonMistakes.length > 0 && (

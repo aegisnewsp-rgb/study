@@ -1,0 +1,41 @@
+---
+import { getCountryAffiliate, isRenderable } from '../data/affiliates';
+import AffiliateLink from './AffiliateLink.astro';
+import AffiliateDisclosure from './AffiliateDisclosure.astro';
+
+interface Props {
+  country: string;
+  examName: string;
+}
+
+const { country, examName } = Astro.props;
+const rec = getCountryAffiliate(country);
+const live = rec && isRenderable(rec.offerId);
+---
+
+{live && (
+  <div class="my-8 rounded-2xl border border-brand-200/80 bg-gradient-to-br from-brand-50/60 via-white to-surface-50 p-6 shadow-xs dark:border-brand-800/40 dark:from-brand-950/20 dark:via-surface-900 dark:to-surface-900">
+    <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+      <div class="max-w-2xl">
+        <div class="inline-flex items-center gap-1.5 rounded-full border border-brand-300/80 bg-brand-100/60 px-3 py-0.5 text-xs font-semibold text-brand-800 dark:border-brand-700/80 dark:bg-brand-900/40 dark:text-brand-300">
+          <span>📚</span>
+          <span>{rec.badge}</span>
+        </div>
+        <h3 class="mt-2 text-lg font-bold text-surface-900 dark:text-white">
+          {rec.headline} for {examName}
+        </h3>
+        <p class="mt-1 text-sm text-surface-600 dark:text-surface-300">
+          {rec.contextText}
+        </p>
+      </div>
+      <div class="flex-shrink-0">
+        <AffiliateLink
+          id={rec.offerId}
+          label={rec.ctaText}
+          class="inline-flex items-center gap-2 rounded-xl bg-brand-600 px-5 py-2.5 text-sm font-bold text-white shadow-xs transition-colors hover:bg-brand-700"
+        />
+      </div>
+    </div>
+    <AffiliateDisclosure ids={[rec.offerId]} />
+  </div>
+)}

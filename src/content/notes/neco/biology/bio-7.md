@@ -11,146 +11,130 @@ topicName: Transport in Plants and Animals
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.695642"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Detailed biological diagram of Transport in Plants and Animals with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 
 
 
 ---
+
 # Transport in Plants and Animals
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NECO exam.
 
-**Why Transport is Needed:**
-Single-celled organisms rely on diffusion. Multicellular organisms need a transport system because:
-- Volume increases faster than surface area as organisms grow
-- Diffusion over large distances is too slow to meet metabolic demands
+> The single concept most often tested: two parallel transport systems run inside one organism — a dead-tissue water pipeline in plants and a four-chambered, double-loop pump in mammals.
 
-**Animal Transport — The Blood System:**
+Two pipelines run inside a plant. **Xylem** moves water and dissolved mineral salts upward only, from root to leaf, through dead, lignified, hollow tubes driven by transpiration pull, root pressure and capillarity. **Phloem** moves sucrose and other organic solutes in either direction, from source to sink, through living sieve tubes sustained by companion cells (Münch's pressure-flow, 1930).
 
-The **double circulatory system** in mammals:
-- **Pulmonary circulation:** Right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium
-- **Systemic circulation:** Left ventricle → aorta → body → vena cava → right atrium
+One pump runs inside a mammal. The four-chambered heart produces double circulation: the **right** side sends deoxygenated blood to the lungs (pulmonary), and the **left** side sends oxygenated blood to the body (systemic). Blood leaves the heart in **arteries**, returns in **veins**, and exchanges materials in one-cell-thick **capillaries**.
 
-**Heart Structure:**
-- **Right side:** Receives deoxygenated blood, pumps to lungs
-- **Left side:** Receives oxygenated blood, pumps to body
-- Valves (tricuspid, bicuspid/mitral, pulmonary, aortic) prevent backflow
-- **Systole:** Contraction phase (blood ejected)
-- **Diastole:** Relaxation phase (chambers fill)
+| Quantity | Formula | Units |
+|---|---|---|
+| Cardiac output | CO = SV × HR | mL/min (or L/min) |
+| Mean arterial pressure | MAP = DBP + ⅓(SBP − DBP) | mmHg |
+| Blood flow (Poiseuille) | Q = πΔP r⁴ / (8ηL) | m³/s |
 
-**Blood Vessels:**
-- **Arteries:** Carry blood away from heart, thick muscular walls, high pressure, no valves (except semilunar at heart)
-- **Veins:** Return blood to heart, thin walls, low pressure, have valves, skeletal muscle pumps
-- **Capillaries:** One cell thick, site of exchange between blood and tissues
-
-**Plant Transport:**
-- **Xylem:** Transports water and mineral salts from roots to aerial parts. Made of dead cells (vessels, tracheids). No energy required (passive).
-- **Phloem:** Transports organic food (sugars) from leaves to other parts. Made of living cells (sieve tubes, companion cells). Energy required.
-
-⚡ **NECO Tip:** In the transpiration stream, water is pulled up by: (1) root pressure, (2) cohesion-tension theory (water molecules stick together — cohesion — and are pulled up by evaporation from leaves — tension), (3) adhesion of water to xylem walls.
+> 💡 **High-Yield Memory Hook (Memory Hook):** **"XPM — Xylem Pipes up, Phloem Moves both ways."** Pair this with **"Right goes Right side to Right organ = lungs"** for heart tracing. **LUB** = AV valves shut (atria→ventricle block); **DUB** = semilunar valves shut (ventricle→artery block).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for NECO Biology students with a few days to months.
 
-**Blood Composition:**
+> For regular study: lock down the three physical drivers of xylem flow, the three layers of blood vessels, and the chamber-tracing order of the heart.
 
-| Component | Function |
-|---|---|
-| Red blood cells (erythrocytes) | Carry oxygen (haemoglobin) |
-| White blood cells (leucocytes) | Defend against pathogens |
-| Platelets (thrombocytes) | Blood clotting |
-| Plasma | Transport medium: nutrients, wastes, hormones, antibodies |
+#### Plant Side: Xylem vs Phloem
 
-**Blood Groups and Transfusion:**
+| Feature | Xylem | Phloem |
+|---|---|---|
+| Living at maturity | Dead, hollow | Living (sieve tubes lack nuclei; companion cells support) |
+| Material carried | Water, mineral salts | Sucrose, amino acids, hormones |
+| Direction | Root → leaf (upward only) | Source → sink (both directions) |
+| Driving force | Transpiration pull, root pressure, capillarity | Pressure-flow (Münch, 1930) |
+| Reinforcement | Lignin in walls | P-protein, sieve plates |
+| Companion cells | Absent | Present |
 
-| Blood Group | Antigens on RBCs | Antibodies in Plasma | Can Donate To | Can Receive From |
+**Cohesion-tension chain (the most heavily tested mechanism):** water evaporates from mesophyll cell walls into leaf air spaces → creates a negative pressure (xylem tension ≈ −2 to −3 MPa) → water molecules cohere by hydrogen bonds through the continuous column in xylem → root uptake replaces the lost water. Root pressure (measurable at night when transpiration is low) pushes water upward a few metres by osmotic entry through root hairs.
+
+#### Mammalian Side: Heart and Vessels
+
+Trace a drop of deoxygenated blood in this order: **vena cava → right atrium → tricuspid valve → right ventricle → pulmonary semilunar valve → pulmonary artery → lung capillaries (gas exchange) → pulmonary vein → left atrium → bicuspid/mitral valve → left ventricle → aortic semilunar valve → aorta → body → vena cava**. The thicker left ventricular wall reflects the higher systemic pressure it must generate.
+
+| Vessel | Wall | Valves | Blood carried | Direction |
 |---|---|---|---|---|
-| A | A antigen | Anti-B | A, AB | A, O |
-| B | B antigen | Anti-A | B, AB | B, O |
-| AB | A and B antigens | Neither | AB only | All groups |
-| O | Neither | Anti-A and Anti-B | All groups | O only |
+| Artery | Thick, elastic, muscular | Only at heart | Mostly oxygenated (exception: pulmonary artery) | Heart → tissue |
+| Vein | Thin, less muscular | Present throughout | Mostly deoxygenated (exception: pulmonary vein) | Tissue → heart |
+| Capillary | One endothelial cell thick | None | Both | Site of exchange |
 
-Rhesus factor (Rh): Rh+ can receive from Rh+ or Rh−; Rh− can only receive from Rh−. Rh− mother carrying Rh+ baby may produce antibodies against the baby's blood (haemolytic disease of the newborn).
+#### Blood Components
 
-**Transpiration:**
+- **Plasma (~55%)** — water, proteins (albumin, globulins, fibrinogen), dissolved nutrients, hormones, urea, CO₂.
+- **Erythrocytes (RBCs)** — biconcave, no nucleus at maturity in mammals; packed with haemoglobin (each gram binds ≈ 1.34 mL O₂).
+- **Leucocytes (WBCs)** — phagocytes engulf pathogens; lymphocytes drive immunity.
+- **Platelets** — cell fragments for clotting.
 
-Water absorbed by roots → transported through xylem → evaporates from leaves (transpiration) → creates suction force pulling more water up.
+CO₂ travels three ways: **~70% as HCO₃⁻** in plasma, **~23% as carbamino-haemoglobin**, **~7% dissolved** in plasma.
 
-Factors affecting transpiration rate:
-- Temperature: Higher temp → faster transpiration
-- Humidity: Lower humidity → faster transpiration
-- Wind: More wind → faster transpiration
-- Light: Light stimulates stomatal opening → faster transpiration
+#### Worked Practice Through the Cardiac Output Equation
 
-**Uptake of Water and Mineral Ions by Roots:**
+A student's resting heart rate reads 72 beats/min on a NECO practical-style question and stroke volume is given as 70 mL/beat. Examiner asks for cardiac output in L/min.
 
-- **Apoplast pathway:** Water moves through cell walls and intercellular spaces (without crossing membranes) — does not require energy
-- **Symplast pathway:** Water moves through the cytoplasm of cells via plasmodesmata — does not require energy
-- **Endodermis:** The Casparian strip (waxy band) forces water through cell membranes, allowing selective uptake of mineral ions via active transport
+Step 1 — write the relation: CO = SV × HR, where SV is mL/beat and HR is beats/min.
+Step 2 — substitute: CO = 70 mL/beat × 72 beats/min = 5040 mL/min.
+Step 3 — convert to litres: 5040 ÷ 1000 = **5.04 L/min**. (A healthy adult resting range is typically stated in the official NECO syllabus as around 5 L/min, but verify against the current NECO Biology syllabus for the exact expected figure.)
 
-⚡ **NECO Common Mistakes:**
-- Confusing xylem and phloem function and location
-- Thinking transpiration is wasteful — it is essential for cooling, mineral transport, and water movement
-- Mixing up systole and diastole phases of the cardiac cycle
-- Forgetting that arteries carry oxygenated blood away from the heart except for the pulmonary artery (which carries deoxygenated blood to the lungs)
+> ⚠️ **Examiner Trap:** Students frequently forget to convert mL to L, or write the units as "L/beat" — the units must cancel so that beats cancel and only volume/time remains.
+
+> 💡 **High-Yield Revision Hook:** **"PDPA" — Pulmonary, Deoxygenated, Pulmonary Artery."** Anything leaving the **right** ventricle is called an artery even though it carries deoxygenated blood.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for NECO and JAMB Biology preparation.
 
-**The Cardiac Cycle:**
+> Beyond the syllabus surface: where the simple "two pipelines and one pump" picture breaks down, and how NECO and WAEC examiners actually try to trip you.
 
-1. **Atrial systole:** Both atria contract, blood flows into ventricles. AV valves open. Duration: ~0.1 s.
-2. **Ventricular systole:** Both ventricles contract, pressure rises, AV valves close, SL valves open, blood ejected into arteries. Duration: ~0.3 s.
-3. **Diastole:** Both atria and ventricles relax. Blood flows from veins into atria and then into ventricles. Duration: ~0.4 s.
+#### Edge Cases and Boundary Conditions
 
-**Heart Sounds:**
-- First sound (lub): AV valves closing
-- Second sound (dub): Semilunar valves closing
+- **Pulmonary artery vs pulmonary vein naming.** These break the textbook rule that arteries carry oxygenated blood. Examiners love this anomaly, so always qualify.
+- **RBC nucleus status varies.** Mammalian RBCs are anucleate; birds, reptiles, amphibians and fish keep nuclei. NECO SSCE assumes the mammalian case.
+- **Transpiration rate is not constant.** It falls at night (stomata close), rises at midday, and falls again under severe water stress when stomata close to conserve water — root pressure then dominates.
+- **Phloem loading can be apoplastic (via cell walls using sucrose-H⁺ symport) or symplastic (through plasmodesmata).** Munch's pressure-flow works for both; the source-sink gradient is the real driver.
 
-**Blood Pressure:**
+#### Mathematical Limits Worth Knowing
 
-Systolic pressure (peak during ventricular systole): ~120 mmHg in a healthy adult
-Diastolic pressure (during diastole): ~80 mmHg
-Normal: 120/80 mmHg
-
-Hypertension: sustained high blood pressure, increases risk of heart disease, stroke, kidney damage.
-
-**The Oxygen Dissociation Curve:**
-
-A sigmoid (S-shaped) curve showing how haemoglobin's affinity for oxygen changes with partial pressure of oxygen ($pO_2$).
-
-At high $pO_2$ (lungs): Haemoglobin loads oxygen (98% saturated).
-At low $pO_2$ (tissues): Haemoglobin unloads oxygen (70% saturated — leaves 30% for tissues).
-
-Bohr effect: Increased $CO_2$ / decreased pH shifts the curve to the right → haemoglobin releases oxygen more readily (beneficial in metabolically active tissues).
-
-Foetal haemoglobin (HbF): Higher affinity for oxygen than adult haemoglobin — important for getting oxygen from maternal blood in the placenta.
-
-**Phloem Transport — Pressure Flow Hypothesis:**
-
-Sugars are loaded into sieve tubes (by active transport) → water follows by osmosis → increased pressure at source → pressure pushes sap towards sink (areas of lower pressure) → sugars unloaded at sinks.
-
-**Xylem and Phloem Comparison:**
-
-| Feature | Xylem | Phloem |
+| Principle | Limit / Condition | Implication |
 |---|---|---|
-| Function | Water + mineral transport | Organic food transport |
-| Material moved | Inorganic | Organic |
-| Direction of flow | Root → shoot (upward) | Both directions |
-| Living/dead | Dead cells | Living cells |
-| Cells | Vessels, tracheids | Sieve tubes, companion cells |
-| Energy needed? | No | Yes |
+| Poiseuille's law | Flow ∝ r⁴ of capillary radius | A 2× vasoconstriction ≈ 16× fall in flow |
+| MAP formula | MAP = DBP + ⅓ pulse pressure | Used clinically; systolic alone is misleading |
+| Xylem tension | ≈ −2 to −3 MPa | Approaching −4 MPa risks cavitation and embolism |
+| O₂ carrying capacity | ≈ 1.34 mL O₂ per g Hb | Maximum; actual delivery is lower (venous reserve) |
 
-**NECO/JAMB Patterns:**
-- NECO frequently asks: draw and label the vertical section of a dicotyledonous root, stem, and leaf showing xylem and phloem; explain translocation; describe the double circulatory system; compare xylem and phloem; state adaptations of red blood cells and root hair cells
-- Be able to describe an experiment to demonstrate transpiration
+#### Advanced Traps to Avoid
+
+1. Calling lymph a transport fluid for food — lymph returns excess tissue fluid and absorbed fats (as chyle) to blood; it does **not** produce RBCs (that is red bone marrow).
+2. Saying the left ventricle "feeds the lungs" — it feeds the body via the aorta; the right ventricle feeds the lungs.
+3. Treating translocation as downward-only — upward movement dominates in spring when stored root reserves become the source and young shoots become the sink.
+4. Writing "RBCs transport most CO₂" — plasma (as HCO₃⁻) does, not the cell.
+5. Confusing heart **rate** (beats/min) with **cardiac cycle** length (s ≈ 60/HR, ≈ 0.83 s at 72 bpm).
+6. Mixing up **systole** (contraction, "lub" begins) with **diastole** (relaxation, "dub" belongs to the start of the next systole, semilunar closure).
+7. Forgetting that in NECO essay questions, both mechanical (capillarity, root pressure, cohesion-tension) and biological (root hair surface area, active ion uptake) factors must appear to score full marks on water uptake.
+
+#### Exam Strategy for NECO SSCE
+
+Paper II essays on this topic are usually 10 marks and demand a labelled diagram. Always draw and label: heart chambers with valves; the double loop; xylem/phloem cross-section showing vessels, sieve tubes, companion cells. Functional descriptions then earn the remaining marks. Paper I objective questions lean on identifying artery vs vein from wall thickness in a slide description, or selecting the correct sequence of valves blood passes through. A single wrong valve name loses the whole item.
+
+#### Two Prompts to Attempt Before Exam Day
+
+1. Explain how transpiration, cohesion and tension together raise water from root to leaf in a tall tree. *(Test: do you state that water is pulled, not pushed, and that the column breaks under extreme tension?)*
+2. Trace a red blood cell from the hepatic portal vein to the right atrium and back to the liver via the aorta, naming each vessel, valve and chamber passed. *(Test: did you enter the right atrium, not the left, and use the pulmonary vein — an exception to the "veins carry deoxygenated blood" rule?)*
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Transport in Plants and Animals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/neco/biology/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

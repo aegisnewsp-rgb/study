@@ -1,20 +1,20 @@
 export const medical_knowledge: Subject = {
   id: 'medical-knowledge', name: 'Medical-Knowledge', color: '#6b7280',
   topics: [
-    { id: 'medica-001', name: 'Infection Control and Prevention', weight: 3 as const },
-    { id: 'medica-002', name: 'Vital Signs and Physiological Parameters', weight: 3 as const },
-    { id: 'medica-003', name: 'Basic Pharmacology and Drug Classifications', weight: 3 as const },
-    { id: 'medica-004', name: 'Anatomy and Physiological Systems', weight: 3 as const },
-    { id: 'medica-005', name: 'Pathophysiology of Common Diseases', weight: 3 as const },
-    { id: 'medica-006', name: 'Diabetes Mellitus and Management', weight: 3 as const },
-    { id: 'medica-007', name: 'Hypertension and Cardiovascular Disease', weight: 3 as const },
-    { id: 'medica-008', name: 'Respiratory Diseases and Management', weight: 3 as const },
-    { id: 'medica-009', name: 'Infectious Diseases', weight: 3 as const },
-    { id: 'medica-010', name: 'Emergency Response and Triage', weight: 3 as const },
-    { id: 'medica-011', name: 'Fluid, Electrolyte, and Acid-Base Balance', weight: 3 as const },
-    { id: 'medica-012', name: 'Pain Assessment and Management', weight: 3 as const },
-    { id: 'medica-013', name: 'Health Promotion and Patient Education', weight: 3 as const },
-    { id: 'medica-014', name: 'Wound Care and Tissue Viability', weight: 3 as const },
-    { id: 'medica-015', name: 'UAE Health System and Healthcare Regulations', weight: 3 as const }
+    { id: 'medica-001', name: 'Infection Control and Prevention', weight: 5 as const, description: 'Hand hygiene, PPE, sterilisation, isolation precautions and HAAD-aligned infection-control standards - tested directly because breach is a patient-safety event.' },
+    { id: 'medica-002', name: 'Vital Signs and Physiological Parameters', weight: 5 as const, description: 'Temperature, pulse, respiration, blood pressure, oxygen saturation and pain score - the baseline assessment every DOH clinical scenario opens with.' },
+    { id: 'medica-003', name: 'Basic Pharmacology and Drug Classifications', weight: 5 as const, description: 'Pharmacokinetics, pharmacodynamics, major drug classes, indications, contraindications and adverse effects - applied to clinical scenarios that ask the candidate to pick the right drug and dose.' },
+    { id: 'medica-004', name: 'Anatomy and Physiological Systems', weight: 4 as const, description: 'Cardiovascular, respiratory, renal, GI, endocrine and nervous system anatomy and function - the structural and functional baseline for every DOH clinical item.' },
+    { id: 'medica-005', name: 'Pathophysiology of Common Diseases', weight: 4 as const, description: 'Mechanisms of inflammation, neoplasia, hemodynamic disorders and infection - applied across organ systems in DOH clinical reasoning items.' },
+    { id: 'medica-006', name: 'Diabetes Mellitus and Management', weight: 4 as const, description: 'Type 1 and type 2 diabetes, oral hypoglycaemics, insulin regimens, DKA, HHS and chronic complications - tested as standalone items and in DOH clinical scenarios.' },
+    { id: 'medica-007', name: 'Hypertension and Cardiovascular Disease', weight: 4 as const, description: 'Essential and secondary hypertension, ischaemic heart disease, heart failure - drug classes and target-organ damage tested in DOH medical items.' },
+    { id: 'medica-008', name: 'Respiratory Diseases and Management', weight: 3 as const, description: 'Asthma, COPD, pneumonia and tuberculosis - airway management, oxygen therapy and drug selection as tested on DOH clinical items.' },
+    { id: 'medica-009', name: 'Infectious Diseases', weight: 4 as const, description: 'Common bacterial, viral, fungal and parasitic infections - antimicrobial selection, resistance patterns and infection-control implications on DOH items.' },
+    { id: 'medica-010', name: 'Emergency Response and Triage', weight: 4 as const, description: 'ABCDE assessment, basic and advanced life support, triage categories - applied in DOH scenario-based emergency and resuscitation items.' },
+    { id: 'medica-011', name: 'Fluid, Electrolyte, and Acid-Base Balance', weight: 4 as const, description: 'IV fluid selection, electrolyte replacement, ABG interpretation and acid-base disorders - tested because perioperative and acute care depend on it.' },
+    { id: 'medica-012', name: 'Pain Assessment and Management', weight: 3 as const, description: 'Pain scales, opioid and non-opioid analgesia, multimodal pain management - tested in DOH post-operative and palliative care scenarios.' },
+    { id: 'medica-013', name: 'Health Promotion and Patient Education', weight: 2 as const, description: 'Patient education, screening, immunisation and lifestyle counselling - the public-health and primary-care framing in DOH community scenarios.' },
+    { id: 'medica-014', name: 'Wound Care and Tissue Viability', weight: 3 as const, description: 'Wound classification, dressing selection, signs of infection and healing stages - tested in DOH medical and nursing clinical items.' },
+    { id: 'medica-015', name: 'UAE Health System and Healthcare Regulations', weight: 5 as const, description: 'DOH licensing, scope of practice, PQR, malpractice and patient rights - mandatory knowledge because the DOH Standard for Licensing Examinations lists professional ethics and accepted standards as examined content.' }
   ]
 };

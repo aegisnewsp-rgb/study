@@ -1,7 +1,7 @@
 export const accounting: Subject = {
   id: 'accounting', name: 'Accounting', color: '#0891b2',
   topics: [
-    { id: 'accoun-001', name: 'Introduction to Financial Accounting', weight: 2 as const, description: 'Origin, nature and purpose of accounting; users of accounting information; branches of accounting (financial, cost, management, public sector).' },
+    { id: 'accoun-001', name: 'Nature, Purpose and Branches of Accounting', weight: 2 as const, description: 'Origin, nature and purpose of accounting; users of accounting information; branches of accounting (financial, cost, management, public sector).' },
     { id: 'accoun-002', name: 'Accounting Equation and Double Entry Principles', weight: 4 as const, description: 'The accounting equation Assets = Liabilities + Capital; rules of debit and credit; double-entry posting and the trial balance derivation.' },
     { id: 'accoun-003', name: 'Accounting Concepts', weight: 3 as const, description: 'Going concern, accruals, prudence, consistency, materiality, business entity, historical cost and money measurement, with practical illustrations.' },
     { id: 'accoun-004', name: 'Final Accounts of a Sole Trader', weight: 5 as const, description: 'Trading account, profit and loss account and balance sheet from ledger balances, including adjustments for closing stock, depreciation, accruals and prepayments.' },

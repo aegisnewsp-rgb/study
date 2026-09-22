@@ -9,7 +9,7 @@
 // taken by students aiming at engineering, computing, physical-science or
 // quantitative-finance university courses. It is organised into six
 // content strands: Functions and Graphs, Sequences and Series, Vectors,
-// Introduction to Complex Numbers, Calculus, and Probability and
+// Complex Numbers, Calculus, and Probability and
 // Statistics. The topic list below uses the official strand headings
 // from the SEAB 9758 syllabus, with the sub-strand groupings a Singapore
 // JC student would recognise from the official syllabus document.
@@ -30,7 +30,7 @@ export const alevelH2Mathematics: Subject = {
     { id: 'ahm-001', name: 'Functions and Graphs', weight: 4 as const, description: 'Domain, range, composite and inverse functions; transformations of graphs; modulus function; the natural exponential and logarithm and their graphs. The first H2 Math topic a JC1 student meets.' },
     { id: 'ahm-002', name: 'Sequences and Series', weight: 3 as const, description: 'Arithmetic and geometric progressions; sum of first n terms and sum to infinity; convergence; binomial expansion of (1 + x)^n for any rational n. Sets up the rest of calculus and complex numbers.' },
     { id: 'ahm-003', name: 'Vectors', weight: 4 as const, description: 'Three-dimensional vector operations; dot and cross products; lines and planes in 3D; the concept of a normal vector. A heavier workload at H2 than at O-Level because 3D is required.' },
-    { id: 'ahm-004', name: 'Introduction to Complex Numbers', weight: 3 as const, description: 'The Argand diagram; modulus and argument; polar form; De Moivre\'s theorem; the nth roots of a complex number and loci. A pure-mathematics strand unique to H2.' },
+    { id: 'ahm-004', name: 'Complex Numbers and De Moivre\'s Theorem', weight: 3 as const, description: 'The Argand diagram; modulus and argument; polar form; De Moivre\'s theorem; the nth roots of a complex number and loci. A pure-mathematics strand unique to H2.' },
     { id: 'ahm-005', name: 'Calculus (Differentiation and Integration)', weight: 5 as const, description: 'Limits and continuity; the chain, product and quotient rules; implicit differentiation; Maclaurin series; definite integrals; integration by parts, substitution and partial fractions; differential equations and their applications. The largest single strand by marks on Paper 1.' },
     { id: 'ahm-006', name: 'Probability and Statistics', weight: 4 as const, description: 'Permutations, combinations and the binomial and Poisson distributions; the normal distribution; sample means and the Central Limit Theorem; unbiased estimators; confidence intervals and hypothesis testing for the mean and proportion. The other half of the largest-paper section by marks.' }
   ]

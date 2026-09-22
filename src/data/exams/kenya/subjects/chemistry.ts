@@ -1,7 +1,7 @@
 export const chemistry: Subject = {
   id: 'chemistry', name: 'Chemistry', color: '#10b981',
   topics: [
-    { id: 'chemis-001', name: 'Introduction to Chemistry', weight: 2 as const, description: 'Definition and role of chemistry, properties of matter, states of matter, mixtures and separation methods, and chemistry laboratory safety per KICD KCSE Form 1.' },
+    { id: 'chemis-001', name: 'Matter, Mixtures and Separation Techniques', weight: 2 as const, description: 'Definition and role of chemistry, properties of matter, states of matter, mixtures and separation methods, and chemistry laboratory safety per KICD KCSE Form 1.' },
     { id: 'chemis-002', name: 'Structure of the Atom and the Periodic Table', weight: 4 as const, description: 'Atomic structure, electron arrangement, atomic number, mass number, isotopes, and periodic table trends per KICD KCSE Form 2 (24 lessons).' },
     { id: 'chemis-003', name: 'Chemical Families: Patterns in Properties', weight: 3 as const, description: 'Group properties across the periodic table - alkali metals, alkaline earth metals, halogens, noble gases, and transition elements per KICD KCSE Form 2.' },
     { id: 'chemis-004', name: 'Structure and Bonding', weight: 4 as const, description: 'Ionic, covalent, and metallic bonds, Lewis structures, VSEPR shapes, hybridization, and intermolecular forces per KICD KCSE Form 2.' },

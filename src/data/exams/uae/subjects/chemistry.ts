@@ -1,7 +1,7 @@
 export const chemistry: Subject = {
   id: 'chemistry', name: 'Chemistry', color: '#10b981',
   topics: [
-    { id: 'chemis-001', name: 'Introduction to Organic Chemistry and Hydrocarbons', weight: 3 as const, description: 'Carbon bonding, saturated and unsaturated hydrocarbons, and homologous series - the baseline organic chemistry needed to read drug names on HAAD clinical items.' },
+    { id: 'chemis-001', name: 'Carbon Bonding, Hydrocarbons and Homologous Series', weight: 3 as const, description: 'Carbon bonding, saturated and unsaturated hydrocarbons, and homologous series - the baseline organic chemistry needed to read drug names on HAAD clinical items.' },
     { id: 'chemis-002', name: 'IUPAC Nomenclature of Organic Compounds', weight: 5 as const, description: 'Naming parent chains, substituents and functional groups - tested whenever a HAAD item lists a generic drug and asks for the correct functional-group class.' },
     { id: 'chemis-003', name: 'Isomerism in Organic Chemistry', weight: 4 as const, description: 'Structural, geometric and optical isomerism - applied to drug action where one enantiomer is therapeutic and the other is inactive or harmful (e.g. thalidomide).' },
     { id: 'chemis-004', name: 'Alkenes and Alkynes: Properties and Reactions', weight: 2 as const, description: 'Addition reactions, polymerisation and oxidation of unsaturated hydrocarbons - background for lipid metabolism and drug formulation questions.' },

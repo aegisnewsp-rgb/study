@@ -5,7 +5,7 @@ subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-011
 topicName: "Geometry and Measurement"
-weight: 3
+weight: 4
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25

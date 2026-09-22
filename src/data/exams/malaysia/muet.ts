@@ -18,7 +18,7 @@ const exam: ExamTemplate = {
   examName: 'MUET (Malaysia)',
   country: 'malaysia',
   description: "Malaysian University English Test (MUET) is a compulsory English proficiency test for admission to Malaysian public universities. Scored on a band scale 1-6, with most programmes requiring Band 4 minimum.",
-  examPattern: "4 papers: Listening (45 min), Speaking (30 min), Reading (75 min), Writing (75 min). Computer-delivered or paper-based.",
+  examPattern: "As administered by the Malaysian Examinations Council (Majlis Peperiksaan Malaysia https://mpm.edu.my), the test evaluates four components: Listening (approximately 50 minutes), Speaking (about 30 minutes), Reading (75 minutes), and Writing (75 minutes) in computer-delivered or paper-based testing mode.",
   eligibility: "Malaysian secondary or pre-university students. Required for UPU and university admission alongside STPM/Matriculation.",
   subjects,
     durations: {

@@ -11,7 +11,7 @@ topicName: Alcohols Phenol Ether
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.930322"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-22"
 diagramPrompt: "Clear scientific diagram of Alcohols Phenol Ether with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,271 +19,120 @@ diagramPrompt: "Clear scientific diagram of Alcohols Phenol Ether with atom labe
 
 
 ---
+
 # Alcohols Phenol Ether
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Skim this before you walk into Paper 2 — six lines that decide one question.
 
-**Alcohols Phenol Ether** — Key Facts for JEE Advanced
+The –OH carbon decides everything. On an sp³ carbon it's an **alcohol**, on an sp² aromatic ring it's a **phenol**, and between two carbons it is an **ether**. Acid strength follows the same logic: phenol (pKa ≈ 9.95, Ka ≈ 1.3 × 10⁻¹⁰ at 298 K) sits between carboxylic acids and aliphatic alcohols; electron-withdrawing groups on the ring (–NO₂, –CN, –X) drop the pKa further by stabilising the phenoxide.
 
-**Classification & Structure:**
-- **Alcohols:** R–OH where R is alkyl (sp³ C–OH bond). Primary (1°), Secondary (2°), Tertiary (3°) based on carbon bearing –OH.
-- **Phenols:** Ar–OH where –OH is directly attached to benzene ring. Contrast: benzylic alcohol is Ar–CH₂–OH (side chain).
-- **Ethers:** R–O–R′. Symmetric if R = R′, asymmetric otherwise. Diethyl ether (C₂H₅–O–C₂H₅) is the classic example.
+- Alcohols hydrogen-bond (≈ 20 kJ mol⁻¹ per H-bond) → higher BP than isomeric ethers.
+- Lucas test rate: **3° alcohol > 2° alcohol >> 1° alcohol** (carbocation stability).
+- Williamson synthesis: **R–ONa + 1° R′–X → R–O–R′ + NaX** (avoid 3° halide, it eliminates).
+- FeCl₃ on phenol → violet colour; on alcohol → no colour. Quick distinguish.
+- Bromine water decolourises phenol → 2,4,6-tribromophenol (white ppt).
 
-**Nomenclature Quick Rules:**
-- Alcohols: longest chain containing –OH → replace –e with –ol. CH₃CH₂CH₂OH = propan-1-ol.
-- Ethers: write both alkyl groups alphabetically + "ether" (e.g., methyl propyl ether).
-- Phenols: parent is phenol; substituents get priority numbering from –OH bearing carbon (position 1).
-
-**Key Reactions to Remember:**
-| Type | Alcohol (1°) | Alcohol (3°) | Phenol |
-|---|---|---|---|
-| Oxidation | RCHO → RCOOH (K₂Cr₂O₇/H₂SO₄) | No reaction | No oxidation (aromatic ring stable) |
-| Esterification | RCOOH + ROH ⇌ RCOOR + H₂O (acid catalyzed) | Same | Forms phenyl esters |
-| Reaction with PCl₅ | RCH₂OH + PCl₅ → RCH₂Cl + POCl₃ + HCl | Same | C₆H₅OH + PCl₅ → C₆H₅Cl + POCl₃ + HCl |
-| Dehydration | 170°C/H₂SO₄ → alkene | 170°C/H₂SO₄ → alkene (faster, more stable alkene forms) | Not applicable |
-| Halide formation | SOCl₂ preferred (no HCl byproduct issues) | SOCl₂ works | Not typical |
-
-**Victor Meyer's Test (alcohols):**
-- 1° alcohol → red color with NaNO₂ + HCl
-- 2° alcohol → blue color
-- 3° alcohol → no color (reacts differently)
-
-⚡ **Exam Tip:** JEE loves distinguishing 1°, 2°, 3° alcohols via oxidation. KMnO₄ (cold dilute) oxidizes 1° → acids, 2° → ketones; 3° does not react under mild conditions. Remember: steric hindrance accelerates dehydration of 3° alcohols — this is a frequently tested concept.
-
-⚡ **Exam Tip:** Phenol is **insoluble in NaHCO₃** but **soluble in NaOH**. This is THE distinguishing test between phenol and carboxylic acids (which dissolve in both). Carboxylic acids effervesce CO₂ with NaHCO₃; phenol does not. This single fact has appeared in multiple JEE papers.
-
-⚡ **Exam Tip:** In ether cleavage by HI, the iodide attacks the more substituted carbon (SN2 is not operative here at high temperature — it's SN1-like). For (CH₃)₃C–O–CH₃ + HI → (CH₃)₃C–I + CH₃I, not the other way around. This is counterintuitive — remember it.
+> 💡 **High-Yield Memory Hook (ACE-PFA):** **A**cidity (Phenol > H₂O > Alcohol) → **C**arbocation order for Lucas (3°>2°>1°) → **E**ther cleavage by HI gives smaller alkyl as iodide. Run ACE in your head and you cover 60% of the paper.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Read once, write once, attempt the worked block at the end before checking the answer key.
 
-**Alcohols Phenol Ether** — Chemistry Study Guide
+#### Naming the Three Families
 
-**1. Structure & Bonding:**
+All three share the C–O bond but the carbon context switches the rules. R–OH where R is alkyl = alcohol (1°, 2°, 3° by counting C neighbours on the carbinol carbon). Ar–OH where Ar is aromatic = phenol; the O–H proton is unusually mobile because the conjugate base (phenoxide) delocalises charge into the ring. R–O–R′ between two carbons = ether; symmetrical when R = R′, mixed when one side is aryl and the other alkyl.
 
-**Alcohols:**
-- Oxygen in –OH uses sp³ hybridization
-- C–O bond length ~143 pm; O–H bond ~96 pm
-- Bond angle at C–O–H is ~109° (tetrahedral)
-- Hyperconjugation possible in 2° and 3° alcohols with adjacent C–H bonds
-- H-bonding: alcohols can form H-bonds with themselves and water → high boiling points, water solubility for C₁–C₃
+#### Acidity, Stability and the Resonance Argument
 
-**Phenols:**
-- The –OH group in phenol is attached to sp² C of benzene
-- C–O bond in phenol (~136 pm) is shorter than in aliphatic alcohols (~143 pm) due to partial double bond character from resonance
-- Resonance structures show ortho/para positions acquire negative charge → explains electrophilic substitution patterns
-- Phenol is more acidic than aliphatic alcohols (pKa ~10 vs ~15-18) because phenoxide ion is resonance-stabilized
-- Nitrophenols: o- and p-nitrophenol have pKa ~7-8 (dramatically more acidic than phenol) due to intramolecular H-bonding in o-isomer and extended conjugation in p-isomer
+Phenol sits at pKa ≈ 9.95 because the phenoxide ion spreads its negative charge over the ortho and para carbons through resonance. Aliphatic alkoxides (pKa ≈ 16–18) cannot delocalise, so the equilibrium sits far to the left. Substituents on the ring tune this:
 
-**Ethers:**
-- Oxygen is sp³ hybridized with two lone pairs
-- C–O–C bond angle ~111° (slightly larger than tetrahedral due to lone pair repulsion)
-- Ethers are polar molecules (dipole moment ~1.18 D for dimethyl ether) but cannot H-bond with themselves (no H on O)
-- This explains their boiling points being close to hydrocarbons of similar MW, not alcohols
+| Substituent on phenol | Effect on acidity | Reason |
+|---|---|---|
+| –NO₂ (ortho or para) | Strongly increases | Resonance withdrawal stabilises ArO⁻ |
+| –CH₃, –OR, –NH₂ | Decreases | Donates electron density into ring |
+| –Cl, –Br | Mildly increases | Inductive withdrawal dominates over poor resonance donation |
+| –COOH (para) | Increases | Cross-conjugation removes charge from ring |
 
-**2. Preparation Methods:**
+> 📌 **Formula Check:** Phenol dissociation ArOH ⇌ ArO⁻ + H⁺ carries Ka ≈ 1.3 × 10⁻¹⁰ at 298 K (dimensionless). Anything stronger than this pair goes on the acidic side.
 
-**Alcohols:**
-1. **Hydroboration-Oxidation (BH₃, then H₂O₂/NaOH):** Anti-Markovnikov addition of H₂O to alkenes. Example: CH₂=CH₂ + BH₃ → CH₃–CH₂–OH (primary alcohol, anti addition)
-2. **Oxymercuration-Demercuration (Hg(OAc)₂, H₂O, then NaBH₄):** Markovnikov addition, no rearrangement
-3. **Grignard + Carbonyl:** RMgX + HCHO → 1° alcohol; RMgX + R'CHO → 2° alcohol; RMgX + ketone → 3° alcohol
-4. **Reduction of carbonyls:** LiAlH₄ or NaBH₄ reduce carboxylic acids and esters to alcohols
-5. **Fermentation:** Ethanol from glucose (biological, not JEE focus)
+#### Preparation Quick-Map
 
-**Phenols:**
-1. **Dow's process:** Chlorobenzene + NaOH (300°C, 300 atm) → phenol. Requires –Cl ortho/para to –OH (no meta here).
-2. **From cumene:** Cumene (isopropylbenzene) + O₂ → cumene hydroperoxide → cleavage → phenol + acetone (major industrial method)
-3. **Hydrolysis of diazonium salts:** Ar–N₂⁺ + H₂O → phenol (loss of N₂)
-4. **Alkali fusion of sulfonates:** Ar–SO₃Na + NaOH (high T) → Ar–ONa → acidify → phenol
+| Target | Best route | Notes |
+|---|---|---|
+| Alcohol (Markovnikov) | Alkene + H₃O⁺ | Carbocation pathway, rearrangements possible |
+| Alcohol (anti-Markovnikov) | Hydroboration–oxidation | BH₃ then H₂O₂/OH⁻, no rearrangement |
+| Phenol | Cumene process (industrial) | Lab: diazonium hydrolysis |
+| Symmetrical ether | Acid-catalysed dehydration of 1° alcohol | 2°/3° give alkenes instead |
+| Unsymmetrical ether | Williamson synthesis | Always pick the 1° alkyl halide for SN2 |
 
-**Ethers:**
-1. **Williamsons ether synthesis:** R–ONa + R′–X → R–O–R′. For unsymmetrical ethers, use the alkoxide from less hindered alcohol and alkyl halide from more hindered group to minimize elimination.
-2. **Acid-catalyzed dehydration:** 2R–OH → R–O–R at 140°C (lower T gives ethers; 170°C gives alkenes). Tertiary alcohols cannot be dehydrated to ethers this way (they dehydrate to alkenes directly).
-3. **Urea inclusion method:** For preparing diethyl ether from ethanol + H₂SO₄ at 140°C
+#### Distinguishing Tests in One Line Each
 
-**3. Reactions:**
+- **Sodium metal:** alcohols + phenols liberate H₂; ethers do not.
+- **Lucas (ZnCl₂/HCl):** 3° gives cloudiness instantly, 2° in 5–10 min, 1° no reaction at room temperature.
+- **FeCl₃:** phenol gives violet/purple; alcohol stays unchanged.
+- **Bromine water:** phenol → white 2,4,6-tribromophenol; alcohol no reaction.
+- **2,4-DNP:** carbonyls (aldehydes/ketones) give yellow/orange ppt; alcohols and phenols do not.
 
-**Alcohols — Oxidation:**
-```
-1° Alcohol: RCH₂OH → [O] → RCHO → [O] → RCOOH
-         (K₂Cr₂O₇/H₂SO₄ or PCC gives aldehyde;
-          KMnO₄ or hot K₂Cr₂O₇ gives acid)
-2° Alcohol: R₂CHOH → [O] → R₂C=O (ketone)
-3° Alcohol: No oxidation (must break C–C bonds)
-```
+#### Worked Practice
 
-**Alcohols — Dehydration:**
-```
-CH₃CH₂OH →(conc. H₂SO₄, 170°C)→ CH₂=CH₂ + H₂O
-(CH₃)₃C–OH →(conc. H₂SO₄, 80°C)→ (CH₃)₂C=CH₂ (Zaitsev)
-Mechanism: Protonation → loss of water → carbocation → loss of H⁺
-Note: 3° carbocations are stable; 1° via E2 (no carbocation rearrangement)
-```
+A JEE Advanced single-correct question reads: *Compound X (C₇H₈O) is insoluble in NaHCO₃ but soluble in NaOH, gives violet colour with neutral FeCl₃, and decolourises bromine water to form a tribromo derivative. Identify X.*
 
-**Phenols — Electrophilic Aromatic Substitution:**
-- –OH is activating, o/p directing
-- Nitration: dilute HNO₃ → mixture of o- and p-nitrophenol
-- Halogenation: Br₂/H₂O → 2,4,6-tribromophenol (white precipitate) — sensitive test
-- Kolbe's reaction: Phenol + NaOH + CO₂ → salicylaldehyde (formylation at ortho)
-- Reimer-Tiemann: Phenol + CHCl₃ + NaOH → benzaldehyde (formylation at para primarily)
-- Coupling: Phenol + diazonium salt → azo compound (colored, used in dyes)
+Working through it: degree of unsaturation = (2·7 + 2 − 8)/2 = 4, consistent with one aromatic ring. Insoluble in NaHCO₃ rules out a carboxylic acid. Soluble in NaOH means the –OH is acidic enough (so phenol, not alcohol). FeCl₃ violet + Br₂/water tribromo = free phenolic –OH with the ring unsubstituted at o,o,p. The C₇H₈O formula matches **phenol** (C₆H₅OH), not an alcohol like benzyl alcohol (C₆H₅CH₂OH) — benzyl alcohol would not decolourise bromine water.
 
-**Ethers — Cleavage:**
-```
-R–O–R' + HI (excess) → RI + R'I
-(CH₃)₃C–O–CH₃ + HI → (CH₃)₃CI + CH₃I
-(aryl ethers: Ar–O–R + HI → Ar–OH + RI)
-```
-⚡ Watch out: Aryl-alkyl ethers always give phenol + alkyl iodide (Ar–O bond doesn't break because it's resonance stabilized).
+> ⚠️ **Examiner Trap:** Students often pick cresols (methylphenols, C₇H₈O) and assume any C₇H₈O aromatic alcohol works. Cresols fail the bromine-water test because all ring positions are blocked by –CH₃ once you consume the o/p sites. The molecular formula alone is not enough — run every distinguishing test.
 
-**Electronic Effects in Phenol:**
-- –OH donates electrons by resonance (+M) into the ring
-- –OH withdraws electrons by induction (–I) from oxygen's electronegativity
-- Overall: activating effect (ring is more electron-rich than benzene)
-- The resonance structures place positive charge at ortho and para positions
-- Stability of phenoxide ion: conjugate base is resonance-stabilized (negative charge delocalized to ortho and para positions on the ring)
+#### Concept Comparison Matrix
+
+| Property | Alcohol | Phenol | Ether |
+|---|---|---|---|
+| Hybridisation of C bonded to O | sp³ | sp² (ring) | sp³ (both sides) |
+| Acidic? | Very weakly (pKa 16–18) | Weakly (pKa ≈ 10) | No |
+| H-bond donor | Yes | Yes | No (only acceptor) |
+| Boiling point (same molar mass) | High | High | Lower than alcohol |
+| Lucas test | 1°/2°/3° pattern | No reaction | No reaction |
+| FeCl₃ test | No colour | Violet/purple | No colour |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Push past surface recall — these are the points where top-100 ranks separate from the rest.
 
-**Alcohols Phenol Ether** — Comprehensive Chemistry Notes
+#### Where JEE Advanced Crosses Two Chapters
 
-**1. Detailed Mechanisms:**
+The same molecule often carries an alcohol and an aromatic ring. Cyclohexylmethanol (C₆H₁₁–CH₂OH) will form a carbocation on dehydration but the ring is untouched; bromination, however, attacks the ring. Always classify the reagent first, then the functional group. Phenols behave as EAS substrates because the lone pair on oxygen conjugates into the ring; the ring's π density goes up, not down, which is why phenol brominates at o,o,p without a Lewis acid.
 
-**Dehydration of Alcohols — E1 Mechanism:**
-```
-Step 1: Protonation of –OH → ROH₂⁺
-Step 2: Loss of H₂O → carbocation (rate-determining)
-Step 3: Loss of H⁺ from adjacent carbon → alkene
-Carbocation stability: 3° > 2° > 1° > methyl
-Rearrangements: H⁻ or CH₃⁻ shift to form more stable carbocation
-```
+#### Cleavage of Ethers by HI — The Hidden Selectivity
 
-Example: CH₃–CH₂–C(OH)(CH₃)–CH₃ (3°-pentanol-2) dehydration → 2-methyl-2-butene (more substituted alkene). A methyl shift from C-3 to C-2 occurs.
+With **excess HI**, R–O–R′ gives R–I + R′–OH where the iodide forms on the **less hindered** carbon (SN2), unless one side is methyl or aryl. Methyl/aryl groups prefer to leave as the iodide because the SN2 transition state is far less crowded. With **one equivalent of HI at low temperature**, the oxygen is simply protonated to form an oxonium salt. Students lose marks by writing "ether gives two alkyl iodides on reaction with HI" without the excess/limited qualifier.
 
-⚡ Carbocation rearrangements are EXAM GOLD. JEE frequently gives a substrate that requires rearrangement to form a more substituted alkene. Watch for: 1,2-hydride shifts and 1,2-methyl shifts.
+#### Edge Cases That Show Up Every Alternate Year
 
-**Nucleophilic Substitution on Alcohols with PCl₅:**
-```
-R–OH + PCl₅ → R–Cl + POCl₃ + HCl
-Mechanism: PCl₅ is an electrophile; oxygen attacks P, then Cl⁻ displaces
-No carbocation intermediate (SN2-like at primary, SN1 at tertiary)
-```
+1. **o-Nitrophenol vs p-nitrophenol:** ortho forms intramolecular H-bond with –NO₂ → steam-volatile, lower BP, less acidic in water than p- in some solvent systems. p- forms strong **inter**molecular H-bonds, much higher BP.
+2. **Claisen rearrangement:** allyl phenyl ether (PhO–CH₂–CH=CH₂) heated to ≈ 200 °C gives **o-allyl phenol**, not the para isomer. Mechanism is a concerted [3,3]-sigmatropic shift through a six-membered cyclic transition state. Drawing the para product here is the most common single-mark loss.
+3. **Grignard + formaldehyde** = primary alcohol. Grignard + any other aldehyde = secondary. Grignard + ketone = tertiary. PCl₅ converts only the –OH, not the ring.
+4. **Bucherer reaction** (naphthyl amine ⇌ naphthol) is diagnostic for naphthalene chemistry — not a phenol question directly, but examiners use it to test if you can spot the equilibrium.
+5. **Fries rearrangement:** phenyl ester + AlCl₃ → o/p-hydroxy ketone. Heat favours para, low temperature favours ortho.
 
-**Oxidation Mechanisms:**
-- PCC (pyridinium chlorochromate): mild oxidant, stops at aldehyde for 1° alcohols (no water present)
-- KMnO₄: strong oxidant, goes to carboxylic acid
-- Swern oxidation: DMSO + (COCl)₂ + Et₃N → oxidizes 1° → aldehyde, 2° → ketone (mild, inert to double bonds)
+#### Acidity Order in One Sentence
 
-**Phenol — Kolbe's Reaction (Decarboxylative Coupling):**
-```
-C₆H₅OH + NaOH → C₆H₅ONa
-C₆H₅ONa + CO₂ → o-HOC₆H₄COONa (sodium salicylate)
-→ H⁺ → Salicylic acid (o-hydroxybenzoic acid)
-This is electrophilic aromatic substitution where CO₂ is the electrophile (mild conditions)
-```
+For nitrophenols the order in aqueous solution is **o-nitrophenol > p-nitrophenol > m-nitrophenol > phenol**, with o- slightly lower in gas phase because intramolecular H-bonding locks the proton away from solvent. Memorise the aqueous order; that is what Paper 2 asks.
 
-**Phenol — Reimer-Tiemann:**
-```
-C₆H₅OH + CHCl₃ + KOH → o-HOC₆H₄CHO (salicylaldehyde) + p-HOC₆H₄CHO
-Mechanism: Dichlorocarbene (:CCl₂) forms as reactive intermediate
-:CCI₂ attacks ortho or para position of phenoxide
-Elimination of HCl and hydrolysis gives aldehyde
-```
-⚡ Formaldehyde is NOT produced in Reimer-Tiemann. The intermediate is dichlorocarbene. If asked about the mechanism, remember: phenoxide (not phenol) is the actual nucleophile — the –O⁻ activates the ring far more than –OH would.
+> 📌 **Formula Check (acid strength):** Ka ∝ (stability of conjugate base); for o-nitrophenol, additional stabilisation from intramolecular H-bond raises Ka relative to p-, where only intermolecular stabilisation operates.
 
-**Phenol — Fries Rearrangement:**
-```
-Phenyl acetate (AlCl₃) → o-hydroxyacetophenone + p-hydroxyacetophenone
-This is intramolecular electrophilic aromatic substitution
-It involves migration of the acetyl group to ortho or para position
-```
-⚡ The catalyst is AlCl₃ (Lewis acid) — not a protic acid. This is important to note.
+#### Practice Prompts for Self-Testing
 
-**Williamson's Ether Synthesis — Mechanism & Limitations:**
-```
-RO⁻ + R'–X → R–O–R' + X⁻ (SN2)
-```
-- Alkoxide is a strong nucleophile; it attacks the less hindered carbon of R'–X
-- If R'–X is tertiary → elimination (E2) dominates → alkene formed
-- For preparing tert-butyl ethyl ether: use NaOEt + tert-butyl bromide? NO — this gives isobutylene (elimination). Must use NaO-tert-Butyl + ethyl bromide instead.
-- Phenoxides can undergo Williamson ether synthesis: ArO⁻ + R–X → Ar–O–R
-
-**Ether Autoxidation:**
-- Ethers slowly oxidize in air to peroxides (ROOR)
-- Diethyl ether peroxides are explosive — laboratory ether stocks should be tested periodically
-- This is why old ether bottles should not be evaporated to dryness
-
-**2. Stereochemistry:**
-
-**Chiral Alcohols:**
-- Secondary alcohols with four different groups are chiral (e.g., CH₃CH(OH)CH₂CH₃ = butan-2-ol is chiral)
-- Assigning R/S: Priority of –OH is high (O, C, C, H in order); need to determine spatial arrangement
-- Racemic mixtures: Formed when 2° alcohol is made from ketone reduction using NaBH₄ (planar hydride attack gives both enantiomers equally)
-
-**Dehydration with Stereospecificity:**
-- E2 elimination from threo/erythro substrates gives specific alkene stereochemistry
-- Anti-periplanar geometry required for E2
-- In cyclohexane systems, trans-diaxial elimination gives alkenes
-
-**3. Comparative Study:**
-
-**Boiling Points:**
-- Compare CH₃CH₂CH₂OH (propan-1-ol, BP 97°C) vs CH₃OCH₂CH₃ (methoxyethane, BP 7°C)
-- Both have MW ~60, but alcohol has H-bonding → BP ~90°C higher!
-- This trend holds for all alcohols vs ethers of same MW
-- Among alcohols: 1° > 2° > 3° in BP for same MW (more surface area for H-bonding in 1°)
-
-**Acidity Order:**
-```
-p-Nitrophenol (pKa ~7.2) > o-Nitrophenol (pKa ~7.2) > Phenol (pKa ~10) 
-> CH₃OH (pKa ~15.5) > (CH₃)₃C–OH (pKa ~18)
-```
-Why? Electron-withdrawing groups (–NO₂) stabilize phenoxide; alkyl groups donate electrons (+I) destabilizing alkoxide.
-
-⚡ **JEE frequently asks:** "Arrange in order of acidity: phenol, o-cresol, p-nitrophenol, p-cresol." Answer: p-nitrophenol > phenol > o-cresol > p-cresol (alkyl groups are weakly activating, slightly decrease acidity).
-
-**Basicity of Ethers:**
-- Ethers are very weak bases (protonated only with strong acids like cold conc. H₂SO₄)
-- Ethers coordinate with Lewis acids (BF₃, AlCl₃) — this is why AlCl₃ is used in Friedel-Crafts reactions in ether solvents
-- Ethers form stable inclusion compounds with water (clathrate hydrates)
-
-**4. Biological & Industrial Significance:**
-
-- Methanol: Wood alcohol — toxic (blindness, death), used as fuel additive
-- Ethanol: Biofuel, antiseptic, solvent; metabolic product of fermentation
-- Phenol: Antiseptic (carbolic acid), precursor to aspirin, nylon, detergents
-- Bisphenol A (BPA): Precursor to polycarbonate plastics and epoxy resins
-- Diethyl ether: Historical anesthetic, still used as solvent for Grignard reactions
-- Anisole (methoxybenzene): Fragrance compound, found in essential oils
-- Epoxy resins: Derived from epichlorohydrin + bisphenol A — used in adhesives and coatings
-
-**5. Synthetic Applications — Multi-Step Problems:**
-
-**Problem: Convert acetylene to propanol-2:**
-```
-Step 1: HC≡CH →[NaNH₂, then CH₃I]→ CH₃–C≡CH (propyne)
-Step 2: CH₃–C≡CH →[Hg²⁺/H₂SO₄, H₂O]→ CH₃–CO–CH₃ (acetone, Markovnikov addition)
-Step 3: Acetone →[NaBH₄ or LiAlH₄]→ (CH₃)₂CH–OH (propanol-2)
-```
-
-**Problem: Distinguish between 1°, 2°, 3° alcohols using Lucas Test (ZnCl₂/HCl):**
-- 3°: Immediate turbidity (within 1 min)
-- 2°: Turbidity in 2-5 min
-- 1°: No reaction at room temperature (requires heating)
-⚡ Mechanism: HCl protonates –OH, Cl⁻ attacks; tertiary gives carbocation instantly, primary requires heat and doesn't really proceed well at all.
-
-**Problem: Distinguish phenol from benzoic acid:**
-- Add NaHCO₃ solution to both
-- Benzoic acid: effervescence (CO₂ evolved) → dissolves
-- Phenol: no effervescence, dissolves in NaOH but not NaHCO₃
-⚡ This is JEE's most repeated distinguishing test — commit it to memory.
+1. Predict the major product of 1-bromo-2-methylpropane + sodium ethoxide in ethanol at 80 °C, and justify whether Williamson or E2 dominates. (Hint: 1° halide, unhindered alkoxide → Williamson wins; bulky t-butoxide on the same halide would give elimination.)
+2. Explain, with a mechanism, why allyl vinyl ether rearranges faster than allyl phenyl ether on heating. (Vinyl uses the oxygen lone pair in the transition state differently; the aromatic ring pulls electron density away in phenyl.)
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Alcohols Phenol Ether" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeeadvanced/chemistry/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

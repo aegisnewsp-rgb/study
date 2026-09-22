@@ -8,170 +8,124 @@ topicName: "Kinematics: Motion in a Straight Line"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.628192"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-22"
 diagramPrompt: "Clean educational diagram showing Kinematics: Motion in a Straight Line with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 ---
 
-# "Kinematics: Motion in a Straight Line"
+# Kinematics: Motion in a Straight Line
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your WAEC exam.
 
-**Key Definitions:**
-- **Distance**: Total path length travelled (scalar, always positive)
-- **Displacement**: Change in position (vector, can be positive or negative)
-- **Speed**: Distance/time (scalar)
-- **Velocity**: Displacement/time (vector)
-- **Acceleration**: Change in velocity/time (vector)
+> Treat the four symbols **u, v, a, s, t** as the only variables WAEC will ever hand you in a 1-D motion problem.
 
-**Units:**
-- Distance/displacement: metre (m)
-- Speed/velocity: metre per second (m/s)
-- Acceleration: metre per second squared (m/s²)
+For WAEC WASSCE Physics, this topic covers bodies moving along a single straight track (or falling vertically) at either **constant velocity** or **uniformly accelerated motion**. Everything reduces to four equations and a sign convention. Take the direction of motion as positive; gravity, when acting against motion, is negative.
 
-**Core Equations (Constant Acceleration):**
+| Symbol | Meaning | SI unit | Dimension |
+|---|---|---|---|
+| u | initial velocity | m s⁻¹ | LT⁻¹ |
+| v | final velocity | m s⁻¹ | LT⁻¹ |
+| a | acceleration | m s⁻² | LT⁻² |
+| s | displacement | m | L |
+| t | time | s | T |
 
-$$v = u + at$$
+The four workhorse equations (valid only when a is constant):
 
-$$s = ut + \frac{1}{2}at^2$$
+- v = u + at
+- s = ut + ½at²
+- v² = u² + 2as
+- s = ½(u + v)t
 
-$$v^2 = u^2 + 2as$$
+For free fall under WAEC's convention, g = 10 m s⁻².
 
-$$s = \frac{(u+v)}{2}t$$
+> 💡 **High-Yield Memory Hook — "VUSA, SUVAT, VUSS":** the four equations in the order V = U + A·t, S = U·t + ½A·t², V² = U² + 2A·S, S = ½(U+V)·t. Most candidates forget the constant-acceleration requirement and lose marks. Memorise the rule: **a must be constant, otherwise SUVAT is dead.**
 
-Where:
-- $u$ = initial velocity
-- $v$ = final velocity
-- $s$ = displacement
-- $a$ = acceleration
-- $t$ = time
+Two graph shortcuts save time on Paper 2:
 
-⚡ **WAEC Tip**: Choose your equation based on what's given and what's asked. If you have $u, v, a$ but not $t$, use $v^2 = u^2 + 2as$. If you have $u, a, t$ but not $v$, use $s = ut + \frac{1}{2}at^2$.
+- Gradient of a velocity–time graph = acceleration.
+- Area under a velocity–time graph = displacement.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
 
-**Motion Under Gravity:**
-- $g = 9.8\,\text{m/s}^2$ (or $10\,\text{m/s}^2$ for approximations)
-- Objects fall with constant acceleration $g$ (ignoring air resistance)
-- Upward motion: acceleration = $-g$ (velocity decreases)
-- Downward motion: acceleration = $+g$ (velocity increases)
+> Use the SUVAT block above only after you have checked that acceleration is constant; if a varies, the equations do not apply.
 
-**Upward Projection:**
-- At maximum height: $v = 0$
-- Time to reach height $h$: $t = \frac{v - u}{-g}$; solve $h = ut - \frac{1}{2}gt^2$
+#### Defining the five kinematic quantities
 
-**Free Fall:**
-- If dropped: $u = 0$, so $v = gt$, $s = \frac{1}{2}gt^2$
-- Time to fall height $h$: $t = \sqrt{\frac{2h}{g}}$
+**Displacement (s)** is the directed distance from start to finish — a vector in metres. **Distance** is the total path length — a scalar. A body that walks 5 m east then 3 m west has displacement 2 m east but distance 8 m. WAEC questions often swap these two words deliberately.
 
-**Worked Example 1:**
-A car accelerates from rest at $2\,\text{m/s}^2$ for $5\,\text{s}$, then continues at constant velocity for $10\,\text{s}$. Find total distance covered.
+**Velocity (v)** is rate of change of displacement, vector, m s⁻¹. **Speed** is rate of change of distance, scalar. **Acceleration (a)** is rate of change of velocity, vector, m s⁻². When v is constant, a = 0 and the body covers equal displacements in equal intervals.
 
-Solution:
-- Phase 1: $u = 0$, $a = 2$, $t = 5$
-  - $s_1 = 0 + \frac{1}{2}(2)(25) = 25\,\text{m}$
-  - $v = 0 + 2(5) = 10\,\text{m/s}$
-- Phase 2: $u = 10$, $a = 0$, $t = 10$
-  - $s_2 = 10 \times 10 = 100\,\text{m}$
-- Total: $s = 25 + 100 = 125\,\text{m}$
+#### Concept Comparison Matrix — distance vs displacement, speed vs velocity
 
-**Worked Example 2:**
-A ball is thrown vertically upward with velocity $30\,\text{m/s}$. Find:
-1. Maximum height reached
-2. Time to return to starting point
+| Quantity | Type | Symbol | SI unit | Graphical clue |
+|---|---|---|---|---|
+| Distance | scalar | d | m | area under speed–time graph |
+| Displacement | vector | s | m | area under velocity–time graph (signed) |
+| Speed | scalar | — | m s⁻¹ | gradient of distance–time graph |
+| Velocity | vector | v | m s⁻¹ | gradient of displacement–time graph |
+| Acceleration | vector | a | m s⁻² | gradient of velocity–time graph |
 
-Solution:
-1. At max height, $v = 0$: $0 = 900 - 2(10)h \Rightarrow h = 45\,\text{m}$
-2. Time up = $v = u - gt$: $0 = 30 - 10t \Rightarrow t = 3\,\text{s}$
-   Total time = $3 + 3 = 6\,\text{s}$
+#### Uniform velocity versus uniformly accelerated motion
 
-**Relative Velocity:**
-If two objects move in the same direction with velocities $v_1$ and $v_2$, relative velocity of 1 with respect to 2 = $v_1 - v_2$.
+A body under uniform velocity traces a straight d–t line through the origin; the slope equals v. A uniformly accelerated body traces a parabola on the d–t graph, and a straight inclined line on the v–t graph whose slope equals a and whose area under it equals s. WAEC's most common Paper 2 question asks candidates to extract u, a, and s directly from a sketched v–t graph — read the intercept, read the slope, then take the area.
 
-If moving in opposite directions, relative velocity = $v_1 + v_2$.
+#### Vertical motion under gravity
 
-⚡ **Common Mistake**: Students confuse distance with displacement. Distance is always positive; displacement can be negative. Average speed = total distance/total time, but average velocity = total displacement/total time.
+Take upward as positive. Then a = −g = −10 m s⁻². A stone thrown up with u = 30 m s⁻¹ climbs until v = 0, then falls back. Maximum height comes from v² = u² + 2as with v = 0, giving H = u²/(2g) = 30²/20 = 45 m. Time to top: t = u/g = 3 s. Total time of flight = 2u/g = 6 s. The motion is symmetric: the body returns to launch height with speed 30 m s⁻¹ downward.
+
+#### Worked exam-style problem — stone dropped from a 45 m cliff
+
+A stone is released from rest at the top of a 45 m cliff. Using g = 10 m s⁻², find (i) the time taken to reach the ground and (ii) the speed on impact.
+
+Take downward as positive. Initial velocity u = 0, a = g = 10 m s⁻², s = 45 m.
+
+- (i) From s = ut + ½at²: 45 = 0 + ½(10)t², so t² = 9, giving **t = 3 s**.
+- (ii) From v² = u² + 2as: v² = 0 + 2(10)(45) = 900, so **v = 30 m s⁻¹** downward.
+
+Cross-check with v = u + at: v = 0 + (10)(3) = 30 m s⁻¹. Consistent.
+
+> ⚠️ **Examiner Trap:** candidates who take *upward* as positive and still write a = +10 m s⁻² get a physically impossible "height gained" of 45 m, because they have applied gravity in the wrong direction. The sign of a must follow the sign convention you chose at the start of the question.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious exam preparation.
 
-**Graphical Analysis of Motion:**
+> The deepest WAEC trap is not the algebra — it is using SUVAT on motion whose acceleration is not constant.
 
-**Displacement-Time Graph:**
-- Gradient = velocity
-- Horizontal line = zero velocity
-- Curved line = changing velocity (acceleration)
-- Velocity = $\frac{\Delta s}{\Delta t}$ (slope of tangent)
+#### Where SUVAT silently fails
 
-**Velocity-Time Graph:**
-- Gradient = acceleration
-- Area under graph = displacement
-- Horizontal line at zero = constant velocity
-- Area below time axis = negative displacement
+SUVAT assumes **a = constant** in both magnitude and direction. It breaks down the instant a depends on velocity, position, or time. A falling body ignoring air resistance is fine; a parachute jump, a charged particle in a non-uniform field, or a spring-compressed mass is not. In WASSCE structured questions, the phrase "uniform acceleration" is the cue to use SUVAT; "constant force but increasing mass" is the cue not to.
 
-**Acceleration-Time Graph:**
-- Area under graph = change in velocity
-- For constant acceleration, this is a horizontal line
+#### Relative motion in one dimension
 
-**Graphical Worked Example:**
-A car starts from rest, accelerates at $4\,\text{m/s}^2$ for $3\,\text{s}$, then travels at constant speed for $4\,\text{s}$, then decelerates at $2\,\text{m/s}^2$ until stopping.
+When two bodies A and B move along the same line, the velocity of A relative to B is v<sub>AB</sub> = v<sub>A</sub> − v<sub>B</sub>, with sign retained. This is why two cars approaching each other at 20 m s⁻¹ and 15 m s⁻¹ close at 35 m s⁻¹, not 5 m s⁻¹. WAEC sets this up rarely in Paper 1 and reliably in Paper 2.
 
-1. Max velocity = $0 + 4(3) = 12\,\text{m/s}$
-2. Distance in acceleration phase = $\frac{1}{2}(12)(3) = 18\,\text{m}$
-3. Distance in constant phase = $12 \times 4 = 48\,\text{m}$
-4. Deceleration time: $0 = 12 - 2t \Rightarrow t = 6\,\text{s}$
-5. Distance in deceleration = $\frac{1}{2}(12)(6) = 36\,\text{m}$
-6. Total distance = $18 + 48 + 36 = 102\,\text{m}$
+#### Mathematical limit — instantaneous velocity
 
-**Non-Uniform Acceleration:**
+Instantaneous velocity is the limit of average velocity as Δt → 0: v = ds/dt. Average velocity over an interval, when a is constant, equals (u + v)/2 = s/t. These two statements give the same numerical answer only because a is constant; in general, average velocity is the integral of v dt divided by the interval, not (u + v)/2.
 
-For uniformly varying acceleration:
-$$s = ut + \frac{1}{2}at^2 \text{ (same as constant acceleration)}$$
+#### Two advanced practice prompts
 
-For non-uniform, calculus is needed:
-$$v = \frac{ds}{dt}, \quad a = \frac{dv}{dt} = \frac{d^2s}{dt^2}$$
+1. A ball is thrown vertically upward from a 20 m platform with u = 15 m s⁻¹. Using g = 10 m s⁻², calculate the maximum height above the ground and the total time before it hits the ground. Answer key: H above platform = u²/(2g) = 11.25 m, so maximum height above ground = 31.25 m; time up = 1.5 s; time down from 31.25 m: t = √(2 × 31.25/10) = 2.5 s; total flight = 4 s.
+2. A v–t graph shows a straight line from (0 s, 0 m s⁻¹) to (4 s, 20 m s⁻¹) and then a horizontal line at 20 m s⁻¹ from t = 4 s to t = 10 s. Find total displacement and average speed. Answer key: area of triangle = ½(4)(20) = 40 m; area of rectangle = 6 × 20 = 120 m; total s = 160 m; average speed = 160/10 = 16 m s⁻¹.
 
-**Velocity from Acceleration Graph:**
-$$v_f = v_i + \int_{0}^{t} a(t)\,dt$$
-
-**Simple Harmonic Motion (One-Dimensional):**
-
-For motion where $a = -\omega^2 x$:
-- $x = A\sin(\omega t)$ or $x = A\cos(\omega t)$
-- $v = A\omega\cos(\omega t)$
-- Maximum velocity = $A\omega$
-- Maximum acceleration = $A\omega^2$
-
-⚡ **WAEC Previous Year Questions:**
-
-| Year | Question Type | Concept Tested |
-|------|--------------|----------------|
-| 2023 | Numerical | SUVAT equations, free fall |
-| 2022 | Graphical | Velocity-time graph interpretation |
-| 2021 | Numerical | Relative velocity |
-| 2020 | Numerical | Projectile motion |
-
-**Motion with Air Resistance:**
-
-For an object falling with air resistance proportional to velocity:
-- Terminal velocity reached when $mg = kv$
-- $v = v_t(1 - e^{-kt/m})$
-- For small objects, air resistance is often ignored in WAEC problems
-
-**Vectors in One Dimension:**
-
-- Positive direction chosen as +x
-- Velocity in opposite direction = negative
-- Adding vectors: $v_{\text{net}} = v_1 + v_2 + ...$
-- Resultant velocity is sum accounting for direction
-
-⚡ **Exam Strategy**: Always define your positive direction. Write down all given quantities with their units. Check that your answer has correct units. For "find the distance" questions, ensure you calculate total path length, not net displacement.
+| Advanced trap | Why it bites | Fix |
+|---|---|---|
+| Applying SUVAT when a varies | Algebra looks fine but the physics is wrong | Re-read for the words "uniform" or "constant" |
+| Mixing g = 9.8 with g = 10 | WAEC answers use 10 unless told otherwise | Use 10 m s⁻² as default |
+| Reading v–t graph area as velocity | Confuses slope with area | Slope = a, area = s |
+| Ignoring direction in relative motion | Loses sign on v<sub>AB</sub> | Keep vectors algebraic, not numeric |
+| Stopping at v = 0 for vertical throw | Leaves H and total time unfound | Use v² = u² + 2as with v = 0 |
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Kinematics: Motion in a Straight Line" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/waec/physics/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

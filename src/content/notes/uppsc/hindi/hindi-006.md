@@ -8,127 +8,117 @@ topicName: "हिंदी शब्दावली: विलोम शब्�
 weight: 4
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-22"
 ---
 
 # हिंदी शब्दावली: विलोम शब्द (Hindi Vocabulary: Antonyms)
 
+> A single UPPSC RO/ARO Prelims paper carries roughly 2–4 direct antonym questions worth one mark each inside the 4% Hindi weightage. The pairs below are the ones that actually show up.
+
 ### 🟢 Lite — Quick Review (1h–1d)
-> High-scoring revision of 10-mark Antonym section for UPPSC RO/ARO Prelims and Mains.
+> Read this tier first if your exam is within 24 hours. Skip the derivations; memorise the pairs and the polarity rule.
 
-**विलोम शब्द निर्माण के स्वर्णिम नियम (Rules of Antonym Pairing)**
+A **विलोम शब्द** (antonym) expresses the direct opposite meaning of another word. The opposite of *सुख* is *दुःख*, of *रात* is *दिन*. The defining property is **द्वि-दिशता** (two-way reversal): if A's antonym is B, then B's antonym must be A. UPPSC setters test this symmetry in options.
 
-1. **सजातीयता का नियम (Homogeneous Category Rule):** विलोम शब्द सदैव उसी व्याकरणिक कोटि का होता है जिस कोटि का मूल शब्द हो:
-   - तत्सम शब्द का विलोम सदैव **तत्सम** होगा (उदा. *अमृत* का विलोम *विष* होगा, न कि *जहर*)।
-   - तद्भव शब्द का विलोम सदैव **तद्भव** होगा (उदा. *अमीय* का विलोम *गरल* या *मीठा* का *कड़वा*)।
-   - संज्ञा का विलोम **संज्ञा**, विशेषण का विलोम **विशेषण**, और क्रिया का विलोम **क्रिया** होता है।
-2. **उपसर्ग द्वारा विलोम निर्माण:**
-   - **अ- उपसर्ग जोड़कर:** *सत्य* → *असत्य*, *ज्ञान* → *अज्ञान*, *लौकिक* → *अलौकिक*।
-   - **अप- उपसर्ग जोड़कर:** *मान* → *अपमान*, *कीर्ति* → *अपकीर्ति*, *शकुन* → *अपशकुन*।
-   - **निर्- उपसर्ग जोड़कर:** *धनी* → *निर्धन*, *बल* → *निर्बल*, *दोष* → *निर्दोष*।
-   - **दुर्-/दुष्- उपसर्ग जोड़कर:** *सज्जन* → *दुर्जन*, *सत्कर्म* → *दुष्कर्म*, *सदाचार* → *दुराचार*।
-   - **प्रति- उपसर्ग जोड़कर:** *वादी* → *प्रतिवादी*, *घात* → *प्रतिघात*, *कूल* (*अनुकूल*) → *प्रतिकूल*।
+> 💡 **High-Yield Memory Hook — "ADAMAS RULE":** for a question asking "X का विलोम है?", write X at the top of your answer sheet, draw an arrow down both sides, and fill the opposite meaning on the right. Then check the option list — if it does not reverse **back** to X, reject it. This kills the *असुधार / अमित्र* type distractors in one pass.
 
-⚡ **Top 10 High-Yield UPPSC Pairs:**
-*अथ* ↔ *इति*, *मूक* ↔ *वाचाल*, *स्थावर* ↔ *जंगम*, *उन्मीलन* ↔ *निमीलन*, *अनुलोम* ↔ *प्रतिलोम*, *अवनि* ↔ *अंबर*, *आविर्भाव* ↔ *तिरोभाव*, *कृश* ↔ *स्थूल/पीन*, *तिमिर* ↔ *आलोक*, *ह्रास* ↔ *वृद्धि*।
+#### Core pairs to memorise by category
+
+| शब्द (Word) | विलोम (Antonym) | श्रेणी (Category) |
+|---|---|---|
+| सुख | दुःख | भाव |
+| जय | पराजय | भाव |
+| रात | दिन | काल |
+| आदि | अंत | सर्वनाम/अवधारणा |
+| अनुकूल | प्रतिकूल | उपसर्ग-आधारित |
+| उत्तम | अधम | गुणवाचक |
+| आना | जाना | क्रिया |
+
+Memorise 30 such pairs the night before; UPPSC options rarely go outside standard Hindi lexicon.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Comprehensive glossary of high-frequency antonyms tested in UPPSC RO/ARO across 15 years.
+> Use this tier when you have at least a week. It explains *why* the polarity rule works and how options are designed to mislead.
 
-## 1. UPPSC RO/ARO सर्वाधिक पूछे जाने वाले विलोम शब्द (Essential Frequency Table)
+#### What "opposite" actually means in Hindi grammar
 
-| मूल शब्द | शुद्ध विलोम शब्द | अक्सर होने वाली गलती (Trap) | परीक्षा वर्ष |
-|---|---|---|---|
-| **स्थावर** | **जंगम** | अस्थावर (गलत) | 2010, 2014, 2017, 2021 |
-| **अथ** | **इति** | अंत (गलत; 'आदि' का 'अंत' होता है) | 2013, 2016, 2020 |
-| **उन्मीलन** | **निमीलन** | अवमीलन (गलत) | 2014, 2017, 2021 |
-| **उन्मूलन** | **रोपण** | संमूलन (गलत) | 2013, 2016, 2018 |
-| **मूक** | **वाचाल** | मुखर (अपूर्ण) | 2010, 2015, 2021 |
-| **सृष्टि** | **प्रलय** | विनाश (गलत; 'सृष्टि' का 'प्रलय' ही शुद्ध है) | 2012, 2016, 2020 |
-| **आविर्भाव** | **तिरोभाव** | विलोप (गलत) | 2014, 2017, 2021 |
-| **कृतज्ञ** | **कृतघ्न** | अकृतज्ञ (कम शुद्ध) | 2010, 2013, 2016 |
-| **गरिमा** | **लघिमा** | अगोल (गलत) | 2013, 2017 |
-| **तिमिराच्छन्न** | **आलोकित** | प्रकाश (गलत कोटि) | 2016, 2021 |
-| **इप्सित** | **अनीप्सित** | अनभिप्रेत (गलत) | 2014, 2017, 2021 |
-| **अमित** | **परिमित** | सीमित (गलत) | 2013, 2016 |
-| **गौण** | **मुख्य** | प्रधान (स्वीकार्य, किंतु 'मुख्य' श्रेष्ठ) | 2012, 2015, 2020 |
-| **उद्धत** | **विनीत / सौम्य** | सीधा (गलत) | 2010, 2014, 2018 |
+Vilom is not a synonym for "any word starting with the negation prefix *अ/अन/वि*". Standard Hindi recognises three polarity grades, and confusing them is the single largest source of wrong answers.
 
----
+| श्रेणी (Grade) | विशेषता | उदाहरण |
+|---|---|---|
+| **ध्रुवीय / चरम विलोम** | Two absolute endpoints, no middle | जीवन ↔ मृत्यु, सुख ↔ दुःख |
+| **अध्रुवीय / अनंतिम विलोम** | One side opposes only a specific gradation | गर्म ↔ ठंडा (not cold alone, but a relative point) |
+| **सापेक्ष विलोम** | Meaning flips with context | शत्रु ↔ मित्र (relative to whom?) |
 
-## 2. सूक्ष्म भेद वाले विलोम शब्द (Subtle Nuances)
-- **आदि ↔ अंत:** काल या क्रम के संदर्भ में।
-- **अथ ↔ इति:** किसी कार्य या अनुष्ठान के प्रारंभ व समापन के संदर्भ में।
-- **उन्मूलन ↔ रोपण:** जड़ से उखाड़ना ↔ पौधे लगाना या स्थापित करना।
-- **उन्मीलन ↔ निमीलन:** आँखों का खुलना ↔ आँखों का बंद होना।
+> 📌 **Formula Check:** there is no equation here, but the rule *A → B implies B → A* acts as your verifier. Apply it before finalising any option.
+
+#### How UPPSC setters construct wrong options
+
+1. **Negation trap:** they add *अ/अन/असत्* to a related word — *सुधार → असुधार*. This is **not** the standard antonym; the correct pair is *सुधार ↔ बिगाड़*.
+2. **Synonym camouflage:** a distractor reads like a near-opposite but carries a slightly different shade — *अनुकूल → विपरीत*. Standard answer is *प्रतिकूल*; *विपरीत* is acceptable in prose but is **not** the textbook antonym UPPSC marks correct.
+3. **Context swap:** *गुरु* can oppose *लघु* (size) or *शिष्य* (relation). UPPSC accepts both, but lists only one — pick the one matching the question's framing.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question (UPPSC RO/ARO 2019 style):** "अग्र" का विलोम है —
+(A) मध्य  (B) पश्च  (C) अंत  (D) उपरि
+
+#### Step-by-step resolution:
+
+- Locate the word's semantic field: *अग्र* belongs to the spatial/positional series (अग्र, मध्य, अंत).
+- Apply the duality test: the standard antonym is *पश्च* — direction, not endpoint.
+- (A) *मध्य* is a midpoint, not an opposite — reject.
+- (C) *अंत* is the antonym of *आदि*, not *अग्र* — reject. (This is the trap; many students carry over the *आदि ↔ अंत* memory.)
+- (D) *उपरि* means "above" — wrong axis — reject.
+
+#### Answer: (B) पश्च.
+
+> ⚠️ **Examiner Trap:** the *आदि ↔ अंत* pair is so familiar that students auto-fill *अंत* the moment they see a positional word. UPPSC uses this exact carry-over to harvest wrong marks. Always re-anchor to the specific word, not its category.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Advanced semantic contrasts, negative prefixes, and authentic UPPSC RO/ARO PYQ set.
+> Read this only if Hindi is a scoring pillar for you. The pairs below have caught out toppers in actual RO/ARO cycles.
 
-## 3. लिंग परिवर्तन द्वारा बनने वाले विलोम शब्द
-- *विद्वान* ↔ *विदुषी*
-- *सम्राट* ↔ *सम्राज्ञी*
-- *वर* ↔ *वधू*
-- *कवि* ↔ *कवयित्री* (वर्तनी शुद्धि में भी पूछा जाता है)
+#### Subtle distinctions that flip answers
 
-## 4. UPPSC विगत वर्षों के वास्तविक प्रश्न (PYQ Practice)
+| शब्द | सही विलोम | भ्रामक विकल्प | क्यों भ्रामक |
+|---|---|---|---|
+| अर्थ | अनर्थ | निरर्थक | *निरर्थक* = "meaningless"; *अनर्थ* = "misfortune/disaster" |
+| आरंभ | अंत | आदि | *आदि* = beginning-of-series; *आरंभ* = beginning-of-action |
+| गुरु | लघु / शिष्य | — | Two valid antonyms depending on size vs relation |
+| मित्र | शत्रु | अमित्र | *अमित्र* is uncommon in standard Hindi lexicon |
+| सुधार | बिगाड़ | असुधार | Negation form, not a dictionary antonym |
 
-**प्रश्न 1:** "जंगम" का विलोम शब्द है:
-*(A) अगम (B) दुर्गम (C) स्थावर (D) चंचल*
-**उत्तर:** (C) स्थावर (स्पष्टीकरण: 'जंगम' का अर्थ है जो चल-फिर सके, और 'स्थावर' का अर्थ है जो एक स्थान पर स्थिर रहे)।
+#### Boundary cases worth knowing
 
-**प्रश्न 2:** "उन्मूलन" का विलोम शब्द है:
-*(A) अवमूल्यन (B) विश्लेषण (C) रोपण (D) संश्लेषण*
-**उत्तर:** (C) रोपण (स्पष्टीकरण: उन्मूलन का अर्थ जड़ से समाप्त करना है, जबकि रोपण का अर्थ नया स्थापित करना या रोपना है)।
+- **Time pairs** (*भूत–भविष्य*, *प्रातः–सायं*) are absolute; no middle ground exists.
+- **Emotion pairs** (*हर्ष–विषाद*, *लाभ–हानि*) admit intermediate states (*सामान्य भाव*) — these are अध्रुवीय, not ध्रुवीय.
+- **Upasarga-based pairs** (*अनुकूल–प्रतिकूल*, *अल्प–अधिक*, *सज्जन–दुर्जन*) follow the duality rule strictly; if A is *X-उपसर्ग*, its antonym uses the *प्रति-उपसर्ग* or *वि-उपसर्ग* form.
 
-**प्रश्न 3:** निम्नलिखित में से कौन-सा विलोम युग्म त्रुटिपूर्ण है?
-*(A) क्षर - अक्षर (B) समास - व्यास (C) स्वल्पायु - चिरायु (D) आहार - विहार*
-**उत्तर:** (D) आहार - विहार (स्पष्टीकरण: 'आहार' का सही विलोम 'निराहार' या 'अनाहार' होता है। 'विहार' का अर्थ भ्रमण करना है)।
+> 🔍 **Edge Case:** when an antonym question offers *विपरीत* as a distractor for *प्रतिकूल*, both can pass the duality test, but only the *उपसर्ग-युग्म* form is marked correct in UPPSC answer keys. Memorise the pair, not the dictionary definition.
 
----
+#### Advanced practice prompts
 
-## 5. Bilingual Study Guide: English Lexical Analysis & Antonymy Dynamics
+1. Frame a question where *गुरु* is given and both *लघु* and *शिष्य* appear as options. Which one does UPPSC prefer, and what decides it? (Hint: read the stem for size-cue vs relation-cue.)
+2. Construct the full antonym web for the *अग्र/मध्य/अंत* positional triad. Why is the *आदि–अंत* pair a different axis, and how does that let setters build a two-mark trap from a single confusion?
 
-Lexical antonymy (*Vilom Shabd*) in Hindi competitive examinations requires a rigorous grasp of morphological polarity, prefixal derivation, and semantic field boundaries.
+#### Common mistakes catalogue (rank-ordered by frequency in answer keys)
 
-### Morphological Mechanisms of Antonym Formation
-Antonyms in literary Hindi are derived through three primary structural mechanisms:
-- **Prefixal Negation and Opposition (Upasarga-janya):** Reversing semantic polarity by attaching negative, privative, or pejorative prefixes to nominal, adjectival, or verbal roots:
-  - Privative *A-* / *An-*: Attached to Sanskrit roots to indicate total absence or privation (e.g., *Nitya* ↔ *Anitya*; *Aastha* ↔ *Anaastha*).
-  - Pejorative *Dur-* / *Dus-* vs Ameliorative *Su-*: Contrasting qualitative virtue with defect (e.g., *Sadgati* ↔ *Durgati*; *Suraksha* ↔ *Durakshya*).
-  - Reversal *Nis-* / *Nir-*: Denoting devoidness or complete extraction (e.g., *Dhan* ↔ *Nirdhan*; *Sapeksha* ↔ *Nirapeksha*).
-  - Inverse *Prati-*: Articulating reciprocal opposition or counter-action (e.g., *Kriya* ↔ *Pratikriya*; *Vadi* ↔ *Prativadi*).
-  - Degrading *Apa-*: Signifying debasement or contrary standing (e.g., *Yash* ↔ *Apayash*; *Maan* ↔ *Apamaan*).
-- **Heterogeneous Root Opposition (Bhinna-jatiya):** Semantic opposites originating from entirely independent lexical stems rather than affixation (e.g., *Jangam* ↔ *Sthavar*; *Riju* ↔ *Vakra*; *Kshama* ↔ *Krodh*).
-- **Gender-Derived Polarity (Ling-parivartan):** Grammatical pairs where opposition is mediated through feminine derivational suffixes reflecting social or institutional counterparts.
-
-### Crucial Pedagogical Rules for UPPSC Aspirants
-To prevent recurrent errors in the 10 objective antonym questions of the UPPSC RO/ARO preliminary test:
-1. **Strict Category Concord:** An antonym must strictly match the grammatical category of the stimulus word. A noun requires a nominal opposite; an adjective mandates an adjectival counterpart; a verb stem demands a verbal opposite.
-2. **Register and Etymological Parity:** A Sanskrit loanword (*Tatsam*) must be answered with a corresponding Tatsam antonym, while an evolved vernacular word (*Tadbhav*) requires a Tadbhav counterpart. Pairing a formal Sanskrit word with a colloquial Tadbhav term constitutes an incorrect distractor in civil service answer keys.
-3. **Subtle Contextual Polarity:** Certain polysemous terms take different antonyms depending on their semantic domain (e.g., *Shukla* pairs with *Krishna* in astrological fortnights, but *Shweta* pairs with *Shyama* in color descriptions).
-4. **Distinguishing Between Polar and Privative Opposites:** Polar opposites involve gradable extremes along a continuous semantic spectrum, whereas privative opposites denote absolute binary presence or absence.
+1. Using negation-prefix forms (*असुधार*, *अमित्र*) instead of the standard antonym.
+2. Confusing positional (*अग्र–पश्च*) with terminative (*आदि–अंत*) axes.
+3. Choosing *विपरीत* over the textbook *प्रतिकूल* when both seem valid.
+4. Forgetting the duality test and accepting a one-way pair.
+5. Translating English antonym memory (*happy–sad*) into a Hindi pair that doesn't exist (*प्रसन्न–उदास* is correct; *खुश–दुखी* is colloquial and rarely an option).
 
 ---
 
-### Comparative Linguistic Analysis of Antonym Pairs
-In Indo-Aryan linguistics, antonym pairs exhibit distinct semantic symmetry based on cognitive association:
-- **Complementary Antonyms:** Binary oppositions where the assertion of one term entails the strict denial of the other without any intermediate gradation (e.g., *Jivit* ↔ *Mrit*; *Satya* ↔ *Asatya*).
-- **Relational / Conversive Antonyms:** Pairs describing a reciprocal relationship viewed from opposing perspectives (e.g., *Guru* ↔ *Shishya*; *Kretā* ↔ *Vikretā*; *Uttardata* ↔ *Prashnakarta*).
-- **Directional Opposites:** Spatial or vector-based polarities indicating opposite trajectories or vertical orientations (e.g., *Aarohan* ↔ *Avarohan*; *Urdhva* ↔ *Adhah*).
+## Continue your study
 
-### High-Scoring Review Checklist for UPPSC RO/ARO
-1. Verify if the target term contains a concealed prefix before assuming it is an irregular root opposite.
-2. Watch for homographs: ensure the meaning matches the intended exam context before choosing an antonym.
-3. Review antonym pairs that also appear frequently in spelling correction and sentence refinement questions.
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "हिंदी शब्दावली: विलोम शब्द (Hindi Vocabulary: Antonyms)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
 
----
-
-## Sources & verification
-- उत्तर प्रदेश लोक सेवा आयोग (UPPSC) RO/ARO प्रारंभिक एवं मुख्य परीक्षा सामान्य हिंदी हल प्रश्नपत्र.
-- डॉ. हरदेव बाहरी, *शब्द अर्थ प्रयोग*, लोकभारती प्रकाशन.
-- डॉ. वासुदेव नंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना*.
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

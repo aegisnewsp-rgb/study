@@ -5,7 +5,7 @@ subject: filipino
 subjectName: Filipino
 topic: filipi-004
 topicName: Mga Elemento ng Maikling Kwento
-weight: 3
+weight: 4
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"

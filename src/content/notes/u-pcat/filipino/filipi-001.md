@@ -5,7 +5,7 @@ subject: filipino
 subjectName: Filipino
 topic: filipi-001
 topicName: "Wastong Gamit ng mga Salita (Correct Word Usage)"
-weight: 3
+weight: 5
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-09"

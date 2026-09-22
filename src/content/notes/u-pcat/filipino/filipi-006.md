@@ -5,7 +5,7 @@ subject: filipino
 subjectName: Filipino
 topic: filipi-006
 topicName: Kayarian ng Pangungusap at Tayutay
-weight: 3
+weight: 5
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-16"

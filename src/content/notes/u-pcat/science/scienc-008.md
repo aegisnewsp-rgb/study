@@ -5,7 +5,7 @@ subject: science
 subjectName: Science
 topic: scienc-008
 topicName: Electric Charge and Current
-weight: 3
+weight: 4
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"

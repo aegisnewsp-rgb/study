@@ -5,7 +5,7 @@ subject: verbal
 subjectName: Verbal
 topic: verbal-010
 topicName: Practice Test and Test-Taking Strategies
-weight: 3
+weight: 1
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-16"

@@ -5,7 +5,7 @@ subject: verbal
 subjectName: Verbal
 topic: verbal-008
 topicName: Paragraph Organization (Para Jumbles)
-weight: 3
+weight: 2
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-07"

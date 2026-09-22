@@ -6,10 +6,11 @@ import AffiliateDisclosure from './AffiliateDisclosure.astro';
 interface Props {
   country: string;
   examName: string;
+  examId?: string;
 }
 
-const { country, examName } = Astro.props;
-const rec = getCountryAffiliate(country);
+const { country, examName, examId } = Astro.props;
+const rec = getCountryAffiliate(country, examId, examName);
 const live = rec && isRenderable(rec.offerId);
 ---
 
@@ -22,7 +23,7 @@ const live = rec && isRenderable(rec.offerId);
           <span>{rec.badge}</span>
         </div>
         <h3 class="mt-2 text-lg font-bold text-surface-900 dark:text-white">
-          {rec.headline} for {examName}
+          {rec.headline}
         </h3>
         <p class="mt-1 text-sm text-surface-600 dark:text-surface-300">
           {rec.contextText}

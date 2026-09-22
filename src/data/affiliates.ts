@@ -406,10 +406,135 @@ export const COUNTRY_AFFILIATES: Record<string, LocalizedAffiliate> = {
     contextText: 'Connect with verified 1-on-1 tutors to master difficult syllabus topics in Mathematics, Chemistry, Physics, and English.',
     ctaText: 'Connect with a 1-on-1 Tutor →',
   },
+  ghana: {
+    offerId: 'preply',
+    badge: '1-on-1 WASSCE Tutoring & Mentorship',
+    headline: 'Personalized 1-on-1 Tutoring for Ghanaian Exams',
+    contextText: 'Connect with verified tutors in Core Mathematics, Integrated Science, and English to secure top WASSCE grades.',
+    ctaText: 'Connect with a 1-on-1 Tutor →',
+  },
 };
 
-export function getCountryAffiliate(country: string): LocalizedAffiliate | undefined {
+const INDIA_MEDICAL_EXAMS = new Set(['neet', 'neet-pg', 'ini-cet', 'aiims-mbbs', 'fmge', 'jipmer']);
+const INDIA_ENG_EXAMS = new Set(['jeemain', 'jeeadvanced', 'gate', 'bitsat', 'wbjee', 'vitee', 'comedk', 'keam', 'mht-cet', 'gujcet', 'kcet', 'ap-eapcet', 'ts-eamcet', 'jeeupsee', 'manipal-met']);
+const INDIA_CIVIL_EXAMS = new Set(['upsc', 'kpsc', 'uppsc', 'up-psc', 'bpsc', 'mpsc', 'tnpsc', 'ras']);
+const INDIA_BANKING_EXAMS = new Set(['sbi-po', 'sbi-clerk', 'ibps-po', 'ibps-clerk', 'rbi-grad-b', 'ssc-cgl']);
+const INDIA_LAW_DEFENSE_EXAMS = new Set(['clat', 'ailet', 'lsat', 'mht-cet-law', 'nda']);
+
+const PAK_MEDICAL_EXAMS = new Set(['mdcat', 'mcat', 'nums']);
+const PAK_CIVIL_EXAMS = new Set(['css', 'pms', 'fpsc-cce', 'ppsc', 'sppsc', 'kpkpse']);
+
+const NIGERIA_ENTRY_EXAMS = new Set(['jamb', 'waec', 'neco', 'ncee', 'putme', 'nabteb', 'ijmb', 'jupeb']);
+
+export function getCountryAffiliate(country: string, examId?: string, examName?: string): LocalizedAffiliate | undefined {
   if (!country) return undefined;
-  return COUNTRY_AFFILIATES[country.toLowerCase().trim()];
+  const c = country.toLowerCase().trim();
+  const base = COUNTRY_AFFILIATES[c];
+  if (!base) return undefined;
+
+  const id = (examId || '').toLowerCase().trim();
+  const label = examName || 'Exam';
+
+  if (c === 'india') {
+    if (INDIA_MEDICAL_EXAMS.has(id)) {
+      return {
+        offerId: 'abebooks',
+        badge: 'Prescribed Medical Textbooks & PYQs',
+        headline: `Official Medical Reference Books & 10-Yr Solved Papers for ${label}`,
+        contextText: 'Find standard medical references (Guyton & Hall, Robbins Pathology, BD Chaurasia) and past-year solved question banks.',
+        ctaText: 'Find Medical Books & PYQs →',
+      };
+    }
+    if (INDIA_ENG_EXAMS.has(id)) {
+      return {
+        offerId: 'abebooks',
+        badge: 'Standard Engineering Books & Solved Papers',
+        headline: `Prescribed Textbooks & Chapterwise Question Banks for ${label}`,
+        contextText: 'Find core engineering preparation textbooks (HC Verma, I.E. Irodov, OP Tandon) and chapterwise past-year papers.',
+        ctaText: 'Find Engineering Books & PYQs →',
+      };
+    }
+    if (INDIA_CIVIL_EXAMS.has(id)) {
+      return {
+        offerId: 'abebooks',
+        badge: 'Civil Services & State PSC References',
+        headline: `Standard Reference Manuals & Previous Year Papers for ${label}`,
+        contextText: 'Find authoritative preparation titles (Laxmikanth Indian Polity, Spectrum Modern India, Ramesh Singh) and solved question banks.',
+        ctaText: 'Find Reference Manuals & Papers →',
+      };
+    }
+    if (INDIA_BANKING_EXAMS.has(id)) {
+      return {
+        offerId: 'abebooks',
+        badge: 'Standard Banking & SSC References',
+        headline: `Authoritative Question Banks & Practice Manuals for ${label}`,
+        contextText: 'Find standard reasoning, quantitative aptitude, and general awareness reference handbooks and past-year solved papers.',
+        ctaText: 'Find Banking & SSC Prep Books →',
+      };
+    }
+    if (INDIA_LAW_DEFENSE_EXAMS.has(id)) {
+      return {
+        offerId: 'abebooks',
+        badge: 'Legal & Defense Reference Handbooks',
+        headline: `Authoritative Textbooks & Solved Papers for ${label}`,
+        contextText: 'Find standard Bare Acts, legal reasoning manuals, mathematics compilations, and official past exam papers.',
+        ctaText: 'Find Prep Handbooks & Papers →',
+      };
+    }
+    return {
+      ...base,
+      headline: `Official Reference Textbooks & Study Manuals for ${label}`,
+    };
+  }
+
+  if (c === 'pakistan') {
+    if (PAK_MEDICAL_EXAMS.has(id)) {
+      return {
+        offerId: 'british-council',
+        badge: 'Official MDCAT English Mastery',
+        headline: `British Council English Online for ${label}`,
+        contextText: 'Master the high-yield medical English vocabulary, grammatical structure, and reading comprehension required for top aggregate scores on the PMDC MDCAT.',
+        ctaText: 'Improve MDCAT English Score →',
+      };
+    }
+    if (PAK_CIVIL_EXAMS.has(id)) {
+      return {
+        offerId: 'british-council',
+        badge: 'CSS & PMS English Essay & Précis',
+        headline: `British Council English Online for ${label} Aspirants`,
+        contextText: 'Master the critical English Essay and Précis & Composition papers—the decisive threshold where over 90% of CSS and PMS candidates face qualifying barriers.',
+        ctaText: `Master ${label} English Writing →`,
+      };
+    }
+    return {
+      ...base,
+      headline: `British Council English Online for ${label}`,
+    };
+  }
+
+  if (c === 'nigeria') {
+    if (NIGERIA_ENTRY_EXAMS.has(id)) {
+      return {
+        offerId: 'preply',
+        badge: '1-on-1 JAMB & WAEC Coaching',
+        headline: `Personalized 1-on-1 Tutors for ${label}`,
+        contextText: 'Get targeted 1-on-1 tutoring from verified teachers in Mathematics, Use of English, Chemistry, Biology, and Physics to secure 300+ in JAMB and distinction grades in WAEC.',
+        ctaText: `Find a 1-on-1 ${label} Tutor →`,
+      };
+    }
+    return {
+      ...base,
+      headline: `Personalized 1-on-1 Subject Tutoring for ${label}`,
+    };
+  }
+
+  if (c === 'ghana') {
+    return {
+      ...base,
+      headline: `Personalized 1-on-1 Subject Tutoring for ${label}`,
+    };
+  }
+
+  return base;
 }
 

@@ -152,14 +152,14 @@ const exam: ExamTemplate = {
   examId: 'ncee',
   examName: 'NCEE (National Common Entrance Examination)',
   country: 'nigeria',
-  description: 'NCEE (National Common Entrance Examination) is Nigeria\'s exam for admission into Federal Government Colleges (Unity Schools) at the Junior Secondary level (JS2).',
-  examPattern: '100 MCQs covering General Paper (English, Mathematics, Quantitative Reasoning, Verbal Reasoning) and 3 selected subject papers. 2 hours 30 minutes total.',
-  eligibility: 'Class 12 graduate or equivalent. For Education degree programmes at Nigerian universities. No upper age limit.',
+  description: 'NCEE (National Common Entrance Examination) is Nigeria\'s standardized entrance examination conducted by the National Examinations Council (NECO) for admission into Junior Secondary School 1 (JSS 1) of Federal Unity Colleges.',
+  examPattern: 'NCEE is conducted in two objective papers as officially notified by NECO (ncee.neco.gov.ng): Paper I covers Mathematics, Basic Science & Technology, English Studies, and National Values Education; Paper II covers Quantitative Aptitude, Vocational Aptitude, and Verbal Aptitude. The examination typically spans about 2 hours and 30 minutes across scheduled sessions, administered in paper-based multiple-choice format.',
+  eligibility: 'Final-year primary school pupils (Primary 6) who are typically not less than 10 years of age by the examination date, as specified in the official NECO guidelines for admission into Federal Government Colleges (Unity Schools).',
   subjects,
   durations,
   rescueMode,
   prepOverview:
-    'NCEE (National Common Entrance Examination) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.education.gov.ng for the current cycle — rules change by year and country (nigeria).',
+    'NCEE (National Common Entrance Examination) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://ncee.neco.gov.ng for the current cycle — rules change by year and country (nigeria).',
   commonMistakes: [
     'Using outdated NCEE (National Common Entrance Examination) pattern or syllabus PDFs instead of the live official notice.',
     'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
@@ -167,8 +167,8 @@ const exam: ExamTemplate = {
     'No written error log — repeating the same mistake types across mocks.',
     'Treating unofficial cut-offs or rank predictors as guarantees.'
   ],
-  lastUpdated: '2026-07-28',
-  officialSource: 'https://www.education.gov.ng',
+  lastUpdated: '2026-09-22',
+  officialSource: 'https://ncee.neco.gov.ng',
 };
 
 export default exam;

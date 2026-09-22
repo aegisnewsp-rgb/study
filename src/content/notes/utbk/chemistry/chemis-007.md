@@ -5,7 +5,7 @@ subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-007
 topicName: Stoichiometry (Stoikiometri / Perhitungan Kimia)
-weight: 3
+weight: 5
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"

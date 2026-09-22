@@ -5,7 +5,7 @@ subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-002
 topicName: Alcohols and Ethers
-weight: 3
+weight: 4
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25

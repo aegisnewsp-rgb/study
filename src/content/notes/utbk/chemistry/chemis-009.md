@@ -5,7 +5,7 @@ subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-009
 topicName: Deriving Ksp from Molar Solubility
-weight: 3
+weight: 4
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"

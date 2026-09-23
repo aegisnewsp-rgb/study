@@ -8,178 +8,118 @@ topicName: Journal Entries
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-24"
+lastUpdated: "2026-09-23"
 ---
 
 # Journal Entries
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> The dual debit-credit recording sits at the start of every CA Foundation accounting problem; skipping it derails the Trial Balance.
 
-**Journal** is the *first book of entry* in accounting where every transaction is recorded chronologically with debit and credit amounts, narration, and dual-aspect analysis based on **Golden Rules**.
+A **Journal Entry** is the chronological, dual-aspect record of one business transaction in the primary book of original entry, before it travels to the Ledger. Every entry needs five mandatory parts: date, two account names (one Debited, one Credited), the rupee amount, and a one-line **Narration** explaining the transaction. The underlying **Source Document** (invoice, receipt, debit/credit note) is the ICAI-mandated evidence under ASBE.
 
-**Golden Rules — must memorise:**
-| Account Type | Rule |
-|---|---|
-| **Real A/c** | Dr what comes in · Cr what goes out |
-| **Personal A/c** | Dr the receiver · Cr the giver |
-| **Nominal A/c** | Dr all expenses/losses · Cr all incomes/gains |
+The whole topic rests on three classification rules:
 
-**Format skeleton:** Date → Dr. Account (amount, LF) → Cr. Account (amount, LF) → (Narration in brackets)
+| Account Type | Debit | Credit |
+|---|---|---|
+| Real (Assets, Cash, Stock, Building) | What comes in | What goes out |
+| Personal (Persons, Firms, Companies, Capital) | The receiver | The giver |
+| Nominal (Expenses, Losses, Incomes, Gains) | Expenses & losses | Incomes & gains |
 
-**Exam must-knows:**
-- Total Dr amounts **must equal** total Cr amounts (double-entry system)
-- Narration is **mandatory** — written in brackets after the entry; it explains *why* the transaction occurred
-- **Compound entry** = one debit linked to multiple credits, or vice versa (e.g., paying multiple expenses in one payment)
-- **Contra entry** = same entity appears on both sides (e.g., cash deposited in bank: Dr Bank A/c, Cr Cash A/c)
-- **Suspense A/c** opens when trial balance fails to agree; journal rectifies it
+> 💡 **High-Yield Memory Hook — "RIN": Real-Rule → "What comes in goes out"; Personal-Rule → "Receiver goes in the debit, Giver goes out in the credit"; Nominal-Rule → "Expenses/ Losses Debit, Incomes/ Gains Credit."** Memorise the first letters **DCR-E-LDC-I-GC** for the debit-credit polarity you write against each account class.
 
-> **Scoring tip:** CA Foundation papers almost always test journal entries with narration. 8–12 marks are at stake. Incorrect narration is the single biggest mark-loss cause.
+**Simple Entry** = one debit, one credit. **Compound Entry** = multiple debits or credits in one transaction, but Total Debits must equal Total Credits. **Opening**, **Closing**, **Adjusting**, **Rectification**, and **Contra** entries are the five special variants ICAI tests.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> A wrong debit-credit polarity at the journal stage cascades into a wrong Trial Balance, wrong P&L, and wrong Balance Sheet — fix it here, not at the audit.
 
-## What Is a Journal Entry?
+#### The Recording Pipeline Under ASBE
 
-A journal entry is the **primary recording mechanism** of the double-entry system. It captures a transaction in the *Books of Prime Entry* before posting to individual ledger accounts. Each entry is made on a **specific date**, names the accounts affected, states whether each is debited or credited, records the **Ledger Folio (LF)** cross-reference number, and states the **amount in figures**.
+Every transaction moves through a fixed six-step chain:
 
-The defining property is **duality**: every transaction produces accounts on both sides with **equal total debit and credit amounts**. This equality is what makes the accounting equation (Assets = Liabilities + Capital) perpetually hold.
+1. **Source Document** — invoice, receipt, voucher, debit note, credit note.
+2. **Voucher preparation** — the document is converted into an accounting voucher with a serial number.
+3. **Journal / Subsidiary Book** — entry recorded using the Golden Rules.
+4. **Ledger Posting** — each account is updated separately from the journal.
+5. **Trial Balance** — debits and credits totalled; mismatch implies a journal error.
+6. **Financial Statements** — Trading, P&L, Balance Sheet.
 
-## The Golden Rules in Application
+#### Concept Comparison Matrix
 
-The three golden rules govern which account to debit and which to credit:
-
-1. **Real Accounts** (goods, cash, assets): *Debit what comes in, Credit what goes out.*
-2. **Personal Accounts** (persons, firms, companies): *Debit the receiver, Credit the giver.*
-3. **Nominal Accounts** (incomes, expenses, gains, losses): *Debit all expenses and losses, Credit all incomes and gains.*
-
-## Worked Example: Credit Purchase
-
-*Purchased goods from Ramesh for ₹50,000 on credit.*
-
-| Date | Particulars | L.F. | Dr (₹) | Cr (₹) |
-|---|---|---|---|---|
-| Jan 5 | Purchases A/c … Dr | | 50,000 | |
-| | To Ramesh (Creditor) | | | 50,000 |
-| | (Being goods purchased on credit from Ramesh) | | | |
-
-**Analysis:** Purchases is a **Real A/c** (goods coming in → Debit). Ramesh is a **Personal A/c** (the giver → Credit). ✅ Dr = Cr = ₹50,000.
-
-## Simple vs. Compound Entries
-
-A **simple entry** has one debit and one credit. A **compound entry** consolidates multiple debits *or* multiple credits into a single entry. For instance, paying rent ₹15,000, salary ₹20,000, and electricity ₹5,000 by cheque:
-
-| Particulars | L.F. | Dr (₹) | Cr (₹) |
+| Concept | What it actually is | Recorded in books? | Common Confusion |
 |---|---|---|---|
-| Rent A/c … Dr | | 15,000 | |
-| Salaries A/c … Dr | | 20,000 | |
-| Electricity A/c … Dr | | 5,000 | |
-| To Bank A/c | | | 40,000 |
-| (Being payment of expenses by cheque) | | | | |
+| Trade Discount | Reduction from list price at the time of quotation | No — net price only is recorded | Mistakenly debited/credited; inflates both Purchases and Sales |
+| Cash Discount | Reduction allowed for prompt payment | Yes — recorded as Discount Allowed (Dr) or Discount Received (Cr) | Bookkeepers sometimes net it against the party |
+| Credit Note | Issued when goods are returned by customer | Yes — reduces Sales; GST reversed | Confused with Debit Note direction |
+| Debit Note | Issued when goods are returned to supplier | Yes — reduces Purchases; GST reversed | Sometimes routed to the wrong party |
+| Capital Expenditure | Benefit > 1 accounting year, adds to asset | Yes — capitalised | Repairs wrongly booked as asset |
+| Revenue Expenditure | Benefit ≤ 1 year, matched to current income | Yes — expensed in P&L | Asset purchase wrongly expensed |
 
-## Subsidiary Books — Why They Matter
+#### GST Split — A Mandatory Disclosures Under ASBE 2025
 
-Routine transactions (credit purchases, credit sales, cash receipts) are often **recorded in specialised sub-journals** (purchase book, sales book, cash book) *first*, then periodically posted to the main journal and ledger. Direct journalisation of every routine transaction is **incorrect practice** and wastes time in exams. The journal is reserved for transactions **not covered** by any subsidiary book.
+A purchase of goods worth ₹10,000 + 18% IGST from a supplier is **not** written as one line. ICAI requires the GST component to be shown distinctly. The journal looks like:
 
-## Exam Pattern
+| Account | Debit (₹) | Credit (₹) |
+|---|---|---|
+| Purchases A/c | 10,000 | |
+| Input IGST A/c | 1,800 | |
+| To Supplier A/c | | 11,800 |
 
-CA Foundation papers feature:
-- Simple journal entries (5–6 marks): one Dr, one Cr with narration
-- Compound journal entries (8–10 marks): multiple debits or credits
-- Rectification entries (6–8 marks): correcting errors after posting
-- Questions awarding **1 mark for narration** — always write it correctly
+For intra-state: split IGST into **CGST 9% + SGST 9%** and use **Input CGST / Input SGST**. Merging GST with Purchases or Sales is a recurring examiner penalty.
+
+#### Worked Numeric for Practice
+
+A trader purchased goods for ₹50,000 list price, took 10% trade discount, then a 2% cash discount on prompt payment via bank. The journal is:
+
+| Account | Debit (₹) | Credit (₹) |
+|---|---|---|
+| Purchases A/c | 45,000 | |
+| To Bank A/c | | 44,100 |
+| To Discount Received A/c | | 900 |
+
+Trade discount reduces the purchase value itself (₹50,000 × 90% = ₹45,000). Cash discount of ₹45,000 × 2% = ₹900 is recorded as Discount Received. Goods are assumed for illustration; GST treatment would add Input GST on the ₹45,000 base.
+
+> ⚠️ **Examiner Trap:** Candidates routinely record trade discount in the journal (₹5,000 Dr Discount Allowed, ₹45,000 Cr Supplier) — this inflates the Purchases side and inflates a fictitious "discount income." Trade discount never enters the books; only the net price does.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Most marks lost here are not on the easy entry — they are on adjusting entries, rectification mechanics, and the GST split direction.
 
-## Edge Cases and Sophisticated Entries
+#### Edge-Case Inventory for the Final Pass
 
-### 1. Contra Entries
-
-A contra entry occurs when the **same entity** appears on both sides of an entry because two accounts of the same nature are involved. The classic example is depositing cash into a bank:
-
-| Particulars | Dr (₹) | Cr (₹) |
+| Trap | What Goes Wrong | Correct Treatment |
 |---|---|---|
-| Bank A/c … Dr | 10,000 | |
-| To Cash A/c | | 10,000 |
-| (Being cash deposited into bank) | | | |
+| Opening Entry at new financial year | Trial Balance balances carried forward as one combined entry, not individual postings | Debit all assets & expenses, Credit all liabilities, income & capital; difference is adjusted to Capital A/c |
+| Adjusting Entry date confusion | Accrued interest as on 31-03 booked on 01-04 of next year | Adjusting entry belongs in the **current year's** books to match revenues/expenses to the period |
+| Rectification before vs after trial balance | Wrong account debited and supplier credited differently | Before TB: rectification entry by reversing; After TB: use Suspense A/c and rectify in next period |
+| Contra Entry misclassification | Cash deposited into bank recorded through Purchases | Contra entries affect only Cash & Bank; route through Cash Book, not the Journal |
+| Capital vs Revenue in repairs | Major overhaul of machinery debited to Repairs | If benefit extends beyond one year, capitalise; else expense |
+| GST on advance payment | Tax paid on advance before supply | Record under Input GST (CGST/SGST/IGST) at advance stage, adjust on invoice |
 
-Here, Bank (Real A/c — comes in) is debited and Cash (Real A/c — goes out) is credited. No narration abbreviation (" Contra") is acceptable in CA Foundation answers; write the full explanation.
+#### Adjacent Topic Bridges
 
-### 2. Transfer Entries
+- **Ledger Posting** — every debit/credit in the journal becomes two ledger postings (one per affected account). A wrong ledger side undoes a correct journal.
+- **Trial Balance** — mechanical mismatch = the journal entry is asymmetric; the first place to look.
+- **Depreciation** — adjusting entry type; debits the asset account or accumulated depreciation, credits Depreciation A/c, then closes to P&L.
+- **Bank Reconciliation** — contra entries between Cash and Bank columns are the foundation; unreconciled entries surface as Suspense items.
+- **Rectification of Errors** — uses a special sub-class of journal entries that involve Suspense A/c once the trial balance has been tallied.
 
-These move balances between accounts at **period-end**. Closing expense accounts into the Trading and P&L Account:
+#### Two Advanced Prompts to Practise Tonight
 
-| Particulars | Dr (₹) | Cr (₹) |
-|---|---|---|
-| Trading & P&L A/c … Dr | 80,000 | |
-| To Purchases A/c | | 80,000 |
-| (Being direct expenses transferred to Trading A/c) | | | |
+1. **Compound Entry with GST + Return:** A business in Maharashtra purchases goods worth ₹2,00,000 list, 10% trade discount, 18% CGST + 18% SGST (intrastate), returns 20% of net goods two days later, and pays the balance by cheque within the cash-discount window of 1%. Pass the complete journal sequence — purchase, return, payment — and reconcile that no trade discount appears in any ledger.
+2. **Adjusting + Rectification Combo:** Rent of ₹6,000 was paid on 01-10-2024 and wrongly debited to the Rent Received A/c. On 31-03-2025, the rent pertains to the period 01-04-2025 to 30-09-2025. Record the rectification with the year-end adjustment and confirm the pre-paid portion appears as an asset.
 
-Opening entries are the reverse: bringing forward balances from the prior year's books into the new year's journal.
+> ⚠️ **Senior Trap:** ICAI examiners in the November 2024 RTP inserted a Suspense A/c in the adjusted trial balance, expecting students to first identify the rectification entry, then re-post the adjusting portion. Candidates who wrote a single combined entry lost half the marks. Always split rectification and adjustment into two separate journals.
 
-### 3. Discount Transactions
+## Continue your study
 
-When transactions involve **trade discount** and **cash discount**:
-- **Trade discount** is deducted *before* recording — never appears in the journal
-- **Cash discount** is recorded at the *gross amount*; the discount received or allowed is entered separately
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Journal Entries" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject
 
-*Sold goods to Shyam ₹20,000, trade discount 10%, cash discount 2%:*
-| Particulars | Dr (₹) | Cr (₹) |
-|---|---|---|
-| Shyam (Debtor) … Dr | 19,600 | |
-| To Sales A/c | | | 19,600 |
-| (Being goods sold at ₹20,000 less 10% trade discount) | | | |
-
-If cash is received *later* with 2% cash discount:
-| Particulars | Dr (₹) | Cr (₹) |
-|---|---|---|
-| Cash A/c … Dr | 19,208 | |
-| Discount Allowed A/c … Dr | 392 | |
-| To Shyam | | | 19,600 |
-| (Being cash received from Shyam, 2% cash discount deducted) | | | |
-
-### 4. Rectification Entries
-
-Errors discovered *after* posting to the ledger are corrected via journal entries. **Rule:** first reverse the wrong entry, then pass the correct one. If wages paid for construction of a machine were wrongly posted to Wages A/c:
-
-| Step | Entry |
-|---|---|
-| **1. Reverse** | Machine A/c … Dr (to Wages A/c balance) / To Wages A/c |
-| **2. Correct** | Wages A/c … Dr (correct amount, if any) / To Machine A/c |
-
-For CA Foundation, always state **which error** is being rectified in the narration.
-
-## Mechanism: How Posting Follows Journalising
-
-The journal entry's Ledger Folio (LF) column records the **page number** of the relevant account in the ledger. When the entry is posted:
-- The Dr side of the journal entry becomes the **credit posting** to the named account in the ledger (and vice versa)
-- The ledger account records the **journal page number** in its LF column
-- This cross-referencing allows the examiner to verify the trail from journal → ledger → trial balance
-
-## Common Mistakes That Cost Marks
-
-| Mistake | Consequence |
-|---|---|
-| Recording debit as credit (or vice versa) | Entry rejected — zero marks for that transaction |
-| Skipping narration or writing an *incorrect* one | Loses the 1-mark narration award |
-| Journalising credit purchases/sales instead of using subsidiary books | Loses method marks |
-| Compound entry split into separate simple entries | Loses accuracy marks |
-| Forgetting to carry the amount to the opposite side | Debit ≠ Credit; entry technically incomplete |
-
-## Exam Strategy
-
-1. **Read the question twice.** Identify the accounts involved and their nature (Real/Personal/Nominal) *before* writing anything.
-2. **Apply golden rules first.** Write the correct Dr/Cr designation in the margin or above the entry.
-3. **Format strictly:** date, Dr account with amount, Cr account with amount, narration — in that order. Indent credit account names.
-4. **Narration is non-negotiable.** Write a full sentence: what was exchanged, at what value, between whom. Example: *(Being cash purchase of office furniture from Comfort Traders on 15 April 20XX)* — not simply "Cash paid."
-5. **Verify totals before moving on.** Two seconds of checking saves a full re-write.
-
-## Practice Prompts
-
-**Prompt 1 (Simple Entry):** Record: On 3 May 2025, sold goods to Priya for ₹30,000 at 5% trade discount, invoice issued. Pass the journal entry with narration. *(Answer: Dr Priya ₹28,500; Cr Sales ₹28,500)*
-
-**Prompt 2 (Compound + Rectification):** On 1 June 2025, repairs to machinery amounting to ₹8,000 were wrongly debited to Repairs A/c instead of Machinery A/c. Rectify the entry. *(Answer: Dr Machinery A/c ₹8,000 / Cr Repairs A/c ₹8,000 — narration must specify the error being corrected)*
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

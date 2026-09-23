@@ -8,79 +8,124 @@ topicName: Final Accounts
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-09-23"
 ---
 
 # Final Accounts
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> The fastest way to pass Final Accounts on ICAN day is to memorise the order of accounts and the cost flow formula.
 
-**Final Accounts** are the year-end financial statements of a sole trader or partnership that determine **profit or loss** (Trading Account + Profit & Loss Account) and **financial position** (Balance Sheet). They are tested almost every diet in ICAN Foundation/Intermediate papers.
+Final Accounts close the books. The sequence runs **Trial Balance → adjustments → Trading Account → Profit & Loss Account → Statement of Financial Position (Balance Sheet)**. Manufacturing Account is inserted before Trading when a firm produces goods rather than reselling them.
 
-Must-know formula: **Gross Profit = Net Sales − Cost of Goods Sold**, where COGS = Opening Stock + Purchases + Direct Expenses − Closing Stock. **Net Profit** = Gross Profit + Other Income − Operating Expenses.
+#### Must-know formula
 
-Three high-yield traps: (1) **Closing stock is deducted from purchases** in the Trading Account AND shown as a current asset in the Balance Sheet (do not double-count); (2) **Depreciation** is debited to P&L and deducted from the relevant fixed asset at cost; (3) **Provision for doubtful debts** is created via P&L and shown as a deduction from debtors in the Balance Sheet. Watch out for **accruals (liability)** vs **prepayments (asset)**.
+| Item | Formula | Units |
+|---|---|---|
+| Gross Profit | Net Sales − Cost of Goods Sold | ₦ (Naira) |
+| Cost of Goods Sold | Opening Stock + Net Purchases + Direct Expenses − Closing Stock | ₦ |
+| Straight-line depreciation | (Cost − Residual) ÷ Useful Life | ₦ per year |
+| Reducing-balance depreciation | NBV at year start × Rate % | ₦ per year |
+
+Net Purchases = Purchases − Purchase Returns + Carriage Inwards. Carriage outwards belongs in P&L, not Trading. Closing stock is an asset on the Balance Sheet, never an expense.
+
+> 💡 **Memory Hook — "TOPCaTS":** **T**rial Balance → **O**pen a Suspense if unbalanced → **P**ost adjustments (accruals, prepayments, depreciation, provision, closing stock) → **C**lose accounts in this order: **T**rading → **a**ppropriation → P&L → **T**ransfer net profit to **S**tatement of Financial Position. Walk that sequence on a scrap sheet before you touch the question.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Most ICAN candidates lose marks in Final Accounts on adjustments, not on layout — read this tier for the mechanics behind each closing entry.
 
-#### Purpose and Components
-Final Accounts close the ledger at period-end and translate trial-balance balances into statements usable for decision-making and tax filing. A sole trader typically prepares three statements: **Trading Account**, **Profit and Loss Account**, and **Balance Sheet**. A partnership also adds an **Appropriation Account** to divide profit among partners after interest on drawings, interest on capital, salaries, and commission.
+#### Core accounts and what flows through them
 
-#### Trading Account
-The Trading Account computes **Gross Profit** from trading activity. Debit side: Opening Stock, Purchases (less Purchase Returns), Direct Expenses (carriage inwards, wages, factory fuel, manufacturing expenses). Credit side: Net Sales (Sales less Returns Inwards), Closing Stock. The balancing figure is Gross Profit c/d (or Gross Loss c/d on the debit side).
+The Trading Account collects **direct** items only. It opens with opening stock of finished goods, adds net purchases and direct expenses (carriage inwards, custom duty, wages of factory hands), then deducts closing stock to give gross profit. Anything that does not vary with production volume goes to P&L: rent, salaries of office staff, selling expenses, carriage outwards, bad debts, depreciation of office equipment, and the provision for doubtful debts charge.
 
-#### Profit and Loss Account
-This account absorbs all indirect expenses — rent, rates, salaries, advertising, insurance, depreciation, bad debts, provision for doubtful debts, and discount allowed — on the debit side. The credit side carries Gross Profit b/d, discount received, commission received, and other operating income. Net Profit is the balancing figure.
+The Manufacturing Account appears where raw materials are converted into finished stock. It aggregates raw materials consumed, direct labour and factory overhead to produce cost of manufacture, adjusts for work-in-progress, and transfers the cost of goods completed to the Trading Account.
 
-#### Balance Sheet Structure
-Assets are listed in **liquidity order** (fixed assets first, then current assets: stock, debtors, cash). Liabilities are split into **current liabilities** (creditors, accruals, bank overdraft) and **long-term liabilities** (loans). Capital is the proprietor's residual interest.
+#### Adjustments to remember
 
-#### Key Adjustments
+- **Accruals** add to the expense in P&L; **prepayments** deduct from it.
+- **Depreciation** is a non-cash P&L charge; the accumulated depreciation account sits as a contra-asset in the Balance Sheet.
+- **Bad debts** are written off in full to P&L; the **provision for doubtful debts** is an estimate of the irrecoverable portion of remaining debtors. The P&L charge equals the new required provision less any existing provision.
+- **Closing stock** never appears in P&L — it goes straight to the Balance Sheet as a current asset and is credited in Trading.
+- **Suspense account** must be cleared before drafting final accounts; it is not a plug that survives into the published statements.
 
-| Adjustment | Trading A/c | P&L A/c | Balance Sheet |
+#### Concept comparison matrix
+
+| Concept | Treated as | Goes to | IAS / rule |
 |---|---|---|---|
-| Closing stock | Credit | — | Current Asset |
-| Depreciation | — | Debit | Deduct from asset |
-| Accrued expense | — | Debit | Current Liability |
-| Prepaid expense | — | Credit (or reduce debit) | Current Asset |
-| Provision for doubtful debts | — | Debit | Deduct from Debtors |
+| Carriage inwards | Direct expense | Trading Account | IAS 2 inventory cost |
+| Carriage outwards | Indirect expense | Profit & Loss | IAS 1 — selling expense |
+| Purchase returns | Contra to purchases | Trading Account (deducted) | IAS 2 |
+| Sales returns | Contra to sales | Trading Account (deducted) | IAS 18 / IFRS 15 |
+| Capital expenditure | Asset addition | Balance Sheet, then depreciated | IAS 16 |
+| Revenue expenditure | Period charge | Profit & Loss | IAS 1 |
+| Closing stock | Current asset | Balance Sheet | IAS 2 — lower of cost and NRV |
+| LIFO | Not permitted | n/a | IAS 2 prohibits LIFO |
 
-#### Exam Patterns
-ICAN questions typically present a Trial Balance plus 6–10 adjustments (accruals, prepayments, depreciation, bad debts, stock, drawings-in-stock for partners). Marks are awarded for correct double entry treatment and final totals.
+#### Worked ICAN-style question
+
+A sole trader reports for the year ended 31 December 2025:
+
+| Item | ₦ |
+|---|---|
+| Opening stock (finished goods) | 180,000 |
+| Purchases | 1,250,000 |
+| Purchase returns | 40,000 |
+| Carriage inwards | 35,000 |
+| Carriage outwards | 22,000 |
+| Sales | 1,980,000 |
+| Closing stock (finished goods) | 210,000 |
+
+Compute gross profit.
+
+**Resolution.** Net Purchases = 1,250,000 − 40,000 + 35,000 = ₦1,245,000. Cost of Goods Sold = 180,000 + 1,245,000 − 210,000 = ₦1,215,000. Gross Profit = Sales − COGS = 1,980,000 − 1,215,000 = **₦765,000**. Carriage outwards (₦22,000) is excluded — it sits in P&L, not Trading.
+
+> ⚠️ **Examiner Trap:** Candidates who drop carriage outwards into the Trading Account inflate cost of sales and understate gross profit by ₦22,000. The marker will deduct the full marks for that single misclassification.
+
+#### Partnership appropriation mechanics
+
+When a partnership question appears, profit is appropriated in a fixed order before the residual is shared: interest on drawings is credited to partners, then partners' salaries, then interest on capital; the remaining balance is split using the profit-sharing ratio. The partners' current accounts appear as equity in the Balance Sheet, not as payables.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> At ICAN Skills and Professional level, the examiner stops testing layout and starts testing compliance — every figure you write must agree with the IFRS or CAMA clause behind it.
 
-#### Manufacturing Account Extension
-When raw materials and work-in-progress are involved (common in ICAN Intermediate questions), a **Manufacturing Account** precedes the Trading Account. It consumes raw materials consumed (Opening RM + Purchases − Closing RM), direct labour, and factory overheads to yield **Cost of Goods Manufactured**, which substitutes for "Purchases + Direct Expenses" in the Trading Account.
+#### Compliance layer worth memorising
 
-#### Depreciation Mechanics
-Under the **Straight-Line Method**, the annual charge is constant: **(Cost − Residual Value) ÷ Useful Life**. Under the **Reducing-Balance Method**, the charge falls each year because it is computed on **Net Book Value**. ICAN questions often require a provision-for-depreciation account in the ledger; ensure accumulated depreciation is carried as a separate balance-sheet deduction, not netted into the asset cost.
+| Area | Standard | Effect on Final Accounts |
+|---|---|---|
+| Inventory valuation | IAS 2 | Lower of cost and NRV; LIFO banned |
+| Presentation of statements | IAS 1 | Current/non-current split; one comparative period minimum |
+| Property, plant and equipment | IAS 16 | Depreciation method reviewed annually; residual value reviewed at least yearly |
+| Provisions | IAS 37 | Provision for doubtful debts recognised only when outflow is probable and reliably estimable |
+| Filing | CAMA 2020 | Audited statements filed with CAC; FRCN oversight for public interest entities |
 
-#### Bad Debts vs Provision for Doubtful Debts
-**Bad debts** are specific, identified debts written off — charged to P&L. **Provision for doubtful debts** is a general estimate, calculated as a percentage of remaining debtors, also charged to P&L but credited to a provision account. The **new provision** equals the required closing balance; if the old provision is N5,000 and the new requirement is N8,000, only N3,000 goes to P&L (increase) — never the full N8,000. **Bad debts recovered** are credited to the provision account first; only the surplus (if any) hits P&L.
+#### Edge cases that surface in ICAN FAR
 
-#### Partnership Appropriation Account
-The Appropriation Account divides profit after crediting interest on partners' loans (not drawings) and debiting partners' salaries, interest on capital, and commission. Net profit is then split per the profit-sharing ratio, and drawings are already reflected in the current account, not the appropriation.
+- **Partial depreciation in year of acquisition.** If an asset is bought on, say, 1 October 2025 and the year ends 31 December 2025, charge only three months' depreciation. Examiners set this trap deliberately to test time apportionment.
+- **Provision for doubtful debts reversal.** If the existing provision exceeds the recomputed required provision, the excess is added back in P&L (a credit). Candidates habitually increase the charge instead.
+- **Accrued income.** Not all adjustments are expenses. Accrued interest receivable increases income in P&L and adds to accrued income under current assets.
+- **Stock from manufacturing.** In a Manufacturing Account, closing stock of raw materials, work-in-progress and finished goods are each valued separately at lower of cost and NRV; one combined figure is wrong.
 
-#### Common Mistakes
-- Adding closing stock to purchases rather than deducting it (the formula is *Purchases − Closing Stock* on the debit side).
-- Treating purchase of a fixed asset as a revenue expense in P&L (it goes to the Balance Sheet).
-- Forgetting to bring down **net profit** to the credit side of the capital account.
-- Showing drawings on the credit side instead of debiting the capital/current account.
+#### Boundary conditions to watch
 
-#### Worked Mini-Example
-Opening stock N20,000; Purchases N150,000; Sales N250,000; Closing stock N30,000. COGS = 20,000 + 150,000 − 30,000 = **N140,000**. Gross Profit = 250,000 − 140,000 = **N110,000**.
+1. When closing stock exceeds opening stock, gross profit rises even if sales are flat — the difference is the stock increase, not real trading performance.
+2. A suspense account balance after adjustments means an entry was missed or misposted; it cannot be transferred to retained earnings as a clean figure.
+3. Drawings of stock by a sole trader are credited at selling price in the drawings account, not at cost, unless the question says otherwise — then the P&L is charged with the difference.
 
-#### Practice Prompts
-1. From a Trial Balance and eight adjustments, prepare Trading, P&L, and Balance Sheet for a sole trader; reconcile closing stock appearing in two places.
-2. For a partnership, after computing net profit, prepare the Appropriation Account given partners' salaries, interest on capital at 5%, and a 3:2 profit-sharing ratio.
+#### Advanced practice prompts
+
+- A partnership with unequal profit-sharing ratios, partners' salaries and interest on capital. The senior partner receives a guaranteed minimum. Draft the appropriation account and decide which entries are **before** and which are **after** the guaranteed minimum calculation.
+- A manufacturing concern with raw materials, work-in-progress and finished goods all in stock. Apply IAS 2 to each category and explain in two sentences why LIFO would distort the finished goods figure in a period of rising input prices.
+
+## Continue your study
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Final Accounts" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ican/accounting/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

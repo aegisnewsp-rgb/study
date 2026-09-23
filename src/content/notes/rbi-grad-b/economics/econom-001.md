@@ -8,7 +8,7 @@ topicName: "Introduction to Economics"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-09-23"
 ---
 
 # Introduction to Economics
@@ -16,91 +16,93 @@ lastUpdated: "2026-07-04"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Economics** is the social science that studies how agents — individuals, firms, governments — allocate **scarce resources** among competing unlimited wants. Every problem in the subject reduces to three classical questions: **what to produce**, **how to produce**, and **for whom to produce**.
+Economics studies how societies ration **scarce** resources against **unlimited wants**. The textbook split runs from **microeconomics** (a single buyer, a single firm) to **macroeconomics** (whole-economy aggregates like GDP and inflation). The single most-tested relation is **Price Elasticity of Demand**, written E_d = (%ΔQ)/(%ΔP). Its magnitude decides whether a tax is absorbed by the consumer or passed to the producer — examiners love that consequence.
 
-Must-know identities:
+| Term | One-line meaning | Unit / Form |
+|---|---|---|
+| Scarcity | Resources finite, choices mandatory | concept |
+| Opportunity cost | Value of the next-best foregone alternative | ₹ |
+| E_d = (ΔQ/Q)÷(ΔP/P) | Price elasticity of demand | dimensionless |
+| GDP = C + I + G + (X − M) | Expenditure-side output | ₹ crore |
+| π = [(CPI_t − CPI_{t−1}) / CPI_{t−1}] × 100 | Year-on-year inflation | % |
 
-- **GDP (expenditure)** = C + I + G + (X − M)
-- **Real GDP** = (Nominal GDP ÷ GDP Deflator) × 100
-- **Multiplier** = 1 ÷ (1 − MPC)
-- **Price Elasticity of Demand (PED)** = %ΔQ ÷ %ΔP
-- **Quantity Theory of Money**: MV = PQ
-
-For RBI Grade B, treat **GDP vs GNP vs NNP (market price vs factor cost)**, the **distinction between CRR and SLR**, and the **multiplier formula** as the highest-yield flashpoints.
+> 💡 **High-Yield Memory Hook:** **"CIGXM"** = the GDP expenditure components in order — **C**onsumption, **I**nvestment, **G**overnment spending, e**X**ports minus **M**imports. Read the letters as "cigs-ex-em" and you will write the formula under exam pressure without thinking.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Scope and Branches
+#### Core Problems Every Economy Must Solve
 
-Economics splits into **microeconomics** (households, firms, individual markets — prices, output, elasticity) and **macroeconomics** (aggregate output, inflation, unemployment, policy). RBI Grade B tests both: micro principles appear in ESI, while the Phase II paper and interview lean heavily on macro topics like monetary policy, BoP, and fiscal instruments.
+Three questions sit at the base of the syllabus: **What** to produce (which goods, in what quantities), **How** to produce (labour-intensive vs capital-intensive technique), and **For whom** to produce (distribution rule). The constraint binding these questions is the **Production Possibility Frontier (PPF)** — a concave curve showing maximum feasible combinations of two goods given fixed resources and technology. Points inside the PPF mean inefficient use; points outside are unattainable today. The slope of the PPF is the **marginal rate of transformation**, which equals the opportunity cost of one good in units of the other.
 
-#### The Central Problem
+#### Micro vs Macro — and Why RBI Tests Both
 
-Because resources are scarce but wants are unlimited, every economy must answer:
+Microeconomics studies individual units: a consumer maximising utility subject to a budget, a firm maximising profit subject to a cost function. Macroeconomics studies aggregates: total output (GDP), the general price level (CPI/WPI), and total employment. The bridge between them is the **demand–supply** mechanism, which determines an **equilibrium price** P* where Q_d = Q_s. Shifts of either curve (income, tastes, input costs, technology) move P*; that move is the micro-macro transmission examiners ask about.
 
-| Question | Meaning | Example |
-|---|---|---|
-| **What** | Which goods and in what quantities | Rice vs missiles |
-| **How** | Which technique of production | Labour-intensive vs capital-intensive |
-| **For whom** | Distribution of output | Wage vs profit share |
+#### Comparison Matrix — Often-Confused Pairs
 
-The opportunity cost of choosing one good is the next-best alternative forgone.
+| Confused pair | Distinction students miss |
+|---|---|
+| GDP at Market Price vs GDP at Factor Cost | GMP minus **Net Indirect Taxes** = GFP; subsidies raise GFP above GMP |
+| WPI vs CPI | WPI tracks wholesale (producer) prices; CPI tracks retail (consumer) prices — services enter CPI only |
+| Monetary Policy vs Fiscal Policy | RBI runs monetary policy (Repo, CRR, SLR, OMO); GoI runs fiscal policy (taxation, spending, borrowing) |
+| GNP vs GDP | GNP = GDP + **Net Factor Income from Abroad (NFIA)** — for India NFIA is typically negative |
+| Nominal vs Real GDP | Real GDP deflates nominal GDP by a price index to strip out inflation |
+| Inflation vs Monetary expansion | Inflation is a sustained general price rise; printing money is one possible cause, not the same thing |
 
-#### National Income Aggregates
+#### Worked Numerical — Elasticity Around a Tax
 
-Concepts that examiners routinely test:
+A commodity's price rises from ₹100 to ₹110 (+10%). Quantity demanded falls from 1,000 units to 900 units (−10%). Compute E_d and classify.
 
-- **GDP at Market Price (GDPMP)** vs **GDP at Factor Cost (GDPFC)** — bridged by **Net Indirect Taxes (NIT)**: GDPFC = GDPMP − NIT.
-- **GNP** = GDP + Net Factor Income from Abroad (NFIA).
-- **NNP** = GNP − Depreciation.
-- **Personal Income** = National Income − Corporate Tax − Undistributed Profits − Social Security + Transfer Payments.
+**Step 1.** Use E_d = (ΔQ/Q) ÷ (ΔP/P). ΔQ/Q = (900 − 1000)/1000 = −0.10. ΔP/P = (110 − 100)/100 = +0.10.
 
-#### Prices, Markets, and Elasticity
+**Step 2.** E_d = (−0.10) / (+0.10) = **−1.0**. By convention we report |E_d| = **1.0**, so demand is **unit elastic**.
 
-The **Law of Demand** (inverse price-quantity) admits two celebrated exceptions: **Giffen goods** (inferior staples whose demand rises with price, e.g. wartime bread) and **Veblen goods** (luxuries whose demand rises with price due to status). The **Law of Supply** is generally upward-sloping. PED categorisation — elastic (|PED| > 1), unit (|PED| = 1), inelastic (|PED| < 1) — is a consistent Phase I MCQ.
+**Step 3.** Implication for a 5% excise duty: the tax burden splits roughly 50:50 between buyer and seller. If |E_d| were 0.5 instead, the consumer would absorb about two-thirds of any tax — a point RBI questions test by varying the elasticity number.
 
-#### Policy Instruments
-
-**RBI's monetary toolkit**: repo rate, reverse repo rate, **CRR** (cash reserves with RBI), **SLR** (liquid assets like government securities kept by banks), MSF, and Open Market Operations. **Fiscal policy** operates through taxation, government expenditure, and borrowing; the **fiscal deficit** equals total expenditure minus total receipts excluding borrowings, while the **primary deficit** strips out interest payments.
-
-For Phase II ESI, expect a question linking one monetary instrument (e.g. repo hike) to its transmission to credit, demand, and inflation.
+> ⚠️ **Examiner Trap:** Students leave the **negative sign** on E_d and then claim demand is "elastic with E_d = −1". Elasticity magnitude, not sign, classifies the curve; the sign merely reflects the law of demand.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Worked Numerical — Applying the Multiplier
+#### Money Multiplier — Why m = 1/CRR Is a Simplification
 
-Suppose the **MPC = 0.8**. An injection of ₹1,000 crore into the economy (say, government capex) generates:
+The clean formula m = 1/CRR assumes banks lend out every rupee above the statutory reserve and the public holds no cash. Real-world leakage comes from **currency held by the public** (c), **excess reserves** banks hoard (e), and the **reserve requirement** itself (r). The rigorous form is
 
-- Round 1 spending: ₹1,000 cr
-- Round 2 (0.8 × ₹1,000 cr): ₹800 cr
-- …continuing geometrically, total = 1,000 × 1/(1 − 0.8) = **₹5,000 crore**.
+#### m = (1 + c) / (r + e + c)
 
-Trap: many candidates quote the multiplier as 1/MPC, which would give ₹1,250 cr — wrong by a factor of four. The correct expression 1/(1 − MPC) is the **simple Keynesian investment-spending multiplier**; the tax multiplier is −MPC/(1 − MPC), a frequently flipped sign.
+with c = currency-deposit ratio, r = reserve ratio (CRR + SLR portion not lent), e = excess reserve ratio — all dimensionless fractions. If c = 0.15, r = 0.04, e = 0.01, then m = 1.15 / 0.20 = **5.75**, far below 1/0.04 = 25. Numericals in the OG illustrate exactly this gap; treat 1/CRR as an upper bound, not the answer.
 
-#### Inflation — Diagnosis Before Prescription
+#### Edge Cases in Elasticity and Demand
 
-Distinguishing **demand-pull** (too much spending chasing limited output) from **cost-push** (supply shock, e.g. oil prices, rupee depreciation) matters because each demands a different policy mix. The **Phillips Curve** suggests a short-run trade-off between inflation and unemployment, but stagflation in the 1970s revealed that supply shocks can break the trade-off — a question that examiners at RBI have historically tested by listing four-year CPI-WPI combinations and asking which pair cannot be explained by simple demand-pull.
+- **Giffen goods**: a staple whose demand rises when its own price rises, because the income effect overwhelms the substitution effect. E_d is **positive** — contradicting the usual sign convention.
+- **Veblen goods**: status items (luxury watches) where higher price signals desirability; again E_d can be positive.
+- **Perfectly inelastic** demand (|E_d| = 0): a vertical line — essential medicines with no substitute often approximate this.
+- **Perfectly elastic** demand (|E_d| = ∞): a horizontal line at the market price — the textbook limit for a firm in perfect competition facing many rivals.
 
-#### External Sector
+#### Common Mistakes in Numerical Items
 
-**Balance of Payments** has two sides. The **current account** records goods, services, and primary/secondary income; the **capital account** records FDI, portfolio flows, and reserve changes. A BoP deficit is not synonymous with a current account deficit — capital outflows can also cause overall deficit, complicating any narrative that narrowly blames trade.
+1. Forgetting that **Net Indirect Taxes (NIT) = Indirect taxes − Subsidies** when converting GMP to GFP.
+2. Using the **money-multiplier** 1/CRR when the question specifies currency held by the public — use the leakage form above.
+3. Treating **SLR** (Statutory Liquidity Ratio, held in gold/government securities) as additive to **CRR** in the simple multiplier — CRR is the binding reserve for the multiplier, SLR is a separate liquidity rule.
+4. Reading "real GDP growth" off nominal GDP deflated by WPI instead of the **GDP deflator** — the deflator covers all domestic output, WPI does not.
+5. Confusing **NFIA** (Net Factor Income from Abroad) with **NRI** remittances, which sit under private transfers, not factor income.
 
-#### Common Traps in the Examination Hall
+#### Advanced Practice Prompts
 
-- Treating GDP per capita as a **welfare index** — it ignores inequality, externalities, and non-market output, which is why the **Human Development Index** and **Genuine Progress Indicator** exist.
-- Conflating **CRR** (cash with RBI) with **SLR** (liquid assets maintained by the bank itself, including government securities, gold, and approved balances).
-- Reading "equilibrium price" as a policy target — equilibrium is where demand equals supply; **price ceilings and floors are policy overrides** and typically create surpluses or shortages.
+1. **Numerical.** CRR = 4%, currency-deposit ratio c = 0.20, excess reserves e = 0.02. Compute the leakage-adjusted money multiplier and the deposit expansion from an initial ₹1,000 crore primary injection. Compare with the naïve 1/CRR figure.
+2. **Policy reasoning.** RBI hikes the Repo Rate by 25 basis points while GoI cuts excise duty on petrol. Trace the transmission to (a) bank lending rate, (b) aggregate demand, (c) WPI versus CPI in the following quarter. Identify which instrument targets inflation versus growth.
 
-#### Practice Prompts
+> 📌 **Formula Check:** Every elasticity formula is **dimensionless** because two percentages cancel; GDP aggregates carry units of **₹ crore** (or ₹ lakh, depending on the table); the inflation rate π carries units of **%**; the money multiplier is a pure ratio. Mixing units across these in a single line is the most common arithmetic slip in the numerical set.
 
-1. CPI rose 7% last year while WPI rose 4%. Diagnose the likely drivers and recommend a calibrated RBI response using two monetary instruments.
-2. Government expenditure rises ₹500 cr, funded by borrowing. If MPC = 0.75, compute the maximum GDP impact and explain the leakages that prevent the theoretical maximum.
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Introduction to Economics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/rbi-grad-b/economics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

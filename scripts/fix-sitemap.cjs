@@ -123,9 +123,29 @@ sitemap = sitemap.replace(/(<url>[\s\S]*?<\/url>)/g, (urlBlock) => {
   } else if (url.match(/\/(about|contact|privacy|terms|roadmap)\/$/)) {
     priority = '0.7'; changefreq = 'monthly';
   }
-  // Remove any existing priority/changefreq tags and add correct ones
-  let fixed = urlBlock.replace(/<priority>[^<]*<\/priority>/g, '').replace(/<changefreq>[^<]*<\/changefreq>/g, '');
-  fixed = fixed.replace('</loc>', `</loc><lastmod>${today}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>`);
+  // Remove any existing priority/changefreq tags and add correct ones.
+  // 2026-09-23 FIX (sprint 83): keep EXACTLY ONE <lastmod>, and prefer the real
+  // content date over this build's date.
+  // The old line injected <lastmod>${today}</lastmod> into EVERY url block
+  // without removing an existing one, so: (a) the live sitemap carries 7,948
+  // <lastmod> tags for 4,826 URLs -- 3,122 blocks have two, which is invalid
+  // (the sitemap protocol allows at most one per <url>); (b) all 4,826 URLs
+  // claim to have changed on the build date, masking each note's real
+  // lastUpdated; and (c) it was CUMULATIVE -- each build appended another tag,
+  // so a re-run of the old script yields 4,826 duplicated blocks. <lastmod> is
+  // the primary recrawl-priority hint, so a uniformly-today, duplicated value
+  // is worthless to Google. This version is idempotent AND self-healing: it
+  // collapses existing duplicates to the real date and only stamps today when
+  // the URL genuinely has no date of its own (STEP 2's original intent).
+  const existingLm = [...urlBlock.matchAll(/<lastmod>([^<]*)<\/lastmod>/g)]
+    .map(m => m[1]).filter(Boolean);
+  const realLm = existingLm.find(v => v.slice(0, 10) !== today);
+  const lastmod = realLm || existingLm[0] || today;
+  let fixed = urlBlock
+    .replace(/<lastmod>[^<]*<\/lastmod>/g, '')
+    .replace(/<priority>[^<]*<\/priority>/g, '')
+    .replace(/<changefreq>[^<]*<\/changefreq>/g, '');
+  fixed = fixed.replace('</loc>', `</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>`);
   return fixed;
 });
 

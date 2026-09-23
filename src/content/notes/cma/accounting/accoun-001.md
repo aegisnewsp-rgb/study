@@ -8,96 +8,129 @@ topicName: Accounting Principles
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-09-23"
 ---
 
 # Accounting Principles
 
-### 🟢 Lite — Quick Review
+### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Accounting Principles** are the codified rules and conventions under Generally Accepted Accounting Principles (GAAP) that govern recognition, measurement, classification, and disclosure of financial transactions. For CMA Foundation Paper 1 (weightage 3%, ~3–4 marks), three ideas decide most answers:
+**Accounting Principles** govern how every transaction is recorded so the books present a true and fair view. For CMA Foundation, memorise three things: the concept list, the accounting equation, and the dual-aspect rule.
 
-1. **Accounting Equation: Assets = Liabilities + Capital.** Every transaction reshuffles this equation without changing its balance — the *Dual Aspect* guarantee.
-2. **Accrual + Matching** = record revenue when earned, expense when incurred, and match each cost to the period whose revenue it produced. Cash flow timing is irrelevant.
-3. **Going Concern + Historical Cost** = assets stay at acquisition cost because the business is assumed to operate indefinitely; no mark-to-market unless impairment triggers it.
+- **Core equation:** Assets (₹) = Liabilities (₹) + Capital (₹). Dimension: monetary units only.
+- **Dual Aspect:** Every debit has an equal credit; ΣDebits = ΣCredits across each transaction.
+- **Twelve concept pillars** you must recognise on MCQs: Business Entity, Going Concern, Money Measurement, Accounting Period, Cost, Dual Aspect, Revenue Recognition, Matching, Full Disclosure, Consistency, Prudence, Materiality.
+- **Two modern add-ons** ICAI tests: Substance Over Form and True & Fair Override.
 
-**Exam pointers:** (a) The Prudence (Conservatism) concept says anticipate no profit and provide for all probable losses — never overstate. (b) Materiality lets immaterial items be merged or skipped. (c) Consistency bans year-on-year method switches without disclosure.
-
----
-
-### 🟡 Standard — Regular Study
-> Standard content for students with a few days to months.
-
-#### The Conceptual Framework of GAAP
-Accounting Principles are the *generally accepted assumptions, conventions, and rules* derived from accounting practice, regulation (Ind AS / Companies Act provisions accepted in CMA syllabus), and usage. They make statements **comparable across periods and entities**, give a **true and fair view**, and reduce managerial bias in numeration. CMA Foundation Paper 1 treats them under the heading *“Accounting Standards and Accounting Standards in India,”* but conceptual principles precede the standards.
-
-#### The Three Foundation Stones
-**1. Business Entity Concept.** The firm is a person distinct from its owner. Owner’s drawings are *not* business expenses; capital introduced is *not* business income; the proprietor cannot be a debtor or creditor of the firm in the ordinary course.
-
-**2. Money Measurement Concept.** Only events measurable in money (₹) enter the books. A skilled workforce, managerial competence, and brand reputation are excluded for this reason. Implicit corollary: a stable currency unit is assumed — inflation is ignored unless AS-specific revaluation applies.
-
-**3. Going Concern + Accounting Period.** The entity is presumed to operate **indefinitely**, so assets are not liquidated at forced-sale values. Simultaneously the indefinite life is split into 12-month **Accounting Periods** (the *periodicity* assumption), enabling periodic profit measurement.
-
-#### The Three Recording Pillars
-**4. Cost (Historical Cost) Concept.** Assets enter books at the price paid to acquire them on the date of acquisition. Useful in CMA problems because depreciation, inventory valuation, and gain/loss on sale are all anchored to this original cost.
-
-**5. Dual Aspect (Double Entry) Concept.** Each transaction has equal debit and credit aspects, keeping the *Accounting Equation* balanced:
-#### Assets = Liabilities + (Capital + Revenue − Expenses).
-
-**6. Revenue Recognition (Realisation) Concept.** Revenue is booked when the *right to receive* it is established — typically on delivery of goods or completion of service — **not** on cash receipt.
-
-#### The Three Matching Principles
-**7. Accrual Concept.** Recognise revenue/expense as they are *earned/incurred*, irrespective of cash movement. Outstanding expenses and prepaid expenses exist only because of this concept.
-
-**8. Matching Concept.** Pair each expense with the revenue it helped earn in the same period: *Expenses of the period = costs incurred to generate the period’s revenue.* Depreciation allocation is the cleanest example.
-
-**9. Full Disclosure.** All information material to a reader’s decision (contingent liabilities, related-party transactions, change in accounting policy) must surface in the financial statements.
-
-#### The Three Prudential Principles
-**10. Consistency.** Methods chosen (e.g., straight-line depreciation, FIFO inventory) must be applied uniformly period after period; any change needs disclosure with cumulative effect.
-
-**11. Prudence (Conservatism).** When two alternatives exist, choose the one that **understates profit and overstates liability**. Anticipate losses; never recognise unrealised gains.
-
-**12. Materiality + Objectivity.** A quantitatively small item can be merged or omitted if its omission does not mislead (Materiality). All entries rely on **verifiable evidence** — invoices, contracts, vouchers — never on opinion (Objectivity).
-
-#### Typical CMA Question Patterns
-- **Concept-application MCQs:** “Profit is recognised when…” — answer is Realisation.
-- **Conceptual distinction:** “Accrual vs Matching” — accrual is about timing of recognition; matching pairs related revenues and expenses.
-- **Equation-based:** A transaction is given (e.g., goods sold for ₹10,000, cost ₹6,000, cash received ₹4,000) — students must identify debit/credit and effect on Assets, Liabilities, Capital.
-- **True/False traps:** “Prudence means recording all gains as soon as possible” → False.
+> 💡 **Memory Hook** — **B-G-M-A-C-D-R-M-F-C-P-M, plus S & T**: *Business, Going, Money, Accounting-period, Cost, Dual-aspect, Revenue, Matching, Full-disclosure, Consistency, Prudence, Materiality, Substance-over-form, True-and-fair.* First letters spell out twelve concepts + two extras in exam order.
 
 ---
 
-### 🔴 Extended — Deep Study
-> Comprehensive coverage for students on a longer study timeline.
+### 🟡 Standard — Regular Study (2d–2mo)
+> Working understanding of how the principles connect and where examiners set traps.
 
-#### Capital Equation in Practice
-The **Closing Capital** formula integrates Dual Aspect, Entity, and Accrual in one line:
-#### Closing Capital = Opening Capital + Additional Capital Introduced + Net Profit − Drawings.
-*Net Profit* itself arrives after matching expenses against revenue. A common exam trap feeds inflated revenue or suppressed expense to skew capital; student must apply Prudence and Objectivity to neutralise bias. Annual closing capital feeds the balance sheet, and any mismatch between cash balance and accrued income reveals accrual failure.
+#### The GAAP framework ICAI expects
 
-#### Distinguishing Overlapping Concepts
-Three pairs confuse candidates and are favourite examiner targets:
+CMA Foundation treats Accounting Principles as the doctrine layer beneath **Accounting Standards (AS)** issued by ICAI. Principles are conventions accumulated by usage; Standards are codified rules. MCQs often describe a transaction first, then ask which principle governs it — so map each principle to its trigger phrase before you sit the paper.
 
-| Pair | Distinction |
-|------|-------------|
-| **Accrual vs Matching** | Accrual sets the *timing rule* (recognise when earned/incurred). Matching is a *pairing rule* under accrual (pair cost with its revenue). |
-| **Prudence vs Conservatism** | Same idea worded differently; prudence is the *action*, conservatism is the *bias*. “Anticipate no profit, provide for all losses” = prudence. |
-| **Materiality vs Full Disclosure** | Materiality lets you *aggregate or omit* trivial items; Full Disclosure forces you to *show* all material ones — they are complementary, not opposing. |
+| Trigger phrase in a question | Principle it points to |
+|---|---|
+| "Business treated separately from owner" | Business Entity Concept |
+| "Books assume no closure next year" | Going Concern |
+| "Only ₹ values are recorded" | Money Measurement |
+| "Year ended 31 March, 12-month report" | Accounting Period |
+| "Recorded at price actually paid" | Cost / Historical Cost |
+| "Every debit has a credit of equal ₹" | Dual Aspect |
+| "Revenue booked on sale, not on cash receipt" | Revenue Recognition (Realisation) |
+| "Expense matched with revenue of same period" | Matching Concept |
+| "All material facts given in notes to accounts" | Full Disclosure |
+| "Same method used year after year" | Consistency |
+| "Anticipate no profit, provide for all losses" | Prudence / Conservatism |
+| "Small items clubbed; large ones shown separately" | Materiality |
+| "Record by what it economically is, not by paper title" | Substance Over Form |
+| "Adjustments to show true and fair view" | True & Fair Override |
 
-#### Edge Cases and Behavioural Traps
-- **Going Concern vs Liquidation.** On evidence of closure, the assumption flips and assets are revalued to net realisable value — CMA problems occasionally test this reversal.
-- **Revenue Recognition traps.** Advance received for a 3-year contract: recognise the portion relevant to the current period under accrual, defer the rest as *Unearned Revenue* (a liability) — a direct Revenue Recognition vs Matching conflict.
-- **Cost vs Fair Value.** Cost concept records at acquisition; if impairment is permanent, write down to recoverable amount — the only standard-approved breach of strict cost.
-- **Capital vs Revenue expenditure.** Capital expenditure (asset, written off over periods) appears on the asset side; revenue expenditure (expense, fully in P&L) appears in matching. Misclassifying a heavy repair as capital inflates profit — caught by matching.
+#### Derivation of the accounting equation
 
-#### Exam Strategy for 3% Weightage
-Paper 1 (Fundamentals of Financial Accounting) carries 100 marks; this topic contributes 3–4 marks via MCQs and short conceptual statements. Expect at least one question in every CMA Foundation attempt. Allocate ≤3 minutes per such question; do not over-elaborate. Memorise the **Accounting Equation, the Realisation trigger, and the Prudence phrasing** — these three phrases alone settle ~70% of marks in this topic. When a long statement is given, skip examples and circle keywords like *“received,” “paid,” “accrued,” “provision”* — they reveal which concept is being tested.
+Every transaction shifts A, L or C but always preserves **A = L + C**. Proof by example: Owner introduces ₹5,00,000 cash. Cash (asset) ↑ ₹5,00,000; Capital ↑ ₹5,00,000. Both sides rise by equal ₹. Buy furniture ₹1,20,000 on credit: Furniture (asset) ↑ ₹1,20,000; Creditors (liability) ↑ ₹1,20,000. Both sides rise again. Pay ₹30,000 to a creditor: Cash ↓ ₹30,000; Creditors ↓ ₹30,000. Both sides fall. The equation is therefore a **mathematical restatement of the dual-aspect rule.**
 
-#### Quick Self-Check Prompts
-1. A firm paid ₹6,000 insurance on 1 Oct covering six months. On 31 March what concept dictates the adjustment, and what entry results?
-2. Why does the Prudence concept forbid recognising ₹50,000 of unrealised gain on a held investment, yet permit recognising a probable ₹30,000 legal claim loss?
+#### How Accrual differs from Matching
+
+Both ride on the same time-period basis but they answer different questions.
+
+| Aspect | Accrual Concept | Matching Concept |
+|---|---|---|
+| Question answered | *When is revenue earned / expense incurred?* | *Which expense belongs to which revenue?* |
+| Timing basis | Occurrence of the underlying event | Co-period assignment of expense to revenue |
+| Cash flow link | Independent of cash receipt or payment | Independent of cash timing once matched |
+| Effect on net profit | Sets when profit can first arise | Sets the size of net profit for the period |
+
+> 💡 **Examiner Trap:** A question showing goods sold in March with cash received in April expects *Revenue Recognition*, not Matching. Matching is reserved for cost-side allocation (depreciation, accrued rent, prepaid insurance).
+
+#### Worked application of three principles together
+
+A coaching institute pays ₹2,40,000 rent on 1 April 2024 covering 12 months. It closes its books on 31 March each year.
+
+1. **Money Measurement:** Only the ₹2,40,000 cash outflow is recorded; the convenience of the premises is not.
+2. **Accounting Period:** The ₹2,40,000 must be split between FY 2024-25 and FY 2025-26.
+3. **Matching:** Rent expense recognised in each year = ₹2,40,000 ÷ 12 × 12 months = ₹20,000 per month → ₹2,40,000 per full year. Prepaid rent at 31 March 2025 = ₹0; at 1 April 2025 the ₹2,40,000 paid then will create a prepaid ₹2,40,000 × 9/12 = ₹1,80,000 once nine months remain.
+
+> ⚠️ **Examiner Trap — "True and Fair Override":** Students skip this and assume statutory compliance always wins. The principle permits extra disclosure (and even departures from an AS) when compliance alone misleads the reader. A frequent MCQ shows a company meeting every AS on paper yet concealing going-concern doubt; the correct answer is "apply the True and Fair view."
+
+#### Where this surfaces in the CMA Foundation paper
+
+Three to five objective items worth ~3% of marks, mostly application-based. Average time per item: under 90 seconds.
 
 ---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Edge cases, conceptual limits and cross-links into adjacent chapters.
+
+#### Limits and boundary conditions
+
+- **Going Concern terminates** the moment liquidation is decided. After that date, assets are revalued at net realisable value, and the Cost principle no longer applies. Watch for MCQ stems that say "Board resolved to wind up on 15 January" — every transaction after that date is reported on a break-up basis.
+- **Consistency does not forbid change.** It forbids **silent** change. A switch in depreciation method is permitted only with disclosure of the impact on profit and on prior-period comparatives.
+- **Prudence is asymmetry, not pessimism.** It recognises probable losses but not probable gains. Treating it as "always understate profit" pushes the boundary into earnings management, which an AS will not accept.
+- **Materiality threshold** is qualitative as well as quantitative. A ₹5,000 fraud by a director is material even if ₹5,000 is trivial in absolute size, because the nature of the item influences user decisions.
+- **Substance Over Form overrides legal form.** Hire-purchase assets are capitalised by the buyer even though legal title stays with the seller until the last instalment; sale-and-leaseback with a repurchase option is financing, not a sale.
+
+#### Links to adjacent CMA Foundation topics
+
+| Adjacent topic | Connection through Accounting Principles |
+|---|---|
+| Double Entry & Journal Entries | Direct outgrowth of Dual Aspect and A = L + C |
+| Depreciation Accounting | Application of Cost + Matching + Consistency |
+| Bank Reconciliation | Tests Money Measurement timing vs Cash vs Accrual |
+| Trial Balance & Rectification | Dual Aspect preserved across every correction entry |
+| Final Accounts (Manufacturing, P&L, Balance Sheet) | All three principles — Accrual, Matching, Full Disclosure — in one output |
+| Accounting Standards (AS 1, AS 5, AS 10) | Codified extensions of Disclosure, Matching and Cost |
+
+#### Ten traps that catch strong candidates
+
+1. Booking revenue on receipt of cash rather than on transfer of risk.
+2. Treating owner's drawings as a business expense.
+3. Recording personal assets of the proprietor inside the balance sheet.
+4. Switching depreciation method in year 3 with no disclosure note.
+5. Mixing Materiality (size-and-nature judgement) with Conservatism (anticipate losses only).
+6. Recording a hire-purchase purchase as an outright sale because the invoice says "Sale".
+7. Booking a probable gain to "be on the safe side of revenue" — violates Prudence.
+8. Ignoring Prepaid and Outstanding adjustments because they are below a personal threshold.
+9. Using Government fiscal year (1 April to 31 March) as the entity's accounting period without comment.
+10. Forgetting the True & Fair Override when an AS is technically followed but the result misleads.
+
+#### Two advanced practice prompts
+
+1. A partnership deed is silent on interest on drawings. The firm follows the *Customary Practice of ₹600 per month per partner.* Discuss which principles govern (a) the recognition of the charge, (b) the disclosure policy and (c) the consistency requirement. *(Target answer: Matching, Full Disclosure, Consistency — in that order.)*
+2. A listed company sells its headquarters to a related party and simultaneously leases it back for ten years at a market rent with a renewal option that makes exercise almost certain. How should the transaction be recorded under each of the Legal Form view, the Substance Over Form view, and the resulting impact on the accounting equation? *Quantify using an assumed ₹100 crore consideration if needed.* *(Target answer: legal form records ₹100 cr sale and a 10-year operating lease; substance treats ₹100 cr as a financing inflow with the building retained as an asset and a financial liability created — leaving A = L + C unchanged at the consolidated level once the lease receivable is netted.)*
+
+---
+
+## Continue your study
+
+- **[View this topic in your CMA Foundation roadmap](/roadmap/?exam=cma&duration=1mo)** — see where "Accounting Principles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/cma/accounting/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

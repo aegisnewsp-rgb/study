@@ -18,8 +18,8 @@ const exam: ExamTemplate = {
   examName: 'KCET',
   country: 'india',
   description: "Karnataka Common Entrance Test (KCET) is the state-level exam for admission to engineering, pharmacy, and other professional courses in Karnataka's government and private colleges. Conducted by KEA, it is mandatory for Karnataka domicile students.",
-  examPattern: "180 MCQs: Physics(60), Chemistry(60), Mathematics(60), 1 hour each subject, 60 marks per subject. No negative marking.",
-  eligibility: "Class 12 with PCM with minimum 45% aggregate (40% for SC/ST). Karnataka domicile or appropriate category.",
+  examPattern: "The KCET paper typically features 180 MCQs: Physics(60), Chemistry(60), Mathematics(60), with 1 hour allocated per subject and 60 marks per subject as notified in official KEA bulletins. No negative marking.",
+  eligibility: "Candidates typically require Class 12 with PCM with a minimum 45% aggregate (40% for SC/ST categories) as specified in official KEA eligibility rules. Karnataka domicile or appropriate category criteria apply.",
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for KCET — 1 Hour'),

@@ -20,8 +20,8 @@ const exam: ExamTemplate = {
   examName: 'BITSAT',
   country: 'india',
   description: "BITSAT is the computer-adaptive test for admission to BITS Pilani, BITS Goa, and BITS Hyderabad campuses for BE, BPharm, and MBA programmes. Known for its all-Indian exam pattern with high competition — tests Physics, Chemistry, Mathematics/Biology and English proficiency.",
-  examPattern: "130 MCQs (30 Physics, 30 Chemistry, 40 Mathematics/Biology, 10 English, 15 Logical Reasoning), 3 hours, 390 marks total. Computer-based test with no negative marking for unanswered questions.",
-  eligibility: "Class 12 with PCM/PCB with minimum 75% aggregate. Admissions based on BITSAT score only — no board exam marks considered.",
+  examPattern: "The examination typically comprises 130 MCQs (30 Physics, 30 Chemistry, 40 Mathematics/Biology, 10 English, 15 Logical Reasoning) over 3 hours for 390 marks total, as detailed in the official BITSAT admission brochure. Computer-based test with negative marking for wrong options and zero marks for unanswered questions.",
+  eligibility: "Candidates typically must have passed Class 12 with PCM/PCB securing a minimum 75% aggregate in PCM/PCB as verified in official BITS admissions criteria. Admissions are based on BITSAT score.",
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for BITSAT — 1 Hour'),

@@ -16,8 +16,8 @@ const exam: ExamTemplate = {
   examName: 'AP EAPCET',
   country: 'india',
   description: "AP EAPCET (formerly AP EAMCET) is the state entrance exam for engineering, agriculture, and pharmacy programmes in Andhra Pradesh. Conducted by JNTUK on behalf of APSCHE.",
-  examPattern: "160 MCQs: Physics(40), Chemistry(40), Mathematics(80), 3 hours, 80 marks per subject in MPC track.",
-  eligibility: "Class 12 with PCM with minimum 45% aggregate. Andhra Pradesh domicile required.",
+  examPattern: "The AP EAPCET paper typically features 160 MCQs: Physics(40), Chemistry(40), Mathematics(80) over 3 hours (80 marks per subject in MPC track) as specified in official APSCHE notifications.",
+  eligibility: "Candidates typically require Class 12 with PCM with a minimum 45% aggregate as confirmed in official APSCHE guidelines. Andhra Pradesh domicile requirements apply.",
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for AP EAPCET — 1 Hour'),

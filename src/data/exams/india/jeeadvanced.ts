@@ -125,7 +125,7 @@ const DUR_MAP: Record<string, {days: number; desc: string}> = {
   '1mo': { days: 30,  desc: 'One-month plan — full syllabus at ~2-3 topics/day, weekly mocks, last week for revision sprint.' },
   '2mo': { days: 60,  desc: 'Two-month plan — full syllabus + topic-wise practice, alternate-week mocks, dedicated weak-topic sessions.' },
   '3mo': { days: 90,  desc: 'Three-month plan — first month learn, second month practice + mocks, third month revision + mock cycles.' },
-  '6mo': { days: 180, desc: 'Six-month plan — foundation phase (8 weeks) + advanced phase (10 weeks) + revision phase (6 weeks).' },
+  '6mo': { days: 180, desc: 'Six-month study plan — foundation phase (8 weeks) + advanced phase (10 weeks) + revision phase (6 weeks).' },
   '1yr': { days: 365, desc: 'One-year plan — full syllabus twice (concept pass + advanced pass), monthly mocks, ~2 hours/day baseline.' },
   '2yr': { days: 730, desc: 'Two-year plan — Year 1 foundation + concept depth, Year 2 advanced + mocks + final revision; ~2 hours/day.' },
 };
@@ -149,7 +149,7 @@ const exam: ExamTemplate = {
   examName: 'JEE Advanced',
   country: 'india',
   description: "JEE Advanced is the second-stage entrance exam for admission to the 23 Indian Institutes of Technology (IITs) and a few other premier engineering institutes. Only the top 2.5 lakh JEE Main qualifiers are eligible to appear. Known for high difficulty — tests conceptual application, multi-topic problems, and analytical skills in Physics, Chemistry, and Mathematics.",
-  examPattern: "Paper 1 and Paper 2 (both compulsory), each with 54 questions totaling 306 marks. Sections in each paper: Physics, Chemistry, Mathematics. 3 hours per paper. Marking scheme varies (integer-type, multiple-correct, comprehension-based).",
+  examPattern: "The examination typically features Paper 1 and Paper 2 (both compulsory, 3 hours each), with question counts, marks (historically around 54 questions and ~306 marks per paper or ~360 marks total), and question types (integer-type, multi-correct, comprehension) varying annually as specified in the official jeeadv.ac.in information brochure.",
   eligibility: "Among top 2.5 lakh JEE Main rankers. Age limit: 25 years (30 for SC/ST/PwD). Class 12 aggregate of 75% or top 20 percentile in respective boards.",
   subjects,
   durations,

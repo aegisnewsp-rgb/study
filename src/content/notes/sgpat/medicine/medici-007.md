@@ -8,69 +8,111 @@ topicName: Cardiac Output Determinants
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # Cardiac Output Determinants
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> One line a GP registrar should never forget: CO is the master variable of perfusion.
 
-**Cardiovascular physiology** describes how the heart pumps blood, how vessels resist flow, and how the body regulates pressure to perfuse tissues. The core equation is **CO = SV × HR**, where cardiac output (L/min) equals stroke volume (mL/beat) multiplied by heart rate (beats/min). **Mean Arterial Pressure** is calculated as **MAP = (CO × SVR) + CVP**, or more practically as diastolic BP plus one-third of pulse pressure. **Ejection fraction** (EF) quantifies pump efficiency: **EF = (EDV − ESV) / EDV × 100%**, where normal exceeds 55%.
+**Memory Hook — "PACH"**: the four determinants are **P**reload, **A**fterload, **C**ontractility, **H**eart rate. Drop the A and you have PCH (preload, contractility, HR) which the Frank-Starling curve manipulates along the x-axis (preload) and y-axis (SV).
 
-Three high-yield exam pointers for Saudi GP Board: (1) A Killip Class III patient presents with pulmonary edema — mortality risk jumps sharply compared to Class I. (2) Wenckebach block shows *progressive PR prolongation* before a dropped beat; Mobitz Type II does not. (3) MAP thresholds guide hypertension treatment — aim ≥65 mmHg in sepsis, maintain SBP ≥90 mmHg in shock.
+| Term | Formula | Units (SI) |
+|---|---|---|
+| Cardiac output | CO = HR × SV | L·min⁻¹ |
+| Stroke volume | SV = EDV − ESV | mL per beat |
+| Ejection fraction | EF = SV / EDV × 100 | %, dimensionless |
+| Cardiac index | CI = CO / BSA | L·min⁻¹·m⁻² |
+
+Normal resting adult CO sits between 4 and 8 L·min⁻¹. CI normal range is 2.5–4.0 L·min⁻¹·m⁻². Anything below 2.2 raises suspicion for cardiogenic shock on the SCFHS blueprint.
+
+> 💡 **High-Yield Memory Hook:** Think of the ventricle as a balloon — preload stretches it (Frank-Starling), contractility squeezes it harder, afterload is the knot the squeeze fights against, and HR is how often the squeeze repeats. CO is squeeze × repeat.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 
-#### Cardiac Output Determinants
+#### Determinants of CO in haemodynamic order
 
-Cardiac output (5 L/min at rest) results from the interaction of stroke volume and heart rate. Stroke volume itself depends on three factors: **preload** (venous return filling the ventricle via Frank-Starling), **afterload** (arterial resistance opposing ejection), and **contractility** (intrinsic inotropic state). The relationship is unidirectional for preload (more filling → more output) but inverse for afterload (greater resistance → reduced output). This distinction is a frequent trap in exam questions.
+The four PACH variables act at different points of the cardiac cycle. Preload sets the end-diastolic volume (EDV) before isovolumetric contraction. Contractility determines how much of that EDV becomes stroke volume. Afterload is the arterial pressure the ventricle must overcome to open the aortic valve. HR is the cycle frequency.
 
-#### Blood Pressure Regulation
+The interdependence is captured by:
 
-Systemic Vascular Resistance (SVR) opposes flow through arterioles and is calculated as **SVR = (MAP − CVP) / CO × 80** (units: dyn·s·cm⁻⁵). Baroreceptors in the carotid sinus and aortic arch sense pressure changes and modulate sympathetic/parasympathetic outflow within seconds. The renin-angiotensin-aldosterone system provides slower hormonal regulation over minutes to hours.
+#### CO = HR × SV = HR × (EDV − ESV)
 
-#### The Cardiac Cycle
+where CO is in L·min⁻¹, HR in beats·min⁻¹, EDV and ESV in mL. Multiply mL by HR and divide by 1000 to convert to L·min⁻¹.
 
-Systole (contraction, ~0.3s) precedes diastole (relaxation, ~0.5s) in each cycle. During diastole, ventricular filling produces the **S3 gallop** in heart failure or the **S4** from stiff, non-compliant ventricles. Murmurs require characterization by timing (systolic/diastolic), location, radiation, and quality — innocent murmurs lack associated symptoms and do not impair cardiac function.
+#### Pressure-volume loop anatomy
 
-#### Conduction Blocks
+Each loop traces: end-diastolic volume point → mitral closure → isovolumetric contraction (vertical upstroke) → aortic valve opening → ejection (curved descent) → aortic valve closure → isovolumetric relaxation → mitral opening → back to EDV. The width of the loop is SV; the area approximates stroke work (external work, joules). Shifting the loop right means more preload; a steeper upstroke means higher contractility (dP/dt).
 
-AV nodal blocks are classified by severity. **Wenckebach (Mobitz Type I)** demonstrates progressive PR interval prolongation culminating in a non-conducted P wave, then repeats cyclically. **Mobitz Type II** shows fixed prolonged PR intervals with intermittent dropped beats and carries greater progression risk to complete heart block.
+#### Fick principle in clinical practice
+
+The indirect Fick method estimates CO when direct thermodilution is unavailable:
+
+#### CO = VO₂ / (CaO₂ − CvO₂)
+
+with VO₂ in mL O₂·min⁻¹, and CaO₂ and CvO₂ in mL O₂·L⁻¹ of blood. Watch units: CaO₂ is measured per litre, not per 100 mL. Multiply a 100 mL figure by 10 before substitution.
+
+#### Concept comparison matrix
+
+| Variable | Definition | Effect of ↑ | Exam trap |
+|---|---|---|---|
+| Preload | Venous return / EDV / LV end-diastolic fibre stretch | ↑ SV up to Frank-Starling ceiling | Confusing it with afterload |
+| Afterload | Arterial resistance the ventricle ejects against | ↑ Afterload → ↓ SV, but ↑ MAP | Calling SVR part of CO output |
+| Contractility | Intrinsic inotropic state independent of preload | ↑ SV for same EDV | Treating it as the same as preload |
+| Heart rate | Cycle frequency (SA node driven) | ↑ CO until diastolic filling falls | Ignoring that tachyarrhythmia reduces filling time |
+
+#### Worked resolution: septic patient on the floor
+
+A 70-kg GP-evaluated patient with febrile UTI, BP 86/52 mmHg, HR 118 bpm, has a calculated cardiac index of 3.8 L·min⁻¹·m⁻² and SVR 480 dyn·s·cm⁻⁵ (≈ 6 mmHg·min·L⁻¹ in Wood units).
+
+- Step 1 — Compute CO from CI: CI × BSA. BSA (Mosteller) = √(70 × 170 / 3600) ≈ 1.82 m². CO ≈ 3.8 × 1.82 ≈ 6.9 L·min⁻¹.
+- Step 2 — Read the pattern: CI preserved or elevated, SVR low, MAP low → distributive (warm) shock.
+- Step 3 — Expected SV: SV = CO / HR × 1000 = 6900 / 118 ≈ 58 mL.
+- Step 4 — Treatment implication: fluids ± early norepinephrine, NOT inotropes — contractility is already compensated.
+
+> ⚠️ **Examiner Trap:** Students pick "cardiogenic shock" because the MAP is low. They forget that low SVR with preserved/elevated CI is the signature of distributive shock. Always interpret the four variables together.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 
-#### The Fick Principle
+#### Edge cases and mathematical limits
 
-Oxygen consumption measurement underpins the gold-standard cardiac output calculation: **CO = V̇O₂ ÷ (CaO₂ − CvO₂)**, where V̇O₂ is total body oxygen consumption (mL O₂/min), CaO₂ is arterial oxygen content, and CvO₂ is mixed venous content. A patient with V̇O₂ = 250 mL/min, CaO₂ = 20 mL O₂/dL, and CvO₂ = 15 mL O₂/dL yields CO = 250 ÷ 5 = 50 dL/min = 5 L/min. This method is reserved for research and catheterization labs — not clinical floor calculations.
+The Frank-Starling relationship is not linear. In healthy myocardium, SV climbs with preload until a ceiling, after which additional stretch offers no further SV. In failing myocardium, the curve is flatter and slopes downward once a critical EDV is passed, because over-distension wastes energy on wall tension rather than ejection (Laplace's law: wall tension ∝ pressure × radius / wall thickness).
 
-#### Common Mistakes in Hemodynamic Calculations
+Guyton's model forces equality between venous return and cardiac output at steady state. Mean systemic filling pressure (MSFP) is the upstream driver; the venous return curve crosses the cardiac function curve at the operating point. A drop in MSFP (haemorrhage) shifts the venous return curve left and down, reducing the operating CO even though contractility itself is unchanged. Conversely, a pure contractility fall shifts the cardiac function curve downward at the same MSFP.
 
-1. **Units mismatch**: CO in L/min, SV in mL/beat produces HR in beats/min when multiplied, but requires dividing SV by 1000 to maintain L/min units.
-2. **MAP misconceptions**: MAP ≈ diastolic + (pulse pressure ÷ 3) works when heart rate is normal; the full formula is essential in bradycardia or tachycardia.
-3. **EF assumptions**: Ejection fraction assumes normal left ventricular dimensions — it becomes unreliable in restrictive cardiomyopathy where small end-systolic volume produces normal EF despite severe dysfunction.
+#### Fick principle: clinical pitfalls
 
-#### Killip Classification in Acute MI
+The Fick method assumes steady state. In a febrile patient with VO₂ = 280 mL O₂·min⁻¹, CaO₂ = 200 mL·L⁻¹, CvO₂ = 140 mL·L⁻¹, CO = 280 / 60 = 4.67 L·min⁻¹. The error students commit is using CaO₂ − CvO₂ in mL·dL⁻¹ without the ×10 conversion — this underestimates CO by a factor of 10 and leads to a false diagnosis of cardiogenic shock.
 
-This prognostic stratification directly influences management and mortality estimates:
+#### Advanced traps and exceptions
 
-| Class | Clinical Finding | Approximate In-Hospital Mortality |
-|-------|-----------------|-----------------------------------|
-| I | No heart failure signs | ~6% |
-| II | Rales, S3, jugular venous distension | ~17% |
-| III | Frank pulmonary edema | ~30–40% |
-| IV | Cardiogenic shock | >50% |
+1. In severe aortic stenosis, afterload is fixed; CO becomes preload- and HR-dependent, and tachycardia collapses diastolic filling.
+2. In HFrEF (EF < 40%), the Frank-Starling operating point sits on the descending limb — diuretics improve symptoms even when CO falls slightly.
+3. In pregnancy, CO rises by 30–50% through increases in both HR and SV; MAP is maintained because SVR falls proportionally.
+4. In atrial fibrillation with rapid ventricular response, loss of atrial kick reduces preload by ~20% — a critical bedside number.
+5. Mixed shock (e.g., sepsis with ischaemic cardiomyopathy) shows overlapping patterns: low SVR plus reduced CI — do not label it pure distributive.
+6. Pericardial tamponade equalises diastolic pressures; the four determinants are intact but CO falls because EDV cannot rise.
 
-#### NYHA Functional Classification
+#### Advanced practice prompts
 
-Beyond Killip, the **NYHA classification** guides chronic heart failure management: Class I (ordinary activity causes no symptoms) through Class IV (symptoms at rest). Saudi GP Board frequently pairs this with drug selection questions — ACE inhibitors for Classes I–III, aldosterone antagonists added for Class III–IV.
+1. A 58-year-old with anterior STEMI, BP 90/60, HR 110, cool extremities, JVP elevated, CI 1.9 L·min⁻¹·m⁻², SVR high. Map the haemodynamic profile, identify the failing PACH variable, and justify your first pharmacologic choice.
+2. A patient on chronic beta-blockade with BP 138/86 develops hypovolaemic shock after GI bleed. Predict the CO response and explain why the Frank-Starling curve shifts rather than the heart rate response. Discuss why reflex tachycardia is blunted here.
 
-#### Practice Prompts
+> 📌 **Formula Check:** CO = HR × SV gives you L·min⁻¹ only when you first convert SV from mL to L (divide by 1000). MAP = CO × SVR + CVP uses SVR in mmHg·min·L⁻¹ (Wood units × 80 = dyn·s·cm⁻⁵). The constants matter.
 
-1. A 60-year-old man has EDV 140 mL, ESV 60 mL, HR 80 bpm. Calculate CO, SV, and EF. Classify his ejection fraction status.
-2. An ECG shows progressive PR prolongation from 200ms to 400ms before a P wave fails to conduct, then the pattern restarts. What is the diagnosis, and does this require permanent pacing?
+---
 
+## Continue your study
+
+- **[View this topic in your Saudi GP Board roadmap](/roadmap/?exam=sgpat&duration=1mo)** — see where "Cardiac Output Determinants" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sgpat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Saudi GP Board exam overview](/exams/sgpat/)** — pattern, eligibility, and syllabus
+- **[All Medicine notes](/notes/sgpat/medicine/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

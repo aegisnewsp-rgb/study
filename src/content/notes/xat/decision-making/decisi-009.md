@@ -8,82 +8,124 @@ topicName: Core ethical frameworks
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # Core ethical frameworks
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Ethical decision-making** in XAT requires choosing the **most justifiable** course of action when two or more stakeholders, duties, or outcomes pull in opposite directions. The test is not "what is legal?" but "what is right and defensible?"
+> Scan this block when you have sixty seconds before the bell — names and one-line cues.
 
-Four ethical lenses dominate:
-- **Utilitarian** — greatest good for the greatest number; measure consequences.
-- **Deontological** (duty-based, Kantian) — follow the rule regardless of outcome.
-- **Rights-based** — protect individual entitlements (life, property, dignity, privacy).
-- **Virtue ethics** — ask what a person of good character would do.
+Ethical frameworks are decision-making lenses XAT tests to resolve dilemmas where profit, duty, and harm pull apart. Three classical pillars carry most marks: **Utilitarianism** counts outcomes for the greatest number, **Deontology** judges by duty and universalisability (Kant), and **Virtue Ethics** asks what a person of good character would do.
 
-Key exam pointers:
-- **Legal ≠ ethical** — an action within SEBI/Companies Act rules can still be unethical.
-- **Stakeholder mapping** must precede the choice; ignore no affected party.
-- Pick the **MOST ethical/responsible** option, even when a profitable alternative is offered.
+| Framework | Test Question | Pick When |
+|---|---|---|
+| Utilitarian | Does it maximise total welfare? | Stakeholder count or harm magnitude is highlighted |
+| Deontological (Kant) | Can the maxim be universalised? Are persons treated as ends? | The passage stresses lying, cheating, fairness to individuals |
+| Virtue Ethics | Would a courageous, honest person do this? | The dilemma centres on character or whistle-blowing |
+| Rights-based | Does it violate a fundamental right? | Privacy, consent, or freedom is at stake |
+| Justice/Fairness | Is distribution, procedure, or interaction fair? | Pay cuts, layoffs, or discrimination cues appear |
+
+> 💡 **High-Yield Memory Hook (Memory Hook):** "**U-D-V-R-J** = **U**tility, **D**uty, **V**irtue, **R**ights, **J**ustice" — read left-to-right as the question moves from *consequences* to *character*. Most XAT sets test **U**tilitarian arithmetic first, then **D**eontological universalisation as the trap answer.
+
+The Blanchard-Peale screen — Legal, Balanced, Pride-feel, Newspaper — is the single fastest eliminator on one-mark MCQs.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Core ethical frameworks
-- **Consequentialism / Utilitarianism:** Evaluate outcomes. The right action maximises net welfare. Useful in triage, resource allocation, pricing trade-offs, and layoff decisions. Weakness: it can justify harming a minority for a majority gain.
-- **Deontological ethics (Kantian duty):** Judge the action itself. Lying, fraud, and breach of contract are wrong even if they produce a better outcome. The *categorical imperative* test: would you will this maxim as a universal law?
-- **Rights-based approach:** Identify which fundamental right is at stake — life, property, free consent, privacy, fair treatment. The duty-holder must not violate it. Strongest lens for whistle-blower and discrimination cases.
-- **Virtue ethics:** Focus on the agent's character traits — integrity, courage, prudence, justice. Relevant when the dilemma is about *what kind of manager* you want to be.
+> For two-day to two-month prep. Mechanism, application, and a fully worked XAT-style set.
 
-#### Stakeholder analysis procedure
-1. List every party affected: shareholders, employees, customers, regulators, community, environment.
-2. Ascertain each party's **legitimate claim** (legal, contractual, moral).
-3. Check for **conflicts of interest** and **moral hazard** (one party bears cost while another gains).
-4. Apply a *fairness* test: would the decision survive public disclosure on the front page of a newspaper?
+#### How the pillars decide differently
 
-#### Legal vs ethical boundary
-Under Indian law, **SEBI (Prohibition of Insider Trading) Regulations, 2015** and **Section 135 of the Companies Act, 2013** (CSR spending of 2% of average net profits) are non-negotiable floors — failing them is illegal. But exceeding legal compliance (e.g., voluntary product recall for a minor defect) is the **ethical** zone XAT tests.
+A pharmaceutical GM learns a drug has a 4% adverse-event rate that the company hid from regulators. Utilitarianism asks: *which action produces the largest net welfare — recall (₹80 cr cost, 200 patients spared) or silent correction (₹0 cost, 200 harmed)?* Deontology asks: *can "conceal known harm to maximise shareholder return" be universalised?* Virtue Ethics asks: *what does an honest scientist-manager do?* The frameworks converge only rarely; XAT rewards naming which lens you used.
 
-#### Typical XAT question pattern
-A case vignette (150–250 words) presents a manager facing a dilemma such as leaking a price-sensitive draft, approving a faulty shipment, or bypassing an environmental norm. Options include a profitable shortcut, a legal-but-dubious workaround, a moderate compromise, and a transparent/principled stand. The correct answer is rarely the most profitable — it is the option that **discloses fully, protects the most vulnerable stakeholder, and remains defensible under scrutiny**.
+#### Stakeholder arithmetic
 
-#### Common traps
-- Choosing the option that "saves the company money" without checking stakeholder harm.
-- Confusing "no one will know" with ethical soundness.
-- Confusing *intent to do good* with *actually doing good*.
+Stakeholder theory (Freeman) forces you to weigh affected parties, not just shareholders. The expected-stakeholder utility score ranks actions where:
+
+- U(s) = Σᵢ wᵢ · Bᵢ
+- wᵢ = salience weight of stakeholder *i* (dimensionless, 0 to 1)
+- Bᵢ = net benefit/harm to stakeholder *i* in ₹ (positive = gain, negative = loss)
+
+Friedman's shareholder view maximises Bₛₕₐᵣₑₕₒₗdₑᵣ only; Freeman's view sums across all salient i. XAT passages on CSR budgets usually encode weight cues ("employees were promised…", "regulator issued notice…") that let you reconstruct the salience vector.
+
+#### Moral intensity (the cue detector)
+
+Jones's Issue-Contingent Model says ethical intention rises with six cues: **M**agnitude of consequences, **S**ocial consensus, **P**robability of effect, **T**emporal immediacy, **P**roximity, and **C**oncentration of effect. A passage describing a layoff affecting "200 families in the same town next month" carries higher moral intensity than one noting "minor emission drift over five years" — even when both are technically breaches.
+
+#### Comparison matrix: the four modern tests
+
+| Test | Core Question | Why XAT Uses It |
+|---|---|---|
+| Harm test | Does it hurt anyone? | Quick option-eliminator in DM sets |
+| Legality test | Is it legal? | Legal ≠ ethical; traps the unwary |
+| Publicity / Newspaper test | Would I be comfortable reading it on page one? | Surfaces reputational risk |
+| Defensibility / Values test | Could I defend it to my family, my CEO, my God? | Tests internalised integrity |
+
+Blanchard-Peale bundles the last three plus Legality into a single screen; an action scoring −4 to +4 on this screen passes only at +3 or +4.
+
+#### Worked example: the newsprint dilemma
+
+A startup's CEO can quietly delay disclosing a server breach affecting 1.2 lakh users for 60 days while a fix is deployed. The disclosure window costs ₹15 cr in share value and short-term churn. Silence costs users six weeks of unmitigated account-takeover risk.
+
+Step 1 — Utilitarian arithmetic: harms to 1.2 lakh users (probabilistic account-takeover, expected loss ≈ ₹40 cr in fraud) exceed the ₹15 cr disclosure cost; disclose wins on aggregate welfare.
+Step 2 — Deontological test: the maxim "conceal known breach for 60 days to protect share price" cannot be universalised — every firm would delay, collapsing the regulatory disclosure regime.
+Step 3 — Blanchard-Peale: Legal (likely breach of IT Act §72A, may fail), Balanced (unevenly harms customers), Pride-feel (no), Newspaper (front-page scandal) — score −2 to −4.
+Step 4 — Stakeholder salience: regulators, users, and media all carry high salience weights here; shareholders alone cannot dominate.
+All four lenses converge on **immediate disclosure**; that is the textbook XAT answer.
+
+> ⚠️ **Examiner Trap:** Many aspirants pick "delay to deploy fix properly" because it *sounds* responsible. Utilitarianism is not "what feels reasonable" — it is the sum of monetised or ordinal welfare across every affected *i*. If user harm dominates shareholder loss, silence fails even with good intentions.
+
+#### How this shows up in XAT DM
+
+One standalone MCQ (3% weight), plus one Decision-Making set of 4–6 questions. Recent patterns (2019–2024) feature whistle-blowing, data privacy, layoffs, and CSR allocation. The fastest eliminator is naming the framework in your head *before* reading options.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Resolving conflicts between personal, organisational, and public interest
-A classic XAT dilemma presents three pressures: (a) personal gain (bonus, promotion, relationship with the boss), (b) organisational pressure (quarterly target, cost cut), (c) public/stakeholder interest (safety, fair treatment, environment). The **hierarchy of moral claims** places public interest and fundamental rights above organisational targets, which in turn outweigh personal interest. When the boss instructs an unethical act, the manager's duty is to **register dissent in writing**, escalate to the audit committee or board, and — as a last resort — invoke **whistle-blower protection** under the Companies Act, 2013 (Section 178 read with SEBI's LODR Regulations, 2015). Quitting silently is not ethically sufficient because it leaves the harm ongoing.
+> Edge cases, framework collisions, and the rare passage where two frameworks disagree.
 
-#### Rationalisation traps to recognise
-- **Sunk-cost trap:** "We have already invested ₹50 crore, so we must release the product." Investment already made is irrelevant to the marginal ethical decision.
-- **Groupthink / social proof:** "Every competitor does it, so it must be acceptable." The test is universalisation, not peer behaviour.
-- **Framing bias:** Describing harm as "a small number of cases" or "acceptable industry levels" to soften it.
-- **Means-ends inversion:** Treating an unethical means as justified because the ends are noble (e.g., falsifying reports to "protect" employees from a temporary downturn).
+#### When frameworks collide
 
-#### Worked reasoning chain (case pattern)
-**Situation:** A pharma plant manager discovers that a batch has 0.3% contamination — below the legal 0.5% threshold but above the in-house 0.1% safety norm. The CFO presses for shipment to meet quarterly numbers. *Option A:* Ship, as it is legal. *Option B:* Recall voluntarily. *Option C:* Ship with a note to hospitals. *Option D:* Destroy batch and absorb the loss.
-**Reasoning chain:** Identify stakeholders — patients (rights: safety), hospitals (duty of care), shareholders (profit), regulators (compliance), employees (livelihood). Apply the *newspaper test*: would the CEO defend Option A in a public hearing? Utilitarian analysis: Option A may maximise profit once, but the expected harm (patient injury, litigation, brand loss) lowers net welfare. Rights analysis: patients' right to safety is non-negotiable. Deontological analysis: knowingly shipping a sub-standard product fails the universalisation test. **Best answer: B** — voluntary recall, transparent disclosure to the regulator, and CSR-style compensation to affected hospitals. Option D is over-correction; Option C is hedged deception.
+| Scenario | Utilitarian verdict | Deontological verdict | Likely XAT answer |
+|---|---|---|---|
+| Lying to save a life | Approve (one lie, n welfare gains) | Reject (universalising lying collapses trust) | Deontology wins — XAT tests the rule |
+| Layoff of 50 to save 500 jobs | Approve (aggregate welfare rises) | Reject (treats the 50 as means) | Mixed — depends on passage cues |
+| Bribe to clear customs delay | Approve only if systemic cost > bribe | Reject (universalising bribery = corruption) | Deontology wins decisively |
 
-#### Practice prompts
-1. A junior analyst overhears her fund manager discussing an impending merger with a personal friend. The friend has not traded yet. What should the analyst do, and what specific regulations constrain her options?
-2. A factory must cut 200 jobs to survive. The CEO proposes retrenching only contract workers (legally easier) while keeping underperforming permanent staff. Apply each of the four ethical frameworks and identify which stakeholders' claims are weakest under the proposed plan.
+#### Boundaries and limits
 
-#### Exam strategy for XAT Decision-Making
-- **Time budget:** ~2 minutes per ethical-dilemma set; do not over-deliberate.
-- **Elimination rule:** Strike out any option that violates SEBI/Companies Act *or* knowingly harms a voiceless stakeholder (customer, environment, junior employee).
-- **Look for the *most* ethical, not the *most balanced* option** — XAT rewards principled stands, not middle-ground compromises that breach a core duty.
-- **Word triggers in correct answers:** *disclose, escalate, withdraw, refuse, consult the audit committee, voluntary disclosure* — these signal principled reasoning.
+- **Moral intensity ≠ action validity.** A high-intensity issue still requires a framework choice; intensity only flags *that* an ethical decision is required.
+- **Virtue Ethics is not "gut feel."** Aristotle's mean is reasoned moderation between extremes of excess and deficiency — courage sits between recklessness and cowardice, not wherever your instinct lands.
+- **Relativism fails as a frame.** "Everyone in our industry does it" is the most common XAT distractor; ethical relativism collapses when two cultures disagree on a universal harm (forced labour, child safety).
+- **Carroll's CSR Pyramid** orders obligations: Economic → Legal → Ethical → Philanthropic. A profitable, legal, ethical action that is *also* philanthropic is the strongest answer; a profitable action that skips legal fails regardless of intent.
+- **Trevino's Person-Situation Interactionist Model** says individual moral development (Kohlberg stages) moderates how a person reads a situation; XAT cues about the decision-maker's seniority often signal whether stage-3 (good boy/girl), stage-4 (law-and-order), or stage-5 (principled) reasoning applies.
+
+#### Two advanced practice prompts
+
+1. A pharma sales lead is pressured by the regional head to push an off-label indication of a drug whose Phase IV data shows cardiac risk in 1 in 800 patients. Apply the Blanchard-Peale screen and Jones moral-intensity cues to rank four options: comply, escalate to global medical, document and refuse, or quit.
+2. A BPO's AI tool triages customer grievances and systematically de-prioritises complaints in non-metro languages, lifting NPS by 9 points. Use Carroll's Pyramid and Freeman's stakeholder salience to decide whether the rollout continues, is paused for audit, or is rolled back.
+
+#### Common precision errors
+
+- Treating "legality" as ethics: Blanchard-Peale lists legality as one of four checks.
+- Confusing Friedman shareholder primacy with Utilitarianism; Friedman operates *within rules*, not on aggregate welfare arithmetic.
+- Reading "profit-maximising" as Utilitarian — it is closer to ethical egoism.
+- Skipping the universalisation step in Kant and concluding "rules have exceptions."
+
+> 📌 **Pre-Paper Checklist:** Before marking any DM answer, name the framework (U/D/V/R/J), apply its one-line test, and check whether the distractor relies on legalism, relativism, or egoism dressed as a higher principle.
+
+---
+
+## Continue your study
+
+- **[View this topic in your XAT roadmap](/roadmap/?exam=xat&duration=1mo)** — see where "Core ethical frameworks" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=xat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[XAT exam overview](/exams/xat/)** — pattern, eligibility, and syllabus
+- **[All Decision-Making notes](/notes/xat/decision-making/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

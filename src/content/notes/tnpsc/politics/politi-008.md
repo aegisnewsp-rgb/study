@@ -8,90 +8,126 @@ topicName: National Emergency (Article 352)
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # National Emergency (Article 352)
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One-line anchor: Article 352 lets the President declare emergency on **three grounds only** — war, external aggression, or armed rebellion.
 
-**Emergency Provisions** in the Indian Constitution allow extraordinary measures during crises. The President can declare three types of emergencies:
+Article 352 of the Indian Constitution allows the President to proclaim a **National Emergency** when the security of India, or any part of it, is threatened by war, external aggression, or armed rebellion. The proclamation is issued only on the **written advice of the Union Council of Ministers**, a safeguard added by the 44th Amendment, 1978.
 
-1. **National Emergency (Art 352)** — triggered by war, external aggression, or armed rebellion. Requires Cabinet recommendation. Must be laid before Parliament within 1 month. Art 19 rights automatically suspended; Art 20 and 21 remain protected even during NE.
+| Ground | Status |
+|---|---|
+| War | Valid ground |
+| External aggression | Valid ground |
+| Armed rebellion | Valid since 1978 (44th Amendment) |
+| Internal disturbance | Removed by 44th Amendment |
 
-2. **President's Rule (Art 356)** — imposed when a state cannot function constitutionally. Must be approved by both Houses within 2 months. Renewable every 6 months; **maximum 3 years** (after 44th CAA). Governor dissolves state legislature.
+#### Must-Know Numbers
+- **Approval window:** Both Houses must approve within **1 month** of proclamation.
+- **Default expiry:** Emergency lapses after **6 months** unless Parliament passes a fresh special-majority resolution.
+- **Lok Sabha special-majority floor:** 50% of total membership + 2/3 present and voting.
+- **Rajya Sabha special-majority floor:** Same formula applied to its total membership.
 
-3. **Financial Emergency (Art 360)** — declared if India's financial stability or credit is threatened. **Never used in Indian history.** Requires parliamentary approval within 2 months.
-
-**Article 359** allows suspension of Fundamental Rights enforcement during emergency (except Art 20 and 21). Remember: Armed rebellion replaced internal disturbance by **44th Amendment (1978)**.
-
-**TNPSC tip:** Most questions test the distinction between Art 352 and Art 356, and the rights that survive emergency.
+> 💡 **High-Yield Memory Hook:** **"W-A-A-R"** = War, External Aggression, Armed Rebellion — the three grounds. Remember the swap: **"I went to A (Armed rebellion)"** — 'I' (Internal disturbance) became 'A' after 1978.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### National Emergency (Article 352)
+#### Constitutional Trigger and Origin
+The emergency is **executive in origin, legislative in survival**. The Cabinet writes the request, the President signs the proclamation, and from that moment Parliament's clock starts ticking. Without parliamentary approval within one month, the proclamation dies.
 
-The President can proclaim National Emergency when satisfied that a **grave emergency** exists whereby the security of India is threatened by war, external aggression, or armed rebellion. The term "armed rebellion" was substituted for "internal disturbance" by the 44th Constitutional Amendment Act, 1978 — this is a frequent TNPSC trap.
+#### The Special-Majority Formula
+A resolution approving the emergency must satisfy **both** conditions in each House:
+- Majority of the **total membership** of that House.
+- Majority of members **present and voting** by at least two-thirds.
 
-A Cabinet recommendation is mandatory — the President cannot act on the advice of a single minister. The proclamation must be laid before **both Houses of Parliament** within one month and continues for six months unless approved earlier. Subsequent renewals require parliamentary approval every six months, allowing indefinite extension.
+Concretely, using the present strength of the two Houses:
+- Lok Sabha (effective strength ≈ 545): majority of total ≥ 273; plus 2/3 of those present.
+- Rajya Sabha (effective strength ≈ 245): majority of total ≥ 123; plus 2/3 of those present.
 
-During National Emergency, Article 19 is automatically suspended via the **44th CAA amendment to Article 368** (this is distinct from Article 359). Critically, Fundamental Rights under **Articles 20 and 21 cannot be suspended** even during National Emergency — this protection flows directly from the constitution.
+#### Duration and Renewal Cycle
+- Day 0: Proclamation issued.
+- Day 30: Last day for both Houses to approve, else it lapses.
+- Six-month rule: Maximum life of any emergency is **6 months** at a stretch. Every renewal needs a fresh special-majority resolution passed **before** the previous one expires.
 
-#### President's Rule (Article 356)
+#### Comparison Matrix: Article 352 vs 356 vs 360
 
-Imposed when the President is satisfied that state governance cannot be carried on according to constitutional provisions. Parliamentary approval via both Houses within **two months** is required — this 2-month window is in many papers tested. Renewable every 6 months; the 44th CAA caps the total period at **3 years**.
-
-The Governor acts as the President's representative in the state. The state legislature can be dissolved or suspended during the period. Note that **Article 19 is NOT suspended during President's Rule** — only during National Emergency — a common error candidates make.
-
-#### Financial Emergency (Article 360)
-
-Proclaimed if the President is satisfied that the financial stability or credit of India is threatened. Requires laying before both Houses within 2 months. Presidential approval becomes necessary for all executive financial orders. Salaries of government officials, including Supreme Court and High Court judges, can be reduced. **Article 360 has never been invoked** in Indian history — this fact alone is TNPSC-preferred.
-
-#### Suspension of Fundamental Rights (Article 359)
-
-When an emergency is declared, the President can, by order, suspend the enforcement of Fundamental Rights (except Articles 20 and 21) under Part III. Such orders are subject to **judicial review** for procedural correctness, not for substantive satisfaction of the President.
-
-| Provision | Trigger | Parliamentary Timeline | Key Effect |
+| Feature | Art. 352 (National Emergency) | Art. 356 (President's Rule) | Art. 360 (Financial Emergency) |
 |---|---|---|---|
-| Art 352 (National) | War/Aggression/Armed Rebellion | 1 month | Art 19 suspended |
-| Art 356 (President's Rule) | State unconstitutionality | 2 months | Governor assumes control |
-| Art 360 (Financial) | Financial instability threat | 2 months | Never declared |
+| Trigger | War / external aggression / armed rebellion | Breakdown of constitutional machinery in a state | Threat to financial stability or credit of India |
+| Declared by | President on Cabinet advice | President on Governor's report | President on Cabinet advice |
+| Parliamentary approval | Within 1 month | Within 2 months | Within 2 months |
+| Max duration without renewal | 6 months | 6 months | Indefinite until revoked |
+| Effect on State List | Parliament can legislate (Art. 250) | State executive superseded | Centre can give directions on finances |
+| Ground last amended | 44th Amendment, 1978 | 44th Amendment, 1978 | — |
+
+#### Effect on Fundamental Rights
+- **Article 19** (six freedoms): automatically suspended for the duration of the emergency proclaimed on these three grounds (Article 358).
+- **Articles 20 and 21**: protection against conviction for offences and the right to life remain non-suspendable — a deliberate constitutional firewall.
+- **Article 359**: the President can suspend the right to move any court for enforcement of other fundamental rights, but the suspension itself is judicially reviewable.
+
+#### Revocation
+The President can revoke at any time by a separate proclamation. Revocation needs **no** parliamentary approval. Laws passed by Parliament on State List subjects during the emergency continue for **6 months** after revocation, then lapse unless re-enacted.
+
+#### Worked Exam-Level Problem
+A 2024 TNPSC Prelims-style MCQ reads:
+*"National Emergency under Article 352 can be declared on the ground of — (A) Internal disturbance, (B) Armed rebellion, (C) Breakdown of constitutional machinery, (D) Financial instability."*
+
+Step 1 — Eliminate (A): The 44th Amendment, 1978 removed "internal disturbance"; this is no longer a ground.
+Step 2 — Eliminate (C): Breakdown of constitutional machinery is the trigger for Article 356 (President's Rule), not 352.
+Step 3 — Eliminate (D): Financial instability triggers Article 360, the Financial Emergency.
+Step 4 — Select (B): "Armed rebellion" is one of the three surviving grounds for National Emergency.
+
+> ⚠️ **Examiner Trap:** Option (A) is the favourite distractor because the 1975 Emergency was declared on "internal disturbance." TNPSC examiners count on candidates mixing up the **pre-1978** and **post-1978** position. Memorise the amendment, not the original wording.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### The Doctrine of Civil Supremacy and Emergency History
+#### The 44th Amendment Surgery
+The 1975 Emergency exposed the loose drafting of Article 352. The 44th Amendment tightened four pressure points:
+1. Replaced "internal disturbance" with the narrower "armed rebellion."
+2. Made Cabinet written advice **mandatory** — the President cannot act on whim.
+3. Capped continuous duration at 6 months without fresh special-majority renewal.
+4. Barred revocation of emergency on the ground of "internal disturbance" alone — meaning the new grounds cannot be dodged by re-labelling.
 
-The emergency provisions represent a tension between federal stability and civil supremacy over military power. Unlike some constitutions that embed emergency powers within military command structures, India's framework keeps the President (a civilian constitutional head) as the sole declaring authority, even though the actual advice comes from the Union Council of Ministers. This reflects the parliamentary system's diffusion of executive power.
+#### Edge Case: Armed Rebellion Without War
+"Armed rebellion" sits alone as a valid ground. Unlike "external aggression" or "war," it does not require a foreign adversary. The 44th Amendment, however, demanded that this ground alone should not become the new loophole. Hence courts read it as requiring **organised, violent insurrection**, not scattered riots or protests.
 
-In practice, National Emergency was proclaimed **thrice**: 1962 (Sino-Indian War, revoked 1968), 1971 (Pakistan war, continued post-1975), and **1975–77** (Indira Gandhi's "Emergency" — the defining episode in Indian constitutional history involving suspension of press freedom and political opponents). The 1975 Emergency directly prompted the 44th CAA reforms.
+#### Edge Case: The 1975 Emergency's Afterlife
+- Declared on the wider "internal disturbance" ground.
+- Approved by Parliament, but under a Lok Sabha packed with suspended Opposition members.
+- Lasted 21 months (June 1975 to March 1977).
+- Became the political trigger for the 44th Amendment, reshaping Article 352.
 
-#### Governor's Rule vs President's Rule: The J&K Distinction
+#### Non-Suspendable Floor: Articles 20 and 21
+Even during the 1975 Emergency, the Supreme Court later held in **ADM Jabalpur (1976)** that Article 21 can be suspended, but **Minerva Mills (1980)** and subsequent benches read Article 21 alongside Article 20 as the irreducible core that no proclamation can override.
 
-Candidates frequently confuse **President's Rule under Article 356** with **Governor's Rule** in Jammu & Kashmir (under the now-repealed Article 35A and J&K Constitution). Governor's Rule was specific to J&K, allowing the Governor (not the President) to assume state government functions. After the **Abrogation of Article 370 (2019)**, the J&K Constitution stand-alone provisions were dissolved, making this a transitional-distinction question in TNPSC papers.
+#### Common Traps Table
 
-#### Critical Distinctions for Examination
+| Trap | What students assume | What the Constitution actually says |
+|---|---|---|
+| "Internal disturbance" is still a ground | Old 1950 text | Removed in 1978 |
+| Only Lok Sabha approves | Single-House vote | Both Houses, special majority |
+| Emergency ends automatically every 6 months | Automatic sunset | Each renewal needs a fresh resolution before expiry |
+| Article 19 is permanently suspended | Total blackout | Suspended only during the emergency's operative period |
+| President declares on personal judgement | Executive discretion | Must be on written Cabinet advice |
 
-- **Art 19 automatic suspension** occurs ONLY under National Emergency, not under Art 356. This is the most repeatedly tested trap in TNPSC Group 1.
-- **Art 20 and 21 survival**: Even during National Emergency, Article 20 (protection in respect of conviction for offences) and Article 21 (right to life and personal liberty) cannot be suspended. Article 21's survival during the 1975 Emergency was confirmed in the landmark *ADM Jabalpur v. Shivan Shivpur* (1976), later overridden by the 44th CAA inserting **Article 359A**.
-- **Cabinet vs individual minister**: National Emergency requires the **entire Cabinet's recommendation**, not just the Prime Minister's — a nuance grounded in the **Minerva Mills** and subsequent parliamentary practice.
-- **Financial Emergency's inaction**: Its non-invocation since 1950 is itself analytically significant — it signals the constitutional framers' expectation that India's federal fiscal mechanisms (FRBM Act, RBI mechanisms) would handle financial crises without invoking Article 360.
+#### Advanced Practice Prompts
+1. A proclamation is issued on 15 March. Parliament's session ends without voting. By which date must both Houses approve to keep the emergency alive, and what type of majority is required? Frame your answer citing the relevant sub-clause of Article 352.
+2. The President issues a revocation proclamation on 10 August. A State List law passed by Parliament during the emergency under Article 250 is still in force. On what date will that law lapse if Parliament takes no further action? Identify each step in your reasoning.
 
-#### Common Mistakes
+---
 
-- Writing "internal disturbance" instead of "armed rebellion" as the trigger for Art 352 — the 44th CAA made this change.
-- Assuming Financial Emergency was declared during the 1991 Balance of Payments crisis (it was not; IMF assistance was sought instead).
-- Conflating Article 359 suspension of rights with Article 368 amendment restrictions during emergency.
+## Continue your study
 
-#### Practice Prompts
-
-1. *A state has been under President's Rule for 3 years. Can it be extended further? Analyse the constitutional position post-44th CAA.*
-2. *During a declared National Emergency, a citizen is detained under preventive detention. Which Fundamental Rights, if any, can still be claimed? Explain with reference to Articles 20, 21, and 22.*
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "National Emergency (Article 352)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All Politics notes](/notes/tnpsc/politics/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

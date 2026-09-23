@@ -8,92 +8,108 @@ topicName: Rate equation and order
 weight: 3
 country: uganda
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # Rate equation and order
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Rate of reaction** is the change in concentration of a reactant or product per unit time, measured in **mol dm⁻³ s⁻¹**. For a reaction A + B → products, the rate is expressed by the **rate equation**: rate = k[A]ᵐ[B]ⁿ, where the exponents m and n are found by experiment, never from the stoichiometric equation. **Order of reaction** with respect to each reactant is the power in the rate law; the **overall order** is the sum of m + n. A **first-order** reaction has a constant **half-life** t₁/₂ = 0.693/k, independent of starting concentration. The **Arrhenius equation**, k = Ae^(-Ea/RT), shows that the **rate constant** rises with temperature because the fraction of molecules exceeding **activation energy (Ea)** grows. **Catalysts** speed up reactions by lowering Ea through an alternative pathway but are not consumed and do not shift equilibrium. **Enzymes** are biological catalysts that denature above ~40 °C or outside their optimum pH. **UACE must-knows:** the initial-rates method for finding orders, the half-life distinction between first and second order, sketching and labelling Boltzmann distribution curves with and without a catalyst, and the Arrhenius two-temperature equation for calculating Ea from rate constants at two temperatures.
+> Slow down on one idea before reading: order is an experimental number, not a stoichiometric copy.
 
----
+For a reaction aA + bB → products, the rate equation (rate law) reads:
+
+#### rate = k [A]ᵐ [B]ⁿ
+
+- **rate** = rate of reaction, in mol dm⁻³ s⁻¹
+- **k** = rate constant; its SI units shift with overall order
+- **[A], [B]** = concentrations in mol dm⁻³
+- **m, n** = orders *with respect to* A and B; overall order = m + n
+- Values of m and n are found from data, never read off the balanced equation.
+
+| Order | Differential form | Integrated form | Units of k | Half-life |
+|---|---|---|---|---|
+| 0 | rate = k | [A] = [A]₀ − kt | mol dm⁻³ s⁻¹ | [A]₀ / 2k |
+| 1 | rate = k[A] | ln[A] = ln[A]₀ − kt | s⁻¹ | 0.693 / k |
+| 2 | rate = k[A]² | 1/[A] = 1/[A]₀ + kt | dm³ mol⁻¹ s⁻¹ | 1 / (k[A]₀) |
+
+> 💡 **Memory Hook (RATIO):** **R**ate = k · **A**ll concentrations raised **T**o **I**nteger-or-fractional **O**rders. If a straight-line test is what you need: plot [A] vs t → 0; ln[A] vs t → 1; 1/[A] vs t → 2. Whichever plot linearises the data tells you the order.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Definition and measurement of rate
-Rate is defined as the **decrease in concentration of a reactant** or **increase in concentration of a product** per unit time:
-rate = −Δ[Reactant]/Δt = Δ[Product]/Δt
-Units are **mol dm⁻³ s⁻¹** (or min⁻¹, h⁻¹). Two experimental approaches are tested at UACE: the **initial rates method** (varying initial concentrations and measuring the slope of [product] vs time, or timing a fixed change such as a given volume of gas), and the **continuous monitoring method** (following concentration by titration at intervals, colorimetry, conductivity, or gas volume).
+> Walk through how UACE questions set up the data, then how to read the answer back out of the graph or the half-life.
 
-#### Rate equation and order
-For A + B → products, rate = k[A]ᵐ[B]ⁿ. The exponents are determined experimentally:
+#### How order is actually found
 
-| Order with respect to A | Effect of doubling [A] on rate |
-|---|---|
-| Zero | No change |
-| First | Rate doubles |
-| Second | Rate quadruples |
+UACE papers (Paper 2 and Paper 3) usually give you a small table of initial concentrations and initial rates. Keep [B] fixed and double [A]: if the rate doubles, first order in A; if it quadruples, second order in A; if it stays flat, zero order in A. Repeat with [B] held constant. The orders you read this way are *experimental*, and they may not match the coefficients in the equation — this is the single point examiners love to test.
 
-Common patterns UACE sets: a reaction is **first order overall** if halving [A] doubles t₁/₂; it is **second order in A** if t₁/₂ is proportional to 1/[A]₀. **Zero order** rate depends only on k (e.g., surface-catalysed reactions at saturation).
+#### Differential vs integrated forms
 
-#### Half-life
-For a **first-order** reaction: t₁/₂ = 0.693/k (constant, independent of [A]₀). For a **second-order** reaction in a single reactant: t₁/₂ = 1/(k[A]₀). Half-life is the time taken for the concentration of a reactant to fall to **half** its original value.
+The differential form (rate = k[A]ᵐ[B]ⁿ) is what you write before you know m and n. Once you know them, the integrated form is the working tool for any "find k from concentration data" calculation. For a first-order reaction the integrated form ln[A] = ln[A]₀ − kt is linear with slope −k; a positive slope on a 1/[A] vs t plot signals second order; a flat [A] vs t plot with constant rate is zero order.
 
-#### Temperature, activation energy and the Arrhenius equation
-The **Arrhenius equation** is k = Ae^(−Ea/RT), where A is the pre-exponential factor, Ea the activation energy in J mol⁻¹, R = 8.314 J K⁻¹ mol⁻¹, and T the absolute temperature. A useful linear form is ln k = ln A − Ea/RT, giving a straight line of slope −Ea/R when ln k is plotted against 1/T. A two-point version used at UACE is:
+#### Half-life as a diagnostic
 
-ln(k₂/k₁) = (Ea/R)(1/T₁ − 1/T₂)
+Half-life (t½) is the time for [A] to fall to half its starting value. The first-order case is special: t½ = 0.693/k, independent of [A]₀. Watch for the UACE favourite of giving two half-lives at two different starting concentrations — equal t½ values prove first order, and unequal ones rule it out.
 
-A 10 K rise near room temperature typically doubles the rate of many reactions because a larger fraction of molecules then possesses energy ≥ Ea (visible as an increased area under the high-energy tail of the **Maxwell–Boltzmann distribution**).
+#### Worked example — initial rates to order
 
-#### Catalysis
-A **catalyst** provides an alternative reaction pathway with a lower Ea, increasing the rate constant. It is **regenerated** in the reaction, is needed only in small amounts, and is **specific**. Catalysts do **not** alter the position of equilibrium or the value of ΔH — they only let it be reached faster. **Homogeneous catalysis** has reactants and catalyst in the same phase (e.g., NO(g) in the lead-chamber process for H₂SO₄). **Heterogeneous catalysis** involves different phases; reaction proceeds by **adsorption** of reactants onto active sites on the solid surface, reaction at the surface, then desorption of products. **Enzyme catalysis** is highly specific (lock-and-key / induced-fit), works under mild conditions of temperature and pH, and is destroyed by **denaturation** at high temperatures or extreme pH.
+A reaction 2N₂O₅ → 4NO₂ + O₂ was studied at 320 K with the data below:
 
-#### UACE question patterns
-- Sketch the Boltzmann distribution, label the activation energy with and without a catalyst, and shade the area representing molecules that react at a higher temperature.
-- Use data of initial rate vs concentration to deduce the order with respect to each reactant.
-- Calculate Ea from k at two temperatures using the Arrhenius two-temperature equation.
-- Distinguish between heterogeneous and homogeneous catalysis with named examples.
-- Explain why enzymes lose activity at temperatures above about 40 °C.
+| Run | [N₂O₅] / mol dm⁻³ | [NO₂] / mol dm⁻³ | Initial rate / mol dm⁻³ s⁻¹ |
+|---|---|---|---|
+| 1 | 0.10 | 0.10 | 1.4 × 10⁻⁴ |
+| 2 | 0.20 | 0.10 | 2.8 × 10⁻⁴ |
+| 3 | 0.10 | 0.20 | 1.4 × 10⁻⁴ |
 
----
+Compare runs 1 and 2: [N₂O₅] doubles, rate doubles → first order in N₂O₅. Compare runs 1 and 3: [NO₂] doubles, rate is unchanged → zero order in NO₂. So rate = k[N₂O₅]¹[NO₂]⁰ = k[N₂O₅]. From run 1, k = (1.4 × 10⁻⁴) / 0.10 = 1.4 × 10⁻³ s⁻¹.
+
+> ⚠️ **Examiner Trap:** The balanced equation shows a coefficient of 2 in front of N₂O₅. Students write "second order" and lose the mark. The order is read off the rate data, not the equation.
+
+> 📌 **Formula Check:** k here has units s⁻¹ because the overall order is 1. If you forget the units, UACE markers will deduct a mark even when the number is correct.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Collision theory and the activated complex
-Reactant particles must (1) **collide**, (2) possess combined kinetic energy ≥ Ea, and (3) have the correct **orientation**. On collision, a transient, high-energy **activated complex** (transition state) forms at the peak of the energy profile; its decomposition to products releases energy. Catalysts stabilise this complex and lower the energy barrier but do not change ΔH of reaction or the equilibrium constant Kc.
+> Two questions worth practising before the paper: the molecularity-vs-order trap, and the third-order units question.
 
-#### Rate-determining step and mechanisms
-In a multi-step mechanism, the **slow (rate-determining) step** governs the overall rate. The rate equation contains the concentrations of species appearing in this step (and those in rapid pre-equilibria that feed it). This is why **experimental orders need not match stoichiometric coefficients** — UACE tests the ability to spot this and to deduce which proposed elementary steps are consistent with a measured rate law.
+#### Molecularity and order are not the same thing
 
-#### Half-life in detail
-- **First order:** t₁/₂ = 0.693/k, constant at all concentrations. Useful for radioisotope dating (¹⁴C, K–Ar).
-- **Second order** (single reactant): t₁/₂ = 1/(k[A]₀), increases as reaction proceeds.
-- **Zero order** in a single reactant: t₁/₂ = [A]₀/(2k), also concentration-dependent.
+Molecularity counts colliding molecules in one elementary step, so it is a whole number from 1 to 3 and is a *theoretical* property. Order comes out of experiment and can be 0, fractional (e.g. 0.5 from a chain mechanism) or even negative (a product inhibiting the reaction). Most UACE mechanism questions ask you to identify the rate-determining step and confirm that the orders predicted from it match the experimental rate law — if they don't, the proposed mechanism is wrong.
 
-A common UACE trap: assuming all reactions have t₁/₂ independent of concentration. Only **first order** behaves that way.
+#### Edge cases that show up in Paper 3
 
-#### Heterogeneous catalysis — surface mechanism
-Steps are: (i) diffusion of reactants to the surface, (ii) **adsorption** onto active sites (often physisorption then chemisorption), (iii) surface reaction between adsorbed species, (iv) desorption of products. The **Langmuir–Hinshelwood** picture has two adsorbed species reacting on the surface; in the **Eley–Rideal** mechanism a gas-phase species collides with an adsorbed one. Industrial examples tested: Fe in the Haber process, Pt/Rh in Ostwald's process, V₂O₅ in the Contact process, Pt/Pd in catalytic converters. **Catalyst poisoning** by species such as sulfur or lead blocks active sites and reduces activity.
+- **Pseudo-order reactions.** Hydrolysis of an ester in water keeps [H₂O] effectively constant at ~55 mol dm⁻³, so the rate reduces to k' [ester], an apparent first-order reaction with k' = k[H₂O]. UACE papers have asked why changing the solvent volume does not change the rate.
+- **Catalyst-saturated surfaces.** Heterogeneous catalysis on a metal surface often gives zero order in the reactant because every active site is occupied; raising the pressure no longer speeds things up. This is the textbook explanation for why zero-order kinetics can coexist with a catalyst.
+- **Negative orders.** A product that binds to the active site and blocks it produces a negative order in that product. The rate law then carries a denominator-like factor, e.g. rate = k[A]/(1 + K[B]). Most UACE questions only require you to state the sign of the order.
+- **Third-order units.** k for an overall third-order reaction has units dm⁶ mol⁻² s⁻¹. The general rule is units of k = (mol dm⁻³)¹⁻ⁿ · s⁻¹ where n = overall order. Tabulating this is a quick win.
 
-#### Common mistakes and exam traps
-- Writing orders from the balanced equation instead of from experimental data.
-- Forgetting that doubling the concentration of a **zero-order** reactant changes nothing.
-- Using °C in the Arrhenius equation instead of K.
-- Confusing the effect of a catalyst on Ea with its (non-)effect on ΔH and Kc.
-- Stating that catalysts shift the position of equilibrium — they do not; both forward and reverse rates are increased equally.
-- Treating enzyme denaturation as a reversible change — at high T or extreme pH, denaturation is **irreversible**.
+#### Comparison matrix — commonly confused concepts
 
-#### Worked micro-example
-The decomposition of N₂O₅ in CCl₄ is first order with k = 6.0 × 10⁻⁴ s⁻¹ at 320 K. Find the time for [N₂O₅] to fall to one-eighth of its initial value.
-t₁/₂ = 0.693/k = 0.693 / (6.0 × 10⁻⁴) = 1155 s. One-eighth = (½)³, so t = 3 × t₁/₂ = 3465 s ≈ 57.8 min.
+| Feature | Order | Molecularity | Rate constant k | Half-life |
+|---|---|---|---|---|
+| Source | Experiment | Mechanism theory | Experiment (slope of integrated plot) | Experiment (time to halve) |
+| Allowed values | 0, ±, fractional | Whole number 1–3 | Positive real | Positive real |
+| Depends on [A]₀? | No | No | No | Only for n ≠ 1 |
+| Changes with temperature? | No | No | Yes (Arrhenius) | Yes, via k |
+
+#### Advanced traps and exceptions
+
+1. The half-life formula t½ = 0.693/k is first-order only; substituting into zero- or second-order contexts gives nonsense numbers and loses easy marks.
+2. A negative sign in ln[A] = ln[A]₀ − kt is part of the slope, not a calculation error — plotting −ln[A] vs t reverses the sign convention.
+3. ln and log₁₀ differ by a factor of 2.303; mixing them silently inflates k by that factor. UACE papers use ln throughout; check the axis label before committing.
+4. Catalysts change k but leave the order unchanged; an order shift on adding a catalyst means a different reaction pathway is operating.
+5. Pseudo-order constants are valid only while [H₂O] (or whichever species is in large excess) really is constant — dilute the solvent far enough and the assumption collapses.
 
 #### Practice prompts
-1. For the reaction 2A + B → products, the following initial rates were obtained: [A] = 0.10, [B] = 0.10 → rate = r; [A] = 0.20, [B] = 0.10 → rate = 2r; [A] = 0.10, [B] = 0.30 → rate = 3r. Determine the order in A, in B, the overall order, and the rate constant (with units) when [A] = [B] = 0.10 mol dm⁻³.
-2. A reaction has k = 1.5 × 10⁻³ s⁻¹ at 300 K and k = 6.0 × 10⁻³ s⁻¹ at 320 K. Calculate Ea in kJ mol⁻¹ and comment on whether the value is consistent with a typical catalysed or uncatalysed reaction.
+
+- **Prompt A.** A reaction is reported as third order overall with rate 2.6 × 10⁻⁴ mol dm⁻³ s⁻¹ when [A] = [B] = [C] = 0.050 mol dm⁻³. Calculate k with correct SI units.
+- **Prompt B.** The half-life of a reactant at 0.20 mol dm⁻³ is 120 s, and at 0.40 mol dm⁻³ it is 240 s. Identify the order and write the integrated rate law.
+
+## Continue your study
+
+- **[View this topic in your UNEB UACE (Uganda) roadmap](/roadmap/?exam=uneb&duration=1mo)** — see where "Rate equation and order" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uneb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNEB UACE (Uganda) exam overview](/exams/uneb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/uneb/chemistry/)** — browse sibling topics in this subject
+
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

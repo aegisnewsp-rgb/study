@@ -8,64 +8,92 @@ topicName: Core Operations Tested (2)
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # Core Operations Tested (2)
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> The three reading moves UTBK rewards are inference, argument evaluation, and cross-paragraph synthesis.
 
-**Topic 3** of Literasi Bahasa Indonesia (UTBK/SNPMTN) tests your ability to read, understand, and reason about a 300–500 word passage — in most keys **argumentative**, **expository**, or a short narrative. You must be able to locate the **ide pokok** (main idea) of each paragraph, trace **koherensi** (idea-level unity) and **kohesi** (sentence-level connectors) across the passage, and pull out **inferensi** (implied conclusions) anchored in textual evidence. Three high-yield pointers: (1) paraphrase — never copy a full sentence as the main idea; condense it into a noun phrase that captures the *gist*. (2) Distinguish **fakta** (verifiable claim) from **opini** (author's judgment); UTBK questions in many papers ask which sentence is an opinion. (3) Read the **tujuan komunikatif** stem carefully — *tujuan penulis* (purpose), *sikap penulis* (stance), and *makna kata* (word meaning) require different evidence.
+In the Literasi Bahasa Indonesia subtest, "Core Operations Tested (2)" groups the higher-order reading operations beyond literal comprehension: **inferensi** (drawing implicit meaning), **evaluasi argumen** (judging whether reasoning is valid and sufficient), and **sintesis teks** (weaving information across paragraphs into a unified conclusion).
+
+| Operation | What the examiner asks | Marker words to spot |
+|---|---|---|
+| Inferensi | What is implied but not stated | "tersirat", "makna yang tersembunyi", "yang paling tepat" |
+| Evaluasi | Is the reason/evidence strong enough? | "pendapat yang dapat dibenarkan", "kelemahan argumen" |
+| Sintesis | What conclusion ties multiple parts together? | "simpulan umum", "inti gabungan paragraf" |
+
+> 💡 **High-Yield Memory Hook (Memory Hook):** **I-E-S** — *Imagine, Evaluate, Synthesize*. Imagine (infer) the unsaid, Evaluate the reasoning, Synthesize across paragraphs. When the stem says "yang paling tepat" or "tersirat", your brain must jump to I-E-S, not back to the surface sentence.
+
+A common trap: picking the option that sounds reasonable in general life. UTBK wants the answer anchored to textual evidence, not real-world plausibility.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Inference, evaluation, and synthesis form one inseparable chain on every Literasi Bahasa Indonesia passage.
 
-#### Core Operations Tested
+#### How each operation works on a passage
 
-UTBK's Literasi subtes on this topic asks you to perform seven reading operations on a single passage. The first is **ide pokok identification**: locate the sentence — in most keys the first or last — that the rest of the paragraph supports, then restate it in your own words. The second is **struktur teks** recognition: identify whether the passage follows *deduktif* (general→specific), *induktif* (specific→general), or *campuran* (mixed) logic, since question stems in many papers test paragraph order or omitted sentences. The third is **kohesi analysis**: map explicit connectors (*oleh karena itu, akan tetapi, dengan demikian, selain itu*) and implicit logical bridges (cause-effect, contrast, addition).
+**Inferensi** is a single-paragraph leap. The answer is not in any sentence, yet every sentence constrains it. You combine two explicit clues — a noun phrase plus a verb of attitude, for example — to land on an unstated conclusion. The classic shape: the passage never says the writer dislikes a policy, but the diction (chosen vocabulary, "mempertanyakan", "meragukan") carries the dislike.
 
-#### Inferensi and Koherensi
+**Evaluasi argumen** moves from "what does the writer claim?" to "is the claim defensible?". You must separate **fakta** (verifiable claim) from **opini** (judgment word) from **asumsi** (unstated premise the argument needs to function). An argument with one strong fact but a hidden false assumption is still weak.
 
-A passage is *koheren* when every sentence advances the same controlling idea. To test this, ask: "If I delete this sentence, does the paragraph's point change?" If not, the sentence is supporting detail. **Inferensi** is the conclusion the author leads you to without stating directly. To validate an inference, locate *at least two textual cues*; a one-evidence inference is in most keys a trap. The standard UTBK trap here is the *plausible-but-unsupported* option — it sounds reasonable but cannot be traced back to the passage.
+**Sintesis teks** is the multi-paragraph move. You must read at least two paragraphs, identify which sentence in each carries weight, then fuse them. The fusion is not a summary of paragraph one plus a summary of paragraph two; it is a third sentence that neither paragraph states alone.
 
-#### Membandingkan Dua Teks
+#### Concept comparison matrix
 
-A frequent question type presents two short passages on related topics and asks for *persamaan*, *perbedaan*, or *sikap penulis* comparison. Build a simple two-column T-chart: controlling idea, supporting evidence, and tone. Tone signals (*sayangnya, ironisnya, patut dicermati*) in many papers determine the *sikap* answer.
+| Dimension | Inferensi | Evaluasi argumen | Sintesis teks |
+|---|---|---|---|
+| Unit of analysis | Single paragraph | One claim + its reasons | 2+ paragraphs |
+| Output type | Unstated conclusion | Judgment of validity | Unified conclusion |
+| Evidence needed | Two explicit clues | Fact vs opinion split | Cross-paragraph linkage |
+| Bloom level | C4–C5 | C5 | C6 |
+| Trap to avoid | Choosing an explicit restatement | Mixing opinion with fact | Summarizing one paragraph only |
 
-#### Common Question Stems
+#### Worked problem
 
-| Stem phrase | What you must produce |
-|---|---|
-| *Ide pokok paragraf ke-X* | A paraphrased noun phrase |
-| *Simpulan isi teks* | A conclusion supported by the whole passage |
-| *Tujuan penulis* | The communicative intent (meyakinkan, mengkritik, menjelaskan) |
-| *Makna kata/konotas*i | Context-bound meaning, not dictionary default |
-| *Fakta atau opini?* | Verifiability test |
+Read this short passage:
+
+> Paragraf 1: "Penerapan kebijakan work from home di beberapa perusahaan rintisan ternyata menurunkan konsumsi listrik kantor, namun rapat daring yang panjang justru menaikkan kelelahan pekerja."
+> Paragraf 2: "Survei internal perusahaan menunjukkan 62% pekerja merasa lebih lelah dibanding bekerja dari kantor, meskipun mereka menghemat waktu perjalanan."
+
+Question: Which inference about the work-from-home policy is most strongly supported?
+
+Step 1 — locate explicit clues. Clue A (P1): WFH cuts office electricity but lengthens online meetings. Clue B (P2): 62% feel more tired despite saving commute time.
+
+Step 2 — fuse the clues. The policy saves a measurable resource (electricity) but extracts a non-measurable cost (fatigue). A reasonable unstated conclusion must mention both, not one alone.
+
+Step 3 — eliminate weak options. A choice that says "WFH is efficient" reads P1 only. A choice that says "WFH is harmful" reads P2 only. A choice that says "WFH trades a measurable saving for an unmeasured cost" reads both — this is the inferensi target.
+
+> ⚠️ **Examiner Trap:** Students often pick the option that feels right in everyday life ("WFH is tiring"). That sentence is partially true but ignores P1's electricity data. UTBK penalises any inference that ignores an explicit clue in the passage.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases in literacy items usually hide inside the stem, not the passage.
 
-#### Edge Cases and Advanced Traps
+#### Edge cases and advanced traps
 
-The hardest UTBK items on this topic exploit four patterns. **Trap 1 — the long opener**: a paragraph can begin with a two-sentence anecdote; the *ide pokok* is in sentence three, not sentence one. Train yourself to read the *full* paragraph before choosing. **Trap 2 — lexical ambiguity**: words like *bisa* (capable vs. permission vs. possibility) and *cuma* (only vs. just) shift meaning by context. Always substitute the dictionary meaning back into the sentence — if it sounds wrong, choose the contextual sense. **Trap 3 — inference vs. assumption**: an inference is *text-anchored*; an assumption is *text-required but unstated*. UTBK will sometimes swap these labels to test your discrimination. **Trap 4 — purpose vs. stance**: *tujuan penulis* describes what the author is *doing* (explaining, persuading, criticizing), while *sikap penulis* describes how the author *feels* about the subject (skeptical, supportive, cautious). A passage can explain a topic neutrally (purpose = menjelaskan) while the author is privately skeptical (stance = meragukan).
+1. **Inference that crosses paragraph boundaries** — sometimes a single-paragraph inferensi item is harder than a synthesis item because the explicit clues are spread across two paragraphs but the stem asks for "kesimpulan paragraf pertama". Read the stem's scope before fusing.
+2. **Evaluasi with a true premise but irrelevant evidence** — the reason may be factually correct yet not address the claim. Mark the option wrong even if its facts check out.
+3. **Sintesis where one paragraph is a distractor** — only two of three paragraphs actually contribute to the fused conclusion. Do not let the third paragraph's vivid detail pull the synthesis off-centre.
+4. **Tone vs purpose confusion** — "nada" (tone) is the writer's attitude; "tujuan" (purpose) is the writer's action goal. A persuasive paragraph can carry a neutral tone; a neutral paragraph can carry a covert purpose.
+5. **Conjunction-driven inference** — words such as *namun*, *justru*, *meskipun*, *bahkan* are load-bearing. Stripping them rewrites the meaning. Mark the inference against the conjunction, not against a paraphrased version.
 
-#### Connection to Adjacent Skills
+#### Advanced practice prompts
 
-Mastery of Topic 3 transfers directly to **Topic 4** (penalaran kuantitatif in literary-numerical hybrids) and to **penalaran umum** in TPS, where mixed passages combine a chart with a 200-word editorial. The same paraphrase-then-verify routine applies. Misreading the *tujuan komunikatif* here will compound into reading-comprehension errors across the subtes — this is why Topic 3 carries disproportionate weight in the Literasi cluster despite the 3% subject-level allocation.
+- Take any UTBK literasi passage you have solved. Re-answer the inferensi item using only the conjunction structure of the relevant sentence as your evidence map. Does the answer change?
+- Given a paragraph with three opinions and no data, write one sentence that exposes the hidden assumption. Then write a second sentence that exposes a weakness in your first. This is the evaluasi loop UTBK tests in the hardest 1–2 items per paket.
 
-#### Practice Prompts
+---
 
-1. **Close reading**: Take any 400-word *editorial Kompas* on a policy issue. Within 4 minutes, list (a) the *ide pokok* of each paragraph in one noun phrase, (b) the passage's controlling idea in one sentence, and (c) one *inferensi* the author assumes you will draw. Check your inference by underlining two supporting sentences.
-2. **Trap hunting**: Find a 300-word passage where paragraph 1 uses *induktif* structure. Write two plausible-but-wrong main ideas (one that over-generalises, one that picks a supporting detail) and one correct paraphrase. This builds your radar for distractor options.
+## Continue your study
 
-#### Time-Per-Question Strategy
-
-Allocate **90 seconds per item** on Topic 3 reading sets. Read the passage *first*, the questions *second*; questions written before reading tend to anchor you on details rather than the controlling idea.
+- **[View this topic in your UTBK/SNPMTN (Indonesia) roadmap](/roadmap/?exam=utbk&duration=1mo)** — see where "Core Operations Tested (2)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=utbk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UTBK/SNPMTN (Indonesia) exam overview](/exams/utbk/)** — pattern, eligibility, and syllabus
+- **[All Indonesian Language (Literasi Bahasa Indonesia) notes](/notes/utbk/indonesian/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

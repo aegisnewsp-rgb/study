@@ -16,8 +16,8 @@ const exam: ExamTemplate = {
   examName: 'KEAM',
   country: 'india',
   description: "Kerala Engineering Agricultural Medical (KEAM) is the entrance exam for professional courses in Kerala including engineering, pharmacy, and medical streams.",
-  examPattern: "Paper I Physics & Chemistry (120 MCQs, 2h 30min), Paper II Mathematics (120 MCQs, 2h 30min). 4 marks per correct answer.",
-  eligibility: "Class 12 with PCM with minimum 50% aggregate. Kerala domicile required for government seats.",
+  examPattern: "Paper I Physics & Chemistry (120 MCQs, 2h 30min), Paper II Mathematics (120 MCQs, 2h 30min). 4 marks per correct answer — check the official CEE Kerala information bulletin for the current marking scheme.",
+  eligibility: "Class 12 with PCM with minimum 50% aggregate — check the current percentage on the official CEE Kerala website. Kerala domicile required for government seats.",
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for KEAM — 1 Hour'),

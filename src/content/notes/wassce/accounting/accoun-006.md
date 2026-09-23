@@ -8,89 +8,112 @@ topicName: Final Accounts
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-09-23"
 ---
 
 # Final Accounts
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One pass over what WASSCE expects on Paper 2: trading account → profit and loss → balance sheet, in that order.
 
-**Final Accounts** are the end-of-period financial statements that determine profitability and the financial standing of a sole trader or partnership. The set comprises the **Trading Account**, **Profit and Loss Account**, **Appropriation Account** (for partnerships), and the **Balance Sheet**.
+Final Accounts close the books at period-end. The Trading Account measures **Gross Profit**, the Profit and Loss Account turns that into **Net Profit**, and the Balance Sheet shows the **financial position** on a single date. Cost of Goods Sold links opening stock, net purchases, direct expenses, and closing stock.
 
-- **Gross Profit** = Net Sales − Cost of Goods Sold (COGS).
-- **Net Purchases** = Purchases − Purchase Returns + Carriage Inward.
-- **Net Profit** = Gross Profit + Other Income − Operating Expenses − Depreciation − Bad Debts.
-- **Closing Stock** is the only adjustment not in the Trial Balance; credit it in Trading Account and list it as a **Current Asset** in the Balance Sheet.
+| Line item | Where it goes | Formula |
+|---|---|---|
+| Sales returns | Less from Sales | deducted in Trading A/c |
+| Closing stock | Dr Trading A/c; Ca in Balance Sheet | subtracts from COGS |
+| Drawings | Less from Capital in B/S | never an expense |
+| Bad debts (written off) | Dr P&L; CA minus in B/S | netted after provision |
 
-WASSCE pointers: (1) Always show **Carriage Inward** in the Trading Account and **Carriage Outward** in the P&L. (2) **Provision for doubtful debts** reduces Sundry Debtors in the Balance Sheet. (3) Net off **Accruals** (add to expense, show as liability) and **Prepayments** (deduct from expense, show as asset).
+> 💡 **High-Yield Memory Hook:** "T-P-B" — Trading gives Gross, P&L gives Net, Balance Sheet gives Position. Closing stock is **Dr Trading**, **Ca Balance Sheet** — never both in COGS.
+
+Gross Profit = Net Sales − Cost of Goods Sold (in GHS).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Working understanding for the 20–30 mark WASSCE Paper 2 question that hands you a Trial Balance plus 5–8 adjustments.
 
-#### Purpose and Sequence
-Final Accounts are prepared after the **Trial Balance** is extracted, to convert ledger balances into meaningful statements. The sequence is Trading Account → Profit and Loss Account → (Appropriation Account for partnerships) → Balance Sheet. The first two are **nominal account** statements (flowing to P&L), while the Balance Sheet is a **personal/real account** statement showing position as at the last day of the period.
+#### The Three-Statement Flow
 
-#### Trading Account — Finding Gross Profit
-It matches **Net Sales** against **Cost of Goods Sold**.
+A Trial Balance is a list, not a financial statement. From it you build, in this exact order:
 
-- **Net Sales** = Sales − Returns Inward.
-- **COGS** = Opening Stock + Net Purchases + Carriage Inward − Closing Stock.
-- **Gross Profit** = Net Sales − COGS. A loss occurs when COGS exceeds Net Sales.
+1. **Trading Account** — matches revenue from sales against the cost of what was sold.
+2. **Profit and Loss Account** — deducts operating expenses, adds other income, arrives at Net Profit.
+3. **Balance Sheet** — lists assets, liabilities, and capital at the period-end date.
 
-#### Profit and Loss Account — Finding Net Profit
-Begins with **Gross Profit b/d** (or Gross Loss c/d). Credits include Discount Received, Commission Received, Rent Received, Interest Received, Bad Debts Recovered, and Profit on Sale of Assets. Debits include Carriage Outward, Wages & Salaries, Rent & Rates, Insurance, Depreciation, Bad Debts, Provision for Doubtful Debts (new), Advertising, and General Expenses.
+Net Profit (or Net Loss) flows down into the Balance Sheet as an addition to (or deduction from) the owner's capital.
 
-#### Key Adjustments from Notes
+#### Adjustments You Must Handle
 
-| Adjustment | In P&L | In Balance Sheet |
+WASSCE questions rarely test the basic Trial Balance; they test whether you can absorb adjustments into the right statements.
+
+| Adjustment | Effect on Trading / P&L | Effect on Balance Sheet |
 |---|---|---|
-| Depreciation | Debit expense | Reduce asset |
-| New Provision for Doubtful Debts | Debit expense | Deduct from Sundry Debtors |
-| Accrued expense | Add to expense | Current liability |
-| Prepaid expense | Deduct from expense | Current asset |
-| Accrued income | Add to income | Current asset |
-| Closing Stock | Credit in Trading Account | Current asset |
+| Closing stock | Dr Trading; appears as credit balance brought down | Current Asset side |
+| Depreciation | Dr P&L (expense line) | Reduce the fixed asset by accumulated amount |
+| Bad debts + new provision | Dr P&L (Bad Debts + increase in provision) | Less provision from Debtors under Current Assets |
+| Accruals | Dr P&L with corresponding liability | Current Liability |
+| Prepayments | Dr P&L for period; carry balance forward | Current Asset |
+| Purchase returns / discounts received | Less from Purchases in Trading | May appear as Creditor if unpaid at year-end |
 
-#### Balance Sheet Structure
-Vertical format is preferred in WASSCE: **Non-Current Assets + Current Assets − Current Liabilities − Non-Current Liabilities = Capital (Opening + Net Profit − Drawings)**. Always arrange items in **liquidity order**.
+> 📌 **Formula Check:** Net Profit = Gross Profit + Other Incomes − Operating Expenses (in GHS). Cost of Goods Sold = Opening Stock + Net Purchases + Direct Expenses − Closing Stock (in GHS). Depreciation (straight-line) = (Cost − Residual Value) ÷ Useful Life (in GHS per year).
 
-#### Typical WASSCE Question Patterns
-Paper 2 (Essay) commonly tests: preparation of full Final Accounts from a Trial Balance and adjustments (≈20 marks), correction of misclassified items, and computation of Gross/Net Profit from summarised data. Paper 1 (Objective) frequently asks for the treatment of Closing Stock or the formula for COGS.
+#### Classification That Trips Students
+
+Capital expenditure goes to the Balance Sheet and is depreciated; revenue expenditure hits the P&L in the same year. Drawings do not appear in P&L at all — they reduce Capital in the Balance Sheet. Carriage inwards is a direct cost added inside COGS; carriage outwards is an operating expense in P&L.
+
+#### Worked Scenario
+
+A Trial Balance shows Opening Stock GHS 18,000, Purchases GHS 92,000, Sales GHS 150,000, Closing Stock GHS 22,000, Wages GHS 12,000, and Carriage Inwards GHS 3,500. Sales returns are GHS 4,000.
+
+COGS = 18,000 + (92,000 − 0) + 12,000 + 3,500 − 22,000 = **GHS 103,500**.
+Net Sales = 150,000 − 4,000 = **GHS 146,000**.
+Gross Profit = 146,000 − 103,500 = **GHS 42,500**.
+
+> ⚠️ **Examiner Trap:** students often compute COGS as 18,000 + 92,000 − 22,000 and forget Direct Expenses (wages, carriage inwards, factory fuel). Equally common: computing Gross Profit before subtracting Sales Returns — the P&L number then overstates by the returns value. Always rebuild from Net Sales and include every direct cost before subtracting Closing Stock.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, mathematical limits, and the quirks WAEC has set in past papers.
 
-#### Edge Cases in Adjustment Treatment
-- **Provision for Doubtful Debts with an old provision:** If old = GHS 1,200 and required = GHS 1,800, increase by GHS 600 in P&L. If required = GHS 900, decrease by GHS 300 (credit P&L, debit old provision).
-- **Provision for Discount on Debtors:** Same logic as doubtful debts; deducted from Debtors *after* deducting the doubtful-debts provision.
-- **Depreciation methods:** Straight-Line produces equal annual charges; Reducing Balance writes off a fixed percentage of the diminishing book value. WASSCE almost always uses **Straight-Line**, with the formula (Cost − Scrap Value) ÷ Useful Life.
-- **Drawings and Capital:** Drawings reduce capital directly; goods taken by the owner (Drawings of stock) are added to Purchases in the Trading Account at cost price.
+#### Where the Marks Are Won or Lost
 
-#### Links to Adjacent Topics
-Final Accounts depend on the **Trial Balance** (summarised ledger balances), connect to **Depreciation of Fixed Assets** (non-current asset topic), and feed into **Ratio Analysis** (Gross Profit Margin, Net Profit Margin, Current Ratio, Acid Test). Mastery here makes Partnership Accounts (introduction of Appropriation Account for salaries, interest on capital, and profit-sharing ratios) far easier.
+The 20–30 mark Final Accounts question usually includes a **Manufacturing Account** when the business produces rather than trades. Raw materials consumed = Opening Raw Materials + Purchases − Returns − Closing Raw Materials. Work-in-progress (opening) is added; closing WIP is subtracted. Only factory overheads go in; office expenses stop at the Manufacturing Account's gross factory cost line. Prime cost = Direct Materials + Direct Labour. Total factory cost = Prime Cost + Factory Overheads.
 
-#### Common Mistakes
-1. Treating **Carriage Inward** as a P&L expense — it is a trading account item.
-2. Omitting **Closing Stock** from the Balance Sheet after crediting it in the Trading Account.
-3. Showing the **new** Provision for Doubtful Debts as a liability instead of deducting it from Sundry Debtors.
-4. Forgetting to add back the **old** provision when computing the increase to charge in P&L.
-5. Placing accrued expenses on the wrong side of the Balance Sheet.
+A Manufacturing Account, where required, replaces the Trading Account's opening lines but Trading still continues below to find Gross Profit on completed goods sold.
 
-#### Worked Micro-Example
-Given: Sales GHS 80,000; Returns Inward GHS 2,000; Opening Stock GHS 6,000; Purchases GHS 50,000; Returns Outward GHS 1,000; Carriage Inward GHS 1,500; Closing Stock GHS 7,000.
-- Net Sales = 80,000 − 2,000 = **78,000**.
-- Net Purchases = 50,000 − 1,000 + 1,500 = **50,500**.
-- COGS = 6,000 + 50,500 − 7,000 = **49,500**.
-- **Gross Profit = 78,000 − 49,500 = GHS 28,500.**
+#### Suspense Account and the Unbalanced Trial Balance
 
-#### Exam Strategy
-In Paper 2, allocate about 35 minutes to a 20-mark Final Accounts question: 10 minutes for adjustments, 20 minutes for the four statements, 5 minutes for cross-checking totals. Always label every column, separate Trading from P&L, and remember that Balance Sheet is **as at** a date, not for a period.
+When WAEC gives a Trial Balance that does not balance, the difference is parked in a Suspense Account. After all adjustments and postings, the Suspense Account must read zero — every error resolves into the correct statement.
+
+| Error type | Effect |
+|---|---|
+| Sales omitted entirely | Suspense balance; later debits Sales |
+| Purchases posted to Sales | Both overstated; Suspense holds the offset |
+| Cash posted on wrong side of Cash Book | Difference added to or subtracted from balance |
+
+#### Easy Marks Most Candidates Miss
+
+- **Accrued income**: appears as Dr P&L "Accrued Income" and as Cr Current Asset "Accrued Income Receivable." Do not put it under "Sundry Debtors" unless a debtor specifically owes it.
+- **Prepaid expense**: dr P&L for the consumed portion only; the unused portion rides as a Current Asset.
+- **Provision for discount on debtors**: when the examiner asks for both doubtful debts AND discount provision, deduct both in order from Sundry Debtors.
+- **Depreciation on additions/part disposals**: time-apportion if the adjustment note gives only a partial-year scenario.
+- **Joint venture** appearance: the Final Accounts question may carry items from a JV statement — recognise the share of profit or loss and route it under "Income from Joint Venture."
+
+#### Advanced Practice Prompts
+
+1. A Trial Balance lists both Opening and Closing Stock. Closing stock exceeds opening. Walk through how the Trading Account balances without double-counting, and state precisely which side of the Balance Sheet lists Closing Stock.
+2. Depreciation policy changes mid-year from straight-line to reducing balance. Show the schedule that survives an audit, the figures you would disclose in a note, and the line in Final Accounts that absorbs the change.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your WASSCE (Ghana) roadmap](/roadmap/?exam=wassce&duration=1mo)** — see where "Final Accounts" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wassce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WASSCE (Ghana) exam overview](/exams/wassce/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/wassce/accounting/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

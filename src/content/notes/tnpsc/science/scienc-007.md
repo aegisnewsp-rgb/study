@@ -8,79 +8,117 @@ topicName: Newton's First Law and Inertia
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # Newton's First Law and Inertia
+
 ### 🟢 Lite — Quick Review (1h–1d)
 
-- **Newton's First Law (Law of Inertia):** A body continues in its state of rest or uniform motion unless an external force acts on it. Inertia is the resistance of any physical object to a change in its state of motion.
-- **Newton's Second Law:** Net force equals mass times acceleration: **F = ma**, where F is in newtons (N), m in kilograms (kg), and a in m/s². Impulse J = FΔt = Δp, linking force and change in momentum.
-- **Newton's Third Law:** Every action has an equal and opposite reaction — the forces act on *different* bodies simultaneously.
-- **Momentum:** p = mv (kg·m/s). Momentum is conserved in an isolated system.
-- **Friction:** f = μN. Static friction ≤ μₛN; kinetic friction = μₖN. μₛ > μₖ always.
-- **TNPSC Quick Pointers:** (1) Weight = mg (g = 9.8 m/s²), not equal to mass. (2) Normal force N ≠ mg on inclined planes — N = mg cos θ. (3) Friction *opposes impending motion*, not motion direction in all cases.
+> A single unbalanced force — or none — decides whether a body stays put or coasts forever.
+
+A body keeps doing what it is already doing. Push the net external force to zero and acceleration vanishes; velocity becomes constant. That is the entire content of Newton's First Law, and inertia is just the word for *why* the body refuses to change. Mass measures that refusal.
+
+| Quantity | Symbol | SI unit | Dimensional formula |
+|---|---|---|---|
+| Net external force | F_net | newton (N) | M L T⁻² |
+| Acceleration | a | m/s² | L T⁻² |
+| Velocity | v | m/s | L T⁻¹ |
+| Mass (inertia measure) | m | kilogram (kg) | M |
+
+> 💡 **High-Yield Memory Hook (Memory Hook):** "RUM-FUM" — **R**est, **U**niform **M**otion, **F**orce = 0, **U**nchanging, **M**ass measures inertia. Read it as "RUM-FUM, no push, no change."
+
+For TNPSC Group 1 General Science, expect a one-line conceptual MCQ asking the literal wording, plus an assertion-reason pair distinguishing inertia from force. The trap option almost always says "force is needed to keep a body moving" — the law says the opposite.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 
-#### 1. Newton's First Law and Inertia
+> Read the law twice: once for what it forbids, once for what it permits.
 
-A body at rest stays at rest; a body in motion continues with constant velocity unless an external force acts. This property of matter resisting changes in its state of motion is called **inertia**. Mass is the quantitative measure of inertia — a heavier object has greater inertia and requires more force to change its state.
+#### Statement and what each word excludes
 
-#### 2. Newton's Second Law (F = ma)
+Every body persists in its state of rest, or of uniform motion in a straight line, unless compelled to change by an external, unbalanced force. The four load-bearing words are *rest*, *uniform motion in a straight line*, *external*, and *unbalanced*. Drop "external" and the law collapses — internal forces between two ice skaters pushing apart cannot move their common centre of mass. Drop "unbalanced" and the law trivialises, since balanced forces are exactly the case where acceleration is zero anyway.
 
-The acceleration of a body is directly proportional to the net force acting on it and inversely proportional to its mass. The direction of acceleration is the same as the direction of the net force. **Impulse** is the product of force and the time interval during which it acts: **J = FΔt = Δp**. This theorem explains why padded dashboards reduce injury — extending the time of impact reduces the average force.
+#### Inertia is property, force is the agent
 
-#### 3. Newton's Third Law (Action-Reaction)
+Inertia names the property of matter that resists any change in velocity. Force is the external agent that overcomes that resistance. Conflating them is the most common assertion-reason trap in TNPSC Group 1 Science. Mass is the scalar measure of inertia: a 50 kg block needs 50 N to gain 1 m/s²; a 5 kg block needs only 5 N for the same change.
 
-Forces always occur in pairs: body A exerts a force on body B, and body B exerts an equal and opposite force on body A. These two forces act on *different* objects — they never cancel each other out even though they are equal in magnitude and opposite in direction.
+#### Inertial frame is where the law lives
 
-#### 4. Friction
+The First Law holds only in an inertial reference frame — non-accelerating and non-rotating. A rotating Earth is *not* strictly inertial; that is why fictitious forces (Coriolis, centrifugal) appear in meteorology and long-range ballistics. The First Law therefore doubles as the definition of an inertial frame, not just a rule about motion.
 
-The force of friction f = μN, where μ is the coefficient of friction and N is the normal force. **Static friction** prevents motion up to a maximum value fₛ(max) = μₛN. **Kinetic friction** acts during motion: fₖ = μₖN. Since μₛ > μₖ, more force is needed to initiate motion than to sustain it.
+#### Comparison matrix — terms that examiners love to swap
 
-#### 5. Momentum Conservation
+| Concept | What it is | SI unit | Dimensional formula | Common confusion |
+|---|---|---|---|---|
+| Inertia | Property resisting change in motion | kg | M | Confused with momentum or with force |
+| Mass (m) | Measure of inertia | kg | M | Confused with weight |
+| Weight (W = m g) | Gravitational force on a mass | N | M L T⁻² | Confused with mass; weight changes with g, mass does not |
+| Momentum (p = m v) | Quantity of motion possessed by a body | kg·m/s | M L T⁻¹ | Confused with inertia; momentum depends on v, inertia does not |
+| Balanced forces | Net force zero, a = 0 | N | M L T⁻² | Confused with "no force acting" |
 
-In an isolated system with no external forces, the total momentum before and after any interaction remains constant: **Σp_initial = Σp_final**. This principle governs collisions, rocket propulsion, and recoil of guns.
+#### Worked problem — coin, card, and glass
+
+A smooth card rests on a glass; a coin sits on the card. Flicking the card horizontally sends it flying, yet the coin drops straight into the glass. Choose the option that explains this correctly.
+
+Step 1 — Identify forces on the coin *before* the flick. Gravity (mg downward) is balanced by the normal force from the card. Net force = 0, so the coin stays at rest by the First Law.
+
+Step 2 — During the flick, the card accelerates away. The contact force on the coin is too brief and too small to overcome the coin's inertia (m = 5 g here). The horizontal unbalanced force on the coin is therefore negligible.
+
+Step 3 — Once the card leaves, gravity is unbalanced. The coin falls vertically into the glass, retaining its initial state of rest horizontally.
+
+> ⚠️ **Examiner Trap:** Option B usually says "the coin falls because the card pulled it down." Cards cannot pull; gravity pulls, and the First Law says a body at rest *stays* at rest until an unbalanced external force acts. Pick the option that cites inertia of the coin, not any pull from the card.
+
+#### Standard question types in TNPSC Group 1 Paper I
+
+- Direct MCQ on the literal law statement — 1 question, ~1 mark.
+- Assertion-reason: "Inertia is a force / because it opposes motion." Correct answer: assertion wrong, reason right.
+- Scenario MCQ: car rounding a curve at constant speed — net force is centripetal, so motion *is* changing (direction), so the First Law is *not* violated.
+- Difference-between: mass vs weight, or inertia vs momentum.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 
-#### Deriving F = ma from Momentum
+> The boundary of the First Law is the boundary of classical mechanics — break it and you meet relativity, or quantum non-commutativity.
 
-Newton's original statement in the *Principia* reads: "The change of motion is proportional to the applied force." "Motion" meant what we now call **momentum (p = mv)**. The modern form follows directly:
+#### Edge case 1 — pseudo forces in non-inertial frames
 
-$$\vec{F}_{net} = \frac{d\vec{p}}{dt} = \frac{d(m\vec{v})}{dt}$$
+Inside an accelerating lift, a passenger feels heavier going up and lighter going down. The First Law is not violated; it simply does not apply because the lift is a non-inertial frame. To salvage it, one must invent a fictitious force (m a upward or downward) and then the law holds again in that frame. The same trick explains the Coriolis deflection of trade winds and the equatorial bulge of Earth.
 
-For constant mass (non-relativistic regime), this reduces to **F = ma** since m is constant and d(v)/dt = a. This derivation matters in TNPSC because examiners sometimes ask why F = ma holds only for constant-mass systems — it breaks down for rockets expelling fuel, where mass changes.
+#### Edge case 2 — relativity reduces the law, but does not erase it
 
-#### Equilibrium and Free-Body Diagrams
+At speeds approaching c, the Galilean transformation (a′ = a) fails. Lorentz transformations mix space and time, and the four-acceleration is the proper invariant. Yet the *statement* — a free body moves with constant four-velocity — survives intact. What changes is the metric of "uniform motion": spacetime geodesics replace Euclidean straight lines.
 
-A body is in **translational equilibrium** when ΣF = 0, meaning it has zero net acceleration (at rest or moving at constant velocity). Drawing a free-body diagram (FBD) is essential: identify every force acting on the body, resolve into components, and apply ΣFₓ = 0, ΣFᵧ = 0. A common mistake is including forces that act *on other bodies* in the same FBD — action-reaction pairs belong on separate diagrams.
+#### Edge case 3 — quantum systems and the measurement problem
 
-#### Circular Motion — Centripetal Force
+An isolated electron in an excited atom would, classically, stay excited forever. Quantum mechanically it has a finite lifetime and decays spontaneously. This is not a violation of inertia; it is the absence of a perfectly isolated quantum system. Inertia presupposes a definite trajectory, which decoherence destroys.
 
-For an object moving in a circle of radius r with speed v, the required centripetal force is **F_c = mv²/r**, directed toward the centre. This is *not* a new force — it is whatever net force (tension, friction, gravity) provides the inward pull. If the required centripetal force exceeds available force (e.g., friction μN), the object leaves the circular path (skids).
+#### Edge case 4 — the First Law as a special case of the Second
 
-#### Common Mistakes to Avoid
+Setting F_net = 0 in F = m a yields a = 0, which is exactly the First Law. Some textbooks (especially Indian state-board and NCERT Class 9) treat the laws as independent; others present them as a hierarchy. For TNPSC Group 1, the safe answer is "the First Law defines the inertial frame, the Second Law quantifies the change, the Third Law pairs the interaction."
 
-| Trap | Why It's Wrong |
-|------|----------------|
-| Weight = mass | Weight is a *force* (W = mg ≈ 9.8m N on Earth); mass is constant and scalar. |
-| Normal force always = mg | On an incline, N = mg cos θ; on a vertical wall, N = horizontal component. |
-| Friction opposes motion | Friction opposes *relative motion or impending motion* — a car moving forward has friction from the road pushing it forward. |
-| Action-reaction forces cancel | They act on different bodies, so they never cancel each other. |
+#### Advanced traps and exceptions
 
-#### TNPSC Exam Strategy
+1. A satellite in circular orbit at constant speed — students say "no force needed." Wrong: a centripetal force is present, direction is changing, so velocity is not constant.
+2. A book lying on a table — students say "no force acting." Wrong: gravity and normal force are both acting; they are *balanced*, which is what produces a = 0.
+3. A parachutist at terminal velocity — students say "First Law applies, a = 0." Right outcome, wrong reason: weight and drag balance, so the First Law still governs in the inertial Earth frame.
+4. A body thrown upward at the peak — students say "force zero at the peak." Wrong: gravity is the only force; it never disappears, and the velocity is momentarily zero (an instant of rest, not a change of state).
+5. The coin-trick again — students say "the card's friction dragged the coin forward." Wrong: the friction force is far smaller than needed to accelerate the coin; the card simply slid out from under it.
 
-Laws of Motion typically yields **1–3 MCQs in Prelims** covering F = ma calculations, friction on inclined planes, and impulse-momentum problems. **Mains General Science** questions ask for explanations — be ready to explain braking distance, why a passenger lurches forward when a vehicle suddenly stops (inertia), and how a rocket works in space with no air (action-reaction). The weightage is roughly **3–5%** of the Science paper.
+#### Two advanced practice prompts
 
-#### Practice Prompts
+1. A 1500 kg car rounds a 50 m radius curve at 20 m/s. Show that the centripetal force required is F = m v² / r = 12 000 N, and identify which real-world agent (tyres on road, banking of the curve, or both) supplies this force. Explain why this does not contradict the First Law.
+2. A helium balloon floats inside a horizontally accelerating car. Predict its tilt relative to the vertical and justify using the inertial-frame equation ΣF = m a on the balloon-air system. Discuss why this setup is a clean classroom demonstration of pseudo forces.
 
-1. A 5 kg block rests on a rough horizontal surface (μₛ = 0.4, μₖ = 0.3). (a) What minimum horizontal force initiates motion? (b) If the same force continues after motion begins, what is the acceleration? [Ans: (a) F_min = μₛN = 0.4 × 49 = 19.6 N; (b) fₖ = μₖN = 0.3 × 49 = 14.7 N; a = (19.6 − 14.7)/5 = 0.98 m/s²]
-2. A 60 kg person jumps from a height and lands stiff-legged, experiencing an impulse of 1800 N·s over 0.1 s. What average force acts? Is this safer than landing with bent knees (Δt = 0.4 s)? [Average force = 1800/0.1 = 18,000 N vs 1800/0.4 = 4,500 N — bent knees reduce force by 75%.]
+---
+
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Newton's First Law and Inertia" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/tnpsc/science/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

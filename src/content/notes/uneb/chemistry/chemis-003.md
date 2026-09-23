@@ -8,71 +8,84 @@ topicName: Physical Property Trends
 weight: 3
 country: uganda
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # Physical Property Trends
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**s-block elements** occupy Groups 1 (alkali metals: Li, Na, K, Rb, Cs) and 2 (alkaline earth metals: Be, Mg, Ca, Sr, Ba) of the periodic table. Each has a low **ionization energy** because the outermost electron is shielded by filled inner shells and sits far from the nucleus, so they readily form **M⁺** (Group 1) or **M²⁺** (Group 2) cations with **noble gas configuration**. Down each group, **atomic radius** increases, **first ionization energy** decreases, and **electronegativity** falls, while **melting point** decreases sharply (weaker metallic bonding in heavier Group 1 metals). Solubility trends are **opposite**: Group 2 **hydroxides** become more soluble down the group, but Group 2 **sulfates** become less soluble — driven by **lattice enthalpy** decreasing faster than **hydration enthalpy** for hydroxides, but the reverse for sulfates. UNEB UACE Paper 1 (multiple choice) and Paper 2 (structured) typically test **flame colours**, **thermal stability** of carbonates/nitrates, and **water hardness** removal. Memorise: **Li = crimson, Na = yellow, K = lilac, Ca = brick-red, Ba = green**.
+> Periodicity is the predictable variation of atomic and bulk properties driven by one master variable: effective nuclear charge (Z_eff).
 
----
+Across a period from Group 1 to Group 17, **atomic radius shrinks**, **first ionization energy (IE₁) rises** (with two diagnostic dips), **electronegativity climbs**, and **metallic character fades**. Down a group, the opposite happens: radius grows, IE₁ falls, electronegativity falls, metallic character strengthens. UNEB UACE Paper 1 (CH1) regularly awards 6–10 marks to explanations of *why* these shifts occur, not just to identifying the direction.
+
+| Property | Across a period (→) | Down a group (↓) |
+|---|---|---|
+| Atomic radius | Decreases | Increases |
+| First ionization energy | Increases (dips at II→III, XV→XVI) | Decreases |
+| Electronegativity (Pauling χ) | Increases | Decreases |
+| Metallic character | Decreases | Increases |
+| Melting point (alkali metals) | — | Decreases |
+
+> 💡 **High-Yield Memory Hook — "SHRIM Across, REGS Down":** **S**mall, **H**igher **R**adius-shrink **I**E, **M**etallic-loss across a period; **R**ising radius, **E**E drops, **G**roup electropositive **S**trength down a group.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Physical Property Trends
-Going down Group 1, **melting point** drops from Li (180 °C) to Cs (28 °C) because the metallic bond weakens as the cation–electron "sea" becomes more diffuse. Group 2 cations are smaller and doubly charged, so they polarise electron clouds more strongly — hence **Be and Mg** show partial covalent character, while **Ca, Sr, Ba** are genuinely ionic. **First ionization energy** decreases down each group (Li 520 kJ mol⁻¹ → Cs 376 kJ mol⁻¹; Be 899 → Ba 503) due to greater shielding and a larger atomic radius.
+#### The Z_eff engine
 
-#### Reactions with Water, Oxygen and Chlorine
-2 Na + 2 H₂O → 2 NaOH + H₂ (vigorous)  
-Mg reacts only with **steam**: Mg + H₂O(g) → MgO + H₂. Beryllium is inert to water owing to an oxide skin and high ionization energy.
+Periodicity ultimately traces to one quantity — **effective nuclear charge**, Z_eff = Z − σ, where Z is the atomic number and σ is the Slater shielding constant (dimensionless). Outer electrons feel a Coulombic pull F ∝ Z_eff / r² (F in newtons, r in metres). Across Period 2 (Li→Ne), added protons sit in the same shell, shielding from 1s² electrons does not increase proportionally, so Z_eff rises steadily; down Group 1 (Li→Cs), a new shell is added each period, σ grows faster than Z, and Z_eff actually falls slightly. This single asymmetry explains nearly every trend the UNEB examiner asks about.
 
-#### Oxides, Hydroxides and Carbonates
-**Basicity** of oxides and hydroxides increases down each group because the M–O bond becomes more ionic and the oxide ion is released more easily in water. **Thermal stability of carbonates** increases down Group 2: BeCO₃ decomposes at ~100 °C, while BaCO₃ requires >1300 °C. Cation charge density (polarising power) is highest for Be²⁺, distorting the CO₃²⁻ anion and weakening the C–O bond. For **nitrates**, Group 2 decompose as: 2 M(NO₃)₂ → 2 MO + 4 NO₂ + O₂, while Group 1 nitrates (except LiNO₃) release O₂ and form nitrites: 2 NaNO₃ → 2 NaNO₂ + O₂.
+#### Why IE₁ has two famous dips
 
-#### Solubility Contrasts
-| Compound | Trend down Group 2 | Reason |
-|---|---|---|
-| Hydroxides, M(OH)₂ | Solubility **increases** | Lattice enthalpy drops faster than hydration enthalpy |
-| Sulfates, MSO₄ | Solubility **decreases** | Hydration enthalpy drops faster; BaSO₄ is virtually insoluble |
-| Carbonates, MCO₃ | Solubility **decreases** | Lattice enthalpy dominates |
+The first ionization energy, IE₁ = E(X⁺(g)) − E(X(g)) in kJ mol⁻¹, normally climbs across a period. Two exceptions matter:
 
-#### Diagonal Relationships
-**Li resembles Mg** (both form nitrides Li₃N, Mg₃N₂; both give carbonates that decompose readily; both form covalent organometallics). **Be resembles Al** (both amphoteric — BeO and Al₂O₃ dissolve in NaOH(aq); both form covalent halides that dimerise).
+1. **Be (1s² 2s²) → B (1s² 2s² 2p¹).** The 2p electron is shielded by the filled 2s sub-shell and sits at a larger average radius, so it is removed more easily than expected.
+2. **N (2p³) → O (2p⁴).** The fourth 2p electron must pair with an existing electron in the same orbital; inter-electron repulsion lowers the energy cost of removal.
 
-#### Worked Stoichiometry
-EDTA titration of water hardness: Ca²⁺(aq) + Y⁴⁻(aq) → [CaY]²⁻(aq). Because **1 mol EDTA ≡ 1 mol Ca²⁺**, hardness in mg L⁻¹ CaCO₃ = (V_EDTA × M_EDTA × 100.09 × 1000) / V_sample. A 25.0 cm³ sample requiring 18.40 cm³ of 0.0100 M EDTA gives (18.40 × 0.0100 × 100.09 × 1000)/25.0 = **736.7 mg L⁻¹ CaCO₃**.
+#### Concept Comparison Matrix
 
----
+| Quantity | Definition | SI / scale unit | Sign convention |
+|---|---|---|---|
+| Ionization energy (IE) | Energy to remove 1 mol of electrons from 1 mol of gaseous atoms | kJ mol⁻¹ | Positive (endothermic) |
+| Electron affinity (EA) | Energy change when 1 mol of electrons is added to 1 mol of gaseous atoms | kJ mol⁻¹ | Usually negative (exothermic) |
+| Electronegativity (Pauling χ) | Tendency of a bonded atom to attract the bonding pair | Dimensionless, 0.79 (Cs) – 3.98 (F) | No sign; scale only |
+| Metallic character | Tendency to lose electrons and form cations / exhibit metallic bonding | Qualitative (low–high) | No sign |
+
+> ⚠️ **Examiner Trap:** Electron affinity and electronegativity both *increase* left→right, but EA is a measured energy for an isolated gaseous atom, while χ is a derived bond-property scale. Confusing them in a 6-mark explanation loses half the marks.
+
+#### Worked exam-level question
+
+**Q (UNEB UACE Paper 1 style, 8 marks).** Explain why the first ionization energy of magnesium (738 kJ mol⁻¹) is *higher* than that of sodium (496 kJ mol⁻¹), yet the first ionization energy of aluminium (577 kJ mol⁻¹) is *lower* than that of magnesium, even though all three are in Period 3.
+
+#### Resolution:
+- Na → Mg: same period, proton count rises from 11 to 12 while shielding from inner 1s²/2s²/2p⁶ electrons is essentially unchanged; Z_eff on the outer 3s electron therefore increases. The 3s electron in Mg is held more tightly and needs more energy to remove — hence 738 > 496.
+- Mg → Al: both still have the 3s² core, but Al's outermost electron enters a 3p orbital. The 3p electron is partially shielded by the filled 3s² sub-shell and lies at a larger average radius, so Z_eff on it is *lower* than on Mg's 3s electron. Removing it is therefore easier — 577 < 738.
+- Mark allocation: 2 marks for the Z_eff argument, 2 marks for the orbital distinction, 2 marks for correct comparison of numerical values, 2 marks for coherent scientific English.
+
+> 📌 **Formula Check:** IE₁ carries the dimension M L² T⁻² mol⁻¹; always quote it in kJ mol⁻¹, never in eV per atom, when answering UNEB questions unless the paper specifies otherwise.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Hydration vs Lattice Enthalpy — the Quantitative Argument
-Solubility depends on ΔG_solution = ΔH_lattice + ΔH_hydration + TΔS. For **Group 2 hydroxides**, the lattice is held together by 2+ / 1− attractions, but going down the group the cation grows so the lattice energy falls steeply; the smaller, highly-charged Be²⁺ grips OH⁻ tightly, hence Be(OH)₂ is only sparingly soluble. For **sulfates**, the SO₄²⁻ anion is large and polarisable, so the lattice with a small cation like Mg²⁺ is actually stabilised by polarisation, while hydration of the same cation is strongly exothermic. Net result: MgSO₄ is very soluble, but the lattice of BaSO₄ is so dominant that BaSO₄ is precipitated quantitatively in qualitative analysis.
+#### Edge cases worth memorising
 
-#### Water Hardness and Removal
-Ugandan borehole water frequently contains Ca(HCO₃)₂ — **temporary hardness** removed simply by boiling:
-Ca(HCO₃)₂(aq) → CaCO₃(s) + H₂O(l) + CO₂(g).
-**Permanent hardness** from CaCl₂ or CaSO₄ is removed by adding **Na₂CO₃** (washing soda): CaCl₂ + Na₂CO₃ → CaCO₃↓ + 2 NaCl, or by **ion-exchange resins** that swap Ca²⁺/Mg²⁺ for Na⁺/H⁺. Boiler scale (CaSO₄, CaCO₃) is dangerous because it reduces heat transfer and may crack heated tubes — a common UACE **structured question** theme.
+1. **Noble gases have effectively no first electron affinity.** Their valence sub-shells are full, so adding an electron costs energy rather than releasing it. Expect a UNEB MCQ to offer "Cl has a more negative EA than Na" as a true statement and "Ne has a more negative EA than F" as a false one.
+2. **Transition-metal melting points break the simple "down-group = lower" rule.** Period 4 transition metals (Mn 1246 °C, Fe 1538 °C) all melt higher than Group 1 or Group 2 metals in the same period because d-electron delocalisation produces strong metallic bonding. UNEB examiners like to test this irregularity.
+3. **Ionic radii shrink across a period for *isoelectronic* species.** Na⁺ (102 pm) > Mg²⁺ (72 pm) > Al³⁺ (54 pm) — same electron configuration (1s² 2s² 2p⁶), but proton count rises. Use this when the question pivots from atoms to ions.
+4. **Period 3 melting-point profile.** Reaches a maximum at silicon (giant covalent lattice) and dips at white phosphorus (P₄ molecules held only by van der Waals forces) and sulfur (S₈). A common UNEB sub-question: "Account for the low melting point of phosphorus compared with silicon."
 
-#### Flame Tests — Handling the Sodium Mask
-Sodium's intense yellow line at 589 nm masks the lilac K⁺ emission. UACE practicals therefore specify **viewing through cobalt blue glass**, which absorbs the Na yellow and transmits the K violet. Always clean the nichrome wire in concentrated HCl before each test to avoid cross-contamination.
+#### Advanced practice prompts
 
-#### Common Examination Pitfalls
-1. Saying *all* Group 1 carbonates decompose on heating — only **Li₂CO₃** behaves like a Group 2 carbonate; Na₂CO₃ and K₂CO₃ are thermally stable to >800 °C.
-2. Treating Be as a typical Group 2 metal: it is **amphoteric**, forms covalent BeCl₂ (linear, polymeric in solid), and does not react with cold water.
-3. Confusing nitrate decomposition stoichiometry — the molar ratio of NO₂:O₂ is **4:1** for Group 2, but **0:1** (only O₂) for Group 1 (excluding Li).
+1. **Predict and justify** (≈6 marks): Will the second electron affinity of oxygen be positive or negative? Justify using Coulomb's law and electron–electron repulsion arguments.
+2. **Compare and contrast** (≈8 marks): Account for the trends in atomic radius and first ionization energy from P → Cl, paying specific attention to the absence of a "phosphorus anomaly" in this segment and predicting whether S → Cl shows a normal increase.
 
-#### Adjacent Links
-Topic 3 connects forward to **electrode potentials** (E° for Li⁺/Li = –3.04 V makes Li a powerful reducing agent despite its high ionization energy, because of its very negative hydration enthalpy) and **qualitative analysis** (Group II cations in the cation systematic scheme are Mg, Ca, Sr, Ba).
+> 📌 **Exam Strategy:** For UNEB UACE, allocate about 2 minutes per mark on structured periodicity questions. Always write *one* sentence on the trend, *one* on Z_eff, *one* on the orbital/sub-shell factor if relevant, and *one* linking back to the specific pair of elements named in the question.
 
-#### Practice Prompts
-**(P1)** State and explain how the thermal stability of the carbonates changes from MgCO₃ to BaCO₃. *(3 marks)*  
-**(P2)** 20.0 cm³ of well water required 14.50 cm³ of 0.00500 M EDTA for total hardness. Calculate the hardness in mg L⁻¹ CaCO₃ and classify the water as soft (<60), moderately hard (60–120), hard (120–180) or very hard (>180 mg L⁻¹).
+## Continue your study
+
+- **[View this topic in your UNEB UACE (Uganda) roadmap](/roadmap/?exam=uneb&duration=1mo)** — see where "Physical Property Trends" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uneb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNEB UACE (Uganda) exam overview](/exams/uneb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/uneb/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

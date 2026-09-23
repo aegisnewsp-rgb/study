@@ -8,58 +8,105 @@ topicName: Nervous and Endocrine Coordination
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-23"
 ---
 
 # Nervous and Endocrine Coordination
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> The fact that decides the question: the **hypothalamus** is the single bridge between electrical signalling and hormonal signalling — read every UNDANA item through that lens.
 
-**Topic 12** for the UNDANA Saintek path merges advanced **Biology of regulatory systems** with the **mechanics and fluids block of Physics**. The biology half covers the **nervous system (CNS, PNS, neuron, synapse)**, **endocrine feedback loops** (negative feedback on thyroid, insulin-glucagon), **specific and non-specific immunity** (B-cell antibodies, T-cell response), **biotechnology basics** (restriction enzymes, ligase, plasmid vectors, tissue culture), and **ecosystem energy/matter flow** with environmental disruption. The physics half covers **Newton's Laws I–III**, **work–energy theorem**, **kinetic and gravitational potential energy**, **impulse–momentum**, and **fluid statics (hydrostatic pressure) plus fluid dynamics (continuity, Bernoulli)**. In UNDANA UTUL Saintek items, expect HOTS MCQs that ask you to apply a law, not recall it. Memorise **F = m·a**, **W = ΔEK**, **I = Δp**, **P = ρ·g·h**, and **A₁v₁ = A₂v₂**.
+- **Nervous system** = neurons, synapses, neurotransmitters → fast (milliseconds), short-lived, point-to-point.
+- **Endocrine system** = ductless glands → hormones in blood → slower (seconds to days), widespread, long-lived.
+- **Resting membrane potential** is set by ion gradients and quantified by the Nernst relation: V_m = (RT / zF) · ln([ion]_out / [ion]_in), with R = 8.314 J/(mol·K), T in K, z = ion valence, F = 96485 C/mol; unit V, dimension [M L² T⁻³ A⁻¹].
+- **Nerve impulse speed** v = d / t (m/s), so a 1.2 m impulse in 0.02 s gives 60 m/s.
+- **Hormone blood concentration** C = n / V (mol/L), n in mol, V plasma volume in L.
+
+| Feature | Nervous system | Endocrine system |
+|---|---|---|
+| Signal type | Electrical + chemical | Chemical only |
+| Transmission | Across synapse | Via bloodstream |
+| Speed | Fast (ms) | Slow (s–days) |
+| Duration | Brief | Long-lasting |
+| Target | Specific neurons | Cells with matching receptors |
+
+> 💡 **High-Yield Memory Hook — "HEADS":** **H**ypothalamus → **E**ndocrine bridge → **A**ction potential → **D**uctless glands → **S**ynaptic cleft. Five letters, one sentence covers the whole topic.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Nervous and Endocrine Coordination
-A **neuron** transmits signals as an **action potential**: resting membrane potential (~ −70 mV) depolarises when Na⁺ channels open, then repolarises as K⁺ exits, and a refractory period prevents backward travel. The signal crosses a **synapse** when voltage-gated Ca²⁺ channels trigger **vesicle fusion**, releasing **acetylcholine** (or another neurotransmitter) that binds postsynaptic receptors. The **CNS** (brain, spinal cord) integrates; the **PNS** (somatic + autonomic: sympathetic/parasympathetic) executes. **Hormones** travel via blood from glands such as the **pituitary, thyroid, adrenal, pancreas**. **Negative feedback** keeps homeostasis: high blood glucose → insulin release from β-cells → glucose uptake → glucose falls → insulin secretion stops. For UNDANA, expect a chart-style question asking which gland, hormone, and target tissue match.
+#### Core architecture of coordination
 
-#### Immunity and Biotechnology
-**Non-specific immunity** uses barriers (skin, mucosa), phagocytes, and inflammation. **Specific immunity** is **humoral** (B cells → plasma cells → **antibodies** that bind antigens) and **cell-mediated** (T cells destroy infected cells). In **biotechnology**, **restriction endonucleases** cut DNA at specific sequences, **DNA ligase** joins fragments into a **plasmid vector**, and the recombinant plasmid is inserted into a host (**transformation**). **Plant tissue culture** exploits **totipotency** in a sterile MS medium with auxin/cytokinin to produce clones.
+A stimulus is detected by receptors, encoded as graded potentials, then fired down the axon as an **action potential** — an all-or-nothing depolarisation reaching roughly +30 mV from the −70 mV resting value. The signal crosses a synapse when voltage-gated Ca²⁺ channels open, vesicles fuse with the presynaptic membrane, and neurotransmitter (acetylcholine, noradrenaline, dopamine, GABA, glutamate) binds postsynaptic receptors, producing an EPSP or IPSP.
 
-#### Newton's Laws, Work, and Energy
-**Newton I**: an object keeps its state unless net force ≠ 0. **Newton II**: **F = m·a** (net force on m produces acceleration a). **Newton III**: action–reaction pairs act on different bodies. **Work** by a constant force: **W = F·s·cos θ**, with θ the angle between F and displacement. The **work–energy theorem**: W_net = ΔEK = ½m·v² − ½m·v₀². **Mechanical energy** E = EK + EP (with **EP = m·g·h**) is conserved only when forces are conservative; friction violates it and converts ME to thermal energy.
+> 📌 **Formula Check:** Threshold current density decreases as axon diameter increases, so I_threshold ∝ 1/(axon diameter); dimension [L⁻¹]. Wider axons (or myelinated ones with nodes of Ranvier) conduct faster.
 
-#### Impulse, Momentum, and Fluids
-**Momentum p = m·v** is conserved in an isolated collision. **Impulse I = F·Δt = Δp**. A **perfectly inelastic** collision sticks the masses; a **elastic** collision conserves both p and EK. For **static fluids**, **hydrostatic pressure P = ρ·g·h** (ρ = fluid density, h = depth below surface). **Pascal's principle** transmits pressure equally in a confined fluid. **Continuity**: A·v = constant. **Bernoulli** along a streamline: **P + ½ρv² + ρgh = constant**, which explains lift on an airfoil and the Venturi effect.
+#### The hypothalamus–pituitary axis
 
-#### Common Pitfalls in Exam Items
-Mixing up action–reaction (equal–opposite but on **different** objects) with balanced forces (on the **same** object). Using degrees where the cosine formula needs radians is harmless, but plugging θ = 0 when force is along motion vs θ = 180° when opposing is the usual trap. Applying Bernoulli at different elevations without including **ρgh** in both terms.
+The hypothalamus is the coordinator. Its neurosecretory neurons make **ADH** and **oxytocin**, which travel down axons and are stored in the **posterior pituitary**. The anterior pituitary is controlled differently: hypothalamic releasing hormones (TRH, CRH, GnRH) reach it through the hypophyseal portal system and trigger release of TSH, ACTH, FSH, LH, GH and prolactin.
+
+#### Feedback control
+
+Homeostasis relies on **negative feedback**. Example: low blood thyroxine → hypothalamus releases TRH → anterior pituitary releases TSH → thyroid releases T3/T4 → T3/T4 inhibits both TRH and TSH. **Positive feedback** exists (oxytocin in childbirth, LH surge in ovulation) and is a frequent UNDANA trap.
+
+#### Comparison matrix: glands often confused
+
+| Gland / structure | Hormone(s) | Regulation | Trap to avoid |
+|---|---|---|---|
+| Posterior pituitary | ADH, oxytocin | Synthesised in hypothalamus, stored here | Not synthesised in the pituitary itself |
+| Anterior pituitary | TSH, ACTH, GH, FSH, LH, prolactin | Hypothalamic releasing hormones | Often mislabelled as the "master gland" — that label belongs to the hypothalamus |
+| Adrenal medulla | Adrenaline, noradrenaline | Direct sympathetic nerve | Often confused with cortex |
+| Adrenal cortex | Cortisol, aldosterone | ACTH from anterior pituitary | Two different control modes in one organ |
+| Pancreas (Islets of Langerhans) | Insulin (β cells), glucagon (α cells) | Blood glucose level | Easy to swap the cell type with the hormone |
+
+#### Worked question and resolution
+
+A student observes that during a sudden loud noise, heart rate rises within one second, but blood glucose remains elevated for thirty minutes afterwards. Which pairing of system and property explains the difference?
+
+A. Nervous — slow onset, long duration
+B. Endocrine — fast onset, short duration
+C. Nervous — fast onset, short duration; Endocrine — slow onset, long duration
+D. Both systems act through identical neurotransmitters
+
+Working it through: the heart-rate change is driven by sympathetic nerves releasing noradrenaline directly onto cardiac β₁ receptors (milliseconds, gone when stimulation stops). The glucose rise is sustained by adrenal cortical cortisol and glucagon released into plasma, exerting effects that persist for tens of minutes. Option A reverses the systems, B is internally inconsistent, D is wrong because endocrine messengers are hormones, not neurotransmitters. The correct choice is **C**.
+
+> ⚠️ **Examiner Trap:** "Faster" and "longer-lasting" are not opposites of "slower" and "shorter". The systems are categorised by mechanism, not by the time axis alone. Many UNDANA items present partially correct descriptions to test this exact distinction.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Worked Example — Collision + Energy Audit
-A **2 kg** block moving at **3 m/s** collides with a stationary **1 kg** block on a frictionless surface and they stick. Momentum: p_i = 2·3 = **6 kg·m/s**, so v_f = 6/3 = **2 m/s**. EK_i = ½·2·3² = 9 J; EK_f = ½·3·2² = 6 J; **3 J lost** as heat/sound (typical marker for inelastic). Had the collision been elastic, v₁' = (m₁−m₂)/(m₁+m₂)·v₁ = (1/3)·3 = 1 m/s and v₂' = 2m₁/(m₁+m₂)·v₁ = **4 m/s**, conserving both 6 kg·m/s and 9 J. UNDANA's twist: they ask which collision "preserves kinetic energy" — only the elastic case.
+#### Where the two systems actually merge
 
-#### Edge Cases and Cross-Topic Bridges
-- **All-or-nothing action potential**: subthreshold stimuli produce no signal; once threshold (~ −55 mV) is crossed, amplitude is fixed. Refractory period limits firing frequency → frequency, not amplitude, encodes stimulus strength.
-- **Insulin vs glucagon** are **antagonistic hormones** from pancreatic islets; UNDANA items test whether the student reads the chart direction (high glucose → insulin **up**, glucagon **down**).
-- **Restriction enzymes** produce **sticky ends** (e.g., EcoRI leaves 5′-AATT overhangs) that base-pair before ligase seals the nicks — knowing enzyme name + cut site is high-yield.
-- **Trophic levels** lose ~90% energy as heat at each step (10% rule), explaining why food chains rarely exceed 4–5 levels; **biomagnification** of DDT, conversely, concentrates up the chain.
-- In **Bernoulli**, when area increases, velocity drops and pressure rises — counter-intuitive for students who assume fast flow = high pressure.
-- In **Archimedes' principle**, buoyant force = weight of displaced fluid = ρ_fluid·V_displaced·g; an object floats when ρ_object < ρ_fluid.
+The adrenal medulla is embryologically a modified sympathetic ganglion. Chromaffin cells release **adrenaline** and **noradrenaline** into the blood rather than across a synapse, so a single neural command produces a hormone surge that simultaneously reaches the heart, bronchioles, liver and skeletal muscle. This is the textbook example of nervous-to-endocrine conversion and the cleanest answer to "give one example of nervous–endocrine integration".
 
-#### Common Mistakes Recap
-Treating momentum and kinetic energy as interchangeable (only momentum is conserved in **all** collisions; KE only in elastic ones). Forgetting that **Pascal's** principle applies only to **confined** static fluids, not to open hydrostatic columns. Confusing **h in P = ρgh** as total height rather than depth below the free surface. Mixing up **hormone target specificity** (each hormone has receptor-matched cells) with **neurotransmitter broadcast** (synaptic, local).
+#### Quantitative edge cases
 
-#### Practice Prompts
-1. A **1500 kg** car at **20 m/s** brakes to rest in **5 s**. Find the average braking force, the impulse, and the distance if braking force is constant. (Answers: F = 6000 N opposite motion; I = 30 000 N·s; s = 50 m.)
-2. Explain, using **negative feedback**, why a thyroidectomy patient requires oral thyroxine, and predict two symptoms of untreated hypothyroidism. Then, on a separate diagram of an aquatic food chain with 4 levels, mark where DDT concentration will be highest and justify with the 10% rule and biomagnification.
+1. **Nernst sign and valence.** The sign of V_m depends on z. For K⁺ (z = +1), ln([K⁺]_out/[K⁺]_in) is negative, so V_m is negative inside — matching the measured resting potential of about −70 mV. For Ca²⁺ (z = +2), the same log magnitude gives twice the voltage contribution. Always check z before plugging in.
+2. **Action-potential frequency coding.** Strength is encoded as f = 1/t_AP (Hz), not as a larger spike. A stronger stimulus produces more spikes per second, not a taller spike.
+3. **Refractory limits.** During the absolute refractory period (~1–2 ms) no new spike can fire, capping firing rate near 500 Hz in large motor neurons but closer to 50–100 Hz in many sensory neurons. UNDANA numericals sometimes quote this range — treat the upper figure as a ceiling, not a typical value.
+
+#### Common advanced traps
+
+1. Treating steroid and peptide hormones as interchangeable: steroid hormones (cortisol, aldosterone, oestradiol, testosterone) cross the membrane and bind intracellular receptors; peptide hormones (insulin, glucagon, ADH, oxytocin) bind surface receptors and use second messengers such as cAMP.
+2. Calling the pancreas "the" endocrine gland — it is both exocrine (digestive enzymes via the pancreatic duct) and endocrine (islets, ductless). The duct criterion is the cleanest test.
+3. Assuming all feedback is negative: positive feedback in childbirth (oxytocin) and ovulation (LH) is required for amplification, not stability.
+4. Conflating "hypothalamus" with "pituitary": the hypothalamus makes releasing hormones; the anterior pituitary executes them.
+5. Believing the endocrine system has no fast pathway: adrenaline release from the adrenal medulla is triggered in under a second.
+
+#### Advanced practice prompts
+
+1. Sketch and label a negative-feedback diagram for the TSH–thyroxine axis, marking the hypothalamus, anterior pituitary, thyroid, and the two inhibitory arrows. Explain what would happen to TSH if the thyroid were surgically removed, and why TRH would also change.
+2. A motor axon of diameter 5 µm conducts at 50 m/s, another of diameter 10 µm conducts at about 100 m/s under the same conditions. Using the inverse relation between threshold current and axon diameter, predict the conduction speed of a 20 µm axon and identify the limit of this proportionality (it is only qualitative because myelination and temperature dominate in real tissue).
 
 ---
+
+## Continue your study
+
+- **[View this topic in your UNDANA Admission (Indonesia) roadmap](/roadmap/?exam=undana&duration=1mo)** — see where "Nervous and Endocrine Coordination" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=undana&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNDANA Admission (Indonesia) exam overview](/exams/undana/)** — pattern, eligibility, and syllabus
+- **[All Science (Saintek) notes](/notes/undana/science/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

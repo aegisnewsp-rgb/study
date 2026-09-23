@@ -49,191 +49,340 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
   {
     id: 1,
     exam_name: 'MCAT',
-    event_type: 'registration_open',
+    event_type: 'registration_open' as ExamDateEventType,
     event_date: '2026-10-20',
     event_end_date: '2026-10-22',
     description:
       'Registration for January-September 2027 MCAT exam dates opens by testing-center location.',
     source_url: 'https://www.aamc.org/',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
+    last_verified: '2026-09-23T18:40:12Z',
     verified_quote:
-      'Registration for 2027 MCAT\u00ae exam dates will open Oct. 20-22, by testing center location',
+      'Registration for 2027 MCAT® exam dates will open Oct. 20-22, by testing center location',
   },
   {
     id: 2,
     exam_name: 'LSAT',
-    event_type: 'registration_close',
+    event_type: 'registration_close' as ExamDateEventType,
     event_date: '2026-10-01',
     event_end_date: null,
-    description: 'Registration deadline for the November 2026 LSAT administration.',
+    description:
+      'Registration deadline for the November 2026 LSAT administration.',
     source_url: 'https://www.lsac.org/',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Registration for the November 2026 LSAT ends October 1, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Registration for the November 2026 LSAT ends October 1, 2026',
   },
   {
     id: 3,
     exam_name: 'SAT',
-    event_type: 'exam_date',
+    event_type: 'exam_date' as ExamDateEventType,
     event_date: '2026-08-22',
     event_end_date: null,
-    description: 'SAT Weekend administration.',
+    description:
+      'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Aug. 22, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Aug. 22, 2026',
   },
   {
     id: 4,
     exam_name: 'SAT',
-    event_type: 'registration_deadline',
+    event_type: 'registration_deadline' as ExamDateEventType,
     event_date: '2026-08-07',
     event_end_date: null,
-    description: 'Registration deadline for Aug. 22, 2026 SAT.',
+    description:
+      'Registration deadline for Aug. 22, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Aug. 7, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Aug. 7, 2026',
   },
   {
     id: 5,
     exam_name: 'SAT',
-    event_type: 'late_registration_deadline',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
     event_date: '2026-08-11',
     event_end_date: null,
-    description: 'Late registration deadline for Aug. 22, 2026 SAT.',
+    description:
+      'Late registration deadline for Aug. 22, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Aug. 11, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Aug. 11, 2026',
   },
   {
     id: 6,
     exam_name: 'SAT',
-    event_type: 'exam_date',
+    event_type: 'exam_date' as ExamDateEventType,
     event_date: '2026-09-12',
     event_end_date: null,
-    description: 'SAT Weekend administration.',
+    description:
+      'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Sept. 12, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Sept. 12, 2026',
   },
   {
     id: 7,
     exam_name: 'SAT',
-    event_type: 'registration_deadline',
+    event_type: 'registration_deadline' as ExamDateEventType,
     event_date: '2026-08-28',
     event_end_date: null,
-    description: 'Registration deadline for Sept. 12, 2026 SAT.',
+    description:
+      'Registration deadline for Sept. 12, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Aug. 28, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Aug. 28, 2026',
   },
   {
     id: 8,
     exam_name: 'SAT',
-    event_type: 'late_registration_deadline',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
     event_date: '2026-09-01',
     event_end_date: null,
-    description: 'Late registration deadline for Sept. 12, 2026 SAT.',
+    description:
+      'Late registration deadline for Sept. 12, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Sept. 1, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Sept. 1, 2026',
   },
   {
     id: 9,
     exam_name: 'SAT',
-    event_type: 'exam_date',
+    event_type: 'exam_date' as ExamDateEventType,
     event_date: '2026-10-03',
     event_end_date: null,
-    description: 'SAT Weekend administration.',
+    description:
+      'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Oct. 3, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Oct. 3, 2026',
   },
   {
     id: 10,
     exam_name: 'SAT',
-    event_type: 'registration_deadline',
+    event_type: 'registration_deadline' as ExamDateEventType,
     event_date: '2026-09-18',
     event_end_date: null,
-    description: 'Registration deadline for Oct. 3, 2026 SAT.',
+    description:
+      'Registration deadline for Oct. 3, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Sept. 18, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Sept. 18, 2026',
   },
   {
     id: 11,
     exam_name: 'SAT',
-    event_type: 'late_registration_deadline',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
     event_date: '2026-09-22',
     event_end_date: null,
-    description: 'Late registration deadline for Oct. 3, 2026 SAT.',
+    description:
+      'Late registration deadline for Oct. 3, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Sept. 22, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Sept. 22, 2026',
   },
   {
     id: 12,
     exam_name: 'SAT',
-    event_type: 'exam_date',
+    event_type: 'exam_date' as ExamDateEventType,
     event_date: '2026-11-07',
     event_end_date: null,
-    description: 'SAT Weekend administration.',
+    description:
+      'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Nov. 7, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Nov. 7, 2026',
   },
   {
     id: 13,
     exam_name: 'SAT',
-    event_type: 'registration_deadline',
+    event_type: 'registration_deadline' as ExamDateEventType,
     event_date: '2026-10-23',
     event_end_date: null,
-    description: 'Registration deadline for Nov. 7, 2026 SAT.',
+    description:
+      'Registration deadline for Nov. 7, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Oct. 23, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Oct. 23, 2026',
   },
   {
     id: 14,
     exam_name: 'SAT',
-    event_type: 'late_registration_deadline',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
     event_date: '2026-10-27',
     event_end_date: null,
-    description: 'Late registration deadline for Nov. 7, 2026 SAT.',
+    description:
+      'Late registration deadline for Nov. 7, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Oct. 27, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Oct. 27, 2026',
   },
   {
     id: 15,
     exam_name: 'SAT',
-    event_type: 'exam_date',
+    event_type: 'exam_date' as ExamDateEventType,
     event_date: '2026-12-05',
     event_end_date: null,
-    description: 'SAT Weekend administration.',
+    description:
+      'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Dec. 5, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Dec. 5, 2026',
   },
   {
     id: 16,
     exam_name: 'SAT',
-    event_type: 'registration_deadline',
+    event_type: 'registration_deadline' as ExamDateEventType,
     event_date: '2026-11-20',
     event_end_date: null,
-    description: 'Registration deadline for Dec. 5, 2026 SAT.',
+    description:
+      'Registration deadline for Dec. 5, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Nov. 20, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Nov. 20, 2026',
   },
   {
     id: 17,
     exam_name: 'SAT',
-    event_type: 'late_registration_deadline',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
     event_date: '2026-11-24',
     event_end_date: null,
-    description: 'Late registration deadline for Dec. 5, 2026 SAT.',
+    description:
+      'Late registration deadline for Dec. 5, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-17T20:42:16.446815+00:00',
-    verified_quote: 'Nov. 24, 2026',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Nov. 24, 2026',
+  },
+  {
+    id: 18,
+    exam_name: 'SAT',
+    event_type: 'exam_date' as ExamDateEventType,
+    event_date: '2027-03-06',
+    event_end_date: null,
+    description:
+      'SAT Weekend test date',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'March 6, 2027',
+  },
+  {
+    id: 19,
+    exam_name: 'SAT',
+    event_type: 'registration_deadline' as ExamDateEventType,
+    event_date: '2027-02-19',
+    event_end_date: null,
+    description:
+      'SAT Weekend registration deadline',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Feb. 19, 2027',
+  },
+  {
+    id: 20,
+    exam_name: 'SAT',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
+    event_date: '2027-02-23',
+    event_end_date: null,
+    description:
+      'Late registration deadline for March 2027 SAT',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Feb. 23, 2027',
+  },
+  {
+    id: 21,
+    exam_name: 'SAT',
+    event_type: 'exam_date' as ExamDateEventType,
+    event_date: '2027-05-01',
+    event_end_date: null,
+    description:
+      'SAT Weekend test date',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'May 1, 2027',
+  },
+  {
+    id: 22,
+    exam_name: 'SAT',
+    event_type: 'registration_deadline' as ExamDateEventType,
+    event_date: '2027-04-16',
+    event_end_date: null,
+    description:
+      'SAT Weekend registration deadline',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'Apr. 16, 2027',
+  },
+  {
+    id: 23,
+    exam_name: 'SAT',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
+    event_date: '2027-04-20',
+    event_end_date: null,
+    description:
+      'Late registration deadline for May 2027 SAT',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'April 20, 2027',
+  },
+  {
+    id: 24,
+    exam_name: 'SAT',
+    event_type: 'exam_date' as ExamDateEventType,
+    event_date: '2027-06-05',
+    event_end_date: null,
+    description:
+      'SAT Weekend test date',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'June 5, 2027',
+  },
+  {
+    id: 25,
+    exam_name: 'SAT',
+    event_type: 'registration_deadline' as ExamDateEventType,
+    event_date: '2027-05-21',
+    event_end_date: null,
+    description:
+      'SAT Weekend registration deadline',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'May 21, 2027',
+  },
+  {
+    id: 26,
+    exam_name: 'SAT',
+    event_type: 'late_registration_deadline' as ExamDateEventType,
+    event_date: '2027-05-25',
+    event_end_date: null,
+    description:
+      'Late registration deadline for June 2027 SAT',
+    source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
+    last_verified: '2026-09-23T18:40:12Z',
+    verified_quote:
+      'May 25, 2027',
   },
 ];
 

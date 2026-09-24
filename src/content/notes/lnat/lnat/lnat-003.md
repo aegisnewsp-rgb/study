@@ -23,7 +23,7 @@ Each Section A question offers four possible answers, and the most reliable tech
 
 #### The four named failure modes
 
-- **Overstated hedge.** The passage says "often" or "may"; the option says "always" or "is". The hedge is the part the author chose to leave open. An option that closes the hedge is wrong even when the underlying claim is roughly right.
+- **Overstated hedge.** The passage uses an open word; the option uses a closed one. The hedge is the part the author chose to leave open. An option that closes the hedge is wrong even when the underlying claim is roughly right.
 - **Swapped cause and effect.** The passage says A leads to B; the option says B leads to A, or that B causes A. The two claims are not equivalent. Section A will frequently present the swapped version as the wrong option.
 - **Swapped comparison for absolute.** The passage says "more than X"; the option says "the most". The comparison survives only inside the comparison the passage actually made.
 - **Imported outside fact.** The option is true in the world but the passage never gave it. Section A is marked against the printed words, not against general knowledge.
@@ -73,7 +73,7 @@ D. The decline of UK high-street bookshops was caused by e-readers.
 **Reasoning.** Run the table against each option.
 
 - **A.** Says the number is "now falling steadily." The passage says the recent data "suggests the population… has stabilised." That is a swapped comparison for absolute — "steady decline" replaces "one-off shock followed by stabilisation." Also overstated hedge: "steady" contradicts "stabilised". Mark out.
-- **B.** Says the decline "has slowed and may have stopped." The passage says the remaining decline has been smaller and the recent data suggests stabilisation. The hedge "may" matches the hedge "suggests". No swapped direction. No imported fact. Keep.
+- **B.** The passage says the remaining decline has been smaller and the recent data suggests stabilisation; option B restates that with an open word of its own, matching the passage's open word. No swapped direction. No imported fact. Keep.
 - **C.** Says bookshops "are now growing in number." The passage says "stabilised" — flat, not growing. Overstated hedge in the opposite direction. Mark out.
 - **D.** Says the decline "was caused by e-readers." The passage says the first half of the decline happened *before* the rise of the e-reader. Imported outside fact (and a factual contradiction). Mark out.
 
@@ -114,10 +114,10 @@ D. will refer the legislation to the European Court of Human Rights.
 
 - **A.** The passage says courts "cannot strike down an Act of Parliament". Direct contradiction. Mark out.
 - **B.** The passage says they "can only issue a declaration of incompatibility". "Must" is stronger than "can only". The hedge is wrong. Mark out.
-- **C.** The passage says they "can only issue a declaration of incompatibility, which Parliament may then choose to address". Matches the passage word for word on the structure. Keep.
+- **C.** Matches the passage word for word on the declaration of incompatibility and on who decides next. Keep.
 - **D.** The passage says nothing about the European Court of Human Rights. Imported outside fact. Mark out.
 
-Answer: **C**. Notice B vs C: the diagnostic word pair is "must" vs "may". The passage's "may then choose to address" is a hedge, and option B closes it.
+Answer: **C**. Notice B vs C: the diagnostic pair is a strong modal ("must") against a weak one — the passage keeps the decision open, option B closes it. Option B is the overstated hedge.
 
 ---
 
@@ -140,7 +140,7 @@ Each of those questions takes five seconds. Total time to resolve a two-option s
 
 - **"Elimination is what you do when you do not know the answer."** Elimination is the technique on every question, including the ones where you think you know the answer. Selection is the slower path even when it is possible.
 - **"If three options look wrong, the fourth is right by default."** Sometimes the passage is ambiguous and you have marked all four out. In that case, the right move is to commit to your best option and use the 95-minute review window to come back to it. Do not leave the question blank.
-- **"The diagnostic words are the only thing to check."** The diagnostic word pair (often ↔ always, more than ↔ the most) is a fast filter, but the underlying check is the move the option makes: does it say more, swap a direction, swap a comparison, or import? Run the move check first; use the word pair as a confirmation.
+- **"The diagnostic words are the only thing to check."** The diagnostic word pair (weak ↔ strong, more than ↔ the most) is a fast filter, but the underlying check is the move the option makes: does it say more, swap a direction, swap a comparison, or import? Run the move check first; use the word pair as a confirmation.
 - **"If I can defend an option against the passage, it must be right."** You can defend two options. The question is which one survives the named failure modes, not which one you can argue for.
 - **"Imported facts are obvious."** They are not. The import trap presents an option that is true in the world — e.g. that the European Court of Human Rights exists — and uses that truth to make the option look defensible. The test is not whether the option is true; it is whether the passage supplied it.
 
@@ -148,7 +148,7 @@ Each of those questions takes five seconds. Total time to resolve a two-option s
 
 For one week, do elimination-only practice. Take a passage from the official practice test and read the question stem and the four options. For each of the four options, write down which of the four failure modes it commits (or "no failure mode identified"). If more than one option has no failure mode, you have misread something — go back to the passage. If zero options have no failure mode, you have misread the stem or the passage.
 
-The discipline of writing the failure mode down is what stops the eye from sliding over the overstated hedge. Under timed conditions the eye accepts "may" and "always" as the same word; on paper they do not look the same.
+The discipline of writing the failure mode down is what stops the eye from sliding over the overstated hedge. Under timed conditions the eye accepts an open word and a closed one as the same word; on paper they do not look the same.
 
 After one week of elimination-only practice, switch back to full timed passages and use the failure modes as the first check on every question.
 

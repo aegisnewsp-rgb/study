@@ -13,7 +13,7 @@ lastUpdated: "2026-09-24"
 
 # Section A — Reading the Passage for What It Says — LNAT Notes
 
-Section A of the LNAT gives you 42 multiple-choice questions drawn from 12 argumentative passages — three or four questions on each — to answer in 95 minutes. Each passage argues a position rather than narrates an event, so the sentence that settles any given question is usually a claim, a concession or a piece of evidence, not a description. The 95-minute wall across 12 passages means you cannot read all of them carefully; the students who score well work the passages instead of studying them. The fastest way to lose a Section A mark is to answer from memory of the passage after skimming it, because an option that is true in the world but unsupported by the printed words is still wrong.
+Section A of the LNAT gives you 42 multiple-choice questions drawn from 12 argumentative passages — three or four questions on each — to answer in 95 minutes. Each passage argues a position rather than narrates an event, so the sentence that settles any given question is a claim, a concession or a piece of evidence, not a description. The 95-minute wall across 12 passages means you cannot read all of them carefully; the students who score well work the passages instead of studying them. The fastest way to lose a Section A mark is to answer from memory of the passage after skimming it, because an option that is true in the world but unsupported by the printed words is still wrong.
 
 > Verify the live test format, timings and access arrangements on https://lnat.ac.uk/ before planning revision around the figures below.
 
@@ -24,7 +24,7 @@ Section A of the LNAT gives you 42 multiple-choice questions drawn from 12 argum
 #### What the passage actually is
 
 - **Argumentative, not narrative.** Each passage argues a position. Sentences do work: claim, support, concession, counter-argument.
-- **Three or four questions per passage.** The 42 questions cluster tightly. A wrong read on one passage typically costs you three or four marks, not one.
+- **Three or four questions per passage.** The 42 questions cluster tightly. A wrong read on one passage costs you three or four marks, not one.
 - **Four answer options per question.** Confirmed by the LNAT Consortium on the live practice test page at lnat.ac.uk.
 
 #### The reading protocol in one minute
@@ -46,9 +46,9 @@ Section A of the LNAT gives you 42 multiple-choice questions drawn from 12 argum
 
 Most Section A questions resolve around one of three sentence-types in the passage. Learning to recognise them changes the read from a hunt through prose into a hunt through a structure.
 
-**The claim.** The single sentence that says what the author is arguing. Often the topic sentence of the first or second paragraph. Sometimes stated in softer language ("It may be that…", "There is a case for…") — softer language does not mean a weaker claim; the test still treats it as the position.
+**The claim.** The single sentence that says what the author is arguing. The topic sentence of the first or second paragraph. Sometimes stated in softer language ("It may be that…", "There is a case for…") — softer language does not mean a weaker claim; the test still treats it as the position.
 
-**The concession.** A sentence that acknowledges the strongest point against the claim. Often introduced by "of course", "admittedly", "to be sure". A concession is not a refutation; the author usually returns to the claim immediately after. Section A questions frequently ask what the author concedes, or whether a candidate counter-argument is granted.
+**The concession.** A sentence that acknowledges the strongest point against the claim. Introduced by "of course", "admittedly", "to be sure". A concession is not a refutation; the author returns to the claim immediately after. Section A questions frequently ask what the author concedes, or whether a candidate counter-argument is granted.
 
 **The evidence.** A sentence that supplies an example, a statistic, an analogy or a piece of reasoning the claim rests on. Evidence sentences carry the most marks in "according to the passage" questions because the answer is literally in those lines.
 
@@ -62,7 +62,7 @@ First, the 12 passages are long and the 95-minute budget is short. A full carefu
 
 Second, the read is unfocused. Without the stem you are storing every claim, concession and example because you do not know which one the question will turn on. Half of what you remembered you will not need, and the half you did need — the sentence the question turns on — is the part your memory is least likely to have preserved cleanly.
 
-The protocol that fixes both: read the stem, name what the stem is hunting (a stated fact, an inference, an assumption, the author's concession), then read the passage once with that hunt in mind. The right sentence usually announces itself because you know what you are looking for.
+The protocol that fixes both: read the stem, name what the stem is hunting (a stated fact, an inference, an assumption, the author's concession), then read the passage once with that hunt in mind. The right sentence announces itself because you know what you are looking for.
 
 #### Worked mini-passage and questions
 
@@ -94,7 +94,7 @@ This is the most common place to lose time. Two options survive your first pass.
 
 - **One restates, one goes further than the passage can carry.** Pick the one that stays inside the printed words. If an option would still be defensible without the passage, it is probably too far.
 - **Both restate, but one matches a stronger word than the passage uses.** Pick the one with the weaker word. "Often" beats "always" when the passage says "often".
-- **Both go further.** Pick the one that names the smallest leap. Two small leaps are usually safer than one large one.
+- **Both go further.** Pick the one that names the smallest leap. Two small leaps are safer than one large one.
 
 The naming step is what stops the 90-second re-read loop. If you can say which option overreaches and why, you do not need to read the passage again to confirm.
 

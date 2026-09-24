@@ -29,7 +29,7 @@ Numerical Methods is section I of the AQA 7357 specification. The section covers
 
 #### When to use each method
 
-- AQA questions usually dictate the method explicitly ("use the Newton–Raphson method to find ..."). If the method is not given, sign change is the safest first choice because it always converges, and Newton–Raphson is the fastest once you can compute f'(x).
+- AQA questions state the required method explicitly ("use the Newton–Raphson method to find ..."). If the method is not given, sign change is the safest first choice because it always converges, and Newton–Raphson is the fastest once you can compute f'(x).
 
 #### Recognising failure
 
@@ -50,7 +50,7 @@ f(1) = 1 − 1 − 1 = −1. f(2) = 8 − 2 − 1 = 5. f(1) and f(2) have opposi
 
 To narrow the interval: evaluate f at the midpoint, f(1.5) = 3.375 − 1.5 − 1 = 0.875 > 0, so the root is in (1, 1.5). Continue halving until the interval is small enough.
 
-The sign-change method is robust but slow — typically needs 10 iterations to get 3 decimal places.
+The sign-change method is robust but slow — it needs around 10 iterations to get 3 decimal places.
 
 #### Fixed-point iteration
 
@@ -116,7 +116,7 @@ Every numerical method can fail in different ways, and the AQA questions test th
 
 #### Worked pattern — failure analysis for fixed-point iteration
 
-AQA often gives a sequence x₀, x₁, x₂ and asks whether the iteration will converge. To analyse:
+The standard AQA question gives a sequence x₀, x₁, x₂ and asks whether the iteration will converge. To analyse:
 
 1. Recognise the rearrangement: x_{n+1} = g(x_n) for some g.
 2. Compute g'(x) symbolically.

@@ -8,80 +8,119 @@ topicName: "Money and Banking"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-09-24"
 ---
 
 # Money and Banking
 
 ### 🟢 Lite — Quick Review (1h–1d)
+
 > Rapid summary for last-minute revision before your exam.
 
-**Money** is any generally accepted medium of exchange that simultaneously performs the role of unit of account and store of value. The RBI measures it through four aggregates — **M0 (reserve money)**, **M1 (narrow money)**, **M3 (broad money)**, and **M4** — based on liquidity and the type of deposit included. **High-powered money (H)** equals currency with the public plus bank reserves with the RBI (M0). The **money multiplier** formula to memorise is:
+Money is any generally accepted token that discharges debt, and banking is the system that creates and circulates it. The RBI fixes the monetary base MB = C + R, where C is currency with the public (₹) and R is bank reserves parked with the RBI (₹), then money supply expands through the multiplier. The working definition for policy purposes is M3 = M1 + time deposits of the public, and the multiplier relation $m = \dfrac{1 + cdr}{cdr + rdr}$ controls how a change in CRR or SLR moves broad money.
 
-**m = (1 + c) / (c + rd)**, where *c* is the currency–deposit ratio and *rd* is the reserve–deposit ratio.
+| Measure | Includes | Excludes | RBI's label |
+|---|---|---|---|
+| M0 | Currency with public + bankers' deposits with RBI | Demand deposits | Reserve money |
+| M1 | M0 + demand deposits + other RBI deposits | Time deposits | Narrow money |
+| M3 | M1 + time deposits of public with banks | NBFC deposits | Broad money |
 
-The RBI conducts monetary policy through the **policy repo rate** (now 5.50% w.e.f. June 2025), the **LAF corridor** (MSF ceiling, SDF floor), **CRR (4%)** and **SLR (18%)**, and **Open Market Operations (OMO)**. **High-yield pointers**: (1) distinguish *narrow money* (M1) from *broad money* (M3); (2) fractional reserve banking is the engine of credit creation; (3) RBI is the lender of last resort and the issuer of banknotes above ₹2.
+> 💡 **High-Yield Memory Hook:** **C-D-R-D** — "**C**urrency with public sets **cdr**; banks' **D**eposits split into reserves and loans through **rdr**." Recall the C→cdr, D→rdr mapping and the multiplier formula writes itself.
+
+Crank out the calculation: if cdr = 0.4 and rdr = 0.1, then m = 1.4 / 0.5 = 2.8, so every ₹1 of MB produces ₹2.80 of M3.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Definitions and Functions of Money
-Money is defined by what it *does*, not by what it is made of. Its primary **functions** are: medium of exchange (eliminates the double coincidence of wants), unit of account (numerical pricing of all goods), store of value (wealth held over time), and standard of deferred payment (settlement of future obligations). Qualities that make a good money item are durability, portability, divisibility, homogeneity, acceptability, and controlled scarcity. Modern money is overwhelmingly **fiat money** — inconvertible paper currency made legal tender by statute. **Near-money** assets (e.g., savings deposits, small savings schemes) are highly liquid but not directly usable as a means of payment.
+> Core mechanisms, instrument toolkit, and one fully worked exam-style question.
 
-#### Monetary Aggregates in India
-The RBI publishes four stock measures:
+#### Functions and Hierarchy of Money
 
-| Aggregate | Components | Interpretation |
-|-----------|-----------|----------------|
-| **M0** | Currency with public + Bankers' deposits with RBI + Other deposits with RBI | Reserve / high-powered money (H) |
-| **M1** | M0 + Demand deposits of banks + Other deposits with RBI | Narrow money |
-| **M2** | M1 + Savings deposits of post offices | — |
-| **M3** | M1 + Time deposits with banks | Broad money (most-cited) |
-| **M4** | M3 + Total deposits with post offices (excluding NSS) | — |
+Money discharges four jobs — medium of exchange, unit of account, store of value, and standard of deferred payment. The RBI publishes five aggregates weekly: M0, M1, M2, M3, M4. M2 = M1 + savings deposits of post office savings banks. M4 = M3 + total deposits with post offices (excluding those in M1). Policy action targets M3 because time deposits dominate the funding base of Indian banks.
 
-#### Fractional Reserve Banking and Credit Creation
-Banks keep only a fraction (rd) of deposits as reserves and lend out the rest. The act of lending creates a new deposit of equal size in the borrower's account — this is **credit creation**. A single bank can only create credit equal to *Initial deposit / rd*, but the **banking system as a whole** can expand deposits by the multiple **m = 1/rd** (ignoring cash leakages). With both leakage parameters, **m = (1 + c) / (c + rd)**. Hence money supply M = m × H.
+#### Reserve Bank of India: Roles
 
-#### Monetary Policy Instruments (RBI)
-The RBI uses **quantitative** tools — CRR (4%), SLR (18%), OMO, and open market borrowings of the government — and **qualitative** tools — moral suasion, credit rationing, and priority-sector directives. The **LAF corridor** is anchored by the **policy repo rate** (5.50%), with **MSF** at repo + 25 bps (lending window) and the **SDF** at repo – 25 bps (absorption window, introduced April 2022). The Bank Rate equals the MSF rate.
+The RBI Act, 1934 plus subsequent amendments give the RBI six statutory functions: monetary authority, issuer of banknotes (denominations ₹2, ₹5, ₹10, ₹20, ₹50, ₹100, ₹200, ₹500 with ₹2000 notes no longer printed, plus commemorative pieces), banker to the government, banker to banks (Lending Liquidity Facility, MSF, and Reverse Repo), manager of foreign exchange under FEMA 1999, and supervisor of banks, NBFCs and cooperative credit institutions. The Re 1 coin and coins below ₹1 are issued by the Ministry of Finance, not the RBI.
 
-#### Exam Question Patterns
-RBI Grade B Phase II (ESI) typically asks: (i) a 10-mark descriptive on the difference between narrow and broad money, (ii) a numerical on the money multiplier, (iii) a short note on CRR vs SLR, and (iv) a current-affairs hook on the latest Monetary Policy Committee (MPC) decision.
+#### Quantitative vs Qualitative Tools
+
+| Quantitative (reserve / rate) | Qualitative (selective) | Direct instruments |
+|---|---|---|
+| CRR on NDTL | Priority sector norms | OMO (outright + LAF) |
+| SLR on NDTL | Moral suasion | MSS bond auctions |
+| Repo / Reverse Repo / MSF | Margin requirements | |
+| Bank Rate | Credit rationing | |
+
+Quantitative tools move the policy rate directly; qualitative tools redirect existing credit.
+
+#### Money Multiplier — First-Principles Derivation
+
+Start from M = C + D (currency + deposits) and MB = C + R (currency + reserves). Divide M by MB:
+
+$$m = \frac{M}{MB} = \frac{C + D}{C + R} = \frac{\frac{C}{D} + 1}{\frac{C}{D} + \frac{R}{D}} = \frac{cdr + 1}{cdr + rdr}$$
+
+where cdr = C/D is the public's currency-to-deposit ratio (dimensionless) and rdr = R/D is the reserve-to-deposit ratio of banks (dimensionless). Consequently $M_s = m \times MB$. A one-percentage-point hike in CRR raises rdr, lowers m, and shrinks M3 even with an unchanged base.
+
+#### Numerical Walk-through
+
+Suppose cdr = 0.5, rdr = 0.2, MB = ₹10,00,000 crore. Money multiplier m = (1 + 0.5) / (0.5 + 0.2) = 1.5 / 0.7 = 2.143. Money supply M3 = 2.143 × 10,00,000 = ₹21,42,857.14 crore (dimension [₹]). Now raise CRR so that rdr climbs to 0.3. New m = 1.5 / 0.8 = 1.875. M3 = 1.875 × 10,00,000 = ₹18,75,000 crore. Multiplier contraction alone wiped out ₹2,67,857.14 crore, without the base moving.
+
+#### Worked Exam-Style Question
+
+*Items bank reserves ₹3,00,000, currency with public ₹6,00,000, demand deposits ₹9,00,000 and time deposits ₹18,00,000. Compute M0, M1, M3 and the money multiplier with MB as denominator.*
+
+**Step 1 — M0 (reserve money):** bank reserves (₹3,00,000) + currency with public (₹6,00,000) + other RBI deposits (assume ₹0 here) = **₹9,00,000 crore**.
+
+**Step 2 — M1 (narrow money):** M0 (₹9,00,000) + demand deposits (₹9,00,000) = **₹18,00,000 crore**.
+
+**Step 3 — M3 (broad money):** M1 (₹18,00,000) + time deposits (₹18,00,000) = **₹36,00,000 crore**.
+
+**Step 4 — multiplier:** MB = C + R = 6,00,000 + 3,00,000 = ₹9,00,000 crore. m = M3 / MB = 36,00,000 / 9,00,000 = **4.0**.
+
+A student who defines MB as deposits with the RBI only, forgetting that currency with public is part of the base, would compute m = 36,00,000 / 3,00,000 = 12 — wrong by a factor of three.
+
+> ⚠️ **Examiner Trap:** The correct denominator for the multiplier is the **monetary base**, never demand deposits and never total deposits; a base that excludes currency with public doubles the multiplier and inflates every downstream answer.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Mechanism: From Reserve Money to Broad Money
-Start from the RBI's balance sheet. When the RBI purchases government securities under OMO, it credits the reserve account of the selling bank. Bank reserves (R) rise, currency with public (C) is unchanged, so M0 (= C + R) rises by the same amount. If the entire H injection is held as reserves, broad money does not change. But once banks lend, the deposit multiplier takes over. Suppose c = 0.4 (public holds ₹0.40 as cash per ₹1 of deposit) and rd = 0.2. Then m = (1 + 0.4) / (0.4 + 0.2) = **2.33**. A ₹1,000 cr injection of H therefore raises M3 by roughly ₹2,333 cr.
+> Edge cases, transmission flaws, and the limits of the textbook multiplier.
 
-This is exactly why the RBI watches the **currency–deposit ratio** carefully — it is endogenous. During demonetisation (Nov 2016) c spiked and the multiplier collapsed, sterilising part of the intended monetary expansion. During COVID-19 (2020–21), c surged again as households hoarded cash, weakening transmission of rate cuts.
+#### Where the Standard Multiplier Breaks
 
-#### LAF Corridor and Rate Transmission
-The corridor system (SDF floor, MSF ceiling) is engineered so that overnight rates hover near the policy repo rate. The Standing Deposit Facility (April 2022) replaced the uncollateralised reverse repo as the floor, eliminating the asymmetric incentive that had pushed overnight rates persistently below the repo rate. Banks now have a hard floor at SDF (5.25%) and can borrow overnight from RBI at MSF (5.75%). The width of ±25 bps constrains volatility without taxing banks' parking decisions.
+The textbook m = (1 + cdr)/(cdr + rdr) assumes the public splits cash and deposits at a fixed cdr, banks hold only required reserves, and no leakage to the shadow economy. Three real-world breaks matter for descriptive answers.
 
-#### Credit Creation: A Worked Illustration
-A fresh primary deposit of ₹1,000 enters Bank A. With rd = 0.10, Bank A keeps ₹100 and lends ₹900, which is redeposited in Bank B. Bank B keeps ₹90 and lends ₹810. Total deposits created = 1,000 + 900 + 810 + 729 + … = ₹10,000 = 1/rd. The same logic holds for **cheque clearing, RTGS, and NEFT** — these are settlement systems, not creators of money. NEFT operates in half-hourly batches; RTGS is real-time and gross (minimum ₹2 lakh). The **NEFT/IMPS/UPI** stack has dramatically reduced the velocity cost of retail payments.
+| Textbook assumption | Real-world break | Policy consequence |
+|---|---|---|
+| Banks fully lend reserves | Excess reserves held for LCR compliance | Multiplier floor rises in stressed quarters |
+| cdr fixed by the public | Digital payments flatten cdr | LM curve shifts right even with stable rdr |
+| No NBFC leakage | NBFCs on-sold bank credit | Reported M3 understates total purchasing media |
+| One-period | Banks recycle retail deposits over many cycles | Effective m exceeds the one-period value |
 
-#### Edge Cases, Reforms, and Pitfalls
-- **Base rate** (2010) was replaced by **MCLR** (2015) and further by the **external benchmark regime** (April 2019), under which floating-rate loans must be linked to repo, T-bill, or any other published benchmark. This was RBI's response to weak rate transmission (2015–18).
-- **NPA classification** changed under the **Feb 2015 RBI circular** and the 4R framework (Recognition, Resolution, Recapitalisation, Reform). NPAs are now aged 90 days overdue; the **CAMELS** supervisory model and **Basel III CRAR** (15% including capital conservation buffer, 11.5% in India) frame prudential soundness.
-- **Priority Sector Lending (PSL)** mandates 40% of ANBC to agriculture, MSMEs, education, housing — banks falling short must contribute to the RIDF.
-- **Liquidity vs solvency**: a bank is *illiquid* if it cannot meet cash obligations today but is *solvent* if its assets exceed liabilities at market value. The RBI, as **lender of last resort**, addresses liquidity crises; solvency crises trigger PCA (Prompt Corrective Action) or amalgamation under the Banking Regulation Act, 1949.
+A precise answer would call this the "observed money multiplier" falling short of the "textbook money multiplier" during periods of high precautionary deposit demand.
 
-#### Common Mistakes
-1. Confusing **M0 with M1** — M0 excludes demand deposits of banks with the public.
-2. Treating **CRR** as payable on total liabilities — it is calculated on **demand and time liabilities**.
-3. Forgetting that **SLR** includes cash, gold, and unencumbered government securities, *not* just government bonds.
-4. Believing reverse repo is still the floor — SDF replaced it.
-5. Computing credit creation as 1/CRR — the *legal* reserve ratio and the *behavioural* rd differ; the multiplier uses rd.
+#### Monetary Transmission: Channels and Frictions
 
-#### Practice Prompts
-1. If CRR is raised from 4% to 5% with c = 0.5 and rd = 0.25, compute the change in the money multiplier and explain the policy intent.
-2. "Demonetisation was a monetary policy operation." Critically evaluate this statement using the money multiplier identity and RBI data on currency in circulation.
+Policy rate moves through four channels: bank lending rate pass-through, asset price (equity and bond revaluation), expectations (anchoring inflation outlook), and credit (bank balance sheet capacity). Pass-through is incomplete because PSL carve-outs, MCLR reset dates, and sticky term-deposit pricing protect bank Net Interest Margins. Effective transmission to CPI is now estimated at roughly half a one-percentage-point policy move reaches retail lending within four quarters under the current framework — exact figures vary by RBI study and must be checked against the latest Monetary Policy Report.
 
----
+#### NPA, Capital Adequacy and Liquidity Buffers
+
+An asset becomes an NPA when principal or interest is overdue for 90 days. Sub-standard is up to 12 months from NPA date, Doubtful-1 up to one year from that, Doubtful-2 the next year, Doubtful-3 the year after, and Loss when identified as uncollectible. Under Basel III, CRAR = (Tier 1 + Tier 2) / Risk-Weighted Assets × 100, with Tier 1 = paid-up equity + disclosed free reserves (core capital) and Tier 2 = subordinated debt + general provisions + upper Tier-2 instruments. The Liquidity Coverage Ratio (LCR) = High-Quality Liquid Assets / Total net cash outflows over 30 days, and the Net Stable Funding Ratio (NSFR) = Available Stable Funding / Required Stable Funding; both must remain ≥ 100%.
+
+#### Advanced Practice Prompts
+
+1. If the RBI raises the MSF corridor to 50 basis points above Repo, predict the order in which call money, CD, and government bond yields adjust, and explain why money market mutual fund NAVs may move before certificate of deposit yields.
+2. Construct a balance-sheet table showing a ₹100 increase in RBI lending through Repo and trace its path into M3 when SLR also rises by 1 percentage point on the same day; quantify the offset to the policy impulse.
+
+> ⚠️ **Examiner Trap:** Writing "Bank Rate = Repo Rate" without naming the 100-basis-point penalty differential that MSF carries, or claiming the RBI Governor decides the rate instead of the six-member MPC under Section 45ZL of the amended RBI Act.
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Money and Banking" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/rbi-grad-b/economics/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

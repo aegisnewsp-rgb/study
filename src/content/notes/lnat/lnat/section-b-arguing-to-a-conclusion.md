@@ -3,7 +3,7 @@ exam: lnat
 examName: LNAT (National Admissions Test for Law)
 subject: lnat
 subjectName: LNAT
-topic: lnat-005
+topic: section-b-arguing-to-a-conclusion
 topicName: Section B — Arguing to a Conclusion
 weight: 5
 country: uk

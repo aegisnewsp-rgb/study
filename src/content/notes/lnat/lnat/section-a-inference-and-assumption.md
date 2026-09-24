@@ -3,7 +3,7 @@ exam: lnat
 examName: LNAT (National Admissions Test for Law)
 subject: lnat
 subjectName: LNAT
-topic: lnat-002
+topic: section-a-inference-and-assumption
 topicName: Section A — Inference and Assumption
 weight: 4
 country: uk

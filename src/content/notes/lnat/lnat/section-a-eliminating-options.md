@@ -3,7 +3,7 @@ exam: lnat
 examName: LNAT (National Admissions Test for Law)
 subject: lnat
 subjectName: LNAT
-topic: lnat-003
+topic: section-a-eliminating-options
 topicName: Section A — Eliminating Wrong Options
 weight: 3
 country: uk

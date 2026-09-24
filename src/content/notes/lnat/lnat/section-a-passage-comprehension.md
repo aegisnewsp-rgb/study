@@ -3,7 +3,7 @@ exam: lnat
 examName: LNAT (National Admissions Test for Law)
 subject: lnat
 subjectName: LNAT
-topic: lnat-001
+topic: section-a-passage-comprehension
 topicName: Section A — Reading the Passage for What It Says
 weight: 5
 country: uk

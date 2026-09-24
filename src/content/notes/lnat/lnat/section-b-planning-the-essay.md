@@ -3,7 +3,7 @@ exam: lnat
 examName: LNAT (National Admissions Test for Law)
 subject: lnat
 subjectName: LNAT
-topic: lnat-004
+topic: section-b-planning-the-essay
 topicName: Section B — Planning Under 40 Minutes
 weight: 4
 country: uk

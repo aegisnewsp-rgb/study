@@ -82,6 +82,103 @@ Use probability rules: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). P(A ∩ B) = P(A
 
 This subtest is one of four UCAT ANZ subtests. Confirm the live test format and any updates on ucat.edu.au before each cycle.
 
+#### Worked example — syllogism validity
+
+```
+  Premise 1: All pharmacists are health professionals.
+  Premise 2: Some health professionals work in hospitals.
+  Conclusion: Some pharmacists work in hospitals.
+```
+
+Conclusion valid? No. The premises establish that pharmacists are a subset of health professionals and that some health professionals work in hospitals. From that, you cannot conclude that the pharmacists overlap with the hospital workers — the hospital workers might all be nurses.
+
+The valid form would be:
+
+```
+  Premise 1: All pharmacists are health professionals.
+  Premise 2: All health professionals working in hospitals are pharmacists.
+  Conclusion: All pharmacists are health professionals working in hospitals.
+```
+
+The "all" chains force overlap; the "all" + "some" pattern does not.
+
+#### Worked example — conditional reasoning and the affirming-the-consequent trap
+
+```
+  If a patient has appendicitis, then they have abdominal pain.
+  A patient has abdominal pain.
+```
+
+Conclusion: they have appendicitis. Invalid — this is affirming the consequent. Many conditions cause abdominal pain. The premise "if P then Q" only supports modus ponens (P → Q) and modus tollens (¬Q → ¬P); it does not support the reverse.
+
+The valid forms are:
+
+```
+  Modus ponens:    P → Q, P   ⇒  Q
+  Modus tollens:   P → Q, ¬Q  ⇒  ¬P
+```
+
+#### Worked example — probability with and without replacement
+
+A bag contains 4 red and 6 blue marbles. Two marbles are drawn. Find P(both red).
+
+```
+  Without replacement:
+    P(1st red) = 4/10
+    P(2nd red | 1st red) = 3/9
+    P(both red) = 4/10 × 3/9 = 12/90 = 2/15
+
+  With replacement:
+    P(both red) = 4/10 × 4/10 = 16/100 = 4/25
+```
+
+The denominator changes after the first draw when there is no replacement. With replacement, the denominator stays at 10 for both draws.
+
+#### Worked example — Venn diagram for a three-set problem
+
+Survey 100 patients: 50 take Drug A, 40 take Drug B, 30 take Drug C. 20 take A and B, 15 take B and C, 10 take A and C. 5 take all three.
+
+```
+  Region                   | Count
+  Only A                   | 50 − 20 − 10 + 5 = 25
+  Only B                   | 40 − 20 − 15 + 5 = 10
+  Only C                   | 30 − 15 − 10 + 5 = 10
+  A ∩ B only (not C)       | 20 − 5 = 15
+  B ∩ C only (not A)       | 15 − 5 = 10
+  A ∩ C only (not B)       | 10 − 5 = 5
+  A ∩ B ∩ C                | 5
+  Total                    | 25 + 10 + 10 + 15 + 10 + 5 + 5 = 80
+  None                     | 100 − 80 = 20
+```
+
+The inclusion-exclusion check: |A ∪ B ∪ C| = 50 + 40 + 30 − 20 − 15 − 10 + 5 = 80 ✓.
+
+#### Common marking-scheme (or scoring) mistakes
+
+- Confusing "all" with "some" in syllogisms. The chain "all A are B, all B are C, so all A are C" is valid; inserting "some" anywhere breaks the chain.
+- Concluding P from Q under "if P then Q". This is the affirming-the-consequent fallacy and is invalid.
+- Using the union rule P(A ∪ B) = P(A) + P(B) without subtracting the intersection. Independent events are the only case where the intersection term drops out.
+- Failing to update the sample space when sampling without replacement. The conditional probability changes after each draw.
+- Drawing a Venn diagram with overlapping regions that do not reflect the inclusion-exclusion counts.
+
+#### 20-minute recap before you walk in
+
+- Syllogisms: "all" chains force conclusions; "some" chains do not.
+- Conditionals: only modus ponens (P, so Q) and modus tollens (not Q, so not P) are valid.
+- Probability: subtract the intersection in P(A ∪ B); divide by the new sample space for "without replacement".
+- Venn diagrams: enforce the inclusion-exclusion count before answering.
+
+#### Sub-topics the official preparation guide lists that this note does not cover in detail
+
+The UCAT ANZ preparation materials and the official test-format page also reference the following sub-topics, which are touched on above but deserve separate revision:
+
+- Identifying assumptions: which unstated premise does the argument rely on, and is it justified?
+- Evaluating arguments: spotting weak links, unsupported leaps and biased framing.
+- Interpreting data presented in tables, charts or short text fragments.
+- Recognising logical fallacies such as ad hominem, straw man and false dilemma.
+
+Confirm the live test format and item types on the official UCAT ANZ page before committing revision to a specific item count.
+
 ---
 
 *Last updated 2026-09-20. Source: UCAT ANZ Test Format, https://www.ucat.edu.au/about-ucat-anz/test-format/. Awarding body: UCAT ANZ Consortium.*

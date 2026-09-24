@@ -81,6 +81,92 @@ Can't Tell: the passage does not contain enough information to decide.
 
 This subtest is one of four UCAT ANZ subtests. Confirm the live test format and any updates on ucat.edu.au before each cycle.
 
+#### Worked example — applying True / False / Can't Tell
+
+Passage:
+
+```
+  Coral reefs cover less than 1% of the ocean floor, yet they support
+  roughly 25% of marine species. Reefs are threatened worldwide by
+  warming seas, pollution, and overfishing. Restoration projects that
+  grow coral fragments in underwater nurseries have shown promising
+  short-term results, but long-term survival rates remain uncertain.
+```
+
+Statements and the correct label:
+
+```
+  1. "Coral reefs support approximately 25% of marine species."
+     → True. Directly stated: "they support roughly 25% of marine
+     species".
+
+  2. "Restoration projects have failed in the long term."
+     → Can't Tell. The passage says "long-term survival rates remain
+     uncertain" — uncertain is not the same as failed.
+
+  3. "Pollution is the largest threat to coral reefs."
+     → Can't Tell. Three threats are listed (warming, pollution,
+     overfishing) but no comparison of magnitude is given.
+
+  4. "All coral reefs are threatened by warming seas."
+     → False. The passage says reefs "are threatened worldwide by
+     warming seas" — "worldwide" implies most, not all, and the word
+     "all" in the statement is stronger than the passage supports.
+```
+
+Items 2 and 3 are the kind of "Can't Tell" trap that Verbal Reasoning rewards. The trick is that plausible, but unsupported, statements get labelled "Can't Tell", not "True".
+
+#### Worked example — keyword-scan strategy
+
+Question stem: "Which of the following statements about restoration projects is supported by the passage?"
+
+```
+  Step 1. Underline the keywords in the stem: "restoration projects",
+          "supported".
+
+  Step 2. Scan the passage for the phrase "restoration projects".
+          It appears once, in the final sentence.
+
+  Step 3. Read the surrounding sentence in full:
+          "Restoration projects that grow coral fragments in underwater
+          nurseries have shown promising short-term results, but
+          long-term survival rates remain uncertain."
+
+  Step 4. For each candidate statement, compare word-for-word:
+          - "short-term results" → stem may ask about short-term only.
+          - "long-term survival rates remain uncertain" → any stem
+            statement that claims a definite long-term outcome is
+            False.
+```
+
+Reading the stem first avoids the trap of skimming the passage for general meaning and missing the precise qualifier.
+
+#### Common marking-scheme (or scoring) mistakes
+
+- Selecting "Can't Tell" for a statement that the passage actually contradicts. The marker scores False, not Can't Tell, when the passage contains the contradiction.
+- Treating "True" as a vote for the statement's overall sentiment. Verbal Reasoning marks True only when each load-bearing word is supported.
+- Letting a single modifier — "always", "never", "all", "none" — slip past without checking whether the passage uses the same word. Modifiers do almost all of the work in this subtest.
+- Leaving items blank because of time pressure. UCAT ANZ does not penalise wrong answers, so a guess is always better than a blank.
+
+#### 20-minute recap before you walk in
+
+- Read the stem first. Underline keywords. Then scan the passage for those exact keywords.
+- Distinguish True (supported), False (contradicted) and Can't Tell (not addressed).
+- A statement that uses a stronger word than the passage ("always" instead of "usually") is False.
+- A statement that adds new information not in the passage is Can't Tell.
+- Pace yourself. Aim to spend roughly equal time per passage and move on when stuck.
+
+#### Sub-topics the official preparation guide lists that this note does not cover in detail
+
+The UCAT ANZ preparation materials and the official test-format page also reference the following sub-topics, which are touched on above but deserve separate revision:
+
+- Inference questions that ask for the most likely conclusion, rather than a strict True/False judgement.
+- Reading dense academic prose (scientific journal style) under time pressure.
+- Identifying the main idea of a passage as opposed to a supporting detail.
+- Recognising the difference between the author's opinion and a quoted claim.
+
+Confirm the live test format and item types on the official UCAT ANZ page before committing revision to a specific item count.
+
 ---
 
 *Last updated 2026-09-20. Source: UCAT ANZ Test Format, https://www.ucat.edu.au/about-ucat-anz/test-format/. Awarding body: UCAT ANZ Consortium.*

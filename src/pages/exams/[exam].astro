@@ -123,7 +123,49 @@ const CONTENT_REV = '2026-05-28';
 const heroHeadline = (exam as any).heroHeadline
   || `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan`;
 const BRAND_SUFFIX = ' | StudyRoadmap';
+// CTR repair 2026-09-24 — measured, per-exam titles for the position 5.0-12.0 band.
+//
+// Measured 2026-09-24 (GSC page dimension, 28d to 2026-09-21): the band is 24 pages,
+// 64,057 impressions, 507 clicks, 0.79% CTR — 58.6% of the site's impressions at 35.4%
+// of its clicks. 18 of those 24 pages carried the SAME tail, ': Syllabus, Exam Pattern
+// & Eligibility', and averaged 0.55% CTR; the 6 with distinct titles averaged 1.69%.
+//
+// Each override below replaces the shared tail with ONE concrete differentiator that is
+// already stated verbatim in that page's own meta description — no new claims and no
+// invented numbers. Deliberately hardcoded rather than data-driven: the description field
+// these facts come from is built below, and reading it to build the title would make the
+// title depend on the description, which is exactly the variable the measurement protocol
+// holds fixed. Per-row source + the differentiator quoted for each: ready/s131-title-rewrite-spec.md
+//
+// HONEST LIMIT: the band at the non-band CTR (2.05%) is +805 clicks/28d (+56.2%). That is
+// the ceiling of this change, and it does not reach the next milestone ($0.10/day needs
+// the trailing3 average to double). Page type is also confounded with the title formula —
+// the 6 distinct-title pages are sub-pages and a notes hub, not /exams/<exam>/ hubs.
+const EXAM_TITLE_OVERRIDES: Record<string, string> = {
+  sppsc: 'SPSC Sindh CCE 2026: Written Exam Syllabus & Pattern',
+  gaokao: 'Gaokao 2026: 3 Mandatory + 1 Elective Subjects',
+  'al-exam': 'A/L Examination 2026: 3-4 Subjects by Stream',
+  'sbi-clerk': 'SBI Clerk 2026: Prelims + Mains Syllabus & Pattern',
+  ncee: 'NCEE 2026: National Common Entrance Syllabus & Pattern',
+  mcat: 'MCAT Pakistan 2026: 4 Subject Areas, Syllabus & Pattern',
+  'fpsc-cce': 'FPSC CSS 2026: Written Exam + Syllabus & Pattern',
+  kpsc: 'KPSC KAS 2026: Two MCQ Papers, Syllabus & Pattern',
+  wassce: 'WASSCE Ghana 2026: Core Subject Syllabus & Pattern',
+  gat: 'GAT Pakistan 2026: NTS Syllabus, Pattern & Eligibility',
+  nmat: 'NMAT 2026: Part I & II Syllabus, Pattern',
+  'nat-i': 'NAT-I (NTS) 2026: 100 MCQs in 2 Hours',
+  ppsc: 'PPSC Punjab PMS 2026: Syllabus & Exam Pattern',
+  'nce-cours': 'NCE Nigeria 2026: Course Papers Syllabus & Pattern',
+  'manipal-met': 'Manipal MET 2026: B.Tech Syllabus, Physics & Pattern',
+  kpkpse: 'KPK PMS 2026: KPPSC Syllabus, Pattern & Eligibility',
+  nda: 'NDA 2026: Two Objective Papers, Syllabus & Pattern',
+  'ecat-eng': 'ECAT 2026: 100-110 MCQs, Syllabus & Pattern',
+};
 const title = (() => {
+  // Checked first so a listed exam's title no longer depends on the tail loop below.
+  const override = EXAM_TITLE_OVERRIDES[String(exam.examId)];
+  if (override) return override;
+  // CTR repair 2026-09-18.
   // CTR repair 2026-09-18. Search Console (28d: 101,560 impressions, 1.29% CTR) showed
   // these pages ranking 6-9 on mobile and being ignored. The old title was
   // `${examName} ${year} Guide`, and "Guide" appears in NONE of the queries that earn the

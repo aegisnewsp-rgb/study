@@ -90,6 +90,10 @@ Parallel reasoning items ask the test-taker to identify an argument that has the
 
 Parallel reasoning items are part of LSAT Logical Reasoning. Confirm the live LR section structure on the LSAC Logical Reasoning page (https://www.lsac.org/lsat/taking-lsat/test-format/logical-reasoning) and the LSAC LSAT landing page (https://www.lsac.org/lsat).
 
+#### Abstract Skeleton Matching Under Time Limits
+
+When tackling Parallel Reasoning questions in Section 1 or 2, quickly abstract the conclusion's force first. Does the prompt conclude with an absolute necessity ("must be"), a qualified probability ("likely will"), or a conditional possibility ("can happen")? Eliminate any answer choice whose conclusion modal force does not mirror the stimulus before diagramming premises.
+
 ---
 
 *Last updated 2026-09-20. Source: LSAC, Logical Reasoning, https://www.lsac.org/lsat/taking-lsat/test-format/logical-reasoning. LSAC, LSAT landing page, https://www.lsac.org/lsat. Live section count, item count and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*

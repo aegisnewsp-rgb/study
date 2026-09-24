@@ -67,6 +67,10 @@ This avoids counting many outcomes directly. For example, P(at least one head in
 #### Typical NCEE Question Pattern
 NCEE objective items often ask: "A die is rolled once. What is the probability of getting an even number greater than 2?" Candidates must (1) list S = {1,2,3,4,5,6}, (2) pick E = {4, 6}, (3) compute P(E) = 2/6 = 1/3.
 
+#### Sample Spaces and Complementary Probabilities
+
+In NCEE examination questions, always write down the total number of possible outcomes (the sample space) before counting favorable outcomes. Remember that probability equals favorable outcomes divided by total possible outcomes, and the probability of an event and its complement always sum to one: P(not E) = 1 - P(E). This complementary rule saves significant time in "at least one" questions.
+
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)

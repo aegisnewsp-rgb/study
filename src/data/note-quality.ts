@@ -48,7 +48,7 @@ export function isLowValueNote(
   const topicName = data?.topicName ?? '';
   const isPlaceholderTopic =
     typeof topicName === 'string' &&
-    /^(Topic|Chapter|Unit|Section)\s+\d+/i.test(topicName.trim());
+    /^(Topic|Chapter|Unit|Section)\s+\d+(\s*[:\-—]\s*)?$/i.test(topicName.trim());
   const text = body ?? '';
   // Body char floor: 4000 (~550–600 body words). AdSense 2026 reviewer rubric
   // treats sub-~800-word pages as thin when the whole site looks templated.

@@ -90,6 +90,10 @@ Expression of Ideas items appear across the SAT Reading and Writing section. The
 
 Expression of Ideas is one of the four SAT R&W content domains. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. Re-check the live content domains on satsuite.collegeboard.org before committing a revision plan.
 
+#### Transition Relationship Categories and Note Synthesis
+
+Transitions on the Digital SAT test four primary logical relationships: addition/continuation ("Furthermore", "Moreover"), contrast/reversal ("However", "Nonetheless"), cause/effect ("Consequently", "Therefore"), and exemplification ("For instance", "Specifically"). In Rhetorical Synthesis questions (bulleted research notes), identify the student's stated goal in the question stem first before evaluating answer options; the correct answer always satisfies the prompt's specific objective rather than merely stating a true fact from the notes.
+
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*

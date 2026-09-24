@@ -85,6 +85,10 @@ Yes/No/Not Given appears in IELTS Academic Reading, typically in one of the thre
 
 Yes/No/Not Given is one of the official IELTS Academic Reading question types. Source: IELTS Academic Reading test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading. Re-check the live format on ielts.org before committing a revision plan.
 
+#### Practical Pacing and Scan Technique
+
+Allocate at most 90 seconds per statement in this section. Under actual examination timing, candidates frequently lose time reading entire paragraphs when a single qualifying adverbial phrase ("while many argue", "it is plausible that") establishes the writer's deliberate stance. Mark qualifying adverbs immediately during your first scan.
+
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Reading test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*

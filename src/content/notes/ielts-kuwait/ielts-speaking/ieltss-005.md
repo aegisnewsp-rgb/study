@@ -95,6 +95,10 @@ Lexical Resource is one of the four band descriptors and contributes to the Spea
 
 IELTS Speaking band descriptors. Source: IELTS Speaking sample tasks, https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf. Re-check the live band descriptors on ielts.org before committing a revision plan.
 
+#### Precision Over Memorised Idioms
+
+Examiners penalise forced idioms used out of context (such as "raining cats and dogs"). Aim instead for natural topic-specific collocations: "mitigate risk", "curb emissions", "viable alternative", or "cost-effective measure". Accurate collocation choices indicate genuine fluency far better than archaic phrases.
+
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Speaking test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking. IELTS Speaking sample tasks, https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*

@@ -46,10 +46,10 @@ Detail items ask the test-taker to locate stated facts, examples, and definition
 #### Strategy for detail items
 
 1. **Read the question stem carefully.** Identify the specific detail (name, date, fact, example).
-2. **Locate the relevant section** of the passage. The detail is usually in one paragraph.
+2. **Locate the relevant section** of the passage. The detail resides in a specific paragraph.
 3. **Read that section carefully.** Note the specific wording.
 4. **Match the wording to the answer choices.** The right answer is the choice that matches the passage's wording or meaning.
-5. **Eliminate choices that change a key word** (e.g., "most" for "all," "often" for "always").
+5. **Eliminate choices that change a key word** (e.g., replacing "some" with "all").
 
 #### Common detail patterns
 
@@ -70,12 +70,12 @@ Detail items ask the test-taker to locate stated facts, examples, and definition
 #### How detail items connect to the other RC skills
 
 - **Main idea** is supported by the details; understanding the main idea helps locate the relevant detail.
-- **Inference** items often build on the details; understanding the details helps draw the inference.
-- **Strengthen/weaken** items often target the details; understanding the details helps evaluate the argument.
+- **Inference** items build upon supporting details; understanding the details helps draw the inference.
+- **Strengthen/weaken** items evaluate stated details; understanding the details helps evaluate the argument.
 
 #### Common errors and the correction
 
-- **"The detail is stated exactly."** Often the detail is paraphrased; the right answer is the choice that preserves the meaning.
+- **"The detail is stated exactly."** Examiners regularly paraphrase details; the right answer is the choice that preserves the meaning.
 - **"The detail is in the first paragraph."** Detail items are scattered throughout the passage.
 - **"Any related choice works."** The right choice matches the passage's specific wording or meaning.
 
@@ -89,6 +89,10 @@ Detail items ask the test-taker to locate stated facts, examples, and definition
 #### Specification reference
 
 Detail items are part of LSAT Reading Comprehension. Confirm the live RC section structure on the LSAC Reading Comprehension page (https://www.lsac.org/lsat/taking-lsat/test-format/reading-comprehension) and the LSAC LSAT landing page (https://www.lsac.org/lsat).
+
+#### Targeted Line Reference Verification
+
+Detail questions require direct proof from the passage text rather than plausible inferences. When a question stems says "According to the passage" or "The author explicitly states", locate the specific line range and match semantic equivalents. Be wary of trap answers that transpose concepts between paragraph two and paragraph four or substitute an extreme quantifier ("always", "solely") where the text used "some" or "frequently".
 
 ---
 

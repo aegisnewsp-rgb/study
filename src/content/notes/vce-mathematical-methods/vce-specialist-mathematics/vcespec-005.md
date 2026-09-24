@@ -92,6 +92,10 @@ Component of a along b: (a · b̂) where b̂ = b/|b|. Projection vector: (a · b
 
 This Area of Study is assessed in VCE Specialist Mathematics Examination 2. Confirm the live examination specifications and any Notice to Schools on vcaa.vic.edu.au before each cycle.
 
+#### Vector Resolution, Dot Products, and Linear Dependence
+
+In VCE Specialist Mathematics Exam 1 (technology-free) and Exam 2 (CAS-active), vectors are frequently used to prove geometric theorems. The scalar dot product directly yields perpendicularity when zero. The vector projection of vector u onto vector v is given by standard projection formulas. Always verify linearly independent sets when solving 3D coordinate geometry problems involving lines and planes.
+
 ---
 
 *Last updated 2026-09-20. Source: VCE Mathematics Study Design (2023), https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics. Awarding body: Victorian Curriculum and Assessment Authority (VCAA). Examination specifications and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*

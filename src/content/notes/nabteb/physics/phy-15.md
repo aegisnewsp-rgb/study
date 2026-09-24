@@ -82,5 +82,9 @@ Solution: T = 2π√(m/k) → k = 4π²m/T² = 4π²(0.50)/(0.64) ≈ **30.8 N m
 1. A pendulum of length 1.00 m on Earth (g = 9.8 m s⁻²) — calculate T and frequency f.
 2. Show that for a mass-spring system, doubling the amplitude does **not** change the period.
 
+#### Graphical Relationships and Energy Conservation
+
+In NABTEB technical physics questions, be prepared to sketch and analyze graphs of displacement, velocity, and acceleration versus time. Acceleration is maximum at the amplitude positions where velocity is zero, whereas velocity is maximum at the equilibrium position where displacement is zero. Total mechanical energy remains constant throughout frictionless oscillation, transferring continuously between maximum potential energy at the extremes and maximum kinetic energy at the center.
+
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

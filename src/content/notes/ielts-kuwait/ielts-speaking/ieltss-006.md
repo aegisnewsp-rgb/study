@@ -89,6 +89,10 @@ Grammatical Range and Accuracy is one of the four band descriptors and contribut
 
 IELTS Speaking band descriptors. Source: IELTS Speaking sample tasks, https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf. Re-check the live band descriptors on ielts.org before committing a revision plan.
 
+#### Balancing Complex Structures and Error Control
+
+High band scores (Band 7+) require a mix of simple and complex sentence forms with frequent error-free sentences. Use subordinate clauses ("Although public transit has improved, congestion remains high"), conditional statements ("If authorities had invested earlier, costs would have dropped"), and passive structures where appropriate. Do not sacrifice grammatical control for overly convoluted syntax.
+
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Speaking test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking. IELTS Speaking sample tasks, https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*

@@ -147,6 +147,10 @@ t = tan(x/2): sin x = 2t/(1+t²), cos x = (1−t²)/(1+t²)
 - Always check quadrant when finding arg values
 - R format: a sin x + b cos x = R sin(x + α) gives max = R
 
+#### Radians, Identities, and Quad-Angle Relations
+
+For university-level calculus preparation, ensure complete fluency with the fundamental Pythagorean identities (sin^2 x + cos^2 x = 1, 1 + tan^2 x = sec^2 x), compound angle expansions (sin(A + B), cos(A + B)), and double-angle formulas (cos 2x = cos^2 x - sin^2 x = 2cos^2 x - 1). In solving trigonometric equations across [0, 2pi], always determine the principal value first, identify the correct quadrants using standard sign rules, and check for extraneous solutions introduced by squaring or denominator roots.
+
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

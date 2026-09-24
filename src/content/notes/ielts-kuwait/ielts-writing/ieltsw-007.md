@@ -121,6 +121,10 @@ The four criteria apply to both Task 1 and Task 2. Candidates should aim for ban
 
 IELTS Writing band descriptors. Source: IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Re-check the live band descriptors on ielts.org before committing a revision plan.
 
+#### Scoring Parity Across the Four Criteria
+
+Each of the four criteria carries exactly 25% of your Task 2 writing score. A candidate with flawless vocabulary will still receive a lower overall band if their paragraphs lack logical progression (Coherence & Cohesion) or fail to address all parts of the essay prompt (Task Response). Review your essay outline against each criterion before writing your final conclusion.
+
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Writing test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*

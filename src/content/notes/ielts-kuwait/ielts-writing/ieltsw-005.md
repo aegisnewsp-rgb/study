@@ -101,6 +101,10 @@ Each of the three prompt types appears regularly in IELTS Academic Writing Task 
 
 IELTS Academic Writing Task 2 format. Source: IELTS Academic Writing test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing. Re-check the live format on ielts.org before committing a revision plan.
 
+#### Balanced Thesis and Argument Structure
+
+For discussion essays ("Discuss both views and give your opinion"), devote one body paragraph to each perspective before stating your evaluated preference in the conclusion. Ensure each paragraph contains a clear topic sentence, followed by concrete supporting evidence, an analytical explanation, and a concluding link back to the prompt question.
+
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Writing test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*

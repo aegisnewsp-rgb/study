@@ -79,6 +79,10 @@ Context shapes how a text is read. The same text means different things in diffe
 
 This Area of Study is assessed through SACs and the end-of-year examination. Confirm the live examination specifications on vcaa.vic.edu.au before each cycle.
 
+#### Integrating Authorial Intent and Metalanguage
+
+In VCE English Section A, high-scoring responses move beyond plot summary to examine how the author constructs meaning for a purpose. Rather than writing "The character feels sad", analyze how the author utilizes structural motifs, shifting narrative perspectives, or deliberate symbolic imagery to position readers to question societal norms. Structure every analytical body paragraph with a clear topic sentence establishing the thematic argument, integrated textual evidence, deep analytical exploration of language features, and a cohesive link back to the prompt statement.
+
 ---
 
 *Last updated 2026-09-20. Source: VCE English and English as an Additional Language Study Design (2023), https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal. Awarding body: Victorian Curriculum and Assessment Authority (VCAA). Examination specifications and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*

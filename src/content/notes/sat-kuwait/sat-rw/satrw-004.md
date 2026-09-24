@@ -93,6 +93,10 @@ Text Structure and Purpose items appear across the SAT Reading and Writing secti
 
 Text Structure and Purpose is part of the SAT R&W Craft and Structure domain. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. Re-check the live content domains on satsuite.collegeboard.org before committing a revision plan.
 
+#### Distinguishing Overall Purpose from Local Function
+
+On the Digital SAT Reading and Writing module, text structure questions ask either what the entire passage accomplishes or what a specific highlighted sentence does. Do not confuse a sentence that provides background context with the author's primary communicative claim. Look for rhetorical turn-signals ("However", "Surprisingly", "By contrast") to identify how the argument pivots between observation and thesis.
+
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*

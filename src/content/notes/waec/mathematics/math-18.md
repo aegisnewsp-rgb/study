@@ -64,5 +64,9 @@ AP underpins linear sequences in coordinate geometry (slope = d). GP connects to
 1. The 5th term of an AP is 23 and the 12th term is 51. Find the sum of the first 20 terms.
 2. The sum of the first three terms of a GP is 26 and the common ratio is 3. Find the first term and S_∞ if it exists.
 
+#### Simultaneous Equations in Arithmetic and Geometric Progressions
+
+WAEC Section B multi-part questions frequently present two conditions: for example, the 3rd term is 12 and the 7th term is 28. Express both terms using standard formulas and solve the resulting simultaneous linear equations for first term a and common difference d. For Geometric Progressions, use exponential term forms and divide consecutive equations to eliminate a, taking care when taking roots of negative ratios.
+
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

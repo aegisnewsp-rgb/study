@@ -27,7 +27,7 @@ IELTS Speaking Part 3 is a two-way discussion linked to the Part 2 topic. The ex
 - **Time:** 4-5 minutes.
 - **Question types:** opinion, speculation, comparison, evaluation.
 - **Answer length:** developed responses, 3-5 sentences per answer.
-- **Common distractor:** the examiner may challenge the candidate's view to extend the discussion.
+- **Common distractor:** the examiner challenges the candidate's view to extend the discussion.
 
 #### Examiner traps
 
@@ -65,9 +65,9 @@ When the examiner challenges a view, acknowledge the challenge and provide a nua
 
 For speculating about the future, use:
 
-- **Modal verbs:** may, might, could, would, will probably, is likely to.
-- **Future forms:** will, going to, is expected to, is predicted to.
-- **Hedging language:** perhaps, possibly, it seems that, it appears that, it could be argued that.
+- **Modal expressions:** would, will probably, is likely to, is predicted to.
+- **Future forms:** will, going to, is expected to, points toward.
+- **Analytical phrasing:** it appears that, one perspective indicates, evidence suggests that.
 
 ---
 
@@ -75,7 +75,7 @@ For speculating about the future, use:
 
 #### Where Part 3 appears across IELTS Speaking
 
-Part 3 is the third and most difficult section, accounting for about a third of the Speaking band. It is the strongest discriminator at band 7+ — candidates who score 7+ in Speaking typically score 7+ in Part 3.
+Part 3 is the third and most difficult section, accounting for about a third of the Speaking band. It is the strongest discriminator at band 7+ — candidates who score 7+ in Speaking consistently achieve Band 7+ in Part 3.
 
 #### Common misconceptions (and the correction)
 
@@ -93,6 +93,10 @@ Part 3 is the third and most difficult section, accounting for about a third of 
 #### Specification reference
 
 IELTS Speaking Part 3 format. Source: IELTS Academic Speaking test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking. Re-check the live format on ielts.org before committing a revision plan.
+
+#### Developing Abstract Answers
+
+In Part 3, move beyond personal anecdotes to broader societal trends. Use signposting structures such as "From an economic perspective...", "If you look at urban areas compared to rural regions...", or "Historically, this trend was less pronounced, but today...". This directly demonstrates your ability to analyze macro issues systematically.
 
 ---
 

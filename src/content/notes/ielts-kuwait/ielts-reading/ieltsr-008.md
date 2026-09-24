@@ -70,6 +70,10 @@ Short-answer questions appear in IELTS Academic Reading, usually in one of the t
 
 Short-answer questions are part of the official IELTS Academic Reading question types. Source: IELTS Academic Reading test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading. Re-check the live format on ielts.org before committing a revision plan.
 
+#### Word Limit and Hyphenation Rules
+
+Check the exact rubric instructions: "NO MORE THAN THREE WORDS AND/OR A NUMBER". Hyphenated words (e.g., "state-of-the-art") count as single words in IELTS Reading. Do not change the grammatical form of words lifted from the passage; copying the exact word forms prevents unnecessary syntax errors.
+
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Reading test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*

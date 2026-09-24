@@ -101,3 +101,18 @@ Exponential, radical and rational expressions are part of the SAT Math Passport 
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Problem**:
+A water filtration facility operates pumps that filter 450 liters of water every 18 minutes. At this constant rate, how many hours will it take the facility to filter 7,500 liters of water?
+
+**Solution**:
+1. Calculate the flow rate in liters per minute:
+   Rate = 450 liters / 18 minutes = 25 liters per minute.
+2. Determine total minutes required to filter 7,500 liters:
+   Total time in minutes = 7,500 liters / 25 liters per minute = 300 minutes.
+3. Convert minutes to hours:
+   Hours = 300 minutes / 60 minutes per hour = 5.0 hours.
+4. Always verify unit conversion: the problem requested the final duration in hours, not minutes.

@@ -88,3 +88,20 @@ Words in Context is part of the SAT R&W Craft and Structure domain. Source: The 
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Passage**:
+In 1913, paleontologist Charles Walcott concluded that fossilized microbial mats known as stromatolites found in the Precambrian Belt Supergroup of Montana were formed by ancient colonial algae. For several decades, critics disputed this interpretation, maintaining that the laminated rock patterns were purely abiogenic—the result of mechanical sedimentation and mineral precipitation without biological intervention. However, modern electron microscopy of the microstructure reveals fossilized organic filaments and isotope fractionation patterns that cannot be reproduced through inorganic crystallization alone, confirming Walcott's original biological attribution.
+
+**Question**:
+Which choice best summarizes the central idea of the text?
+- (A) Recent microscopic and isotopic evidence has substantiated Walcott's contentious hypothesis that Precambrian stromatolites were formed by living organisms.
+- (B) Geologists continue to dispute whether mechanical sedimentation accounts for ancient rock formations in Montana.
+- (C) Charles Walcott's 1913 excavation methods were recognized as flawed by contemporary researchers.
+- (D) Abiogenic processes provide the most accurate explanation for laminated mineral deposits in the Belt Supergroup.
+
+**Analysis**:
+- Central trajectory: Walcott proposed biological origin -> Critics argued inorganic/abiogenic -> Modern microscopic/isotopic evidence proved Walcott was right.
+- Choice (A) accurately integrates the full narrative arc and main thesis. Choice (B) contradicts the resolution; (C) makes an unsupported negative claim; (D) states the refuted counter-hypothesis. Correct selection is (A).

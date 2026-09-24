@@ -84,3 +84,19 @@ Ratios, rates and percentages are part of the SAT Math Problem Solving and Data 
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Problem**:
+What is the sum of the solutions to the quadratic equation 2x^2 - 14x + 11 = 0?
+
+**Solution**:
+1. Recall Vieta's formulas for any quadratic ax^2 + bx + c = 0: the sum of the roots is given by -b/a, and the product of the roots is given by c/a.
+2. Identify the coefficients: a = 2, b = -14, c = 11.
+3. Compute the sum directly:
+   Sum = -(-14) / 2 = 14 / 2 = 7.
+4. Methodological check via the quadratic formula:
+   x = (14 +- sqrt((-14)^2 - 4(2)(11))) / 4 = (14 +- sqrt(196 - 88)) / 4 = (14 +- sqrt(108)) / 4.
+   Adding the two conjugate roots: (14 + sqrt(108) + 14 - sqrt(108)) / 4 = 28 / 4 = 7.
+   Vieta's formula eliminates five arithmetic steps and prevents radical calculation errors.

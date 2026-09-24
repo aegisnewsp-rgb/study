@@ -79,3 +79,12 @@ The IELTS Academic Reading test format is 60 minutes, 40 questions, 3 passages. 
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Reading test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+
+#### Timing and paragraph mapping protocol for Passage 1
+
+In IELTS Academic and General Training Reading, Passage 1 is the most straightforward text, but candidates frequently squander time by reading every sentence slowly:
+
+1. **2-Minute Skim**: Spend at most two minutes reading the title, subtitle, and first sentence of each paragraph. Form a mental outline of where topics live (e.g., Paragraph A: Origins, Paragraph B: Manufacturing process, Paragraph C: Modern applications).
+2. **Scan by Keyword Clusters**: Never search for a single isolated word; keywords in question stems are almost always paraphrased in the text. Search for conceptual synonyms (e.g., *increase dramatically* -> *surged*, *climbed steeply*).
+3. **Strict 17-Minute Limit**: Complete all 13 or 14 questions in Passage 1 within 17 minutes. Transfer answers directly onto the answer sheet as you work, leaving 20 minutes for Passage 2 and 23 minutes for the significantly more challenging Passage 3.

@@ -88,3 +88,22 @@ Quadratics and polynomials are part of the SAT Math Passport to Advanced Math do
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Problem**:
+Solve for x in the radical equation sqrt(2x + 15) = x + 6 and identify any extraneous roots.
+
+**Solution**:
+1. Square both sides of the equation:
+   (sqrt(2x + 15))^2 = (x + 6)^2
+   2x + 15 = x^2 + 12x + 36.
+2. Rearrange into standard quadratic form:
+   x^2 + 10x + 21 = 0.
+3. Factor the quadratic:
+   (x + 3)(x + 7) = 0 -> x = -3 or x = -7.
+4. Test both candidate roots in the original radical equation:
+   - For x = -3: sqrt(2(-3) + 15) = sqrt(9) = 3; right side is -3 + 6 = 3. Valid root!
+   - For x = -7: sqrt(2(-7) + 15) = sqrt(1) = 1; right side is -7 + 6 = -1. Since 1 != -1, x = -7 is extraneous.
+   - The unique real solution is x = -3.

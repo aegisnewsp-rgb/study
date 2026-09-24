@@ -81,3 +81,12 @@ The completion family is part of the official IELTS Academic Reading question ty
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Reading test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+
+#### Grammatical word-form prediction strategy for completions
+
+Summary and table completion tasks always retain grammatical validity when words from the passage are inserted:
+
+1. **Determine Part of Speech Before Scanning**: Examine the words directly preceding and following each blank. Predict whether the required term is a singular countable noun, plural noun, adjective, or past participle verb.
+2. **Check Collocation and Articles**: If the blank is preceded by *an*, the answer word MUST begin with a vowel sound. If it is preceded by a possessive pronoun, expect a noun.
+3. **Respect Word Count Constraints**: Always read the instruction heading (e.g., *NO MORE THAN TWO WORDS AND/OR A NUMBER*). Writing three words when the rubric specifies two results in an immediate mark deduction of zero for that item, regardless of factual accuracy.

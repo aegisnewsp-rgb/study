@@ -78,3 +78,19 @@ This Area of Study is assessed in the Unit 3 School-Assessed Coursework. Confirm
 ---
 
 *Last updated 2026-09-20. Source: VCE English and English as an Additional Language Study Design (2023), https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal. Awarding body: Victorian Curriculum and Assessment Authority (VCAA). Examination specifications and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*
+
+
+#### VCAA performance descriptors for top-band (Score 9–10) compositions
+
+The VCAA English assessment criteria for Unit 3 Area of Study 2 establish clear thresholds for high-scoring student writing:
+
+1. **Deliberate Control of Form**: The piece adopts a clear, sustained form (imaginative narrative, persuasive opinion piece, or discursive exploration) without slipping into confused hybrid styles or unexamined conventions.
+2. **Precision and Economy of Language**: Word choice is purposeful and economical. Rather than stacking descriptive adjectives, the writer relies on active verbs, concrete sensory imagery, and controlled syntactic variation (alternating short emphatic declarations with rhythmic compound-complex sentences).
+3. **Cohesive Voice and Tone**: The perspective remains stable throughout. Persuasive writing maintains authority without resorting to melodramatic rhetoric; imaginative writing develops narrative voice without exposition dumping; discursive writing balances nuanced viewpoints without becoming indecisive.
+
+#### 20-minute pre-SAC revision checklist
+
+- [ ] Does your composition clearly declare its primary form, target audience, and rhetorical intent?
+- [ ] Have you trimmed decorative adjectives and replaced weak passive constructions with active transitive verbs?
+- [ ] Is every paragraph transition motivated by a shift in argument, chronology, or emotional tone?
+- [ ] Have you read the text aloud to test auditory cadence and eliminate awkward syntactic rhythms?

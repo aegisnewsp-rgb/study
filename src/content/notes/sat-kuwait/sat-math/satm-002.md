@@ -87,3 +87,20 @@ Functions and function notation are part of the SAT Math Heart of Algebra domain
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Problem**:
+The function f is defined by f(x) = 3x - 5, and the function g is defined by g(x) = x^2 + 2. If k is a constant such that f(g(k)) = 22, what is one possible value of k?
+
+**Solution**:
+1. Apply the definition of composite functions: evaluate f at the input g(k).
+   f(g(k)) = 3(g(k)) - 5 = 22.
+2. Solve for g(k):
+   3(g(k)) = 27 -> g(k) = 9.
+3. Substitute the definition of g(x):
+   k^2 + 2 = 9 -> k^2 = 7 -> k = sqrt(7) or k = -sqrt(7).
+4. Verify by back-substitution:
+   g(sqrt(7)) = (sqrt(7))^2 + 2 = 9.
+   f(9) = 3(9) - 5 = 22. Both solutions satisfy the given equation.

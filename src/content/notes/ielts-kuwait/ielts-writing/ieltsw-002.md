@@ -95,3 +95,13 @@ IELTS Academic Writing Task 1 format. Source: IELTS Academic Writing test format
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Writing test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+
+#### Model sentence structures for comparative bar charts
+
+Examiners grade IELTS Academic Writing Task 1 on four equally weighted criteria: Task Achievement (25%), Coherence and Cohesion (25%), Lexical Resource (25%), and Grammatical Range and Accuracy (25%). Use these high-scoring comparative syntactic patterns:
+
+- **Dominance & Peak**: *Solar energy accounted for the largest proportion of total electricity generation in 2024, at 42%, followed by wind at 28%.*
+- **Direct Contrast**: *While coal consumption experienced a precipitous drop from 350 metric tons to 120 metric tons, renewable alternatives saw a fourfold expansion over the same decade.*
+- **Parity & Equality**: *Expenditure on public transport remained virtually identical across both surveyed metropolitan regions, hovering at approximately $45 per household per month.*
+- **Overview Formulation**: *Overall, what stands out from the data is that renewable sources expanded substantially across all categories, whereas fossil fuel reliance declined progressively.*

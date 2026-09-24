@@ -101,3 +101,15 @@ IELTS Speaking Part 2 format. Source: IELTS Academic Speaking test format, https
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Speaking test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking. IELTS Speaking sample tasks, https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+
+#### The 1-minute cue card planning strategy for Part 2
+
+During the one minute of preparation time for the Part 2 Individual Long Turn, do NOT attempt to write out full sentences. Write brief keyword cues matching the bullet prompts on the task card:
+
+- **What it was**: Name, place, or object in 1–2 words.
+- **When & Where**: Time anchor (e.g., *summer 2023, coastal town*).
+- **Who with**: Key people involved.
+- **Why it was memorable**: Two emotional or analytical adjectives (e.g., *exhilarating, transformative*).
+
+**Delivery Mechanics**: Aim to speak continuously for 1 minute and 45 seconds to 2 full minutes until the examiner gently stops you. Structure your talk chronologically: set the scene, describe what happened, and spend at least 40 seconds reflecting on why the experience left an impression on you.

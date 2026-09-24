@@ -87,3 +87,18 @@ IELTS Academic Writing Task 1 format. Source: IELTS Academic Writing test format
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Writing test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-writing. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+
+#### Trend vocabulary and trajectory modulation
+
+When describing line graphs spanning a multi-year chronological axis, modulate your descriptive verbs and adverbs to reflect speed and degree of change:
+
+| Trajectory Type | Verb Options | Adverb Modifiers |
+|---|---|---|
+| **Rapid Upward** | surged, skyrocketed, climbed steeply | dramatically, exponentially, sharply |
+| **Steady Upward** | rose, increased, grew | steadily, progressively, consistently |
+| **Fluctuating** | fluctuated, varied, oscillated | erratically, within a range of X to Y |
+| **Plateau / Static** | stabilized, leveled off, remained constant | at roughly X, throughout the period |
+| **Rapid Downward** | plummeted, plunged, dropped sharply | precipitously, drastically, severely |
+
+**Rule of Thumb**: Avoid repeating *rose* or *fell* more than twice in an essay; alternate between verb forms (*sales increased by 15%*) and noun phrases (*there was a 15% increase in sales*).

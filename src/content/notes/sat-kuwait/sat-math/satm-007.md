@@ -96,3 +96,17 @@ Geometry and Trigonometry is one of the four SAT Math content domains. Source: T
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Problem**:
+A retail warehouse offers a 20% discount off the original price of an electronics item during a seasonal sale. An additional clearance coupon applies an extra 15% discount off the already discounted sale price. If the final price paid is $136.00, what was the original list price?
+
+**Solution**:
+1. Let P be the original list price.
+2. After the first 20% discount, the price is P * (1 - 0.20) = 0.80P.
+3. After the second 15% discount, the price is (0.80P) * (1 - 0.15) = (0.80P) * 0.85 = 0.68P.
+4. Equate to the final price paid:
+   0.68P = 136.00 -> P = 136.00 / 0.68 = 200.00.
+5. Common distractor error: adding the percentages (20% + 15% = 35%) and computing 136 / 0.65 = $209.23. Successive percentage changes multiply; they never add.

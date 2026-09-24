@@ -73,3 +73,19 @@ Short-answer questions are part of the official IELTS Academic Reading question 
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Reading test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-reading. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+
+#### Tactical resolution framework for Sentence Completion and Short Answer
+
+Sentence Completion and Short Answer questions assess literal information retrieval under tight word-limit constraints:
+
+- **Locate Heading Anchors**: Look for non-paraphrasable anchor words in the question stem: capitalized proper nouns, dates, scientific terms, or numbers.
+- **Extract Exact Text Form**: Never modify the grammatical form of words lifted from the passage. If the text says *inadvertently*, do not write *inadvertent*.
+- **Verify Spelling**: IELTS penalizes incorrect spelling; copying words accurately from the printed reading text directly onto your answer sheet prevents preventable score losses.
+- **Keep Word Limits in Focus**: If the limit is *ONE WORD ONLY*, write exactly one word. Hyphenated words (e.g., *state-of-the-art*) count as a single word in official IELTS scoring.
+
+#### 15-minute triage drill
+
+- [ ] Can you locate specific dates or capitalized names in under 20 seconds using diagonal zig-zag scanning?
+- [ ] Have you verified that your completed sentence makes syntactic sense when read as a complete English sentence?
+- [ ] Are all spelling variants aligned with standard British or American conventions?

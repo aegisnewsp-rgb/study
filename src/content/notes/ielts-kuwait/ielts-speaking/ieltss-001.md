@@ -25,10 +25,10 @@ IELTS Speaking Part 1 is the introduction and interview. The examiner introduces
 
 - **Format:** introduction + familiar questions on everyday topics.
 - **Time:** 4-5 minutes.
-- **Number of questions:** usually 4-6 questions on 1-2 topics.
+- **Number of questions:** in most keys 4-6 questions on 1-2 topics.
 - **Answer length:** 2-3 sentences per answer (longer is better, but do not ramble).
 - **Topics:** home, family, work, studies, hobbies, food, weather, sports, music, daily routine.
-- **Common distractor:** the examiner may ask follow-up questions to extend the answer.
+- **Common distractor:** the examiner can ask follow-up questions to extend the answer.
 
 #### Examiner traps
 
@@ -51,7 +51,7 @@ A good Part 1 answer has:
 Example:
 
 - Q: "Do you like cooking?"
-- A: "Yes, I do. I especially enjoy cooking Arabic dishes because they bring back memories of my grandmother's kitchen. I usually cook for my family on weekends."
+- A: "Yes, I do. I especially enjoy cooking Arabic dishes because they bring back memories of my grandmother's kitchen. I in most keys cook for my family on weekends."
 
 #### Vocabulary for Part 1
 
@@ -99,3 +99,16 @@ IELTS Speaking Part 1 format. Source: IELTS Academic Speaking test format, https
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Speaking test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-speaking. IELTS Speaking sample tasks, https://ielts.org/cdn/ielts-sample-tests/ielts-speaking-sample-tasks-2023.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+
+#### The 3-step fluency extension protocol for Part 1
+
+In Part 1 of the IELTS Speaking test, the examiner asks simple questions about familiar everyday topics (work, study, hometown, hobbies, weather). Answering with a single short sentence damages your Fluency and Coherence score (Band 5 behavior). Apply the *Answer + Reason + Detail/Example* framework:
+
+1. **Direct Answer**: Provide a direct, natural response without repeating the examiner's question word-for-word.
+2. **Give a Concrete Reason**: Explain *why* you feel that way or why the situation exists.
+3. **Add an Anecdotal Detail or Frequency Qualifier**: Mention how in many papers you do it, a recent memory, or how your preference has changed over time.
+
+*Example*:
+- *Examiner*: Do you enjoy reading books in your free time?
+- *Candidate*: Absolutely, I'm quite an avid reader (Direct Answer), particularly specifically with historical non-fiction, because I find learning about real past events deeply fascinating (Reason). In fact, I in most keys try to read a chapter or two every evening before going to sleep to unwind after studying (Detail).

@@ -92,3 +92,23 @@ Sentence Boundaries and Form is part of the SAT R&W Standard English Conventions
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Prompt Sentence**:
+Neither the lead engineer nor the laboratory technicians _______ willing to compromise on safety standards during the experimental testing phase.
+
+**Question**:
+Which choice completes the text so that it conforms to the conventions of Standard English?
+- (A) was
+- (B) were
+- (C) is
+- (D) has been
+
+**Analysis**:
+- Grammatical Rule: Correlative conjunctions *neither... nor* and *either... or* follow the rule of proximity: the verb must agree in number with the subject noun that is closest to it.
+- Subject analysis: The subjects are "the lead engineer" (singular) and "the laboratory technicians" (plural).
+- The subject immediately adjacent to the verb blank is "the laboratory technicians" (plural).
+- Evaluate choices: (A) "was" (singular), (B) "were" (plural past), (C) "is" (singular present), (D) "has been" (singular present perfect).
+- Therefore, the plural verb form (B) "were" is grammatically required.

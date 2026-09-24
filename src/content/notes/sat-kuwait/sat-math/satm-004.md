@@ -83,3 +83,19 @@ Statistics and probability are part of the SAT Math Problem Solving and Data Ana
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+
+#### Step-by-step worked College Board test example
+
+**Problem**:
+Which of the following expressions is equivalent to (x^2 - 9) / (2x^2 + 7x + 3) for all values of x where the denominator is non-zero?
+
+**Solution**:
+1. Factor the numerator using the difference of squares:
+   x^2 - 9 = (x - 3)(x + 3).
+2. Factor the denominator quadratic:
+   Look for two numbers that multiply to (2)(3) = 6 and sum to 7: the numbers are 6 and 1.
+   Rewrite: 2x^2 + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3).
+3. Simplify the rational expression by canceling the common factor (x + 3):
+   [(x - 3)(x + 3)] / [(2x + 1)(x + 3)] = (x - 3) / (2x + 1).
+4. Note the restriction: x != -3 and x != -1/2. The simplified rational expression is (x - 3) / (2x + 1).

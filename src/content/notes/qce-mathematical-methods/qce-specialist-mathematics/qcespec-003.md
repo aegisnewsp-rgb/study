@@ -8,7 +8,7 @@ topicName: Further Calculus and Introduction to Statistics
 weight: 3
 country: australia
 generated: "2026-09-20T13:15:00"
-lastUpdated: 2026-09-20
+lastUpdated: 2026-09-24
 ---
 
 # Unit 3: Further Calculus and Introduction to Statistics — QCE Specialist Mathematics (QCAA 2025) Notes
@@ -77,6 +77,120 @@ X ~ B(n, p). P(X = k) = C(n, k) p^k (1 − p)^(n − k). E(X) = np.
 
 This Unit is the third of four Units of QCE Specialist Mathematics. Confirm the live syllabus on qcaa.qld.edu.au.
 
+#### Worked example — vector dot product and angle between vectors
+
+Given two vectors in two dimensions:
+
+```
+  a = 4i − 3j
+  b = 2i + 5j
+```
+
+1. Calculate the magnitude of each vector.
+2. Calculate the scalar (dot) product a · b.
+3. Determine the measure of the angle θ between the vectors to the nearest tenth of a degree.
+4. Find the vector projection of a onto b (proj_b a).
+
+Part 1: Magnitudes
+
+```
+  |a| = √(4² + (−3)²) = √(16 + 9) = √25 = 5
+  |b| = √(2² + 5²) = √(4 + 25) = √29 ≈ 5.385
+```
+
+Part 2: Dot product
+
+```
+  a · b = (4)(2) + (−3)(5)
+        = 8 − 15
+        = −7
+```
+
+Part 3: Angle θ
+
+```
+  cos θ = (a · b) / (|a| |b|)
+        = −7 / (5 × √29)
+        = −7 / (5 × 5.38516)
+        = −7 / 26.9258
+        ≈ −0.25997
+```
+
+Since cos θ < 0, θ is obtuse:
+
+```
+  θ = arccos(−0.25997) ≈ 105.07°
+```
+
+The angle is 105.1°.
+
+Part 4: Vector projection of a onto b
+
+```
+  proj_b a = [ (a · b) / |b|² ] b
+           = [ −7 / 29 ] (2i + 5j)
+           = −(14 / 29) i − (35 / 29) j
+```
+
+#### Worked example — polar coordinate conversion and operations
+
+Convert the Cartesian coordinate point P(−3, 3√3) to polar form (r, θ) where r > 0 and −π < θ ≤ π.
+
+Step 1: Calculate the radial distance r
+
+```
+  r = √(x² + y²)
+    = √( (−3)² + (3√3)² )
+    = √( 9 + 27 )
+    = √36
+    = 6
+```
+
+Step 2: Determine the angle θ
+Notice x = −3 < 0 and y = 3√3 > 0, so the point lies in Quadrant II.
+Calculate reference angle α:
+
+```
+  tan α = |y / x| = (3√3) / 3 = √3
+  α = π / 3
+```
+
+In Quadrant II:
+
+```
+  θ = π − α = π − (π / 3) = 2π / 3
+```
+
+Therefore, the polar coordinates are (6, 2π/3).
+
+#### Common marking-scheme mistakes
+
+- Computing scalar product as a vector instead of a real scalar number.
+- Forgetting the quadrant check when converting from Cartesian to polar coordinates (using arctan(y/x) without adjustment).
+- Dividing by |a| instead of |b|² when computing the vector projection of a onto b.
+- Stating the projection as a scalar magnitude when the question requested the vector projection.
+- Leaving vectors without directional notation (dropping i, j unit vectors or tilde underbars).
+
+#### 20-minute recap before you walk in
+
+- Magnitude formula: |v| = √(v_x² + v_y²).
+- Dot product: a · b = a_x b_x + a_y b_y = |a| |b| cos θ.
+- Perpendicular test: two non-zero vectors are orthogonal if and only if a · b = 0.
+- Parallel test: a and b are parallel if a = k b for some scalar k.
+- Vector projection of a onto b: proj_b a = [ (a · b) / (b · b) ] b.
+
+#### Sub-topics the syllabus lists that this note does not cover in detail
+
+The QCAA Specialist Mathematics syllabus for vectors and calculus also lists:
+
+- Linearly independent and dependent sets of vectors in 2D and 3D.
+- Geometric proofs using vector methods (such as medians of a triangle or diagonals of a rhombus).
+- Polar curves graphing including cardioids, limaçons, and rose curves r = a cos(nθ).
+- Vector valued functions r(t) = x(t)i + y(t)j and calculating velocity and acceleration vectors.
+- Tangential and normal components of acceleration in planar motion.
+
+Confirm the live sub-topic list on the QCAA Specialist Mathematics syllabus page before planning revision around these.
+
 ---
 
-*Last updated 2026-09-20. Source: QCE Specialist Mathematics General senior syllabus (2025), https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics. Awarding body: Queensland Curriculum and Assessment Authority (QCAA).*
+*Last updated 2026-09-24. Source: QCE Specialist Mathematics General senior syllabus (2025), https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics. Awarding body: Queensland Curriculum and Assessment Authority (QCAA).*

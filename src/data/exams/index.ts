@@ -28,6 +28,8 @@ export { default as MANIPAL_MET } from './india/manipal-met';
 export { default as nclex } from './nclex';
 export { default as sat } from './sat';
 export { default as cfa } from './cfa';
+export { default as digitalSat } from './usa/digital-sat';
+export { default as act } from './usa/act';
 
 // ─── New 2026 exams ───────────────────────────────────────────────
 // Bangladesh
@@ -347,6 +349,10 @@ import qatarSecondaryCertificate from './qatar/qatar-secondary-certificate';
 import ieltsQatar from './qatar/ielts';
 import satQatar from './qatar/sat';
 
+// United States (country expansion — sr-fanout build-usa, 2026-09-24)
+import digitalSat from './usa/digital-sat';
+import act from './usa/act';
+
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
@@ -421,6 +427,8 @@ export const ALL_EXAMS = [
   hkdse, ieltsHk, jupas,
   // Qatar (country expansion)
   qatarSecondaryCertificate, ieltsQatar, satQatar,
+  // United States (country expansion)
+  digitalSat, act,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────
@@ -447,6 +455,13 @@ export const COUNTRY_FLAGS: Record<string, string> = {
   kuwait: '🇰🇼',
   hongkong: '🇭🇰',
   qatar: '🇶🇦',
+  usa: '🇺🇸',
+  uk: '🇬🇧',
+  australia: '🇦🇺',
+  singapore: '🇸🇬',
+  canada: '🇨🇦',
+  ireland: '🇮🇪',
+  newzealand: '🇳🇿',
 };
 
 // ─── Duration data ───────────────────────────────────────────────

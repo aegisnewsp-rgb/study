@@ -141,8 +141,8 @@ Each of those questions takes five seconds. Total time to resolve a two-option s
 - **"Elimination is what you do when you do not know the answer."** Elimination is the technique on every question, including the ones where you think you know the answer. Selection is the slower path even when it is possible.
 - **"If three options look wrong, the fourth is right by default."** Sometimes the passage is ambiguous and you have marked all four out. In that case, the right move is to commit to your best option and use the 95-minute review window to come back to it. Do not leave the question blank.
 - **"The diagnostic words are the only thing to check."** The diagnostic word pair (often ↔ always, more than ↔ the most) is a fast filter, but the underlying check is the move the option makes: does it say more, swap a direction, swap a comparison, or import? Run the move check first; use the word pair as a confirmation.
-- **"If I can defend an option against the passage, it must be right."** You can usually defend two options. The question is which one survives the named failure modes, not which one you can argue for.
-- **"Imported facts are obvious."** They are not. The import trap usually presents an option that is true in the world — e.g. that the European Court of Human Rights exists — and uses that truth to make the option look defensible. The test is not whether the option is true; it is whether the passage supplied it.
+- **"If I can defend an option against the passage, it must be right."** You can defend two options. The question is which one survives the named failure modes, not which one you can argue for.
+- **"Imported facts are obvious."** They are not. The import trap presents an option that is true in the world — e.g. that the European Court of Human Rights exists — and uses that truth to make the option look defensible. The test is not whether the option is true; it is whether the passage supplied it.
 
 #### Practice routine that builds elimination
 

@@ -8,157 +8,112 @@ topicName: "हिंदी व्याकरण: वर्ण और ध्व
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-24"
 ---
 
 # हिंदी व्याकरण: वर्ण और ध्वनि (Hindi Grammar: Letters and Sounds)
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your UPPSC RO/ARO exam.
+> The single fact that decides your score on this topic in the UPPSC RO/ARO Hindi paper.
 
-**हिंदी व्याकरण: वर्ण और ध्वनि** — Quick Facts for UPPSC RO/ARO
+The Devanagari script holds **44 मूल वर्ण** — 11 स्वर (vowels) plus 33 व्यंजन (consonants) — plus four चिह्न: अनुस्वार (ं), विसर्ग (ः), चंद्रबिंदु (ँ), हलंत (्). वर्ण (varṇa) is the written symbol; ध्वनि (dhvani) is the sound you actually speak. UPPSC asks 1–3 questions on this unit, almost always inside the Sandhi / Vyakaran objective cluster.
 
-**वर्ण (Letters):** हिंदी में कुल 52 अक्षर होते हैं — 11 स्वर (vowels) और 41 व्यंजन (consonants)। UPPSC RO/ARO परीक्षा में इनकी पहचान, मात्राएं (matras), और वर्णमाला (varnamala) का क्रम पूछा जाता है।
+| वर्ग | गिनती | सूची |
+|---|---|---|
+| स्वर | 11 | अ आ इ ई उ ऊ ऋ ए ऐ ओ औ |
+| व्यंजन (स्पर्श + अंतस्थ + ऊष्म) | 33 | क ख ग घ ङ, च छ ज झ ञ, ट ठ ड ढ ण, त थ द ध न, प फ ब भ म, य र ल व, श ष स ह |
+| चिह्न | 4 | अनुस्वार (ं), विसर्ग (ः), चंद्रबिंदु (ँ), हलंत (्) |
 
-**ध्वनि (Sounds):** हिंदी की ध्वनियां — सवर (vowels) और व्यंजन (consonants)। प्रत्येक अक्षर की मूल ध्वनि (prakratik dhwani) और उच्चारण स्थान (uchcharan sthan) परीक्षा में बार-बार आते हैं।
-
-**संधि (Sandhi):** तीन प्रकार — स्वर संधि (sveer sandhi), व्यंजन संधि (tan sandhi), और विसर्ग संधि (dirgh sandhi)। UPPSC में संधि-विच्छेद और संधि-निर्माण दोनों पूछे जाते हैं। इलेक्ट्रॉनिक्स, ऑक्सीजन = इलेक्ट्रॉनिक+ईश = इलेक्ट्रॉनीश जैसे उदाहरण याद रखें।
-
-⚡ **Exam tip:** UPPSC RO/ARO हिंदी में अक्सर "अनुच्छेद" (passage) पर आधारित प्रश्न आते हैं जिनमें संधि-विच्छेद, समास-विग्रह, और अलंकार पहचानना होता है। पिछले वर्षों के प्रश्नपत्रों में से 3-5 अंक इस विषय से आते हैं।
-
----
+> 💡 **High-Yield Memory Hook:** *"काग-चट-टप-तप-पम — यल-व — श-स-ह"* — read it aloud to lock the seven व्यंजन वर्ग in writing order: कंठ्य, तालव्य, मूर्धन्य, दंत्य, ओष्ठ्य, अंतस्थ (य/र/ल/व), ऊष्म. Memory Hook anchor: a **कौआ (crow)** sitting on a **चटाई (mat)**, which is on a **तसली (plate)**, on a **तकली (spindle)**, on a **पम्मी (cot)** — silly picture, permanent recall.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for UPPSC RO/ARO students with a few days to months.
+> Where the marks actually hide: the rules examiners twist into traps.
 
-## वर्ण और ध्वनि — UPPSC RO/ARO Study Guide
+#### स्वर बनाम व्यंजन — आधारभूत अंतर
 
-### 1. स्वर (Vowels) — 11 अक्षर
+A स्वर carries an open vocal-tract resonance and can be spoken alone (अ, आ, इ…). A व्यंजन needs a स्वर carrier — written as the bare consonant plus an inherent 'अ', which the हलंत (्) cancels. This is why **क्** reads as a dead consonant, while **क** carries the sound "ka".
 
-| प्रकार | अक्षर | उदाहरण |
+| पहलू | स्वर | व्यंजन |
 |---|---|---|
-| स्वतंत्र (Independent) | अ, आ | अक्षर, आम |
-| ह्रस्व (Short) | इ, ई, उ, ऊ, ऋ | इमली, ईख, उपकरण, ऊन, ऋतु |
-| दीर्घ (Long) | ए, ऐ, ओ, औ | एक, ऐनक, ओखली, औजार |
-| संयुक्त (Diphthong) | अं (anusvara), अः (visarga) | अंतर, अः — |
+| स्वतंत्र उच्चारण | संभव | असंभव (स्वर के बिना) |
+| लिखित रूप में मात्रा | मात्रा-चिह्न (ा, ि, ी, ु, ू, े, ै, ो, ौ) | मूलाक्षर + हलंत (्) |
+| मूल गिनती | 11 | 33 |
+| उदाहरण | अ → आ, इ → ई | क → क् |
 
-**मात्राएं (Matras):** स्वरों की मात्राएं — ि, ी, ु, ू, ृ, े, ै, ो, ौ, अं, अः — ये व्यंजनों के साथ जुड़कर उनकी ध्वनि बदलती हैं। जैसे: क + ि = कि, क + ी = की, क + ु = कु।
+#### उच्चारण स्थान के अनुसार व्यंजन वर्गीकरण
 
-⚡ **Exam tip:** "कवि" और "कवि" में अंतर समझें — पहले में मात्रा "इ" है, दूसरे में "ई"। UPPSC में ऐसे प्रश्न सीधे पूछे जाते हैं।
+Hindi phonetics splits the 25 स्पर्श व्यंजन + 4 अंतस्थ + 4 ऊष्म by *where* the tongue/lips engage the airflow. Five स्पर्श वर्ग × five वर्ण each = 25 स्पर्श letters.
 
-### 2. व्यंजन (Consonants) — 41 अक्षर
-
-व्यंजनों को उच्चारण स्थान (स्थान) और ध्वनि (प्रकार) के आधार पर बांटा गया है:
-
-**वर्गीकरण (Classification by articulation):**
-
-| स्थान | व्यंजन | संख्या |
+| वर्ग | वर्ण | उच्चारण स्थान |
 |---|---|---|
-| कंठ्य (Guttural) | क, ख, ग, घ, ङ | 5 |
-| तालव्य (Palatal) | च, छ, ज, झ, ञ | 5 |
-| मूर्धन्य (Cerebral) | ट, ठ, ड, ढ, ण | 5 |
-| दंत्य (Dental) | त, थ, द, ध, न | 5 |
-| ओष्ठ्य (Labial) | प, फ, ब, भ, म | 5 |
-| अंतःस्थ (Semi-vowels) | य, र, ल, व | 4 |
-| उष्म (Sibilants) | श, ष, स | 3 |
-| ह (Glottal) | ह | 1 |
-| संयुक्ताक्षर (Compound) | क्ष, त्र, ज्ञ, श्र | 4 |
+| कंठ्य | क ख ग घ ङ | कंठ (throat) |
+| तालव्य | च छ ज झ ञ | तालु (palate) |
+| मूर्धन्य | ट ठ ड ढ ण | मूर्धा (retroflex) |
+| दंत्य | त थ द ध न | दंत (teeth-ridge) |
+| ओष्ठ्य | प फ ब भ म | ओष्ठ (lips) |
+| अंतस्थ | य र ल व | सेमी-वोवेल |
+| ऊष्म | श ष स ह | घर्षण मिश्रित |
 
-### 3. संधि (Sandhi) — तीन प्रकार
+#### अनुस्वार, विसर्ग, चंद्रबिंदु — तीन अलग-अलग चिह्न
 
-**स्वर संधि (स्वरांत स्वर) — Sveer Sandhi:**
-जब दो स्वरों के बीच आए तो मिलकर एक नई ध्वनि बनती है:
+Students lose marks because they treat these three as interchangeable nasal markers. They are not.
 
-| नियम | उदाहरण | विच्छेद |
-|---|---|---|
-| अ + आ = आ | देव + आलय = देवालय | देव + आलय |
-| इ + अ = य | मुनि + अindra = मुनिनдра | मुनि + इंद्र |
-| ई + अ = ई | धारी + आव = धारीव | धारी + ईश + व |
-| उ + अ = व | गिरि + अgiri = गिरिगिरि | गिरि + ईश + व |
-| ए + अ = ए | रमा + अंबा = रमांबा | रमा + अंबा |
-| ओ + अ = ओ | देव + ओक = देवोक | देव + ओक |
+- **अनुस्वार (ं)** — पूर्ववर्ती व्यंजन का nasalisation, e.g. अंक = अ + ं + क.
+- **चंद्रबिंदु (ँ)** — bindu (dot above) marks a nasal half-sound, e.g. हँसी = ह् + अँ + स् + ई.
+- **विसर्ग (ः)** — 'अः' का संधिकृत रूप; विसर्ग के बाद श/स हो तो 'श्' में बदल जाता है (दुःख → दुश्ख, निःशब्द → निश्शब्द).
 
-**व्यंजन संधि (तन संधि) — Tan Sandhi:**
-जब व्यंजन के बाद स्वर या व्यंजन आए:
+#### वर्ण-विच्छेद की विधि
 
-- क + अ = का (adds अा)
-- ख + इ = खि (adds इ)
-- ग + ई = गी (adds ी)
-- त + र = त्र (त + र = त्र)
-- द + ध = द्ध (द + ध = द्ध)
+Strip every स्वर मात्रा, replace each with the carrier 'अ' written separately, and add हलंत to every व्यंजन that loses its 'अ'. Worked example: **पढ़ाई** → प् + अ + ढ़ + आ + ई. **आँख** → आ + अँ + ख्. **फल** → फ् + अ + ल्.
 
-**विसर्ग संधि (दीर्घ संधि) — Dirgh Sandhi:**
-विसर्ग (ः) के बाद:
+#### Worked Resolution in Exam Style
 
-- अः + स्वर/व्यंजन → अ + उस ध्वनि में बदलता है
-- जैसे: पुनः + आना = पुनरावना (अः + अ = आ)
+Statement: *"र एक दंत्य वर्ण है।"* — True or False? Mark: **False**.
 
-### 4. UPPSC RO/ARO में आने वाले सामान्य प्रश्न-पैटर्न
+Step 1 — Recall the दंत्य row: only त, थ, द, ध, न are दंत्य, because the tongue strikes the teeth-ridge.
+Step 2 — Locate र in the वर्णमाला sequence: य, र, ल, व — these four form the अंतस्थ group, not दंत्य.
+Step 3 — Conclusion: the statement is false. र is अंतस्थ/ऊष्म-संघर्षी, never दंत्य.
 
-- "निम्नलिखित में से कौन-सा युग्म सही है?" — संधि-विच्छेद मिलान
-- "इलेक्ट्रॉनिक्स शब्द में कितनी मात्राएं हैं?"
-- "अनुच्छेद में से संधि-विच्छेद करें" — Passage-based sandhi splitting
-- "व्यंजनों का सही क्रम क्या है?" — वर्णमाला क्रम
-- "निम्न में से कौन-सा अक्षर कंठ्य है?" — उच्चारण स्थान पहचान
-
----
+> ⚠️ **Examiner Trap:** UPPSC frame this as a one-line assertion in the Vyakaran objective block. Students who memorise "र = दंत्य" from rote lists lose the mark. The correct grouping puts र with य, ल, व — write it as "य-र-ल-व = अंतस्थ" in your margin.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for UPPSC RO/ARO students on a longer study timeline.
+> Pull this unit apart until nothing surprises you in the hall.
 
-## गहन अध्ययन: हिंदी वर्ण और ध्वनि
+#### उच्चारण प्रयत्न (Manner) — the second axis
 
-### उच्चारण स्थान (Places of Articulation) — विस्तृत
+Place of articulation is only one axis. प्रयत्न (manner of articulation) splits व्यंजन further, and exam questions sometimes ask the *pair*: *"किस वर्ग का कौन-सा वर्ण?"*
 
-हिंदी व्यंजनों की उच्चारण स्थान परीक्षा में बार-बार पूछी जाती हैं। प्रत्येक स्थान को ध्यान से पढ़ें:
-
-**कंठ्य (Guttural):** जीभ का मूल हिंदुस्तानी (गले) के पास उठना → क, ख, ग, घ, ङ
-**तालव्य (Palatal):** जीभ का अग्रभाग तालु (छत) को छूना → च, छ, ज, झ, ञ
-**मूर्धन्य (Cerebral/Retroflex):** जीभ का अग्रभाग मूर्धा (खोपड़ी) की ओर मुड़ना → ट, ठ, ड, ढ, ण
-**दंत्य (Dental):** जीभ का अग्रभाग ऊपरी दांतों से स्पर्श → त, थ, द, ध, न
-**ओष्ठ्य (Labial):** दोनों होंठों से उच्चारण → प, फ, ब, भ, म
-
-### अंतःस्थ और उष्म व्यंजन
-
-**अंतःस्थ ध्वनियां (Semi-vowels):** य, र, ल, व — ये व्यंजनों से मिलती हैं पर स्वरों जैसी ध्वनि देती हैं।
-**उष्म ध्वनियां (Sibilants):** श, ष, स — "श" तालव्य है, "ष" मूर्धन्य है, "स" दंत्य है। यह अंतर UPPSC में प्रश्न में आता है।
-
-⚡ **Exam tip:** "शिक्षा" शब्द में — शि + ष्षा = शिक्षा — "श" तालव्य और "ष" मूर्धन्य है। यह विभाजन याद रखें।
-
-### संधि के उदाहरण — परीक्षा के लिए महत्वपूर्ण
-
-**स्वर संधि के अपवाद जो UPPSC में अक्सर आते हैं:**
-
-| शब्द | विच्छेद | नियम |
+| प्रयत्न | विशेषता | उदाहरण |
 |---|---|---|
-| पंच = पाँच | पंच + आन | अं = आं (संयुक्ताक्षर) |
-| रामायण = राम की कथा | राम + आयण | अ + आय = आय |
-| भारत = भ + आरत | भ + आ + रत | भ + आ = भा |
+| स्पर्श (घोष) | स्वर-तंत्रियाँ कंपित, पूर्ण स्पर्श | ग, ज, ड, द, ब |
+| स्पर्श (अघोष) | स्वर-तंत्रियाँ स्तब्ध, पूर्ण स्पर्श | क, च, ट, त, प |
+| संघर्षी | वायु घर्षण से निकले | श, ष, स, ह |
+| अनुनासिक | नासिक्य मार्ग खुला | ङ, ञ, ण, न, म |
+| प्रकंपित | जीभ कँपे | र |
 
-### Sandhi Practice — UPPSC Previous Year Pattern
+#### Edge cases examiners exploit
 
-UPPSC RO/ARO 2022 और 2023 के प्रश्नपत्रों में:
+1. **ड़ और ढ़** are full retroflex letters (मूर्धन्य स्पर्श + प्रकंपित), distinct from ड and ढ. Always retain the nukta dot when writing.
+2. **क़, ख़, ग़, ज़, फ़** are ड़-युक्त Urdu/Persian loan letters used in शब्द-कोश — do not collapse them to क, ख, ग, ज, फ.
+3. **ऋ** is a स्वर, the eleventh one — never count it as व्यंजन even though its shape looks consonant-like.
+4. **हलंत का प्रयोग** is mandatory at line-end or in संयुक्ताक्षर to silence the inherent 'अ': दुकान = दु + क् + आ + न.
 
-- "निम्नलिखित में से 'अंतर' शब्द की संधि है" — अं + तर = अंतर
-- "संधि-विच्छेद: पंचायत" — पंच + आयत = पाँच + आयत (अं = आं)
-- "व्यक्ति" में कौन-सी संधि है? — व्य + क्ति (व्यंजन संधि)
+#### Adjacent-topic links
 
-### Common Pitfalls to Avoid in UPPSC Hindi
+- वर्ण-विच्छेद feeds directly into **सन्धि विच्छेद** — knowing 'इ' + 'इ' = 'ई' under यण् सन्धि is impossible unless you first isolated the two vowels.
+- उच्चारण स्थान is reused in **उपसर्ग / प्रत्यय** questions where students must identify whether a cluster is दंत्य or मूर्धन्य to avoid spelling traps.
+- अनुस्वार vs चंद्रबिंदु vs विसर्ग surfaces again under **वर्तनी सुधार (spelling correction)** in the UPPSC RO/ARO mains descriptive paper.
 
-1. **अं और आं का भ्रम:** "संस्कृत" में अं = अनुआचारित, "सांस्कृतिक" में आं = दीर्घ। दोनों अलग हैं।
-2. **ष और श का भ्रम:** "शशि" में दोनों अलग — श (तालव्य) + शि (तालव्य)। "पृथ्वी" में ष नहीं है, प + ऋ + थ्वी = पृथ्वी।
-3. **मात्रा और अक्षर का भ्रम:** ि और ी — जैसे "बुद्धि" में ी मात्रा, "बुध" में कोई मात्रा नहीं।
-4. **संधि-निर्माण में त्रुटि:** विद्या + आलय = विद्यालय (इ + आ = या) — न कि "विद्या+आलय"।
+#### Advanced practice prompts
 
-### Study Order for This Topic
+1. नीचे दिए गए शब्दों का सही वर्ण-विच्छेद लिखिए — *संगीत, कक्षा, अध्ययन, निश्शब्द, विद्यार्थी*.
+2. *"अनुस्वार और चंद्रबिंदु एक ही ध्वनि के चिह्न हैं।"* — इस कथन की सत्य/असत्य जाँच कीजिए और उदाहरण सहित कारण दीजिए.
 
-1. पहचानें: स्वर vs व्यंजन, मात्राओं की पहचान
-2. याद करें: सभी 52 अक्षरों का क्रम (वर्णमाला)
-3. समझें: 5 उच्चारण स्थानों की ध्वनियां
-4. अभ्यास करें: संधि-विच्छेद — 20 उदाहरण रोज़ाना
-5. अभ्यास करें: संधि-निर्माण — पिछले वर्षों के प्रश्नों से
-6. परीक्षा-स्थिति: तय समय में passage-based संधि प्रश्न हल करें
+## Continue your study
 
----
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "हिंदी व्याकरण: वर्ण और ध्वनि (Hindi Grammar: Letters and Sounds)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

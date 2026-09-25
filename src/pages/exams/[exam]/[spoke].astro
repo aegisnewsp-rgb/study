@@ -70,8 +70,14 @@ const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string)
 const meta = SPOKE_META[spoke] || SPOKE_META.strategy;
 const BRAND_SUFFIX = ' | StudyRoadmap';
 const _tFull = `${meta.title(examName)}${BRAND_SUFFIX}`;
+// Keyword beats brand: at a sub-1% CTR a differentiating phrase ("Age, Qualification,
+// Attempts") earns more clicks than the brand does, so try the keyword-led title WITHOUT
+// the brand before falling back to the brand-only form. Mirrors the hub policy in
+// src/pages/exams/[exam].astro (EXAM_TITLE_OVERRIDES).
+const _tNoBrand = meta.title(examName);
 const _spokeName = spoke.charAt(0).toUpperCase() + spoke.slice(1);
 const title = _tFull.length <= 60 ? _tFull
+  : _tNoBrand.length <= 60 ? _tNoBrand
   : `${examName} ${year} ${_spokeName}${BRAND_SUFFIX}`.length <= 60 ? `${examName} ${year} ${_spokeName}${BRAND_SUFFIX}`
   : `${examName} ${_spokeName}${BRAND_SUFFIX}`.length <= 60 ? `${examName} ${_spokeName}${BRAND_SUFFIX}`
   : `${examName.slice(0, 30)} ${_spokeName}${BRAND_SUFFIX}`.slice(0, 60);

@@ -3,7 +3,7 @@ exam: ucat
 examName: "UCAT (University Clinical Aptitude Test)"
 subject: ucat-verbal-reasoning
 subjectName: "Verbal Reasoning"
-topic: verbal-reasoning
+topic: ucat-vr-003
 topicName: "Time Management and Pacing"
 weight: 5
 country: uk

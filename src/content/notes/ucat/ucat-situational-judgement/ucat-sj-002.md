@@ -3,7 +3,7 @@ exam: ucat
 examName: "UCAT (University Clinical Aptitude Test)"
 subject: ucat-situational-judgement
 subjectName: "Situational Judgement"
-topic: situational-judgement
+topic: ucat-sj-002
 topicName: "Pacing the 69 Scenarios"
 weight: 3
 country: uk

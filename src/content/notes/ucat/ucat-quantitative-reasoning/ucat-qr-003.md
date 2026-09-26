@@ -3,7 +3,7 @@ exam: ucat
 examName: "UCAT (University Clinical Aptitude Test)"
 subject: ucat-quantitative-reasoning
 subjectName: "Quantitative Reasoning"
-topic: quantitative-reasoning
+topic: ucat-qr-003
 topicName: "Calculator versus Mental Arithmetic"
 weight: 4
 country: uk

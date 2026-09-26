@@ -3,7 +3,7 @@ exam: ucat
 examName: "UCAT (University Clinical Aptitude Test)"
 subject: ucat-verbal-reasoning
 subjectName: "Verbal Reasoning"
-topic: verbal-reasoning
+topic: ucat-vr-002
 topicName: "Inference and Assumption"
 weight: 5
 country: uk

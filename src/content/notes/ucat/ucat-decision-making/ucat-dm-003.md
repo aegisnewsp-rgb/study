@@ -3,7 +3,7 @@ exam: ucat
 examName: "UCAT (University Clinical Aptitude Test)"
 subject: ucat-decision-making
 subjectName: "Decision Making"
-topic: decision-making
+topic: ucat-dm-003
 topicName: "Assumptions and Flaws"
 weight: 4
 country: uk

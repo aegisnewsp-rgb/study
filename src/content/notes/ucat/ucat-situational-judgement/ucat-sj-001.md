@@ -3,7 +3,7 @@ exam: ucat
 examName: "UCAT (University Clinical Aptitude Test)"
 subject: ucat-situational-judgement
 subjectName: "Situational Judgement"
-topic: situational-judgement
+topic: ucat-sj-001
 topicName: "Appropriateness and Importance"
 weight: 3
 country: uk

@@ -37,7 +37,7 @@ Eleven passages at 1:55 each is 21:05, which leaves a buffer of about a minute f
 
 ## The two-pass method
 
-Most Verbal Reasoning candidates try to answer each statement in order, on the first read. That looks efficient but usually costs time, because you re-read the passage for almost every statement.
+Most Verbal Reasoning candidates try to answer each statement in order, on the first read. That looks efficient but costs time, because you re-read the passage for almost every statement.
 
 The two-pass method is faster:
 
@@ -54,7 +54,7 @@ That said, there are moments when skipping is the right call in the moment, prov
 
 - **Skip-on-stuck.** If you have spent 40 seconds on a statement and the answer is not clear, mark your best guess, flag the item, and move on. You will not solve it by staring; you will solve it by coming back fresh after the rest of the passage.
 - **Skip-on-keyword-miss.** If you cannot find the keyword in the passage at all within about 10 seconds, the answer is almost always Cannot Tell. Pick it and move on.
-- **Skip-on-passage.** If the passage is unusually long or unusually technical, allow yourself 30 seconds of extra reading and 5 fewer seconds per statement. The trade-off is usually worth it.
+- **Skip-on-passage.** If the passage is unusually long or unusually technical, allow yourself 30 seconds of extra reading and 5 fewer seconds per statement. The trade-off is worth it.
 
 The mistake is skipping without coming back. In the UCAT's on-screen interface, flagged items are easy to revisit; use that feature.
 
@@ -72,7 +72,7 @@ The pattern that wins: spend a little less on each successive passage so that th
 
 ## Common pacing traps
 
-- **Reading the whole passage twice.** Once is enough. Reading it twice usually signals you did not read for shape the first time.
+- **Reading the whole passage twice.** Once is enough. Reading it twice signals you did not read for shape the first time.
 - **Re-reading the statement to "make it fit".** Statements are short. If the statement does not match the passage on a re-read, it was already wrong. Move on.
 - **Equal time per statement.** Some statements take 5 seconds (Cannot Tell on a passage-silent claim). Some take 30 seconds (a direction or strength check). Allow the time per statement to vary.
 - **Panic-skipping the last passage.** When the clock hits 2 minutes and you have a passage left, do not skip the passage. Read it in 30 seconds flat, answer the four statements in 60 seconds, and pick the best answer for the rest.

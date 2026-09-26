@@ -13,7 +13,7 @@ lastUpdated: "2026-09-25"
 
 # Reading Comprehension — DU Unit B Admission (Science)
 
-Reading Comprehension is the highest-weight English item on the DU Unit B paper and the one where the difference between a top ranker and a mid-pack candidate usually shows up. Unlike Grammar or Vocabulary, where you can grind rules and lists, RC rewards a small set of habits that you either pick up from timed practice or don't pick up at all. The chapter is drawn from the kind of unseen passages used across Bangladeshi science admission tests: editorials from *The Daily Star* and *Prothom Alo*, science writing from *New Scientist* and *Scientific American*, and adapted literary prose. Three MCQ patterns dominate the DU Unit B style: (1) factual / explicit — the answer is in a single sentence and you just have to find it, (2) inferential — you must read between the lines, usually signalled by "it can be inferred" or "the author implies", and (3) vocabulary-in-context — pick the option whose meaning matches the way the word is used in the passage. RC also feeds forward into Cloze Test and Sentence Rearrangement, which reuse the same passage-reading habits.
+Reading Comprehension is the highest-weight English item on the DU Unit B paper and the one where the difference between a top ranker and a mid-pack candidate shows up. Unlike Grammar or Vocabulary, where you can grind rules and lists, RC rewards a small set of habits that you either pick up from timed practice or don't pick up at all. The chapter is drawn from the kind of unseen passages used across Bangladeshi science admission tests: editorials from *The Daily Star* and *Prothom Alo*, science writing from *New Scientist* and *Scientific American*, and adapted literary prose. Three MCQ patterns dominate the DU Unit B style: (1) factual / explicit — the answer is in a single sentence and you just have to find it, (2) inferential — you must read between the lines, signalled by "it can be inferred" or "the author implies", and (3) vocabulary-in-context — pick the option whose meaning matches the way the word is used in the passage. RC also feeds forward into Cloze Test and Sentence Rearrangement, which reuse the same passage-reading habits.
 
 > Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/ before planning around the figures below.
 
@@ -36,9 +36,9 @@ Reading Comprehension is the highest-weight English item on the DU Unit B paper 
 
 **Skim strategy (90 seconds for a 300-word passage).**
 - Read the first sentence (topic sentence).
-- Read the last sentence (often the conclusion or main claim).
+- Read the last sentence (the conclusion or main claim).
 - Skim the first sentence of each paragraph for structure.
-- Note any bold names, dates, or numbers — these often anchor factual questions.
+- Note any bold names, dates, or numbers — these anchor factual questions.
 
 **Scanning strategy (when answering a factual question).**
 - Look for the keyword in the question.
@@ -77,7 +77,7 @@ Most Bangladesh admission RC passages run 250–400 words across 4–6 paragraph
 
 #### Factual questions
 
-The question stem usually contains a paraphrase of a passage sentence. Your job is to find the matching sentence and confirm the paraphrase preserves meaning.
+The question stem contains a paraphrase of a passage sentence. Your job is to find the matching sentence and confirm the paraphrase preserves meaning.
 
 **Trap patterns in factual questions:**
 - **Half-true options.** The first half of the option matches the passage, the second half adds a false claim. Read to the period.
@@ -85,7 +85,7 @@ The question stem usually contains a paraphrase of a passage sentence. Your job 
 - **Wrong scope.** The passage says "in the last decade"; the option says "in the 1990s". Date or number swaps.
 - **Wrong referent.** The passage says "the researchers"; the option says "the government". Pronoun or noun swaps.
 
-Example stem: *"According to the passage, what is the primary cause of the decline in vulture populations in South Asia?"* Find the paragraph that mentions vulture decline. The cause is usually stated in the same sentence. Match the question's paraphrase against the original sentence and tick the closest option.
+Example stem: *"According to the passage, what is the primary cause of the decline in vulture populations in South Asia?"* Find the paragraph that mentions vulture decline. The cause is stated in the same sentence. Match the question's paraphrase against the original sentence and tick the closest option.
 
 #### Inferential questions
 
@@ -95,7 +95,7 @@ Inferential questions ask you to conclude something the passage hints at but doe
 - "suggests", "implies", "hints at", "most likely", "can be inferred".
 
 **Trap patterns:**
-- **Too strong.** The passage says "may be"; the option says "is". Watch for "always / never / must" in options — these are usually wrong unless the passage explicitly says so.
+- **Too strong.** The passage says "may be"; the option says "is". Watch for "always / never / must" in options — these are wrong unless the passage explicitly says so.
 - **Too weak.** The passage says "is the leading cause"; the option says "is a contributing factor". Watch for downgrading to "might" or "could".
 - **Off-topic.** The inference draws on a different part of the passage than the question intends. Re-read the question's reference (paragraph, line).
 
@@ -113,7 +113,7 @@ The question gives you a word as used in the passage and four options. The right
 
 #### Main idea and tone
 
-**Main idea** is usually stated or implied in the first or last paragraph. The right answer captures the passage's *central* claim, not a peripheral detail.
+**Main idea** is stated or implied in the first or last paragraph. The right answer captures the passage's *central* claim, not a peripheral detail.
 
 **Trap:** an option that summarises one paragraph but not the whole passage. The main idea covers everything, not just one section.
 
@@ -166,7 +166,7 @@ The question gives you a word as used in the passage and four options. The right
 
 The DU paper occasionally uses adapted literary prose (Chekhov, Tagore, Saki, often translated). Tone is harder to read in these because the language is more figurative. Look for:
 - **First-person reflections** — the narrator's emotion is in adjectives ("the cold, indifferent sky"), not in stated feelings.
-- **Imagery patterns** — repeated water imagery usually signals a theme of cleansing, time, or change; repeated industrial imagery signals modernity and alienation.
+- **Imagery patterns** — repeated water imagery signals a theme of cleansing, time, or change; repeated industrial imagery signals modernity and alienation.
 - **Sentence rhythm** — long, flowing sentences with many subordinate clauses suggest a contemplative or melancholic tone. Short, blunt sentences suggest tension or decisiveness.
 
 For a passage about an old man returning to his ancestral village, the tone might be **nostalgic** even if the word "nostalgic" never appears. The right tone option captures that, even though the passage uses more specific words like "remembered", "familiar", "missed".
@@ -191,7 +191,7 @@ Worked test. Passage: "The new vaccine showed 80% efficacy in trials." Inference
 #### Adapting to unfamiliar vocabulary
 
 In passages drawn from science writing, you will meet unfamiliar technical terms. Do not panic. Three strategies:
-1. **Look at the surrounding sentences.** Technical terms are usually defined or illustrated in the same paragraph ("metabolism, the sum of all chemical reactions in a cell").
+1. **Look at the surrounding sentences.** Technical terms are defined or illustrated in the same paragraph ("metabolism, the sum of all chemical reactions in a cell").
 2. **Use Greek/Latin roots.** "Endotherm" = inside + heat (warm-blooded). "Photosynthesis" = light + putting together.
 3. **Substitute a placeholder.** Replace the unknown word with "X" and see if the sentence still makes grammatical sense. If it does, the word's specific meaning is less important for the surrounding logic.
 

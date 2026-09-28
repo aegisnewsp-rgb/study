@@ -55,7 +55,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Registration for January-September 2027 MCAT exam dates opens by testing-center location.',
     source_url: 'https://www.aamc.org/',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Registration for 2027 MCAT® exam dates will open Oct. 20-22, by testing center location',
   },
@@ -68,7 +68,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Registration deadline for the November 2026 LSAT administration.',
     source_url: 'https://www.lsac.org/',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Registration for the November 2026 LSAT ends October 1, 2026',
   },
@@ -81,7 +81,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Aug. 22, 2026',
   },
@@ -94,7 +94,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Registration deadline for Aug. 22, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Aug. 7, 2026',
   },
@@ -107,7 +107,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for Aug. 22, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Aug. 11, 2026',
   },
@@ -120,7 +120,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Sept. 12, 2026',
   },
@@ -133,7 +133,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Registration deadline for Sept. 12, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Aug. 28, 2026',
   },
@@ -146,7 +146,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for Sept. 12, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Sept. 1, 2026',
   },
@@ -159,7 +159,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Oct. 3, 2026',
   },
@@ -172,7 +172,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Registration deadline for Oct. 3, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Sept. 18, 2026',
   },
@@ -185,7 +185,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for Oct. 3, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Sept. 22, 2026',
   },
@@ -198,7 +198,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Nov. 7, 2026',
   },
@@ -211,7 +211,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Registration deadline for Nov. 7, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Oct. 23, 2026',
   },
@@ -224,7 +224,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for Nov. 7, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Oct. 27, 2026',
   },
@@ -237,7 +237,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend administration.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Dec. 5, 2026',
   },
@@ -250,7 +250,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Registration deadline for Dec. 5, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Nov. 20, 2026',
   },
@@ -263,7 +263,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for Dec. 5, 2026 SAT.',
     source_url: 'https://satsuite.collegeboard.org/sat/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Nov. 24, 2026',
   },
@@ -276,7 +276,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend test date',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'March 6, 2027',
   },
@@ -289,7 +289,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend registration deadline',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Feb. 19, 2027',
   },
@@ -302,7 +302,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for March 2027 SAT',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Feb. 23, 2027',
   },
@@ -315,7 +315,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend test date',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'May 1, 2027',
   },
@@ -328,7 +328,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend registration deadline',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'Apr. 16, 2027',
   },
@@ -341,7 +341,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for May 2027 SAT',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'April 20, 2027',
   },
@@ -354,7 +354,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend test date',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'June 5, 2027',
   },
@@ -367,7 +367,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'SAT Weekend registration deadline',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'May 21, 2027',
   },
@@ -380,7 +380,7 @@ export const EXAM_DATES_ROWS: readonly ExamDateRow[] = [
     description:
       'Late registration deadline for June 2027 SAT',
     source_url: 'https://satsuite.collegeboard.org/sat/registration/dates-deadlines',
-    last_verified: '2026-09-23T18:40:12Z',
+    last_verified: '2026-09-28T18:40:28Z',
     verified_quote:
       'May 25, 2027',
   },

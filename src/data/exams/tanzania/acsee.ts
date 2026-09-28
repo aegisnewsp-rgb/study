@@ -3,11 +3,15 @@ import type { ExamTemplate, Subject } from '../types';
 import { physics } from './subjects/physics';
 import { chemistry } from './subjects/chemistry';
 import { biology } from './subjects/biology';
+import { gk } from './subjects/gk';
+import { mathematics } from './subjects/mathematics';
 
 const subjects: Subject[] = [
     physics,
     chemistry,
     biology,
+    gk,
+    mathematics,
 ];
 
 import { makeRoadmap } from '../_lib/roadmap';

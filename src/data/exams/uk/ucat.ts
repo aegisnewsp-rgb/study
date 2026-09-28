@@ -1,9 +1,15 @@
 import type { ExamTemplate, Subject } from '../types';
 
-import { ucat } from './subjects/ucat';
+import { ucatVerbalReasoning } from './subjects/ucat-verbal-reasoning';
+import { ucatDecisionMaking } from './subjects/ucat-decision-making';
+import { ucatQuantitativeReasoning } from './subjects/ucat-quantitative-reasoning';
+import { ucatSituationalJudgement } from './subjects/ucat-situational-judgement';
 
 const subjects: Subject[] = [
-  ucat,
+  ucatVerbalReasoning,
+  ucatDecisionMaking,
+  ucatQuantitativeReasoning,
+  ucatSituationalJudgement,
 ];
 
 import { makeRoadmap } from '../_lib/roadmap';

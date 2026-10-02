@@ -1,0 +1,69 @@
+import type { RoadmapTemplate, RescueTemplate, ExamTemplate } from '../types';
+import { verbal } from './subjects/verbal';
+import { quant } from './subjects/quant';
+import { awa } from './subjects/awa';
+
+import { makeRoadmap } from '../_lib/roadmap';
+
+const subjects = [verbal, quant, awa];
+
+const DURATIONS = ['1h','2h','3h','5h','12h','1d','2d','3d','5d','7d','10d','2w','1mo','2mo','3mo','6mo','1yr','2yr'];
+const DUR_MAP: Record<string, {days: number; desc: string}> = {
+  
+  '1h':  { days: 1,   desc: '60-minute exam-eve sprint: only the 4 highest-weight topics, formula-card style.' },
+  '2h':  { days: 1,   desc: 'Two-hour priority pass — 6 top-weight topics, one quick example each, no theory deep-dive.' },
+  '3h':  { days: 1,   desc: 'Three-hour focus block — 9 highest-yield topics, brief concept + 1-2 worked examples per topic.' },
+  '5h':  { days: 1,   desc: 'Five-hour intensive — 12 top-weight topics across all subjects, formula recall + practice questions.' },
+  '12h': { days: 1,   desc: 'Half-day crash — 30% syllabus coverage, weight-sorted, ~20 min/topic across all subjects.' },
+  '1d':  { days: 1,   desc: 'One-day intensive — top 20% of syllabus by weight, ~25 min/topic, single-pass with quick recall.' },
+  '2d':  { days: 2,   desc: 'Two-day rapid revision — 30% coverage, weight-sorted, ~30 min/topic, balanced across subjects.' },
+  '3d':  { days: 3,   desc: 'Three-day plan — 40% syllabus coverage, ~30-40 min/topic, includes brief recap each evening.' },
+  '5d':  { days: 5,   desc: 'Five-day plan — 55% coverage of weighted topics, ~3 hours/day, room for one mock test on day 5.' },
+  '7d':  { days: 7,   desc: 'One-week plan — 70% coverage, ~3-4 hours/day, weight-sorted, two practice sessions over the week.' },
+  '10d': { days: 10,  desc: 'Ten-day plan — 85% coverage, ~3 hours/day, daily revision of prior topic, two mocks.' },
+  '2w':  { days: 14,  desc: 'Two-week plan — full syllabus, ~3 hours/day, last 2 days for full mocks + revision.' },
+  '1mo': { days: 30,  desc: 'One-month plan — full syllabus at ~2-3 topics/day, weekly mocks, last week for revision sprint.' },
+  '2mo': { days: 60,  desc: 'Two-month plan — full syllabus + topic-wise practice, alternate-week mocks, dedicated weak-topic sessions.' },
+  '3mo': { days: 90,  desc: 'Three-month plan — first month learn, second month practice + mocks, third month revision + mock cycles.' },
+  '6mo': { days: 180, desc: 'Six-month plan — foundation phase (10 weeks) + advanced phase (10 weeks) + revision phase (6 weeks).' },
+  '1yr': { days: 365, desc: 'One-year plan — full syllabus twice (concept pass + advanced pass), monthly mocks, ~2 hours/day baseline.' },
+  '2yr': { days: 730, desc: 'Two-year plan — Year 1 foundation + concept depth, Year 2 advanced + mocks + final revision; ~2 hours/day.' },
+};
+const durations: Record<string, RoadmapTemplate> = {};
+for (const d of DURATIONS) { durations[d] = makeRoadmap(subjects, d, DUR_MAP[d].days, DUR_MAP[d].desc); }
+
+const rescueMode: RescueTemplate = {
+  name: 'Last Minute Rescue',
+  description: 'High-impact 48-hour sprint on the highest-yield Verbal and Quant topics most likely to boost your score.',
+  duration: '2d',
+  focusAreas: [
+    { subject: 'Verbal Reasoning', topics: ['Reading Comprehension', 'Text Completion', 'Vocabulary Building', 'Critical Reasoning'] },
+    { subject: 'Quantitative Reasoning', topics: ['Arithmetic', 'Algebra', 'Data Interpretation', 'Word Problems'] },
+    { subject: 'Analytical Writing', topics: ['Issue Essay', 'Argument Essay'] },
+  ],
+  strategy: 'Focus equally on Verbal and Quant — both scored out of 170. Practice one Issue and one Argument essay. Review common algebra and arithmetic shortcuts.',
+};
+
+const exam: ExamTemplate = {
+  examId: 'gre',
+  examName: 'GRE',
+  country: 'india',
+  description: 'The Graduate Record Examination is a standardised test widely required for graduate and business school admissions in the US, Canada, Europe, and other countries. Accepted by thousands of universities worldwide.',
+  examPattern: 'Two scored Verbal sections (27 questions each) and two scored Quant sections (27 questions each), plus one unmarked experimental section. Analytical Writing: 2 essays (Issue and Argument), 30 minutes each. Scores: Verbal and Quant on a 130-170 scale.',
+  eligibility: "No official eligibility criteria. Most Indian and international students with a bachelor's degree take the GRE. Test is computer-delivered year-round at ETS-authorised test centres.",
+  subjects,
+  durations,
+  rescueMode,
+  prepOverview:
+    'GRE preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ets.org/gre for the current cycle — rules change by year and country (exams).',
+  commonMistakes: [
+    'Using outdated GRE pattern or syllabus PDFs instead of the live official notice.',
+    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
+    'Ignoring high-weight sections while over-studying low-yield topics.',
+    'No written error log — repeating the same mistake types across mocks.',
+    'Treating unofficial cut-offs or rank predictors as guarantees.'
+  ],
+  lastUpdated: '2026-07-28',
+  officialSource: 'https://www.ets.org/gre',
+};
+export default exam;

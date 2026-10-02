@@ -179,15 +179,15 @@ const exam: ExamTemplate = {
   examName: 'MDCAT',
   country: 'pakistan',
   description: `MDCAT is Pakistan's mandatory entry test for admission to all public and private medical colleges. Conducted under the statutory regulatory framework of the Pakistan Medical and Dental Council (PMDC), it tests competency in Biology, Chemistry, Physics, English, and Logical Reasoning across provincial admitting universities (UHS, DUHS, KMU, SZABMU, BUMHS).`,
-  examPattern: "200 MCQs, 3.5 hours (210 minutes), 200 marks total: Biology (68 MCQs), Chemistry (54 MCQs), Physics (54 MCQs), English (18 MCQs), and Logical Reasoning (6 MCQs). No negative marking applies (1 mark per correct answer). Minimum qualifying cutoff is 55% (110/200) for MBBS and 50% (100/200) for BDS.",
+  examPattern: "200 MCQs in 3.5 hours, 200 marks, with no negative marking — 1 mark per correct answer. Biology is the heaviest section in every province's paper, followed by Chemistry and Physics, but the exact per-subject question counts and the qualifying cut-off are set by the administering university (UHS, DUHS, KMU, SZABMU, BUMHS) and shift between cycles. Read the split and cut-off off your own university's official notice before you plan revision time around them.",
   eligibility: "FSc (Pre-Medical) or HSSC / A-Level equivalent with minimum 60% aggregate marks in core science subjects (Biology, Chemistry, Physics). Valid PMDC MDCAT score mandatory for open merit and private medical college admission lists.",
   subjects,
   durations,
   rescueMode,
   prepOverview:
-    'MDCAT is Pakistan\'s medical/dental college entry route governed by the PMDC curriculum. Phase 1: master FSc/A-level Biology first (68 MCQs, highest weight), followed by Chemistry and Physics formula fluency. Phase 2: unit-wise timed MCQs with precision pacing (~1 minute per question). Phase 3: full 200-question MDCAT-length mocks weekly. Use StudyRoadmap notes and free roadmaps; verify registration, syllabus and paper rules only on the official notice for your cycle at pmdc.pk.',
+    'MDCAT is Pakistan\'s medical/dental college entry route governed by the PMDC curriculum. Phase 1: master FSc/A-level Biology first (the heaviest section), followed by Chemistry and Physics formula fluency. Phase 2: unit-wise timed MCQs with precision pacing (~1 minute per question). Phase 3: full 200-question MDCAT-length mocks weekly. Use StudyRoadmap notes and free roadmaps; verify registration, syllabus and paper rules only on the official notice for your cycle at pmdc.pk.',
   commonMistakes: [
-    'Under-weighting Biology relative to its 34% share of the paper.',
+    'Under-weighting Biology, which is the heaviest section in every province\'s paper.',
     'Memorising without timed full-length 200-question mocks under 3.5-hour exam fatigue.',
     'Ignoring provincial admitting university differences (UHS, DUHS, KMU) for the live year.',
     'No error log — repeating the same calculation and concept traps in Organic Chemistry and Mechanics.',

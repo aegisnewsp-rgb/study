@@ -113,3 +113,11 @@ Unit 7 is the seventh unit of the Kuwait MOE Grade 12 Over To You second-term sy
 ---
 
 *Last updated 2026-09-20. Source: ELT General Supervision, Kuwait MOE, Grade 12 syllabus 2025-2026 second term, https://eltsupervisionkw.com/wp-content/uploads/2026/01/public-schools-g.-12-b-syllabus-2025-2026-modified.pdf. Track regulation details from Kuwait Now, https://kuwaitnow.net/local/1409/57483/. Any in-year syllabus changes must be re-checked on eltsupervisionkw.com before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Kuwait Secondary Certificate (Thanawiya Amma) roadmap](/roadmap/?exam=kuwait-secondary-certificate&duration=1mo)** — see where "Unit 7 — Long Lives" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuwait-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Kuwait Secondary Certificate (Thanawiya Amma) exam overview](/exams/kuwait-secondary-certificate/)** — pattern, eligibility, and syllabus
+- **[All English (Over To You) notes](/notes/kuwait-secondary-certificate/ksc-english/)** — browse sibling topics in this subject
+

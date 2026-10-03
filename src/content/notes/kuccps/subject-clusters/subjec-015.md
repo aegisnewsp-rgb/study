@@ -104,3 +104,11 @@ Salaries for agriculture graduates start at KES 30,000 to KES 60,000 per month i
 ## Summary
 
 Cluster 15 (Agriculture) is the gateway to Kenya's most strategically important economic sector, covering programmes in crop science, animal science, forestry, agribusiness, and agricultural engineering. With B plain minimums across Agriculture/Biology, Chemistry, and Physics/Mathematics/Forestry, it is among the more accessible and practical clusters. As Kenya prioritises food security, agricultural modernisation, and rural economic development, graduates from this cluster are positioned for impactful careers supporting one of the world's most dynamic agricultural economies.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 15 — Agriculture" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

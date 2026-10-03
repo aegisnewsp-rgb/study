@@ -154,3 +154,11 @@ For university-level calculus preparation, ensure complete fluency with the fund
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your Kenyatta University (Kenya) roadmap](/roadmap/?exam=kenyatta-ku&duration=1mo)** — see where "Trigonometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kenyatta-ku&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Kenyatta University (Kenya) exam overview](/exams/kenyatta-ku/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/kenyatta-ku/mathematics/)** — browse sibling topics in this subject
+

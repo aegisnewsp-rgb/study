@@ -110,3 +110,11 @@ A four-week pre-mock plan for Geometry and Trigonometry at Higher level:
 - **Week 2**: Work every past paper's synthetic geometry question. Draw the diagram, label every angle and side, write the chain of theorems. Mark yourself against the published marking scheme, not against your own judgement.
 - **Week 3**: Drill 3D trigonometry. For each Higher-level past paper, identify which 3D shape is involved, sketch the 2D triangle inside it, then solve. Time each question to 8 minutes — the live paper allocation is tight.
 - **Week 4**: Mock-exam week. Solve three past papers under timed conditions; mark against the marking scheme; write the "errors I keep making" list; re-drill those errors. Confirm the live paper pattern and the construction question placement on examinations.ie before final revision.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Geometry and Trigonometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/leaving-cert/lc-mathematics/)** — browse sibling topics in this subject
+

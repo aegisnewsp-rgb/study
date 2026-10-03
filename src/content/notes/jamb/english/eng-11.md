@@ -108,3 +108,11 @@ Both mean "because of," but traditionally "due to" follows a linking verb (be):
 5. "I depend ___ you for support." → on
 
 ⚡ **Previous Year JAMB Focus:** Preposition questions appear in both the Use of English (60 marks) and as supporting vocabulary in comprehension passages. The collocation patterns (verb + preposition, adjective + preposition) are the most frequently tested format. Past questions show 3-5 preposition MCQs per paper.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Prepositions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
+

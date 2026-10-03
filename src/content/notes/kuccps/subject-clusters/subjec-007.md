@@ -106,3 +106,11 @@ Salaries for TSC-employed teachers in Kenya start at approximately KES 30,000 to
 ## Summary
 
 Cluster 7 (Education) is an excellent choice for students who want a stable, impactful, and professionally rewarding career. With minimum entry of B in two teaching subjects and C+ in a third, it is more accessible than many other clusters while offering one of the clearest employment pathways — TSC employment provides job security, a government pension, and structured career progression. If you are passionate about shaping young minds and contributing to Kenya's national development, the BEd route is a solid and reliable path.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 7 — Education" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

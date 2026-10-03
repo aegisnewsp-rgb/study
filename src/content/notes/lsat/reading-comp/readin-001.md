@@ -167,3 +167,11 @@ Expect the unexpected in topic coverage. A law passage might discuss maritime la
 Trust the passage. Trust your reading. And remember: on LSAT RC, the hardest questions are often the ones where the passage implies something rather than states it directly. That is why inference questions — our next topic — are among the most important on the exam.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your LSAT India roadmap](/roadmap/?exam=lsat&duration=1mo)** — see where "Reading Comprehension Fundamentals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lsat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LSAT India exam overview](/exams/lsat/)** — pattern, eligibility, and syllabus
+- **[All Reading-Comp notes](/notes/lsat/reading-comp/)** — browse sibling topics in this subject
+

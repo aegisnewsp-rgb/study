@@ -218,3 +218,11 @@ Mutual funds pool money from investors and invest in a diversified portfolio of 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your IBPS PO roadmap](/roadmap/?exam=ibps-po&duration=1mo)** — see where "Financial Markets and Capital Markets" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS PO exam overview](/exams/ibps-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-po/general-awareness/)** — browse sibling topics in this subject
+

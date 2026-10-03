@@ -104,3 +104,11 @@ Consistent mastery of the Unifying Strand requires it to be the *spine* of every
 - **Week 2**: Pick three word problems per day and force the equation-on-its-own-line step before any arithmetic. Mark your own work and deduct a mark whenever the equation line is missing.
 - **Week 3**: After solving any question, write a one-sentence interpretation in plain English. Mark the interpretation as a separate line in your answer - it costs 10 seconds and earns a mark that is otherwise forfeit.
 - **Week 4**: Time-bound a full SEC paper. Mark strictly for the four unifying habits: units, labels, justifications, interpretation. Target the same total mark on the unit-of-habits check as on the arithmetic check.
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Unifying Strand" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/junior-cycle/jc-mathematics/)** — browse sibling topics in this subject
+

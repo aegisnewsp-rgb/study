@@ -234,3 +234,11 @@ Cell injury and adaptation form the foundation of pathology. Understanding how c
 - **Pyknosis:** Nuclear shrinkage and condensation ( chromatin becomes dense)
 - **Karyorrhexis:** Nuclear fragmentation (breaks into scattered pieces)
 - **Karyolysis:** Nuclear dissolution (fade away — loss of chromatin basophilia)
+
+## Continue your study
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Cell Injury, Death and Adaptation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/ini-cet/pathology/)** — browse sibling topics in this subject
+

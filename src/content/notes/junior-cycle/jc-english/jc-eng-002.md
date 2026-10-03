@@ -106,3 +106,11 @@ A four-week Reading-strand pass before the written paper:
 - **Week 2**: Re-read the prescribed text(s) for the exam year with annotations on key passages (theme, technique, tone shifts). Build a one-page revision sheet per text.
 - **Week 3**: Comparison practice - write three comparative essays across different text pairs, each timed to 25 minutes. Mark against the rubric and identify the comparison-specific marks.
 - **Week 4**: Past SEC specimen papers on the Reading strand. Time strictly and review the mark scheme on examinations.ie. Identify which items are comprehension (recall), inference (read between the lines), and analysis (feature + effect).
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Reading" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/junior-cycle/jc-english/)** — browse sibling topics in this subject
+

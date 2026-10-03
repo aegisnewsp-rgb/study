@@ -107,6 +107,13 @@ A Hadith is a recorded statement, action, or approval of the Prophet Muhammad (S
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
+## Continue your study
+
+- **[View this topic in your KPK PMS roadmap](/roadmap/?exam=kpkpse&duration=1mo)** — see where "Islamic Studies (General Studies): Sources of Islamic Law and Islamic Philosophy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpkpse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPK PMS exam overview](/exams/kpkpse/)** — pattern, eligibility, and syllabus
+- **[All Islamic Studies notes](/notes/kpkpse/islamic-studies/)** — browse sibling topics in this subject
+
 ## Secondary Sources of Islamic Law and Schools of Jurisprudence
 
 ### Ijma: Consensus of Scholars

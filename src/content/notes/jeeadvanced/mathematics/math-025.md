@@ -239,3 +239,11 @@ $4y + 4x + 4 = 0 \Rightarrow y + x + 1 = 0$.
 Solving: $x = -1, y = 0$. Shift origin to $(-1, 0)$: $X = x+1, Y = y$. Then $X^2 + 2Y^2 + 4XY + 1 - 1 = X^2 + 2Y^2 + 4XY = 0 \Rightarrow (X+2Y)^2 = 0 \Rightarrow X + 2Y = 0$. This represents two coincident lines through $(-1, 0)$.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Straight Lines" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
+

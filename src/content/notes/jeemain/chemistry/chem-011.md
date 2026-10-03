@@ -68,3 +68,11 @@ At very low P, x/m ≈ a·P, so the plot is linear. At very high P, x/m → a/b 
 2. *Reasoning:* An As₂S₃ sol is negatively charged. Rank the coagulating power of NaCl, BaCl₂ and AlCl₃ on an equimolar basis and justify using the Hardy–Schulze rule. Then state what happens when light is shone through the sol and explain the observation.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Surface Chemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeemain/chemistry/)** — browse sibling topics in this subject
+

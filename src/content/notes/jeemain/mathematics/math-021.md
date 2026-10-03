@@ -195,3 +195,11 @@ GM = (x₁·x₂·...·x_n)^{1/n}; less affected by outliers than arithmetic mea
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Statistics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeemain/mathematics/)** — browse sibling topics in this subject
+

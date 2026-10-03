@@ -213,3 +213,11 @@ The skin is the largest organ of the body and a frequent exam topic due to its a
 - **Acne vulgaris:** Pilosebaceous unit inflammation; Propionibacterium acnes; comedones (blackheads/whiteheads), papules, pustules, nodules, cysts; androgen-driven sebum overproduction
 - **Alopecia areata:** Autoimmune destruction of hair follicle; non-scarring; round patches of hair loss; "exclamation point" hairs at margins
 - **Androgenetic alopecia:** Male/female pattern hair loss; DHT-mediated follicular miniaturisation; finasteride (5-alpha reductase inhibitor) for men
+
+## Continue your study
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Skin (Integument)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
+

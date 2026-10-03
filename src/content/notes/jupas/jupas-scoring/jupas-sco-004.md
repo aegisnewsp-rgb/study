@@ -126,3 +126,11 @@ Source: 2025 JUPAS Admissions Scores report, https://www.jupas.edu.hk/f/page/366
 ---
 
 *Last updated 2026-09-20. Source: JUPAS, https://www.jupas.edu.hk/; 2025 JUPAS Admissions Scores report, https://www.jupas.edu.hk/f/page/3667/af_2025_JUPAS.pdf; HKU, HKUST, CityU, PolyU, HKBU, LU, HKMU, EdUHK admissions pages. Live minimum entrance requirements and any in-year changes must be re-checked on the participating institutions' admissions pages before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your JUPAS (Joint University Programmes Admissions System) roadmap](/roadmap/?exam=jupas&duration=1mo)** — see where "Subject-Specific Requirements and Minimum Entrance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jupas&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JUPAS (Joint University Programmes Admissions System) exam overview](/exams/jupas/)** — pattern, eligibility, and syllabus
+- **[All Admission Scoring notes](/notes/jupas/jupas-scoring/)** — browse sibling topics in this subject
+

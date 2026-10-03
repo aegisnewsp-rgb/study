@@ -126,3 +126,11 @@ Scattering of X-ray photons by electrons: λ' – λ = (h/m_ec)(1 – cos θ). F
 - Apply de Broglie and Heisenberg to numerical problems.
 
 ⚡ **Pro Tip:** In JEE Advanced, questions combining de Broglie, Heisenberg, and spectral series are common. Always check units (eV vs J, nm vs m) before substituting into formulae. Use the unified formula $E_n = -13.6 Z^2/n^2$ eV for hydrogen-like species.
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Atomic Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeemain/chemistry/)** — browse sibling topics in this subject
+

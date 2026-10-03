@@ -107,3 +107,11 @@ A four-week Geometry and Trigonometry pass before mocks:
 - **Week 2**: Circle theorems - identify the theorem in 10 diagrams per day, then prove the angle on a fresh diagram. State the theorem name in the proof line.
 - **Week 3**: Sine and cosine rules - 8 questions per day, varying between unknown-angle and unknown-side. Track which rule is required by the given information.
 - **Week 4**: Area, volume, and 3D problems - 6 extended-response items per sitting, with explicit unit labelling and a one-sentence sanity check at the end.
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Geometry and Trigonometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/junior-cycle/jc-mathematics/)** — browse sibling topics in this subject
+

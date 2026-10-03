@@ -174,3 +174,11 @@ The 1999 Constitution (as amended) is the foundation of Nigerian law. Key consti
 3. Not preparing for university post-screening tests (UNILAG, ABU, and others have DE screening)
 4. Thinking a law degree automatically leads to becoming a lawyer — you must still pass the Nigerian Law School Bar Final Examination
 5. Overlooking the importance of English Language proficiency — legal writing and mooting require excellent English
+
+## Continue your study
+
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Law and Legal Studies — The IJMB Pathway to the Nigerian Bar" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
+

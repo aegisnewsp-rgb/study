@@ -129,3 +129,11 @@ The 2,640 km border between Pakistan and Afghanistan was established in 1893 by 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "Pakistan Geography" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All General Knowledge notes](/notes/lat/gk/)** — browse sibling topics in this subject
+

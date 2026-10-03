@@ -245,3 +245,11 @@ The Use of English paper tests:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your JUPEB (Nigeria) roadmap](/roadmap/?exam=jupeb&duration=1mo)** — see where "Commercial Subject Combinations for JUPEB" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jupeb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JUPEB (Nigeria) exam overview](/exams/jupeb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/jupeb/subject-combinations/)** — browse sibling topics in this subject
+

@@ -125,3 +125,11 @@ Sceideal ceithre seachtaine don ullmhúchán roimh na scrúdaithí móra:
 - **Seachtain 2**: Cleachtadh aisteacha argóinte. Roghnaigh topaic conspóideach agus scríobh argóint ar an dá thaobh. Cothromaigh do chuid argóintí agus déan cinnte go bhfuil fianaise ag tacú le do chuid tuairimí.
 - **Seachtain 3**: Cleachtadh scéal. Scríobh scéal gairm nó píosa dialainne. Bí cruthaitheach agus bain úsáid as focail agus frásaí nua.
 - **Seachtain 4**: Seachtain na scrúdaithí móra. Déan cleachtadh ar pháipéir bhliain roimhe seo faoi dhálaí ama. Seiceáil an patrún reatha ar examinations.ie sula ndéanann tú plean deiridh. Tóg am ar an lá chun do chuid oibre a phleanáil, a scríobh agus a athbhreithniú.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Language Creativity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Gaeilge (Irish) notes](/notes/leaving-cert/lc-gaeilge/)** — browse sibling topics in this subject
+

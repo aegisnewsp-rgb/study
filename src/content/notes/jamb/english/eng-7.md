@@ -124,3 +124,11 @@ Note: "Said to" is used for direct commands in indirect speech:
 5. "Don't be late," she said → She told me not to be late.
 
 ⚡ **Previous Year JAMB Focus:** Direct and indirect speech accounts for 3-5 questions per paper, mostly testing tense backshift (especially will → would, present simple → past simple), question word retention in indirect questions, and the shift from question mark to period in reported yes/no questions. The conversion of commands to infinitive structure (tell someone to do something) is also frequently tested.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Direct and Indirect Speech" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
+

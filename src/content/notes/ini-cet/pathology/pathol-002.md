@@ -246,3 +246,11 @@ Granuloma: Collection of epithelioid macrophages surrounded by lymphocytes + occ
 - FGF: Angiogenesis, fibroblast proliferation, granulation tissue formation
 - KGF (fibroblasts): Epithelial cell proliferation
 - TNF-alpha, IL-1: Stimulate fibroblast and inflammatory cell activity
+
+## Continue your study
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Inflammation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/ini-cet/pathology/)** — browse sibling topics in this subject
+

@@ -139,3 +139,11 @@ Step 6: Monitor JAMB CAPS for Admission Status (Acceptance & Printing of DE Admi
 - **Neglecting JAMB Regularization**: Failure to ensure your JUPEB admission into the preparatory centre was properly registered with JAMB can cause severe delays during final NYSC mobilization after graduation.
 
 ⚡ **Admissions Director Insight**: Never discard lower-tier backup universities. When completing the JAMB DE portal entries, select one competitive federal institution as your first choice and a progressive state or recognized private university as your contingency institution.
+
+## Continue your study
+
+- **[View this topic in your JUPEB (Nigeria) roadmap](/roadmap/?exam=jupeb&duration=1mo)** — see where "Direct Entry Requirements by University" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jupeb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JUPEB (Nigeria) exam overview](/exams/jupeb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/jupeb/subject-combinations/)** — browse sibling topics in this subject
+

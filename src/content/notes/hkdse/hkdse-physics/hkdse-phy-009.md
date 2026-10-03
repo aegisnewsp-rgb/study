@@ -144,3 +144,11 @@ Elective Part Topic IX (Medical Physics). HKDSE Physics Assessment Framework, ht
 ---
 
 *Last updated 2026-09-20. Source: HKDSE Physics Assessment Framework, https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/phy/2026hkdse-e-phy.pdf; CDC/HKEAA Physics Curriculum and Assessment Guide (Secondary 4 - 6), https://www.edb.gov.hk/attachment/en/curriculum-development/kla/science-edu/Phy_C_and_A_Guide_updated_e_20151126.pdf. Live assessment framework and any in-year specification changes must be re-checked on hkeaa.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Hong Kong Diploma of Secondary Education (HKDSE) roadmap](/roadmap/?exam=hkdse&duration=1mo)** — see where "IX. Medical Physics (Elective)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hkdse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Hong Kong Diploma of Secondary Education (HKDSE) exam overview](/exams/hkdse/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/hkdse/hkdse-physics/)** — browse sibling topics in this subject
+

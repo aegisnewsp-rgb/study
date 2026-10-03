@@ -103,3 +103,11 @@ Identify the relation: an arbitrator *adjudicates* a dispute, so a mediator *fac
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "Vocabulary and Word Usage" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/lat/english/)** — browse sibling topics in this subject
+

@@ -126,3 +126,11 @@ Source: JUPAS Main Round Offer, https://www.jupas.edu.hk/en/results-of-applicati
 ---
 
 *Last updated 2026-09-20. Source: JUPAS Main Round Offer, https://www.jupas.edu.hk/en/results-of-application/main-round-offer/; Summary of Announcement and Acceptance of Offers Arrangements, https://www.jupas.edu.hk/en/page/detail/512/. Live Main Round offer date and acceptance fee deadline must be re-checked on jupas.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your JUPAS (Joint University Programmes Admissions System) roadmap](/roadmap/?exam=jupas&duration=1mo)** — see where "Main Round Offer" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jupas&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JUPAS (Joint University Programmes Admissions System) exam overview](/exams/jupas/)** — pattern, eligibility, and syllabus
+- **[All Offers and Results notes](/notes/jupas/jupas-offers/)** — browse sibling topics in this subject
+

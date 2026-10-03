@@ -178,3 +178,11 @@ Completion question types are used across all four parts of the IELTS Academic L
 ---
 
 *Last updated 2026-09-20. Source: IELTS Academic Listening test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your IELTS (Hong Kong) roadmap](/roadmap/?exam=ielts-hk&duration=1mo)** — see where "Question Types — Form, Note, Table, Flow-Chart Completion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-hk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IELTS (Hong Kong) exam overview](/exams/ielts-hk/)** — pattern, eligibility, and syllabus
+- **[All Listening notes](/notes/ielts-hk/ielts-hk-listening/)** — browse sibling topics in this subject
+

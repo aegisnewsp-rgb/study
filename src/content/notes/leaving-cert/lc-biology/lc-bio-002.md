@@ -128,3 +128,11 @@ The mark scheme rewards candidates who can connect *each* structural feature to 
 - **The "DNA is RNA" trap** — confusing DNA and RNA. The mark scheme reads for the sugar (deoxyribose vs ribose), the bases (T vs U) and the structure (double vs single strand). A candidate who mixes these up forfeits the molecular-biology marks.
 - **The "five kingdoms = five animals" trap** — listing only animals as examples of the five kingdoms. The mark scheme reads for an example organism in *each* of the five kingdoms.
 - **The "habitat = niche" trap** — using the two terms interchangeably. Habitat is the *place*; niche is the *role*. The distinction is a mark.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Organisation of Life" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/leaving-cert/lc-biology/)** — browse sibling topics in this subject
+

@@ -92,3 +92,11 @@ A, B, and C plan to beat D for non-payment of a debt. They all carry sticks. A s
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "Legal Aptitude: Criminal Law" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All Legal Reasoning notes](/notes/lat/legal-reasoning/)** — browse sibling topics in this subject
+

@@ -173,3 +173,11 @@ A Romalpa clause (from *Aluminium Industrie v. Romalpa* [1976]) is a term in a c
 4. Proceeds of any resale belong to the seller
 
 Romalpa clauses are valid in Nigeria (subject to the insolvency rules). However, they are ineffective against a liquidator who has crystallised the company's assets.
+
+## Continue your study
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Law of Sale of Goods: Formation, Terms, and Remedies" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/ican/business-law/)** — browse sibling topics in this subject
+

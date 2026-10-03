@@ -128,3 +128,11 @@ Source: each university's Admissions page. Confirm the live interview and aptitu
 ---
 
 *Last updated 2026-09-20. Source: each university's Admissions page (HKU, HKUST, CityU, PolyU, HKBU, LU, HKMU, EdUHK). Live interview and aptitude test requirements and any in-year changes must be re-checked on the participating institutions' admissions pages before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your JUPAS (Joint University Programmes Admissions System) roadmap](/roadmap/?exam=jupas&duration=1mo)** — see where "Interview and Aptitude Test Preparation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jupas&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JUPAS (Joint University Programmes Admissions System) exam overview](/exams/jupas/)** — pattern, eligibility, and syllabus
+- **[All Offers and Results notes](/notes/jupas/jupas-offers/)** — browse sibling topics in this subject
+

@@ -113,3 +113,11 @@ A four-week pre-mock plan for Algebra at Higher level:
 - **Week 2**: Work every past paper's simultaneous equations question — both the standard form and the linear-plus-quadratic form. Then move to the inequalities-with-regions items.
 - **Week 3**: Drill sequences and series. Cover arithmetic, geometric, finite sum and infinite sum variants. Then move to the binomial theorem: full expansion, partial expansion, and coefficient-solving problems.
 - **Week 4**: Mock-exam week. Solve three past papers under timed conditions; mark against the marking scheme; write the "errors I keep making" list; re-drill those errors specifically. Confirm the live paper pattern on examinations.ie, particularly the placement of induction questions and the inclusion of recurrence relations.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Algebra" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/leaving-cert/lc-mathematics/)** — browse sibling topics in this subject
+

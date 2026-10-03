@@ -178,3 +178,11 @@ Solution: The product insoluble in KOH after Hinsberg test indicates a secondary
 | Acylation | Yes | Yes | No | Yes (acetanilide) |
 
 ⚡ **JEE Advanced Pro Tip:** When a question involves separation of amine mixtures, recall that 1° aliphatic amines can be separated via Gabriel synthesis; aromatic amines can be separated by converting to acetanilide (soluble in organic solvent) vs non-acylated (water soluble). Always look for characteristic colour changes — e.g., N-nitrosoamines are yellow oils with a characteristic smell.
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Amines" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeemain/chemistry/)** — browse sibling topics in this subject
+

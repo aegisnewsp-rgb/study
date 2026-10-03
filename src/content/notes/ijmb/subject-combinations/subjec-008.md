@@ -205,3 +205,11 @@ Engineering 200 Level typically includes:
 - Power: NDIC, Abuja Electricity Distribution Company (AEDC), Ikeja Electric, government parastatals
 - Banking: First Bank, GTBank, Zenith Bank (engineering project finance divisions)
 - Telecommunications: MTN, Airtel, 9mobile (network engineering divisions)
+
+## Continue your study
+
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Engineering and Technology Sciences Through IJMB" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
+

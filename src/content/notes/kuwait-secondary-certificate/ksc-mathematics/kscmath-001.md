@@ -111,3 +111,11 @@ Algebra and Number Theory is the first terminal-level domain of the Kuwait MOE M
 ---
 
 *Last updated 2026-09-20. Source: Kuwait MOE Mathematics curriculum, https://www.moe.edu.kw/, with topic structure cross-checked against the State of Kuwait curriculum review hosted on abegs.org, https://cdn-files.abegs.org/abegs-marsad-prod/uploads/858632c1-3623-4790-a595-f11d80e5f4ef.pdf. Track regulation details from Kuwait Now, https://kuwaitnow.net/local/1409/57483/. Terminal paper pattern and any in-year specification changes must be re-checked on the official MOE site before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Kuwait Secondary Certificate (Thanawiya Amma) roadmap](/roadmap/?exam=kuwait-secondary-certificate&duration=1mo)** — see where "Algebra and Number Theory" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuwait-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Kuwait Secondary Certificate (Thanawiya Amma) exam overview](/exams/kuwait-secondary-certificate/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/kuwait-secondary-certificate/ksc-mathematics/)** — browse sibling topics in this subject
+

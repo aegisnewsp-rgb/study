@@ -216,3 +216,11 @@ Air in pleural space → no lung markings on X-ray, hyperresonant to percussion;
 ### Lung Cancer
 
 May involve phrenic nerve (paralysis of diaphragm), superior vena cava (SVC syndrome — facial swelling, distended neck veins), recurrent laryngeal nerve (hoarseness), sympathetic chain (Horner's syndrome — ptosis, miosis, anhidrosis).
+
+## Continue your study
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Thorax and Cardiopulmonary Anatomy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
+

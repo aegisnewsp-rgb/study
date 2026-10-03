@@ -145,3 +145,8 @@ With a calculated value of $5,100\text{ mmHg}\cdot\text{s}\cdot\text{cm}$, the c
 - **[INI CET (AIIMS PG) Exam Hub](/exams/ini-cet/)** — exam syllabus, clinical scoring pattern, negative marking scheme, and seat matrix
 - **[All INI CET Physiology Notes](/notes/ini-cet/physiology/)** — neurophysiology, cardiovascular hemodynamics, renal clearance, and endocrine axes
 - **[AIIMS PG 60-Day High-Yield Revision Plan](/exams/ini-cet/#roadmap)** — structured study calendar prioritizing core clinical physiology topics
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Gastrointestinal Physiology: Motility" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/ini-cet/physiology/)** — browse sibling topics in this subject

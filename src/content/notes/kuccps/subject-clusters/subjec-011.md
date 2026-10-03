@@ -100,3 +100,11 @@ Graduate salaries for architecture and building professionals start at approxima
 ## Summary
 
 Cluster 11 (Architecture and Building) offers a unique blend of design creativity and technical science, leading to careers in architecture, quantity surveying, construction management, and urban planning. With B plain in Physics and Mathematics and a pass in Drawing, it is more accessible than the top engineering or medical clusters while offering excellent career prospects in Kenya's construction boom. The government's Big Four Agenda and rapid urbanisation ensure strong and growing demand for qualified built-environment professionals in Kenya.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 11 — Architecture and Building" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

@@ -109,3 +109,11 @@ A useful Higher-level drill: take one of the comparative texts, write a 400-word
 - **The "model essay" pastiche** — opening with a striking quotation from a poet the candidate has not studied, and whose relevance to the prompt is unclear. Examiners read past this; the marks do not follow.
 - **The "vocabulary inflation" trap** — replacing common words with thesaurus alternatives that don't quite fit. "Sanguine" for "hopeful" is fine; "pusillanimous" for "cautious" reads as the candidate showing off, not writing clearly.
 - **The "rushed ending" trap** — running out of time and submitting a piece that ends mid-thought. A clean conclusion, even a short one, outscores a longer piece that breaks down. Leave five minutes for the ending; if the ending is not landing, write a one-sentence summary and stop.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Creating" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/leaving-cert/lc-english/)** — browse sibling topics in this subject
+

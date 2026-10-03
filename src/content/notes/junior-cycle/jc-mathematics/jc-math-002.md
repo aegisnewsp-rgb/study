@@ -107,3 +107,11 @@ A focused four-week Number-strand pass before mocks:
 - **Week 2**: Work 8 compound-interest questions, varying between "find A given P, r, t", "find t given A, P, r", and "find r given A, P, t". Build a one-page formula card for each direction.
 - **Week 3**: Cover surds and indices - simplify, expand, rationalise, and evaluate (where asked). Focus on the difference between *a*^(1/2) and √*a*, and the rules for negative and fractional exponents.
 - **Week 4**: Tackle 5 financial-mathematics extended-response items per sitting, timing yourself strictly. Mark each answer against the SEC mark scheme on examinations.ie and identify which marks are method marks vs accuracy marks.
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Number" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/junior-cycle/jc-mathematics/)** — browse sibling topics in this subject
+

@@ -166,3 +166,11 @@ Karnataka is the **IT capital of India**, with Bangalore (Bengaluru) serving as 
 ## Conclusion
 
 Karnataka's economy is a unique combination of traditional agriculture (coffee, silk, arecanut) and modern industry (IT, aerospace, biotechnology). For KPSC KAS, focus on the districts associated with each major crop or industry, production statistics, major policy initiatives, and key companies or projects driving Karnataka's economic growth. The **Electronic City IT hub**, **MRPL Mangalore**, **coffee cultivation history**, and **sericulture in Ramanagara** are high-probability exam topics.
+
+## Continue your study
+
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Karnataka Economy: Agriculture, IT, Silk, Coffee, Sericulture, and Industrial Development" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Karnataka-Specific notes](/notes/kpsc/karnataka-specific/)** — browse sibling topics in this subject
+

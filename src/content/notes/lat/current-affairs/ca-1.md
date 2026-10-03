@@ -91,6 +91,13 @@ Federal-provincial fiscal harmony is anchored by the **National Finance Commissi
 
 ---
 
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "Pakistan: Political Developments" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All Current Affairs notes](/notes/lat/current-affairs/)** — browse sibling topics in this subject
+
 ## Sources & verification
 - The Constitution of the Islamic Republic of Pakistan, 1973 (as amended up to 26th Amendment).
 - Higher Education Commission (HEC) Law Admission Test (LAT) Official Curriculum Guidelines.

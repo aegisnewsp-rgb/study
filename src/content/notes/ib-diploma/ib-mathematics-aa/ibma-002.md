@@ -141,3 +141,11 @@ Functions is the second topic of IB Mathematics: Analysis and Approaches (after 
 ---
 
 *Last updated 2026-09-20. Source: IBO DP Mathematics: Analysis and Approaches subject brief, https://ibo.org/contentassets/5895a05412144fe890312bad52b17044/subject-brief-dp-math-analysis-and-approaches-en.pdf. Paper pattern and any in-year specification changes must be re-checked on https://ibo.org/programmes/diploma-programme/curriculum/ before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your International Baccalaureate (IB) Diploma Programme roadmap](/roadmap/?exam=ib-diploma&duration=1mo)** — see where "Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ib-diploma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[International Baccalaureate (IB) Diploma Programme exam overview](/exams/ib-diploma/)** — pattern, eligibility, and syllabus
+- **[All Mathematics: Analysis and Approaches notes](/notes/ib-diploma/ib-mathematics-aa/)** — browse sibling topics in this subject
+

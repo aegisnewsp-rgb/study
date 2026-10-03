@@ -221,3 +221,11 @@ But $7 > 1$ and the sum should be in $(\frac{\pi}{2}, \pi)$ since both terms are
 - $y = \frac{\pi}{2} - \tan^{-1}x$: reflection then shift (equivalent to $\cot^{-1}x$ for all $x$).
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Inverse Trig" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
+

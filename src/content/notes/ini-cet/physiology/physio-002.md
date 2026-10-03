@@ -107,3 +107,11 @@ Blood volume (BV) = body weight (kg) × 70 mL/kg. For a 70 kg male: BV ≈ 4.9�
 2. A Rh-negative mother delivered a Rh-positive baby. She did not receive RhoGAM. In her second pregnancy, the fetus is Rh-positive. Describe the sequence of events leading to hemolytic disease of the newborn, specifying the antibody class involved and the mechanism of fetal red cell destruction.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Blood" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/ini-cet/physiology/)** — browse sibling topics in this subject
+

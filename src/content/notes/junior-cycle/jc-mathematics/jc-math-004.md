@@ -107,3 +107,11 @@ A four-week Algebra and Functions pass before mocks:
 - **Week 2**: Quadratics by factorisation, formula, and completing the square - 8 items per day. Track the discriminant on every quadratic to anticipate the number of real roots.
 - **Week 3**: Sequences and series - 6 items per day, mixing arithmetic, geometric, and "find the *n*-th term" forms. Distinguish the term formula from the sum formula.
 - **Week 4**: Graphs and functions, including Higher level differentiation - 5 extended-response items per sitting. Sketch by hand, label axes, identify key features (intercept, vertex, asymptote), and write a one-sentence interpretation.
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Algebra and Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/junior-cycle/jc-mathematics/)** — browse sibling topics in this subject
+

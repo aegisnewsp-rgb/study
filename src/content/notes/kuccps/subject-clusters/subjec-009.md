@@ -97,3 +97,11 @@ Salaries for pure science graduates in research or industry range from KES 50,00
 ## Summary
 
 Cluster 9 (Pure Sciences) is one of Kenya's most demanding clusters, requiring B+ or above in Chemistry, Physics, and Mathematics. It is the foundation for careers in scientific research, academia, chemical industries, energy, and environmental management. While cutoffs are high and the coursework is challenging, graduates enter some of the most impactful and rewarding scientific careers in Kenya and globally. Those who excel in all three sciences and enjoy theoretical reasoning and problem-solving will thrive in this cluster.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 9 — Pure Sciences" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

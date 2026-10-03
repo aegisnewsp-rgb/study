@@ -96,3 +96,11 @@ Cause-effect items usually weigh around 4% of Analytical Reasoning. Budget rough
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "Cause and Effect" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All Analytical Reasoning notes](/notes/lat/analytical-reasoning/)** — browse sibling topics in this subject
+

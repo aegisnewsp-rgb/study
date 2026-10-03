@@ -88,3 +88,11 @@ CSD replaces Liberal Studies from the 2024 HKDSE examination. Curriculum: CDC/HK
 ---
 
 *Last updated 2026-09-20. Source: CDC/HKEAA Citizenship and Social Development Curriculum and Assessment Guide (Secondary 4 - 6), 2021, https://cs.edb.edcity.hk/file/C_and_A_guide/202106/CS_CAG_S4-6_Eng_2021.pdf; 2026 HKDSE CSD Assessment Framework, https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/cs/2026hkdse-e-cs.pdf; National Security Education framework (2025 update), https://www.edb.gov.hk/attachment/en/curriculum-development/4-key-tasks/moral-civic/nse/nse2025_subject_framework_csd_en.pdf. Live assessment framework and any in-year specification changes must be re-checked on hkeaa.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Hong Kong Diploma of Secondary Education (HKDSE) roadmap](/roadmap/?exam=hkdse&duration=1mo)** — see where "Theme 1 — Hong Kong under \"One Country, Two Systems\" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hkdse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Hong Kong Diploma of Secondary Education (HKDSE) exam overview](/exams/hkdse/)** — pattern, eligibility, and syllabus
+- **[All Citizenship and Social Development notes](/notes/hkdse/hkdse-csd/)** — browse sibling topics in this subject
+

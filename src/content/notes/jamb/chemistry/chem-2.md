@@ -164,3 +164,11 @@ Common questions: (1) Identify type of bonding from electronegativity difference
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Chemical Bonding and Molecular Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jamb/chemistry/)** — browse sibling topics in this subject
+

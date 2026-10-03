@@ -169,3 +169,11 @@ $$(PT)^2 = PA \times PQ$$
 - Label known values clearly
 - Use Pythagoras theorem when you see a radius, perpendicular distance, and half-chord forming a right triangle
 - Remember: $\sin(180° - \theta) = \sin\theta$, useful for angles in the same segment
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Circles and Chords" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+

@@ -172,3 +172,11 @@ Net: 2 ATP invested, 4 ATP produced, 2 NADH produced. Net gain: 2 ATP, 2 NADH pe
 - Enzyme kinetics: occasionally tested
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Biomolecules" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeeadvanced/chemistry/)** — browse sibling topics in this subject
+

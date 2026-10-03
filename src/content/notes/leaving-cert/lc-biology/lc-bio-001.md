@@ -130,3 +130,11 @@ The mark scheme reads for the *method* — what did the scientist actually *do* 
 - **The "control confused with controlled variable" failure mode** — naming the controlled variables in an answer that asks for the control. The vocabulary distinction is a mark.
 - **The "biographical essay" failure mode** — writing a paragraph on Watson and Crick's lives instead of a paragraph on how they used model-building to deduce the DNA structure. The strand is about *method*, not biography.
 - **The "one-sided society essay" failure mode** — writing a partisan answer on a biology-in-society question. The mark scheme rewards balance and qualification.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Nature of Science" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/leaving-cert/lc-biology/)** — browse sibling topics in this subject
+

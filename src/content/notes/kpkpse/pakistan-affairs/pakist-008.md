@@ -89,3 +89,6 @@ KP PSC typically asks **2–4 MCQs** on this cluster, often framed as "Identify 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your KPK PMS roadmap](/roadmap/?exam=kpkpse&duration=1mo)** — see where "Important Cities and Historical Places" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpkpse&duration=1d)** — 1-day sprint covering highest-weight topics

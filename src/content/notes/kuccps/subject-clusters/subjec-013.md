@@ -101,3 +101,11 @@ Salaries for environmental science graduates start at KES 35,000 to KES 70,000 p
 ## Summary
 
 Cluster 13 (Environmental Sciences) is a timely and impactful cluster addressing Kenya's most pressing environmental challenges — climate change, water scarcity, biodiversity loss, and sustainable resource management. With B plain minimums across Geography, Biology, and Chemistry/Physics, it is moderately competitive and accessible. Graduates can pursue diverse careers in environmental consulting, conservation, water management, mining, meteorology, and marine science — all sectors with strong growth as Kenya enforces stricter environmental standards and pursues sustainable development.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 13 — Environmental Sciences" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

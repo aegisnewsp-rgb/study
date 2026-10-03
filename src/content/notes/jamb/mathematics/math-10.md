@@ -182,3 +182,11 @@ In a JAMB mock exam, 500 students scored the following in Mathematics:
 Find mean, median, and interpret the distribution shape.
 
 Solution approach: Calculate class midpoints (9.5, 29.5, 49.5, 69.5, 89.5), multiply by frequencies, sum, divide by 500 to get mean ≈ 48.3. For median class, $n/2 = 250$, which falls in 40–59 class.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Statistics and Data Presentation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+

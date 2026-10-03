@@ -384,3 +384,11 @@ R–CHO + R'MgX → R–CH(OMgX)R' → (H₃O⁺) → R–CH(OH)R'
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Makerere University (Uganda) roadmap](/roadmap/?exam=makerere-ent&duration=1mo)** — see where "Organic Chemistry Fundamentals — Functional Groups" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=makerere-ent&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Makerere University (Uganda) exam overview](/exams/makerere-ent/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/makerere-ent/chemistry/)** — browse sibling topics in this subject
+

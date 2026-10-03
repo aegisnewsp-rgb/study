@@ -188,3 +188,11 @@ $$t = 0 \text{ or } t = 4 \text{ seconds}$$
 4. Solve using factoring, completing square, or quadratic formula
 5. Check solutions in the original problem
 6. Reject any extraneous solutions (e.g., negative time, negative dimensions)
+
+## Continue your study
+
+- **[View this topic in your HAT-UG (HEC Aptitude Test - Undergraduate) roadmap](/roadmap/?exam=hat-ug&duration=1mo)** — see where "Quadratic Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hat-ug&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAT-UG (HEC Aptitude Test - Undergraduate) exam overview](/exams/hat-ug/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/hat-ug/quantitative-reasoning/)** — browse sibling topics in this subject
+

@@ -97,3 +97,11 @@ Graduate lawyers in Kenya typically earn between KES 50,000 and KES 200,000 per 
 ## Summary
 
 Cluster 3 (Law) is ideal for arts and humanities students who excel in languages, history, and social sciences. With minimum entry of B in each cluster subject but cutoffs often exceeding 42 points at top schools, competition is real. However, the legal profession offers a respected, diverse, and potentially lucrative career path for those who complete both the LLB and the Kenya School of Law Bar Programme. Strategic subject selection and strong language skills are the keys to success in this cluster.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 3 — Law" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

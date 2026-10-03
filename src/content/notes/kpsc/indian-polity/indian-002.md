@@ -359,3 +359,11 @@ Struck down the 42nd Amendment's clause that said Parliament could amend any par
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "The Making of the Indian Constitution" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/kpsc/indian-polity/)** — browse sibling topics in this subject
+

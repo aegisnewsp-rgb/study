@@ -190,3 +190,11 @@ Insulin (polypeptide hormone) consists of two polypeptide chains: A chain (21 re
 Competitive inhibition: Inhibitor resembles substrate, competes for active site. V_max unchanged, K_m apparent increases. Non-competitive: Inhibitor binds to enzyme at site other than active site (E–I complex), V_max decreases, K_m unchanged. Uncompetitive: Inhibitor binds only to ES complex, both V_max and K_m decrease. Mixed: Inhibitor binds both E and ES with different affinities; both K_m and V_max change.
 
 ⚡ **JEE Advanced Pro Tip:** In carbohydrate questions, always carefully note whether the sugar is reducing or non-reducing and which anomeric carbons are involved. In enzyme kinetics, watch for inhibitors and pH effects on V_max and K_m. Remember that in the metabolic pathways, each step is catalysed by a specific enzyme, and the intermediates are named. Questions about ATP yield per glucose require knowing the exact number of NADH, FADH₂, and substrate-level phosphorylations produced in glycolysis and Krebs cycle.
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Biomolecules" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeemain/chemistry/)** — browse sibling topics in this subject
+

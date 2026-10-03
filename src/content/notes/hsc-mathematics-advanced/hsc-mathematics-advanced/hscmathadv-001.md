@@ -116,3 +116,11 @@ This Area of Study is assessed across all HSC Mathematics Advanced examination p
 ---
 
 *Last updated 2026-09-20. Source: NSW Mathematics Advanced 11–12 Syllabus (2024), https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview. Awarding body: NSW Education Standards Authority (NESA). Tier rules, calculator policy and any in-year specification changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your HSC Mathematics Advanced (NESA 2024) roadmap](/roadmap/?exam=hsc-mathematics-advanced&duration=1mo)** — see where "Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hsc-mathematics-advanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HSC Mathematics Advanced (NESA 2024) exam overview](/exams/hsc-mathematics-advanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics Advanced notes](/notes/hsc-mathematics-advanced/hsc-mathematics-advanced/)** — browse sibling topics in this subject
+

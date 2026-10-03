@@ -158,3 +158,11 @@ Next three terms: $ar^3 + ar^4 + ar^5 = \frac{169}{12}$ ... (2)
 
 Divide (2) by (1): $r^3 = \frac{169}{13} = 13$, so $r = \sqrt[3]{13}$
 Substitute back to find $a$: $a = \frac{13}{12(1 + \sqrt[3]{13} + \sqrt[3]{169})}$
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Sequence and Series (AP and GP)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+

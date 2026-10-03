@@ -126,3 +126,8 @@ Depreciation is charged on the straight-line basis. On 31 December 2025, the cat
 - **[ICAN Exam Hub](/exams/ican/)** — complete syllabus outline, examination diet structure, and student resources
 - **[All ICAN Accounting Notes](/notes/ican/accounting/)** — financial accounting, management information, taxation, and audit
 - **[ICAN Examination Preparation Roadmap](/exams/ican/#roadmap)** — high-yield topic distribution and diet study planner
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Depreciation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ican/accounting/)** — browse sibling topics in this subject

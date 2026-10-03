@@ -167,3 +167,11 @@ Chemical equilibrium integrates with:
 2. **For the reaction PCl₅(g) ⇌ PCl₃(g) + Cl₂(g), Δn = 1. If Kp = 1.8 at 523 K, calculate Kc.** Using Kc = Kp/(RT)^Δn: R = 0.0821 L·atm·K⁻¹·mol⁻¹, T = 523 K, Δn = 1. Kc = 1.8 / (0.0821 × 523) = 1.8 / 42.94 ≈ **0.042**.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Makerere University (Uganda) roadmap](/roadmap/?exam=makerere-ent&duration=1mo)** — see where "Chemical equilibrium" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=makerere-ent&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Makerere University (Uganda) exam overview](/exams/makerere-ent/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/makerere-ent/chemistry/)** — browse sibling topics in this subject
+

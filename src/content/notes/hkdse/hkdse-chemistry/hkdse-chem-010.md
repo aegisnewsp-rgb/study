@@ -126,3 +126,11 @@ Compulsory Part Topic X (Chemical Equilibrium). HKDSE Chemistry Briefing Session
 ---
 
 *Last updated 2026-09-20. Source: HKDSE Chemistry Assessment Framework, https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/chem/2026hkdse-e-chem.pdf; HKDSE Chemistry and Combined Science (Chemistry Part) Briefing Session, https://www.hkeaa.edu.hk/doclibrary/hkdse/subject_information/chem/chemncsbriefing.pdf. Live assessment framework and any in-year specification changes must be re-checked on hkeaa.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Hong Kong Diploma of Secondary Education (HKDSE) roadmap](/roadmap/?exam=hkdse&duration=1mo)** — see where "X. Chemical Equilibrium" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hkdse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Hong Kong Diploma of Secondary Education (HKDSE) exam overview](/exams/hkdse/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/hkdse/hkdse-chemistry/)** — browse sibling topics in this subject
+

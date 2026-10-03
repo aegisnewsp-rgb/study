@@ -167,3 +167,11 @@ RuPay cards issued under Jan Dhan provide coverage under the **Paashupdatra** (a
 2. Mixing up the insurance amount under Jan Dhan (currently ₹2 lakh)
 3. Forgetting that Mudra loans are for non-farm micro enterprises
 4. Confusing PM Awas (urban credit linked) with PM Awas Gramin (rural construction grant)
+
+## Continue your study
+
+- **[View this topic in your IBPS PO roadmap](/roadmap/?exam=ibps-po&duration=1mo)** — see where "Government Schemes & Initiatives" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS PO exam overview](/exams/ibps-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-po/general-awareness/)** — browse sibling topics in this subject
+

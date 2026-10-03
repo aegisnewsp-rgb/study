@@ -201,3 +201,11 @@ Note: $24 \times 36 = HCF \times LCM = 12 \times 72 = 864$ ✓
 - 2024: Compound indices ($8^{2/3}$ type)
 
 ⚡ **Exam Strategy:** For base conversion problems, always show your division/multiplication steps clearly. For logarithm problems, start by identifying which law to apply based on the structure of the expression.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Number and Numeration" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+

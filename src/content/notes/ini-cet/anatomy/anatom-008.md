@@ -196,3 +196,11 @@ Lateral ventricles (two — C-shaped, body + frontal, temporal, occipital horns)
 - **Extradural space:** Contains middle meningeal artery (damage → extradural haematoma — lens-shaped on CT)
 - **Subdural space:** Contains bridging veins (damage → subdural haematoma — crescent-shaped)
 - **Subarachnoid space:** Between arachnoid and pia; contains CSF and cerebral vessels
+
+## Continue your study
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Head and Neck Anatomy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
+

@@ -144,3 +144,11 @@ A candidate who can name three conservation measures, describe the principles on
 - **The "climate change = warming only" trap** — forgetting that climate change involves changes in precipitation patterns, the frequency of extreme weather events, and ocean acidification, not just a rise in average temperature.
 - **The "biodiversity = number of species" trap** — equating biodiversity with species richness. Biodiversity includes genetic diversity within species, species diversity, and ecosystem diversity. The mark scheme reads for all three levels.
 - **The "conservation = emotion" trap** — treating conservation as a personal value rather than a scientific framework. The mark scheme reads for the *principles* and the *evidence* on which conservation decisions are based.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Interactions of Life" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/leaving-cert/lc-biology/)** — browse sibling topics in this subject
+

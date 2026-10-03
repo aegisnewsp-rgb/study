@@ -109,3 +109,11 @@ A four-week pre-mock plan for Number at Higher level:
 - **Week 2**: Drill surds and indices with timed exercises. Set a 10-minute timer for ten questions; aim for ten correct answers. The skill is automatic, not thought-through.
 - **Week 3**: Work every past paper's complex number question. Plot the numbers on the Argand diagram; check the locus against the modulus or argument.
 - **Week 4**: Mock-exam week. Solve three past papers under timed conditions; mark against the marking scheme; write the "errors I keep making" list; re-drill those errors specifically. Confirm the live paper pattern and whether continuous compounding (e^(rt)) remains in the Higher-level specification on examinations.ie.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Number" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/leaving-cert/lc-mathematics/)** — browse sibling topics in this subject
+

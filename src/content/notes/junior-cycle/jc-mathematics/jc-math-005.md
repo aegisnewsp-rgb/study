@@ -107,3 +107,11 @@ A four-week Statistics and Probability pass before mocks:
 - **Week 2**: Averages and spread - mean, median, mode, range, IQR. 8 items per day, mixing raw data, grouped data, and "interpret the five-number summary" forms.
 - **Week 3**: Probability - listing sample spaces, single-event probability, two-stage experiments with and without replacement. 8 items per day. Use tree diagrams for any problem with two stages.
 - **Week 4**: Extended-response data handling - 4 items per sitting, with full marks for the table, the graph, the calculation, and the interpretation sentence. Time-bound each item and review against the SEC mark scheme.
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Statistics and Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/junior-cycle/jc-mathematics/)** — browse sibling topics in this subject
+

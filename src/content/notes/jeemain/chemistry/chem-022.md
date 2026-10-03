@@ -244,3 +244,11 @@ Solution: Nitro group is strongly electron-withdrawing by both inductive (–I) 
 Solution: The methoxy group (–OCH₃) is strongly activating and ortho/para-directing because the oxygen donates electron density into the ring via resonance. The resonance structures show negative charge on ortho and para positions, making them electron-rich and attractive to electrophiles. In nitration, steric hindrance disfavours the ortho product; therefore, the para isomer (4-nitroanisole) is the major product. The 4-nitroanisole is more stable due to reduced steric clash between the bulky nitro group and the methoxy group.
 
 ⚡ **JEE Advanced Pro Tip:** When dealing with mixed ether cleavage problems, always remember: alkyl-aryl ethers cleave at the alkyl-oxygen bond (not aryl-oxygen) because the phenyl carbocation is very unstable (requires breaking aromaticity). For symmetrical dialkyl ethers, both C–O bonds are equally weak; with excess HBr, both break to give two equivalents of alkyl bromide. Watch out for peroxide formation in ethers — ethers left open to air form explosive peroxides (RO–O–R); always test before distillation.
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Alcohols Phenol Ether" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeemain/chemistry/)** — browse sibling topics in this subject
+

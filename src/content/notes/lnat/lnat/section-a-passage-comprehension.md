@@ -125,3 +125,11 @@ Once a week, sit a full Section A under the real clock — 12 passages, 42 quest
 ---
 
 *Last updated 2026-09-24. Source: LNAT Consortium Ltd, "Test format", https://lnat.ac.uk/what-is-lnat/test-format/, and the live LNAT practice test, https://lnat.ac.uk/how-to-prepare/practice-test/. The Consortium states Section A is 42 multiple-choice questions based on 12 argumentative passages, with three or four questions on each, in 95 minutes, and the live practice test states the real test offers 4 possible answers per multiple-choice question. Paper structure, multiple-choice count and access arrangements must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your LNAT (National Admissions Test for Law) roadmap](/roadmap/?exam=lnat&duration=1mo)** — see where "Section A — Reading the Passage for What It Says" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lnat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LNAT (National Admissions Test for Law) exam overview](/exams/lnat/)** — pattern, eligibility, and syllabus
+- **[All LNAT notes](/notes/lnat/lnat/)** — browse sibling topics in this subject
+

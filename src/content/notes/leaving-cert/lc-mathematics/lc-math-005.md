@@ -118,3 +118,11 @@ A four-week pre-mock plan for Functions at Higher level:
 - **Week 2**: Work every past paper's maxima/minima question, then every past paper's curve-sketching question. Time each to 8 minutes.
 - **Week 3**: Drill related rates and area-between-curves questions. Identify the relation, apply the calculus, and check the units. Then move to the optimisation items.
 - **Week 4**: Mock-exam week. Solve three past papers under timed conditions; mark against the marking scheme; write the "errors I keep making" list; re-drill those errors specifically. Confirm the live paper pattern on examinations.ie — particularly whether related rates remains in the Higher-level specification.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/leaving-cert/lc-mathematics/)** — browse sibling topics in this subject
+

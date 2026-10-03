@@ -97,3 +97,11 @@ Salaries for computer science graduates in Kenya typically range from KES 60,000
 ## Summary
 
 Cluster 5 (Computer Science) is a high-growth, high-demand cluster suited to students with strong mathematics and science backgrounds. With minimum entry of B in Mathematics, Physics, and a science elective, it is more accessible than the top engineering or medical clusters while offering excellent career prospects in Kenya's expanding tech sector. Success in this cluster requires not just academic performance but also proactive skill development in programming, problem-solving, and industry-relevant certifications.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 5 — Computer Science" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

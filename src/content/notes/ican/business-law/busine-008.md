@@ -216,3 +216,11 @@ Accountants must understand:
 - The accuracy of disclosure in insurance proposals affects claim validity
 - Bank charges and interest are deductible
 - Overdraft interest is deductible; term loan interest is capitalised
+
+## Continue your study
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Insurance Law — Key Principles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/ican/business-law/)** — browse sibling topics in this subject
+

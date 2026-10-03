@@ -262,3 +262,11 @@ The DFC project represents Indian Railways' largest capacity expansion initiativ
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Transport and Communication" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/kpsc/geography/)** — browse sibling topics in this subject
+

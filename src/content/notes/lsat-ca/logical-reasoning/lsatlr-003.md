@@ -101,3 +101,11 @@ Strengthen and weaken items are central to LSAT Logical Reasoning. Confirm the l
 ---
 
 *Last updated 2026-09-20. Source: LSAC, Logical Reasoning, https://www.lsac.org/lsat/taking-lsat/test-format/logical-reasoning. LSAC, LSAT landing page, https://www.lsac.org/lsat. Live section count, item count and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your LSAT (Law School Admission Test) — Canadian applicants roadmap](/roadmap/?exam=lsat-ca&duration=1mo)** — see where "Strengthen and Weaken Items" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lsat-ca&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LSAT (Law School Admission Test) — Canadian applicants exam overview](/exams/lsat-ca/)** — pattern, eligibility, and syllabus
+- **[All Logical Reasoning notes](/notes/lsat-ca/logical-reasoning/)** — browse sibling topics in this subject
+

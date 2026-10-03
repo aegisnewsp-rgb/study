@@ -222,3 +222,11 @@ For C₈H₈O: DBE = (2×8 + 2 – 8)/2 = 5 → suggests a benzene ring (4 DBE) 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Kenyatta University (Kenya) roadmap](/roadmap/?exam=kenyatta-ku&duration=1mo)** — see where "Organic Spectroscopy: IR, ¹H NMR, and UV-Vis Spectroscopy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kenyatta-ku&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Kenyatta University (Kenya) exam overview](/exams/kenyatta-ku/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/kenyatta-ku/chemistry/)** — browse sibling topics in this subject
+

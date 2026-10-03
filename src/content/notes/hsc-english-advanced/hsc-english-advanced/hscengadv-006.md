@@ -84,3 +84,11 @@ This module is examined in HSC Paper 2 Section II. The prescribed text list is p
 ---
 
 *Last updated 2026-09-20. Source: NSW English Advanced 11–12 Syllabus (2024), https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course. Awarding body: NSW Education Standards Authority (NESA). Prescribed text list and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your HSC English Advanced (NESA 2024) roadmap](/roadmap/?exam=hsc-english-advanced&duration=1mo)** — see where "Critical Study of Literature (Year 12)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hsc-english-advanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HSC English Advanced (NESA 2024) exam overview](/exams/hsc-english-advanced/)** — pattern, eligibility, and syllabus
+- **[All English Advanced notes](/notes/hsc-english-advanced/hsc-english-advanced/)** — browse sibling topics in this subject
+

@@ -128,3 +128,11 @@ The mark scheme does not require the candidate to be a film studies graduate. It
 - **The "personal response" failure mode** — slipping from "the writer does X" into "I felt Y". Personal response is not analysing; the two belong in different paragraphs.
 - **The "no anchor" failure mode** — naming a device without quoting a single word or short phrase to anchor it. Without the anchor, the technique mark is forfeit.
 - **The "no context" failure mode** — analysing a passage without ever connecting the device to the writer's context. At Higher level the context mark is what separates H1 from H2.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Analysing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/leaving-cert/lc-english/)** — browse sibling topics in this subject
+

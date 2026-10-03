@@ -103,6 +103,13 @@ Peninsular rivers are **non-perennial**, primarily **rain-fed** with some ground
 
 **Rivers and Water Resources** — Comprehensive KPSC KAS Notes
 
+## Continue your study
+
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Rivers and Water Resources" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/kpsc/geography/)** — browse sibling topics in this subject
+
 ## Water Resource Management: Issues and Projects
 
 ### Inter-State Water Disputes

@@ -173,3 +173,11 @@ Offered primarily at UNILAG and a few other universities. Focuses on media and c
 | Yoruba | Lit, Hist, Gov | 7 | UNILAG, UI |
 | Hausa | Lit, Hist, Gov | 7 | ABU, BUK |
 | Arabic/Islamic Studies | Hist, IS, Lit | 8 | ABU |
+
+## Continue your study
+
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Education and Languages — IJMB Pathways to Teaching and Communication" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
+

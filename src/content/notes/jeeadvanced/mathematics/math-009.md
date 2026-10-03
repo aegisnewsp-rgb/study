@@ -208,3 +208,8 @@ Let $z = 1 + t^3$, then $dz = 3t^2 dt$. Integration proceeds smoothly by parts o
 - **[Differential Equations Notes](/notes/jeeadvanced/mathematics/math-011/)**: Study linear differential equations, integrating factors, and homogeneous forms.
 
 *Content structured across Quick, Standard, and Deep tiers for JEE Advanced mathematics preparation. Verified against syllabus standards.*
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Indefinite Integrals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject

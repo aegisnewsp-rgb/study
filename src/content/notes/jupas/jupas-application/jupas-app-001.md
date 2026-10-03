@@ -107,3 +107,11 @@ Source: JUPAS official site, https://www.jupas.edu.hk/; Application Procedures &
 ---
 
 *Last updated 2026-09-20. Source: JUPAS, https://www.jupas.edu.hk/; Application Procedures & Information, https://www.jupas.edu.hk/en/application-procedures-information/; Calendar, https://www.jupas.edu.hk/en/calendar/. Live JUPAS calendar, application fees, and any in-year changes must be re-checked on jupas.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your JUPAS (Joint University Programmes Admissions System) roadmap](/roadmap/?exam=jupas&duration=1mo)** — see where "JUPAS Account and Application Timeline" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jupas&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JUPAS (Joint University Programmes Admissions System) exam overview](/exams/jupas/)** — pattern, eligibility, and syllabus
+- **[All Application Mechanics notes](/notes/jupas/jupas-application/)** — browse sibling topics in this subject
+

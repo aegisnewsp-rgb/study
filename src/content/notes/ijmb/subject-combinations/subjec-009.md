@@ -190,3 +190,11 @@ Once you graduate with a CS degree from a Nigerian university, the global job ma
 - International companies (Google, Microsoft, Amazon have hiring programmes for African developers)
 - Freelancing (Upwork, Fiverr, Toptal)
 - Your own startup (Nigeria's startup ecosystem is growing rapidly)
+
+## Continue your study
+
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Computer Science, ICT and Information Systems — The IJMB Route" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
+

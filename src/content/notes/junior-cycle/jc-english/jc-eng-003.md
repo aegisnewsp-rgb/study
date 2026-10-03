@@ -112,3 +112,11 @@ A four-week Writing-strand pass before the CBA submission window and the written
 - **Week 2**: CBA portfolio development - compose or revise at least one portfolio piece per day, with a 100-word reflection on what was learned. Build a habit of reflection rather than leaving it to the submission window.
 - **Week 3**: Register and craft practice - take a single piece of writing and rewrite it in three different registers (formal, conversational, persuasive). Notice the vocabulary, sentence structure, and tone shifts required.
 - **Week 4**: Past SEC specimen papers on the Writing strand. Mark strictly against the rubric on examinations.ie and identify which marks are for purpose/audience, which are for structure, and which are for craft.
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Writing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/junior-cycle/jc-english/)** — browse sibling topics in this subject
+

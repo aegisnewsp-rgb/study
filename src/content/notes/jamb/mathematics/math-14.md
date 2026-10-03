@@ -172,3 +172,11 @@ $w = 8$ m (width), length = $12$ m
 - 2024: Quadratic inequalities
 
 ⚡ **Exam Strategy:** When asked "find the range of values of $x$" for a quadratic inequality, first solve the equality, then use sign testing or sketch the parabola. Remember: if $a > 0$, the parabola opens upward, so the expression is negative between the roots.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Quadratic Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+

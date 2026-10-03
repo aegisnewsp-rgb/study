@@ -101,3 +101,8 @@ IBPS PO frequently tests one dam-river-state triplet. Memorize the columns toget
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your IBPS PO roadmap](/roadmap/?exam=ibps-po&duration=1mo)** — see where "Static GK — Important Facts About India & the World" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS PO exam overview](/exams/ibps-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-po/general-awareness/)** — browse sibling topics in this subject

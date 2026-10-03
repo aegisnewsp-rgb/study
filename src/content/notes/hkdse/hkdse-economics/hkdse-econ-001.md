@@ -143,3 +143,11 @@ Compulsory Part Topic A (Basic Economic Concepts). HKDSE Economics Assessment Fr
 ---
 
 *Last updated 2026-09-20. Source: HKDSE Economics Assessment Framework, https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/econ/2026hkdse-e-econ.pdf; CDC/HKEAA Economics Curriculum and Assessment Guide (Secondary 4 - 6), https://www.edb.gov.hk/attachment/en/curriculum-development/kla/pshe/Econ_C&A_Guide_E_with_updates_in_2025.pdf. Live assessment framework and any in-year specification changes must be re-checked on hkeaa.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Hong Kong Diploma of Secondary Education (HKDSE) roadmap](/roadmap/?exam=hkdse&duration=1mo)** — see where "A. Basic Economic Concepts" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hkdse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Hong Kong Diploma of Secondary Education (HKDSE) exam overview](/exams/hkdse/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/hkdse/hkdse-economics/)** — browse sibling topics in this subject
+

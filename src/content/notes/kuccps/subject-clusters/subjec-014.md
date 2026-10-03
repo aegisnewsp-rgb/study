@@ -102,3 +102,11 @@ Starting salaries for journalists at major media houses range from KES 30,000 to
 ## Summary
 
 Cluster 14 (Journalism and Media) is a dynamic and exciting cluster for students passionate about storytelling, communication, and information. With B plain minimums in English, Literature, and History/Geography, it is accessible to arts-focused students with strong language skills. Kenya's vibrant media environment — spanning broadcast, print, digital, and social platforms — offers diverse career opportunities for well-trained journalists and communicators. Success in this cluster requires not just academic credentials but also practical media skills, ethical grounding, and active engagement with the media industry.
+
+## Continue your study
+
+- **[View this topic in your KUCCPS (Kenya) roadmap](/roadmap/?exam=kuccps&duration=1mo)** — see where "Cluster 14 — Journalism and Media" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuccps&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KUCCPS (Kenya) exam overview](/exams/kuccps/)** — pattern, eligibility, and syllabus
+- **[All Subject Clusters notes](/notes/kuccps/subject-clusters/)** — browse sibling topics in this subject
+

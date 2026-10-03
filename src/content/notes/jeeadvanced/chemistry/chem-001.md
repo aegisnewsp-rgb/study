@@ -253,3 +253,11 @@ Ratio C:H:O = 0.01:0.02:0.01 = 1:2:1 → Empirical formula = CH₂O
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Some Basic Concepts" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeeadvanced/chemistry/)** — browse sibling topics in this subject
+

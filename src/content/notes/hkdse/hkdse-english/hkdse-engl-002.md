@@ -115,3 +115,11 @@ Paper 2 Writing (25%, 2 hours). Part A short guided task ~200 words (10%). Part 
 ---
 
 *Last updated 2026-09-20. Source: HKDSE English Language Assessment Framework, https://www.hkeaa.edu.hk/DocLibrary/HKDSE/Subject_Information/eng_lang/2026hkdse-e-elang.pdf. Live paper pattern, the Part A/B structure, the SBA Handbook and any in-year specification changes must be re-checked on hkeaa.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Hong Kong Diploma of Secondary Education (HKDSE) roadmap](/roadmap/?exam=hkdse&duration=1mo)** — see where "Paper 2 — Writing (25%, 2 hours)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hkdse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Hong Kong Diploma of Secondary Education (HKDSE) exam overview](/exams/hkdse/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/hkdse/hkdse-english/)** — browse sibling topics in this subject
+

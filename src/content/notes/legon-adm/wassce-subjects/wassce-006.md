@@ -161,3 +161,11 @@ Paper 2: Typically one trigonometry question in Section A involving: (a) problem
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Legon Admissions (Ghana) roadmap](/roadmap/?exam=legon-adm&duration=1mo)** — see where "Geometry and Trigonometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=legon-adm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Legon Admissions (Ghana) exam overview](/exams/legon-adm/)** — pattern, eligibility, and syllabus
+- **[All Wassce-Subjects notes](/notes/legon-adm/wassce-subjects/)** — browse sibling topics in this subject
+

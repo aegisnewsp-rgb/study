@@ -111,3 +111,11 @@ A practical edge case for the new specification is the podcast or TED-style talk
 - **Biographical context** — knowing the writer's life story is not the same as understanding the context of the text. Examiners credit the second.
 - **Forgetting the question stem** — re-read it after every paragraph and check the answer is still on point. Drifting off-question is the most common reason a script drops a grade.
 - **Under-quoting at Higher level** — three short, precise quotations per comparative paragraph is the floor; one long quotation is rarely enough to anchor an argument.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Exploring" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/leaving-cert/lc-english/)** — browse sibling topics in this subject
+

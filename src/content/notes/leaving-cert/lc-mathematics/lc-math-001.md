@@ -105,3 +105,11 @@ A four-week pre-mock plan for Statistics and Probability at Higher level:
 - **Week 2**: Drill the binomial and normal tables. Cover the four table-lookup variants: P(X ≤ k), P(X ≥ k), find x given P(X ≤ x) = p, and find x given P(X ≥ x) = p.
 - **Week 3**: Work through every Higher-level past paper's Question 7 or 8 (whichever the SEC places statistics on that year) under timed conditions. Confirm the live paper pattern on examinations.ie before committing a slot.
 - **Week 4**: Mock-exam week. Solve three past papers under exam conditions; mark yourself against the published marking scheme; write a one-page "errors I keep making" list, then re-drill those errors specifically.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Statistics and Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/leaving-cert/lc-mathematics/)** — browse sibling topics in this subject
+

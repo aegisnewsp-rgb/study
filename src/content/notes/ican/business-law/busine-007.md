@@ -172,3 +172,11 @@ If a cheque is altered (e.g., the amount is raised) after the drawer's signature
 - A blank endorsement turns a special bill into a bearer bill — anyone in possession can enforce
 - A holder in due course takes free from the defence that the drawer was drunk when they drew the bill
 - Crossing a cheque restricts its negotiability — it can only go through a bank account
+
+## Continue your study
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Law of Negotiable Instruments: Bills, Notes, and Cheques" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/ican/business-law/)** — browse sibling topics in this subject
+

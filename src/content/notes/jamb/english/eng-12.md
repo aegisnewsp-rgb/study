@@ -417,6 +417,13 @@ Negative words in the statement (never, hardly, nothing) make the tag positive.
 
 ---
 
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Question Tags and Short Answers" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
+
 ## Quick Reference Summary
 
 | Statement Type | Tag Example | Key Rule |

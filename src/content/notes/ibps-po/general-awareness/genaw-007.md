@@ -186,3 +186,11 @@ Union Budget: Finance Minister presents on February 1 each year (since 2017; ear
 - 50-year interest-free loan to states for capital expenditure (2023)
 - PM Vishwakarma (2023): Skill India digital platform
 - Digital payment incentives for merchants using BHIM-UPI
+
+## Continue your study
+
+- **[View this topic in your IBPS PO roadmap](/roadmap/?exam=ibps-po&duration=1mo)** — see where "Indian Economy — Key Concepts & Macroeconomic Indicators" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS PO exam overview](/exams/ibps-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-po/general-awareness/)** — browse sibling topics in this subject
+

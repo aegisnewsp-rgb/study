@@ -106,3 +106,11 @@ The *individual* text is the candidate's opportunity to demonstrate *depth*. The
 - **The "long quotation" failure mode** — quoting six lines when one short phrase would do. Comparative answers earn marks for *precision*, not for length of quotation.
 - **The "no synthesis" failure mode** — ending the comparative answer with a summary of each text rather than a synthesis sentence. The synthesis mark is the easiest recoverable mark on the section.
 - **The "studied individually text forgotten" failure mode** — writing the comparative section as if all four texts were in the comparative frame, ignoring that the specification asks for *three* comparative and *one* individual. Confirm the live brief each year.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Comparing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/leaving-cert/lc-english/)** — browse sibling topics in this subject
+

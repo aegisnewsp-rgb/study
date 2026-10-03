@@ -109,3 +109,11 @@ Calculate E for the cell Fe|Fe²⁺(0.01 M)||Cu²⁺(0.1 M)|Cu at 298 K.
 2. How many grams of aluminium are deposited by 5,000 C passing through molten Al₂O₃? (M_Al = 27 g mol⁻¹, n = 3)
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Makerere University (Uganda) roadmap](/roadmap/?exam=makerere-ent&duration=1mo)** — see where "Electrochemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=makerere-ent&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Makerere University (Uganda) exam overview](/exams/makerere-ent/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/makerere-ent/chemistry/)** — browse sibling topics in this subject
+

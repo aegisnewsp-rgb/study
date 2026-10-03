@@ -157,3 +157,11 @@ Standard requirement — 5 credits in SSCE/WAEC/NECO including:
 | UNILAG | Public Administration | 9 | Econ, Gov, Hist |
 | UNIBEN | Public Administration | 8 | Econ, Gov, Hist |
 | ABU | Public Administration | 8 | Econ, Gov, Hist |
+
+## Continue your study
+
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Administration and Management Sciences Through IJMB" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
+

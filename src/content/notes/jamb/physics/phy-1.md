@@ -157,3 +157,11 @@ $[v] = LT^{-1}$, $[a] = LT^{-2}$, $[s] = L$. The equation $v^2 = u^2 + 2as$ is d
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Motion in One Dimension" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/jamb/physics/)** — browse sibling topics in this subject
+

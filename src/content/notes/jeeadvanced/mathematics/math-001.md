@@ -190,3 +190,11 @@ Proof: Suppose $(g \circ f)(x_1) = (g \circ f)(x_2)$. Then $g(f(x_1)) = g(f(x_2)
 **Lattice Concepts:** A lattice is a partially ordered set where any two elements have a unique greatest lower bound (meet) and least upper bound (join). Example: $(\mathbb{N}, |)$ where $a | b$ means $a$ divides $b$, with $\gcd(a,b)$ as meet and $\operatorname{lcm}(a,b)$ as join.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Sets Relations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
+

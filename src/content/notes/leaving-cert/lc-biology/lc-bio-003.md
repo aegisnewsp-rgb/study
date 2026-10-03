@@ -155,3 +155,11 @@ A candidate who can describe the steps in order and name an example neurotransmi
 - **The "ATP is energy" trap** — saying "ATP is energy" without explaining that ATP is the *molecule that carries energy*. The mark scheme reads for the structure-function link.
 - **The "veins carry oxygenated blood" trap** — forgetting that the pulmonary vein carries oxygenated blood while most other veins carry deoxygenated blood. The exception is a mark.
 - **The "all nerves are the same" trap** — confusing sensory, motor and interneurons. The mark scheme reads for the *direction* of the nerve impulse.
+
+## Continue your study
+
+- **[View this topic in your Leaving Certificate (Established) roadmap](/roadmap/?exam=leaving-cert&duration=1mo)** — see where "Structures and Processes of Life" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=leaving-cert&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Leaving Certificate (Established) exam overview](/exams/leaving-cert/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/leaving-cert/lc-biology/)** — browse sibling topics in this subject
+

@@ -18,6 +18,13 @@ diagramPrompt: "Matrix diagram showing 2x2 and 3x3 matrix structures with labele
 
 ---
 
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Matrices and Determinants" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+
 ## Quick Reference
 
 - **Determinant of 2×2:** For $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$, $|A| = ad - bc$

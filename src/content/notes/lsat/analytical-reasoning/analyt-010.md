@@ -265,3 +265,11 @@ For mixed games, handle each dimension separately first, then combine deductions
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your LSAT India roadmap](/roadmap/?exam=lsat&duration=1mo)** — see where "Grouping Games & Classification" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lsat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LSAT India exam overview](/exams/lsat/)** — pattern, eligibility, and syllabus
+- **[All Analytical-Reasoning notes](/notes/lsat/analytical-reasoning/)** — browse sibling topics in this subject
+

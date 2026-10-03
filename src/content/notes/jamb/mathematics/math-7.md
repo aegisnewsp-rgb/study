@@ -162,3 +162,11 @@ Substitute the line equation into the circle equation, then solve the resulting 
 - 2024: Perpendicular bisector as a locus
 
 ⚡ **Exam Strategy:** For "find the equation of" problems, always identify the gradient first. For locus problems, use the distance formula method: express the condition algebraically, then simplify.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Coordinate Geometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+

@@ -108,3 +108,11 @@ A four-week Oral Language pass before the CBA submission window and the written 
 - **Week 2**: Group discussion practice - run two mock discussions per week with peers, each on a different controversial topic from the CBA brief. Practice building on others' points and acknowledging them by name.
 - **Week 3**: Presentation preparation - draft two presentations on topics from the CBA brief, time each to within the word count, and record yourself. Review for pace, filler words, and structure.
 - **Week 4**: Past listening-comprehension items from the SEC specimen papers. Mark strictly against the rubric and identify which marks are for direct recall, which are for inference, and which are for analytical interpretation.
+
+## Continue your study
+
+- **[View this topic in your Junior Cycle roadmap](/roadmap/?exam=junior-cycle&duration=1mo)** — see where "Oral Language" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=junior-cycle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Junior Cycle exam overview](/exams/junior-cycle/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/junior-cycle/jc-english/)** — browse sibling topics in this subject
+

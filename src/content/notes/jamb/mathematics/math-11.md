@@ -158,3 +158,11 @@ Check: $\sum P(X=x) = \frac{1}{8} + \frac{3}{8} + \frac{3}{8} + \frac{1}{8} = 1$
 - 2023: Multiplication rule with dependent events
 
 ⚡ **Exam Strategy:** Draw a tree diagram for multi-step probability problems. Label every branch with its probability. Multiply along branches for "AND" events, add for "OR" events at a given node.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
+

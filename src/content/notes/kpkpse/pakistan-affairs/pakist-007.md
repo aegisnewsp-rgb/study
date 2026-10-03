@@ -165,3 +165,11 @@ For KPK PMS, candidates should focus on:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your KPK PMS roadmap](/roadmap/?exam=kpkpse&duration=1mo)** — see where "Land and People of Pakistan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpkpse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPK PMS exam overview](/exams/kpkpse/)** — pattern, eligibility, and syllabus
+- **[All Pakistan Affairs notes](/notes/kpkpse/pakistan-affairs/)** — browse sibling topics in this subject
+

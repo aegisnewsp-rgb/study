@@ -106,3 +106,11 @@ In formal English, "if" can be replaced by were, had, or should at the start:
 | If I will be there | If I am there |
 
 ⚡ **Previous Year JAMB Focus:** Conditional sentence MCQs appear in the Use of English grammar section (60 marks). The most common question format asks students to identify the correct auxiliary for each conditional type. JAMB frequently tests the Type 1 rule about NOT using "will" after "if." Type 3 (past unreal conditionals) with the Past Perfect + would have pattern is also frequently tested.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Conditional Sentences" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
+

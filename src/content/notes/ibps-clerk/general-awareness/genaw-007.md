@@ -182,3 +182,11 @@ Companies opting for the new regime may pay at 22% with no exemptions/deductions
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your IBPS Clerk roadmap](/roadmap/?exam=ibps-clerk&duration=1mo)** — see where "Budget and Taxation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS Clerk exam overview](/exams/ibps-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-clerk/general-awareness/)** — browse sibling topics in this subject
+

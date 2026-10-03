@@ -173,3 +173,11 @@ Karnataka has an impressive network of museums that preserve its historical, arc
 ## Conclusion
 
 Karnataka's cultural heritage is an extraordinary confluence of ancient traditions, royal patronage, and living art forms. For the KPSC KAS examination, the key focus areas include: **Mysore Dasara** and its historical origins, the **Yakshagana performance structure and regional variations**, **puppet theatre traditions (Bhoothakaththi, Soolini)**, major **forts and their historical significance**, and prominent **museums and their collections**. Karnataka's **intangible cultural heritage** — Yakshagana, puppetry, and folk traditions — reflects the vibrancy of its cultural identity and remains a favourite area for KPSC descriptive and multiple-choice questions alike.
+
+## Continue your study
+
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Karnataka Cultural Heritage: Fairs, Festivals, Yakshagana, Puppet Shows, Forts, and Museums" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Karnataka-Specific notes](/notes/kpsc/karnataka-specific/)** — browse sibling topics in this subject
+

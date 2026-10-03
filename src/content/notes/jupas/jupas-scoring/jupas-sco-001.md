@@ -113,3 +113,11 @@ Source: 2025 JUPAS Admissions Scores of 9 JUPAS Participating Institutions, http
 ---
 
 *Last updated 2026-09-20. Source: JUPAS 2025 JUPAS Admissions Scores report, https://www.jupas.edu.hk/f/page/3667/af_2025_JUPAS.pdf; JUPAS, https://www.jupas.edu.hk/. Live JUPAS score conversion table and any in-year changes must be re-checked on jupas.edu.hk before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your JUPAS (Joint University Programmes Admissions System) roadmap](/roadmap/?exam=jupas&duration=1mo)** — see where "HKDSE Score Conversion Table (2025 entry onwards)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jupas&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JUPAS (Joint University Programmes Admissions System) exam overview](/exams/jupas/)** — pattern, eligibility, and syllabus
+- **[All Admission Scoring notes](/notes/jupas/jupas-scoring/)** — browse sibling topics in this subject
+

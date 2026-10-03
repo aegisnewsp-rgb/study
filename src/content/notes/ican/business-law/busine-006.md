@@ -184,3 +184,11 @@ Partnership disputes can be referred to arbitration if the partnership agreement
 
 **ICAN Practical Focus:**
 Accountants frequently encounter partnerships in practice — particularly in audit and assurance engagements. Understanding the liability of partners, the rules on dissolution, and the priority of payment of partnership debts is essential for advising clients who are partners or considering forming a partnership.
+
+## Continue your study
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Forms of Business Organisation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/ican/business-law/)** — browse sibling topics in this subject
+

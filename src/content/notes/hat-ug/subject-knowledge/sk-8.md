@@ -82,3 +82,11 @@ A pea plant heterozygous for height (Tt) and seed shape (Rr) is test-crossed wit
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your HAT-UG (HEC Aptitude Test - Undergraduate) roadmap](/roadmap/?exam=hat-ug&duration=1mo)** — see where "Biology: Cell and Genetics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hat-ug&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAT-UG (HEC Aptitude Test - Undergraduate) exam overview](/exams/hat-ug/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/hat-ug/subject-knowledge/)** — browse sibling topics in this subject
+

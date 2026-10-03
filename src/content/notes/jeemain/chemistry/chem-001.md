@@ -215,3 +215,11 @@ e 1\,	ext{g/mL}$), they diverge sharply. Always use $1000\,d - M \cdot M_B$ in t
 
 ---
 *For interactive question banks and comprehensive revision roadmaps, explore the [/exams/jeemain/](/exams/jeemain/) portal.*
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Some Basic Concepts of Chemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeemain/chemistry/)** — browse sibling topics in this subject
+

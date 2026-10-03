@@ -140,3 +140,11 @@ Section B of the LNAT is one essay chosen from three questions, written in 40 mi
 ---
 
 *Last updated 2026-09-24. Source: LNAT Consortium Ltd, "Test format", https://lnat.ac.uk/what-is-lnat/test-format/, and the live LNAT practice test, https://lnat.ac.uk/how-to-prepare/practice-test/. The Consortium states Section B is one essay chosen from three questions, in 40 minutes, marked on the ability to argue economically and to come to a conclusion, and the official guidance recommends a maximum of 750 words, ideally about 500 to 600. Paper structure, essay counts and access arrangements must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your LNAT (National Admissions Test for Law) roadmap](/roadmap/?exam=lnat&duration=1mo)** — see where "Section B — Planning Under 40 Minutes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lnat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LNAT (National Admissions Test for Law) exam overview](/exams/lnat/)** — pattern, eligibility, and syllabus
+- **[All LNAT notes](/notes/lnat/lnat/)** — browse sibling topics in this subject
+

@@ -105,3 +105,11 @@ IPCC's **AR6 Synthesis Report (2023)** and the outcomes of **COP28** (Dubai, 202
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "Science and Technology News" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All Current Affairs notes](/notes/lat/current-affairs/)** — browse sibling topics in this subject
+

@@ -102,3 +102,11 @@ Rhetoric (Balagha) and literary devices is the fifth terminal-level domain of th
 ---
 
 *Last updated 2026-09-20. Source: Kuwait MOE Arabic curriculum, https://www.moe.edu.kw/, with topic structure cross-checked against the State of Kuwait curriculum review hosted on abegs.org, https://cdn-files.abegs.org/abegs-marsad-prod/uploads/858632c1-3623-4790-a595-f11d80e5f4ef.pdf. Terminal paper pattern and any in-year specification changes must be re-checked on the official MOE site before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Kuwait Secondary Certificate (Thanawiya Amma) roadmap](/roadmap/?exam=kuwait-secondary-certificate&duration=1mo)** — see where "Rhetoric (Balagha) and Literary Devices" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kuwait-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Kuwait Secondary Certificate (Thanawiya Amma) exam overview](/exams/kuwait-secondary-certificate/)** — pattern, eligibility, and syllabus
+- **[All Arabic Language notes](/notes/kuwait-secondary-certificate/ksc-arabic/)** — browse sibling topics in this subject
+

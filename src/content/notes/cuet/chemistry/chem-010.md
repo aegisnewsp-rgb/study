@@ -97,3 +97,11 @@ $= [-393.5 + 2(-285.8)] - [-74.8 + 0] = -965.1 + 74.8 = -890.3$ kJ/mol.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Thermodynamics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/cuet/chemistry/)** — browse sibling topics in this subject
+

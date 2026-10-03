@@ -154,3 +154,11 @@ Sri Lanka A/L English essays require:
 | The Great Chain of Being | Hierarchical cosmic order from God to lowest creatures |
 | Anti-Petrarchan | Debunking the exaggerated love metaphors of Petrarchan tradition |
 | Tragic structure | Movement from order → disruption → catastrophe |
+
+## Continue your study
+
+- **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "Shakespeare & Elizabethan Drama" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[All Arts-Stream notes](/notes/al-exam/arts-stream/)** — browse sibling topics in this subject
+

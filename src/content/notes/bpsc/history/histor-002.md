@@ -180,6 +180,13 @@ After Kalinga, Ashoka embraced Buddhism. His **Dhamma** (Pali for dharma) was no
 - Dhamma Mahamatras were appointed to implement these principles
 - Compared to modern welfare state: hospitals for humans and animals, roads with shade trees, wells
 
+## Continue your study
+
+- **[View this topic in your BPSC roadmap](/roadmap/?exam=bpsc&duration=1mo)** — see where "Mauryan & Gupta Empire" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=bpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/bpsc/history/)** — browse sibling topics in this subject
+
 ## Literary Sources for Mauryan and Gupta Period
 - **Megasthenes' Indica** — Mauryan court, seven castes/councils, city of Pataliputra
 - **Arthashastra** — statecraft, administration, economy

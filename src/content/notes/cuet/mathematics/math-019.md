@@ -80,3 +80,11 @@ lastUpdated: 2026-03-29
 
 *Challenging solved example:* Show that the function f(x) = x³ − 3x² + 6x − 4 is strictly increasing on ℝ.
 - Compute f'(x) = 3x² − 6x + 6 = 3(x² − 2x + 2) = 3[(x − 1)² + 1] > 0 for all x ∈ ℝ. Since f'(x) > 0 everywhere, f is strictly increasing on ℝ. The quadratic (x − 1)² + 1 has discriminant Δ = (−2)² − 4(1)(2) = 4 − 8 = −4 < 0, confirming it is always positive.
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Differentiation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/cuet/mathematics/)** — browse sibling topics in this subject
+

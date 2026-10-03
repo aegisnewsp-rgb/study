@@ -154,3 +154,11 @@ Progressive, irreversible loss of renal function over months to years. Most comm
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your HAAD (UAE) roadmap](/roadmap/?exam=haad&duration=1mo)** — see where "Medical-Surgical Nursing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=haad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAAD (UAE) exam overview](/exams/haad/)** — pattern, eligibility, and syllabus
+- **[All Nursing notes](/notes/haad/nursing/)** — browse sibling topics in this subject
+

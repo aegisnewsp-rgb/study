@@ -135,3 +135,11 @@ In narrative and scientific writing, maintain consistent tense unless time shift
 - Subject-verb agreement with complex subjects (as well as, together with, etc.): periodic
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Sentence Structure and Construction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/ecat/english/)** — browse sibling topics in this subject
+

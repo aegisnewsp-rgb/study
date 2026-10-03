@@ -156,3 +156,11 @@ Some countries use PEDMAS (Parentheses, Exponents, Division, Multiplication, Add
 - **Percentage operations in sequence:** Applying successive percentage changes is NOT additive. A 10% increase followed by a 20% increase is NOT a 30% increase — it's a 1.10 × 1.20 = 1.32 = 32% total increase. Always multiply the multipliers, never add percentages blindly.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Simplification & BODMAS" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude (Quantitative) notes](/notes/gate/quantitative-aptitude/)** — browse sibling topics in this subject
+

@@ -100,3 +100,11 @@ In a large, randomly mating population with no selection, migration, or mutation
 2. In pea plants, tall (T) is dominant over short (t). A test cross yields 212 tall and 188 short progeny. What is the genotype of the tall parent, and why?
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Genetics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/fmge/pathology/)** — browse sibling topics in this subject
+

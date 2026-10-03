@@ -164,3 +164,11 @@ Answer: (B) **Despite of** → **Despite** — "Despite" is a preposition that t
 - "Who/Whom": In modern usage, "who" is increasingly acceptable even in the objective case. GATE typically follows traditional grammar: "Whoever you choose" (subject) vs "Whomever you select" (object) — though the latter sounds unnatural to most ears.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Spotting Errors (Grammar)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Verbal Ability notes](/notes/gate/verbal-ability/)** — browse sibling topics in this subject
+

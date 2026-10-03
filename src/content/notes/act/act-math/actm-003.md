@@ -94,3 +94,11 @@ Consistent mastery requires deliberate retrieval practice:
 - **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
 - **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
 - **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+
+## Continue your study
+
+- **[View this topic in your ACT roadmap](/roadmap/?exam=act&duration=1mo)** — see where "Higher Math: Functions and Graph Transformations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=act&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACT exam overview](/exams/act/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/act/act-math/)** — browse sibling topics in this subject
+

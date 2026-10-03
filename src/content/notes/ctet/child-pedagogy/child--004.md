@@ -93,3 +93,11 @@ Carol Gilligan, a student of Kohlberg, argued that his theory was gender-biased.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Kohlberg's Theory of Moral Development" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/ctet/child-pedagogy/)** — browse sibling topics in this subject
+

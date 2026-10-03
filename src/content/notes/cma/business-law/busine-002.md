@@ -305,3 +305,11 @@ Buyer's damages  = Market Price − Contract Price (at date of breach)
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CMA Foundation roadmap](/roadmap/?exam=cma&duration=1mo)** — see where "The Sale of Goods Act, 1930" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/cma/business-law/)** — browse sibling topics in this subject
+

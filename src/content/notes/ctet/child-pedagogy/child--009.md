@@ -258,3 +258,11 @@ In India, socioeconomic and cultural differences significantly affect learning:
 **Answer Key:** 1(b), 2(b), 3(b), 4(b), 5(b)
 
 No two children are alike — and that is not a problem to be fixed, but a reality to be celebrated and addressed. A skilled teacher recognizes individual differences, adapts instruction, and ensures that every child — regardless of their starting point — has the opportunity to learn and succeed.
+
+## Continue your study
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Individual Differences" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/ctet/child-pedagogy/)** — browse sibling topics in this subject
+

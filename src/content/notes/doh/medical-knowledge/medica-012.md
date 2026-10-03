@@ -135,3 +135,11 @@ Pain is one of the most common reasons patients seek healthcare, and adequate pa
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your DOH (UAE) roadmap](/roadmap/?exam=doh&duration=1mo)** — see where "Pain Assessment and Management" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=doh&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
+- **[All Medical-Knowledge notes](/notes/doh/medical-knowledge/)** — browse sibling topics in this subject
+

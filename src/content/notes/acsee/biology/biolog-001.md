@@ -179,3 +179,11 @@ Answers:
 4. **Confusing turgid and turgor pressure.** Turgid is the adjective (a turgid cell). Turgor pressure is the variable $\Psi_p$ inside the cell.
 5. **Halving the chromosome number at the wrong stage of meiosis.** Homologous chromosomes separate in anaphase I; sister chromatids separate in anaphase II. Halving happens at the end of meiosis I, not meiosis II. Some textbooks describe the ploidy as "n" after meiosis I and confirm "n" after meiosis II — but the chromatid count changes from 2N to N equivalents between the two meiotic divisions, which is the trick.
 6. **Writing "ATP is made in the mitochondria".** The citric acid cycle in the matrix makes NADH and FADH₂; ATP is made on the inner membrane by ATP synthase using the proton gradient (oxidative phosphorylation). The substrate-level ATP from the matrix is a small fraction. Markers want you to localise the steps.
+
+## Continue your study
+
+- **[View this topic in your ACSEE (Tanzania) roadmap](/roadmap/?exam=acsee&duration=1mo)** — see where "Cytology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=acsee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACSEE (Tanzania) exam overview](/exams/acsee/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/acsee/biology/)** — browse sibling topics in this subject
+

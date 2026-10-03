@@ -100,3 +100,11 @@ Four quantum numbers describe each electron in an atom:
 Pauli exclusion principle: no two electrons in an atom can have the same set of all four quantum numbers. This is why electrons fill shells and subshells in a specific order, leading to the periodic table's structure.
 
 **⚡ ECAT Pattern:** ECAT frequently tests: (1) calculating the wavelength of emitted light from hydrogen using the Rydberg formula 1/λ = R_H(1/n_f² - 1/n_i²); (2) identifying which series (Lyman, Balmer, Paschen) a given wavelength belongs to; (3) Bohr radius calculation; (4) energy level diagrams; and (5) ionisation energy calculations. A typical ECAT question: "Calculate the wavelength of the photon emitted when an electron in hydrogen jumps from n = 4 to n = 2." 1/λ = R_H(1/4 - 1/16) = R_H × 3/16 → λ = 16/(3R_H) = 16/(3 × 1.097 × 10⁷) = 486 nm (this is the blue-green line of the Balmer series, known as H-β).
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Atomic Spectra and Bohr Model" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/ecat/physics/)** — browse sibling topics in this subject
+

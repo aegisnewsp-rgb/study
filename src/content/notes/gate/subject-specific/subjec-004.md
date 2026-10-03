@@ -274,3 +274,11 @@ Air at 300 K flows over a flat plate at 350 K with $h = 50$ W/m²·K and $\varep
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Heat Transfer — Convection and Radiation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Subject-Specific notes](/notes/gate/subject-specific/)** — browse sibling topics in this subject
+

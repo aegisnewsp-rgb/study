@@ -94,3 +94,11 @@ Consistent mastery requires deliberate retrieval practice:
 - **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
 - **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
 - **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+
+## Continue your study
+
+- **[View this topic in your Digital SAT roadmap](/roadmap/?exam=digital-sat&duration=1mo)** — see where "Advanced Math: Quadratic Equations and Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=digital-sat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Digital SAT exam overview](/exams/digital-sat/)** — pattern, eligibility, and syllabus
+- **[All Math notes](/notes/digital-sat/sat-math/)** — browse sibling topics in this subject
+

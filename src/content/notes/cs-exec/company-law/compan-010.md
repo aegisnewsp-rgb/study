@@ -466,3 +466,11 @@ NCLT examines the petition and may:
 5. **Assuming the common seal is always required for company documents** — The common seal is required only for documents that create or evidence legal obligations (share certificates, debentures, contracts). Routine letters and emails do not require it.
 6. **Forgetting that alteration of object clause requires newspaper publication** — This is a key procedural requirement that many students miss. Form INC-23 requires the company to publish a newspaper notice (vernacular + English) within 7 days of filing.
 7. **Confusing the grounds for investigation with the grounds for winding up** — Investigation (Section 210) requires evidence of fraud or irregularity. Winding up (Section 271) requires inability to pay debts or other specific grounds. They are not interchangeable.
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Company Law Miscellaneous" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Company Law notes](/notes/cs-exec/company-law/)** — browse sibling topics in this subject
+

@@ -93,3 +93,11 @@ The standard hydrogen electrode (SHE) is the primary reference: 2H⁺(aq) + 2e�
 *Lithium-ion battery:* State-of-the-art rechargeable battery. Anode: LiCoO₂ (layered oxide, Li⁺ can intercalate between layers). Cathode: graphite with intercalated Li⁺. During discharge, Li⁺ moves from anode to cathode through electrolyte; electrons flow externally. The reverse happens during charging. High energy density (why phones are thin), but degrades over time because Li⁺ gets trapped in dead zones on the electrodes.
 
 **⚡ ECAT Pattern:** ECAT chemistry frequently tests: (1) writing cell reactions from half-reactions and calculating E°_cell; (2) using the Nernst equation with numerical concentrations to calculate non-standard E; (3) Faraday's law calculations for electroplating; (4) predicting whether a given redox reaction is spontaneous; and (5) ranking oxidising/reducing agents by E° values. A typical ECAT question: "Calculate E for the cell Cu(s) | Cu²⁺(0.01 M) || Ag⁺(0.1 M) | Ag(s) at 25°C. Given E°(Cu²⁺/Cu) = +0.34 V, E°(Ag⁺/Ag) = +0.80 V." E°_cell = 0.80 - 0.34 = +0.46 V. Q = [Cu²⁺]/[Ag⁺]² = 0.01/0.01 = 1. But wait — silver is Ag⁺ + e⁻ → Ag (n=1), copper is Cu²⁺ + 2e⁻ → Cu (n=2), overall n=2. E = 0.46 - (0.0592/2) log(0.01/0.01) = 0.46 - 0 = 0.46 V. If the concentrations differed, we'd see the correction.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Electrochemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat/chemistry/)** — browse sibling topics in this subject
+

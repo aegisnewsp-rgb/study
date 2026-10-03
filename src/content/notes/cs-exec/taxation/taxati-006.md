@@ -262,6 +262,13 @@ The exemption is limited to the **amount invested** in equity shares of the star
 
 ---
 
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Tax Planning & Management" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Taxation notes](/notes/cs-exec/taxation/)** — browse sibling topics in this subject
+
 ## 7. Tax Planning with Reference to Financial Decisions
 
 ### 7.1 Capital Structure Planning — Debt vs Equity

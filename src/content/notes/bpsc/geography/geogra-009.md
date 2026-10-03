@@ -296,3 +296,11 @@ Answer: The Indian monsoon is caused by differential heating of land (Siberian h
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your BPSC roadmap](/roadmap/?exam=bpsc&duration=1mo)** — see where "India: Climate, Soils and Natural Vegetation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=bpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/bpsc/geography/)** — browse sibling topics in this subject
+

@@ -342,3 +342,11 @@ When NCLT passes an order under Sections 241-242, it can:
 5. **Forgetting the 2-year look-back for preference dividend arrears and voting rights** — Preference shareholders who have not received 2 years of cumulative dividends regain voting rights. This is frequently tested.
 6. **Confusing NCLT and NCLAT jurisdictions** — Oppression and mismanagement petitions go to NCLT. Appeals against NCLT orders go to NCLAT. This distinction matters for both legal practice and exam questions.
 7. **Assuming Section 244 (75% ratification) always defeats a petition** — Even if 75% ratify, NCLT can still intervene if the ratification was obtained by oppression, fraud, or suppression of information.
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Corporate Governance & Oppression & Mismanagement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Company Law notes](/notes/cs-exec/company-law/)** — browse sibling topics in this subject
+

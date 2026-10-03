@@ -376,3 +376,11 @@ Share Forfeiture A/c      Dr.    [Discount given, up to amount forfeited]
 5. **Failing to register a charge within 30 days** — If the 30-day window is missed, the charge is void against the liquidator. Late registration cannot cure the defect. If the charge was created before 30 days elapsed, the secured creditor loses priority.
 6. **Confusing stock split with bonus issue** — Stock split does NOT involve reserves; it merely divides existing capital into smaller-denomination shares. Bonus issue involves issuing new shares from capitalised reserves.
 7. **Forgetting that sweat equity shares are locked in for 3 years** — The lock-in applies from the date of allotment, not from the date of exercise. Know this for questions about when such shares can be transferred.
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Share Capital & Debentures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Company Law notes](/notes/cs-exec/company-law/)** — browse sibling topics in this subject
+

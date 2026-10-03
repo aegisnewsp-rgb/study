@@ -87,3 +87,11 @@ The **glycerol-3-phosphate shuttle** transfers cytosolic NADH electrons to FADH�
 2. Explain why 2,4-DNP causes hyperthermia without stopping electron flow to O₂, while oligomycin does stop O₂ consumption.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Electron Transport Chain" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Biochemistry notes](/notes/fmge/biochemistry/)** — browse sibling topics in this subject
+

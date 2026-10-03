@@ -97,3 +97,6 @@ Average and Mixture problems reduce to **ratio reasoning** at heart. HAT-UG Quan
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your HAT-UG (HEC Aptitude Test - Undergraduate) roadmap](/roadmap/?exam=hat-ug&duration=1mo)** — see where "Average and Mixtures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hat-ug&duration=1d)** — 1-day sprint covering highest-weight topics

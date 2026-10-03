@@ -162,3 +162,11 @@ When values are close to a guessed average, compute deviations from the guess an
 - **Average of squares vs square of average:** These are completely different. (x₁² + x₂²)/2 vs ((x₁+x₂)/2)². The first is always ≥ the second (by the QM-AM inequality). For [3, 4]: average of squares = (9+16)/2 = 12.5, square of average = (3.5)² = 12.25. Note: 12.5 > 12.25 always unless all numbers are equal.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Average & Weighted Average" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude (Quantitative) notes](/notes/gate/quantitative-aptitude/)** — browse sibling topics in this subject
+

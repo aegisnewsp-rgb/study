@@ -185,3 +185,11 @@ A is twice as old as B was 5 years ago. B is 3 years younger than C. The sum of 
 - **Past condition with "before" wording:** "A was half as old as B was when A was born" is a triple-time condition — solve by setting A's age at birth = 0 and working forward.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Ages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude (Quantitative) notes](/notes/gate/quantitative-aptitude/)** — browse sibling topics in this subject
+

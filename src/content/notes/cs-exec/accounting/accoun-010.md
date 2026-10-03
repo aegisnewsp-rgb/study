@@ -232,3 +232,11 @@ This is perhaps the most conceptually demanding section of the CS Executive cost
 4. **Forgetting that abnormal loss in process costing is valued at full cost per unit of good output** — This is a classic trap: the abnormal loss unit cost is not the same as the normal loss cost.
 5. **Mixing up Break-Even analysis conventions** — Always use contribution per unit (not profit per unit) as the numerator.
 6. **Confusing marginal costing profit with absorption costing profit** — In periods of increasing inventory, absorption costing will show higher profit because fixed overhead is "held" in closing stock. In periods of decreasing inventory, absorption costing shows lower profit. In periods of constant inventory, both methods show the same profit.
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Cost Accounting Basics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/cs-exec/accounting/)** — browse sibling topics in this subject
+

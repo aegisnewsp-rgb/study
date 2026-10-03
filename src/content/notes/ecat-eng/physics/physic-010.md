@@ -137,3 +137,11 @@ Current Electricity links directly to **electrostatics** through the charging of
 ---
 
 *Verify all numerical claims against the official ECAT notice at https://ecat.uet.edu.pk/ and the UET admissions portal at https://www.uet.edu.pk/ before planning your revision timetable around them.*
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering) roadmap](/roadmap/?exam=ecat-eng&duration=1mo)** — see where "Current Electricity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat-eng&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering) exam overview](/exams/ecat-eng/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/ecat-eng/physics/)** — browse sibling topics in this subject
+

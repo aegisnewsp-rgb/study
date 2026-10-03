@@ -17,6 +17,13 @@ lastUpdated: 2026-03-25
 
 > Rapid summary for last-minute revision before your exam.
 
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Joint Distributions and Sampling Theory" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Engineering-Maths notes](/notes/gate/engineering-maths/)** — browse sibling topics in this subject
+
 ## **Quick Reference Table**
 
 | Concept | Formula |

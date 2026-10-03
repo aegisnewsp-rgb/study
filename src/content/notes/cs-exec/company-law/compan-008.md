@@ -321,3 +321,11 @@ Debenture holders are not shareholders — they are creditors. Their meetings ar
 5. **Assuming all Board resolutions can be passed by circulation** — Certain matters cannot be passed by circulation: (a) borrowing beyond limits, (b) investment of company funds, (c) related party transactions — these require a physical Board meeting.
 6. **Forgetting the 30-day filing requirement for Special Resolutions** — Form MGT-14 must be filed within 30 days of the Special Resolution being passed. If not filed, every officer in default is liable to a penalty of ₹500 per day of default.
 7. **Not knowing when e-voting is mandatory** — E-voting is mandatory for all listed companies for every general meeting under SEBI LODR. This applies to both equity and preference shareholders of listed companies.
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Company Meetings & Resolutions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Company Law notes](/notes/cs-exec/company-law/)** — browse sibling topics in this subject
+

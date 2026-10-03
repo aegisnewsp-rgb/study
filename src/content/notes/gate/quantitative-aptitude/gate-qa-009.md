@@ -146,3 +146,11 @@ Draw the distance-time relationship as a single line. The crossing point represe
 - **Unit conversion traps:** km/h to m/s multiplies by 5/18; m/s to km/h multiplies by 18/5. A common mistake is using the wrong conversion direction. Always ask: is m/s larger or smaller than km/h for the same speed? (Answer: m/s is smaller, so to convert km/h to m/s you reduce the number.)
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Time, Speed & Distance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude (Quantitative) notes](/notes/gate/quantitative-aptitude/)** — browse sibling topics in this subject
+

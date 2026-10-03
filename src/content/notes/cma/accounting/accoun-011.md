@@ -81,3 +81,11 @@ A unit sells for ₹100, variable cost ₹60, so **contribution per unit = ₹40
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CMA Foundation roadmap](/roadmap/?exam=cma&duration=1mo)** — see where "Marginal Costing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/cma/accounting/)** — browse sibling topics in this subject
+

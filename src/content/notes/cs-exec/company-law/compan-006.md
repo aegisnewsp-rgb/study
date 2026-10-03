@@ -267,3 +267,11 @@ Under the Companies (Management and Administration) Rules, 2014:
 5. **Forgetting the 30-day filing deadline for resolutions** — Ordinary and Special Resolutions filed in Form MGT-14 must reach the ROC within 30 days of passing the resolution; failure attracts a penalty of ₹500 per day of default.
 6. **Confusing KMP rules** — KMP appointment under Section 203 requires the appointment to be made within 6 months of the vacancy arising, and the DIN must be approved before appointment.
 7. **Not knowing the difference between a Board Resolution and a shareholders' resolution** — Board resolutions are internal; they don't require shareholder filing (though they may need to be recorded in Form MGT-14 if specifically required by the Act).
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Company Management & Administration" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Company Law notes](/notes/cs-exec/company-law/)** — browse sibling topics in this subject
+

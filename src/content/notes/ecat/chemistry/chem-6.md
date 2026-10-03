@@ -110,3 +110,11 @@ The Gibbs free energy change for a reaction is related to the equilibrium consta
 Also: ΔG = ΔG° + RT ln Q, where Q is the reaction quotient. At equilibrium, ΔG = 0 and Q = K, giving ΔG° = -RT ln K. This is how we calculate K from thermodynamic data.
 
 **⚡ ECAT Pattern:** ECAT chemistry frequently tests: (1) writing the correct K_eq expression and identifying whether K is K_c or K_p; (2) using Le Chatelier's principle to predict shifts; (3) ICE table calculations to find equilibrium concentrations; (4) the relationship between K and degree of dissociation; and (5) calculating K_eq from ΔG° = -RT ln K or from given equilibrium concentrations. A typical ECAT question: "For the reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), K_c = 280 at 1000 K. If initial concentrations are [SO₂] = 0.10 M, [O₂] = 0.05 M, [SO₃] = 0, find equilibrium concentrations." Set up ICE table, solve quadratic.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Chemical Equilibrium" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat/chemistry/)** — browse sibling topics in this subject
+

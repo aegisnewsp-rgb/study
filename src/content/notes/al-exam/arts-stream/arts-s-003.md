@@ -200,3 +200,11 @@ Milton served as Latin Secretary to the Commonwealth under Cromwell. His disillu
 | Free will | The capacity to choose good or evil; central to Milton's theology |
 | Augustinian | Following St Augustine's theology of grace, free will, and predestination |
 | Cavalier | Royalist; a supporter of Charles I; member of the aristocratic court |
+
+## Continue your study
+
+- **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "17th Century Literature & Romantic Revival" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[All Arts-Stream notes](/notes/al-exam/arts-stream/)** — browse sibling topics in this subject
+

@@ -163,3 +163,11 @@ lastUpdated: 2026-03-25
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Pelvis & Perineum — Reproductive, Urinary & Pelvic Structures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/fmge/anatomy/)** — browse sibling topics in this subject
+

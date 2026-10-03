@@ -180,3 +180,8 @@ Let symbols represent operators:
 - **[GATE Exam Hub](/exams/gate/)** — full syllabus, paper pattern, marking scheme, and cutoff scores
 - **[All GATE General Aptitude Notes](/notes/gate/logical-reasoning/)** — browse sibling topics in reasoning, verbal ability, and engineering mathematics
 - **[GATE Preparation Roadmap](/exams/gate/#roadmap)** — structured revision schedule for engineering disciplines
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Blood Relations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Logical Reasoning notes](/notes/gate/logical-reasoning/)** — browse sibling topics in this subject

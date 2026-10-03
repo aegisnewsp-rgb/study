@@ -251,3 +251,11 @@ Daniel Goleman's emotional intelligence includes:
 **Answer Key:** 1(c), 2(b), 3(b), 4(b), 5(b)
 
 A motivated learner is a learner's best asset. Understanding motivation theories helps teachers create classrooms where children are excited to learn — not because of marks or fear of punishment, but because learning itself is fulfilling. As Maslow's hierarchy reminds us, we must meet children's basic needs before they can reach for self-actualization.
+
+## Continue your study
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Motivation and Emotion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/ctet/child-pedagogy/)** — browse sibling topics in this subject
+

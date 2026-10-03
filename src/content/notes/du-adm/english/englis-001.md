@@ -222,3 +222,11 @@ Reading Comprehension shares habits with **Cloze Test** (englis-005) — both re
 ---
 
 *Verify all numerical claims against the official DU Unit B notice at https://du.ac.bd/ and the NCTB HSC English syllabus before planning your revision timetable around them.*
+
+## Continue your study
+
+- **[View this topic in your DU Unit B Admission (Science) roadmap](/roadmap/?exam=du-adm&duration=1mo)** — see where "Reading Comprehension" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=du-adm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DU Unit B Admission (Science) exam overview](/exams/du-adm/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/du-adm/english/)** — browse sibling topics in this subject
+

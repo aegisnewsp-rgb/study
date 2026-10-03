@@ -125,3 +125,11 @@ Answer: In facing-center circular arrangement, opposite means 3 positions away c
 - **Self-contradicting conditions**: If you reach a point where no valid arrangement exists, you've made an error — go back and check your interpretation of earlier conditions.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Seating Arrangement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Logical Reasoning notes](/notes/gate/logical-reasoning/)** — browse sibling topics in this subject
+

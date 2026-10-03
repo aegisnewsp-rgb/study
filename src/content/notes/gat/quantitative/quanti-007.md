@@ -244,3 +244,11 @@ Time = 100 / (25/18) = 100 × 18/25 = 72 seconds
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your GAT Pakistan roadmap](/roadmap/?exam=gat&duration=1mo)** — see where "Time, Speed and Distance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GAT Pakistan exam overview](/exams/gat/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Techniques notes](/notes/gat/quantitative/)** — browse sibling topics in this subject
+

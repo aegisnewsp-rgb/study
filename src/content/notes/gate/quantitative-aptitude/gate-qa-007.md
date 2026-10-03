@@ -129,3 +129,11 @@ Work entirely in fractions. The fraction of wine after replacement = (original w
 - **Percentage change in ratio:** When a ratio's terms change by percentages, you cannot simply add/subtract percentages. A 20% increase in a and 20% decrease in b changes the ratio from a:b to 1.2a:0.8b = 3a:2b of original — the ratio doesn't just shift by 40%.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Ratio & Proportion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude (Quantitative) notes](/notes/gate/quantitative-aptitude/)** — browse sibling topics in this subject
+

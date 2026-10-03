@@ -203,3 +203,11 @@ New houses = 20 × (15/10) × (45/30) = 20 × 1.5 × 1.5 = 45 houses
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your GAT Pakistan roadmap](/roadmap/?exam=gat&duration=1mo)** — see where "Time and Work" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GAT Pakistan exam overview](/exams/gat/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Techniques notes](/notes/gat/quantitative/)** — browse sibling topics in this subject
+

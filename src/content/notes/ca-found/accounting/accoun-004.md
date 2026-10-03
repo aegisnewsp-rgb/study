@@ -99,3 +99,11 @@ Trial Balance is the **prerequisite** for preparing the Trading Account, Profit 
 2. Trial balance shows a difference of ₹8,000. Suspense Account had a debit balance of ₹8,000. After rectification entry crediting a sales account that was debited in error, what is the new Suspense Account balance?
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Trial Balance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject
+

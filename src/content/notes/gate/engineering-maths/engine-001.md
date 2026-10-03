@@ -157,3 +157,8 @@ x + 2y + kz &= \mu
 - **[GATE Exam Hub](/exams/gate/)** — paper format, scoring structure, cutoff trends, and discipline syllabi
 - **[All GATE Engineering Mathematics Notes](/notes/gate/engineering-maths/)** — calculus, differential equations, complex variables, and probability
 - **[GATE Complete Preparation Roadmap](/exams/gate/#roadmap)** — high-yield topic distribution and revision calendar
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Linear Algebra" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Engineering-Maths notes](/notes/gate/engineering-maths/)** — browse sibling topics in this subject

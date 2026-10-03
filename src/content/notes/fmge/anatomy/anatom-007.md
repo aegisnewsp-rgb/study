@@ -62,3 +62,11 @@ In the PNS, **Schwann cells** myelinate axons (one Schwann cell per internode) a
 **Appendages of the skin** include hair follicles (invaginations of epidermis with associated sebaceous glands and arrector pili smooth muscle — "goosebumps"), **sebaceous glands** (holocrine glands producing sebum — most numerous on the face and scalp; associated with hair follicles everywhere except palms and soles), **sweat glands** (eccrine — most numerous, producing watery sweat for thermoregulation, found everywhere; apocrine — confined to axillae, pubic region, and areola, producing viscous secretion in response to stress and sexual stimulation), and **nails** (keratinized plates on the dorsal surface of distal phalanges — nail matrix is the proliferative zone at the nail root).
 
 **Clinical correlations:** Melanoma — the most lethal skin cancer — arises from melanocytes and spreads via lymphatics; the ABCDE criteria help identify suspicious lesions (Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution). Basal cell carcinoma is the most common skin cancer — slow-growing, locally invasive, rarely metastasizes; presents as a pearly papule with telangiectasia. Squamous cell carcinoma arises from keratinocytes, associated with UV exposure, can metastasize. Psoriasis is a chronic inflammatory condition with epidermal hyperproliferation (acanthosis) and parakeratosis. Contact dermatitis (types I and IV hypersensitivity) results from allergen exposure.
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Histology — Epithelium, Connective Tissue, Muscle, Nerve & Skin" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/fmge/anatomy/)** — browse sibling topics in this subject
+

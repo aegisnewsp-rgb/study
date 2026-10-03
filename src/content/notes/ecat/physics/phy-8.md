@@ -90,3 +90,11 @@ Ultrasound frequencies (> 20 kHz, above human hearing range) have important appl
 The acoustic impedance Z = ρv determines how much sound is reflected at an interface. For ultrasound imaging, the reflection at tissue interfaces depends on the impedance difference Z₁ - Z₂. This is why ultrasound works well for soft tissues, which have similar impedances, but cannot image bone or lung clearly because the impedance mismatch is too large and almost all the sound is reflected.
 
 **⚡ ECAT Pattern:** ECAT frequently tests: (1) v = fλ calculations with numerical values given for any two of v, f, λ; (2) Doppler effect problems where a source or observer moves and students must determine whether the observed frequency increases or decreases; (3) standing wave patterns in strings and pipes, identifying nodes and antinodes; and (4) intensity level in decibels calculations. A typical ECAT problem: "A source of frequency 500 Hz moves toward a stationary observer at 30 m/s. If the speed of sound is 340 m/s, what is the observed frequency?" f' = f × v/(v - v_s) = 500 × 340/(340 - 30) = 500 × 340/310 ≈ 548 Hz.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Wave Motion and Sound" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/ecat/physics/)** — browse sibling topics in this subject
+

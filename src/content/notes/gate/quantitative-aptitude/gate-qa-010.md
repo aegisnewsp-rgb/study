@@ -156,3 +156,11 @@ A rectangular park is 60 m long and 40 m wide. It has a circular fountain of rad
 - **Rounding π:** GATE questions usually expect π = 22/7 or 3.14. When neither is specified, leave your answer in terms of π (e.g., 44π) unless forced otherwise.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Mensuration (2D)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude (Quantitative) notes](/notes/gate/quantitative-aptitude/)** — browse sibling topics in this subject
+

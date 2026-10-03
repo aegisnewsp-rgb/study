@@ -324,3 +324,11 @@ $$\frac{d^2y}{dx^2} \approx \frac{y_1 - 2y_0 + y_{-1}}{h^2}, \quad \text{error }
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Numerical Methods" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Engineering-Maths notes](/notes/gate/engineering-maths/)** — browse sibling topics in this subject
+

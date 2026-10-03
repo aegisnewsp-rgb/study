@@ -140,3 +140,11 @@ Her Tale, set in King Arthur's Britain, concerns a knight who must learn "what w
 | Chivalric romance | Medieval tale of noble adventures and love |
 | Social satire | Critiquing society's flaws through literature |
 | Middle English | English language used c. 1150–1500 |
+
+## Continue your study
+
+- **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "Chaucer & Medieval English Literature" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[All Arts-Stream notes](/notes/al-exam/arts-stream/)** — browse sibling topics in this subject
+

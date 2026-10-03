@@ -118,3 +118,11 @@ For Sec 138 prosecution: (a) cheque must have been delivered for **discharge of 
 2. X draws a Bill of Exchange on Y for ₹50,000, payable to Z. Y accepts the bill. Before maturity, Z endorses it to W. On maturity, W presents for payment but Y dishonours. W sues X. Analyse W's rights as Holder in Due Course and X's liability. *(Focus: endorsement validity, notice of dishonour, and secondary liability.)*
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CMA Foundation roadmap](/roadmap/?exam=cma&duration=1mo)** — see where "The Negotiable Instruments Act, 1881" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/cma/business-law/)** — browse sibling topics in this subject
+

@@ -115,3 +115,11 @@ The decision to use passive voice in technical writing is deliberate. Passive em
 - Modal verbs in passive: "Must be done," "should be completed," "can be achieved" — the modal stays before "be" and the past participle follows. "The project must be completed by Monday."
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Active & Passive Voice" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Verbal Ability notes](/notes/gate/verbal-ability/)** — browse sibling topics in this subject
+

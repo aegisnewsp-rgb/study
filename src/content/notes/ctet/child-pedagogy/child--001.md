@@ -170,3 +170,11 @@ Nutrition, family environment, schooling, culture, peer groups, and socioeconomi
 **Answer Key:** 1(a), 2(b), 3(c)
 
 Understanding child development is not just a CTET requirement — it is the foundation of being an effective teacher. Every pedagogical decision must be rooted in an understanding of how children grow, think, and feel.
+
+## Continue your study
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Child Development and Growth" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/ctet/child-pedagogy/)** — browse sibling topics in this subject
+

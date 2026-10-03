@@ -84,3 +84,11 @@ When unpolarised light reflects from a dielectric surface (e.g., glass, water), 
 At Brewster's angle, the reflected ray and refracted ray are perpendicular to each other. No reflection occurs for the component of light polarised in the plane of incidence — only the component perpendicular to the plane of incidence reflects. This is why sunglasses with polarised lenses reduce glare from road surfaces and water — they block horizontally polarised reflected light.
 
 **⚡ ECAT Pattern:** ECAT frequently tests: (1) double slit fringe spacing calculations using β = λD/d; (2) diffraction grating equation for spectral analysis; (3) Brewster's angle for glass or water surfaces; (4) Malus' law I = I₀ cos²θ for two polaroids; and (5) thin film interference conditions for constructive and destructive fringes. A typical ECAT question: "A diffraction grating has 5000 lines/cm. Calculate the angle for the second order maximum of light with wavelength 600 nm." d = 1/(5000 cm⁻¹) = 2 × 10⁻⁶ m = 2000 nm. For m = 2: sinθ = mλ/d = 2 × 600/2000 = 0.6 → θ = sin⁻¹(0.6) = 36.9°.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Wave Optics and Interference" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/ecat/physics/)** — browse sibling topics in this subject
+

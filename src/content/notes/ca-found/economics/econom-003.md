@@ -124,3 +124,11 @@ This is frequently tested: a firm should **lower price to increase TR** only whe
 2. A restaurant raises its meal price by 15% and sees demand fall by 12%. Another restaurant in the same area raises its price by 15% and sees demand fall by 30%. Using the TR test logic, predict what happens to total revenue for each restaurant. Which restaurant has more substitutes available for its meals, and why?
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Elasticity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ca-found/economics/)** — browse sibling topics in this subject
+

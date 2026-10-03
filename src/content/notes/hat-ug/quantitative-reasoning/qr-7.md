@@ -100,3 +100,11 @@ A's 5-day work = 5/20 = 1/4. Remaining = 3/4. B's rate = 1/30 per day, so extra 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your HAT-UG (HEC Aptitude Test - Undergraduate) roadmap](/roadmap/?exam=hat-ug&duration=1mo)** — see where "Time, Distance and Work" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hat-ug&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAT-UG (HEC Aptitude Test - Undergraduate) exam overview](/exams/hat-ug/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/hat-ug/quantitative-reasoning/)** — browse sibling topics in this subject
+

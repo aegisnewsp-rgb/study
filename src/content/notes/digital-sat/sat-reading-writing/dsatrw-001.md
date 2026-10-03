@@ -104,3 +104,11 @@ When scoring above 700 in Reading and Writing, the adaptive Module 2 introduces 
 #### Bluebook digital interface mechanics
 
 In the Digital SAT, the Words in Context questions are positioned at the beginning of each module. Students who spend over 60 seconds wrestling with nuanced vocabulary in questions 1 to 4 routinely forfeit easy points on Standard English Conventions questions later in the module. If a vocabulary word is completely unknown, use process of elimination on the known roots, pick the best candidate, mark the question with the Bluebook Bookmark tool, and return after finishing the conventions questions at the end of the module.
+
+## Continue your study
+
+- **[View this topic in your Digital SAT roadmap](/roadmap/?exam=digital-sat&duration=1mo)** — see where "Craft and Structure: Words in Context" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=digital-sat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Digital SAT exam overview](/exams/digital-sat/)** — pattern, eligibility, and syllabus
+- **[All Reading and Writing notes](/notes/digital-sat/sat-reading-writing/)** — browse sibling topics in this subject
+

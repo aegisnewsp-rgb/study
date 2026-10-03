@@ -136,3 +136,11 @@ $$\frac{d}{dx}[y \cdot e^{\int P dx}] = Q \cdot e^{\int P dx}$$
 ---
 
 *Content adapted based on your selected roadmap duration and GATE exam preparation timeline.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Differential Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Engineering-Maths notes](/notes/gate/engineering-maths/)** — browse sibling topics in this subject
+

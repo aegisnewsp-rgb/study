@@ -96,3 +96,11 @@ For a series RLC circuit: impedance Z = √(R² + (X_L - X_C)²), and tan φ = (
 At resonance, X_L = X_C, so Z = R (minimum impedance, maximum current). The resonant frequency ω₀ = 1/√(LC) = 2πf₀. The quality factor Q = ω₀L/R = 1/(ω₀CR) — high Q means a sharp resonance peak (narrow bandwidth). This selectivity is used in radio tuners to pick a specific station frequency from many broadcast signals.
 
 **⚡ ECAT Pattern:** ECAT frequently tests motional emf (ε = Bℓv), Lenz's law direction determination, transformer turns ratio calculations, and resonance frequency. A classic ECAT question: "A rod of length 0.5 m moves at 4 m/s perpendicular to a magnetic field of 0.2 T. Calculate the emf induced." Answer: ε = Bℓv = 0.2 × 0.5 × 4 = 0.4 V. If the rod is part of a circuit with total resistance 2 Ω, induced current = 0.4/2 = 0.2 A.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Electromagnetic Induction (EMI)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/ecat/physics/)** — browse sibling topics in this subject
+

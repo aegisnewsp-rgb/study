@@ -245,3 +245,11 @@ Depreciation (straight-line over 5 years): 404,271 / 5 = 80,854/year
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Leases & Financial Instruments" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Financial Reporting notes](/notes/accagl/financial-report/)** — browse sibling topics in this subject
+

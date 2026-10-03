@@ -131,3 +131,11 @@ H₂O → OEC → P680* → pheophytin → PQ → cyt b₆f → PC → P700* →
 2. Describe the Z-scheme of non-cyclic electron transport, specifying the wavelengths absorbed by PSII and PSI, the exact splitting reaction of water (including products), and how the proton gradient drives ATP synthesis. Include the stoichiometry: how many photons are required per O₂ molecule evolved and per NADPH produced?
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Photosynthesis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject
+

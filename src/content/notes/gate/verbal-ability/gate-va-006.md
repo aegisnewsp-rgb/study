@@ -128,3 +128,11 @@ Word roots offer another pathway. Many English word pairs share Latin or Greek o
 - Positive/negative valence: Some words are neutral, others carry praise or criticism. A synonym must match not just meaning but also emotional tone.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Synonyms" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Verbal Ability notes](/notes/gate/verbal-ability/)** — browse sibling topics in this subject
+

@@ -95,3 +95,11 @@ Algae (e.g., *Spirulina*, *Chlorella*) are food sources and produce agar; fungi 
 2. A plant specimen shows: thalloid body, rhizoids, no vascular tissue, sporophyte attached to gametophyte, antheridia and archegonia present. Classify it to the division and explain the relationship between its two generations in 100 words.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Plant Kingdom" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject
+

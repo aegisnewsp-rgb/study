@@ -124,3 +124,11 @@ Fungi are eukaryotic organisms with a rigid cell wall (containing chitin, not pe
 ⚡ **Exam tip:** Malaria with **crescent/gammetocyte forms** in blood smear = *Plasmodium falciparum* (dangerous; cerebral malaria risk).
 
 ⚡ **Exam tip:** A patient with cysticercosis (calcified lesions in brain) from eating undercooked pork = *Taenia solium*. Treat neurocysticercosis with albendazole + steroids.
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Mycology, Parasitology & Immunology Basics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Microbiology notes](/notes/fmge/microbiology/)** — browse sibling topics in this subject
+

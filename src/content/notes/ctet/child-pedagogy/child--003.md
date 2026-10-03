@@ -153,3 +153,8 @@ Scaffolding is not simply giving students the correct answer. Effective scaffold
 - **[Kohlberg's Stages of Moral Development](/notes/ctet/child-pedagogy/child--002/)** — Pre-conventional, conventional, and post-conventional moral reasoning levels.
 
 *Content structured across Quick, Standard, and Deep tiers for targeted CTET preparation. Aligned with CBSE and NCERT pedagogical curricula.*
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Vygotsky's Sociocultural Theory" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/ctet/child-pedagogy/)** — browse sibling topics in this subject

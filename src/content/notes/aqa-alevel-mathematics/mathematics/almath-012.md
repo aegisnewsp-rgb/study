@@ -181,3 +181,11 @@ Section M of the AQA A-level Mathematics 7357 specification appears on Paper 3 a
 ---
 
 *Last updated 2026-09-22. Source: AQA A-level Mathematics specification 7357, https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357. Paper structure, assessment weighting and any in-year specification changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your A-Level Mathematics (AQA 7357) roadmap](/roadmap/?exam=aqa-alevel-mathematics&duration=1mo)** — see where "Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=aqa-alevel-mathematics&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A-Level Mathematics (AQA 7357) exam overview](/exams/aqa-alevel-mathematics/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/aqa-alevel-mathematics/mathematics/)** — browse sibling topics in this subject
+

@@ -121,3 +121,11 @@ Key transitions from medieval to modern literature:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your DU Admission (Bangladesh) roadmap](/roadmap/?exam=du-ad&duration=1mo)** — see where "Medieval Bengali Literature" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=du-ad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DU Admission (Bangladesh) exam overview](/exams/du-ad/)** — pattern, eligibility, and syllabus
+- **[All Bangla notes](/notes/du-ad/bangla/)** — browse sibling topics in this subject
+

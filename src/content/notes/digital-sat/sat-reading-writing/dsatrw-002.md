@@ -99,3 +99,11 @@ In the harder adaptive module, choices often differentiate subtle shades of auth
 - **Advocate vs Describe**: *Advocate* requires the author to actively urge a policy or course of action; *describe* requires only detached explanation. If the passage does not say "scientists must adopt X", do not pick *advocate*.
 - **Reconcile vs Compare**: *Reconcile* requires resolving a contradiction or demonstrating that two apparently conflicting views can coexist; *compare* merely notes similarities and differences.
 - **Concede vs Refute**: *Concede* means admitting the validity of an opponent's point; *refute* means proving that the opponent's point is false.
+
+## Continue your study
+
+- **[View this topic in your Digital SAT roadmap](/roadmap/?exam=digital-sat&duration=1mo)** — see where "Craft and Structure: Text Structure and Purpose" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=digital-sat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Digital SAT exam overview](/exams/digital-sat/)** — pattern, eligibility, and syllabus
+- **[All Reading and Writing notes](/notes/digital-sat/sat-reading-writing/)** — browse sibling topics in this subject
+

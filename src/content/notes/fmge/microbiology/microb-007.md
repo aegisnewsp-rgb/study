@@ -135,3 +135,8 @@ The calculated $\text{AUC}_{24}/\text{MIC}$ ratio of 520 falls within the recomm
 - **[FMGE Exam Hub](/exams/fmge/)** — Foreign Medical Graduate Examination blueprint, pass percentage statistics, and eligibility criteria
 - **[All FMGE Microbiology Notes](/notes/fmge/microbiology/)** — bacteriology, virology, mycology, parasitology, and immunology
 - **[FMGE 60-Day High-Yield Revision Plan](/exams/fmge/#roadmap)** — structured study calendar prioritizing clinical pathology and microbiology
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Antimicrobial Chemotherapy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Microbiology notes](/notes/fmge/microbiology/)** — browse sibling topics in this subject

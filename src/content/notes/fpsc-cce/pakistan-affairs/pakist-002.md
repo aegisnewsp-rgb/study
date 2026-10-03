@@ -306,3 +306,11 @@ UNESCO Sites:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your FPSC CSS (Pakistan) roadmap](/roadmap/?exam=fpsc-cce&duration=1mo)** — see where "Land and People — Demographics and Society" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fpsc-cce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FPSC CSS (Pakistan) exam overview](/exams/fpsc-cce/)** — pattern, eligibility, and syllabus
+- **[All Pakistan Affairs notes](/notes/fpsc-cce/pakistan-affairs/)** — browse sibling topics in this subject
+

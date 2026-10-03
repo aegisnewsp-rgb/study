@@ -99,3 +99,11 @@ Errors not revealed by the Trial Balance (e.g., a transposition error that cance
 2. A machine bought for ₹2,00,000 on 1 April Year 1 has a residual value of ₹20,000 and a useful life of 5 years. Calculate and compare depreciation charged in Year 2 under both Straight Line and Written Down Value (20%) methods, and show the net book value at end of Year 2 in each case.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Final Accounts" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/cs-exec/accounting/)** — browse sibling topics in this subject
+

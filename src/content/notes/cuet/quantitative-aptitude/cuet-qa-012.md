@@ -141,3 +141,11 @@ Answer: **1/5525**
 - **Dice: sum of two dice:** 36 total outcomes. Most common sum = 7 (6 ways: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1). Always remember this fact — it appears in many probability questions.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Probability & Statistics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Aptitude notes](/notes/cuet/quantitative-aptitude/)** — browse sibling topics in this subject
+

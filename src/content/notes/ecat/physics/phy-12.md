@@ -82,3 +82,11 @@ When electric and magnetic fields are perpendicular to each other and both perpe
 For a solenoid of length l with N turns, carrying current I, each turn produces a field. The field inside an ideal solenoid (length >> radius) is uniform: B = μ₀(N/l)I = μ₀nI, where n = N/l is turns per unit length. At the ends of a real solenoid, the field is half the inside value (B_end = ½μ₀nI). The field outside is approximately zero for a long solenoid.
 
 **⚡ ECAT Pattern:** ECAT frequently tests: (1) calculating the force on a current-carrying wire in a magnetic field using F = BIL sinθ; (2) direction determination using Fleming's left-hand rule; (3) magnetic field at the centre of a circular coil or inside a solenoid; (4) the cyclotron principle and radius of circular path of a charged particle in a magnetic field; and (5) converting galvanometer to ammeter or voltmeter with correct resistance calculations. A typical ECAT question: "A wire of length 0.5 m carries a current of 2 A perpendicular to a magnetic field of 0.3 T. Calculate the force on the wire." Answer: F = BIL = 0.3 × 2 × 0.5 = 0.3 N.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Magnetic Effects of Current" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/ecat/physics/)** — browse sibling topics in this subject
+

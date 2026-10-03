@@ -176,3 +176,11 @@ SHM is the bridge between Newtonian Mechanics (Physic-003) and Waves (covered in
 ---
 
 *Verify all numerical claims against the official DU Unit B notice at https://du.ac.bd/ and the NCTB HSC Physics 1st Paper syllabus before planning your revision timetable around them.*
+
+## Continue your study
+
+- **[View this topic in your DU Unit B Admission (Science) roadmap](/roadmap/?exam=du-adm&duration=1mo)** — see where "Periodic Motion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=du-adm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DU Unit B Admission (Science) exam overview](/exams/du-adm/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/du-adm/physics/)** — browse sibling topics in this subject
+

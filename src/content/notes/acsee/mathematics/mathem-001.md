@@ -171,3 +171,11 @@ Convergence is quadratic if $f'(x^*) \neq 0$. Work one or two iterations to the 
 4. **Confusing "turning point" with "point of inflection".** A turning point has $f'(x) = 0$ and changes sign. An inflection point has $f''(x) = 0$ (or undefined) and changes concavity. They are not the same.
 5. **Treating the chain rule and product rule as alternatives.** For $y = (x^2 + 1)(x^3 - 2)$, either rule works; for $y = \sin(x^2 + 1)$, only chain rule works; for $y = x^2 \sin x$, only product rule works. Mixing them up is the most common differentiable-but-wrong answer on ACSEE scripts.
 6. **Forgetting the unit on a related-rates question.** If the question asks for the rate in cm³/s, the answer is a number with units. The numerical work is the same; the marker expects units on every rate.
+
+## Continue your study
+
+- **[View this topic in your ACSEE (Tanzania) roadmap](/roadmap/?exam=acsee&duration=1mo)** — see where "Differentiation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=acsee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACSEE (Tanzania) exam overview](/exams/acsee/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/acsee/mathematics/)** — browse sibling topics in this subject
+

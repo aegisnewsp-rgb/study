@@ -134,3 +134,11 @@ Convert all workers to a common efficiency unit. If A:B:C = 3:5:7, treat them as
 - **Infinity edge case:** If a drain pipe's rate equals the fill pipe's rate exactly (both 1/T), net rate = 0. The tank never fills or empties — it's in equilibrium. If drain rate exceeds fill rate, the tank empties regardless of fill pipe.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Time & Work" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude (Quantitative) notes](/notes/gate/quantitative-aptitude/)** — browse sibling topics in this subject
+

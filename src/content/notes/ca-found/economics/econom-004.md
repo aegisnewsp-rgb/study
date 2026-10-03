@@ -79,3 +79,11 @@ Suppose M = ₹80, Pₓ = ₹10, Pᵧ = ₹5. At a candidate bundle (X=5, Y=6):
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Consumer Behaviour" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ca-found/economics/)** — browse sibling topics in this subject
+

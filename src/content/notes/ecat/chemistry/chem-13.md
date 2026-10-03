@@ -105,3 +105,11 @@ Organic chemistry's "queen" is mechanism — understanding electron movement in 
 The nature of the functional group determines which mechanism is possible. Carbonyls undergo nucleophilic addition because the C=O is electrophilic. Halogenoalkanes undergo nucleophilic substitution because the carbon attached to the halogen is electrophilic (especially if the halogen is a good leaving group like I⁻ > Br⁻ > Cl⁻ > F⁻).
 
 **⚡ ECAT Pattern:** ECAT frequently tests: (1) naming organic compounds from structure; (2) identifying functional groups in complex molecules; (3) ranking compounds by reactivity (e.g., acidity: carboxylic acid > phenol > water > alcohol; basicity: amine > amide); (4) isomer counting; and (5) predicting the major product of addition reactions to alkenes (Markovnikov's rule — H adds to the carbon with more hydrogens already, Cl/Br adds to the carbon with fewer hydrogens). A common ECAT question: "Draw and name all isomers of C₄H₁₀O. Which isomers are alcohols, which are ethers?" Answer: 4 structural isomers — 2 butanols (n-butanol and isobutanol as primary), 2-methyl-2-propanol (tert-butanol, tertiary), and diethyl ether + methyl propyl ether.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Organic Chemistry: Classification and Nomenclature" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat/chemistry/)** — browse sibling topics in this subject
+

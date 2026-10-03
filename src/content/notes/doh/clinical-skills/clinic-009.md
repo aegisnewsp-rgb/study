@@ -263,3 +263,8 @@ If a Foley balloon fails to deflate during removal:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your DOH (UAE) roadmap](/roadmap/?exam=doh&duration=1mo)** — see where "Urinary Catheterisation and Bladder Care" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=doh&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
+- **[All Clinical-Skills notes](/notes/doh/clinical-skills/)** — browse sibling topics in this subject

@@ -125,3 +125,11 @@ Pakistan's external debt exceeds **$130 billion**, with **multilateral debt** (I
 **Exam weightage strategy**: The CSS General Awareness paper allocates roughly **3%** to International Organizations questions. These questions typically appear as **multiple-choice or short-answer** formats testing recognition of membership status, summit locations, and organizational functions. Integrate Pakistan's specific bilateral relationships (China, USA, Gulf states, Central Asian republics) with the multilateral framework explicitly.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your FPSC CSS (Pakistan) roadmap](/roadmap/?exam=fpsc-cce&duration=1mo)** — see where "International Organizations and Pakistan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fpsc-cce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FPSC CSS (Pakistan) exam overview](/exams/fpsc-cce/)** — pattern, eligibility, and syllabus
+- **[All General Science notes](/notes/fpsc-cce/general-science/)** — browse sibling topics in this subject
+

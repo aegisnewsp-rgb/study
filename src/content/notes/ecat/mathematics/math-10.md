@@ -162,3 +162,11 @@ $$\frac{dy}{dx} + Py = Q \Rightarrow \text{Integrating Factor} = e^{\int P dx}$$
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Integration and Definite Integrals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ecat/mathematics/)** — browse sibling topics in this subject
+

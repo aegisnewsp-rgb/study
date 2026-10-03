@@ -113,3 +113,11 @@ Notice SLM spreads cost evenly; WDV front-loads it — this affects reported pro
 2. The same plant is sold on 30 September 2024 for ₹1,60,000. Calculate profit/loss on sale under each method, charging depreciation for the period of use in 2024.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Depreciation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject
+

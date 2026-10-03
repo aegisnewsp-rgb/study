@@ -221,3 +221,11 @@ d/dx [∫_{a(x)}^{b(x)} f(t) dt] = f(b(x))b'(x) − f(a(x))a'(x)
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your BUET Admission roadmap](/roadmap/?exam=buet-adm&duration=1mo)** — see where "Calculus" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=buet-adm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BUET Admission exam overview](/exams/buet-adm/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/buet-adm/mathematics/)** — browse sibling topics in this subject
+

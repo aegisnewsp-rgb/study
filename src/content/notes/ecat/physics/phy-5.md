@@ -79,3 +79,11 @@ The work done moving a mass m from infinity to a point at distance r from Earth'
 For a circular orbit, KE = -½ PE (virial theorem for inverse-square law forces), and total energy is negative (bound orbit). For unbound trajectories (escape), E ≥ 0.
 
 **⚡ ECAT Pattern:** ECAT frequently tests: (1) v_orbital = √(GM/r) and v_escape = √(2GM/r) = √2 v_orbital; (2) variation of g with altitude g' = g(R_E/(R_E + h))²; (3) Kepler's third law T² ∝ r³ with numerical values; (4) centripetal force problems where the tension in a string provides the centripetal force (conical pendulum). A typical ECAT question: "A satellite orbits Earth at height 500 km. Given R_E = 6400 km, g = 9.8 m/s², find the orbital speed." r = 6900 km = 6.9 × 10⁶ m. v = √(gR_E²/r)... better: v = √(gR_E²/r) = √(9.8 × (6.4 × 10⁶)² / (6.9 × 10⁶)) = √(9.8 × 6.4² × 10⁶ / 6.9) ≈ √(5.9 × 10⁷) ≈ 7680 m/s ≈ 7.68 km/s.
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Circular Motion and Gravitation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/ecat/physics/)** — browse sibling topics in this subject
+

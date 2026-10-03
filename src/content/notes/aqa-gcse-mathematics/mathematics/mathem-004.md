@@ -162,3 +162,11 @@ Higher tier extends into the sine and cosine rules, 3D trigonometry, vectors in 
 ---
 
 *Last updated 2026-09-20. Source: AQA GCSE Mathematics specification 8300, https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300. Tier rules, calculator policy and any in-year specification changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your GCSE Mathematics (AQA 8300) roadmap](/roadmap/?exam=aqa-gcse-mathematics&duration=1mo)** — see where "Geometry and Measures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=aqa-gcse-mathematics&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GCSE Mathematics (AQA 8300) exam overview](/exams/aqa-gcse-mathematics/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/aqa-gcse-mathematics/mathematics/)** — browse sibling topics in this subject
+

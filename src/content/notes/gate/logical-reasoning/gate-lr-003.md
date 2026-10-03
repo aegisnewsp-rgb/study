@@ -200,3 +200,11 @@ If asked which conclusion does NOT follow, try assuming each conclusion is true 
 - **All + All combinations:** When both premises are "All A are B" type, check if they share a term properly. "All A are B, All B are C" → All A are C. "All A are B, All C are B" → no conclusion about A and C (undistributed middle).
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Syllogisms" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Logical Reasoning notes](/notes/gate/logical-reasoning/)** — browse sibling topics in this subject
+

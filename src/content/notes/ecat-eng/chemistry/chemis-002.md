@@ -189,3 +189,11 @@ Chemical bonding is the foundation for **organic chemistry** (every reaction mec
 ---
 
 *Verify all numerical claims against the official ECAT notice at https://ecat.uet.edu.pk/ and the UET admissions portal at https://www.uet.edu.pk/ before planning your revision timetable around them.*
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering) roadmap](/roadmap/?exam=ecat-eng&duration=1mo)** — see where "Chemical Bonding" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat-eng&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering) exam overview](/exams/ecat-eng/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat-eng/chemistry/)** — browse sibling topics in this subject
+

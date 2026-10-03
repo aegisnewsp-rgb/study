@@ -141,3 +141,11 @@ Compare to a frictionless sliding block where $v = \sqrt{2gh}$. The sphere is sl
 3. **Confusing mass and weight.** $W = mg$ is a force (Newtons). Mass is kg. ACSEE sometimes mixes them in word problems; check units.
 4. **Adding velocities instead of subtracting.** "Velocity of A relative to B" is $v_A - v_B$, not $v_A + v_B$, when both move in the same direction. The + comes only when they move toward each other.
 5. **Treating $W = Fs\cos\theta$ as scalar-of-scalars.** $W$ is signed: positive when force and displacement form an acute angle (force adds energy), negative when obtuse (force removes energy). A friction force always does negative work; a driving force does positive work.
+
+## Continue your study
+
+- **[View this topic in your ACSEE (Tanzania) roadmap](/roadmap/?exam=acsee&duration=1mo)** — see where "Mechanics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=acsee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACSEE (Tanzania) exam overview](/exams/acsee/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/acsee/physics/)** — browse sibling topics in this subject
+

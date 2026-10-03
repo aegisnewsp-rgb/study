@@ -155,3 +155,11 @@ The salt is therefore an aluminium carbonate or hydrogen carbonate. Aluminium ca
 3. **Forgetting the charge on a complex ion.** $[Cu(NH_3)_4]SO_4$ is a sulphate; the complex inside the brackets is $[Cu(NH_3)_4]^{2+}$, not neutral. Wrong charge → wrong formulae downstream.
 4. **Calling $FeSO_4$ solution "yellow".** Hydrated $Fe^{2+}$ in water is pale green; $Fe^{3+}$ is yellow-brown. The exam will mark colour description strictly.
 5. **Confusing the cyanidoferrate tests.** Prussian blue = $Fe^{3+} + [Fe(CN)_6]^{4-}$. Turnbull's blue = $Fe^{2+} + [Fe(CN)_6]^{3-}$. The two products are chemically the same compound, but the test you run depends on which ion you suspect. Reading the question wrong here flips your answer for the whole identification.
+
+## Continue your study
+
+- **[View this topic in your ACSEE (Tanzania) roadmap](/roadmap/?exam=acsee&duration=1mo)** — see where "Selected Compounds of Metals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=acsee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACSEE (Tanzania) exam overview](/exams/acsee/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/acsee/chemistry/)** — browse sibling topics in this subject
+

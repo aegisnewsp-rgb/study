@@ -11,168 +11,199 @@ weight_unit: "% of Section II"
 diagramPrompt: "Draw a composite solid: a cylinder with a cone on top (like a tent). Label the frustum portion. Show how Heron's formula can split a trapezium into two triangles and a rectangle."
 country: india
 generated: 2026-03-25
-lastUpdated: 2026-03-25
+lastUpdated: 2026-09-15
 ---
 
 # Geometry & Mensuration
 
-### 🟢 Lite
+Mensuration is the least algebraic topic in quantitative aptitude and the one where a single formula error costs you everything. The formulas themselves are a memorisation job; the skill is knowing **which quantity the question is asking for** — curved or total surface area, radius or diameter, volume or area — and holding the units straight. Get those two decisions right and the rest is arithmetic you have done a hundred times.
 
-### Key Formula/Rule
-Geometry and mensuration test your ability to calculate perimeters, areas, and volumes of 2D and 3D shapes. Master the core formulas and know when to use each one.
+### 🟢 Lite — Quick Review (1h–1d)
 
-### Memory Trick
-**"A-Rect = LB"** — Area of a Rectangle is Length × Breadth. For a circle, **"Pie Are Squared"** — πr² (pi × r squared, not "pie are square"!). For volume, imagine filling a box with unit cubes.
+**2D shapes — area and perimeter**
 
-### 1-Sentence Summary
-Geometry requires memorising area and perimeter formulas for 2D shapes, and surface area and volume for 3D shapes — plus knowing when to use π (curved surfaces) versus when not to.
-
-### 30-Second Formula Reference
-| Shape | Area | Perimeter/Circumference |
-|---|---|---|
-| Rectangle | l × b | 2(l + b) |
+| Shape | Area | Perimeter / Circumference |
+| --- | --- | --- |
 | Square | a² | 4a |
-| Triangle | ½ × base × height | Sum of 3 sides |
-| Circle | πr² | 2πr |
+| Rectangle | l × b | 2(l + b) |
+| Triangle | ½ × base × height | sum of three sides |
 | Parallelogram | base × height | 2(a + b) |
-| Trapezium | ½(a + b) × height | Sum of parallel sides + legs |
+| Rhombus | ½ d₁ × d₂ | 4a |
+| Trapezium | ½ (a + b) × h | sum of four sides |
+| Circle | πr² | 2πr |
 
-### Quick Examples
-**Q1:** Area of a circle with radius 7 cm.
-A: π × 7² = 22/7 × 49 = **154 cm²**
+**3D shapes — surface area and volume**
 
-**Q2:** Perimeter of a rectangle 12 cm × 8 cm.
-A: 2(12 + 8) = **40 cm**
-
-**Q3:** Surface area of a cube with side 5 cm.
-A: 6a² = 6 × 25 = **150 cm²**
-
-### Must Remember — 3D Shapes
-| Shape | TSA | Volume |
-|---|---|---|
+| Shape | Total surface area | Volume |
+| --- | --- | --- |
 | Cube | 6a² | a³ |
-| Cuboid | 2(lb + bh + hl) | l × b × h |
-| Cylinder | 2πrh + 2πr² | πr²h |
-| Cone | πrℓ + πr² | ⅓πr²h |
+| Cuboid | 2(lb + bh + hl) | lbh |
+| Cylinder | 2πr(r + h) | πr²h |
+| Cone | πr(r + l) | ⅓πr²h |
 | Sphere | 4πr² | ⁴⁄₃πr³ |
 | Hemisphere | 3πr² | ⅔πr³ |
 
-**Note:** For cylinder, "total surface area" includes both circles. "Curved surface area" (CSA) = 2πrh only.
+Curved surface area is the formula **without the circular ends**: cylinder 2πrh, cone πrl, hemisphere 2πr². If a question says TSA, add the bases back in.
 
-### Exam Tips for CUET
-- CUET often combines shapes — e.g., a tent (cone on cylinder). Break it into parts.
-- Always check whether the question asks for curved surface area (CSA) or total surface area (TSA).
-- π ≈ 22/7 or 3.14 unless specified otherwise — use the value that gives clean numbers.
-- **Unit consistency:** If side is in cm, area is in cm². Convert all dimensions to the same unit before calculating.
-- For composite shapes, calculate each component separately and add or subtract as required.
+**Three 30-second answers.** Circle of radius 7 cm: π × 49 = 22/7 × 49 = **154 cm²**. Rectangle 12 cm × 8 cm: 2(12 + 8) = **40 cm**. Cube of side 5 cm: 6 × 25 = **150 cm²**.
 
-### Common Pitfalls
-- **Using diameter instead of radius:** Area = πr², NOT πd². The diameter is 2r — double-check.
-- **Forgetting that trapezium area uses the AVERAGE of parallel sides:** ½(a + b) × h, not a × b × h.
-- **Mixing up volume and surface area units:** Volume is cm³ (cubed), surface area is cm² (squared).
-- **Not simplifying compound shapes:** A shape with a semicircle attached to a rectangle — calculate each separately.
+**Two habits that prevent most errors.** Decide CSA or TSA *before* you write anything, and convert every dimension to the same unit before you calculate. Working in cm² when the cost is quoted per m² is the single most common way to lose a mensuration mark.
 
-### 🟡 Standard
+**Memory hooks.** "**A rect = LB**" for area. "**Pie are squared**" for πr² — squared, not cubed; a circle is 2D. For volume, picture filling the solid with unit cubes; a 5 cm cube holds 125 of them.
 
-### Concept
-Geometry & Mensuration is all about measuring shapes — how much space they take up (area), how long their edges are (perimeter/circumference), and how much stuff fits inside them (volume). You've been dealing with these since middle school, so you're not starting from zero here.
+### 🟡 Standard — Regular Study (2d–2mo)
 
-**2D shapes** have two dimensions: length and breadth (or just one side for squares). Their area is the space inside, and their perimeter is the total distance around the boundary. Common ones you'll see in CUET: triangles, rectangles, squares, circles, parallelograms, trapeziums, and rhombuses.
+#### The questions that ask more than they appear to
 
-**3D shapes** add a third dimension: height or depth. Now you're dealing with volume (how much space inside) and also surface area — the total area of all the outer faces. Cubes, cuboids, cylinders, cones, spheres, and hemispheres are the usual suspects.
+**Radius or diameter?** Every circle formula is written in r. If the question gives a diameter, halve it before substituting. Using πd² instead of πr² gives an answer four times too large, which is an error options often include precisely so that careless work is caught.
 
-The trickiest part for most students isn't the formulas — it's knowing *which* formula to apply and making sure your units are consistent (no mixing cm² with m²!).
+**CSA or TSA?** A closed cylinder has two circular faces as well as its curved side. TSA = 2πrh + 2πr² and CSA = 2πrh. A cone has a base; a hemisphere has a flat circular face. A sphere and a cuboid have no separate curved part, so their "total" and "surface" figures are the same number. Read the last two words of the question, not the shape name.
 
-### Key Formulas
-| Formula | Use |
-|---------|-----|
-| Square: Area = a², Perimeter = 4a | When all 4 sides are equal |
-| Rectangle: Area = l × b, Perimeter = 2(l + b) | When opposite sides are equal |
-| Triangle: Area = ½ × base × height | Any triangle |
-| Circle: Area = πr², Circumference = 2πr | Round shapes |
-| Parallelogram: Area = base × height | Opposite sides parallel |
-| Rhombus: Area = ½ × d₁ × d₂ | Diagonal-based formula |
-| Trapezium: Area = ½ × (a + b) × h | One pair of parallel sides |
-| Cube: Volume = a³, TSA = 6a² | All edges equal |
-| Cuboid: Volume = l × b × h, TSA = 2(lb + bh + hl) | Rectangular box |
-| Cylinder: Volume = πr²h, CSA = 2πrh, TSA = 2πr(r + h) | Tube-shaped |
-| Cone: Volume = ⅓πr²h, CSA = πrl, TSA = πr(r + l) | Ice-cream cone shape |
-| Sphere: Volume = ⁴⁄₃πr³, TSA = 4πr² | Ball-shaped |
-| Hemisphere: Volume = ⅔πr³, CSA = 2πr², TSA = 3πr² | Half a sphere |
+**Height or slant height?** A cone's volume uses the vertical height h; its curved surface area uses the slant height l, with l² = h² + r². Substituting the wrong one is a reliable way to produce a wrong answer, so extract both from the data and label them.
 
-### Worked Example
-**Q:** A hall is 20 m long and 15 m broad. Cost of flooring is ₹50 per m². Find the total cost.
+**2D or 3D?** Area is measured in squares, perimeter in units, volume in cubes, surface area in squares. A question about how much water a tank holds is a volume question; a question about how much paint a surface needs is an area question. The unit in the options is a reliable clue.
 
-**Step 1:** Find the area of the floor.
-Area = l × b = 20 × 15 = 300 m²
+#### Worked Example — a practical application
 
-**Step 2:** Multiply by cost per m².
-Total cost = 300 × 50 = ₹15,000
+**Q.** A hall is 20 m long and 15 m broad. Flooring costs ₹50 per m². Find the total cost.
 
-**Answer:** ₹15,000
+- Floor area = l × b = 20 × 15 = **300 m²**
+- Cost = 300 × 50 = **₹15,000**
 
-### Common Errors
-- Confusing radius and diameter → Always double-check: diameter = 2r, radius = d/2
-- Forgetting π value → Use π = 22/7 unless told otherwise; if answer choices have decimals, use 3.14
-- Mixing up CSA and TSA → Curved Surface Area excludes bases; Total Surface Area includes all faces
+Two multiplications and a unit check. Problems like this are worth attempting even when the numbers look trivial, because the marks come from identifying the area correctly and not from the arithmetic.
 
-### 🔴 Extended
+#### Heron's formula, for when there is no height
 
-### Full Concept
+A triangle's area is ½ × base × height, but the height is often not given. Heron's formula uses only the three sides: with semi-perimeter s = (a + b + c)/2, the area is **√[s(s − a)(s − b)(s − c)]**.
 
-**Why πr² is the Area of a Circle**
-Most students just memorize "πr²" without understanding *why*. Here's the intuition: imagine a circle as made of countless tiny slices like a pizza, each a thin triangle with height ≈ r and base ≈ arc length. The sum of all bases equals the circumference (2πr). So total area = ½ × r × (sum of all bases) = ½ × r × 2πr = πr². The slices cancel out perfectly. That's why π is fundamental to circles — it bridges the linear (circumference) and the squared (area).
+A triangle with sides 13, 14 and 15 has s = 21, so the area is √[21 × 8 × 7 × 6] = √7056 = **84**. The same triangle has height 2 × 84/14 = 12 to base 14, and ½ × 14 × 12 = 84, confirming both routes. Heron's is not a different formula so much as the height calculation folded in, which is why it works for any triangle.
 
-**Heron's Formula — The Semi-Perimeter Approach**
-For triangles where you don't know the height, Heron's formula is a lifesaver. The semi-perimeter s = (a + b + c)/2. Then Area = √[s(s-a)(s-b)(s-c)].
+#### Composite solids, and the joint that disappears
 
-Why does this work? It's derived from the basic triangle area formula combined with the Pythagorean theorem. The semi-perimeter trick essentially encodes the height calculation into the formula so you never need to find the height explicitly.
+Real objects are combinations: a tent is a cylinder with a cone on top, a capsule is a cylinder with two hemispheres, a bucket is a frustum. For **volume, add the parts**. For **surface area, add the parts and then subtract the hidden joints** — the circular faces where two solids meet are not part of the outside surface.
 
-**Frustum of a Cone**
-A frustum is what you get when you slice the top off a cone. It appears in many practical problems — buckets, lampshades, traffic cones cut off at the top. The slant height l = √[h² + (R - r)²] where R and r are the two radii and h is the vertical height. Surface area of frustum = π(R + r) × l (curved part) + πR² + πr² (both ends).
+A capsule of cylinder radius 3 cm and cylinder length 10 cm, capped with hemispheres, has volume π(3²)(10) + ⅔π(3³) = 90π + 18π = **108π cm³**, but its surface area is 2π(3)(10) + 4π(3²) = 60π + 36π = **96π cm²** — the two flat circles of radius 3 that would have been exposed are internal, so they are not counted.
 
-**Cube vs Cuboid — Same Volume, Different Surface Area**
-Here's a fascinating insight: a cube and a cuboid can have the same volume but very different surface areas. For a given volume V, surface area is minimized when the shape is a cube (all sides equal). This is why cubes are efficient — they pack the most volume with the least surface area. This concept appears in "minimum material to contain X volume" type problems.
+### 🔴 Extended — Deep Study (3mo+)
 
-**Painting Walls Problem**
-When a room's walls need painting (but not the floor or ceiling), you calculate the wall area as: perimeter × height minus area of doors and windows. Common trap: students forget to subtract the area of openings, or they confuse total wall area with total surface area of all four walls.
+#### Why the area of a circle is πr²
 
-**Units Conversion Trap**
-This trips up even good students: 1 m = 100 cm. So 1 m² = (100 cm)² = 10,000 cm². Similarly, 1 m³ = 1,000,000 cm³. Always convert to the same unit *before* doing calculations. If the problem gives area in cm² and asks for cost in ₹/m², convert first.
+Slice the circle into a great many thin wedges and bring them together into a near-rectangle. The wedges pair off so the slanted sides cancel, leaving a shape of height r and base equal to the circumference, 2πr. Its area is ½ × r × 2πr = **πr²**. The number π is simply the ratio of a circle's circumference to its diameter, and the "unrolling" shows why the same constant appears in both formulas.
 
-**Combination of Solids**
-Real objects aren't just one shape — they're combinations. To find total volume: add volumes of individual parts. For surface area: add curved surface areas, but be careful! When two solids are joined, the surface at the joint disappears from the total surface area. A capsule (cylinder + two hemispheres) has less surface area than the sum of its parts because the flat circular faces where they join are hidden.
+#### Frustum of a cone
 
-### Multiple Approaches
+A frustum is a cone with its top sliced off — the shape of a bucket or a lampshade. With the two radii R and r, the vertical height h and the slant height l = √[h² + (R − r)²]:
 
-**Standard:** Identify shape → recall formula → substitute values → calculate.
+- Curved surface area = π(R + r) × l
+- Total surface area = π(R + r)l + πR² + πr²
+- Volume = (⅓)πh(R² + Rr + r²)
 
-**Shortcut:** For area of regular polygons you can't easily split: use the fact that any quadrilateral can be divided into two triangles and use Heron's formula on each. For related 2D/3D shapes (e.g., a cylinder and a cone on top), use combined volume = V_cylinder + V_cone.
+#### Recasting problems: conservation of volume
 
-### CUET-Level Problems
+When a solid is melted and recast, the volume is unchanged, which turns a solid-shape question into a division. A cylinder of radius 3 cm and height 10 cm has volume π × 9 × 10 = **90π cm³**. A sphere of radius 1 cm has volume ⁴⁄₃π cm³. The number of spheres is 90π ÷ (⁴⁄₃π) = 90 × ¾ = **67.5**, so 67 whole spheres with a little metal left over.
 
-**Q1:** A solid metal cylinder of height 10 cm and radius 3 cm is melted and recast into spherical balls of radius 1 cm each. How many balls are formed?
+The two habits that make these reliable: **cancel π immediately** (it appears on both sides), and **decide what the question wants when the answer is not a whole number.** If it asks how many complete spheres, take the whole part and say what is left over; if it asks for a volume, keep the fraction.
 
-Working: Volume of cylinder = πr²h = π × 9 × 10 = 90π cm³
-Volume of one sphere = ⁴⁄₃πr³ = ⁴⁄₃π × 1 = ⁴⁄₃π cm³
-Number of balls = 90π ÷ (⁴⁄₃π) = 90 × ³⁄₄ = 67.5
-Answer: **67 or 68** (since you need complete balls, 67 full balls can be made, with some metal left over — CUET usually expects you to take integer part: 67)
+#### Scaling: what changes when a length changes
 
-**Q2:** The radius of a sphere is increased by 10%. By what percentage does its surface area increase?
+If every length is multiplied by k, then area is multiplied by k² and volume by k³. So a sphere whose radius grows 10% has a surface area that grows by 1.1² = 1.21, i.e. a **21% increase**, and a volume that grows by 1.1³ = 1.331, i.e. **33.1%**. Cylinders and cones behave the same way, and this is the single most common way a mensuration question turns into a percentage question.
 
-Working: Original SA = 4πr²
-New radius = 1.1r
-New SA = 4π(1.1r)² = 4π × 1.21 × r² = 1.21 × 4πr²
-Increase = 21%
-Answer: **21%**
+The same rule gives quick answers to shrinkage questions: a metal sphere melted into a smaller sphere of half the radius has 1/8 the volume, and if the metal is recast into wire of double the length, the cross-section must be a quarter of the original.
 
-### Tricky Cases
-- **When given slant height but need vertical height for cone volume:** Always use l² = h² + r² to find h first. Volume uses h, not l.
-- **Hemisphere vs half-sphere:** A hemisphere is exactly half a sphere — volume = ½ × (⁴⁄₃πr³) = ⅔πr³. But curved surface area = 2πr² (half of 4πr²), while total surface area includes the base circle → 3πr².
-- **When solid is hollow:** Subtract inner volume from outer volume. Example: a pipe is a cylinder with another cylinder removed from inside.
-- **Units mismatch in area:** If sides are in cm and answer options in m², convert cm² to m² by dividing by 10,000 (not 100!).
+#### Minimum surface area for a fixed volume
 
-*Content adapted based on your selected roadmap duration.*
+Of all cuboids with a given volume, the **cube has the least surface area**; of all cylinders with a given volume, the one with height equal to the diameter. This is why packaging is roughly cubical and why drinks cans are roughly twice as tall as they are wide. It is worth knowing as a fact rather than deriving, because it converts an optimisation question into a single calculation.
+
+#### Unit conversion, the part that catches everyone
+
+Lengths are linear, areas are squared, volumes are cubed, so the conversion factors compound: 1 m = 100 cm, **1 m² = 10,000 cm²**, and **1 m³ = 1,000,000 cm³**. Dividing a cm² answer by 100 instead of 10,000 is the classic error. Convert the *dimensions* first rather than the final answer, and the arithmetic stays in whole numbers.
+
+#### Hollow solids
+
+A hollow cylinder is an outer cylinder minus an inner one, so its volume is π(R² − r²)h and its total surface area is 2πR(R + h) + 2πr(r + h), which includes the inner curved surface and both annular ends. Hollow spheres, hemispherical bowls and metal pipes all follow the same subtract-the-inner-solid pattern, and the same warning applies: the surface where the inner and outer surfaces meet is not exposed, but the inner surface itself is.
+
+### 🧠 Memory Anchors
+
+```mermaid
+flowchart TD
+    A[Mensuration question] --> B{What is being measured}
+    B -->|length around| C[Perimeter or circumference]
+    B -->|flat space| D[Area in square units]
+    B -->|space inside| E[Volume in cubic units]
+    B -->|outer skin| F[Surface area in square units]
+    C --> G{Is it a circle?}
+    G -->|yes| H[Circumference equals 2 pi r]
+    G -->|no| I[Add the sides]
+    D --> J{Any circle involved?}
+    J -->|yes| K[Area equals pi r squared]
+    J -->|no| L[Use the shape formula with the height, not the slant]
+    E --> M[Is it a cone?}
+    M -->|yes| N[One third pi r squared h]
+    M -->|no| O[Pi r squared h for a cylinder, a cubed for a cube]
+    F --> P{Curved or total?}
+    P -->|curved| Q[Drop the circular bases]
+    P -->|total| R[Include every exposed face]
+    R --> S[Subtract any hidden joint]
+```
+
+- **"Pie are squared"** for a circle's area, and the circumference is 2πr — the same π, different power.
+- **"A rect = LB."** Rectangle area, and the perimeter is the sum of the lengths times two.
+- **"Trapezium uses the mean of the parallel sides."** ½(a + b)h, not abh — the average, not the product.
+- **"CSA drops the bases; TSA keeps them."** Decide which one the question wants before you write a formula.
+- **"Height for volume, slant for curved area."** A cone never uses l in its volume formula.
+- **"Length × k, area × k², volume × k³."** A 10% longer radius means 21% more surface area and 33.1% more volume.
+- **"Melting conserves volume, so cancel π."** Divide the volumes and take the whole part if you are counting objects.
+- **Flashcard Q&A:**
+  - *Circle r = 7?* → 154 cm², circumference 44 cm.
+  - *Cube a = 5?* → TSA 150 cm², volume 125 cm³.
+  - *Hemisphere r = 7?* → CSA 98π, TSA 147π, volume 686π/3.
+  - *Sphere r up 10%?* → surface area up 21%, volume up 33.1%.
+  - *Cylinder r = 3, h = 10 melted into r = 1 spheres?* → 67 whole spheres.
+
+### 🎯 Exam Traps & Error Log
+
+1. **Substituting the diameter into πr².** Halve it first; the error inflates every area by a factor of four.
+2. **Using CSA when the question asks for TSA,** or adding the bases twice.
+3. **Substituting the slant height for the vertical height** in a cone's volume.
+4. **Forgetting to subtract the hidden joint** when a solid is assembled from two pieces and the question asks for surface area.
+5. **Converting the final answer instead of the dimensions,** or dividing cm² by 100 rather than 10,000.
+6. **Counting 67.5 spheres as 67.5,** or rounding up to 68 when only whole spheres can be cast.
+7. **Adding volumes but also adding the internal faces to a surface area,** which double-counts the joint.
+8. **Using abh for a trapezium** instead of ½(a + b)h.
+9. **Reporting the area when the perimeter was asked,** which the unit of the options reveals immediately.
+10. **Assuming a change in radius changes area by the same percentage.** Radii are linear; areas and volumes are not.
+
+### 🧪 Self-Test — 8 Questions with Worked Answers
+
+Do all eight on paper, and before each one write down the quantity actually being asked for.
+
+1. **Find the area of a circle of radius 7 cm.**
+   Area = πr² = 22/7 × 49 = 22 × 7 = **154 cm²**. The circumference, if that is what the question asked, would be 2πr = 2 × 22/7 × 7 = 44 cm. Notice that a radius of 7 gives a clean answer only with 22/7, which is the standard working value when the radius is a multiple of 7.
+2. **Find the perimeter of a rectangle 12 cm long and 8 cm broad.**
+   Perimeter = 2(l + b) = 2(12 + 8) = **40 cm**. The area, had it been asked, is 96 cm² — and it is in square units, which is how you tell the two questions apart in an option list.
+3. **Find the total surface area of a cube of side 5 cm.**
+   TSA = 6a² = 6 × 25 = **150 cm²**. Its volume is a³ = 125 cm³; if the question had asked for the number of unit cubes, the answer would be 125, not 150.
+4. **A hall is 20 m long and 15 m broad. Flooring costs ₹50 per m². What is the total cost?**
+   Area = 20 × 15 = 300 m², and the cost = 300 × 50 = **₹15,000**. The rate is per square metre and the area is in square metres, so no conversion is needed — a quick unit check that is worth doing on every application question.
+5. **A cylinder of radius 3 cm and height 10 cm is melted and recast into spheres of radius 1 cm. How many whole spheres can be made?**
+   Cylinder volume = π × 3² × 10 = 90π. One sphere = ⁴⁄₃π × 1³ = 4π/3. The number of spheres = 90π ÷ (4π/3) = 90 × 3/4 = **67.5**, so **67 whole spheres** with metal left over. Cancelling π first is what makes this a one-line calculation; the whole part is required because a part-sphere cannot be cast.
+6. **The radius of a sphere is increased by 10%. By what percentage does its surface area increase, and its volume?**
+   Surface area is proportional to r², so the factor is 1.1² = 1.21 — a **21% increase**. Volume is proportional to r³, so the factor is 1.1³ = 1.331 — a **33.1% increase**. A 10% increase in length is not a 10% increase in anything else, and options for 10% are there to catch exactly that.
+7. **Find the volume of a cone of base radius 7 cm and vertical height 24 cm.**
+   Volume = ⅓πr²h = ⅓ × 22/7 × 49 × 24 = (22 × 49 × 24)/21 = 22 × 7 × 8 = **1,232π cm³**, i.e. 3,872 cm³ with π = 22/7. If a slant height had been given instead of the height, you would first need h = √(l² − r²).
+8. **A trapezium has parallel sides 10 cm and 6 cm with a perpendicular height of 4 cm. Find its area.**
+   Area = ½(a + b)h = ½ × (10 + 6) × 4 = 8 × 4 = **32 cm²**. The key step is taking the *sum* of the parallel sides and halving it — ½(10 + 6) = 8 is the mean of the two bases, and 8 × 4 = 32. Using 10 × 6 × 4 would give 240, which is the shape of the error options usually take.
+
+### 💡 Pro Tips
+
+1. **Write the target quantity at the top of your rough work** — area, CSA, TSA or volume — before you touch a formula. It costs two seconds and prevents the most common mensuration error.
+2. **Adopt 22/7 when the radius is a multiple of 7, and 3.14 otherwise,** and stay with it for the whole question.
+3. **Convert dimensions to a single unit at the start,** never the final answer. Squared and cubed conversion factors are where the arithmetic goes wrong.
+4. **For composite solids, do volume and surface area as two separate sums,** and delete the joint faces from the surface-area sum.
+5. **Memorise the scaling law — length k, area k², volume k³ —** and use it to convert almost any "radius increased by x%" question.
+6. **In recasting questions, cancel the common constants first** and then decide whether the question wants a count or a volume.
+7. **Check the units in the options before you calculate.** A question offering both cm² and cm³ is telling you the answer, and picking the wrong one costs a mark.
+8. **Keep Heron's formula and the ½bh formula both ready.** Trying ½bh with an unavailable height is where time is lost; switch to Heron's immediately instead.
 
 ## Continue your study
 
@@ -181,3 +212,4 @@ Answer: **21%**
 - **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
 - **[All Quantitative Aptitude notes](/notes/cuet/quantitative-aptitude/)** — browse sibling topics in this subject
 
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

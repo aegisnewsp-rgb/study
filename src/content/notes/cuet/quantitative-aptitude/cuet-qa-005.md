@@ -11,136 +11,191 @@ weight_unit: "% of Section II"
 diagramPrompt: "Four growth curves on one graph — SI (straight line), CI annual, CI quarterly, CI monthly — all diverging upward with CI curves progressively steeper"
 country: india
 generated: 2026-03-25
-lastUpdated: 2026-03-25
+lastUpdated: 2026-09-15
 ---
 
 # Simple & Compound Interest
 
-### 🟢 Lite
+Interest is the price of money over time, and the whole topic turns on one question: **is the charge calculated on what you started with, or on what you have accumulated?** Simple interest always uses the original principal, so it grows in a straight line. Compound interest uses the running balance, so it curves upward and eventually dwarfs the simple case. Almost every question in this topic is a variation on that single distinction, and most of them can be answered by picking the right formula and doing one multiplication.
 
-### Key Formula/Rule
-SI = (P × R × T) ÷ 100. Amount (SI) = P + SI = P(1 + RT/100). CI: Amount = P(1 + R/100)^T.
+### 🟢 Lite — Quick Review (1h–1d)
 
-### Memory Trick
-**SI = "P × R × T over 100"** — three ingredients, one division. For CI, you're multiplying the growth factor (1 + R/100) by itself T times because each period's amount becomes the next period's base.
+**The formulas**
 
-### 1-Sentence Summary
-Tests whether you understand the difference between interest calculated only on the original principal (SI) vs. interest calculated on the accumulated amount each period (CI).
+| Formula | Meaning |
+| --- | --- |
+| SI = (P × R × T) ÷ 100 | Simple interest |
+| A = P(1 + RT/100) | Amount under simple interest |
+| A = P(1 + R/100)^T | Amount under annual compounding |
+| CI = A − P | Compound interest, interest part only |
+| A = P(1 + R/(100n))^(nT) | Compounded n times a year |
+| A = P(1 − R/100)^T | Depreciation, same as CI with a minus |
 
-### 30-Second Example
-**Q:** SI on ₹5,000 at 6% per annum for 2 years?
-**A:** ₹600 — (5000 × 6 × 2) ÷ 100 = 600
+**30-second example.** SI on ₹5,000 at 6% per annum for 2 years: (5000 × 6 × 2) ÷ 100 = **₹600**. For 6 months, use T = 0.5, not 6 — the time must be in the same unit as the rate.
 
-### 🟡 Standard
+**The difference between CI and SI, memorised as a formula.** For 2 years the gap is P × (R/100)², because CI is P(R/100) + P(R/100)² while SI is P(R/100) + P(R/100). For 3 years the gap is P[(R/100)² + (R/100)³]. Every "find the sum given the difference between CI and SI" question is a one-line inversion of this.
 
-### Concept
+**Two habits that prevent most errors**
 
-Interest is basically the "rent" you pay for using someone else's money, or the "bonus" you earn for lending yours. **Simple Interest (SI)** is the straightforward version: you borrow ₹10,000 at 8% per year, you pay 8% of ₹10,000 = ₹800 every single year, flat. The interest never changes because it's always calculated on the original ₹10,000, never on the accumulated amount. So over 3 years, SI = ₹800 × 3 = ₹2,400.
+- **CI is the interest, not the amount.** A = P(1 + R/100)^T gives the amount; subtract P for the interest. Reporting the amount where the interest is asked is the single most common error in this topic.
+- **Convert the rate and the time together** whenever compounding is not annual. Half-yearly on 8% for 2 years means 4% per period for 4 periods, not 8% for 2.
 
-**Compound Interest (CI)** is where it gets interesting. Instead of calculating interest on just the original principal, you calculate it on the **accumulated amount** each period. In year one, interest is 8% of ₹10,000 = ₹800, so you now owe ₹10,800. In year two, interest is 8% of ₹10,800 = ₹864. You're now paying interest on interest — which is both good when you're earning and painful when you're borrowing.
+**Memory trick.** SI is "**P R T** over 100" — three letters, one division, always linear. CI is "**P bracket 1 + R over 100, to the power T**" — the exponent is doing the work, because each period's amount becomes the next period's base.
 
-The formula for CI is Amount = P(1 + R/100)^T. That exponent T is doing heavy lifting — it means you're multiplying (1 + R/100) by itself T times. For 3 years at 8%, that's (1.08)^3 = 1.2597, so ₹10,000 becomes ₹12,597. The extra ₹197 compared to SI (₹12,400) is the "interest on interest" effect.
+### 🟡 Standard — Regular Study (2d–2mo)
 
-When interest is compounded **half-yearly** (twice a year), the rate per half-year becomes R/2 and the number of periods becomes 2T. So 8% per annum compounded half-yearly means 4% every 6 months for 2 years (4 periods).
+#### Simple interest: a straight line you can draw
 
-### Key Formulas
-| Formula | Use |
-|---------|-----|
-| SI = (P × R × T) ÷ 100 | Simple interest for one year |
-| Amount (SI) = P + SI = P(1 + RT/100) | Total amount with SI |
-| CI: A = P(1 + R/100)^T | Amount with CI (annual compounding) |
-| CI − SI difference | Extra amount earned with CI vs. SI |
-| Rate per period = R ÷ n, Periods = n × T | For n-times-per-year compounding |
+Borrow ₹10,000 at 8% per annum. The interest each year is 8% of ₹10,000 = ₹800, so every year is identical and the total is ₹800 × T. After 3 years: **₹2,400**, and the amount is ₹12,400.
 
-### Worked Example
-**Q:** Find the compound interest on ₹20,000 at 10% per annum for 2 years, compounded annually.
+Two consequences follow immediately. First, **the SI per year is constant**, so "interest in the nth year" is the same as in every other year — a question that looks harder than it is. Second, because the growth is linear, **doubling the time exactly doubles the SI**. Any question where doubling T does not double SI is not a simple-interest question.
 
-**Step 1:** Year 1 interest = 10% of 20,000 = ₹2,000
-Year 1 amount = 20,000 + 2,000 = ₹22,000
+#### Compound interest: the balance grows, so the charge grows
 
-**Step 2:** Year 2 interest = 10% of 22,000 = ₹2,200
-Year 2 amount = 22,000 + 2,200 = ₹24,200
+At 8% compounded annually on ₹10,000: year 1 interest ₹800, balance ₹10,800; year 2 interest is 8% of ₹10,800 = ₹864, balance ₹11,664; year 3 interest is 8% of ₹11,664 = ₹933.12, balance ₹12,597.12. The formula A = P(1 + R/100)^T reproduces this in one step: 1.08³ = 1.259712, and 10,000 × 1.259712 = **₹12,597**.
 
-**Step 3:** CI = Final Amount − Principal = 24,200 − 20,000 = **₹4,200**
+The gap between the two is interest on interest, and it is small over two years and enormous over thirty. ₹10,000 at 12% for 30 years is ₹46,000 under simple interest and about ₹2,99,600 under compound interest — roughly **six and a half times as much**, from an identical deposit. That ratio is why compounding is taught at all.
 
-Or use formula: A = 20000 × (1 + 10/100)^2 = 20000 × 1.1 × 1.1 = **₹24,200** → CI = 24,200 − 20,000 = ₹4,200
+#### Worked Example — compound interest, two routes
 
-**Answer:** ₹4,200
+**Q.** Find the compound interest on ₹20,000 at 10% per annum for 2 years, compounded annually.
 
-### Common Errors
-- **Using time T directly for half-yearly compounding** → Convert properly: 2 years half-yearly means 4 periods at (R/2)% each
-- **Confusing SI and CI formulas** → SI uses P × R × T (linear); CI uses P raised to power T (exponential)
-- **Forgetting to subtract the principal from CI** → CI is not the final amount; it's the interest portion only: CI = A − P
+*Year-by-year:* year 1 interest ₹2,000, balance ₹22,000; year 2 interest ₹2,200, balance ₹24,200. CI = 24,200 − 20,000 = **₹4,200**.
 
-### 🔴 Extended
+*By formula:* A = 20,000 × (1.1)² = 20,000 × 1.21 = ₹24,200, so CI = **₹4,200**.
 
-### Full Concept
+Both routes agree, and doing the year-by-year version once is the fastest way to make sure the formula is not being misread. Notice that the SI on the same sum would be (20,000 × 10 × 2)/100 = ₹4,000, so CI is ₹200 more for a single extra year of compounding.
 
-#### Why CI Grows Exponentially
-This is the key insight. With SI, after T years your money grows linearly: P + P×R×T/100. With CI, it grows multiplicatively: P × (1 + R/100)^T. The difference is enormous over long periods because (1 + R/100)^T grows exponentially while P×R×T grows only linearly.
+#### Worked Example — find the principal from the CI–SI difference
 
-Compare ₹10,000 at 12% per year for 30 years:
-- SI: 10,000 + (10,000 × 12 × 30)/100 = ₹46,000
-- CI: 10,000 × (1.12)^30 = ₹29,95,992 ≈ **₹30 lakhs**
+**Q.** The difference between CI and SI on a sum at 10% per annum for 2 years is ₹31. Find the sum.
 
-Same principal, same rate, same time — but CI gives you roughly 65× more. That's the power of compounding, and it's why starting to invest early matters so much.
+For 2 years, SI = P(0.10) + P(0.10) = 0.20P, and CI = 0.10P + 0.11P = 0.21P, so the difference is 0.01P. Setting 0.01P = 31 gives **P = ₹3,100**. The general form of what you just did: CI − SI for 2 years = P(R/100)², so P = difference ÷ (R/100)².
 
-#### More Frequent Compounding
-When CI is compounded more than once a year, the formula adjusts: **A = P(1 + R/(100×n))^(n×T)** where n = number of compounding periods per year. For monthly compounding at 12% per annum: n = 12, so rate per month = 1%, periods = 12T.
+#### Worked Example — instalments under simple interest
 
-For quarterly: A = P(1 + R/400)^(4T)
-For monthly: A = P(1 + R/1200)^(12T)
+A sum of ₹10,000 is borrowed at 10% per annum simple interest and repaid in four equal annual instalments of ₹2,500. Interest is charged for the whole period each instalment remains outstanding, and that period shrinks by one year each time:
 
-The more frequent the compounding, the higher the effective amount — because you're earning "interest on interest" more often. But notice the rate per period shrinks proportionally, so the benefit is real but not dramatic.
+- Instalment 1 is outstanding for 3 years: 2500 × 10 × 3/100 = ₹750
+- Instalment 2 for 2 years: ₹500
+- Instalment 3 for 1 year: ₹250
+- Instalment 4 for 0 years: ₹0
 
-#### Effective Rate vs. Nominal Rate
-The **nominal rate** is the stated annual rate. The **effective rate** is what you actually earn or pay when compounding is factored in. If the nominal rate is 12% compounded monthly, the effective annual rate is (1 + 0.12/12)^12 − 1 = (1.01)^12 − 1 ≈ 0.1268 = **12.68%**. So the effective rate is slightly higher than the nominal rate because of more frequent compounding.
+Total interest = 750 + 500 + 250 = **₹1,500**. The counting is the whole question: with n equal annual instalments, the first accrues interest for n − 1 years, the second for n − 2, and the last for none.
+
+### 🔴 Extended — Deep Study (3mo+)
+
+#### More frequent compounding
+
+When interest is credited n times a year, the rate per period is R/n and the number of periods is nT, so **A = P(1 + R/(100n))^(nT)**. Quarterly compounding on 8% for 2 years is P(1 + 8/400)^8 = P(1.02)^8. Monthly compounding on 12% is P(1 + 12/1200)^(12T) = P(1.01)^(12T).
+
+The rate per period falls as n rises, but the number of periods rises faster, and the net effect is always a higher amount. Comparing the three: on ₹10,000 at 12% for 1 year, annual gives 1.12, half-yearly gives (1.06)² = 1.1236, quarterly gives (1.03)⁴ = 1.1255, and monthly gives (1.01)¹² = 1.1268. The increments shrink — which is why switching from annual to daily changes almost nothing, while switching from annual to monthly is visible.
+
+#### Nominal rate and effective rate
+
+The **nominal rate** is the number written in the contract. The **effective annual rate** is what you actually earn once compounding is included, and it is always at least as large. At 12% compounded monthly the effective rate is (1.01)¹² − 1 = 0.1268, i.e. **12.68%**. A question comparing two offers with the same nominal rate is asking which one has the higher effective rate, and the answer is the one compounded more often.
 
 #### The Rule of 72
-This is a beautiful shortcut for doubling time. **Divide 72 by the annual rate (r%) and you get the approximate number of years to double your money.** At 6% per year: 72 ÷ 6 = 12 years. At 9%: 72 ÷ 9 = 8 years. It's not exact, but for CUET it's close enough and saves precious exam time.
 
-For more precision: **Rule of 69.3** (better for continuous compounding) or **Rule of 70** (close enough for most rates).
+Divide 72 by the annual rate to get the approximate number of years to double. At 6% it is 12 years, at 9% it is 8 years, at 8% it is 9 years. It is an approximation that is closest in the range students actually meet, and it is accurate enough to choose between options.
 
-#### Depreciation
-This is just CI in reverse — a constant percentage decrease each period. If a machine worth ₹1,00,000 depreciates at 20% per year: after year 1 = 1,00,000 × 0.80 = ₹80,000. After year 2 = 80,000 × 0.80 = ₹64,000. Formula: **Value after T years = P × (1 − r/100)^T**. Notice the minus sign instead of plus.
+Use it with care and know its limit: 1.08⁹ = 1.9990, so at 8% the money reaches ₹1,999 for every ₹1,000 after exactly nine years and needs a little longer to actually double. Treat "72 ÷ r" as a good estimate, and fall back on the exact power when the options are close together.
 
-### Multiple Approaches
+#### Depreciation, and other reverse compounds
 
-**Standard — Formula Method:**
-CI = P[(1 + R/100)^T − 1]
-This is cleaner when you just need the interest portion, not the full amount.
+Depreciation is compound interest with a negative sign: **value after T years = P(1 − R/100)^T**. A machine worth ₹8,00,000 depreciating at 10% per year is worth 8,00,000 × 0.9³ = 8,00,000 × 0.729 = **₹5,83,200**. Year by year that is ₹7,20,000, then ₹6,48,000, then ₹5,83,200.
 
-**Shortcut — Rule of 72:**
-Years to double ≈ 72 ÷ r. Works best for rates between 4% and 20%. Outside this range, error increases.
+The same structure appears in population decline, in the value of a recurring deposit left to run, and in "a quantity halves every n years" problems, which are just (1/2)^k multipliers. Recognising the shape is worth more than memorising the label: **a constant percentage change per period is always a power.**
 
-**Shortcut — Net Change Approximation:**
-For two successive rates r₁% and r₂%: Net factor = (1 + r₁/100)(1 + r₂/100). Equivalent to net% = r₁ + r₂ + (r₁×r₂)/100.
+#### When the rate changes each year
 
-### CUET-Level Problems
+If the rate differs by year, the single-formula route is wrong. Apply each year's rate to the running balance: A = P × (1 + r₁/100) × (1 + r₂/100) × (1 + r₃/100).
 
-**Q1:** The difference between CI and SI on a sum at 10% per annum for 2 years is ₹31. Find the sum.
-**Working:** 
-SI for 2 years = (P × 10 × 2)/100 = 0.20P
-CI Year 1 = 0.10P, Amount after Y1 = 1.10P
-CI Year 2 = 0.10 × 1.10P = 0.11P, Total CI = 0.10P + 0.11P = 0.21P
-Difference = 0.21P − 0.20P = 0.01P = 31
-**P = ₹3,100**
-**Answer:** ₹3,100
+₹1,000 at 10% in year 1 and 20% in year 2 becomes 1000 × 1.1 × 1.2 = **₹1,320**, so the interest is ₹320. Note what the wrong approach gives: a flat 15% for two years would be 1000 × 1.15² = ₹1,322.50. The two are close but not equal, and the sequential method is the correct one.
 
-**Q2:** A car worth ₹8,00,000 depreciates at 10% per year. What will it be worth after 3 years?
-**Working:** 
-After Y1: 8,00,000 × 0.90 = 7,20,000
-After Y2: 7,20,000 × 0.90 = 6,48,000
-After Y3: 6,48,000 × 0.90 = 5,83,200
-Or: 8,00,000 × (0.9)^3 = 8,00,000 × 0.729 = **₹5,83,200**
-**Answer:** ₹5,83,200
+#### Reading time units carefully
 
-### Tricky Cases
-- **CI when rate differs each year:** Don't use the single formula. Apply each year's rate sequentially: A = P × (1 + r₁/100) × (1 + r₂/100) × (1 + r₃/100).
-- **SI and CI being equal for specific combinations:** This happens at certain T and R values. For 2 years, CI − SI = P × (R/100)^2. Setting this equal to some value lets you solve backwards.
-- **Decimal years:** 6 months = 0.5 years, 18 months = 1.5 years. Always convert time to the same unit as the rate before applying formulas.
+6 months is 0.5 years, 18 months is 1.5 years, 2 years 3 months is 2.25 years. SI is directly proportional to T, so T = 3/12 of a year on a monthly rate is exactly the arithmetic. Under simple interest this is trivial; under compound interest a fractional number of periods needs a fractional power, which is why such questions are almost always posed on simple interest. Convert the unit first, then apply the formula.
 
-*Content adapted based on your selected roadmap duration.*
+### 🧠 Memory Anchors
+
+```mermaid
+flowchart TD
+    A[Interest question] --> B{Interest on original principal or on running balance?}
+    B -->|original principal| C[Simple interest]
+    C --> D[SI equals P times R times T over 100]
+    B -->|running balance| E[Compound interest]
+    E --> F{Compounded how often?}
+    F -->|once a year| G[A equals P times 1 plus R over 100 to the power T]
+    F -->|n times a year| H[A equals P times 1 plus R over 100n to the power nT]
+    G --> I[Subtract P to get the interest]
+    H --> I
+    A --> J{Amount wanted or interest wanted?}
+    J -->|interest| I
+    J -->|amount| K[Keep the amount, do not subtract]
+    A --> L{Percentage falls each period?}
+    L -->|yes depreciation| M[A equals P times 1 minus R over 100 to the power T]
+```
+
+- **"PRT over 100"** is simple interest and nothing else — three factors, one division, always linear in T.
+- **"The exponent is the compounding."** (1 + R/100)^T is the whole idea; T is how many times the balance charged you.
+- **"Interest part only means subtract P."** A is the amount, CI is A − P.
+- **"Two years, gap is P(R/100)²."** For 3 years add the cubic term as well. Memorise the 2-year form; the rest follows.
+- **"Halve the rate, double the periods."** Switching to half-yearly compounding means R/2 per period and 2T periods.
+- **"72 over r is the doubling time."** An estimate for choosing between options, not a substitute for the exact power.
+- **"A falling percentage is a minus in the bracket."** Depreciation is (1 − R/100)^T.
+- **Flashcard Q&A:**
+  - *₹5,000 at 6% for 2 years, SI?* → ₹600.
+  - *₹5,000 at 6% for 6 months, SI?* → ₹150, since T = 0.5.
+  - *CI on ₹20,000 at 10% for 2 years?* → ₹4,200.
+  - *CI − SI = 31 at 10% for 2 years?* → 0.01P = 31, P = ₹3,100.
+  - *₹8,00,000 at 10% depreciation for 3 years?* → ₹5,83,200.
+  - *4 equal instalments at 10% SI?* → interest on 3, 2, 1, 0 years.
+
+### 🎯 Exam Traps & Error Log
+
+1. **Reporting the amount when the interest is asked.** A = ₹24,200 is not the CI; the CI is ₹4,200.
+2. **Using the nominal rate with the wrong number of periods.** 8% half-yearly for 2 years is 4% for 4 periods, never 8% for 2.
+3. **Taking T in months while R is per annum.** 6 months at 6% per annum is T = 0.5, not T = 6, and the answers differ by a factor of 12.
+4. **Applying one average rate when the rate changes each year.** The sequential product P(1 + r₁/100)(1 + r₂/100) is correct; a flat average rate is not.
+5. **Forgetting that instalment interest counts only the years the money remains outstanding.** For n instalments the first accrues n − 1 years, not n.
+6. **Using P as the base for the SI of year 2 under compound interest.** Year 2 is charged on P(1 + R/100), not on P.
+7. **Assuming SI doubles when the rate doubles.** Doubling R or T doubles SI, but doubling *both* quadruples it.
+8. **Forgetting the minus sign in depreciation,** which turns a falling value into a rising one.
+9. **Treating the Rule of 72 as exact** when two options are within a few percent of each other.
+10. **Solving for the principal from the CI–SI difference using SI − CI,** which is negative and produces a negative sum.
+
+### 🧪 Self-Test — 8 Questions with Worked Answers
+
+Attempt all eight before reading a solution, and write down whether the question wants the amount or the interest.
+
+1. **Find the simple interest on ₹5,000 at 6% per annum for 2 years.**
+   SI = (P × R × T) ÷ 100 = (5000 × 6 × 2) ÷ 100 = 60,000 ÷ 100 = **₹600**. The amount would be ₹5,600; the interest is ₹600. Note the per-year interest is ₹300, the same in each year.
+2. **Find the simple interest on ₹5,000 at 6% per annum for 6 months.**
+   T = 6/12 = 0.5 years, so SI = (5000 × 6 × 0.5) ÷ 100 = 15,000 ÷ 100 = **₹150**. Using T = 6 would give ₹1,800, twelve times too much — the rate is per annum, so the time must be too.
+3. **Find the compound interest on ₹20,000 at 10% per annum for 2 years, compounded annually.**
+   A = 20,000 × (1.1)² = 20,000 × 1.21 = ₹24,200. CI = A − P = 24,200 − 20,000 = **₹4,200**. The SI on the same sum is ₹4,000, so compounding added ₹200 in the second year alone.
+4. **The difference between CI and SI on a sum at 10% per annum for 2 years is ₹31. Find the sum.**
+   For 2 years, SI = 0.20P and CI = 0.10P + 0.11P = 0.21P, so the difference is 0.01P. Then 0.01P = 31 gives **P = ₹3,100**. Check: SI = ₹620, CI = 0.21 × 3,100 = ₹651, and 651 − 620 = 31 ✓.
+5. **A car worth ₹8,00,000 depreciates at 10% per year. What is it worth after 3 years?**
+   Value = P(1 − R/100)^T = 8,00,000 × 0.9³ = 8,00,000 × 0.729 = **₹5,83,200**. Year by year: 7,20,000 → 6,48,000 → 5,83,200, the same figure. Total depreciation is 8,00,000 − 5,83,200 = ₹2,16,800, which is 27.1% of the original value rather than the 30% you would get by adding 10% three times.
+6. **At about what annual rate, compounded annually, does a sum double in 9 years?**
+   Rule of 72: 72 ÷ 9 = **8%**. Check the power: 1.08⁹ = 1.9990, so after nine years the sum is 1.999 times the original — just short of a true doubling, which is exactly why the rule is an estimate. At 8% the doubling is effectively complete in nine years, and 8% is the right option.
+7. **₹1,000 earns 10% in the first year and 20% in the second. What is the compound amount, and what would a flat 15% for two years have given?**
+   Sequential: 1000 × 1.1 × 1.2 = **₹1,320**, so the interest is ₹320. Flat 15%: 1000 × 1.15² = 1000 × 1.3225 = **₹1,322.50**. The two are close but not equal, which is the point: when the rate changes by year, apply each year's rate to the running balance rather than averaging.
+8. **₹10,000 is borrowed at 10% per annum simple interest and repaid in four equal annual instalments of ₹2,500. Find the total interest charged.**
+   The first instalment stays outstanding for 3 years, the second for 2, the third for 1 and the last for none. Interest = 2500 × 10/100 × (3 + 2 + 1 + 0) = 250 × 6 = **₹1,500**. In parts: ₹750 + ₹500 + ₹250 + ₹0. Charging the first instalment for a full 4 years would give ₹2,500 of interest and is the usual error.
+
+### 💡 Pro Tips
+
+1. **Write "amount" or "interest" at the top of your rough work** before you start. The subtraction of P is the most common step to forget.
+2. **Convert the time to years the moment you read it,** and write the conversion down: 6 months → 0.5, 18 months → 1.5.
+3. **When compounding is not annual, write "rate per period × number of periods"** on paper. Two of the four values then arrive together and the third is forced.
+4. **Use the CI − SI gap formula rather than computing both amounts,** whenever a question gives the difference. It is a one-line inversion instead of two powers.
+5. **Chain the years on your fingers** for any problem longer than two periods — it is faster than a power and it cannot be mis-typed.
+6. **For instalment questions, list the outstanding years first** (n − 1, n − 2, …, 0) and then do the arithmetic.
+7. **Keep the depreciation form separate in your memory** from the interest form. Same power, opposite sign, and mixing them up produces a value that grows when it should shrink.
+8. **Reach for the Rule of 72 to eliminate options,** then confirm with the exact power only if two options are close.
 
 ## Continue your study
 
@@ -149,3 +204,4 @@ Or: 8,00,000 × (0.9)^3 = 8,00,000 × 0.729 = **₹5,83,200**
 - **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
 - **[All Quantitative Aptitude notes](/notes/cuet/quantitative-aptitude/)** — browse sibling topics in this subject
 
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -3,6 +3,22 @@ services:
     build: .
     container_name: studyroadmap
     restart: unless-stopped
+    # MEASURED 2026-10-03 — transient HTTP 500 root cause, fix prepared here.
+    # The image ran with soft nofile=1024 while nginx.conf sets
+    # `open_file_cache max=10000 inactive=120s`, so the cache could never get
+    # past the process ceiling. Measured live: 3 of 4 nginx workers sat at
+    # 1,023 of 1,024 fds — one slot from the wall. Under concurrency the worker
+    # needs an fd per socket and immediately runs out, which nginx reports as
+    # HTTP 500. That is why a 5,196-URL sweep failed 4.0% at 16-way concurrency
+    # and 0% serially: same URLs, ~1 free fd each.
+    # The HARD limit is already 524288, so raising the soft limit needs no
+    # sysctl change and no rebuild — it takes effect on the next
+    # `docker compose up -d` (create/recreate), not on image rebuild alone.
+    # Evidence: /data/ceo-sprint/ready/MEASURED-2026-10-03-sitemap-is-not-404s.md
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
     # NOTE: previously bind-mounted ./news.json over the served file. Removed
     # 2026-06-01 after it caused a ~14h sitewide outage: when the host file went
     # missing, `docker compose up` auto-created ./news.json as an empty DIRECTORY,

@@ -9,6 +9,8 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-19"
+seoTitle: "Indus Valley Civilization Notes — TNPSC | StudyRoadmap"
+seoDescription: "TNPSC Group 1 history notes on the Indus Valley Civilization: Harappan towns, seals and script, Bronze Age trade, and the theories for its decline."
 ---
 
 # Indus Valley Civilization

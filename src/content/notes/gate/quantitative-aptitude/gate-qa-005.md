@@ -12,6 +12,8 @@ diagramPrompt: "A growth curve comparing SI (linear) vs CI (exponential) over ti
 country: india
 generated: 2026-05-26
 lastUpdated: 2026-05-26
+seoTitle: "Simple & Compound Interest — GATE GA Notes | StudyRoadmap"
+seoDescription: "GATE general aptitude notes on simple and compound interest: SI vs CI, annual and half-yearly compounding, effective annual rate, worked questions."
 ---
 
 # Simple & Compound Interest

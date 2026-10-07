@@ -64,17 +64,21 @@ const _examCompact =
 const _titleCompact = `${topicName} — ${_examCompact} Notes`;
 const _titleTight = `${topicName} — ${_examCompact}`;
 
-const title = (`${_titleFull}${BRAND_SUFFIX}`.length <= 60) ? `${_titleFull}${BRAND_SUFFIX}`
+const _seoTitle = (note.data.seoTitle || '').trim();
+const title = _seoTitle ? _seoTitle.slice(0, 60)
+  : ((`${_titleFull}${BRAND_SUFFIX}`.length <= 60) ? `${_titleFull}${BRAND_SUFFIX}`
   : (`${_titleMid}${BRAND_SUFFIX}`.length <= 60) ? `${_titleMid}${BRAND_SUFFIX}`
   : (`${_titleCompact}${BRAND_SUFFIX}`.length <= 60) ? `${_titleCompact}${BRAND_SUFFIX}`
   : (`${_titleTight}${BRAND_SUFFIX}`.length <= 60) ? `${_titleTight}${BRAND_SUFFIX}`
   : (() => {
       const room = Math.max(10, 60 - BRAND_SUFFIX.length - ` — ${_examCompact}`.length);
       return `${topicName.slice(0, room).trim()} — ${_examCompact}${BRAND_SUFFIX}`;
-    })();
+    })());
 // Keep description ≤160 chars even for the longest topicName/examName combos.
 const _descRaw = `${topicName} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`;
-const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
+const _seoDesc = (note.data.seoDescription || '').trim();
+const description = _seoDesc ? _seoDesc.slice(0, 160)
+  : (_descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw);
 const canonicalUrl = `https://studyroadmap.in/notes/${note.id}/`;
 const _candidateOg = `/og-notes/${exam}-${subject}-${topic}.jpg`;
 const ogImage = fs.existsSync(path.join(process.cwd(), 'public', _candidateOg))

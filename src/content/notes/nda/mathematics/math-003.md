@@ -13,10 +13,8 @@ country: india
 generated: "2026-03-24T08:32:07.806213"
 lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Determinants concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
-
-
-
-
+seoTitle: "Matrices and Determinants — NDA Maths Notes | StudyRoadmap"
+seoDescription: "NDA mathematics notes on matrices and determinants: matrix algebra, determinants of order 2 and 3, and worked problems from the NDA paper."
 ---
 # Determinants
 

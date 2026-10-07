@@ -12,6 +12,8 @@ diagramPrompt: "An advanced decision matrix for Assertion & Reason: rows represe
 country: india
 generated: 2026-05-26
 lastUpdated: "2026-09-07"
+seoTitle: "Assertion & Reason Questions — GATE Notes | StudyRoadmap"
+seoDescription: "GATE general aptitude notes on assertion and reason questions: the five fixed options, the explanation link test, and the traps that catch candidates."
 ---
 
 # Assertion & Reason

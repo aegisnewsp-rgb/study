@@ -9,6 +9,8 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-07"
+seoTitle: "Forensic Toxicology Notes — FMGE | StudyRoadmap"
+seoDescription: "FMGE forensic medicine notes on toxicology: how poisons are classified, common Indian poisonings and antidotes, medicolegal autopsy findings, management."
 ---
 
 # Forensic Toxicology — Classification of Poisons, Common Poisonings, Medicolegal Autopsy & Management

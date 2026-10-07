@@ -17,6 +17,14 @@ const notes = defineCollection({
     // notes that have never been rewritten fall back to `generated` at render.
     lastUpdated: z.union([z.string(), z.date()]).transform((v) => typeof v === 'string' ? v : v.toISOString().slice(0, 10)).optional(),
     diagramPrompt: z.string().optional(),
+    // Optional per-note SERP overrides. The note page builds its <title> and
+    // meta description from topicName/examName/weight, which cannot answer a
+    // query the topic name does not name (a long topicName is truncated
+    // mid-word, and an exam hub's "free notes" phrasing repeats on 3,000
+    // pages). A note may set seoTitle/seoDescription to state the query it
+    // actually ranks for. Absent = today's generated strings, unchanged.
+    seoTitle: z.string().optional(),
+    seoDescription: z.string().optional(),
   }),
 });
 

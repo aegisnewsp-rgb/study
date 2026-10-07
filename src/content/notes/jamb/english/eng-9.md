@@ -13,10 +13,8 @@ country: nigeria
 generated: "2026-03-24T08:32:07.703707"
 lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Lexis and Structure with clear labels, white background, exam-style illustration"
-
-
-
-
+seoTitle: "Lexis and Structure — JAMB English Notes | StudyRoadmap"
+seoDescription: "What lexis and structure mean in JAMB English: word formation, collocation, homonym and polysemy, and the syntax that holds sentences together."
 ---
 # Lexis and Structure
 

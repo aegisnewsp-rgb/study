@@ -9,6 +9,8 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-16"
+seoTitle: "Physical Features of Karnataka — KPSC KAS | StudyRoadmap"
+seoDescription: "Karnataka physical features for KPSC KAS: the Western Ghats, Malnad, Coastal Plain and Maidan plateau, plus river basins, rainfall and soils."
 ---
 
 # Physical Geography of Karnataka

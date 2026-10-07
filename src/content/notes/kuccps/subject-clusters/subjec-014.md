@@ -9,6 +9,8 @@ weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
+seoTitle: "Journalism Cluster Points — KUCCPS | StudyRoadmap"
+seoDescription: "Cluster points for journalism and mass communication in Kenya: subjects needed, typical KUCCPS cutoffs, universities and career paths after the course."
 ---
 
 # Cluster 14 — Journalism and Media

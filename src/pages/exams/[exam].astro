@@ -13,6 +13,11 @@ import path from 'node:path';
 import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub, isPlaceholderExamTopic, placeholderSyllabusStats } from '../../data/note-quality';
 import { isCuratedComparePair } from '../../data/compare-curation';
 import { examImages } from '../../data/exam-images';
+// Per-URL title/description overrides (data-only, see the module's header for the
+// GSC measurement behind it). Runs validateSeoMetaOverrides() at build time and
+// throws on a >60-char title, a >155-char description or a duplicate title.
+import { seoMetaFor, validateSeoMetaOverrides } from '../../data/seo-meta-overrides';
+validateSeoMetaOverrides();
 
 // Only link note hubs that are actually indexable — this page is indexed, and a
 // follow-link into a noindexed hub leaks crawl signals (policy: never link to
@@ -166,7 +171,7 @@ const EXAM_TITLE_OVERRIDES: Record<string, string> = {
   nda: 'NDA 2026: Two Objective Papers, Syllabus & Pattern',
   'ecat-eng': 'ECAT 2026: 100-110 MCQs, Syllabus & Pattern',
 };
-const title = (() => {
+const _titleBase = (() => {
   // Checked first so a listed exam's title no longer depends on the tail loop below.
   const override = EXAM_TITLE_OVERRIDES[String(exam.examId)];
   if (override) return override;
@@ -218,7 +223,7 @@ const title = (() => {
 // exam pages gives Google nothing to differentiate them in the SERP and wastes the CTR
 // value of the real pattern/eligibility facts already sitting in the data files. Lead with
 // this exam's own numbers; only fall back to boilerplate when the data file is empty.
-const description = (() => {
+const _descBase = (() => {
   const squash = (s: string) => s.replace(/\s+/g, ' ').trim();
   // First real sentence, ignoring periods inside decimals/abbreviations ("3.5 hours").
   const firstSentence = (s: string) => {
@@ -319,6 +324,12 @@ const description = (() => {
   }
   return base;
 })();
+// Measured per-URL override, applied last so nothing generated above can shadow it.
+// A path with ship:false (or no entry) falls through untouched — zero behaviour change.
+const { title, description } = seoMetaFor(`/exams/${exam.examId}/`, {
+  title: _titleBase,
+  description: _descBase,
+});
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/`;
 
 const authorObj = {

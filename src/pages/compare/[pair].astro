@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 import { isCuratedComparePair } from '../../data/compare-curation';
+import { seoMetaFor, validateSeoMetaOverrides } from '../../data/seo-meta-overrides';
+validateSeoMetaOverrides();
 
 export async function getStaticPaths() {
   // Only generate pairs where both exams are in the same country AND are popular.
@@ -48,11 +50,15 @@ const totalTopicsB = (examB.subjects || []).reduce((n: number, s: any) => n + (s
 
 const BRAND_SUFFIX = ' | StudyRoadmap';
 const _t1 = `${examA.examName} vs ${examB.examName}${BRAND_SUFFIX}`;
-const title = _t1.length <= 60
+const _titleBase = _t1.length <= 60
   ? _t1
   : `${examA.examName.slice(0, 20)} vs ${examB.examName.slice(0, 20)}${BRAND_SUFFIX}`.slice(0, 60);
 const _descRaw = `Side-by-side comparison of ${examA.examName} and ${examB.examName} — eligibility, syllabus overlap (${shared.length}/${Math.max(subjectsA.size, subjectsB.size)} shared subjects), pattern, difficulty, careers. Free study plans for either.`;
-const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
+const _descBase = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
+const { title, description } = seoMetaFor(`/compare/${examA.examId}-vs-${examB.examId}/`, {
+  title: _titleBase,
+  description: _descBase,
+});
 const canonicalUrl = `${SITE_URL}/compare/${examA.examId}-vs-${examB.examId}/`;
 
 const breadcrumbJsonLd = {

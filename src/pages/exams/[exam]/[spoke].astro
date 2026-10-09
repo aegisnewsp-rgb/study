@@ -8,6 +8,8 @@ import { isPlaceholderExamTopic, placeholderSyllabusStats } from '../../../data/
 import { getCollection } from 'astro:content';
 import { isGoodNote, isIndexableExamHub } from '../../../data/note-quality';
 import { fitTitle, fitDescription, pageExamLabel, examIdLabel } from '@data/serp-unique';
+import { seoMetaFor, validateSeoMetaOverrides } from '../../../data/seo-meta-overrides';
+validateSeoMetaOverrides();
 
 export async function getStaticPaths() {
   const SPOKES = ['dates','eligibility','syllabus','pattern','strategy'];
@@ -92,14 +94,18 @@ for (const e of ALL_EXAMS as any[]) {
 const _myCompact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam.examId;
 const _sharedExamLabel = (_compactOwners.get(_myCompact)?.size ?? 1) > 1;
 const _examLabel = pageExamLabel(examName, exam.examId, _sharedExamLabel);
-const title = fitTitle([
+const _titleBase = fitTitle([
   meta.title(examName),
   `${_examLabel} ${year} ${_spokeName}`,
   `${_examLabel} ${_spokeName}`,
   `${examIdLabel(exam.examId)} ${_spokeName}`,
 ], BRAND_SUFFIX);
 const _descRaw = meta.desc(examName);
-const description = fitDescription(_descRaw);
+const _descBase = fitDescription(_descRaw);
+const { title, description } = seoMetaFor(`/exams/${exam.examId}/${spoke}/`, {
+  title: _titleBase,
+  description: _descBase,
+});
 const h1 = meta.h1(examName);
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/${spoke}/`;
 

@@ -8,6 +8,8 @@ import Footer from '@components/Footer.astro';
 import { isGoodNote, isIndexableSubjectHub, isIndexableExamHub } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES } from '@data/serp-unique';
+import { seoMetaFor, validateSeoMetaOverrides } from '@data/seo-meta-overrides';
+validateSeoMetaOverrides();
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -63,16 +65,20 @@ const _examLabel = pageExamLabel(examName, exam, (_compactOwners.get(_examCompac
 const _countrySlug = firstNote?.data.country ?? '';
 const _geo = GEO_PASS_COUNTRIES.has(_countrySlug) ? countryDisplay(_countrySlug) : '';
 const _geoLabel = _geo && !namesCountry(`${examName} ${subjectName} ${_examLabel} ${subjectNotes.map((n: any) => n.body || '').join(' ').slice(0, 4000)}`, _countrySlug) ? _geo : '';
-const title = fitTitle([
+const _titleBase = fitTitle([
   ...(_geoLabel ? [`${subjectName} Notes — ${_examLabel}, ${_geoLabel}`, `${subjectName} Notes — ${examName}, ${_geoLabel}`] : []),
   `${subjectName} Notes — ${examName}`,
   `${subjectName} Notes — ${_examLabel}`,
   `${subjectName} — ${_examLabel}`,
 ], BRAND_SUFFIX);
 const _descRaw = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics across Quick, Standard, and Deep tiers — concepts, formulas, practice.`;
-const description = fitDescription(_geoLabel && _descRaw.length + _geoLabel.length + 8 <= 160
+const _descBase = fitDescription(_geoLabel && _descRaw.length + _geoLabel.length + 8 <= 160
   ? _descRaw.replace('concepts, formulas, practice.', `concepts, formulas and practice for ${_geoLabel} students.`)
   : _descRaw);
+const { title, description } = seoMetaFor(`/notes/${exam}/${subject}/`, {
+  title: _titleBase,
+  description: _descBase,
+});
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}/`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "Pushkar Saini", jobTitle: "Founder & Editor", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/author/pushkar-saini/" };

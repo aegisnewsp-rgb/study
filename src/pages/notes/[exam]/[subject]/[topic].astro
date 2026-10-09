@@ -10,6 +10,17 @@ import { isLowValueNote, isGoodNote, isIndexableExamHub, duplicateNoteIds } from
 import { ALL_EXAMS, getCountryFlag } from '@data/exams';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 import { isNoindexExam } from '@data/suppressed-exams';
+// ---- w22 geo pass ------------------------------------------------------
+// w21 measured 233 dead HIGH-geo pages as "never name their country". Re-measured
+// against the rendered HTML here: 191 of those 233 already named it in adjectival
+// or board form ("Irish Leaving Certificate", "NCEA Level 2", "HKDSE"); the real
+// count is 49. This guard therefore asks namesCountry() — noun, adjective or
+// board acronym — and only injects when the answer is no, so we never write
+// "HSC Mathematics Advanced (Australia)" onto a page that already says
+// "Australian Capital Standard". Scoped to the five countries w21 measured:
+// an unscoped run touched 584 notes including 271 Pakistani ones the order never
+// mentioned.
+import { noteTitle, noteH1, fitDescription, examIdLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES, DESC_MIN, DESC_MAX } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -51,34 +62,135 @@ const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !==
 // SERP title ≤60: prioritize topic + exam + brand " | StudyRoadmap" for branded search growth
 const BRAND_SUFFIX = ' | StudyRoadmap';
 
-const _titleFull = `${topicName} — ${examName} Notes`;
-const _titleMid = `${topicName} — ${examName}`;
-// Exam labels in the data are often long ("ECAT (Engineering College Admission
-// Test)"). The old fallback dropped the exam entirely once the full title did
-// not fit 60 chars, which produced 60 groups of duplicate titles across exams
-// ("Synonyms and Antonyms | StudyRoadmap" for ECAT, HAT-UG, LAT and NCEE at
-// once) plus 36 titles under 30 chars that wasted SERP space. Always keep a
-// compact exam label and trim the topic instead.
+// ---- w22 SERP-uniqueness pass ------------------------------------------
+// Measured on the live build: 73 title groups collided over 164 URLs and 395 H1
+// groups over 1,297 URLs, because (a) the old ladder stripped the parenthetical
+// out of the exam label — "IELTS (Hong Kong)", "IELTS (Kuwait)" and "IELTS
+// (Qatar)" all became "IELTS" — and (b) the overflow branch cut the topic
+// MID-WORD, so "Major Topic: Functions and Their Graphs" shipped as "Major Topi"
+// and matched its seven siblings exactly.
+//
+// Both counts are collection-wide, so they are computed here, once, from the
+// collection we already fetch for the duplicate-topic gate. Nothing is invented:
+// every variant below is built from frontmatter that already exists.
 const _examCompact =
   String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam;
-const _titleCompact = `${topicName} — ${_examCompact} Notes`;
-const _titleTight = `${topicName} — ${_examCompact}`;
 
-const _seoTitle = (note.data.seoTitle || '').trim();
-const title = _seoTitle ? _seoTitle.slice(0, 60)
-  : ((`${_titleFull}${BRAND_SUFFIX}`.length <= 60) ? `${_titleFull}${BRAND_SUFFIX}`
-  : (`${_titleMid}${BRAND_SUFFIX}`.length <= 60) ? `${_titleMid}${BRAND_SUFFIX}`
-  : (`${_titleCompact}${BRAND_SUFFIX}`.length <= 60) ? `${_titleCompact}${BRAND_SUFFIX}`
-  : (`${_titleTight}${BRAND_SUFFIX}`.length <= 60) ? `${_titleTight}${BRAND_SUFFIX}`
-  : (() => {
-      const room = Math.max(10, 60 - BRAND_SUFFIX.length - ` — ${_examCompact}`.length);
-      return `${topicName.slice(0, room).trim()} — ${_examCompact}${BRAND_SUFFIX}`;
-    })());
+// exam ids that share one compact label need the parenthetical kept.
+const _compactOwners = new Map<string, Set<string>>();
+for (const n of allNotes) {
+  const k = String(n.data.examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || n.data.exam;
+  if (!_compactOwners.has(k)) _compactOwners.set(k, new Set());
+  _compactOwners.get(k)!.add(n.data.exam);
+}
+const _sharedExamLabel = (_compactOwners.get(_examCompact)?.size ?? 1) > 1;
+
+// what the historical ladder would have produced, per note, to find collisions
+const _legacyTitle = (t: string, eN: string, ec: string): string => {
+  const cands = [`${t} — ${eN} Notes`, `${t} — ${eN}`, `${t} — ${ec} Notes`, `${t} — ${ec}`];
+  for (const c of cands) if (`${c}${BRAND_SUFFIX}`.length <= 60) return `${c}${BRAND_SUFFIX}`;
+  const room = Math.max(10, 60 - BRAND_SUFFIX.length - ` — ${ec}`.length);
+  return `${t.slice(0, room).trim()} — ${ec}${BRAND_SUFFIX}`;
+};
+const _legacyCounts = new Map<string, number>();
+for (const n of allNotes) {
+  const k = _legacyTitle(n.data.topicName, String(n.data.examName),
+    String(n.data.examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || n.data.exam);
+  _legacyCounts.set(k, (_legacyCounts.get(k) ?? 0) + 1);
+}
+const _myLegacy = _legacyTitle(topicName, String(examName), _examCompact);
+const _titleCollides = (_legacyCounts.get(_myLegacy) ?? 1) > 1;
+
+const _idLabel = examIdLabel(exam);
+// ---- w22 geo pass ------------------------------------------------------
+const _country = GEO_PASS_COUNTRIES.has(country) ? countryDisplay(country) : '';
+const _namesCountry = _country
+  ? namesCountry(`${examName} ${subjectName} ${topicName} ${subjectDisplay} ${rawBody}`, country)
+  : true;
+const _geoLabel = _namesCountry ? '' : _country;
+
+// Two-pass title: pass 1 resolves every note with the shared ladders, pass 2
+// re-runs only the notes whose pass-1 title is still claimed by a sibling and
+// pushes them to the topic-slug rung. One pass left 29 colliding title groups
+// (59 notes) — same exam AND subject AND topicName, where only the slug differs.
+const _pass1Titles = new Map<string, number>();
+for (const n of allNotes) {
+  const t = noteTitle({
+    topicName: n.data.topicName, examName: String(n.data.examName),
+    subjectName: String(n.data.subjectName ?? ''), examId: n.data.exam,
+    sharedExamLabel: (_compactOwners.get(String(n.data.examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || n.data.exam)?.size ?? 1) > 1,
+    collides: (_legacyCounts.get(_legacyTitle(n.data.topicName, String(n.data.examName),
+      String(n.data.examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || n.data.exam)) ?? 1) > 1,
+    countryName: GEO_PASS_COUNTRIES.has(n.data.country)
+      ? (namesCountry(`${n.data.examName} ${n.data.subjectName} ${n.data.topicName} ${n.data.subjectName ?? ''} ${n.data.body ?? ''}`, n.data.country) ? '' : countryDisplay(n.data.country))
+      : '',
+    topicId: n.data.topic,
+  });
+  _pass1Titles.set(t, (_pass1Titles.get(t) ?? 0) + 1);
+}
+const _myPass1 = noteTitle({
+  topicName, examName: String(examName), subjectName: String(subjectName ?? ''),
+  examId: exam, sharedExamLabel: _sharedExamLabel, collides: _titleCollides,
+  countryName: _geoLabel, topicId: topic,
+});
+const _pass1Collides = (_pass1Titles.get(_myPass1) ?? 1) > 1;
+
+const _titleGen = _pass1Collides
+  ? noteTitle({
+      topicName, examName: String(examName), subjectName: String(subjectName ?? ''),
+      examId: exam, sharedExamLabel: _sharedExamLabel, collides: _titleCollides,
+      countryName: _geoLabel, titleCount: _pass1Titles.get(_myPass1),
+      topicId: `${topic} · ${_idLabel}`,
+    })
+  : _myPass1;
+
+// H1: plain topicName when unique in the collection; generic names ("Probability"
+// on 11 exams) escalate to the exam the page is actually about.
+const _topicNameCounts = new Map<string, number>();
+for (const n of allNotes) _topicNameCounts.set(n.data.topicName, (_topicNameCounts.get(n.data.topicName) ?? 0) + 1);
+const _h1Counts = new Map<string, number>();
+for (const n of allNotes) {
+  const k = `${n.data.topicName} — ${examIdLabel(n.data.exam)}`;
+  _h1Counts.set(k, (_h1Counts.get(k) ?? 0) + 1);
+}
+const _subjectH1Counts = new Map<string, number>();
+for (const n of allNotes) {
+  const k = `${n.data.topicName} — ${n.data.subjectName} · ${examIdLabel(n.data.exam)}`;
+  _subjectH1Counts.set(k, (_subjectH1Counts.get(k) ?? 0) + 1);
+}
+const h1Text = noteH1({
+  topicName, subjectName: String(subjectName ?? ''), examId: exam,
+  topicNameCount: _topicNameCounts.get(topicName) ?? 1,
+  h1Count: _h1Counts.get(`${topicName} — ${_idLabel}`) ?? 1,
+  subjectH1Count: _subjectH1Counts.get(`${topicName} — ${subjectName} · ${_idLabel}`) ?? 1,
+  topicId: topic,
+});
+
 // Keep description ≤160 chars even for the longest topicName/examName combos.
-const _descRaw = `${topicName} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`;
+// Two notes sharing (topicName, examName, weight) produced byte-identical
+// descriptions (measured: 10 groups / 20 URLs); on collision, name the subject.
+const _descBase = `${topicName} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`;
+const _descCollideCount = allNotes.filter(n =>
+  `${n.data.topicName} — ${n.data.examName} study notes (${n.data.weight}% weight). Free Quick / Standard / Deep tiers, no signup.` === _descBase
+).length;
+// Measured on the live build: 179 of 916 sampled note pages shipped a
+// description UNDER the operator's 99-char floor, because a short topicName
+// ("Ratio", "Ages", "Circles") leaves the fixed sentence too short to be a
+// snippet. Widen it with the subject rather than padding with adjectives.
+const _needsSubject = subjectDisplay && (
+  _descBase.length < DESC_MIN ||
+  `${topicName} in ${subjectDisplay} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`.length <= DESC_MAX
+);
+const _descRaw = (_descCollideCount > 1 || _needsSubject) && subjectDisplay
+  ? `${topicName} in ${subjectDisplay} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`
+  : _descBase;
+const _descGen = fitDescription(_descRaw);
+
+// Frontmatter overrides (w7 seo-overrides) win over the generated title/description.
+const _seoTitle = (note.data.seoTitle || '').trim();
+const title = _seoTitle ? _seoTitle.slice(0, 60) : _titleGen;
 const _seoDesc = (note.data.seoDescription || '').trim();
-const description = _seoDesc ? _seoDesc.slice(0, 160)
-  : (_descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw);
+const description = _seoDesc ? _seoDesc.slice(0, 160) : _descGen;
 const canonicalUrl = `https://studyroadmap.in/notes/${note.id}/`;
 const _candidateOg = `/og-notes/${exam}-${subject}-${topic}.jpg`;
 const ogImage = fs.existsSync(path.join(process.cwd(), 'public', _candidateOg))
@@ -266,9 +378,9 @@ const articleJsonLd = {
           </span>
           <span class="text-xs text-surface-400">{weight}% exam weight</span>
         </div>
-        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-4">{topicName}</h1>
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-4">{h1Text}</h1>
         <p class="text-surface-600 dark:text-surface-400 max-w-2xl">
-          Part of the {examName} study roadmap. {subjectDisplay} topic {topic} of {subjectDisplay}.
+          Part of the {examName} study roadmap{_geoLabel ? ` for ${_geoLabel} candidates` : ''}. {subjectDisplay} topic {topic} of {subjectDisplay}.
         </p>
         <!-- Planning ↔ notes cross-links -->
         <div class="mt-6 flex gap-3 flex-wrap">

@@ -6,6 +6,7 @@ import Footer from '@components/Footer.astro';
 import FaqSection from '@components/FaqSection.astro';
 import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
+import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -74,12 +75,31 @@ const subjectList =
       : `${subjectNames.slice(0, 3).join(', ')}, and more`;
 
 const BRAND_SUFFIX = ' | StudyRoadmap';
-const _tFull = `${examName} Study Notes${BRAND_SUFFIX}`;
-const title = _tFull.length <= 60 ? _tFull
-  : `${examName} Notes${BRAND_SUFFIX}`.length <= 60 ? `${examName} Notes${BRAND_SUFFIX}`
-  : `${examName.slice(0, 35)} Notes${BRAND_SUFFIX}`.slice(0, 60);
-const description =
-  `Free ${examName} study notes: ${examNotes.length} topics across ${Object.keys(bySubject).length} subjects (${subjectList}). Weight-tagged, syllabus-aligned, no signup.`.slice(0, 160);
+// w22: this hub cut mid-word (`${examName.slice(0, 35)}`) and had no geo guard at
+// all, so 12 of the 49 HIGH-geo pages that genuinely never name their country
+// are note hubs/subject hubs. Same three fixes as the note template: word-boundary
+// trim, keep the exam parenthetical when the compact label is shared, and name
+// the country when the page does not already.
+const _compactOwners = new Map<string, Set<string>>();
+for (const n of examNotes) {
+  const k = String(n.data.examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || n.data.exam;
+  if (!_compactOwners.has(k)) _compactOwners.set(k, new Set());
+  _compactOwners.get(k)!.add(n.data.exam);
+}
+const _myCompact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam;
+const _examLabel = pageExamLabel(examName, exam, (_compactOwners.get(_myCompact)?.size ?? 1) > 1);
+const _countrySlug = firstNote?.data.country ?? '';
+const _geo = GEO_PASS_COUNTRIES.has(_countrySlug) ? countryDisplay(_countrySlug) : '';
+const _geoLabel = _geo && !namesCountry(`${examName} ${subjectList} ${_examLabel} ${examNotes.map((n: any) => n.body || '').join(' ').slice(0, 4000)}`, _countrySlug) ? _geo : '';
+const title = fitTitle([
+  ...(_geoLabel ? [`${_examLabel} Study Notes, ${_geoLabel}`, `${examName} Study Notes — ${_geoLabel}`] : []),
+  `${examName} Study Notes`,
+  `${examName} Notes`,
+  `${_examLabel} Study Notes`,
+  `${_examLabel} Notes`,
+], BRAND_SUFFIX);
+const description = fitDescription(
+  `Free ${examName} study notes: ${examNotes.length} topics across ${Object.keys(bySubject).length} subjects (${subjectList}). Weight-tagged, syllabus-aligned, no signup.`);
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about/" };

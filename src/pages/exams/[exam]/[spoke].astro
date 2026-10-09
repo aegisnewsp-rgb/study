@@ -7,6 +7,7 @@ import { isNoindexExam } from '../../../data/suppressed-exams';
 import { isPlaceholderExamTopic, placeholderSyllabusStats } from '../../../data/note-quality';
 import { getCollection } from 'astro:content';
 import { isGoodNote, isIndexableExamHub } from '../../../data/note-quality';
+import { fitTitle, fitDescription, pageExamLabel, examIdLabel } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   const SPOKES = ['dates','eligibility','syllabus','pattern','strategy'];
@@ -76,13 +77,29 @@ const _tFull = `${meta.title(examName)}${BRAND_SUFFIX}`;
 // src/pages/exams/[exam].astro (EXAM_TITLE_OVERRIDES).
 const _tNoBrand = meta.title(examName);
 const _spokeName = spoke.charAt(0).toUpperCase() + spoke.slice(1);
-const title = _tFull.length <= 60 ? _tFull
-  : _tNoBrand.length <= 60 ? _tNoBrand
-  : `${examName} ${year} ${_spokeName}${BRAND_SUFFIX}`.length <= 60 ? `${examName} ${year} ${_spokeName}${BRAND_SUFFIX}`
-  : `${examName} ${_spokeName}${BRAND_SUFFIX}`.length <= 60 ? `${examName} ${_spokeName}${BRAND_SUFFIX}`
-  : `${examName.slice(0, 30)} ${_spokeName}${BRAND_SUFFIX}`.slice(0, 60);
+// w22: /exams/{ielts-hk,ielts-kuwait,ielts-qatar}/syllabus/ all rendered
+// "IELTS (International Engl Syllabus | StudyRoadmap" — one title on three URLs,
+// because the parenthetical (the ONLY thing telling them apart) was stripped and
+// then cut mid-word. Keep the parenthetical whenever the stripped label is
+// shared across exam ids, and never cut mid-word.
+const _compactOwners = new Map<string, Set<string>>();
+for (const e of ALL_EXAMS as any[]) {
+  if (!e?.examId) continue;
+  const k = String(e.examName || e.examId).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || e.examId;
+  if (!_compactOwners.has(k)) _compactOwners.set(k, new Set());
+  _compactOwners.get(k)!.add(e.examId);
+}
+const _myCompact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam.examId;
+const _sharedExamLabel = (_compactOwners.get(_myCompact)?.size ?? 1) > 1;
+const _examLabel = pageExamLabel(examName, exam.examId, _sharedExamLabel);
+const title = fitTitle([
+  meta.title(examName),
+  `${_examLabel} ${year} ${_spokeName}`,
+  `${_examLabel} ${_spokeName}`,
+  `${examIdLabel(exam.examId)} ${_spokeName}`,
+], BRAND_SUFFIX);
 const _descRaw = meta.desc(examName);
-const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
+const description = fitDescription(_descRaw);
 const h1 = meta.h1(examName);
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/${spoke}/`;
 

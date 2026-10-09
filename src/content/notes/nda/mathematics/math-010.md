@@ -195,4 +195,9 @@ $$r = \sqrt{b_{yx} \cdot b_{xy}}$$
 - Remember the relationship: $3 Median = Mode + 2 Mean$ (for moderately skewed distributions)
 
 ---
+
+## Where this sits in the syllabus
+
+This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

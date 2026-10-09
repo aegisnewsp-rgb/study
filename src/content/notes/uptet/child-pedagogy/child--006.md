@@ -88,6 +88,7 @@ A class is making models of the solar system. The teacher gives each learner a p
 - **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Assessment and Evaluation" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[UPTET syllabus and topic weightage](/exams/uptet/syllabus/)** — where Child Development and Pedagogy sits among every UPTET subject, with weightage
 - **[All Child Development and Pedagogy notes](/notes/uptet/child-pedagogy/)** — browse sibling topics in this subject
 
 ---

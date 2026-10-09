@@ -132,4 +132,9 @@ Essential elements and their roles:
 - Explain how mineral deficiencies affect plant growth
 
 ---
+
+## Where this sits in the syllabus
+
+This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Biology sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

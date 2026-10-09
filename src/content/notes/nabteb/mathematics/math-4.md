@@ -219,3 +219,7 @@ $$\log_a m = \frac{\log_b m}{\log_b a}$$
 - AP: $T_n = a + (n-1)d$; $S_n = \frac{n}{2}(a+l)$
 - GP: $T_n = ar^{n-1}$; $S_n = \frac{a(1-r^n)}{1-r}$; $S_\infty = \frac{a}{1-r}$ (for $|r|<1$)
 - $\log_a(mn) = \log_a m + \log_a n$
+
+## Where this sits in the syllabus
+
+This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Mathematics sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.

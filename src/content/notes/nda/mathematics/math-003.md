@@ -179,3 +179,7 @@ This property can simplify complex determinant calculations by factorising matri
 | 2017 | Find $A^{-1}$ via adjoint; verify $AA^{-1} = I$ |
 
 The determinant chapter typically yields 3–5 questions per NDA paper. Master the expansion techniques, property-based shortcuts, and Cramer's rule applications for maximum efficiency in the exam.
+
+## Where this sits in the syllabus
+
+This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.

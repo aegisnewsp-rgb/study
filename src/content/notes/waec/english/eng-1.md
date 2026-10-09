@@ -117,6 +117,7 @@ Comprehension skill transfers directly to the **WAEC Test of Orals** (where voca
 - **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Comprehension Passages" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[WAEC WASSCE syllabus and topic weightage](/exams/waec/syllabus/)** — where English Language sits among every WAEC WASSCE subject, with weightage
 - **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

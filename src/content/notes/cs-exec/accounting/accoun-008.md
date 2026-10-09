@@ -186,6 +186,7 @@ Under Schedule III, Share Capital is shown as the first item on the Equity & Lia
 - **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Issue of Shares" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[CS Executive syllabus and topic weightage](/exams/cs-exec/syllabus/)** — where Accounting sits among every CS Executive subject, with weightage
 - **[All Accounting notes](/notes/cs-exec/accounting/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

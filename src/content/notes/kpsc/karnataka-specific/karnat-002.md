@@ -95,6 +95,7 @@ Options: (1) Hoysala–Chalukya–Adil Shahi–Vijayanagara; (2) Hoysala–Rasht
 - **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "History and Cultural Heritage of Karnataka" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[KPSC KAS syllabus and topic weightage](/exams/kpsc/syllabus/)** — where Karnataka-Specific sits among every KPSC KAS subject, with weightage
 - **[All Karnataka-Specific notes](/notes/kpsc/karnataka-specific/)** — browse sibling topics in this subject
 
 ---

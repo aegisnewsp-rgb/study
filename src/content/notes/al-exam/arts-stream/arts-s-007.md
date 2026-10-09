@@ -126,6 +126,7 @@ The Sinhala and Tamil literature papers draw heavily on **lyric and devotional t
 - **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "Poetry Appreciation and Analysis" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[A/L Examination (Sri Lanka) syllabus and topic weightage](/exams/al-exam/syllabus/)** — where Arts-Stream sits among every A/L Examination (Sri Lanka) subject, with weightage
 - **[All Arts-Stream notes](/notes/al-exam/arts-stream/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

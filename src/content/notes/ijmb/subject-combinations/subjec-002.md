@@ -124,6 +124,7 @@ Some IJMB triples are formally accepted by the board but rejected by specific fa
 - **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Science Subject Combinations for IJMB — Which Courses They Unlock" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[IJMB (Nigeria) syllabus and topic weightage](/exams/ijmb/syllabus/)** — where Subject-Combinations sits among every IJMB (Nigeria) subject, with weightage
 - **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

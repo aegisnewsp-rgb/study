@@ -19,9 +19,9 @@ Within mathematics, functions are where an entrance test gets its best return, a
 
 ## Three shapes and what they mean
 
-A straight line is a constant rate of change. If the graph is distance against time, the slope is a speed. If it is cost against quantity, the slope is a unit price and the intercept is a fixed charge. A linear relationship between two things that usually curve is usually a model with a limited range, and an item will often test whether you notice the model breaking.
+A straight line is a constant rate of change. If the graph is distance against time, the slope is a speed. If it is cost against quantity, the slope is a unit price and the intercept is a fixed charge. A linear relationship between two things that curve is a model with a limited range, and an item will test whether you notice the model breaking.
 
-A parabola is a constant rate of change of the rate of change. Because the leading coefficient decides which way it opens, and because a negative value inside the square means there is no real solution, an item that gives you an impossible context is usually testing exactly that. If quantity cannot be negative and your solution is negative, the model is being applied outside its range — not that you miscalculated.
+A parabola is a constant rate of change of the rate of change. Because the leading coefficient decides which way it opens, and because a negative value inside the square means there is no real solution, an item that gives you an impossible context is testing exactly that. If quantity cannot be negative and your solution is negative, the model is being applied outside its range — not that you miscalculated.
 
 An exponential is a constant *proportional* rate of change: the same percentage every period. Interest, population growth, bacterial culture and radioactive decay all look like this. The trap is mixing proportional and absolute growth. A population growing 5 per cent a year is not growing by 5 per cent of the original number each year; the base changes every period, which is why the graph curves upward while a linear "add 500 a year" model does not.
 
@@ -45,7 +45,7 @@ A function and its inverse swap the axes. That is the whole idea: reflect in the
 
 Forgetting what the units mean when the axes are swapped. Slope is "change in y per unit x" — reverse the axes and the same slope means something different physically.
 
-Assuming a straight line through two points extends forever. Real contexts have domains; a negative number of test tubes or a negative number of people is usually the point of the item.
+Assuming a straight line through two points extends forever. Real contexts have domains; a negative number of test tubes or a negative number of people is the point of the item.
 
 Solving for $x$ when the question asked for $y$. Re-read the question before you compute.
 

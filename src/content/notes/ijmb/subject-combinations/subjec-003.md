@@ -33,7 +33,7 @@ IJMB is a one-year Advanced Level (A/L) programme run by the Interim Joint Matri
 
 #### Core Rules Governing IJMB Subject Pairing
 
-IJMB is administered by the Interim Joint Matriculation Board and serves as a JAMB alternative. Registration requires exactly three A/L subjects drawn from the board's approved list. The pairing determines which university faculty accepts the candidate at screening. The trio is non-negotiable in number: registering two or four subjects is grounds for disqualification by the receiving university.
+IJMB is administered by the Interim Joint Matriculation Board and works as an alternative to JAMB. Registration requires exactly three A/L subjects drawn from the board's approved list. The pairing determines which university faculty accepts the candidate at screening. The trio is non-negotiable in number: registering two or four subjects is grounds for disqualification by the receiving university.
 
 #### Comparison Matrix — Social Science Combinations by Target Department
 

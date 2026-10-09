@@ -1,0 +1,231 @@
+---
+exam: ucat-anz-nz
+examName: UCAT ANZ (New Zealand)
+subject: ucat-anz
+subjectName: UCAT ANZ
+topic: ucat-nz-003
+topicName: Quantitative Reasoning
+weight: 4
+country: newzealand
+generated: "2026-10-01T15:50:00Z"
+lastUpdated: 2026-10-01
+diagramPrompt: "Educational diagram illustrating UCAT ANZ Quantitative Reasoning question types: a bar chart with five categories, a percentage-of-percentage table, a ratio/proportion problem, and an estimation-from-data problem — exam-style layout, white background"
+---
+
+# Quantitative Reasoning
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your UCAT ANZ test day.
+
+**Quantitative Reasoning** — Quick Facts for UCAT ANZ candidates sitting in New Zealand
+
+**What is UCAT ANZ Quantitative Reasoning?**
+Quantitative Reasoning (QR) is the third and final cognitive subtest in the standard UCAT ANZ sequence. It tests your ability to critically evaluate information presented in a numerical form: you answer items that involve numerical problem-solving, percentages, ratios, rates, data interpretation from tables and charts, and basic arithmetic and estimation. The on-screen calculator IS provided in QR. The subtest runs for a target testing time of 24 minutes with 36 items, so the per-item budget is ~40 seconds.
+
+**At a glance:**
+- 36 items, 24 minutes (≈40 sec/item)
+- On-screen calculator available (use sparingly; mental math + estimation is faster)
+- Five question families: data interpretation, percentage / ratio / rate, proportions, currency conversions, formula application
+- One item at a time; flag and move on if stuck past the per-item budget
+- Marks: +1 correct, 0 incorrect (no negative marking)
+
+**Why QR matters for offers:**
+Quantitative Reasoning is one of three cognitive subtests that contribute to the UCAT ANZ score used by the University of Auckland (Faculty of Medical and Health Sciences) and the University of Otago (Otago Medical School) for entry to medicine, dentistry and selected clinical science courses. New Zealand applicants are ranked against other applicants within the same admission cycle; a strong QR score (≥650) puts you in the upper band. The QR score sits alongside Verbal Reasoning (see topic ucat-nz-001), Decision Making (see topic ucat-nz-002) and Situational Judgement (see topic ucat-nz-004).
+
+⚡ **Quick rule:** Mental math + estimation is faster than the calculator for most QR items. The official UCAT ANZ practice tests on ucat.edu.au are the only authentic source.
+
+---
+
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+**Quantitative Reasoning** — UCAT ANZ Quantitative Reasoning Study Guide
+
+**The full Quantitative Reasoning format explained:**
+
+| Element | Detail |
+|---|---|
+| Subtest position | 3rd of 3 cognitive subtests |
+| Number of items | 36 |
+| Target testing time | 24 minutes |
+| Per-item time budget | ~40 seconds |
+| Calculator | On-screen calculator available |
+| Marking | +1 correct, 0 incorrect (no negative marking) |
+| Question families | Data interpretation, percentage / ratio / rate, proportions, currency conversions, formula application |
+| Source | ucat.edu.au official test format page |
+
+**The five question families in detail:**
+
+| Family | What it tests | Skill |
+|---|---|---|
+| Data interpretation | Reading values from tables, bar charts, line graphs, scatter plots, pie charts | Tabular / chart literacy; reading values to 2 sig figs; spotting axes and legends |
+| Percentage / ratio / rate | Computing a percentage, comparing ratios, computing a per-unit rate | Mental math; estimation; unit conversion |
+| Proportions | Direct and inverse proportions, scale-up / scale-down, recipe scaling | Cross-multiplication; checking proportionality |
+| Currency conversions | Converting between currencies using a given exchange rate | Reading exchange rates; multiplying by the rate; rounding to 2 dp |
+| Formula application | Applying a formula given in the prompt (e.g. area, speed, density, simple interest) | Substituting values; using the on-screen calculator for multi-digit operations |
+
+**Data interpretation strategy — read first, calculate second:**
+For data interpretation items, the fastest strategy is:
+1. Read the question first (what value/quantity is being asked for).
+2. Locate the relevant row / series / chart region (10 sec).
+3. Read the value to the appropriate precision (5 sec).
+4. Compute the answer mentally or with the calculator (15 sec).
+5. Check the units and the order of magnitude before selecting an answer (5 sec).
+
+Common trap patterns: misreading the y-axis (especially when the y-axis starts at non-zero), confusing two series in a chart, off-by-one in a series index, off-by-decade in a logarithmic axis.
+
+**Percentage / ratio / rate strategy — mental math first:**
+The fastest mental math technique is to convert the percentage to a decimal first (e.g. 17.5% = 0.175), then multiply. For percentage change, compute the absolute difference and divide by the original. For ratios, scale to a common unit first (e.g. convert all to per-100 or per-thousand), then compare. For rates, ensure the units are consistent before multiplying (e.g. km/h × hours = km).
+
+**Proportion strategy — cross-multiply, then estimate:**
+For proportion items, the cross-multiplication approach (a/b = c/d, therefore a×d = b×c) is reliable but slow with multi-digit numbers. The faster approach is to estimate first (round each number to 1-2 sig figs), solve the estimated problem, then check the answer choice against the estimate. This catches silly errors (off-by-decade, missing factor) before they cost the item.
+
+**Currency conversion strategy — round-trip money:**
+At the time of writing, currency exchange rates are provided in the prompt as a single rate between two currencies (e.g. "1 GBP = 1.84 NZD"). The fastest strategy:
+1. Multiply the amount by the rate (use the calculator for 3+ digit amounts).
+2. Round to 2 dp.
+3. If a conversion is in the opposite direction, use the reciprocal rate (1 ÷ rate).
+
+Common trap patterns: forgetting to round to 2 dp, using the wrong direction (e.g. converting NZD→GBP when the prompt gives GBP→NZD), missing the unit conversion when the rate is per-thousand rather than per-unit.
+
+**Formula application strategy — substitute, then compute:**
+For formula application items, the formula is given in the prompt (e.g. "Area = π × r²", "Simple interest = P × R × T", "Speed = distance / time"). The fastest strategy:
+1. Identify the given values and the required variable.
+3. Compute step by step (use the calculator for 3+ digit operations).
+4. Check the units before selecting an answer.
+
+Common trap patterns: using the diameter instead of radius (factor of 4 difference), missing the time unit (months vs years), missing the percentage → decimal conversion.
+
+**Section-specific timing math:**
+With 36 items in 24 minutes (1,440 seconds), the per-item budget is 40 seconds. The fastest items (simple data interpretation, single-step percentage, single-step proportion) typically take 20-30 seconds; the slowest (multi-step currency conversions, complex formula applications) can take 60-90 seconds. Aim for 18 items by minute 12, with 18 items remaining. Use the on-screen calculator sparingly — every keystroke costs 2-3 seconds.
+
+**Where QR scoring sits in the UCAT ANZ score:**
+Quantitative Reasoning is scored on a 300-900 scale (same as Verbal Reasoning and Decision Making), with the four subtest scores combined to give an overall UCAT ANZ score in the 1,200-3,600 range. New Zealand universities do not publish a fixed QR cut-off — admission is holistic and depends on the cohort, the interview (MMI) and academic results. Strong QR (≥650) is the strongest single signal of quantitative reasoning in the UCAT ANZ score.
+
+**Previous-year pattern (UCAT ANZ 2024-2025):**
+The 2024 and 2025 UCAT ANZ cycles both used Quantitative Reasoning as the third subtest, with 36 items and 24 minutes. The 2026 cycle is expected to retain the same format — confirm the live test format on ucat.edu.au before each cycle.
+
+**Pro Tips:**
+- Practise each question family in isolation first (15-20 items per family), then move to mixed timed sets of 36 items in 24 minutes.
+- Mental math + estimation is faster than the calculator for most QR items. Use the calculator only for 3+ digit multiplications or divisions.
+- Read the question first, then locate the relevant chart/table region. Don't read the chart first and try to memorise everything.
+- The official UCAT ANZ practice tests on ucat.edu.au are the only authentic question bank — third-party prep questions do not match the live test style.
+
+---
+
+### 🔴 Deep — Comprehensive Mastery (2mo–2yr)
+> Deep reference for students who want exhaustive coverage.
+
+**Quantitative Reasoning** — Comprehensive UCAT ANZ Quantitative Reasoning Reference
+
+**Subtest architecture:**
+The UCAT ANZ Quantitative Reasoning subtest is the third of three cognitive subtests in the standard test sequence. It follows Decision Making (31 min) and precedes the Situational Judgement transition (1 min) and SJT (26 min). The cognitive subtests run in the order: Verbal Reasoning (21 min) → Decision Making (31 min) → Quantitative Reasoning (24 min). Situational Judgement follows as the non-cognitive subtest (26 min). The full UCAT ANZ testing time is approximately 102 minutes plus the one-minute instructions between subtests and any optional break.
+
+**Detailed analysis — data interpretation:**
+UCAT ANZ data interpretation items present one of: a table of 5-15 rows × 3-5 columns, a single bar chart with 4-8 categories, a line chart with 4-8 categories over time, a pie chart with 4-6 segments, or a scatter plot with 10-20 points. The question asks for a single numeric answer (e.g. the percentage of category X in year Y, the ratio of X to Y in 2024). The fastest strategy:
+1. Read the question first to identify the cell/region being asked for.
+2. Locate the row/series/category.
+3. Read the value to the appropriate precision (2-3 sig figs).
+4. Compute the answer (single-step percentage, ratio, or simple arithmetic).
+5. Check the units and the order of magnitude before selecting an answer.
+
+Common trap patterns: misreading the y-axis (especially when the y-axis starts at non-zero), confusing two series in a chart, off-by-one in a series index, off-by-decade in a logarithmic axis, missing a "per unit" qualifier in the y-axis label.
+
+**Detailed analysis — percentage / ratio / rate:**
+UCAT ANZ percentage / ratio / rate items test: percentage of a number, percentage change, comparing two percentages, ratio simplification, rate calculations (e.g. speed = distance / time, density = mass / volume). The fastest strategy:
+1. Identify the structure of the question (percentage of / change / compare / ratio / rate).
+2. Convert to a single mental-math operation (percentage → decimal, ratio → per-unit, rate → units consistent).
+3. Estimate first (round to nearest 10%) to avoid silly mistakes.
+4. Use the calculator only for multi-digit multiplications or divisions.
+
+Common trap patterns: percentage of a percentage (multiplicative, not additive), percentage point vs percentage change, ratio simplification vs ratio inversion, mixing per-hour and per-minute rates.
+
+**Detailed analysis — proportions:**
+UCAT ANZ proportion items test: direct proportions (y = kx), inverse proportions (y = k/x), scale-up / scale-down, recipe scaling (e.g. halving or doubling ingredients), and unit conversion (e.g. m/s to km/h, kg to g). The fastest strategy:
+1. Identify the proportion type (direct / inverse / scale / convert).
+2. Write down the constant of proportionality (k = y / x for direct; k = y × x for inverse).
+3. Apply the constant to the new value.
+4. Check the direction of change (if y is decreasing when x is increasing, it's inverse).
+
+Common trap patterns: confusing direct and inverse (a doubling of x should double y in direct, halve y in inverse), missing the unit conversion (km/h vs m/s requires × 1000 / 3600 = × 0.2778), off-by-factor in scale-up (× 3 vs × 30).
+
+**Detailed analysis — currency conversions:**
+UCAT ANZ currency conversion items present a single exchange rate between two currencies and ask for the converted amount. The fastest strategy:
+1. Identify the direction of conversion (e.g. GBP → NZD or NZD → GBP).
+2. If the rate is in the wrong direction, take the reciprocal (1 / rate).
+3. Multiply the amount by the rate (use the calculator for 3+ digit amounts).
+4. Round to 2 decimal places.
+
+Common trap patterns: forgetting to round to 2 dp, using the wrong direction, missing the unit (e.g. rate per 100 GBP vs rate per 1 GBP), forgetting to add or subtract fees (e.g. commission percentage).
+
+**Detailed analysis — formula application:**
+UCAT ANZ formula application items present a formula in the prompt (e.g. Area = π × r², Simple interest = P × R × T, Speed = distance / time, Density = mass / volume, Body mass index = mass / height²) and ask for an unknown given the other values. The fastest strategy:
+1. Identify the given values and the required variable.
+2. Substitute the given values into the formula.
+3. Compute step by step (use the calculator for 3+ digit operations).
+4. Check the units before selecting an answer.
+
+Common trap patterns: using diameter instead of radius (factor of 4 difference in area), missing the time unit (months vs years, days vs years), missing the percentage → decimal conversion, missing the rate per unit qualifier.
+
+**How Quantitative Reasoning scoring interacts with overall UCAT ANZ ranking:**
+Quantitative Reasoning is the third cognitive subtest and contributes proportionally to the overall 1,200-3,600 score. New Zealand universities (Auckland, Otago) use the overall score as one component of a multi-stage admissions process that also includes academic results (NCEA Level 3) and a Multiple Mini Interview (MMI). For medicine at Auckland, the UCAT ANZ score typically carries substantial weight in the first-round screening; strong Quantitative Reasoning (≥650) is a positive signal of quantitative reasoning ability correlated with medical school success.
+
+**Official Resources:**
+- www.ucat.edu.au/ucat-anz — UCAT ANZ Consortium official site
+- www.ucat.edu.au/ucat-anz/practice-tests — Official UCAT ANZ practice tests
+- www.ucat.edu.au/ucat-anz/test-format — Live test format and timing
+- www.auckland.ac.nz/en/fmhs/study-with-us/undergraduate-studies.html — University of Auckland admissions
+- www.otago.ac.nz/medical-school — University of Otago Medical School admissions
+- www.pearsonvue.com — UCAT ANZ test booking platform
+
+---
+
+### 🎯 Exam Essentials
+
+| Field | Detail |
+|---|---|
+| Subtest | Quantitative Reasoning (QR) |
+| Subtest position | 3rd of 3 cognitive subtests |
+| Number of items | 36 |
+| Target testing time | 24 minutes |
+| Per-item time budget | ~40 seconds |
+| Calculator | On-screen calculator available |
+| Marking | +1 correct, 0 incorrect |
+| Question families | Data interpretation, percentage / ratio / rate, proportions, currency conversions, formula application |
+| Score range | 300-900 |
+| Awarding body | UCAT ANZ Consortium (Pearson VUE delivery) |
+| Used by (NZ) | University of Auckland, University of Otago |
+| Official source | ucat.edu.au/ucat-anz/test-format |
+
+---
+
+### High-Yield
+
+The single highest-yield Quantitative Reasoning habit is **mental math + estimation first, calculator second**. Most QR items can be solved in 20-30 seconds with mental math; reaching for the calculator costs 2-3 seconds per keystroke and slows the per-item rhythm. The second-highest-yield habit is **read the question first, then locate the relevant chart/table region**. Reading the chart/table first and trying to memorise everything costs 30+ seconds before the item can be answered. The third-highest-yield habit is **practising each question family in isolation first, then mixed timed sets** — the UCAT ANZ tests five reasoning families (data interpretation, percentage / ratio / rate, proportions, currency conversions, formula application) and each has a distinct strategy.
+
+---
+
+### Previous Year
+
+The UCAT ANZ 2024 and 2025 cycles both used Quantitative Reasoning as the third cognitive subtest with 36 items and 24 minutes. The 2026 cycle is expected to retain the same format. Confirm the live test format and timing on ucat.edu.au/ucat-anz/test-format before each cycle. Abstract Reasoning was removed from the UCAT ANZ starting the 2025 cycle — do not allocate study time to Abstract Reasoning for 2025 onwards.
+
+---
+
+### Pro Tips
+
+- **Mental math first**: mental math + estimation is faster than the calculator for most QR items. Use the calculator only for 3+ digit multiplications.
+- **Read the question first**: read the question, then locate the relevant chart/table region. Don't read the chart first.
+- **Family mastery**: practise each of the five question families in isolation first (15-20 items per family), then move to mixed timed sets of 36 items in 24 minutes.
+- **Estimate first**: estimate the answer first (round to nearest 10%) to catch silly errors before they cost the item.
+- **Official-only practice**: third-party prep questions do not match the live UCAT ANZ style. Use ucat.edu.au practice tests.
+
+---
+
+### Official Resources
+
+- ucat.edu.au/ucat-anz — UCAT ANZ Consortium official site
+- ucat.edu.au/ucat-anz/practice-tests — Official UCAT ANZ practice tests
+- ucat.edu.au/ucat-anz/test-format — Live test format and timing
+- auckland.ac.nz/en/fmhs/study-with-us/undergraduate-studies.html — University of Auckland admissions
+- otago.ac.nz/medical-school — University of Otago Medical School admissions
+- pearsonvue.com — UCAT ANZ test booking

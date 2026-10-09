@@ -358,6 +358,27 @@ import act from './usa/act';
 // file header + officialSource). Unverifiable fields are omitted, not guessed.
 import usmle from './usa/usmle';
 import gamsat from './australia/gamsat';
+// ─── w23-build-from-manus: 9 exams sourced from Manus official-source retrieval,
+// independently re-fetched where the issuing body was reachable (see report) ────────
+import upcat from './philippines/upcat';
+import numsMdcat from './pakistan/nums-mdcat';
+import gceOl from './srilanka/gce-ol';
+import plab from './uk/plab';
+import tmua from './uk/tmua';
+import cimaCgma from './uk/cima-cgma';
+import oet from './uk/oet';
+import kasnebCpa from './kenya/kasneb-cpa';
+import dat from './usa/dat';
+
+export { default as upcat } from './philippines/upcat';
+export { default as numsMdcat } from './pakistan/nums-mdcat';
+export { default as gceOl } from './srilanka/gce-ol';
+export { default as plab } from './uk/plab';
+export { default as tmua } from './uk/tmua';
+export { default as cimaCgma } from './uk/cima-cgma';
+export { default as oet } from './uk/oet';
+export { default as kasnebCpa } from './kenya/kasneb-cpa';
+export { default as dat } from './usa/dat';
 
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
@@ -436,6 +457,8 @@ export const ALL_EXAMS = [
   // United States (country expansion)
   digitalSat, act,
   usmle, gamsat,
+  // w23-build-from-manus (Manus official-source sourced)
+  upcat, numsMdcat, gceOl, plab, tmua, cimaCgma, oet, kasnebCpa, dat,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────

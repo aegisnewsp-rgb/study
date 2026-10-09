@@ -23,6 +23,10 @@ export const NOINDEX_EXAMS = new Set<string>([
   // AdSense review 2026-09-09: discontinued or merged exams still titled as
   // live "2026" hubs with no notes corpus — misleading + thin URL graph.
   'aiims-mbbs', 'jipmer', 'lsat',
+  // w24 2026-10-09 (operator-approved): zero GSC rows at 28/90/180d, no valid 301 parent.
+  // ucat-anz-nz is also 301'd in nginx.conf. KEEP indexed: hkdse, mcat-ca, ielts-hk.
+  'ucat-anz-nz', 'qce-mathematical-methods', 'vce-mathematical-methods', 'hsc-mathematics-advanced',
+  'ncea-level-2', 'ncea-ue', 'leaving-cert', 'junior-cycle', 'osslt', 'aqa-gcse-mathematics',
 ]);
 
 export const DISCONTINUED_EXAMS: Record<string, string> = {

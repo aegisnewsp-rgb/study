@@ -40,6 +40,10 @@ const NOINDEX_SITEMAP = new Set([
   'hepc', 'kuet', 'law-apt', 'matrikulasi', 'medical-adm', 'must-adm', 'ruet', 'uppm',
   'loe', 'nlt', 'pcat', 'toafa', 'haad',
   'aiims-mbbs', 'jipmer', 'lsat',
+  // w24 2026-10-09 (operator-approved): zero GSC rows at 28/90/180d, no valid 301 parent.
+  // ucat-anz-nz is also 301'd in nginx.conf. KEEP indexed: hkdse, mcat-ca, ielts-hk.
+  'ucat-anz-nz', 'qce-mathematical-methods', 'vce-mathematical-methods', 'hsc-mathematics-advanced',
+  'ncea-level-2', 'ncea-ue', 'leaving-cert', 'junior-cycle', 'osslt', 'aqa-gcse-mathematics',
 ]);
 examSlugs = examSlugs.filter((s) => !NOINDEX_SITEMAP.has(s));
 

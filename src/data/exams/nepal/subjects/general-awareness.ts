@@ -1,4 +1,4 @@
-import type { Subject } from '../types';
+import type { Subject } from '../../types';
 
 export const general_awareness: Subject = {
   id: 'general-awareness', name: 'General Awareness', color: '#10b981',

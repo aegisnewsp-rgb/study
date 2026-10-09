@@ -353,6 +353,12 @@ import satQatar from './qatar/sat';
 import digitalSat from './usa/digital-sat';
 import act from './usa/act';
 
+// w20-new-exams (2026-10-09) — demand-led additions for high-CPM geos.
+// Facts on both files are verified from the issuing body's own site (see each
+// file header + officialSource). Unverifiable fields are omitted, not guessed.
+import usmle from './usa/usmle';
+import gamsat from './australia/gamsat';
+
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
@@ -429,6 +435,7 @@ export const ALL_EXAMS = [
   qatarSecondaryCertificate, ieltsQatar, satQatar,
   // United States (country expansion)
   digitalSat, act,
+  usmle, gamsat,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────

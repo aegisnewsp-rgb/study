@@ -1,4 +1,4 @@
-import type { Subject } from '../types';
+import type { Subject } from '../../types';
 
 export const verbal_ability: Subject = {
   id: 'verbal-ability', name: 'Verbal Ability', color: '#f59e0b',

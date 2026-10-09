@@ -1,4 +1,4 @@
-import type { Subject } from '../types';
+import type { Subject } from '../../types';
 
 export const quantitative_ability: Subject = {
   id: 'quantitative-ability', name: 'Quantitative Ability', color: '#8b5cf6',

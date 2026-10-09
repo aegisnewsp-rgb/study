@@ -12,6 +12,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub, isPlaceholderExamTopic, placeholderSyllabusStats } from '../../data/note-quality';
 import { isCuratedComparePair } from '../../data/compare-curation';
+import { examImages } from '../../data/exam-images';
 
 // Only link note hubs that are actually indexable — this page is indexed, and a
 // follow-link into a noindexed hub leaks crawl signals (policy: never link to
@@ -95,6 +96,9 @@ const hreflangMap: Record<string, string> = {
 };
 
 const examName = exam.examName || exam.examId;
+// Hero illustration for this exam, if one was staged. Undefined for every slug
+// not in the map — the hero block then renders exactly as it did before.
+const heroImage = examImages[exam.examId];
 const countryName = countryLabels[exam.country] || exam.country;
 
 // Rich exam description
@@ -781,7 +785,11 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
   title={title}
   description={description}
   canonical={canonicalUrl}
-  image={fs.existsSync(path.join(process.cwd(), 'public', `/og-notes/exam-${exam.examId}.jpg`)) ? `/og-notes/exam-${exam.examId}.jpg` : '/og-notes/exam-default.jpg'}
+  image={examImages[exam.examId]?.og
+    ? examImages[exam.examId].og.src
+    : fs.existsSync(path.join(process.cwd(), 'public', `/og-notes/exam-${exam.examId}.jpg`))
+      ? `/og-notes/exam-${exam.examId}.jpg`
+      : '/og-notes/exam-default.jpg'}
   author={authorObj}
   geoRegion={geoRegionMap[exam.country]}
   hreflang={hreflangMap[exam.country]}
@@ -849,6 +857,20 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
             </p>
           </div>
         </div>
+
+        {/* Hero illustration — only for exam slugs present in src/data/exam-images.ts */}
+        {heroImage && (
+          <img
+            src={heroImage.src}
+            width={heroImage.width}
+            height={heroImage.height}
+            alt={heroImage.alt}
+            loading="lazy"
+            decoding="async"
+            class="w-full max-w-full h-auto rounded-2xl border border-surface-200 dark:border-surface-800 shadow-sm mb-6"
+          />
+        )}
+
         <ShareRow
           url={new URL(Astro.url.pathname, Astro.site).href}
           title={`${examName} ${currentYear} — complete exam guide`}

@@ -9,7 +9,7 @@ weight: 5
 country: ireland
 generated: "2026-10-01T12:50:00Z"
 lastUpdated: 2026-10-01
-diagramPrompt: "Educational diagram of HPAT Section 1 Logical Reasoning and Problem Solving showing 44 questions across 65 minutes, broken into text-comprehension, argument-evaluation and quantitative-reasoning mini-blocks, with a question-count bar chart, white background, exam-style illustration"
+diagramPrompt: "Educational diagram of HPAT Section 1 Logical Reasoning and Problem Solving showing 42 questions across 60 minutes, broken into text-comprehension, argument-evaluation and quantitative-reasoning mini-blocks, with a question-count bar chart, white background, exam-style illustration"
 ---
 
 # Logical Reasoning and Problem Solving
@@ -20,11 +20,11 @@ diagramPrompt: "Educational diagram of HPAT Section 1 Logical Reasoning and Prob
 **Logical Reasoning and Problem Solving** — Quick Facts for Irish medical applicants (RCSI, UCD, TCD, UL)
 
 **What is Section 1?**
-Section 1 is the first of three separately-timed HPAT-Ireland sections for standard applicants. It carries the most weight of any section by both the number of items (44 multiple-choice questions) and the longest time allocation (65 minutes). The section does not draw on any specific academic curriculum - it tests general reasoning skills acquired over time: comprehension and analysis of written passages, tables, charts and graphs; drawing conclusions; identifying assumptions; evaluating arguments; and solving quantitative and qualitative problems. It is administered by ACER (Australian Council for Educational Research) on behalf of the participating universities.
+Section 1 is the first of three separately-timed HPAT-Ireland sections for standard applicants. It carries the most weight of any section by both the number of items (42 multiple-choice questions) and the longest time allocation (60 minutes). The section does not draw on any specific academic curriculum - it tests general reasoning skills acquired over time: comprehension and analysis of written passages, tables, charts and graphs; drawing conclusions; identifying assumptions; evaluating arguments; and solving quantitative and qualitative problems. It is administered by ACER (Australian Council for Educational Research) on behalf of the participating universities.
 
 **At a glance:**
-- **44 multiple-choice questions** with four or five response alternatives and a single correct answer
-- **65 minutes** strictly timed (about 88 seconds per question)
+- **42 multiple-choice questions** with four or five response alternatives and a single correct answer
+- **60 minutes** strictly timed (about 86 seconds per question)
 - **Reasoning skills** - reading comprehension, argument analysis, assumption identification, quantitative and qualitative problem solving
 - **No curriculum content** - revision is about question-style familiarity and pacing, not memorisation
 - **Largest section by mark weight** - deserves the largest revision block in any 3- or 6-month plan
@@ -32,12 +32,12 @@ Section 1 is the first of three separately-timed HPAT-Ireland sections for stand
 **HPAT Section timing reference (standard applicants):**
 | Section | Skill | Questions | Duration | Mins/Q |
 |---|---|---|---|---|
-| 1 | Logical Reasoning & Problem Solving | 44 | 65 min | ~88 s |
-| 2 | Interpersonal Understanding | 36 | 45 min | ~75 s |
-| 3 | Non-Verbal Reasoning | 32 | 40 min | ~75 s |
+| 1 | Logical Reasoning & Problem Solving | 42 | 60 min | ~86 s |
+| 2 | Interpersonal Understanding | 42 | 50 min | ~71 s |
+| 3 | Non-Verbal Reasoning | 30 | 40 min | ~80 s |
 | 4 | Written English | 2 tasks | n/a | short written pieces (UL only) |
 
-**Time budget rule:** Plan 65 minutes of uninterrupted, timed practice for Section 1 alone before each full-length mock. Section 1 carries roughly 39% of total HPAT question count (44 of 112 across Sections 1-3) and is the longest in time, so under-revising it is the most common score-leak pattern.
+**Time budget rule:** Plan 60 minutes of uninterrupted, timed practice for Section 1 alone before each full-length mock. Section 1 carries roughly 37% of the total HPAT question count (42 of 114 across Sections 1-3) and is the longest in time, so under-revising it is the most common score-leak pattern.
 
 ### 🟡 Standard — Detailed Review (1d–2w)
 > A working understanding for steady preparation across a few weeks.
@@ -104,7 +104,7 @@ Score is the symptom, the error log is the diagnosis. Tabulate misses by sub-ski
 Rule: repair the top row first. A 34% share of misses is worth more than any volume of general practice.
 
 #### Pacing arithmetic that survives a bad run
-44 items in 65 minutes is 88.6 s each. Split the block: first pass at 60 s maximum with a single-character marker, then a second pass of ~40 s on flagged items. Twelve flags is a realistic first-pass budget — 32 × 60 s = 32 min, 12 × 40 s = 8 min, leaving ~25 min of slack for items that turn out to need two passes.
+42 items in 60 minutes is 85.7 s each. Split the block: first pass at 60 s maximum with a single-character marker, then a second pass of ~40 s on flagged items. Twelve flags is a realistic first-pass budget — 42 × 60 s = 42 min, 12 × 40 s = 8 min, leaving ~10 min of slack for items that turn out to need two passes.
 
 > **Memory hook — "Negate, then name."** Assumption items: negate the candidate and watch the conclusion. Weakness items: name the rival explanation in one clause. Both are single-sentence moves; the cost is the reading, not the thinking.
 
@@ -115,8 +115,8 @@ Rule: repair the top row first. A 34% share of misses is worth more than any vol
 | Item | Detail |
 |---|---|
 | Section | 1 of 3 (standard applicants); 1 of 4 (UL applicants including Section 4) |
-| Question count | 44 multiple-choice |
-| Time allocation | 65 minutes strictly timed |
+| Question count | 42 multiple-choice |
+| Time allocation | 60 minutes strictly timed |
 | Response format | One correct answer from four or five alternatives |
 | Curriculum basis | None - general reasoning skills |
 | Skill focus | Reading comprehension, assumption identification, argument evaluation, quantitative and qualitative problem solving |
@@ -181,7 +181,7 @@ Rule: repair the top row first. A 34% share of misses is worth more than any vol
 
 4. **Skip only on full blank.** If you can eliminate one or two alternatives, mark your best guess and move on. A 25% chance beats 0%. The cost of leaving an item blank is guaranteed zero; the cost of a fast-but-educated guess is at most 0.75 of one.
 
-5. **Section 1 is your biggest score lever.** It has the longest time allocation (65 minutes) and the most questions (44) of any HPAT section. Under-revising it - the 1:1:1 plan that gives equal time to Sections 1, 2 and 3 - is the most common score-leak pattern. A 2:1:1 plan (Section 1:Section 2:Section 3) reflects the actual time and question weighting.
+5. **Section 1 is your biggest score lever.** It has the longest time allocation (60 minutes) and joint-most questions (42, tied with Section 2) of any HPAT section. Under-revising it - the 1:1:1 plan that gives equal time to Sections 1, 2 and 3 - is the most common score-leak pattern. A 60:50:40 plan (Section 1:Section 2:Section 3) reflects the actual time allocation.
 
 6. **Read the data before asking the question.** ACER deliberately designs items to misdirect on a first scan of the data. Read the table or chart carefully before reading the item; if you skim the item first, you'll project your own framing onto the data.
 

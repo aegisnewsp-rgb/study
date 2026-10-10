@@ -9,7 +9,7 @@ weight: 4
 country: ireland
 generated: "2026-10-01T13:20:00Z"
 lastUpdated: 2026-10-01
-diagramPrompt: "Educational diagram of HPAT Section 2 Interpersonal Understanding showing 36 questions across 45 minutes, with a question-count breakdown by sub-skill (emotion recognition, motivation inference, social-dynamic interpretation), white background, exam-style illustration"
+diagramPrompt: "Educational diagram of HPAT Section 2 Interpersonal Understanding showing 42 questions across 50 minutes, with a question-count breakdown by sub-skill (emotion recognition, motivation inference, social-dynamic interpretation), white background, exam-style illustration"
 ---
 
 # Interpersonal Understanding
@@ -20,11 +20,11 @@ diagramPrompt: "Educational diagram of HPAT Section 2 Interpersonal Understandin
 **Interpersonal Understanding** — Quick Facts for Irish medical applicants (RCSI, UCD, TCD, UL)
 
 **What is Section 2?**
-Section 2 is the second of three separately-timed HPAT-Ireland sections for standard applicants. It carries 36 multiple-choice questions in 45 minutes (about 75 seconds per question). The section does not draw on any academic curriculum - it assesses the candidate's ability to identify, understand and infer the thoughts, feelings, behaviour and intentions of people from written scenarios; to recognise emotion, motivation and social dynamics in health-relevant contexts. It is administered by ACER (Australian Council for Educational Research) on behalf of the participating universities.
+Section 2 is the second of three separately-timed HPAT-Ireland sections for standard applicants. It carries 42 multiple-choice questions in 50 minutes (about 71 seconds per question). The section does not draw on any academic curriculum - it assesses the candidate's ability to identify, understand and infer the thoughts, feelings, behaviour and intentions of people from written scenarios; to recognise emotion, motivation and social dynamics in health-relevant contexts. It is administered by ACER (Australian Council for Educational Research) on behalf of the participating universities.
 
 **At a glance:**
-- **36 multiple-choice questions** with four or five response alternatives and a single correct answer
-- **45 minutes** strictly timed (about 75 seconds per question)
+- **42 multiple-choice questions** with four or five response alternatives and a single correct answer
+- **50 minutes** strictly timed (about 71 seconds per question)
 - **Reasoning skills** - identifying emotions, inferring motivations, interpreting social dynamics, recognising the unspoken in health-care contexts
 - **No curriculum content** - revision is about scenario-familiarity and empathy-driven inference, not memorisation
 - **Most-skipped section by hasty students** - candidates who think it is "soft" under-revise it; Section 2 reliably differentiates
@@ -32,12 +32,12 @@ Section 2 is the second of three separately-timed HPAT-Ireland sections for stan
 **HPAT Section timing reference (standard applicants):**
 | Section | Skill | Questions | Duration | Mins/Q |
 |---|---|---|---|---|
-| 1 | Logical Reasoning & Problem Solving | 44 | 65 min | ~88 s |
-| 2 | Interpersonal Understanding | 36 | 45 min | ~75 s |
-| 3 | Non-Verbal Reasoning | 32 | 40 min | ~75 s |
+| 1 | Logical Reasoning & Problem Solving | 42 | 60 min | ~86 s |
+| 2 | Interpersonal Understanding | 42 | 50 min | ~71 s |
+| 3 | Non-Verbal Reasoning | 30 | 40 min | ~80 s |
 | 4 | Written English | 2 tasks | n/a | short written pieces (UL only) |
 
-**Time budget rule:** Plan 45 minutes of uninterrupted, timed practice for Section 2 alone before each full-length mock. Section 2 carries about 32% of total HPAT questions across Sections 1-3 (36 of 112) and the time per item is the tightest of any section - under-revising it is the most common score-leak pattern for candidates who treat it as "soft".
+**Time budget rule:** Plan 50 minutes of uninterrupted, timed practice for Section 2 alone before each full-length mock. Section 2 carries about 37% of total HPAT questions across Sections 1-3 (42 of 114) and the time per item is the tightest of any section - under-revising it is the most common score-leak pattern for candidates who treat it as "soft".
 
 ### 🟡 Standard — Detailed Review (1d–2w)
 > A working understanding for steady preparation across a few weeks.
@@ -118,8 +118,8 @@ At 75 s per item, two annotations per session is already more than most candidat
 | Item | Detail |
 |---|---|
 | Section | 2 of 3 (standard applicants); 2 of 4 (UL applicants including Section 4) |
-| Question count | 36 multiple-choice |
-| Time allocation | 45 minutes strictly timed |
+| Question count | 42 multiple-choice |
+| Time allocation | 50 minutes strictly timed |
 | Response format | One correct answer from four or five alternatives |
 | Curriculum basis | None - general interpersonal-reasoning skills |
 | Skill focus | Identifying emotions, motivations, intentions and social dynamics from short written scenarios |
@@ -179,7 +179,7 @@ At 75 s per item, two annotations per session is already more than most candidat
 
 6. **Mixed-format sets** - some sets combine a short scenario with a brief follow-up action; the item tests the most appropriate response. The skill is to identify the underlying need, not the surface question.
 
-**Pattern to watch:** ACER practice materials rotate the *type* of interpersonal-inference across scenarios - emotion, motivation, dynamic, prediction - so a Section 2 block may test all four sub-skills across 36 items. Plan to spend 1-1.5 minutes per scenario, including the item.
+**Pattern to watch:** ACER practice materials rotate the *type* of interpersonal-inference across scenarios - emotion, motivation, dynamic, prediction - so a Section 2 block may test all four sub-skills across 42 items. Plan to spend 1-1.5 minutes per scenario, including the item.
 
 ### Pro Tips
 
@@ -191,7 +191,7 @@ At 75 s per item, two annotations per session is already more than most candidat
 
 4. **Distinguish the surface emotion from the dominant emotion.** Section 2 candidates often pick the most surface emotion (e.g. "frustration" in an obviously-frustrated character) when the dominant emotion is something deeper (e.g. "fear of being overruled"). Read what is asked: dominant vs sub-dominant.
 
-5. **Section 2 is your second-largest score lever.** It has 36 questions - the second-largest of any HPAT section - and the tightest time-per-item (75 seconds). Under-revising it - the 1:1:1 plan that gives equal time to Sections 1, 2 and 3 - is the most common score-leak pattern. A 2:1:1 plan (Section 1:Section 2:Section 3) reflects Section 2's actual question weighting and tightest time.
+5. **Section 2 is your second-largest score lever.** It has 42 questions - joint-largest with Section 1 - and the tightest time-per-item (71 seconds). Under-revising it - the 1:1:1 plan that gives equal time to Sections 1, 2 and 3 - is the most common score-leak pattern. A 60:50:40 plan reflects the actual time allocation, with Section 2 carrying the tightest time per item.
 
 6. **Don't bring outside clinical knowledge.** Section 2 scenarios are deliberately designed to be interpretable without clinical knowledge. Bringing medical expertise in can over-determine the right answer. Read the scenario as written.
 

@@ -47,7 +47,7 @@ The same number lives in three coordinate systems. Switching between them is the
 | Form | Shape | Variables (units) | When to use |
 |---|---|---|---|
 | Rectangular | `z = x + iy` | `x, y ∈ ℝ` (dimensionless) | Algebra, expansion, conjugation |
-| Polar | `z = r(cos θ + i sin θ)` | `r = |z| ≥ 0` (dimensionless), `θ` in radians | Multiplication, division, De Moivre |
+| Polar | `z = r(cos θ + i sin θ)` | `r = \|z\| ≥ 0` (dimensionless), `θ` in radians | Multiplication, division, De Moivre |
 | Euler | `z = r·e^(iθ)` | `r ≥ 0`, `θ` in radians | Powers `zⁿ`, roots, rotation |
 
 Conversion: `r = √(x²+y²)`, `θ = tan⁻¹(y/x)` with quadrant correction.

@@ -37,7 +37,7 @@ Integration is the reverse process of differentiation. If F'(x) = f(x), then ∫
 | $\sec^2 x$ | $\tan x + C$ |
 | $\csc^2 x$ | $-\cot x + C$ |
 | $e^x$ | $e^x + C$ |
-| $\frac{1}{x}$ | $\ln|x| + C$ |
+| $\frac{1}{x}$ | $\ln\|x\| + C$ |
 | $a^x$ | $\frac{a^x}{\ln a} + C$ |
 
 ⚡ **ECAT Exam Tip:** Don't forget +C (constant of integration) for indefinite integrals! For definite integrals, the limits take the place of +C.

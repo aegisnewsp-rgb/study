@@ -86,12 +86,12 @@ The creation and maintenance of a hypertonic medullary interstitium (ranging fro
 
 In the late distal tubule and collecting duct, specialized intercalated cells regulate final acid-base balance:
 
-1. **Type A ($lpha$) Intercalated Cells (Acid Secretion):**
+1. **Type A ($\alpha$) Intercalated Cells (Acid Secretion):**
    - Active during systemic metabolic acidosis.
    - Apical $H^+$-ATPase (vacuolar proton pump) and $H^+/K^+$-ATPase extrude $H^+$ into the lumen against steep electrochemical gradients (urinary pH can fall to a minimum of 4.5).
    - Basolateral anion exchanger 1 (AE1 / Band 3) exports synthesized $HCO_3^-$ into the systemic circulation in exchange for $Cl^-$.
    - Failure of the apical $H^+$-ATPase or basolateral AE1 causes Classical Distal Renal Tubular Acidosis (Type 1 RTA), characterized by inability to acidify urine below pH 5.5, hypokalemia, hypercalciuria, and nephrocalcinosis.
-2. **Type B ($eta$) Intercalated Cells (Bicarbonate Secretion):**
+2. **Type B ($\beta$) Intercalated Cells (Bicarbonate Secretion):**
    - Active during systemic metabolic alkalosis.
    - Polarity is reversed: apical pendrin ($SLC26A4$, an electroneutral $Cl^-/HCO_3^-$ exchanger) secretes $HCO_3^-$ into the tubular lumen while basolateral $H^+$-ATPase extrudes $H^+$ back into the blood.
 

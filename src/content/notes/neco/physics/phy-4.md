@@ -78,7 +78,7 @@ NECO Section B questions frequently ask you to resolve a force vector into compo
 | Resolve F at angle θ | Fx = F cos θ, Fy = F sin θ |
 | Find resultant from components | R = √(ΣFx² + ΣFy²) |
 | Dot product | A · B = AB cos θ |
-| Cross product magnitude | |A × B| = AB sin θ |
+| Cross product magnitude | \|A × B\| = AB sin θ |
 
 ---
 

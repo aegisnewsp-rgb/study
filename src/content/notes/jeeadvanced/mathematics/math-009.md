@@ -30,7 +30,7 @@ In our review of past JEE papers, candidates lose marks when they forget the abs
 
 #### Fundamental Antiderivative Formulas
 
-1. $\int x^n dx = rac{x^{n+1}}{n+1} + C \quad (n \neq -1)$
+1. $\int x^n dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$
 2. $\int \frac{1}{x} dx = \ln|x| + C \quad (x \neq 0)$
 3. $\int e^x dx = e^x + C$
 4. $\int a^x dx = \frac{a^x}{\ln a} + C \quad (a > 0, a \neq 1)$
@@ -50,14 +50,14 @@ In our review of past JEE papers, candidates lose marks when they forget the abs
 | Integrand Structure | Evaluated Antiderivative | Essential Domain / Constraint |
 | :--- | :--- | :--- |
 | $\int \frac{dx}{x^2 + a^2}$ | $\frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C$ | $a \neq 0$ |
-| $\int \frac{dx}{x^2 - a^2}$ | $\frac{1}{2a} \ln\left|\frac{x-a}{x+a}\right| + C$ | $|x| \neq |a|$ |
-| $\int \frac{dx}{a^2 - x^2}$ | $\frac{1}{2a} \ln\left|\frac{a+x}{a-x}\right| + C$ | $|x| \neq |a|$ |
-| $\int \frac{dx}{\sqrt{a^2 - x^2}}$ | $\sin^{-1}\left(\frac{x}{a}\right) + C$ | $|x| < a$ |
-| $\int \frac{dx}{\sqrt{x^2 + a^2}}$ | $\ln\left|x + \sqrt{x^2 + a^2}\right| + C$ | All real $x$ |
-| $\int \frac{dx}{\sqrt{x^2 - a^2}}$ | $\ln\left|x + \sqrt{x^2 - a^2}\right| + C$ | $|x| > a$ |
-| $\int \sqrt{a^2 - x^2} \, dx$ | $\frac{x}{2}\sqrt{a^2 - x^2} + \frac{a^2}{2}\sin^{-1}\left(\frac{x}{a}\right) + C$ | $|x| \le a$ |
-| $\int \sqrt{x^2 + a^2} \, dx$ | $\frac{x}{2}\sqrt{x^2 + a^2} + \frac{a^2}{2}\ln\left|x + \sqrt{x^2 + a^2}\right| + C$ | All real $x$ |
-| $\int \sqrt{x^2 - a^2} \, dx$ | $\frac{x}{2}\sqrt{x^2 - a^2} - \frac{a^2}{2}\ln\left|x + \sqrt{x^2 - a^2}\right| + C$ | $|x| \ge a$ |
+| $\int \frac{dx}{x^2 - a^2}$ | $\frac{1}{2a} \ln\left\|\frac{x-a}{x+a}\right\| + C$ | $\|x\| \neq \|a\|$ |
+| $\int \frac{dx}{a^2 - x^2}$ | $\frac{1}{2a} \ln\left\|\frac{a+x}{a-x}\right\| + C$ | $\|x\| \neq \|a\|$ |
+| $\int \frac{dx}{\sqrt{a^2 - x^2}}$ | $\sin^{-1}\left(\frac{x}{a}\right) + C$ | $\|x\| < a$ |
+| $\int \frac{dx}{\sqrt{x^2 + a^2}}$ | $\ln\left\|x + \sqrt{x^2 + a^2}\right\| + C$ | All real $x$ |
+| $\int \frac{dx}{\sqrt{x^2 - a^2}}$ | $\ln\left\|x + \sqrt{x^2 - a^2}\right\| + C$ | $\|x\| > a$ |
+| $\int \sqrt{a^2 - x^2} \, dx$ | $\frac{x}{2}\sqrt{a^2 - x^2} + \frac{a^2}{2}\sin^{-1}\left(\frac{x}{a}\right) + C$ | $\|x\| \le a$ |
+| $\int \sqrt{x^2 + a^2} \, dx$ | $\frac{x}{2}\sqrt{x^2 + a^2} + \frac{a^2}{2}\ln\left\|x + \sqrt{x^2 + a^2}\right\| + C$ | All real $x$ |
+| $\int \sqrt{x^2 - a^2} \, dx$ | $\frac{x}{2}\sqrt{x^2 - a^2} - \frac{a^2}{2}\ln\left\|x + \sqrt{x^2 - a^2}\right\| + C$ | $\|x\| \ge a$ |
 
 ---
 
@@ -110,7 +110,7 @@ Before decomposing $\frac{P(x)}{Q(x)}$, ensure that $\deg(P) < \deg(Q)$. If $\de
 
 | Denominator Factorization $Q(x)$ | Form of Partial Fraction | Integration Strategy |
 | :--- | :--- | :--- |
-| Distinct linear factors: $(x-a)(x-b)$ | $\frac{A}{x-a} + \frac{B}{x-b}$ | Direct natural logarithms: $A\ln|x-a| + B\ln|x-b|$ |
+| Distinct linear factors: $(x-a)(x-b)$ | $\frac{A}{x-a} + \frac{B}{x-b}$ | Direct natural logarithms: $A\ln\|x-a\| + B\ln\|x-b\|$ |
 | Repeated linear factor: $(x-a)^k$ | $\frac{A_1}{x-a} + \frac{A_2}{(x-a)^2} + \dots + \frac{A_k}{(x-a)^k}$ | Power rule: $\int (x-a)^{-m} dx = \frac{-(x-a)^{1-m}}{m-1}$ |
 | Irreducible quadratic factor: $x^2 + bx + c$ | $\frac{Ax + B}{x^2 + bx + c}$ | Split numerator into derivative of denominator plus constant; complete square |
 | Repeated irreducible quadratic: $(x^2 + a^2)^2$ | $\frac{Ax + B}{x^2 + a^2} + \frac{Cx + D}{(x^2 + a^2)^2}$ | Trigonometric substitution $x = a\tan\theta$ or reduction formula |

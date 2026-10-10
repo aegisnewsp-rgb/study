@@ -42,10 +42,10 @@ In our review of candidate answer keys, the most common error is confusing Vygot
 
 | Core Construct | Defining Theoretical Characteristic | Concrete Classroom Manifestation | Common CTET Question Angle |
 | :--- | :--- | :--- | :--- |
-| **Zone of Proximal Development** | Dynamic range of learning potential | Student solves complex fractions when teacher provides a visual bar model | "Where does meaningful learning take place?" $	o$ Within the ZPD |
-| **Scaffolding (Wood & Bruner)** | Contingent, temporary assistance | Teacher models the first step of an experiment, then prompts the student | "What is the role of the teacher in constructivism?" $	o$ Facilitator / Scaffolder |
-| **More Knowledgeable Other** | Context-specific competence differential | A student proficient in geometry assists a peer who excels in algebra | "Can a peer act as an MKO?" $	o$ Yes, peer tutoring is highly effective |
-| **Private Speech** | Internalization of social dialogue | A seven-year-old whispers instructions while assembling a wooden puzzle | "Why does a child talk to herself while working?" $	o$ To regulate her own actions |
+| **Zone of Proximal Development** | Dynamic range of learning potential | Student solves complex fractions when teacher provides a visual bar model | "Where does meaningful learning take place?" $\to$ Within the ZPD |
+| **Scaffolding (Wood & Bruner)** | Contingent, temporary assistance | Teacher models the first step of an experiment, then prompts the student | "What is the role of the teacher in constructivism?" $\to$ Facilitator / Scaffolder |
+| **More Knowledgeable Other** | Context-specific competence differential | A student proficient in geometry assists a peer who excels in algebra | "Can a peer act as an MKO?" $\to$ Yes, peer tutoring is highly effective |
+| **Private Speech** | Internalization of social dialogue | A seven-year-old whispers instructions while assembling a wooden puzzle | "Why does a child talk to herself while working?" $\to$ To regulate her own actions |
 
 ---
 

@@ -114,9 +114,9 @@ Step 3 — Verify dimensional/scaling check: numerator behaves like $x \cdot (x^
 |------------------|-----------------|-------------------|
 | $\lim_{x \to 0} \dfrac{\sin(x^2)}{x}$ written as $0$ | Treating $x^2$ as if it were $x$ in the standard formula | $\sin(x^2)/(x^2) \to 1$, then multiply by $x^2/x = x \to 0$ |
 | $1^\infty$ form $\left(1 + \dfrac{2}{x}\right)^x$ as $x \to \infty$ | Substituting to get $1^\infty = 1$ | Use $\lim (1 + a/x)^x = e^a$ to get $e^2$ |
-| $\lim_{x \to 0} x \sin(1/x)$ | "$\infty \cdot$ undefined" panic | Bound by $-|x| \le x \sin(1/x) \le |x|$; both bounds tend to $0$, so the limit is $0$ |
+| $\lim_{x \to 0} x \sin(1/x)$ | "$\infty \cdot$ undefined" panic | Bound by $-\|x\| \le x \sin(1/x) \le \|x\|$; both bounds tend to $0$, so the limit is $0$ |
 | $\lim_{x \to \pi/2} \dfrac{\cos x}{x - \pi/2}$ | Substitution gives $0/0$; derivative misapplied | Rewrite $\cos x = \sin(\pi/2 - x)$, then $\sin(\pi/2 - x)/(\pi/2 - x) \to 1$ |
-| $\varepsilon$-$\delta$ writing " $x - c < \delta$ " | Drops absolute value, breaking symmetry | Must write $|x - c| < \delta$ |
+| $\varepsilon$-$\delta$ writing " $x - c < \delta$ " | Drops absolute value, breaking symmetry | Must write $\|x - c\| < \delta$ |
 | Applying L'Hôpital to $\lim_{x \to \infty} (x+1)/x$ | Differentiate to $1/1 = 1$ | Result is correct but method is overkill; the form is $\infty/\infty$ but direct division is faster |
 
 #### Connections to Adjacent Topics

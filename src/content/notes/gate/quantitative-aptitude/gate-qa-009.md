@@ -56,7 +56,7 @@ The boat and stream problem adds a river current into the mix. A boat moving in 
 | T = D/S | Time from distance and speed |
 | Avg Speed | Total Distance / Total Time |
 | Relative speed (toward) | S₁ + S₂ |
-| Relative speed (same dir) | |S₁ - S₂| |
+| Relative speed (same dir) | \|S₁ - S₂\| |
 | Downstream speed | B + R |
 | Upstream speed | B - R |
 | km/h to m/s | S × 5/18 |

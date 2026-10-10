@@ -86,7 +86,7 @@ For a physical quantity $Z = f(X, Y)$:
 |---|---|---|---|
 | **Sum / Difference** | $Z = X + Y$ or $Z = X - Y$ | $\Delta Z = \Delta X + \Delta Y$ (Absolute errors add) | $\frac{\Delta Z}{Z} = \frac{\Delta X + \Delta Y}{X \pm Y}$ |
 | **Product / Quotient** | $Z = X \cdot Y$ or $Z = \frac{X}{Y}$ | $\Delta Z = Z \left( \frac{\Delta X}{X} + \frac{\Delta Y}{Y} \right)$ | $\frac{\Delta Z}{Z} = \frac{\Delta X}{X} + \frac{\Delta Y}{Y}$ (Relative errors add) |
-| **Power Exponent** | $Z = X^n$ | $\Delta Z = |n| X^{n-1} \Delta X$ | $\frac{\Delta Z}{Z} = |n| \frac{\Delta X}{X}$ |
+| **Power Exponent** | $Z = X^n$ | $\Delta Z = \|n\| X^{n-1} \Delta X$ | $\frac{\Delta Z}{Z} = \|n\| \frac{\Delta X}{X}$ |
 | **General Multi-Variable** | $Z = \frac{X^a Y^b}{W^c}$ | $\Delta Z = Z \left( a\frac{\Delta X}{X} + b\frac{\Delta Y}{Y} + c\frac{\Delta W}{W} \right)$ | $\%\text{ Error}(Z) = a(\%X) + b(\%Y) + c(\%W)$ |
 
 Notice that the variable with the highest exponent contributes the largest share to total uncertainty. In experimental design, always measure the highest-exponent variable using the instrument with the smallest percentage error.

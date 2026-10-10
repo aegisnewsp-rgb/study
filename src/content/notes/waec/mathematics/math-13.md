@@ -122,7 +122,7 @@ $$\int x^n\, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$$
 | $\sin x$ | $-\cos x + C$ |
 | $\cos x$ | $\sin x + C$ |
 | $e^x$ | $e^x + C$ |
-| $\frac{1}{x}$ | $\ln|x| + C$ |
+| $\frac{1}{x}$ | $\ln\|x\| + C$ |
 | $e^{kx}$ | $\frac{1}{k}e^{kx} + C$ |
 
 **Rules:**

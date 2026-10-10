@@ -153,11 +153,11 @@ When data has many values, organize into classes (groups).
 **Example**: Heights of 30 students:
 | Class | Tally | Frequency |
 |-------|-------|-----------|
-| 150-154 | |||| | 4 |
-| 155-159 | ||||||| | 8 |
-| 160-164 | |||||||||| | 10 |
-| 165-169 | ||||| | 5 |
-| 170-174 | ||| | 3 |
+| 150-154 | \|\|\|\| | 4 |
+| 155-159 | \|\|\|\|\|\|\| | 8 |
+| 160-164 | \|\|\|\|\|\|\|\|\|\| | 10 |
+| 165-169 | \|\|\|\|\| | 5 |
+| 170-174 | \|\|\| | 3 |
 
 ### Histogram
 A histogram is a bar graph of a frequency distribution with no gaps between bars.

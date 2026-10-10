@@ -307,13 +307,13 @@ $$X = A^{-1}B = \frac{1}{7} \begin{bmatrix} 5 & -4 \\ -2 & 3 \end{bmatrix} \begi
 | ❌ Common Mistake | ✅ What to Do Instead |
 |---|---|
 | Multiplying matrices element-by-element (e.g., [1][5] = 5) | Use the row-by-column rule: sum products of row i × column j |
-| Forgetting to check if $|A\| \neq 0$ before finding $A^{-1}$ | Always compute the determinant first |
+| Forgetting to check if $\|A\| \neq 0$ before finding $A^{-1}$ | Always compute the determinant first |
 | Getting the transpose confused with the inverse | $A^T$: swap rows and columns; $A^{-1}$: more complex formula |
 | Messing up signs in the cofactor expansion of a 3×3 | Remember the **+, −, +** pattern for the first row |
 | Swapping $a$ and $d$ in the 2×2 inverse formula | "Swap the diagonal, change signs of off-diagonal" |
 | Forgetting that matrix multiplication is NOT commutative | $AB \neq BA$ — order matters in every calculation |
 | Confusing row and column dimensions | Always write dimensions: (rows × columns) for both matrices before multiplying |
-| Thinking $|AB\| = \|A\| + \|B\|$ | It's $\det(AB) = \det(A) \cdot \det(B)$ — products, not sums |
+| Thinking $\|AB\| = \|A\| + \|B\|$ | It's $\det(AB) = \det(A) \cdot \det(B)$ — products, not sums |
 
 ### Memory Tricks
 - **ad − bc** for 2×2 determinant: "a cross d minus b cross c"

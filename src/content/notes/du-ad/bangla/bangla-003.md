@@ -27,7 +27,7 @@ Medieval Bengali literature (16th–18th centuries) represents a period of trans
 |---|---|---|
 | **Mangal Kavya** | Narratives celebrating local deities | Annada Mangal, Sita Rama |
 | **Vaishnava Kavya** | Krishna-Radha narratives | Sri Krishna Vijaya |
-| **Shiva Purana |** | Tales of Shiva | | 
+| **Shiva Purana \|** | Tales of Shiva | | 
 | **Folk Literature** | Songs, ballads, panjika | Bhatiyali, Kabigan |
 | **Ramayana/Bhagavata translations** | Sanskrit epics adapted | Krittivasi Ramayan |
 

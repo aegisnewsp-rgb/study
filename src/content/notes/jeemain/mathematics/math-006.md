@@ -39,7 +39,7 @@ Probability measures how likely an outcome of a random experiment is, lying stri
 |---|---|---|
 | Classical | P(E) = n(E)/n(S) | Finite S, equally likely outcomes |
 | Addition | P(A∪B) = P(A)+P(B)−P(A∩B) | Any two events |
-| Multiplication | P(A∩B) = P(A)·P(B|A) | Conditional setup |
+| Multiplication | P(A∩B) = P(A)·P(B\|A) | Conditional setup |
 | Conditional | P(A\|B) = P(A∩B)/P(B) | P(B) > 0 |
 | Bayes' | P(Ai\|B) = P(B\|Ai)·P(Ai) / Σ P(B\|Aj)·P(Aj) | Ai form a partition of S |
 

@@ -40,7 +40,7 @@ Elasticity measures responsiveness of Qd to a change in its determinant, express
 
 | Concept | Key point |
 | --- | --- |
-| Price elasticity (Ed) | %ΔQd / %ΔP; |Ed|>1 elastic, <1 inelastic, =1 unitary |
+| Price elasticity (Ed) | %ΔQd / %ΔP; \|Ed\|>1 elastic, <1 inelastic, =1 unitary |
 | Income elasticity (Ey) | %ΔQd / %ΔY; positive = normal, negative = inferior, >1 = luxury |
 | Cross elasticity (Ec) | %ΔQd of A / %ΔP of B; positive = substitutes, negative = complements |
 

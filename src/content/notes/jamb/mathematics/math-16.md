@@ -66,7 +66,7 @@ For v = a₁i + b₁j and w = a₂i + b₂j:
 | Parallel vectors | v = k w, k ∈ ℝ | k > 0 same direction; k < 0 opposite |
 | Perpendicular vectors | v · w = 0 | Angle = 90° |
 | Equal vectors | Same magnitude **and** direction | Position may differ |
-| Magnitude bound for resultant | |a − b| ≤ |v + w| ≤ a + b | Equality when parallel |
+| Magnitude bound for resultant | \|a − b\| ≤ \|v + w\| ≤ a + b | Equality when parallel |
 
 #### 🎯 Exam-Level Worked Problem
 

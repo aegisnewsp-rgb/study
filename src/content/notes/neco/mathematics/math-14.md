@@ -34,7 +34,7 @@ where $C$ is the constant of integration.
 | Function | Integral |
 |---|---|
 | $x^n$ ($n \neq -1$) | $\dfrac{x^{n+1}}{n+1} + C$ |
-| $\frac{1}{x}$ | $\ln|x| + C$ |
+| $\frac{1}{x}$ | $\ln\|x\| + C$ |
 | $e^x$ | $e^x + C$ |
 | $e^{kx}$ | $\dfrac{e^{kx}}{k} + C$ |
 | $\sin x$ | $-\cos x + C$ |

@@ -53,10 +53,10 @@ Eigenvalues ($\lambda$) satisfy the characteristic equation $\det(A - \lambda I)
 |---|---|---|---|
 | **Symmetric** | $A^T = A$ | All eigenvalues are strictly real numbers | $\det(A) \in \mathbb{R}$; orthogonal eigenvectors |
 | **Skew-Symmetric** | $A^T = -A$ | Purely imaginary or zero ($0, \pm i\beta$) | If $n$ is odd, $\det(A) = 0$ (always singular) |
-| **Orthogonal** | $A^T A = I \iff A^{-1} = A^T$ | Modulus is unity ($|\lambda| = 1$, i.e., $\pm 1, e^{i\theta}$) | $\det(A) = \pm 1$ (Preserves Euclidean vector norms) |
+| **Orthogonal** | $A^T A = I \iff A^{-1} = A^T$ | Modulus is unity ($\|\lambda\| = 1$, i.e., $\pm 1, e^{i\theta}$) | $\det(A) = \pm 1$ (Preserves Euclidean vector norms) |
 | **Hermitian** | $A^H = (\bar{A})^T = A$ | All eigenvalues are strictly real numbers | Unitary similarity to a diagonal real matrix |
 | **Skew-Hermitian** | $A^H = -A$ | Purely imaginary or zero | Diagonal elements are purely imaginary or zero |
-| **Unitary** | $A^H A = I$ | Modulus is unity ($|\lambda| = 1$) | Absolute determinant $|\det(A)| = 1$ |
+| **Unitary** | $A^H A = I$ | Modulus is unity ($\|\lambda\| = 1$) | Absolute determinant $\|\det(A)\| = 1$ |
 | **Idempotent** | $A^2 = A$ | Eigenvalues are strictly $0$ or $1$ | $\det(A) = 0$ (if singular) or $\det(A) = 1$ (if $I$) |
 | **Involutory** | $A^2 = I \iff A^{-1} = A$ | Eigenvalues are strictly $+1$ or $-1$ | $\det(A) = \pm 1$ |
 | **Nilpotent** | $A^k = \mathbf{0}$ for some $k \ge 1$ | All eigenvalues are strictly zero ($\lambda = 0$) | $\det(A) = 0$ (Never invertible); $\text{tr}(A) = 0$ |

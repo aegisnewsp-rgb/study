@@ -48,7 +48,7 @@ Cofactor expansion generalises this: $|A| = \sum_j a_{ij} C_{ij}$, where $C_{ij}
 | Multiplicative | $\det(AB) = \det(A)\det(B)$ |
 | Transpose | $\det(A^T) = \det(A)$ |
 | Scalar pull-out | $\det(kA) = k^n \det(A)$ for an $n \times n$ matrix |
-| Inverse | $\det(A^{-1}) = 1/\det(A)$ when $|A| \neq 0$ |
+| Inverse | $\det(A^{-1}) = 1/\det(A)$ when $\|A\| \neq 0$ |
 
 Matrix multiplication is defined only when the inner dimensions match: $(m \times n)(n \times p) \to (m \times p)$. It is associative and distributive, but **not commutative**.
 

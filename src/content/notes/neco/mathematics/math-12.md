@@ -41,7 +41,7 @@ A straight line represents a first-degree linear relationship in two variables $
 | **Slope-Intercept Form** | $y = m x + c$ | Gradient $m$; $y$-intercept $(0, c)$ | Reading slope and intercept directly to sketch lines |
 | **Point-Slope Form** | $y - y_1 = m (x - x_1)$ | Given point $(x_1, y_1)$; known gradient $m$ | Writing tangent or perpendicular line through a fixed point |
 | **Two-Point Form** | $\frac{y - y_1}{y_2 - y_1} = \frac{x - x_1}{x_2 - x_1}$ | Two distinct given points $(x_1, y_1)$ and $(x_2, y_2)$ | Finding line equation passing through two observed data points |
-| **Intercept Form** | $\frac{x}{a} + \frac{y}{b} = 1$ | $x$-intercept $(a, 0)$; $y$-intercept $(0, b)$ | Solving triangle area formed by line and coordinate axes: $\text{Area} = \frac{1}{2}|a b|$ |
+| **Intercept Form** | $\frac{x}{a} + \frac{y}{b} = 1$ | $x$-intercept $(a, 0)$; $y$-intercept $(0, b)$ | Solving triangle area formed by line and coordinate axes: $\text{Area} = \frac{1}{2}\|a b\|$ |
 | **General Linear Form** | $A x + B y + C = 0$ | Coefficients $A, B, C \in \mathbb{R}$; $m = -\frac{A}{B}$ | Standard format required for final answers in NECO Theory |
 | **Perpendicular Normal Form** | $x \cos \alpha + y \sin \alpha = p$ | Normal distance from origin $p$; normal angle $\alpha$ | Advanced analytical geometry questions |
 
@@ -54,8 +54,8 @@ Two lines $L_1$ with equation $A_1 x + B_1 y + C_1 = 0$ (slope $m_1$) and $L_2$ 
 | **Parallel Lines** | $m_1 = m_2$ and $c_1 \neq c_2$ | $\frac{A_1}{A_2} = \frac{B_1}{B_2} \neq \frac{C_1}{C_2}$ | $\theta = 0^\circ$ |
 | **Coincident Lines** | $m_1 = m_2$ and $c_1 = c_2$ | $\frac{A_1}{A_2} = \frac{B_1}{B_2} = \frac{C_1}{C_2}$ | $\theta = 0^\circ$ (Identical line) |
 | **Perpendicular Lines** | $m_1 \cdot m_2 = -1 \iff m_2 = -\frac{1}{m_1}$ | $A_1 A_2 + B_1 B_2 = 0$ | $\theta = 90^\circ$ |
-| **Acute Angle of Intersection** | $\tan \theta = \left| \frac{m_2 - m_1}{1 + m_1 m_2} \right|$ | $\cos \theta = \frac{|A_1 A_2 + B_1 B_2|}{\sqrt{A_1^2 + B_1^2}\sqrt{A_2^2 + B_2^2}}$ | $0^\circ < \theta < 90^\circ$ |
-| **Perpendicular Distance from $(x_1, y_1)$** | $d = \frac{|A x_1 + B y_1 + C|}{\sqrt{A^2 + B^2}}$ | Length of normal segment from external point to line | Radius of inscribed or tangent circle |
+| **Acute Angle of Intersection** | $\tan \theta = \left\| \frac{m_2 - m_1}{1 + m_1 m_2} \right\|$ | $\cos \theta = \frac{\|A_1 A_2 + B_1 B_2\|}{\sqrt{A_1^2 + B_1^2}\sqrt{A_2^2 + B_2^2}}$ | $0^\circ < \theta < 90^\circ$ |
+| **Perpendicular Distance from $(x_1, y_1)$** | $d = \frac{\|A x_1 + B y_1 + C\|}{\sqrt{A^2 + B^2}}$ | Length of normal segment from external point to line | Radius of inscribed or tangent circle |
 
 #### 3. Quadratic Graphs and Curve Properties
 

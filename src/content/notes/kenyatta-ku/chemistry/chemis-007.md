@@ -179,6 +179,7 @@ Carboxylic acids can be reduced to primary alcohols — the only reagent that do
 ```
 R–COOH + 4[H] (LiAlH₄) → R–CH₂OH + 2H₂O + Al³⁺ species
 ```
+
 ```
 CH₃COOH + [H] → CH₃CH₂OH   (acetic acid → ethanol)
 ```

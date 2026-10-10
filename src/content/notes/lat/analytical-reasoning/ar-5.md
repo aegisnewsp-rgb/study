@@ -100,7 +100,7 @@ Net N–S = +12, Net E–W = +12 → final bearing = arctan(12/12) = 45°, placi
 | --- | --- |
 | Net N–S | Σ(North) − Σ(South) |
 | Net E–W | Σ(East) − Σ(West) |
-| Final bearing | arctan(|E–W net| / |N–S net|) |
+| Final bearing | arctan(\|E–W net\| / \|N–S net\|) |
 | Straight-line distance | √(Net N–S² + Net E–W²) |
 | Clock-to-degrees | hour × 30°, clockwise from North |
 

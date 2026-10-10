@@ -136,7 +136,7 @@ Where $L$ = tube length, $f_o$ = objective focal length, $f_e$ = eyepiece focal 
 **Astronomical Telescope (Keplerian):**
 $$M = \frac{f_o}{f_e} \text{ (for relaxed eye)}$$
 
-For normal adjustment: $M = \frac{f_o}{f_e} + 1$$
+For normal adjustment: $M = \frac{f_o}{f_e} + 1$
 
 **Refractive Index - Wavelength Dependence:**
 

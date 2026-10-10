@@ -23,7 +23,7 @@ In the Universitas Indonesia entrance examination (Seleksi Masuk Universitas Ind
   2. *Kemampuan IPA (Saintek)*: Matematika IPA, Fisika, Kimia, and Biologi.
   3. *Kemampuan IPS (Soshum)*: Ekonomi, Sejarah, Geografi, and Sosiologi.
 - **Scoring Formula & Penalty Mechanics**: SIMAK UI applies a differential scoring formula:
-  $$	ext{Score} = (	ext{Correct} 	imes +4) + (	ext{Incorrect} 	imes -1) + (	ext{Unanswered} 	imes 0)$$
+  $$\text{Score} = (\text{Correct} \times +4) + (\text{Incorrect} \times -1) + (\text{Unanswered} \times 0)$$
   Because incorrect answers incur a $-1$ penalty, guessing without eliminating at least two distractors damages aggregate rank.
 - **Weightage Context**: While general reasoning and language modules establish baseline eligibility, advanced subject knowledge represents the primary differentiator for high-demand faculties like Fakultas Kedokteran (FK), Fakultas Teknik (FT), and Fakultas Ilmu Komputer (FASILKOM).
 - **Core Strategy**: Target high-certainty questions first. A candidate scoring $+4$ on 8 confident items outscores a candidate attempting all 15 items with multiple negative deductions.
@@ -69,33 +69,25 @@ Propositional logic items appear frequently in SIMAK UI reasoning and mathematic
 |:---|:---:|:---|:---|
 | **Conjunction** | $p \land q$ | "$p$ and $q$" | True **only when both** $p$ and $q$ are true. |
 | **Disjunction** | $p \lor q$ | "$p$ or $q$" | True when **at least one** operand is true. False only when both $p$ and $q$ are false. |
-| **Conditional (Implication)** | $p ightarrow q$ | "If $p$, then $q$" | False **only when** premise $p$ is true and conclusion $q$ is false ($T ightarrow F \equiv F$). True in all other cases. |
+| **Conditional (Implication)** | $p \rightarrow q$ | "If $p$, then $q$" | False **only when** premise $p$ is true and conclusion $q$ is false ($T \rightarrow F \equiv F$). True in all other cases. |
 | **Biconditional** | $p \leftrightarrow q$ | "$p$ if and only if $q$" | True when both $p$ and $q$ have **identical truth values** (both true or both false). |
-| **Converse** | $q ightarrow p$ | "If $q$, then $p$" | **Not logically equivalent** to $p ightarrow q$. |
-| **Inverse** | $
-eg p ightarrow 
-eg q$ | "If not $p$, then not $q$" | **Not logically equivalent** to $p ightarrow q$. |
-| **Contrapositive** | $
-eg q ightarrow 
-eg p$ | "If not $q$, then not $p$" | **Logically equivalent** to $p ightarrow q$ ($p ightarrow q \equiv 
-eg q ightarrow 
-eg p$). |
+| **Converse** | $q \rightarrow p$ | "If $q$, then $p$" | **Not logically equivalent** to $p \rightarrow q$. |
+| **Inverse** | $\neg p \rightarrow \neg q$ | "If not $p$, then not $q$" | **Not logically equivalent** to $p \rightarrow q$. |
+| **Contrapositive** | $\neg q \rightarrow \neg p$ | "If not $q$, then not $p$" | **Logically equivalent** to $p \rightarrow q$ ($p \rightarrow q \equiv \neg q \rightarrow \neg p$). |
 
 ##### Classical Valid Syllogisms
 1. **Modus Ponens**:
-   - Premise 1: $p ightarrow q$
+   - Premise 1: $p \rightarrow q$
    - Premise 2: $p$
-   - Conclusion: $	herefore q$
+   - Conclusion: $\therefore q$
 2. **Modus Tollens**:
-   - Premise 1: $p ightarrow q$
-   - Premise 2: $
-eg q$
-   - Conclusion: $	herefore 
-eg p$
+   - Premise 1: $p \rightarrow q$
+   - Premise 2: $\neg q$
+   - Conclusion: $\therefore \neg p$
 3. **Hypothetical Syllogism**:
-   - Premise 1: $p ightarrow q$
-   - Premise 2: $q ightarrow r$
-   - Conclusion: $	herefore p ightarrow r$
+   - Premise 1: $p \rightarrow q$
+   - Premise 2: $q \rightarrow r$
+   - Conclusion: $\therefore p \rightarrow r$
 
 ---
 
@@ -146,16 +138,16 @@ Let an exam section consist of $N$ questions, each having 5 options ($A, B, C, D
 
 ##### Expected Value of Pure Random Guessing
 If a candidate has zero knowledge and picks randomly among 5 options:
-$$E = \left(\dfrac{1}{5} 	imes (+4)ight) + \left(\dfrac{4}{5} 	imes (-1)ight) = \dfrac{4}{5} - \dfrac{4}{5} = 0.00$$
+$$E = \left(\dfrac{1}{5} \times (+4)\right) + \left(\dfrac{4}{5} \times (-1)\right) = \dfrac{4}{5} - \dfrac{4}{5} = 0.00$$
 Pure random guessing yields an expected mathematical return of zero, but introduces severe statistical variance that endangers rank.
 
 ##### Expected Value After Eliminating Distractors
 1. *Eliminating 1 wrong option (4 choices remain)*:
-   $$E = \left(\dfrac{1}{4} 	imes (+4)ight) + \left(\dfrac{3}{4} 	imes (-1)ight) = 1.0 - 0.75 = +0.25\,	ext{points}$$
+   $$E = \left(\dfrac{1}{4} \times (+4)\right) + \left(\dfrac{3}{4} \times (-1)\right) = 1.0 - 0.75 = +0.25\,\text{points}$$
 2. *Eliminating 2 wrong options (3 choices remain)*:
-   $$E = \left(\dfrac{1}{3} 	imes (+4)ight) + \left(\dfrac{2}{3} 	imes (-1)ight) = \dfrac{4}{3} - \dfrac{2}{3} = +0.67\,	ext{points}$$
+   $$E = \left(\dfrac{1}{3} \times (+4)\right) + \left(\dfrac{2}{3} \times (-1)\right) = \dfrac{4}{3} - \dfrac{2}{3} = +0.67\,\text{points}$$
 3. *Eliminating 3 wrong options (2 choices remain)*:
-   $$E = \left(\dfrac{1}{2} 	imes (+4)ight) + \left(\dfrac{1}{2} 	imes (-1)ight) = 2.0 - 0.50 = +1.50\,	ext{points}$$
+   $$E = \left(\dfrac{1}{2} \times (+4)\right) + \left(\dfrac{1}{2} \times (-1)\right) = 2.0 - 0.50 = +1.50\,\text{points}$$
 
 **Golden Rule of SIMAK UI Guessing**: Never guess blindly. If you can definitively rule out at least two false options, the positive expected value ($+0.67$) makes attempting the item statistically advantageous over leaving it blank.
 
@@ -172,25 +164,14 @@ Pure random guessing yields an expected mathematical return of zero, but introdu
 
 **Solution**:
 1. Express the proposition symbolically: Let $p$ be *"the applicant passes SIMAK UI"* and $q$ be *"the applicant is admitted to Fakultas Kedokteran"*.
-   The statement is the conditional $p ightarrow q$.
+   The statement is the conditional $p \rightarrow q$.
 2. Recall the definition of implication in terms of basic connectives:
-   $$p ightarrow q \equiv 
-eg p \lor q$$
+   $$p \rightarrow q \equiv \neg p \lor q$$
 3. Take the logical negation:
-   $$
-eg(p ightarrow q) \equiv 
-eg(
-eg p \lor q)$$
+   $$\neg(p \rightarrow q) \equiv \neg(\neg p \lor q)$$
 4. Apply De Morgan's Law:
-   $$
-eg(
-eg p \lor q) \equiv 
-eg(
-eg p) \land 
-eg q \equiv p \land 
-eg q$$
-5. Translate $p \land 
-eg q$ back into words:
+   $$\neg(\neg p \lor q) \equiv \neg(\neg p) \land \neg q \equiv p \land \neg q$$
+5. Translate $p \land \neg q$ back into words:
    *"An applicant passes SIMAK UI and is not admitted to Fakultas Kedokteran"*.
 **Answer: (B)**.
 
@@ -213,7 +194,7 @@ How many candidates prepare for *none* of these three subjects?
    $$|M \cup F \cup K| = 50 + 40 + 35 - (20 + 15 + 18) + 10$$
    $$|M \cup F \cup K| = 125 - 53 + 10 = 82$$
 3. Compute the complement (candidates preparing for none):
-   $$|	ext{None}| = 	ext{Total} - |M \cup F \cup K| = 100 - 82 = 18$$
+   $$|\text{None}| = \text{Total} - |M \cup F \cup K| = 100 - 82 = 18$$
 **Answer: 18 candidates**.
 
 ---

@@ -51,8 +51,8 @@ seoDescription: "GATE engineering mathematics notes: Newton-Raphson iteration, b
 
 | Error Type | Definition | Source |
 |-----------|-----------|--------|
-| **Absolute Error** | |E| = |True Value - Approximate| | — |
-| **Relative Error** | RE = |E|/True Value | — |
+| **Absolute Error** | \|E\| = \|True Value - Approximate\| | — |
+| **Relative Error** | RE = \|E\|/True Value | — |
 | **Percentage Error** | RE × 100 | — |
 | **Round-off Error** | Truncating digits | Limited precision |
 | **Truncation Error** | Approximating infinite process | Taylor series truncation |

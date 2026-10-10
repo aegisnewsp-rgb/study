@@ -59,7 +59,7 @@ The point (a, b) plots z in the **Argand plane**. From this, |z| = √(a² + b²
 |---|---|
 | z + z̄ | 2 Re(z) = 2a |
 | z − z̄ | 2i Im(z) = 2bi |
-| z · z̄ | a² + b² = |z|² |
+| z · z̄ | a² + b² = \|z\|² |
 | z̄̄ | z |
 | (z₁ + z₂)̄ | z̄₁ + z̄₂ |
 

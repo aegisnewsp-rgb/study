@@ -101,10 +101,10 @@ This handles cases like y = (x² + 1)³/(x + 1)⁴ or y = x¹/³ · (x² + 1)²/
 #### Parametric Differentiation
 
 If x = f(t) and y = g(t), then:
-$$frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{g'(t)}{f'(t)}$$
+$$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{g'(t)}{f'(t)}$$
 
 Second derivative:
-$$frac{d^2y}{dx^2} = \frac{d}{dx}left(frac{dy}{dx}right) = \frac{d}{dt}left(frac{dy}{dx}right) / \frac{dx}{dt}$$
+$$\frac{d^2y}{dx^2} = \frac{d}{dx}\left(\frac{dy}{dx}\right) = \frac{d}{dt}\left(\frac{dy}{dx}\right) / \frac{dx}{dt}$$
 
 ⚡ JEE pattern: Parametric forms often appear in questions involving curves like cycloids, astroids, and epicycloids.
 
@@ -162,8 +162,8 @@ $$f(x) = f(a) + f'(a)(x-a) + \frac{f''(a)}{2!}(x-a)^2 + \frac{f'''(a)}{3!}(x-a)^
 
 Maclaurin series (a = 0):
 $$e^x = 1 + x + \frac{x^2}{2!} + \frac{x^3}{3!} + ...$$
-$$sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - ...$$
-$$cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - ...$$
+$$\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - ...$$
+$$\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - ...$$
 
 **JEE Application**: Using first 2-3 terms of Taylor series to approximate values or evaluate limits that are otherwise difficult (e.g., limit as x→0 of (sin x - x + x³/6)/x⁵).
 

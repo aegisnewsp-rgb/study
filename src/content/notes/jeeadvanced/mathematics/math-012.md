@@ -34,8 +34,8 @@ A **vector** is a directed quantity carrying both magnitude (length) and directi
 | Operation | Result type | Geometric meaning |
 | --- | --- | --- |
 | a + b | vector | Diagonal of parallelogram |
-| a·b | scalar | |a||b|cosθ, projection test |
-| a×b | vector | Area = |a||b|sinθ, perpendicular by right-hand rule |
+| a·b | scalar | \|a\|\|b\|cosθ, projection test |
+| a×b | vector | Area = \|a\|\|b\|sinθ, perpendicular by right-hand rule |
 | [a b c] | scalar | Signed volume of parallelepiped |
 
 ### 🟡 Standard — Regular Study (2d–2mo)

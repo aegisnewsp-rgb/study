@@ -148,8 +148,8 @@ Long-term indwelling catheters inevitably develop microbial biofilms on their lu
 - **Chemical Mechanism**:
   - The enzyme **urease** hydrolyzes urea into ammonia and carbon dioxide:
     $$\text{CO(NH}_2)_2 + 2\text{H}_2\text{O} \xrightarrow{\text{urease}} 2\text{NH}_4^+ + \text{CO}_3^{2-}$$
-  - The release of ammonia raises the urinary pH into the alkaline range ($	ext{pH} > 7.5$).
-  - In an alkaline environment, calcium and magnesium ions precipitate out of solution, forming mineral deposits of **struvite** ($	ext{MgNH}_4\text{PO}_4\cdot 6\text{H}_2\text{O}$) and **calcium phosphate / apatite** [$\text{Ca}_{10}(\text{PO}_4)_6(\text{OH})_2$].
+  - The release of ammonia raises the urinary pH into the alkaline range ($\text{pH} > 7.5$).
+  - In an alkaline environment, calcium and magnesium ions precipitate out of solution, forming mineral deposits of **struvite** ($\text{MgNH}_4\text{PO}_4\cdot 6\text{H}_2\text{O}$) and **calcium phosphate / apatite** [$\text{Ca}_{10}(\text{PO}_4)_6(\text{OH})_2$].
   - These mineral crystals form a concrete-like crust that obstructs the drainage eyelets and lumen, leading to urine bypassing around the catheter, acute retention, and ascending pyelonephritis.
 - **Clinical Management**:
   - Do **not** prescribe routine prophylactic antibiotics for asymptomatic bacteriuria; it selects for multi-drug-resistant strains.

@@ -59,7 +59,7 @@ The first term on the right is the **substitution effect** (always non-positive 
 
 | Often confused | What it actually is | Typical sign/slope |
 |---|---|---|
-| Giffen good vs Inferior good | Giffen is a special inferior good where |income effect| > |substitution effect| | Demand curve slopes upward |
+| Giffen good vs Inferior good | Giffen is a special inferior good where \|income effect\| > \|substitution effect\| | Demand curve slopes upward |
 | Engel curve vs Demand curve | Engel: quantity vs income at fixed prices | Demand: quantity vs own price at fixed income |
 | MU of a good (MUx) vs MU of money (λ) | MUx = utils from extra unit of X | λ = utils from extra ₹ of income |
 | Hicks vs Slutsky compensation | Hicks keeps utility constant | Slutsky keeps the original bundle affordable |

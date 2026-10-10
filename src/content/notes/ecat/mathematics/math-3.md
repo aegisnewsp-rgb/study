@@ -27,7 +27,7 @@ A **Geometric Progression (GP)** is a sequence where each term after the first e
 | --- | --- |
 | nth term of GP | aₙ = a·r^(n−1) |
 | Sum of n GP terms (r ≠ 1) | Sₙ = a(rⁿ − 1)/(r − 1) |
-| Infinite GP sum (|r| < 1) | S∞ = a/(1 − r) |
+| Infinite GP sum (\|r\| < 1) | S∞ = a/(1 − r) |
 | Binomial expansion | (a + b)ⁿ = Σ C(n,k)·a^(n−k)·b^k |
 | General term | T_(k+1) = C(n,k)·a^(n−k)·b^k |
 
@@ -82,7 +82,7 @@ When n is not a positive integer, the expansion is **infinite** and valid only f
 
 | Mistake | Correction |
 | --- | --- |
-| Using S∞ = a/(1 − r) without checking |r| < 1 | Verify |r| < 1 first; otherwise series diverges |
+| Using S∞ = a/(1 − r) without checking \|r\| < 1 | Verify \|r\| < 1 first; otherwise series diverges |
 | Writing C(n,k+1) for the (k+1)th term | T_(k+1) uses C(n,k) |
 | One middle term for odd n | Odd n yields two middle terms |
 | Forgetting r = 1 makes formula undefined | Use Sₙ = n·a when r = 1 |

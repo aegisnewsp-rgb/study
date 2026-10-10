@@ -171,11 +171,11 @@ In international macroeconomics, central banks evaluate whether a currency depre
 
 | Elasticity Type | Mathematical Definition | Sign & Value Range | Economic Interpretation & Classification |
 | :--- | :--- | :--- | :--- |
-| **Price Elasticity of Demand (PED)** | $-(\Delta Q/Q) / (\Delta P/P)$ | $|e_p| = 0$ | Perfectly Inelastic (Vertical demand curve; insulin, water) |
-| | | $0 < |e_p| < 1$ | Inelastic Necessity (Food staples, residential electricity) |
-| | | $|e_p| = 1$ | Unit Elastic (Constant expenditure hyperbola) |
-| | | $1 < |e_p| < \infty$ | Elastic (Consumer durables, competitive brand goods) |
-| | | $|e_p| \rightarrow \infty$ | Perfectly Elastic (Horizontal price line; perfect competition) |
+| **Price Elasticity of Demand (PED)** | $-(\Delta Q/Q) / (\Delta P/P)$ | $\|e_p\| = 0$ | Perfectly Inelastic (Vertical demand curve; insulin, water) |
+| | | $0 < \|e_p\| < 1$ | Inelastic Necessity (Food staples, residential electricity) |
+| | | $\|e_p\| = 1$ | Unit Elastic (Constant expenditure hyperbola) |
+| | | $1 < \|e_p\| < \infty$ | Elastic (Consumer durables, competitive brand goods) |
+| | | $\|e_p\| \rightarrow \infty$ | Perfectly Elastic (Horizontal price line; perfect competition) |
 | **Income Elasticity (YED)** | $(\Delta Q/Q) / (\Delta Y/Y)$ | $e_y < 0$ | Inferior Good (Coarse cereals, cheap local transport) |
 | | | $0 < e_y \le 1$ | Normal Necessity (Clothing, staple foodstuffs) |
 | | | $e_y > 1$ | Superior / Luxury Good (High-end electronics, overseas tourism) |
@@ -189,11 +189,11 @@ In international macroeconomics, central banks evaluate whether a currency depre
 
 | Elasticity Segment | Price Adjustment | Marginal Revenue ($MR$) | Total Revenue ($TR$) / Total Expenditure ($TE$) |
 | :--- | :--- | :--- | :--- |
-| **Elastic ($|e_p| > 1$)** | Price Increases (↑) | Positive ($MR > 0$) | Total Revenue Falls (↓) |
+| **Elastic ($\|e_p\| > 1$)** | Price Increases (↑) | Positive ($MR > 0$) | Total Revenue Falls (↓) |
 | | Price Decreases (↓) | Positive ($MR > 0$) | Total Revenue Rises (↑) |
-| **Unitary ($|e_p| = 1$)** | Price Increases (↑) | Zero ($MR = 0$) | Total Revenue Stays Constant (↔) |
+| **Unitary ($\|e_p\| = 1$)** | Price Increases (↑) | Zero ($MR = 0$) | Total Revenue Stays Constant (↔) |
 | | Price Decreases (↓) | Zero ($MR = 0$) | Total Revenue Stays Constant (↔) |
-| **Inelastic ($|e_p| < 1$)**| Price Increases (↑) | Negative ($MR < 0$) | Total Revenue Rises (↑) |
+| **Inelastic ($\|e_p\| < 1$)**| Price Increases (↑) | Negative ($MR < 0$) | Total Revenue Rises (↑) |
 | | Price Decreases (↓) | Negative ($MR < 0$) | Total Revenue Falls (↓) |
 
 ### Table 3: Tax Incidence Under Differing Elasticity Regimes

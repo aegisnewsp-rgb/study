@@ -99,7 +99,7 @@ Step 5 → Check: Can we say "Some roses are not red"? Yes, also possible.
 
 ### Full Concept Explanation
 
-Syllogisms are the bedrock of formal logic, dating back to Aristotle. At their core, they represent a simple idea: given two statements (premises), what can we validly conclude? The challenge is that human intuition is often wrong when it comes to logical inference — we tend to see possibilities as certainties and confuse correlation with causation or relationship direction.
+Syllogisms are the bedrock of formal logic, dating back to Aristotle. At their core, they represent a simple idea: given two statements (premises), what can we validly conclude? The challenge is that human intuition is unreliable for logical inference — we tend to see possibilities as certainties and confuse correlation with causation or relationship direction.
 
 The key to mastering syllogisms is understanding the difference between **definite conclusions** (conclusions that MUST be true given the premises) and **possible conclusions** (conclusions that COULD be true but aren't guaranteed). GATE questions test both types, and mixing them up is one of the most common mistakes students make.
 

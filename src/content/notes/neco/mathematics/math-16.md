@@ -231,3 +231,11 @@ $$^nP_r = \frac{n!}{(n-r)!}$$
 $$^nC_r = \binom{n}{r} = \frac{n!}{r!(n-r)!}$$
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Probability and Permutations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/neco/mathematics/)** — browse sibling topics in this subject
+

@@ -90,3 +90,11 @@ A journalist publishes a story exposing corruption. The State arrests him for "i
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Human Rights and Fundamental Rights" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Civic Education notes](/notes/ncee/civic/)** — browse sibling topics in this subject
+

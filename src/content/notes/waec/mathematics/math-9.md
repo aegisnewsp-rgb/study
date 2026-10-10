@@ -220,3 +220,11 @@ From an external point P, two tangents can be drawn to a circle (PA and PB).
 7. Write the proof/reasoning clearly
 
 ⚡ **WAEC Examination Patterns:** Prove circle theorems (especially angle at centre and cyclic quadrilateral). Calculate unknown angles using circle theorems. Solve problems involving arcs, sectors, and segments. Apply intersecting chords theorem. Find areas of combined figures.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Circles: Angles and Chords" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

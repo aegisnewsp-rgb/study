@@ -99,3 +99,11 @@ The **Prudence concept** is regularly misused. It permits creating a **provision
 2. *Theory:* The manager of a firm changes the depreciation method from straight-line to reducing balance, citing "better matching", and does not disclose this in the accounts. Identify the principle violated and explain why disclosure matters for users of the financial statements.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your WASSCE (Ghana) roadmap](/roadmap/?exam=wassce&duration=1mo)** — see where "Accounting Principles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wassce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WASSCE (Ghana) exam overview](/exams/wassce/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/wassce/accounting/)** — browse sibling topics in this subject
+

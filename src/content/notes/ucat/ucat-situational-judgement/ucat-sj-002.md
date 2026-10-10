@@ -268,3 +268,11 @@ The Consortium publishes that there is no negative marking. A guess on a calibra
 2. Build a one-page pacing card: scenarios per minute, mid-scale calibration test, single-read rule. Read it before each mock.
 3. Run a 26-minute timed mock with the on-screen calculator equivalent (timed interface only), and review how many clusters you finished. If fewer than fourteen clusters, your per-cluster pace is too slow.
 4. Sit at least two full SJT mocks under timed conditions before your test date. The official UCAT practice tests are the right benchmark, and the 26-minute, 69-question shape is the published rule on ucat.ac.uk. Year-on-year band distributions and any cohort figures should be checked there before your sitting, not carried over from the previous year.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Pacing the 69 Scenarios" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Situational Judgement notes](/notes/ucat/ucat-situational-judgement/)** — browse sibling topics in this subject
+

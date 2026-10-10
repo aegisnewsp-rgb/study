@@ -167,6 +167,11 @@ const courseJsonLd = {
     instructor: { '@type': 'Organization', name: 'StudyRoadmap', url: SITE_URL },
   },
   isPartOf: { '@type': 'Course', '@id': `${SITE_URL}/exams/${exam.examId}/#course`, name: `${examName} Study Roadmap`, url: `${SITE_URL}/exams/${exam.examId}/` },
+  // s426 NEW C enhancement (s424 doctrine correction re-framed NEW C as 'enhance already-shipped
+  // emissions'): `teaches` (subjects covered, schema.org Course.teaches) + `timeRequired`
+  // (ISO 8601 duration from totalDays) on the duration-variant study-plan Course emission site.
+  teaches: Object.keys(bySubject).slice(0, 4),
+  timeRequired: totalDays > 0 ? `P${totalDays}D` : undefined,
 };
 
 const subjectsCovered = Object.keys(bySubject).slice(0, 4).join(', ');

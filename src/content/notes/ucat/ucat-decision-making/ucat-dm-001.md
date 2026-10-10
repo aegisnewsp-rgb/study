@@ -132,3 +132,11 @@ That took a moment to work through. The skill is not the answer; the skill is th
 - Build a one-page reference card for the four conditional-reasoning forms (modus ponens, modus tollens, affirming the consequent, denying the antecedent) and review it before each Decision Making drill.
 - Time one full Decision Making drill at 37 minutes with the official practice tests. Mark any item you spend more than 90 seconds on.
 - After the drill, classify every wrong answer as a syllogism error, a conditional error, or a puzzle-extraction error. The error category tells you what to drill next.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Syllogisms and Logical Puzzles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Decision Making notes](/notes/ucat/ucat-decision-making/)** — browse sibling topics in this subject
+

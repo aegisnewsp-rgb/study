@@ -83,3 +83,11 @@ This Area of Study is assessed in the Unit 4 SAC and on the end-of-year examinat
 ---
 
 *Last updated 2026-09-20. Source: VCE English and English as an Additional Language Study Design (2023), https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal. Awarding body: Victorian Curriculum and Assessment Authority (VCAA). Examination specifications and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your VCE English (VCAA 2023) roadmap](/roadmap/?exam=vce-english&duration=1mo)** — see where "Analysing Argument (Unit 4 Area of Study 2)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=vce-english&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[VCE English (VCAA 2023) exam overview](/exams/vce-english/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/vce-english/vce-english/)** — browse sibling topics in this subject
+

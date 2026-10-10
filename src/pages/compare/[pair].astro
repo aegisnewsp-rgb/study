@@ -3,12 +3,12 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
-import { isCuratedComparePair } from '../../data/compare-curation';
+import { isCuratedComparePair, COMPARE_TIER1 } from '../../data/compare-curation';
 
 export async function getStaticPaths() {
   // Only generate pairs where both exams are in the same country AND are popular.
   // We cap at ~300 pages to keep build fast and quality high.
-  const TIER1 = new Set(['neet','jeemain','jeeadvanced','upsc','gate','cuet','ssc-cgl','cat','clat','bitsat','aiims-mbbs','neet-pg','ugc-net','ndab','mdcat','ecat','nat-i','lat','hat-ug','jamb','waec','neco','nabteb']);
+  const TIER1 = COMPARE_TIER1;
   const paths: any[] = [];
   const byCountry: Record<string, any[]> = {};
   for (const exam of ALL_EXAMS) {

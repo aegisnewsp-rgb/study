@@ -106,3 +106,11 @@ lastUpdated: "2026-04-13"
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Light and Optics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All General Science notes](/notes/up-psc/general-science/)** — browse sibling topics in this subject
+

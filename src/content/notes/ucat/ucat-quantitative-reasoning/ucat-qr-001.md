@@ -162,3 +162,11 @@ A pocket card to glance at before each practice set:
 2. Build a flashcard set for the multiplier form: 15% off = 0.85, 8% VAT added = 1.08, 30% increase = 1.30. Drill until the multiplier is reflex.
 3. On every wrong answer in review, write one line that names the trap (sign error, wrong ratio type, etc.). The trap is the lesson; the question is the example.
 4. Sit one full QR mock per week, under timed conditions with the on-screen calculator only. The official UCAT practice tests are the right benchmark; specific current percentile figures should be checked on ucat.ac.uk rather than carried over from a prior year.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Speed Shortcuts for Percentages and Ratios" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/ucat/ucat-quantitative-reasoning/)** — browse sibling topics in this subject
+

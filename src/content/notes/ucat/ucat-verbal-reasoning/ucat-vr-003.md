@@ -92,3 +92,11 @@ Use one of the official UCAT practice tests. Sit it under timed conditions, with
 - After the drill, work out your average reading time per passage. If it is over 50 seconds, practise reading for shape only (one pass, with two keyword notes).
 - Build a one-line pacing log per drill: read time per passage, answer time per item, flagged count, wrong count by category.
 - Repeat the drill once a week for four weeks. The repetition is what turns the 30-second average into a reflex rather than a target.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Time Management and Pacing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Verbal Reasoning notes](/notes/ucat/ucat-verbal-reasoning/)** — browse sibling topics in this subject
+

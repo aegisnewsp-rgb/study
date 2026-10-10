@@ -112,3 +112,11 @@ Which choice completes the text so that it conforms to the conventions of Standa
 - The subject immediately adjacent to the verb blank is "the laboratory technicians" (plural).
 - Evaluate choices: (A) "was" (singular), (B) "were" (plural past), (C) "is" (singular present), (D) "has been" (singular present perfect).
 - Therefore, the plural verb form (B) "were" is grammatically required.
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Standard English Conventions — Sentence Boundaries and Form" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading and Writing notes](/notes/sat-kuwait/sat-rw/)** — browse sibling topics in this subject
+

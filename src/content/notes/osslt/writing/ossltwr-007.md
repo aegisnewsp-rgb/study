@@ -109,3 +109,11 @@ Short-writing tasks are described in the EQAO OSSLT Framework and the OSSLT Plan
 ---
 
 *Last updated 2026-09-20. Source: EQAO OSSLT Framework, https://www.eqao.com/wp-content/uploads/2021/01/framework-osslt.pdf. EQAO OSSLT landing page, https://www.eqao.com/the-assessments/osslt/. Live task stems, word limits and any in-year task changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your OSSLT: Ontario Secondary School Literacy Test roadmap](/roadmap/?exam=osslt&duration=1mo)** — see where "Short-Writing Tasks (Summary and Brief Response)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=osslt&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[OSSLT: Ontario Secondary School Literacy Test exam overview](/exams/osslt/)** — pattern, eligibility, and syllabus
+- **[All Writing notes](/notes/osslt/writing/)** — browse sibling topics in this subject
+

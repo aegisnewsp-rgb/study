@@ -209,3 +209,11 @@ $$y^2 - 6y + 9 - 3y + 9 + 2 = 0$$
 $$y^2 - 9y + 20 = 0$$
 
 ⚡ **WAEC Examination Patterns:** Solve quadratic equations by factorisation, completing the square, and quadratic formula. Use the discriminant to determine nature of roots. Find sum and product of roots. Form equations from given roots. Solve simultaneous equations (linear + quadratic). Solve quadratic inequalities. Solve word problems leading to quadratic equations.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Quadratic Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

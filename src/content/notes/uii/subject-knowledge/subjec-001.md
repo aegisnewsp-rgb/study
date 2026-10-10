@@ -95,3 +95,11 @@ UI quantitative sections typically include 2-3 questions on arithmetic operation
 For mixed-operations problems: "A shopkeeper uses a false weight of 900g instead of 1kg. He professes to sell at cost price but actually gains 20%. What is his actual profit percentage?" Solution: Cost per true kg = Rp C. He sells 900g at price of 1000g = Rp C (cost price). So he receives Rp C for 900g, meaning per true kg he receives Rp (C/900) × 1000 = Rp (10/9)C. Gain = (10/9 − 1)C = C/9, which is (1/9) × 100% ≈ 11.11%.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Basic Arithmetic & Number Operations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/uii/subject-knowledge/)** — browse sibling topics in this subject
+

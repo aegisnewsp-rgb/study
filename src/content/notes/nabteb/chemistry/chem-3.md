@@ -234,3 +234,11 @@ Relative atomic mass is calculated as the weighted average of isotopic masses us
 - $A_r = \frac{\sum(\text{isotope mass} \times \text{abundance})}{\text{sum of abundances}}$
 - $N_A = 6.02 \times 10^{23}$ mol⁻¹
 - Gas molar volume = 24 dm³/mol at STP
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Stoichiometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/nabteb/chemistry/)** — browse sibling topics in this subject
+

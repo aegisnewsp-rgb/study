@@ -125,3 +125,11 @@ Linear momentum p = mv (kg·m/s). Newton's second law in momentum form: F = Δp/
 1. Using the wrong sign for acceleration (downward acceleration in upward motion = −g).
 2. Mixing up the formulas — write out the three equations of motion and mark knowns/unknowns before selecting which equation to use.
 3. In circular motion, students sometimes forget the centripetal force direction is always towards the centre, not along the tangent.
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Physics — Motion and Force" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
+

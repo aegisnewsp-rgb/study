@@ -94,3 +94,11 @@ The VCAA English assessment criteria for Unit 3 Area of Study 2 establish clear 
 - [ ] Have you trimmed decorative adjectives and replaced weak passive constructions with active transitive verbs?
 - [ ] Is every paragraph transition motivated by a shift in argument, chronology, or emotional tone?
 - [ ] Have you read the text aloud to test auditory cadence and eliminate awkward syntactic rhythms?
+
+## Continue your study
+
+- **[View this topic in your VCE English (VCAA 2023) roadmap](/roadmap/?exam=vce-english&duration=1mo)** — see where "Creating Texts (Unit 3 Area of Study 2)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=vce-english&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[VCE English (VCAA 2023) exam overview](/exams/vce-english/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/vce-english/vce-english/)** — browse sibling topics in this subject
+

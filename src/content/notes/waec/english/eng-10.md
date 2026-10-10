@@ -87,3 +87,11 @@ Rewrite using correct prepositions: *Ama has been studying **since** (point) **f
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Prepositions and Conjunctions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
+

@@ -77,3 +77,11 @@ In WASSCE Paper 1, structured questions on this topic often require a student to
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your WASSCE (Ghana) roadmap](/roadmap/?exam=wassce&duration=1mo)** — see where "Ledger Posting" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wassce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WASSCE (Ghana) exam overview](/exams/wassce/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/wassce/accounting/)** — browse sibling topics in this subject
+

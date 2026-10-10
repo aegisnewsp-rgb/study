@@ -125,3 +125,11 @@ Answer: 135° — Working: sin 7θ = cos 5θ = sin(90° - 5θ). Using sin x = si
 - **Assuming acute angles:** Many students implicitly assume θ is acute even when not stated. Trigonometric ratios for obtuse angles (90° < θ < 180°) behave differently — sin is positive but cos and tan are negative. This catches roughly 1 in 4 students on trick questions.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Trigonometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

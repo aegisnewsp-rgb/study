@@ -207,3 +207,11 @@ Summarizing requires you to:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Note-Taking and Summarizing Spoken Information" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=muet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MUET (Malaysia) exam overview](/exams/muet/)** — pattern, eligibility, and syllabus
+- **[All Listening (Paper 1) notes](/notes/muet/listening/)** — browse sibling topics in this subject
+

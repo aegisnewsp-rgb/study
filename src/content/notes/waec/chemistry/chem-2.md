@@ -147,3 +147,11 @@ Notable: Be (900) > B (800) and N (1402) > O (1314) — these two drops are the 
 - Explaining the variation in melting point across Period 3 using structure and bonding
 
 ⚡ **WAEC Exam Tip:** When asked to explain periodic trends, always give two reasons: (1) the underlying physical cause (e.g., increasing nuclear charge) and (2) why that causes the observed effect (e.g., stronger attraction pulls electrons closer, decreasing radius). One-line answers rarely score full marks in Paper 2 explanations.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Periodic Properties and Group Elements" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+

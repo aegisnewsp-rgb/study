@@ -71,3 +71,11 @@ C₃H₈ + 5O₂ → 3CO₂ + 4H₂O
 2. A 1.50 g sample of glucose (M = 180 g/mol) is burned in a calorimeter containing 2.00 kg of water (c = 4.18 J·g⁻¹·K⁻¹); temperature rises by 3.10 °C. Calculate ΔH°combustion per mole of glucose, then estimate ΔH°f of glucose using tabulated CO₂ and H₂O values.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UTBK/SNPMTN (Indonesia) roadmap](/roadmap/?exam=utbk&duration=1mo)** — see where "Defining Enthalpy Change" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=utbk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UTBK/SNPMTN (Indonesia) exam overview](/exams/utbk/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/utbk/chemistry/)** — browse sibling topics in this subject
+

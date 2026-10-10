@@ -130,3 +130,11 @@ Answer: **(A) Lexicographer** — "Lexicon" (dictionary) + "grapher" (writer) = 
 - **Trap 4 — Phobias — specificity**: "Fear of water" → "Hydrophobia." "Fear of heights" → "Acrophobia." "Fear of confined spaces" → "Claustrophobia." SSC offers "Agoraphobia" (fear of open/public spaces) as a distractor — it's not the same thing.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "One Word Substitution" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/ssc-cgl/english-language/)** — browse sibling topics in this subject
+

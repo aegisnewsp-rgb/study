@@ -92,3 +92,11 @@ Pair Bioenergetics with **Enzymes** (all pathway steps are enzyme-catalysed; all
 3. **Calling the Calvin cycle "dark reactions" or implying it needs darkness.** It runs in light or dark provided ATP + NADPH are present. The textbook term is *light-independent* or *carbon-fixation* reactions.
 4. **Misreading the limiting-factor graph.** When light intensity is very low, raising CO₂ does nothing — light is the limiting factor. When light is saturating, CO₂ becomes limiting. A question asking "what limits photosynthesis at low light?" has the same answer regardless of CO₂ level.
 5. **Conflating photophosphorylation with substrate-level phosphorylation.** Photophosphorylation makes ATP using a proton gradient across the thylakoid membrane; substrate-level phosphorylation makes ATP directly by transferring a phosphate from a high-energy intermediate to ADP (steps 7 and 10 of glycolysis; succinyl-CoA synthetase in the Krebs cycle). They produce the same product by different routes.
+
+## Continue your study
+
+- **[View this topic in your MCAT Pakistan roadmap](/roadmap/?exam=mcat&duration=1mo)** — see where "Bioenergetics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MCAT Pakistan exam overview](/exams/mcat/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/mcat/biology/)** — browse sibling topics in this subject
+

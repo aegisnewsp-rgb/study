@@ -115,3 +115,11 @@ Pakistan faces several ongoing foreign policy challenges: managing the US-China 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your PPSC (Pakistan) roadmap](/roadmap/?exam=ppsc&duration=1mo)** — see where "Foreign Policy of Pakistan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[PPSC (Pakistan) exam overview](/exams/ppsc/)** — pattern, eligibility, and syllabus
+- **[All Pakistan Affairs notes](/notes/ppsc/pakistan-affairs/)** — browse sibling topics in this subject
+

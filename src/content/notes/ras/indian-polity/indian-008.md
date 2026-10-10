@@ -156,3 +156,11 @@ Previous year questions from RAS have asked about the appointment and powers of 
 6. Collective responsibility at the state level works identically to the Union. The entire Council of Ministers must resign if a vote of no-confidence is passed in the Vidhan Sabha.
 7. The Governor's address under Article 176 at the commencement of each session is analogous to the President's address to Parliament.
 8. The Governor's power to reserve bills for President's consideration on certain subjects like stamp duty and excise and state High Court jurisdiction means the President can return bills for reconsideration but must eventually give assent or return them after reconsideration.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "State Governments Governor Chief Minister Council of Ministers" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

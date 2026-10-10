@@ -188,3 +188,11 @@ Interpretation: The budget shows a large fiscal deficit requiring ₹24 lakh cro
 - **State finances**: combined state fiscal deficits averaging ~2.5% of GDP, within FRBM state ceiling of 3% (with variations)
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Budget & Fiscal Policy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

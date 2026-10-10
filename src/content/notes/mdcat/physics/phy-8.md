@@ -225,3 +225,11 @@ The same note sounds different on different instruments because of different har
 | Gamma | > 30 EHz | < 0.01 nm | Nuclear transitions |
 
 ⚡ **MDCAT Examination Patterns:** Apply the wave equation $v = f\lambda$ in all contexts. Solve Doppler Effect problems for moving source and/or observer. Calculate standing wave frequencies for strings and pipes. Use Huygens' Principle to explain wave phenomena. Solve double-slit and single-slit problems. Distinguish between transverse and longitudinal waves.
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Waves" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
+

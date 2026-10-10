@@ -155,3 +155,11 @@ Interpretation: India has ample buffer. Even after $20bn intervention, 9.2 month
 - **SDR allocation 2021**: India received ~$17.9bn SDR equivalent; as of 2025, the unused portion sits in reserves as an interest-earning asset
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Foreign Exchange & BoP" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

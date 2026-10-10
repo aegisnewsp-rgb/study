@@ -226,3 +226,11 @@ A device for measuring potential difference without drawing current (since it is
 - $\varepsilon = V + Ir$ (battery with internal resistance)
 - $R = \rho l/A$ (resistivity)
 - $R_T = R_0(1 + \alpha \Delta T)$ (temperature dependence)
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Electric Current and Circuits" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
+

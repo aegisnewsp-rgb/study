@@ -151,3 +151,11 @@ If aⁿ = b, then logₐ(b) = n. The laws of logarithms are derived from the law
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Post-UTME (Nigeria) roadmap](/roadmap/?exam=putme&duration=1mo)** — see where "Indices and Surds" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=putme&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Post-UTME (Nigeria) exam overview](/exams/putme/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combination notes](/notes/putme/subject-combination/)** — browse sibling topics in this subject
+

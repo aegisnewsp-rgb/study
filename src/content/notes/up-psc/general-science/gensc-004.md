@@ -261,3 +261,8 @@ Select the correct code:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Indian Economy & Union Budget" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All General Science notes](/notes/up-psc/general-science/)** — browse sibling topics in this subject

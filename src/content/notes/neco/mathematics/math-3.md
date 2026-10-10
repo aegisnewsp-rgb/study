@@ -196,3 +196,8 @@ $$\frac{3\sqrt{2} + 2\sqrt{3}}{3\sqrt{2} - 2\sqrt{3}}$$
 - **[Coordinate Geometry Notes](/notes/neco/mathematics/math-12/)** — Gradients, midpoints, lengths, and equations of straight lines.
 
 *Content structured across Quick, Standard, and Deep tiers for targeted NECO SSCE Mathematics preparation. Verified against Nigerian curriculum standards.*
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Indices, Logarithms and Surds" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/neco/mathematics/)** — browse sibling topics in this subject

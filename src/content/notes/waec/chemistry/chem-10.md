@@ -108,3 +108,11 @@ Questions on alkanes in WASSCE Paper 2 commonly include:
 - Explaining why alkanes do not react with bromine water (this links to alkenes topic)
 
 ⚡ **WAEC Exam Tip:** In WASSCE Paper 2, when a question asks about "the chemistry of alkanes," expect questions on combustion, halogenation, and the $sp^3$ hybridisation explanation. Always draw structural formulas using single bonds only — if you accidentally draw a double bond, the examiner knows you haven't understood the concept of saturation.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Organic Chemistry: Alkanes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+

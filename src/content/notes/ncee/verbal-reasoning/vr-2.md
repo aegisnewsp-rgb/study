@@ -212,3 +212,11 @@ For each sentence, identify what type of clue helps you:
 3. "My grandmother told us a story ___ dinner." (after/at/before?)
 4. "The weather is ___ today than yesterday." (good/better/best?)
 5. "She speaks English ___ than her sister." (well/better/best?)
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Sentence Completion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Verbal Reasoning notes](/notes/ncee/verbal-reasoning/)** — browse sibling topics in this subject
+

@@ -262,3 +262,11 @@ Key differences:
 - Oestrogen/progesterone ratio changes (progesterone inhibits contractions throughout pregnancy)
 
 ⚡ **WAEC Examination Patterns:** Draw and label the human male and female reproductive systems. Explain the menstrual cycle and its hormonal control. Describe the process of fertilisation and early embryonic development. Explain the advantages and disadvantages of asexual vs sexual reproduction. Draw and label a flower and explain double fertilisation. Compare wind and insect pollination mechanisms.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Reproduction in Plants and Animals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+

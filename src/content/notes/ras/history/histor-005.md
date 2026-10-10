@@ -291,3 +291,11 @@ The **Iqta system** was the dominant form of land control and military payment:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Medieval India — Delhi Sultanate" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/ras/history/)** — browse sibling topics in this subject
+

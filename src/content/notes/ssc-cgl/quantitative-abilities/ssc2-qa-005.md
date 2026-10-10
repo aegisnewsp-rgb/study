@@ -150,3 +150,11 @@ Answer: 8:12:15 — Working: LCM of b terms: 3 and 4 → 12. A:B = 2:3 → multi
 - **Trap 3:** In partnership with mid-period withdrawal/deposit, calculating time-weighted capital but forgetting that the changed amount only applies for the REMAINING period, not the whole year.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Ratio, Proportion & Partnership" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

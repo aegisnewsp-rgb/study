@@ -258,3 +258,11 @@ The hypothalamus is the "master coordinator" of the endocrine system:
 | Ethylene | Fruit ripening, leaf abscission |
 
 ⚡ **WAEC Examination Patterns:** Name the endocrine glands and their hormones. Explain how hormones work (protein vs steroid). Describe negative feedback with specific examples (thyroid, blood sugar). Explain the role of ADH in osmoregulation. Compare nervous and endocrine systems. Describe disorders like diabetes mellitus, goitre, and dwarfism.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Endocrine System and Hormones" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+

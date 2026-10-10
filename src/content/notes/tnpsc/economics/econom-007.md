@@ -87,3 +87,11 @@ Market structures connect to **Welfare Economics** (deadweight loss in monopoly)
 2. Explain why perfect competition yields only normal profit in long-run equilibrium while monopoly can earn abnormal profit. How does the Competition Act, 2002 address monopoly power in India?
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Market Structures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/tnpsc/economics/)** — browse sibling topics in this subject
+

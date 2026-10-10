@@ -225,3 +225,11 @@ The Shah Jo Risalo includes 46 stories (Kafi). Notable ones:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SPSC (Sindh) roadmap](/roadmap/?exam=sppsc&duration=1mo)** — see where "Notable Personalities of Sindh" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SPSC (Sindh) exam overview](/exams/sppsc/)** — pattern, eligibility, and syllabus
+- **[All Sindh Studies notes](/notes/sppsc/sindh-studies/)** — browse sibling topics in this subject
+

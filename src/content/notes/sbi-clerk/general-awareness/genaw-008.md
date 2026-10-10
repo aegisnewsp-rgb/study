@@ -79,3 +79,11 @@ In SBI Clerk Prelims (Phase 1), General Awareness carries 50 questions worth 50 
 **Practice prompt 2:** Which three organisations have headquarters in Washington D.C.? Answer: World Bank, IMF, and Inter-American Development Bank (not WTO — WTO HQ is Geneva). This question tests simultaneous recall of two distinct cities.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SBI Clerk roadmap](/roadmap/?exam=sbi-clerk&duration=1mo)** — see where "Important Organisations and Summits" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI Clerk exam overview](/exams/sbi-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-clerk/general-awareness/)** — browse sibling topics in this subject
+

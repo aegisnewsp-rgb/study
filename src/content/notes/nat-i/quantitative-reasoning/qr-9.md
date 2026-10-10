@@ -75,3 +75,11 @@ Multiply the second equation by 2: 4x − 2y = 2. Add to the first: 7x = 14, so 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NAT-I (NTS) roadmap](/roadmap/?exam=nat-i&duration=1mo)** — see where "Linear Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nat-i&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/nat-i/quantitative-reasoning/)** — browse sibling topics in this subject
+

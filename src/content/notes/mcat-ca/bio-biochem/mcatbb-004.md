@@ -111,3 +111,11 @@ Genetics and evolution are part of AAMC Foundational Concept 2 of the Bio/Bioche
 ---
 
 *Last updated 2026-09-20. Source: AAMC, What's on the MCAT Exam? (PDF Outline), https://students-residents.aamc.org/prepare-mcat-exam/whats-mcat-exam-pdf-outline. AAMC, MCAT content outline download, https://students-residents.aamc.org/media/9261/download. Live section length, scoring scale, and any in-year content changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your MCAT (Medical College Admission Test) — Canadian applicants roadmap](/roadmap/?exam=mcat-ca&duration=1mo)** — see where "Genetics and Evolution" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mcat-ca&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MCAT (Medical College Admission Test) — Canadian applicants exam overview](/exams/mcat-ca/)** — pattern, eligibility, and syllabus
+- **[All Biological and Biochemical Foundations of Living Systems notes](/notes/mcat-ca/bio-biochem/)** — browse sibling topics in this subject
+

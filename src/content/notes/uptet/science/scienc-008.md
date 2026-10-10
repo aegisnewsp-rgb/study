@@ -129,3 +129,11 @@ $$\text{6CO}_2 + \text{6H}_2\text{O} \xrightarrow{\text{chlorophyll}} \text{C}_6
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Photosynthesis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
+

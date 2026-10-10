@@ -274,3 +274,11 @@ The camel population decline is one of Rajasthan's most pressing environmental i
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Animal Husbandry in Rajasthan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/ras/geography/)** — browse sibling topics in this subject
+

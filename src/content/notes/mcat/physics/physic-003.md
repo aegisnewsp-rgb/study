@@ -99,3 +99,11 @@ Dynamics feeds into **Work, Energy and Power** (work-energy theorem is the integ
 3. **Forgetting that $\sin\theta$ and $\cos\theta$ swap roles on inclines.** The component of weight *along* the slope is $mg\sin\theta$; the component *perpendicular* to the slope is $mg\cos\theta$. Mixing them up — using $\cos\theta$ along the slope — is the single most common incline error.
 4. **Saying momentum is conserved in every collision.** Momentum is conserved only when the **net external force is zero** (or negligible during the collision time). A car braking into a wall does not conserve momentum because the brakes supply an external force. A bullet embedding in a block on a frictionless surface *does* conserve momentum (no external horizontal force).
 5. **Calling weight and mass the same thing.** Mass is the quantity of matter (kg, scalar, invariant); weight is the gravitational force on that mass (N, vector, depends on local g). A 5 kg mass on Earth weighs ≈49 N; the same 5 kg on the Moon weighs ≈8.2 N. A question asking "what is the weight of a 60 kg astronaut on the ISS (in orbit)?" expects **≈0 N** (free fall), not 60 × 9.8.
+
+## Continue your study
+
+- **[View this topic in your MCAT Pakistan roadmap](/roadmap/?exam=mcat&duration=1mo)** — see where "Dynamics and Newtons Laws" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MCAT Pakistan exam overview](/exams/mcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mcat/physics/)** — browse sibling topics in this subject
+

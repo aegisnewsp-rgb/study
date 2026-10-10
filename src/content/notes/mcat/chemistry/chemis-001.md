@@ -86,3 +86,11 @@ Atomic Structure underpins **Chemical Bonding** (configurations decide whether a
 3. **Saying N has lower ionisation energy than O.** It does not. N (2p³) is half-filled and stable; O (2p⁴) has paired electrons in one p-orbital that repel each other, making the first electron easier to remove. The order across period 2: Li < B < Be < C < O < N < F < Ne (with Be > B and N > O as the two kinks).
 4. **Confusing electronegativity with electron affinity.** χ is a relative *bond*-pulling scale (Pauling); EA is the energy *released* when a free atom gains an electron. They trend together but are not the same quantity. A question asking "which has the most negative electron affinity?" (Cl) and "which is the most electronegative?" (F) expect different answers.
 5. **Treating the Bohr model as the final word.** Bohr explains the *hydrogen* line spectrum but cannot handle multi-electron atoms, the Zeeman effect, or the fine structure. The quantum mechanical model — orbitals, not orbits — is the working model. Any modern PMDC question that asks about orbital *shape* (spherical, dumbbell) expects the wave model, not Bohr's circular orbits.
+
+## Continue your study
+
+- **[View this topic in your MCAT Pakistan roadmap](/roadmap/?exam=mcat&duration=1mo)** — see where "Atomic Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MCAT Pakistan exam overview](/exams/mcat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/mcat/chemistry/)** — browse sibling topics in this subject
+

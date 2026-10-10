@@ -185,3 +185,11 @@ Approximately 2–3 questions per MDCAT paper. Common question types:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Light and Optics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
+

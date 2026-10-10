@@ -214,3 +214,11 @@ $$\text{proj}_{\vec{b}} \vec{a} = \frac{\vec{a} \cdot \vec{b}}{|\vec{b}|^2}\vec{
 - Period of $\sin x$ and $\cos x$: 360°; Period of $\tan x$: 180°
 - $\sin(A+B) = \sin A\cos B + \cos A\sin B$
 - $\cos(A+B) = \cos A\cos B - \sin A\sin B$
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Trigonometry: Ratios and Graphs" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject
+

@@ -138,3 +138,11 @@ Interpretation: While 80% account penetration is strong, only 20% of those accou
 - **RBI's 2024 report on Financial Inclusion**: noted that 290 million Jan Dhan accounts are women-owned (55%+), confirming gender-positive targeting
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Banking & Financial Inclusion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

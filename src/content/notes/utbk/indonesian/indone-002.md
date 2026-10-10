@@ -89,3 +89,11 @@ Allocate ~90 seconds per Topic 2 item. Skim the *first and last* sentence of eac
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UTBK/SNPMTN (Indonesia) roadmap](/roadmap/?exam=utbk&duration=1mo)** — see where "Core Operations Tested" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=utbk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UTBK/SNPMTN (Indonesia) exam overview](/exams/utbk/)** — pattern, eligibility, and syllabus
+- **[All Indonesian Language (Literasi Bahasa Indonesia) notes](/notes/utbk/indonesian/)** — browse sibling topics in this subject
+

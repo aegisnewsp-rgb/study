@@ -188,3 +188,11 @@ $V_2 = 25\,\text{cm}^3$
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Acids, Bases and Buffers" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+

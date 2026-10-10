@@ -173,3 +173,11 @@ $$\cos\theta = \frac{-1}{\sqrt{6} \cdot \sqrt{6}} = \frac{-1}{6} \Rightarrow \th
 | 2018 | Verify coplanarity of four points; unit vector perpendicular to two given vectors |
 
 Vector Algebra typically yields 4–6 questions per NDA paper, particularly from dot product, cross product, and magnitude calculations. Always represent vectors in component form first — this makes all subsequent operations straightforward. The scalar triple product determinant method is a reliable technique that avoids errors in computing cross products of cross products.
+
+## Continue your study
+
+- **[View this topic in your NDA roadmap](/roadmap/?exam=nda&duration=1mo)** — see where "Vector Algebra" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nda&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NDA exam overview](/exams/nda/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nda/mathematics/)** — browse sibling topics in this subject
+

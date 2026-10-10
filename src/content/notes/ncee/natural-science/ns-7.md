@@ -168,3 +168,11 @@ These are essential for solving kinematics problems in the NCEE.
 - $v = \frac{d}{t}$ — Velocity (m/s), distance (m), time (s)
 - $p = mv$ — Momentum (kg·m/s)
 - $P = \frac{F}{A}$ — Pressure (Pa), force (N), area (m²)
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Force and Motion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Natural Science notes](/notes/ncee/natural-science/)** — browse sibling topics in this subject
+

@@ -144,7 +144,7 @@ The double helix was discovered by Watson and Crick in 1953, with crucial data f
 
 DNA copies itself before cell division:
 1. The double helix unwinds (helicase enzyme)
-2. Each strand serves as a template
+2. Each strand is a template
 3. Free nucleotides pair with complementary bases (DNA polymerase)
 4. Two identical DNA molecules result (semi-conservative — each new DNA has one old and one new strand)
 
@@ -245,3 +245,11 @@ Example: Probability of two children both being girls = $\frac{1}{2} \times \fra
 - Translation: mRNA → protein at ribosome
 - Mutations: substitution, insertion, deletion, frameshift
 - Hardy-Weinberg: $p^2 + 2pq + q^2 = 1$
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Genetics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/nabteb/biology/)** — browse sibling topics in this subject
+

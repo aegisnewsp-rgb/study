@@ -146,3 +146,11 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 5. de Broglie hypothesis and matter waves
 6. X-rays and Moseley's law
 7. Nuclear size and structure
+
+## Continue your study
+
+- **[View this topic in your NEET UG roadmap](/roadmap/?exam=neet&duration=1mo)** — see where "Atoms and Atomic Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET UG exam overview](/exams/neet/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/neet/physics/)** — browse sibling topics in this subject
+

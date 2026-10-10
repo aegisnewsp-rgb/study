@@ -319,3 +319,11 @@ Area under Lorenz = 0.5 - 0.032 = 0.468 (which equals Gini directly)
 - NITI Aayog's India Ageing Report 2024: Highlighted that poverty among the elderly (60+) is a growing concern — requiring separate policy attention beyond aggregate poverty figures
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Poverty & Income Inequality" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

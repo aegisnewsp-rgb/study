@@ -95,3 +95,11 @@ Answer: 33.75 litres — Working: Each step removes 20 of 80 litres, so the frac
 - **Trap 3:** In dilution problems, using arithmetic progression instead of geometric progression. Each replacement is a geometric reduction: multiply by (1 − fraction removed), don't subtract linearly.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Average, Mixture & Alligation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

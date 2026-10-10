@@ -203,3 +203,11 @@ Confirm the live sub-topic list on the QCAA Mathematical Methods syllabus page b
 ---
 
 *Last updated 2026-09-24. Source: QCE Mathematical Methods General senior syllabus (2025), https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods. Awarding body: Queensland Curriculum and Assessment Authority (QCAA).*
+
+## Continue your study
+
+- **[View this topic in your QCE Mathematical Methods & Specialist Mathematics (QCAA 2025) roadmap](/roadmap/?exam=qce-mathematical-methods&duration=1mo)** — see where "Major Topic: Algebra, Number and Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qce-mathematical-methods&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[QCE Mathematical Methods & Specialist Mathematics (QCAA 2025) exam overview](/exams/qce-mathematical-methods/)** — pattern, eligibility, and syllabus
+- **[All Mathematical Methods notes](/notes/qce-mathematical-methods/qce-mathematical-methods/)** — browse sibling topics in this subject
+

@@ -193,3 +193,11 @@ EMI = 10,00,000 × 0.0075 × (1.0075)^240 / [(1.0075)^240 − 1]
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Time Value of Money (TVM)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance notes](/notes/rbi-grad-b/finance/)** — browse sibling topics in this subject
+

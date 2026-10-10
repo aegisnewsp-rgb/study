@@ -117,3 +117,11 @@ Questions from circular motion commonly ask: (1) finding banking angle, (2) maxi
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Circular Motion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
+

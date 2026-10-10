@@ -12,9 +12,18 @@ staged="$(git diff --name-only --cached || true)"
 unstaged="$(git diff --name-only || true)"
 untracked="$(git ls-files --others --exclude-standard || true)"
 
-printf '%s\n%s\n%s\n' "$staged" "$unstaged" "$untracked" | sed '/^$/d' | sort -u > /tmp/sr_changed_files.txt
+# The changed-file list goes to a per-invocation mktemp file, not a fixed
+# /tmp/sr_changed_files.txt. The fixed path was root-owned (created 2026-09-10 by a
+# root-run) while the agent workers run as uid=1000, so every agent-triggered run
+# aborted at the redirect with "Permission denied" under `set -e` — this gate had
+# been silently un-runnable for every claw pulse since then. mktemp is owned by the
+# caller; the trap cleans it up on every exit path.
+changed_files="$(mktemp -t sr_changed_files.XXXXXX)"
+trap 'rm -f "$changed_files"' EXIT
 
-if [ ! -s /tmp/sr_changed_files.txt ]; then
+printf '%s\n%s\n%s\n' "$staged" "$unstaged" "$untracked" | sed '/^$/d' | sort -u > "$changed_files"
+
+if [ ! -s "$changed_files" ]; then
   echo "Scope OK (no changed files)."
   exit 0
 fi
@@ -24,7 +33,7 @@ fail=0
 if [ -f LOCKED_FILES.txt ]; then
   while IFS= read -r locked; do
     [ -z "$locked" ] && continue
-    if grep -Fxq "$locked" /tmp/sr_changed_files.txt; then
+    if grep -Fxq "$locked" "$changed_files"; then
       echo "BLOCKED: locked file modified -> $locked"
       fail=1
     fi
@@ -44,7 +53,7 @@ fi
 #   --no-verify; the guard's purpose (a human deciding) is satisfied by that decision
 #   being recorded in this comment and in the commit message.
 allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/lib/|src/pages/|src/components/|src/layouts/Layout\.astro|public/|scripts/|skills/|deploy\.sh|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/|\.gitignore|nginx\.conf)'
-if out_of_scope=$(grep -Ev "$allowed_re" /tmp/sr_changed_files.txt); then
+if out_of_scope=$(grep -Ev "$allowed_re" "$changed_files"); then
   if [ -n "$out_of_scope" ]; then
     echo "BLOCKED: out-of-scope files modified:"
     printf '  %s\n' $out_of_scope
@@ -60,4 +69,4 @@ if [ $fail -ne 0 ]; then
 fi
 
 echo "Scope OK. Changed files:"
-sed 's/^/  /' /tmp/sr_changed_files.txt
+sed 's/^/  /' "$changed_files"

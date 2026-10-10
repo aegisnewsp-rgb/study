@@ -208,3 +208,11 @@ Inference questions are challenging because:
 **Remember:** In inference questions, the correct answer is the one that is most strongly supported, not the one that sounds most plausible based on your own knowledge.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Inference and Deduction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=muet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MUET (Malaysia) exam overview](/exams/muet/)** — pattern, eligibility, and syllabus
+- **[All Reading (Paper 2) notes](/notes/muet/reading/)** — browse sibling topics in this subject
+

@@ -121,3 +121,11 @@ WASSCE Paper 2 frequently asks:
 - Calculating the molecular formula of an ester given the reacting alcohol and acid (e.g., ethyl propanoate = $C_2H_5COOCH_3$)
 
 ⚡ **WAEC Exam Tip:** When drawing the structural formula of a carboxylic acid, ensure the –COOH group is written distinctly from –OH. Students often lose marks by writing –CHO (aldehyde) or –COO– (ester linkage) incorrectly. The –COOH has a carbonyl (C=O) AND a hydroxyl (–OH) on the same carbon.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Alcohols and Carboxylic Acids" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+

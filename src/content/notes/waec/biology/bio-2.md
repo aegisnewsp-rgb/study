@@ -234,3 +234,11 @@ When shown a slide of dividing cells (e.g., onion root tip, onion flower bud, or
 - **Cytokinesis:** The cell is visibly dividing into two. The cell plate (plant) or cleavage furrow (animal) is complete or nearly complete.
 
 ⚡ **Final WAEC Strategy:** For cell division questions, always include a labelled diagram where the question allows or implies it. A well-drawn, correctly labelled diagram can earn full marks even if your written description has minor errors. Conversely, a poor diagram can lose marks even with a good description. Practice drawing the four phases of mitosis from memory — focus on: (1) the arrangement of chromosomes at the equator in metaphase, (2) the V-shape of separating chromatids in anaphase, and (3) the distinction between cell plate formation (plant) and cleavage furrow (animal). When answering "describe mitosis" questions, use the four-phase framework: Prophase → Metaphase → Anaphase → Telophase → Cytokinesis. State what happens to chromosomes and nuclear membranes in each phase. For meiosis, always mention crossing over and independent assortment when explaining significance.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Cell Biology: Cell Division (Mitosis and Meiosis)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+

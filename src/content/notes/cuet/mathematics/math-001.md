@@ -184,7 +184,7 @@ Using the corrected regions above (only M = 16, only P = 18, only C = 10, exactl
 - **Exactly two subjects:** 6 + 6 + 5 = 17. Read it as (M ∩ P ∪ M ∩ C ∪ P ∩ C) minus the triple: (12 → use corrected 10) — safer as (10 + 10 + 9) − 3 × 4 = 29 − 12 = 17. ✓
 - **Only Mathematics:** 16.
 - **M but not P:** the "only M" crescent plus the "M and C only" lens, since C-only-when-not-P is exactly the M ∩ C ∧ P′ region: 16 + 6 = 22.
-- **Neither M nor P:** n(U) − n(M ∪ P) = 80 − (32 + 35 − 10) = 80 − 57 = 23. Check by regions: only C (10) + none (17) = 27. Hmm, 27 ≠ 23.
+- **Neither M nor P:** n(U) − n(M ∪ P) = 80 − (32 + 35 − 10) = 80 − 57 = 23. Check by regions: only C (10) + none (17) = 27, which does not match 23.
 
 Recompute: n(M ∪ P) with M ∩ P = 10 is 32 + 35 − 10 = 57, so neither = 80 − 57 = 23. The region route says only-C (10) + none (17) = 27. The gap of 4 is the all-three region: those students are in both M and P, so they are **not** in "neither M nor P", but they are also not in "only C". The region route wrongly put the all-three block into the C-only count. Since all-three is already inside the union, it is not part of any "only" or "none" block. Correcting: neither M nor P = (only C) + (none) − (all three) = 10 + 17 − 4 = 23. ✓
 

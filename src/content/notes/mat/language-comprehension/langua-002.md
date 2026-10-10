@@ -200,3 +200,11 @@ For every passage you practice, complete this analysis before checking answers:
 This routine builds the habit of active formulation — the mental skill MAT's main idea questions require.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Main Idea & Theme Questions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Language-Comprehension notes](/notes/mat/language-comprehension/)** — browse sibling topics in this subject
+

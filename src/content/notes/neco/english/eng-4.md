@@ -102,3 +102,11 @@ Mastery of these three pillars — tense timing, subject–verb harmony, and art
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Grammar: Tenses, Concord and Articles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/neco/english/)** — browse sibling topics in this subject
+

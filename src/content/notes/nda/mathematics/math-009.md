@@ -165,3 +165,11 @@ $$P(X = r) = \binom{n}{r} p^r q^{n-r} \quad \text{(binomial)}$$
 5. For "at least one" problems, the complement is almost always easier
 
 Probability typically contributes 3–5 questions per NDA Mathematics paper. The combination of basic definitions, conditional probability, and binomial distribution makes it one of the more approachable chapters — but only if you understand when to add, multiply, or complement probabilities. Practise the worked examples above until the approach becomes second nature.
+
+## Continue your study
+
+- **[View this topic in your NDA roadmap](/roadmap/?exam=nda&duration=1mo)** — see where "Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nda&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NDA exam overview](/exams/nda/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nda/mathematics/)** — browse sibling topics in this subject
+

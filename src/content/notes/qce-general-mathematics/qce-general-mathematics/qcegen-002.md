@@ -228,3 +228,11 @@ Confirm the live sub-topic list on the QCAA General Mathematics syllabus page be
 ---
 
 *Last updated 2026-09-20. Source: QCE General Mathematics General senior syllabus (2025), https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics. Awarding body: Queensland Curriculum and Assessment Authority (QCAA). Live syllabus and any in-year updates must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your QCE General Mathematics & Specialist Mathematics (QCAA 2025) roadmap](/roadmap/?exam=qce-general-mathematics&duration=1mo)** — see where "Applications of Linear Equations and Trigonometry, Matrices and Univariate Data Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qce-general-mathematics&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[QCE General Mathematics & Specialist Mathematics (QCAA 2025) exam overview](/exams/qce-general-mathematics/)** — pattern, eligibility, and syllabus
+- **[All General Mathematics notes](/notes/qce-general-mathematics/qce-general-mathematics/)** — browse sibling topics in this subject
+

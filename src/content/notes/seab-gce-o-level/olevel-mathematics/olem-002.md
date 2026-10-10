@@ -150,3 +150,11 @@ Algebra is the largest single content strand at O-Level Mathematics 4052 by mark
 ---
 
 *Last updated 2026-09-20. Source: SEAB GCE O-Level Mathematics 4052 syllabus (examined from 2023), https://www.seab.gov.sg/docs/default-source/national-examinations/syllabus/olevel/2023syllabus/4052_y23_sy.pdf. Paper format and any in-year specification changes must be re-checked on https://www.seab.gov.sg/gce-o-level/ before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Singapore-Cambridge GCE O-Level roadmap](/roadmap/?exam=seab-gce-o-level&duration=1mo)** — see where "Algebraic Expressions, Equations and Inequalities" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=seab-gce-o-level&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Singapore-Cambridge GCE O-Level exam overview](/exams/seab-gce-o-level/)** — pattern, eligibility, and syllabus
+- **[All Mathematics (Elementary Mathematics) notes](/notes/seab-gce-o-level/olevel-mathematics/)** — browse sibling topics in this subject
+

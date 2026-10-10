@@ -222,7 +222,7 @@ import ctet from './india/ctet';
 import cucet_pg from './india/cucet-pg';
 import fmge from './india/fmge';
 import gate from './india/gate';
-import gre from './gre';
+import gre from './gre/gre';
 import nclex from './nclex';
 import sat from './sat';
 import cfa from './cfa';

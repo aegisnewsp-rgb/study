@@ -110,3 +110,11 @@ The **leaving group ability gradient (I⁻ > Br⁻ > Cl⁻ >> F⁻)** also gover
 2. 1-bromo-1-phenylpropane is hydrolysed in 80% ethanol-water at 25 °C. Would you expect a racemic or scalemic product mixture, and which mechanism operates? Explain by referencing carbocation resonance structures and the electron-withdrawing phenyl group.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Nucleophilic Substitution Reactions — SN1 and SN2" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/sa-pharm/chemistry/)** — browse sibling topics in this subject
+

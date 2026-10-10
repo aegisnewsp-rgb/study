@@ -160,3 +160,10 @@ Answer: "just" → the base word is "just," and the suffix "-ify" creates "justi
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Lexis and Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
+

@@ -87,3 +87,11 @@ Under constant returns, labour's share a = MP_L · L / Y and capital's share b =
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Factor Markets" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/up-psc/economics/)** — browse sibling topics in this subject
+

@@ -84,3 +84,11 @@ For **C₄H₅NO₂**: DoU = (2·4 + 2 + 1 − 5)/2 = (8+2+1−5)/2 = **3**. Thr
 2. Rank by SN2 reactivity in acetone: 1-bromobutane, 2-bromobutane, 2-bromo-2-methylpropane. Answer: **1° > 2° >> 3°** (1-bromobutane fastest).
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NAT-I (NTS) roadmap](/roadmap/?exam=nat-i&duration=1mo)** — see where "Chemistry: Organic Chemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nat-i&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/nat-i/subject-knowledge/)** — browse sibling topics in this subject
+

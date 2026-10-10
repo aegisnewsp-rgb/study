@@ -237,3 +237,11 @@ If $k > 1$: enlargement; $0 < k < 1$: reduction; $k < 0$: rotated enlargement.
 - Perpendicular: $m_1 \times m_2 = -1$
 - Circle: $(x-a)^2 + (y-b)^2 = r^2$
 - Vector dot product: $u_1v_1 + u_2v_2 = |u||v|\cos\theta$
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Geometry: Angles and Triangles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject
+

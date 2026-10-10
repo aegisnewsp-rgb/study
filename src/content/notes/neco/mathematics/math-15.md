@@ -85,3 +85,11 @@ Data: 2, 4, 4, 6, 7, 9. **n = 6**, Σx = 32. Mean = 32/6 = **5.33**. Median = (4
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Statistics: Measures of Central Tendency" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/neco/mathematics/)** — browse sibling topics in this subject
+

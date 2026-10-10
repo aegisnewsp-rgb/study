@@ -238,3 +238,11 @@ The **GST Council** under Article 279A represents the most significant instituti
 4. 9th Schedule and basic structure: Remember the IR Coelho (2007) ruling — all post-Kesavananda laws in the 9th Schedule can be struck down if they violate basic structure.
 5. Sarkaria Commission: Set up in 1983 to review centre-state relations; recommended creating ISC; its recommendations remain largely advisory and not binding.
 6. Finance Commission: Only the Union List mentions Finance Commission — but Article 280 establishes it constitutionally as an autonomous body that awards grants to states based on objective criteria.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Constitutional Framework and Key Articles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

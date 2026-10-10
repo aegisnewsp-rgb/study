@@ -211,3 +211,11 @@ $$7^{45}: \quad 45 \mod 4 = 1 \implies \text{1st position in } \{7,9,3,1\} = 7$$
 $$7 \times 7 = 49 \implies \text{units digit} = 9$$
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Number System & Basics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Mathematical-Skills notes](/notes/mat/mathematical-skills/)** — browse sibling topics in this subject
+

@@ -209,3 +209,11 @@ When multiple substituents are present, priority rules apply:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Electrophilic Aromatic Substitution (EAS) and Benzene Chemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/sa-pharm/chemistry/)** — browse sibling topics in this subject
+

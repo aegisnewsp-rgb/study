@@ -388,3 +388,11 @@ Before entering the exam hall, mentally verify:
 ---
 
 *Content prepared for RPSC RAS Prelims 2026. All Rajasthan-specific examples are highlighted in ⚡ boxes for quick identification.*
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Demand and Supply" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ras/economics/)** — browse sibling topics in this subject
+

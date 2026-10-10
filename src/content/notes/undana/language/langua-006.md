@@ -71,3 +71,11 @@ Expository and narrative paragraphs sometimes omit the topic sentence entirely, 
 2. Write a deduktif paragraph about "Pentingnya menjaga kebersihan lingkungan" consisting of exactly 5 sentences: 1 topic sentence and 4 supporting sentences. Underline the topic sentence and circle the transitional words used.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UNDANA Admission (Indonesia) roadmap](/roadmap/?exam=undana&duration=1mo)** — see where "Paragraf" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=undana&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNDANA Admission (Indonesia) exam overview](/exams/undana/)** — pattern, eligibility, and syllabus
+- **[All Language (Indonesian/English) notes](/notes/undana/language/)** — browse sibling topics in this subject
+

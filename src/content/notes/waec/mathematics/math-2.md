@@ -204,3 +204,11 @@ $x = \frac{33}{90} = \frac{11}{30}$
 Convert to improper fractions: $\frac{7}{3} \times \frac{3}{2} \div \frac{5}{4} = \frac{21}{6} \times \frac{4}{5} = \frac{84}{30} = \frac{14}{5} = 2\frac{4}{5}$
 
 ⚡ **WAEC Examination Patterns:** Simplify complex fractions. Convert between all three forms (fraction, decimal, percentage). Calculate percentage increase/decrease and profit/loss. Express answers in standard form. Solve problems involving simple and compound interest. Convert recurring decimals to fractions.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Fractions, Decimals and Percentages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

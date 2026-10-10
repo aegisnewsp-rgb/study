@@ -218,3 +218,11 @@ In fish gills:
 - Alveoli: 300 million, 70 m² surface area
 - Haemoglobin: 4 O₂ binding sites; iron is the metal
 - Bohr effect: High CO₂ → lower pH → haemoglobin releases O₂ more readily
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Respiration and Gaseous Exchange" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/nabteb/biology/)** — browse sibling topics in this subject
+

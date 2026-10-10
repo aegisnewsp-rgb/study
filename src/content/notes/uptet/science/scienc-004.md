@@ -233,3 +233,11 @@ A rectangular coil ABCD carrying current is placed between the poles of a magnet
 2. Confusion between direction of current (conventionally positive to negative) and electron flow (negative to positive).
 3. Forgetting that the heating effect depends on I², not I — doubling current quadruples heat, not doubles.
 4. Assuming electromagnets are permanent — they can be turned on/off, unlike permanent magnets.
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Electricity and Magnetism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
+

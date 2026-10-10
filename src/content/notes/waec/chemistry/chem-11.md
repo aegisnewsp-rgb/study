@@ -145,3 +145,11 @@ The double bond opens at the $\pi$-bond, and each carbon forms two new single bo
 - Writing the reaction between ethyne and ammoniacal silver nitrate
 
 ⚡ **WAEC Exam Tip:** In Paper 2 equations, state the conditions precisely. For hydrogenation write "Ni catalyst at 150°C"; for hydration of ethene write "steam with $H_3PO_4$ catalyst"; for ethyne hydration write "$Hg^{2+}$ and dilute $H_2SO_4$." Vague conditions lose marks.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Organic Chemistry: Alkenes and Alkynes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+

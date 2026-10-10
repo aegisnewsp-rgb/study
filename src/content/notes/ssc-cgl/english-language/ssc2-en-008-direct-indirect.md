@@ -126,3 +126,11 @@ Answer: **(B) He suggested that they should go for a walk** — "Let us" in a su
 - **Trap 4 — 'That' optional in statements but matters in MCQ**: In informal English, "that" can be omitted — "He said he was busy." In SSC options, the version with "that" is usually preferred as the technically correct answer when both appear.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Direct & Indirect Speech" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/ssc-cgl/english-language/)** — browse sibling topics in this subject
+

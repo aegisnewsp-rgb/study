@@ -162,3 +162,11 @@ Total = 30 + 3 + 3 = **36 channels**
 - Growing emphasis on "soft skills" and behavioral management training for senior RBI officers, reflecting the behavioral turn in management theory
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Management Principles & Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance & Management notes](/notes/rbi-grad-b/finance-management/)** — browse sibling topics in this subject
+

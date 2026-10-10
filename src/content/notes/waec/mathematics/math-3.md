@@ -221,3 +221,11 @@ $$\log_2 3 = \frac{\log_{10} 3}{\log_{10} 2} = \frac{0.4771}{0.3010} \approx 1.5
 $$\log_2 48 \approx 4 + 1.585 = 5.585$$
 
 ⚡ **WAEC Examination Patterns:** Apply laws of indices to simplify expressions. Solve exponential and logarithmic equations. Solve problems involving compound interest and exponential growth/decay. Use change of base formula. Solve simultaneous equations with logs. Apply logs to real-world scales (pH, decibels, Richter).
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Indices and Logarithms" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

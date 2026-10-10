@@ -64,7 +64,7 @@ The main idea is the central point the author wants to convey. It usually appear
 - **Contrast:** however, but, whereas, on the other hand, nevertheless
 - **Cause/Effect:** therefore, thus, consequently, as a result, because
 - **Example:** for example, for instance, such as, specifically
-- **Conclusion:** in conclusion, finally, overall, in summary, to sum up
+- **Conclusion:** *in conclusion, finally, overall, in summary, to sum up*
 
 ⚡ **Exam tip:** For inference questions, eliminate answers that are too narrow (not supported), too broad (go beyond the passage), or too extreme (absolute language like "always" or "never").
 
@@ -116,3 +116,11 @@ A: A place for study/research (context: comparing Indonesia to a place where cul
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UTBK/SNPMTN (Indonesia) roadmap](/roadmap/?exam=utbk&duration=1mo)** — see where "Reading Comprehension" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=utbk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UTBK/SNPMTN (Indonesia) exam overview](/exams/utbk/)** — pattern, eligibility, and syllabus
+- **[All Indonesian Language (Literasi Bahasa Indonesia) notes](/notes/utbk/indonesian/)** — browse sibling topics in this subject
+

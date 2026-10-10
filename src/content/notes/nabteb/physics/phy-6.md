@@ -84,3 +84,11 @@ v = 331 + 0.6(20) = 343 m s⁻¹ → λ = v/f = 343/512 ≈ **0.670 m**; distanc
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Waves and Sound" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
+

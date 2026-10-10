@@ -57,7 +57,7 @@ Umm Salama is credited with many hadith narrations — her wisdom and her deep e
 
 #### Role of youth in the Seerah
 
-The Quranic verse " وقل رب زدني علما " (And say: my Lord, increase me in knowledge, Ta-Ha 20:114) was reportedly revealed when the Prophet was praying for the youth of Islam. The classical scholars note that the youthful Companions were the most active in the da'wah (call) and the most willing to make sacrifices.
+The Quranic verse " وقل رب زدني علما " (And say: my Lord, increase me in knowledge, Ta-Ha 20:114) was reportedly revealed when the Prophet was praying for the youth of Islam. Classical accounts record that the youthful Companions were the most active in the da'wah (call) and the most willing to make sacrifices.
 
 Examples: Ali ibn Abi Talib accepted Islam at age 10 and slept in the Prophet's bed during the Hijrah. Al-Mus'ab ibn 'Umayr was sent as the first ambassador to Medina at age 25. Usama ibn Zayd led the army of Mu'tah at age 18-20. Sa'd ibn Abi Waqqas distinguished himself at the Battle of Uhud at a young age.
 
@@ -88,3 +88,11 @@ Source: MoEHE-issued Grade 12 Islamic Studies Term 1 (Umm Salama) and Term 2 (Ma
 ---
 
 *Last updated 2026-09-21. Source: MoEHE-issued Grade 12 Islamic Studies Term 1 (Umm Salama) and Term 2 (Makana al-Shabab) textbooks, https://almanahj.com/qa/id=7313 and https://afedni.com/. Re-check the live textbook edition on https://www.edu.gov.qa/ before committing a revision plan to a student (qatar).*
+
+## Continue your study
+
+- **[View this topic in your Qatar General Secondary Education Certificate roadmap](/roadmap/?exam=qatar-secondary-certificate&duration=1mo)** — see where "Seerah — Umm Salama and Makana al-Shabab" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qatar-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qatar General Secondary Education Certificate exam overview](/exams/qatar-secondary-certificate/)** — pattern, eligibility, and syllabus
+- **[All Islamic Studies notes](/notes/qatar-secondary-certificate/qssc-islamic-studies/)** — browse sibling topics in this subject
+

@@ -217,3 +217,11 @@ $$40000 = 10000 \times (1.15)^n \implies 4 = (1.15)^n$$
 $$\log 4 = n \cdot \log 1.15 \implies n = \frac{0.6021}{0.0607} \approx 9.9 \approx 10 \text{ years}$$
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Simple & Compound Interest" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Mathematical-Skills notes](/notes/mat/mathematical-skills/)** — browse sibling topics in this subject
+

@@ -104,3 +104,11 @@ Volume & Surface Area contributes roughly **4 %** of NCEE Mathematics (about 3�
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Volume and Surface Area" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ncee/mathematics/)** — browse sibling topics in this subject
+

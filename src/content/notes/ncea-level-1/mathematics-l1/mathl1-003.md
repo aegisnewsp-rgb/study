@@ -118,3 +118,11 @@ This achievement standard is externally assessed by NZQA at the end of the acade
 ---
 
 *Last updated 2026-09-20. Source: NZQA Level 1 Mathematics and Statistics 91946 assessment specification 2026, https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91946-spc-2026.pdf. Awarding body: NZQA.*
+
+## Continue your study
+
+- **[View this topic in your NCEA Level 1 (Mathematics and Statistics) roadmap](/roadmap/?exam=ncea-level-1&duration=1mo)** — see where "Interpret and apply mathematical and statistical information in context (91946)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncea-level-1&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEA Level 1 (Mathematics and Statistics) exam overview](/exams/ncea-level-1/)** — pattern, eligibility, and syllabus
+- **[All Mathematics and Statistics notes](/notes/ncea-level-1/mathematics-l1/)** — browse sibling topics in this subject
+

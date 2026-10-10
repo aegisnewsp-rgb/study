@@ -318,3 +318,11 @@ At high concentrations, metabolic and excretory pathways become saturated → ze
 ### Common Examination Trap
 
 A common SAPC trap is to confuse half-life with time to steady state. Remember: the time to steady state depends ONLY on the half-life, not on the dose or dosing frequency. Doubling the dose does NOT make steady state arrive faster — it just raises the steady-state concentration. Similarly, a drug with a 48-hour half-life will take 8–10 days to reach steady state regardless of the dose given.
+
+## Continue your study
+
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Pharmacokinetics — ADME" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Pharmacy notes](/notes/sa-pharm/pharmacy/)** — browse sibling topics in this subject
+

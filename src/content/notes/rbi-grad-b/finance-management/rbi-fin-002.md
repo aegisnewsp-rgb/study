@@ -247,3 +247,11 @@ The 1% processing fee effectively increases the true cost of the loan from 12% t
 - **RBI's Differentiated Bank Licensing**: Small Finance Banks and Payments Banks operate with different risk-return frameworks; TVM analysis helps determine viable business models under each licence category
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Time Value of Money" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance & Management notes](/notes/rbi-grad-b/finance-management/)** — browse sibling topics in this subject
+

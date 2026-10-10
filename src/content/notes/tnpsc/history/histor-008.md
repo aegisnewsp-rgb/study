@@ -30,7 +30,7 @@ High-yield point: Aryabhata's Aryabhatiya (499 CE), Kalidasa's works, the Ajanta
 
 ## Overview
 
-The Gupta Period (c. 320–550 CE) is widely regarded as the classical golden age of Indian civilization. Founded by Sri Gupta, the dynasty reached its zenith under Chandragupta II (Vikramaditya) and presided over remarkable cultural, scientific, and political achievements. Though the empire was smaller than the Mauryas in territorial extent, it exercised enormous cultural hegemony over the Indian subcontinent — its influence extending to Southeast Asia, China, and Central Asia.
+The Gupta Period (c. 320–550 CE) is the classical golden age of Indian civilization. Founded by Sri Gupta, the dynasty reached its zenith under Chandragupta II (Vikramaditya) and presided over remarkable cultural, scientific, and political achievements. Though the empire was smaller than the Mauryas in territorial extent, it exercised enormous cultural hegemony over the Indian subcontinent — its influence extending to Southeast Asia, China, and Central Asia.
 
 ## Foundation and Early Gupta Rulers
 
@@ -262,3 +262,11 @@ Founded in the 5th century CE during the Gupta period — possibly by Kumaragupt
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Gupta Period" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/tnpsc/history/)** — browse sibling topics in this subject
+

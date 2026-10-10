@@ -187,3 +187,11 @@ Approach: Plug each statement's data into the question without solving algebraic
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Data Comparison & Caselets" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Data-Analysis notes](/notes/mat/data-analysis/)** — browse sibling topics in this subject
+

@@ -197,7 +197,7 @@ Emergency provisions are contained in Part XVIII of the Constitution. They repre
 - The President can declare a financial emergency if she is satisfied that the financial stability or credit of India is threatened.
 - This has NEVER been invoked in India's constitutional history.
 - If declared, the President can: reduce the salaries of judges, members of Parliament, and state government officials; require states to reduce their expenditure; direct states to refer grant proposals to the Union for approval.
-- The theoretical existence of Article 360 serves as a deterrent against fiscal irresponsibility by states.
+- The theoretical existence of Article 360 deters fiscal irresponsibility by states.
 - The 1991 balance of payments crisis was managed through IMF assistance and economic reforms rather than invoking Article 360.
 
 ---
@@ -284,7 +284,7 @@ Emergency provisions in Part XVIII represent the Constitution's most dramatic sh
   - The federal structure is part of the basic structure of the Constitution under the 42nd Amendment's addition of "secularism" and "integrity" to the Preamble. Destroying federalism through misuse of Article 356 would violate the basic structure.
   - The Court found the dismissal of the Bommai government improper because no opportunity was given to prove the majority.
 - **Post-Bommai impact:** The number of Article 356 impositions dropped dramatically. The Union government became more cautious about dismissing state governments, knowing courts would scrutinise the decision.
-- **Criticisms of Bommai:** Some argue the case did not go far enough — it did not fully insulate state governments from political interference by the Centre. Others argue it introduced excessive judicial interference in what should be a political question.
+- **Criticisms of Bommai:** It did not fully insulate state governments from political interference by the Centre, and it drew the judiciary into what is a political question.
 
 **Article 360 — Financial Emergency: The Paper Tiger**
 
@@ -292,7 +292,7 @@ Emergency provisions in Part XVIII represent the Constitution's most dramatic sh
 - This has NEVER been declared in India's constitutional history.
 - If declared, consequences: salaries of judges, MPs, and state government officials can be reduced; states can be required to reduce expenditure; states can be directed to refer grant proposals to the Union.
 - In 1991, during the severe balance of payments crisis, the government did not invoke Article 360 — it managed the crisis through devaluation, IMF assistance, and economic reforms. The non-invocation of Article 360 suggests the provision is so Draconian that it is practically unavailable except in the most extreme hypothetical circumstances.
-- The theoretical existence of Article 360, however, serves as a deterrent: states are aware that fiscal irresponsibility could theoretically trigger Union intervention in their financial affairs.
+- The theoretical existence of Article 360, however, deters: states are aware that fiscal irresponsibility could theoretically trigger Union intervention in their financial affairs.
 
 **Historical Applications of Emergency Provisions**
 
@@ -312,3 +312,11 @@ Emergency provisions in Part XVIII represent the Constitution's most dramatic sh
 6. **44th Amendment** changes: (a) "Armed rebellion" replaces "internal disturbance" in Article 352; (b) Article 21 cannot be suspended during emergency; (c) President's Rule limited to 6 months initially, extendable to 3 years.
 7. **Finance Commission vs. Planning Commission**: Finance Commission (Article 280) is constitutional and handles tax distribution; Planning Commission was a resolution-based body with no constitutional basis (now replaced by NITI Aayog).
 8. **GST Council (Article 279A):** Created by 101st Amendment (2016). Decisions require 2/3 majority with weighted voting. Supreme Court upheld its decisions as binding.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Union States Federalism and Emergency Provisions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

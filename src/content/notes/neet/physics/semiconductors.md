@@ -171,3 +171,11 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 6. BJT structure and working
 7. Transistor as amplifier and switch
 8. Logic gates and Boolean algebra
+
+## Continue your study
+
+- **[View this topic in your NEET UG roadmap](/roadmap/?exam=neet&duration=1mo)** — see where "Semiconductor Electronics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET UG exam overview](/exams/neet/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/neet/physics/)** — browse sibling topics in this subject
+

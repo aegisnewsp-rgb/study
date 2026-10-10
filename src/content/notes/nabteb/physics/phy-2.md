@@ -242,3 +242,11 @@ $$\bar{v} = \frac{s_1 + s_2 + s_3}{t_1 + t_2 + t_3}$$
 - Projectile (horizontal): $t = \sqrt{\frac{2h}{g}}$, $R = u\sqrt{\frac{2h}{g}}$
 - Projectile (angle $\theta$): $T = \frac{2u\sin\theta}{g}$, $R = \frac{u^2\sin 2\theta}{g}$
 - Circular: $a_c = \frac{v^2}{r} = \omega^2 r$
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Kinematics and Graphical Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
+

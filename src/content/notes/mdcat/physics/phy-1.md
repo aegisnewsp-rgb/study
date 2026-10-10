@@ -161,3 +161,8 @@ Dimensions express the dependence of a physical quantity on the base dimensions 
 - **[MDCAT Exam Hub](/exams/mdcat/)** — full PMDC syllabus, eligibility requirements, and aggregate score formula
 - **[All MDCAT Physics Notes](/notes/mdcat/physics/)** — vectors, motion, work and energy, thermodynamics, and electromagnetism
 - **[MDCAT Physics Preparation Strategy](/exams/mdcat/#roadmap)** — high-yield topic distribution and formula memory frameworks
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Measurement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject

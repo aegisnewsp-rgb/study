@@ -161,3 +161,11 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 6. Coagulation and Schulze-Hardy rule
 7. Emulsions and emulsifying agents
 8. Applications of surface chemistry
+
+## Continue your study
+
+- **[View this topic in your NEET UG roadmap](/roadmap/?exam=neet&duration=1mo)** — see where "Surface Chemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET UG exam overview](/exams/neet/)** — pattern, eligibility, and syllabus
+- **[All Physical Chemistry notes](/notes/neet/physical-chemistry/)** — browse sibling topics in this subject
+

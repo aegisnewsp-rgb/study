@@ -274,3 +274,11 @@ So maximum $x = 25$ (then $y = 0$)
 Minimum $C = 195 - 4(25) = 195 - 100 = 95$
 
 ⚡ **WAEC Examination Patterns:** Solve linear inequalities in one and two variables. Graph systems of inequalities and identify feasible regions. Solve linear programming problems (maximisation and minimisation). Find corner points and evaluate objective functions. Solve quadratic inequalities. Handle absolute value inequalities.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Linear Inequalities and Graphical Solutions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

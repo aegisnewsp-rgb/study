@@ -102,3 +102,11 @@ Answer: 2b² = 9ac — Working: Let roots be α, 2α. Sum = 3α = −b/a → α 
 - **Trap 3:** Assuming x + 1/x = n always gives x = n/2 ± √(n²−4)/2. This is correct, but only valid when n² ≥ 4 (real x exists). If n² < 4, x is complex.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Algebra (Identities, Linear/Quadratic Equations)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

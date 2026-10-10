@@ -226,3 +226,11 @@ From this, damping constant can be determined.
 $$E = E_0 e^{-bt/m}$$
 
 ⚡ **MDCAT Examination Patterns:** Identify SHM from the condition $a \propto -x$. Solve problems involving period and frequency of spring-mass and pendulum systems. Calculate energy in SHM. Distinguish between free, damped, and forced oscillations. Explain resonance and its effects. Derive the equation of motion for SHM systems. Compare SHM with circular motion.
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Oscillations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
+

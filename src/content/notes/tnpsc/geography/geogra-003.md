@@ -84,3 +84,11 @@ The **Western Ghats** were designated a **UNESCO World Heritage Site in 2018** a
 2. **Compare and contrast** the Western Coastal Plain and Eastern Coastal Plain under the heads of width, drainage pattern, agricultural significance, and major ports.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Himalayas: Three Parallel Ranges" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/tnpsc/geography/)** — browse sibling topics in this subject
+

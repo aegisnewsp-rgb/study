@@ -255,3 +255,11 @@ This is why a siren's pitch seems to suddenly drop as the vehicle passes you.
 3. Forgetting that real images are formed on the same side as the object for mirrors, and on the opposite side for lenses.
 4. Confusing the speed of light (3 × 10⁸ m/s) with speed of sound (~340 m/s) — vastly different orders of magnitude.
 5. In ray diagrams, drawing the focal point incorrectly — for concave mirrors, focus is in front; for convex mirrors, focus is behind the mirror.
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Light, Sound, and Wave Phenomena" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
+

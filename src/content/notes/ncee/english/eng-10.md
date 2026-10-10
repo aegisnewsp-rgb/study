@@ -191,3 +191,11 @@ For each NCEE topic:
 4. Develop each point with at least one specific detail
 5. Write a closing sentence that reinforces the main idea
 6. Check for: unity, coherence, grammar, spelling, punctuation
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Paragraph Writing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/ncee/english/)** — browse sibling topics in this subject
+

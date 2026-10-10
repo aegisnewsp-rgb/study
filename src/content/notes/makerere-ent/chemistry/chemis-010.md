@@ -102,3 +102,11 @@ In real electrolytic cells, **overpotential** (η) is the extra voltage beyond t
 2. During electrolysis of 1.0 M CuSO₄ using a platinum cathode, a current of 0.50 A flows for 1 hour. Calculate the mass of copper deposited and a the volume of O₂ gas liberated at the anode (at STP: 1 mol gas ≈ 22.4 L). The anode reaction is 2H₂O → O₂ + 4H⁺ + 4e⁻.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Makerere University (Uganda) roadmap](/roadmap/?exam=makerere-ent&duration=1mo)** — see where "Electrochemistry (2)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=makerere-ent&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Makerere University (Uganda) exam overview](/exams/makerere-ent/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/makerere-ent/chemistry/)** — browse sibling topics in this subject
+

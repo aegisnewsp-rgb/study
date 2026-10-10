@@ -99,3 +99,11 @@ Which of the following expressions is equivalent to (x^2 - 9) / (2x^2 + 7x + 3) 
 3. Simplify the rational expression by canceling the common factor (x + 3):
    [(x - 3)(x + 3)] / [(2x + 1)(x + 3)] = (x - 3) / (2x + 1).
 4. Note the restriction: x != -3 and x != -1/2. The simplified rational expression is (x - 3) / (2x + 1).
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Problem Solving and Data Analysis — Statistics and Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Math notes](/notes/sat-kuwait/sat-math/)** — browse sibling topics in this subject
+

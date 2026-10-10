@@ -32,6 +32,13 @@ Despite being predominantly arid, Rajasthan has a complex **water resource syste
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Water Resources of Rajasthan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/ras/geography/)** — browse sibling topics in this subject
+
 ## Major Water Resources
 
 ### 1. Rivers and Their Utilisation

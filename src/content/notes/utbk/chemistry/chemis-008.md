@@ -92,3 +92,11 @@ Combustion of methane: CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(l), ΔH° = �
 2. A 1.20 g sample of benzoic acid (M = 122 g mol⁻¹) is burned in a bomb calorimeter (C_cal = 8.92 kJ K⁻¹) and T rises by 2.45 K. Find the internal energy change ΔU per mole of benzoic acid.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UTBK/SNPMTN (Indonesia) roadmap](/roadmap/?exam=utbk&duration=1mo)** — see where "Calorimetry and Heat Capacity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=utbk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UTBK/SNPMTN (Indonesia) exam overview](/exams/utbk/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/utbk/chemistry/)** — browse sibling topics in this subject
+

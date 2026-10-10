@@ -178,3 +178,11 @@ Renaturation is possible if the denaturing agent is removed and the primary stru
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Biomolecules (Carbohydrates & Proteins)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
+

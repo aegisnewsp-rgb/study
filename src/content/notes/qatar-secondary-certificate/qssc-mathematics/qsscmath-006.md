@@ -94,3 +94,11 @@ Source: MoEHE Curriculum Standards for Mathematics KG-G12 (MoEHE, 2018), https:/
 ---
 
 *Last updated 2026-09-21. Source: MoEHE Qatar Mathematics Curriculum Standards KG-G12 (2018), https://cdn-files.abegs.org/abegs-marsad-prod/uploads/c7a1839c-fd4e-401c-87dd-d6f3baac8cd5.pdf. Track regulation and Grade 12 terminal-exam weighting must be re-checked on https://www.edu.gov.qa/ before committing a revision plan to a student (qatar).*
+
+## Continue your study
+
+- **[View this topic in your Qatar General Secondary Education Certificate roadmap](/roadmap/?exam=qatar-secondary-certificate&duration=1mo)** — see where "Calculus — Integration and Differential Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qatar-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qatar General Secondary Education Certificate exam overview](/exams/qatar-secondary-certificate/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/qatar-secondary-certificate/qssc-mathematics/)** — browse sibling topics in this subject
+

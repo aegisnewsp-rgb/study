@@ -219,3 +219,11 @@ Receptor proteins in the membrane allow cells to respond to signals:
 - Central vacuole: turgor pressure (plant cells)
 - Mitosis: 2 identical diploid cells; Meiosis: 4 non-identical haploid cells
 - Osmosis: water from low → high solute concentration
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Cell Structure and Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/nabteb/biology/)** — browse sibling topics in this subject
+

@@ -207,3 +207,11 @@ Confirm the live Subject Outline on the SACE website before planning revision ar
 ---
 
 *Last updated 2026-09-24. Source: SACE Stage 2 Mathematical Methods Subject Outline, https://www.sace.sa.edu.au/en_US/web/mathematical-methods. Awarding body: SACE Board of South Australia.*
+
+## Continue your study
+
+- **[View this topic in your SACE Stage 2 Mathematical Methods & Specialist Mathematics roadmap](/roadmap/?exam=sace-mathematical-methods&duration=1mo)** — see where "Discrete Random Variables" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sace-mathematical-methods&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SACE Stage 2 Mathematical Methods & Specialist Mathematics exam overview](/exams/sace-mathematical-methods/)** — pattern, eligibility, and syllabus
+- **[All Mathematical Methods notes](/notes/sace-mathematical-methods/sace-mathematical-methods/)** — browse sibling topics in this subject
+

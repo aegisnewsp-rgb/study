@@ -219,3 +219,11 @@ $$\mu_s \ge \dfrac{(20)^2}{10 	imes 100} = \dfrac{400}{1000} = 0.40$$
 
 ---
 *For comprehensive syllabus outlines and previous year solved papers, visit the [/exams/up-psc/](/exams/up-psc/) portal.*
+
+## Continue your study
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Laws of Motion and Friction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All General Science notes](/notes/up-psc/general-science/)** — browse sibling topics in this subject
+

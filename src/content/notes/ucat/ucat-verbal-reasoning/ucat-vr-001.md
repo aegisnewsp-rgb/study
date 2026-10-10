@@ -83,3 +83,11 @@ Take any four-paragraph press release or summary of a research paper, write six 
 - Review every wrong answer and write one line on whether the mistake was a quantifier slip, a new-claim slip, or a direction flip.
 - Re-read the stem of each True answer and confirm, in writing, the exact passage sentence that supports it.
 - Build a short "trap word" list (always, all, only, never, some, may, will) and re-check the list against every statement before you commit the answer.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "True, False and Cannot Tell" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Verbal Reasoning notes](/notes/ucat/ucat-verbal-reasoning/)** — browse sibling topics in this subject
+

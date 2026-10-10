@@ -145,3 +145,11 @@ where $h = \frac{b-a}{n}$ and $x_i = a + ih$.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Calculus: Integration" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject
+

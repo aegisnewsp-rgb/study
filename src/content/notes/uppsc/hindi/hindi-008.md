@@ -136,6 +136,13 @@ Understanding historical phonology helps aspirants deduce correct Tatsam-Tadbhav
 
 ---
 
+## Continue your study
+
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "हिंदी शब्दावली: तत्सम-तद्भव एवं अनेकार्थी शब्द (Hindi Vocabulary: Tatsam-Tadbhav and Homonyms)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
+
 ## Sources & verification
 - उत्तर प्रदेश लोक सेवा आयोग (UPPSC) प्रामाणिक परीक्षा कुंजी व पाठ्यक्रम.
 - डॉ. वासुदेव नंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना*.

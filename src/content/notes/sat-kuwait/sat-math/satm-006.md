@@ -116,3 +116,11 @@ A water filtration facility operates pumps that filter 450 liters of water every
 3. Convert minutes to hours:
    Hours = 300 minutes / 60 minutes per hour = 5.0 hours.
 4. Always verify unit conversion: the problem requested the final duration in hours, not minutes.
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Passport to Advanced Math — Exponential, Radical and Rational Expressions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Math notes](/notes/sat-kuwait/sat-math/)** — browse sibling topics in this subject
+

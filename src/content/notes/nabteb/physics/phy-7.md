@@ -235,3 +235,11 @@ Power of combination: $P_{\text{eq}} = P_1 + P_2 + \ldots$
 - Critical angle: $\sin c = \frac{n_2}{n_1}$
 - Power: $P = \frac{1}{f}$ (dioptres)
 - Lens maker: $\frac{1}{f} = (n-1)\left(\frac{1}{R_1} - \frac{1}{R_2}\right)$
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Light: Reflection and Refraction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
+

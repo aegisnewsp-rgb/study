@@ -90,3 +90,11 @@ Reading for shape first lets you catch the four-question framework faster. You k
 - Mark any statement you almost marked True without a clear passage citation. If you cannot cite the sentence, change the answer to Cannot Tell.
 - Build a small list of soft-versus-hard word pairs (some/all, may/will, often/always, most/every) and check the list against every statement before you commit the answer.
 - Time the exercise. Aim for 30 seconds per statement on average across a full 44-item drill, with a hard 22-minute cap.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Inference and Assumption" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Verbal Reasoning notes](/notes/ucat/ucat-verbal-reasoning/)** — browse sibling topics in this subject
+

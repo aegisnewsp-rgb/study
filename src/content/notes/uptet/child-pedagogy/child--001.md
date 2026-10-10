@@ -95,3 +95,11 @@ The **Hypothalamic-Pituitary-Gonadal (HPG) axis** triggers puberty. Girls experi
 Brain development lags behind hormonal development. The **prefrontal cortex** (responsible for impulse control, planning, and long-term consequences) does not fully mature until the mid-20s. This explains adolescent risk-taking — not because they are reckless, but because the socio-emotional limbic system matures before the regulatory prefrontal cortex (the "maturity gap").
 
 ⚡ **Previous Year UPTET Focus:** Questions frequently test: Piaget's stage names and ages (especially Concrete Operational vs. Formal Operational), the difference between continuous and discontinuous development, Vygotsky's ZPD, Erikson's industry vs. inferiority stage in middle childhood, and the distinction between growth and development as a definition-based MCQ.
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Child Development — Growth & Development, Developmental Stages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/uptet/child-pedagogy/)** — browse sibling topics in this subject
+

@@ -102,3 +102,11 @@ Answer: 60 minutes — Working: Net rate = 1/20 − 1/30 = (3−2)/60 = 1/60 per
 - **Trap 3:** Forgetting that when a pipe is closed and another opened, the work already done is NOT reset. The remaining work is all that needs completing.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Time & Work, Pipes & Cisterns" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

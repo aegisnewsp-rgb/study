@@ -82,3 +82,11 @@ Suppose M = GH¢200bn, V = 4, T = 800bn transactions. Then P = (200 × 4) / 800 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your WASSCE (Ghana) roadmap](/roadmap/?exam=wassce&duration=1mo)** — see where "Money and Banking" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wassce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WASSCE (Ghana) exam overview](/exams/wassce/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/wassce/economics/)** — browse sibling topics in this subject
+

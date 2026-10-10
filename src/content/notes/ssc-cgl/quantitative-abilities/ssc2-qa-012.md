@@ -141,3 +141,11 @@ Working: The original nine values sum to 12 + 15 + 18 + 22 + 28 + 35 + 40 + 45 +
 - **Assuming a unique mode:** When a frequency distribution has two classes with equal highest frequency, the data is bimodal. Some students force one answer when the question should acknowledge multiple modes.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Data Interpretation & Statistics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

@@ -94,3 +94,11 @@ Vectors are essential for Newton's Second Law (F = ma, where F is a vector), mom
 2. A boat crossing a river flows at 4 m/s east. The boat's velocity relative to water is 3 m/s north. Find the boat's resultant velocity and its direction relative to north.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your WAEC SSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Scalars and Vectors" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC SSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/waec/physics/)** — browse sibling topics in this subject
+

@@ -230,3 +230,11 @@ The hadith: *"Three will not enter Paradise: the one who drinks alcohol, the one
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Islamic Ethics and Manners (Adab)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qimiyah&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qimiyah Exam (Saudi) exam overview](/exams/qimiyah/)** — pattern, eligibility, and syllabus
+- **[All General Studies notes](/notes/qimiyah/islamic-studies/)** — browse sibling topics in this subject
+

@@ -197,3 +197,11 @@ Percentage questions in the UI Academic Potential test often involve:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Percentages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Academic Potential notes](/notes/uii/academic-potential/)** — browse sibling topics in this subject
+

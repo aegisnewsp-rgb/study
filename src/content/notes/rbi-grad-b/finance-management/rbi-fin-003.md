@@ -303,3 +303,11 @@ $$\text{Debt-Equity Ratio} = \frac{₹1{,}60{,}000}{₹1{,}60{,}000} = 1.0$$
 - **RBI's 2024 Norms on Crypto Assets**: New disclosure requirements for banks handling crypto-related assets affect the off-balance sheet items in bank financial statements
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Balance Sheet & Financial Statement Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance & Management notes](/notes/rbi-grad-b/finance-management/)** — browse sibling topics in this subject
+

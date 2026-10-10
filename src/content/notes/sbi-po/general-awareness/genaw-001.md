@@ -198,3 +198,11 @@ Banks whose failure could cause systemic damage to the economy.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SBI PO roadmap](/roadmap/?exam=sbi-po&duration=1mo)** — see where "Indian Banking System and Regulatory Framework" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI PO exam overview](/exams/sbi-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-po/general-awareness/)** — browse sibling topics in this subject
+

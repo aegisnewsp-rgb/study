@@ -232,3 +232,11 @@ All three levers work through the E × I × V formula.
 - SEBI's introduction of "structured training assessments" for new mutual fund distributors reflects application of Herzberg's job enrichment principles in a compliance context
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Leadership & Motivation Theories" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance & Management notes](/notes/rbi-grad-b/finance-management/)** — browse sibling topics in this subject
+

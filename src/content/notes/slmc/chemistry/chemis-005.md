@@ -137,6 +137,13 @@ Cycloalkanes have the formula **CₙH₂ₙ** (one ring reduces H count by 2 com
 
 **Baeyer strain theory**: Cycloalkanes with angles deviating significantly from 109.5° are strained. Cyclopropane (60°) and cyclobutane (90°) have angle strain.
 
+## Continue your study
+
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Alkanes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
+
 ## Natural Sources of Alkanes
 
 - **Natural gas**: methane (80–90%), ethane, propane

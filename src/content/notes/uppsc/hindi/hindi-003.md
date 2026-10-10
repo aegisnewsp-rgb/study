@@ -110,6 +110,13 @@ To secure maximum accuracy on the 10 adjectival and verbal questions in UPPSC RO
 
 ---
 
+## Continue your study
+
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "हिंदी व्याकरण: क्रिया एवं विशेषण (Hindi Grammar: Verbs and Adjectives)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
+
 ## Sources & verification
 - उत्तर प्रदेश लोक सेवा आयोग (UPPSC) आधिकारिक पाठ्यक्रम (सामान्य हिंदी RO/ARO अनुभाग).
 - वासुदेव नंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना*, भारती भवन.

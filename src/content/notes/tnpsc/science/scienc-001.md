@@ -93,6 +93,13 @@ A somatic cell of an organism possesses 2n = 24 chromosomes. Determine the exact
 
 ---
 
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Living World and Cell Biology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/tnpsc/science/)** — browse sibling topics in this subject
+
 ## Sources & verification
 - Tamil Nadu State Board (Samacheer Kalvi) Class 11 Bio-Botany & Bio-Zoology, Department of School Education, Tamil Nadu.
 - TNPSC Group 1 General Studies Paper Syllabus & Official Preliminary Answer Keys.

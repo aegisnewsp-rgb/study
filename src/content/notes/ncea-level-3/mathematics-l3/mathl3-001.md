@@ -137,3 +137,11 @@ This achievement standard is internally assessed by the school. NZQA publishes t
 ---
 
 *Last updated 2026-09-20. Source: NZQA Level 3 Mathematics achievement standards, https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics. Awarding body: NZQA.*
+
+## Continue your study
+
+- **[View this topic in your NCEA Level 3 (Mathematics / Calculus) roadmap](/roadmap/?exam=ncea-level-3&duration=1mo)** — see where "Apply the geometry of conic sections in solving problems (91573)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncea-level-3&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEA Level 3 (Mathematics / Calculus) exam overview](/exams/ncea-level-3/)** — pattern, eligibility, and syllabus
+- **[All Mathematics (Calculus) notes](/notes/ncea-level-3/mathematics-l3/)** — browse sibling topics in this subject
+

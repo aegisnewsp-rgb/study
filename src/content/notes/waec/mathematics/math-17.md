@@ -196,3 +196,11 @@ The same volume is spread to a depth of 0.2 m, so:
 $$\text{Area} = \frac{\text{Volume}}{\text{Depth}} = \frac{150}{0.2} = 750 \text{ m}^2$$
 
 ⚡ **WAEC Examination Patterns:** Calculate areas and volumes of standard shapes. Solve problems involving combined shapes. Apply similarity (scale factors for area and volume). Convert between different units. Solve density problems. Find surface areas of cones, spheres, and cylinders. Solve practical problems involving water tanks, earthworks, and storage.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Mensuration: Areas and Volumes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

@@ -162,3 +162,11 @@ Product: (−3−k)(3 + k/2) = −3 → k² + 9k + 12 = 0 → (k+3)(k+4) = 0 →
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Post-UTME (Nigeria) roadmap](/roadmap/?exam=putme&duration=1mo)** — see where "Linear and Quadratic Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=putme&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Post-UTME (Nigeria) exam overview](/exams/putme/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combination notes](/notes/putme/subject-combination/)** — browse sibling topics in this subject
+

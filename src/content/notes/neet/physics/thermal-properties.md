@@ -149,3 +149,11 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 6. Conduction and thermal conductivity
 7. Convection and radiation
 8. Stefan-Boltzmann and Newton's law of cooling
+
+## Continue your study
+
+- **[View this topic in your NEET UG roadmap](/roadmap/?exam=neet&duration=1mo)** — see where "Thermal Properties of Matter" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET UG exam overview](/exams/neet/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/neet/physics/)** — browse sibling topics in this subject
+

@@ -82,3 +82,11 @@ Calculate net ATP from β-oxidation of **arachidonic acid (C20:4, Δ5,8,11,14)**
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Lipid Metabolism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Biochemistry notes](/notes/neet-pg/biochemistry/)** — browse sibling topics in this subject
+

@@ -162,3 +162,11 @@ Previous year questions from RAS have asked about the difference between Article
 6. Second Judges Case in 1993 made the collegium system binding for judicial appointments. Consultation with the CJI must be real and effective.
 7. Subordinate courts control under Article 235 is vested in the High Court. High Court has full control over posting, promotion, leave, and discipline. State governments cannot interfere.
 8. Contempt of High Courts under Article 215 gives High Courts contempt jurisdiction, both civil and criminal, similar to the Supreme Court.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "High Courts Subordinate Courts Judicial Review Basic Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

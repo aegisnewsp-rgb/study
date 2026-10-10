@@ -221,3 +221,11 @@ This law is particularly useful for calculating electric fields of symmetric cha
 - Parallel: $C_{\text{eq}} = \sum C_i$
 - $E = -\frac{dV}{dr}$, or $E = V/d$ (uniform field)
 - $\varepsilon_0 = 8.85 \times 10^{-12}$ F/m
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Electrostatics and Capacitors" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
+

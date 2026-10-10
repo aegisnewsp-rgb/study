@@ -109,3 +109,11 @@ This achievement standard is internally assessed by the school. NZQA publishes a
 ---
 
 *Last updated 2026-09-20. Source: NZQA Level 1 Mathematics and Statistics achievement standards, https://www.nzqa.govt.nz/ncea/assessment/search.do?level=01&query=mathematics. Awarding body: NZQA.*
+
+## Continue your study
+
+- **[View this topic in your NCEA Level 1 (Mathematics and Statistics) roadmap](/roadmap/?exam=ncea-level-1&duration=1mo)** — see where "Use mathematical methods to explore problems that relate to life in Aotearoa New Zealand or the Pacific (91945)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncea-level-1&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEA Level 1 (Mathematics and Statistics) exam overview](/exams/ncea-level-1/)** — pattern, eligibility, and syllabus
+- **[All Mathematics and Statistics notes](/notes/ncea-level-1/mathematics-l1/)** — browse sibling topics in this subject
+

@@ -173,3 +173,11 @@ A: (2/10)×200,000 = **₦40,000**; B: **₦60,000**; C: **₦100,000**
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Post-UTME (Nigeria) roadmap](/roadmap/?exam=putme&duration=1mo)** — see where "Ratios and Proportions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=putme&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Post-UTME (Nigeria) exam overview](/exams/putme/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combination notes](/notes/putme/subject-combination/)** — browse sibling topics in this subject
+

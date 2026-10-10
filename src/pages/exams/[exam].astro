@@ -507,6 +507,23 @@ const faqJsonLd = examSpecificFAQs ? {
 // Course schema for exam pages. Discontinued exams get none — a
 // "Comprehensive X preparation course" Course object on a page whose banner
 // says the exam is no longer conducted is contradictory markup (lsat).
+// s426 NEW C enhancement: tier-1 country educationalLevel map (s424 doctrine correction
+// re-framed NEW C as 'enhance already-shipped emissions'; this adds country-specific
+// educationalLevel on the 11 tier-1 country exams at hub emission site).
+const TIER_ONE_EDUCATIONAL_LEVEL: Record<string, string> = {
+  uk: 'A-Level / Pre-University Medicine Entrance',
+  singapore: 'A-Level (H1/H2) / Pre-University',
+  malaysia: 'STPM / Pre-University',
+  canada: 'Secondary School Diploma / Undergraduate Entrance',
+  australia: 'Senior Secondary Certificate (ATAR)',
+  ireland: 'Leaving Certificate / Pre-University',
+  newzealand: 'NCEA Level 3 / Pre-University',
+  hongkong: 'HKDSE / Form 6',
+  qatar: 'Secondary School Certificate / Pre-University',
+  kuwait: 'Secondary School Certificate / Pre-University',
+  usa: 'High School Senior / Undergraduate Entrance',
+};
+
 const courseJsonLd = DISCONTINUED_EXAMS[exam.examId] ? null : {
   '@context': 'https://schema.org',
   '@type': 'Course',
@@ -518,7 +535,7 @@ const courseJsonLd = DISCONTINUED_EXAMS[exam.examId] ? null : {
     'name': 'StudyRoadmap',
     'url': 'https://studyroadmap.in',
   },
-  'educationalLevel': exam.educationalLevel || 'Higher Secondary',
+  'educationalLevel': TIER_ONE_EDUCATIONAL_LEVEL[exam.country] || exam.educationalLevel || 'Higher Secondary',
   'inLanguage': 'en',
   'audience': {
     '@type': 'Audience',

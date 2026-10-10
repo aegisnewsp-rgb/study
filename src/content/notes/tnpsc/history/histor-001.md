@@ -80,3 +80,11 @@ Multiple causes converged: the greased cartridges, the Doctrine of Lapse, the An
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Phases of British Rule" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/tnpsc/history/)** — browse sibling topics in this subject
+

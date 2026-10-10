@@ -101,3 +101,11 @@ A 60 g portion of boiled yam contains roughly 15 g starch. **Salivary amylase** 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Heterotrophic Nutrition and Human Digestion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/neco/biology/)** — browse sibling topics in this subject
+

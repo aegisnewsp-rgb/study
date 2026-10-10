@@ -367,3 +367,11 @@ SA node → Atrial muscle → AV node → Bundle of His → Left and right bundl
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Cardiovascular Physiology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/neet-pg/physiology/)** — browse sibling topics in this subject
+

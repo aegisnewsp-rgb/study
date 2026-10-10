@@ -274,3 +274,8 @@ In international macroeconomics, central banks evaluate whether a currency depre
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Elasticity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/rbi-grad-b/economics/)** — browse sibling topics in this subject

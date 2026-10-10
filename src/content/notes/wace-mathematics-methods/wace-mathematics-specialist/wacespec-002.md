@@ -218,3 +218,11 @@ Confirm the live syllabus on the SCSA website before planning revision around th
 ---
 
 *Last updated 2026-09-24. Source: WACE Mathematics Specialist ATAR syllabus, https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist. Awarding body: School Curriculum and Standards Authority (SCSA).*
+
+## Continue your study
+
+- **[View this topic in your WACE Mathematics Methods & Mathematics Specialist (SCSA) roadmap](/roadmap/?exam=wace-mathematics-methods&duration=1mo)** — see where "Complex Numbers, Trigonometry and Matrices (Year 11)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wace-mathematics-methods&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WACE Mathematics Methods & Mathematics Specialist (SCSA) exam overview](/exams/wace-mathematics-methods/)** — pattern, eligibility, and syllabus
+- **[All Mathematics Specialist notes](/notes/wace-mathematics-methods/wace-mathematics-specialist/)** — browse sibling topics in this subject
+

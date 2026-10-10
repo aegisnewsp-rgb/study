@@ -133,3 +133,11 @@ Before your MUET speaking exam, make sure you can use at least **5 topic-specifi
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Vocabulary Range and Appropriateness" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=muet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MUET (Malaysia) exam overview](/exams/muet/)** — pattern, eligibility, and syllabus
+- **[All Speaking (Paper 3) notes](/notes/muet/speaking/)** — browse sibling topics in this subject
+

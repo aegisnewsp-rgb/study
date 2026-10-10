@@ -165,3 +165,11 @@ The East region wins at about a third increase. The trap is to look at raw diffe
 2. Build a six-card flashcard set: one card for each chart type, each with the axis-label warning printed on it.
 3. After every timed set, list every wrong answer under one of three headings: misread the chart, misread the stem, slow arithmetic. The misreads are the ones to stop first.
 4. Sit one full QR mock under timed conditions, then review the chart-read step before sitting the next. The official UCAT practice tests are the right benchmark; current cohort scoring distributions are published yearly on ucat.ac.uk and are the only figures worth trusting for your cycle.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Reading Charts and Tables" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/ucat/ucat-quantitative-reasoning/)** — browse sibling topics in this subject
+

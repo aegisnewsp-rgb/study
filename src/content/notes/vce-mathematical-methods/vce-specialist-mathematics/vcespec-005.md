@@ -99,3 +99,11 @@ In VCE Specialist Mathematics Exam 1 (technology-free) and Exam 2 (CAS-active), 
 ---
 
 *Last updated 2026-09-20. Source: VCE Mathematics Study Design (2023), https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics. Awarding body: Victorian Curriculum and Assessment Authority (VCAA). Examination specifications and any in-year changes must be re-checked on the official page before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your VCE Mathematical Methods & Specialist Mathematics (VCAA 2023) roadmap](/roadmap/?exam=vce-mathematical-methods&duration=1mo)** — see where "Vectors and Vector Algebra" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=vce-mathematical-methods&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[VCE Mathematical Methods & Specialist Mathematics (VCAA 2023) exam overview](/exams/vce-mathematical-methods/)** — pattern, eligibility, and syllabus
+- **[All Specialist Mathematics notes](/notes/vce-mathematical-methods/vce-specialist-mathematics/)** — browse sibling topics in this subject
+

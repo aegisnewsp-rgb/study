@@ -104,3 +104,11 @@ The function f is defined by f(x) = 3x - 5, and the function g is defined by g(x
 4. Verify by back-substitution:
    g(sqrt(7)) = (sqrt(7))^2 + 2 = 9.
    f(9) = 3(9) - 5 = 22. Both solutions satisfy the given equation.
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Heart of Algebra — Functions and Function Notation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Math notes](/notes/sat-kuwait/sat-math/)** — browse sibling topics in this subject
+

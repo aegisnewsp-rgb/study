@@ -228,3 +228,11 @@ Confirm the live syllabus on the SCSA website before planning revision around th
 ---
 
 *Last updated 2026-09-24. Source: WACE Mathematics Methods ATAR Year 12 syllabus, https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods. Awarding body: School Curriculum and Standards Authority (SCSA).*
+
+## Continue your study
+
+- **[View this topic in your WACE Mathematics Methods & Mathematics Specialist (SCSA) roadmap](/roadmap/?exam=wace-mathematics-methods&duration=1mo)** — see where "Continuous Random Variables and the Normal Distribution" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wace-mathematics-methods&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WACE Mathematics Methods & Mathematics Specialist (SCSA) exam overview](/exams/wace-mathematics-methods/)** — pattern, eligibility, and syllabus
+- **[All Mathematics Methods notes](/notes/wace-mathematics-methods/wace-mathematics-methods/)** — browse sibling topics in this subject
+

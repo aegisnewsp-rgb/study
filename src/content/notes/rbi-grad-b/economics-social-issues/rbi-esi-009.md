@@ -205,3 +205,11 @@ If ₹2,500 crore = 15%, then Total = ₹2,500 crore × (100/15) = ₹16,666.67 
 - **ASHA workers' honorarium hike** announced in 2024: Up to ₹8,000/month for ASHAs in high-performing states — addressing the long-standing underpayment issue
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Social Sector: Health, Education & Employment" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

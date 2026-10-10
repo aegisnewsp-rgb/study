@@ -13,7 +13,7 @@ lastUpdated: "2026-09-21"
 
 # Islamic History — Amir al-Mu'minin Umar ibn Abd al-Aziz — Qatar Secondary Certificate Islamic Studies Notes
 
-The MoEHE Grade 12 Islamic Studies Term 2 Sira wa-al-Buhuth al-Islamiyya (السيرة والبحوث الإسلامية) domain includes the study of Amir al-Mu'minin Umar ibn Abd al-Aziz (أمير المؤمنين عمر بن عبد العزيز, 63-101 AH / 682-720 CE), the Umayyad caliph widely regarded as the model of righteous Islamic governance after the Rashidun caliphs.
+The MoEHE Grade 12 Islamic Studies Term 2 Sira wa-al-Buhuth al-Islamiyya (السيرة والبحوث الإسلامية) domain includes the study of Amir al-Mu'minin Umar ibn Abd al-Aziz (أمير المؤمنين عمر بن عبد العزيز, 63-101 AH / 682-720 CE), the Umayyad caliph whom later Islamic tradition treats as a model of righteous governance.
 
 > Verify the live Grade 12 textbook edition on https://www.edu.gov.qa/ before planning revision.
 
@@ -88,3 +88,11 @@ Source: MoEHE-issued Grade 12 Islamic Studies Term 2 textbook (Amir al-Mu'minin 
 ---
 
 *Last updated 2026-09-21. Source: MoEHE-issued Grade 12 Islamic Studies Term 2 textbook (Amir al-Mu'minin Umar ibn Abd al-Aziz module), https://afedni.com/. Re-check the live textbook edition on https://www.edu.gov.qa/ before committing a revision plan to a student (qatar).*
+
+## Continue your study
+
+- **[View this topic in your Qatar General Secondary Education Certificate roadmap](/roadmap/?exam=qatar-secondary-certificate&duration=1mo)** — see where "Islamic History — Amir al-Mu'minin Umar ibn Abd al-Aziz" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qatar-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qatar General Secondary Education Certificate exam overview](/exams/qatar-secondary-certificate/)** — pattern, eligibility, and syllabus
+- **[All Islamic Studies notes](/notes/qatar-secondary-certificate/qssc-islamic-studies/)** — browse sibling topics in this subject
+

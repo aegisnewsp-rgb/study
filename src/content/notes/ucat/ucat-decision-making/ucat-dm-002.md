@@ -140,3 +140,11 @@ The best-supported conclusion (C) is the one that mirrors the chart exactly. The
 - Take three probability problems from the official UCAT practice tests and identify which of the five rules each one tests before you calculate.
 - For one Decision Making drill this week, write down the type of every wrong answer (Venn, Bayes, causation, scope, direction) and use that to pick the next drill topic.
 - Re-read each Decision Making worked example in this note without looking at the answer, then check. The re-read is what turns the rule into a habit.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Venn Diagrams and Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Decision Making notes](/notes/ucat/ucat-decision-making/)** — browse sibling topics in this subject
+

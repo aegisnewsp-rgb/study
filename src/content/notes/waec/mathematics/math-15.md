@@ -247,3 +247,11 @@ Mean = $np = 100 \times 0.3 = 30$
 $\sigma = \sqrt{100 \times 0.3 \times 0.7} = \sqrt{21} \approx 4.58$
 
 ⚡ **WAEC Examination Patterns:** Calculate mean, median, and mode for ungrouped and grouped data. Find variance and standard deviation. Use the computational formula for variance. Draw and interpret box plots. Calculate and interpret Pearson's correlation coefficient. Find regression lines. Apply normal distribution and z-scores.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Statistics: Mean, Median, Mode" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

@@ -119,3 +119,11 @@ Answer: 8:1 — Working: Volume ∝ r³. New r = 2 × old r. New volume = 8 × o
 - **Trap 3:** In wire reshaping problems, using wrong radius when the wire is described as "diameter 4 mm" instead of "radius 2 mm." Always use radius in the volume formula.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Mensuration (2D + 3D with numericals)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

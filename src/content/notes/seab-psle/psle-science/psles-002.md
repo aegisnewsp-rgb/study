@@ -126,3 +126,11 @@ Systems is one of the four themes in the 2023 MOE Primary Science Syllabus (alon
 ---
 
 *Last updated 2026-09-20. Source: MOE Primary Science Teaching and Learning Syllabus 2023, https://www.moe.gov.sg/api/media/ba3562d3-5b31-4459-8693-45cde7b97273/Primary-Science-Syllabus-2023.pdf. Paper format and AL scoring bands must be re-checked on https://www.seab.gov.sg/psle/ before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Primary School Leaving Examination (PSLE) roadmap](/roadmap/?exam=seab-psle&duration=1mo)** — see where "Systems (Plant, Animal and Human Body Systems)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=seab-psle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Primary School Leaving Examination (PSLE) exam overview](/exams/seab-psle/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/seab-psle/psle-science/)** — browse sibling topics in this subject
+

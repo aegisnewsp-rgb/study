@@ -123,3 +123,11 @@ Answer: 8 — Working: By intersecting chords theorem: AP × PB = CP × PD → 4
 - **Trap 3:** In cyclic quadrilateral problems, using Ptolemy's theorem on non-cyclic quadrilaterals. Always confirm it's cyclic first (opposite angles = 180°).
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Geometry & Triangles (Theorems, Similarity, Circles)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

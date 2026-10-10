@@ -100,3 +100,11 @@ What is the sum of the solutions to the quadratic equation 2x^2 - 14x + 11 = 0?
    x = (14 +- sqrt((-14)^2 - 4(2)(11))) / 4 = (14 +- sqrt(196 - 88)) / 4 = (14 +- sqrt(108)) / 4.
    Adding the two conjugate roots: (14 + sqrt(108) + 14 - sqrt(108)) / 4 = 28 / 4 = 7.
    Vieta's formula eliminates five arithmetic steps and prevents radical calculation errors.
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Problem Solving and Data Analysis — Ratios, Rates and Percentages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Math notes](/notes/sat-kuwait/sat-math/)** — browse sibling topics in this subject
+

@@ -87,3 +87,11 @@ To soften 1 L using Na₂CO₃, you need to precipitate the equivalent moles of 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Water Chemistry and Hardness" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/neco/chemistry/)** — browse sibling topics in this subject
+

@@ -199,3 +199,11 @@ The comparison reveals the questions where the calculator helps and the question
 2. Build a flashcard set for the percentage multipliers (5%, 8%, 12%, 15%, 20%, 25%, 30%) and drill both forms (× 0.05 vs × 0.95).
 3. On the next two timed mocks, count how many times you open the calculator. Aim to cut it by a third.
 4. Spend one practice block on questions you cannot solve with mental arithmetic only — these are the ones that genuinely need the calculator. Anything else, leave the calculator closed. The official UCAT practice tests are the right benchmark, and the per-subtest scoring scale (300-900) is on the UCAT Consortium test-format page at ucat.ac.uk; cohort figures and percentile bands are published there each year and should be checked at booking time.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Calculator versus Mental Arithmetic" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/ucat/ucat-quantitative-reasoning/)** — browse sibling topics in this subject
+

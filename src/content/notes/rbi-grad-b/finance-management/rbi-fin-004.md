@@ -196,7 +196,7 @@ CAPM's single-factor (market) model has been empirically challenged. The **Fama-
 
 $$E(R_i) = R_f + \beta_1 R_m + \beta_2 \text{SMB} + \beta_3 \text{HML} + \alpha_i$$
 
-In India, studies show the Fama-French factors explain more return variation than CAPM alone. The NSE has published data showing SMB and HML premia exist in Indian markets, though with smaller magnitudes than in the US.
+In India, Fama-French factor returns explain more variation than CAPM alone. The NSE has published data showing SMB and HML premia exist in Indian markets, though with smaller magnitudes than in the US.
 
 More recently, **Carhart's Four-Factor Model** adds a momentum factor (WML — Winners Minus Losers), and Chen, Roll, and Ross identified macroeconomic factors (industrial production, inflation, term structure, credit risk) that price assets.
 
@@ -342,3 +342,11 @@ Even with the lower Beta, alpha is substantially negative — this fund is under
 - **G-Sec Market Development**: The introduction of new G-Sec categories (including the 7-year G-Sec for retail investors) and RBI Retail Direct scheme has brought retail investors into the fixed income market, making interest rate risk management (Duration, Modified Duration concepts) more relevant for individual investors.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Risk & Return" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance & Management notes](/notes/rbi-grad-b/finance-management/)** — browse sibling topics in this subject
+

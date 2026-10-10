@@ -95,6 +95,13 @@ The Saudi Commission for Health Specialties (SCFHS) and the Council of Senior Sc
 
 ---
 
+## Continue your study
+
+- **[View this topic in your Saudi Medical Licensure / SGPAT roadmap](/roadmap/?exam=sgpat&duration=1mo)** — see where "Medical Ethics and Patient Safety" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sgpat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Saudi Medical Licensure / SGPAT exam overview](/exams/sgpat/)** — pattern, eligibility, and syllabus
+- **[All Medicine notes](/notes/sgpat/medicine/)** — browse sibling topics in this subject
+
 ## Sources & verification
 - Saudi Commission for Health Specialties (SCFHS) Code of Ethics for Healthcare Practitioners.
 - Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics*, Oxford University Press.

@@ -94,3 +94,11 @@ Source: MoEHE-issued Grade 12 Islamic Studies Term 1 (Athar al-Aqidah) and Term 
 ---
 
 *Last updated 2026-09-21. Source: MoEHE-issued Grade 12 Islamic Studies Term 1 (Athar al-Aqidah) and Term 2 (Mawaqif al-Islam min al-Sihr) textbooks, https://almanahj.com/qa/id=7313 and https://afedni.com/. Re-check the live textbook edition on https://www.edu.gov.qa/ before committing a revision plan to a student (qatar).*
+
+## Continue your study
+
+- **[View this topic in your Qatar General Secondary Education Certificate roadmap](/roadmap/?exam=qatar-secondary-certificate&duration=1mo)** — see where "Aqidah — Athar al-Aqidah and Mawaqif al-Islam min al-Sihr" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qatar-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qatar General Secondary Education Certificate exam overview](/exams/qatar-secondary-certificate/)** — pattern, eligibility, and syllabus
+- **[All Islamic Studies notes](/notes/qatar-secondary-certificate/qssc-islamic-studies/)** — browse sibling topics in this subject
+

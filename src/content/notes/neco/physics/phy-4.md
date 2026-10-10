@@ -120,3 +120,11 @@ Resultant R = √(12.5² + 4.33²) = √(156.25 + 18.75) = √175 = **13.23 N**.
 Direction: tan θ = 4.33/12.5 → θ = 19.1° north of east.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Scalars and Vectors" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/neco/physics/)** — browse sibling topics in this subject
+

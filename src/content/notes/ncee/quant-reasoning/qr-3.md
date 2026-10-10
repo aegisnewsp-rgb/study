@@ -169,3 +169,11 @@ Try these NCEE-style questions:
 - Test your theory on the known third number
 - If it fits, apply to the unknown fourth number
 - If not, try another relationship
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Number Analogies" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/ncee/quant-reasoning/)** — browse sibling topics in this subject
+

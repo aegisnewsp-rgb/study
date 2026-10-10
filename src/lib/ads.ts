@@ -320,9 +320,21 @@ export const VISITOR_GEO_STORAGE_KEY = 'sr:geo';
  * Pages that must never request an ad. Enforced twice — here (build) and in
  * `/data/sr-ad-safety-check.sh` (live HTTP) — because a regression on any of
  * these fails deploy validation and breaches ad-network placement policy.
+ *
+ * 2026-10-03 — `/roadmap/` REMOVED (it was the site's single biggest
+ * revenue-per-page leak, and this list was the cause). It was excluded as
+ * though it were a policy page, but it is a real, indexable content page:
+ * canonical `https://studyroadmap.in/roadmap/`, present in sitemap-0.xml,
+ * ~275 KB of body copy, no robots noindex. Measured over 2026-09-25..10-02
+ * (Umami `website_event` x `session.country`): 1083 of 7495 site pageviews
+ * (14.5%) and 96 of 812 monetisable sessions (11.8%) landed on it, and the
+ * live HTML served `data-sr-ads="excluded"` with zero ad markup — so ~12% of
+ * monetisable sessions earned $0 while carrying the site's full content cost.
+ * `/data/sr-ad-safety-check.sh` section A used to assert 0 ad requests here;
+ * it now asserts this path in the ELIGIBLE list instead, so the deploy gate
+ * still fails loudly if ads ever vanish from it.
  */
 export const AD_EXCLUDED_PATHS = [
-    '/roadmap/',
     '/privacy/',
     '/terms/',
     '/disclaimer/',

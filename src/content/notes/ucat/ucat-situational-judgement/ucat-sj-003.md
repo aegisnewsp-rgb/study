@@ -318,3 +318,11 @@ After one cycle of the four-day plan, your wrong answers should cluster in one o
 2. Build a flashcard set of the six traps with one example for each. Read the set before each practice session.
 3. Sit one full SJT mock under timed conditions. After, count your answers in each band; the distribution tells you which trap is biting you most.
 4. Repeat the cycle with a second mock. The official UCAT practice tests are the right benchmark for the 69-question, 26-minute shape and the published band descriptors. Cohort-level figures and any year-on-year statistics are on ucat.ac.uk, and they are the only numbers worth carrying into your booking cycle.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Banding and Partial-Mark Scoring" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Situational Judgement notes](/notes/ucat/ucat-situational-judgement/)** — browse sibling topics in this subject
+

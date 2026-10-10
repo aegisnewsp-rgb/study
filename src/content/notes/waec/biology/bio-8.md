@@ -234,3 +234,11 @@ A semipermeable membrane allows diffusion of urea, salts, excess water out of bl
 - Production of bile
 
 ⚡ **WAEC Examination Patterns:** Draw and label the kidney and nephron. Explain the three processes in urine formation (ultrafiltration, reabsorption, secretion). Explain the role of ADH. Describe how the Loop of Henle creates a concentration gradient. Explain homeostasis with examples. Describe temperature regulation. Compare Type 1 and Type 2 diabetes.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Excretory System and Homeostasis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+

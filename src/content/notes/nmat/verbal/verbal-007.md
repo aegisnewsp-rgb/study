@@ -280,3 +280,11 @@ The modifier needs something to modify:
 8. **Good/Well**: Good (adj), Well (adv or healthy)
 9. **Who/Whom**: Who (subject), Whom (object)
 10. **Than/Then**: Than (comparison), Then (time)
+
+## Continue your study
+
+- **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Sentence Correction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nmat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NMAT (Philippines) exam overview](/exams/nmat/)** — pattern, eligibility, and syllabus
+- **[All Verbal notes](/notes/nmat/verbal/)** — browse sibling topics in this subject
+

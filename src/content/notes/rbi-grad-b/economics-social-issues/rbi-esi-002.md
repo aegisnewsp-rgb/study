@@ -228,3 +228,11 @@ Average annual growth = (5.5 + 6.4 + 7.4 + 8.3 + 7.1) / 5 = 6.94% ≈ **6.9%**
 - NITI Aayog released India's first **AI for Agriculture Report** (2025) — exploring how AI and drone technology can transform small-scale farming
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Five-Year Plans & Economic Planning in India" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

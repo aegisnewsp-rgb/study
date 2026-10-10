@@ -97,3 +97,11 @@ Transitions on the Digital SAT test four primary logical relationships: addition
 ---
 
 *Last updated 2026-09-20. Source: The Digital SAT Suite Specifications Overview, https://satsuite.collegeboard.org/media/pdf/digital-sat-test-spec-overview.pdf. College Board "What's on the Digital SAT" specifications, https://counselors.collegeboard.org/media/pdf/Digital%20SAT%20Test%20Specifications.pdf. Live SAT format and any in-year changes must be re-checked on satsuite.collegeboard.org before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Expression of Ideas — Transitions and Rhetorical Synthesis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading and Writing notes](/notes/sat-kuwait/sat-rw/)** — browse sibling topics in this subject
+

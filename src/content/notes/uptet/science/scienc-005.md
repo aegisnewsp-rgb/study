@@ -235,3 +235,11 @@ Groundwater: Recharged by infiltration through soil. Aquifers are underground wa
 2. Thinking natural resources are unlimited — even renewable resources can be depleted faster than they regenerate.
 3. Confusing "weather" (day-to-day atmospheric condition) with "climate" (long-term average over 30+ years).
 4. Forgetting that decomposers are essential — without them, nutrients would stay locked in dead organisms and life would cease.
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Environment and Natural Resources" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
+

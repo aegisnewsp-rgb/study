@@ -62,3 +62,11 @@ The Bangladesh Liberation War was the result of accumulated structural and polit
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your PPSC (Pakistan) roadmap](/roadmap/?exam=ppsc&duration=1mo)** — see where "History of Pakistan — Pre-Independence to 1971" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[PPSC (Pakistan) exam overview](/exams/ppsc/)** — pattern, eligibility, and syllabus
+- **[All Pakistan Affairs notes](/notes/ppsc/pakistan-affairs/)** — browse sibling topics in this subject
+

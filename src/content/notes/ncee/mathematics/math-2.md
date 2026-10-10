@@ -108,3 +108,11 @@ VAT = 7.5% × 43,200 = N3,240. Final amount = 43,200 + 3,240 = **N46,440**.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Percentages and Ratios" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ncee/mathematics/)** — browse sibling topics in this subject
+

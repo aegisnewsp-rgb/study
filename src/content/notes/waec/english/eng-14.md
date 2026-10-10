@@ -191,3 +191,11 @@ For argumentative essays, including a brief counter-argument paragraph signals m
 - [ ] Is my essay within 350–500 words?
 
 ⚡ **Final WAEC Strategy:** On exam day, read all four questions carefully before choosing. Pick the question you can argue most convincingly — not necessarily the one you find most interesting. Spend 5 minutes on a written plan. Write 350–500 words. Leave 5 minutes for a quick review of your essay for mechanical errors. This systematic approach consistently produces the highest scores.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Paragraph and Essay Writing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
+

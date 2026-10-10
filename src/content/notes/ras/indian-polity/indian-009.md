@@ -97,7 +97,7 @@ The Court also examined whether the Commission could de-recognize a political pa
 
 #### Detailed Anti-Defection Analysis
 
-The anti-defection law under the Tenth Schedule has been one of the most controversial constitutional provisions since its enactment. Its stated purpose is to prevent political defections that destabilise elected governments and promote horse-trading. Its critics argue that it instead shackles the conscience of legislators, preventing them from voting according to the interests of the people.
+The anti-defection law under the Tenth Schedule has been one of the most controversial constitutional provisions since its enactment. Its stated purpose is to prevent political defections that destabilise elected governments and promote horse-trading. It instead shackles the conscience of legislators and makes party discipline harder to resist, preventing them from voting according to the interests of the people.
 
 The key cases on anti-defection include Kihoto Hollohan vs. Zachillhu in 1992 where the Supreme Court upheld the anti-defection provisions but held that the Speaker's decision is subject to judicial review. The Court held that the presiding officer must act reasonably, follow principles of natural justice, and give the affected member an opportunity to be heard. The Court also held that the anti-defection law does not prevent a member from voting according to conscience on certain matters, particularly those relating to the whip being contrary to the member's understanding of the public interest.
 
@@ -138,3 +138,11 @@ Previous year questions from RAS have asked about the composition and powers of 
 6. The Model Code of Conduct is not a statute but is enforced as a condition of the Commission's authority under Article 324. Violations can result in derecognition of parties.
 7. NOTA was introduced by the Supreme Court in 2013. It is a right to reject all candidates and is part of the right to vote under Article 19(1)(a).
 8. The 91st Amendment capped the number of ministers in a state at 15 percent of the total strength of the legislative assembly. This was to prevent the proliferation of ministries after the anti-defection law made it difficult to dissolve assemblies.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Elections Election Commission Representation of People Act Anti-Defection" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

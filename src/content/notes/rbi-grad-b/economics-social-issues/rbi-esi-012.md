@@ -298,3 +298,11 @@ This means the government is running a **primary surplus** — meaning even befo
 - **RBI's New Monetary Policy Framework Agreement (2025)**: RBI and the government signed a revised Monetary Policy Agreement (replacing the 2016 agreement) — updated to account for multiple price indices, financial stability objectives, and supply-side inflation measurement improvements
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Current Economic Affairs" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

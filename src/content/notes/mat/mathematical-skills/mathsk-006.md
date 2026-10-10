@@ -209,3 +209,11 @@ $$P(\text{correct}) = \frac{1}{90}$$
 $$P(\text{exactly 3}) = \binom{5}{3} \times \left(\frac{1}{4}\right)^3 \times \left(\frac{3}{4}\right)^2 = 10 \times \frac{1}{64} \times \frac{9}{16} = \frac{90}{1024} = \frac{45}{512}$$
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Probability & Permutation-Combination" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Mathematical-Skills notes](/notes/mat/mathematical-skills/)** — browse sibling topics in this subject
+

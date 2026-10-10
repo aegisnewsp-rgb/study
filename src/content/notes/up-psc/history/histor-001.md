@@ -154,3 +154,8 @@ Often characterized as the "Golden Age" of classical Sanskrit literature and sci
 - **[Medieval India: The Mughal Empire](/notes/up-psc/history/histor-008/)** — Mansabdari system, agrarian revenues, and Akbar's religious policies.
 
 *Content structured across Quick, Standard, and Deep tiers for targeted UPPSC PCS preparation. Verified against standard NCERT and state university curricula.*
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Ancient Indian History" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/up-psc/history/)** — browse sibling topics in this subject

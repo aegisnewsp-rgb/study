@@ -170,3 +170,11 @@ Confirm the live test format and item types on the official UCAT ANZ page before
 ---
 
 *Last updated 2026-09-20. Source: UCAT ANZ Test Format, https://www.ucat.edu.au/about-ucat-anz/test-format/. Awarding body: UCAT ANZ Consortium.*
+
+## Continue your study
+
+- **[View this topic in your UCAT ANZ (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat-anz&duration=1mo)** — see where "Verbal Reasoning" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat-anz&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT ANZ (University Clinical Aptitude Test) exam overview](/exams/ucat-anz/)** — pattern, eligibility, and syllabus
+- **[All UCAT ANZ notes](/notes/ucat-anz/ucat-anz/)** — browse sibling topics in this subject
+

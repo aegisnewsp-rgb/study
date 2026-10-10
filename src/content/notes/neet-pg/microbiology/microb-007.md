@@ -210,3 +210,11 @@ Not viral but often asked together: Prion diseases are rapidly progressive demen
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Virology — HIV, Hepatitis & Herpesviruses" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Microbiology notes](/notes/neet-pg/microbiology/)** — browse sibling topics in this subject
+

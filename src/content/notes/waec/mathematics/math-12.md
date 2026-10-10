@@ -223,3 +223,11 @@ $c = 3$
 $e = \frac{c}{a} = \frac{3}{5} = 0.6$
 
 ⚡ **WAEC Examination Patterns:** Find distance, midpoint, and gradient. Write equations of lines in various forms. Find where lines intersect. Calculate distance from point to line. Find area of triangles and quadrilaterals using coordinates. Work with circles (centre, radius, tangents). Use section formula.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Coordinate Geometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

@@ -213,3 +213,11 @@ $$\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \ldots$$
 - Stationary points: $f'(x) = 0$
 - Maximum: $f''(x) < 0$; Minimum: $f''(x) > 0$
 - $v = \frac{ds}{dt}$; $a = \frac{dv}{dt}$
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Calculus: Differentiation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject
+

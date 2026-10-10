@@ -231,3 +231,11 @@ Albert Bandura (1963) showed children learned aggressive behavior by watching ad
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Principles of Learning — Motivation, Attention, Retention & Reinforcement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/uptet/child-pedagogy/)** — browse sibling topics in this subject
+

@@ -219,3 +219,11 @@ $$\log_a m = \frac{\log_b m}{\log_b a}$$
 - AP: $T_n = a + (n-1)d$; $S_n = \frac{n}{2}(a+l)$
 - GP: $T_n = ar^{n-1}$; $S_n = \frac{a(1-r^n)}{1-r}$; $S_\infty = \frac{a}{1-r}$ (for $|r|<1$)
 - $\log_a(mn) = \log_a m + \log_a n$
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Algebra: Expressions and Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject
+

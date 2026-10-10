@@ -268,3 +268,11 @@ Answer: (D) — Bell makes a chime sound (onoma-to-poeic). Rain makes a patter s
 7. Build vocabulary of common roots and affixes to decode unfamiliar words
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Word Usage & Analogies" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Language-Comprehension notes](/notes/mat/language-comprehension/)** — browse sibling topics in this subject
+

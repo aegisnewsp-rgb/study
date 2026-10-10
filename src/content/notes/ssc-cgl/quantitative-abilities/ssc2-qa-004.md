@@ -123,3 +123,11 @@ Answer: 56.25% — Working: Cost of 800g = cost of 0.8kg at CP. He sells 800g at
 - **Trap 3:** Adding successive profit percentages instead of multiplying the multipliers. 20% + 20% is NOT 40% profit — it's 44% (1.2 × 1.2 = 1.44).
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Profit, Loss & Discount" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

@@ -234,8 +234,13 @@ Which of the statements given above are correct?
 ## Continue your study
 
 - **[UPPSC PCS Exam Overview](/exams/up-psc/)** — eligibility criteria, syllabus structure, marking scheme, and cutoff trends
-- **[All UPPSC PCS Indian Polity Notes](/notes/up-psc/indian-polity/)** — comprehensive guides on Judiciary, Fundamental Rights, and State Legislature
+- **[All UPPSC PCS Indian Polity Notes](/notes/up-psc/indian-polity/)** — full notes on Judiciary, Fundamental Rights, and State Legislature
 - **[UPPSC PCS Preparation Roadmap](/exams/up-psc/#roadmap)** — structured revision timelines and high-yield scoring topics
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Parliament" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/up-psc/indian-polity/)** — browse sibling topics in this subject

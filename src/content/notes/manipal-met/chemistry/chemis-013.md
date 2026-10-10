@@ -93,3 +93,11 @@ Structure A: $\text{CH}_3-\text{C}(=\text{O})-\text{O}^-$ (negative charge on th
 5. **Choosing the wrong IUPAC parent chain.** The longest chain that contains the principal functional group (the suffix group) wins, even if there is a longer chain without it. In $\text{CH}_3\text{CH}_2\text{CH}(\text{OH})\text{CH}_2\text{CH}_3$, the parent is pentane (5 carbons) → pentan-3-ol, not a hexane-based name. A common error picks the longer alkyl chain instead.
 
 Source for MET 2026 B.Tech Chemistry section pattern (60 questions total, 120 minutes, MCQ +4/−1, NAT +4/0, 10 MCQs + 5 NATs in Chemistry): https://www.manipal.edu/content/dam/manipal/mu/documents/Admissions/adm2026/btech_met_syllabus_2026.pdf
+
+## Continue your study
+
+- **[View this topic in your Manipal MET roadmap](/roadmap/?exam=manipal-met&duration=1mo)** — see where "Organic Chemistry — Basic Principles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=manipal-met&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Manipal MET exam overview](/exams/manipal-met/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/manipal-met/chemistry/)** — browse sibling topics in this subject
+

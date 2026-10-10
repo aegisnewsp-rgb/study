@@ -184,3 +184,11 @@ $$h \times \frac{2}{\sqrt{3}} = 50$$
 $$h = \frac{50\sqrt{3}}{2} = 25\sqrt{3} \approx 43.3 \text{ m}$$
 
 ⚡ **WAEC Examination Patterns:** Apply sine rule and cosine rule to find unknown sides and angles. Solve problems involving the ambiguous case (SSA). Calculate areas of triangles using $\frac{1}{2}ab\sin C$. Solve bearing and navigation problems. Solve problems involving angles of elevation and depression. Work with 3D trigonometry problems.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Trigonometry: Sine and Cosine Rules" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

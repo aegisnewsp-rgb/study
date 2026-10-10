@@ -75,3 +75,11 @@ Since MR = P(1 + 1/Ed), a more elastic segment gives a higher MR, and a less ela
 2. **A monopolist faces demand P = 100 − 2Q and has TC = 50 + 10Q.** Find the profit-maximizing output, price, and profit. Then calculate the Lerner Index. (Hint: MR = 100 − 4Q; set MR = MC → Q = 22.5; P = 55; profit = (55 × 22.5) − (50 + 10 × 22.5) = 1,237.5 − 275 = **962.5**; Lerner Index = (55 − 10)/55 ≈ **0.818**)
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Market Structures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ras/economics/)** — browse sibling topics in this subject
+

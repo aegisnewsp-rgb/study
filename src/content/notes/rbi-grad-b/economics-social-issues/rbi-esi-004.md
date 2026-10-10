@@ -348,3 +348,11 @@ Inflation rate = [(110 - 100) / 100] × 100 = **10%**
 - The **Account Aggregator** framework expanded — enabling individuals and businesses to share financial data across institutions, improving credit assessment for small borrowers; RBI estimates this can unlock ₹20 lakh crore in credit supply
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Inflation & Monetary Policy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

@@ -231,7 +231,7 @@ The system's critics point to the absence of any layperson or independent member
 
 The second Official Language Commission was constituted in 1977 but did not submit its report — it was wound up amid political controversy about the pace of Hindi imposition. A third Commission was appointed later.
 
-**Article 351 — Directive to Promote Hindi:** Article 351 provides that it shall be the duty of the Union to promote the spread of the Hindi language, to develop it so that it may serve as a medium of expression for all elements of the composite culture of India, and to secure its enrichment by assimilating without interfering with its genius, the forms, style, and expressions used in Hindustani and in the other languages of India specified in the Eighth Schedule. This is a directive, not a mandatory obligation — the Union is directed but not compelled to promote Hindi. This distinction matters constitutionally: directives are not justiciable but represent constitutional policy.
+**Article 351 — Directive to Promote Hindi:** Article 351 reads: *"it shall be the duty of the Union to promote the spread of the Hindi language, to develop it so that it may serve as a medium of expression for all elements of the composite culture of India, and to secure its enrichment by assimilating without interfering with its genius, the forms, style, and expressions used in Hindustani and in the other languages of India specified in the Eighth Schedule."* This is a directive, not a mandatory obligation — the Union is directed but not compelled to promote Hindi. This distinction matters constitutionally: directives are not justiciable but represent constitutional policy.
 
 **The Three-Language Formula:** The three-language formula was adopted by the National Education Policy of 1968 and reaffirmed in 1986. It proposes that every student should learn: the mother tongue or regional language as the first language; English or a classical language as the second language; and a modern Indian language (not the mother tongue or English) as the third language. This formula has been a source of persistent controversy — southern states have resisted mandatory third-language instruction in Hindi, citing the diversity of languages and the practical difficulties of implementation. The political dimension of the three-language formula — perceived as Hindi imposition — has been significant in state-level politics in Karnataka, Tamil Nadu, and Kerala.
 
@@ -274,3 +274,11 @@ The Attorney-General's role extends to advising ministries on legal questions, r
 6. **Article 77**: All executive orders are issued in the President's name — but the President has no independent decision-making power. The Secretary to the Government of India issues files with "Submitted to the President" but the decision is made by the minister and the Cabinet.
 7. **Language of the Constitution**: The Constitution was originally enacted only in English (under Article 394), with provisions for Hindi translation later. The official text of the Constitution was published in Hindi in 2000 under the 81st Amendment — but the authoritative text remains the English text.
 8. **President's immunity (Article 361)**: Absolute immunity from proceedings for official acts — this is like the British monarch's immunity. However, this immunity does NOT cover personal acts done before or after presidency, nor does it cover acts done outside official capacity during the presidency.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Union Executive President VicePresident Prime Minister" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

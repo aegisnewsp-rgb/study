@@ -213,3 +213,11 @@ Examples:
 8. **Past Simple**: Completed past actions
 9. **Signal words**: already, yet, still, just, ever, never, for, since
 10. **Conditional forms**: Zero, First, Second, Third
+
+## Continue your study
+
+- **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Tenses and Their Usage" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nmat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NMAT (Philippines) exam overview](/exams/nmat/)** — pattern, eligibility, and syllabus
+- **[All Verbal notes](/notes/nmat/verbal/)** — browse sibling topics in this subject
+

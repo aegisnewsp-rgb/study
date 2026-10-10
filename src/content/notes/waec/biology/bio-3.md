@@ -233,3 +233,11 @@ Sucrose is non-reducing. First hydrolyse with HCl, then neutralise with NaHCO₃
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Biological Molecules and Enzymes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+

@@ -142,3 +142,11 @@ Previous year questions from RAS have asked about the composition and powers of 
 6. Article 129 gives the Supreme Court contempt jurisdiction. Both civil and criminal contempt are punishable.
 7. Article 141 declares that law declared by the Supreme Court is binding on all courts in India. Obiter dicta are not strictly binding but carry persuasive weight.
 8. Article 137 gives review jurisdiction. Within 30 days of judgment, a party can file a review petition limited to errors of law apparent on the face of the record.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Supreme Court Jurisdiction Original Jurisdiction Appeals Collegium" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

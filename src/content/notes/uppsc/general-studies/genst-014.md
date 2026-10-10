@@ -73,3 +73,11 @@ Every digital circuit is built from three primitives: **AND** (output 1 only if 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "Hardware & the CPU" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All General-Studies notes](/notes/uppsc/general-studies/)** — browse sibling topics in this subject
+

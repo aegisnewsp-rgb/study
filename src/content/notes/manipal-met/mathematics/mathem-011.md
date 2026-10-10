@@ -106,3 +106,11 @@ Box dimensions: $(5 - 2x)(5 - 2x) \cdot x$, where the original $10 \times 10$ sh
 6. **Misreading "rate of change" wording.** "Rate of change of $y$ with respect to $x$" means $dy/dx$, not $\Delta y / \Delta x$. Average rate of change over an interval is the secant slope; instantaneous rate of change is the derivative.
 
 Source for MET 2026 B.Tech Mathematics section pattern (60 questions total, 120 minutes, MCQ +4/−1, NAT +4/0, 15 MCQs + 5 NATs in Mathematics): https://www.manipal.edu/content/dam/manipal/mu/documents/Admissions/adm2026/btech_met_syllabus_2026.pdf
+
+## Continue your study
+
+- **[View this topic in your Manipal MET roadmap](/roadmap/?exam=manipal-met&duration=1mo)** — see where "Differential Calculus" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=manipal-met&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Manipal MET exam overview](/exams/manipal-met/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/manipal-met/mathematics/)** — browse sibling topics in this subject
+

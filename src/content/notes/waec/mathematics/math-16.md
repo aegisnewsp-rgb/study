@@ -195,3 +195,11 @@ A continuous probability distribution with mean μ and standard deviation σ:
 - Z-score: $z = \frac{x - \mu}{\sigma}$
 
 ⚡ **WAEC Examination Patterns:** Complete probability trees. Calculate expected values. Use counting principles (combinations, permutations). Apply Bayes' theorem in real contexts. Solve problems involving dice, cards, and coins. Find probabilities involving "at least" or "at most" by complement method.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
+

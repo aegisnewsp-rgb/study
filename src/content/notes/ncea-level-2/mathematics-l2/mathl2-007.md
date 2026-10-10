@@ -151,3 +151,11 @@ This achievement standard is externally assessed by NZQA at the end of the acade
 ---
 
 *Last updated 2026-09-20. Source: NZQA Level 2 Mathematics 91262 assessment specification 2026, https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91262-spc-2026.pdf. Awarding body: NZQA.*
+
+## Continue your study
+
+- **[View this topic in your NCEA Level 2 (Mathematics) roadmap](/roadmap/?exam=ncea-level-2&duration=1mo)** — see where "Apply calculus methods in solving problems (91262)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncea-level-2&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEA Level 2 (Mathematics) exam overview](/exams/ncea-level-2/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ncea-level-2/mathematics-l2/)** — browse sibling topics in this subject
+

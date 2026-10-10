@@ -207,3 +207,11 @@ $$30 \times 3 - 5.5M = 270 \implies M = \frac{360}{11} \approx 32.73 \text{ min}
 Answer: Approximately 3:32:44.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Time, Speed & Distance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Mathematical-Skills notes](/notes/mat/mathematical-skills/)** — browse sibling topics in this subject
+

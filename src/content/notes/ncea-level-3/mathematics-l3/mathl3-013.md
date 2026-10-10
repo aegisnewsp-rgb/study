@@ -146,3 +146,11 @@ This achievement standard is externally assessed by NZQA at the end of the acade
 ---
 
 *Last updated 2026-09-20. Source: NZQA Level 3 Mathematics 91585 assessment specification 2026, https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91585-spc-2026.pdf. Awarding body: NZQA.*
+
+## Continue your study
+
+- **[View this topic in your NCEA Level 3 (Mathematics / Calculus) roadmap](/roadmap/?exam=ncea-level-3&duration=1mo)** — see where "Apply probability concepts in solving problems (91585)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncea-level-3&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEA Level 3 (Mathematics / Calculus) exam overview](/exams/ncea-level-3/)** — pattern, eligibility, and syllabus
+- **[All Mathematics (Calculus) notes](/notes/ncea-level-3/mathematics-l3/)** — browse sibling topics in this subject
+

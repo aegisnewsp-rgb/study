@@ -177,3 +177,11 @@ Note: In practice, repo transactions are calculated on an actual/365 basis, and 
 - **Integration of Aadhaar Enabled Payment System (AePS) with Financial Markets**: Expanding digital financial inclusion by linking payment infrastructure with market access
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Financial Markets" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance & Management notes](/notes/rbi-grad-b/finance-management/)** — browse sibling topics in this subject
+

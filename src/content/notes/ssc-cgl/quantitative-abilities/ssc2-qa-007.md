@@ -109,3 +109,11 @@ Answer: Boat speed = 11 km/h, Stream speed = 3 km/h — Working: Boat + stream =
 - **Trap 3:** Forgetting to convert km/h to m/s when the distance is given in metres and time in seconds. Mixing units gives wrong answers.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Time, Speed & Distance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
+

@@ -119,3 +119,11 @@ Problem Solving with Heuristics is the cross-strand topic in the 2021 MOE Primar
 ---
 
 *Last updated 2026-09-20. Source: MOE Primary Mathematics Syllabus 2021 (updated October 2025), https://www.moe.gov.sg/api/media/92bff26d-b2b4-4535-b868-b8415c744b91/2021-Primary-Mathematics-Syllabus-P1-to-P6-Updated-October-2025.pdf. Paper format and AL scoring bands must be re-checked on https://www.seab.gov.sg/psle/ before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Primary School Leaving Examination (PSLE) roadmap](/roadmap/?exam=seab-psle&duration=1mo)** — see where "Problem Solving with Heuristics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=seab-psle&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Primary School Leaving Examination (PSLE) exam overview](/exams/seab-psle/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/seab-psle/psle-mathematics/)** — browse sibling topics in this subject
+

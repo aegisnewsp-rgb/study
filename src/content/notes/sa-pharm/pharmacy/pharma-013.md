@@ -605,3 +605,11 @@ Parkinson's disease (PD) results from degeneration of dopaminergic neurones in t
 - Anticonvulsants: valproate (broad spectrum, hepatotoxic, teratogenic), lamotrigine (slow titration, rash), phenytoin (saturation kinetics), carbamazepine (auto-induction, SJS)
 - Parkinson's: levodopa-carbidopa (gold standard), dopamine agonists, MAO-B inhibitors, COMT inhibitors
 - All CNS drugs with dependence potential are scheduled substances under the Medicines Act; pharmacists must manage prescriptions carefully
+
+## Continue your study
+
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Central Nervous System Drugs" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Pharmacy notes](/notes/sa-pharm/pharmacy/)** — browse sibling topics in this subject
+

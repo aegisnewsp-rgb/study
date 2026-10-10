@@ -104,3 +104,11 @@ Step 1 — signal: *Unlike* marks contrast. Step 2 — partner: Musa is pessimis
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Vocabulary and Word Context" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/neco/english/)** — browse sibling topics in this subject
+

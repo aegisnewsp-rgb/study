@@ -300,3 +300,11 @@ Self-efficacy (belief in one's capability to perform a specific task) is one of 
 | Maslow | Holistic | Need hierarchy | Growth requires lower need satisfaction |
 
 ⚡ **Exam Tip:** UPTET questions comparing theorists frequently appear as "Which theorist would explain X through Y mechanism?" The most common confusion: Rogers (self-concept, UPR) vs. Freud (unconscious drives, early childhood). Rogers focuses on the *present self* and positive regard; Freud focuses on *early childhood* and unconscious conflict.
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Personality and Self-Concept" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Child Development and Pedagogy notes](/notes/uptet/child-pedagogy/)** — browse sibling topics in this subject
+

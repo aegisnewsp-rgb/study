@@ -146,3 +146,11 @@ UI geometry questions frequently combine multiple concepts:
 5. Use coordinate geometry for lines and triangles
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Geometry — Lines, Angles, Triangles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/uii/subject-knowledge/)** — browse sibling topics in this subject
+

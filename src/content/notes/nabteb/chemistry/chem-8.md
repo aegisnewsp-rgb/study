@@ -100,3 +100,11 @@ Q = 2.0 × (80 × 60) = 9600 C; n = 2; M(Cu) = 63.5; m = (63.5 × 9600) / (2 × 
 2. Explain, with reference to the electrochemical series, why iron tanks are not used to store CuSO₄ solution.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Electrochemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/nabteb/chemistry/)** — browse sibling topics in this subject
+

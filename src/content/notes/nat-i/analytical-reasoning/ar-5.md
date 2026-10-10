@@ -84,3 +84,11 @@ NAT-I candidates lose marks by (1) counting A as 0, (2) applying a single rule t
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NAT-I (NTS) roadmap](/roadmap/?exam=nat-i&duration=1mo)** — see where "Series Completion (Letters)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nat-i&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
+- **[All Analytical Reasoning notes](/notes/nat-i/analytical-reasoning/)** — browse sibling topics in this subject
+

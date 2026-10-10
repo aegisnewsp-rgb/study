@@ -159,3 +159,11 @@ So $\int \sec x dx = \int \frac{du}{u} = \ln|u| + C = \ln|\sec x + \tan x| + C$.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NDA roadmap](/roadmap/?exam=nda&duration=1mo)** — see where "Integral Calculus" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nda&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NDA exam overview](/exams/nda/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nda/mathematics/)** — browse sibling topics in this subject
+

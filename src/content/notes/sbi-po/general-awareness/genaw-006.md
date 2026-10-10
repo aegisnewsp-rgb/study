@@ -292,3 +292,11 @@ Replaced FERA (1973) with the liberalisation of the 1990s.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SBI PO roadmap](/roadmap/?exam=sbi-po&duration=1mo)** — see where "International Finance and Organizations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI PO exam overview](/exams/sbi-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-po/general-awareness/)** — browse sibling topics in this subject
+

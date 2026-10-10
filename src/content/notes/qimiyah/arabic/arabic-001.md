@@ -227,3 +227,11 @@ While detailed Tajweed rules are covered in Topic 4, the basics of letter pronun
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Arabic Alphabet and Vocalization (Harakat)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qimiyah&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qimiyah Exam (Saudi) exam overview](/exams/qimiyah/)** — pattern, eligibility, and syllabus
+- **[All Arabic notes](/notes/qimiyah/arabic/)** — browse sibling topics in this subject
+

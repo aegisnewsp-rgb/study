@@ -72,3 +72,11 @@ A screening mammography study of 10,000 women: 200 have breast cancer (180 test 
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Saudi GP Board roadmap](/roadmap/?exam=sgpat&duration=1mo)** — see where "Study Designs and the Evidence Pyramid" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sgpat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Saudi GP Board exam overview](/exams/sgpat/)** — pattern, eligibility, and syllabus
+- **[All Medicine notes](/notes/sgpat/medicine/)** — browse sibling topics in this subject
+

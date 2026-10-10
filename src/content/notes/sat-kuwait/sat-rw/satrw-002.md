@@ -100,3 +100,11 @@ Which choice best uses data from the study to support the researchers' claim?
  - Species A: (450 - 120) / 120 = 330 / 120 = 275% increase (population grew by 3.75x).
  - Species B: (190 - 85) / 85 = 105 / 85 = 123.5% increase (population grew by 2.23x).
 - Choice (B) precisely isolates relative growth rate (tripling vs doubling). Choice (A) addresses only absolute counts, not growth rate. Correct selection is (B).
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Information and Ideas — Command of Evidence" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading and Writing notes](/notes/sat-kuwait/sat-rw/)** — browse sibling topics in this subject
+

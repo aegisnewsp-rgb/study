@@ -216,8 +216,13 @@ Authors of comprehension passages employ literary devices to enrich descriptions
 ## Continue your study
 
 - **[NABTEB Exam Overview](/exams/nabteb/)** — modular certification structure, technical paper breakdowns, and scoring criteria
-- **[All NABTEB English Notes](/notes/nabteb/english/)** — comprehensive guides covering Summary Writing, Lexis and Structure, and Essay Composition
+- **[All NABTEB English Notes](/notes/nabteb/english/)** — full notes on Summary Writing, Lexis and Structure, and Essay Composition
 - **[NABTEB English Preparation Roadmap](/exams/nabteb/#roadmap)** — study milestones, high-frequency vocabulary drills, and past question analysis
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Reading Comprehension and Textual Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/nabteb/english/)** — browse sibling topics in this subject

@@ -194,6 +194,13 @@ Asking questions that assume the answer the author wants.
 > "Are we really going to allow this government to destroy our children's future?"
 The question presupposes the government is destroying the future.
 
+## Continue your study
+
+- **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Critical Reading and Author's Purpose" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=muet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MUET (Malaysia) exam overview](/exams/muet/)** — pattern, eligibility, and syllabus
+- **[All Reading (Paper 2) notes](/notes/muet/reading/)** — browse sibling topics in this subject
+
 ## Detecting Bias in Source Selection
 
 Even when data is accurate, bias can enter through **which sources are selected and how they are used**:

@@ -1,7 +1,21 @@
 # build output
 dist/
+# Quarantined build output. A host-side ROOT-run `npm run build` recreates dist/
+# and node_modules/.vite with root ownership, which makes the node-owned workspace
+# un-writable (EACCES on unlink/mkdir) and therefore makes the mandatory
+# _policy.md end-of-run `npm run build` gate un-runnable for every claw pulse.
+# Claw pulses rename the root-owned tree aside instead of deleting it (a claw runs
+# as uid 1000 `node` and CANNOT unlink files inside a root-owned directory), so the
+# renamed copy must stay ignored or scripts/check-scope.sh blocks ~1945 paths.
+# `dist/` above matches only the exact name; these globs are required.
+dist.tmp*/
+dist.rootowned-*/
+dist/rootowned-archive/
 # generated types
 .astro/
+# Same root-ownership quarantine as dist/ above - see the comment there.
+.astro.rootowned-*/
+.astro.tmp*/
 
 # dependencies
 node_modules/

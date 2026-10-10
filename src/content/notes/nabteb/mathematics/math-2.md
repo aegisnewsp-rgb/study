@@ -152,3 +152,8 @@ $$\frac{3\frac{1}{4} - 1\frac{2}{3}}{2\frac{1}{2} \times 1\frac{1}{5}} \div \fra
 - **[NABTEB Exam Hub](/exams/nabteb/)** — syllabus outline, trade qualifications, assessment grading, and exam dates
 - **[All NABTEB Mathematics Notes](/notes/nabteb/mathematics/)** — algebra, geometry, mensuration, trigonometry, and statistics
 - **[NABTEB Study Schedule & Strategy](/exams/nabteb/#roadmap)** — technical trade preparation roadmap and high-yield scoring guides
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Fractions, Decimals and Percentages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject

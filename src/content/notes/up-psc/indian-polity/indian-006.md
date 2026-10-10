@@ -253,3 +253,8 @@ Select the correct code:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Judiciary" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/up-psc/indian-polity/)** — browse sibling topics in this subject

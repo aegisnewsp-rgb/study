@@ -107,3 +107,11 @@ Solve for x in the radical equation sqrt(2x + 15) = x + 6 and identify any extra
    - For x = -3: sqrt(2(-3) + 15) = sqrt(9) = 3; right side is -3 + 6 = 3. Valid root!
    - For x = -7: sqrt(2(-7) + 15) = sqrt(1) = 1; right side is -7 + 6 = -1. Since 1 != -1, x = -7 is extraneous.
    - The unique real solution is x = -3.
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Passport to Advanced Math — Quadratics and Polynomials" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Math notes](/notes/sat-kuwait/sat-math/)** — browse sibling topics in this subject
+

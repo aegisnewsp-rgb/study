@@ -72,3 +72,11 @@ Mixtures are further classified as **homogeneous** (uniform throughout) and **he
 **NCERT textbooks for Classes 6-8** deal with matter in specific chapters. Class 6 introduces "Matter — Its Nature and Behaviour" with the particle model, pure substances and mixtures, and separation of mixtures. Class 7 covers "Properties of Matter" — their states, physical changes, and methods of separation. Class 8 introduces "Reaching the Age of Adolescence" but also consolidates earlier matter concepts through activities. Understanding the NCERT progression is crucial for UPTET preparation because the exam tests not just content knowledge but pedagogical understanding of how concepts should be taught.
 
 ⚡ **Exam tip:** UPTET Paper 2 science questions often ask about teaching methods — not just content. For example, "Which activity would best help children understand that air occupies space?" requires knowledge of both the scientific concept and appropriate pedagogical strategies. Always look for the answer that reflects child-centred, activity-based learning aligned with NCF 2005.
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Matter: Classification and Physical Changes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
+

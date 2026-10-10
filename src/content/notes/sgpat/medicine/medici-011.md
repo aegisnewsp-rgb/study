@@ -65,3 +65,11 @@ A 70-year-old woman, 60 kg, SCr 150 μmol/L, requires gentamicin for Gram-negati
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Saudi GP Board roadmap](/roadmap/?exam=sgpat&duration=1mo)** — see where "Pharmacokinetics (ADME)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sgpat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Saudi GP Board exam overview](/exams/sgpat/)** — pattern, eligibility, and syllabus
+- **[All Medicine notes](/notes/sgpat/medicine/)** — browse sibling topics in this subject
+

@@ -110,3 +110,11 @@ This achievement standard is internally assessed by the school. NZQA publishes t
 ---
 
 *Last updated 2026-09-20. Source: NZQA Level 2 Mathematics achievement standards, https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics. Awarding body: NZQA.*
+
+## Continue your study
+
+- **[View this topic in your NCEA Level 2 (Mathematics) roadmap](/roadmap/?exam=ncea-level-2&duration=1mo)** — see where "Conduct an experiment to investigate a situation using statistical methods (91265)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncea-level-2&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEA Level 2 (Mathematics) exam overview](/exams/ncea-level-2/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ncea-level-2/mathematics-l2/)** — browse sibling topics in this subject
+

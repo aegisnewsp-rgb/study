@@ -180,3 +180,11 @@ Fat globules → (bile emulsification) → Small fat droplets → (lipase in duo
 | Emulsion test | Fats | Ethanol + water | White emulsion |
 
 ⚡ **WAEC Examination Patterns:** Draw and label the digestive system. Explain peristalsis. Name the enzymes and their functions. Describe what happens to food in each part of the GIT. Explain the absorption of nutrients across the villus. Be prepared for a "trace the journey of a [sandwich] through the digestive system" type question.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Digestive System in Humans" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+

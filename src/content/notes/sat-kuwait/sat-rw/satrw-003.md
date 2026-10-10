@@ -105,3 +105,11 @@ Which choice best summarizes the central idea of the text?
 **Analysis**:
 - Central trajectory: Walcott proposed biological origin -> Critics argued inorganic/abiogenic -> Modern microscopic/isotopic evidence proved Walcott was right.
 - Choice (A) accurately integrates the full narrative arc and main thesis. Choice (B) contradicts the resolution; (C) makes an unsupported negative claim; (D) states the refuted counter-hypothesis. Correct selection is (A).
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Craft and Structure — Words in Context" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading and Writing notes](/notes/sat-kuwait/sat-rw/)** — browse sibling topics in this subject
+

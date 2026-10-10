@@ -250,3 +250,11 @@ Note: India's actual reported HDI in 2022 (HDR) was 0.633. The discrepancy arise
 - **NITI Aayog's India Innovation Index 2024**: Karnataka, Maharashtra, and Tamil Nadu remain top states; Bihar and Jharkhand improved fastest — showing internal innovation disparities narrowing slowly.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Global Indices: HDI, GII & Ease of Doing Business" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

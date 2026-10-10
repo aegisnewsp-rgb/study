@@ -136,3 +136,11 @@ Alternative approach for (c): Start from GNP at market prices = 117; GNP at fact
 - **Global GDP ranking**: India remains 5th largest globally (behind US, China, Japan, Germany), with nominal GDP crossing $4 trillion in FY2024-25.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "GDP, GNP, NDP, NNP" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics & Social Issues notes](/notes/rbi-grad-b/economics-social-issues/)** — browse sibling topics in this subject
+

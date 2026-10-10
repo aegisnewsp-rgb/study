@@ -89,3 +89,11 @@ Understanding these criteria is the foundation for everything else. Each subsequ
 - I will spend at least 3 minutes planning before writing
 - I will leave 5 minutes to review my work
 - I know that Task 1 must be a formal letter, not informal
+
+## Continue your study
+
+- **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Overview of the MUET Writing Paper" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=muet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MUET (Malaysia) exam overview](/exams/muet/)** — pattern, eligibility, and syllabus
+- **[All Writing (Paper 4) notes](/notes/muet/writing/)** — browse sibling topics in this subject
+

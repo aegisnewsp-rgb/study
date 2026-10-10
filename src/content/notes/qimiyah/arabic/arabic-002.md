@@ -237,3 +237,11 @@ These particles are used to form questions:
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Parts of Speech in Arabic (Anaṣūr al-Kalimah)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qimiyah&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qimiyah Exam (Saudi) exam overview](/exams/qimiyah/)** — pattern, eligibility, and syllabus
+- **[All Arabic notes](/notes/qimiyah/arabic/)** — browse sibling topics in this subject
+

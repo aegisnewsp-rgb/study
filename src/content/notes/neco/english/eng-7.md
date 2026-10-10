@@ -211,3 +211,11 @@ NECO often tests recognition of these common errors:
 3. Misplaced "only": "I only ate rice" (should be "I ate only rice" or "I ate rice only")
 4. Dangling modifiers: "Walking to school, the rain started" (rain didn't walk — should restructure)
 5. Faulty parallelism: "She likes reading and to write" (should be "reading and writing")
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Sentence Construction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/neco/english/)** — browse sibling topics in this subject
+

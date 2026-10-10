@@ -225,3 +225,11 @@ Electronegativity difference predicts bond character:
 - VSEPR: electron pairs repel, minimise angles
 - $sp^3$: 4 bonds = tetrahedral; $sp^2$: 3 bonds = trigonal planar; $sp$: 2 bonds = linear
 - Hydrogen bonding: H bonded to F, O, or N
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Atomic Structure and Bonding" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/nabteb/chemistry/)** — browse sibling topics in this subject
+

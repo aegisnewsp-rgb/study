@@ -110,3 +110,11 @@ A retail warehouse offers a 20% discount off the original price of an electronic
 4. Equate to the final price paid:
    0.68P = 136.00 -> P = 136.00 / 0.68 = 200.00.
 5. Common distractor error: adding the percentages (20% + 15% = 35%) and computing 136 / 0.65 = $209.23. Successive percentage changes multiply; they never add.
+
+## Continue your study
+
+- **[View this topic in your SAT (Kuwait) roadmap](/roadmap/?exam=sat-kuwait&duration=1mo)** — see where "Geometry and Trigonometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sat-kuwait&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAT (Kuwait) exam overview](/exams/sat-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Math notes](/notes/sat-kuwait/sat-math/)** — browse sibling topics in this subject
+

@@ -110,3 +110,11 @@ The best answer is B. The argument observes that B followed A and concludes that
 - Build a one-page reference card listing the five flaws above (false dilemma, post hoc, ad hominem, straw man, begging the question) with one example sentence for each. Review the card before each Decision Making drill.
 - After each drill, classify every wrong argument-evaluation answer as "missed the hidden assumption" or "missed the named flaw". The category tells you what to drill next.
 - Take one argument from a newspaper editorial and run it through the four-question checklist. The point is to make the checklist automatic, not to agree with the editorial.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Assumptions and Flaws" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Decision Making notes](/notes/ucat/ucat-decision-making/)** — browse sibling topics in this subject
+

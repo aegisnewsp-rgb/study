@@ -84,3 +84,11 @@ This chapter underpins **kinematics** (v = d/t), **mechanics** (F = ma, W = mg),
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Measurements and Units" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/waec/physics/)** — browse sibling topics in this subject
+

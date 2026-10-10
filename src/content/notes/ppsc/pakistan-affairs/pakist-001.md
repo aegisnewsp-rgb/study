@@ -283,3 +283,11 @@ Based on analysis of PPSC exam syllabi and past papers:
 - Know key statistics: area, coastline length, river lengths, dam capacities.
 - Link geography to economics — why is the Indus Plain so important? Why is Balochistan strategically vital?
 - For constitutional and governance exams, land and people is foundational — population demographics, provincial populations, and the 2017 census results matter.
+
+## Continue your study
+
+- **[View this topic in your PPSC roadmap](/roadmap/?exam=ppsc&duration=1mo)** — see where "Land and People of Pakistan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[PPSC exam overview](/exams/ppsc/)** — pattern, eligibility, and syllabus
+- **[All Pakistan Affairs notes](/notes/ppsc/pakistan-affairs/)** — browse sibling topics in this subject
+

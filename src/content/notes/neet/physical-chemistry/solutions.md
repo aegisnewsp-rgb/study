@@ -144,3 +144,11 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 5. Osmotic pressure and van't Hoff factor
 6. Abnormal molecular mass
 7. Azeotropes and solubility
+
+## Continue your study
+
+- **[View this topic in your NEET UG roadmap](/roadmap/?exam=neet&duration=1mo)** — see where "Solutions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET UG exam overview](/exams/neet/)** — pattern, eligibility, and syllabus
+- **[All Physical Chemistry notes](/notes/neet/physical-chemistry/)** — browse sibling topics in this subject
+

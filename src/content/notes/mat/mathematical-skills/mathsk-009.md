@@ -243,3 +243,11 @@ $$P = 4 \times 3750 = ₹15{,}000, \quad Q = 3 \times 3750 = ₹11{,}250$$
 Check: P saves $15000 - 9000 = 6000$ ✓; Q saves $11250 - 5250 = 6000$ ✓
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Ratio, Proportion & Partnership" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Mathematical-Skills notes](/notes/mat/mathematical-skills/)** — browse sibling topics in this subject
+

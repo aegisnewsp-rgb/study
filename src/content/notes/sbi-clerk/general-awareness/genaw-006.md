@@ -183,3 +183,11 @@ India's climate is dominated by the **Southwest Monsoon** (June-September).
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SBI Clerk roadmap](/roadmap/?exam=sbi-clerk&duration=1mo)** — see where "Indian Geography and Physical Features" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI Clerk exam overview](/exams/sbi-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-clerk/general-awareness/)** — browse sibling topics in this subject
+

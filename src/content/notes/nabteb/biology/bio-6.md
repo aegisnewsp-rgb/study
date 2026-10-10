@@ -205,3 +205,11 @@ Blood clotting time: 3–8 minutes (if time is much longer, could indicate haemo
 - Transpiration pull: cohesion-tension theory
 - Blood groups: ABO + Rh
 - Platelets: blood clotting
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Transport in Living Things" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/nabteb/biology/)** — browse sibling topics in this subject
+

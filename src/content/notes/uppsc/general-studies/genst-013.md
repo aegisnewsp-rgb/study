@@ -54,3 +54,11 @@ The **NITI Aayog** (replaced the **Planning Commission** in **2015**) and **Lokp
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "Preamble and Source" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All General-Studies notes](/notes/uppsc/general-studies/)** — browse sibling topics in this subject
+

@@ -248,3 +248,11 @@ Analysis of WAEC Paper 2 (Lexis and Structure) from 2018–2024 shows these recu
 | Interjection | Expresses emotion | wow!, ouch!, alas! |
 
 ⚡ **Final WAEC Strategy:** Build vocabulary systematically — learn 10 new words per day with their collocations, synonyms, antonyms, and one example sentence. Use the morphological analysis technique on every unfamiliar word you encounter. Keep a vocabulary notebook. In the exam, when stuck on a vocabulary question, substitute the word into the sentence — if the sentence sounds wrong, the word is wrong. This simple substitution technique reliably works for synonym and context-clue questions.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Vocabulary Development" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
+

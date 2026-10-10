@@ -146,3 +146,11 @@ Section II (Newtonian Mechanics) is the largest single section of the O-Level Pu
 ---
 
 *Last updated 2026-09-20. Source: MOE/SEAB O-Level Physics 6091 syllabus (updated 2024), https://www.moe.gov.sg/api/media/642daf76-cc03-49ab-a163-7e4b318418d5/2023-OLevel-Physics-Syllabus-Updated-2024.pdf. Paper format and any in-year specification changes must be re-checked on https://www.seab.gov.sg/gce-o-level/ before committing a revision plan to a student.*
+
+## Continue your study
+
+- **[View this topic in your Singapore-Cambridge GCE O-Level roadmap](/roadmap/?exam=seab-gce-o-level&duration=1mo)** — see where "II. Newtonian Mechanics: Kinematics, Dynamics, Mass/Weight/Density, Turning Effect of Forces, Pressure, Energy, Work and Power" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=seab-gce-o-level&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Singapore-Cambridge GCE O-Level exam overview](/exams/seab-gce-o-level/)** — pattern, eligibility, and syllabus
+- **[All Physics (Pure Physics) notes](/notes/seab-gce-o-level/olevel-physics/)** — browse sibling topics in this subject
+

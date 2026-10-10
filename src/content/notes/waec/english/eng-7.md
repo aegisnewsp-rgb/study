@@ -230,3 +230,11 @@ Rules to master:
 Answer: studies, will pass. (First conditional: if + present simple, will + infinitive.)
 
 ⚡ **Final WAEC Strategy:** For sentence transformation questions, always read the given sentence twice before writing your answer. Identify the key elements (subject, verb, object) and the transformation required. Write your answer, then check: (1) Have I preserved the original meaning? (2) Is the grammar correct? (3) Does the result make a complete, natural sentence? For synthesis, the single most effective strategy is to identify the logical relationship between the two short sentences — if it is cause-effect, use *because/so*; if it is contrast, use *although/but*; if one sentence describes a person or thing, use a relative pronoun. Practice past WAEC questions under timed conditions — speed and accuracy both matter.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Sentence Construction and Synthesis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
+

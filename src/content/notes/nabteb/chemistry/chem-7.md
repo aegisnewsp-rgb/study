@@ -237,3 +237,11 @@ As concentration ($c$) decreases, degree of dissociation increases.
 - Neutralisation: Acid + Base → Salt + Water
 - Buffer: resists pH change
 - Indicator colour change range must bracket the equivalence point pH
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Acids, Bases and Salts" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/nabteb/chemistry/)** — browse sibling topics in this subject
+

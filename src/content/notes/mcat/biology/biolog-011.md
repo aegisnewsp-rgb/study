@@ -82,3 +82,11 @@ Pair this chapter with **Cell Structure** (mitosis vs meiosis: M I halves the ch
 3. **Confusing the template strand with the mRNA.** mRNA is built *antiparallel* and *complementary* to the template; it has the same sequence as the coding strand (except U replaces T). A question asking "what is the mRNA?" requires reading the template 3′→5′ and writing the mRNA 5′→3′.
 4. **Treating sex-linked dominant and recessive as the same.** X-linked dominant affects *both* sexes equally and is passed father to *all* daughters (none to sons). X-linked recessive skips generations and is overwhelmingly male. Read the pedigree before assigning a probability.
 5. **Forgetting that Hardy–Weinberg allele frequency is the *allele*, not the phenotype frequency.** If 1 % of a population shows an autosomal recessive disease, q² = 0.01, q = 0.1, so the carrier frequency is 2pq ≈ 2 × 0.9 × 0.1 = **0.18**, not 0.01.
+
+## Continue your study
+
+- **[View this topic in your MCAT Pakistan roadmap](/roadmap/?exam=mcat&duration=1mo)** — see where "Inheritance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MCAT Pakistan exam overview](/exams/mcat/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/mcat/biology/)** — browse sibling topics in this subject
+

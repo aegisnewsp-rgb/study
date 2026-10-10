@@ -92,3 +92,11 @@ Find the area under `y = x²` from x = 0 to x = 3.
 2. Evaluate `lim(x→0) (eˣ − 1)/x`. *(Apply L'Hôpital or the standard series expansion.)*
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NAT-I (NTS) roadmap](/roadmap/?exam=nat-i&duration=1mo)** — see where "Mathematics: Algebra and Calculus" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nat-i&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/nat-i/subject-knowledge/)** — browse sibling topics in this subject
+

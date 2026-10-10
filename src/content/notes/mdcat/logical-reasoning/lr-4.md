@@ -244,3 +244,11 @@ Answer: The uncle relation requires P to be the brother of R's parent. The expre
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Coding-Decoding" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Logical Reasoning notes](/notes/mdcat/logical-reasoning/)** — browse sibling topics in this subject
+

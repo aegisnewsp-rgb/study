@@ -172,3 +172,11 @@ Previous year questions from RAS have asked about the amendment procedure under 
 6. The Runj formula under the 91st Amendment capped the number of ministers at 15 percent of the total strength of the legislative assembly. This was to prevent proliferation of ministries.
 7. The basic structure includes judicial review, federalism, secularism, separation of powers, and independence of the judiciary. These features cannot be destroyed by constitutional amendment.
 8. The 42nd Amendment attempted to freeze fundamental rights amendments and make Article 368 unchallengeable. The Minerva Mills case in 1980 struck down these provisions and reaffirmed the basic structure doctrine.
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Amendment Power Article 368 Runj Formula Basic Structure CAG FC" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/ras/indian-polity/)** — browse sibling topics in this subject
+

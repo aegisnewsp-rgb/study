@@ -231,3 +231,11 @@ lastUpdated: 2026-03-25
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Immunopathology — Hypersensitivity, Immunodeficiency & Autoimmunity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/neet-pg/pathology/)** — browse sibling topics in this subject
+

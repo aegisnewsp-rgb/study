@@ -112,3 +112,11 @@ IUPAC naming is essential in **pharmacology** (identifying drug structures like 
 **Prompt 2:** Write the IUPAC name for aspirin (C₆H₄(CH₃COO)COOH). Explain why the carboxylic acid takes priority over the ester group. *[Answer: 2-(acetyloxy)benzenecarboxylic acid — carboxylic acid ranks highest in IUPAC functional group priority, so –COOH determines the suffix; the acetyloxy group is a substituent.]*
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "IUPAC Nomenclature" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
+

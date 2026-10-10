@@ -145,3 +145,11 @@ One of the biggest challenges in Task 1 is describing data without copying the e
 | plunge | plunged | sharp fall |
 | stabilise | stabilised | no change |
 | remain | remained | no change |
+
+## Continue your study
+
+- **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Task 1 — Writing an Information Transfer Letter" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=muet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MUET (Malaysia) exam overview](/exams/muet/)** — pattern, eligibility, and syllabus
+- **[All Writing (Paper 4) notes](/notes/muet/writing/)** — browse sibling topics in this subject
+

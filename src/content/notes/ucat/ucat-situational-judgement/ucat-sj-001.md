@@ -224,3 +224,11 @@ The published scoring description is "partial marks if your response is close to
 2. Build a flashcard set of professional standards phrases — GMC Good Medical Practice duties, ABPI code clauses, NHS consent guidance. Each card gives a duty and asks whether an action upholds or breaks it.
 3. After each set, count how often you rated A vs B (or C vs D). If the ratio is asymmetric, you are over- or under-using the moderate categories.
 4. Sit one full SJT mock under timed conditions, then review your calibration. The official UCAT practice tests are the right benchmark; current band-level descriptions and any year-on-year cohort figures are on ucat.ac.uk at the published Situational Judgement guidance pages.
+
+## Continue your study
+
+- **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Appropriateness and Importance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UCAT (University Clinical Aptitude Test) exam overview](/exams/ucat/)** — pattern, eligibility, and syllabus
+- **[All Situational Judgement notes](/notes/ucat/ucat-situational-judgement/)** — browse sibling topics in this subject
+

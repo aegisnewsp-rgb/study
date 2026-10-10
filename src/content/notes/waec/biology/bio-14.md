@@ -206,3 +206,11 @@ Nigeria has enormous genetic diversity due to its many ethnic groups (over 250).
 - Mammals diversified: after dinosaur extinction
 
 ⚡ **WAEC Examination Patterns:** Draw Punnett squares for monohybrid crosses and dihybrid crosses. Explain the difference between dominant and recessive alleles. Describe how natural selection leads to evolution. Explain the difference between continuous and discontinuous variation. Calculate expected offspring ratios.
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Variation and Evolution" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+

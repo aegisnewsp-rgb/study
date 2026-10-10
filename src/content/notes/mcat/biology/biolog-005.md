@@ -88,3 +88,11 @@ Coordination touches **Bioenergetics** (Na⁺/K⁺ pump consumes a large share o
 3. **Treating insulin and glucagon as interchangeable.** Insulin lowers blood glucose; glucagon raises it. A question describing hypoglycaemia (shakiness, sweating, confusion) asks which hormone is *deficient* — the answer is glucagon (or cortisol/adrenaline as backup), not insulin. Watch the direction of the imbalance.
 4. **Calling ADH a "kidney hormone".** ADH is *made* in the hypothalamus and *released* by the posterior pituitary; the kidney is its target organ. A diagram with ADH labelled on the kidney is the textbook distractor.
 5. **Confusing rods and cones.** Rods: scotopic (low-light) vision, monochromatic, concentrated in the peripheral retina. Cones: photopic (bright-light) vision, trichromatic, concentrated in the fovea. A question on night blindness points to vitamin A deficiency affecting rhodopsin in rods — not cones.
+
+## Continue your study
+
+- **[View this topic in your MCAT Pakistan roadmap](/roadmap/?exam=mcat&duration=1mo)** — see where "Coordination and Control" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MCAT Pakistan exam overview](/exams/mcat/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/mcat/biology/)** — browse sibling topics in this subject
+

@@ -162,7 +162,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/fpsc-cce/': {
-    title: 'FPSC Full Form: What FPSC Stands For',
+    title: 'FPSC CSS 2026: Full Form, Paper Pattern & Optionals',
     description:
       'FPSC stands for Federal Public Service Commission, Pakistan. FPSC CSS written exam, interview and the syllabus for each optional subject.',
     query: 'fpsc full form (38.1% @ 0.00% CTR)',
@@ -212,7 +212,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/accagl/': {
-    title: 'CA Pakistan 2026: Total Papers, Stages & Format',
+    title: 'CA Pakistan 2026: Subjects, Stages & Total Papers',
     description:
       'How many papers are there in CA Pakistan under ACCA: the SQE, PSSE and TSA stages, then three levels of the qualification.',
     query: 'ca total papers in pakistan 2026 (10.1%), ca subjects in pakistan (8.9%)',

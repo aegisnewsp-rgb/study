@@ -78,11 +78,3 @@ Allocate ≤12 minutes for the entire Spelling & Vocabulary block. Read the ques
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
-
-## Continue your study
-
-- **[View this topic in your NAT-I (NTS) roadmap](/roadmap/?exam=nat-i&duration=1mo)** — see where "Spelling and Vocabulary" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=nat-i&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
-- **[All Verbal Reasoning notes](/notes/nat-i/verbal-reasoning/)** — browse sibling topics in this subject
-

@@ -110,11 +110,3 @@ Natural-sciences passages for non-scientists are one of the three CARS passage c
 ---
 
 *Last updated 2026-09-20. Source: AAMC, Critical Analysis and Reasoning Skills (CARS), https://students-residents.aamc.org/prepare-mcat-exam/critical-analysis-and-reasoning-skills. AAMC, MCAT landing page, https://students-residents.aamc.org/whats-mcat-exam/publication-chapters/whats-mcat-exam. Live CARS section length and passage distribution must be re-checked on the official page before committing a revision plan to a student.*
-
-## Continue your study
-
-- **[View this topic in your MCAT (Medical College Admission Test) — Canadian applicants roadmap](/roadmap/?exam=mcat-ca&duration=1mo)** — see where "Natural Sciences-Related Passages for Non-Scientists" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=mcat-ca&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[MCAT (Medical College Admission Test) — Canadian applicants exam overview](/exams/mcat-ca/)** — pattern, eligibility, and syllabus
-- **[All Critical Analysis and Reasoning Skills (CARS) notes](/notes/mcat-ca/cars/)** — browse sibling topics in this subject
-

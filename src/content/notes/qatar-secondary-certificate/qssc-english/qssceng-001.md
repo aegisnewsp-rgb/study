@@ -87,11 +87,3 @@ Source: MoEHE Curriculum Standards for State of Qatar, English Language KG-G12, 
 ---
 
 *Last updated 2026-09-21. Source: MoEHE Curriculum Standards for the State of Qatar, English Language KG-G12, https://cdn-files.abegs.org/abegs-marsad-prod/uploads/e6ad4393-a0fa-4b0c-8bfb-f7f530c76a4b.pdf. Re-check the live textbook edition and CEFR mapping on https://www.edu.gov.qa/ before committing a revision plan to a student (qatar).*
-
-## Continue your study
-
-- **[View this topic in your Qatar General Secondary Education Certificate roadmap](/roadmap/?exam=qatar-secondary-certificate&duration=1mo)** — see where "Listening — Main Ideas, Details and Strategies" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=qatar-secondary-certificate&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[Qatar General Secondary Education Certificate exam overview](/exams/qatar-secondary-certificate/)** — pattern, eligibility, and syllabus
-- **[All English Language notes](/notes/qatar-secondary-certificate/qssc-english/)** — browse sibling topics in this subject
-

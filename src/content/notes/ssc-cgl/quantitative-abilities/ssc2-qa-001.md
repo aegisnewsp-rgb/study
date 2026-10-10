@@ -125,11 +125,3 @@ Answer: 4 — Working: 7^43 → 43 mod 4 = 3 → 7^3 unit digit = 343 → 3. 3^2
 - **Trap 3:** Assuming a number is divisible by 6 when it passes divisibility by 2 and 3 separately — this only works because 2 and 3 are co-prime. For 4 and 6, this fails (e.g., 12 is divisible by both but 12/4=3, 12/6=2 — actually it works here, but the real trap is assuming divisibility by all factors gives divisibility by their LCM without checking co-primality).
 
 *Content adapted based on your selected roadmap duration.*
-
-## Continue your study
-
-- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Number System & Simplification" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
-- **[All Quantitative Abilities notes](/notes/ssc-cgl/quantitative-abilities/)** — browse sibling topics in this subject
-

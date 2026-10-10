@@ -147,11 +147,3 @@ AA → 5-HPETE → LTA4 → LTB4 (neutrophil chemotaxis)
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
-
-## Continue your study
-
-- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Autacoids" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
-- **[All Pharmacology notes](/notes/neet-pg/pharmacology/)** — browse sibling topics in this subject
-

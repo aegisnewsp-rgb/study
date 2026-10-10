@@ -88,11 +88,3 @@ Practice: Attempt SAPC past examination papers and identify where questions requ
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
-
-## Continue your study
-
-- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Introduction to Law & Legal System of South Africa" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
-- **[All Business Law notes](/notes/sa-pharm/business-law/)** — browse sibling topics in this subject
-

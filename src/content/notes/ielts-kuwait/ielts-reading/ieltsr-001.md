@@ -88,3 +88,12 @@ In IELTS Academic and General Training Reading, Passage 1 is the most straightfo
 1. **2-Minute Skim**: Spend at most two minutes reading the title, subtitle, and first sentence of each paragraph. Form a mental outline of where topics live (e.g., Paragraph A: Origins, Paragraph B: Manufacturing process, Paragraph C: Modern applications).
 2. **Scan by Keyword Clusters**: Never search for a single isolated word; keywords in question stems are almost always paraphrased in the text. Search for conceptual synonyms (e.g., *increase dramatically* -> *surged*, *climbed steeply*).
 3. **Strict 17-Minute Limit**: Complete all 13 or 14 questions in Passage 1 within 17 minutes. Transfer answers directly onto the answer sheet as you work, leaving 20 minutes for Passage 2 and 23 minutes for the significantly more challenging Passage 3.
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading (Academic) notes](/notes/ielts-kuwait/ielts-reading/)** — browse sibling topics in this subject

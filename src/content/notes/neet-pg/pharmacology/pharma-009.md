@@ -146,4 +146,12 @@ AA → 5-HPETE → LTA4 → LTB4 (neutrophil chemotaxis)
 5. Migraine prophylaxis → Propranolol + Flunarizine + Amitriptyline
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/neet-pg/pharmacology/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

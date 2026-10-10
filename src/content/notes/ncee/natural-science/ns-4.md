@@ -90,4 +90,12 @@ Structural adaptations are physical body features: a camel's hump stores fat (no
 2. Construct a five-link food chain starting with grass, ending with a hawk, and label each animal as producer, primary consumer, secondary consumer, or tertiary consumer.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Natural Science notes](/notes/ncee/natural-science/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

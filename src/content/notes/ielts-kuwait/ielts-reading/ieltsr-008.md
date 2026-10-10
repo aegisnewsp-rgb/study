@@ -93,3 +93,12 @@ Sentence Completion and Short Answer questions assess literal information retrie
 - [ ] Can you locate specific dates or capitalized names in under 20 seconds using diagonal zig-zag scanning?
 - [ ] Have you verified that your completed sentence makes syntactic sense when read as a complete English sentence?
 - [ ] Are all spelling variants aligned with standard British or American conventions?
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading (Academic) notes](/notes/ielts-kuwait/ielts-reading/)** — browse sibling topics in this subject

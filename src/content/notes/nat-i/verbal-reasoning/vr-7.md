@@ -77,4 +77,12 @@ Some NAT-I items give a sentence with a blank and four words. The right choice f
 Allocate ≤12 minutes for the entire Spelling & Vocabulary block. Read the question stem first, then scan options for the rule-based or root-based giveaway. If two options remain, substitute each into the stem and read aloud — collocation usually breaks the tie.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NAT-I (NTS) roadmap](/roadmap/?exam=nat-i&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nat-i&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
+- **[All Verbal Reasoning notes](/notes/nat-i/verbal-reasoning/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

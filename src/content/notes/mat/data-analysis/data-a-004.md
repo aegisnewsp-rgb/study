@@ -192,4 +192,13 @@ The following grouped bar chart shows the production (in tonnes) of three crops 
 
 Work through each without a calculator, using approximate arithmetic for speed.
 
+---
+
+## Continue your study
+
+- **[View this topic in your MAT (Management Aptitude Test) roadmap](/roadmap/?exam=mat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MAT (Management Aptitude Test) exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Data-Analysis notes](/notes/mat/data-analysis/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

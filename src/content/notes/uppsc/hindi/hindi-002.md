@@ -534,4 +534,12 @@ UPPSC RO/ARO (Review Officer/Assistant Review Officer) परीक्षा म
 **केवल अभ्यास से ही सफलता** — प्रतिदिन कम से कम 20 प्रश्नों का अभ्यास करें।
 
 ---
+
+## Continue your study
+
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

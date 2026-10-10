@@ -142,4 +142,13 @@ The 4-4-9 kcal/g rule is a bomb calorimeter average. Real digestion of protein y
 - **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
 - **[All Science notes](/notes/ctet/science/)** — browse sibling topics in this subject
 
+---
+
+## Continue your study
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/ctet/science/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

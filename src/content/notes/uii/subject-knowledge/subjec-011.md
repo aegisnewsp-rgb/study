@@ -132,4 +132,13 @@ UI statistics questions commonly:
 4. Use statistical measures in word problems (average speed, weighted averages)
 5. Interpret charts and graphs requiring statistical calculations
 
+---
+
+## Continue your study
+
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/uii/subject-knowledge/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

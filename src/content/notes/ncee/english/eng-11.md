@@ -76,4 +76,12 @@ Sender's address → Date → *The Managing Director, Abuja Water Board, Wuse Zo
 2. Write a letter to your uncle thanking him for sponsoring your NCEE registration and promising to make him proud.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/ncee/english/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

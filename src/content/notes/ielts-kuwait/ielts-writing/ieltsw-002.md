@@ -105,3 +105,12 @@ Examiners grade IELTS Academic Writing Task 1 on four equally weighted criteria:
 - **Direct Contrast**: *While coal consumption experienced a precipitous drop from 350 metric tons to 120 metric tons, renewable alternatives saw a fourfold expansion over the same decade.*
 - **Parity & Equality**: *Expenditure on public transport remained virtually identical across both surveyed metropolitan regions, hovering at approximately $45 per household per month.*
 - **Overview Formulation**: *Overall, what stands out from the data is that renewable sources expanded substantially across all categories, whereas fossil fuel reliance declined progressively.*
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Writing (Academic) notes](/notes/ielts-kuwait/ielts-writing/)** — browse sibling topics in this subject

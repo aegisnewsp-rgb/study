@@ -191,4 +191,13 @@ Conditional sentences appear in:
 - Confusing Type 2 and Type 3: Type 2 uses past simple; Type 3 uses past perfect
 - Using "was" instead of "were" in Type 2 with first person: "If I were" not "If I was"
 
+---
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/neco/english/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

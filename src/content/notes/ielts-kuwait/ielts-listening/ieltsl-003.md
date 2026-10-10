@@ -188,4 +188,13 @@ A past paper tells you the shape of the task. It does not tell you which word wi
 | British Council Kuwait — Test dates, fees and locations | https://www.britishcouncil.com.kw/en/exam/ielts/dates-fees-locations | Sittings available in Kuwait |
 | IDP Education Salmiya — book an IELTS test | https://ielts.idp.com/kuwait/test-centre/idp-salmiya | IDP Kuwait centre, computer-delivered, daily sessions |
 
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Listening notes](/notes/ielts-kuwait/ielts-listening/)** — browse sibling topics in this subject
+
 *Last reviewed 2026-09-20. Every figure is quoted from the linked ielts.org or British Council page. Kuwaiti centre arrangements change, so check your booked venue before planning revision.*

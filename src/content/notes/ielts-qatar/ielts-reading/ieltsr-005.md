@@ -236,4 +236,13 @@ A previous-year record is not a deterministic indicator of a future test item. T
 | Al Jazeera English long-form | https://www.aljazeera.com/ | Authoritative source for Doha-based long-form passages |
 | Gulf Times long-form | https://www.gulf-times.com/ | Authoritative source for Gulf Times long-form passages |
 
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Qatar) roadmap](/roadmap/?exam=ielts-qatar&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-qatar&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Qatar) exam overview](/exams/ielts-qatar/)** — pattern, eligibility, and syllabus
+- **[All Reading notes](/notes/ielts-qatar/ielts-reading/)** — browse sibling topics in this subject
+
 *Last reviewed: 2026-10-01. Re-check the live IELTS pages and the Qatar test-centre schedule before relying on any figure.*

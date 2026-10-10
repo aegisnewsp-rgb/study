@@ -202,4 +202,13 @@ A previous-year record is not a deterministic indicator of a future test item. T
 | Texas A&M University at Qatar | https://www.qatar.tamu.edu/ | Authoritative source for engineering and applied-science lectures |
 | Northwestern Qatar | https://www.qatar.northwestern.edu/ | Authoritative source for journalism and media academic discourse style |
 
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Qatar) roadmap](/roadmap/?exam=ielts-qatar&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-qatar&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Qatar) exam overview](/exams/ielts-qatar/)** — pattern, eligibility, and syllabus
+- **[All Listening notes](/notes/ielts-qatar/ielts-listening/)** — browse sibling topics in this subject
+
 *Last reviewed: 2026-10-01. Re-check the live IELTS pages and the Qatar test-centre schedule before relying on any figure.*

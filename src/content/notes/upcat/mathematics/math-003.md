@@ -61,3 +61,12 @@ Conflating vertical translation with $f(x) = ax$ scaling. Inside the bracket sca
 - [PCAT](/exams/pcat/) — the separate Philippine entrance test, useful for comparing how differently two bodies structure the same subject.
 
 Everything on this page about UPCAT itself comes from the University of the Philippines Office of Admissions (https://upcat.up.edu.ph/htmls/aboutupcat.html, retrieved 9 October 2026). UP publishes no mathematics syllabus or per-subtest weightage for UPCAT; the weights here are StudyRoadmap's own prioritisation.
+
+---
+
+## Continue your study
+
+- **[View this topic in your UPCAT (UP College Admission Test) roadmap](/roadmap/?exam=upcat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=upcat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[UPCAT (UP College Admission Test) exam overview](/exams/upcat/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/upcat/mathematics/)** — browse sibling topics in this subject

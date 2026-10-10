@@ -191,3 +191,12 @@ diagramPrompt: "Educational diagram illustrating IELTS Listening Part 1 flow: a 
 | Cambridge English IELTS 17 Academic | https://www.cambridge.org/ielts/test/ielts-17.html | Book with ISBN 9781108646897 + 4 official practice tests. |
 | IELTS Listening public band descriptors | https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening | Verbatim band 7.0 + 8.0 descriptors. |
 | IELTS Guide 2026 (PDF) | https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf | Latest edition (2026). |
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Listening notes](/notes/ielts-kuwait/ielts-listening/)** — browse sibling topics in this subject

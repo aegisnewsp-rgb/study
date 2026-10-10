@@ -288,4 +288,13 @@ The goal is not just more practice — it is more purposeful practice with syste
 7. Eliminate wrong answers before choosing
 8. Stay within time: 6–8 minutes per passage maximum
 
+---
+
+## Continue your study
+
+- **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MAT exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Language-Comprehension notes](/notes/mat/language-comprehension/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

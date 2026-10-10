@@ -72,4 +72,12 @@ How many peptide bonds in a tetrapeptide (4 amino acids)? Each linkage between c
 Biomolecules contributes ~3% of the chemistry paper — usually 2–3 MCQs. Highest-yield topics: (a) Benedict's, Biuret, and iodine tests and the functional group each detects; (b) DNA/RNA base-pairing (A=T, G≡C in DNA; A=U in RNA); (c) identifying levels of protein structure from a description; (d) glycogen (animal) vs starch (plant). Time per question: ~60 seconds.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/mdcat/chemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

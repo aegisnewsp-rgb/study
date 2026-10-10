@@ -80,4 +80,13 @@ Solution: *haven't they?* — auxiliary *have* matches *have finished*; pronoun 
 1. Supply the correct tag: *Nobody called while I was out, ______?*
 2. Provide the appropriate response: *"You haven't seen my keys, have you?"* (You have not seen them.)
 
+---
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

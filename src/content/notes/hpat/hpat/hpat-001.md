@@ -152,3 +152,12 @@ The pattern that improves Section 1 scores, in order of leverage:
 - **TCD admissions (Section 1 weight in selection):** confirm on tcd.ie
 - **UL admissions (Section 1 + Section 4 for OT/SLT applicants):** confirm on ul.ie
 - **CAO application (HPAT is combined with CAO Leaving Certificate points):** https://www.cao.ie/
+
+---
+
+## Continue your study
+
+- **[View this topic in your HPAT-Ireland (Health Professions Admission Test) roadmap](/roadmap/?exam=hpat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hpat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[HPAT-Ireland (Health Professions Admission Test) exam overview](/exams/hpat/)** — pattern, eligibility, and syllabus
+- **[All HPAT-Ireland notes](/notes/hpat/hpat/)** — browse sibling topics in this subject

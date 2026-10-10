@@ -272,4 +272,13 @@ A previous-year scenario is NOT a deterministic indicator of a future test item.
 | University of Otago medical school | https://www.otago.ac.nz/medical-school | Confirms NZ admissions policy and the role of SJT band |
 | Pearson VUE UCAT ANZ booking | https://www.pearsonvue.com/ucat | Test booking platform |
 
+---
+
+## Continue your study
+
+- **[View this topic in your UCAT ANZ (New Zealand) roadmap](/roadmap/?exam=ucat-anz-nz&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat-anz-nz&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[UCAT ANZ (New Zealand) exam overview](/exams/ucat-anz-nz/)** — pattern, eligibility, and syllabus
+- **[All UCAT ANZ notes](/notes/ucat-anz-nz/ucat-anz/)** — browse sibling topics in this subject
+
 *Last reviewed: 2026-10-01. Re-check the live UCAT ANZ pages before relying on any figure.*

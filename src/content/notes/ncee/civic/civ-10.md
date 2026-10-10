@@ -89,4 +89,12 @@ A journalist publishes a story exposing corruption. The State arrests him for "i
 2. Outline **six** fundamental rights guaranteed under Chapter IV of the 1999 Constitution and explain **two** lawful limitations to these rights.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Civic Education notes](/notes/ncee/civic/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

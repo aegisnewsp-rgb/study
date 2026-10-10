@@ -112,3 +112,12 @@ In Part 1 of the IELTS Speaking test, the examiner asks simple questions about f
 *Example*:
 - *Examiner*: Do you enjoy reading books in your free time?
 - *Candidate*: Absolutely, I'm quite an avid reader (Direct Answer), particularly specifically with historical non-fiction, because I find learning about real past events deeply fascinating (Reason). In fact, I in most keys try to read a chapter or two every evening before going to sleep to unwind after studying (Detail).
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Speaking notes](/notes/ielts-kuwait/ielts-speaking/)** — browse sibling topics in this subject

@@ -113,3 +113,12 @@ During the one minute of preparation time for the Part 2 Individual Long Turn, d
 - **Why it was memorable**: Two emotional or analytical adjectives (e.g., *exhilarating, transformative*).
 
 **Delivery Mechanics**: Aim to speak continuously for 1 minute and 45 seconds to 2 full minutes until the examiner gently stops you. Structure your talk chronologically: set the scene, describe what happened, and spend at least 40 seconds reflecting on why the experience left an impression on you.
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Speaking notes](/notes/ielts-kuwait/ielts-speaking/)** — browse sibling topics in this subject

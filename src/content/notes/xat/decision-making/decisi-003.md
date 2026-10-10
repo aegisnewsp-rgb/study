@@ -114,4 +114,11 @@ The best decision depends on the level of uncertainty. If uncertainty is high (l
 
 ---
 
+## Continue your study
+
+- **[View this topic in your XAT roadmap](/roadmap/?exam=xat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=xat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[XAT exam overview](/exams/xat/)** — pattern, eligibility, and syllabus
+- **[All Decision-Making notes](/notes/xat/decision-making/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

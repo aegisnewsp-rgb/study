@@ -160,3 +160,12 @@ Sections 1-3 are psychometric — they measure pattern recognition, spatial reas
 - **UL MSc Occupational Therapy admissions:** https://www.ul.ie/gps/courses/msc-occupational-therapy-professional-qualification
 - **UL MSc Speech and Language Therapy admissions:** https://www.ul.ie/gps/courses/msc-speech-and-language-therapy-professional-qualification
 - **CAO application (HPAT is combined with CAO Leaving Certificate points):** https://www.cao.ie/
+
+---
+
+## Continue your study
+
+- **[View this topic in your HPAT-Ireland (Health Professions Admission Test) roadmap](/roadmap/?exam=hpat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hpat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[HPAT-Ireland (Health Professions Admission Test) exam overview](/exams/hpat/)** — pattern, eligibility, and syllabus
+- **[All HPAT-Ireland notes](/notes/hpat/hpat/)** — browse sibling topics in this subject

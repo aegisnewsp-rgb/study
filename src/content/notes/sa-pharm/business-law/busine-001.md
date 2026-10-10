@@ -87,4 +87,12 @@ When approaching legal scenario questions in pharmacy examinations, adopt a stru
 Practice: Attempt SAPC past examination papers and identify where questions require you to distinguish between different sources of law, apply constitutional provisions, or navigate between public and private law claims. Focus on questions involving SAHPRA decisions, SAPC disciplinary proceedings, and patient rights scenarios, as these are the most commonly tested areas.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/sa-pharm/business-law/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

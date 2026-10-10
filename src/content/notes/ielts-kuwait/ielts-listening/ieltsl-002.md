@@ -81,4 +81,11 @@ Part 2 is the second section of the IELTS Academic Listening test. Source: IELTS
 
 ---
 
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Listening notes](/notes/ielts-kuwait/ielts-listening/)** — browse sibling topics in this subject
+
 *Last updated 2026-09-20. Source: IELTS Academic Listening test format, https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening. IELTS Guide for test takers, https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf. Live test format and any in-year changes must be re-checked on ielts.org before committing a revision plan to a student.*

@@ -90,3 +90,12 @@ Summary and table completion tasks always retain grammatical validity when words
 1. **Determine Part of Speech Before Scanning**: Examine the words directly preceding and following each blank. Predict whether the required term is a singular countable noun, plural noun, adjective, or past participle verb.
 2. **Check Collocation and Articles**: If the blank is preceded by *an*, the answer word MUST begin with a vowel sound. If it is preceded by a possessive pronoun, expect a noun.
 3. **Respect Word Count Constraints**: Always read the instruction heading (e.g., *NO MORE THAN TWO WORDS AND/OR A NUMBER*). Writing three words when the rubric specifies two results in an immediate mark deduction of zero for that item, regardless of factual accuracy.
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading (Academic) notes](/notes/ielts-kuwait/ielts-reading/)** — browse sibling topics in this subject

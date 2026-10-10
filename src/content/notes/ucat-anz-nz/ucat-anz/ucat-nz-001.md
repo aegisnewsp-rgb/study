@@ -187,3 +187,12 @@ The UCAT ANZ 2024 and 2025 cycles both used the four-subtest format with Verbal 
 - auckland.ac.nz/en/fmhs/study-with-us/undergraduate-studies.html — University of Auckland admissions
 - otago.ac.nz/medical-school — University of Otago Medical School admissions
 - pearsonvue.com — UCAT ANZ test booking
+
+---
+
+## Continue your study
+
+- **[View this topic in your UCAT ANZ (New Zealand) roadmap](/roadmap/?exam=ucat-anz-nz&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ucat-anz-nz&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[UCAT ANZ (New Zealand) exam overview](/exams/ucat-anz-nz/)** — pattern, eligibility, and syllabus
+- **[All UCAT ANZ notes](/notes/ucat-anz-nz/ucat-anz/)** — browse sibling topics in this subject

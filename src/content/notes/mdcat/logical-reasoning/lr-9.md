@@ -107,4 +107,12 @@ Confusing these (treating a necessary condition as sufficient) is a classic MDCA
 Logical Reasoning carries about **4%** of the MDCAT paper — typically 2–3 critical-reasoning items. Each gives 60–90 seconds; spend them (i) finding the conclusion, (ii) stating the gap, (iii) choosing the option that attacks or supports *that exact gap*.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Logical Reasoning notes](/notes/mdcat/logical-reasoning/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

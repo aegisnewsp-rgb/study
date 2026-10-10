@@ -99,4 +99,12 @@ Hydration enthalpy of an ion ∝ (charge² / ionic radius). Going **down Group 1
 2. Why is Be(OH)₂ amphoteric while Ba(OH)₂ is strongly basic? Answer in terms of charge density and polarizing power.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/mdcat/chemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

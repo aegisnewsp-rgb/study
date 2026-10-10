@@ -226,4 +226,12 @@ Blood pressure = Systolic/Diastolic = e.g., 120/80 mmHg
 ⚡ **Exam Strategy**: Draw and label a cross-section of a vein showing valves. For heart questions, trace blood flow from one point to another, naming all chambers and valves. Remember: arteries usually carry oxygenated blood AWAY from heart; veins carry deoxygenated blood TOWARD heart — except pulmonary vessels (reverse of normal).
 
 ---
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/waec/biology/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

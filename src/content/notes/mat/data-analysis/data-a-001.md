@@ -162,4 +162,13 @@ A retail chain operates in five cities. The table below shows quarterly revenue 
 
 Work through these without a calculator, using only rough paper. Target: 90 seconds per question.
 
+---
+
+## Continue your study
+
+- **[View this topic in your MAT (Management Aptitude Test) roadmap](/roadmap/?exam=mat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MAT (Management Aptitude Test) exam overview](/exams/mat/)** — pattern, eligibility, and syllabus
+- **[All Data-Analysis notes](/notes/mat/data-analysis/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

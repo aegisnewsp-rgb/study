@@ -209,4 +209,13 @@ Note that flow-chart completion is not a frequent item, and a candidate who has 
 | British Council Kuwait — IELTS on computer | https://www.britishcouncil.com.kw/en/exam/ielts/dates-locations/computer-delivered | Kuwait delivery mode and venues |
 | IDP Education Salmiya — book an IELTS test | https://ielts.idp.com/kuwait/test-centre/idp-salmiya | IDP Kuwait centre, computer-delivered |
 
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Listening notes](/notes/ielts-kuwait/ielts-listening/)** — browse sibling topics in this subject
+
 *Last reviewed 2026-09-20. Rules and definitions are quoted from the ielts.org Listening test format page; the question-type enumeration is from the ielts.org sample test questions page. Check your booked venue before revising.*

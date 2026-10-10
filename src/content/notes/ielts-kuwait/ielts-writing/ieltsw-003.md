@@ -102,3 +102,12 @@ When describing line graphs spanning a multi-year chronological axis, modulate y
 | **Rapid Downward** | plummeted, plunged, dropped sharply | precipitously, drastically, severely |
 
 **Rule of Thumb**: Avoid repeating *rose* or *fell* more than twice in an essay; alternate between verb forms (*sales increased by 15%*) and noun phrases (*there was a 15% increase in sales*).
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Writing (Academic) notes](/notes/ielts-kuwait/ielts-writing/)** — browse sibling topics in this subject

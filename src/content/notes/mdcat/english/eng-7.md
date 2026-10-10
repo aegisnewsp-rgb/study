@@ -99,4 +99,12 @@ Beyond *say* and *tell*, examiners love verbs that demand a specific complement 
 2. Convert to indirect: *"Don't touch the wire," the electrician warned the boy.* → The electrician warned the boy not to touch the wire.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/mdcat/english/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -151,4 +151,12 @@ Verbs that can take both (different meanings):
 MDCAT Pakistan English questions on tenses frequently test: (1) choosing correct tense in context, (2) Present Perfect vs Past Simple distinction, (3) Passive voice transformations, (4) conditional sentences (if clauses), (5) subject-verb agreement, (6) sequence of tenses in reported speech, (7) identifying error in underlined sentences. 3–5 questions per paper. Present Perfect vs Past Simple is the most common error tested.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/mdcat/english/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

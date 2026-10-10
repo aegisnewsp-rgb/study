@@ -224,4 +224,13 @@ A previous-year record is not a deterministic indicator of a future test item. T
 | Qatar Foundation research reports | https://www.qf.org.qa/research/ | Authoritative source for QF research-report passages |
 | Al Jazeera English | https://www.aljazeera.com/ | Authoritative source for Doha-based editorial-style passages |
 
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Qatar) roadmap](/roadmap/?exam=ielts-qatar&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-qatar&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Qatar) exam overview](/exams/ielts-qatar/)** — pattern, eligibility, and syllabus
+- **[All Reading notes](/notes/ielts-qatar/ielts-reading/)** — browse sibling topics in this subject
+
 *Last reviewed: 2026-10-01. Re-check the live IELTS pages and the Qatar test-centre schedule before relying on any figure.*

@@ -92,3 +92,12 @@ The most common point of confusion for candidates is distinguishing between FALS
 | **Unverified / Missing** | The passage mentions the topic or keywords, but never specifies the exact relationship claimed. | Mark **NOT GIVEN** |
 
 **Golden Rule**: If you find yourself thinking "well, this can be true if we assume...", it is immediately **NOT GIVEN**. IELTS never requires speculative extrapolation.
+
+---
+
+## Continue your study
+
+- **[View this topic in your IELTS (Kuwait) roadmap](/roadmap/?exam=ielts-kuwait&duration=1mo)** — see where this topic sits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ielts-kuwait&duration=1d)** — 1-day sprint covering the highest-weight topics
+- **[IELTS (Kuwait) exam overview](/exams/ielts-kuwait/)** — pattern, eligibility, and syllabus
+- **[All Reading (Academic) notes](/notes/ielts-kuwait/ielts-reading/)** — browse sibling topics in this subject

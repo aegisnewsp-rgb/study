@@ -206,6 +206,7 @@ const js = `
         s.setAttribute('data-zone', String(zone));
         s.setAttribute('data-cfasync', 'false');
         d.head.appendChild(s);
+        track('ad-zone-load', { zone: zone, tag: cfg.tag, host: 'multitag' });
     }
 
     // Standalone-zone loader.
@@ -227,6 +228,7 @@ const js = `
         var parent = d.body || d.documentElement;
         if (parent) parent.appendChild(s);
         else d.head.appendChild(s);
+        track('ad-zone-load', { zone: zone, tag: src, host: 'standalone' });
     }
 
     // ---- consent bridge ----------------------------------------------------
@@ -236,6 +238,21 @@ const js = `
     function consentInfo() {
         var c = w.__SR_CONSENT;
         return { state: (c && c.state) || 'unknown', ads: !!(c && c.ads) };
+    }
+
+    // ---- first-party ad delivery telemetry (s722) -------------------------
+    // Fires ONLY at the moment a zone script is actually appended, i.e. when
+    // consent has already allowed the format and the geo is not restricted --
+    // so this adds no new consent surface. Every call site is downstream of
+    // gate(), never upstream.
+    function track(name, data) {
+        try {
+            if (!w.umami || typeof w.umami.track !== 'function') return;
+            var payload = data || {};
+            payload.zone_kind = state.visitorGeo ? 'georesolved' : 'geo-unknown';
+            payload.visitor_geo = state.visitorGeo || '';
+            w.umami.track(name, payload);
+        } catch (e) {}
     }
 
     function geoRestricted() {

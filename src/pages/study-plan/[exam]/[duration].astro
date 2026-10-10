@@ -7,6 +7,7 @@ import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
 import { isNoindexExam } from '../../../data/suppressed-exams';
 import { isGoodNote } from '../../../data/note-quality';
+import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -111,13 +112,43 @@ if (totalDays >= 7 && dailyTopics.length) {
 }
 
 const BRAND_SUFFIX = ' | StudyRoadmap';
-const _t1 = `${examName} ${durationLabel} ${currentYear}${BRAND_SUFFIX}`;
-const _t2 = `${examName} ${durationLabel}${BRAND_SUFFIX}`;
-const title = _t1.length <= 60 ? _t1
-  : _t2.length <= 60 ? _t2
-  : `${examName.slice(0, 25)} ${durationLabel}${BRAND_SUFFIX}`.slice(0, 60);
+// ---- w22: study-plan duration titles were colliding across exam-family
+// variants. Measured on the live build: /study-plan/{ielts-hk,ielts-kuwait,
+// ielts-qatar}/{2w,1mo,3mo,6mo,1yr,2yr} and /study-plan/{ucat-anz,ucat-anz-nz}/
+// {same six} shipped ONE title per duration across 18 and 12 URLs, because the
+// old ladder stripped the parenthetical ("IELTS (International English Language
+// Test)" -> "IELTS") and then hard-cut at 60 chars. Keep the parenthetical when
+// the compact label is shared, and never cut mid-word.
+const _compactOwners = new Map<string, Set<string>>();
+for (const e of ALL_EXAMS as any[]) {
+  if (!e?.examId) continue;
+  const k = String(e.examName || e.examId).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || e.examId;
+  if (!_compactOwners.has(k)) _compactOwners.set(k, new Set());
+  _compactOwners.get(k)!.add(e.examId);
+}
+const _myCompact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam.examId;
+const _sharedExamLabel = (_compactOwners.get(_myCompact)?.size ?? 1) > 1;
+const _examLabel = pageExamLabel(examName, exam.examId, _sharedExamLabel);
+
+// ---- w22 geo pass ------------------------------------------------------
+// Of the 49 HIGH-geo pages that genuinely never name their country (w21 said
+// 233; the report explains why that was 4.8x too high), 36 are STUDY-PLAN pages,
+// not notes. So the guard lives here too, on the same noun/adjective/board
+// basis, scoped to the five countries w21 measured.
+const _geo = GEO_PASS_COUNTRIES.has(exam.country) ? countryDisplay(exam.country) : '';
+const _geoLabel = _geo && !namesCountry(`${examName} ${_examLabel} ${exam.eligibility ?? ''} ${exam.examPattern ?? ''}`, exam.country) ? _geo : '';
+
+const title = fitTitle([
+  ...(_geoLabel ? [`${_examLabel} ${durationLabel} ${currentYear}, ${_geoLabel}`, `${examName} ${durationLabel}, ${_geoLabel}`] : []),
+  `${examName} ${durationLabel} ${currentYear}`,
+  `${examName} ${durationLabel}`,
+  `${_examLabel} ${durationLabel} ${currentYear}`,
+  `${_examLabel} ${durationLabel}`,
+], BRAND_SUFFIX);
 const _descRaw = `Free ${durationLabel.toLowerCase()} for ${examName} ${currentYear} — ${totalDays}-day schedule, ${dailyTopics.length} weighted topics, day-by-day plan, no signup.`;
-const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
+const description = fitDescription(_geoLabel && _descRaw.length + _geoLabel.length + 11 <= 160
+  ? _descRaw.replace('day-by-day plan', `day-by-day plan for ${_geoLabel} students`)
+  : _descRaw);
 const canonicalUrl = `${SITE_URL}/study-plan/${exam.examId}/${durationKey}/`;
 
 const breadcrumbJsonLd = {
@@ -268,7 +299,7 @@ const siblingDurations = Object.keys(exam.durations || {})
           {examName} <span class="italic text-brand-600 dark:text-brand-400">{durationLabel}</span>
         </h1>
         <p class="text-lg md:text-xl text-surface-600 dark:text-surface-300 max-w-3xl mb-6 leading-relaxed">
-          A complete <strong class="text-surface-900 dark:text-white">{totalDays}-day</strong> plan covering <strong class="text-surface-900 dark:text-white">{dailyTopics.length} highest-weightage topics</strong> — prioritised by subject weight, not alphabet. No signup, no fees.
+          A complete <strong class="text-surface-900 dark:text-white">{totalDays}-day</strong> plan covering <strong class="text-surface-900 dark:text-white">{dailyTopics.length} highest-weightage topics</strong> — prioritised by subject weight, not alphabet{_geoLabel ? <>, built for {examName} candidates in {_geoLabel}</> : null}. No signup, no fees.
         </p>
 
         {/* Quick-stat strip */}

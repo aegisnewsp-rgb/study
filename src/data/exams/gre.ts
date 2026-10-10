@@ -1,9 +1,45 @@
-import type { RoadmapTemplate, RescueTemplate, ExamTemplate } from '../types';
-import { verbal } from './subjects/verbal';
-import { quant } from './subjects/quant';
-import { awa } from './subjects/awa';
+import type { Subject, RoadmapTemplate, RescueTemplate, ExamTemplate } from './types';
 
-import { makeRoadmap } from '../_lib/roadmap';
+import { makeRoadmap } from './_lib/roadmap';
+const verbal: Subject = {
+  id: 'verbal', name: 'Verbal Reasoning', color: '#8b5cf6',
+  topics: [
+    { id: 'vr-001', name: 'Reading Comprehension', weight: 5 },
+    { id: 'vr-002', name: 'Text Completion', weight: 4 },
+    { id: 'vr-003', name: 'Sentence Equivalence', weight: 4 },
+    { id: 'vr-004', name: 'Vocabulary Building', weight: 5 },
+    { id: 'vr-005', name: 'Critical Reasoning', weight: 4 },
+    { id: 'vr-006', name: 'Para Jumbles', weight: 3 },
+    { id: 'vr-007', name: 'Inference', weight: 4 },
+    { id: 'vr-008', name: 'Main Idea', weight: 4 },
+  ]
+};
+
+const quant: Subject = {
+  id: 'quant', name: 'Quantitative Reasoning', color: '#10b981',
+  topics: [
+    { id: 'qr-001', name: 'Arithmetic', weight: 5 },
+    { id: 'qr-002', name: 'Algebra', weight: 5 },
+    { id: 'qr-003', name: 'Geometry', weight: 4 },
+    { id: 'qr-004', name: 'Data Interpretation', weight: 5 },
+    { id: 'qr-005', name: 'Number Properties', weight: 4 },
+    { id: 'qr-006', name: 'Probability & Statistics', weight: 4 },
+    { id: 'qr-007', name: 'Permutations & Combinations', weight: 3 },
+    { id: 'qr-008', name: 'Word Problems', weight: 4 },
+    { id: 'qr-009', name: 'Comparison Problems', weight: 3 },
+    { id: 'qr-010', name: 'Coordinate Geometry', weight: 3 },
+  ]
+};
+
+const awa: Subject = {
+  id: 'awa', name: 'Analytical Writing', color: '#f59e0b',
+  topics: [
+    { id: 'aw-001', name: 'Issue Essay', weight: 5 },
+    { id: 'aw-002', name: 'Argument Essay', weight: 5 },
+    { id: 'aw-003', name: 'Structuring Arguments', weight: 4 },
+    { id: 'aw-004', name: 'Evidence Integration', weight: 4 },
+  ]
+};
 
 const subjects = [verbal, quant, awa];
 

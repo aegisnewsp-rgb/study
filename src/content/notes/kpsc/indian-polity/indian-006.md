@@ -9,6 +9,8 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-07"
+seoTitle: "DPSP and Fundamental Rights — KPSC KAS | StudyRoadmap"
+seoDescription: "KPSC KAS polity notes on the Directive Principles of State Policy: how DPSP differs from Fundamental Rights, Article 21 after Maneka Gandhi, and conflicts."
 ---
 
 # Preamble, Fundamental Rights, and DPSP

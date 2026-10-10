@@ -9,6 +9,8 @@ weight: 3
 country: india
 generated: "2026-03-29T05:04:46"
 lastUpdated: "2026-07-15"
+seoTitle: "Circles — CUET UG Maths Notes | StudyRoadmap"
+seoDescription: "CUET mathematics notes on circles: standard and general forms, building an equation from conditions, tangents and chords, with worked problems."
 ---
 
 # Circles

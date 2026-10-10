@@ -33,7 +33,7 @@ IJMB is a one-year Advanced Level (A/L) programme run by the Interim Joint Matri
 
 #### Core Rules Governing IJMB Subject Pairing
 
-IJMB is administered by the Interim Joint Matriculation Board and serves as a JAMB alternative. Registration requires exactly three A/L subjects drawn from the board's approved list. The pairing determines which university faculty accepts the candidate at screening. The trio is non-negotiable in number: registering two or four subjects is grounds for disqualification by the receiving university.
+IJMB is administered by the Interim Joint Matriculation Board and works as an alternative to JAMB. Registration requires exactly three A/L subjects drawn from the board's approved list. The pairing determines which university faculty accepts the candidate at screening. The trio is non-negotiable in number: registering two or four subjects is grounds for disqualification by the receiving university.
 
 #### Comparison Matrix — Social Science Combinations by Target Department
 
@@ -115,6 +115,7 @@ Candidates who fail to meet the IJMB three-subject minimum often pivot to **JAMB
 - **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Arts and Humanities Subject Combinations — Unlocking Social Science Courses" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[IJMB (Nigeria) syllabus and topic weightage](/exams/ijmb/syllabus/)** — where Subject-Combinations sits among every IJMB (Nigeria) subject, with weightage
 - **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

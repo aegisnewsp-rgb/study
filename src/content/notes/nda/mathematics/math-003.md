@@ -13,10 +13,8 @@ country: india
 generated: "2026-03-24T08:32:07.806213"
 lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Determinants concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
-
-
-
-
+seoTitle: "Matrices and Determinants — NDA Maths Notes | StudyRoadmap"
+seoDescription: "NDA mathematics notes on matrices and determinants: matrix algebra, determinants of order 2 and 3, and worked problems from the NDA paper."
 ---
 # Determinants
 
@@ -189,3 +187,7 @@ The determinant chapter typically yields 3–5 questions per NDA paper. Master t
 - **[NDA exam overview](/exams/nda/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/nda/mathematics/)** — browse sibling topics in this subject
 
+
+## Where this sits in the syllabus
+
+This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.

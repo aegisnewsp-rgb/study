@@ -227,3 +227,7 @@ $$\log_a m = \frac{\log_b m}{\log_b a}$$
 - **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject
 
+
+## Where this sits in the syllabus
+
+This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Mathematics sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.

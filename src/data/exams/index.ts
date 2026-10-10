@@ -353,6 +353,33 @@ import satQatar from './qatar/sat';
 import digitalSat from './usa/digital-sat';
 import act from './usa/act';
 
+// w20-new-exams (2026-10-09) — demand-led additions for high-CPM geos.
+// Facts on both files are verified from the issuing body's own site (see each
+// file header + officialSource). Unverifiable fields are omitted, not guessed.
+import usmle from './usa/usmle';
+import gamsat from './australia/gamsat';
+// ─── w23-build-from-manus: 9 exams sourced from Manus official-source retrieval,
+// independently re-fetched where the issuing body was reachable (see report) ────────
+import upcat from './philippines/upcat';
+import numsMdcat from './pakistan/nums-mdcat';
+import gceOl from './srilanka/gce-ol';
+import plab from './uk/plab';
+import tmua from './uk/tmua';
+import cimaCgma from './uk/cima-cgma';
+import oet from './uk/oet';
+import kasnebCpa from './kenya/kasneb-cpa';
+import dat from './usa/dat';
+
+export { default as upcat } from './philippines/upcat';
+export { default as numsMdcat } from './pakistan/nums-mdcat';
+export { default as gceOl } from './srilanka/gce-ol';
+export { default as plab } from './uk/plab';
+export { default as tmua } from './uk/tmua';
+export { default as cimaCgma } from './uk/cima-cgma';
+export { default as oet } from './uk/oet';
+export { default as kasnebCpa } from './kenya/kasneb-cpa';
+export { default as dat } from './usa/dat';
+
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
@@ -429,6 +456,9 @@ export const ALL_EXAMS = [
   qatarSecondaryCertificate, ieltsQatar, satQatar,
   // United States (country expansion)
   digitalSat, act,
+  usmle, gamsat,
+  // w23-build-from-manus (Manus official-source sourced)
+  upcat, numsMdcat, gceOl, plab, tmua, cimaCgma, oet, kasnebCpa, dat,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────

@@ -1,4 +1,4 @@
-import type { Subject } from '../types';
+import type { Subject } from '../../types';
 
 export const business_and_economics: Subject = {
   id: 'business-and-economics', name: 'Business and Economics', color: '#ef4444',

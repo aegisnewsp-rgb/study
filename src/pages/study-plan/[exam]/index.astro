@@ -7,6 +7,7 @@ import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
 import { isNoindexExam } from '../../../data/suppressed-exams';
 import { isPlaceholderExamTopic, isGoodNote } from '../../../data/note-quality';
+import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -78,29 +79,39 @@ const planCards = sortedKeys.map((k) => {
 const featuredPlans = planCards.filter((p) => p.indexed);
 
 const BRAND_SUFFIX = ' | StudyRoadmap';
-const _titleFull = `${examName} Study Plan ${currentYear}${BRAND_SUFFIX}`;
-// Never emit a literal "...". Prefer the compact exam label, then a word-boundary
-// cut — the old `${examName.slice(0, 42)}...` also collided with the /exams/{id}/
-// title, giving two different pages the same truncated title.
-const _examCompact =
+// ---- w22: same two faults as the note template, same fix. The compact-label
+// strip collapsed UCAT ANZ / UCAT ANZ (…NZ) and the overflow branch cut
+// mid-word. See src/data/serp-unique.ts for the full note.
+const _compactOwners = new Map<string, Set<string>>();
+for (const e of ALL_EXAMS as any[]) {
+  if (!e?.examId) continue;
+  const k = String(e.examName || e.examId).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || e.examId;
+  if (!_compactOwners.has(k)) _compactOwners.set(k, new Set());
+  _compactOwners.get(k)!.add(e.examId);
+}
+const _myCompact =
   String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || examName;
-const title = (() => {
-  const candidates = [
-    `${examName} Study Plan ${currentYear}`,
-    `${examName} Study Plan`,
-    `${_examCompact} Study Plan ${currentYear}`,
-    `${_examCompact} Study Plan`,
-    `${_examCompact} Plan`,
-  ];
-  for (const c of candidates) {
-    if (`${c}${BRAND_SUFFIX}`.length <= 60) return `${c}${BRAND_SUFFIX}`;
-  }
-  const room = Math.max(10, 60 - BRAND_SUFFIX.length);
-  const cut = _examCompact.slice(0, room).replace(/\s+\S*$/, '').trim() || _examCompact.slice(0, room).trim();
-  return `${cut}${BRAND_SUFFIX}`;
-})();
+const _sharedExamLabel = (_compactOwners.get(_myCompact)?.size ?? 1) > 1;
+const _examCompact = pageExamLabel(examName, exam.examId, _sharedExamLabel);
+
+// w22 geo pass — 13 of the 49 genuinely country-unnamed HIGH pages are
+// /study-plan/{exam}/ index pages. Same noun/adjective/board guard, same five
+// countries.
+const _geo = GEO_PASS_COUNTRIES.has(exam.country) ? countryDisplay(exam.country) : '';
+const _geoLabel = _geo && !namesCountry(`${examName} ${_examCompact} ${exam.eligibility ?? ''} ${exam.examPattern ?? ''}`, exam.country) ? _geo : '';
+
+const title = fitTitle([
+  ...(_geoLabel ? [`${_examCompact} Study Plan ${currentYear}, ${_geoLabel}`, `${examName} Study Plan ${currentYear} — ${_geoLabel}`] : []),
+  `${examName} Study Plan ${currentYear}`,
+  `${examName} Study Plan`,
+  `${_examCompact} Study Plan ${currentYear}`,
+  `${_examCompact} Study Plan`,
+  `${_examCompact} Plan`,
+], BRAND_SUFFIX);
 const _desc = `Free ${examName} study plans for ${currentYear} — from a last-week sprint to a full-year foundation build. ${topicCount} weight-prioritised topics across ${subjectCount} subjects, day-by-day, no signup.`;
-const description = _desc.length > 160 ? _desc.slice(0, 157) + '...' : _desc;
+const description = fitDescription(_geoLabel && _desc.length + _geoLabel.length + 11 <= 160
+  ? _desc.replace('day-by-day', `day-by-day for ${_geoLabel} students`)
+  : _desc);
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -204,7 +215,7 @@ const notesSubjectSet = new Set(examGoodNotes.map((n) => n.id.split('/')[1]).fil
           {examName} Study Plan <span class="text-brand-600 dark:text-brand-400">{currentYear}</span>
         </h1>
         <p class="text-lg md:text-xl text-surface-600 dark:text-surface-300 max-w-3xl leading-relaxed">
-          Free, ready-made {examName} roadmaps for whatever time you have left — from a last-week sprint to a full-year foundation build. Each one covers <strong class="text-surface-900 dark:text-white">{topicCount} weighted topics</strong> across <strong class="text-surface-900 dark:text-white">{subjectCount} subjects</strong>, prioritised by weight, with a day-by-day schedule. No signup, no fees.
+          Free, ready-made {examName} roadmaps{_geoLabel ? <> for {examName} candidates in {_geoLabel}</> : null} for whatever time you have left — from a last-week sprint to a full-year foundation build. Each one covers <strong class="text-surface-900 dark:text-white">{topicCount} weighted topics</strong> across <strong class="text-surface-900 dark:text-white">{subjectCount} subjects</strong>, prioritised by weight, with a day-by-day schedule. No signup, no fees.
         </p>
 
         <div class="mt-7 flex flex-wrap gap-3">

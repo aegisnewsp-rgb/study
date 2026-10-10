@@ -417,5 +417,6 @@ The examiner will almost never expect the answer to be "winding up" as the first
 - **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Winding Up & Corporate Insolvency" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[CS Executive syllabus and topic weightage](/exams/cs-exec/syllabus/)** — where Company Law sits among every CS Executive subject, with weightage
 - **[All Company Law notes](/notes/cs-exec/company-law/)** — browse sibling topics in this subject
 

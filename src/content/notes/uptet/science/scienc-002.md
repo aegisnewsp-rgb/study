@@ -80,3 +80,7 @@ Mixtures are further classified as **homogeneous** (uniform throughout) and **he
 - **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
 - **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
 
+
+## Where this sits in the syllabus
+
+This is one topic inside [UPTET syllabus and topic weightage](/exams/uptet/syllabus/) — where Science sits among every UPTET subject, with weightage. Read it before you decide what to revise first.

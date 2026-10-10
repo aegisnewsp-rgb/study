@@ -158,6 +158,11 @@ Answer: "just" → the base word is "just," and the suffix "-ify" creates "justi
 6. Build a "confusable words" revision list — keep adding new ones you encounter in practice papers and revise them weekly.
 
 ---
+
+## Where this sits in the syllabus
+
+This is one topic inside [WAEC WASSCE syllabus and topic weightage](/exams/waec/syllabus/) — where English Language sits among every WAEC WASSCE subject, with weightage. Read it before you decide what to revise first.
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 
 ## Continue your study

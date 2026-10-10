@@ -229,3 +229,7 @@ $$\log_2 48 \approx 4 + 1.585 = 5.585$$
 - **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
 
+
+## Where this sits in the syllabus
+
+This is one topic inside [WAEC WASSCE syllabus and topic weightage](/exams/waec/syllabus/) — where Mathematics sits among every WAEC WASSCE subject, with weightage. Read it before you decide what to revise first.

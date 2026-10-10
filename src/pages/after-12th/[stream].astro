@@ -3,6 +3,8 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
+import { getCollection } from 'astro:content';
+import { fitTitle, fitDescription } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   return [
@@ -21,66 +23,134 @@ const { stream } = Astro.params;
 import { SITE_URL } from '@data/site';
 const year = new Date().getUTCFullYear();
 
-const STREAM_META: Record<string, { label: string; h1: string; description: string; keywordIds: string[] }> = {
+const STREAM_META: Record<string, { label: string; h1: string; description: string; keywordIds: string[]; intro: string; pick: string[]; note?: string }> = {
   engineering: {
     label: 'Engineering',
     h1: `Engineering Exams After 12th ${year}: The Complete Guide`,
-    description: `Every engineering entrance exam for ${year} — JEE Main, JEE Advanced, BITSAT, VITEEE, SRMJEEE, GATE, and more. Eligibility, difficulty, college-feed ranked. Free AI study plans.`,
-    keywordIds: ['jeemain','jeeadvanced','bitsat','viteee','srmjeee','gate'],
+    description: `Every engineering entrance exam we hold for ${year} — JEE Main, JEE Advanced, BITSAT, VITEEE, Manipal MET, WBJEE, MHT-CET, GUJCET, KCET, KEAM, AP EAPCET, TS EAMCET, UPSEE and GATE.`,
+    keywordIds: ['jeemain','jeeadvanced','bitsat','vitee','gate','manipal-met','wbjee','mht-cet','gujcet','kcet','keam','ap-eapcet','ts-eamcet','jeeupsee'],
+    intro: 'Engineering entrances split into two very different problems. The national ones — JEE Main and JEE Advanced — decide almost every NIT and IIT seat, and they are hard because of the exam, not the syllabus size. The university and state entrances (BITSAT, VITEEE, WBJEE, MHT-CET, GUJCET, KCET, KEAM, AP EAPCET, TS EAMCET, UPSEE) are open to a much wider pool of students and often decide private and state-college seats. GATE is a different animal entirely: it is a postgraduate and recruitment exam, not a 12th-standard entrance.',
+    pick: [
+      'JEE Main is the base layer. Almost every other engineering entrance on this page either accepts a JEE Main score or competes with it for the same seats.',
+      'JEE Advanced gates the IITs and a small set of national-level institutions. It is the only one of these that needs a two-year plan rather than a final-year one.',
+      'State and private entrances are worth ranking by fees, campus and placement record rather than by exam difficulty — several are reachable with the same preparation as JEE Main.',
+      'MHT-CET, WBJEE and KEAM feed state engineering colleges; BITSAT and VITEEE feed private universities with their own fee structures.',
+    ],
   },
   medicine: {
     label: 'Medicine',
     h1: `Medical Entrance Exams After 12th ${year}: NEET, AIIMS, MDCAT & More`,
-    description: `Medical and dental entrance exams for ${year} — NEET UG, AIIMS MBBS, MDCAT (Pakistan), UTME medical cutoffs. Pick the exam that fits your country, eligibility, and target colleges.`,
-    keywordIds: ['neet','aiims-mbbs','neet-pg','mdcat','fmge'],
+    description: `Medical and dental entrance exams for ${year} — NEET UG, AIIMS MBBS, JIPMER, MDCAT (Pakistan), NEET PG and INI CET. Pick the exam that fits your country, eligibility and target colleges.`,
+    keywordIds: ['neet','aiims-mbbs','neet-pg','mdcat','fmge','ini-cet','jipmer'],
+    intro: 'India runs one national undergraduate medical entrance (NEET UG) and a separate PG entrance (NEET PG, plus INI CET for Institutes of National Importance). JIPMER and AIIMS MBBS sit alongside them, and the older state and private college tests have largely been absorbed into NEET. Outside India, MDCAT is the Pakistani equivalent and FMGE is the screening exam for Indian-trained doctors practising abroad. The syllabus is Physics, Chemistry, Biology or, for MDCAT, Biology plus general English and reasoning — but the binding constraint is almost always the Biology syllabus, not the exam format.',
+    pick: [
+      'For an MBBS or BDS seat in India, NEET UG is the exam to plan around. The others are alternatives or add-ons, not substitutes.',
+      'MDCAT covers the same Biology core as NEET with a different paper style, so a NEET preparation base transfers directly.',
+      'FMGE is not an entrance exam — it is the qualifying screening step after you have already trained. Do not prepare for it as if it were one.',
+      'NEET PG and INI CET are postgraduate exams. If you have not started an MBBS or BDS degree yet, they are the wrong page.',
+    ],
   },
   'civil-services': {
     label: 'Civil Services',
     h1: `Civil Services Exams After 12th/Graduation ${year}: UPSC, State PSCs, SSC`,
     description: `The full civil-services ladder: UPSC CSE, state PSCs, SSC CGL, and more. Eligibility timelines (many accept graduates only; a few allow 12th-pass). Free prep roadmaps.`,
-    keywordIds: ['upsc','ssc-cgl','up-psc','bpsc'],
+    keywordIds: ['upsc','ssc-cgl','up-psc','bpsc','kpsc','ras','uppsc','tnpsc'],
+    intro: 'Civil service in India is a ladder, not a single exam. UPSC Civil Services is the All-India route and the only one that places you in the central government; state PSCs (BPSC, KPSC, UPPSC, RPSC RAS, TNPSC, UPPSC RO/ARO) recruit for state posts and are the far more common entry. SSC CGL is a separate, graduate-level recruitment exam for central government staff posts and has no overlap with either. The practical question is which service you want, because the syllabus overlap between a state PSC and UPSC is high but not total, and SSC CGL has almost none with UPSC.',
+    pick: [
+      'UPSC CSE and a state PSC share most of their syllabus. If your target is a state service, attempt the state exam first — the general studies work transfers, and the state-specific paper does not exist in UPSC.',
+      'SSC CGL is a different exam with a different paper pattern. Studying "general studies" for UPSC does not prepare you for the SSC quantitative and reasoning sections.',
+      'State PSC eligibility usually requires graduation in the relevant subject; check the notification for the state you are targeting.',
+      'Mains and interviews are separate stages. The number of months you give each is a better planning decision than the number of books you buy.',
+    ],
   },
   law: {
     label: 'Law',
     h1: `Law Entrance Exams After 12th ${year}: CLAT, AILET, LSAT India`,
-    description: `Every law entrance exam for undergraduate admission — CLAT, AILET, LSAT India, SLAT — compared. Syllabus overlap, college pathways, prep strategies.`,
-    keywordIds: ['clat'],
+    description: `Law entrance exams we hold for undergraduate admission — CLAT, AILET, LSAT India and MHC-CET (Law), compared. Syllabus overlap, college pathways, prep strategies.`,
+    keywordIds: ['clat','ailet','lsat','mht-cet-law'],
+    intro: 'Law admissions in India run on three national tests. CLAT is the United Law University entrance and the one most colleges accept; AILET is the National Law University Delhi entrance; LSAT India is the route to a small number of private colleges. MHC-CET (Maharashtra) is a state-level alternative. All four test legal reasoning and current affairs far more heavily than they test memorised law, and all four publish an official question paper, which is the single most useful preparation resource any of them release.',
+    pick: [
+      'CLAT covers the widest set of colleges. AILET is essentially a Delhi-only route with a smaller paper and a smaller seat list.',
+      'The common core is legal reasoning and English. Prepare that once and it carries across every test on this list.',
+      'Current affairs and general knowledge carry real marks in CLAT and AILET — they are not optional filler.',
+      'LSAT India is accepted by fewer colleges than CLAT. Check the college list before choosing it over a CLAT-based preparation.',
+    ],
   },
   management: {
     label: 'Management',
     h1: `Management Entrance Exams After Graduation ${year}: CAT, XAT, SNAP, CMAT`,
-    description: `MBA and PGDM entrance exams — CAT, XAT, SNAP, CMAT, GMAT. Difficulty, eligibility, college feeds, and how to prepare in under 6 months.`,
-    keywordIds: ['cat','xat','snap','cmat'],
+    description: `MBA, PGDM and graduate recruitment exams we hold — CAT, XAT, SNAP, CMAT, MAT, plus IBPS, SBI and RBI Grade B. Difficulty, eligibility, and how to prepare in under 6 months.`,
+    keywordIds: ['cat','xat','snap','cmat','mat','ibps-po','ibps-clerk','sbi-po','sbi-clerk','rbi-grad-b'],
+    intro: 'This stream covers two related but separate things: postgraduate management entrance (CAT, XAT, SNAP, CMAT, MAT) and graduate recruitment into banking and insurance (IBPS, SBI and RBI Grade B). CAT feeds the IIMs and is the hardest of the group by a wide margin; XAT and SNAP are accepted by a broad set of private and autonomous business schools; CMAT and MAT serve many private and deemed universities. The banking exams have their own pattern and their own recruitment cycle. Pick the track first, because the preparation barely overlaps.',
+    pick: [
+      'CAT, XAT and SNAP all test verbal ability, logic and quantitative aptitude, but the difficulty and the time pressure are not comparable. Preparing for one does not transfer.',
+      'CMAT and MAT sit closer to the school entrance level than to CAT. They are realistic targets if CAT quant is out of reach in the time you have.',
+      'IBPS and SBI recruitment is for graduates, uses a different paper pattern, and runs on its own calendar — applying for both tracks at once is common but halves your preparation time.',
+      'RBI Grade B is a specialist exam with its own economics, finance and general-awareness syllabus. It is not a general management entrance.',
+    ],
   },
   commerce: {
     label: 'Commerce',
     h1: `Commerce Entrance Exams After 12th ${year}: CUET, IPMAT, CA-Foundation`,
-    description: `Commerce-stream exams for DU, IIM integrated, ICAI and more — CUET UG, IPMAT, CA-Foundation, CS, CMA. Full breakdown + free study plans.`,
-    keywordIds: ['cuet','ipmat','ca-found'],
+    description: `Commerce-stream exams we hold — CUET UG, CA Foundation, CS Executive, CMA Foundation and the CFA Program. Full breakdown plus free study plans.`,
+    keywordIds: ['cuet','ca-found','cs-exec','cma','cfa'],
+    intro: 'Commerce has two quite different halves. The university entrance side is CUET UG, which now carries a large share of admissions to central and state universities across the arts, commerce and science streams. The professional side is the ICAI and ICSI and ICMA qualifications: CA Foundation is the entry level for chartered accountancy, CS Executive and CMA Foundation are their equivalents in company secretary and cost accountancy, and the CFA Program is the finance route into investment roles. The first half is an exam you sit after 12th; the second is a multi-year professional qualification you clear paper by paper.',
+    pick: [
+      'CUET UG is the exam to plan around if you want an undergraduate degree at a central or state university. It is a general entrance, so you apply to courses with it, not to a commerce-specific paper.',
+      'CA Foundation, CMA Foundation and CS Executive are professional qualifications, not entrance exams. You clear each level before the next, and the subjects are accounting and law, not general aptitude.',
+      'The CFA Program is for finance careers and is written in English at a professional level. It is a long commitment, not a single exam.',
+      'Most commerce students take CUET for a degree and one professional qualification in parallel. Decide which before signing up for both at once.',
+    ],
   },
   'arts-humanities': {
     label: 'Arts & Humanities',
     h1: `Arts & Humanities Entrance Exams After 12th ${year}`,
-    description: `Arts-stream entrance exams including CUET UG humanities, UCEED, NIFT, NID — for design, social sciences, humanities at top central universities.`,
-    keywordIds: ['cuet','uceed','nift'],
+    description: `Arts and humanities entrance exams we hold — CUET UG, UPTET, CTET, CUCET PG and UGC NET — and how the undergraduate route differs from the teaching and research ones.`,
+    keywordIds: ['cuet','uptet','ctet','cucet-pg','ugc-net'],
+    intro: 'The arts and humanities entrance route changed shape when CUET UG replaced a patchwork of state and university-specific tests for many undergraduate courses. CUET UG is now the shared entrance for a large share of history, political science, geography, languages and humanities programmes at central and participating state universities. Alongside it sit the teaching eligibility tests — UPTET and CTET for secondary, CUCET PG for assistant professors in central universities — and UGC NET for eligibility to teach or research in Indian universities. Those last three are career-stage exams, not undergraduate entrances.',
+    pick: [
+      'CUET UG is a general entrance for undergraduate courses. Your subject choice and the subject paper you sit are separate decisions, and the college list matters more than the preparation volume.',
+      'UPTET and CTET qualify you to teach; they are not tied to a subject you are applying to for a degree.',
+      'CUCET PG and UGC NET are for postgraduates and for people already teaching or starting a research career.',
+      'The humanities sections of CUET carry real weight. Reading speed and answer accuracy in English are usually the first thing to fix.',
+    ],
   },
   defence: {
     label: 'Defence',
     h1: `Defence Exams After 12th ${year}: NDA, CDS, AFCAT`,
-    description: `The entrance path to Indian Defence services — NDA after 12th, CDS and AFCAT after graduation. Physical + written cut-offs, age limits, college routes.`,
+    description: `The Indian defence route after 12th — the NDA exam, the written paper, the physical standard test and the SSB interview. CDS and AFCAT need a degree first.`,
     keywordIds: ['nda'],
+    intro: 'The Indian defence route starts with the NDA exam, run twice a year, and everything else comes after commission. CDS and AFCAT are for graduates who want to join the officer ranks; NDA is the only entry on this page that a student can sit straight after Class 12, and it is the only way in without a degree first. The NDA paper is written by the National Defence Academy and covers Mathematics and General Ability, followed by a physical standard test and an SSB interview.',
+    pick: [
+      'NDA is the only route on this list open to a Class 12 pass. CDS and AFCAT both require a graduation degree first.',
+      'The written paper is Mathematics plus General Ability. Both are school-level, but the time limit is the part students underestimate.',
+      'Clearing the written test only gets you to the SSB. The interview and the physical standard test are separate stages with their own preparation.',
+      'There is an age limit as well as an academic one. Check the current notification before planning a two-year cycle around the exam.',
+    ],
+    note: 'We hold one defence exam, the NDA. CDS and AFCAT are not on this site yet.',
   },
 };
 
 const meta = STREAM_META[stream] || STREAM_META['engineering'];
 const streamExams = ALL_EXAMS.filter((e: any) => meta.keywordIds.includes(e.examId) && e.subjects);
 
+// How many free notes each of these exams actually has on this site. Counted
+// from the notes collection, never hand-typed, so the page cannot claim notes
+// that are noindexed or unwritten.
+const goodNoteCounts = new Map<string, number>();
+for (const n of await getCollection('notes')) {
+  const examId = n.id.split('/')[0];
+  goodNoteCounts.set(examId, (goodNoteCounts.get(examId) ?? 0) + 1);
+}
+
 const BRAND_SUFFIX = ' | StudyRoadmap';
-const _tFull = `${meta.label} Exams After 12th${BRAND_SUFFIX}`;
-const title = _tFull.length <= 60 ? _tFull : `${meta.label} After 12th${BRAND_SUFFIX}`.slice(0, 60);
-const description = (meta.description || '').length > 160
-  ? (meta.description || '').slice(0, 157) + '...'
-  : (meta.description || '');
+const title = fitTitle([
+  `${meta.label} Exams After 12th`,
+  `${meta.label} Exams After 12th`,
+  `${meta.label} Entrance Exams`,
+  `${meta.label} Exams`,
+], BRAND_SUFFIX);
+const description = fitDescription(meta.description || '');
 const canonicalUrl = `${SITE_URL}/after-12th/${stream}/`;
 
 const itemListJsonLd = {
@@ -125,14 +195,42 @@ const breadcrumbJsonLd = {
     </section>
 
     <section class="container-page py-8">
-      <h2 class="text-2xl font-bold mb-5">Exams in this stream</h2>
+      <h2 class="text-2xl font-bold mb-4">What this stream actually involves</h2>
+      <p class="text-surface-700 dark:text-surface-200 max-w-3xl leading-relaxed mb-6">{meta.intro}</p>
+      {meta.note && (
+        <p class="text-sm text-surface-500 dark:text-surface-400 max-w-3xl leading-relaxed mb-6 border-l-2 border-surface-200 dark:border-surface-700 pl-3">{meta.note}</p>
+      )}
+
+      <h2 class="text-2xl font-bold mb-4">How to choose between them</h2>
+      <ol class="list-decimal ml-6 space-y-2 text-surface-700 dark:text-surface-200 max-w-3xl mb-4">
+        {meta.pick.map((p: string) => <li>{p}</li>)}
+      </ol>
+      <p class="text-surface-700 dark:text-surface-200 max-w-3xl leading-relaxed">
+        Two habits pay for themselves here. First, read the eligibility line on each exam page above — it is the fastest way to eliminate half the list. Second,
+        use the <a href="/compare/" class="text-brand-600 dark:text-brand-400 font-semibold">side-by-side comparison pages</a> to see how much syllabus two
+        exams share before you commit to a preparation plan for both.
+      </p>
+    </section>
+
+    <section class="container-page py-8 border-t border-surface-200 dark:border-surface-700">
+      <h2 class="text-2xl font-bold mb-2">Exams in this stream</h2>
+      <p class="text-surface-600 dark:text-surface-400 mb-5 max-w-3xl">
+        {streamExams.length} {meta.label.toLowerCase()} {streamExams.length === 1 ? 'exam' : 'exams'} with a full guide on this site.
+        The free-notes column counts the study notes we actually hold for that exam, not a promise.
+      </p>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {streamExams.map((e: any) => {
           const topics = (e.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
+          const noteCount = goodNoteCounts.get(e.examId) ?? 0;
           return (
             <a href={`/exams/${e.examId}/`} class="block p-5 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 hover:border-brand-500 transition">
               <div class="flex items-center gap-2 mb-2"><span class="text-2xl">{getCountryFlag(e.country) || '🌍'}</span><h3 class="font-bold text-lg">{e.examName}</h3></div>
               <p class="text-sm text-surface-500">{(e.subjects || []).length} subjects · {topics} topics</p>
+              <p class="text-sm text-surface-500">
+                {noteCount > 0
+                  ? <span class="text-brand-600 dark:text-brand-400 font-semibold">{noteCount} free {noteCount === 1 ? 'note' : 'notes'}</span>
+                  : <span>No notes yet — guide only</span>}
+              </p>
               {e.eligibility && <p class="text-xs text-surface-600 dark:text-surface-400 mt-2 line-clamp-2">{e.eligibility.slice(0, 140)}</p>}
               <div class="text-brand-600 mt-3 text-sm font-semibold">Open full overview →</div>
             </a>
@@ -142,13 +240,25 @@ const breadcrumbJsonLd = {
     </section>
 
     <section class="container-page py-8 border-t border-surface-200 dark:border-surface-700">
-      <h2 class="text-2xl font-bold mb-4">How to choose</h2>
-      <ol class="list-decimal ml-6 space-y-2 text-surface-700 dark:text-surface-200">
-        <li><strong>Start from outcomes</strong>: list the colleges or roles you'd accept; see which exam(s) feed them.</li>
-        <li><strong>Check eligibility windows</strong>: some exams allow 12th-pass, others graduation only — missing the age bar wastes a year.</li>
-        <li><strong>Compare syllabus overlap</strong> using our side-by-side comparison pages.</li>
-        <li><strong>Try a 30-day free plan</strong> for your top 2 exams — you'll know in a week whether the subjects click.</li>
-      </ol>
+      <h2 class="text-2xl font-bold mb-4">Common questions</h2>
+      <dl class="space-y-5 max-w-3xl">
+        <div>
+          <dt class="font-bold mb-1">Can I sit more than one of these?</dt>
+          <dd class="text-surface-700 dark:text-surface-200">Usually yes. Most of these are independent applications on separate dates, and several are scheduled specifically so that candidates can attempt more than one in the same season. Check each exam's own notification for its calendar, because the overlap is not guaranteed.</dd>
+        </div>
+        <div>
+          <dt class="font-bold mb-1">Which one should I pick if I have no idea?</dt>
+          <dd class="text-surface-700 dark:text-surface-200">Work backwards from the college or role you would actually accept, not from the exam you have heard most about. The list above tells you which exams feed which colleges; everything else is preparation detail.</dd>
+        </div>
+        <div>
+          <dt class="font-bold mb-1">Do these share preparation?</dt>
+          <dd class="text-surface-700 dark:text-surface-200">Some do, and the amount varies by exam. Physics, Chemistry and Mathematics carry across most engineering and medical entrances. General Studies carries across UPSC and the state PSCs. Between CLAT, AILET and LSAT India, legal reasoning and English carry across all three. Beyond that, treat each exam as its own syllabus.</dd>
+        </div>
+        <div>
+          <dt class="font-bold mb-1">How far ahead should I start?</dt>
+          <dd class="text-surface-700 dark:text-surface-200">For the national engineering and medical entrances, two years is the usual planning horizon and one year is workable. For everything else on this page, six to twelve months of focused preparation is the normal range. The exact eligibility and notification dates change every year, so confirm them on the official board site before fixing a calendar.</dd>
+        </div>
+      </dl>
     </section>
   </main>
   <Footer />

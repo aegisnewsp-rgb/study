@@ -191,3 +191,7 @@ The NDA Mathematics paper typically has 120 questions total; matrices and determ
 - **[NDA exam overview](/exams/nda/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/nda/mathematics/)** — browse sibling topics in this subject
 
+
+## Where this sits in the syllabus
+
+This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.

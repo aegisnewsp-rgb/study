@@ -1,0 +1,237 @@
+---
+exam: ielts-qatar
+examName: IELTS (Qatar)
+subject: ielts-listening
+subjectName: Listening
+topic: ieltsl-005
+topicName: "Question Types — Completion Family"
+weight: 3
+country: qatar
+generated: "2026-10-01T18:42:00Z"
+lastUpdated: 2026-10-01
+diagramPrompt: "Educational diagram illustrating IELTS Listening completion-family taxonomy: a 5-leaf tree showing form / note / table / flow-chart / summary completion with word-limit examples and a Qatar-specific context panel — exam-style layout, white background"
+---
+
+# Question Types — Completion Family
+
+> Verify the live Listening format, computer-delivered vs paper-based delivery, and the 10-minute transfer time policy at your chosen test centre in Qatar on https://ielts.org/ and https://www.britishcouncil.qa/ before planning revision.
+
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Core facts in one pass
+
+- **What it covers:** the five completion families used across the four parts of IELTS Listening — form completion, note completion, table completion, flow-chart completion, and summary completion.
+- **Distribution:** roughly 50% of all Listening questions are completion-family items (across Parts 1, 2, 3, and 4).
+- **Core rule:** every completion answer is the LITERAL words spoken in the recording, within the word limit. The question paper paraphrases; the answer must come from the speaker.
+- **Word-limit range:** NO MORE THAN ONE WORD; NO MORE THAN TWO WORDS; NO MORE THAN THREE WORDS; or NO MORE THAN THREE WORDS AND/OR A NUMBER.
+- **Marking:** +1 correct, 0 incorrect (no negative marking). Spelling errors are acceptable if the meaning is unchanged; a single letter error is usually forgiven but a missing letter is not.
+- **Order of answers:** questions follow the recording in order. Use the gap between questions to predict the next word type.
+
+#### The five families at a glance
+
+| Family | Most common part | Answer source |
+|---|---|---|
+| Form completion | Part 1 | literal word from recording |
+| Note completion | Parts 1 + 4 | literal word from recording |
+| Table completion | Parts 1 + 4 | literal word from recording |
+| Flow-chart completion | Parts 3 + 4 | literal word from recording |
+| Summary completion | Parts 2 + 4 | literal word or option from box |
+
+---
+
+#### Examiner traps
+
+- Writing MORE than the word limit. "NO MORE THAN TWO WORDS" is strict. "the methodology" is 2 words; "the research methodology" is 3 — wrong.
+- Spelling academic vocabulary. Words like "photosynthesis", "methodology", "phenomenon", "hypothesis" are spelled but spoken quickly. Train with a daily 5-minute dictation drill.
+- Missing the answer because it appears in the MIDDLE of the recording, not at the end. Read ahead to know when in the recording the answer falls.
+- Writing the FIRST option before the speaker revises it. Always wait for the conclusion of the exchange.
+- Confusing words that SOUND similar ("stationary" vs "stationery"; "complement" vs "compliment"; "principal" vs "principle"). Train with a daily 5-minute minimal-pair drill.
+
+---
+
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Form completion (Part 1)
+
+The most common Part 1 question family. A form (often a registration, booking, or application form) has blanks; the candidate fills the blanks with words from the recording.
+
+**Strategy:**
+1. **Predict the word type.** Look at the surrounding words. "Name:" expects a name (proper noun); "Date of arrival:" expects a date; "Number of guests:" expects a number.
+2. **Listen for the speaker's PARAPHRASE.** The speaker often says "the day after tomorrow" while the form expects "Tuesday" (or vice versa). Match the meaning, not the word.
+3. **Check the word limit.** Strict word-limit enforcement. "Tuesday" is 1 word; "the day after tomorrow" is 4 — wrong. The candidate must do the calendar math.
+
+**Qatar-relevant contexts:** hotel booking form (Hamad International Airport hotel, Marriott Doha, Hilton Doha, Radisson Blu Doha); library registration form (Qatar National Library, Education City library); tour booking note (Souq Waqif, Museum of Islamic Art, Katara Cultural Village); course enrolment form (QU Continuing Education, British Council Qatar).
+
+#### Note completion (Parts 1 + 4)
+
+Notes organised under headings (often Definition, Process, Example, Theory, Application). The candidate fills the gaps.
+
+**Strategy:**
+1. **Predict the word type from the heading.** "Definition:" expects a term; "Example:" expects a concrete noun; "Theory:" expects a name or concept.
+2. **Listen for definition cues.** "is defined as", "refers to", "is the term for", "is known as" are direct cues for definitions.
+3. **Match the meaning.** The note paraphrases the recording; the answer must come from the speaker.
+
+**Qatar-relevant contexts:** tour booking note (Souq Waqif, Museum of Islamic Art); research methodology note (QU research seminar, Education City).
+
+#### Table completion (Parts 1 + 4)
+
+A table with rows and columns. The candidate fills the gaps in the cells. Common patterns: a classification table (rows are categories, columns are features); a process table (rows are stages, columns are properties); a comparison table (rows are items, columns are features).
+
+**Strategy:**
+1. **Predict the cell content from the row and column headings.** "Stage | Time | Temperature" — the cell expects one of those properties.
+2. **Listen for ordinal cues.** "first", "second", "third", "next", "then", "finally" are direct cues for table-row order.
+3. **Match the meaning.** The recording often paraphrases the table headers.
+
+**Qatar-relevant contexts:** course schedule table (QU Continuing Education, Education City); classification table (research methods, language families, ecosystem types).
+
+#### Flow-chart completion (Parts 3 + 4)
+
+A flow-chart of a process or sequence with missing steps. The candidate fills the gaps.
+
+**Strategy:**
+1. **Identify the flow direction.** Arrows point from input to output; the recording follows the same direction.
+2. **Listen for sequence cues.** "first", "next", "then", "after that", "finally" are direct cues for flow-chart step order.
+3. **Match the process stage to the recording.** The flow-chart summarises the recording; the candidate must identify which stage each gap represents.
+
+**Qatar-relevant contexts:** research methodology flow (QU, Education City); argument structure (academic discussion Part 3); manufacturing process (industrial Qatar); study process (academic life).
+
+#### Summary completion (Parts 2 + 4)
+
+A summary of the recording with gaps. The candidate fills the gaps with words from the recording (or from a box of options). The summary paraphrases; the answers are literal words.
+
+**Strategy:**
+1. **Read the summary first.** Know what TYPE of word you are listening for at each gap.
+2. **Listen for paraphrase markers.** "in other words", "that is", "what I mean is", "to put it another way", "which is to say" signal a paraphrase is coming.
+3. **Match the meaning.** The summary uses different words than the recording; recognising the paraphrase is the difference between right and wrong.
+
+**Qatar-relevant contexts:** tour summary (Souq Waqif, Museum of Islamic Art, Katara Cultural Village); lecture summary (QU faculty lecture, Education City research summary); talk summary (academic talk, research talk).
+
+---
+
+### 🔴 Deep — Mastery (2mo+)
+
+#### The cognitive architecture of completion-family questions
+
+Completion-family questions test the candidate's ability to recognise literal vocabulary in real time, decode paraphrases, count words under a strict limit, and spell academic vocabulary correctly. They appear in roughly 50% of all Listening questions across the four parts.
+
+The differentiation between completion-family questions and other question families (multiple choice, matching, labelling, short-answer) is structural: completion questions require the candidate to write a literal word or short phrase from the recording, while multiple choice and matching questions require the candidate to choose from options. The completion family has a higher word-precision cost but a lower interpretation cost — the answer is in the recording, not derived from options.
+
+A candidate scoring below 6 on the completion family typically has a vocabulary, paraphrase-decoding, or word-limit issue that no targeted completion practice will resolve. The deeper intervention is to build vocabulary endurance (e.g. extended listening with verbatim transcription) and word-limit awareness (e.g. daily word-counting drills).
+
+#### Practice strategy for the completion family
+
+1. **Use the British Council and IDP official IELTS practice tests.** The question styles and difficulty are calibrated against the live test. Third-party materials may diverge.
+2. **Practise with Qatari-context recording scenarios.** Doha-based hotel booking, tour booking, course enrolment, library registration, university lecture, research seminar build the local vocabulary you will hear on test day.
+3. **Practise verbatim transcription with a stopwatch.** A 30-second recording segment should be transcribed in 90 seconds; if it takes more, vocabulary and writing speed are the binding constraints.
+5. **Word-limit drill:** take 20 completion items and count the words in each candidate answer. Build from 1-word limits to 4-word limits. The habit must be automatic.
+6. **Spelling drill:** take 100 academic-vocabulary words (Academic Word List 570) and dictate them aloud to yourself, then check the spelling. Build from 10-word to 100-word daily drills.
+7. **Paraphrase drill:** take 30 completion items and identify the paraphrase in the recording. Build from 1-paraphrase to 5-paraphrase drills.
+
+#### When completion marks reflect a deeper issue
+
+- **Persistent word-limit failures:** the issue is word-counting, not listening. Train with a daily 10-minute "count and check" drill where you count the words in each candidate answer.
+- **Persistent spelling errors:** the issue is vocabulary breadth. Train with a daily 6-minute spelling drill on the 570-word Academic Word List.
+- **Persistent paraphrase-decoding errors:** the issue is vocabulary recognition, not listening. Practise with academic-podcast listening and verbatim transcription.
+- **Persistent number-format errors:** the issue is number recognition. Train with a daily 6-minute drill on numbers read aloud (percentages, fractions, ratios, dates, amounts).
+- **Persistent missing-answer errors:** the issue is reading ahead, not listening. Train with a "read first, listen second" drill where you read every gap and predict the word type BEFORE the recording starts.
+
+#### Edge cases and known traps
+
+1. **Strict NO MORE THAN TWO WORDS.** "the research methodology" is 3 words — wrong. "methodology" alone is 1 word — correct.
+2. **Plural vs singular.** The answer must match the EXACT form from the recording. If the speaker says "sodium chloride" and you write "sodium chlorides", it is wrong. Singular and plural are not interchangeable.
+3. **Hyphenated words.** "well-being" written as "well being" counts as TWO words. If the limit is one, "well-being" is the only correct form.
+4. **Capitalisation.** IELTS accepts lower-case names unless the recording explicitly capitalises (proper nouns, country names). Do not waste time capitalising "london" — both are accepted.
+5. **American vs British spelling.** IELTS accepts either American or British spelling as long as it is consistent within a single answer. "color" and "colour" are both accepted for the same item; do not switch mid-answer.
+7. **Numbers and units.** "30%" is 1 word; "30 percent" is 2 words. "5km" is 1 word; "5 kilometres" is 2 words. Plan ahead for the word limit.
+8. **"AND/OR A NUMBER".** When the word limit includes "AND/OR A NUMBER", the candidate can write a number alone (e.g. "30") or a number with words (e.g. "30 percent"). Plan ahead.
+9. **Article count.** "the methodology" is 2 words. If the limit is one, drop the article.
+10. **The answer is NOT always the most technical term.** Some completion questions use a paraphrase in the question and the literal term in the recording; other completion questions use the literal term in the question and the paraphrase in the recording. Read carefully.
+
+---
+
+### Exam Essentials — IELTS Listening Completion Family
+
+| Field | Value |
+|---|---|
+| Question families | Form; note; table; flow-chart; summary |
+| Approximate share | ~50% of all Listening questions |
+| Most common part | Form = Part 1; Flow-chart = Parts 3 + 4; Summary = Parts 2 + 4; Note + Table = Parts 1 + 4 |
+| Word limits | NO MORE THAN ONE/TWO/THREE WORDS; or NO MORE THAN THREE WORDS AND/OR A NUMBER |
+| Answer source | literal words from recording |
+| Marking | +1 correct, 0 incorrect (no negative marking) |
+| Spelling | acceptable if meaning unchanged; single letter error forgiven |
+| Source | ielts.org Academic Listening test format |
+
+**Pre-test checklist for the completion family:**
+- [ ] Have you read the official ielts.org Listening test format page?
+- [ ] Have you completed at least ONE British Council or IDP official practice test?
+- [ ] Have you practised verbatim transcription with a stopwatch?
+- [ ] Have you practised word-counting on completion items?
+- [ ] Have you built vocabulary on the Academic Word List (570-word list)?
+- [ ] Have you practised paraphrase-decoding?
+- [ ] Have you timed at least THREE completion-heavy sets (10 questions)?
+
+---
+
+### High-Yield — IELTS Listening Completion Family
+
+The seven most-testable contexts and the calibrated response framework:
+
+1. **Hotel booking form (Part 1).** A caller books a hotel room. Form completion captures guest name, arrival date, length of stay, room type, and special requests. Qatar context: Hamad International Airport hotel, Marriott Doha, Hilton Doha, Radisson Blu Doha.
+2. **Tour booking note (Part 1).** A caller books a city tour. Note completion captures tour name, date, number of people, pickup point. Qatar context: Souq Waqif tour, Museum of Islamic Art tour, Katara Cultural Village tour.
+3. **Course enrolment form (Part 1).** A caller enrols in a course. Table completion captures course name, schedule, fee, and prerequisites. Qatar context: QU Continuing Education, British Council Qatar.
+4. **Library registration form (Part 1).** A caller registers at a library. Form completion captures name, ID, address, and borrowing preferences. Qatar context: Qatar National Library, Education City library.
+5. **Research methodology note (Part 4).** A researcher describes a study. Note completion captures the steps of the methodology. Qatar context: QU research seminar, Education City research summary.
+6. **Process flow-chart (Part 3 or Part 4).** A speaker describes a process. Flow-chart completion captures the stages. Qatar context: manufacturing process, study process, research methodology.
+7. **Lecture summary (Part 4).** A lecturer delivers a lecture. Summary completion captures the key terms. Qatar context: QU faculty lecture, Education City research summary.
+
+---
+
+### Previous Year Patterns — IELTS Listening Completion Family
+
+The five completion families have been structurally stable across every IELTS cycle since the Academic / General Training split in 1989. The format (form / note / table / flow-chart / summary) is published verbatim on ielts.org and is not expected to change.
+
+Common year-on-year patterns:
+- The completion family accounts for roughly 50% of all Listening questions per cycle — stable across cycles.
+- Form completion is concentrated in Part 1; flow-chart completion is concentrated in Parts 3 and 4; summary completion is concentrated in Parts 2 and 4; note and table completion span Parts 1 and 4.
+- Word limits have been stable: ONE WORD, TWO WORDS, THREE WORDS, THREE WORDS AND/OR A NUMBER.
+- The spelling penalty (single-letter error forgiven) has been stable across cycles.
+- A previous-year completion set is NOT reused verbatim in the same year; recycled recordings appear with at most small contextual changes.
+
+A previous-year record is not a deterministic indicator of a future test item. The British Council and IDP refresh the question bank annually, calibrated against the same difficulty curve.
+
+---
+
+### Pro Tips — IELTS Listening Completion Family
+
+1. **Predict the word type before the recording starts.** The binding constraint in completion questions is reading speed and word-type prediction, not listening speed.
+2. **Listen for paraphrase markers.** "in other words", "that is", "what I mean is", "to put it another way", "which is to say" signal a paraphrase is coming. Train to hear them on first pass.
+3. **Listen for definition cues.** "is defined as", "refers to", "is the term for", "is known as" are direct definition cues. The answer is the literal word after the cue.
+4. **Match the meaning, not the word.** If the question asks for "the chemical used" and the speaker says "sodium chloride, which is the salt you use in cooking", the answer is "sodium chloride" (the chemical), not "salt" (the paraphrase).
+5. **Manage word limits.** "NO MORE THAN TWO WORDS" is strict. Count words, including numbers ("30%" = 1 word; "30 percent" = 2 words; "5km" = 1 word; "5 kilometres" = 2 words).
+6. **Write legibly.** The marking is on what you write, not what you hear. If the marker cannot read the answer, it is wrong. Use the 10-minute transfer time (paper-based) to rewrite unclear numbers.
+7. **Use the time between sections.** Each section ends with a gap; use the gap to re-read your answers and predict the next section's word types.
+8. **Practise with Qatari-context recording scenarios.** Doha-based hotel booking, tour booking, course enrolment, library registration, university lecture, research seminar cut cognitive load on test day.
+9. **Don't panic on a missed item.** Move on. The next item is independent. Two or three lost completion items does not change your overall band.
+10. **Spelling is forgiving, but missing letters are not.** Train with a daily 5-minute spelling drill on the 570-word Academic Word List.
+
+---
+
+### Official Resources — IELTS Listening Completion Family
+
+| Resource | URL | Use |
+|---|---|---|
+| IELTS Academic Listening test format | https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening | Confirms completion-family format and word limits |
+| British Council — IELTS preparation | https://takeielts.britishcouncil.org/ | Official practice tests calibrated to live test difficulty |
+| IDP IELTS — official IELTS practice | https://www.ielts.org/ | Official practice tests + sample questions |
+| British Council Qatar | https://www.britishcouncil.qa/ | Confirms Doha test-centre operating schedule and paper vs computer-delivered options |
+| IDP IELTS Qatar (Doha centre) | https://www.idp.com/ | IDP Doha test centre booking and availability |
+| IELTS Guide for Test Takers (2026) | https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf | Authoritative format + scoring guide |
+| Qatar University English requirements | https://www.qu.edu.qa/ | Confirms IELTS Academic band requirements for undergraduate admission |
+| Education City branch campuses | https://www.qf.org.qa/ | Confirms IELTS Academic band requirements for Education City universities |
+| Qatar National Library | https://www.qnl.qa/ | Authoritative source for library-registration and borrowing vocabulary |
+| Hamad International Airport hotel booking | https://dohahamadairport.com/ | Authoritative source for hotel-booking vocabulary at HIA |
+
+*Last reviewed: 2026-10-01. Re-check the live IELTS pages and the Qatar test-centre schedule before relying on any figure.*

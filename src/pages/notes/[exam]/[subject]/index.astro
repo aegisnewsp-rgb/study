@@ -7,6 +7,9 @@ import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
 import { isGoodNote, isIndexableSubjectHub, isIndexableExamHub } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
+import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES } from '@data/serp-unique';
+import { seoMetaFor, validateSeoMetaOverrides } from '@data/seo-meta-overrides';
+validateSeoMetaOverrides();
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -49,15 +52,33 @@ const BRAND_SUFFIX = ' | StudyRoadmap';
 // NCEE and ECAT) because the long exam label did not fit 60 chars.
 const _examCompact =
   String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam;
-const _tFull = `${subjectName} Notes — ${examName}${BRAND_SUFFIX}`;
-const _tCompact = `${subjectName} Notes — ${_examCompact}${BRAND_SUFFIX}`;
-const _tTight = `${subjectName} — ${_examCompact}${BRAND_SUFFIX}`;
-const title = _tFull.length <= 60 ? _tFull
-  : _tCompact.length <= 60 ? _tCompact
-  : _tTight.length <= 60 ? _tTight
-  : `${subjectName.slice(0, Math.max(10, 60 - BRAND_SUFFIX.length - ` — ${_examCompact}`.length)).trim()} — ${_examCompact}${BRAND_SUFFIX}`;
+// NB: use allSubjectNotes / allNotes here, NOT the `examNotes` const declared
+// further down this file — module-scope consts are hoisted-but-uninitialised and
+// reading one before its declaration throws at build time.
+const _compactOwners = new Map<string, Set<string>>();
+for (const n of allSubjectNotes) {
+  const k = String(n.data.examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || n.data.exam;
+  if (!_compactOwners.has(k)) _compactOwners.set(k, new Set());
+  _compactOwners.get(k)!.add(n.data.exam);
+}
+const _examLabel = pageExamLabel(examName, exam, (_compactOwners.get(_examCompact)?.size ?? 1) > 1);
+const _countrySlug = firstNote?.data.country ?? '';
+const _geo = GEO_PASS_COUNTRIES.has(_countrySlug) ? countryDisplay(_countrySlug) : '';
+const _geoLabel = _geo && !namesCountry(`${examName} ${subjectName} ${_examLabel} ${subjectNotes.map((n: any) => n.body || '').join(' ').slice(0, 4000)}`, _countrySlug) ? _geo : '';
+const _titleBase = fitTitle([
+  ...(_geoLabel ? [`${subjectName} Notes — ${_examLabel}, ${_geoLabel}`, `${subjectName} Notes — ${examName}, ${_geoLabel}`] : []),
+  `${subjectName} Notes — ${examName}`,
+  `${subjectName} Notes — ${_examLabel}`,
+  `${subjectName} — ${_examLabel}`,
+], BRAND_SUFFIX);
 const _descRaw = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics across Quick, Standard, and Deep tiers — concepts, formulas, practice.`;
-const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
+const _descBase = fitDescription(_geoLabel && _descRaw.length + _geoLabel.length + 8 <= 160
+  ? _descRaw.replace('concepts, formulas, practice.', `concepts, formulas and practice for ${_geoLabel} students.`)
+  : _descRaw);
+const { title, description } = seoMetaFor(`/notes/${exam}/${subject}/`, {
+  title: _titleBase,
+  description: _descBase,
+});
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}/`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "Pushkar Saini", jobTitle: "Founder & Editor", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/author/pushkar-saini/" };

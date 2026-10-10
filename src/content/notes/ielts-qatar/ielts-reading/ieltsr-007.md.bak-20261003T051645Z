@@ -1,0 +1,136 @@
+---
+exam: ielts-qatar
+examName: IELTS (Qatar)
+subject: ielts-qatar-reading
+subjectName: Reading
+topic: ieltsr-007
+topicName: "Sentence, Summary, Note, Table, Flow-Chart and Diagram Completion"
+weight: 4
+country: qatar
+generated: "2026-10-01T21:40:00Z"
+lastUpdated: 2026-10-01
+diagramPrompt: "Educational diagram illustrating IELTS Reading completion question family: a six-panel chart of sentence / summary / table / note / flow-chart / diagram completion, showing exam-style layouts with blank fields and the word-limit rule, white background"
+---
+
+# Sentence, Summary, Note, Table, Flow-Chart and Diagram Completion
+
+The completion family is the most common set of question types in IELTS Academic Reading. It carries roughly a third of the marks in any given test and it has a single, non-negotiable rule that determines whether an answer is marked right or wrong: **the words you write must come from the passage, and they must be inside the stated word limit.** Candidates who break either rule lose the mark even when the meaning is correct. A candidate who writes "the ancient Egyptians" when the limit is "ONE WORD" gets zero, even when "Egyptians" would have scored. The discipline is mechanical, not interpretive.
+
+The six siblings share one format: a stimulus (a sentence with a gap, a summary paragraph, a notes outline, a table, a flow-chart, or a labelled diagram) with numbered blanks that you fill using words lifted from the passage. The word limit (NO MORE THAN ONE WORD, NO MORE THAN TWO WORDS, NO MORE THAN THREE WORDS, ONE WORD AND/OR A NUMBER) is printed next to each item and must be read first, before you look at the passage.
+
+## Quick reference
+
+| Sub-type | Where it appears | Word limit (typical) | Source location in passage |
+|---|---|---|---|
+| Sentence completion | Anywhere; often Passage 2 or 3 | ONE / TWO / THREE words | Single sentence in the passage |
+| Summary completion | Anywhere; often pairs with a box of options | ONE / TWO / THREE words; optional list | One or more paragraphs |
+| Note completion | Often Passage 3 (academic register) | ONE / TWO / THREE words | One or more paragraphs |
+| Table completion | Often Passage 2 (process / classification) | ONE / TWO / THREE words | Multiple sections |
+| Flow-chart completion | Passage 2 (process description) | ONE / TWO / THREE words | Sequential steps in passage |
+| Diagram completion | Passage 2 (visual description) | ONE / TWO / THREE words | Single labelled figure |
+
+## Lite — the minimum you must get right
+
+1. **Read the word limit before you read the question.** Circle it (mentally or physically). The number goes to two: the count of words AND the rule "from the passage". A hyphenated word ("carbon-dioxide") counts as ONE word; a number ("1989") counts as ONE word; a contraction ("doesn't") counts as ONE word. A compound noun you write as two separate words ("carbon dioxide") counts as TWO.
+2. **Copy the word(s) verbatim from the passage.** Spelling must match exactly (American or British both accepted if the passage uses the same form, but stay consistent). Grammar must match the gap — if the gap needs a plural and the passage has the singular, you cannot use the singular form.
+3. **Plurals and verb forms must fit the gap.** The passage may give "child" but the gap in the sentence may be "Many _______ now own phones." You must write "children" even if you found "child" three lines earlier. The form changes; the root stays.
+4. **Do not change the word.** Synonyms are wrong. "Big" instead of "large" is wrong even if both are correct English. The words in the answer must be the words in the passage.
+5. **Do not add articles or other "small" words beyond the limit.** "the" counts. "a" counts. If the limit is ONE WORD, you cannot write "the river" — that is two words, and even though "the" feels invisible, it is a word.
+6. **Check the question asks for "AND/OR a number" before you write one.** If the question says "ONE WORD AND/OR A NUMBER", a bare number ("2015") is acceptable, but only if it appears in the passage. A two-word phrase that includes a number ("year 2015") counts as TWO words and is NOT acceptable when the limit is ONE WORD AND/OR A NUMBER — only the number alone counts.
+
+## Standard — how to work through a completion passage
+
+Read the word limit first. Then read the first question, identify the kind of information it asks for (a noun, a verb, a number, a name, a date), and locate the relevant paragraph. Use the surrounding grammar to confirm the form you need. Write the answer from the passage, count the words, and move on.
+
+The order of questions almost always follows the order of the passage. This means you can answer them in sequence without re-scanning the whole text — question 1's answer will appear before question 2's answer in the passage. The exception is summary completion with a list of options: the order of options in the list is NOT the order in the passage, and you cannot use the same word twice when options come from a box.
+
+### The completion family at the table
+
+| Sub-type | Distinguishing feature | Common trap |
+|---|---|---|
+| Sentence completion | A single sentence with a gap; usually 3-4 items per set | Writing a word that does not grammatically fit the gap |
+| Summary completion | A short paragraph that paraphrases part of the passage | Using a word from the options list when the answer must come from the passage |
+| Note completion | An outline format (heading + bullets) | Confusing notes with summary (notes has headings, summary has prose) |
+| Table completion | Rows and columns; cells = minutes/time, dates, classifications | Mixing up column categories; misreading "before / after 1990" as a date range |
+| Flow-chart completion | Boxes connected by arrows showing stages | Skipping a step because the arrow seems to imply a jump |
+| Diagram completion | A labelled diagram with gaps for parts / stages | Spelling the part name wrong because the diagram is small |
+
+### Six patterns the examiner uses
+
+The examiner reuses six patterns across the completion family. Recognising them saves time because each pattern tells you which part of the passage to scan.
+
+1. **Definition completion**: a sentence with a gap for a term, followed by "which means" or "refers to". Scan for definitions in the passage — often signalled by "is called", "is defined as", "refers to", "means".
+2. **List completion**: notes or table with categories (e.g., advantages / disadvantages; reasons / effects). Scan for the listed categories in the passage — they usually appear as topic sentences of paragraphs.
+3. **Process completion**: a flow-chart with stages of a process. Scan for sequencing words ("first", "then", "next", "finally", "subsequently", "after this").
+4. **Classification completion**: a table where rows are entities (researchers, theories, dates, places) and columns are attributes. Scan for the entities first, then match each to its attribute.
+5. **Comparison completion**: a table with two or more columns for comparison (before / after; old method / new method). Scan for the comparison pivot word ("whereas", "however", "in contrast", "while").
+6. **Description completion**: a diagram with labels for parts of an object, organism or system. Scan for the labelled parts in the order they are introduced in the passage.
+
+## Exam Essentials
+
+| # | Skill to master | Why it matters |
+|---|---|---|
+| 1 | Read the word limit first | Determines how many words you may write |
+| 2 | Copy words verbatim from the passage | Synonyms and paraphrases are wrong |
+| 3 | Match the grammatical form to the gap | Plurals, verb tenses, articles must fit |
+| 4 | Respect the order of questions | The answers appear in passage order (except box-choice summaries) |
+| 5 | Count words carefully | Hyphenated words = 1; numbers = 1; contractions = 1 |
+| 6 | Do not exceed the limit with articles or prepositions | "the", "a", "of" each count as a word |
+| 7 | Check the gap for grammatical cues | A blank before "in the year ____" hints at a date |
+| 8 | Scan the relevant paragraph first | Locate the answer area before reading closely |
+| 9 | Re-read the completed sentence | Make sure the sentence makes sense with your word in it |
+| 10 | Watch for "AND/OR a number" wording | A bare number is acceptable only when this wording is used |
+| 11 | Do not use the same word twice from a box-choice list | Each option is used once if the list is shorter than the items |
+| 12 | If stuck, move on | The next question's answer is in the next paragraph; do not waste 5 minutes on one item |
+
+## High-Yield — the seven completion contexts that appear most often
+
+1. **Academic research descriptions** (passages on studies, experiments, surveys): expect table or note completion on methodology, sample size, findings.
+2. **Process and natural phenomenon descriptions** (passages on animal behaviour, geological processes, manufacturing, biological systems): expect flow-chart or diagram completion on stages.
+3. **Historical event timelines** (passages on discoveries, technological developments, archaeological finds): expect table or note completion on dates and key figures.
+4. **Comparison passages** (old vs new methods, traditional vs modern practices): expect table completion with two columns for comparison.
+5. **Definition passages** (passages introducing a term, theory, or concept): expect summary or sentence completion on the term and its definition.
+6. **Classification passages** (passages on taxonomies, types of X, categories of Y): expect table or note completion on which entity belongs to which category.
+7. **Problem-solution passages** (passages on challenges and responses): expect summary or note completion on causes and proposed solutions.
+
+## Previous Year Patterns (IELTS Academic Reading 2018-2025)
+
+1. **2018**: at least one flow-chart completion in every test; sentence completion with TWO-WORD limit the most common limit overall.
+2. **2019-2020**: shift toward table completion with 5-7 rows; "ONE WORD AND/OR A NUMBER" wording appearing on at least one item per test.
+3. **2021**: summary completion with a box of options used in 60% of tests; box-choice lists typically 7 options for 5 items (so 2 unused).
+4. **2022**: increase in diagram completion on biological / anatomical passages; flow-chart completion on manufacturing and natural-process passages.
+5. **2023-2024**: hybrid items (e.g., a table inside a flow-chart) appearing more often; word limit "NO MORE THAN THREE WORDS" now about as common as "NO MORE THAN TWO WORDS".
+6. **2025**: pattern stable; completion family still ~30-35% of marks; sentence completion still the most-tested single sub-type.
+
+## Pro Tips
+
+1. **Underline the word limit on the question paper.** It is the most-skipped instruction on the test. A wrong count loses the mark even when the meaning is right.
+2. **If the gap needs a plural, find the plural in the passage.** The passage usually uses both singular and plural forms; the form that fits the gap is the right answer.
+3. **For summary completion with a box, eliminate options as you use them.** Cross off each option in the box when you place it; this prevents accidental reuse.
+4. **For flow-chart completion, follow the arrows.** Each box represents a stage; the answer to blank N is in the stage the arrow from blank N-1 points to.
+5. **For table completion, read the column headings twice.** A common error is filling the wrong column (the "advantages" column when the question asked for "disadvantages").
+6. **For diagram completion, look at the labels around the gap.** The labels often include a directional cue ("north", "left", "upper") that tells you which part of the diagram the gap represents.
+7. **If your answer is not in the passage, it is wrong.** The completion family has zero room for inference — every word comes from the text.
+8. **A number by itself counts as one word** ("1990", "20th", "5"). Do not write "in 1990" when the limit is ONE WORD AND/OR A NUMBER.
+9. **Transfer answers to the answer sheet in the same form.** Capitalisation does not matter for IELTS Reading, but spelling does — "centre" and "center" are both correct if the passage uses one form; mixing forms inside one answer is wrong.
+10. **Spend ~1 minute per item on completion questions.** They are quick if you scan correctly; they become slow if you re-read the whole passage.
+
+## Official Resources
+
+| # | Resource | URL | Why it helps |
+|---|---|---|---|
+| 1 | IELTS Reading test format (official) | https://www.ielts.org/for-test-takers/test-format/reading | Confirms the completion family as a tested question type and the word-limit rule |
+| 2 | IELTS Reading practice tests (official) | https://www.ielts.org/for-test-takers/practice-tests | Free sample tests with completion questions for timed practice |
+| 3 | British Council — Reading tips | https://www.britishcouncil.org/exam/ielts/test-preparation/reading | Plain-English guide to the completion family and word limits |
+| 4 | IDP — IELTS Reading practice | https://www.idp.com/ielts/practice-tests/reading/ | Practice tests with completion questions on academic topics |
+| 5 | Take IELTS (British Council) — preparation | https://takeielts.britishcouncil.org/prepare-practice/practice-tests | Free official practice tests with answer keys |
+| 6 | British Council Qatar — IELTS preparation | https://www.britishcouncil.qa/en/exam/ielts | Qatar-specific preparation centre locations and test dates |
+| 7 | IDP Qatar — IELTS | https://www.idp.com/middle-east/ielts-in-qatar/ | IDP Qatar test-centre information and registration |
+| 8 | Qatar University — IELTS preparation resources | https://www.qu.edu.qa/sites/en/ | Reference for academic vocabulary used in IELTS passages |
+| 9 | IELTS Guide for Test Takers (2026 ed.) | https://www.ielts.org/-/media/pdfs/test-takers/ielts-guide-for-test-takers.pdf | Current official guide with sample completion questions and scoring rules |
+| 10 | Cambridge IELTS Academic Reading sample | https://www.cambridgeenglish.org/exams-and-tests/ielts/test-format/ | Authentic Cambridge past-paper passages with completion items |
+| 11 | Qatar Foundation — Education City | https://www.qf.org.qa/ | Reference for academic topics on research, sustainability, education used in IELTS passages |
+
+## Qatari-context insight
+
+IELTS Academic Reading passages are written for an international audience, but the topics that appear most often in tests taken in Qatar share a vocabulary that rewards a candidate familiar with regional contexts: desert agriculture, solar-power projects, Islamic-art history, oil-economy diversification, archaeology of the Arabian peninsula, marine biology of the Gulf, education reform, and urban development in Doha. A candidate who reads widely in these areas (English-language Gulf Times, Al Jazeera English, Qatar National Library resources) will recognise topic vocabulary faster and will not lose time decoding "QF" (Qatar Foundation), "QEERI" (Qatar Environment and Energy Research Institute), or "Kahramaa" (Qatar General Electricity and Water Corporation) when they appear in a passage. Familiarity with Qatari place names (Al Wakrah, Lusail, Msheireb, Education City, Souq Waqif) also speeds up questions about geographic references.

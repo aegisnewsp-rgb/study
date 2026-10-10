@@ -11,6 +11,13 @@ import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
 import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub, isPlaceholderExamTopic, placeholderSyllabusStats } from '../../data/note-quality';
+import { isCuratedComparePair } from '../../data/compare-curation';
+import { examImages } from '../../data/exam-images';
+// Per-URL title/description overrides (data-only, see the module's header for the
+// GSC measurement behind it). Runs validateSeoMetaOverrides() at build time and
+// throws on a >60-char title, a >155-char description or a duplicate title.
+import { seoMetaFor, validateSeoMetaOverrides } from '../../data/seo-meta-overrides';
+validateSeoMetaOverrides();
 
 // Only link note hubs that are actually indexable — this page is indexed, and a
 // follow-link into a noindexed hub leaks crawl signals (policy: never link to
@@ -94,6 +101,9 @@ const hreflangMap: Record<string, string> = {
 };
 
 const examName = exam.examName || exam.examId;
+// Hero illustration for this exam, if one was staged. Undefined for every slug
+// not in the map — the hero block then renders exactly as it did before.
+const heroImage = examImages[exam.examId];
 const countryName = countryLabels[exam.country] || exam.country;
 
 // Rich exam description
@@ -161,7 +171,7 @@ const EXAM_TITLE_OVERRIDES: Record<string, string> = {
   nda: 'NDA 2026: Two Objective Papers, Syllabus & Pattern',
   'ecat-eng': 'ECAT 2026: 100-110 MCQs, Syllabus & Pattern',
 };
-const title = (() => {
+const _titleBase = (() => {
   // Checked first so a listed exam's title no longer depends on the tail loop below.
   const override = EXAM_TITLE_OVERRIDES[String(exam.examId)];
   if (override) return override;
@@ -213,7 +223,7 @@ const title = (() => {
 // exam pages gives Google nothing to differentiate them in the SERP and wastes the CTR
 // value of the real pattern/eligibility facts already sitting in the data files. Lead with
 // this exam's own numbers; only fall back to boilerplate when the data file is empty.
-const description = (() => {
+const _descBase = (() => {
   const squash = (s: string) => s.replace(/\s+/g, ' ').trim();
   // First real sentence, ignoring periods inside decimals/abbreviations ("3.5 hours").
   const firstSentence = (s: string) => {
@@ -314,6 +324,12 @@ const description = (() => {
   }
   return base;
 })();
+// Measured per-URL override, applied last so nothing generated above can shadow it.
+// A path with ship:false (or no entry) falls through untouched — zero behaviour change.
+const { title, description } = seoMetaFor(`/exams/${exam.examId}/`, {
+  title: _titleBase,
+  description: _descBase,
+});
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/`;
 
 const authorObj = {
@@ -648,6 +664,52 @@ const relatedExams = ALL_EXAMS
   .filter(e => e && e.examId !== exam.examId && e.country === exam.country && !isNoindexExam(e.examId))
   .slice(0, 4);
 
+// --- Internal-link work, 2026-10-09 ---------------------------------------
+// Measured, not assumed. GSC page data (2026-07-10..2026-10-07, 2,297 URLs with
+// impressions) joined against an inbound-link graph rebuilt from the dist build
+// showed every curated /compare/ page carrying impressions had exactly ONE
+// indexable inbound link: the generic /compare/ index. No exam hub ever linked
+// to its own comparison, so the pages that already rank (upsc-vs-ssc-cgl at
+// 1,378 impressions, waec-vs-nabteb at 761) had no topical path from the hub
+// that ranks for the same terms. Emit the curated pairs this exam appears in.
+//
+// The slug order MUST match getStaticPaths() in src/pages/compare/[pair].astro,
+// which walks same-country TIER1 exams in ALL_EXAMS order — not alphabetical.
+const comparePeers = (() => {
+  if (!exam.country || !exam.examId) return [] as { name: string; slug: string }[];
+  const selfIdx = ALL_EXAMS.findIndex((e: any) => e?.examId === exam.examId);
+  const out: { name: string; slug: string }[] = [];
+  for (const peer of ALL_EXAMS as any[]) {
+    if (!peer || !peer.examId || peer.examId === exam.examId) continue;
+    if (peer.country !== exam.country) continue;
+    if (!isCuratedComparePair(exam.examId, peer.examId)) continue;
+    if (isNoindexExam(peer.examId)) continue;            // never link to noindex
+    const peerIdx = ALL_EXAMS.indexOf(peer);
+    const a = selfIdx < peerIdx ? exam : peer;
+    const b = selfIdx < peerIdx ? peer : exam;
+    out.push({ name: peer.examName || peer.examId, slug: `${a.examId}-vs-${b.examId}` });
+  }
+  return out;
+})();
+
+// Same measurement, second gap: /study-plan/{exam}/{duration}/ pages were
+// earning impressions on two inbound links only (the /study-plan/ index and the
+// /study-plan/{exam}/ index), because this hub linked durations exclusively to
+// the client-side /roadmap/?exam= SPA. GSC cannot crawl that SPA, so the static
+// plan pages had no link from the high-impression hub. These are the eight exams
+// whose plan pages GSC actually returned rows for. Widening this to every exam
+// with durations is a 145-link change and is deliberately left to its own scope.
+const PLAN_LINK_EXAMS = new Set([
+  'cs-exec', 'gaokao', 'kpsc', 'ras', 'ssc-cgl', 'tnpsc', 'up-psc', 'uptet',
+]);
+const hasStaticPlanIndex = PLAN_LINK_EXAMS.has(exam.examId)
+  && Object.keys(exam.durations || {}).length > 0;
+
+// /exams/jeemain/dropper-roadmap/ was the only URL in the whole
+// impressions-but-underlinked set with ZERO indexable inbound links (139
+// impressions). The JEE Main hub is its only topically correct source.
+const hasDropperRoadmap = exam.examId === 'jeemain';
+
 // Exam pathway mappings — cross-links between logically related exams
 const pathwayMap: Record<string, Array<{ examId: string; label: string; reason: string }>> = {
   // India
@@ -751,7 +813,11 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
   title={title}
   description={description}
   canonical={canonicalUrl}
-  image={fs.existsSync(path.join(process.cwd(), 'public', `/og-notes/exam-${exam.examId}.jpg`)) ? `/og-notes/exam-${exam.examId}.jpg` : '/og-notes/exam-default.jpg'}
+  image={examImages[exam.examId]?.og
+    ? examImages[exam.examId].og.src
+    : fs.existsSync(path.join(process.cwd(), 'public', `/og-notes/exam-${exam.examId}.jpg`))
+      ? `/og-notes/exam-${exam.examId}.jpg`
+      : '/og-notes/exam-default.jpg'}
   author={authorObj}
   geoRegion={geoRegionMap[exam.country]}
   hreflang={hreflangMap[exam.country]}
@@ -819,6 +885,20 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
             </p>
           </div>
         </div>
+
+        {/* Hero illustration — only for exam slugs present in src/data/exam-images.ts */}
+        {heroImage && (
+          <img
+            src={heroImage.src}
+            width={heroImage.width}
+            height={heroImage.height}
+            alt={heroImage.alt}
+            loading="lazy"
+            decoding="async"
+            class="w-full max-w-full h-auto rounded-2xl border border-surface-200 dark:border-surface-800 shadow-sm mb-6"
+          />
+        )}
+
         <ShareRow
           url={new URL(Astro.url.pathname, Astro.site).href}
           title={`${examName} ${currentYear} — complete exam guide`}
@@ -1352,6 +1432,22 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
             >
               All Durations →
             </a>
+            {hasStaticPlanIndex && (
+              <a
+                href={`/study-plan/${exam.examId}/`}
+                class="bg-brand-900/40 hover:bg-brand-900/60 text-white font-bold px-4 py-2.5 rounded-xl text-sm transition-colors border border-white/10"
+              >
+                Ready-made {examName} plans →
+              </a>
+            )}
+            {hasDropperRoadmap && (
+              <a
+                href="/exams/jeemain/dropper-roadmap/"
+                class="bg-brand-900/40 hover:bg-brand-900/60 text-white font-bold px-4 py-2.5 rounded-xl text-sm transition-colors border border-white/10"
+              >
+                JEE Main dropper roadmap →
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -1456,6 +1552,41 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
                 </div>
                 <p class="text-xs text-brand-600 dark:text-brand-400 font-medium">
                   {p.reason}
+                </p>
+              </div>
+              <span class="text-surface-400 group-hover:text-brand-600 transition-colors mt-1 font-bold">→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* Side-by-side comparisons this exam appears in. Before this, every curated
+        /compare/ page had a single inbound link (the /compare/ index) even when
+        it was earning hundreds of impressions — see comparePeers above. */}
+    {comparePeers.length > 0 && (
+      <section class="container-page py-10 border-t border-surface-200 dark:border-surface-800">
+        <div class="flex items-center gap-3 mb-2">
+          <span class="w-8 h-8 rounded-lg bg-teal-50 dark:bg-teal-950/50 text-teal-600 dark:text-teal-400 flex items-center justify-center text-lg">⚖️</span>
+          <h2 class="text-xl sm:text-2xl font-black text-surface-900 dark:text-white">
+            {examName} Compared Side by Side
+          </h2>
+        </div>
+        <p class="text-sm text-surface-500 dark:text-surface-400 mb-6">
+          Not sure whether {examName} is the right pick? These put it next to the exams students most often weigh it against — shared subjects, eligibility, pattern and cutoffs in one table.
+        </p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {comparePeers.map((c) => (
+            <a
+              href={`/compare/${c.slug}/`}
+              class="group flex items-start gap-4 bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
+            >
+              <div class="flex-1">
+                <h3 class="font-bold text-surface-900 dark:text-surface-100 text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+                  {examName} vs {c.name}
+                </h3>
+                <p class="text-xs text-brand-600 dark:text-brand-400 font-medium mt-1">
+                  Syllabus overlap, eligibility and pattern, side by side
                 </p>
               </div>
               <span class="text-surface-400 group-hover:text-brand-600 transition-colors mt-1 font-bold">→</span>

@@ -234,3 +234,7 @@ A device for measuring potential difference without drawing current (since it is
 - **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
 - **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
 
+
+## Where this sits in the syllabus
+
+This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Physics sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.

@@ -9,6 +9,8 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-16"
+seoTitle: "Physical Features of Karnataka — KPSC KAS | StudyRoadmap"
+seoDescription: "Karnataka physical features for KPSC KAS: the Western Ghats, Malnad, Coastal Plain and Maidan plateau, plus river basins, rainfall and soils."
 ---
 
 # Physical Geography of Karnataka
@@ -114,6 +116,7 @@ Karnataka's climate is **tropical monsoon** in the west and **semi-arid / tropic
 - **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Physical Geography of Karnataka" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[KPSC KAS syllabus and topic weightage](/exams/kpsc/syllabus/)** — where Karnataka-Specific sits among every KPSC KAS subject, with weightage
 - **[All Karnataka-Specific notes](/notes/kpsc/karnataka-specific/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

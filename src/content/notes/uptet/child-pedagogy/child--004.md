@@ -109,6 +109,7 @@ Piaget's stages are **invariant in order** but the **ages are approximate**, not
 - **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Piaget's Theory of Cognitive Development" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[UPTET syllabus and topic weightage](/exams/uptet/syllabus/)** — where Child Development and Pedagogy sits among every UPTET subject, with weightage
 - **[All Child Development and Pedagogy notes](/notes/uptet/child-pedagogy/)** — browse sibling topics in this subject
 
 ---

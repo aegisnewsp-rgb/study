@@ -9,6 +9,8 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-19"
+seoTitle: "Indus Valley Civilization Notes — TNPSC | StudyRoadmap"
+seoDescription: "TNPSC Group 1 history notes on the Indus Valley Civilization: Harappan towns, seals and script, Bronze Age trade, and the theories for its decline."
 ---
 
 # Indus Valley Civilization
@@ -144,6 +146,7 @@ About **400–600 Indus glyphs** survive on roughly **1,800–4,000 inscribed ob
 - **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Indus Valley Civilization" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[TNPSC Group 1 syllabus and topic weightage](/exams/tnpsc/syllabus/)** — where History sits among every TNPSC Group 1 subject, with weightage
 - **[All History notes](/notes/tnpsc/history/)** — browse sibling topics in this subject
 
 ---

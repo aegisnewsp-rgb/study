@@ -1,4 +1,4 @@
-import type { Subject } from '../types';
+import type { Subject } from '../../types';
 
 export const logical_reasoning: Subject = {
   id: 'logical-reasoning', name: 'Logical Reasoning', color: '#0ea5e9',

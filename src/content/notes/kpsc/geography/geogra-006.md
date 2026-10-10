@@ -244,5 +244,6 @@ Karnataka exhibits remarkable agricultural diversity due to its varied climate, 
 - **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Agriculture and Crops" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[KPSC KAS syllabus and topic weightage](/exams/kpsc/syllabus/)** — where Geography sits among every KPSC KAS subject, with weightage
 - **[All Geography notes](/notes/kpsc/geography/)** — browse sibling topics in this subject
 

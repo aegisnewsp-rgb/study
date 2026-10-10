@@ -115,6 +115,7 @@ Rajasthan holds India's largest livestock herd. Camel (Thar breed), goat (Sirohi
 - **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Agriculture in Rajasthan" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[RPSC RAS syllabus and topic weightage](/exams/ras/syllabus/)** — where Geography sits among every RPSC RAS subject, with weightage
 - **[All Geography notes](/notes/ras/geography/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

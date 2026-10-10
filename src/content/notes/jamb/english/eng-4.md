@@ -128,7 +128,7 @@ Two structural errors repeat in Options:
 | Preposition + gerund (no *to*-infinitive) | *Insist on working*, not *insist to work* |
 | Collective noun verb agreement | British English permits plural verb with collective; JAMB prefers singular |
 
-#### Continue your study
+## Continue your study
 
 - **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Grammar: Parts of Speech" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics

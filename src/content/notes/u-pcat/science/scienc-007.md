@@ -69,7 +69,7 @@ Cross two pea plants heterozygous for both seed shape (R = round, r = wrinkled) 
 1. In peas, tall (T) is dominant over short (t) and yellow seeds (Y) are dominant over green (y). A TtYy plant is crossed with a ttyy plant. List the gametes each parent can produce and predict the phenotype ratio of the offspring.
 2. A plant with purple flowers is crossed with a white-flowered plant (white is recessive). Half the offspring have white flowers. What is the genotype of the purple parent, and which law of Mendel does this cross illustrate?
 
-#### Continue your study
+## Continue your study
 
 - **[View this topic in your UPCAT (Philippines) roadmap](/roadmap/?exam=u-pcat&duration=1mo)** — see where "Mendel's Two Laws" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=u-pcat&duration=1d)** — 1-day sprint covering highest-weight topics

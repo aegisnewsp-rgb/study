@@ -59,6 +59,59 @@ HPAT-Ireland Section 2 does not draw on any clinical knowledge - the scenarios d
 4. **Error-log review** - one-line note per missed practice question: type, reason (misread the emotion, picked the surface reason, missed the relationship), and the correction. Patterns identify the actual weak sub-skill.
 5. **Wide reading of human-relationship narratives** - literature, well-written long-form journalism, observational essays. The underlying empathy-driven inference skill improves with the same kind of regular reading that helps Section 1 - just oriented toward human interaction rather than argument structure.
 
+### 🔴 Extended — Deep Study (3mo+)
+> Past the first impression of the emotion: option construction, layered states, and prediction under revealed motivation.
+
+#### How the options are built
+Only one alternative survives three filters. Apply them in order:
+
+1. **Consistency** — does the reading contradict anything the scenario states outright? If it does, it is wrong however well it reads emotionally.
+2. **Specificity** — does it name the character's state at the moment the question asks about, or at a different moment in the scenario?
+3. **Minimal inference** — does it add a motivation the scenario never supports?
+
+The correct option passes all three and is usually the least dramatic. The reliable trap is the alternative that explains *more* than the evidence carries: it feels insightful and is unsupportable.
+
+Worked pair — a father ends a long discussion with the team early, after asking twice how long results take.
+- "He is angry with the team and wants a second opinion elsewhere." The anger is nowhere stated; the scenario shows only a shortened conversation. It fails filter 3.
+- "He is weighing whether staying will change the outcome he fears." Supported by the repeated question about waiting. It passes all three.
+
+#### Adjacent feelings that imply different behaviour
+
+| Confusion | Signal in the text | What each implies for what happens next |
+|---|---|---|
+| Anxiety vs disappointment | Anxiety anticipates an event still ahead; disappointment reacts to one that has happened | Anxiety drives reassurance-seeking; disappointment drives withdrawal |
+| Embarrassment vs guilt | Embarrassment is about exposure ("everyone was watching"); guilt is about harm done ("I should not have said that") | Embarrassment drives apology to the audience; guilt drives repair |
+| Frustration vs anger | Frustration targets an obstacle; anger targets a person | Frustration drives problem-solving; anger drives blame |
+| Relief vs acceptance | Relief follows an ended threat; acceptance follows an ended dispute | Relief invites rest; acceptance invites commitment |
+
+> **Trap to avoid:** an option that names the *cause* of a feeling ("worried about the diagnosis") is a motivation option wearing emotion clothing. Re-read the question — if it asks what the character feels, a true explanation is still the wrong answer.
+
+#### Layered states
+Longer scenarios carry two states: the surface state the character displays and the state the display protects. Method — underline what the character does, then finish the clause "so that…". Fear that talks loudly is usually fear that has lost control; anger that stays cold is usually anger being managed for an audience. The second read is what the prediction items test.
+
+#### Prediction under revealed motivation
+Where a stated intention and the revealed behaviour diverge, the behaviour predicts.
+
+| Scenario evidence | Stated intention | Predicted behaviour |
+|---|---|---|
+| Has twice checked the time, said little | "I'm fine, I'll wait" | Leaves at the first gap rather than waiting for the full result |
+| Wrote down every figure the team used | "Just want to understand it" | Asks the same question again in different words to test their answer |
+| Agreed quickly, no follow-up questions | "That answers everything" | Does not return for the follow-up appointment |
+
+#### Annotate the error log by scenario type
+
+| Annotation | Record | Drill it corrects |
+|---|---|---|
+| Emotion | the feeling chosen and the one nearly chosen | adjacent-feeling pair work |
+| Motivation | the driver you missed | surface-versus-real driver rewrites |
+| Dynamic | the relationship you failed to name | who holds the power, and why |
+| Prediction | the behaviour you over- or under-predicted | intention-versus-behaviour weighting |
+
+At 75 s per item, two annotations per session is already more than most candidates keep. Ten annotated items across five runs pin the weak sub-skill the same way Section 1's item log does.
+
+> **Memory hook — "Consistent, specific, minimal."** Every alternative clears all three in that order: kill on contradiction first, then on the wrong moment, then on over-reading.
+
+
 ### Exam Essentials
 
 **Section 2 specification (verify on hpat-ireland.acer.org before each cycle):**

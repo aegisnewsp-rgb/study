@@ -345,7 +345,7 @@ Convert 16x² + 9y² = 144 into standard form and write down a, b, c, e, the lat
 
 ---
 
-**Continue your study**
+## Continue your study
 
 - **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Ellipse" sits in a personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — a one-day sprint across the highest-weight topics

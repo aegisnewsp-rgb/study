@@ -317,7 +317,7 @@ Convert a line given in general form to slope-intercept, then back. Find the dis
 
 ---
 
-**Continue your study**
+## Continue your study
 
 - **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Straight Lines" sits in a personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — a one-day sprint across the highest-weight topics

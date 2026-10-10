@@ -332,7 +332,7 @@ Write the four-orientation table from memory. Then, for a parabola given as (y +
 
 ---
 
-**Continue your study**
+## Continue your study
 
 - **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Parabola" sits in a personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — a one-day sprint across the highest-weight topics

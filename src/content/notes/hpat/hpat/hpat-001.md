@@ -60,6 +60,55 @@ The pattern that improves Section 1 scores, in order of leverage:
 4. **Error-log review** - keep a one-line note per missed practice question: type, reason (misread, ran out of time, wrong assumption, miscalculated), and the correction. Patterns in the error log identify the actual weak sub-skill.
 5. **Wide and critical reading** - regular reading of long-form journalism (feature articles, opinion essays, science explainers) builds the underlying comprehension and inference skills tested in Section 1.
 
+### 🔴 Extended — Deep Study (3mo+)
+> For the final stretch: item-level analysis, assumption logic under time pressure, and the quant readings that decide an 88-second question.
+
+#### Assumption questions: the negation test
+An assumption question is only answerable if you can show the conclusion *depends* on the candidate. Test procedure: negate it. If the argument still reaches its conclusion, the candidate is not load-bearing and is the wrong option.
+
+Worked stem — "Hospitals that introduced a triage checklist recorded fewer emergency attendances. The checklist therefore deters unnecessary visits."
+- Candidate: "Attending patients read the checklist before deciding to come in." Negate it — if patients never see it, awareness cannot deter anything, and the fall in attendances must come from another cause (clinic hours, referral letters, local media). The conclusion survives that negation, so this is **not** the assumption.
+- Load-bearing: "Before the checklist, patients attended mainly because they could not judge urgency themselves." Negate it — if patients already judged urgency accurately, the checklist has nothing to correct. The conclusion collapses. This is the assumption.
+
+#### Weakness questions: name the rival, not the mood
+"Weakness" options fail when they restate the argument or express doubt. The correct option supplies something the argument left out.
+
+| Weakness type | Stem signal | What the correct option must supply |
+|---|---|---|
+| Alternative explanation | "X fell after Y was introduced" | A second cause of the fall, independent of Y |
+| Hasty generalisation | "In 12 of 40 cases…" | The unexamined population or the sample needed |
+| False cause | "Since the scheme began, rates improved" | A trend that began before the scheme |
+| Equivocation | One term shifts meaning mid-argument | The two senses placed side by side |
+| Overstated scope | "This works for every…" | The boundary condition where it fails |
+
+#### Quant items: percentage points vs percent
+88 seconds per item is generous only if the parsing is instant. The two readings of one stem differ here by 17 beds.
+
+Worked item — a 220-bed unit runs at 78% occupancy. How many beds are free?
+- Correct: 220 × (1 − 0.78) = 48.4 → **48 beds free**
+- Trap: 0.78 × 220 = 171.6 occupied; occupancy then "rises by 10%" → 85.8% → 31 beds free.
+
+> **Trap to avoid:** "by 10%" multiplies the existing rate; "by 10 percentage points" adds to it. Same stem wording, different answer key, and the distractor is built from the other reading. Decide which one the stem means before doing any arithmetic.
+
+#### Item-level analysis across five timed runs
+Score is the symptom, the error log is the diagnosis. Tabulate misses by sub-skill across five full 65-minute runs before changing technique.
+
+| Sub-skill | Misses over 5 runs | Share of misses | Next action |
+|---|---|---|---|
+| Assumption identification | 18 | 34% | 20 min negation drills, untimed |
+| Percentage vs point parsing | 14 | 26% | Rewrite each percentage stem both ways |
+| Table and chart lookup | 11 | 21% | Locate-then-read, one pass only |
+| Argument weakness | 7 | 13% | Rival-explanation drills |
+| Ran out of time | 4 | 8% | Marker discipline at 60 s |
+
+Rule: repair the top row first. A 34% share of misses is worth more than any volume of general practice.
+
+#### Pacing arithmetic that survives a bad run
+44 items in 65 minutes is 88.6 s each. Split the block: first pass at 60 s maximum with a single-character marker, then a second pass of ~40 s on flagged items. Twelve flags is a realistic first-pass budget — 32 × 60 s = 32 min, 12 × 40 s = 8 min, leaving ~25 min of slack for items that turn out to need two passes.
+
+> **Memory hook — "Negate, then name."** Assumption items: negate the candidate and watch the conclusion. Weakness items: name the rival explanation in one clause. Both are single-sentence moves; the cost is the reading, not the thinking.
+
+
 ### Exam Essentials
 
 **Section 1 specification (verify on hpat-ireland.acer.org before each cycle):**

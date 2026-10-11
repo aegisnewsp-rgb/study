@@ -163,6 +163,74 @@ A pocket card to glance at before each practice set:
 3. On every wrong answer in review, write one line that names the trap (sign error, wrong ratio type, etc.). The trap is the lesson; the question is the example.
 4. Sit one full QR mock per week, under timed conditions with the on-screen calculator only. The official UCAT practice tests are the right benchmark; specific current percentile figures should be checked on ucat.ac.uk rather than carried over from a prior year.
 
+---
+
+### 🔴 Extended — Mastery
+
+The shortcuts above get the arithmetic right. The three habits below stop you losing the question after the arithmetic is right.
+
+#### A share that changes moves the whole with it
+
+The hardest ratio question is one where a part grows while the total is not held fixed. Working out the new part is easy; the new total is where candidates stop counting.
+
+```
+  A research cohort is 30% preclinical.
+  That group grows by 10%.
+  The remainder is unchanged.
+  What is the preclinical share now?
+
+  Take the original total as 100 people.
+    Preclinical = 30, remainder = 70.
+    After the increase:
+      Preclinical = 30 x 1.10 = 33
+      Remainder   = 70 (unchanged)
+      New total   = 33 + 70  = 103
+
+  Share = 33 / 103 = 0.3204 = 32.0%
+```
+
+The share falls even though the group grew, because only part of the total grew. Two wrong answers are waiting here: 40%, from adding the growth rate to the share (30 + 10), and 33%, from growing the part correctly and then reporting it against the old total. Whenever a stem gives a part and a percentage change to that part, redraw the total before you divide.
+
+#### Chained ratios: match the shared term before you compute
+
+Two ratios that share a letter cannot be multiplied until the shared value agrees in both. Rescale first — scaling never changes a ratio's value, so it costs nothing.
+
+```
+  A : B = 3 : 4
+  B : C = 5 : 6
+  What is A : C?
+
+  B is 4 in the first ratio and 5 in the second.
+  Rescale both so B matches:
+
+    Scale A:B up by 5      ->  A : B = 15 : 20
+    Scale B:C down by 4    ->  B : C = 20 : 24
+
+  A : C = 15 : 24 = 5 : 8
+
+  Check both surviving ratios:
+    A / B = 15 / 20 = 0.75  = 3/4  ✓
+    B / C = 20 / 24 = 0.833 = 5/6  ✓
+```
+
+Skipping the check is what makes this type dangerous — a mismatched B produces a ratio that still looks tidy. Verifying the two given ratios costs one glance and catches it.
+
+#### Two equal cuts are not two equal adds
+
+Stacking a discount on a discount compounds, and the second cut is taken against a smaller base than the first.
+
+```
+  (1 - x)^2 = 1 - 2x + x^2
+
+  So two successive cuts of x% come to (2x - x^2)% off.
+
+    x = 10  ->  20 - 1    = 19%    (0.90 x 0.90 = 0.81)
+    x = 20  ->  40 - 4    = 36%    (0.80 x 0.80 = 0.64)
+    x = 5   ->  10 - 0.25 = 9.75%  (0.95 x 0.95 = 0.9025)
+```
+
+Candidates answer 20% for the first line because 10 + 10 is 20. The x^2 term is the entire error, and it only vanishes at x = 0 — so a double 10% cut is worth recognising as 19% and a double 20% cut as 36% on sight. Anything that applies a percentage to a value it has already changed needs one of these two multipliers, never a second subtraction.
+
 ## Continue your study
 
 - **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Speed Shortcuts for Percentages and Ratios" fits in your personalised plan

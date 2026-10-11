@@ -13,7 +13,11 @@ lastUpdated: 2026-03-25
 
 # Head and Neck Anatomy — Skull, Cranial Nerves, Triangles and Brain
 
-## Quick Review
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+
+#### Quick Review
 
 Head and neck anatomy is essential for INI CET — questions frequently involve cranial nerves, spaces in the neck, and the pharynx/larynx. Focus on the cranial nerve foramina, cervical triangles, carotid sheath contents, and the course of the facial nerve.
 
@@ -28,15 +32,23 @@ Head and neck anatomy is essential for INI CET — questions frequently involve 
 
 ---
 
-## Skull and Scalp
 
-### Bones of the Skull
+
+---
+
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+
+#### Skull and Scalp
+
+##### Bones of the Skull
 
 - **Neurocranium (8 bones):** Frontal (2), parietal (2), temporal (2), occipital (1), sphenoid (1), ethmoid (1)
 - **Viscerocranium (facial skeleton):** Mandible (1), maxilla (2), zygomatic (2), nasal (2), lacrimal (2), palatine (2), inferior nasal concha (2), vomer (1)
 - **Calvaria (skull cap):** Outer table, diploe (trabecular bone with red marrow), inner table; sutures: coronal (frontal-parietal), sagittal (parietal-parietal), lambdoid (parietal-occipital), squamous (temporal-parietal)
 
-### Key Foramina and Their Contents
+##### Key Foramina and Their Contents
 
 | Foramen | Contents |
 |---------|----------|
@@ -47,7 +59,7 @@ Head and neck anatomy is essential for INI CET — questions frequently involve 
 | Optic canal | CN II + ophthalmic artery |
 | Superior orbital fissure | CN III, IV, VI, V1 |
 
-### Scalp — Five Layers ("SCALP"
+##### Scalp — Five Layers ("SCALP"
 
 - **S**kin
 - **C**onnective tissue (dense)
@@ -59,9 +71,9 @@ The "danger area" is the loose areolar tissue that connects with emissary veins 
 
 ---
 
-## Cervical Triangles
+#### Cervical Triangles
 
-### Anterior Triangle of Neck
+##### Anterior Triangle of Neck
 
 Bounded by: anterior border of SCM (posterior), midline of neck (anterior), superior border of mandible (superior).
 
@@ -72,13 +84,13 @@ Bounded by: anterior border of SCM (posterior), midline of neck (anterior), supe
 - **Carotid triangle:** Between SCM, posterior digastric, superior digastric; contains carotid sheath (common/internal carotid, internal jugular, vagus nerve), cervical sympathetic chain, hypoglossal nerve (XII), superior laryngeal nerve, lingual artery
 - **Muscular triangle:** Sternohyoid, sternothyroid, thyrohyoid muscles; contains thyroid gland, parathyroid glands, larynx, trachea, oesophagus
 
-### Posterior Triangle of Neck
+##### Posterior Triangle of Neck
 
 Bounded by: posterior border of SCM (anterior), anterior border of trapezius (posterior), middle third of clavicle (inferior). Roof is the investing layer of deep cervical fascia.
 
 **Contents (superficial to deep):** Accessory nerve (XI) — crosses posterior triangle to enter trapezius; brachial plexus roots (C5-C8); supraclavicular nodes; transverse cervical artery; subclavian artery; apex of lung (cupola); subclavian vein; scalene muscles (anterior, middle, posterior); phrenic nerve (C3-C5) on anterior scalene.
 
-### Carotid Sheath
+##### Carotid Sheath
 
 Contents: common/internal carotid artery (lateral), internal jugular vein (lateral to artery), vagus nerve (posterior between artery and vein), cervical sympathetic chain (medial — embedded in prevertebral fascia).
 
@@ -86,7 +98,7 @@ The common carotid bifurcates at C4 (upper border of thyroid cartilage) into int
 
 ---
 
-## Cranial Nerve Summary
+#### Cranial Nerve Summary
 
 | Nerve | Type | Foramen | Key Function |
 |-------|------|---------|--------------|
@@ -105,9 +117,9 @@ The common carotid bifurcates at C4 (upper border of thyroid cartilage) into int
 
 ---
 
-## The Face
+#### The Face
 
-### Muscles of Facial Expression
+##### Muscles of Facial Expression
 
 All supplied by facial nerve (CN VII) — all derived from 2nd pharyngeal arch:
 
@@ -115,11 +127,11 @@ All supplied by facial nerve (CN VII) — all derived from 2nd pharyngeal arch:
 - **Orbicularis oris:** Closes lips; forms boundary of mouth
 - **Buccinator:** Keeps food between teeth during chewing; attaches to alveolar processes of maxilla and mandible
 
-### Muscles of Mastication (Supplied by V3)
+##### Muscles of Mastication (Supplied by V3)
 
 Masseter, temporalis, medial pterygoid, lateral pterygoid — all from 1st pharyngeal arch.
 
-### Facial Nerve in the Face
+##### Facial Nerve in the Face
 
 Main trunk exits stylomastoid foramen → enters parotid gland → divides into terminal branches (temporal, zygomatic, buccal, marginal mandibular, cervical). Within parotid, it forms parotid plexus (pes anserinus) but does not supply parotid (secretomotor parasympathetic to parotid is CN IX via auriculotemporal nerve).
 
@@ -127,15 +139,15 @@ Main trunk exits stylomastoid foramen → enters parotid gland → divides into 
 - **Bell's palsy:** CN VII lesion (peripheral — affects all ipsilateral muscles); cannot close eye, forehead furrows, angle of mouth droops, hyperacusis, loss of taste anterior 2/3 tongue; most common cause is viral (HSV reactivation)
 - **Stroke (UMN lesion):** Contralateral lower face affected, forehead spared (bilateral UMN to forehead)
 
-### Parotid Gland
+##### Parotid Gland
 
 Largest salivary gland; serous (watery) secretion. Stensen duct exits anterior border → crosses masseter → pierces buccinator → opens into mouth at upper 2nd molar. Surgical danger: CN VII runs through parotid — can be damaged during parotidectomy.
 
 ---
 
-## The Pharynx and Larynx
+#### The Pharynx and Larynx
 
-### Pharynx
+##### Pharynx
 
 Muscular tube from base of skull to C6 (where it becomes oesophagus); subdivided into:
 
@@ -143,16 +155,16 @@ Muscular tube from base of skull to C6 (where it becomes oesophagus); subdivided
 - **Oropharynx:** Posterior to mouth; palatine tonsils, posterior 1/3 of tongue (circumvallate papillae), soft palate
 - **Laryngopharynx (hypopharynx):** Posterior to larynx; piriform fossa (site of foreign body impaction)
 
-### Muscles of Pharynx
+##### Muscles of Pharynx
 
 - **Circular constrictors** (superior, middle, inferior): Constrict pharynx during swallowing
 - **Stylopharyngeus:** Elevates pharynx (CN IX); **Palatopharyngeus:** Elevates larynx (CN X)
 
-### Larynx — Skeleton
+##### Larynx — Skeleton
 
 Thyroid cartilage (Adam's apple), cricoid cartilage (only complete ring), arytenoid cartilages (paired, sit on cricoid), corniculate and cuneiform cartilages. Vocal folds (vocal cords): Internal angle of thyroid anteriorly → vocal process of arytenoid posteriorly; space between cords is the glottis. Vestibular folds (false cords): Superior to vocal folds; not involved in sound production.
 
-### Muscles of Larynx
+##### Muscles of Larynx
 
 - **Cricothyroid:** Tilts thyroid forward → tenses vocal cords → raises pitch
 - **Posterior cricoarytenoid:** Only abductor of vocal cords (opens glottis)
@@ -161,16 +173,22 @@ Thyroid cartilage (Adam's apple), cricoid cartilage (only complete ring), aryten
 
 All intrinsic laryngeal muscles supplied by recurrent laryngeal nerve (branch of vagus) except cricothyroid (external laryngeal nerve — superior laryngeal nerve branch).
 
-### Airway Management
+##### Airway Management
 
 - **Cricothyrotomy:** Emergency airway through cricothyroid membrane (between thyroid and cricoid cartilage); used when intubation is impossible
 - **Coniotomy:** Same as cricothyrotomy
 
 ---
 
-## Brain and Ventricles
+---
 
-### Cerebral Hemispheres
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+
+#### Brain and Ventricles
+
+##### Cerebral Hemispheres
 
 - **Frontal lobe:** Motor cortex (precentral gyrus), premotor cortex, Broca's area (left — speech production), prefrontal cortex (personality, executive function)
 - **Parietal lobe:** Sensory cortex (postcentral gyrus), somatosensory association
@@ -178,17 +196,17 @@ All intrinsic laryngeal muscles supplied by recurrent laryngeal nerve (branch of
 - **Occipital lobe:** Visual cortex (calcarine sulcus)
 - **Insula:** Hidden by frontal, parietal, temporal opercula; involved in taste, visceral sensation
 
-### Basal Ganglia
+##### Basal Ganglia
 
 Caudate nucleus, putamen (together = striatum), globus pallidus, substantia nigra, subthalamic nucleus; involved in movement control. Parkinson's disease: degeneration of substantia nigra → loss of dopamine → less inhibition of striatum → less movement → akinesia, rigidity, tremor.
 
-### Ventricular System
+##### Ventricular System
 
 Lateral ventricles (two — C-shaped, body + frontal, temporal, occipital horns) → interventricular foramen (Monro) → third ventricle → cerebral aqueduct (of Sylvius) → fourth ventricle → central canal of spinal cord + subarachnoid space (via foramina of Magendie and Luschka).
 
 **CSF:** Produced by choroid plexus of lateral ventricles; flows through all ventricles; exits through foramina in 4th ventricle → subarachnoid space; absorbed by arachnoid granulations → dural venous sinuses (primarily superior sagittal sinus); normal pressure: 70-180mm H₂O.
 
-### Meninges and Spaces
+##### Meninges and Spaces
 
 - **Dura mater:** Tough outer layer; forms dural folds (falx cerebri, tentorium cerebelli, falx cerebelli); contains venous sinuses
 - **Arachnoid:** Web-like middle layer; subarachnoid space (contains CSF and vessels)
@@ -203,4 +221,3 @@ Lateral ventricles (two — C-shaped, body + frontal, temporal, occipital horns)
 - **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
 - **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
-

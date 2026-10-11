@@ -86,7 +86,7 @@ Implication items ask "what would follow if the author's argument is correct?" T
 
 - **Skill 1** identifies what the passage says. Skill 3 extends it to new contexts.
 - **Skill 2** evaluates the argument as presented. Skill 3 evaluates how the argument applies elsewhere.
-- **Skill 4 (Quantitative Reasoning)** often uses Skill 3 to apply numerical reasoning to new situations.
+- **Skill 3 is the largest slice of the section** at about 40% (Skill 1 about 30%, Skill 2 about 30%), which makes it the most under-practised part of CARS for most candidates. AAMC publishes three CARS skills — Foundations of Comprehension, Reasoning Within the Text, Reasoning Beyond the Text — and no "Quantitative Reasoning" skill.
 
 #### Common errors and the correction
 

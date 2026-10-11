@@ -13,7 +13,7 @@ lastUpdated: "2026-09-20"
 
 # Humanities Passages — MCAT CARS
 
-Humanities passages are one of the three passage categories on the MCAT CARS section. They are drawn from philosophy, literature, art history, music, religion, and ethics. The MCAT frames Humanities passages as testing interpretation of narrative voice, symbolic meaning, and historical or cultural context. About one-third of the CARS passages are Humanities.
+Humanities passages are one of the two passage-content groups on the MCAT CARS section, the other being social sciences. AAMC draws humanities passages from architecture, art, dance, ethics, literature, music, philosophy, popular culture, religion, and theater. Humanities passages focus on relationships between ideas and are more likely to be written in a conversational or opinionated style, so the author's tone and word choice carry as much weight as the assertions. About half of CARS passage content is Humanities.
 
 > Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
 
@@ -95,11 +95,11 @@ The MCAT tests literature passages for theme identification, tone, narrative per
 
 ### Deep — Long-Term Mastery (1mo-6mo)
 
-#### How Humanities passages connect to the other CARS passage categories
+#### How Humanities passages connect to the rest of the CARS section
 
-- **Social Sciences passages** share the argument-evaluation skill with philosophy passages.
-- **Natural Sciences passages for non-scientists** share the general-audience framing with some Humanities passages (e.g., literature for a general audience).
-- **All four CARS skills** apply across the three passage categories, but the emphasis varies by discipline.
+- **Social Sciences passages** share the argument-evaluation skill with philosophy passages; what separates them is tone, not method. Humanities writing is more conversational and opinionated, social sciences writing more factual and scientific.
+- **Studies of Diverse Cultures passages** sit on the humanities side or the social sciences side depending on whether the passage is reasoning about relationships between ideas or about patterns and outcomes.
+- **All three CARS skills** apply to every humanities passage, but the emphasis varies by discipline.
 
 #### Common errors and the correction
 

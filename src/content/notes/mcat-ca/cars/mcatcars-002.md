@@ -86,7 +86,7 @@ The MCAT asks "the argument assumes that..." or "the author's reasoning depends 
 
 - **Skill 1** identifies what the passage says. Skill 2 evaluates how well the passage says it.
 - **Skill 3 (Reasoning Beyond the Text)** extends Skill 2 to new situations — applying the author's reasoning outside the passage.
-- **Skill 4 (Quantitative Reasoning)** often uses Skill 2 reasoning to evaluate numerical claims.
+- **Every passage**, whatever it targets, runs through Skill 1 and Skill 2 first. AAMC publishes three CARS skills — Foundations of Comprehension, Reasoning Within the Text, Reasoning Beyond the Text — and no "Quantitative Reasoning" skill.
 
 #### Common errors and the correction
 

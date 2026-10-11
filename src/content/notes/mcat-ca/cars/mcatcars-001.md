@@ -13,7 +13,7 @@ lastUpdated: "2026-09-20"
 
 # Foundations of Comprehension — MCAT CARS Skill 1
 
-Foundations of Comprehension is CARS Skill 1 in the AAMC CARS framework. It is the ability to read a CARS passage for basic meaning: identifying the main idea, the theme, the author's purpose, the tone, and the structure of the argument. This skill underlies every other CARS skill — Reasoning Within the Text, Reasoning Beyond the Text, and Quantitative Reasoning all depend on a solid grasp of what the passage is saying.
+Foundations of Comprehension is CARS Skill 1 in the AAMC CARS framework. It is the ability to read a CARS passage for basic meaning: identifying the main idea, the theme, the author's purpose, the tone, and the structure of the argument. This skill underlies every other CARS skill — Reasoning Within the Text and Reasoning Beyond the Text both depend on a solid grasp of what the passage is saying. AAMC defines **three** CARS skills; there is no fourth.
 
 > Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
 
@@ -101,7 +101,7 @@ CARS passages use common organisational patterns:
 
 - **Skill 2 (Reasoning Within the Text)** requires Skill 1 first — you must understand what the passage says before you can evaluate the argument.
 - **Skill 3 (Reasoning Beyond the Text)** extends Skill 1 by asking how the passage applies to new situations.
-- **Skill 4 (Quantitative Reasoning)** requires Skill 1 to understand the numerical claims in the passage.
+- **Reasoning Beyond the Text** is the biggest single slice of the section at about 40%, so Skill 1 pays off most often there. AAMC publishes three CARS skills — Foundations of Comprehension, Reasoning Within the Text, Reasoning Beyond the Text — and no "Quantitative Reasoning" skill.
 
 #### Common errors and the correction
 

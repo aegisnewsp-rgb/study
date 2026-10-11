@@ -13,7 +13,7 @@ lastUpdated: "2026-09-20"
 
 # Social Sciences Passages — MCAT CARS
 
-Social Sciences passages are one of the three passage categories on the MCAT CARS section. They are drawn from psychology, sociology, political science, economics, education, and anthropology. The MCAT frames Social Sciences passages as testing argument evaluation, claim-evidence reasoning, and recognition of methodological language. About one-third of CARS passages are Social Sciences.
+Social Sciences passages are one of the two passage-content groups on the MCAT CARS section, the other being humanities. AAMC draws social sciences passages from anthropology, archaeology, economics, education, geography, history, linguistics, political science, population health, psychology, and sociology. Social sciences passages tend to be more factual and scientific in tone, presenting interpretations, implications, or applications of historical accounts, theories, observations, or trends of human society, a specific population group, or a specific country. About half of CARS passage content is Social Sciences.
 
 > Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
 
@@ -86,11 +86,11 @@ The MCAT tests psychology and sociology passages for argument evaluation, method
 
 ### Deep — Long-Term Mastery (1mo-6mo)
 
-#### How Social Sciences passages connect to the other CARS passage categories
+#### How Social Sciences passages connect to the rest of the CARS section
 
-- **Humanities passages** share the argument-evaluation skill with political science and economics passages.
-- **Natural Sciences passages** share the methodological language with psychology passages (e.g., experimental design).
-- **The Psych/Soc MCAT section** shares content with Social Sciences CARS passages, but CARS items test reasoning skills, not content knowledge.
+- **Humanities passages** share the argument-evaluation skill with political science and economics passages; what separates them is tone, not method. Social sciences writing is more factual and scientific in tone.
+- **Studies of Diverse Cultures passages** file under social sciences when the passage reasons about trends, reconstructions, or population-level outcomes.
+- **The Psych/Soc MCAT section** shares content with Social Sciences CARS passages, but CARS items test reasoning skills, not content knowledge — nothing in a CARS passage requires you to know the underlying science.
 
 #### Common errors and the correction
 

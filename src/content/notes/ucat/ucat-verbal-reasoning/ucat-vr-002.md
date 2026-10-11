@@ -13,11 +13,36 @@ lastUpdated: "2026-09-26"
 
 # Inference versus assumption in UCAT Verbal Reasoning
 
+### 🟢 Lite — Quick Review (1h–1d)
+
+> An inference follows from the passage. An assumption is what the passage leaves out but needs. The answer changes with which one the statement is testing.
+
+| Question | If the passage contradicts it | If the passage is silent |
+|---|---|---|
+| Does the statement follow from the passage? | False | Cannot Tell |
+| Does the statement rest on an unstated premise? | False | Cannot Tell |
+
+**The habit.** Build a world in which every stated fact is true and the statement is still false. If such a world exists, the passage does not support it, whatever the statement's phrasing.
+
+### 🟡 Standard — Regular Study (2d–2mo)
+
+> The working picture — the four checks to run on every statement before you commit to an answer.
+
+| Check | The question | Failing on a contradiction | Failing on silence |
+|---|---|---|---|
+| Direction | Does it claim what the passage claims, or the reverse? | False | — |
+| Strength | Soft word in, hard word out? | False | — |
+| Scope | Does it generalise past a subgroup, place or period? | — | Cannot Tell |
+| Comparison | Does it keep the passage's comparison, or invent one? | — | Cannot Tell |
+
+**The swap that costs the most marks.** Turning "was associated with" into "caused" keeps the direction and the strength and still fails, because it adds a premise about what else did or did not change in the interval.
+
+
 Verbal Reasoning asks the same question from two angles: what can you draw out from it, and what would have to be true for the argument to stand. Both feel like "reading between the lines", but the UCAT treats them differently. An inference is a conclusion the passage forces on you — if the passage says it, the inference follows. An assumption is a hidden premise the argument relies on. The subtest does not always ask for it directly, but the wording of a True/False/Can't Tell statement forces you to recognise which one the stem is testing.
 
 > Source for subtest size, time and scoring (44 items / 22 minutes / 300–900 scale): UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The UCAT Consortium's verbal reasoning question tutorial covers the same True/False/Can't Tell format this note builds on.
 
-## What "inference" actually means in the test
+### What "inference" actually means in the test
 
 An inference is a statement that must be true given what the passage says. To check whether a statement is a valid inference, take the premise and apply one logical step. If the conclusion follows necessarily — not probably, not in most cases — it is True. If the conclusion can be drawn but with a gap, it is not a valid inference under the UCAT's strict reading.
 
@@ -25,7 +50,7 @@ A useful test: ask whether you can construct a world in which the passage's stat
 
 For example, if the passage says "All the pilot schemes used recycled water" and the statement says "Some of the pilot schemes were in dry regions", you can construct a world in which all the schemes used recycled water but were in wet regions. The premise does not force the inference, so the statement is Cannot Tell, not True.
 
-## What "assumption" actually means in the test
+### What "assumption" actually means in the test
 
 An assumption is the unstated link between a premise and a conclusion. The UCAT does not label an item "spot the assumption" — but it tests the same skill when a statement says something that the passage only implies, or when a False statement can be flipped into True by removing an unstated premise.
 
@@ -36,7 +61,7 @@ Two patterns come up repeatedly:
 
 In both cases, the trap is that the conclusion sounds reasonable. The marker does not score reasonableness. It scores the match between the statement and the passage.
 
-## A four-question framework for any statement
+### A four-question framework for any statement
 
 When you read a statement, run it through four checks before committing:
 
@@ -47,7 +72,31 @@ When you read a statement, run it through four checks before committing:
 
 If the statement passes all four checks against the passage, the answer is True. If it fails any one because the passage contradicts it, the answer is False. If it fails any one because the passage is silent, the answer is Cannot Tell.
 
-## Worked example — distinguishing inference from assumption
+### 🔴 Deep — Mastery (3mo+)
+
+> The pavement example separates statements that look equally supported and are not.
+
+#### Two statements are inferences and two are the same fact plus an assumption
+The council evidence in this note runs on two separate legs: a resident survey on satisfaction, and a council audit on incidents, both covering the same stretch of months after the programme began. Each leg supports one True statement. What makes the item worth studying is that the causal reading carries the *same* number as the factual one and is still Cannot Tell — identical digits, opposite verdicts. The passage supplies the figure; the mechanism is nowhere in it, and no amount of arithmetic recovers it.
+
+#### Generalising across a boundary the passage never crossed
+The same passage extends the programme to a second borough. A statement predicting the programme will reduce incidents there is Cannot Tell, because the passage reports one borough and makes no prediction at all. The hidden premise is that the second borough resembles the first closely enough for the result to carry. This is the same shape as the trial-population assumption in Decision Making: a finding measured in one place, stated as though it held in all places.
+
+| Statement form | What it adds | Answer |
+|---|---|---|
+| Incidents reduced over the period | Nothing — the audit says it | True |
+| The programme caused the reduction | A premise that nothing else changed | Cannot Tell |
+| Most residents felt pavements improved | Nothing — the survey says it | True |
+| Will reduce incidents in the second borough | A premise that the boroughs are similar | Cannot Tell |
+| The audit was more rigorous than the survey | A methodology comparison never made | Cannot Tell |
+
+#### Weak inferences are Cannot Tell, not nearly-True
+A statement the passage gestures towards without ever stating comes out Cannot Tell under this subtest's strict reading, however hard the passage leans in that direction. There is no partial credit for a near miss. Candidates who treat "probably" and "likely" in a statement as safe hedges are inverting the rule: when the passage never uses a matching hedge of its own, the statement has quietly changed the claim's certainty, and the verdict flips to False.
+
+#### Reading for shape pays back on the long passages
+The note's reading advice is that the first read should establish where the evidence sits, where the conclusion sits and where the qualifiers are, so that each statement can be answered from one sentence. The saving is largest where passages get longest: there, a candidate who re-reads from the top for every statement spends the budget the timing note warns about. One pass for shape, then a jump per statement.
+
+### Worked example — distinguishing inference from assumption
 
 Passage:
 
@@ -63,7 +112,7 @@ Statements:
 
 The pattern to notice: items 1 and 3 are inferences, and the answer is True because the statement follows from the passage. Item 2 swaps "is associated with" for "caused", which adds an unsupported assumption. Item 4 generalises across boroughs, again adding an unsupported assumption. Item 5 introduces a new comparison the passage does not make.
 
-## Strong inferences versus weak ones
+### Strong inferences versus weak ones
 
 A strong inference is one that the passage makes difficult to deny. "71% of residents felt pavements had improved" is a strong inference because the passage gives the survey result directly.
 
@@ -71,20 +120,20 @@ A weak inference is one that the passage suggests but does not state. "Residents
 
 A rule of thumb: if the statement uses any of the words "probably", "likely", "tends to" or "may", check whether the passage uses the same word. If the passage does not, the statement has upgraded a soft claim into a hard one, and the answer is False.
 
-## How this changes your reading strategy
+### How this changes your reading strategy
 
 Most candidates read the passage once and answer the statements. That works for the first few items but starts to break down on the longer passages in the second half of the subtest. The UCAT verbal reasoning tutorial recommends spending the first read on the shape of the argument: where the evidence is, where the conclusion is, and where any qualifiers sit. Then for each statement, you return to the relevant sentence rather than re-reading the whole passage.
 
 Reading for shape first lets you catch the four-question framework faster. You know where to look for the direction, the strength, the scope and the comparison before you read the statement.
 
-## Common mistakes to correct now
+### Common mistakes to correct now
 
 - Treating "Cannot Tell" as the same as "False". Cannot Tell means the passage is silent; False means the passage contradicts. Both are common wrong answers, but for different reasons.
 - Reading the conclusion of a passage and assuming the whole passage supports it. The conclusion can be an inference of the author's argument, but the UCAT scores the match between the statement and the explicit passage text.
 - Adding a "common sense" assumption. The UCAT does not award marks for bringing in real-world knowledge.
 - Confusing direction with strength. A statement can be the right direction ("improved") but the wrong strength ("all" instead of "most"), and that is False, not True.
 
-## What to do next
+### What to do next
 
 - Take one Verbal Reasoning passage from the official UCAT practice tests and write down the four-question framework answers (direction, strength, scope, comparison) for every statement before you pick True, False or Cannot Tell.
 - Mark any statement you almost marked True without a clear passage citation. If you cannot cite the sentence, change the answer to Cannot Tell.

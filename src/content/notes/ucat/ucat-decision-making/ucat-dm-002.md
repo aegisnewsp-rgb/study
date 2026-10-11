@@ -13,11 +13,39 @@ lastUpdated: "2026-09-26"
 
 # Venn diagrams, probability and argument evaluation
 
+### 🟢 Lite — Quick Review (1h–1d)
+
+> Three different arithmetic skills, one shared habit: write the rule down before you touch the numbers.
+
+| Item type | The rule that settles it | The trap |
+|---|---|---|
+| Two-set Venn | The union is the two totals minus the overlap | Adding without subtracting the overlap |
+| Three-set Venn | Subtract each pairwise overlap, then add the triple back | Forgetting the triple overlap sits inside every pair |
+| Probability | Complement, union, independence, conditional | Swapping one conditional for the other |
+| Argument evaluation | Pick the conclusion that mirrors the data | Reading a co-occurrence as a mechanism |
+
+**The habit.** Name the rule before you calculate. Most lost marks in this topic come from a correct method applied in the wrong direction, and naming the rule takes seconds.
+
+### 🟡 Standard — Regular Study (2d–2mo)
+
+> The working picture — the counts that must reconcile, and the conclusions the data will actually license.
+
+| Situation | What to write | What comes out |
+|---|---|---|
+| 100 patients, 50 / 40 / 30 in A, B, C | The only-A, only-B and only-C regions | 25, 10, 10 |
+| Pairwise overlaps 20 / 15 / 10 with 5 in all three | Subtract the 5 from each pairwise region | 15, 10, 5 |
+| Total in at least one drug | The inclusion-exclusion check | 80 in the union, 20 taking none |
+| 4 red and 6 blue, drawn without replacement | First draw, then the second given the first | 4/10 × 3/9 = 2/15 |
+| The same bag, drawn with replacement | The second factor does not update | 4/10 × 4/10 = 4/25 |
+
+**The single highest-value check.** Before accepting a probability answer, confirm the denominator belongs to the current state of the sample space. The marble question and the clinic question both fail the same way when it does not, and the failure looks like arithmetic rather than reading.
+
+
 Decision Making mixes logical puzzles with statistical and visual reasoning. The two statistical item types that show up most often are Venn-diagram problems (especially three-set Venns) and probability problems (single-event, conditional, and with-or-without-replacement). Argument evaluation sits in the same subtest but tests a different skill: spotting whether the data on the page actually supports the conclusion drawn from it.
 
 > Source for subtest size, time and marking (35 items / 37 minutes / 300–900 scale / single-answer 1 mark, multiple-statement 2 marks with partial credit): UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The Decision Making question tutorial is the official source for item-type examples.
 
-## Venn diagrams — the inclusion-exclusion check
+### Venn diagrams — the inclusion-exclusion check
 
 A Venn diagram represents sets as overlapping circles. For a two-set problem the regions are: only A, only B, A and B, neither. For a three-set problem the regions are: only A, only B, only C, A∩B only, A∩C only, B∩C only, A∩B∩C, none.
 
@@ -48,7 +76,7 @@ Inclusion-exclusion check: |A ∪ B ∪ C| = 50 + 40 + 30 − 20 − 15 − 10 +
 
 The trap on three-set Venns is forgetting that the pairwise overlaps include the triple overlap. If you write down "A and B = 20" without subtracting the triple overlap, the only-A and only-B regions come out wrong.
 
-## Probability — the rules that come up most often
+### Probability — the rules that come up most often
 
 The UCAT does not test advanced probability. It tests five rules, applied correctly under time pressure:
 - Complement: P(not A) = 1 − P(A)
@@ -77,7 +105,30 @@ A bag contains 4 red and 6 blue marbles. Two marbles are drawn. Find P(both red)
 
 The trap is forgetting to update the denominator after the first draw when the sampling is without replacement. The conditional probability on the second draw is the new sample space divided by the new favourable count.
 
-## Worked example — interpreting a probability claim from data
+### 🔴 Deep — Mastery (3mo+)
+
+> The arithmetic is easy. The judgment about what the numbers license is where this subtest separates candidates.
+
+#### Inclusion-exclusion is a consistency check, not just a method
+The drug survey in this note is built so the totals must reconcile: 50, 40 and 30 in the three sets, 20, 15 and 10 in the pairwise overlaps, 5 in the triple. Subtract the triple from each pair and the only-A, only-B and only-C regions fall out as 25, 10 and 10, and the union lands at 80 with 20 patients taking none. That last step is the useful habit. If your regions do not sum to the union you have miscounted somewhere, and finding that out costs far less than committing to an answer built on a bad region.
+
+#### The reverse-conditioning step is the one candidates miss
+The clinic reports that 60% of referred patients are diagnosed with obstructive sleep apnoea, that 40% of those have a BMI above 30 and that 15% of the rest do. The question asks for the probability in the other direction, and working it through gives 0.80 against a base rate of 0.6. The two directions differ because the conditioning event is a small slice of the population it is drawn from, so knowing which patients have a high BMI tells you much less than it first appears. Swapping the conditionals is not a slip in arithmetic; it is a reversal of the question.
+
+#### Argument evaluation is scored on restraint
+The hip replacement chart between 2019 and 2024 shows length of stay falling from 4.2 days to 2.8 while 30-day readmissions rise from 3.1% to 4.0%. Three of the four conclusions on offer add something the chart never states — a causal mechanism, an overall verdict on outcomes, a policy recommendation. The supported answer restates both movements and stops. The pattern generalises past this chart: a conclusion survives when the data could have been written without anyone adding a word.
+
+| Chart shows | Conclusion on offer | Verdict |
+|---|---|---|
+| Length of stay fell, readmissions rose | Shorter stays caused the rise | A co-occurrence read as a mechanism |
+| Two measures moved over the same period | Hip replacement outcomes have worsened | A judgement the chart never applies |
+| Both movements, stated plainly | The chart's own summary | Supported |
+| The same two movements | Reverse the early-discharge policy | A recommendation the data does not reach |
+
+#### A statement of fact is not a statement of cause
+The five patterns in this note all reduce to one question: does the conclusion add a word the data did not contain. A correlation stated as causation, a clinic generalised to a country, a direction reversed, a trend stated as an absolute, a difference attributed to one cause when others are plausible — each is the same move. Recognising the shared shape is faster than running five separate checks, and it survives item types the note does not list.
+
+### Worked example — interpreting a probability claim from data
 
 A clinic reports that 60% of patients referred for a sleep study are diagnosed with obstructive sleep apnoea (OSA). Among patients with OSA, 40% have a body mass index above 30. Among patients without OSA, 15% have a body mass index above 30.
 
@@ -99,7 +150,7 @@ Let OSA = A. P(A) = 0.6. P(not A) = 0.4. P(BMI > 30 | A) = 0.4. P(BMI > 30 | not
 
 So 80% of patients with a BMI above 30 have OSA under the clinic's data. The reverse-conditioning step (using Bayes' rule) is the part candidates miss: the question gives you P(BMI | OSA) and asks you to find P(OSA | BMI). The two are not equal, and the swap is one of the most common errors in Decision Making probability items.
 
-## Argument evaluation — does the data actually support the conclusion?
+### Argument evaluation — does the data actually support the conclusion?
 
 The Decision Making subtest also includes short argument-evaluation items: a passage makes a claim, and you have to decide which conclusion is best supported by the data. The marking shape is the same as for syllogisms — pick the conclusion that follows, and reject any conclusion that adds an unsupported step.
 
@@ -113,7 +164,7 @@ Five patterns to watch for:
 
 In each case the right response is the conclusion that sticks closest to what the data literally says.
 
-## Worked example — argument evaluation against a chart
+### Worked example — argument evaluation against a chart
 
 A hospital trust publishes a chart showing that, between 2019 and 2024, average length of stay for elective hip replacements fell from 4.2 days to 2.8 days, while the 30-day readmission rate rose from 3.1% to 4.0%.
 
@@ -126,7 +177,7 @@ Which conclusion is best supported?
 
 The best-supported conclusion (C) is the one that mirrors the chart exactly. The UCAT rewards that discipline.
 
-## Common mistakes to correct now
+### Common mistakes to correct now
 
 - Treating "more than half" and "most" as interchangeable. "More than half" is a strict mathematical statement (>50%); "most" can mean a non-strict majority.
 - Forgetting that P(A ∪ B) subtracts the intersection. Adding P(A) + P(B) without subtracting the double-counted region overcounts the union.
@@ -134,7 +185,7 @@ The best-supported conclusion (C) is the one that mirrors the chart exactly. The
 - Reading a chart and answering from the conclusion in the title rather than from the data in the body.
 - Concluding causation from a chart that shows correlation. The chart shows what changed; it does not show what caused what.
 
-## What to do next
+### What to do next
 
 - Drill three three-set Venn problems a day for a week, with the inclusion-exclusion check written down next to the answer.
 - Take three probability problems from the official UCAT practice tests and identify which of the five rules each one tests before you calculate.

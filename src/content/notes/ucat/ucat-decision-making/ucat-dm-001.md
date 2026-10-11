@@ -13,11 +13,39 @@ lastUpdated: "2026-09-26"
 
 # Logical puzzles and syllogisms for UCAT Decision Making
 
+### 🟢 Lite — Quick Review (1h–1d)
+
+> Two habits carry this topic: read the quantifier literally, and never run a conditional backwards.
+
+| Item type | What the test is scoring | The habit that settles it |
+|---|---|---|
+| Syllogism | Whether the conclusion follows from the two premises alone | "All" forces overlap; "some" does not |
+| Conditional | Which of the four forms the item is using | If P then Q never licenses Q implies P |
+| Logical puzzle | Whether a choice contradicts any pinned constraint | Eliminate first, then solve |
+
+**Why the long items are worth your time.** Structured items carry two marks between them, and getting one of the two components right still returns a mark. That floor is why a six-constraint seating puzzle is worth attempting even when the arrangement is not solved.
+
+### 🟡 Standard — Regular Study (2d–2mo)
+
+> The working picture — which forms are valid, which are traps, and the order of attack on a structured item.
+
+| What you see | What it means | Verdict |
+|---|---|---|
+| All A are B. All B are C. | The chain pulls A into C | Valid |
+| All A are B. Some B are C. | The premises never link A to C directly | Invalid |
+| All A are B. No B are C. | A sits inside B, and B misses C | Valid |
+| P implies Q, and P is true | The rule fires | Valid |
+| P implies Q, and Q is true | Affirming the consequent | Invalid |
+| P implies Q, and P is false | Denying the antecedent | Invalid |
+
+**The order that wins on a puzzle.** Mark every slot a block can occupy, cross out each answer choice that breaks a constraint you have already pinned, and only then narrow what remains. In the six-student example the elimination pass is what leaves a single arrangement standing — solving the whole grid first spends budget you will want on the last items.
+
+
 Decision Making gives you 35 questions in 37 minutes (after a 1 minute 30 second timed instruction section), and the marking is not uniform. Single-answer items are worth one mark. Multiple-statement items are worth two marks, and a partially correct response on a multiple-statement item still scores one mark. That marking shape is what makes logical-puzzle and syllogism items worth their weight: the partial-credit floor on a structured item means attempting one is almost always better than guessing blindly.
 
 > Source for subtest size, time, scoring (300–900 scale) and the 1-mark / 2-mark / 1-mark-partial marking: UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The UCAT Consortium notes that the subtest "assesses your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information", and that "knowledge of specific mathematical or logical reasoning terminology is not required" — so the techniques below are operational habits rather than formal-logic vocabulary.
 
-## Syllogisms — what is and is not valid
+### Syllogisms — what is and is not valid
 
 A syllogism is a two-premise argument that aims to draw a conclusion. In the UCAT, the premises are short, a single sentence, and the conclusion has to follow from them alone.
 
@@ -37,7 +65,7 @@ The invalid forms that the test uses as traps:
 
 The underlying rule: "all" chains force overlap, "some" chains do not. The moment you mix "all" and "some" in a way that requires an extra link, the syllogism is invalid.
 
-## Conditional reasoning — what to keep and what to throw away
+### Conditional reasoning — what to keep and what to throw away
 
 Decision Making also tests conditional reasoning: "if P then Q". The UCAT does not require you to name the form, but you need to know which inferences are valid and which are not.
 
@@ -57,7 +85,7 @@ A worked example:
 
 The conclusion that the patient has appendicitis is invalid. Many conditions cause right lower-quadrant pain. The UCAT will offer this trap as a distractor; learn to spot the direction of the rule.
 
-## Logical puzzles — set logic and ordering
+### Logical puzzles — set logic and ordering
 
 Decision Making also includes short logical puzzles: who sits where, who arrives in which order, which key opens which door. Two habits handle most of them:
 
@@ -66,7 +94,29 @@ Decision Making also includes short logical puzzles: who sits where, who arrives
 
 The UCAT does not require you to memorise puzzle taxonomies. It requires you to extract constraints cleanly, which is a habit you can drill.
 
-## Worked example — syllogism validity
+### 🔴 Deep — Mastery (3mo+)
+
+> What separates a candidate who can solve these items from one who can only recognise them once they are told the answer.
+
+#### The quantifier is the whole item
+Every syllogism in this note turns on whether the word is "all" or "some", and every conditional turns on which way the rule runs. The Consortium is explicit that knowledge of specific logical or mathematical terminology is not required — which is exactly why the trap survives into the test. There is no vocabulary to recognise; there is only the word printed on the page. A candidate who points at the quantifier and asks whether the premise forces that overlap or merely permits it is already ahead of one judging whether the conclusion sounds reasonable.
+
+#### The partial-credit floor changes which items deserve your time
+Decision Making gives 35 items in 37 minutes after a 1 minute 30 second instruction section, scored on a 300 to 900 scale. The note's own claim — that a partially correct multiple-statement response still scores one of its two marks — means the expected value of an attempt rises sharply on structured items. Skipping a long puzzle because it looks expensive is the clearest way to leave marks on the table, and it is a decision made on appearance rather than on the marking scheme.
+
+#### Where the difficulty actually sits
+The easy items are the two-premise syllogisms and the four conditional forms; both resolve on one pass once the habit exists. The time is consumed by logical puzzles, which carry four to six constraints against four or five answer choices. The habit worth drilling is constraint extraction, because the same habit reads a seating arrangement, an arrival order and a key-door problem identically.
+
+| Item class | What it tests | Where the time goes | Error category to log |
+|---|---|---|---|
+| Syllogism | Whether the conclusion is entailed | A few seconds once the quantifier is spotted | All substituted for some, or the reverse |
+| Conditional | Direction and validity of the inference | A few seconds once the form is named | Consequent affirmed, or antecedent denied |
+| Logical puzzle | Whether a choice satisfies every constraint | The bulk of the item | Constraint misread, or two blocks colliding |
+
+#### A puzzle you have not solved is still worth a decision
+Marking an item is not the same as skipping it, and the difference is the marking scheme rather than the difficulty. On the six-student arrangement the note walks through four block positions before landing on one. Candidates who bail out early have not avoided the cost — they have paid it and collected nothing, which is strictly worse than a guess that costs the same time and sometimes scores.
+
+### Worked example — syllogism validity
 
 ```
   Premise 1: All pharmacists are health professionals.
@@ -86,7 +136,7 @@ A valid version of the same shape would be:
 
 The "all" + "all" pattern forces overlap; "all" + "some" does not. That is the rule the test rewards.
 
-## Worked example — conditional reasoning with the affirming-the-consequent trap
+### Worked example — conditional reasoning with the affirming-the-consequent trap
 
 ```
   If a laboratory sample is contaminated, the pH reading is outside the safe range.
@@ -95,7 +145,7 @@ The "all" + "all" pattern forces overlap; "all" + "some" does not. That is the r
 
 Conclusion: the sample is contaminated. Invalid. This is affirming the consequent. The pH reading can be outside the safe range for reasons other than contamination — a miscalibrated probe, a degraded reagent, a temperature error. The conditional only supports modus ponens (sample is contaminated → pH is outside the range) and modus tollens (pH is not outside the range → sample is not contaminated).
 
-## Worked example — ordering puzzle
+### Worked example — ordering puzzle
 
 Six students — A, B, C, D, E, F — sit in a row of six seats. Constraints:
 
@@ -118,7 +168,7 @@ Try BC at (4,5): ED can be (1,3), (2,4) (collides with BC at 4), (3,5) (collides
 
 That took a moment to work through. The skill is not the answer; the skill is the constraint-extraction habit. The UCAT tests the habit by giving you a stem with four to six constraints and four or five answer choices, and asking which arrangement is consistent with all of them.
 
-## Common mistakes to correct now
+### Common mistakes to correct now
 
 - Treating common sense as proof. The UCAT scores formal validity, not plausibility. A syllogism that sounds right but does not follow is wrong.
 - Inserting "all" where the premise says "some". The "all" / "some" distinction is the most common single error.
@@ -126,7 +176,7 @@ That took a moment to work through. The skill is not the answer; the skill is th
 - Skipping structured items because they look long. The partial-credit floor on a multiple-statement item means even an attempt that gets one statement wrong scores one mark.
 - Drawing a Venn diagram that overlaps the wrong region. A Venn answer depends on the diagram, not on intuition.
 
-## What to do next
+### What to do next
 
 - Drill ten syllogisms a day for a week, focusing on "all A are B, some B are C" patterns and checking each one with a Venn diagram.
 - Build a one-page reference card for the four conditional-reasoning forms (modus ponens, modus tollens, affirming the consequent, denying the antecedent) and review it before each Decision Making drill.

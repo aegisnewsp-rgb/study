@@ -17,7 +17,7 @@ The factual scores you may rely on come from the published UCAT Consortium test-
 
 ---
 
-### Quick revision
+### 🟢 Quick revision
 
 The four conversions that handle roughly two thirds of the arithmetic:
 
@@ -28,7 +28,7 @@ The four conversions that handle roughly two thirds of the arithmetic:
 
 ---
 
-### Standard conceptual deep dive
+### 🟡 Standard conceptual deep dive
 
 The on-screen calculator is permitted but slow. Reducing the keystrokes you actually make is more important than the keystrokes themselves. Each shortcut below trims one layer of computation.
 

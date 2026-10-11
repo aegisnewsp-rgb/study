@@ -17,7 +17,7 @@ Subtest anchor: 69 questions in 26 minutes, after a one-and-a-half-minute instru
 
 ---
 
-### Quick revision
+### 🟢 Quick revision
 
 - **Bands 1 to 4, with 1 the highest.** The Consortium publishes the band descriptors; the order matters.
 - **Partial marks make the band.** A response close to ideal scores more than a wild guess. That is where band 2 separates from band 3.
@@ -26,7 +26,7 @@ Subtest anchor: 69 questions in 26 minutes, after a one-and-a-half-minute instru
 
 ---
 
-### Standard conceptual deep dive
+### 🟡 Standard conceptual deep dive
 
 #### The published band descriptors
 

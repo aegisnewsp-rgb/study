@@ -17,7 +17,7 @@ The score is a band from 1 to 4 with band 1 the highest. Each correct response t
 
 ---
 
-### Quick revision
+### 🟢 Quick revision
 
 - **Two passes per scenario.** First read for the situation. Second read for the question and the four response options.
 - **22.6 seconds per item, including the scenario share.** Plan for that pace or accept a late finish.
@@ -27,7 +27,7 @@ The score is a band from 1 to 4 with band 1 the highest. Each correct response t
 
 ---
 
-### Standard conceptual deep dive
+### 🟡 Standard conceptual deep dive
 
 #### The shape of the set
 

@@ -17,7 +17,7 @@ Standard subtest facts to keep straight: 36 QR questions in 26 minutes after a t
 
 ---
 
-### Quick revision
+### 🟢 Quick revision
 
 - **Default: mental first, calculator second.** Run the arithmetic in your head; reach for the calculator only if the numbers have three or more digits.
 - **Three keystrokes is the boundary.** If the calculation needs three or more calculator operations, the calculator is faster. Two or fewer and your head wins.
@@ -27,7 +27,7 @@ Standard subtest facts to keep straight: 36 QR questions in 26 minutes after a t
 
 ---
 
-### Standard conceptual deep dive
+### 🟡 Standard conceptual deep dive
 
 #### What the calculator is and is not
 

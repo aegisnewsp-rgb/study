@@ -15,7 +15,7 @@ lastUpdated: 2026-04-23
 
 Surface chemistry deals with phenomena occurring at the surface of substances — adsorption, catalysis, colloids, and emulsions. Though a lower-weight topic, it has consistent presence in NEET with conceptual clarity questions.
 
-## Quick Revision
+### 🟢 Quick Revision
 
 - **Adsorption:** Accumulation of gas/liquid on solid surface (not absorption into bulk)
 - **Physisorption:** Weak van der Waals forces, reversible, low activation energy
@@ -25,7 +25,7 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 - **Tyndall Effect:** Scattering of light by colloidal particles
 - **Coagulation:** Process of settling colloidal particles (precipitation)
 
-## Standard Study
+### 🟡 Standard Study
 
 ### Adsorption
 
@@ -107,7 +107,7 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 - Emulsifying agents: soap, detergent, proteins
 - They stabilise the emulsion by reducing interfacial tension
 
-## Deep Study
+### 🔴 Deep Study
 
 ### Adsorption Isotherms
 

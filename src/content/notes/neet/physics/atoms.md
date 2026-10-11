@@ -15,7 +15,7 @@ lastUpdated: 2026-04-23
 
 This topic covers the evolution of atomic models, Bohr's theory of the hydrogen atom, spectral series, and fundamental atomic structure — an important but manageable portion of NEET Physics.
 
-## Quick Revision
+### 🟢 Quick Revision
 
 - **Rutherford's Experiment:** Alpha particle scattering → nuclear model of atom
 - **Bohr's Postulates:** Stationary orbits, angular momentum quantisation, frequency condition
@@ -25,7 +25,7 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 - **de Broglie Hypothesis:** λ = h/p — matter waves
 - **Atomic Nucleus:** protons + neutrons, radius R = R₀A^(1/3)
 
-## Standard Study
+### 🟡 Standard Study
 
 ### Rutherford's Atomic Model
 
@@ -90,7 +90,7 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 - Duane-Hunt law: λ_min = hc/eV
 - Moseley's law: ν ∝ (Z − σ)² — frequency increases with atomic number
 
-## Deep Study
+### 🔴 Deep Study
 
 ### Velocity and Frequency in Bohr Orbits
 

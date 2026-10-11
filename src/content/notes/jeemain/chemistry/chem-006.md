@@ -14,7 +14,7 @@ lastUpdated: 2026-03-28
 
 ---
 
-### Lite Quick Review (1h-1d)
+### 🟢 Lite Quick Review (1h-1d)
 
 > Rapid summary.
 
@@ -58,7 +58,7 @@ lastUpdated: 2026-03-28
 
 ---
 
-### Standard Regular Study (2d-2mo)
+### 🟡 Standard Regular Study (2d-2mo)
 
 > Standard content.
 
@@ -78,7 +78,7 @@ The equilibrium constant relates through ΔG° = −RT ln K. As temperature incr
 
 ---
 
-### Extended Deep Study (3mo+)
+### 🔴 Extended Deep Study (3mo+)
 
 > Comprehensive.
 

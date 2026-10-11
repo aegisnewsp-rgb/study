@@ -17,7 +17,7 @@ You are scored on the published 300 to 900 scale per subtest, with one mark per 
 
 ---
 
-### Quick revision
+### 🟢 Quick revision
 
 - **Read the question first.** Know which numbers you need before you scan the chart.
 - **Skim for the axis label, the legend and the units.** A "thousand" vs "million" difference is the most common chart trap.
@@ -27,7 +27,7 @@ You are scored on the published 300 to 900 scale per subtest, with one mark per 
 
 ---
 
-### Standard conceptual deep dive
+### 🟡 Standard conceptual deep dive
 
 #### The four chart types UCAT uses
 

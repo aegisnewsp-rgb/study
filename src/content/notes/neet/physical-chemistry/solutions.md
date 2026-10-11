@@ -15,7 +15,7 @@ lastUpdated: 2026-04-23
 
 Solutions are homogeneous mixtures of two or more substances. This chapter covers concentration terms, colligative properties, Raoult's Law, and the role of solutes in changing physical properties of solvents — a scoring topic in NEET Chemistry.
 
-## Quick Revision
+### 🟢 Quick Revision
 
 - **Solute + Solvent = Solution**
 - **Concentration terms:** Molarity, Molality, Mole Fraction, Normality, ppm
@@ -25,7 +25,7 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 - **Colligative Properties:** Boiling point elevation, freezing point depression, osmotic pressure
 - **Van't Hoff Factor (i):** Number of particles per formula unit
 
-## Standard Study
+### 🟡 Standard Study
 
 ### Concentration Terms
 
@@ -92,7 +92,7 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 - i < 1 for associating solutes (e.g., acetic acid in benzene → i ≈ 0.5)
 - **Modified Colligative Properties:** ΔT_b = i × K_b × m; π = i × M × R × T
 
-## Deep Study
+### 🔴 Deep Study
 
 ### Energetics of Solution Formation
 

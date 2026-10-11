@@ -15,7 +15,7 @@ lastUpdated: 2026-04-23
 
 This chapter covers heat, temperature, thermal expansion, calorimetry, heat transfer mechanisms, and change of state — a fundamental topic that connects heat concepts to practical everyday phenomena tested in NEET Physics.
 
-## Quick Revision
+### 🟢 Quick Revision
 
 - **Temperature:** Measure of average kinetic energy of molecules
 - **Heat:** Energy transferred due to temperature difference
@@ -25,7 +25,7 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 - **Thermal Expansion:** ΔL = αL₀ΔT (linear), ΔA = 2αA₀ΔT (area), ΔV = 3αV₀ΔT (volume)
 - **Heat Transfer:** Conduction, Convection, Radiation
 
-## Standard Study
+### 🟡 Standard Study
 
 ### Temperature Scales
 
@@ -92,7 +92,7 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 - Stefan-Boltzmann law: P = σAT⁴
 - Newton's law of cooling: dT/dt = −k(T − T_surroundings)
 
-## Deep Study
+### 🔴 Deep Study
 
 ### Stefan-Boltzmann Law Details
 

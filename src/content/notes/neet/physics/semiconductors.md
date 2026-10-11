@@ -15,7 +15,7 @@ lastUpdated: 2026-04-23
 
 Semiconductors form the backbone of modern electronic devices. This topic covers the physics of semiconductors, diodes, transistors, and digital circuits — essential for NEET.
 
-## Quick Revision
+### 🟢 Quick Revision
 
 - **Intrinsic Semiconductor:** Pure silicon/germanium (Si: 1.1 eV, Ge: 0.72 eV)
 - **Doping:** Adding trivalent (p-type) or pentavalent (n-type) atoms
@@ -26,7 +26,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 - **Transistor:** Current controlled device — npn and pnp types
 - **Logic Gates:** AND, OR, NOT, NAND, NOR — form digital circuits
 
-## Standard Study
+### 🟡 Standard Study
 
 ### Energy Bands
 
@@ -110,7 +110,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 - Boolean algebra basics: Associative, Distributive, Commutative laws
 - De Morgan's Theorems: (A+B)' = A'·B' and (A·B)' = A'+B'
 
-## Deep Study
+### 🔴 Deep Study
 
 ### Drift and Diffusion Currents
 

@@ -17,7 +17,7 @@ Standard facts to keep straight: the SJT has 69 questions in 26 minutes, after a
 
 ---
 
-### Quick revision
+### 🟢 Quick revision
 
 - **Two question types, not one.** "Appropriateness" tests whether an action is right or wrong. "Importance" tests whether a factor should weigh heavily.
 - **Four-point scale.** Very, somewhat-but-not-ideal, opposite-very, opposite-somewhat. The middle two are the questions.
@@ -27,7 +27,7 @@ Standard facts to keep straight: the SJT has 69 questions in 26 minutes, after a
 
 ---
 
-### Standard conceptual deep dive
+### 🟡 Standard conceptual deep dive
 
 #### Appropriateness questions — what to judge
 

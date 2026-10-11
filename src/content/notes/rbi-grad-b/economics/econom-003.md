@@ -198,13 +198,13 @@ In international macroeconomics, central banks evaluate whether a currency depre
 
 ### Table 3: Tax Incidence Under Differing Elasticity Regimes
 
-| Demand Elasticity ($|e_d|$) | Supply Elasticity ($e_s$) | Who Bears the Greater Burden? | Price Received by Producer vs. Paid by Consumer |
+| Demand Elasticity ($\|e_d\|$) | Supply Elasticity ($e_s$) | Who Bears the Greater Burden? | Price Received by Producer vs. Paid by Consumer |
 | :--- | :--- | :--- | :--- |
-| **$|e_d| < e_s$** (Demand more inelastic) | — | **Buyer / Consumer** | Consumer price increases by more than producer price drops |
-| **$|e_d| > e_s$** (Supply more inelastic) | — | **Seller / Producer** | Producer price drops by more than consumer price rises |
-| **$|e_d| = e_s$** | — | **Shared Exactly 50–50** | Tax wedge divided equally between buyer and seller |
-| **$|e_d| = 0$** (Perfect Inelasticity) | Any $e_s > 0$ | **100% on Consumer** | Consumer price rises by full amount of tax; zero producer burden |
-| **$|e_d| \rightarrow \infty$** (Perfect Elasticity) | Any $e_s > 0$ | **100% on Producer** | Consumer price unchanged; producer receives $P_0 - t$ |
+| **$\|e_d\| < e_s$** (Demand more inelastic) | — | **Buyer / Consumer** | Consumer price increases by more than producer price drops |
+| **$\|e_d\| > e_s$** (Supply more inelastic) | — | **Seller / Producer** | Producer price drops by more than consumer price rises |
+| **$\|e_d\| = e_s$** | — | **Shared Exactly 50–50** | Tax wedge divided equally between buyer and seller |
+| **$\|e_d\| = 0$** (Perfect Inelasticity) | Any $e_s > 0$ | **100% on Consumer** | Consumer price rises by full amount of tax; zero producer burden |
+| **$\|e_d\| \rightarrow \infty$** (Perfect Elasticity) | Any $e_s > 0$ | **100% on Producer** | Consumer price unchanged; producer receives $P_0 - t$ |
 
 ---
 

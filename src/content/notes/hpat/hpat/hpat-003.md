@@ -31,7 +31,7 @@ Section 3 is the third of three separately-timed HPAT-Ireland sections for stand
 
 **HPAT Section timing reference (standard applicants):**
 | Section | Skill | Questions | Duration | Mins/Q |
-|---|---|---|---|---|---|
+|---|---|---|---|---|
 | 1 | Logical Reasoning & Problem Solving | 42 | 60 min | ~86 s |
 | 2 | Interpersonal Understanding | 42 | 50 min | ~71 s |
 | 3 | Non-Verbal Reasoning | 30 | 40 min | ~80 s |

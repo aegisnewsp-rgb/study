@@ -11,6 +11,7 @@ generated: "2026-04-09T20:00:00"
 lastUpdated: 2026-04-09
 ---
 
+
 # Central Nervous System Drugs
 
 The central nervous system (CNS) drug categories are among the most frequently prescribed and frequently misused classes in clinical practice. In South Africa, CNS disorders represent a significant disease burden — depression, anxiety, schizophrenia, epilepsy, Parkinson's disease, and pain syndromes all require CNS-active pharmacotherapy. The pharmacist's role encompasses appropriate drug selection, dispensing of controlled substances (schedule 5 and 6 drugs under the Medicines Act), management of drug interactions (especially with serotonergic drugs and MAOIs), monitoring for adverse effects, and ensuring adherence. For the SAPC examination, candidates must demonstrate thorough knowledge of drug mechanisms, indications, adverse effects, interactions, and the South African regulatory framework governing CNS-active medicines.
@@ -19,9 +20,49 @@ This topic builds on pharmacodynamics (pharma-006), pharmacokinetics (pharma-003
 
 ---
 
-## Analgesics and Pain Management
+### 🟢 Lite — Quick Review (1h–1d)
 
-### The WHO Analgesic Ladder
+> Quick recap for the last stretch of revision the night before.
+This is the largest class in the SAPC syllabus and the one with the most emergencies attached to it. Several of the fifteen focus areas at the end of the chapter are toxicity syndromes, which tells you where the marks are.
+
+**Pain — the WHO three-step ladder:**
+
+| Step | Class | Examples | NRS |
+|---|---|---|---|
+| 1 | Non-opioid ± adjuvant | Paracetamol, NSAIDs, adjuvants | 1–3 |
+| 2 | Weak opioid + non-opioid | Codeine, tramadol | 4–6 |
+| 3 | Strong opioid + non-opioid | Morphine, oxycodone, fentanyl, methadone | 7–10 |
+
+Dose **by the clock**, not as required. Add adjuvants from the outset for neuropathic pain rather than waiting for the ladder to fail. Breakthrough pain gets an immediate-release formulation of the same opioid. Opioid constipation **never** tolerance-develops — a prophylactic laxative is not optional.
+
+**The five drug facts the exam is built on:**
+
+- **Paracetamol** → CYP2E1 makes NAPQI; glutathione neutralises it until it is depleted; **NAC within 8 hours**. Max 4 g/day.
+- **Codeine** → roughly a tenth is converted to morphine via **CYP2D6**; poor metabolisers get no analgesia, ultrarapid metabolisers get morphine toxicity from a normal dose.
+- **SSRIs** are first-line for MDD. Watch **discontinuation syndrome** (worst on paroxetine and venlafaxine — taper, never stop abruptly) and the bleeding risk that comes from platelet serotonin depletion.
+- **MAOIs** require a tyramine-free diet and a **2-week washout** before them (**5 weeks for fluoxetine**).
+- **Clozapine** needs weekly FBC for 18 weeks, then fortnightly, then monthly — agranulocytosis risk peaks in the first 3 months.
+
+**The two emergencies, and the one question that separates them:**
+
+| | Serotonin syndrome | NMS |
+|---|---|---|
+| Trigger | Serotonergic drugs | Any antipsychotic |
+| Muscle signs | **Clonus, hyperreflexia** | **Lead-pipe rigidity** |
+| Other | Hyperthermia, agitation, diaphoresis | Altered mental status, autonomic instability |
+| Bloods | — | **CK elevated** |
+
+Treatment is the same first move in both: **stop the drug.** Serotonin syndrome then adds cyproheptadine; NMS adds dantrolene or bromocriptine.
+
+**Scheduling (SA-specific, and a reliable mark):** benzodiazepines, pregabalin and codeine combinations are **schedule 5 or 6** under the Medicines Act. Script records matter.
+
+**Levodopa + carbidopa** — carbidopa does not help the brain. It stops the periphery converting levodopa to dopamine first, so more of the dose reaches the CNS.
+
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Analgesics and Pain Management
+
+##### The WHO Analgesic Ladder
 
 The WHO three-step analgesic ladder, though originally developed for cancer pain, provides a framework for rational analgesic use in all pain:
 
@@ -38,7 +79,7 @@ The WHO three-step analgesic ladder, though originally developed for cancer pain
 - Treat breakthrough pain with immediate-release formulation of the same opioid
 - Each step may include co-analgesics (adjuvants) for specific pain mechanisms
 
-### Paracetamol (Acetaminophen)
+##### Paracetamol (Acetaminophen)
 
 **Mechanism:** Central cyclooxygenase (COX) inhibition; also activates serotonergic descending pain pathways; no significant peripheral anti-inflammatory effect.
 
@@ -57,7 +98,7 @@ The WHO three-step analgesic ladder, though originally developed for cancer pain
 
 **SA context:** Paracetamol is widely available OTC (schedule 1) in SA; paracetamol-containing combination products (e.g., pain mixtures with codeine) are schedule 5 or 6. Paracetamol overdose is a common presentation to emergency departments in SA.
 
-### NSAIDs
+##### NSAIDs
 
 **Mechanism:** Non-selective inhibition of cyclooxygenase (COX-1 and COX-2) → decreased prostaglandin synthesis → anti-inflammatory, analgesic, antipyretic effects.
 
@@ -96,7 +137,7 @@ The WHO three-step analgesic ladder, though originally developed for cancer pain
 - Ibuprofen in children: avoid if varicella infection (Reye's syndrome concern; aspirin absolutely contraindicated)
 - NSAID use in patients on warfarin: increase bleeding risk significantly
 
-### Opioid Analgesics
+##### Opioid Analgesics
 
 **Mechanism:** Bind to μ (mu), κ (kappa), and δ (delta) opioid receptors → Gi protein coupling → inhibition of adenylyl cyclase → ↓ cAMP → hyperpolarisation → decreased neuronal excitability and neurotransmitter release.
 
@@ -107,7 +148,7 @@ The WHO three-step analgesic ladder, though originally developed for cancer pain
 | κ (kappa) | Analgesia (spinal), sedation, dysphoria, psychotomimetic effects |
 | δ (delta) | Analgesia, mood modulation |
 
-#### Weak Opioids
+###### Weak Opioids
 
 **Codeine:**
 - Prodrug: ~10% converted to morphine by CYP2D6
@@ -123,7 +164,7 @@ The WHO three-step analgesic ladder, though originally developed for cancer pain
 - **Serotonin syndrome risk** when combined with other serotonergic drugs (SSRIs, SNRIs, MAOIs, St. John's wort)
 - Lower risk of respiratory depression than strong opioids; lower abuse potential than morphine
 
-#### Strong Opioids
+###### Strong Opioids
 
 **Morphine:**
 - Gold standard opioid analgesic; full μ-agonist
@@ -165,7 +206,7 @@ The WHO three-step analgesic ladder, though originally developed for cancer pain
 - Low-dose epidural: for post-Caesarean section pruritus without reversing analgesia
 - Very short half-life (~30–60 min); may require repeat dosing or infusion
 
-### Adjuvant Analgesics for Neuropathic Pain
+##### Adjuvant Analgesics for Neuropathic Pain
 
 Neuropathic pain (burning, shooting, electric shock quality) responds poorly to conventional analgesics; adjuvant analgesics are first-line.
 
@@ -202,11 +243,11 @@ Neuropathic pain (burning, shooting, electric shock quality) responds poorly to 
 
 ---
 
-## Antidepressants
+#### Antidepressants
 
 Depression is one of the leading causes of disability worldwide. In South Africa, the burden of depression is amplified by HIV/AIDS, substance abuse, poverty, and violence. The South African Depression and Anxiety Group (SADAG) and the National Mental Health Framework guide management.
 
-### Major Depressive Disorder (MDD) — Diagnostic Criteria
+##### Major Depressive Disorder (MDD) — Diagnostic Criteria
 
 At least 5 symptoms for ≥2 weeks, including depressed mood or anhedonia:
 1. Depressed mood
@@ -219,9 +260,9 @@ At least 5 symptoms for ≥2 weeks, including depressed mood or anhedonia:
 8. Concentration difficulties
 9. Suicidal ideation
 
-### Antidepressant Classes
+##### Antidepressant Classes
 
-#### Selective Serotonin Reuptake Inhibitors (SSRIs)
+###### Selective Serotonin Reuptake Inhibitors (SSRIs)
 
 **Mechanism:** Selectively inhibit serotonin reuptake transporter (SERT) → increased synaptic serotonin.
 
@@ -256,7 +297,7 @@ Caused by excess serotonergic activity in CNS. Features: altered mental status (
 
 **Treatment:** Stop serotonergic drugs; supportive care; cooling; benzodiazepines for agitation; cyproheptadine (serotonin antagonist) in severe cases.
 
-#### Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)
+###### Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)
 
 **Duloxetine:**
 - Also used for diabetic peripheral neuropathy, chronic musculoskeletal pain, fibromyalgia
@@ -268,7 +309,7 @@ Caused by excess serotonergic activity in CNS. Features: altered mental status (
 - CYP2D6 substrate; CYP3A4 inhibitor (weak)
 - Discontinuation syndrome: taper rather than abrupt cessation
 
-#### Tricyclic Antidepressants (TCAs)
+###### Tricyclic Antidepressants (TCAs)
 
 **Mechanism:** Inhibit norepinephrine and serotonin reuptake; also block muscarinic (M1), histamine (H1), and α1-adrenergic receptors.
 
@@ -278,7 +319,7 @@ Caused by excess serotonergic activity in CNS. Features: altered mental status (
 
 **In overdose:** Cardiac arrhythmias (widened QRS), seizures, anticholinergic syndrome — all potentially fatal. Limited use in SA due to safety concerns; SSRIs preferred.
 
-#### MAO Inhibitors (MAOIs)
+###### MAO Inhibitors (MAOIs)
 
 **Mechanism:** Irreversibly inhibit monoamine oxidase A (MAO-A) and/or B (MAO-B) → prevents breakdown of norepinephrine, dopamine, serotonin.
 
@@ -293,7 +334,7 @@ MAO-A metabolises tyramine in the gut. MAOI + tyramine-rich foods (aged cheese, 
 
 **SA context:** Tyramine-rich foods are common in traditional South African cuisine (aged cheeses, dried game meats, fermented milk products like amasi). Patients on MAOIs must be counselled comprehensively on diet. MAOIs are rarely used first-line; when used, patient education is critical.
 
-### Antidepressant Treatment Algorithm
+##### Antidepressant Treatment Algorithm
 
 **First-line (mild-moderate MDD):** SSRI (sertraline, citalopram, escitalopram), SNRI (duloxetine, venlafaxine)
 
@@ -311,7 +352,7 @@ MAO-A metabolises tyramine in the gut. MAOI + tyramine-rich foods (aged cheese, 
 
 **Maintenance:** Continue antidepressant for at least 6–12 months after remission; longer for recurrent episodes.
 
-### South African Context
+##### South African Context
 
 **SADAG and mental health:** Depression screening in primary healthcare using the PHQ-9 (Patient Health Questionnaire-9) is recommended. Pharmacists can contribute to screening and referral.
 
@@ -319,11 +360,11 @@ MAO-A metabolises tyramine in the gut. MAOI + tyramine-rich foods (aged cheese, 
 
 ---
 
-## Antipsychotics
+#### Antipsychotics
 
 Antipsychotic medicines are used for schizophrenia, bipolar disorder, and severe depression (as augmentation).
 
-### First-Generation (Typical) Antipsychotics
+##### First-Generation (Typical) Antipsychotics
 
 **Mechanism:** Predominantly D2 receptor blockade → reduces dopaminergic neurotransmission in the mesolimbic pathway (therapeutic effect) and nigrostriatal pathway (EPS side effects). Also varying affinity for other receptors (histamine, muscarinic, α-adrenergic).
 
@@ -350,7 +391,7 @@ Antipsychotic medicines are used for schizophrenia, bipolar disorder, and severe
 - Treatment: switch to atypical antipsychotic; deutetrabenazine or valbenazine (VMAT2 inhibitors) — approved for TD in some settings
 - Monitoring: AIMS (Abnormal Involuntary Movement Scale) assessment at baseline and periodically
 
-### Second-Generation (Atypical) Antipsychotics
+##### Second-Generation (Atypical) Antipsychotics
 
 **Mechanism:** D2 receptor blockade + 5-HT2A receptor blockade ( serotonin/dopamine interaction → reduced EPS compared to typicals).
 
@@ -386,7 +427,7 @@ Antipsychotic medicines are used for schizophrenia, bipolar disorder, and severe
 - Ongoing: weight monthly initially, fasting glucose 3-monthly, lipids annually
 - AIMS assessment at baseline and annually
 
-### Neuroleptic Malignant Syndrome (NMS)
+##### Neuroleptic Malignant Syndrome (NMS)
 
 Medical emergency; occurs with all antipsychotics (both typical and atypical).
 
@@ -396,9 +437,9 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 
 ---
 
-## Anxiolytics and Sedative-Hypnotics
+#### Anxiolytics and Sedative-Hypnotics
 
-### Benzodiazepines
+##### Benzodiazepines
 
 **Mechanism:** Allosteric modulation of GABA-A receptors → increased frequency of chloride channel opening → enhanced GABAergic inhibition → anxiolytic, sedative, muscle relaxant, anticonvulsant effects.
 
@@ -432,7 +473,7 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 - Short half-life (~1 hour); may require repeat dosing or infusion
 - Can precipitate seizures in patients dependent on benzodiazepines
 
-### Z-Drugs (Non-benzodiazepine hypnotics)
+##### Z-Drugs (Non-benzodiazepine hypnotics)
 
 **Mechanism:** Selective BZ1 (ω1) subunit agonists on GABA-A receptors → sedative-hypnotic effect with less anxiolytic, muscle relaxant, and anticonvulsant activity than benzodiazepines.
 
@@ -444,7 +485,7 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 
 **Adverse effects:** CNS effects, complex sleep behaviours (sleep-driving, sleep-eating), hallucinations; dependence and withdrawal reported.
 
-### Buspirone
+##### Buspirone
 
 **Mechanism:** 5-HT1A partial agonist (anxiolytic without sedation, dependence, or rebound); also D2 partial agonist.
 
@@ -454,7 +495,7 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 - No withdrawal upon cessation
 - Used for generalised anxiety disorder (GAD)
 
-### Pregabalin
+##### Pregabalin
 
 **Mechanism:** Binds α2δ subunit of voltage-gated calcium channels → reduces calcium-dependent neurotransmitter release.
 
@@ -464,9 +505,9 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 
 ---
 
-## Anticonvulsants (Antiepileptics)
+#### Anticonvulsants (Antiepileptics)
 
-### Overview of Seizure Types
+##### Overview of Seizure Types
 
 | Seizure Type | Features | Common Drugs |
 |-------------|---------|--------------|
@@ -476,7 +517,7 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 | **Myoclonic seizures** | Sudden brief muscle jerks | Valproic acid, clonazepam, levetiracetam |
 | **Atonic seizures** | Sudden loss of muscle tone | Valproic acid, felbamate |
 
-### Major Anticonvulsants
+##### Major Anticonvulsants
 
 **Valproic acid (valproate):**
 - Broad-spectrum; effective for focal, generalised tonic-clonic, absence, myoclonic seizures
@@ -522,7 +563,7 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 - Used for myoclonic seizures, absence seizures (adjunct), status epilepticus
 - benzodiazepine — sedation, dependence with long-term use
 
-### Status Epilepticus Management
+##### Status Epilepticus Management
 
 | Stage | Time | Management |
 |-------|------|------------|
@@ -532,11 +573,11 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 
 ---
 
-## Parkinson's Disease Pharmacotherapy
+#### Parkinson's Disease Pharmacotherapy
 
 Parkinson's disease (PD) results from degeneration of dopaminergic neurones in the substantia nigra → loss of striatal dopamine → basal ganglia dysfunction → motor symptoms.
 
-### Drug Classes for PD
+##### Drug Classes for PD
 
 **Dopamine precursors:**
 - **Levodopa + carbidopa (or benserazide):** Carbidopa prevents peripheral conversion of levodopa to dopamine → more levodopa enters CNS; reduces peripheral dopamine side effects (nausea, vomiting, hypotension)
@@ -570,7 +611,7 @@ Parkinson's disease (PD) results from degeneration of dopaminergic neurones in t
 
 ---
 
-## SAPC Examination Focus Areas
+#### SAPC Examination Focus Areas
 
 **High-yield topics for the SAPC exam:**
 
@@ -592,7 +633,7 @@ Parkinson's disease (PD) results from degeneration of dopaminergic neurones in t
 
 ---
 
-## Summary of Key Concepts
+#### Summary of Key Concepts
 
 - Pain management follows the WHO analgesic ladder; neuropathic pain requires adjuvant analgesics (TCAs, SNRIs, gabapentinoids)
 - Paracetamol overdose: NAPQI mechanism; NAC antidote; 8-hour window
@@ -605,6 +646,60 @@ Parkinson's disease (PD) results from degeneration of dopaminergic neurones in t
 - Anticonvulsants: valproate (broad spectrum, hepatotoxic, teratogenic), lamotrigine (slow titration, rash), phenytoin (saturation kinetics), carbamazepine (auto-induction, SJS)
 - Parkinson's: levodopa-carbidopa (gold standard), dopamine agonists, MAO-B inhibitors, COMT inhibitors
 - All CNS drugs with dependence potential are scheduled substances under the Medicines Act; pharmacists must manage prescriptions carefully
+
+
+### 🔴 Extended — Deep Study (3mo+)
+
+> Deep study for the clinical half: why this patient lands on this rung of the ladder today, not just which rung the chart lists.
+#### CYP2D6 is the spine of this chapter, and it connects it to pharma-002
+
+Read the drug tables side by side and a single enzyme runs through all of them. Codeine is a prodrug that only becomes morphine through CYP2D6, so the genotype decides whether a standard dose is a weak analgesic or a toxic one. Tramadol is the same shape: CYP2D6 converts it to O-desmethyltramadol, the metabolite with the higher μ-affinity, and poor metabolisers get reduced analgesia. Fluoxetine and paroxetine are strong CYP2D6 **inhibitors**, so prescribing either can make an unrelated co-prescribed codeine or tramadol behave as a poor-metaboliser dose.
+
+That last point is the one that catches people. The interaction is not between fluoxetine and codeine as pharmacological agents; it is that one silently changes the other's clearance pathway, and the effect appears months later as "the analgesic stopped working".
+
+It also explains the fluoxetine half-life in the SSRIs table. The parent drug lasts four to six days and its active metabolite norfluoxetine up to sixteen, and the CYP2D6 inhibition persists well past the point where fluoxetine itself is gone. The reason a washout before an MAOI is **five weeks for fluoxetine** rather than two is this tail, not the parent compound. Pharmacokinetics, not pharmacology, sets that number — and the same mechanism that makes fluoxetine the least likely SSRI to cause withdrawal is the one that keeps it interacting longest.
+
+#### Serotonin syndrome and NMS are the same shape of emergency from different mechanisms
+
+Both are drug-induced excess of a signalling system, both present with hyperthermia and altered mental status, and both are treated first by stopping the offending agent. The exam discriminator is the **neuromuscular sign**, because it points directly at which system is overdriven.
+
+Serotonin syndrome is hyperreflexia and **clonus** — the stretch-reflex activity that clonus is a readout of. It requires at least two serotonergic drugs acting together: an SSRI with tramadol, with St. John's wort (sold openly for depression in South Africa), with linezolid as a weak MAOI, or with an MAOI, which is outright contraindicated. Add cyproheptadine.
+
+NMS is **lead-pipe rigidity** with an elevated creatine kinase — dopamine D2 blockade at the nigrostriatal and hypothalamic level, plus myotoxicity. It can follow *any* antipsychotic, typical or atypical, which is why it does not discriminate between the two classes the way serotonin syndrome is usually assumed to. Add dantrolene or bromocriptine.
+
+Treating one as the other is the classic error, and both are lethal within hours.
+
+#### Clozapine's monitoring schedule is a risk curve, not a bureaucratic ritual
+
+Weekly full blood counts for eighteen weeks, then fortnightly, then monthly — the schedule looks arbitrary until you notice it is the shape of the agranulocytosis incidence curve. The risk is concentrated in the first three months and falls sharply after about six. The monitoring frequency follows that decay.
+
+The same design principle appears elsewhere in this chapter. Lamotrigine's titration starts at 25 mg and steps every two weeks because the Stevens-Johnson syndrome risk in the first eight weeks is what the slow schedule protects against, and valproate doubles lamotrigine clearance, which is why combining them demands an even slower increase. Antipsychotic metabolic monitoring runs weight monthly at first, glucose three-monthly and lipids annually because that is the order in which those effects emerge.
+
+None of these are protocol for its own sake. Each one encodes a specific toxicity's time course, and the exam is more likely to test whether you understand the time course than whether you can recite the number.
+
+#### The benzodiazepine problem: a positive allosteric modulator you cannot switch off quickly
+
+Benzodiazepines do not replace GABA at the receptor — they allosterically increase how often the chloride channel opens in response to GABA that is already there. That is why they are additive with alcohol and opioids in a way that competitive antagonists are not, and why the combination, not either drug alone, is what produces respiratory depression.
+
+It also sets the withdrawal problem. Physical dependence and tolerance develop over weeks to months, and stopping abruptly can precipitate seizures. Long-acting diazepam is preferred for withdrawal management over short-acting alprazolam because its long half-life smooths the decline in receptor occupancy. Alprazolam's twelve to fifteen hours produces a steeper fall and a harder withdrawal.
+
+Flumazenil closes the loop as a competitive GABA-A antagonist, but with a half-life of about an hour it is out of the system long before diazepam's twenty to one hundred hours. Hence repeat dosing or an infusion. And given to a dependent patient, it removes the effect their brain has adapted to without the adaptation — which is exactly why it can precipitate the seizures withdrawal was supposed to prevent.
+
+Levetiracetam takes a different route out of this problem entirely: it binds SV2A and modulates vesicle exocytosis rather than the GABA-A receptor, which is why it carries minimal drug interactions and is renally excreted, needing dose adjustment but no interaction review.
+
+#### Opioid constipation is the one effect that does not tolerance-develop
+
+The standard teaching is that most opioid adverse effects fade with tolerance — nausea, sedation, euphoria all attenuate as the receptor adapts. Constipation does not, because the adaptation is not symmetrical across tissues: tolerance develops at CNS μ receptors driving the unwanted central effects, while the GI hypomotility is mediated by peripherally located μ receptors that adapt far less.
+
+That asymmetry is the entire clinical justification for the prophylactic laxative rule. It is not a comfort measure to be added if the patient complains; it is part of starting the opioid, because no amount of waiting will resolve it. The same reasoning puts opioid-induced pruritus — histamine-driven with morphine, much less with fentanyl — on the naloxone side of the ledger: a low-dose epidural naloxone relieves the itch without reversing the analgesia, which is only possible because the two effects sit at different receptor populations.
+
+#### Carbidopa is the same idea as first-pass metabolism, seen from a different angle
+
+Carbidopa inhibits aromatic L-amino acid decarboxylase **in the periphery only**, and it does not cross the blood-brain barrier in meaningful amounts. Its entire purpose is to stop levodopa being spent on peripheral dopamine synthesis before it can reach the striatum, which both increases the dose reaching the CNS and removes the peripheral nausea, vomiting and hypotension caused by peripheral dopamine.
+
+Structurally this is the same problem as the first-pass effect in pharma-002 — a drug consumed at a site that takes a cut before the target compartment is reached — and it is solved by the same move: intervene at the loss site rather than at the target. The difference is that first-pass loss is reduced by changing route or formulation, while levodopa's loss is reduced by combining it with a second drug.
+
+Motor fluctuations later in the disease ("off" periods) follow the same arithmetic. As the disease progresses, fewer dopaminergic neurones remain to convert what levodopa does reach the CNS, so the peripheral fraction becomes a larger share of the dose — which is precisely what COMT inhibitors such as entacapone address, by inhibiting the peripheral breakdown of levodopa to the same end as carbidopa.
 
 ## Continue your study
 

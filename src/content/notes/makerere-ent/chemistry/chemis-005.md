@@ -78,15 +78,15 @@ Same molecular formula, same functional group, but in different positions on the
 Same molecular formula, different functional groups (different chemical families).
 
 **Important functional group isomer pairs:**
-| Formula | Isomer A | Isomer B |
-|---------|---------|---------|
-| C₂H₆O | Ethanol (alcohol) | Methoxymethane (ether) |
+| Formula | Isomer A | Isomer B | Isomer C |
+|---------|---------|---------|---------|
+| C₂H₆O | Ethanol (alcohol) | Methoxymethane (ether) | |
 | C₃H₈O | Propan-1-ol | Propan-2-ol | Ether: methoxyethane |
-| C₃H₆O | Propanal (aldehyde) | Propanone (ketone) |
-| C₃H₆O₂ | Propanoic acid | Methyl ethanoate (ester) |
+| C₃H₆O | Propanal (aldehyde) | Propanone (ketone) | |
+| C₃H₆O₂ | Propanoic acid | Methyl ethanoate (ester) | |
 | C₄H₁₀O | Butan-1-ol | Butan-2-ol | Ether: ethoxyethane |
 | C₄H₈O₂ | Butanoic acid | Methyl propanoate | Ethyl ethanoate |
-| C₇H₈O | Cresol (alcohol on ring) | Anisole (aryl ether) |
+| C₇H₈O | Cresol (alcohol on ring) | Anisole (aryl ether) | |
 
 **⚠️ Key difference:**
 - Alcohols (R–OH): –OH bonded directly to carbon, can H-bond

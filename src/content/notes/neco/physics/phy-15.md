@@ -38,7 +38,7 @@ The equation that pays marks in every NECO paper:
 | Rule | Thumb | First finger | Second finger |
 |---|---|---|---|
 | Fleming's left (motor) | Force | Field (N→S) | Current (+ to −) |
-| Right-hand grip | Thumb = current | Fingers curl = field |
+| Right-hand grip | Thumb = current | Fingers curl round to form the magnetic field | Direction: thumb along conventional current, curling N→S |
 
 ---
 

@@ -178,7 +178,7 @@ Result: 25% affected sons, 25% carrier daughters
 | ◻ ▢ | Unaffected male/female |
 | ⊡ ⊗ | Carrier female/male |
 | — | Married couple |
-| | | Vertical transmission |
+| Vertical transmission | Successive generations affected, no generation skipped |
 
 #### Mutations
 

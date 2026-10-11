@@ -21,7 +21,7 @@ Subject Knowledge Topic 3 at **UI Entrance (Indonesia)** bundles the foundationa
 | Block | Must-know identity | Common trap |
 |---|---|---|
 | Fungsi | Vertical-line test | Treating a relation as a function |
-| Deret geometri | `r ≠ 1` required | Using the infinite sum with `|r| ≥ 1` |
+| Deret geometri | `r ≠ 1` required | Using the infinite sum with `\|r\| ≥ 1` |
 | Peluang | `0 ≤ P(A) ≤ 1` | Producing a probability above 1 |
 | Aritmetika | `b = U_n − U_{n−1}` | Mixing `b` with `r` |
 

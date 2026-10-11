@@ -53,17 +53,17 @@ The insurance architecture runs through **IRDAI**: insurers (life, general, heal
 | Concept | Feature | Risk of Confusion |
 |---|---|---|
 | Commercial Paper (CP) | Issued by corporates and NBFCs; ₹5 lakh minimum; 15 days–1 year | In many papers swapped with CD; CP issuer is **not** a bank |
-| Certificate of Deposit (CD) | Issued only by scheduled banks and select all-India FIs; 7 days–1 year |
+| Certificate of Deposit (CD) | Issued only by scheduled banks and select all-India FIs; 7 days–1 year | CD is a bank deposit; CP is a corporate/NBFC instrument |
 | Repo | RBI lends to banks against sovereign collateral | Direction confusion — repo is RBI injecting liquidity |
-| Reverse Repo | RBI absorbs liquidity from banks |
+| Reverse Repo | RBI absorbs liquidity from banks | Direction confusion — repo = RBI gives, reverse repo = RBI takes |
 | FDI vs FII | FDI = ≥ 10% equity in a company (DPIIT/RBI); strategic, controlling | "Both foreign capital" — but jurisdiction differs |
-| FII | Portfolio investment (SEBI-registered FPI route); no control |
+| FII | Portfolio investment (SEBI-registered FPI route); no control | FII = investor category; FPI = the SEBI-registered entity |
 | Universal Bank vs Narrow Bank | Universal: full-services bank (deposits, lending, FX, investment) | In many papers treated as synonyms |
-| Narrow Bank | Wholesale-only, no retail lending (RBI 2021 discussion paper) |
+| Narrow Bank | Wholesale-only, no retail lending (RBI 2021 discussion paper) | Term deposits above ₹2 lakh only; no demand deposits |
 | Payments Bank vs Small Finance Bank | Payments Bank: deposit up to ₹2 lakh per account, **cannot lend** | Limits in many papers mis-quoted |
-| Small Finance Bank | Full lending, 75% priority to small/marginal farmers, micro-enterprises |
+| Small Finance Bank | Full lending, 75% priority to small/marginal farmers, micro-enterprises | Can lend and accept deposits, unlike a payments bank |
 | DFI vs NBFC | DFI: statutorily created (NABARD, SIDBI, NHB, NaBFID) | NBFC registration is separate; DFIs are not NBFCs |
-| NBFC | Registered under Companies Act + RBI certificate of registration |
+| NBFC | Registered under Companies Act + RBI certificate of registration | NBFCs cannot accept demand deposits the way banks do |
 
 > 📌 **Formula Check:** Simple interest SI = (P × R × T)/100, where P in ₹, R in % per annum, T in years; dimension [₹]. Compound interest A = P(1 + r/n)^(nt), with A and P in ₹, r as decimal annual rate, n as compounding frequency per year, t in years. These appear in bond pricing and NPV preliminaries.
 

@@ -78,8 +78,8 @@ Some expressions sit on the border between categories. "Spill the beans" is an i
 
 > Sentence: *"After months of delay, the contractor finally bit the bullet and resumed work."*
 
-| Option | Choice | Reason |
-| --- | --- | --- |
+| Option | Interpretation |
+| --- | --- |
 | A. Literally bit a bullet | Distractor — literal trap |
 | B. Made a difficult decision bravely | Correct — idiom means facing something unpleasant head-on |
 | C. Injured himself on site | Distractor — context misread |

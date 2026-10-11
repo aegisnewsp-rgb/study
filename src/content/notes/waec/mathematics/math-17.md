@@ -164,7 +164,7 @@ $$m = 8.5 \times 288\pi \approx 7693.7 \text{ g} \approx 7.7 \text{ kg}$$
 
 | Conversion | Factor |
 |-----------|--------|
-| 1 m = 100 cm | 1 m² = 10,000 cm² | 1 m³ = 1,000,000 cm³ |
+| 1 m = 100 cm | 1 m² = 10,000 cm²; 1 m³ = 1,000,000 cm³ |
 | 1 km = 1000 m | 1 hectare = 10,000 m² |
 | 1 L = 1000 mL | 1 L = 1000 cm³ |
 | 1 kg = 1000 g | 1 tonne = 1000 kg |

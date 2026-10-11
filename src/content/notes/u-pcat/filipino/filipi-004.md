@@ -116,7 +116,7 @@ Sagot: **(C)**. Ang pag-abot ng espada at paglabas ay sandaling **tunggalian (cl
 | Pagtukoy sa paksa bilang tema | Ang paksa ay "tungkol saan"; ang tema ay "anong mensahe" | Palitan ang tanong: "Ano ang nais sabihin ng can-akda?" |
 | Pagtukoy sa "pag-iisip" bilang "Tao vs. Sarili" | Kailangan ng *desisyon o pagbabago*, hindi kaisipan lamang | Hanapin ang pagkilos bunga ng panloob na alinlangan |
 | Paghahalo ng Simula at Eksposisyon | Magkaiba ang saklawig at tungkulin | Tanong: Ito ba ay *kung saan* nagsisimula ang kwento, o *kung paano* ipinakilala ang tagpuan? |
-| Pagsasabing ang simula ay bahagi ng elemento | Ito ay bahagi ng **banghay**, hindi ng anim na elemento |
+| Pagsasabing ang simula ay bahagi ng elemento | Ito ay bahagi ng **banghay**, hindi ng anim na elemento | Bahagi ito ng proseso, hindi ng mga pangunahing elemento |
 
 #### Mga Advanced na Paksa sa Pagsusulit
 

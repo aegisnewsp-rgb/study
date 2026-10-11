@@ -18,8 +18,8 @@ lastUpdated: "2026-09-20"
 
 Pathology of infectious disease reduces to three levers: the **pathogen**, the **portal of entry**, and the **host response**. Microbial agents (bacteria, viruses, fungi, parasites) damage tissue through four mechanisms — direct cytopathic effect, exotoxin or endotoxin release, immune-mediated injury (Type II/III/IV hypersensitivity), and granulomatous inflammation. The stages run in fixed order: incubation → prodrome → acute illness → decline → convalescence. Caseating necrosis points to TB; viral inclusions localise the virus (intranuclear in HSV, intracytoplasmic Negri bodies in rabies).
 
-| Exotoxin vs Endotoxin (Memory Hook) | Feature | Exotoxin | Endotoxin |
-|---|---|---|---|
+| Feature | Exotoxin | Endotoxin |
+|---|---|---|
 | Source | Secreted, Gram-positive mainly | LPS, Gram-negative outer membrane |
 | Chemistry | Protein | Lipopolysaccharide |
 | Heat | Labile | Stable |

@@ -88,8 +88,8 @@ Where ζ = damping ratio, ω_n = natural frequency.
 |---|---|---|
 | **Summing junction** | Take algebraic sum of inputs | Single output |
 | **Pickoff point (branch)** | One input | Multiple outputs (same magnitude) |
-| **Forward path** | Input → System → Output |
-| **Feedback path** | Output → Feedback element H → Summing junction |
+| **Forward path** | Input → System → Output | Reference direction only, carries no feedback |
+| **Feedback path** | Output → Feedback element H → Summing junction | Signal returned to the summing junction to reduce error |
 
 ### Step-by-Step Reduction Method
 

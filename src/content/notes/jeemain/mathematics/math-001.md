@@ -58,11 +58,11 @@ Conversion: `r = √(x²+y²)`, `θ = tan⁻¹(y/x)` with quadrant correction.
 |---|---|---|
 | `z + z̄` | `2 Re(z)` | Identify real parts of awkward expressions |
 | `z − z̄` | `2i·Im(z)` | Extract imaginary parts |
-| `z·z̄` | `|z|²` | Every division problem ends here |
-| `|z₁z₂|` | `|z₁|·|z₂|` | Magnitudes multiply |
+| `z·z̄` | `\|z\|²` | Every division problem ends here |
+| `\|z₁z₂\|` | `\|z₁\|·\|z₂\|` | Magnitudes multiply |
 | `arg(z₁z₂)` | `arg(z₁) + arg(z₂)` mod `2π` | Angles add for products |
 | `z̄̄` | `z` | Conjugation is involutive |
-| `z⁻¹` | `z̄/|z|²` | The only way to invert |
+| `z⁻¹` | `z̄/\|z\|²` | The only way to invert |
 
 #### Locus in the Argand Plane
 
@@ -70,10 +70,10 @@ Each equation in `z` is a curve on the `(x, y)` plane. Recognise the pattern, dr
 
 | Locus | Geometric figure | Centre / focus |
 |---|---|---|
-| `|z − a| = r` | Circle | `a`, radius `r` |
-| `|z − z₁| = |z − z₂|` | Perpendicular bisector | Midpoint of `z₁z₂` |
+| `\|z − a\| = r` | Circle | `a`, radius `r` |
+| `\|z − z₁\| = \|z − z₂\|` | Perpendicular bisector | Midpoint of `z₁z₂` |
 | `arg(z − a) = α` | Half-line from `a` | Ray at angle `α` |
-| `|z − a| + |z − b| = k` | Ellipse (if `k > |a-b|`) | Foci `a, b` |
+| `\|z − a\| + \|z − b\| = k` | Ellipse (if `k > \|a-b\|`) | Foci `a, b` |
 | `Re(z) = c` | Vertical line | `x = c` |
 
 #### Worked Example — Evaluating a Quotient Modulus

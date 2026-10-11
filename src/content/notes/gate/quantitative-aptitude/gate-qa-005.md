@@ -106,7 +106,8 @@ The compounding frequency matters enormously. When banks say "10% per annum comp
 | Amount (SI) | P(1 + RT/100) |
 | CI | P[(1 + R/100)^T − 1] |
 | Amount (CI) | P(1 + R/100)^T |
-| A = Amount, P = Principal, R = Rate per annum, T = Time in years |
+
+A = Amount, P = Principal, R = Rate per annum, T = Time in years
 
 ### Step-by-Step Example
 

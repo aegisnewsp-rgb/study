@@ -11,9 +11,51 @@ generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
+
+
 # Histology — Epithelium, Connective Tissue, Muscle, Nerve & Skin
 
-## Epithelial Tissue — Classification by Layer Arrangement and Cell Shape
+
+### 🟢 Lite — Quick Review
+> Four basic tissues, each reducible to a single structural idea. Learn the right-hand column first, because a location almost always gives the answer away before the description does.
+
+| Tissue | The one idea that defines it | Where you meet it |
+|---|---|---|
+| **Epithelium** | A sheet bound to a basement membrane, with a free apical face | Skin surface, gut lining, airway |
+| **Connective tissue proper** | Matrix outweighs cells, and the cells are scattered residents | Dermis, tendon, marrow stroma |
+| **Bone** | Matrix hardened with calcium phosphate and organised into osteons | Skeleton, compact and spongy alike |
+| **Cartilage** | No blood vessels, cells locked in lacunae | Joint surfaces, tracheal rings, pinna |
+| **Skeletal muscle** | Striated, many nuclei pushed to the rim, voluntary | Movement of trunk and limbs |
+| **Cardiac muscle** | Striated, one central nucleus, cells joined end to end | The heart, and nowhere else |
+| **Smooth muscle** | No striations, spindle-shaped, one central nucleus | Gut, bladder, uterus, vessels, iris |
+| **Nerve** | A cell body with receiving and conducting processes | Every signalling pathway |
+| **Skin** | A keratinising sheet resting on a collagen-rich support | The whole external surface |
+
+**Three discriminations that decide questions.** *Avascular against vascular* separates cartilage from bone and predicts repair, since cartilage must rely on diffusion from its perichondrium while bone carries vessels into its own canals. *Process count* separates neurons: several dendrites with one axon is the central default, one of each belongs to retina and olfactory mucosa, and a single process that splits with the body sitting off to one side is the sensory ganglion arrangement. *Presence of a duct* separates glands, because a duct makes the gland exocrine and its absence makes it endocrine.
+
+
+### 🟡 Standard — Regular Study
+
+
+> The working picture, tissue by tissue: how each one is built, where it is found, and what goes wrong in it.
+
+Classification works on two axes at once — how many cell layers sit on the basement membrane, and what shape the cells take in the surface layer.
+
+| Layers | Surface cells | Example site | The job that shape suits |
+|---|---|---|---|
+| Simple | Squamous | Alveoli, endothelium, mesothelium | Diffusion and filtration |
+| Simple | Cuboidal | Thyroid follicle, renal tubule | Absorption and secretion |
+| Simple | Columnar | Intestinal tract | Absorption, with a brush border |
+| Pseudostratified | Columnar, ciliated | Respiratory tract | Mucus clearance upward |
+| Stratified | Squamous, keratinised | Epidermis | Protection against abrasion |
+| Stratified | Squamous, non-keratinised | Oral cavity, oesophagus | Protection where it stays moist |
+| Transitional | Dome-shaped | Renal calyx to urethra | Stretch without tearing |
+
+Read across a row for function and down a column for structure; most questions give you the site and expect the classification back.
+
+
+
+#### Epithelial Tissue — Classification by Layer Arrangement and Cell Shape
 
 Epithelial tissue forms sheets that cover surfaces and line cavities, characterized by tight intercellular connections, a free apical surface, and a basal surface attached to a basement membrane. It is classified according to the number of cell layers (simple — one layer; stratified — multiple layers) and the shape of cells in the surface layer (squamous, cuboidal, columnar).
 
@@ -23,7 +65,7 @@ Epithelial tissue forms sheets that cover surfaces and line cavities, characteri
 
 **Glands** are epithelial structures specialized for secretion. **Exocrine glands** have ducts and include merocrine glands (secretion via exocytosis — pancreatic acinar cells, salivary glands), holocrine glands (entire cell breaks into secretion — sebaceous glands), and apocrine glands (decapitation secretion — mammary glands, axillary sweat glands). **Endocrine glands** have no ducts; their products (hormones) enter the bloodstream directly. **Goblet cells** are unicellular exocrine glands that secrete mucin, which becomes mucus on hydration.
 
-## Connective Tissue Proper — Cells, Fibers, and Ground Substance
+#### Connective Tissue Proper — Cells, Fibers, and Ground Substance
 
 Connective tissue proper is characterized by abundant extracellular matrix produced by scattered resident cells. It is classified by the relative amounts and organization of its three components: cells, protein fibers (collagen, elastic, reticular), and ground substance (glycosaminoglycans, proteoglycans, glycoproteins).
 
@@ -31,7 +73,7 @@ Connective tissue proper is characterized by abundant extracellular matrix produ
 
 **Bone tissue (osseous tissue)** is a specialized connective tissue with a mineralized matrix. The **organic matrix** (osteoid) is produced by osteoblasts, which become trapped in lacunae as osteocytes. Osteoclasts — derived from the monocyte-macrophage lineage — resorb bone. The **inorganic matrix** consists of calcium phosphate crystals (hydroxyapatite) that give bone its rigidity. **Compact bone** is densely packed with Haversian systems (osteons) — cylindrical units with a central Haversian canal containing blood vessels, surrounded by concentric lamellae, lacunae, and canaliculi. **Spongy (cancellous) bone** has trabecular lamellae with marrow in the intervening spaces and no Haversian systems. **Cartilage** is a specialized connective tissue with chondrocytes in lacunae; it is avascular (nutrients diffuse from perichondrium). **Hyaline cartilage** is the most common type and forms the articular surfaces of bones, the tracheal rings, and the costal cartilage; it is the scaffold for endochondral ossification. **Fibrocartilage** contains type I collagen predominating and is found in intervertebral discs, the menisci, and the pubic symphysis. **Elastic cartilage** contains elastic fibers and forms the pinna and epiglottis.
 
-## Muscle Tissue — Skeletal, Cardiac, and Smooth
+#### Muscle Tissue — Skeletal, Cardiac, and Smooth
 
 **Skeletal muscle** is composed of long, cylindrical, multinucleated fibers with peripheral nuclei arranged in parallel bundles. The cytoplasm contains myofibrils with repeating units (sarcomeres) of alternating A bands (myosin thick filaments) and I bands (actin thin filaments) that create the characteristic cross-striations. The sarcolemma (cell membrane) invaginates as T-tubules that conduct action potentials deep into the fiber. Each muscle fiber is innervated by a single motor neuron at the neuromuscular junction (motor end-plate), where acetylcholine is released from the presynaptic terminal, binding to nicotinic ACh receptors on the postsynaptic membrane to trigger muscle contraction. All muscle fibers innervated by one motor neuron constitute a **motor unit** — the smallest functional unit of skeletal muscle.
 
@@ -41,7 +83,7 @@ Connective tissue proper is characterized by abundant extracellular matrix produ
 
 **Clinical correlations:** Myasthenia gravis is an autoimmune disease where antibodies against the nicotinic acetylcholine receptor at the neuromuscular junction cause fatigable muscle weakness (worse with repeated use). Duchenne muscular dystrophy is an X-linked recessive disorder (affecting boys) where mutations in the dystrophin gene cause progressive muscle degeneration. Myocardial infarction results in cardiomyocyte death and release of cardiac troponins I and T — used as diagnostic markers. Smooth muscle hypertrophy in arterial walls contributes to hypertension.
 
-## Nervous Tissue — Neurons and Neuroglia
+#### Nervous Tissue — Neurons and Neuroglia
 
 **Neurons** are the functional units of the nervous system, consisting of a cell body (soma), dendrites, and an axon. The cell body contains the nucleus and Nissl substance (rough endoplasmic reticulum for protein synthesis). Dendrites are short, branching processes that receive signals; the axon is a single long process that conducts impulses away from the cell body and may be myelinated. **Multipolar neurons** have multiple dendrites and one axon — the most common type in the CNS. **Bipolar neurons** have one dendrite and one axon — found in the retina, olfactory epithelium, and vestibulocochlear ganglia. **Pseudounipolar neurons** have a single process that divides into peripheral and central branches — the cell body sits off to the side, as in dorsal root ganglia and sensory ganglia of cranial nerves.
 
@@ -53,7 +95,7 @@ In the PNS, **Schwann cells** myelinate axons (one Schwann cell per internode) a
 
 **Clinical correlations:** Alzheimer's disease is characterized by extracellular amyloid plaques and intracellular neurofibrillary tangles (hyperphosphorylated tau protein). Parkinson's disease involves loss of dopamine-producing neurons in the substantia nigra pars compacta, causing Lewy bodies (alpha-synuclein inclusions). Multiple sclerosis is an autoimmune demyelinating disease of the CNS — oligodendrocyte damage leads to areas of demyelination ("plaques"). Guillain-Barré syndrome is an acute inflammatory demyelinating polyneuropathy often triggered by infection, causing ascending paralysis.
 
-## Skin — Epidermis, Dermis, and Appendages
+#### Skin — Epidermis, Dermis, and Appendages
 
 **The epidermis** is a keratinized stratified squamous epithelium organized into five layers from deep to superficial: the **stratum basale** (single layer of columnar cells sitting on the basement membrane — the only mitotically active layer, producing new cells that migrate upward), the **stratum spinosum** (multiple layers of polyhedral cells with desmosomal connections that appear as "prickles"), the **stratum granulosum** (3–5 layers of flattened cells containing keratohyalin granules that crosslink keratin filaments), the **stratum lucidum** (a thin, translucent layer of dead cells found only in thick skin of palms and soles), and the **stratum corneum** (multiple layers of dead, anucleate, keratin-filled cells that desquamate). **Melanocytes** — neural crest-derived cells residing in the basale — produce melanin and transfer it to keratinocytes; their density determines skin color. Langerhans cells (in the spinosum) are antigen-presenting cells of the immune system.
 
@@ -62,6 +104,33 @@ In the PNS, **Schwann cells** myelinate axons (one Schwann cell per internode) a
 **Appendages of the skin** include hair follicles (invaginations of epidermis with associated sebaceous glands and arrector pili smooth muscle — "goosebumps"), **sebaceous glands** (holocrine glands producing sebum — most numerous on the face and scalp; associated with hair follicles everywhere except palms and soles), **sweat glands** (eccrine — most numerous, producing watery sweat for thermoregulation, found everywhere; apocrine — confined to axillae, pubic region, and areola, producing viscous secretion in response to stress and sexual stimulation), and **nails** (keratinized plates on the dorsal surface of distal phalanges — nail matrix is the proliferative zone at the nail root).
 
 **Clinical correlations:** Melanoma — the most lethal skin cancer — arises from melanocytes and spreads via lymphatics; the ABCDE criteria help identify suspicious lesions (Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution). Basal cell carcinoma is the most common skin cancer — slow-growing, locally invasive, rarely metastasizes; presents as a pearly papule with telangiectasia. Squamous cell carcinoma arises from keratinocytes, associated with UV exposure, can metastasize. Psoriasis is a chronic inflammatory condition with epidermal hyperproliferation (acanthosis) and parakeratosis. Contact dermatitis (types I and IV hypersensitivity) results from allergen exposure.
+
+
+### 🔴 Extended — Mastery
+> Four tissues, four consequences. The classification earns its place only because each structural decision buys one clinical outcome and charges for it somewhere else.
+
+#### Why the basement membrane governs repair
+Every epithelial sheet sits on a basement membrane and carries no vessels of its own, so nutrients arrive by diffusion from the connective tissue underneath. That single arrangement explains two things at once. An epithelial wound closes quickly, because the surviving basal cells are already mitotically active and need only a scaffold, whereas cartilage repairs badly, because it has no incoming blood supply to carry new cells to the defect. Organise the rest of the connective-tissue chapter around that trade-off: avascularity buys a smooth, load-bearing, almost frictionless surface and is paid for in healing.
+
+#### One test that separates the three muscle types
+Count nuclei first, then look for striations, then check for branching. Nuclei at the rim of a striated unbranched fibre give skeletal muscle. One central nucleus with striations and end-to-end branching gives cardiac muscle. One central nucleus without striations gives smooth muscle. Each type is then identified by what it cannot do: cardiac muscle cannot regenerate meaningfully, skeletal muscle can because satellite cells persist beneath the basal lamina, and smooth muscle remodels rather than repairs.
+
+#### Myelin comes from two different cells, and that predicts neurology
+In the central nervous system a single oligodendrocyte sends out processes to coat several axons at once. In the periphery one Schwann cell wraps one internode of one axon, and the sheath left behind after injury guides regrowth. The clinical consequences run in opposite directions. Central demyelination leaves plaques that remyelinate poorly, which is the picture in multiple sclerosis, whereas peripheral demyelination affects a nerve that keeps its capacity to recover, which is the picture in Guillain-Barré syndrome. Learn the glia as anatomy and the disease names follow without being memorised separately.
+
+#### One structure doing three jobs
+The junction between two cardiac cells carries mechanical anchoring, electrical coupling and adhesion inside the same disc. Desmosomes bind intermediate filaments so the cells do not pull apart under repeated contraction. Fascia adherens anchors actin so that force is transmitted rather than dissipated. Gap junctions permit ion passage so that depolarisation travels from cell to cell. Read an intercalated disc as three answers to one question: how does a muscle that contracts continuously stay joined, transmit force and conduct an impulse simultaneously.
+
+#### Where candidates lose marks
+- Naming an epithelium from its appearance when the question has already handed you a location. The location is faster and far more reliable.
+- Filing transitional epithelium under stratified squamous. It is classified apart from that group because its surface cells change shape with stretch rather than flattening permanently.
+- Assigning dense regular connective tissue to the dermis. Regular means parallel bundles built for tension along one axis; the dermis is irregular because it resists tension from many directions at once.
+- Treating a motor unit as one fibre. It is one neuron together with every fibre that neuron supplies.
+
+#### Exam technique
+Work inward from both ends and meet in the middle. Take the site given in the stem and predict the tissue, then test the description in the stem against that prediction. A stem citing keratinised, dead surface cells over several layers points to skin and nowhere else. A stem citing one nucleus, striations and intercalated discs admits only cardiac muscle. Where the stem offers a cell rather than a tissue, the cell names the function, and the myelin-forming cell tells you which half of the nervous system you are in.
+
+
 
 ## Continue your study
 

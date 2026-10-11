@@ -32,10 +32,10 @@ lastUpdated: 2026-03-25
 
 ## Literary and Cultural Figures
 
-### Shah Abdul Latif Bhittai (1690–1752)
+### Shah Abdul Latif Bhittai (1689–1752)
 - **Shah Abdul Latif Bhittai** is the **national poet of Sindh**
-- Compiled the **Shah Jo Risalo** (1848 verses) — a collection of 46 stories in musical verse (Kafi)
-- Born in **Hala** (Matiari District); died in **Thatta**
+- Compiled the **Shah Jo Risalo** — verse grouped under **30 surs** (chapters), each a musical mode; totals vary by edition
+- Born in **Hala** (Matiari District); died at **Bhit** (Bhit Shah, Karachi District), where his annual urs is held
 - Each Kafi is set to a different **musical mode (rag/ragini)** — his work bridges poetry and music
 - His verses are still sung in **qawwali performances** and at Sufi shrines
 - **UNESCO** recognized his literary contribution to world culture
@@ -45,7 +45,7 @@ lastUpdated: 2026-03-25
 - **Sufi poet** of the Thal desert (Tharparkar region, Sindh)
 - Wrote in **Sindhi, Persian, and Balochi** — multilingual poet
 - Known for his spiritual depth; his verses blend **Sufi mysticism with folk traditions**
-- His shrine is in **Sukkur** — a site of pilgrimage (Urs celebrated)
+- His shrine is at **Daraza Sharif, Khairpur District** — the site of his annual urs
 - Works include: ** Karam Mangal**, **Aqsamus Salook**, **Tauba Mambrat**
 - Called the **"poet of the desert"** — his spiritual poetry addresses divine love
 
@@ -58,11 +58,12 @@ lastUpdated: 2026-03-25
 
 ### Shah Jo Risalo — Stories Featured
 
-The Shah Jo Risalo includes 46 stories (Kafi). Notable ones:
+The Shah Jo Risalo is organised as **30 surs** (chapters), each set to a musical mode. The well-known love legends told in it include:
 - **Sassui Punhun**: legendary love story of princess Sassui and prince Punhun
 - **Sorath Rai**: folk hero of lower Sindh
-- **Luhana**: tragic love story
-- **Momal Rano**: another celebrated love legend
+- **Sohni Mahiwal**: a tragic Punjabi-Sindhi legend
+- **Umar Marvi**: another celebrated love legend
+- **Momal Rano**: a celebrated legend of the Khairpur court
 
 ## Sufi Saints
 
@@ -92,14 +93,14 @@ The Shah Jo Risalo includes 46 stories (Kafi). Notable ones:
 
 ## Political Figures
 
-### G.M. Syed (Ghulam Murtaza Syed) (1903–1980)
+### G.M. Syed (Ghulam Murtaza Syed) (1904–1995)
 - **Most prominent political leader** of Sindh in the 20th century
 - **Advocated for Sindh's separation from Bombay Presidency** — achieved in 1936
 - Initially joined Congress; shifted to **All India Muslim League in 1938**
 - **Advocated for Pakistan** and supported the Lahore Resolution
 - Later became a **critic of Punjabi dominance** and advocated for Sindhi self-determination
 - **Wrote extensively** on Sindhi identity and politics
-- **Founder of Sindh Democratic Alliance** in the 1980s
+- Formed the **Sindh United Front** in 1985; died in house arrest in **1995**
 
 ### Zulfikar Ali Bhutto (1928–1979)
 - **Pakistan's most prominent political figure from Sindh**
@@ -129,7 +130,7 @@ The Shah Jo Risalo includes 46 stories (Kafi). Notable ones:
 ### Muhammad Ayub Khuhro (1902–1974)
 - **First Chief Minister of Sindh** after independence
 - **Advocate for Sindh's rights** within Pakistan
-- Served as **Governor of East Pakistan** briefly
+- Later served in the **federal cabinet** as Defence and Education Minister
 
 ## Military and Administrative Figures
 
@@ -139,21 +140,22 @@ The Shah Jo Risalo includes 46 stories (Kafi). Notable ones:
 - Famous for the **"Peccavi" telegram** upon conquering Sindh
 - **Legend**: "Peccavi" = Latin "I have sinned" — he claimed to have "sinfully" conquered new territory
 
-### Sir John Marshall (1876–1952)
+### Sir John Marshall (1876–1958)
 - **Director General of the Archaeological Survey of India**
 - Oversaw the **first major excavations at Mohenjo-daro (1922)**
 - **Published the first comprehensive reports** on the Indus Valley Civilization
 
 ### Sir Mortimer Wheeler (1890–1976)
 - **British Army officer and archaeologist**
-- Conducted **major excavations at Mohenjo-daro in the 1930s**
-- **Developed the grid system** for archaeological excavations
+- Director-General of the Archaeological Survey of India **1944–48**
+- Conducted **major excavations at Mohenjo-daro in 1943–44**
+- Popularised **square-plan excavation**, recording each find on a measured grid
 
 ## Science and Education
 
-### Dr. Abdul Qadeer Khan (born 1935)
+### Dr. Abdul Qadeer Khan (1936–2021)
 - **Father of Pakistan's uranium enrichment program**
-- **Not originally from Sindh** (born in Bhopal, India) — but associated with Pakistan's nuclear program
+- **Not from Sindh** (born in Sibi, Balochistan, British India; moved to Karachi in 1952)
 - **Led the uranium enrichment program** for Pakistan's nuclear weapons (Chagai tests 1998)
 - His work at **KRL (Khan Research Laboratories)** was central to Pakistan's nuclear capability
 
@@ -162,19 +164,19 @@ The Shah Jo Risalo includes 46 stories (Kafi). Notable ones:
 - Born in **Jhang, Punjab** (not Sindh) but Pakistani by nationality
 - **Work on electroweak theory** (unified electromagnetic and weak interactions)
 - **First Pakistani and Muslim to win a Nobel Prize**
-- **Established the International Centre for Theoretical Physics (ICTP)** in Trieste, Italy
+- **Co-founded the International Centre for Theoretical Physics (ICTP)** in Trieste in 1964 with Paolo Budinich
 
 ### Dr. Atta-ur-Rahman (born 1942)
 - **Renowned Pakistani chemist**
 - UNESCO **Prize in Chemistry**; former Federal Minister for Science
-- **Not from Sindh** (born in Karachi, Sindh)
-- Contributed to pharmaceutical research in Pakistan
+- **Born in Delhi, India**, in 1942; raised and educated in Karachi
+- Won the **UNESCO Science Prize** and led Pakistan's **Higher Education Commission**
 
 ## Sports Figures
 
 ### Jahangir Khan (born 1963)
 - **World squash champion** — 6-time World Open champion
-- **Unbeaten streak** of 5 years (165 consecutive wins)
+- **Unbeaten streak of 555 consecutive matches** (1981–1986), a record recognised by Guinness World Records
 - Born in **Karachi, Sindh**
 - **World number 1 for multiple years**
 
@@ -206,16 +208,16 @@ The Shah Jo Risalo includes 46 stories (Kafi). Notable ones:
 | **Shah Abdul Latif Bhittai** | Literature/Poetry | 1690–1752 | Shah Jo Risalo — national poet |
 | **Shah Baz Qalander** | Sufism | 1179–1262 | Patron saint of Sehwan |
 | **Sachal Sarmast** | Sufism/Poetry | 1739–1829 | Sufi poet of Thal |
-| **G.M. Syed** | Politics | 1903–1980 | Separated Sindh from Bombay Presidency |
+| **G.M. Syed** | Politics | 1904–1995 | Sindhi nationalist; Sindh United Front |
 | **Zulfikar Ali Bhutto** | Politics | 1928–1979 | Founder of PPP; architect of 1973 Constitution |
 | **Benazir Bhutto** | Politics | 1953–2007 | First female PM of Pakistan |
 | **Sir Charles Napier** | Military | 1782–1853 | Conquered Sindh (1843); Governor |
-| **Sir John Marshall** | Archaeology | 1876–1952 | Excavated Mohenjo-daro |
+| **Sir John Marshall** | Archaeology | 1876–1958 | Excavated Mohenjo-daro |
 | **Jahangir Khan** | Sports | Born 1963 | 6-time world squash champion |
 | **Saeed Anwar** | Sports | 1969–2002 | Legendary Pakistani cricketer |
 
 ## SPSC Exam Focus Points
-- **Shah Abdul Latif Bhittai** compiled the **Shah Jo Risalo** (46 stories) — most important literary figure
+- **Shah Abdul Latif Bhittai** compiled the **Shah Jo Risalo** (30 surs) and died at **Bhit** in 1752 — most important literary figure
 - **G.M. Syed** separated Sindh from **Bombay Presidency (1936)** — very important
 - **Zulfikar Ali Bhutto**: founded **PPP (1967)** in Lahore; died **4 April 1979**
 - **Benazir Bhutto** was **assassinated 27 December 2007**; first female PM of a modern Muslim state

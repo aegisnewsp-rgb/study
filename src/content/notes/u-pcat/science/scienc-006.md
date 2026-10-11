@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: science
 subjectName: Science
 topic: scienc-006
-topicName: A Complete Ecosystem Includes the Biotic Community Producers
+topicName: Ecosystem Structure and Population Dynamics
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# A Complete Ecosystem Includes the Biotic Community Producers
+# Ecosystem Structure and Population Dynamics
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

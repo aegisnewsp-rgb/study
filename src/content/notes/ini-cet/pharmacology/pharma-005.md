@@ -4,14 +4,14 @@ examName: INI CET (AIIMS PG)
 subject: pharmacology
 subjectName: "Pharmacology"
 topic: pharma-005
-topicName: Each Category I Drug Targets a Discrete Mycobacterial
+topicName: Chemotherapy Regimens and Drug Interactions
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# Each Category I Drug Targets a Discrete Mycobacterial
+# Chemotherapy Regimens and Drug Interactions
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

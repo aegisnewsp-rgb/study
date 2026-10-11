@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: language
 subjectName: "Language (Indonesian/English)"
 topic: langua-003
-topicName: Reading Items in UNDANA's Language Section Present a
+topicName: Reading and Functional Text Production Skills
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# Reading Items in UNDANA's Language Section Present a
+# Reading and Functional Text Production Skills
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

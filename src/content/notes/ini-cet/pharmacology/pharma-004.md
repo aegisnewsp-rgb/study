@@ -4,14 +4,14 @@ examName: INI CET (AIIMS PG)
 subject: pharmacology
 subjectName: "Pharmacology"
 topic: pharma-004
-topicName: Pharmacodynamics Describes What a Drug Does to the
+topicName: Dose-Response Curves, Potency and Efficacy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"
 ---
 
-# Pharmacodynamics Describes What a Drug Does to the
+# Dose-Response Curves, Potency and Efficacy
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

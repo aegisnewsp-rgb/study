@@ -4,14 +4,14 @@ examName: INI CET (AIIMS PG)
 subject: pharmacology
 subjectName: "Pharmacology"
 topic: pharma-002
-topicName: Absorption Covers the Rate and Extent of Drug
+topicName: Drug Absorption, Bioavailability and AUC
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-09-16"
 ---
 
-# Absorption Covers the Rate and Extent of Drug
+# Drug Absorption, Bioavailability and AUC
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -131,7 +131,7 @@ For weak acids at gastric pH 1.5 versus plasma pH 7.4, Henderson–Hasselbalch p
 
 ## Continue your study
 
-- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Absorption Covers the Rate and Extent of Drug" fits in your personalised plan
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Drug Absorption, Bioavailability and AUC" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
 - **[All Pharmacology notes](/notes/ini-cet/pharmacology/)** — browse sibling topics in this subject

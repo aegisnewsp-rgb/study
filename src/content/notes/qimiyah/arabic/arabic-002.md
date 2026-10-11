@@ -123,8 +123,8 @@ These cause the verb that follows to be in the accusative (fatḥa) case. The mo
 ### 3. Harf al-'Atf (حرف العطف) — Conjunctions
 These connect words or phrases. Common ones: وَ (wa - and), فَ (fa - so/and), ثُمَّ (thumma - then), أَوْ (aw - or), بَلْ (bal - but rather), لَكِنْ (lākin - but)
 
-### 4. Harf al-Tawābi' (حروف التوابع) —.follow-ups
-These include: lām al-ta'kid (لِـ for emphasis), innа (إِنَّ for affirmation), and their sisters.
+### 4. Harf al-Tawābi' (حروف التوابع) — follow-ups
+These include: lām al-ta'kid (لِـ for emphasis), inna (إِنَّ for affirmation), and their sisters.
 
 ## Key Facts for Qimiyah Examination
 

@@ -210,7 +210,7 @@ Common question types:
 - Type III collagen
 - Thin, branching network
 - Stain: Silver (argyrophilic)
-- Location: Liver, spleen, bone marrow stroma, вокруг blood vessels
+- Location: Liver, spleen, bone marrow stroma, around blood vessels
 
 #### 5. Connective Tissue Types
 

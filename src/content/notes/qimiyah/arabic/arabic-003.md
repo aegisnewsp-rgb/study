@@ -4,13 +4,13 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-003
-topicName: "Arabic Sentence Structure and the тройной состав"
+topicName: "Arabic Sentence Structure"
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
-# Arabic Sentence Structure and the тройной состав
+# Arabic Sentence Structure
 
 Understanding Arabic sentence structure is essential for reading, comprehending, and translating Arabic texts — including Quranic verses and hadith. Arabic sentences follow a distinctive pattern that differs significantly from English. This topic covers the basic sentence types in Arabic, the three components of a nominal sentence, and the rules governing verb-subject order.
 
@@ -213,7 +213,7 @@ Note: If the sentence is negative or contains a prohibitive (لَا or لَنْ)
 
 ## Continue your study
 
-- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Arabic Sentence Structure and the тройной состав" fits in your personalised plan
+- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Arabic Sentence Structure" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=qimiyah&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[Qimiyah Exam (Saudi) exam overview](/exams/qimiyah/)** — pattern, eligibility, and syllabus
 - **[All Arabic notes](/notes/qimiyah/arabic/)** — browse sibling topics in this subject

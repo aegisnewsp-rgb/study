@@ -34,7 +34,24 @@ diagramPrompt: "Matrix diagram showing 2x2 and 3x3 matrix structures with labele
 
 ---
 
-## 1. What is a Matrix?
+### 🟢 Lite — Quick Review (1h–1d)
+> Two formulas carry most of the marks on this topic. Everything else is scaffolding.
+
+| Job | Formula | Condition |
+|---|---|---|
+| Determinant, 2×2 | \|A\| = ad - bc | Always available |
+| Inverse, 2×2 | $A^{-1} = \frac{1}{ad-bc}\begin{bmatrix} d & -b \\ -c & a \end{bmatrix}$ | Only if \|A\| ≠ 0 |
+| Simultaneous equations | $AX = B \Rightarrow X = A^{-1}B$ | Requires an invertible $A$ |
+| Combining matrices | $\det(AB) = \det(A)\cdot\det(B)$ | Products, never sums |
+
+**The single rule that carries the most weight:** to get the element in row *i*, column *j* of $AB$, take **row i of A** with **column j of B**, multiply element-by-element, then sum. Matrix multiplication is not element-by-element, and it is not commutative.
+
+**The trap this topic sets.** Treating a matrix as a bag of numbers to be multiplied one-for-one. That single confusion, not the algebra, is what costs candidates marks.
+
+### 🟡 Standard — Regular Study (2d–2mo)
+> The working picture: what the arrays are, which types JAMB asks you to name, and the two operations you must be fluent in.
+
+# 1. What is a Matrix?
 
 A **matrix** is a rectangular array of numbers arranged in **rows** (horizontal lines) and **columns** (vertical lines). We describe a matrix by its **order** or **dimension**, written as **m × n**, where m = number of rows and n = number of columns.
 
@@ -50,7 +67,7 @@ In JAMB, matrices are used to represent systems of linear equations and to perfo
 
 ---
 
-## 2. Types of Matrices
+# 2. Types of Matrices
 
 JAMB frequently tests your ability to identify matrix types. Here are all the ones you need to know:
 
@@ -71,13 +88,13 @@ JAMB frequently tests your ability to identify matrix types. Here are all the on
 
 ---
 
-## 3. Matrix Operations
+# 3. Matrix Operations
 
-### 3.1 Equality of Matrices
+#### 3.1 Equality of Matrices
 
 Two matrices are **equal** if and only if they have the same dimension AND every corresponding element is equal. JAMB sometimes tries to trick you with matrices that look similar but have different dimensions — always check dimensions first.
 
-### 3.2 Addition and Subtraction
+#### 3.2 Addition and Subtraction
 
 You can only **add or subtract** two matrices of the **same dimension**. You simply add or subtract corresponding elements:
 
@@ -85,7 +102,7 @@ $$\begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix} + \begin{bmatrix} 5 & 2 \\ 1 & 7 
 
 This is straightforward. Just remember: dimension must match.
 
-### 3.3 Scalar Multiplication
+#### 3.3 Scalar Multiplication
 
 A **scalar** is just an ordinary number. To multiply a matrix by a scalar, you multiply **every element** of the matrix by that scalar:
 
@@ -93,7 +110,7 @@ $$3 \begin{bmatrix} 2 & 5 \\ 1 & 4 \end{bmatrix} = \begin{bmatrix} 6 & 15 \\ 3 &
 
 Simple, but very important for later topics like finding eigenvalues.
 
-### 3.4 Matrix Multiplication (The Row-by-Column Rule)
+#### 3.4 Matrix Multiplication (The Row-by-Column Rule)
 
 This is where most candidates make mistakes. **Matrix multiplication is NOT element-by-element.** The rule is:
 
@@ -119,11 +136,11 @@ Notice that $AB \neq BA$ in general — matrix multiplication is **not commutati
 
 ---
 
-## 4. Determinants
+# 4. Determinants
 
 The **determinant** is a scalar (single number) computed from a square matrix. It tells us important properties — whether a matrix is invertible, whether a system of equations has a unique solution, and more.
 
-### 4.1 Determinant of a 2×2 Matrix
+#### 4.1 Determinant of a 2×2 Matrix
 
 For $A = \begin{bmatrix} a & b \\ c & d \end{bmatrix}$:
 
@@ -139,7 +156,7 @@ $$|A| = (3)(5) - (2)(1) = 15 - 2 = 13$$
 
 ---
 
-### 4.2 Determinant of a 3×3 Matrix (Expansion by First Row)
+#### 4.2 Determinant of a 3×3 Matrix (Expansion by First Row)
 
 This uses the **method of cofactor expansion** along the first row. The determinant of a 3×3 matrix:
 
@@ -172,7 +189,7 @@ $$= 1(-3) - 2(-6) + 3(-3) = -3 + 12 - 9 = 0$$
 
 ---
 
-## 5. Properties of Determinants
+# 5. Properties of Determinants
 
 These properties save you time and appear directly in JAMB questions:
 
@@ -189,7 +206,7 @@ These properties save you time and appear directly in JAMB questions:
 
 ---
 
-## 6. Inverse of a 2×2 Matrix
+# 6. Inverse of a 2×2 Matrix
 
 The **inverse** of a matrix $A$, denoted $A^{-1}$, is the matrix such that:
 
@@ -224,7 +241,7 @@ $$AA^{-1} = \begin{bmatrix} 4 & 7 \\ 2 & 6 \end{bmatrix} \begin{bmatrix} 0.6 & -
 
 ---
 
-## 7. Solving Simultaneous Equations Using the Matrix Inverse
+# 7. Solving Simultaneous Equations Using the Matrix Inverse
 
 This is one of the most important applications. Given a system of two linear equations:
 
@@ -266,9 +283,9 @@ $$X = \begin{bmatrix} -2.5 & 1.5 \\ 2 & -1 \end{bmatrix} \begin{bmatrix} 8 \\ 14
 
 ---
 
-## 8. JAMB Past Questions — Worked Examples
+# 8. JAMB Past Questions — Worked Examples
 
-### Question 1 (Determinant)
+#### Question 1 (Determinant)
 **JAMB 2023 Style:** Find the determinant of $\begin{bmatrix} 6 & 2 \\ 8 & 3 \end{bmatrix}$
 
 **Solution:**
@@ -278,7 +295,7 @@ $|A| = (6)(3) - (2)(8) = 18 - 16 = 2$
 
 ---
 
-### Question 2 (Matrix Multiplication)
+#### Question 2 (Matrix Multiplication)
 **JAMB 2022 Style:** If $P = \begin{bmatrix} 1 & 3 \\ 2 & 4 \end{bmatrix}$ and $Q = \begin{bmatrix} 5 & 7 \\ 6 & 8 \end{bmatrix}$, find $PQ$.
 
 **Solution:**
@@ -288,7 +305,7 @@ $$PQ = \begin{bmatrix} 1(5)+3(6) & 1(7)+3(8) \\ 2(5)+4(6) & 2(7)+4(8) \end{bmatr
 
 ---
 
-### Question 3 (Inverse and System)
+#### Question 3 (Inverse and System)
 **JAMB 2021 Style:** Using the matrix method, solve:
 $$3x + 4y = 5$$
 $$2x + 5y = 6$$
@@ -302,7 +319,26 @@ $$X = A^{-1}B = \frac{1}{7} \begin{bmatrix} 5 & -4 \\ -2 & 3 \end{bmatrix} \begi
 
 ---
 
-## 9. Exam Tips and Common Mistakes
+### 🔴 Deep — Mastery (3mo+)
+> The layer where the marks are actually won — error diagnosis, short methods, and the order to build the topic in.
+
+#### Why \|A\| = 0 is the hinge of the whole topic
+
+A zero determinant is not one fact among many; it is the single condition that governs three others at once. If \|A\| = 0 the matrix is singular, so $A^{-1}$ does not exist, so $X = A^{-1}B$ cannot be used and the system has no unique solution. That is why the first step of every inverse question is to compute the determinant before touching anything else.
+
+#### Checking a calculation without redoing it
+
+The properties in section 5 double as answer checks, not just exam facts. $\det(A^T) = \det(A)$ tells you at a glance whether you built the transpose correctly. $\det(AB) = \det(A)\cdot\det(B)$ means you can verify a hard 3×3 product by multiplying two easy scalars. And adding a multiple of one row to another leaves the determinant unchanged, so you can reduce a 3×3 to a 2×2 without expanding anything.
+
+#### Sarrus' rule, and when to reach for it
+
+Sarrus' rule is a shortcut for the 3×3 determinant, not an alternative method. It is faster than cofactor expansion once you are fluent, and it is easier to get silently wrong, because a wrong diagonal still produces a plausible number. Use cofactor expansion when the method itself is what is being examined; use Sarrus' rule when you are checking a result, or when the expansion is long and the arithmetic is not the point.
+
+#### The order to build it in
+
+Master the row-by-column rule before determinants. Cofactor expansion is mechanical once the multiplication rule is automatic, and most lost marks in section 4 are a section 3 error surfacing later. Allocate the most practice time to multiplication and determinants together — they are the two highest-yield skills here, which is why the note's own advice of roughly 20 problems of each before exam day is proportionate.
+
+# 9. Exam Tips and Common Mistakes
 
 | ❌ Common Mistake | ✅ What to Do Instead |
 |---|---|
@@ -315,7 +351,7 @@ $$X = A^{-1}B = \frac{1}{7} \begin{bmatrix} 5 & -4 \\ -2 & 3 \end{bmatrix} \begi
 | Confusing row and column dimensions | Always write dimensions: (rows × columns) for both matrices before multiplying |
 | Thinking $\|AB\| = \|A\| + \|B\|$ | It's $\det(AB) = \det(A) \cdot \det(B)$ — products, not sums |
 
-### Memory Tricks
+#### Memory Tricks
 - **ad − bc** for 2×2 determinant: "a cross d minus b cross c"
 - **Swap diagonal, negate off-diagonal, divide by determinant** for 2×2 inverse
 - **+, −, +** pattern for cofactor expansion across first row
@@ -323,7 +359,7 @@ $$X = A^{-1}B = \frac{1}{7} \begin{bmatrix} 5 & -4 \\ -2 & 3 \end{bmatrix} \begi
 
 ---
 
-## 10. Study Priority and Order
+# 10. Study Priority and Order
 
 Build your understanding in this order — don't skip steps:
 
@@ -342,7 +378,7 @@ Allocate the most practice time to **matrix multiplication** and **determinants*
 
 ---
 
-## 11. Related Topics
+# 11. Related Topics
 
 - **math-04: Algebraic Expressions** — manipulating polynomial expressions and fractions that appear in determinant calculations
 - **math-07: Statistics** — matrices appear in covariance matrices and data organization
@@ -351,7 +387,7 @@ Allocate the most practice time to **matrix multiplication** and **determinants*
 
 ---
 
-## Summary
+# Summary
 
 Matrices and Determinants is a topic where once you master the **row-by-column rule** and the **2×2 determinant formula**, everything else flows naturally. The key relationships to remember are:
 

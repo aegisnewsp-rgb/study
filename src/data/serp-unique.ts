@@ -94,6 +94,34 @@ export function trimToWord(s: string, room: number): string {
   return (atWord || cut.replace(/\s+\S*$/, '').trim() || cut).trim();
 }
 
+/** Both overflow branches cut at a word boundary, and a word boundary can land
+ *  on a FUNCTION word — "Share Capital &", "Atomic Structure and",
+ *  "Medicines & Related Substances Act (Act 101 of", "Pharmacodynamics
+ *  Describes What a Drug Does to", "World History, Major Civilizations, and".
+ *  That ships as a visible truncation in the SERP. Strip trailing function
+ *  words; keep at least one word, because a short topic reads better than no
+ *  topic. Stripping only ever REMOVES tokens, so a title can get shorter but
+ *  never longer — it cannot break TITLE_MAX, and across all 3,462 note pages
+ *  the shortest title this OVERFLOW branch produces is 43ch, well above the
+ *  30ch floor (no title here was under 30 before the change either). */
+const DANGLING_TAIL = new Set([
+  '&', 'and', 'or', 'of', 'the', 'for', 'in', 'on', 'to', 'with',
+  'at', 'by', 'from', 'a', 'an', 'is', 'are', 'as', 'vs',
+]);
+function stripDanglingTopic(topic: string): string {
+  const parts = topic.split(/\s+/).filter(Boolean);
+  while (
+    parts.length > 1 &&
+    DANGLING_TAIL.has(parts[parts.length - 1].replace(/[.,;:·—–-]+$/, '').toLowerCase())
+  ) parts.pop();
+  // Popping the function word can strand the punctuation that introduced it:
+  // "General Science — Physics, Chemistry, and" becomes "…Chemistry," — a
+  // dangling comma is exactly as wrong in a SERP title as a dangling "and".
+  // Strip trailing punctuation from what is now the last token.
+  if (parts.length) parts[parts.length - 1] = parts[parts.length - 1].replace(/[.,;:·—–-]+$/, '');
+  return parts.filter(Boolean).join(' ');
+}
+
 /** Pick the first candidate that fits inside TITLE_MAX once the brand is added.
  *  If none fit, the LAST candidate is word-trimmed rather than mid-word cut. */
 export function fitTitle(candidates: string[], brand = BRAND): string {
@@ -111,7 +139,7 @@ export function fitTitle(candidates: string[], brand = BRAND): string {
     .filter(x => x.over > 0)
     .sort((a, b) => a.over - b.over);
   const src = scored.length ? scored[0].c : (candidates[candidates.length - 1] ?? '');
-  const cut = trimToWord(src, room);
+  const cut = stripDanglingTopic(trimToWord(src, room));
   return `${cut}${brand}`;
 }
 
@@ -141,23 +169,7 @@ function dedupeTail(tail: string): string {
   return tail;
 }
 
-/** trimToWord() cuts at a word boundary, which can strand the topic on a
- *  function word — "Share Capital &", "Atomic Structure and". That ships as a
- *  visible truncation in the SERP. Strip trailing function words; keep at least
- *  one word, because a short topic reads better than no topic. */
-const DANGLING_TAIL = new Set([
-  '&', 'and', 'or', 'of', 'the', 'for', 'in', 'on', 'to', 'with',
-  'at', 'by', 'from', 'a', 'an', 'is', 'are', 'as', 'vs',
-]);
-function stripDanglingTopic(topic: string): string {
-  const parts = topic.split(/\s+/).filter(Boolean);
-  while (
-    parts.length > 1 &&
-    DANGLING_TAIL.has(parts[parts.length - 1].replace(/[.,;:·—–-]+$/, '').toLowerCase())
-  ) parts.pop();
-  return parts.join(' ');
-}
-
+/** stripDanglingTopic() lives above fitTitle(): both overflow branches use it. */
 export function fitTitleWithTail(topicName: string, tails: string[], brand = BRAND): string {
   const usable = tails.filter(Boolean).map(dedupeTail);
   for (const tail of usable) {

@@ -126,8 +126,40 @@ export function fitTitle(candidates: string[], brand = BRAND): string {
  * When the thing that makes a title unique is at the END, the cut has to come
  * out of the topic, not the tail.
  */
+/** A tail that names the exam twice ("· CUET · chem-006 · CUET") spends SERP
+ *  room restating what the label already said and reads as machine output. The
+ *  call site passes `topicId: "<slug> · <examIdLabel>"` while this function
+ *  already prepends "· <examIdLabel>", so the label lands twice. Drop the
+ *  trailing repeat — but only when there are still >= 2 parts left, because
+ *  with 2 parts the two halves ARE the disambiguator (exam + slug) and removing
+ *  one would merge pages that are currently distinct. */
+function dedupeTail(tail: string): string {
+  const parts = tail.replace(/^·\s*/, '').split('·').map(s => s.trim()).filter(Boolean);
+  if (parts.length > 2 && parts[0].toLowerCase() === parts[parts.length - 1].toLowerCase()) {
+    return `· ${parts.slice(0, -1).join(' · ')}`;
+  }
+  return tail;
+}
+
+/** trimToWord() cuts at a word boundary, which can strand the topic on a
+ *  function word — "Share Capital &", "Atomic Structure and". That ships as a
+ *  visible truncation in the SERP. Strip trailing function words; keep at least
+ *  one word, because a short topic reads better than no topic. */
+const DANGLING_TAIL = new Set([
+  '&', 'and', 'or', 'of', 'the', 'for', 'in', 'on', 'to', 'with',
+  'at', 'by', 'from', 'a', 'an', 'is', 'are', 'as', 'vs',
+]);
+function stripDanglingTopic(topic: string): string {
+  const parts = topic.split(/\s+/).filter(Boolean);
+  while (
+    parts.length > 1 &&
+    DANGLING_TAIL.has(parts[parts.length - 1].replace(/[.,;:·—–-]+$/, '').toLowerCase())
+  ) parts.pop();
+  return parts.join(' ');
+}
+
 export function fitTitleWithTail(topicName: string, tails: string[], brand = BRAND): string {
-  const usable = tails.filter(Boolean);
+  const usable = tails.filter(Boolean).map(dedupeTail);
   for (const tail of usable) {
     const full = `${topicName} ${tail}${brand}`;
     if (topicName && full.length <= TITLE_MAX) return full;
@@ -139,13 +171,13 @@ export function fitTitleWithTail(topicName: string, tails: string[], brand = BRA
     .sort((a, b) => a.over - b.over);
   const tail = ranked.length ? ranked[0].t : (usable[0] ?? '');
   let room = Math.max(12, TITLE_MAX - brand.length - tail.length - 1);
-  let out = `${trimToWord(topicName, room)} ${tail}${brand}`;
+  let out = `${stripDanglingTopic(trimToWord(topicName, room))} ${tail}${brand}`;
   if (out.length > TITLE_MAX) {
     // tail itself is longer than the whole budget — drop the subject/token part
     const parts = tail.replace(/^·\s*/, '').split('·').map(s => s.trim()).filter(Boolean);
     const keep = parts.length > 1 ? ` · ${parts[parts.length - 1]}` : '';
     room = Math.max(12, TITLE_MAX - brand.length - keep.length - 1);
-    out = `${trimToWord(topicName, room)}${keep}${brand}`;
+    out = `${stripDanglingTopic(trimToWord(topicName, room))}${keep}${brand}`;
   }
   return out;
 }

@@ -19,7 +19,7 @@ Periodic trends and chemical bonding form a large part of AAMC Foundational Conc
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -45,7 +45,7 @@ Periodic trends and chemical bonding form a large part of AAMC Foundational Conc
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Periodic trends in detail
 
@@ -88,7 +88,7 @@ A molecule is polar if it has polar bonds AND an asymmetric geometry. The MCAT t
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

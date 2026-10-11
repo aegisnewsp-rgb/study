@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Term 2 Sira wa-al-Buhuth al-Islamiyya (الس
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -35,7 +35,7 @@ The MoEHE Grade 12 Islamic Studies Term 2 Sira wa-al-Buhuth al-Islamiyya (الس
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### His life before the caliphate
 
@@ -65,7 +65,7 @@ His letters to his governors — preserved in al-Tabari's Tarikh and Ibn Abd al-
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why the study of Umar ibn Abd al-Aziz matters at the MoEHE terminal
 

@@ -19,7 +19,7 @@ Information Paragraph is one of the four reading selection types on the OSSLT. T
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What an Information Paragraph looks like
 
@@ -44,7 +44,7 @@ Information Paragraph is one of the four reading selection types on the OSSLT. T
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for Information Paragraph selections
 
@@ -71,7 +71,7 @@ Information Paragraph is one of the four reading selection types on the OSSLT. T
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Information Paragraph connects to the other OSSLT items
 

@@ -19,7 +19,7 @@ Reasoning Beyond the Text is CARS Skill 3 in the AAMC CARS framework. It is the 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Skill 3 tests
 
@@ -43,7 +43,7 @@ Reasoning Beyond the Text is CARS Skill 3 in the AAMC CARS framework. It is the 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Application items
 
@@ -80,7 +80,7 @@ Implication items ask "what would follow if the author's argument is correct?" T
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Skill 3 connects to the other CARS skills
 

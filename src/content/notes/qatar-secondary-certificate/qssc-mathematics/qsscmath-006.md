@@ -19,7 +19,7 @@ Integration reverses differentiation. The MoEHE 2018 Mathematics Curriculum Stan
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -39,7 +39,7 @@ Integration reverses differentiation. The MoEHE 2018 Mathematics Curriculum Stan
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Substitution
 
@@ -69,7 +69,7 @@ For dy/dx = xy, separate: dy / y = x dx, integrate: ln|y| = x^2 / 2 + C, so y = 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why integration is the second half of calculus
 

@@ -19,7 +19,7 @@ Differentiation is the heart of calculus at the MoEHE Grade 12 advanced track. T
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -38,7 +38,7 @@ Differentiation is the heart of calculus at the MoEHE Grade 12 advanced track. T
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Differentiation rules in practice
 
@@ -68,7 +68,7 @@ Related rates: differentiate both sides of an equation with respect to time, the
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why calculus carries the marks
 

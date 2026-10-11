@@ -19,7 +19,7 @@ Inference items ask the test-taker to draw a conclusion that follows from the pa
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What inference items test
 
@@ -41,7 +41,7 @@ Inference items ask the test-taker to draw a conclusion that follows from the pa
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for inference items
 
@@ -68,7 +68,7 @@ Inference items ask the test-taker to draw a conclusion that follows from the pa
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How inference items connect to the other RC skills
 

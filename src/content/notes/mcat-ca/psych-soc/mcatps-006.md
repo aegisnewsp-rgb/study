@@ -19,7 +19,7 @@ Social structure, stratification, and demographics form the core of AAMC Foundat
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -46,7 +46,7 @@ Social structure, stratification, and demographics form the core of AAMC Foundat
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Social institutions
 
@@ -101,7 +101,7 @@ Social structure, stratification, and demographics form the core of AAMC Foundat
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Psych/Soc topics
 

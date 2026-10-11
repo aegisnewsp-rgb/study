@@ -19,7 +19,7 @@ Quadratics and polynomials are the spine of the MoEHE Advanced-track Mathematics
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -39,7 +39,7 @@ Quadratics and polynomials are the spine of the MoEHE Advanced-track Mathematics
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Quadratics — solution methods
 
@@ -82,7 +82,7 @@ For irreducible quadratic factors (x^2 + bx + c that does not factor over the re
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why this strand carries the marks
 

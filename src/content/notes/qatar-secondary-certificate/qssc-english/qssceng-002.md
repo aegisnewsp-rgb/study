@@ -19,7 +19,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish five Speaking sub-str
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -36,7 +36,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish five Speaking sub-str
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### S1-S2: Communicating personal and general information
 
@@ -62,7 +62,7 @@ Small group (4-6 people): turn-taking, eye contact, response to others' points. 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Where this maps to the terminal exam
 

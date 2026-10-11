@@ -19,7 +19,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish three Listening sub-s
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -37,7 +37,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish three Listening sub-s
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### L1: Responding to main ideas
 
@@ -63,7 +63,7 @@ Listen for the structure of the talk and note one keyword per main point. Use sy
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Where listening appears at the terminal
 

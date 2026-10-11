@@ -19,7 +19,7 @@ Sentence variety and clarity affect the "language and vocabulary" dimension of t
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What sentence variety means on the OSSLT
 
@@ -43,7 +43,7 @@ Sentence variety and clarity affect the "language and vocabulary" dimension of t
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for sentence variety
 
@@ -77,7 +77,7 @@ Sentence variety and clarity are part of what makes a reading selection readable
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How sentence variety and clarity connect to the other OSSLT items
 

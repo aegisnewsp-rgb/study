@@ -19,7 +19,7 @@ Reasoning Within the Text is CARS Skill 2 in the AAMC CARS framework. It is the 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Skill 2 tests
 
@@ -43,7 +43,7 @@ Reasoning Within the Text is CARS Skill 2 in the AAMC CARS framework. It is the 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Identifying claims and evidence
 
@@ -80,7 +80,7 @@ The MCAT asks "the argument assumes that..." or "the author's reasoning depends 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Skill 2 connects to the other CARS skills
 

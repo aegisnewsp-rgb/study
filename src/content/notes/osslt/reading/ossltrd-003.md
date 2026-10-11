@@ -19,7 +19,7 @@ Reading 3 is the third of the three reading skills named in the EQAO Framework. 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Reading 3 actually tests
 
@@ -43,7 +43,7 @@ Reading 3 is the third of the three reading skills named in the EQAO Framework. 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for Reading 3 passages
 
@@ -70,7 +70,7 @@ Reading 3 is the third of the three reading skills named in the EQAO Framework. 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Reading 3 connects to the other OSSLT items
 

@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Fiqh (Islamic Jurisprudence, الفقه ال�
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -35,7 +35,7 @@ The MoEHE Grade 12 Islamic Studies Fiqh (Islamic Jurisprudence, الفقه ال�
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Jihad in the Quran and Sunnah
 
@@ -68,7 +68,7 @@ Some schools accept additional sources:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why fiqh carries marks at the MoEHE terminal
 

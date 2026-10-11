@@ -19,7 +19,7 @@ Functions and their graphs are the language of calculus, the language of applied
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -38,7 +38,7 @@ Functions and their graphs are the language of calculus, the language of applied
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Function families and their key features
 
@@ -76,7 +76,7 @@ Memorise the standard form. Sketch from a single labelled point.
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why this strand matters at the MoEHE terminal
 

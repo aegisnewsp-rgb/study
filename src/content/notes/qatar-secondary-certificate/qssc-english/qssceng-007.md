@@ -19,7 +19,7 @@ The MoEHE English Curriculum Standards publish the Grade 12 exit level as CEFR B
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -39,7 +39,7 @@ The MoEHE English Curriculum Standards publish the Grade 12 exit level as CEFR B
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Linguistic competence
 
@@ -77,7 +77,7 @@ Writing: "I can write clear, detailed text on a wide range of subjects related t
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why B2 is the exit target
 

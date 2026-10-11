@@ -19,7 +19,7 @@ Humanities passages are one of the two passage-content groups on the MCAT CARS s
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Humanities passages look like
 
@@ -52,7 +52,7 @@ Humanities passages are one of the two passage-content groups on the MCAT CARS s
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for philosophy passages
 
@@ -93,7 +93,7 @@ The MCAT tests literature passages for theme identification, tone, narrative per
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Humanities passages connect to the rest of the CARS section
 

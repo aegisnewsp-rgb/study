@@ -19,7 +19,7 @@ Conditional reasoning is the formal-logic backbone of many LSAT Logical Reasonin
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Translating conditionals
 
@@ -59,7 +59,7 @@ The contrapositive of "if P, then Q" is "if not Q, then not P." The contrapositi
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for conditional reasoning items
 
@@ -86,7 +86,7 @@ If P → Q and Q → R, then P → R. Conditional chains allow chaining through 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How conditional reasoning connects to the other LR skills
 

@@ -19,7 +19,7 @@ Assumptions and implicit premises are unstated beliefs the argument depends on. 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What assumption items test
 
@@ -41,7 +41,7 @@ Assumptions and implicit premises are unstated beliefs the argument depends on. 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Identifying necessary assumptions
 
@@ -76,7 +76,7 @@ To find a sufficient assumption:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How assumptions connect to the other LR skills
 

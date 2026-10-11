@@ -19,7 +19,7 @@ Flaw items ask what is wrong with the argument's reasoning. The LSAT tests a def
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Common LSAT flaws
 
@@ -49,7 +49,7 @@ Flaw items ask what is wrong with the argument's reasoning. The LSAT tests a def
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for flaw items
 
@@ -84,7 +84,7 @@ Flaw items ask what is wrong with the argument's reasoning. The LSAT tests a def
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How flaw items connect to the other LR skills
 

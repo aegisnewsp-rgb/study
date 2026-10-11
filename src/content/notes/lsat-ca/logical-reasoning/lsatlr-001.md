@@ -19,7 +19,7 @@ Identifying the conclusion of an argument is the foundation for every other Logi
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What argument structure tests
 
@@ -41,7 +41,7 @@ Identifying the conclusion of an argument is the foundation for every other Logi
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Identifying the conclusion
 
@@ -72,7 +72,7 @@ Identifying the conclusion of an argument is the foundation for every other Logi
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How argument structure connects to the other LR skills
 

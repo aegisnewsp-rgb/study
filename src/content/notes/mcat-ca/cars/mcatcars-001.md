@@ -19,7 +19,7 @@ Foundations of Comprehension is CARS Skill 1 in the AAMC CARS framework. It is t
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Skill 1 tests
 
@@ -44,7 +44,7 @@ Foundations of Comprehension is CARS Skill 1 in the AAMC CARS framework. It is t
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Identifying the main idea
 
@@ -95,7 +95,7 @@ CARS passages use common organisational patterns:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Skill 1 connects to the other CARS skills
 

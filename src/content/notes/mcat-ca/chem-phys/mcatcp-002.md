@@ -19,7 +19,7 @@ Equilibrium, torque, fluid statics and dynamics, and DC circuits form part of AA
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core formulas
 
@@ -48,7 +48,7 @@ Equilibrium, torque, fluid statics and dynamics, and DC circuits form part of AA
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Static equilibrium in biomechanics
 
@@ -84,7 +84,7 @@ The human body is in static equilibrium when standing still or holding a posture
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

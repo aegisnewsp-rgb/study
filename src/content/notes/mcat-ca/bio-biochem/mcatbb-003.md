@@ -19,7 +19,7 @@ Cellular and molecular biology form the bulk of AAMC Foundational Concept 2 of t
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -45,7 +45,7 @@ Cellular and molecular biology form the bulk of AAMC Foundational Concept 2 of t
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Eukaryotic cell structure
 
@@ -91,7 +91,7 @@ The MCAT tests:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

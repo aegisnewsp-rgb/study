@@ -19,7 +19,7 @@ Acid-base chemistry and electrochemistry form a heavily tested cluster of AAMC F
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core formulas
 
@@ -46,7 +46,7 @@ Acid-base chemistry and electrochemistry form a heavily tested cluster of AAMC F
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Acid-base chemistry
 
@@ -77,7 +77,7 @@ The MCAT tests:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

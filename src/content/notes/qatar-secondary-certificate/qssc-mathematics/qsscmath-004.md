@@ -19,7 +19,7 @@ Exponents and logarithms extend the power notation from integers to reals and un
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -38,7 +38,7 @@ Exponents and logarithms extend the power notation from integers to reals and un
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Exponent and logarithm laws in practice
 
@@ -70,7 +70,7 @@ For example, the cube roots of 8i = 8(cos(pi/2) + i sin(pi/2)) are 2(cos(pi/6 + 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why this strand appears across the terminal paper
 

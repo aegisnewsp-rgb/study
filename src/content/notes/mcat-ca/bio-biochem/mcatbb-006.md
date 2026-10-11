@@ -19,7 +19,7 @@ Lipid, amino acid, and integrated metabolism complete AAMC Foundational Concept 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -46,7 +46,7 @@ Lipid, amino acid, and integrated metabolism complete AAMC Foundational Concept 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Lipid metabolism
 
@@ -76,7 +76,7 @@ Lipid, amino acid, and integrated metabolism complete AAMC Foundational Concept 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

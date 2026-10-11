@@ -19,7 +19,7 @@ Translational motion, forces and work form AAMC Foundational Concept 4 of the Ch
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core formulas
 
@@ -47,7 +47,7 @@ Translational motion, forces and work form AAMC Foundational Concept 4 of the Ch
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Translational kinematics
 
@@ -84,7 +84,7 @@ The MCAT often frames Newton's laws in biological terms: the force a muscle appl
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

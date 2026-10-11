@@ -19,7 +19,7 @@ Real-Life Narrative (RLN) is one of the four reading selection types on the OSSL
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What an RLN selection looks like
 
@@ -46,7 +46,7 @@ The seven items per RLN selection typically follow this pattern:
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for RLN selections
 
@@ -73,7 +73,7 @@ The seven items per RLN selection typically follow this pattern:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How RLN connects to the other OSSLT items
 

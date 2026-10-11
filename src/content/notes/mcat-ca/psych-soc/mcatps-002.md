@@ -19,7 +19,7 @@ Cognition, memory, and language form the largest cluster of AAMC Foundational Co
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -46,7 +46,7 @@ Cognition, memory, and language form the largest cluster of AAMC Foundational Co
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Memory in detail
 
@@ -95,7 +95,7 @@ Cognition, memory, and language form the largest cluster of AAMC Foundational Co
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Psych/Soc topics
 

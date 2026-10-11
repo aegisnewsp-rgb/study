@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Term 1 Quran domain pairs the memorisation of
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -35,7 +35,7 @@ The MoEHE Grade 12 Islamic Studies Term 1 Quran domain pairs the memorisation of
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Surah Al-Hashr memorisation plan
 
@@ -66,7 +66,7 @@ Classical Sunni methodology: (1) Tafsir by the Quran — verses explain other ve
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why memorisation and tafsir carry marks at the MoEHE terminal
 

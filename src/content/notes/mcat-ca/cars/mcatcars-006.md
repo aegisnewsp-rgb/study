@@ -21,7 +21,7 @@ This matters because it is the passage type most likely to feel unfamiliar to a 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### How AAMC files this passage type
 
@@ -52,7 +52,7 @@ This matters because it is the passage type most likely to feel unfamiliar to a 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Reading for the argument, not the anthropology
 
@@ -89,7 +89,7 @@ This is a real problem, not a hypothetical one, and the AAMC design accounts for
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How these passages connect to the other CARS content
 

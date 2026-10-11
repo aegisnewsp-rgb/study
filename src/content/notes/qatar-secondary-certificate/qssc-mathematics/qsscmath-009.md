@@ -19,7 +19,7 @@ Statistics is half of the Data Handling strand of the MoEHE 2018 Mathematics Cur
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -39,7 +39,7 @@ Statistics is half of the Data Handling strand of the MoEHE 2018 Mathematics Cur
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Ungrouped data
 
@@ -67,7 +67,7 @@ The regression line of y on x: y = a + bx, where b = sum((x_i - x_bar)(y_i - y_b
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why statistics is reliable mark-earner
 

@@ -19,7 +19,7 @@ The LSAT Reading Comprehension section includes four passages, drawn from four d
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What passage type items test
 
@@ -40,7 +40,7 @@ The LSAT Reading Comprehension section includes four passages, drawn from four d
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Humanities passages
 
@@ -80,7 +80,7 @@ The LSAT Reading Comprehension section includes four passages, drawn from four d
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How passage type connects to the other RC skills
 

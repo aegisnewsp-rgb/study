@@ -19,7 +19,7 @@ Amino acids, proteins, and enzymes form the first part of AAMC Foundational Conc
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -43,7 +43,7 @@ Amino acids, proteins, and enzymes form the first part of AAMC Foundational Conc
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Amino acids in detail
 
@@ -84,7 +84,7 @@ There are 20 standard amino acids. The MCAT tests:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

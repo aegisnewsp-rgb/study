@@ -25,7 +25,7 @@ If a note, a timetable, or a coaching video tells you to drill a fourth CARS ski
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### The three numbers
 
@@ -54,7 +54,7 @@ If a note, a timetable, or a coaching video tells you to drill a fourth CARS ski
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Turning the weights into a schedule
 
@@ -76,7 +76,7 @@ Two further constraints shape practice:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How the weights interact
 

@@ -19,7 +19,7 @@ Dialogue is one of the four reading selection types on the OSSLT. The EQAO Frame
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What a Dialogue selection looks like
 
@@ -44,7 +44,7 @@ Dialogue is one of the four reading selection types on the OSSLT. The EQAO Frame
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for Dialogue selections
 
@@ -71,7 +71,7 @@ Dialogue is one of the four reading selection types on the OSSLT. The EQAO Frame
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Dialogue connects to the other OSSLT items
 

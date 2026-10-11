@@ -19,7 +19,7 @@ Sensation, perception, and attention form part of AAMC Foundational Concept 6 of
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -46,7 +46,7 @@ Sensation, perception, and attention form part of AAMC Foundational Concept 6 of
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Sensation in detail
 
@@ -80,7 +80,7 @@ Sensation, perception, and attention form part of AAMC Foundational Concept 6 of
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Psych/Soc topics
 

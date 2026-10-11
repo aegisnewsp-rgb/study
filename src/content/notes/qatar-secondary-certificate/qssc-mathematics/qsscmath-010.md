@@ -19,7 +19,7 @@ Probability is the other half of the Data Handling strand of the MoEHE 2018 Math
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -39,7 +39,7 @@ Probability is the other half of the Data Handling strand of the MoEHE 2018 Math
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Sample space and counting
 
@@ -75,7 +75,7 @@ Example: heights of male students are N(175, 7^2). P(height > 185) = P(Z > (185 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why probability matters at the terminal
 

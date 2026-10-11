@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Seerah (Prophetic Biography, السيرة ا�
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -35,7 +35,7 @@ The MoEHE Grade 12 Islamic Studies Seerah (Prophetic Biography, السيرة ا�
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Umm Salama — her life before Islam
 
@@ -65,7 +65,7 @@ The lessons: training in Islam begins early, the role of youth is active and cen
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why Seerah carries marks at the MoEHE terminal
 

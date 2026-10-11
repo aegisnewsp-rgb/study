@@ -19,7 +19,7 @@ Strengthen and weaken items ask which answer choice, if true, would most strengt
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What strengthen and weaken items test
 
@@ -41,7 +41,7 @@ Strengthen and weaken items ask which answer choice, if true, would most strengt
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for strengthen items
 
@@ -73,7 +73,7 @@ Strengthen and weaken items ask which answer choice, if true, would most strengt
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How strengthen and weaken items connect to the other LR skills
 

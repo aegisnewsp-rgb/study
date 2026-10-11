@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Term 2 Akhlaq (Ethics, الأخلاق) domain
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -35,7 +35,7 @@ The MoEHE Grade 12 Islamic Studies Term 2 Akhlaq (Ethics, الأخلاق) domain
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Islah Dhawat al-Bayn — the duty of reconciliation
 
@@ -77,7 +77,7 @@ Umar ibn Abd al-Khattab's shura committee (the six who selected the third caliph
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why islah and shura carry marks at the MoEHE terminal
 

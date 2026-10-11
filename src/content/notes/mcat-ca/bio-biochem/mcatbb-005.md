@@ -19,7 +19,7 @@ Glycolysis, the citric acid (Krebs) cycle, and oxidative phosphorylation form th
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -43,7 +43,7 @@ Glycolysis, the citric acid (Krebs) cycle, and oxidative phosphorylation form th
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Glycolysis in detail
 
@@ -89,7 +89,7 @@ Acetyl-CoA enters the cycle by combining with oxaloacetate to form citrate:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

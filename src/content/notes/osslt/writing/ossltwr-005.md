@@ -19,7 +19,7 @@ Conventions (spelling, grammar, and punctuation) are one of the four dimensions 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What conventions cover on the OSSLT
 
@@ -46,7 +46,7 @@ The OSSLT rubric weights the following errors heavily:
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for conventions
 
@@ -74,7 +74,7 @@ The same conventions rules are tested in the Reading component and in the scorin
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How conventions connect to the other OSSLT items
 

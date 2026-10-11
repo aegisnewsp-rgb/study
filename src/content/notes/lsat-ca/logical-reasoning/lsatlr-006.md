@@ -19,7 +19,7 @@ Method of reasoning items ask the test-taker to describe how the author argues. 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What method items test
 
@@ -47,7 +47,7 @@ Method of reasoning items ask the test-taker to describe how the author argues. 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Common method structures
 
@@ -78,7 +78,7 @@ Method of reasoning items ask the test-taker to describe how the author argues. 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How method and role items connect to the other LR skills
 

@@ -19,7 +19,7 @@ Inference items ask which conclusion follows necessarily from the passage. The L
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What inference items test
 
@@ -42,7 +42,7 @@ Inference items ask which conclusion follows necessarily from the passage. The L
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for "must be true" items
 
@@ -77,7 +77,7 @@ Inference items ask which conclusion follows necessarily from the passage. The L
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How inference items connect to the other LR skills
 

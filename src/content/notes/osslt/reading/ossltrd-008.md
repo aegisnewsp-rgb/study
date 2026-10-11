@@ -19,7 +19,7 @@ This topic covers the conventions, vocabulary and visual-information items that 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What this topic covers
 
@@ -46,7 +46,7 @@ This topic covers the conventions, vocabulary and visual-information items that 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for conventions items
 
@@ -80,7 +80,7 @@ The same conventions rules are tested in the Writing component and in the scorin
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other OSSLT items
 

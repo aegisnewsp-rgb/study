@@ -19,7 +19,7 @@ The Series-of-Paragraphs is the second long-writing task on the OSSLT. Students 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What the Series-of-Paragraphs task asks for
 
@@ -46,7 +46,7 @@ The Series-of-Paragraphs is the second long-writing task on the OSSLT. Students 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for the Series-of-Paragraphs task
 
@@ -85,7 +85,7 @@ A response that scores well on idea development but poorly on organisation (sing
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How the Series-of-Paragraphs task connects to the other OSSLT items
 

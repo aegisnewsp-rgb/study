@@ -19,7 +19,7 @@ The digestive and excretory systems form part of AAMC Foundational Concept 4 of 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -46,7 +46,7 @@ The digestive and excretory systems form part of AAMC Foundational Concept 4 of 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Digestive system
 
@@ -98,7 +98,7 @@ The lungs regulate blood pH by controlling CO₂ exhalation (carbonic acid-bicar
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

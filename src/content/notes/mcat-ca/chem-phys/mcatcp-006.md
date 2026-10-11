@@ -19,7 +19,7 @@ Kinetics and thermodynamics form the largest single content block of AAMC Founda
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core formulas
 
@@ -46,7 +46,7 @@ Kinetics and thermodynamics form the largest single content block of AAMC Founda
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Chemical kinetics
 
@@ -81,7 +81,7 @@ The MCAT frames kinetics in biological contexts: enzyme-catalysed reactions, dru
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

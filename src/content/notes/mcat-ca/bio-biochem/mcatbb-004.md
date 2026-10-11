@@ -19,7 +19,7 @@ Genetics and evolution form the second half of AAMC Foundational Concept 2 of th
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -46,7 +46,7 @@ Genetics and evolution form the second half of AAMC Foundational Concept 2 of th
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Mendelian genetics
 
@@ -82,7 +82,7 @@ Genetics and evolution form the second half of AAMC Foundational Concept 2 of th
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

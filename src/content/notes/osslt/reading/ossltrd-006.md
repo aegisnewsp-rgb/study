@@ -19,7 +19,7 @@ News Report is one of the four reading selection types on the OSSLT. The EQAO Fr
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What a News Report selection looks like
 
@@ -44,7 +44,7 @@ News Report is one of the four reading selection types on the OSSLT. The EQAO Fr
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for News Report selections
 
@@ -72,7 +72,7 @@ News Report is one of the four reading selection types on the OSSLT. The EQAO Fr
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How News Report connects to the other OSSLT items
 

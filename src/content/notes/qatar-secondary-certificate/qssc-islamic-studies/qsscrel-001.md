@@ -19,7 +19,7 @@ Tajweed (تحقيق التلاوة) is the science of reciting the Quran with co
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -36,7 +36,7 @@ Tajweed (تحقيق التلاوة) is the science of reciting the Quran with co
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Makharij in practice
 
@@ -72,7 +72,7 @@ Key verses for tajweed practice: 42:1-5 (ha-mim, 'ain-sin-qaf openings — heavy
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why tajweed carries marks at the MoEHE terminal
 

@@ -19,7 +19,7 @@ Detail items ask the test-taker to locate stated facts, examples, and definition
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What detail items test
 
@@ -41,7 +41,7 @@ Detail items ask the test-taker to locate stated facts, examples, and definition
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for detail items
 
@@ -65,7 +65,7 @@ Detail items ask the test-taker to locate stated facts, examples, and definition
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How detail items connect to the other RC skills
 

@@ -19,7 +19,7 @@ Short-writing tasks on the OSSLT ask the student to write a single focused parag
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What short-writing tasks ask for
 
@@ -50,7 +50,7 @@ Short-writing tasks on the OSSLT ask the student to write a single focused parag
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for short-writing tasks
 
@@ -79,7 +79,7 @@ Short-writing tasks are the foundation for the long-writing tasks. The Series-of
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How short-writing tasks connect to the other OSSLT items
 

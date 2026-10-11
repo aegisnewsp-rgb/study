@@ -19,7 +19,7 @@ Passage mapping and timing strategy are practical skills for the CARS section. T
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What passage mapping is
 
@@ -52,7 +52,7 @@ The MCAT CARS section gives roughly 90 minutes for roughly 53 items. A workable 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Passage mapping in detail
 
@@ -85,7 +85,7 @@ If a passage is taking longer than 5 minutes to read, you are reading too slowly
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How passage mapping and timing connect to the other CARS skills
 

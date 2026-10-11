@@ -19,7 +19,7 @@ Parallel reasoning items ask the test-taker to identify an argument that has the
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What parallel reasoning items test
 
@@ -42,7 +42,7 @@ Parallel reasoning items ask the test-taker to identify an argument that has the
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for parallel reasoning items
 
@@ -66,7 +66,7 @@ Parallel reasoning items ask the test-taker to identify an argument that has the
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How parallel reasoning items connect to the other LR skills
 

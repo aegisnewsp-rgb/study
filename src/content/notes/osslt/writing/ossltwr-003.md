@@ -19,7 +19,7 @@ Developing a main idea with supporting details is the foundation of every succes
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What "developing a main idea" means on the OSSLT
 
@@ -45,7 +45,7 @@ If the response fails any of these tests, the main idea is not yet developed.
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for developing the main idea
 
@@ -73,7 +73,7 @@ The main idea of a reading selection is identified using the same logic: a clear
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How idea development connects to the other OSSLT items
 

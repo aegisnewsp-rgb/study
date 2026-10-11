@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Hadith (الحديث الشريف) domain ope
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -34,7 +34,7 @@ The MoEHE Grade 12 Islamic Studies Hadith (الحديث الشريف) domain ope
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Ittqa' al-Shubuhat — full text and explanation
 
@@ -62,7 +62,7 @@ Classical Sunni methodology: (1) examine the isnad (chain of transmission) for c
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why hadith study matters at the MoEHE terminal
 

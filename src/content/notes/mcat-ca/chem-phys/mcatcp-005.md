@@ -19,7 +19,7 @@ Phases, gases, and solutions form a core part of AAMC Foundational Concept 5 of 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core formulas
 
@@ -46,7 +46,7 @@ Phases, gases, and solutions form a core part of AAMC Foundational Concept 5 of 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Phases and phase diagrams
 
@@ -83,7 +83,7 @@ The ideal gas law (PV = nRT) is exact for an ideal gas and a good approximation 
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

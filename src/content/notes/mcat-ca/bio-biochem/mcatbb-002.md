@@ -19,7 +19,7 @@ Carbohydrates, lipids, and nucleotides complete AAMC Foundational Concept 1 of t
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -46,7 +46,7 @@ Carbohydrates, lipids, and nucleotides complete AAMC Foundational Concept 1 of t
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Carbohydrates in detail
 
@@ -78,7 +78,7 @@ The MCAT tests carbohydrate structure in the context of digestion, energy metabo
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

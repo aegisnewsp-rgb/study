@@ -19,7 +19,7 @@ The OSSLT selected-response Writing items test editing and revising skills: iden
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What selected-response Writing items test
 
@@ -45,7 +45,7 @@ The OSSLT selected-response Writing items test editing and revising skills: iden
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for sentence-effectiveness items
 
@@ -84,7 +84,7 @@ The OSSLT selected-response Writing items test editing and revising skills: iden
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How selected-response Writing items connect to the other OSSLT items
 

@@ -19,7 +19,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish five Reading sub-stra
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -38,7 +38,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish five Reading sub-stra
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### R1-R2: Responding to main ideas and details
 
@@ -62,7 +62,7 @@ B2 readers engage with texts beyond the minimum: they identify the writer's purp
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Where reading appears at the terminal
 

@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Aqidah (Islamic Creed, العقيدة الإ�
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -35,7 +35,7 @@ The MoEHE Grade 12 Islamic Studies Aqidah (Islamic Creed, العقيدة الإ�
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### The six pillars of Islamic belief
 
@@ -71,7 +71,7 @@ The hadith on the seven destructive sins (Sahih al-Bukhari 2767) includes الس
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why aqidah matters at the MoEHE terminal
 

@@ -19,7 +19,7 @@ Trigonometry is half of the Geometry and Measurement strand at MoEHE Grade 12. T
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -39,7 +39,7 @@ Trigonometry is half of the Geometry and Measurement strand at MoEHE Grade 12. T
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Trig identities
 
@@ -71,7 +71,7 @@ A sector of radius 5 and central angle 60 degrees = pi/3 rad. Arc length s = r t
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why trigonometry is a feeder strand
 

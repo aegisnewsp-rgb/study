@@ -19,7 +19,7 @@ Main idea and primary purpose items ask the test-taker to identify the central c
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What main idea items test
 
@@ -41,7 +41,7 @@ Main idea and primary purpose items ask the test-taker to identify the central c
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for main idea items
 
@@ -73,7 +73,7 @@ The two are related but not identical. A passage can have the same main idea but
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How main idea connects to the other RC skills
 

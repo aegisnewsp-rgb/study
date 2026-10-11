@@ -19,7 +19,7 @@ Development, personality, and psychopathology span AAMC Foundational Concepts 6 
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -47,7 +47,7 @@ Development, personality, and psychopathology span AAMC Foundational Concepts 6 
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Cognitive development (Piaget)
 
@@ -98,7 +98,7 @@ Eight stages across the lifespan, each with a conflict that must be resolved for
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Psych/Soc topics
 

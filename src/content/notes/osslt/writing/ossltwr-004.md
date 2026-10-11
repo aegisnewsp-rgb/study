@@ -19,7 +19,7 @@ Organisation is one of the four dimensions of the EQAO OSSLT rubric for the long
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What "organisation" means on the OSSLT
 
@@ -44,7 +44,7 @@ Organisation is one of the four dimensions of the EQAO OSSLT rubric for the long
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for paragraph organisation
 
@@ -72,7 +72,7 @@ The OSSLT reading items on Information Paragraph and News Report selections test
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How organisation connects to the other OSSLT items
 

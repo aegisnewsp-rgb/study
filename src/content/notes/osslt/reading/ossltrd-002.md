@@ -19,7 +19,7 @@ Reading 2 is the second-largest cluster of items on the OSSLT. The EQAO Framewor
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Reading 2 actually tests
 
@@ -43,7 +43,7 @@ Reading 2 is the second-largest cluster of items on the OSSLT. The EQAO Framewor
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for Reading 2 passages
 
@@ -70,7 +70,7 @@ Reading 2 is the second-largest cluster of items on the OSSLT. The EQAO Framewor
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Reading 2 connects to the other OSSLT items
 

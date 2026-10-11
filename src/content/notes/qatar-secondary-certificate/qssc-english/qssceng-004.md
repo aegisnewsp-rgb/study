@@ -19,7 +19,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish four Writing sub-stra
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -37,7 +37,7 @@ The MoEHE English Curriculum Standards at Grade 12 publish four Writing sub-stra
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### W1: Communicating information
 
@@ -65,7 +65,7 @@ Formal: avoid contractions, use precise vocabulary, address the reader indirectl
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Where writing appears at the terminal
 

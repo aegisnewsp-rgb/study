@@ -19,7 +19,7 @@ Social Sciences passages are one of the two passage-content groups on the MCAT C
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Social Sciences passages look like
 
@@ -52,7 +52,7 @@ Social Sciences passages are one of the two passage-content groups on the MCAT C
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for psychology and sociology passages
 
@@ -84,7 +84,7 @@ The MCAT tests psychology and sociology passages for argument evaluation, method
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Social Sciences passages connect to the rest of the CARS section
 

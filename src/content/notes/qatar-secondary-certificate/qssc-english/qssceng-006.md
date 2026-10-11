@@ -19,7 +19,7 @@ The MoEHE English Curriculum Standards at Grade 12 (CEFR B2 Low-Mid) expect infe
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -37,7 +37,7 @@ The MoEHE English Curriculum Standards at Grade 12 (CEFR B2 Low-Mid) expect infe
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Inference in reading
 
@@ -65,7 +65,7 @@ A synthesised response (written or spoken) typically has: (1) introduction stati
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Where critical thinking appears at the terminal
 

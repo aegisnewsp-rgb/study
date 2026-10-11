@@ -19,7 +19,7 @@ The musculoskeletal, immune, and reproductive systems form part of AAMC Foundati
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -45,7 +45,7 @@ The musculoskeletal, immune, and reproductive systems form part of AAMC Foundati
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Skeletal muscle contraction
 
@@ -96,7 +96,7 @@ ATP is required for both contraction (myosin ATPase) and relaxation (Ca²⁺ pum
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Bio/Biochem topics
 

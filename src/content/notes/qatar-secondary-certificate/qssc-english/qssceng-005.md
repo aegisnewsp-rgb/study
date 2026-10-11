@@ -19,7 +19,7 @@ The MoEHE English Curriculum Standards at Grade 12 (CEFR B2 Low-Mid exit) expect
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -39,7 +39,7 @@ The MoEHE English Curriculum Standards at Grade 12 (CEFR B2 Low-Mid exit) expect
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Tense review
 
@@ -83,7 +83,7 @@ Word partnerships are arbitrary — they must be memorised. Common patterns: ver
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Where grammar and vocabulary appear at the terminal
 

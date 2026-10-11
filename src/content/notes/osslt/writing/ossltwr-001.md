@@ -19,7 +19,7 @@ The News Report is the first of the two long-writing tasks on the OSSLT. Student
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What the News Report task asks for
 
@@ -55,7 +55,7 @@ The lead paragraph should answer the five Ws in plain language:
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for the News Report task
 
@@ -91,7 +91,7 @@ A response that scores well on idea development but poorly on conventions can st
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How the News Report task connects to the other OSSLT items
 

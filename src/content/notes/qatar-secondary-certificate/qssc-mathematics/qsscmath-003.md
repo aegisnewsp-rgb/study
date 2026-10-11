@@ -19,7 +19,7 @@ Sequences and series sit at the intersection of algebra and discrete mathematics
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -38,7 +38,7 @@ Sequences and series sit at the intersection of algebra and discrete mathematics
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### AP and GP word problems
 
@@ -73,7 +73,7 @@ Distinguish by reading the problem: "in how many orders" implies permutation, "i
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why this strand appears across the terminal paper
 

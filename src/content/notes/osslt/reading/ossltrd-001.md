@@ -19,7 +19,7 @@ Reading 1 is the largest cluster of items on the OSSLT. The EQAO Framework descr
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### What Reading 1 actually tests
 
@@ -44,7 +44,7 @@ Reading 1 is the largest cluster of items on the OSSLT. The EQAO Framework descr
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Strategy for Reading 1 passages
 
@@ -72,7 +72,7 @@ A Reading 1 answer is *always* explicitly stated. If the answer requires combini
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How Reading 1 connects to the other OSSLT items
 

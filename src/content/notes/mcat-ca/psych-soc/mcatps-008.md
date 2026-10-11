@@ -19,7 +19,7 @@ Research methods, statistics, and ethics in psychology span AAMC Foundational Co
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core concepts
 
@@ -48,7 +48,7 @@ Research methods, statistics, and ethics in psychology span AAMC Foundational Co
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Research designs
 
@@ -105,7 +105,7 @@ Research methods, statistics, and ethics in psychology span AAMC Foundational Co
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Psych/Soc topics
 

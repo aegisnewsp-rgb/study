@@ -19,7 +19,7 @@ The MoEHE Grade 12 Islamic Studies Term 1 Quran domain includes the inimitabilit
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -34,7 +34,7 @@ The MoEHE Grade 12 Islamic Studies Term 1 Quran domain includes the inimitabilit
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### The challenge of the Quran (التحدي)
 
@@ -63,7 +63,7 @@ The classical tahfiz curriculum at major institutions (Al-Azhar, the Prophet's M
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why i'jaz and memorisation matter at the MoEHE terminal
 

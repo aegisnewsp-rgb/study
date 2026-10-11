@@ -19,7 +19,7 @@ Plane and solid geometry, circle theorems, and vectors form the Geometry and Mea
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core facts in one pass
 
@@ -37,7 +37,7 @@ Plane and solid geometry, circle theorems, and vectors form the Geometry and Mea
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Similar triangles and proportions
 
@@ -67,7 +67,7 @@ Cross product (3D vector): a x b = (a_y b_z - a_z b_y, a_z b_x - a_x b_z, a_x b_
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### Why geometry carries marks despite the smaller weighting
 

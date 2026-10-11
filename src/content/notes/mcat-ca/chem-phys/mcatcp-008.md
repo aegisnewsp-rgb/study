@@ -19,7 +19,7 @@ Separations, spectrophotometry, and laboratory techniques form part of AAMC Foun
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core techniques and principles
 
@@ -45,7 +45,7 @@ Separations, spectrophotometry, and laboratory techniques form part of AAMC Foun
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Separation techniques
 
@@ -80,7 +80,7 @@ The MCAT tests:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

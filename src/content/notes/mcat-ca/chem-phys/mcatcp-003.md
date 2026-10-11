@@ -19,7 +19,7 @@ Sound, light, and atomic structure span AAMC Foundational Concepts 4 and 5 of th
 
 ---
 
-### Lite — Quick Review (1h-1d)
+### 🟢 Lite — Quick Review (1h-1d)
 
 #### Core formulas and concepts
 
@@ -47,7 +47,7 @@ Sound, light, and atomic structure span AAMC Foundational Concepts 4 and 5 of th
 
 ---
 
-### Standard — Regular Study (2d-2mo)
+### 🟡 Standard — Regular Study (2d-2mo)
 
 #### Sound waves
 
@@ -80,7 +80,7 @@ A photon is a quantum of light. Its energy is E = h × f. The MCAT tests:
 
 ---
 
-### Deep — Long-Term Mastery (1mo-6mo)
+### 🔴 Deep — Long-Term Mastery (1mo-6mo)
 
 #### How this topic connects to the other Chem/Phys topics
 

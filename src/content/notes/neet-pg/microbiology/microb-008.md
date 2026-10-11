@@ -25,7 +25,7 @@ lastUpdated: 2026-03-25
 
 **Cerebral malaria**: P. falciparum; ring forms in capillaries; malarial retinopathy (white dots, ring hemorrhages); fatality 15–20% despite treatment.
 
-**Vivax vs falciparum**: P. vivax — Schüffner stippling (red dots) in RBCs; P. falciparum — Maurer clefts (blue dashes); no splenomegaly in falciparum.
+**Vivax vs falciparum**: P. vivax — Schüffner stippling (red dots) in RBCs; P. falciparum — Maurer clefts (blue dashes); splenomegaly occurs in both, but is more marked in P. vivax.
 
 ⚡ **Exam tip**: Think malaria for fever + travel to endemic area + no vaccination. Thick and thin smears are gold standard.
 

@@ -17,13 +17,13 @@ lastUpdated: 2026-03-25
 > Rapid summary for last-minute revision before your exam.
 
 **Chromosomal disorders**:
-- **Down syndrome** (Trisomy 21): Mental retardation, flat facies, epicanthal folds, single palmar crease, sandal gap, congenital heart defects (AV canal defect most common), duodenal atresia, **#1 cause of inherited intellectual disability**
+- **Down syndrome** (Trisomy 21): Mental retardation, flat facies, epicanthal folds, single palmar crease, sandal gap, congenital heart defects (AV canal defect most common), duodenal atresia, **#1 overall cause of intellectual disability** (chromosomal, not inherited)
 - **Edwards syndrome** (Trisomy 18): Micrognathia, rocker-bottom feet, clenched fists with overlapping fingers, congenital heart defects; most die before 1 year
 - **Patau syndrome** (Trisomy 13): Holoprosencephaly, microcephaly, cleft lip/palate, polydactyly, congenital heart defects; most die before 1 year
 
-**Fragile X syndrome**: CGG repeat expansion in FMR1 gene (Xq27.3); #1 inherited cause of intellectual disability; macro-orchidism, large ears, long face; **anticipation**
+**Fragile X syndrome**: CGG repeat expansion in FMR1 gene (Xq27.3); **#1 inherited cause of intellectual disability**; macro-orchidism, large ears, long face; **anticipation**
 
-**Huntington disease**: CAG repeat (HTT gene, chromosome 4); chorea, dementia; autosomal dominant; anticipation; ** anticipation** (disease worsens and appears earlier in successive generations)
+**Huntington disease**: CAG repeat (HTT gene, chromosome 4); chorea, dementia; autosomal dominant; **anticipation** (disease worsens and appears earlier in successive generations)
 
 ⚡ **Exam tip**: "Advanced paternal age" = new mutations; associated with achondroplasia (FGFR3), Marfan, neurofibromatosis. NOT Down syndrome (advanced maternal age is the risk factor).
 
@@ -52,19 +52,19 @@ lastUpdated: 2026-03-25
 - **Endocrine**: Hypothyroidism, early-onset Alzheimer disease (chromosome 21 codes amyloid precursor protein)
 - **Other**: Atlantoaxial instability (cervical spine), recurrent infections, short stature
 
-**Recurrence risk**: Standard trisomy 21: 1% (increases with maternal age); Robertsonian translocation: If mother is carrier (der 21;21) → 100%, if father → 5–10%
+**Recurrence risk**: Standard trisomy 21: 1% (increases with maternal age); Robertsonian translocation: der 21;21 carrier → 100% whichever parent carries it (carrier males are typically infertile); a 14;21 carrier gives ~10–15% when the mother carries it and ~1–5% when the father does
 
 ### Turner Syndrome (45,X)
 
 - **Karyotype**: 45,X (most common); mosaic 45,X/46,XX; structural X abnormalities
-- **Clinical features**: Short stature (most consistent), **streak gonads** (fibrous tissue, no follicles), primary amenorrhea, infertility, **webbed neck (pterygium colli)**, shield chest, widely spaced nipples, lymphedema (hands and feet at birth — due to lymphatic dysplasia), coarctation of aorta (most common cardiac defect), horseshoe kidney, increased risk of aortic dissection
+- **Clinical features**: Short stature (most consistent), **streak gonads** (fibrous tissue, no follicles), primary amenorrhea, infertility, **webbed neck (pterygium colli)**, shield chest, widely spaced nipples, lymphedema (hands and feet at birth — due to lymphatic dysplasia), bicuspid aortic valve (most common cardiac finding, ~30%), coarctation of the aorta, horseshoe kidney, increased risk of aortic dissection
 - **Intelligence**: Generally normal; may have nonverbal learning disabilities
 - **Neverbear children** naturally; estrogen replacement required; pregnancies possible with donor oocytes
 
 ### Klinefelter Syndrome (47,XXY)
 
 - **Karyotype**: 47,XXY (most common); 46,XY/47,XXY mosaic; 48,XXXY
-- **Clinical features**: **Tall stature** (eunuchoid — long limbs, sparse body hair), **small, firm testes** (most consistent finding), **gynecomastia** (due to estrogen/androgen imbalance), primary amenorrhea? No — this is in females (males have **azoospermia**), **azoospermia** → infertility, reduced testosterone → small penis; IQ slightly reduced
+- **Clinical features**: **Tall stature** (eunuchoid — long limbs, sparse body hair), **small, firm testes** (most consistent finding), **gynecomastia** (due to estrogen/androgen imbalance), **azoospermia** → infertility, reduced testosterone → small penis; IQ slightly reduced
 - **Diagnosis**: Prepubertal — often missed; diagnosis at puberty or infertility workup
 - **Labs**: ↑FSH, ↑LH (loss of negative feedback), ↓testosterone, ↑estradiol
 - **Associated**: Breast cancer (50-fold increased risk), varicosities, osteoporosis, autoimmune diseases

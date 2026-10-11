@@ -15,9 +15,26 @@ lastUpdated: 2026-03-25
 
 Medical-surgical nursing encompasses the care of adult patients with acute and chronic medical conditions and those recovering from surgery. It is the largest specialty in nursing and serves as the foundation for all other nursing specialties. In the UAE healthcare system, med-surg nurses work in diverse settings — from tertiary referral hospitals like Sheikh Khalifa Medical City to regional hospitals in Al Ain and specialized centers in Dubai. The HAAD examination tests med-surg nursing knowledge extensively because it encompasses the nursing care of the most common conditions affecting the UAE population: cardiovascular disease, diabetes, respiratory conditions, renal disease, and surgical patients. This chapter covers the key medical-surgical conditions and nursing management priorities for HAAD candidates.
 
-## Cardiovascular Disorders
+### 🟢 Lite — Quick Review
+> Med-surg is the widest specialty in nursing and the one HAAD draws most heavily from, because it covers the conditions UAE patients actually present with. Read it as four systems — heart, lung, glucose, kidney — rather than as a list of diseases.
 
-### Coronary Artery Disease (CAD) and Myocardial Infarction (MI)
+| System | Conditions in scope | The one nursing action that changes outcome |
+|---|---|---|
+| **Cardiovascular** | CAD and MI, heart failure, hypertension | Continuous ECG in the first 24–48 h; daily weights on the same scale at the same time |
+| **Respiratory** | COPD, asthma | Smoking cessation as the only intervention that slows COPD decline; demonstrate inhaler technique before discharge |
+| **Metabolic** | Type 1 and Type 2 diabetes, DKA | Fluids first in DKA — potassium looks normal while total body potassium is depleted |
+| **Renal** | AKI, CKD | Hourly I&O and daily weights; hyperkalaemia is the complication that kills first |
+
+**The distinction that earns marks.** In MI, the dangerous complication is an **arrhythmia**, and it is front-loaded into the first 24–48 hours — which is precisely why monitoring runs continuously rather than intermittently. In DKA, the dangerous misconception is that a normal serum potassium means potassium is adequate. Acidosis drives potassium **out** of cells, so the serum value looks normal while the body is profoundly depleted; replacement begins as soon as the level starts to fall.
+
+**Two numbers worth memorising as thresholds, not trivia.** Chronic hypoxemia justifies long-term oxygen only at **PaO₂ ≤ 55 mmHg or SpO₂ ≤ 88%**, given for **15 hours or more daily**. In AKI, pre-renal causes account for roughly **70%** of cases and are the most reversible — restoring perfusion prevents progression to intrinsic tubular necrosis, so the intervention that matters is fluid and perfusion, not a diuretic.
+
+### 🟡 Standard — Regular Study
+> The working picture — each system in the order you would actually reason it at the bedside: what it is, what you will see, what you do.
+
+#### Cardiovascular Disorders
+
+#### Coronary Artery Disease (CAD) and Myocardial Infarction (MI)
 
 **Pathophysiology:** Atherosclerotic plaque builds up in coronary arteries → luminal narrowing → reduced blood flow to myocardium. When demand exceeds supply (exercise, stress), ischemia occurs (angina). Complete occlusion → myocardial infarction (death of heart muscle).
 
@@ -37,7 +54,7 @@ Medical-surgical nursing encompasses the care of adult patients with acute and c
 - **Bed rest:** Semi-Fowler's position; calm environment; 24–48 hours strict bed rest for STEMI
 - **Cardiac rehabilitation:** Phase I begins in hospital; phases II and III are outpatient
 
-### Heart Failure
+#### Heart Failure
 
 **Left-sided heart failure:** Backup of blood in pulmonary circulation → pulmonary edema → dyspnea, orthopnea, paroxysmal nocturnal dyspnea (PND), cough with frothy/pink sputum, crackles on auscultation, tachycardia.
 
@@ -53,7 +70,7 @@ Medical-surgical nursing encompasses the care of adult patients with acute and c
 - **Medications:** ACE inhibitors/ARBs (reduce preload and afterload), beta-blockers (reduce mortality), diuretics (reduce preload), aldosterone antagonists (spironolactone — reduce mortality in moderate-severe HF), digoxin (increases contractility and controls rate in AF)
 - **I&O monitoring:** Strict input and output documentation
 
-### Hypertension
+#### Hypertension
 
 **Definition:** Sustained BP ≥ 130/80 mmHg (ACC/AHA 2017 guidelines). In UAE clinical practice, hypertension is typically defined as ≥ 140/90 mmHg.
 
@@ -67,9 +84,9 @@ Medical-surgical nursing encompasses the care of adult patients with acute and c
 - BP monitoring — home BP diary
 - Patient education on lifestyle modifications
 
-## Respiratory Disorders
+#### Respiratory Disorders
 
-### Chronic Obstructive Pulmonary Disease (COPD)
+#### Chronic Obstructive Pulmonary Disease (COPD)
 
 COPD is a progressive, partially reversible airflow limitation caused by chronic inflammation (primarily from smoking). It includes **chronic bronchitis** ("blue bloater" — productive cough ≥ 3 months/year for ≥ 2 years) and **emphysema** ("pink puffer" — dyspnea, barrel chest, hyperinflation).
 
@@ -83,7 +100,7 @@ COPD is a progressive, partially reversible airflow limitation caused by chronic
 - **Airway clearance:** Hydration, humidification, chest physiotherapy, flutter valve
 - **Infection prevention:** Pneumococcal and influenza vaccines; prompt treatment of exacerbations (often bacterial — antibiotics; purulent sputum)
 
-### Asthma
+#### Asthma
 
 **Pathophysiology:** Chronic inflammatory airway disease with reversible airflow obstruction and bronchial hyperresponsiveness. Triggers include allergens, exercise, cold air, infections, stress.
 
@@ -96,15 +113,15 @@ COPD is a progressive, partially reversible airflow limitation caused by chronic
 - **Long-term control:** Inhaled corticosteroids (ICS) — first-line for persistent asthma; leukotriene receptor antagonists; long-acting beta-agonists (LABA — NEVER used alone without ICS)
 - **Patient education:** Inhaler technique (most patients use incorrectly — crucial to demonstrate); trigger avoidance; action plan (written); when to seek emergency care
 
-## Diabetes Mellitus
+#### Diabetes Mellitus
 
-### Type 1 vs. Type 2
+#### Type 1 vs. Type 2
 
 **Type 1 DM:** Autoimmune destruction of pancreatic beta cells → absolute insulin deficiency; usually presents in childhood/adolescence; rapid onset; requires insulin from diagnosis; ketoacidosis-prone.
 
 **Type 2 DM:** Insulin resistance + relative insulin deficiency; usually presents in adults (increasingly in children); associated with obesity; may be controlled with lifestyle, oral agents, or insulin; hyperosmolar hyperglycemic state (HHS) rather than DKA.
 
-### Diabetic Ketoacidosis (DKA)
+#### Diabetic Ketoacidosis (DKA)
 
 Occurs in Type 1 DM (but also in Type 2 under stress). Precipitated by infection, missed insulin, MI, trauma.
 
@@ -116,9 +133,9 @@ Occurs in Type 1 DM (but also in Type 2 under stress). Precipitated by infection
 - **Potassium replacement:** Total body potassium is depleted despite normal/high serum K⁺ (acidosis causes K⁺ to shift out of cells); replace as soon as K⁺ falls below 5.2 mEq/L and urine output established
 - **Monitor:** Blood glucose q1h, electrolytes (especially K⁺), pH, mental status, I&O
 
-## Renal Disorders
+#### Renal Disorders
 
-### Acute Kidney Injury (AKI)
+#### Acute Kidney Injury (AKI)
 
 Sudden deterioration of renal function over hours to days. **Causes:**
 - **Pre-renal (70%):** Hypoperfusion (dehydration, hemorrhage, sepsis, cardiac failure)
@@ -137,7 +154,7 @@ Sudden deterioration of renal function over hours to days. **Causes:**
 - Dietary: Low potassium, low sodium, protein restriction (if advanced)
 - Prepare for dialysis if indicated
 
-### Chronic Kidney Disease (CKD)
+#### Chronic Kidney Disease (CKD)
 
 Progressive, irreversible loss of renal function over months to years. Most common causes in the UAE: diabetes mellitus and hypertension.
 
@@ -154,6 +171,40 @@ Progressive, irreversible loss of renal function over months to years. Most comm
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+---
+
+### 🔴 Extended — Mastery
+
+#### The first 48 hours are a physiological deadline, not a routine
+
+Two mechanisms kill a myocardial infarct, and they run on different clocks. Within minutes to hours the dominant danger is a rhythm disturbance arising in the border zone where infarcted muscle meets still-viable muscle; conduction across that boundary is unpredictable in a way that the resting myocardium is not. Hours later the danger shifts to the mechanical consequences of a weakened ventricular wall.
+
+This is why the observation period has a defined length rather than being open-ended. The rhythm strip carries more information in hour three than in hour thirty, and a patient who has been stable for two days has not graduated from risk so much as moved past the window in which that particular risk operates. Nursing observation schedules follow that physiology rather than habit, which is also why a monitored bed is not interchangeable with a ward bed in the first day.
+
+#### Oxygen in COPD is a threshold; oxygen elsewhere is a floor
+
+The same nursing action — reaching for the tubing — carries opposite logic depending on the patient in front of you. In a patient with chronic carbon dioxide retention, pushing oxygen beyond the point of adequate saturation worsens the underlying problem: alveolar over-expansion collapses units that were still exchanging gas, and the carbon dioxide that was tolerated at a lower saturation accumulates. The threshold exists to prevent that, which is why it is a line not to be crossed rather than a target to be maximised.
+
+Contrast that with the infarct patient, where the instruction is to give oxygen below a saturation floor. The difference is not inconsistency — it is that one of these patients clears carbon dioxide and the other does not. Recognising which rule applies to the patient in the bed, rather than the one you remember most confidently, is the examinable skill.
+
+#### The normal potassium in DKA is the most misleading number on the chart
+
+Serum potassium in ketoacidosis typically looks normal or even high while the body's total store is substantially depleted. The mechanism is that the acidosis drives potassium out of the cells, so what the laboratory measures is a redistribution rather than a balance. Correction of the acidosis and the administration of insulin both push potassium back inward, which is why the value can fall sharply in the first hours of treatment.
+
+The practical consequence is a timing trap. Replacement begun only once the serum reading has dropped waits, by definition, until redistribution is well advanced. Starting when the level begins to fall and urine output is established ties the intervention to the physiology instead of to the report. Insulin itself also depletes potassium, so the two therapies pull in the same direction and neither can be safely titrated without watching it.
+
+#### Pre-renal is a state with a window, not a stage on a list
+
+Around seventy per cent of acute kidney injury begins as inadequate perfusion, and the great majority of those reverse when perfusion is restored. Once the injury becomes intrinsic, largely through prolonged hypoperfusion reaching the tubules, recovery becomes slow and uncertain. The dividing line is not drawn by a laboratory threshold in advance but by how long the deficit lasted.
+
+That is what hourly fluid balance and daily weights are actually detecting. They track a drift that is invisible in a single observation, and they detect it while the reversible phase is still open. The same numbers on a patient whose injury is already intrinsic serve a different purpose — describing severity rather than steering prevention — which is why knowing which category a patient is in changes what the monitoring is for.
+
+#### Why Type 2 diabetes tends toward a different emergency
+
+The tendency is explained by how much endogenous insulin remains. Absolute deficiency removes the brake on fat breakdown, so ketone production proceeds and the presentation is ketoacidosis. Where residual secretion persists, lipolysis is suppressed and the dominant process becomes osmotic diuresis from profound hyperglycaemia rather than ketosis — a hyperosmolar state that can present with higher glucose and, despite the milder ketosis, carries higher mortality.
+
+The distinction is not absolute. Severe physiological stress can drive a patient with type 2 diabetes into ketoacidosis, and the two pictures can overlap. What the mechanism predicts is which abnormality you should expect to dominate, and therefore which values you escalate on.
 
 ## Continue your study
 

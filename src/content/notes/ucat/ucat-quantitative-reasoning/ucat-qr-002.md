@@ -166,6 +166,74 @@ The East region wins at about a third increase. The trap is to look at raw diffe
 3. After every timed set, list every wrong answer under one of three headings: misread the chart, misread the stem, slow arithmetic. The misreads are the ones to stop first.
 4. Sit one full QR mock under timed conditions, then review the chart-read step before sitting the next. The official UCAT practice tests are the right benchmark; current cohort scoring distributions are published yearly on ucat.ac.uk and are the only figures worth trusting for your cycle.
 
+---
+
+### 🔴 Extended — Mastery
+
+Three habits separate a candidate who reads charts correctly from one who reads them fast and mostly correct. Each closes a specific recurring error rather than adding general advice.
+
+#### The base year is the denominator, and it is printed on the table
+
+A percentage change has a direction, and the direction names the denominator. "Increase from Q1 to Q2" divides by the Q1 figure. "Of all Q2 admissions" divides by the Q2 total. Reading the preposition picks the base, and both numbers sit on the chart either way.
+
+```
+  Ward      | Q1 | Q2
+  Alpha     | 200 | 260
+  Bravo     | 400 | 420
+  Charlie   |  40 |  65
+
+  Question: "Which ward had the largest percentage increase
+  in admissions from Q1 to Q2?"
+
+    Alpha:   (260 - 200) / 200 = 60 / 200 = 30.0%
+    Bravo:   (420 - 400) / 400 = 20 / 400 =  5.0%
+    Charlie: ( 65 -  40) /  40 = 25 /  40 = 62.5%
+
+  Charlie wins, at 62.5%.
+```
+
+Alpha gains the most patients in absolute terms, 60 against Charlie's 25, and Alpha is what a candidate answers after scanning for the biggest jump in the difference column. Charlie wins only once each gain is measured against its own base. When a stem says "percentage", the size of the base decides the ranking, and a small base can outrank a large one by a factor of more than twenty.
+
+#### A share runs down a column, not across a row
+
+A part-to-whole question reverses the reading direction. The total is the sum down the shared category, never the row total printed beside the value.
+
+```
+                    Mon   Tue   Wed   Row total
+  Clinic A           40    35    25        100
+  Clinic B           20    30    50        100
+  Column total       60    65    75        200
+
+  Question: "On which day did Clinic A see the largest
+  share of the patients treated?"
+
+    Mon: 40 / 60 = 66.7%
+    Tue: 35 / 65 = 53.8%
+    Wed: 25 / 75 = 33.3%
+
+  Monday has the largest share.
+```
+
+Monday is the quietest column on the chart, 60 patients against Wednesday's 75, and Wednesday is the answer a candidate reports because the busiest column reads as the biggest proportion. It holds the smallest Clinic A share. Both rows happen to total exactly 100 here, so the row totals are useless for this question and send anyone who reaches for them to a tie.
+
+#### Reading between gridlines: halve the gap, then split it
+
+A bar top sitting between two labelled lines is read in two moves rather than one. Find the midpoint of the gap first. The midpoint is a number you can picture, and it turns a judgement call into arithmetic.
+
+```
+  Bar chart, y-axis labelled every 500 units, no minor gridlines.
+  One bar's top sits about 40% of the way from the 1,500 line
+  up towards the 2,000 line.
+
+    Gap        = 2,000 - 1,500 = 500
+    Halfway    = 1,500 + 250   = 1,750   <- settle this line first
+    40% of gap = 0.40 x 500    = 200
+    Value      = 1,500 + 200   = 1,700
+```
+
+The bar sits below the midpoint, so the answer is below 1,750, and that alone eliminates every option above it. Candidates who read the chart as "somewhere above 1,500" usually round down to the nearest label, 1,500, and lose the question, because UCAT options are spaced more tightly than a one-label estimate can defend.
+
+
 ## Continue your study
 
 - **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Reading Charts and Tables" fits in your personalised plan

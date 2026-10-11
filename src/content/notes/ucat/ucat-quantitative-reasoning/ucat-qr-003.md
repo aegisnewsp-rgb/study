@@ -200,6 +200,69 @@ The comparison reveals the questions where the calculator helps and the question
 3. On the next two timed mocks, count how many times you open the calculator. Aim to cut it by a third.
 4. Spend one practice block on questions you cannot solve with mental arithmetic only — these are the ones that genuinely need the calculator. Anything else, leave the calculator closed. The official UCAT practice tests are the right benchmark, and the per-subtest scoring scale (300-900) is on the UCAT Consortium test-format page at ucat.ac.uk; cohort figures and percentile bands are published there each year and should be checked at booking time.
 
+---
+
+### 🔴 Extended — Mastery
+
+Calculator speed is an advantage only when the calculation on screen is the calculation you intended. Three checks decide whether to key a figure or do it in your head.
+
+#### The calculator runs the plan you made, not the plan you meant
+
+A calculator is quick, so it carries out a misread stem at full speed and returns a confident wrong number. Ordering errors survive review because the result still looks like a plausible answer.
+
+```
+  2 + 3 x 4
+
+    Correct, multiplication first:  3 x 4 = 12,  12 + 2 = 14
+    Common key error:               2 + 3 =  5,   5 x 4 = 20
+```
+
+Both 14 and 20 are tidy, so the options give no clue. The second family of error is the one that recurs most:
+
+```
+  "Increase 80 by 15%"          80 x 1.15 = 92
+  "15% of 80"                   80 x 0.15 = 12
+```
+
+The same two numbers, and answers more than seven times apart. Reading "of" and "by" before the first keystroke is the whole check, and it costs no time at all.
+
+#### Reverse percentages: divide instead of multiplying
+
+When the stem gives you a percentage of an unknown quantity, the number in front of you is the smaller part, so it belongs in the numerator.
+
+```
+  "15% of a quantity is 80. Find the quantity."
+
+    0.15 x = 80
+    x     = 80 / 0.15 = 533.33
+
+    Check: 15% of 533.33 = 80.00
+```
+
+Multiplying instead, 80 x 1.15 = 92, is the most common wrong answer on this shape and it reads as reasonable. Once the quantity is known, any other percentage of it is a single step: 30% is 160, exactly double.
+
+#### Estimate the bounds before you press a key
+
+Ten seconds of estimation before the calculation will catch a decimal slip instantly, because a misplaced decimal point moves the answer by a power of ten and no other error does.
+
+```
+  A ward treats 240 patients a week. 18% are readmitted.
+  Roughly how many is that?
+
+    10% of 240 = 24
+    20% of 240 = 48
+
+    So the answer must sit between 24 and 48, near the top.
+    That is already enough to know the calculator is wrong
+    if it returns 4.32.
+
+    Mistyped percentage:  0.018 x 240 = 4.32   (decimal slip)
+    Correct:              0.18  x 240 = 43.2
+```
+
+Write the two bounds before you key. If the display falls outside them, the error is in your entry, not in the method, and you can recheck without re-reading the stem. That single habit removes the whole decimal class of slip, which is the most common arithmetic error in this subtest.
+
+
 ## Continue your study
 
 - **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Calculator versus Mental Arithmetic" fits in your personalised plan

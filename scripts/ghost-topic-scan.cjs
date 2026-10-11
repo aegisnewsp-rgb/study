@@ -118,12 +118,14 @@ for (const [subjFile, f] of subjectFiles) {
   }
 }
 
+const shellList = [];
 for (const [ex, list] of Object.entries(ghostsByExam)) {
   const have = examNoteCount(ex);
-  if (have === 0) { shellExams++; continue; }
+  if (have === 0) { shellExams++; shellList.push(`${ex}: ${list.length} uncovered topics (exam HAS 0 notes)`); continue; }
   partialExams++;
   partial.push(`${ex}: ${list.length} uncovered topics (exam HAS ${have} notes)`);
 }
+shellList.sort((a, b) => parseInt(b.split(': ')[1], 10) - parseInt(a.split(': ')[1], 10));
 partial.sort((a, b) => parseInt(b.split(': ')[1], 10) - parseInt(a.split(': ')[1], 10));
 
 console.log(JSON.stringify({
@@ -133,6 +135,12 @@ console.log(JSON.stringify({
   ghostsServedByPool,
   note: 'Ghost topics are COVERAGE gaps under an exam own id (syllabus row with no note of its own). They are NOT broken links: both link builders validate against the real note set and render inert <p> when nothing resolves. ghostsServedByPool of these are pooled PCM topics that DO resolve to a real note in another exam. Fixed 2026-10-11; the previous version mislabelled all of these as broken-link risk.',
 }, null, 2));
+
+// A count you cannot act on is not a measurement. These advertise a full
+// syllabus with zero notes behind them — the sharpest thin-page risk in the
+// corpus — so they are named, not just tallied.
+console.log(`\nZERO-NOTE SHELL EXAMS (syllabus advertised, no notes at all): ${shellList.length}`);
+shellList.forEach(x => console.log('  ', x));
 
 console.log('\nMOST-UNCOVERED PUBLISHED EXAMS (syllabus rows with no note under their own exam id):');
 partial.forEach(x => console.log('  ', x));

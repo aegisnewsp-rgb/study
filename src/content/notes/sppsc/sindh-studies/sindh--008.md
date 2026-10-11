@@ -39,7 +39,7 @@ lastUpdated: 2026-03-25
 - Each Kafi is set to a different **musical mode (rag/ragini)** — his work bridges poetry and music
 - His verses are still sung in **qawwali performances** and at Sufi shrines
 - **UNESCO** recognized his literary contribution to world culture
-- The **Shah Jo Risalo** includes stories of legendary Sindhi heroes like **Sassui, Sorath Rai, Luhana**
+- The **Shah Jo Risalo** carries the love legends of Sindh such as **Sassui Punnhun, Sorath Rai Diyach, Sohni Mahiwal** and **Umar Marui** (the seven are often called the Seven Queens of Sindh)
 
 ### Sachal Sarmast (1739–1829)
 - **Sufi poet** of the Thal desert (Tharparkar region, Sindh)
@@ -205,7 +205,7 @@ The Shah Jo Risalo is organised as **30 surs** (chapters), each set to a musical
 
 | Name | Field | Period | Key Contribution |
 |---|---|---|---|
-| **Shah Abdul Latif Bhittai** | Literature/Poetry | 1690–1752 | Shah Jo Risalo — national poet |
+| **Shah Abdul Latif Bhittai** | Literature/Poetry | 1689–1752 | Shah Jo Risalo — national poet |
 | **Shah Baz Qalander** | Sufism | 1179–1262 | Patron saint of Sehwan |
 | **Sachal Sarmast** | Sufism/Poetry | 1739–1829 | Sufi poet of Thal |
 | **G.M. Syed** | Politics | 1904–1995 | Sindhi nationalist; Sindh United Front |

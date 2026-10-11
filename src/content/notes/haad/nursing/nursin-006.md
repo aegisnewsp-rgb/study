@@ -15,6 +15,16 @@ lastUpdated: 2026-03-25
 
 Obstetric and gynecological (OB/GYN) nursing is a specialty that encompasses the care of women during pregnancy, childbirth, and the postpartum period (obstetrics), as well as the care of women with reproductive health conditions across the lifespan (gynecology). In the UAE, where maternal and child health are national priorities, and where the population has high birth rates and a significant proportion of women of reproductive age, OB/GYN nurses are in constant demand. The HAAD examination tests OB/GYN nursing knowledge across several domains: normal pregnancy and childbirth, complications of pregnancy, family planning, and common gynecological conditions.
 
+### 🟢 Lite — Quick Review (1h–1d)
+
+- **Cycle map:** follicular days 1–14 (FSH drives follicle growth, estrogen thickens the endometrium from ~1 mm to ~8–10 mm and makes cervical mucus stretchy); **ovulation day 14** on the LH surge, with the ovum viable only 12–24 hours; luteal days 15–28 (corpus luteum secretes progesterone, raises basal body temperature ~0.5 °C and makes mucus hostile to sperm).
+- **Pregnancy signs sort into three tiers of certainty:** presumptive (amenorrhea, nausea, quickening), probable (positive hCG test, Goodell's, Hegar's, Chadwick's, ballottement), and positive (fetal heart sounds — Doppler at 10–12 weeks, fetoscope at 20 weeks).
+- **Normal maternal physiological change:** blood volume rises 40–50% and peaks at 32 weeks; cardiac output 30–50%; HR up 10–15 bpm. Avoid the supine position after 20 weeks — vena cava compression causes supine hypotensive syndrome.
+- **Postpartum hemorrhage, the 4 T's:** Tone (uterine atony, ~70% and therefore the most common), Trauma, Tissue, Thrombin.
+- **Contraception in one line each:** combined pill suppresses ovulation but carries thromboembolism risk; the progestin-only pill is the breastfeeding-safe option; IUCD and implants are long-acting and reversible; Depo-Provera is a 3-monthly injection with irregular bleeding and bone-density concerns. Emergency contraception — levonorgestrel within 72 hours, ulipristal within 120 hours, copper IUCD most effective of all.
+
+### 🟡 Standard — Regular Study (2d–2mo)
+
 ## Menstrual Cycle and Reproductive Hormones
 
 Understanding the menstrual cycle is fundamental to understanding pregnancy, fertility, and many gynecological disorders.
@@ -124,6 +134,10 @@ If fertilization and implantation do not occur, the corpus luteum degenerates (b
 | Male condoms | Physical barrier; also prevents STIs | Readily available; no hormonal side effects; protects against STIs | Decreased sensation; breakage; latex allergy |
 | Female condoms | Physical barrier | Protects against STIs | Less effective than male condoms |
 | Emergency contraception (Levonorgestrel/Ulipristal) | Prevents ovulation; copper IUCD: spermicidal | Emergency use; copper IUCD most effective | Not for regular use; must be taken within 72 hours (Levonorgestrel) or 120 hours (Ulipristal) |
+
+### 🔴 Extended — Deep Study (3mo+)
+
+The cross-topic facts below each connect two areas of this chapter rather than testing one in isolation — the pattern the examination favours.
 
 **⚡ Exam tip:** During labor, the fetal head flexes to present the smallest diameter (suboccipitobregmatic). The 4 T's of postpartum hemorrhage: Tone (most common), Trauma, Tissue, Thrombin. Baby blues resolve by 2 weeks postpartum; postpartum depression persists and requires treatment. The corpus luteum produces progesterone throughout the first trimester (until the placenta takes over — luteoplacental shift at 8–10 weeks).
 

@@ -15,6 +15,17 @@ lastUpdated: 2026-03-25
 
 Anatomy (the study of body structures) and physiology (the study of body functions) are foundational sciences for nursing practice. A nurse in any clinical setting — from a medical-surgical ward in Tawam Hospital to a pediatric clinic in Dubai Health Authority — must understand normal anatomy and physiology to recognize abnormal findings, monitor patient status, anticipate complications, and communicate effectively with physicians and other healthcare professionals. This chapter covers the major body systems relevant to the HAAD nursing examination.
 
+### 🟢 Lite — Quick Review (1h–1d)
+
+- **Cell:** selectively permeable phospholipid bilayer, cytoplasm, and six organelles you are expected to name — nucleus, mitochondria, ribosomes, ER, Golgi, lysosomes. Mitosis makes two identical somatic cells; meiosis makes gametes with half the chromosome count.
+- **Integumentary:** three layers — epidermis (avascular, keratinized), dermis (vascular, collagen + nerves), hypodermis (fat). Largest organ, ~2 m². Protects, regulates temperature, senses, makes vitamin D, excretes.
+- **Musculoskeletal:** 206 bones = axial 80 + appendicular 126. Joints rank by freedom: synovial (free) > cartilaginous (slight) > fibrous (immobile). Three muscle types: skeletal, cardiac, smooth.
+- **Circulation:** RA → RV → lungs → LA → LV → body. The left ventricle has the thickest wall because it drives systemic circulation.
+- **Nervous:** CNS (brain + spinal cord) vs PNS (somatic = voluntary, autonomic = involuntary). Sympathetic = fight or flight; parasympathetic = rest and digest.
+- **Mechanism to memorise:** Ca²⁺ released from the sarcoplasmic reticulum binds troponin, tropomyosin shifts, myosin binds actin — that is one contraction.
+
+### 🟡 Standard — Regular Study (2d–2mo)
+
 ## The Cell: Basic Unit of Life
 
 The cell is the structural and functional unit of all living organisms. While cells vary enormously in size, shape, and specialized function, they share common features:
@@ -145,6 +156,10 @@ The cardiovascular system consists of the heart, blood vessels, and blood — it
 **Neurons:** Cell body (soma), dendrites (receive signals), axon (conducts signals away). Most neurons are amitotic (cannot divide) — neurons lost are not replaced.
 
 **Neurotransmitters:** Acetylcholine (neuromuscular junction, parasympathetic), norepinephrine (sympathetic), dopamine (reward, movement), serotonin (mood, sleep), GABA (inhibitory), glutamate (excitatory).
+
+### 🔴 Extended — Deep Study (3mo+)
+
+The cross-system facts below are the ones that get asked as single standalone questions, because each one ties two systems together rather than testing one in isolation.
 
 **⚡ Exam tip:** The left ventricle has the thickest wall of all heart chambers — it pumps blood to the entire body (systemic circulation). The right ventricle pumps only to the lungs (pulmonary circulation). Blood flows: RA → RV → lungs → LA → LV → body → RA. Surfactant is produced by Type II pneumocytes — deficiency causes RDS in premature infants.
 

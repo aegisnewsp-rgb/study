@@ -20,7 +20,7 @@ In this comprehensive guide, you will learn every concept you need for JAMB — 
 
 ---
 
-## 🟢 Lite — Quick Review (1h–1d)
+### 🟢 Lite — Quick Review (1h–1d)
 
 **Sets and Set Theory** — Rapid Facts for Last-Minute Revision
 
@@ -39,7 +39,7 @@ In this comprehensive guide, you will learn every concept you need for JAMB — 
 
 ---
 
-## 🟡 Standard — Regular Study (2d–2mo)
+### 🟡 Standard — Regular Study (2d–2mo)
 
 ### What is a Set?
 
@@ -108,7 +108,7 @@ n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(A ∩ C) − n(B ∩ 
 
 ---
 
-## 🔴 Extended — Deep Study (3mo+)
+### 🔴 Extended — Deep Study (3mo+)
 
 ### De Morgan's Laws
 

@@ -19,7 +19,7 @@ XAT case-lets involving risk typically present a decision-maker facing a choice 
 
 ---
 
-## 🟢 Lite — Quick Review
+### 🟢 Lite — Quick Review
 
 **The Four Categories of Risk** that appear most frequently in XAT case-lets:
 
@@ -39,7 +39,7 @@ XAT case-lets involving risk typically present a decision-maker facing a choice 
 
 ---
 
-## 🟡 Standard — Regular Study
+### 🟡 Standard — Regular Study
 
 **Risk Identification** in a business context begins with asking: What can go wrong? What is the source of the uncertainty? What would be the consequences if it did go wrong? XAT case-lets often embed risk identification within the narrative — a protagonist is considering launching a new product, entering a new market, or changing a supplier. You must recognise the risks inherent in each option even if the passage does not label them explicitly.
 
@@ -79,7 +79,7 @@ When you encounter a risk scenario in XAT, follow this structured process:
 
 ---
 
-## 🔴 Extended — Deep Study
+### 🔴 Extended — Deep Study
 
 **Risk Appetite and Risk Tolerance** are concepts that sophisticated XAT case-lets test. Every organisation has a risk appetite — the amount and type of risk it is willing to accept in pursuit of its objectives. Risk tolerance is the organisation's capacity to absorb risk before the consequences become unacceptable. A startup in a new market might have a high risk appetite (willing to accept significant uncertainty for growth), while a public utility or regulated bank has a low risk appetite (prioritising stability and compliance). When evaluating options in a case-let, your answer should be consistent with what a reasonable organisation in the protagonist's position would consider acceptable.
 

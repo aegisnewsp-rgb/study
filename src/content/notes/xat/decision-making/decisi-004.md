@@ -19,7 +19,7 @@ XAT examiners design HR case-lets to assess several underlying competencies: fai
 
 ---
 
-## 🟢 Lite — Quick Review
+### 🟢 Lite — Quick Review
 
 **Common HR Dilemma Categories in XAT:**
 
@@ -41,7 +41,7 @@ When evaluating options in an HR case-let, apply the FAIR test:
 
 ---
 
-## 🟡 Standard — Regular Study
+### 🟡 Standard — Regular Study
 
 **Employee Motivation and Engagement Dilemmas** appear when managers face situations where employees are demotivated, disengaged, or expressing dissatisfaction. A common XAT scenario: a high-performing employee's performance has declined. Options typically include: issuing a warning letter, conducting a private conversation to understand underlying issues, transferring the employee to a different role, reducing their workload, or ignoring the decline because other work is being covered. The most sophisticated answer usually involves understanding the root cause before taking action — a private, empathetic conversation that explores whether the issue is personal, professional, or organisational. Jumping to formal disciplinary action without understanding the context is premature and often wrong in XAT.
 
@@ -61,7 +61,7 @@ Promotions involve questions of merit versus seniority, potential versus demonst
 
 ---
 
-## 🔴 Extended — Deep Study
+### 🔴 Extended — Deep Study
 
 **Procedural Justice Theory** is the academic foundation that underpins most XAT HR case-lets. Research in organisational behaviour consistently shows that employees accept adverse decisions more readily when they believe the process was fair — even if they disagree with the outcome. Procedural justice has six key elements: consistency (rules applied equally), bias suppression (decision-maker has no personal interest), accuracy (decisions based on correct information), correctability (opportunity to appeal or rectify errors), representativeness (all stakeholder voices heard), and ethicality (decision aligns with moral standards). In XAT terms: if an HR option violates any of these six elements, it is almost certainly not the best answer.
 

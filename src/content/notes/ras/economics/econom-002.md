@@ -13,7 +13,7 @@ lastUpdated: 2026-03-25
 
 # Demand and Supply
 
-## 🟢 Lite — Quick Review (1h–1d)
+### 🟢 Lite — Quick Review (1h–1d)
 
 **Demand** is the willingness and ability to buy a good at various prices. **Supply** is the willingness and ability to sell a good at various prices. The **Law of Demand** states that price and quantity demanded have an inverse relationship (ceteris paribus). The **Law of Supply** states that price and quantity supplied have a direct relationship.
 
@@ -28,7 +28,7 @@ lastUpdated: 2026-03-25
 
 ---
 
-## 🟡 Standard — Regular Study (2d–2mo)
+### 🟡 Standard — Regular Study (2d–2mo)
 
 ### Law of Demand and Supply
 
@@ -111,7 +111,7 @@ PES = % change in quantity supplied / % change in price
 
 ---
 
-## 🔴 Extended — Deep Study (3mo+)
+### 🔴 Extended — Deep Study (3mo+)
 
 ### Law of Demand — Deep Dive
 

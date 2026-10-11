@@ -19,7 +19,7 @@ Matter is everything that occupies space and has mass. This basic definition —
 
 ---
 
-## 🟢 Lite — Quick Review
+### 🟢 Lite — Quick Review
 
 Matter is classified into three primary states based on physical characteristics: **solid, liquid, and gas**. Solids have a definite shape and definite volume — for example, a book, a stone, or a wooden desk. Liquids have no definite shape but have a definite volume — they take the shape of the container they are in. Water, milk, and oil are common examples of liquids that children can easily observe. Gases have neither a definite shape nor a definite volume — they completely fill the container they occupy. Air is the most familiar gas, and children can feel it when they wave their hands quickly or when wind blows.
 
@@ -31,7 +31,7 @@ Matter is classified into three primary states based on physical characteristics
 
 ---
 
-## 🟡 Standard — Regular Study
+### 🟡 Standard — Regular Study
 
 **Pure substances and mixtures** form the next layer of classification. A pure substance has a fixed composition and consistent properties throughout — water (H₂O), oxygen (O₂), and iron (Fe) are pure substances. A mixture contains two or more pure substances mixed together without chemical bonding. Water mixed with salt is a mixture — the salt can be recovered by evaporation. Air is a mixture of gases (nitrogen, oxygen, carbon dioxide, and others). Milk is a mixture of water, fats, proteins, and sugars. Soil is a mixture of minerals, organic matter, water, and air.
 
@@ -49,7 +49,7 @@ Mixtures are further classified as **homogeneous** (uniform throughout) and **he
 
 ---
 
-## 🔴 Extended — Deep Study
+### 🔴 Extended — Deep Study
 
 **Particle nature of matter** is a concept that helps explain why solids, liquids, and gases behave differently. In a solid, particles are tightly packed in a fixed arrangement — they vibrate in place but do not move freely. In a liquid, particles are less tightly packed and can slide past each other, which is why liquids flow and take the shape of their container. In a gas, particles are far apart and move freely at high speed in all directions, which is why gases completely fill any container they occupy. This particle model explains many observable phenomena: why solids have fixed shapes while liquids and gases conform to containers; why gases can be compressed while solids and liquids cannot be compressed easily; why smells travel (gas particles moving from the source to our noses); and why evaporation occurs (liquid particles at the surface escape into the air).
 

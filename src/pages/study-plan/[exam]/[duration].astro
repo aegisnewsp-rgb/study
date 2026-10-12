@@ -7,7 +7,7 @@ import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
 import { isNoindexExam } from '../../../data/suppressed-exams';
 import { isGoodNote } from '../../../data/note-quality';
-import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES } from '@data/serp-unique';
+import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES, examIdLabel } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -129,6 +129,7 @@ for (const e of ALL_EXAMS as any[]) {
 const _myCompact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam.examId;
 const _sharedExamLabel = (_compactOwners.get(_myCompact)?.size ?? 1) > 1;
 const _examLabel = pageExamLabel(examName, exam.examId, _sharedExamLabel);
+const _examIdLabel = examIdLabel(exam.examId);
 
 // ---- w22 geo pass ------------------------------------------------------
 // Of the 49 HIGH-geo pages that genuinely never name their country (w21 said
@@ -144,6 +145,9 @@ const title = fitTitle([
   `${examName} ${durationLabel}`,
   `${_examLabel} ${durationLabel} ${currentYear}`,
   `${_examLabel} ${durationLabel}`,
+  // when every label above overflows, fitTitle drops durationLabel (identical titles); id-derived short form keeps it
+  `${_examIdLabel} ${durationLabel} ${currentYear}`,
+  `${_examIdLabel} ${durationLabel}`,
 ], BRAND_SUFFIX);
 const _descRaw = `Free ${durationLabel.toLowerCase()} for ${examName} ${currentYear} — ${totalDays}-day schedule, ${dailyTopics.length} weighted topics, day-by-day plan, no signup.`;
 const description = fitDescription(_geoLabel && _descRaw.length + _geoLabel.length + 11 <= 160

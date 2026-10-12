@@ -7,7 +7,7 @@ import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
 import { isNoindexExam } from '../../../data/suppressed-exams';
 import { isPlaceholderExamTopic, isGoodNote } from '../../../data/note-quality';
-import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES } from '@data/serp-unique';
+import { fitTitle, fitDescription, pageExamLabel, countryDisplay, namesCountry, GEO_PASS_COUNTRIES, examIdLabel } from '@data/serp-unique';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -100,6 +100,8 @@ const _examCompact = pageExamLabel(examName, exam.examId, _sharedExamLabel);
 const _geo = GEO_PASS_COUNTRIES.has(exam.country) ? countryDisplay(exam.country) : '';
 const _geoLabel = _geo && !namesCountry(`${examName} ${_examCompact} ${exam.eligibility ?? ''} ${exam.examPattern ?? ''}`, exam.country) ? _geo : '';
 
+const _examIdLabel = examIdLabel(exam.examId);
+
 const title = fitTitle([
   ...(_geoLabel ? [`${_examCompact} Study Plan ${currentYear}, ${_geoLabel}`, `${examName} Study Plan ${currentYear} — ${_geoLabel}`] : []),
   `${examName} Study Plan ${currentYear}`,
@@ -107,6 +109,8 @@ const title = fitTitle([
   `${_examCompact} Study Plan ${currentYear}`,
   `${_examCompact} Study Plan`,
   `${_examCompact} Plan`,
+  `${_examIdLabel} Study Plan ${currentYear}`,
+  `${_examIdLabel} Study Plan`,
 ], BRAND_SUFFIX);
 const _desc = `Free ${examName} study plans for ${currentYear} — from a last-week sprint to a full-year foundation build. ${topicCount} weight-prioritised topics across ${subjectCount} subjects, day-by-day, no signup.`;
 const description = fitDescription(_geoLabel && _desc.length + _geoLabel.length + 11 <= 160

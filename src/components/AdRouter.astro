@@ -62,6 +62,7 @@ import {
     POPUNDER_STORAGE_KEY,
     VISITOR_GEO_STORAGE_KEY,
     CONSENT_RESTRICTED_GEOS,
+    NO_DEMAND_GEOS,
     CRAWLER_UA_RE,
     AI_REFERRER_RE,
 } from '../lib/ads';
@@ -103,6 +104,7 @@ const config = {
     geoKey: VISITOR_GEO_STORAGE_KEY,
     pageGeo: String(pageGeo || '').toUpperCase(),
     restricted: CONSENT_RESTRICTED_GEOS,
+    noDemand: NO_DEMAND_GEOS,
     crawlerSrc: CRAWLER_UA_RE.source,
     crawlerFlags: CRAWLER_UA_RE.flags,
     aiRefSrc: AI_REFERRER_RE.source,
@@ -253,6 +255,11 @@ const js = `
             payload.visitor_geo = state.visitorGeo || '';
             w.umami.track(name, payload);
         } catch (e) {}
+    }
+
+    /** Monetag does not bid in these geos: load nothing. */
+    function geoNoDemand() {
+        return !!(state.visitorGeo && cfg.noDemand.indexOf(state.visitorGeo) !== -1);
     }
 
     function geoRestricted() {
@@ -485,6 +492,7 @@ const js = `
             state.reason = 'consent-pending';
             return;
         }
+        if (geoNoDemand()) { state.reason = 'no-demand-geo'; return; }
         if (!geoRestricted()) return startAds();
         if (ci.state === 'granted' && ci.ads) return startAds();
         if (ci.state === 'denied') {

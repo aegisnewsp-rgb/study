@@ -354,6 +354,14 @@ export const CONSENT_RESTRICTED_GEOS = [
 ];
 
 /**
+ * Geos Monetag demonstrably does not bid on. Measured 2026-10-12 (s357-country-daily-SG.json,
+ * window 2026-09-28..10-11): SG and CN = 0 impressions / $0 on 14 of 14 days, while they drove
+ * 73.3% of ad-zone loads (1,084 of 1,479 over 7d, ~137 MiB of third-party JS) and machine-shaped
+ * sessions (IVT exposure). Loading nothing for them loses no revenue. Unresolved geo still loads.
+ */
+export const NO_DEMAND_GEOS = ['SG', 'CN'];
+
+/**
  * Declared crawler / automation user-agents.
  *
  * These get **no ad loaders**. Serving impressions to non-human traffic is

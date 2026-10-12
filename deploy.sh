@@ -108,8 +108,12 @@ log "[5/5] Starting container..."
 docker compose up -d --force-recreate
 
 # Wait for container to be healthy
-sleep 5
-if docker ps | grep -q "$CONTAINER_NAME"; then
+# Readiness: poll up to 60s (a fixed 5s sleep raced under build-box load and falsely aborted s941)
+for _i in $(seq 1 12); do
+    sleep 5
+    docker ps --format '{{.Names}}' | grep -qx "$CONTAINER_NAME" && break
+done
+if docker ps --format '{{.Names}}' | grep -qx "$CONTAINER_NAME"; then
     log "✅ Container '$CONTAINER_NAME' is running"
 
     # Verify it responds

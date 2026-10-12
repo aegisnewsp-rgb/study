@@ -44,6 +44,8 @@ const NOINDEX_SITEMAP = new Set([
   // ucat-anz-nz is also 301'd in nginx.conf. KEEP indexed: hkdse, mcat-ca, ielts-hk.
   'ucat-anz-nz', 'qce-mathematical-methods', 'vce-mathematical-methods', 'hsc-mathematics-advanced',
   'ncea-level-2', 'ncea-ue', 'leaving-cert', 'junior-cycle', 'osslt', 'aqa-gcse-mathematics',
+  // 2026-10-12 sat-qatar: 1 impr/0 clicks/180d, unindexed, 77% clone of sat-kuwait -> noindex, follow.
+  'sat-qatar',
 ]);
 examSlugs = examSlugs.filter((s) => !NOINDEX_SITEMAP.has(s));
 

@@ -259,7 +259,7 @@ const js = `
 
     /** Monetag does not bid in these geos: load nothing. */
     function geoNoDemand() {
-        return !!(state.visitorGeo && cfg.noDemand.indexOf(state.visitorGeo) !== -1);
+        return !!(state.visitorGeo && (cfg.noDemand || []).indexOf(state.visitorGeo) !== -1);
     }
 
     function geoRestricted() {

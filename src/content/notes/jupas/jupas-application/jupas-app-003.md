@@ -70,7 +70,7 @@ This topic covers the School Principal's Nominations (SPN) scheme. SPN is a sepa
 #### Differences between SPN and Main Round
 
 | Aspect | SPN | Main Round |
-|--------|-----||------------|
+|--------|-----|-------------|
 | Decision maker | School principal | JUPAS system |
 | Criteria | School-set | Published admission-score formula |
 | Timing | Concurrent with Main Round | Main Round offer day |

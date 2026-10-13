@@ -11,7 +11,7 @@ export const PCM_EXAM_SUBJECT_ROUTING: Record<string, Record<string, string>> = 
   comedk: { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   keam: { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   gujcet: { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  upsee: { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  'jeeupsee': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   'ap-eapcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   'ts-eamcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   aimer: { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },

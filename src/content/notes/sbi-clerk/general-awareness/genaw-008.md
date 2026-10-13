@@ -72,7 +72,7 @@ The UN has six principal organs: General Assembly, Security Council, Economic an
 
 ## Why this topic carries exact weightage
 
-In SBI Clerk Prelims (Phase 1), General Awareness carries 50 questions worth 50 marks. Approximately **3 questions** per test derive directly from international summits and organisational headquarters. The pattern: one question on G20/G7 host city, one on a headquarters location (often WTO Geneva or UN New York), one on a leadership appointment.
+In the SBI Clerk **Main (Phase-II)** General/Financial Awareness paper — 50 questions worth 50 marks in 35 minutes — the count holds; note that the Prelims carries no General Awareness paper at all. Approximately **3 questions** per test derive directly from international summits and organisational headquarters. The pattern: one question on G20/G7 host city, one on a headquarters location (often WTO Geneva or UN New York), one on a leadership appointment.
 
 **Practice prompt 1:** Rohan reads that WTO's Director-General attended a summit in Geneva. He answers "The WTO was founded in the same year as the UN." Is Rohan correct? Check: UN est. 1945; WTO est. 1995 — Rohan is wrong.
 

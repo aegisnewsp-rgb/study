@@ -222,7 +222,7 @@ const exam: ExamTemplate = {
     'No timed full-paper practice before the exam window.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.icsi.edu/academic-portal/new-syllabus-2022/executive-programme/',
+  officialSource: 'https://www.icsi.edu/executive-programme/',
 };
 
 export default exam;

@@ -77,7 +77,7 @@ The RBI licenses banks under the Banking Regulation Act 1949, classifies them (S
 
 #### Exam strategy and weight
 
-For SBI Clerk Prelims, General Awareness has 50 questions of 1 mark each with 0.25 negative marking. Static banking awareness is a quick-scoring section if you revise rates, headquarters, and acronyms.
+For SBI Clerk **Main (Phase-II)**, General/Financial Awareness has 50 questions of 1 mark each in 35 minutes with 0.25 negative marking. There is no General Awareness paper in the Prelims — Prelims is English Language (30), Numerical Ability (35) and Reasoning Ability (35) only. Static banking awareness is a quick-scoring section if you revise rates, headquarters, and acronyms.
 
 #### Practice prompts
 

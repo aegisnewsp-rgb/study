@@ -62,3 +62,6 @@ public/data/roadmap/
 # pi agent tooling (local, not part of the site) + project MCP config (contains secrets)
 .pi/
 .mcp.json
+
+# Untracked build-output snapshot; trips check-scope.sh untracked set. See sr-1107Z.
+dist.snap-pre*/

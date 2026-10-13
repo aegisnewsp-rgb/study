@@ -13,7 +13,7 @@ export const PCM_EXAM_SUBJECT_ROUTING: Record<string, Record<string, string>> = 
   gujcet: { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   upsee: { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   'ap-eapcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  'ts-eapcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  'ts-eamcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
   aimer: { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
   aims: { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
   'aiims-mbbs': { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },

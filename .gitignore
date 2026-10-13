@@ -65,3 +65,9 @@ public/data/roadmap/
 
 # Untracked build-output snapshot; trips check-scope.sh untracked set. See sr-1107Z.
 dist.snap-pre*/
+
+# Same quarantine family, renamed prefix. A claw pulse that renames a failed
+# build tree aside picked `dist.nodefail-*` instead of `dist.rootowned-*`, which
+# the globs above do not match, so check-scope.sh flagged 1676 paths under it and
+# the mandatory _policy.md end-of-run scope gate stayed red for every claw.
+dist.nodefail-*/

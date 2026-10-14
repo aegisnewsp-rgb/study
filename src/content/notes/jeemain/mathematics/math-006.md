@@ -85,7 +85,7 @@ The denominator is the total probability of B, computed by splitting S into a pa
 
 #### 🎯 Exam-Level Worked Problem
 
-**Question (JEE Main 2022 Shift-2 pattern):** Three machines M1, M2, M3 in a workshop produce 20%, 30% and 50% of the total output respectively. Their defective rates are 5%, 4% and 2%. A randomly picked unit from a day's output is found to be defective. Find the probability it came from M2.
+**Question:** Three machines M1, M2, M3 in a workshop produce 20%, 30% and 50% of the total output respectively. Their defective rates are 5%, 4% and 2%. A randomly picked unit from a day's output is found to be defective. Find the probability it came from M2.
 
 **Step 1 — Set up the partition.** Let Ai = "unit came from Mi". Then P(A1) = 0.20, P(A2) = 0.30, P(A3) = 0.50. These are mutually exclusive and exhaustive.
 

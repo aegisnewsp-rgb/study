@@ -146,11 +146,6 @@ Common questions: (1) Identify type of bonding from electronegativity difference
 - Physics (Mechanics + Optics) — 35 marks
 - Mathematics (Algebra + Geometry) — 40 marks
 
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
-
 ### 💡 Pro Tips
 - Use of English carries the most weight — master grammar rules and comprehension strategies
 - JAMB syllabus is your Bible — questions come directly from it. Download and use it.

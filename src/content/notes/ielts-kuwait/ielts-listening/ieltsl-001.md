@@ -192,6 +192,98 @@ diagramPrompt: "Educational diagram illustrating IELTS Listening Part 1 flow: a 
 | IELTS Listening public band descriptors | https://ielts.org/take-a-test/test-types/ielts-academic-test/ielts-academic-format-listening | Verbatim band 7.0 + 8.0 descriptors. |
 | IELTS Guide 2026 (PDF) | https://ielts.org/cdn/ielts-downloadable-assets/ielts-guidance-and-support/ielts-guides/ielts-guide-for-test-takers.pdf | Latest edition (2026). |
 
+### 🔴 Extended — Deep Dive (7/10 — the acoustic mechanics behind every Part 1 answer)
+
+> Part 1 is not a test of vocabulary. It is a test of whether you can detect four
+> specific acoustic events in a conversation. This tier names them, drills them, and
+> tells you what each one costs when you miss it.
+
+#### The four acoustic events that decide Part 1 answers
+
+| Event | What it sounds like | What you write | Cost of missing it |
+|---|---|---|---|
+| Self-correction | "…on the twenty-third — sorry, the twenty-fifth" | The **corrected** value, always | 1 question, plus every later question if you lose your place |
+| Distractor then replacement | "It's usually fifteen pounds. Well, it's twelve." | The **second** figure | 1 question — and the distractor is deliberately placed first |
+| Spelling aloud | "It's spelled S-A-R-A-N-A-C-H" | Copy every letter | 1–2 consecutive questions if two blanks share the word |
+| Number format shift | "…on the fifth of March — that's the 5th" | The **digit**, in a number slot | 1 question; a written word in a number slot is marked wrong |
+
+Every Part 1 trap in the yellow tier reduces to one of these four events. A candidate who
+can name the event as it happens has already made the correction before the second version
+of the phrase is finished.
+
+> **Tip:** in your first week, do not do full tests. Do 15-minute drills where you replay
+> the *same* 60 seconds three times, writing only what changed between versions. You are
+> training the detection reflex, not the vocabulary.
+
+#### Worked drill — a constructed hotel-booking form
+
+**This is a constructed exercise, not a past paper.** No real Cambridge or British Council
+item is reproduced here. Treat the numbers as invented and the mechanics as real.
+
+| Field on the form | What the speaker says | Correct entry | Why the wrong answer is tempting |
+|---|---|---|---|
+| Arrival date | "…we said the 14th, although actually the 16th" | **16** | 14 is stated first and in the normal position in the sentence |
+| Length of stay | "…three nights, no — four" | **4 nights** | The corrected number arrives in a clause you have already moved past |
+| Room type | "a double, or a twin if you prefer" | **twin** | Only the second option is the one that fits; both are said at identical volume |
+| Surname | "written M-A-H-A-J-A-W-A-R" | **MAHAJAWAR** | Silent letters; the ear supplies the wrong consonant |
+| Breakfast | "breakfast is included" | **included** | "is included" is a distractor-shaped phrase that fits the wrong blank on the same form |
+
+Note the shape: every entry above is won by a decision, not by hearing more clearly. The
+audio is equally intelligible in each case. What differs is whether you heard the event.
+
+#### The gap protocol — Part 1 gives you ten gaps per test
+
+There are ten questions, so there are ten natural pause windows. Treating them as dead
+time is the most expensive habit in Part 1:
+
+1. **Write immediately, even if unsure.** A provisional answer in the blank beats a correct
+   answer you reconstruct two questions later, because the reconstruct usually arrives after
+   the next answer has already started.
+2. **Spend the gap on exactly three checks, in this order** — word limit, then plural,
+   then spelling. Three checks, not a re-read of the whole form.
+3. **Leave a marker, not a correction.** If the gap reveals an error, put a small tick beside
+   the entry and fix it in the transfer time. Do not re-derive it mid-recording.
+
+#### Error taxonomy — which mistakes actually cost bands
+
+| Error | Frequency | Why it costs more than it looks |
+|---|---|---|
+| Paraphrase instead of exact words | High | The marker matches the word form, not the meaning; a correct paraphrase still scores zero |
+| Exceeding the word limit | Medium | Marked wrong regardless of content — the commonest avoidable zero |
+| Missing plural | High | Fails the blank even though the information was heard correctly |
+| Distractor captured instead of the real answer | Medium | Costs two questions if it also costs your place |
+| Left a blank because of an earlier miss | Low, but catastrophic | Part 1 answers are sequential; a gap makes the next one harder still |
+
+The pattern worth noticing: four of these five are **format** errors, not comprehension
+errors. A candidate who understands the conversation perfectly can still lose several
+marks purely on transcription. That is why the transfer time at the end exists and why it
+should be spent on format, not on re-listening.
+
+#### Two-week Part 1 drill schedule
+
+| Day | Activity | Minutes |
+|---|---|---|
+| 1–3 | Gap-drills — replay 60-second segments three times, write only corrections | 15/day |
+| 4–6 | Full Part 1 sections, untimed rehearsal, then marked against the error taxonomy | 25/day |
+| 7–9 | Full Part 1 under real timing, no pausing, transfer time used for format checks only | 30/day |
+| 10–12 | Accent rotation — one session per accent family, unfamiliar ones last | 20/day |
+| 13–14 | Two full sections on the two days closest to the test; no new material | 30/day |
+
+Do not spend the final two days on new vocabulary. Part 1 marks transcription discipline,
+and discipline is trained by repetition of the *same* procedure, not by exposure to more
+material.
+
+#### Examiner Trap — the "first instinct is usually right" advice, taken literally
+
+The yellow tier says not to change answers in doubt. That is correct for *content* and
+actively wrong for *format*. If you wrote the word *fifteen* and then heard the speaker
+replace it with *twelve*, changing it is not doubt — it is detection. If you wrote
+*fifteen* and simply felt unsure with no acoustic event to justify it, leave it. The rule
+that holds in both cases: **change the answer only when you can name the event that changed
+your mind.** If you cannot name it, you are guessing, and a guess costs you the time you
+needed for the next blank.
+
+
 ---
 
 ## Continue your study

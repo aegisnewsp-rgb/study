@@ -225,6 +225,84 @@ The Shah Jo Risalo is organised as **30 surs** (chapters), each set to a musical
 - **Saeed Anwar** (cricketer) was born in **Karachi**; scored **194* vs India**
 - **Sir John Marshall** excavated **Mohenjo-daro in 1922** — important for Indus Valley topic
 
+### 🔴 Extended — Deep Dive (5/10 — the confusions SPSC actually sets)
+
+> Most marks lost on this topic are not knowledge gaps. They are confusions between figures
+> whose names, dates or districts rhyme. This tier is organised around those confusions
+> rather than around biographies.
+
+#### The five pairs that get swapped under exam pressure
+
+| Pair | The confusion | Discriminator that settles it |
+|---|---|---|
+| **Shah Abdul Latif Bhittai** vs **Sachal Sarmast** | Both "Sindhi Sufi poets", both shrine-cult figures | Bhittai wrote in Sindhi and compiled the *Shah Jo Risalo*; Sarmast wrote in **Sindhi, Persian and Balochi** from the Thal desert and is called the poet of the desert |
+| **Sir Charles Napier** vs **Sir John Marshall** | Both British, both attached to Sindh, both 19th century | Napier **conquered** Sindh in 1843 and became its first Governor; Marshall was an **archaeologist** who excavated Mohenjo-daro in 1922 |
+| **Sir John Marshall** vs **Sir Mortimer Wheeler** | Both Directors-General of the Archaeological Survey | Marshall 1922, first major excavation and first comprehensive reports; Wheeler 1943–44, popularised the square-plan excavation method |
+| **Zulfikar Ali Bhutto** vs **Sir Shah Nawaz Bhutto** | Same surname, both politicians, both died in office-adjacent circumstances | Sir Shah Nawaz was the **father** and a member of the Viceroy's Council; Zulfikar founded the PPP in 1967 and authored the 1973 Constitution |
+| **Jahangir Khan** vs **Jansher Khan** | Both Pakistani squash champions, same era | Jahangir — born **Karachi**, 6-time champion, 555-match unbeaten streak; Jansher — born **Peshawar**, 8-time champion, the rival |
+
+#### The "NOT from Sindh" question type — learn the exclusion set
+
+This note's most exam-useful feature is the set of people it lists who are **associated
+with Sindh but not from it**. SPSC frames these as negative options.
+
+| Figure | Actually from | Why they appear in a Sindh note at all |
+|---|---|---|
+| **Allama Iqbal** | Sialkot, Punjab | His vision of Pakistan underpins the Pakistan movement; the 1930 Allahabad Address is the anchor fact |
+| **Dr. Abdus Salam** | Jhang, Punjab | Nobel Prize in Physics 1979; co-founded ICTP in Trieste in 1964 |
+| **Dr. Atta-ur-Rahman** | Born in Delhi, 1942; raised and educated in Karachi | UNESCO Science Prize; led the Higher Education Commission |
+| **Dr. Abdul Qadeer Khan** | Sibi, Balochistan; moved to Karachi in 1952 | Led the uranium enrichment programme at KRL |
+| **Jansher Khan** | Peshawar, Khyber Pakhtunkhwa | Pakistani squash, but not a Sindhi |
+
+> **Tip:** memorise this exclusion set as a negative list before you memorise any positive
+> list. If a question offers Iqbal, Salam or Qadeer Khan as "a notable personality **of
+> Sindh**", the fact is true of their association with Pakistan and false of Sindh, and
+> that distinction is exactly what the negative option is testing.
+
+#### Polity lineage chain — the Bhutto family tree as a memory hook
+
+- **Sir Shah Nawaz Bhutto** (1888–1953) — Viceroy's Council; advocated Muslim rights in Sindh
+- → **Zulfikar Ali Bhutto** (1928–1979) — PPP founded **1967** in Lahore; President 1971–73; PM 1973–77; architect of the **1973 Constitution**; overthrown by the 1977 coup; died **4 April 1979**
+- → **Benazir Bhutto** (1953–2007) — PM 1988–1990 and 1993–1996; first woman to lead a modern Muslim state as PM; assassinated **27 December 2007** in Rawalpindi
+- → **Bilawal Bhutto Zardari** — current PPP Chairman
+
+The chain is easier to hold as three links than as three separate entries. If you remember
+that the grandfather served on the Viceroy's Council and the grandson chairs the PPP today,
+the middle name and the two dates follow without being memorised independently.
+
+#### Date lattice — the five dates that carry marks
+
+| Year | Event |
+|---|---|
+| **1843** | Napier conquers Sindh; first Governor appointed |
+| **1936** | G.M. Syed's campaign achieves Sindh's separation from Bombay Presidency |
+| **1967** | Zulfikar Ali Bhutto founds the PPP in Lahore |
+| **1979** | Zulfikar dies 4 April; Abdus Salam takes the Nobel Prize in Physics |
+| **2007** | Benazir assassinated 27 December in Rawalpindi |
+
+Note that **1979** carries two unrelated facts from two different people. Exam setters use
+shared years as distractors, so knowing the year without the name is worth very little.
+
+#### Shah Jo Risalo memory hook
+
+- **30 surs** (chapters), each set to a different **musical mode** — this is why the work
+  sits at the intersection of poetry and music rather than being a poetry collection
+- Anchor the stories through the three that are almost always asked: **Sassui Punhun**,
+  **Sohni Mahiwal** and **Sorath Rai**
+- The legend set is often called the **Seven Queens of Sindh** — the count varies by source,
+  so quote the three you are sure of and let the question supply the rest
+- Bhittai was born at **Hala** (Matiari District) and died at **Bhit** (Bhit Shah, Karachi
+  District) — the shrine's annual urs is at Bhit, not at Hala
+
+#### Examiner Trap — the founding-party question
+
+If a question asks who founded the PPP, the year, or the city, the answer is **Zulfikar Ali
+Bhutto, 1967, Lahore** — all three together. Lahore is the trap: he was born in Larkana and
+represented a Sindhi constituency, so "Larkana" feels right, but the party was founded at
+a convention in Lahore. Ask for the *event*, and the venue follows; ask for the *origin*,
+and people drift to the birthplace.
+
+
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 

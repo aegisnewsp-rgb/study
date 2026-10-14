@@ -161,6 +161,101 @@ Sections 1-3 are psychometric — they measure pattern recognition, spatial reas
 - **UL MSc Speech and Language Therapy admissions:** https://www.ul.ie/gps/courses/msc-speech-and-language-therapy-professional-qualification
 - **CAO application (HPAT is combined with CAO Leaving Certificate points):** https://www.cao.ie/
 
+### 🔴 Extended — Deep Dive (5/10 — how the automatic marker actually reads Section 4)
+
+> Section 4 is the only HPAT-Ireland section with no ground truth you can grind against.
+> Sections 1–3 reward volume; Section 4 rewards four separable habits. Read this tier
+> when the yellow tier is no longer enough to explain *why* a piece scored what it did.
+
+#### The four criteria are four independent detectors, not one impression
+
+The automatic marker scores idea development, structure, expression and mechanics
+**separately**. That matters, because it means a piece can be strong on one axis and
+still lose the band on another — and it means you can attack them one at a time.
+
+| Criterion | What it rewards | What it punishes | Cheapest fix in a 5-minute edit |
+|---|---|---|---|
+| Idea development | One central claim carried forward through every paragraph | A list of facts with no line of reasoning | Delete your weakest paragraph and add a second supporting sentence to your strongest |
+| Structure | Paragraphs that each do one job, joined by explicit links | Four paragraphs that all restart from scratch | Write your topic sentence above each paragraph before drafting; revise so consecutive paragraphs start with *However / This matters because / By contrast* |
+| Expression | Varied sentence length, vocabulary beyond the prompt's, a stable professional register | One repeated sentence pattern; words lifted verbatim from the prompt | Read the draft aloud and underline every sentence over 35 words; break one in half |
+| Mechanics | Correct spelling, agreement, tense, punctuation | Any consistent error pattern, which the marker flags reliably | Read once only for errors, not for meaning |
+
+#### Examiner Trap — the paraphrase trap costs both idea development and expression
+
+The single most common Section 4 error is answering the *topic* instead of the *question*.
+A piece that defines what community transport is, then explains why it matters generally,
+has shown the marker that you can write — and has not developed an idea. Idea development
+asks whether **your** line of reasoning holds together. Anchor every paragraph to the exact
+wording of the task, and if a paragraph could be pasted into an answer to a different task,
+it is not doing work.
+
+#### Worked walkthrough — one response, marked on all four axes
+
+Take the claim: *the real barrier to cycling in a mid-sized town is not the absence of
+infrastructure but the absence of continuity.*
+
+1. **Claim** — the idea is a real argument with a counter-intuitive "not X but Y" shape.
+   Idea development is already ahead of an average response before the second paragraph.
+2. **Support** — describe what a discontinuous network actually costs a rider: a usable
+   route that dead-ends at a junction forces an experienced cyclist off-road, while a
+   novice simply stops riding. This is *reasoning*, not description.
+3. **Implication** — for a health profession, continuity is a population-health problem
+   rather than an engineering one: the same gap that stops a rider also delays a
+   rehabilitation appointment. This is what lifts the piece into the top band.
+
+**The mark-up that matters:** compare that with a piece that opens by defining what a
+cycle lane is, then lists benefits. Same vocabulary range, similar length, but three
+paragraphs doing the same job and none carrying an argument. That is the gap the marker
+reads on idea development, and no amount of vocabulary polish closes it.
+
+> **Tip:** write the topic sentence of every paragraph on a separate line before you draft
+> the paragraph. If two topic sentences could be swapped between paragraphs without damage,
+> your structure has not been planned — it has only been ordered.
+
+#### The sentence-variety ladder (the cheapest expression gain available)
+
+| Length | Job it does | Where to place it |
+|---|---|---|
+| Under 8 words | Assertion or transition | Opening a paragraph, or bridging two ideas |
+| 12–20 words | Statement of fact or reasoning | The body of every paragraph |
+| 25–35 words | A claim with a qualifier — the load-bearing sentence | Once per paragraph, at the end of the argument |
+| Over 40 words | Almost always a drafting failure | Break it into two sentences |
+
+A response where every sentence sits in the 12–20 band reads as monotonous to the marker
+even when the content is correct. Deliberately place one short sentence and one long one
+per paragraph.
+
+#### Timed practice protocol for the final 14 days
+
+1. **Days 14–8** — one 20-minute block. Read an editorial or op-ed for 10 minutes, then
+   write 300–400 words answering a task of your own construction, borrowing its argument
+   but not its wording.
+2. **Days 7–4** — one 30-minute block. Work through the ACER practice material in full
+   simulation: no dictionary, no pausing, then apply the 3–5 minute outline step from the
+   yellow tier before each piece.
+3. **Days 3–1** — one 30-minute block. Two pieces back to back, timed, with a hard stop.
+   The second piece is where planning discipline actually gets tested.
+4. **Every session** — self-mark against all four criteria before reading the model answer.
+   Mark yourself on each axis separately, because that is how the automatic marker reads.
+
+#### Self-marking when no human marker exists
+
+Since re-marking is not available, the only feedback loop you control is a structured
+self-mark. Use three passes, in this order, and never mix them:
+
+- **Pass 1 — mechanics only.** Correct every spelling, agreement, tense and full-stop error.
+  Do not comment on argument. Do not fix structure.
+- **Pass 2 — structure only.** Check that each paragraph has exactly one job and that the
+  ordering earns its place. Mark the transitions with `→`.
+- **Pass 3 — expression only.** Read aloud. Underline repeated sentence patterns. Circle
+  any word lifted verbatim from the prompt. Cut one sentence from every paragraph that
+  repeats an idea already made.
+
+Running the passes in this order prevents the common failure of rewriting the argument
+when the actual defect was a missing comma — which costs mechanics marks while leaving the
+real, invisible structure problem in place for the next sitting.
+
+
 ---
 
 ## Continue your study

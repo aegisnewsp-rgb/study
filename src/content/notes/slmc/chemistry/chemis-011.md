@@ -169,6 +169,58 @@ The **peptide bond** connecting amino acids in proteins is a **secondary amide**
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
+### 🔴 Extended — Deep Study (3mo+)
+
+> For the last revision pass: why basicity runs in the order it does, and the mechanism behind each named reaction.
+
+#### Basicity Is Settled by Two Competing Effects
+
+An amine's lone pair on nitrogen is either **available** to a proton or **tied up** by delocalisation. That single tension settles every ordering question:
+
+| Effect | Effect on basicity | Example |
+|--------|--------------------|---------|
+| **+I** electron donation | Increases | Ethylamine > methylamine > ammonia |
+| **−R** resonance withdrawal | Decreases | Aniline < ammonia |
+| **−I** electronegativity withdrawal | Decreases | CF₃NH₂ < CH₃NH₂ |
+
+The classic four-member ordering follows from two separate mechanisms: **ethylamine > methylamine > ammonia > aniline**. Citing only one of them earns partial credit at best.
+
+#### Why Aniline Is Weaker Than Its Lone Pair Suggests
+
+Anilinium has pKa ≈ 4.6 against methylammonium at pKa ≈ 10.6 — a six-unit gap, so aniline is roughly a million times less basic. The cause is resonance, not electronegativity: the nitrogen lone pair occupies a p orbital conjugated with the ring, and delocalising it into benzene costs more energy than protonation returns.
+
+Two consequences follow, and options exploit both:
+
+- Aniline salts are **acidic** in solution, not neutral — anilinium chloride gives a mildly acidic salt.
+- Groups **ortho or para** to −NH₂ raise electron density and increase basicity; a para nitro group reverses the trend sharply, so p-nitroaniline is far weaker still.
+
+> ⚠️ **Examiner Trap:** "Aniline is more basic than ammonia because nitrogen carries a lone pair." Both carry one, but ammonia has no π system to delocalise into. Basicity measures *availability* of that pair, not its existence.
+
+#### Hofmann Elimination — Fewer Alkyl Carbons, More Alkenes
+
+The quaternary ammonium hydroxide is heated, hydroxide removes a β-hydrogen, and the trimethylamine leaving group departs. The product is the **least substituted** alkene, opposite to Zaitsev's rule, precisely because the bulky leaving group abstracts the most accessible hydrogen.
+
+Worked check: 2-methylbutan-1-amine gives predominantly **2-methylbut-1-ene**, not the more stable 2-methylbut-2-ene.
+
+#### Amides Versus Amines — Why Hydrolysis Differs
+
+| Property | Amide (R−CONH₂) | Amine (R−NH₂) |
+|----------|--------------------|-----------------|
+| N lone pair | Fully delocalised into C=O | Freely available |
+| Basicity | Essentially non-basic | Weakly basic |
+| Hydrolysis | **Very slow** | Not applicable |
+| LiAlH₄ reduction | Gives the corresponding **amine** | No reaction |
+
+That last row is the one to memorise: LiAlH₄ converts an amide into an amine with the **same carbon skeleton**, which is why it is used to prepare amines that cannot be built by substitution on a halide.
+
+#### Ring Size Decides the Outcome
+
+An amide with nitrogen *and* carbonyl inside a five- or six-membered ring is a **lactam**. On heating it hydrolyses to the corresponding amino acid, because a lactam cannot persist as a neutral open-chain amide — ring strain in the zwitterion is what stabilises it.
+
+#### How This Is Tested
+
+Basicity ordering and product prediction account for most marks in this unit. Questions handing you a structure and asking for the product of the carbylamine test, nitrous-acid treatment, or Hofmann elimination are answerable from mechanism alone, so rehearse the mechanism rather than memorising reagent lists. Read the substrate first: where the carbonyl sits relative to nitrogen changes the answer every time.
+
 ## Continue your study
 
 - **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Amines & Amides" fits in your personalised plan

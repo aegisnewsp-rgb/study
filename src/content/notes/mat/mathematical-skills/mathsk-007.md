@@ -174,9 +174,6 @@ Formula: $x = \frac{y}{1+R/100} + \frac{y}{(1+R/100)^2} + ... + \frac{y}{(1+R/10
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
-
 ## Continue your study
 
 - **[View this topic in your MAT roadmap](/roadmap/?exam=mat&duration=1mo)** — see where "Simple & Compound Interest" fits in your personalised plan

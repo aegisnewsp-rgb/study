@@ -16,8 +16,6 @@ lastUpdated: 2026-05-26
 
 # Coding-Decoding
 
-### 🟢 Lite
-
 ### 🟢 Lite — Quick Review (1h–1d)
 
 Coding-decoding questions test your ability to identify patterns in letter or number transformations and apply them to decode new words or numbers. In the GATE exam, these questions typically appear in the General Aptitude section and carry 1-2 marks each. The key is to systematically identify the transformation rule and verify it against all given examples before applying it to the question word.
@@ -88,6 +86,43 @@ Pattern confirmed: +1 shift for all letters. The code is a Caesar cipher with sh
 When multiple patterns seem possible, eliminate options by applying each candidate pattern to the given word and seeing which result matches the coded word. GATE questions typically have 4 options, so you can work backwards from options if direct pattern-finding is difficult.
 
 ---
+
+#### Coding Types You Will Meet Alongside Shifts
+
+**Position-based coding.** The shift depends on where the letter sits in the word rather than on one rule for all letters. Odd positions may shift by +n while even positions shift by +m. Test for this whenever the letter-by-letter differences are not constant.
+
+**Opposite-letter (Atbash) coding.** Each letter becomes its mirror in the alphabet, so A↔Z, B↔Y. With positions numbered 1–26 the mapping is position → 27 − position.
+
+*Worked example:* FLY → UOB. F(6) → 27 − 6 = 21 = U; L(12) → 27 − 12 = 15 = O; Y(25) → 27 − 25 = 2 = B. ✓
+
+**Word-structure coding.** Letters are rearranged rather than substituted. Adjacent pairs can swap (LE|AD → EL|DA = ELDA), the whole word can reverse, or the first and last letters can trade places.
+
+**Number-symbol coding.** Letters map to digits or symbols through a fixed key that stays consistent across every example in the question.
+
+**Pair and sequence swaps.** Letters can be rearranged by rule rather than substituted: adjacent pairs swap (AB CD → BA DC), first and last trade places (ABCD → DBCA), each pair reverses (AB CD EF → BA DC FE), or the whole word reverses before another operation applies. Test these four before inventing anything new.
+
+**Interweaving.** Two words can merge their letters alternately — take the first letter of word one, then word two, and continue in turn. If the question supplies a pair of words rather than one, interweaving is usually the rule.
+
+**Word-structure rules.** Beyond swaps, a code can use the first letters of the words in a phrase, separate vowels from consonants (shift the vowels, leave the consonants), or shift only the letters sitting at prime positions.
+
+**Number-letter mapping.** Letters map to digits or symbols through a substitution table — for example A→4, E→3, I→1, O→0, S→5, T→7 in common leetspeak. Two position conventions appear: A=1…Z=26, and its mirror A=26…Z=1. The given examples decide which is in play.
+
+#### Worked Example: Reversing Each Block of Three
+
+**Q:** In a certain code, "MASTER" is written as "SAMRET". How is "CLASS" coded?
+
+Step 1 — Label MASTER by position: M(1) A(2) S(3) T(4) E(5) R(6). The coded word SAMRET maps back to positions 3, 2, 1, 6, 5, 4.
+
+Step 2 — Read the structure: positions 1–3 reverse in place, and positions 4–6 reverse in place. MAS → SAM and TER → RET, giving SAMRET. ✓
+
+Step 3 — Apply to CLASS (5 letters): the first block of three is CLA → reversed = ALC; the remaining pair SS → SS.
+
+**Answer:** ALCSS
+
+#### Two Mistakes Worth Naming
+
+- **Assuming one rule covers every position** → some questions use per-position rules (1st letter +N, 2nd letter −M). Recheck the differences letter by letter before committing.
+- **Overcomplicating a simple rule** → most GATE patterns are simpler than they first appear. Try the straightforward rule first, then escalate.
 
 ### 🔴 Extended — Deep Study (3mo+)
 
@@ -161,174 +196,53 @@ When direct pattern-finding stalls, work backwards from the answer choices: appl
 
 **⚡ Pro Tip for GATE:** In coding-decoding, if you see Z involved, always check for wraparound (Z+1=A, A-1=Z). Time yourself — these questions should take no more than 90 seconds each in the actual exam.
 
-### 🟡 Standard
+#### Determinism Is the Thing Being Tested
 
-### Concept
-Coding-decoding problems present you with words or numbers that have been transformed according to some hidden rule. Your job is to discover that rule and apply it to a new word or number. These problems test your ability to spot patterns — the same skill you need for real-world problem-solving where you identify trends from data.
+The same input always produces the same output inside a single question. That is why a rule must be checked against *every* letter of *every* given example before you use it. A pattern that fits four letters out of five is not the pattern — it is a coincidence whose boundary you have not found yet.
 
-The key to these problems is systematic comparison. You look at the original input and the coded output side by side, letter by letter (or number by number), and figure out what transformation occurred. The transformation can be positional (where a letter sits in the alphabet), relational (how letters relate to each other within the word), or structural (how the word itself is rearranged).
+#### Wrap-Around Arithmetic, With Numbers
 
-GATE coding-decoding questions come in several varieties, but they all follow the same fundamental approach: find the pattern from the examples, verify it holds, then apply it to the question.
+Treat the alphabet as a circle of 26 positions.
 
-### Types & Approach
+- Forward shift past Z: Y(25) + 3 = 28 → 28 − 26 = 2 → **B**
+- Backward shift past A: C(3) − 5 = −2 → −2 + 26 = 24 → **X**
 
-**Type 1: Letter Shift ( Caesar Cipher style)**
-Every letter moves by a fixed number of positions in the alphabet. Forward shift means moving toward Z; backward means moving toward A. Watch for wrap-around at the ends.
-- A→C (shift +2): D→F, Z→B (wraps around)
-- M→K (shift -2): P→N, A→Y (wraps around backward)
-- Approach: Pick one letter, find its alphabetical position, find the coded letter's position, calculate the difference. Apply to all letters to verify.
+Neither shift is possible without the wrap.
 
-**Type 2: Position-Based Coding**
-The letter's position in the word or alphabet determines the transformation. Example: first letter is shifted by +2, second by +3, third by +4, etc.
-- "ABC" → "CDE" could mean each letter shifted by +2, OR first letter +2, second +2, third +2. Need to verify.
-- Approach: Check if the shift is uniform or varies by position. Check if shift depends on alphabetical position itself.
+#### Three Shift Variants Worth Drilling
 
-**Type 3: Alphabetical Reverse (Atbash)**
-A↔Z, B↔Y, C↔X, and so on. The alphabet is mirrored.
-- Mapping rule: position N → position 27 − N. So A↔Z (1↔26), B↔Y (2↔25), and so on.
-- Worked example FLY → UOB: F(6) → 27−6 = 21 = U; L(12) → 27−12 = 15 = O; Y(25) → 27−25 = 2 = B.
-- Approach: For each letter, subtract its position from 27 and read off the new letter.
+**Alternating shift.** Odd and even positions shift by different amounts. "HELLO" with the pattern +2, −1, +2, −1, +2 gives JDNKQ.
 
-**Type 4: Word Coding / Interweaving**
-Letters from the word are rearranged, or letters from two words are interleaved.
-- Adjacent-pair swap example: "LEAD" → split into pairs LE | AD, swap each pair → EL | DA → "ELDA".
-- Interleaving example: two words contribute letters alternately, e.g. FIRST + lasts merge their letters in turn.
-- Approach: Try pairing letters (1st with 2nd, 3rd with 4th), reversing pairs, reversing the entire word, or taking first letters, and verify each candidate against the given example.
+**Position-dependent shift.** The shift equals the letter's own position. A(1)→B, B(2)→D, C(3)→F = BDF.
 
-**Type 5: Number-Symbol Coding**
-Numbers or symbols replace letters according to a key. Usually each letter maps to a specific number.
-- A→4, B→8, E→3, etc.
-- Approach: Map each letter to its code symbol/number from the given pairs, verify consistency, apply to new word.
+**Vigenère (keyword) shift.** A repeating key sets the shift for each letter. Key "BAD" means +2, +1, +4, then repeat. MECH → O F G J = **OFGJ**. The key repeats cyclically: "CAT" applies +3, +1, +20, then +3 again on the fourth letter.
 
-### Step-by-Step Example
-**Q:** In a certain language, "MASTER" is coded as "SAMRET." How would "CLASS" be coded?
+#### Practice Problem: Fixed Letter-to-Digit Substitution
 
-**Approach:**
+**Q:** In a certain code, "TRAIN" is written as "12345" and "RAIN" as "2345". How is "PLAIN" written?
 
-Step 1 — Label MASTER by position: M(1) A(2) S(3) T(4) E(5) R(6). The coded word is SAMRET.
+Step 1 — Read TRAIN = 12345 in order: T=1, R=2, A=3, I=4, N=5.
 
-Step 2 — Map each output letter back to its source position in MASTER. SAMRET = S(3) A(2) M(1) R(6) E(5) T(4), so the position sequence is 3, 2, 1, 6, 5, 4.
+Step 2 — Confirm against RAIN = 2345: R=2, A=3, I=4, N=5. The substitution is consistent across both words.
 
-Step 3 — Read the structure: positions 1–3 become 3, 2, 1, and positions 4–6 become 6, 5, 4. Each block of three letters is reversed in place. MAS → SAM and TER → RET, giving SAMRET. This is the "reverse each group of three letters" rule.
-
-Step 4 — Verify the rule reproduces the code: MAS reversed = SAM, TER reversed = RET, combined = SAMRET. The rule holds for every letter.
-
-Step 5 — Apply the rule to CLASS, which has 5 letters: C(1) L(2) A(3) S(4) S(5). The first group of three is CLA → reversed = ALC. The remaining two letters SS reverse to SS.
-
-Step 6 — Combine the reversed groups: ALC + SS = ALCSS.
-
-**Answer:** ALCSS
-
-### Common Mistakes
-- Applying pattern before verifying on ALL given examples → **Fix:** Always check your discovered pattern on every given word-number pair before using it.**
-- Forgetting wrap-around at Z and A → **Fix:** For shifts near the end of alphabet, remember Z+1=A, A-1=Z.**
-- Getting confused by mixed patterns (some letters shift, some don't) → **Fix:** Some questions use positional rules (1st letter shifts +N, 2nd letter shifts -M, etc.).**
-- Overthinking complex patterns → **Fix:** Most GATE patterns are simpler than they first appear. Try the straightforward approach first.**
-
-### 🔴 Extended
-
-### Full Concept Explanation
-
-Coding-decoding is fundamentally about pattern recognition under constraint. You are given an input and its coded output, and you must reverse-engineer the transformation rule. What makes these problems interesting — and tricky — is that the same result can often be produced by different rules. Your job is to find the rule that is most consistent, most elegant, and most likely to apply to the new question.
-
-The underlying principle in most coding-decoding problems is **determinism**: the same input always produces the same output within a given question. If you apply your discovered rule to letter 1 of the given word and it works, you should verify it works for ALL letters before committing to the answer. A pattern that works for only some letters is not the pattern.
-
-**Letter Position Arithmetic:**
-The English alphabet has 26 letters. When dealing with position-based shifts, it helps to think of the alphabet as circular — after Z comes A, before A comes Z. This is called "modular arithmetic" with a modulus of 26.
-
-For forward shifts: if the shift goes past Z, subtract 26 to wrap around.
-- Y (position 25) + 3 = position 28 → 28 - 26 = 2 → B
-
-For backward shifts: if the shift goes below A, add 26.
-- C (position 3) - 5 = position -2 → -2 + 26 = 24 → X
-
-This circular nature is what makes many coding problems work — the shifts would be impossible without it.
-
-**Types of Coding Patterns — Detailed:**
-
-**1. Uniform Letter Shift (Caesar Cipher):**
-Every letter shifts by the same number N positions. This is the classic Caesar cipher, used by Julius Caesar to protect military messages.
-- Encode: each letter → letter + N (mod 26)
-- Decode: each letter → letter - N (mod 26)
-- Example: N=3: A→D, B→E, ..., X→A, Y→B, Z→C
-
-**2. Alternating Shift:**
-Odd positions shift by +N, even positions shift by -M (or different values).
-- "HELLO" (H=8, E=5, L=12, L=12, O=15): if shift pattern is +2, -1, +2, -1, +2: H→J, E→D, L→N, L→K, O→Q = JDNKQ
-
-**3. Position-Dependent Shift:**
-The shift amount depends on the letter's alphabetical position, not just its word position.
-- Example: shift each letter by its own position number. A(1)→A+1=B, B(2)→B+2=D, C(3)→C+3=F = BDF
-
-**4. Pair/Sequence Swap:**
-Letters in the word are rearranged according to a pattern:
-- Adjacent pair swap: AB CD → BA DC
-- First and last swap: ABCD → DBCA
-- Reverse pairs: AB CD EF → BA DC FE
-- Reverse entire word, then apply another operation
-
-**5. Atbash (Mirror) Cipher:**
-The alphabet is divided in half and reversed: A↔Z, B↔Y, C↔X... Z↔A.
-Position N → position 27 - N.
-This is self-inverse — applying it twice returns the original.
-
-**6. Vigenère Cipher (Key-Based):**
-A keyword determines the shift for each letter. "CAT" means first letter shifts by C(3), second by A(1), third by T(20), fourth cycles back to C(3).
-- MECH with key BAD → M+B=O, E+A=F, C+D=G, H+B=J = OFGJ
-
-**7. Word Coding:**
-The word is transformed structurally, not letter-by-letter:
-- First letters of words in a phrase form a code
-- Vowel and consonant separation: vowels shift, consonants stay
-- Letters at prime positions shift, others don't
-
-**8. Number-Letter Mapping:**
-Each letter maps to a specific number or symbol. These are essentially substitution ciphers.
-- A→4, E→3, I→1, O→0, S→5, T→7, etc. (common leetspeak)
-- Given: A=1, B=2... vs A=26, B=25... (reverse alphabetical)
-
-### GATE-Level Practice
-
-**Q1:** In a certain code, "TRAIN" is written as "12345" and "RAIN" is written as "2345." How is "PLAIN" written?
-
-This is a fixed letter-to-digit substitution, so the goal is to pin down each letter's digit from the two given pairs and reuse those digits in the new word.
-
-Step 1 — Read off the digits from TRAIN = 12345, taking the letters in order: T=1, R=2, A=3, I=4, N=5.
-
-Step 2 — Confirm against RAIN = 2345: R=2, A=3, I=4, N=5. These four assignments match TRAIN exactly, so the substitution is consistent. Each letter keeps the same digit across words.
-
-Step 3 — Build PLAIN = P, L, A, I, N. Three of its letters are already fixed: A=3, I=4, N=5. The code therefore ends in 3-4-5.
-
-Step 4 — Assign the two new letters P and L. The digits 1 and 2 are the only ones not yet used. Following the established order in which fresh letters receive the lowest available digits, P=1 and L=2.
-
-Step 5 — Combine: P(1) L(2) A(3) I(4) N(5).
+Step 3 — Build PLAIN. A=3, I=4, N=5 are already fixed, so the code ends 3-4-5. The unused digits are 1 and 2, which go to P and L.
 
 **Answer: 12345**
 
-Note how the verification step (matching RAIN against TRAIN) guarantees the mapping is consistent before it is extended to PLAIN. Always confirm a substitution holds for every shared letter before trusting it.
+#### Four Ways to Approach an Unfamiliar Code
 
-### Multiple Approaches
+1. **Position mapping** — read the digit or letter straight off the alphabet position (A=1 or A=26).
+2. **Shift detection** — take any letter, compute the difference, verify across all letters, then apply.
+3. **Pair analysis** — test adjacent swap, first-last swap, full reverse, odd-even split.
+4. **Input-output alignment** — write input over output and read the transformation off each column.
 
-**Approach 1: Position Mapping**
-Identify the alphabetical or word-position mapping for each letter. This works when the code is based on letter positions (A=1, B=2 or reversed A=26, B=25).
+#### Edge Cases That Decide Marks
 
-**Approach 2: Shift Detection**
-For Caesar-style ciphers, pick any letter, calculate the shift, verify on all letters, apply to new word.
-
-**Approach 3: Pair Analysis**
-For word-interweaving questions, try common patterns: adjacent swap, first-last swap, reverse all, odd-even position swap.
-
-**Approach 4: Input-Output Comparison**
-Write the input and output one below the other, align letters vertically, and identify the transformation for each position.
-
-### Tricky Cases / Edge Cases
-
-- **Letters at alphabet boundaries:** Z+1=A, A-1=Z in forward/backward shifts. Always wrap around.
-- **Words of different lengths:** If coding a word of different length than given examples, the pattern may or may not be position-dependent. Check if the pattern is absolute (letter X always coded as Y) or relative (position-based).
-- **Multiple valid patterns:** Sometimes two different patterns can explain the same data. Choose the simplest or most consistent one.
-- **Letters not in the given set:** If the new word has letters not in any example, you may need to infer their code from the alphabetical logic.
-- **Case sensitivity:** Usually all letters are treated as uppercase, but verify if the problem specifies.
-- **Spaces and punctuation:** Sometimes ignored, sometimes coded separately. Check the pattern.
+- **Alphabet boundaries** — Z+1 = A and A−1 = Z. Check this first whenever Z or A appears.
+- **Different word lengths** — decide whether the rule is absolute (letter X always becomes Y) or relative (position-based). The examples decide which.
+- **More than one plausible rule** — pick the simplest rule that explains every example, not the most elaborate.
+- **Letters never seen in the examples** — infer them from the alphabet logic of the rule already confirmed.
+- **Case, spaces and punctuation** — usually ignored, but check whether the question codes them.
 
 *Content adapted based on your selected roadmap duration.*
 

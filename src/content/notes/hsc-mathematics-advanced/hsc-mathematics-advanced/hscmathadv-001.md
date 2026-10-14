@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Functions is the foundation of every other Area of Study in Mathematics Advanced. The HSC 2024 syllabus introduces functions in Year 11 (Working with Functions, Graph Transformations) and extends in Year 12 (Further Graph Transformations and Modelling). Functions appear in every HSC examination paper — in algebra, calculus, trigonometry, exponential and financial modelling questions.
 
-> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision around these figures.
+> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision.
 
 ---
 

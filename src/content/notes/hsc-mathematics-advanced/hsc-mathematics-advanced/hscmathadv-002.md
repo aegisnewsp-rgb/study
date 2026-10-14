@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Trigonometric Functions is one of the seven Areas of Study in the HSC Mathematics Advanced syllabus. It is introduced in Year 11 (Trigonometry and Measure of Angles, Trigonometric Identities and Equations) and extended in Year 12 (applications of sine and cosine functions to modelling periodic phenomena). Trigonometric identities and the sine and cosine rules appear across both HSC papers and are also foundational for any subsequent study of Mathematics Extension 1.
 
-> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision around these figures.
+> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision.
 
 ---
 

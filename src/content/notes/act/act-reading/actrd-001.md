@@ -34,7 +34,6 @@ ACT Reading central claim questions evaluate understanding of main ideas, paragr
 
 - Misreading key constraint words in the prompt (such as *except*, *not*, *least*, *integer*, *constant*).
 - Falling for attractive partial answers that represent an intermediate calculation step rather than the final required quantity.
-- Forgetting negative signs or failing to flip inequality operators during algebraic transformations.
 - Basing textual answers on outside background knowledge rather than direct evidence supplied within the passage.
 - Spending excessive time struggling on a single difficult problem instead of flagging it, making an educated guess, and maintaining forward momentum.
 
@@ -43,7 +42,7 @@ ACT Reading central claim questions evaluate understanding of main ideas, paragr
 - [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
-- [ ] Are you comfortable using standard examination interface tools (calculators, highlighters, question-flagging flags)?
+- [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
 
 ---
 

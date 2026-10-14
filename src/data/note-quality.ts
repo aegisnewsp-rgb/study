@@ -69,14 +69,19 @@ export function isGoodNote(entry: { body?: string; data?: { topicName?: string }
 
 // Canonical-dedup. When two or more good notes share the same
 // exam/subject/topicName they render a byte-identical <title> and meta
-// description — a Google duplicate-content signal (10 pairs flagged in the
-// 2026-07-04 AdSense audit, e.g. neet/physics `fluid-mechanics.md` and
-// `phy-009.md` are both "Fluid Mechanics"). Keep exactly ONE canonical page per
-// group indexed and noindex the rest. Canonical preference: a human-readable
-// topic slug (the intended URL) over a generic numbered slug (`phy-009`), then
-// the longer body, then id — fully deterministic so the build is reproducible.
+// description — a Google duplicate-content signal (8 pairs, census run
+// 2026-10-14T01:35Z against this function, e.g. neet/physics `fluid-mechanics.md`
+// and `phy-009.md` are both "Fluid Mechanics"). Keep exactly ONE canonical page
+// per group indexed and noindex the rest. Canonical preference: the substantially
+// longer body first, then a human-readable topic slug (the intended URL) over a
+// generic numbered slug (`phy-009`) to break near-ties, then id — fully
+// deterministic so the build is reproducible.
 // Returns the set of note ids that should be noindexed as non-canonical dups.
 const GENERIC_SLUG_RE = /^[a-z]{2,8}-?\d{2,4}$/i; // phy-009, chem-003, compan-004, wassce-015
+// Two near-identical notes are a slug decision, not a length decision: a 5% body
+// gap is noise, a 48% gap is the real page. Without this gap the slug test ran
+// first and noindexed the richer note whenever its slug was human-readable.
+const BODY_GAP_TOLERANCE = 0.1;
 export function duplicateNoteIds(
   allNotes: Array<{ id: string; body?: string; data?: { topicName?: string } }>,
 ): Set<string> {
@@ -95,11 +100,13 @@ export function duplicateNoteIds(
     if (notes.length < 2) continue;
     const slugOf = (id: string) => id.split('/')[2] || '';
     const canonical = [...notes].sort((a, b) => {
+      const al = (a.body ?? '').length, bl = (b.body ?? '').length;
+      const gap = Math.abs(al - bl) > Math.max(al, bl) * BODY_GAP_TOLERANCE;
+      if (gap) return bl - al;                             // substantially longer body wins
       const ag = GENERIC_SLUG_RE.test(slugOf(a.id)) ? 1 : 0;
       const bg = GENERIC_SLUG_RE.test(slugOf(b.id)) ? 1 : 0;
-      if (ag !== bg) return ag - bg;                       // human-readable slug wins
-      const al = (a.body ?? '').length, bl = (b.body ?? '').length;
-      if (al !== bl) return bl - al;                       // longer body wins
+      if (ag !== bg) return ag - bg;                       // near-tie: human-readable slug wins
+      if (al !== bl) return bl - al;                       // both slugs equal class: longer body wins
       return a.id.localeCompare(b.id);                     // stable tiebreak
     })[0];
     for (const n of notes) if (n.id !== canonical.id) dups.add(n.id);

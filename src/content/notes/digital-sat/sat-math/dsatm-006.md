@@ -62,20 +62,6 @@ To secure consistent accuracy on Problem-Solving & Data Analysis: Ratios, Rates,
 3. **Validate Against Constraints**:
    Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
 
-#### Detailed worked example
-
-**Problem Context**:
-Consider a standard high-yield test problem illustrating Problem-Solving & Data Analysis: Ratios, Rates, and Units under realistic examination conditions.
-
-**Item Prompt**:
-A researcher models a process where initial conditions and rate parameters determine the final outcome. Given standard constraints, which choice correctly evaluates the target parameter based on the defined relationships?
-
-**Step-by-Step Solution**:
-- **Step 1 (Setup)**: Formulate the relationship explicitly based on given constraints and identify known constants.
-- **Step 2 (Execution)**: Substitute the values into the governing relationship and isolate the unknown term. Perform algebraic or structural simplifications systematically.
-- **Step 3 (Evaluation)**: Compare the calculated result against the provided multiple-choice options. Reject distractors that omit intermediate operations or flip logical signs.
-- **Conclusion**: The verified result corresponds strictly to the correct option through direct methodological derivation.
-
 ---
 
 ### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)

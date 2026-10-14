@@ -232,6 +232,56 @@ When a carbonyl group is within a chain (not at the end), it is a ketone and use
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
+### 🔴 Extended — Deep Study (3mo+)
+
+> For the last stretch before the exam: locant placement, multiplicative prefixes, and the counting rule that decides ring versus chain.
+
+#### Only One Group May Carry the Suffix
+
+The single highest-priority group takes the suffix and every other group drops to a prefix. A molecule bearing both –OH and –CHO is named as an aldehyde with a hydroxy prefix — **2-hydroxyethanal**, never 2-oxoethanol. An alcohol alongside a ketone becomes oxo: **4-oxopentan-2-ol** is correct where 4-hydroxy-2-pentanone is not.
+
+The reading step that prevents most errors is inspecting the carbonyl itself. A carbonyl bearing a hydrogen is an aldehyde; a carbonyl flanked by two carbons is a ketone. Count the attachments before you assign the suffix.
+
+#### Locants Sit in Front of the Suffix
+
+Current IUPAC placement puts the locant immediately before the ending — **cyclohexan-1-ol**, **but-2-ene**, **prop-2-en-1-ol**. Older textbooks print 1-cyclohexanol and 2-butene, and both forms still turn up in Sri Lankan A-level papers, so recognising the older form is not the same as producing it. Where a printed question supplies its own answer key in the older style, match the key.
+
+Aldehydes and ketones are the exception: the carbonyl carbon is C-1 by definition, so no locant appears at all.
+
+#### Multiplicative Prefixes — Simple Versus Complex
+
+Repeat the prefix only when the substituent itself is simple. Two methyl groups give **1,2-dimethyl**; a complex substituent repeated twice gives **bis(**, never di-. Simple substituent names use di-, tri-, tetra-, while complex bracketed groups use bis-, tris-, tetrakis-.
+
+| Substituent | Twice | Three times |
+|---|---|---|
+| methyl (simple) | dimethyl | trimethyl |
+| hydroxy (simple) | dihydroxy | trihydroxy |
+| methylpropyl (complex) | bis(methylpropyl) | tris(methylpropyl) |
+
+#### Ring or Chain — Count the Carbons
+
+The ring is the parent when it carries at least as many carbons as the longest attached chain. **Ethylcyclohexane** is correct because the six-carbon ring outranks the two-carbon chain. Reverse the ratio and the chain takes over: **cyclohexylbutane** is right where butylcyclohexane is wrong. Counting first prevents both directions of slip.
+
+#### Worked Example: Three Groups, One Suffix
+
+Take HOOC–CH₂–CH(NH₂)–CH(OH)–CH₃.
+
+- **Parent chain:** five carbons ending in the acid, so the base is pentanoic acid and the acid carbon is automatically C-1
+- **Carboxyl outranks hydroxyl and amine**, so the acid alone keeps the suffix
+- **Numbering from the acid end** gives 3-amino and 4-hydroxy, a locant set of {3,4}. From the far end it would be {2,3}
+
+The lowest-set test compares the two sets as sorted sequences and takes the smaller one, so {2,3} beats {3,4} and the far end wins here. Naming: **3-amino-4-hydroxypentanoic acid** is the acid-end version; the correct answer is the one the test intends — confirm which end carries the acid before committing, because the acid carbon must be C-1.
+
+#### Ester and Amide — Two Traps in One Line
+
+An ester R–COOR′ is named **alkyl alkanoate** — the alkyl group attached to oxygen comes first, then the acid part as an alkanoate. Ethyl ethanoate is CH₃COOC₂H₅; the reverse order, ethanoic acid ethyl ester, is acceptable in older papers but the alkyl-first form is the current name.
+
+An amide R–CONH₂ takes **-amide** with the amide carbon counted in the chain — propanamide is CH₃CH₂CONH₂, three carbons, not two. An amine with the nitrogen *inside* the chain uses the suffix **-amine** with **N-** to locate the substituent, so the correct name is N-methylethanamine, never 2-methylethanamine.
+
+#### How This Is Tested
+
+SLMC nomenclature questions cluster into three types: name the given structure, identify the correct suffix for a functional group, and catch the deliberate error in a printed name. The third type carries the most marks and always turns on one of the rules above — the suffix hierarchy, the locant position, or the multiplicative prefix. Work each option back through the priority table before discarding it, because a plausible-looking wrong name almost always violates exactly one of those.
+
 ## Continue your study
 
 - **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "IUPAC Nomenclature of Organic Compounds" fits in your personalised plan

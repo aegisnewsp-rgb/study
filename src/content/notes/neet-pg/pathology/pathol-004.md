@@ -186,6 +186,62 @@ lastUpdated: 2026-03-25
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
+### 🔴 Extended — Deep Study (3mo+)
+
+> For the final revision window: reading a pedigree cold, telling anticipation from variable expression, and the repeat-expansion table that appears in almost every paper.
+
+#### Four Terms That Are Not Interchangeable
+
+A single-gene disease behaves differently from another even when both are autosomal dominant, and the exam leans on the distinction.
+
+| Term | Meaning | Classic example |
+|---|---|---|
+| **Anticipation** | Earlier onset and worse severity in each succeeding generation | Huntington disease, myotonic dystrophy |
+| **Variable expressivity** | Same genotype, different severity among affected relatives | Marfan syndrome, neurofibromatosis type 1 |
+| **Incomplete penetrance** | Carriers who show no signs at all | retinoblastoma, familial adenomatous polyposis |
+| **Late onset** | Unaffected carriers who will develop the disease later | Huntington disease, Huntington's usually fourth or fifth decade |
+
+Anticipation is the one with a mechanism: the repeat expands during transmission, most often on the paternal side, so each generation starts earlier. Variable expressivity and incomplete penetrance have no repeat-expansion story — they reflect modifier genes and environment.
+
+#### The Repeat-Expansion Table
+
+| Disease | Locus | Repeat | Anticipation |
+|---|---|---|---|
+| Huntington | 4p16.3 | CAG | Yes |
+| Myotonic dystrophy | 19q13.3 | CTG | Yes, most severe example |
+| Fragile X | Xq27.3 | CGG | Yes |
+| Friedreich ataxia | 9q21.11 | GAA | Yes |
+
+Three CAG disorders is the popular grouping: Huntington, spinal and bulbar muscular atrophy (Kennedy disease, X-linked, androgen receptor CAG), and dentatorubral-pallidoluysian atrophy. All three are anticipation-positive, which is why the table is worth memorising as a set rather than as four separate entries.
+
+#### Worked Example: Reading a Pedigree
+
+Three siblings are affected. Two parents are unaffected. The disease is rare in the population.
+
+Unaffected parents producing affected offspring excludes dominant inheritance outright — a dominant allele cannot skip a carrier parent and still appear in three children, barring a fresh mutation. The remaining candidates are autosomal recessive and X-linked recessive. Both parents are carriers, so roughly **one in four** pregnancies is affected and **one in two** children is a carrier. That expected 25% is the number a pedigree question usually wants.
+
+Now change one fact: only sons are affected and there are no affected daughters. That pushes the trait onto the X, because an affected daughter would need an affected father, and the father here is unaffected. Reading a pedigree is mostly about which single observation eliminates the most hypotheses.
+
+#### Autosomal Recessive — The Founders You Should Recognise
+
+Founder effect explains why certain recessive diseases cluster in small populations. Ellis–van Creveld syndrome in the Amish of Pennsylvania, Tay–Sachs disease in Ashkenazi Jews, and phenylketonuria in parts of Ireland all trace to a small number of shared ancestors. The clinical picture is unchanged; what changes is the carrier frequency, and therefore how likely a question is to make the disease look common.
+
+#### Balanced Polymorphism — Sickle Cell
+
+HbS is a textbook deleterious mutation and also a textbook example of heterozygote advantage. In malaria-endemic regions, heterozygotes resist *Plasmodium falciparum* because the sickled red cells are cleared faster, so carriers suffer less severe malaria while avoiding sickle cell disease. The frequency gradient tracks malaria prevalence across Africa, the Mediterranean, the Middle East and India — a favourite one-line question on natural selection.
+
+The same reasoning explains the persistence of G6PD deficiency and thalassaemia in exactly those regions. Deficiency is not a neutral trait; it is maintained because the cost is paid only in the absence of the parasite.
+
+#### Mosaicism Is Not Chimerism
+
+**Mosaicism** arises after fertilisation — a mitotic error in the zygote produces two genetically distinct cell lines, and the proportion of each determines the phenotype. Down syndrome in some patients is mosaic, with a normal cell line alongside trisomic 21 and a milder presentation than the full form.
+
+**Chimerism** arises from two fertilised embryos that fuse early, as in the common dizygotic twin fusion, or from a twin absorbed in utero. The individual carries two genetically distinct populations of cells from the moment of conception. Both conditions can produce patchy or asymmetric findings, and the distinction matters in questions asking which arose post- or pre-zygotically.
+
+#### How This Is Tested
+
+NEET PG asks this unit as one-liners on karyotype, one-line associations between a gene and a phenotype, and the occasional pedigree or Hardy–Weinberg calculation. The pedigree items are the only ones needing more than recall, and the solution is always the same three steps: rule out dominant, rule out mitochondrial by looking for maternal-only transmission, then use the sex distribution to separate autosomal from X-linked recessive.
+
 ## Continue your study
 
 - **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Genetic Disorders & Single-Gene Diseases" fits in your personalised plan

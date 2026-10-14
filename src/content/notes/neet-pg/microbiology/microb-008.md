@@ -207,6 +207,52 @@ lastUpdated: 2026-03-25
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
+### 🔴 Extended — Deep Study (3mo+)
+
+> For the final revision window: matching each parasite to its vector, its reservoir, and the single diagnostic test that settles it.
+
+#### Vector, Reservoir, Diagnostic — The Row Every Parasite Fills
+
+Memorising parasites works far better as rows than as paragraphs, because exams ask for one column at a time.
+
+| Parasite | Vector / route | Reservoir | Settling diagnostic |
+|---|---|---|---|
+| *Plasmodium* | *Anopheles* female | Human (except *P. knowlesi*, macaque) | Thick and thin smear; rapid antigen test |
+| *Wuchereria bancrofti* | *Culex*, *Anopheles* | Human | Night-time blood smear, 10 pm–2 am |
+| *Onchocerca volvulus* | *Simulium* blackfly | Human | Skin snip for microfilariae, not blood |
+| *Leishmania donovani* | Sandfly | Human and dog (zoonotic) | Bone marrow / splenic aspirate |
+| *Entamoeba histolytica* | Fecal–oral | Human | Cysts with **2** nuclei, ingested RBCs |
+| *Giardia* | Fecal–oral, water | Human, beaver | Stool antigen, string test |
+| *Ascaris lumbricoides* | Ingested embryonated egg | Human | Eggs in stool; no intermediate host |
+| *Taenia solium* | Ingested cysticerci in undercooked pork | Human | Proglottids; **pork is the definitive host** |
+| *Echinococcus granulosus* | Ingested eggs from dog faeces | Dog | Hydatid cyst; **dog is the definitive host** |
+
+The last two rows are the classic confusion. *Taenia solium* is the one where humans get the **larval** form by eating undercooked pork and the **adult** tapeworm by swallowing eggs in faecal-oral contamination — the two are separate diseases. *Echinococcus* never completes its cycle in humans, so the dog carries the adult worm and humans carry the hydatid cyst.
+
+#### The Nocturnality Rule
+
+A microfilaria in peripheral blood is *Wuchereria bancrofti* and it appears at night, matching the mosquito's feeding rhythm. Sampling at 10 am returns nothing even in an infected patient, which is why the question specifies the hour. The species that is **not** nocturnal is *Loa loa*, sampled during the day.
+
+The same timing logic explains why *Onchocerca* microfilariae are found in skin snips rather than blood — they do not circulate in peripheral blood at all, they sit in the dermis. Finding microfilariae in blood and calling it onchocerciasis is a wrong answer, not a detail.
+
+#### The Motility That Identifies the Stool Organism
+
+Exam questions describe a fresh stool specimen and expect the morphology, not the name.
+
+- *Entamoeba histolytica* cyst: **up to 4 nuclei**, and mature trophozoites contain ingested red blood cells — the ingested-RBC detail is diagnostic and separates it from *E. dispar*
+- *Giardia lamblia* cyst: **4 nuclei**, pear-shaped trophozoite with two nuclei giving a face-like appearance, and a ventral sucking disc
+- *Entamoeba coli* cyst: **up to 8 nuclei** and a more compact nucleus — the common trap when a question says "cyst with 8 nuclei"
+
+#### Vector Control Is Not Decoration
+
+Malaria control in India relies on the **LLIN** — long-lasting insecticidal nets — distributed under the national programme, with indoor residual spraying in selected areas. DDT worked historically and India achieved elimination of local transmission, but DDT is now restricted because of its environmental persistence and its effect on non-target species.
+
+Filariasis took the opposite route and was targeted directly: mass drug administration with **DEC plus albendazole**, and DEC alone in areas endemic for *Wuchereria*, is the elimination strategy that India has used successfully. Mass DEC administration is the standard answer whenever a question asks how lymphatic filariasis is being eliminated, not how it is being treated in an individual.
+
+#### How This Is Tested
+
+Parasitology questions are short by design. Most are single-best-answer on the vector, the reservoir, or one distinguishing morphological feature. The worked columns above cover nearly all of them: if you can recall the row, you can usually derive the answer, because the question gives you a clinical picture and asks you to identify the missing cell of the row.
+
 ## Continue your study
 
 - **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Parasitology — Malaria, Intestinal Parasites & Filariasis" fits in your personalised plan

@@ -125,7 +125,7 @@ For independent term: 18 − 3r = 0 → r = 6 → coefficient = C(9, 6) = 84
 - C(p^m, k) for prime p: often has p in denominator → not always divisible
 
 - **Remember:** T_{r+1} = C(n, r) · a^{n−r} · b^r; for (1+x)^n, coefficient of x^r is C(n, r); sum of coefficients = 2^n; coefficient of x^{2k} in (1+x²)^n = C(n, k)
-- **Previous years:** "Find the greatest term in expansion of (1+x)^{10} at x = 2/3" [2023]; "Coefficient of x^5 in (1+2x)^6(1−x)^8" [2024]; "Sum of series: C(10,0) + C(10,2) + C(10,4) + ..." [2024]
+- **Practice problems:** "Find the greatest term in expansion of (1+x)^{10} at x = 2/3"; "Coefficient of x^5 in (1+2x)^6(1−x)^8"; "Sum of series: C(10,0) + C(10,2) + C(10,4) + ..."
 
 ---
 

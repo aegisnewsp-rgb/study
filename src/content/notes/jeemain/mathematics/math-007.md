@@ -149,7 +149,7 @@ tr(AB) = tr(BA) — cyclic property
 R(θ) = [[cos θ, −sin θ], [sin θ, cos θ]] — orthogonal, det = +1
 
 - **Remember:** det(AB) = det(A)·det(B); det(A⁻¹) = 1/det(A); det(A^T) = det(A); eigenvalues satisfy |A − λI| = 0; trace = sum of eigenvalues; Cayley-Hamilton lets you find powers of matrix via its characteristic equation
-- **Previous years:** "Find inverse of [[2,1],[3,2]] using adjoint method" [2023]; "For matrix A, A² = I. Find possible eigenvalues of A" [2024]; "Solve using Cramer's rule: 2x + y = 5, x + 3y = 6" [2024]
+- **Practice problems:** "Find inverse of [[2,1],[3,2]] using adjoint method"; "For matrix A, A² = I. Find possible eigenvalues of A"; "Solve using Cramer's rule: 2x + y = 5, x + 3y = 6"
 
 ---
 

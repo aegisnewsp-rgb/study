@@ -148,7 +148,7 @@ For lim(x→∞) tan(π/x)/sin(2/x): set u = 1/x → as x → ∞, u → 0
 = tan(πu)/sin(2u) → (πu)/(2u) = π/2
 
 - **Remember:** sin x/x → 1 as x → 0 (radians!); (e^x − 1)/x → 1; (1 + 1/x)^x → e; convert 1^∞ to e^{lim g·(f−1)}; use L'Hôpital for 0/0 and ∞/∞ only after confirming the form
-- **Previous years:** "lim(x→0) (e^x − cos x)/sin x" [2023]; "lim(n→∞) [(n+1)(n+2)]^½ − n" [2024]; "lim(x→0) (sin x − x cos x)/(x³)" [2024]
+- **Practice problems:** "lim(x→0) (e^x − cos x)/sin x"; "lim(n→∞) [(n+1)(n+2)]^½ − n"; "lim(x→0) (sin x − x cos x)/(x³)"
 
 ---
 

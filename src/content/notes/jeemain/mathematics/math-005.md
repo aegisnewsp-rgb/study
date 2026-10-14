@@ -128,7 +128,7 @@ Example: "How many ways can 5 men and 5 women be seated at a round table so that
 Treat men first: seat 5 men around the round table in (5−1)! = 4! = 24 ways → 5 men occupy 5 alternate seats, creating 5 gaps → 5 women fill the 5 gaps: 5! = 120 ways → total = 24 × 120 = 2880
 
 - **Remember:** Order matters → permutation (nP_r); order doesn't matter → combination (nC_r); to handle "at least one" or "none", use complement: total − cases where condition fails; for distributing identical items, use stars and bars: C(n+r−1, r−1)
-- **Previous years:** "Number of ways to select 3 consonants and 2 vowels from 7 consonants and 4 vowels" [2023]; "Number of ways to form a committee with at least 3 men from 5 men and 4 women" [2024]; "Arrange word ASSASSINATION" [2024]
+- **Practice problems:** "Number of ways to select 3 consonants and 2 vowels from 7 consonants and 4 vowels"; "Number of ways to form a committee with at least 3 men from 5 men and 4 women"; "Arrange word ASSASSINATION"
 
 ---
 

@@ -108,7 +108,7 @@ If α, β are roots of px² + qx + r = 0:
 4. Check domain restrictions
 
 - **Remember:** "D ≥ 0 gives real roots, D < 0 gives complex roots" — always evaluate discriminant first. For "both positive roots", use: D ≥ 0, sum > 0, product > 0, AND f(0) > 0
-- **Previous years:** "If roots of x² − ax + 2 = 0 are α, β and α² + β² = 8, find a" [2023]; "Range of k for which kx² + (k−2)x + (k−2) > 0 for all x" [2024]
+- **Practice problems:** "If roots of x² − ax + 2 = 0 are α, β and α² + β² = 8, find a"; "Range of k for which kx² + (k−2)x + (k−2) > 0 for all x"
 
 ---
 

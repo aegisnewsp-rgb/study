@@ -165,7 +165,7 @@ Validity is about structure, not about whether premises are actually true!
 - "Some students are absent": All students are present
 
 - **Remember:** p → q is false only when p is true and q is false; contrapositive ¬q → ¬p is equivalent to p → q; De Morgan's: ¬(p ∧ q) = ¬p ∨ ¬q
-- **Previous years:** "If p is true and q is false, find truth value of (p ∧ q) → p" [2023]; "Write converse, inverse, contrapositive of 'If it rains, I stay home'" [2024]; "Show that (p → q) ≡ (¬q → ¬p)" [2024]
+- **Practice problems:** "If p is true and q is false, find truth value of (p ∧ q) → p"; "Write converse, inverse, contrapositive of 'If it rains, I stay home'"; "Show that (p → q) ≡ (¬q → ¬p)"
 
 ---
 

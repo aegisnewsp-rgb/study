@@ -148,7 +148,7 @@ If point A is at bearing α and distance d from origin, coordinates: (d cos α, 
 For relative position, use vector addition
 
 - **Remember:** tan θ = opposite/adjacent; angle of elevation from object A to B = angle of depression from B to A; always draw right triangle diagram first
-- **Previous years:** "From point 50m away, angle of elevation to top of tower is 30°. Find height" [2023]; "From top of 100m building, angle of depression to car is 15°. Find distance" [2024]; "Two observers 100m apart measure angles 30° and 45° to same pole. Find pole height" [2024]
+- **Practice problems:** "From point 50m away, angle of elevation to top of tower is 30°. Find height"; "From top of 100m building, angle of depression to car is 15°. Find distance"; "Two observers 100m apart measure angles 30° and 45° to same pole. Find pole height"
 
 ---
 

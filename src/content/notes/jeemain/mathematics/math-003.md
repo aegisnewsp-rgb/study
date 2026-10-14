@@ -114,7 +114,7 @@ Three numbers a, ar, ar² (GP) with condition involving arithmetic mean → solv
 Example: If AM of numbers 1, 1+r, 1+r+r² exceeds their GM by 2, then solve (1 + (1+r) + (1+r+r²))/3 − (1·(1+r)·(1+r+r²))^(1/3) = 2
 
 - **Remember:** Sum of first n natural numbers = n(n+1)/2; Sum of cubes = [n(n+1)/2]² — these appear constantly. Also, if a, b, c are in AP → 2b = a + c; if a, b, c are in GP → b² = ac; if a, b, c are in HP → (1/a), (1/b), (1/c) are in AP
-- **Previous years:** "If sum of first n terms of AP is n² + 5n, find the 10th term" [2023]; "Find sum of series: 2 + 6 + 12 + 20 + ..." [2024]; "Infinite GP sum is 3 and sum of squares is 15, find first term and ratio" [2024]
+- **Practice problems:** "If sum of first n terms of AP is n² + 5n, find the 10th term"; "Find sum of series: 2 + 6 + 12 + 20 + ..."; "Infinite GP sum is 3 and sum of squares is 15, find first term and ratio"
 
 ---
 

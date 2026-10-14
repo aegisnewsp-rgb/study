@@ -165,7 +165,7 @@ If plane is →n · (→r − →a) = 0 and point is →p, then foot of perpendi
 →q = →p − [(→n · (→p−→a)/|→n|²)] →n
 
 - **Remember:** Line in 3D: (x−x₁)/a = (y−y₁)/b = (z−z₁)/c; Plane: Ax+By+Cz+D=0; Distance point to plane: |Ax₁+By₁+Cz₁+D|/√(A²+B²+C²); Angle line-plane: sin φ = |→n·→d|/(|→n||→d|)
-- **Previous years:** "Find equation of plane through (1,2,3) perpendicular to line (x−1)/2 = (y−2)/3 = (z−3)/4" [2023]; "Find distance between parallel planes 2x + 3y + 4z = 5 and 2x + 3y + 4z = 9" [2024]; "Show that lines (x−1)/2 = (y−2)/3 = (z−3)/4 and (x−1)/1 = (y−2)/1 = (z−3)/1 are skew" [2024]
+- **Practice problems:** "Find equation of plane through (1,2,3) perpendicular to line (x−1)/2 = (y−2)/3 = (z−3)/4"; "Find distance between parallel planes 2x + 3y + 4z = 5 and 2x + 3y + 4z = 9"; "Show that lines (x−1)/2 = (y−2)/3 = (z−3)/4 and (x−1)/1 = (y−2)/1 = (z−3)/1 are skew"
 
 ---
 

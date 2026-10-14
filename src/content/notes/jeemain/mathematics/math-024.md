@@ -183,7 +183,7 @@ Sum of squares of roots = 0 for n > 2
 If ε is any n-th root of unity except 1, then 1 + ε + ε² + ... + ε^{n−1} = 0
 
 - **Remember:** |z − a| = r → circle; |z − z₁| = |z − z₂| → perpendicular bisector; rotation: z' = α + (z − α)e^(iθ); n-th roots sum to 0; for 90° rotation, multiply by i
-- **Previous years:** "Find locus of z if |z − 2i| = 2|z − 1|" [2023]; "Find cube roots of unity and verify sum = 0" [2024]; "Rotate point (1+i) by 60° about origin, find new coordinates" [2024]
+- **Practice problems:** "Find locus of z if |z − 2i| = 2|z − 1|"; "Find cube roots of unity and verify sum = 0"; "Rotate point (1+i) by 60° about origin, find new coordinates"
 
 ---
 

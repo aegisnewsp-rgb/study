@@ -141,7 +141,7 @@ i.e., xx₁ + yy₁ + g(x + x₁) + f(y + y₁) + c = (x₁² + y₁² + 2gx₁ 
 Substitute line into circle, solve quadratic in x; if discriminant = 0 → tangent; > 0 → secant; < 0 → no intersection
 
 - **Remember:** Centre (−g, −f), radius √(g²+f²−c) for general form; T = 0 gives tangent; S₁ = 0 checks if point lies on circle; chord of contact uses T = 0 from external point; common chord of S₁ = 0, S₂ = 0 is S₁ − S₂ = 0
-- **Previous years:** "Find equation of circle through (1,2) and (3,4) with centre on x-axis" [2023]; "Find length of tangent from (5,4) to x²+y²−6x−8y+5=0" [2024]; "Find equation of common chord of x²+y²=9 and x²+y²−6x−8y+5=0" [2024]
+- **Practice problems:** "Find equation of circle through (1,2) and (3,4) with centre on x-axis"; "Find length of tangent from (5,4) to x²+y²−6x−8y+5=0"; "Find equation of common chord of x²+y²=9 and x²+y²−6x−8y+5=0"
 
 ---
 

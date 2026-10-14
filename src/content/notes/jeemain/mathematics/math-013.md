@@ -147,7 +147,7 @@ dy/dx = f(x) → dy = f(x)dx → ∫ dy = ∫ f(x)dx → y = ∫ f(x)dx + C
 Average = (1/(b−a)) ∫_a^b f(x) dx
 
 - **Remember:** ∫ f'(x) dx = f(x) + C (reverse of differentiation); for even functions over symmetric limits, double from 0 to a; for odd functions over symmetric limits, result is 0; use parts when integrand is product of polynomial and exponential/trig function
-- **Previous years:** "Evaluate ∫_0^1 x e^x dx using integration by parts" [2023]; "Find area bounded by y = x² and y = x" [2024]; "Evaluate ∫ sin⁻¹x dx" [2024]
+- **Practice problems:** "Evaluate ∫_0^1 x e^x dx using integration by parts"; "Find area bounded by y = x² and y = x"; "Evaluate ∫ sin⁻¹x dx"
 
 ---
 

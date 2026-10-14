@@ -154,7 +154,7 @@ HM = n/(1/x₁ + 1/x₂ + ... + 1/x_n); useful for rates and ratios
 GM = (x₁·x₂·...·x_n)^{1/n}; less affected by outliers than arithmetic mean
 
 - **Remember:** Mean = ∑f_i x_i/∑f_i; Variance = ∑f_i(x_i − x̄)²/∑f_i = (∑f_i x_i²/∑f_i) − x̄²; σ² = (∑x_i²)/n − (x̄)² is the quick calculation method
-- **Previous years:** "Find mean and variance of first n natural numbers" [2023]; "For grouped data: find median class and calculate median" [2024]; "If mean of 10 numbers is 20 and adding 5 more numbers makes mean 25, find original sum" [2024]
+- **Practice problems:** "Find mean and variance of first n natural numbers"; "For grouped data: find median class and calculate median"; "If mean of 10 numbers is 20 and adding 5 more numbers makes mean 25, find original sum"
 
 ---
 

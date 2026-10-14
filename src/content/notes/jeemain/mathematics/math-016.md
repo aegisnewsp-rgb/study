@@ -144,7 +144,7 @@ Two lines intersect at point solving their equations simultaneously
 - Orthocenter: intersection of altitudes
 
 - **Remember:** Distance point to line = |Ax₁ + By₁ + C|/√(A²+B²); parallel: m₁ = m₂; perpendicular: m₁m₂ = −1; section formula for ratio m:n internal division
-- **Previous years:** "Find distance of point (3,4) from line 3x + 4y + 5 = 0" [2023]; "Find equation of line through (1,2) making 45° with x + y = 3" [2024]; "Show that lines 2x + 3y = 5 and 4x + 6y = 9 are parallel, find distance" [2024]
+- **Practice problems:** "Find distance of point (3,4) from line 3x + 4y + 5 = 0"; "Find equation of line through (1,2) making 45° with x + y = 3"; "Show that lines 2x + 3y = 5 and 4x + 6y = 9 are parallel, find distance"
 
 ---
 

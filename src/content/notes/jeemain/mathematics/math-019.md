@@ -139,7 +139,7 @@ If vectors are expressed in terms of unit vectors: →a = a₁î + a₂ĵ + a₃
 - (→a + →b) × (→a − →b) = 2(→b × →a)
 
 - **Remember:** →a · →b = a₁b₁ + a₂b₂ + a₃b₃; →a × →b = determinant; scalar triple product gives volume; projection formula: (→a · →b̂) = (→a · →b)/|→b|
-- **Previous years:** "Find angle between vectors →a = î + ĵ and →b = ĵ + k̂" [2023]; "Find projection of →a on →b if →a = 2î + 4ĵ − k̂ and →b = 3î + 2ĵ + 2k̂" [2024]; "Find unit vector perpendicular to both →a = î + ĵ and →b = ĵ + k̂" [2024]
+- **Practice problems:** "Find angle between vectors →a = î + ĵ and →b = ĵ + k̂"; "Find projection of →a on →b if →a = 2î + 4ĵ − k̂ and →b = 3î + 2ĵ + 2k̂"; "Find unit vector perpendicular to both →a = î + ĵ and →b = ĵ + k̂"
 
 ---
 

@@ -139,7 +139,7 @@ Often asked to prove value of definite integral using symmetry
 Example: I = ∫_0^{π/2} ln(sin x) dx = −(π/2) ln 2
 
 - **Remember:** ∫_a^b f(x) dx = F(b) − F(a); if f(−x) = f(x) → even, double from 0; if f(−x) = −f(x) → odd, zero; king's property: ∫_a^b f(x) dx = ∫_a^b f(a+b−x) dx
-- **Previous years:** "Evaluate ∫_0^π x sin x/(1 + cos²x) dx" [2023]; "Show that ∫_0^a f(x) dx + ∫_0^a f(a−x) dx = a∫_0^a f(x) dx" [2024]; "Evaluate ∫_0^{π/2} sin²x dx" [2024]
+- **Practice problems:** "Evaluate ∫_0^π x sin x/(1 + cos²x) dx"; "Show that ∫_0^a f(x) dx + ∫_0^a f(a−x) dx = a∫_0^a f(x) dx"; "Evaluate ∫_0^{π/2} sin²x dx"
 
 ---
 

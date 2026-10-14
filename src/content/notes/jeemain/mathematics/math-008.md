@@ -143,7 +143,7 @@ And cos 2x = 1 − 2 sin²x → can express in sin x alone
 - Sum of all nth roots of unity = 0
 
 - **Remember:** ASTC for signs (+ quadrant I, All in II, S (only sin positive), T (only tan positive) in III, C (only cos positive) in IV); sin² + cos² = 1 always; general solutions: sin θ = sin α → θ = nπ + (−1)^nα; cos θ = cos α → θ = 2nπ ± α; tan θ = tan α → θ = nπ + α
-- **Previous years:** "Find general solution of 2 sin²x + sin x − 1 = 0" [2023]; "Prove that tan 20° tan 40° tan 60° tan 80° = 3" [2024]; "Find max value of 3 sin x + 4 cos x" [2024]
+- **Practice problems:** "Find general solution of 2 sin²x + sin x − 1 = 0"; "Prove that tan 20° tan 40° tan 60° tan 80° = 3"; "Find max value of 3 sin x + 4 cos x"
 
 ---
 

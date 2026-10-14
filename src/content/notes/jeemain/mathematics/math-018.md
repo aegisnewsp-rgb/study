@@ -149,7 +149,7 @@ Complete the square to identify centre (if any), axes, and parameters
 For shifted conic (x − h)²/a² + (y − k)²/b² = 1: centre (h, k), axes parallel to coordinate axes
 
 - **Remember:** Ellipse: c² = a² − b², e < 1; Hyperbola: c² = a² + b², e > 1; Parabola: e = 1, focus (a,0), directrix x = −a; general conic: discriminant B² − AC determines type
-- **Previous years:** "Find focus and directrix of parabola y² = 8x" [2023]; "If e = 1/2 for ellipse with a = 4, find b" [2024]; "Find equation of tangent to ellipse x²/9 + y²/4 = 1 at point (3 cos θ, 2 sin θ)" [2024]
+- **Practice problems:** "Find focus and directrix of parabola y² = 8x"; "If e = 1/2 for ellipse with a = 4, find b"; "Find equation of tangent to ellipse x²/9 + y²/4 = 1 at point (3 cos θ, 2 sin θ)"
 
 ---
 

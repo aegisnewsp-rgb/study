@@ -135,7 +135,7 @@ Given conditions at two different points (not just one initial condition)
 For second order: need two conditions to determine both constants
 
 - **Remember:** Variable separable: dy/dx = f(x)g(y) → dy/g(y) = f(x)dx; Linear: IF = e^{∫P dx}; Exact: ∂M/∂y = ∂N/∂x; Second order homogeneous: solve characteristic equation, roots determine form
-- **Previous years:** "Solve dy/dx + 2y = e^{3x}" [2023]; "Find general solution of (1+x²)dy/dx + 2xy = 1" [2024]; "Solve d²y/dx² + 4dy/dx + 4y = 0" [2024]
+- **Practice problems:** "Solve dy/dx + 2y = e^{3x}"; "Find general solution of (1+x²)dy/dx + 2xy = 1"; "Solve d²y/dx² + 4dy/dx + 4y = 0"
 
 ---
 

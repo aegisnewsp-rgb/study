@@ -171,7 +171,7 @@ Average value of f(x) on [a, b] = (1/(b−a))∫_a^b f(x) dx
 When region is transformed, Jacobian may be needed for double integral
 
 - **Remember:** For area between curves y₁(x) and y₂(x): A = ∫_a^b |y₁ − y₂| dx; find intersection points for limits; polar area = (1/2)∫ r² dθ
-- **Previous years:** "Find area bounded by y = x² and y = x" [2023]; "Find area of region bounded by y = sin x from x=0 to x=2π and x-axis" [2024]; "Find area of circle r = 2a cos θ" [2024]
+- **Practice problems:** "Find area bounded by y = x² and y = x"; "Find area of region bounded by y = sin x from x=0 to x=2π and x-axis"; "Find area of circle r = 2a cos θ"
 
 ---
 

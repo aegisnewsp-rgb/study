@@ -191,10 +191,10 @@ If ε is any n-th root of unity except 1, then 1 + ε + ε² + ... + ε^{n−1} 
 
 | Detail | Value |
 |---|---|
-| Questions | 90 (30 per subject) |
+| Questions | 75 in Paper 1 (25 per subject); Paper 2A/2B for B.Arch/B.Plan |
 | Time | 3 hours |
 | Marks | 300 (90 per subject) |
-| Section | Physics (30), Chemistry (30), Mathematics (30) |
+| Section | Physics (25), Chemistry (25), Mathematics (25) |
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 

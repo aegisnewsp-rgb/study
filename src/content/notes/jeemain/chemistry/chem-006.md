@@ -95,7 +95,7 @@ The **Zeroth Law** establishes temperature as a fundamental property enabling th
 
 | Detail | Value |
 |---|---|
-| Questions | 90 (30 per subject) |
+| Questions | 75 in Paper 1 (25 per subject); Paper 2A/2B for B.Arch/B.Plan |
 | Sections | Physics, Chemistry, Mathematics |
 | Type | MCQ + Numerical Value (NAT) |
 | Time | 3 hours |

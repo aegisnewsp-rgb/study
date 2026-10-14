@@ -184,14 +184,14 @@ $$(AB)^{-1} = B^{-1}A^{-1}$$
 
 The NDA Mathematics paper typically has 120 questions total; matrices and determinants together contribute approximately 8–12 questions, making them high-priority topics for any preparation strategy.
 
+## Where this sits in the syllabus
+
+This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.
+
+
 ## Continue your study
 
 - **[View this topic in your NDA roadmap](/roadmap/?exam=nda&duration=1mo)** — see where "Matrices" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=nda&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[NDA exam overview](/exams/nda/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/nda/mathematics/)** — browse sibling topics in this subject
-
-
-## Where this sits in the syllabus
-
-This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.

@@ -180,14 +180,14 @@ This property can simplify complex determinant calculations by factorising matri
 
 The determinant chapter typically yields 3–5 questions per NDA paper. Master the expansion techniques, property-based shortcuts, and Cramer's rule applications for maximum efficiency in the exam.
 
+## Where this sits in the syllabus
+
+This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.
+
+
 ## Continue your study
 
 - **[View this topic in your NDA roadmap](/roadmap/?exam=nda&duration=1mo)** — see where "Determinants" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=nda&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[NDA exam overview](/exams/nda/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/nda/mathematics/)** — browse sibling topics in this subject
-
-
-## Where this sits in the syllabus
-
-This is one topic inside [NDA syllabus and topic weightage](/exams/nda/syllabus/) — where Mathematics sits among every NDA subject, with weightage. Read it before you decide what to revise first.

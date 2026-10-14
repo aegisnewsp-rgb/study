@@ -220,14 +220,14 @@ $$\log_a m = \frac{\log_b m}{\log_b a}$$
 - GP: $T_n = ar^{n-1}$; $S_n = \frac{a(1-r^n)}{1-r}$; $S_\infty = \frac{a}{1-r}$ (for $|r|<1$)
 - $\log_a(mn) = \log_a m + \log_a n$
 
+## Where this sits in the syllabus
+
+This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Mathematics sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.
+
+
 ## Continue your study
 
 - **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Algebra: Expressions and Equations" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/nabteb/mathematics/)** — browse sibling topics in this subject
-
-
-## Where this sits in the syllabus
-
-This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Mathematics sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.

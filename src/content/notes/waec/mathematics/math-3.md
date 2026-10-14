@@ -222,14 +222,14 @@ $$\log_2 48 \approx 4 + 1.585 = 5.585$$
 
 ⚡ **WAEC Examination Patterns:** Apply laws of indices to simplify expressions. Solve exponential and logarithmic equations. Solve problems involving compound interest and exponential growth/decay. Use change of base formula. Solve simultaneous equations with logs. Apply logs to real-world scales (pH, decibels, Richter).
 
+## Where this sits in the syllabus
+
+This is one topic inside [WAEC WASSCE syllabus and topic weightage](/exams/waec/syllabus/) — where Mathematics sits among every WAEC WASSCE subject, with weightage. Read it before you decide what to revise first.
+
+
 ## Continue your study
 
 - **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Indices and Logarithms" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
-
-
-## Where this sits in the syllabus
-
-This is one topic inside [WAEC WASSCE syllabus and topic weightage](/exams/waec/syllabus/) — where Mathematics sits among every WAEC WASSCE subject, with weightage. Read it before you decide what to revise first.

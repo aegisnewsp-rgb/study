@@ -227,14 +227,14 @@ A device for measuring potential difference without drawing current (since it is
 - $R = \rho l/A$ (resistivity)
 - $R_T = R_0(1 + \alpha \Delta T)$ (temperature dependence)
 
+## Where this sits in the syllabus
+
+This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Physics sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.
+
+
 ## Continue your study
 
 - **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Electric Current and Circuits" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
 - **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
-
-
-## Where this sits in the syllabus
-
-This is one topic inside [NABTEB syllabus and topic weightage](/exams/nabteb/syllabus/) — where Physics sits among every NABTEB subject, with weightage. Read it before you decide what to revise first.

@@ -73,14 +73,14 @@ Mixtures are further classified as **homogeneous** (uniform throughout) and **he
 
 ⚡ **Exam tip:** UPTET Paper 2 science questions often ask about teaching methods — not just content. For example, "Which activity would best help children understand that air occupies space?" requires knowledge of both the scientific concept and appropriate pedagogical strategies. Always look for the answer that reflects child-centred, activity-based learning aligned with NCF 2005.
 
+## Where this sits in the syllabus
+
+This is one topic inside [UPTET syllabus and topic weightage](/exams/uptet/syllabus/) — where Science sits among every UPTET subject, with weightage. Read it before you decide what to revise first.
+
+
 ## Continue your study
 
 - **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Matter: Classification and Physical Changes" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
 - **[All Science notes](/notes/uptet/science/)** — browse sibling topics in this subject
-
-
-## Where this sits in the syllabus
-
-This is one topic inside [UPTET syllabus and topic weightage](/exams/uptet/syllabus/) — where Science sits among every UPTET subject, with weightage. Read it before you decide what to revise first.

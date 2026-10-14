@@ -71,8 +71,8 @@ Pattern confirmed: +1 shift for all letters. The code is a Caesar cipher with sh
 | Pattern Type | Example Input | Example Output | Key Identifier |
 |---|---|---|---|
 | Constant shift | FLOWER | GMPXFS | Same difference throughout |
-| Alternating shift | STUDENT | UVYGCR | Two or more shift values |
-| Reverse shift | HELP | XLKO | Backwards order + shift |
+| Alternating shift | ABCD | EDGF | Odd and even positions shift differently |
+| Reverse shift | HELP | TPIL | Reverse order, then one uniform shift |
 | Position swap | MAN | NAM | First↔Last swap |
 | Opposite letter | BAT | YZG | A↔Z mapping (sum = 27) |
 

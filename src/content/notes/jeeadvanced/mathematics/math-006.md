@@ -167,12 +167,16 @@ Thus $f'$ is not continuous at $0$.
 
 This shows that even if $f$ is differentiable everywhere, $f'$ need not be continuous.
 
-**JEE Advanced Patterns (2018–2024):**
-- Differentiability of piecewise functions with parameters is very common
-- One-sided derivative calculations appear frequently
-- Implicit differentiation and its higher order variants are tested
-- Chain rule applications for complex compositions are common
-- L'Hôpital's rule and derivative in limit problems appeared in 2020, 2022
+**What to Practise in This Topic:**
+- Differentiability of piecewise functions with parameters — find the parameter value that makes $f$ differentiable at the join
+- One-sided derivatives — compare the left and right limits separately rather than assuming they agree
+- Implicit differentiation and its higher-order variants, where the derivative of both sides must be tracked
+- Chain rule over nested compositions, which is where sign errors accumulate
+- Limits of derivative expressions, and why the limit may fail to exist even when $f'$ is defined at the point
+
+These are the subtopics the syllabus places under Differentiability. We deliberately do not attach examination years to them here.
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

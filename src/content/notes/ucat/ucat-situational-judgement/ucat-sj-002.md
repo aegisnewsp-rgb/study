@@ -262,6 +262,92 @@ The Consortium publishes that there is no negative marking. A guess on a calibra
 
 ---
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Budget clusters, not items
+
+Averaging to 22.6 seconds per item is the wrong unit, because the scenario itself is read once and then shared across its items. Model the cluster instead.
+
+Read the scenario once at 15 seconds (fast) or 30 seconds (heavy). The first item adds about 12 seconds for its own question and four options. Every later item in the same cluster costs about 18 seconds, since only a targeted re-read is needed.
+
+| Items in cluster | Fast-read budget | Heavy-read budget |
+|---|---|---|
+| 1 | 27 s | 42 s |
+| 2 | 45 s | 60 s |
+| 3 | 63 s | 78 s |
+| 4 | 81 s | 96 s |
+| 6 | 117 s | 132 s |
+
+A plausible set of 69 items is four single-item clusters, six of two, seven of three, five of four and two of six — 24 clusters. Fast reads total 1458 seconds, which is 24.3 minutes, leaving about 100 seconds of genuine slack for the heavy reads you will meet. Plan on that slack; spend it early and you are still on the clock at the end.
+
+#### The cliff at the final three items
+
+With twelve items left and four minutes remaining you need twenty seconds per item, which is below your own average. Either you arrive at minute twenty-two already ahead, or you cannot finish. This is the only place in the subtest where the arithmetic genuinely beats you.
+
+The rule: when a cluster starts with two minutes left, count its items first. If the count exceeds the number you can rate in the time remaining at eighteen seconds each, answer only as many as fit, choosing the options that look most like the standard of care, and abandon the rest. There is no penalty for an unattempted item, so the cost of leaving blanks is nil, while the cost of reading half a scenario is a rating chosen with no information at all.
+
+#### Triage a scenario before you commit your first second
+
+Sort scenarios on sight, using cues that cost nothing to notice.
+
+| Class | Cues | Budget |
+|---|---|---|
+| Fast-read | Staffing or scheduling problem, two or three options plainly wrong, no clinical detail | Bottom of the cluster table |
+| Standard | A conflict between two reasonable duties, four plausible options | Middle of the table |
+| Heavy | Medication, escalation, safeguarding, or a long chain of prior events | Top of the table, and the only class worth protecting |
+
+Heavy scenarios are the ones worth spending the reserve on, and they are a small minority. Deciding this in two seconds prevents the commonest pacing failure, which is paying a heavy-read budget to a scenario that would have yielded its answer from the first line.
+
+#### When an item is genuinely undecidable
+
+Sometimes two options are indistinguishable and deliberation buys nothing. Deliberation also costs, and under an average of 22.6 seconds it costs more than the ambiguity is worth.
+
+Use the publish-and-move rule: identify your leading option, move it one position toward the middle if your first instinct was extreme, commit, and move to the next item without revisiting. The middle positions collect partial marks, so a hedged mid-scale rating captures value an extreme rating would forfeit if it is wrong. Revisiting is the expensive part, and the set gives you no second pass.
+
+#### Fast and extreme are different failure modes
+
+| Pace | Rating behaviour | Likely result |
+|---|---|---|
+| Fast, calibrated | Mid-scale where unsure, decisive where the stem is clear | The target profile |
+| Fast, extreme | 4s and 1s on nearly every item | Poor band; speed is not saving you |
+| Slow, calibrated | Good judgement, set unfinished | Poor band; unrated items are lost marks |
+| Slow and extreme | Long reads, then confident extremes | The worst combination |
+
+Speed is not the objective by itself. A candidate who finishes with every rating at an extreme end has the pacing of a band 1 candidate and the calibration of a band 3. Measure the two separately, because fixing either one alone leaves the other untouched.
+
+#### Three recoveries, each with a trigger
+
+**Mid-set panic** — the trigger is a cluster where you have spent double budget. Close the scenario, take one full breath, re-read only the question stem and its lead word, rate, and resume at the next cluster. Do not attempt to recover the time inside that scenario; the loss is already sunk.
+
+**The slow scenario** — the trigger is a heavy-read cluster that has passed its budget. Write the six-word uncertainty from the banding note, pick the option nearest the standard of care, rate it, and move. A late uncertain rating scores the same as an early uncertain rating and costs more.
+
+**A mis-click on the scale** — the trigger is realising mid-scenario that a rating is impossible given what you have just read. Re-rate that one item only. Correcting a single rating is legitimate; re-reading the scenario to justify the correction is what breaks the budget.
+
+#### A 26-minute timetable, eleven clusters
+
+| Minute | Action |
+|---|---|
+| 0:00–0:30 | Instruction screen read once, two heavy clusters banked |
+| 0:30–3:00 | Four fast and standard clusters at the low end of the table |
+| 3:00–9:00 | Six standard clusters, three items each, steady at about 63 seconds |
+| 9:00–14:00 | Four longer clusters including both six-item scenarios |
+| 14:00–20:00 | Remaining clusters, reserve the slack here rather than earlier |
+| 20:00–22:00 | Deliberate consolidation: finish every cluster currently open |
+| 22:00–26:00 | Rate what fits at eighteen seconds each, abandon the rest |
+
+The timetable front-loads the heavy work and back-loads the slack, because the only predictable error is the one that happens last.
+
+#### Build pace from measurement, not from impression
+
+Record the time from first word of a scenario to its final rating, for every cluster, on every practice set. Then compare against the cluster table.
+
+- Clusters running 20 per cent over budget are reading problems, not pace problems; fix by forcing a single full read plus targeted re-reads.
+- Clusters running over while being read twice are the eight-to-twelve-second tax appearing in your own numbers.
+- Clusters finishing early while ratings sit at the extremes mean you are rushing the decision, not the reading.
+
+After ten sets, take the median per cluster size. That median, not your sense of speed, is the budget you sit down with. Official UCAT practice tests are the right benchmark for the published shape; cohort statistics and any year-on-year figures belong on ucat.ac.uk, read live before your sitting.
+
+---
 ### What to do next
 
 1. Take ten official SJT clusters. Time each cluster from first read to last rating, and write the time on the sheet. A four-item cluster should land at 60 to 90 seconds; a six-item cluster at 90 to 130 seconds.

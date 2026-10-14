@@ -312,6 +312,87 @@ After one cycle of the four-day plan, your wrong answers should cluster in one o
 
 ---
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### A band is a judgement about similarity, not a percentage
+
+The subtest returns one band, and the band compares your judgements with the published model answers across the whole set. That is a different object from a score.
+
+| What a band tells you | What a band does not tell you |
+|---|---|
+| How closely your responses clustered on the model answers | Your raw number of full marks |
+| Which side of a published descriptor you sit | How you compared with the candidates beside you |
+| Whether the pattern is stable across the set | Which universities will find you acceptable |
+
+Two candidates can hold the same band from visibly different profiles — one who was consistently close to ideal, another who was exact on some items and badly adrift on others. Admissions staff read the descriptor, not a percentage, which is why the shape of your errors matters more than their count.
+
+#### How partial marks feed the cut
+
+One mark is awarded for matching the published ideal response, and a response close to that ideal earns partial marks rather than nothing. Two consequences follow that are worth stating carefully in an answer.
+
+First, a near miss is not equivalent to a wild guess, so the marginal value of converting a confident near miss into a true match is higher than the marginal value of converting a blank into a guess. Second, because the band is set by how well the set as a whole resembles the model answers, partial credit buys you tolerance: it lets several imperfect items sit inside a descriptor that says "many responses matching model answers" instead of tipping the pattern toward "substantial differences from ideal". The check you need is not each item alone but whether the misses are scattered or concentrated.
+
+#### Diagnose a band from an error log, not from a score
+
+Take your last practice set, ignore the score entirely, and log every item where your rating sat further than one scale position from the model answer.
+
+| Count of such items | Reading | What to do next |
+|---|---|---|
+| Zero to three, isolated | Calibration is sound | Leave it; spend the session on pace |
+| Four to eight, spread across different scenarios | Occasional slips, no single cause | Re-read the stems that produced them |
+| Four to eight, clustered in two or three scenarios | A topic blind spot | Drill those scenario types |
+| Nine or more, and mostly extreme ratings | Calibration deficit, the dominant problem | Slow the rating decision deliberately |
+
+The distribution tells you which of your six reasoning traps is biting. A score cannot: the same score can come from six different error patterns.
+
+#### Knowledge deficit and calibration deficit look identical in a score
+
+| | Knowledge deficit | Calibration deficit |
+|---|---|---|
+| What is missing | The standard of care or the option's meaning | The mapping from your judgement to the scale |
+| Symptom on review | You cannot say why your option was right | You can say why, yet rated it low |
+| What fixing it looks like | Learning the content area | Rating deliberately mid-scale, then committing |
+| Time to improve | Slower, across several sessions | Faster, often within one cycle |
+
+Separate them inside a single practice cycle: rate every item, then write one sentence defending each rating, then check against the model answers. If the defence is sound and the rating still disagreed, you have a calibration problem. If the sentence is empty, you have a knowledge problem. The two can coexist, in which case the calibration work pays off faster and should come first.
+
+#### The anchoring cascade after one poor scenario
+
+A scenario you rated badly has consequences beyond its own items. You carry the feeling of having erred into the next scenario, you read its options defensively, and your ratings drift toward the extremes rather than toward the middle of the scale. Confidence compounds in the wrong direction.
+
+The reset procedure is mechanical. After finishing a scenario where you are unsure, name the uncertainty in six words or fewer — "unclear if supervisor should act" — and then answer the next item with that sentence explicitly discounted, rating it on its own stem. Do not carry the previous scenario's verdict forward; each item is rated independently, and the subtest is constructed so that no item depends on the last.
+
+#### When the two scales pull in opposite directions
+
+An item can be the most important factor in the scenario and still be an inappropriate response for this patient, because importance and appropriateness are different questions. The published wording resolves it.
+
+| Stem opens with | You are judging | The trap |
+|---|---|---|
+| "How important would this be" | The significance of each consideration | Rating by how vividly the option is written |
+| "How appropriate is this response" | How well the action fits this situation | Rating by how sensible the action sounds in general |
+| "What is the most important" | A single best consideration | Missing the qualifier that narrows it |
+
+Read the leading words before the options, because the options are written to sound equally reasonable whichever scale is live. When the stem is genuinely ambiguous between the two scales, treat the more specific reading as the intended one.
+
+#### A calibration audit of one sitting
+
+Take a completed set and mark each item: exact match, one position away, or further. Six items that sit one or more positions away, concentrated in two scenarios, is enough to shift the descriptor even when the bulk of the set is close to model.
+
+Now group those six by trap: three from one scenario type and three from another means two different fixes. Four of one type means a single blind spot and a single drill. Then re-rate the six cold, without looking at your earlier answers, and record the result. Movement on the re-rate is direct evidence that the original pattern was calibration rather than knowledge, which is the distinction the whole band rests on.
+
+#### What changes in the final fortnight and what does not
+
+| Final fortnight | Final three days |
+|---|---|
+| Drill the six traps with worked scenarios | Stop learning new trap types |
+| Take full timed sets and audit every set | Keep the pace, drop the audit |
+| Fix pacing to a measured per-cluster budget | Re-read your own defences, not model answers |
+| Re-read band descriptors for wording | Sleep and logistics over revision |
+| Check live figures on ucat.ac.uk | No late cohort figures from memory or rumour |
+
+Nothing about the published format changes in the last few days: the item count, the minutes, the scoring rule and the band order are fixed. Cohort averages and per-band distributions move between years and must be read live from the official site at the time you are booking.
+
+---
 ### What to do next
 
 1. Take ten SJT scenarios and rate every response. After rating, write one sentence defending each rating. If the defence is shaky, that response is where your calibration needs work.

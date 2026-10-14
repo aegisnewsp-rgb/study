@@ -573,6 +573,94 @@ Each firm's output = 40/20 = 2 units
 
 ---
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Reading a firm's result off three lines, not off the word "profit"
+
+Every numerical on price theory reduces to asking where the price line sits against the cost lines you have drawn. Learn the three comparisons and you can classify any diagram you have never seen.
+
+| Price line sits | Compared with | Outcome | Does the firm produce? |
+|---|---|---|---|
+| P above ATC | ATC minimum | Super-normal (abnormal) profit | Yes, and it is worth expanding |
+| P = ATC | ATC minimum | Normal profit only | Yes, and it is worth staying at this scale |
+| P between AVC and ATC | — | Sub-normal return, a short-run loss | Yes, because variable costs are covered |
+| P below AVC | AVC minimum | Loss exceeds variable cost | No, shut down |
+
+Normal profit is a real cost: it is the payment to entrepreneurship. A firm showing only normal profit is not "breaking even without cost", it has exactly covered its implicit costs as well as its explicit ones. Treat any answer that calls normal profit a "loss" as wrong.
+
+> **Examiner trap:** "Sub-normal profit" and "loss" are not synonyms. Sub-normal means the firm earns less than it could elsewhere while still covering all costs; a loss means it recovers less than total cost. Between them lies the case that decides the answer: still operating, because shutdown means forfeiting the fixed cost as well.
+
+#### The shutdown point is lower than the break-even point
+
+Fixed cost is sunk the moment the factory exists, so it enters neither decision. Variable cost does.
+
+TC = 100 + 40Q + 5Q², so AVC = 40 + 5Q and ATC = 100/Q + 40 + 5Q.
+
+- AVC rises with output from a minimum of 40 at the origin. The shutdown price is therefore 40.
+- ATC is U-shaped: 100/Q + 5Q is minimised at Q = √20 ≈ 4.47, giving ATC ≈ 84.72. The break-even price is 84.72.
+
+Anything between 40 and 84.72 keeps the firm producing at a loss. At P = 70 the firm covers variable cost, contributes toward fixed cost, and stays open; at P = 30 it stops, because each unit sold destroys more variable cost than it earns.
+
+#### Why the competitive firm's supply curve stops where AVC ends
+
+In the short run a competitive firm supplies the rising portion of its MC curve, and supplies nothing below the minimum of AVC. The supply curve is therefore the MC curve above AVC-minimum and the horizontal axis below it. In the long run every cost is variable, so the whole MC curve qualifies; entry and exit then push price down to minimum ATC, leaving long-run industry supply perfectly elastic at that level.
+
+#### Kinked demand: rigidity explained without collusion
+
+An oligopolist faces a demand curve that is elastic below the prevailing price and inelastic above it, because rivals match a price cut but ignore a price increase.
+
+| The firm does | Rivals respond | Effect |
+|---|---|---|
+| Cuts price | Match the cut | Market share unchanged, profit lower |
+| Raises price | Ignore it | The firm loses its share, revenue falls |
+
+No single rival has to be hostile for this to happen; the reaction is simply the profit-maximising move for each. The gap between the two elasticities is the kinked segment, and within it the firm can change output and cut price without losing much, which is why profits can be unusually stable while quantity still moves.
+
+#### Cournot, Bertrand, and why one of them earns nothing
+
+Let two firms share P = 10 − Q with constant MC = 2.
+
+| Regime | Each firm's output | Total Q | Price | Profit per firm |
+|---|---|---|---|---|
+| Perfect collusion as one firm | 4 | 4 | 6 | 16 |
+| Cournot (each picks quantity) | 8/3 ≈ 2.67 | 5.33 | 4.67 | 7.11 |
+| Bertrand (each picks price) | 4 | 8 | 2 | 0 |
+
+Bertrand collapses because the price setter who undercuts by one unit captures the whole market. Rivalry on price is self-defeating, which is exactly why price leadership and quantity leadership are the durable forms of competition. The interaction is a prisoner's dilemma in shape: mutual restraint is the best outcome for both, unilateral undercutting is the best reply for one, and both end at the worst corner.
+
+#### Price discrimination and its three conditions
+
+A seller discriminates when it can charge different buyers different prices for the same product. Three things must hold: the seller must hold some market power, it must be able to prevent resale between the two groups, and the groups must differ in price sensitivity enough to keep them from comparing notes.
+
+Divide buyers into an elastic group and an inelastic group. The firm charges the elastic group close to marginal cost and the inelastic group well above it, so total output rises relative to a single price, and the loss of consumer surplus shrinks. Two-part tariffs — an entry fee plus a per-unit charge — push this to its limit, since the fee extracts the consumer's entire surplus before the unit price is set.
+
+The point worth remembering for an answer is comparative. Measured against the competitive benchmark of price equal to marginal cost, the least elastic group of buyers carries by far the largest markup. Discrimination does not create total surplus; it redistributes it, and the burden falls on those with the fewest alternatives.
+
+#### Deadweight loss, worked through
+
+Market demand P = 20 − Q, marginal cost constant at 4.
+
+- Under competition, P = MC: 20 − Q = 4 gives Q = 16, P = 4. Consumer surplus is ½(20 − 4)(16) = 128 and producer surplus is nil, so total surplus is 128.
+- Under monopoly, MR = 20 − 2Q = 4 gives Q = 8 and P = 12. Consumer surplus falls to ½(20 − 12)(8) = 32 while producer surplus rises to (12 − 4)(8) = 64, so total surplus is 96.
+- The missing surplus is 128 − 96 = 32, exactly the triangle ½(16 − 8)(12 − 4).
+
+Half the monopoly's gain is transferred from buyers and half is destroyed. The destroyed part is not a transfer and is not recoverable by any later sale.
+
+#### The markup rule, and why it is not simply "high price means high margin"
+
+With a downward-sloping demand curve a profit-maximising firm charges a markup over marginal cost, and the size of that markup is governed by how responsive buyers are:
+
+(P − MC)/P = −1/ε
+
+Check it against the monopoly just solved: (12 − 4)/12 = 0.667, so ε = −1.5, which is exactly the elasticity of P = 20 − Q at Q = 8. The rule converts a pricing decision into a demand-elasticity question, and it holds for any firm, monopolist or otherwise. Inelastic demand supports a wide markup; elastic demand does not.
+
+#### Contestability and the bridge to competition law
+
+A market with no sunk costs and no legal or technical barrier to entry disciplines incumbents even if only one firm currently operates, because the threat of entry caps price at the level a new entrant could sustain. Where entry is genuinely blocked, the discipline fails and market power persists.
+
+That is the economic logic behind the two limbs of the Competition Act, 2002: agreements that restrain competition, and the abuse of a dominant position. Verify the current text of the Act, the Commission's current composition and any specific orders on official sources rather than from memory; the economic test above is stable, the case law around it is not.
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
 ## Continue your study

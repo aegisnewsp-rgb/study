@@ -68,18 +68,19 @@ To secure consistent accuracy on Algebra: Linear Functions and Inequalities, can
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Inequalities carry one rule that reverses an entire answer when missed:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **The sign flip**: Multiplying or dividing by a negative reverses the inequality. Circle the negative before writing the new sign, rather than remembering afterwards.
+- **Boundary inclusion**: A solid boundary is included and a dashed one is not. Translate words such as at most and at least into closed and open intervals explicitly.
+- **Systems with no overlap**: When shaded regions never meet, the solution set is empty. Sketching the two lines settles this faster than testing sample values.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three drills, each isolating the step that decides the answer:
+
+- **Mark the reversal**: Circle every negative multiplier and divide before writing the reversed sign. Recording the reversal as a separate mark stops the habit of forgetting it.
+- **Interval translation**: Convert at most and at least into closed intervals and less than into open ones on paper. The distinction then survives the algebra.
+- **Sketch before testing**: Sketch both boundaries before testing values. A visual empty overlap settles the case faster than substitution.
 
 ## Continue your study
 

@@ -67,7 +67,7 @@ To secure consistent accuracy on Information and Ideas: Central Ideas and Detail
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+The central idea sits above the examples that support it, and the gap between them causes errors:
 
 - **Idea Pattern**: Reduce the passage to author, claim, reasons, evidence, and purpose, then verify that the summary accounts accurately for each major part.
 - **Detail Ranking**: Mark details as defining the main idea, extending it, illustrating it, or distracting from it, then defend each classification with textual support.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes that separate the argument from its illustrations:
+
+- **Example-free summary**: Summarise the passage's claim in one sentence that contains no example. If your sentence names a specific instance, you have written the illustration instead.
+- **Generality ranking**: Mark each supporting point by how far it generalises. The broadest supported point is the central idea; the narrowest is usually an example.
+- **Scope rejection**: Reject choices that are true of an example but not of the whole. Scope errors read as accurate, which is exactly why they survive a quick scan.
 
 ## Continue your study
 

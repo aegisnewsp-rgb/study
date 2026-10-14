@@ -68,18 +68,19 @@ To secure consistent accuracy on Mathematical Modeling: Real-World Applications,
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Modelling items are graded on whether your answer matches the question asked, not on whether the algebra was sound:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Define before solving**: Write each variable with its unit attached. Most lost marks in applied items come from an answer carrying the wrong unit rather than a wrong number.
+- **Constraints that bind**: A linear model is only valid across the range actually observed. An item asking for an extrapolation past the data is a prompt to flag the assumption, not to extend the line.
+- **Interpret the result**: State what the computed number represents in the scenario's own terms. This is also the fastest way to catch a solution that is negative where a quantity cannot be.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Applied items are marked on the answer's fit to the question, so drill that step deliberately:
+
+- **Unit labelling**: Write each variable with its unit attached and substitute nothing until every one is defined. Unit labels are the cheapest error check available.
+- **Range refusal**: Note the range over which the data were collected and refuse to report beyond it. Extrapolation outside that range is a flagged assumption, not a result.
+- **Plain-language return**: State the answer back in the scenario's own terms. A negative count or a negative time is the signal that the model was set up incorrectly.
 
 ## Continue your study
 

@@ -68,18 +68,19 @@ To secure consistent accuracy on Scientific Investigation: Testing Predictions a
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+New-data items are triage exercises: decide whether the evidence touches the hypothesis at all:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Bearing versus contradiction**: Separate evidence that weakens a hypothesis from evidence that is simply unrelated to it. Much of what looks like a refutation is a measurement of something else.
+- **Assumption-level hits**: A result can leave the hypothesis intact while undermining the assumption it rested on. Track which of the two has actually failed.
+- **Selective strengthening**: Rejecting one hypothesis does not by itself establish the rival. Insist on independent support before accepting the alternative as the better explanation.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+New-data items are triage drills: the first task is deciding whether the evidence touches the hypothesis at all.
+
+- **Three-way sort**: Sort each piece of new evidence into irrelevant, supportive, or damaging before reacting to it. Much of what looks like refutation is measurement of something else.
+- **Hypothesis-or-assumption**: Record whether the hypothesis or the assumption underneath it has actually failed. The two require different responses and are usually conflated.
+- **Independent support**: Refusing one hypothesis is not support for the other. Require independent evidence before accepting the alternative.
 
 ## Continue your study
 

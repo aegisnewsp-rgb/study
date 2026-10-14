@@ -68,18 +68,19 @@ To secure consistent accuracy on Conflicting Viewpoints: Evaluating Competing Hy
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Two-hypothesis items reward writing each mechanism down before comparing any conclusion:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Mechanism in one line**: Summarise what each scientist claims is actually happening, in a sentence that contains a mechanism rather than a restatement of the hypothesis label.
+- **Shared commitments**: List what both accounts already accept. Disagreements usually sit at the edges of this shared core, and locating the edges is faster than testing every claim.
+- **What would separate them**: Name the one observation that both accounts cannot explain identically. That observation is the hinge the question turns on.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Two-hypothesis passages reward writing both mechanisms out before reading any question:
+
+- **Mechanism draft**: Summarise what each scientist claims is physically happening. A summary containing only the hypothesis label has not been written yet.
+- **Accepted-core list**: List what both accounts already accept, then mark the edges. Disagreement lives at the edges, and locating it is faster than testing each claim.
+- **Decisive observation**: Name the one observation the two accounts cannot both explain identically. That observation is the hinge the question turns on.
 
 ## Continue your study
 

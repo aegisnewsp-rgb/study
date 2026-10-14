@@ -68,18 +68,19 @@ To secure consistent accuracy on Advanced Math: Quadratic Equations and Function
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Quadratic items reward reading the discriminant before solving, since it predicts the answer's shape:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Discriminant as forecast**: A positive discriminant means two crossings, zero means a touch, negative means none. Deciding this first tells you whether to hunt for roots or for a minimum.
+- **Vertex from any form**: When a is negative the vertex is a maximum. Read the sign of a off the leading coefficient rather than judging from the graph's appearance.
+- **Sum without solving**: For questions asking only for a sum or product of roots, use Vieta's relations and skip the solutions entirely.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes that front-load the cheap checks:
+
+- **Shape forecast**: Compute the discriminant before solving and write the predicted shape of the answer beside it. Two roots, one touch, or none tells you what to look for.
+- **Leading-coefficient read**: Read the sign of a off the leading coefficient to decide maximum against minimum. This is correct even where the graph's appearance is not.
+- **Vieta shortcut**: When only a sum or product is requested, use Vieta's relations and skip the roots entirely. This is the intended shortcut.
 
 ## Continue your study
 

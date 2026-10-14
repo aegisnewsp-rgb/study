@@ -67,7 +67,7 @@ To secure consistent accuracy on Production of Writing: Topic Development and Un
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Sentence-level additions go wrong in specific ways, and each has its own repair:
 
 - **Claim Focus**: Underline the writer's main claim, then mark each supporting sentence as claim, evidence, or irrelevant to expose drift and misplaced material within the draft.
 - **Scope Check**: Compare the opening promise with the ending's final position, cutting any paragraph that serves examples rather than clearly advancing the central idea.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Run three passes, each aimed at one of this topic's edge cases, before you attempt full essays:
+
+- **Baseline read-through**: Take an unreviewed essay and underline its central claim in the first paragraph. Then mark every later sentence as developing that claim, illustrating it, or wandering. Delete the wanderers before you mark anything else.
+- **Off-topic collection**: Collect sentences you would happily see in a well-written essay on any topic. That is what off-topic looks like, and the test works even when the sentence is perfectly grammatical.
+- **Final paragraph edit**: For each remaining sentence ask what claim it advances. One that answers none gets cut regardless of how well it is written.
 
 ## Continue your study
 

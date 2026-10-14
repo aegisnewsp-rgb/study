@@ -68,18 +68,19 @@ To secure consistent accuracy on Higher Math: Plane Geometry and Coordinate Geom
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Plane and coordinate geometry items reward reading the diagram for what it guarantees rather than what it appears to show:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Perpendicular by slopes**: When two lines meet at a right angle, multiply their slopes and confirm you get -1. A product of 1 instead signals parallel lines that the diagram renders close together.
+- **Distance versus length**: Distance between two points and length of a segment use the same root expression but different meanings. State which one the prompt wants before computing.
+- **Midpoint and reflection**: Reflection across the x-axis negates only the y-coordinate. Working from the midpoint of the original and image points catches sign slips immediately.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Geometry items are best drilled by testing the diagram's own guarantees:
+
+- **Slope product**: Multiply the two slopes and confirm -1 whenever the diagram shows a right angle. A product of 1 means the lines are parallel, whatever the drawing suggests.
+- **Distance or length**: Label each quantity as a distance or a segment length before computing. The formulas match, so only the stated meaning distinguishes them.
+- **Midpoint confirmation**: Compute the midpoint, then confirm the original and image points sit symmetrically about it. This catches reflection sign errors immediately.
 
 ## Continue your study
 

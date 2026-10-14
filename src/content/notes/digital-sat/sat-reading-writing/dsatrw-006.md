@@ -67,7 +67,7 @@ To secure consistent accuracy on Information and Ideas: Inferences, candidates s
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Reasonable inferences are built from stated premises; everything else adds an assumption:
 
 - **Premise Pair**: Write two stated premises, combine them in one careful conclusion, and confirm that every word of that conclusion has textual backing.
 - **Support Levels**: Separate what is explicit, what is strongly suggested, and what is merely conceivable, choosing only the level demanded by the passage.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes that train you to reject conclusions requiring extra assumptions:
+
+- **Link writing**: Copy the two premises the conclusion rests on and write the link between them. A conclusion needing an unstated third premise is out.
+- **Support grading**: Grade each candidate as stated, implied, or merely consistent. Only the first two are defensible answers.
+- **Absolute-term strike**: Strike absolute terms such as always, never, or entirely unless the text says so outright. Extreme language is the most reliable signal of an unsupported conclusion.
 
 ## Continue your study
 

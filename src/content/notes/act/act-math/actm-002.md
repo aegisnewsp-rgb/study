@@ -68,18 +68,19 @@ To secure consistent accuracy on Higher Math: Algebra and Polynomial Functions, 
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Polynomial work turns hard when you must choose between factoring, completing the square, and the quadratic formula under time pressure. Train the choice itself:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Four-term cubics**: When a cubic has no rational root, stop hunting and use grouping on the middle pair. Pair the first two and last two terms so each binomial shares a factor.
+- **Rational root bounds**: Test only the divisors of the constant term that also divide the leading coefficient. This halves your candidate set before you evaluate anything.
+- **Factored to standard form**: After factoring, be ready to restate the result as a product and as an interval description. Only one of the two matches the answer format the item asks for.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Work these three habits on untimed problems first, because speed without method is what fails here:
+
+- **Grouping first**: Look for a common factor in the middle pair before trying rational roots. Grouping is faster than testing candidates.
+- **Bounded candidate list**: List the candidates the factor test allows, then test from the extremes inward. The root is usually near an end of the interval.
+- **Dual statement**: State the result twice: as a product and as the set of values it describes. One of the two is what the item wants.
 
 ## Continue your study
 

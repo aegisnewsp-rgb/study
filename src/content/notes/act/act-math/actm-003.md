@@ -68,18 +68,19 @@ To secure consistent accuracy on Higher Math: Functions and Graph Transformation
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Function items punish students who compute correctly but read the graph wrong. These three habits separate the two failures:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Composition order**: Evaluate g(x) first, write the resulting number on your scrap, then substitute it for x in f. Reversing the two produces a plausible number that is simply the wrong function.
+- **Shift direction**: For f(x + c) the graph moves left by c; for f(x - c) it moves right. Trace one known point to settle direction instead of reasoning about it in the abstract.
+- **Domain restriction**: A square root or logarithm in an expression removes values from the domain. Check the endpoints before reporting an interval.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes that separate computation mistakes from reading mistakes:
+
+- **Intermediate line rule**: Write g(x) explicitly as its own line before substituting it anywhere. Forcing the intermediate step onto paper is what prevents the reversal.
+- **Point tracking**: Track one known point through each transformation and write the before-and-after pair. Direction confirmed on a point generalises; direction guessed in the abstract does not.
+- **Endpoint check**: Before reporting an interval, check the endpoints against the radical or logarithm. Restriction discovered late costs more time than restriction found early.
 
 ## Continue your study
 

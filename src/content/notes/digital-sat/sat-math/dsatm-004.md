@@ -68,18 +68,19 @@ To secure consistent accuracy on Advanced Math: Polynomial, Rational, and Radica
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Polynomial, rational, and radical items share one recurring trap: solutions that survive the algebra but not the original equation:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Extraneous roots**: Every value obtained by squaring goes back into the original equation. Keep the substitution visible so the rejected value is discarded on purpose rather than by luck.
+- **Domain before solving**: Even roots and denominators restrict values before any manipulation. Crossing a restricted value early produces a solution that cannot exist.
+- **Common-factor cancellation**: A factor cancelled in the working must be non-zero for the result to hold. State that condition rather than assuming it away.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three drills aimed at the values that survive algebra but fail the original equation:
+
+- **Back-substitution**: Substitute every candidate back into the original and circle the ones that fail. Making the substitution visible is what converts a lucky guess into a method.
+- **Restriction record**: Record the restrictions the even root or denominator imposes before manipulating anything. Crossing a restricted value early creates solutions that cannot exist.
+- **Condition statement**: Write the condition under which the cancelled factor is non-zero next to your answer. This is also the step examiners mark.
 
 ## Continue your study
 

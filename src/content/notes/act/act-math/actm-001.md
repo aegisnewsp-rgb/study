@@ -68,18 +68,19 @@ To secure consistent accuracy on Higher Math: Numbers, Operations, and Complex N
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Powers of i and conjugates break down where the arithmetic stops being real. Work these four shapes:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Exponent reduction**: Ask for i raised to a large exponent, then reduce the exponent modulo 4 before expanding. Treating i as i instead of i cubed is -1 is the single largest source of wrong answers here.
+- **Conjugate pairs**: Whenever a denominator holds an i term, multiply top and bottom by its conjugate before touching any arithmetic. Skipping this leaves a real and an imaginary part tangled together.
+- **Sum and product roots**: For a quadratic with non-real roots, a + b = -B/A and ab = C/A, and both quantities come out real. Recognise that symmetry tells you a complex answer is arithmetically sound rather than a sign of error.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three sessions, each isolating one failure mode of complex arithmetic:
+
+- **Modulo drill**: Reduce every i-power to a remainder modulo 4 on sight. Speed here comes from the shortcut, not from expanding each term and cancelling.
+- **Conjugate checkpoint**: Multiply by the conjugate before any other operation. Treat the conjugate step as a checkpoint you can see, so skipping it is visible later.
+- **Sum-and-product check**: For each non-real solution set, compute the sum and product separately and check they are both real. A surprising pair of real values is confirmation the work is right.
 
 ## Continue your study
 

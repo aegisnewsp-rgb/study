@@ -68,18 +68,19 @@ To secure consistent accuracy on Research Summaries: Experimental Design and Var
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Design questions test whether you can name the role each element plays rather than recall a procedure:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Constant variables**: List everything the scientist deliberately held fixed. An element that is neither manipulated nor measured nor held constant is a design flaw, and items look for exactly that.
+- **Sample sufficiency**: Ask whether the group sizes could support the stated conclusion. A comparison built on five subjects per condition cannot carry the weight of one built on fifty.
+- **Confounded conclusions**: If two things changed at once, neither can be isolated. Identify the confound and refuse the causal claim the experiment cannot support.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Design questions are rehearsed by annotation rather than by reading speed:
+
+- **Fixed-element list**: List every element the scientist held fixed and write what each control is a control against. An element that is neither changed nor measured nor fixed is the design flaw the item wants.
+- **Group-size comparison**: Compare group sizes and ask what the stated conclusion requires. Small groups cannot carry conclusions that large ones can.
+- **Confound naming**: If two things moved together, mark the claim as unsupported and name the confound. These items are testing that refusal.
 
 ## Continue your study
 

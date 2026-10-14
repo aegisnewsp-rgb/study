@@ -68,18 +68,19 @@ To secure consistent accuracy on Advanced Math: Exponential and Nonlinear Functi
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Exponential and nonlinear items turn on recognising the growth pattern before fitting any formula:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Adding versus multiplying**: A constant difference between consecutive values signals linear growth; a constant ratio signals exponential. Compute both once before deciding.
+- **Asymptote behaviour**: The function approaches but never reaches an asymptote. Statements about the value at the asymptote are therefore false, which is the intended trap.
+- **Two-point fitting**: Two well-separated points fix an exponential exactly. Solve for the base from their ratio instead of guessing from a rough graph.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes that begin with recognising the growth pattern:
+
+- **Difference then ratio**: Compute the difference between consecutive values and then the ratio. One is constant for linear growth, the other for exponential, and the data says which.
+- **Asymptote marking**: Mark the asymptote and note that the function approaches without reaching it. Claims about the value at the asymptote are false by construction.
+- **Ratio-based fit**: Derive the base from the ratio of two well-separated values rather than estimating off a sketch. Two points determine an exponential exactly.
 
 ## Continue your study
 

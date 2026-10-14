@@ -67,7 +67,7 @@ To secure consistent accuracy on Conventions of Standard English: Punctuation Ru
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Marks on the page come in a small number of shapes, each with its own test:
 
 - **Comma Logic**: Test each internal comma by pausing and asking whether it separates qualifying details, contrasting ideas, or grammatical components that need distinct boundaries.
 - **Boundary Errors**: Bracket paired commas, quotation marks, and parentheses in the draft, then verify that every opening mark has a matching close and correct placement.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Punctuation items are worth rehearsing as a single deliberate pass rather than a general read-through:
+
+- **Comma audit**: For each comma, ask whether it separates items in a list, closes an introductory element, or pairs off a parenthetical. Commas doing none of these three are the ones to change.
+- **Colon and semicolon check**: Test each colon and semicolon for a complete clause on both of its sides. A semicolon attached to a fragment is wrong however confidently it reads aloud.
+- **Aloud proof**: Read the corrected version aloud. A genuine boundary error almost always produces an audible stumble, which catches what the eye has already normalised.
 
 ## Continue your study
 

@@ -67,7 +67,7 @@ To secure consistent accuracy on Expression of Ideas: Transitions, candidates sh
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+The logical relation between two sentences determines the connector, never the reverse:
 
 - **Relationship Signals**: Circle words that signal sequence, contrast, cause, addition, or qualification, then confirm that the surrounding sentences express that same relationship in context.
 - **Bridge Revision**: Replace vague connectors with a word or phrase naming the exact logical move, especially where the paragraph shifts direction between ideas.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Transition items are decided by the logical relation, so drill relation-finding before word-choice:
+
+- **Relation in words**: Strip the transition and state the relation in your own words: contrast, continuation, cause, or example. Only then pick a word.
+- **Placeholder insert**: Insert a placeholder transition that matches the relation you identified, then choose a word that signals the same relation more precisely.
+- **Flow-only reread**: Read the finished paragraph with attention only to flow. A remaining jolt usually marks one relation stated incorrectly.
 
 ## Continue your study
 

@@ -68,18 +68,19 @@ To secure consistent accuracy on Essential Skills: Proportions, Percentages, and
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Proportion and average items are where careless setup costs more marks than missing methods. Drill the setup step:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Average as a claim**: Sum divided by count only holds when every item is weighted equally. A weighted average needs each value paired with its weight before you divide.
+- **Percent of vs percent change**: Computing 20 percent of a value and computing the change from an original value are different operations. Identify which one the question asks before writing the formula.
+- **Ratio to fraction**: Convert a ratio such as 3:5 into 3/8 by dividing both terms by the sum of the terms. Dividing by one term instead produces a fraction greater than one.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three drills aimed at the setup step, where most marks are lost:
+
+- **Weight check**: Before dividing, confirm every item carries equal weight. A weighted average needs the weights attached before the sum is taken.
+- **Base identification**: Restate the question in words. If it asks what remains after a decrease, the original quantity is the base, not the new one.
+- **Range sanity check**: Normalise the ratio by dividing both terms by their sum, and check the result falls between zero and one. A fraction above one flags the error.
 
 ## Continue your study
 

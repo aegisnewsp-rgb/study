@@ -67,7 +67,7 @@ To secure consistent accuracy on Knowledge of Language: Word Choice, Tone, and E
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Word-choice questions turn on register, redundancy, and precision in roughly equal measure:
 
 - **Diction Match**: For each paragraph, note the audience, purpose, and emotional register, then replace mismatched words with language that sustains that tone throughout the paragraph.
 - **Economy Pass**: Cut repeated ideas, empty modifiers, and inflated phrases, keeping the strongest verb and precise noun without changing the intended meaning or argumentative force.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Word-choice items are decided by substitution, so rehearse the substitution itself:
+
+- **Context substitution**: Slot each candidate into the sentence and reread it in context. The option that sounds least impressive is frequently the one that matches the register the paragraph actually uses.
+- **Redundancy sweep**: Hunt constructions that say the same thing twice: reverted back, final outcome, repeat again. These are free marks, since the shorter form is always correct.
+- **Register check**: Prefer the precise general word over the impressive specific one that changes the meaning. A substitution test settles this without a dictionary.
 
 ## Continue your study
 

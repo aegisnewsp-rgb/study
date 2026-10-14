@@ -67,7 +67,7 @@ To secure consistent accuracy on Information and Ideas: Command of Evidence, can
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Each proposed hypothesis has a signature in the data, and matching them is mechanical:
 
 - **Evidence Match**: For each answer, name the specific detail that supports it and explain the exact step linking that detail to the claim.
 - **Citation Precision**: Distinguish direct wording from paraphrase, avoid quoting fragments that lack meaning, and attach each citation to the idea it actually proves.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Command-of-evidence items are search tasks, so drill the search:
+
+- **Signature prediction**: For each proposed hypothesis, name the trend that would support it and the trend that would break it before reading options.
+- **Exact quotation**: Quote the exact line carrying the evidence. Paraphrase at this stage is where support is quietly invented.
+- **Wrong-quantity filter**: Discard data that is real but measures a different quantity. A true reading from the wrong axis or unit is a distractor.
 
 ## Continue your study
 

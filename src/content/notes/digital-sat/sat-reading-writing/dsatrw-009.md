@@ -67,7 +67,7 @@ To secure consistent accuracy on Expression of Ideas: Rhetorical Synthesis, cand
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+A synthesis succeeds only when the stated goal is read before any source is:
 
 - **Source Roles**: State each source's claim, method, and strongest support, then decide which source best explains, qualifies, or challenges the prompt's central issue.
 - **Synthesized Statement**: Combine compatible ideas in a sentence that names both perspectives, preserves their limits, and shows how they answer the task as a whole.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Rhetorical synthesis is decided by the stated goal, so drill reading the goal first:
+
+- **Contribution ledger**: Write what each source contributes before drafting: this one supplies the definition, that one the example. Options blur sources and lose marks.
+- **One-sentence claim**: State the point in one sentence that no single source makes on its own. That is the synthesis the item is testing for.
+- **Goal-relevance test**: Include a source only when its evidence supports the stated goal. Relevant-sounding material that does not advance the goal is still wrong.
 
 ## Continue your study
 

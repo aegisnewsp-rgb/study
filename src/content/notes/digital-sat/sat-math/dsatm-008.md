@@ -68,18 +68,19 @@ To secure consistent accuracy on Geometry & Trigonometry: Area, Volume, and Geom
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Area, volume, and angle items punish arithmetic that ignores the geometric condition behind it:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Completing the square**: Convert a general circle equation by completing the square on both variables before reading off the centre and radius. Reading them off an uncompleted equation is a frequent error.
+- **Arc versus sector**: An arc is a length and a sector is an area. They use the same angle fraction but different formulas, and conflating them loses the mark.
+- **Inscribed angle**: An inscribed angle measures half the arc it subtends. Doubling and halving errors here produce angles outside the valid range, which is a useful self-check.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three drills on the geometric conditions the arithmetic depends on:
+
+- **Centre-radius conversion**: Finish the conversion to centre-radius form before reading off any quantity. Reading values off an uncompleted equation is a frequent and silent error.
+- **Quantity decision**: Decide which quantity is wanted before choosing a formula. Both use the same angle fraction, and conflating them loses the mark.
+- **Valid-range check**: Halve for an inscribed angle and double for a central one, then sanity-check that the result lies in a valid range. An impossible angle is the signal something went wrong.
 
 ## Continue your study
 

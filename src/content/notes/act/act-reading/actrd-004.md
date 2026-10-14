@@ -67,7 +67,7 @@ To secure consistent accuracy on Craft and Structure: Contextual Vocabulary and 
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Context items are settled by trying the word in the sentence, not by recalling a definition:
 
 - **Context Clues**: Use nearby definitions, contrasts, examples, and pronoun references to narrow each unfamiliar word before checking a dictionary definition that fits the sentence.
 - **Literal Mapping**: Translate each image into the concrete situation it describes, then decide which phrase in the passage supports that plain meaning in context.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Vocabulary-in-context items resolve by substitution, so rehearse substitution:
+
+- **Paraphrase first**: Read the sentence, then the paragraph, then paraphrase the target word with what you expect it to mean. Write that paraphrase before looking at options.
+- **Speech-tag filter**: Eliminate any choice whose part of speech conflicts with the slot. Several distractors are eliminated by grammar alone.
+- **Feeling-versus-meaning**: Separate connotation from denotation among the survivors. Two dictionary-accurate options can still differ in how the sentence reads.
 
 ## Continue your study
 

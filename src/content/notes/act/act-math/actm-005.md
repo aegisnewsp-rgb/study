@@ -68,18 +68,19 @@ To secure consistent accuracy on Higher Math: Trigonometry and Radians, candidat
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Radian items are usually trigonometry items with a unit conversion hidden inside. Attack the conversion first, every time:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Ambiguous case**: The Law of Sines can produce two candidate angles when sin(A) = sin(B). Both may be geometrically valid, and the item is decided by which one keeps the angle sum below 180 degrees.
+- **Degree to radian**: Convert before substituting into any identity. Radians are dimensionless, so a leftover degree figure inside a sine is the usual cause of an otherwise clean-looking wrong answer.
+- **Identity substitution**: Reduce sin^2(x) + cos^2(x) and the complementary-angle pairs to a single function whenever the item supplies one. This converts a three-function puzzle into a single lookup.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes, with the unit conversion treated as the first step rather than the last:
+
+- **Angle-sum filter**: When the Law of Sines yields two candidate angles, test each against the angle sum before accepting either. Both may be arithmetically valid and only one geometrically possible.
+- **Convert-then-substitute**: Convert before substituting, and write the conversion on the line above the substitution. A leftover degree figure is the usual source of an otherwise clean error.
+- **Collapse first**: Collapse any expression built from two trigonometric functions into one before reaching for the calculator. Collapsing first usually leaves a single lookup.
 
 ## Continue your study
 

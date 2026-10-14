@@ -67,7 +67,7 @@ To secure consistent accuracy on Key Ideas and Details: Central Claims and Argum
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Claims and anecdotes compete for the same paragraph space, and telling them apart is the skill:
 
 - **Claim Distinction**: Separate the topic from the writer's position, summarize that position in one sentence, and reject choices that merely restate the subject alone.
 - **Evidence Fit**: Pair each answer with the exact textual support it cites, then ask whether that support directly establishes the claim or only sounds related.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Read with a pen, in this order, before answering any claim question:
+
+- **Thesis marking**: Mark the thesis sentence in each passage and box the anecdotes. Thesis-level and illustration-level claims get confused constantly; the mark settles it.
+- **Line-of-proof check**: For each answer choice, find the single line that supports it. A choice you cannot point to is eliminated regardless of how reasonable it sounds.
+- **Three-line sketch**: Sketch the passage as claim, evidence, reasoning in three lines. Most central-idea questions are answered directly by that sketch.
 
 ## Continue your study
 

@@ -67,7 +67,7 @@ To secure consistent accuracy on Key Ideas and Details: Drawing Logical Inferenc
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+An inference earns its place only when two lines of the passage can be pointed at:
 
 - **Inference Bridge**: Name the stated facts behind each choice, state the unstated link in your own words, and discard answers that add unsupported knowledge.
 - **Inference Strength**: Rank conclusions from strongly implied to remotely possible, then favor what necessarily follows rather than what merely could be true in the passage.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Inference items are a search task, so drill the search rather than the judgement:
+
+- **Two-sentence copy**: Copy the two sentences the inference must connect and write the bridge between them. An inference is only as strong as the weakest link you can cite.
+- **Strength grading**: Grade each candidate as directly stated, reasonably implied, or merely possible. Only the first two survive, and the boundary between them is the skill.
+- **Language audit**: Strike any choice whose language outruns the text. Speculative vocabulary signals a leap the passage never licenses.
 
 ## Continue your study
 

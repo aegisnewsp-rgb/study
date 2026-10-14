@@ -67,7 +67,7 @@ To secure consistent accuracy on Conventions of Standard English: Usage and Agre
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Agreement and usage errors cluster around long modifiers and drifting time frames:
 
 - **Subject Tracking**: Circle each governing subject, underline nearby verbs and pronouns, then correct agreement shifts introduced by intervening phrases, long openings, or misleading modifiers.
 - **Tense Consistency**: Identify the narration's governing time frame, compare every shifted tense, and retain a change only when the meaning clearly changes within the passage.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Agreement errors hide behind long modifiers, so drill the habit of deleting them first:
+
+- **Preposition deletion**: Cross out every prepositional phrase, then look at what is left. The verb's number is decided by that remnant, not by the noun nearest to it.
+- **Time-frame hold**: Put a single time frame at the top of the passage and hold it. A tense shift that is not a deliberate shift to a new timeframe is the error.
+- **Pronoun resolution**: For each pronoun, name its antecedent. Pronouns whose antecedent is ambiguous are usually agreement problems wearing a different costume.
 
 ## Continue your study
 

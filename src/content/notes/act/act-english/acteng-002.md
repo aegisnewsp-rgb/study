@@ -67,7 +67,7 @@ To secure consistent accuracy on Production of Writing: Organization, Sequence, 
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Paragraph order and connecting words fail in distinct, separable ways:
 
 - **Sequence Audit**: Arrange paragraphs by the writer's chosen logic, flag jumps in time or reasoning, and place a concise bridge where readers lose the thread.
 - **Transition Purpose**: Label each connector as continuation, contrast, cause, example, or summary, replacing decorative phrases that do not clarify the relationship between adjacent ideas.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Sequence questions reward narrating the paragraph's own logic before choosing an answer:
+
+- **Relation numbering**: Number the sentences, then name the relation each one has to the one before it: example, cause, consequence, or definition. The chain of relations is the sequence.
+- **Substitution pass**: Replace each transition with a plain conjunction and reread. If the paragraph still holds together, the original transition was decorative rather than load-bearing.
+- **Gap identification**: Read two paragraphs with the connecting sentence removed and describe what is missing. Naming the gap is usually faster than testing candidate sentences.
 
 ## Continue your study
 

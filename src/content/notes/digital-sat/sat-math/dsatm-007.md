@@ -68,18 +68,19 @@ To secure consistent accuracy on Problem-Solving & Data Analysis: Two-Variable D
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Two-variable data items test whether a trend is being read as a cause:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Correlation limit**: Observational data supports association only. Any item asserting causation from such data is answerable on that basis alone.
+- **Conditional probability**: In a two-way table, restrict to the row or column the question names before computing. Using the whole table inflates or deflates the result arbitrarily.
+- **Margin of error direction**: Margin of error narrows as sample size grows. A comparison drawn from two differently sized samples is not a like-for-like comparison.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes separating what the data show from what they can support:
+
+- **Causal verb audit**: Mark every causal verb in the prompt and check whether the design permits it. Observational data supports association only.
+- **Row restriction**: Restrict to the row or column the question names before computing anything. Using the whole table produces a defensible-looking but wrong figure.
+- **Sample-size note**: Note the sample size for each group before comparing. Two different sizes are not a like-for-like comparison however the intervals look.
 
 ## Continue your study
 

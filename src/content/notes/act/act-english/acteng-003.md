@@ -67,7 +67,7 @@ To secure consistent accuracy on Conventions of Standard English: Sentence Struc
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Clause structure decides most of these items before punctuation is even considered:
 
 - **Clause Completion**: Check every independent clause for a subject and a finite verb, then repair omissions in the draft without creating awkward strings of stacked modifiers.
 - **Fragment Repair**: Attach underlined word groups to the nearest complete sentence, or add the missing claim when the fragment deserves to stand as an independent claim.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Sentence-boundary work goes fastest when you mark clause status before you look at punctuation:
+
+- **Bracketing drill**: Bracket every subject-verb pair in the sentence and write IC for independent. A comma splice is visible the moment both sides are marked IC.
+- **Repair drill**: Find what is missing instead of guessing. Fragments are almost always an IC with a dependent clause attached, or a dependent clause standing alone.
+- **Opener count**: Take three consecutive sentences and count where each one starts. Repeated openers are the variety problem the item is pointing at.
 
 ## Continue your study
 

@@ -67,7 +67,7 @@ To secure consistent accuracy on Craft and Structure: Cross-Text Connections, ca
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Cross-text items ask about relationships between authors rather than about either one alone:
 
 - **Connection Type**: Classify each relationship as agreement, contrast, extension, example, or shared cause, quoting the words that trigger your choice in both texts.
 - **Anchored Comparison**: State one connection, cite a detail from each source, and explain what the comparison reveals beyond the two isolated points in the response.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Cross-text items reward deciding the type of connection before comparing content:
+
+- **Relationship naming**: Name the relationship first: reinforces, qualifies, contradicts, or applies a method. The type determines what a valid comparison looks like.
+- **Quoted anchoring**: Quote the specific line from each passage before judging them. Comparing from memory is where cross-text items are lost.
+- **All-or-nothing test**: Reject any option asserting agreement or disagreement on everything. Two authors who agree on a method can still differ sharply in conclusion.
 
 ## Continue your study
 

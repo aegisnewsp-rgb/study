@@ -67,7 +67,7 @@ To secure consistent accuracy on Standard English Conventions: Boundaries and St
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Sentence boundaries are decided by what each group of words can stand alone as:
 
 - **Clause Map**: Bracket independent clauses and their connectors, then repair any boundary that creates a fragment or misreads the sentence's relationship between ideas.
 - **Punctuation Sweep**: Verify periods, commas, semicolons, and colons against clause boundaries, giving each mark a grammatical job in the sentence rather than treating it as decoration.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Boundary work goes fastest when clause status is settled before punctuation is chosen:
+
+- **Subject-verb bracketing**: Bracket every subject and finite verb and mark each group IC or DC. Punctuation decisions follow from these marks rather than from rhythm.
+- **Two-sided requirement**: Before accepting a semicolon, confirm an independent clause stands on each side of it. One half being dependent rules the whole item out.
+- **Leading clause comma**: Where a dependent clause leads, confirm a comma follows it. This single check removes a large share of boundary errors.
 
 ## Continue your study
 

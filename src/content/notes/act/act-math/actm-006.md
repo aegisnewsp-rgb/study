@@ -68,18 +68,19 @@ To secure consistent accuracy on Higher Math: Statistics, Probability, and Count
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Counting and probability items separate students on reading whether order matters, not on arithmetic:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Ordered or unordered**: Seatings, passwords, and race finishes are permutations; committees, hands of cards, and selections are combinations. Write the word order or not next to the formula to force the decision.
+- **At least one**: Subtract the complement rather than summing cases. The complement is usually a single term, while the direct count branches by the number of excluded items.
+- **With and without replacement**: Sampling changes the available count on each draw. Treat a drawn object as removed unless the problem explicitly says it is returned.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Counting and probability items reward deciding the question before reaching for a formula:
+
+- **Order decision**: Write the words order or not beside the problem before choosing. Ambiguous phrasing resolves faster once it is written down.
+- **Complement method**: Take the complement whenever the count branches. One subtraction usually replaces three or four cases.
+- **Draw-down default**: Mark each draw as removing the object unless the text says otherwise. This default is right far more often than not.
 
 ## Continue your study
 

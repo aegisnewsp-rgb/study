@@ -68,18 +68,19 @@ To secure consistent accuracy on Algebra: Linear Equations in One and Two Variab
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Linear-equation items are won in the variable-definition step and lost at the solution count:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Parallel versus coincident**: Equal slopes with different intercepts give no solution; identical slopes and intercepts give infinitely many. Check the intercept before reporting a single value.
+- **One equation, two variables**: Without a second constraint, report the relationship as an equation in both variables rather than inventing a value for one of them.
+- **Translate the sentence**: Rewrite each verbal condition as an equation before substituting anything. Most sign errors are mistranslations rather than algebra mistakes.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes, each attacking one of this topic's recurring losses:
+
+- **Intercept first**: Check the intercept before reporting a solution count. Equal slopes with different intercepts mean no solution; matching slopes and intercepts mean every point.
+- **Unconstrained answer**: Leave the answer as an equation in both variables. Supplying a value for one variable without a second constraint invents information the problem never gave.
+- **Sentence to equation**: Rewrite each verbal condition as an equation first. Most sign errors turn out to be mistranslations rather than algebra faults.
 
 ## Continue your study
 

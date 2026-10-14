@@ -68,18 +68,19 @@ To secure consistent accuracy on Problem-Solving & Data Analysis: Ratios, Rates,
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Rate and unit items are bookkeeping exercises in which the arithmetic only works once the bookkeeping does:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Dimensional cancellation**: Set up the conversion so unwanted units cancel across numerator and denominator before substituting numbers. Every surviving unit is a check you should read.
+- **Squared and cubed factors**: Converting area or volume squares or cubes the linear factor. Using a linear factor is the most common single error in this topic.
+- **Two-rate comparison**: When two rates are compared, align them to a common time unit first. Comparing a per-hour rate against a per-day rate without converting is a units error, not a conceptual one.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three drills in which the bookkeeping comes before the arithmetic:
+
+- **Cancel before numbers**: Arrange the conversion so unwanted units cancel across the fraction before inserting numbers. Every unit that survives is a check you should read aloud.
+- **Factor restatement**: Restate the conversion factor in words before squaring or cubing it. Using the linear factor here is the most frequent single error in this topic.
+- **Common time unit**: Put both rates into a common time unit first. Comparing a per-hour rate against a per-day rate is a units error rather than a conceptual one.
 
 ## Continue your study
 

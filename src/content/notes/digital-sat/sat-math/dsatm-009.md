@@ -68,18 +68,19 @@ To secure consistent accuracy on Geometry & Trigonometry: Right Triangles and Ra
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Right-triangle items combine a specific ratio set with a units assumption that is stated nowhere:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Angle mode**: Confirm the calculator is in radians or degrees to match the problem before entering any trig function. The setting is invisible in the printed item and shows up only in the answer.
+- **Identity reduction**: Reduce complementary-angle and Pythagorean identities to a single function where possible. This turns a three-function expression into one lookup.
+- **Special triangles by ratio**: Recognise 1:1:sqrt(2) and 1:sqrt(3):2 without computing. Knowing the triangle from its ratio is faster than deriving it every time.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three drills, each aimed at the units assumption the printed item never states:
+
+- **Mode confirmation**: Confirm radians against degrees before entering any trig function. The mode is invisible in the printed problem and shows up only in the answer.
+- **Single-function reduction**: Where a complementary-angle or Pythagorean identity is supplied, use it to reduce the expression to one function. Spending the thirty seconds here buys the rest of the item.
+- **Ratio recognition**: Recognise the 1:1:sqrt(2) and 1:sqrt(3):2 ratios without computing. Naming the triangle from its ratio is faster than deriving it each time.
 
 ## Continue your study
 

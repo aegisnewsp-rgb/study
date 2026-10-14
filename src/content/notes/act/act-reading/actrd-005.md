@@ -67,7 +67,7 @@ To secure consistent accuracy on Integration of Knowledge: Comparative Paired Pa
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Comparative items assume you have already read each passage on its own terms:
 
 - **Shared Ground**: List the issue both passages address, record where they agree, and reject any response that ignores their common concern when it is the main point.
 - **Divergence Map**: Sort each author's stance, method, and evidence into separate columns, then explain the sharpest meaningful difference or disagreement in scope between them.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Paired passages punish reading them side by side, so drill them in sequence:
+
+- **Sequential reading**: Finish Passage A's questions before opening Passage B. Comparative items assume you have already absorbed each passage on its own terms.
+- **Two-column agreement map**: In two columns, list what each author accepts and what each rejects. Comparative questions read directly off this map.
+- **Mutual-support check**: Prefer the choice that both passages support over one that only one defends. The strongest comparative answer is rarely the most forceful.
 
 ## Continue your study
 

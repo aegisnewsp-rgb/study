@@ -67,7 +67,7 @@ To secure consistent accuracy on Standard English Conventions: Agreement and Mod
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Modifiers reach across intervening phrases and attach to the wrong noun more often than not:
 
 - **Agreement Sweep**: Circle controlling nouns, underline matching verbs and pronouns, then revise agreement whenever phrases, clauses, or intervening words cause an unnoticed shift.
 - **Dangling Modifier**: Ask what each opening phrase modifies, then attach or rewrite it when the grammatical subject does not match the intended actor.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three drills that clear the clutter before the error becomes visible:
+
+- **Phrase deletion**: Delete the prepositional phrases and match the verb to what remains. The nearest noun to the verb is frequently not the subject.
+- **Actor identification**: Find the noun immediately after each participial opening phrase and ask whether that noun performs the action. If it does not, the modifier dangles.
+- **Adjacency check**: Check that modifiers sit beside the element they describe. A misplaced modifier is technically grammatical and still wrong.
 
 ## Continue your study
 

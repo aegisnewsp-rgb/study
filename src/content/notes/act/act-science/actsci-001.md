@@ -68,18 +68,19 @@ To secure consistent accuracy on Data Representation: Graph and Table Interpreta
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Figure and table questions reward reading the axes before the shape of the data:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Axis and unit check**: Read both axis labels and the legend key before concluding anything. A curve that appears to rise can be falling once the units are accounted for.
+- **Direct versus inverse**: State explicitly whether the traced points increase together or oppose each other. Most misreadings here are a missing negative relationship, not a misplotted point.
+- **Interpolation limits**: Reading between two marked points is interpolation and is defensible; reading past the last marked point is extrapolation and should be flagged as such.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes, each aimed at a different way figure items are misread:
+
+- **Label reading**: Read both axis labels and the legend before tracing anything. Units that differ between axes are the most common source of inverted readings.
+- **Direction statement**: State in words whether the traced points rise together or oppose. Deciding this explicitly blocks the most frequent misread.
+- **Data-boundary marking**: Mark where the data actually stop. Anything past the final plotted point is extrapolation and should be labelled as such in your notes.
 
 ## Continue your study
 

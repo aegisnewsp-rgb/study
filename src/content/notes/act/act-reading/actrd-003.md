@@ -67,7 +67,7 @@ To secure consistent accuracy on Craft and Structure: Point of View and Rhetoric
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Position and purpose are carried mostly by word choice rather than by content:
 
 - **Perspective Signals**: Track first-person pronouns, chosen details, and attitude to determine whose interests frame the passage and what that framing emphasizes or suppresses in the presentation.
 - **Purpose Tagging**: Summarize the opening, development, and ending, then tag the passage as explanation, persuasion, narration, reflection, or mixed purpose in one precise phrase.
@@ -75,10 +75,11 @@ When targeting top-decile scores, students must prepare for non-standard variati
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes through a passage that build toward rhetorical-purpose items:
+
+- **Evaluative underline**: Underline every evaluative word. Adjectives and tone-bearing verbs carry the author's position far more reliably than the sentence's content does.
+- **One-word labelling**: Label each paragraph's job in one word: context, claim, evidence, concession. Rhetorical purpose is usually the pattern across those labels.
+- **Voice separation**: Separate what the narrator says from what the narrator is. Narrator comment and reported opinion are different voices and get conflated often.
 
 ## Continue your study
 

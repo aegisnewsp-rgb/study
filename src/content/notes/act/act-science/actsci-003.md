@@ -68,18 +68,19 @@ To secure consistent accuracy on Research Summaries: Interpreting Experimental R
 
 #### Advanced variations and high-difficulty edge cases
 
-When targeting top-decile scores, students must prepare for non-standard variations:
+Results questions are mostly questions about how far a trend may be trusted:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Where a trend flattens**: A curve that levels off signals the mechanism is no longer the limiting factor. Extending the earlier slope through that point overstates what the data support.
+- **Outlier handling**: Exclude a point only with a stated reason such as a documented measurement error. Dropping inconvenient points to tidy a graph is the failure these questions are built to catch.
+- **Error bars**: Overlapping error bars mean the difference may not be significant. Selecting the largest observed gap instead of testing it is the common shortcut to a wrong answer.
 
 #### Systematic drill schedule
 
-Consistent mastery requires deliberate retrieval practice:
-- **Week 1**: Foundational concept review and untimed drills focusing exclusively on accuracy.
-- **Week 2**: Timed sets of 10 to 15 questions, tracking error root causes in an error log.
-- **Week 3**: Full section practice integrated into complete mock examinations to build cognitive endurance and pacing discipline.
+Three passes that train judgement about how far a trend may be extended:
+
+- **Flattening point**: Mark the point where the curve levels off and write what that implies about the limiting factor. Continuing the earlier slope past it is the standard error.
+- **Anomaly annotation**: Circle every point that breaks the pattern and write a reason beside it. Points dropped without a stated reason are the ones these items target.
+- **Interval overlap**: Check overlap before claiming a difference is real. Choosing the largest observed gap instead of testing it is the shortcut that fails.
 
 ## Continue your study
 

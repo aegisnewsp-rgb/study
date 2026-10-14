@@ -69,9 +69,9 @@ To secure consistent accuracy on Information and Ideas: Command of Evidence, can
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Evidence Match**: For each answer, name the specific detail that supports it and explain the exact step linking that detail to the claim.
+- **Citation Precision**: Distinguish direct wording from paraphrase, avoid quoting fragments that lack meaning, and attach each citation to the idea it actually proves.
+- **Elimination Audit**: Remove choices that cite real details but connect them to the wrong claim, tone, speaker, or cause rather than the requested point.
 
 #### Systematic drill schedule
 

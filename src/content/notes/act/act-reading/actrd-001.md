@@ -69,9 +69,9 @@ To secure consistent accuracy on Key Ideas and Details: Central Claims and Argum
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Claim Distinction**: Separate the topic from the writer's position, summarize that position in one sentence, and reject choices that merely restate the subject alone.
+- **Evidence Fit**: Pair each answer with the exact textual support it cites, then ask whether that support directly establishes the claim or only sounds related.
+- **Argument Pattern**: Label claims as definitions, causes, contrasts, predictions, or recommendations, then track how each layer strengthens or limits the writer's conclusion in the passage.
 
 #### Systematic drill schedule
 

@@ -69,9 +69,9 @@ To secure consistent accuracy on Production of Writing: Organization, Sequence, 
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Sequence Audit**: Arrange paragraphs by the writer's chosen logic, flag jumps in time or reasoning, and place a concise bridge where readers lose the thread.
+- **Transition Purpose**: Label each connector as continuation, contrast, cause, example, or summary, replacing decorative phrases that do not clarify the relationship between adjacent ideas.
+- **Paragraph Flow**: Read only the first and last sentence of each paragraph, then revise any opening that fails to preview the point developed inside.
 
 #### Systematic drill schedule
 

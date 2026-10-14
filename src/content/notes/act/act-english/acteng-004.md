@@ -69,9 +69,9 @@ To secure consistent accuracy on Conventions of Standard English: Punctuation Ru
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Comma Logic**: Test each internal comma by pausing and asking whether it separates qualifying details, contrasting ideas, or grammatical components that need distinct boundaries.
+- **Boundary Errors**: Bracket paired commas, quotation marks, and parentheses in the draft, then verify that every opening mark has a matching close and correct placement.
+- **Read Aloud Check**: Mark spots where punctuation forces an unnatural breath, then adjust the boundary so the reader hears the intended clause groups and emphasis.
 
 #### Systematic drill schedule
 

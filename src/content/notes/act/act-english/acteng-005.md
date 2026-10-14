@@ -69,9 +69,9 @@ To secure consistent accuracy on Conventions of Standard English: Usage and Agre
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Subject Tracking**: Circle each governing subject, underline nearby verbs and pronouns, then correct agreement shifts introduced by intervening phrases, long openings, or misleading modifiers.
+- **Tense Consistency**: Identify the narration's governing time frame, compare every shifted tense, and retain a change only when the meaning clearly changes within the passage.
+- **Usage Precision**: Replace words whose meaning is merely close, such as vague transitions or bloated intensifiers, with terms that state the relationship precisely without flattening the voice.
 
 #### Systematic drill schedule
 

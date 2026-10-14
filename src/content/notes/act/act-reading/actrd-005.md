@@ -69,9 +69,9 @@ To secure consistent accuracy on Integration of Knowledge: Comparative Paired Pa
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Shared Ground**: List the issue both passages address, record where they agree, and reject any response that ignores their common concern when it is the main point.
+- **Divergence Map**: Sort each author's stance, method, and evidence into separate columns, then explain the sharpest meaningful difference or disagreement in scope between them.
+- **Synthesis Choice**: Select the option that preserves each text's position, cites support from both, and follows the prompt's requested focus rather than a vague common theme.
 
 #### Systematic drill schedule
 

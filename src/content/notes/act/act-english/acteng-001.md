@@ -69,9 +69,9 @@ To secure consistent accuracy on Production of Writing: Topic Development and Un
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Claim Focus**: Underline the writer's main claim, then mark each supporting sentence as claim, evidence, or irrelevant to expose drift and misplaced material within the draft.
+- **Scope Check**: Compare the opening promise with the ending's final position, cutting any paragraph that serves examples rather than clearly advancing the central idea.
+- **Development Test**: For every retained point, ask what new reader understanding it supplies, then sharpen vague statements into a claim, reason, and relevant example.
 
 #### Systematic drill schedule
 

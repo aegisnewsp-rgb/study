@@ -69,9 +69,9 @@ To secure consistent accuracy on Craft and Structure: Contextual Vocabulary and 
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Context Clues**: Use nearby definitions, contrasts, examples, and pronoun references to narrow each unfamiliar word before checking a dictionary definition that fits the sentence.
+- **Literal Mapping**: Translate each image into the concrete situation it describes, then decide which phrase in the passage supports that plain meaning in context.
+- **Connotation Tracking**: Compare a word's emotional shade across appearances, noting whether repeated choices steadily build irony, urgency, affection, or emotional distance throughout the passage.
 
 #### Systematic drill schedule
 

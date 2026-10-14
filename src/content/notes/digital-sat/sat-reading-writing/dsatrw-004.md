@@ -69,9 +69,9 @@ To secure consistent accuracy on Information and Ideas: Central Ideas and Detail
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Idea Pattern**: Reduce the passage to author, claim, reasons, evidence, and purpose, then verify that the summary accounts accurately for each major part.
+- **Detail Ranking**: Mark details as defining the main idea, extending it, illustrating it, or distracting from it, then defend each classification with textual support.
+- **Scope Match**: Compare an answer's breadth with the passage's breadth, rejecting narrow details and broad summaries that leave out the core reasoning in the response.
 
 #### Systematic drill schedule
 

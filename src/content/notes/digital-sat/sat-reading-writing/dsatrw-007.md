@@ -69,9 +69,9 @@ To secure consistent accuracy on Standard English Conventions: Boundaries and St
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Clause Map**: Bracket independent clauses and their connectors, then repair any boundary that creates a fragment or misreads the sentence's relationship between ideas.
+- **Punctuation Sweep**: Verify periods, commas, semicolons, and colons against clause boundaries, giving each mark a grammatical job in the sentence rather than treating it as decoration.
+- **Dependency Check**: Trace modifiers to the noun they describe, and shorten ambiguous openings until each word has an unmistakable grammatical home in the sentence.
 
 #### Systematic drill schedule
 

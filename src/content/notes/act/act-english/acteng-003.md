@@ -69,9 +69,9 @@ To secure consistent accuracy on Conventions of Standard English: Sentence Struc
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Clause Completion**: Check every independent clause for a subject and a finite verb, then repair omissions in the draft without creating awkward strings of stacked modifiers.
+- **Fragment Repair**: Attach underlined word groups to the nearest complete sentence, or add the missing claim when the fragment deserves to stand as an independent claim.
+- **Sentence Variety**: Rewrite three consecutive sentences with varied openings and lengths, preserving meaning while removing repeated subjects, verbs, and conjunctions for clearer emphasis in the paragraph.
 
 #### Systematic drill schedule
 

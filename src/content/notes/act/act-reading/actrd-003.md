@@ -69,9 +69,9 @@ To secure consistent accuracy on Craft and Structure: Point of View and Rhetoric
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Perspective Signals**: Track first-person pronouns, chosen details, and attitude to determine whose interests frame the passage and what that framing emphasizes or suppresses in the presentation.
+- **Purpose Tagging**: Summarize the opening, development, and ending, then tag the passage as explanation, persuasion, narration, reflection, or mixed purpose in one precise phrase.
+- **Viewpoint Contrast**: Compare how two speakers describe the same event, highlighting distinctive wording that reveals viewpoint rather than repeating shared facts for each speaker.
 
 #### Systematic drill schedule
 

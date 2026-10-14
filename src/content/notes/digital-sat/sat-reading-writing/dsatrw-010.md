@@ -69,9 +69,9 @@ To secure consistent accuracy on Expression of Ideas: Transitions, candidates sh
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Relationship Signals**: Circle words that signal sequence, contrast, cause, addition, or qualification, then confirm that the surrounding sentences express that same relationship in context.
+- **Bridge Revision**: Replace vague connectors with a word or phrase naming the exact logical move, especially where the paragraph shifts direction between ideas.
+- **Coherent Review**: Read paragraphs aloud, mark every abrupt handoff, and add only the wording needed to clarify chronology, comparison, or cause for readers.
 
 #### Systematic drill schedule
 

@@ -69,9 +69,9 @@ To secure consistent accuracy on Expression of Ideas: Rhetorical Synthesis, cand
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Source Roles**: State each source's claim, method, and strongest support, then decide which source best explains, qualifies, or challenges the prompt's central issue.
+- **Synthesized Statement**: Combine compatible ideas in a sentence that names both perspectives, preserves their limits, and shows how they answer the task as a whole.
+- **Evidence Weight**: Prefer the explanation best matched to the prompt, using source wording selectively and explaining why each cited detail matters to readers.
 
 #### Systematic drill schedule
 

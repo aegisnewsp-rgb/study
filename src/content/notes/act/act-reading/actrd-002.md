@@ -69,9 +69,9 @@ To secure consistent accuracy on Key Ideas and Details: Drawing Logical Inferenc
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Inference Bridge**: Name the stated facts behind each choice, state the unstated link in your own words, and discard answers that add unsupported knowledge.
+- **Inference Strength**: Rank conclusions from strongly implied to remotely possible, then favor what necessarily follows rather than what merely could be true in the passage.
+- **Answer Limits**: Extend an inference only as far as the passage allows, watching qualifiers such as may, suggests, or most that restrict certainty for a reader.
 
 #### Systematic drill schedule
 

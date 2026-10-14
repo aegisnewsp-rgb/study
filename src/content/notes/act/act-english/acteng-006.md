@@ -69,9 +69,9 @@ To secure consistent accuracy on Knowledge of Language: Word Choice, Tone, and E
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Diction Match**: For each paragraph, note the audience, purpose, and emotional register, then replace mismatched words with language that sustains that tone throughout the paragraph.
+- **Economy Pass**: Cut repeated ideas, empty modifiers, and inflated phrases, keeping the strongest verb and precise noun without changing the intended meaning or argumentative force.
+- **Word Accuracy**: Swap broad words for context-specific choices, and test each replacement beside its original for connotation, clarity, and unintended bias throughout the draft.
 
 #### Systematic drill schedule
 

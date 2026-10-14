@@ -69,9 +69,9 @@ To secure consistent accuracy on Information and Ideas: Inferences, candidates s
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Premise Pair**: Write two stated premises, combine them in one careful conclusion, and confirm that every word of that conclusion has textual backing.
+- **Support Levels**: Separate what is explicit, what is strongly suggested, and what is merely conceivable, choosing only the level demanded by the passage.
+- **Trap Detection**: Watch for answers driven by topic familiarity, absolute wording, or reversed relationships that invert what the passage establishes in the text.
 
 #### Systematic drill schedule
 

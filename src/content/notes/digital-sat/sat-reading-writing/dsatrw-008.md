@@ -69,9 +69,9 @@ To secure consistent accuracy on Standard English Conventions: Agreement and Mod
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Agreement Sweep**: Circle controlling nouns, underline matching verbs and pronouns, then revise agreement whenever phrases, clauses, or intervening words cause an unnoticed shift.
+- **Dangling Modifier**: Ask what each opening phrase modifies, then attach or rewrite it when the grammatical subject does not match the intended actor.
+- **Modifier Placement**: Move a modifier beside the word it limits, preserving clarity when several nouns compete for its relationship within the crowded clause.
 
 #### Systematic drill schedule
 

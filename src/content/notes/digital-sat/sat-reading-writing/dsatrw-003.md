@@ -69,9 +69,9 @@ To secure consistent accuracy on Craft and Structure: Cross-Text Connections, ca
 
 When targeting top-decile scores, students must prepare for non-standard variations:
 
-- **Complex Multi-Step Integrations**: Problems that combine this topic with secondary domains, requiring two separate theoretical insights before reaching the final calculation.
-- **Boundary Conditions and Extraneous Solutions**: Scenarios involving zero denominators, imaginary solutions, or geometric configurations that violate triangle inequality rules.
-- **Interface and Time Management Optimization**: Efficiently leveraging permitted graphing tools or annotation features to cut solution time down to under 45 seconds per standard item.
+- **Connection Type**: Classify each relationship as agreement, contrast, extension, example, or shared cause, quoting the words that trigger your choice in both texts.
+- **Anchored Comparison**: State one connection, cite a detail from each source, and explain what the comparison reveals beyond the two isolated points in the response.
+- **Synthesis Boundary**: Keep the writer's separate positions distinct, then build a comparison that answers the prompt without flattening disagreements between the texts themselves.
 
 #### Systematic drill schedule
 

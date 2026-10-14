@@ -281,6 +281,84 @@ The modifier needs something to modify:
 9. **Who/Whom**: Who (subject), Whom (object)
 10. **Than/Then**: Than (comparison), Then (time)
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Work in a fixed order
+
+Each error type conceals the ones after it, so scanning out of order costs marks. Use this sequence every time:
+
+1. Subject–verb agreement — locate the true subject first
+2. Pronoun reference — find the antecedent, check number
+3. Verb tense and mood — is the shift justified?
+4. Parallel structure — the list test
+5. Modifier placement — the squint test
+6. Word choice — the accept/except family
+7. Punctuation — comma splice, run-on
+
+#### Cross out the noise before judging agreement
+
+"The box of **chocolates** inside the **bag** near the **door** are open." The subject is *box*, singular. The eye drifts to the nearest plural noun and picks the wrong verb. Strike every phrase sitting between the subject and its verb before deciding — this single habit prevents the most frequent wrong answer in the whole set.
+
+#### Agreement with correlative connectors
+
+| Construction | Verb agrees with | Example |
+|---|---|---|
+| Neither A **nor** B | the nearer noun | Neither the students nor the teacher **is** ready |
+| Either A **or** B | the nearer noun | Either the teacher or the students **are** ready |
+| Not only A **but also** B | the second noun | Not only the teacher but also the students **were** late |
+
+The nearer noun rule is a reading convention, not a deep grammatical law, but it is the convention exam items follow. Both readings are defensible in careful prose; in a correction item, pick the option matching the nearer noun.
+
+#### The squint test for modifiers
+
+A modifier that can attach to the noun on its left or the noun on its right is defective even though the sentence is grammatical.
+
+- "The principal's decision to delay the meeting was unpopular with **faculty members**." — does *unpopular* describe the decision or the faculty?
+- "She served **sandwiches to the children** on **paper plates**." — are the plates holding sandwiches or children?
+
+The defect is ambiguous attachment, not incorrect grammar, so a purely grammatical read will pass it. Test by asking whether moving the modifier changes which noun it describes.
+
+#### Dangling modifiers
+
+A dangling modifier has lost its subject because the subject changed partway through the phrase.
+
+- ✗ "Having reviewed the literature, the proposal was rewritten." The reviewer is missing.
+- ✓ "Having reviewed the literature, we rewrote the proposal."
+- ✗ "Walking to campus, the rain soaked my bag." The walker is missing.
+- ✓ "Walking to campus, I watched the rain soak my bag."
+
+#### Faulty parallelism
+
+Items joined by *and*, *or*, *either…or*, or *not only…but also* must share grammatical form.
+
+- ✗ "The course covers microbiology, how to read a blood film, and film interpretation."
+- ✓ "The course covers microbiology, blood film reading, and film interpretation."
+- ✗ "She enjoys hiking, to swim, and photography."
+- ✓ "She enjoys hiking, swimming, and photography."
+- ✗ "Neither accepting the offer nor signing the terms."
+- ✓ "Neither accepting the offer nor signing the terms."
+
+#### Countable and uncountable in practice
+
+| Takes *fewer* | Takes *less* |
+|---|---|
+| fewer **questions**, fewer **errors** | less **time**, less **information** |
+| a few **attempts** | a little **detail** |
+| any **information** | any **detail** |
+
+Phrases carry their own number, which is where the traps sit:
+
+- "A **number** of candidates **were** absent." — *a number of* is plural.
+- "The **number** of candidates **is** fixed." — *the number* is a singular subject.
+
+Reversing the two words flips the verb. This pair appears more often than any other single agreement item.
+
+#### The no-error trap
+
+A correct sentence usually earns its place by containing the features that fail elsewhere: a long subject before the verb, a plural noun sitting near a singular verb, a modifier open to two readings. If a sentence looks deliberately plain, re-read it once at punctuation level before committing.
+
+> Tip: for ambiguous pronouns, restate the sentence with the pronoun replaced by each candidate antecedent. Whichever substitution changes the meaning identifies the intended noun, and exposes sentences where no single antecedent can be correct.
+
 ## Continue your study
 
 - **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Sentence Correction" fits in your personalised plan

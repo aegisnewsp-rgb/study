@@ -179,6 +179,90 @@ Renaturation is possible if the denaturing agent is removed and the primary stru
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Epimer and anomer — the distinction that decides the question
+
+Both words describe a change at one stereocentre. They differ in **which** one.
+
+| Relationship | Stereocentre changed | Example |
+|---|---|---|
+| Epimer | any stereocentre **except** the anomeric carbon | D-glucose → D-mannose (C2), D-allose (C3), D-galactose (C4) |
+| Anomer | the anomeric carbon, C1 | α-D-glucose ⇄ β-D-glucose |
+
+Read a structure question as three steps. Identify the anomeric carbon (C1 in aldoses, C2 in ketoses). Compare the two molecules centre by centre from the bottom of the chain upward. If exactly one centre differs and it is not C1, the pair are epimers. If the only difference is at the anomeric carbon, they are anomers. Molecules differing at more than one centre are diastereomers, which is the general term.
+
+#### Reducing and non-reducing sugars
+
+The test is a single question: **is the anomeric hydroxyl free?** A free hemiacetal can open to the aldehyde form and reduce Benedict's, Fehling's or Tollens reagent.
+
+| Sugar | Glycosidic bond | Anomeric OH free? | Reducing? |
+|---|---|---|---|
+| Maltose | α(1→4) | one of two | yes |
+| Lactose | β(1→4) | one of two | yes |
+| Sucrose | α(1→2)β | none — both engaged | no |
+| Trehalose | α(1→1)α | none — both engaged | no |
+
+Sucrose is the standard exam case because both anomeric carbons are consumed in one bond, so it has no free end and cannot ring-open. Students often mark it reducing on the grounds that it "has glucose in it" — the glucose unit is locked in glycosidic form and cannot act as a reducing agent.
+
+#### Worked calculation — linkage and branching
+
+A polysaccharide dissolves slowly in water, gives no reducing reaction, and turns blue with iodine. Name it and justify.
+
+- **Starch**, amylose component: α(1→4) linkages form unbranched chains that coil into helices. The helix interior traps iodine, giving the blue colour.
+- **Glycogen** behaves the same way — same iodine result, but with α(1→6) branch points. The additional branches raise solubility and give a red-brown rather than deep blue.
+- **Cellulose** gives **no** blue colour. Its β(1→4) linkages produce straight chains rather than helices, so there is no cavity to trap iodine.
+
+The iodine result therefore distinguishes helical α-glucans from the linear β-glucan without any further test.
+
+#### Worked reasoning — why a peptide bond is rigid
+
+Peptide bond formation joins the carboxyl carbon of one amino acid to the α-amino nitrogen of the next, releasing water. The resulting C–N bond carries partial double-bond character from resonance with the carbonyl. Two consequences follow, and both are examinable:
+
+1. The six atoms of the peptide unit lie in a plane and cannot rotate freely about the C–N bond.
+2. Each residue therefore contributes three atoms to a rigid unit, which fixes the spacing between successive Cα atoms at roughly 0.35 nm.
+
+> Tip: rotation is still possible about the bonds on either side of that rigid unit. "Rotation is impossible" is wrong; "rotation about the peptide C–N bond is restricted" is right.
+
+#### Proline and glycine — opposite effects on the helix
+
+| Residue | Effect on α-helix | Reason |
+|---|---|---|
+| Proline | **Breaks** the helix | Its ring nitrogen carries no hydrogen, so it cannot donate the backbone hydrogen bond that stabilises the turn; its ring also restricts the angle at Cα |
+| Glycine | Destabilises the helix | Its side chain is a single hydrogen, making the backbone unusually flexible |
+| Valine, isoleucine | Weakens the helix | Branched β-carbons crowd the interior |
+
+This is the most commonly examined fact in protein conformation: a polymer of proline will not form an α-helix, while alanine will.
+
+#### Collagen as the worked structural case
+
+Collagen is the most abundant protein in the body, and its architecture shows why.
+
+- Repeating unit **Gly–X–Y**, so every third residue is glycine — the only residue small enough to sit where three chains converge on the axis.
+- Three left-handed chains wind into a right-handed **triple helix**.
+- Hydroxyproline is stabilised by vitamin C; its deficiency produces scurvy, which is a collagen defect rather than a vitamin intake mystery.
+
+#### Denaturation — what breaks and what does not
+
+| Level | Bonds holding it | Survives denaturation? |
+|---|---|---|
+| Primary | peptide (covalent) | **yes** |
+| Secondary | backbone hydrogen bonds | no |
+| Tertiary | hydrophobic, ionic, H-bond, van der Waals, disulfide | no (disulfides may reduce) |
+| Quaternary | subunit interfaces | no |
+
+Denaturation never hydrolyses peptide bonds, so the amino acid sequence is unchanged and the protein remains digestible. Cooking an egg is denaturation: the white sets, the sequence does not change, and the peptide bonds are intact when you digest it.
+
+#### Classification of carbohydrates
+
+| Class | Sugars per molecule | Example |
+|---|---|---|
+| Monosaccharide | 1 | glucose, fructose, ribose |
+| Disaccharide | 2, joined by a glycosidic bond | maltose, lactose, sucrose |
+| Polysaccharide | many | starch, glycogen, cellulose |
+
+Monosaccharides are the units; the reactions that build the bonds from them are dehydration condensations, so building ten glucose units consumes nine water molecules — the same arithmetic that frees water when ten residues condense into a peptide chain.
+
 ## Continue your study
 
 - **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Biomolecules (Carbohydrates & Proteins)" fits in your personalised plan

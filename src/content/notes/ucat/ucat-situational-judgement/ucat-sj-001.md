@@ -225,6 +225,78 @@ The published scoring description is "partial marks if your response is close to
 3. After each set, count how often you rated A vs B (or C vs D). If the ratio is asymmetric, you are over- or under-using the moderate categories.
 4. Sit one full SJT mock under timed conditions, then review your calibration. The official UCAT practice tests are the right benchmark; current band-level descriptions and any year-on-year cohort figures are on ucat.ac.uk at the published Situational Judgement guidance pages.
 
+### 🔴 Deep application and exam practice
+
+#### The partial-mark rule, stated precisely
+
+Full marks require your rating to match the ideal response. Partial marks are awarded when your response is close to the ideal. "Close" is defined by outcome, not tone: two responses score partial against each other when a senior clinician would describe both as recommending the same action, even if one is wordier or warmer.
+
+The practical consequence is that you are not choosing between four independent verdicts. You are placing each option on a line and reading the distance.
+
+| Rating | Position on the line |
+|---|---|
+| A — very appropriate | the action itself |
+| B — appropriate, not ideal | same direction, one compromise short |
+| C — inappropriate, not awful | opposite direction, minor breach |
+| D — very inappropriate | opposite direction, serious breach |
+
+The band you lose is decided by whether you could tell A from B, and C from D — not by how extreme the scenario is.
+
+#### Escalation as a ranking device
+
+Most appropriateness scenarios contain an escalation ladder. Identify where each option sits before rating it, because panels build items by moving one rung.
+
+| Rung | Action | Reads as |
+|---|---|---|
+| 1 | Deal with it yourself immediately | appropriate when delay causes harm |
+| 2 | Ask a senior or the team on the spot | appropriate when unsure |
+| 3 | Report formally afterwards | appropriate when harm is contained |
+| 4 | Do nothing and hope it resolves | inappropriate to very inappropriate |
+
+Two traps live here. Escalating when the clock is running moves you down a band, because delay is itself a decision. Escalating reflexively to avoid responsibility is the mirror error and scores just as badly. The test is what the delay costs the patient.
+
+#### Worked comparison — the same instinct, four ratings
+
+A patient with a suspected overdose is brought in by a companion who insists the patient "does not need the police involved."
+
+- **A:** "Treat immediately and involve safeguarding without consulting the companion." The correct sequence — treatment is not contingent on disclosure, and the safeguarding obligation stands on its own.
+- **B:** "Check with the patient first whether they want police contact." Reasonable if the patient has capacity, and capacity is the real question — but stated unconditionally it delays treatment.
+- **C:** "Ask the companion to leave and continue privately." Close to ideal and materially safer, but omits the safeguarding step entirely.
+- **D:** "Defer to the companion's wishes because they brought the patient in." Treats a bystander's claim as authority over clinical decisions.
+
+Note that instinct and score diverge at rung 2. Most candidates rate the second option higher because it sounds patient-centred.
+
+#### Importance items — the weighting test
+
+Importance questions ask what *should weigh in*. Rate a factor by consequence, not by prominence in the scenario.
+
+| Factor | Rating when it changes the plan | Rating when it does not |
+|---|---|---|
+| Patient's wishes | very important | — |
+| Capacity to consent | very important | — |
+| A relative's preference | unimportant | important if patient lacks capacity |
+| Cost of a treatment option | unimportant | important if no safe alternative exists |
+| The doctor's own convenience | not important at all, always | — |
+
+A factor that appears in the scenario but changes nothing is a distractor written to look relevant. Read each factor as a conditional: *if this were true, would it alter the action?*
+
+#### Building a calibration ledger
+
+Band movement is an arithmetic problem, so track it as one. For every practice set, record the count of each rating you assigned:
+
+| Set | A | B | C | D |
+|---|---|---|---|---|
+| 1 | | | | |
+| 2 | | | | |
+
+Published key distributions for this subtest are not uniform, and a ledger makes your own bias visible after three or four sets. A run of B on a set whose answers are mostly A indicates you are rating plausibility rather than the ideal — the standard over-crediting error. A run of C where D is expected indicates under-detection of serious breaches, the costlier direction because it also flatters unsafe actions.
+
+> Tip: on items you feel neutral about, pick the moderate rating rather than the extreme one. A marked preference for A or D signals a misread stem far more often than it signals confidence, and it is the cheapest diagnostic available to you mid-test.
+
+#### Where the two question types collide
+
+Several scenarios run both types back to back on the same case. Treat them as separate marks, not one combined judgement. Rating an action appropriately while rating the factor that produced it as unimportant is a legitimate and common combination — it describes a doctor who reached the right conclusion by a weak route. Rating the factor highly while rating the action as inappropriate is equally legitimate and describes the reverse. Read the stem before each item and reset, because carrying a verdict across the pair costs one of the two marks.
+
 ## Continue your study
 
 - **[View this topic in your UCAT (University Clinical Aptitude Test) roadmap](/roadmap/?exam=ucat&duration=1mo)** — see where "Appropriateness and Importance" fits in your personalised plan

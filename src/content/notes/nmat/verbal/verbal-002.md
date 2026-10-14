@@ -214,6 +214,77 @@ Examples:
 9. **Signal words**: already, yet, still, just, ever, never, for, since
 10. **Conditional forms**: Zero, First, Second, Third
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Start from the reference point, not the verb
+
+A tense is not a property of the verb. *Study* is the same verb in all twelve tenses; what changes is where the speaker places the action relative to now. Find the reference point first — the moment the sentence treats as present — then ask three questions. Is the action before it, at it, or after it? Is it finished or still running? Does the time still matter to the listener?
+
+#### One reference point, four relative positions
+
+| Position | Time frame | Tense family | Usual signal |
+|---|---|---|---|
+| Before now, finished, irrelevant now | closed past | Past Simple | yesterday, in 2019, ago |
+| Before now, finished, still relevant | open past | Present Perfect | already, yet, for, since |
+| Under way at a past moment | past in progress | Past Continuous | while, when |
+| Before another past action | earlier past | Past Perfect | by the time, after |
+
+The last row is the one that gets skipped. Past Perfect is never judged against now. It needs a second past action to be measured against, and it is wrong wherever no earlier past action exists.
+
+#### The closed-period test
+
+Time expressions divide into two families, and this split resolves more items than any other rule.
+
+| Family | Examples | Takes |
+|---|---|---|
+| Closed — both ends fixed and past | yesterday, last week, in 2020, as a child | Past Simple |
+| Open — period reaches into now | today, this week, this year, since Monday | Present Perfect |
+
+- Closed: "I did not sleep well **last night**."
+- Open: "I haven't slept well **this week**."
+
+If the period is still running, whatever happened inside it is still live information, and you need the present perfect.
+
+#### Worked item — three options, three different faults
+
+> Maria ________ (submit) her application three days ago and ________ (not yet receive) a confirmation.
+
+- "**submitted … have not yet received**" — correct. "Three days ago" is a closed period, so the first clause is Past Simple. The confirmation is still outstanding now, so the second is Present Perfect with *yet*.
+- "**has submitted … did not receive**" — drags a finished event into the present. The submission happened and is over.
+- "**submits … has not received**" — wrong aspect twice. A bounded past moment cannot carry a present-simple verb, and *yet* collocates only with perfect forms.
+
+> Tip: when a sentence carries two clauses, decide each tense separately. Applying one tense across the whole sentence is the most common wrong turn on this topic.
+
+#### Sequence of tenses in reported speech
+
+| Direct | Reported |
+|---|---|
+| "I **am** taking it." | He said he **was** taking it. |
+| "She **has** finished." | He said she **had** finished. |
+| "They **will** come." | He said they **would** come. |
+| "I **was** waiting." | He said he **had been** waiting. |
+
+Backshifting moves present to past and future to conditional past. A backshifted tense never signals that the action is untrue — it signals distance from the original moment of speaking. That distinction is what separates a reported statement from a denial.
+
+#### Conditionals as tense agreements
+
+| Type | If-clause | Main clause | Reality |
+|---|---|---|---|
+| Zero | present simple | present simple | general law |
+| First | present simple | will + V1 | real future |
+| Second | past simple | would + V1 | unreal present |
+| Third | past perfect | would have + V3 | unreal past |
+| Mixed | past perfect | would + V1 | unreal present, unreal past cause |
+
+The mixed row carries the marks: "If I **had** accepted the offer, I **would be** working abroad now." The condition is counterfactual past, the consequence counterfactual present, so the halves take different tenses.
+
+#### Faults that survive a careless read
+
+- **Stative verbs reject the progressive.** Know, believe, own, belong, seem, contain have no progressive form. "I am knowing" is never correct, and "I have been knowing" is not English.
+- **Decide the aspect before the verb.** Will marks a decision taken now; *going to* marks a plan made earlier. "The train leaves at nine" is fixed scheduling and takes the present simple.
+- **Perfect continuous measures duration that is still running.** "I have been studying for three hours" is true at the moment of speaking; it does not assert completion.
+- **Since takes a starting point.** A date, a day, an event. "Since three hours" is wrong — that is *for*.
+
 ## Continue your study
 
 - **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Tenses and Their Usage" fits in your personalised plan

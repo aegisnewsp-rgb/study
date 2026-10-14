@@ -1,0 +1,16 @@
+# SR_SCOPE_BASELINE - deliberate, recorded known breaches.
+#
+# A file listed here is BOTH locked in LOCKED_FILES.txt AND already touched in
+# committed history BEFORE scripts/check-scope.sh could see history (sr-1089Z).
+# The gate REPORTS these on every run and excludes them from the breach set, so
+# one historical breach cannot pin the gate red forever. Removing a line re-arms
+# the gate for that file immediately.
+#
+# Measured 2026-10-12 at HEAD 6d3d3d7c: astro.config.mjs was last touched by
+# 0d673e43 ("seo: noindex sat-qatar"), which is pushed and sits inside the
+# HEAD~20 window, so the history scan sees it on every run.
+#
+# Operator decision required: either remediate the 0d673e43 hunk and DELETE the
+# line below (preferred), or keep the line to acknowledge the breach knowingly.
+# Added by the sr-1089Z v2 patch.
+astro.config.mjs

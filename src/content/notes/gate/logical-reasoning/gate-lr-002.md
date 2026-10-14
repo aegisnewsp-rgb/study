@@ -18,7 +18,7 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
-Coding-decoding questions test your ability to identify patterns in letter or number transformations and apply them to decode new words or numbers. In the GATE exam, these questions typically appear in the General Aptitude section and carry 1-2 marks each. The key is to systematically identify the transformation rule and verify it against all given examples before applying it to the question word.
+Coding-decoding questions test your ability to identify patterns in letter or number transformations and apply them to decode new words or numbers. In the GATE exam, these questions fall under the General Aptitude section. The key is to systematically identify the transformation rule and verify it against all given examples before applying it to the question word.
 
 **Types of Coding Patterns You'll Encounter:**
 
@@ -28,7 +28,7 @@ Coding-decoding questions test your ability to identify patterns in letter or nu
 - **Number-Letter Mapping**: Letters are replaced by numbers based on their position (A=1, B=2... Z=26) or some derived relationship.
 - **Skipping Pattern**: Letters at specific positions are selected or skipped in a pattern (every 2nd letter, every 3rd letter, etc.).
 
-**⚡ GATE Exam Tip:** In GATE 2023, a coding-decoding question appeared where letters were shifted by +5 positions. Always check if the pattern changes mid-word (odd/even position rule). When you think you've found the pattern, quickly verify by applying it to all given examples — one mismatch means the pattern is wrong.
+**⚡ GATE Exam Tip:** Watch for a rule that changes within a word, such as an odd-even position rule. Verify the proposed rule against every given example — one mismatch disproves it.
 
 **Memory Trick:** "Spot the shift, count the gap, apply it right." Count the position difference between corresponding letters to find the shift value. Write the alphabet with numbers: A=1, B=2, C=3... Z=26, and use modulo 26 arithmetic for wraparound.
 
@@ -145,15 +145,15 @@ $$\text{Opposite}(i) = 25 - i$$
 
 For example, A(i=0) → 25-0 = 25(Z), and Z(i=25) → 25-25 = 0(A).
 
-**GATE Previous Year Patterns:**
+**What the Official Record Does and Does Not Show:**
 
-GATE has featured coding-decoding in the General Aptitude section consistently across years:
-- **GATE 2022 (CS)**: Letter shift by -3, medium difficulty
-- **GATE 2021 (All streams)**: Mixed letter-number coding, easy
-- **GATE 2020**: Reverse alphabetical coding, easy
-- **GATE 2019**: Alternating shift pattern, medium
+GATE does not publish a browsable per-question archive or a topic-tagged answer key through the GATE portal. Any claim tying a specific question to a specific examination year therefore relies on recollection, not an official citation.
 
-The difficulty level has remained consistently easy to medium, making this a high-scoring area if you master the patterns. Expect 1 question worth 1 mark.
+- **First priority:** Learn deterministic rules thoroughly, since verified rules beat statistical guessing.
+- **Second priority:** Drill modular-arithmetic wraparound, where final-letter boundary errors can invalidate an otherwise correct rule.
+- **Third priority:** Test each candidate rule against every supplied example, since verification takes less time than guessing.
+
+Our editorial estimate treats Coding-Decoding as a small part of General Aptitude, a revision judgement rather than published GATE data.
 
 **Advanced Problem Types:**
 

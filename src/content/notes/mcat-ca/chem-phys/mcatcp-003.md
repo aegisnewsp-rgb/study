@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Sound, light, and atomic structure span AAMC Foundational Concepts 4 and 5 of the Chem/Phys section. The MCAT tests wave properties (sound and light), geometric optics, photon emission and absorption, and the basics of atomic structure and electron configuration. Items often pair a passage describing a physical setup (a lens, a sound intensity measurement, an emission spectrum) with a multiple-choice item.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

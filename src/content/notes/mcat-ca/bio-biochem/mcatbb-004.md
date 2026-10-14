@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Genetics and evolution form the second half of AAMC Foundational Concept 2 of the Bio/Biochem section. The MCAT tests Mendelian genetics, extensions of Mendel, linkage and recombination, gene expression (transcription, translation), gene regulation, DNA replication and repair, and population genetics. These topics underpin many passages on inheritance, genetic disease, and evolutionary biology.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

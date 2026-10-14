@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Kinetics and thermodynamics form the largest single content block of AAMC Foundational Concept 5 in the Chem/Phys section. The MCAT tests reaction rates, rate laws, activation energy, catalysis (with enzymes as the biological context), and the thermodynamics of enthalpy, entropy, and Gibbs free energy. These topics underpin almost every biochemistry and metabolism passage in the Bio/Biochem section.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

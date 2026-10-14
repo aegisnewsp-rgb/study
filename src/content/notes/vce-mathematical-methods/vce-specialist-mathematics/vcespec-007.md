@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Complex Numbers is a Year 12 topic in VCE Specialist Mathematics Units 3 and 4. The 2023 Study Design covers the imaginary unit, complex arithmetic, Argand diagrams, modulus and argument, De Moivre's theorem, roots of complex numbers and applications to polynomial equations. The topic is assessed in Examination 1.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics.
 
 ---
 

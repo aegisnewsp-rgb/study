@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Social Sciences passages are one of the two passage-content groups on the MCAT CARS section, the other being humanities. AAMC draws social sciences passages from anthropology, archaeology, economics, education, geography, history, linguistics, political science, population health, psychology, and sociology. Social sciences passages tend to be more factual and scientific in tone, presenting interpretations, implications, or applications of historical accounts, theories, observations, or trends of human society, a specific population group, or a specific country. About half of CARS passage content is Social Sciences.
 
-> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/.
 
 ---
 

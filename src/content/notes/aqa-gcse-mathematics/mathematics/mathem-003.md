@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The Ratio, Proportion and Rates of Change strand carries the second-largest mark weighting at higher tier and tests applied problem-solving more than any other strand. AQA assesses it across Paper 2 and Paper 3 (calculator) and as embedded contexts on Paper 1 (non-calculator). It rewards fluency with units, confidence with fractions and decimals, and the habit of converting to a common form before calculating.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300.
 
 ---
 

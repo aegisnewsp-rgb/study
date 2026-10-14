@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91256 is the first of fourteen NCEA Level 2 Mathematics standards. It is internally assessed, carries 2 credits, and tests co-ordinate geometry with straight lines. Most schools schedule 91256 early in the year so the skills carry into 91257 (graphical methods) and 91261 (algebraic methods). The standard is small in credit but dense in content — every topic here is reused in later Level 2 and Level 3 standards.
 
-> Verify the live achievement standard document and any clarifications on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document and any clarifications on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

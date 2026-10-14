@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 2 of QCE Specialist Mathematics covers further functions (cubic, quartic, exponential, logarithmic and simple trigonometric); introduction to differential calculus (limit, derivative, gradient of tangent); elementary integral calculus (anti-derivative, area under a curve). Second Unit of the four-Unit sequence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

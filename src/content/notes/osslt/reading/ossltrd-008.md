@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 This topic covers the conventions, vocabulary and visual-information items that appear across the four reading selection types on the OSSLT. The EQAO Framework names spelling, grammar, and punctuation as assessed skills within the reading component, and OSSLT selections are often paired with captioned photos, sidebars, tables, and small charts that test visual literacy alongside reading comprehension.
 
-> Verify the live item count, conventions coverage and any in-year changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live item count, conventions coverage and any in-year changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

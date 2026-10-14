@@ -15,7 +15,7 @@ lastUpdated: "2026-09-24"
 
 Section B is marked on the ability to argue economically and to come to a conclusion, so what is being looked for is one line of reasoning carried through to a stated position, not a balanced list of considerations. The shape that scores is simple: state your position in the opening paragraph, spend the body making the strongest case for it, deal with the obvious objection in one paragraph rather than giving it equal weight, and finish with a conclusion that answers the exact question. A shorter essay with a clear spine scores better than a longer one that hedges. The skill is the same one Section A tests on a smaller scale — pick the claim the support earns, hold it, and let the argument run to its conclusion.
 
-> Verify the live test format, timings and access arrangements on https://lnat.ac.uk/ before planning revision around the figures below.
+> Verify the live test format, timings and access arrangements on https://lnat.ac.uk/.
 
 ---
 

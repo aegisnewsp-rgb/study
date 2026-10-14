@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Flaw items ask what is wrong with the argument's reasoning. The LSAT tests a defined list of common reasoning errors, including ad hominem, straw man, false dilemma, circular reasoning, hasty generalisation, slippery slope, post hoc, and equivocation. Recognising the flaw quickly is the skill; the answer choice usually names the flaw in standard LSAT language.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

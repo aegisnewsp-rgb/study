@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Probability is section M of the AQA 7357 specification. The section covers mutually exclusive and independent events, conditional probability, Venn diagrams and tree diagrams, and applying probability formulae. Probability is the gateway to the binomial and normal distributions (section N) and to hypothesis testing (section O), both of which sit on Paper 3. The skill is the same across the whole section: identify the events, draw the diagram (tree or Venn), and apply the appropriate formula. Conditional probability is the trickiest sub-topic because the formula looks like ordinary multiplication, but the events are read from the right place in the diagram.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

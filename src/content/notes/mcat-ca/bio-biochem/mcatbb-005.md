@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Glycolysis, the citric acid (Krebs) cycle, and oxidative phosphorylation form the core of AAMC Foundational Concept 3 of the Bio/Biochem section. The MCAT tests the enzymes, intermediates, energy yield, and regulation of these central metabolic pathways. These topics underpin every metabolic passage on the exam and connect to biochemistry, physiology, and pharmacology.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

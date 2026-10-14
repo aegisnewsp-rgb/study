@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Functions, relations and graphs is one of the four Areas of Study in VCE Specialist Mathematics Units 3 and 4. The 2023 Study Design covers circular functions, combinations of functions and the connection between trigonometric and exponential forms, plus the introduction of vectors as functions of a scalar parameter. The strand is assessed in both Examination 1 and Examination 2.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics.
 
 ---
 

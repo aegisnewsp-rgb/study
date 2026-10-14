@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The News Report is the first of the two long-writing tasks on the OSSLT. Students are given a visual prompt (often a captioned photograph) and a brief information source, and asked to write a short news report. The EQAO Framework and OSSLT rubric score the response on idea development, organisation, language and conventions. This is one of two single highest-weighted writing items on the OSSLT.
 
-> Verify the live task stem, source pairing, and rubric on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live task stem, source pairing, and rubric on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Humanities passages are one of the two passage-content groups on the MCAT CARS section, the other being social sciences. AAMC draws humanities passages from architecture, art, dance, ethics, literature, music, philosophy, popular culture, religion, and theater. Humanities passages focus on relationships between ideas and are more likely to be written in a conversational or opinionated style, so the author's tone and word choice carry as much weight as the assertions. About half of CARS passage content is Humanities.
 
-> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/.
 
 ---
 

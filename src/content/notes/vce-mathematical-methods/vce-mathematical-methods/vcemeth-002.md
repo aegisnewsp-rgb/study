@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Algebra, number and structure is one of the four Areas of Study in VCE Mathematical Methods Units 3 and 4. The 2023 Study Design covers algebraic manipulation, exact values, indices, surds, logarithms, sequences and series, and the formal language of mathematical reasoning. The strand is assessed across both papers but is more heavily weighted in Examination 1.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods.
 
 ---
 

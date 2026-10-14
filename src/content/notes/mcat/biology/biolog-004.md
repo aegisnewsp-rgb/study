@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Bioenergetics is the study of how cells capture, store, transfer, and use energy: photosynthesis in chloroplasts, cellular respiration in mitochondria, ATP synthesis by chemiosmosis, and the limiting factors that tune each pathway to the environment. Under the PMDC 2026 Biology allotment of 81 MCQs (≈45 % of the 180-MCQ MDCAT paper, PMDC Public Notice, 2026), Bioenergetics yields roughly 7–9 MCQs per paper — a high-yield unit because it is mechanistically rich and numerically testable (stoichiometry, yields, redox). PMDC confirms the 2026 syllabus is identical to the 2025 Uniform Curriculum (PMDC MDCAT Curriculum 2025), so the learning outcomes and chapter list below are unchanged for this cycle.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Research methods, statistics, and ethics in psychology span AAMC Foundational Concepts 6 and 8 of the Psych/Soc section and tie directly into the AAMC Scientific Inquiry and Reasoning Skills (SIRS). The MCAT tests experimental versus correlational designs, variables and controls, sampling, descriptive and inferential statistics, effect size, confidence intervals, and research ethics. These topics underpin every Psych/Soc passage that describes a study.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

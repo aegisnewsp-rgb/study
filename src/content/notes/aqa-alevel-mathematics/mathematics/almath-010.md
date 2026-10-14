@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Vectors is section J of the AQA 7357 specification. The section covers vectors in two and three dimensions, magnitude and direction, position vectors, and using vectors to solve geometric problems including proof of collinearity. Vectors are the language of mechanics (sections P to S) — kinematics, forces, moments all use vector notation — and are also assessed as a stand-alone topic on Paper 2. The skill is the same in 2D and 3D: write each vector in component form, then the operations (addition, scalar multiplication, magnitude, dot product) are mechanical.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The musculoskeletal, immune, and reproductive systems form part of AAMC Foundational Concept 4 of the Bio/Biochem section. The MCAT tests skeletal muscle contraction, the sarcomere, calcium regulation, innate and adaptive immunity, antibody structure and function, hormonal control of reproduction, and the menstrual cycle. These topics connect cellular biology to whole-organism physiology.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

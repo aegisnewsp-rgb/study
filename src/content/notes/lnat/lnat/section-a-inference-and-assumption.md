@@ -15,7 +15,7 @@ lastUpdated: "2026-09-24"
 
 A run of Section A questions asks what follows from a passage rather than what it states outright. The three types — conclusion, assumption and the claim an argument would collapse without — look similar on the page, but they test different moves, and the wording of the stem usually tells you which one you are being asked to do. The skill is reducing each passage to its argument in one sentence: what is being claimed, what is offered as support, and what has been left unsaid. Once you can name the unsaid part, the answer options sort themselves. One option will bridge the gap the argument needs, and the others will either restate the passage or go further than the passage can carry.
 
-> Verify the live test format, timings and access arrangements on https://lnat.ac.uk/ before planning revision around the figures below.
+> Verify the live test format, timings and access arrangements on https://lnat.ac.uk/.
 
 ---
 

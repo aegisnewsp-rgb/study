@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Functions, relations and graphs is the largest single content strand in the VCE Mathematical Methods Units 3 and 4 syllabus. The 2023 Study Design covers linear, quadratic, polynomial, exponential, logarithmic and circular (sine and cosine) functions; combinations and composite functions; inverse functions; transformations and the graphical relationship between a function and its inverse. The strand is assessed in both Examination 1 and Examination 2.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods.
 
 ---
 

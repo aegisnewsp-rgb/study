@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Calculus is one of the four Areas of Study in VCE Mathematical Methods Units 3 and 4. The 2023 Study Design covers rates of change and the derivative (Unit 3), anti-derivatives and the definite integral (Unit 3-4), then differentiation and integration of combined functions, the chain rule, the product rule, differential equations, and applications of calculus. Calculus appears in every Methods examination paper.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 6 of SACE Stage 2 Mathematical Methods covers sampling distributions, the central limit theorem, confidence intervals for means and proportions, and the language of statistical inference. Sixth Topic and the third Topic of the statistics strand.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods.
 
 ---
 

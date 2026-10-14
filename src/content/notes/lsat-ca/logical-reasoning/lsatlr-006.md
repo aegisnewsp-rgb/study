@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Method of reasoning items ask the test-taker to describe how the author argues. Role of a statement items ask what function a specific statement serves in the argument. Both item types test the ability to step back from the argument's content and analyse its structure.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

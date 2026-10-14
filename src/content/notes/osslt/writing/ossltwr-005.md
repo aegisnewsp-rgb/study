@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Conventions (spelling, grammar, and punctuation) are one of the four dimensions of the EQAO OSSLT rubric for the long-writing tasks. The rubric scores the response's accuracy on conventions separately from idea development, organisation, and language. A response with strong ideas but weak conventions scores lower than a response with clear conventions. Conventions are also tested directly in the OSSLT selected-response Writing items.
 
-> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

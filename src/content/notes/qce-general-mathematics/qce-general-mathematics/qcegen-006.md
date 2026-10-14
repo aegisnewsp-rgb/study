@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Measurement and Geometry is one of the three major domains in QCE General Mathematics. It covers length, area and volume; trigonometry in two and three dimensions; Earth geometry (great circles, time zones, latitude and longitude); vectors in the plane.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics.
 
 ---
 

@@ -14,7 +14,7 @@ lastUpdated: "2026-09-25"
 
 Mechanics is the largest single block on the ACSEE Physics syllabus. In the NECTA 131/1 paper it accounts for roughly one quarter of the marks, and the related items from the Questions/structured parts of 131/2 also draw on the same mechanics core. The exam tests the kinematics and dynamics toolkit you built at O-Form plus the harder applications: projectiles launched from a height, energy methods on inclined planes, momentum in two dimensions, and simple rotational motion. The assumptions are idealised (negligible air resistance, inextensible strings, point masses) unless the question says otherwise, and units must be SI throughout.
 
-> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz before planning around the figures below.
+> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 > Survive the first paper with the toolkit you already half-remember.

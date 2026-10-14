@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91946 is the first of two NCEA Level 1 Mathematics and Statistics externals. It carries 5 credits and is assessed by an end-of-year NZQA examination in November/December. The standard asks students to interpret given mathematical and statistical information, select and apply appropriate methods, and solve problems in real-world contexts. Unlike 91944 and 91945 (the internals), 91946 provides all the data and the context in the question; the student's job is to choose methods and apply them.
 
-> Verify the live assessment specification and any in-year changes on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91946-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification and any in-year changes on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91946-spc-2026.pdf.
 
 ---
 

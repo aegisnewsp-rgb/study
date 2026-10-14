@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Algebra, Number and Structure is one of the four major topics in QCE Mathematical Methods. It covers surds, indices, logarithms, sequences and series; algebraic manipulation; the language of mathematical reasoning.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods.
 
 ---
 

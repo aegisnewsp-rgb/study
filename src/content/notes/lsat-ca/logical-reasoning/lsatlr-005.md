@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Inference items ask which conclusion follows necessarily from the passage. The LSAT tests whether the test-taker can distinguish conclusions that must be true from those that could be true, probably true, or false. Inference items are similar to sufficient-assumption items but require only that the conclusion follow from the given information.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

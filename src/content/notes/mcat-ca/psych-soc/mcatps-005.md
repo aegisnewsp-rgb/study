@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Self-concept, social interaction, and socialisation form the core of AAMC Foundational Concept 8 of the Psych/Soc section. The MCAT tests self-concept, self-esteem, self-efficacy, identity formation, attitudes, persuasion, conformity (Asch, Milgram), obedience, group dynamics, prejudice, discrimination, and stereotyping. These topics underpin most social-psychology passages on the exam.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Probability and Statistics is one of the four major topics in QCE Mathematical Methods. It covers univariate and bivariate data, summary statistics; probability distributions (binomial, normal); sampling, confidence intervals and hypothesis testing.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods.
 
 ---
 

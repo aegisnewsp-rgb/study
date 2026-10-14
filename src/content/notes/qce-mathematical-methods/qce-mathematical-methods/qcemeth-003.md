@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 3 of QCE Mathematical Methods covers further differentiation and applications (related rates, optimisation, curve sketching); further integration (substitution, definite integrals, areas between curves); discrete random variables and the binomial distribution. Third Unit of the four-Unit sequence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods.
 
 ---
 

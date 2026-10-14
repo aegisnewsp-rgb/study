@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The digestive and excretory systems form part of AAMC Foundational Concept 4 of the Bio/Biochem section. The MCAT tests digestive enzymes and absorption, the hepatic portal system, kidney structure, glomerular filtration, tubular reabsorption and secretion, and acid-base balance. These topics connect biochemistry to organ-level physiology.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 2 of SACE Stage 2 Mathematical Methods covers probability distributions, expected value, variance and standard deviation for discrete random variables; the Bernoulli and binomial distributions and their applications. Second Topic and the first Topic of the statistics strand.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods.
 
 ---
 

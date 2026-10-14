@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91584 is one of six external NCEA Level 3 Calculus standards, carrying 4 credits. It tests critical evaluation of a statistical report with formal methods: study design, sampling, statistical techniques, assumptions, conclusions, and limitations. The standard deepens the Level 2 work in 91266 by requiring engagement with formal inference (confidence intervals, hypothesis tests).
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91584-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91584-spc-2026.pdf.
 
 ---
 

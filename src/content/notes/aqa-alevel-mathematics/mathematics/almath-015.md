@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Forces, Newton's Laws and Moments is sections R and S of the AQA 7357 specification. The section covers Newton's laws of motion, resolving forces, equilibrium, connected particles and pulleys, friction, and moments about a point including non-uniform rods. These sections sit on Paper 2 alongside vectors and kinematics, and together they form the mechanics content. The two habits that pay off most are: resolve forces into perpendicular components before applying Newton's second law, and write a free-body diagram for every problem — most mechanics errors are missing forces on the diagram, not arithmetic mistakes.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

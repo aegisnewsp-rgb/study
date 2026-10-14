@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Dialogue is one of the four reading selection types on the OSSLT. The EQAO Framework describes it as a two- or three-speaker exchange between characters. Dialogue selections are paired with multiple-select items that target who-said-what tracking, speaker purpose, and the relationship between speakers. Inference items (Reading 2) are common in Dialogue because the writer signals character and relationship through subtext, not labels.
 
-> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

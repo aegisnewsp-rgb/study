@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 5 of SACE Stage 2 Mathematical Methods covers continuous random variables, the normal distribution and its parameters, the standard normal distribution and calculations of probability. Fifth Topic and the second Topic of the statistics strand.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods.
 
 ---
 

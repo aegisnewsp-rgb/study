@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Reasoning Within the Text is CARS Skill 2 in the AAMC CARS framework. It is the ability to follow the author's argument: identifying claims and evidence, distinguishing strengthen/weaken statements, recognising assumptions, and evaluating the logic of the argument as it is presented. This skill builds on Foundations of Comprehension (Skill 1) and is the most-tested CARS skill.
 
-> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/.
 
 ---
 

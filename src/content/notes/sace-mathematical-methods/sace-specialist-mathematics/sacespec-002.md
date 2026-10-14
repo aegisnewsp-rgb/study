@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 2 of SACE Stage 2 Specialist Mathematics covers Cartesian and polar form of complex numbers, the Argand diagram, modulus and argument, De Moivre's theorem and the roots of complex numbers.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics.
 
 ---
 

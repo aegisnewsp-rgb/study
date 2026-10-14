@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Reading 1 is the largest cluster of items on the OSSLT. The EQAO Framework describes it as locating directly stated ideas and supporting details in a selection. Every Real-Life Narrative, Information Paragraph, News Report, and Dialogue selection begins with a stretch of Reading 1 items, and the OSSLT rubric scores accuracy on these items first.
 
-> Verify the live item count, session timing and any in-year item-type changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live item count, session timing and any in-year item-type changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

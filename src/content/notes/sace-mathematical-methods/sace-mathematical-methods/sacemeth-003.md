@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 3 of SACE Stage 2 Mathematical Methods covers the definite integral as a limit of sums, the fundamental theorem of calculus, anti-differentiation, integration by substitution and applications to areas between curves. Third Topic and the second Topic of the calculus strand.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods.
 
 ---
 

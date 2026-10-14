@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 4 of QCE Specialist Mathematics covers further calculus (differential equations, related rates, optimisation); trigonometric identities, equations and graphs; continuous random variables, the normal distribution, sampling and confidence intervals. Fourth Unit and summative external assessment.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

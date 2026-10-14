@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 This unit covers how the human body detects stimuli, decides on a response, and executes it: the nervous system (neurons, synapses, reflex arc, brain, spinal cord), the endocrine system (hormones, feedback loops, target organs), and the sense organs (eye, ear, skin). Under the PMDC 2026 Biology allotment of 81 MCQs (≈45 % of the 180-MCQ paper, PMDC Public Notice, 2026), Coordination and Control contributes roughly 6–8 MCQs per paper — enough that a single missed reflex-arc or hormone-target question costs several percentile points. Questions are MCQ, single-best-answer, no negative marking, so always attempt every item (PMDC 2026 paper-pattern notice).
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

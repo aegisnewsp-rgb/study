@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 6 of SACE Stage 2 Specialist Mathematics covers first-order differential equations, separable equations, modelling with differential equations and applications to growth, decay and Newton's law of cooling. Sixth Topic and summative Topic of the calculus strand.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics.
 
 ---
 

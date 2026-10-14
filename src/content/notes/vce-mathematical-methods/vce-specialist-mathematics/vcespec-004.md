@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Data analysis, probability and statistics is one of the four Areas of Study in VCE Specialist Mathematics Units 3 and 4. The 2023 Study Design covers continuous random variables, the normal distribution, the distribution of sample means, confidence intervals, hypothesis testing and the language of statistical inference. This Area of Study builds on the corresponding Methods Area of Study.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics.
 
 ---
 

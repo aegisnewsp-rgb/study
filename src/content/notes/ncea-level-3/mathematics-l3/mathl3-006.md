@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91578 is one of the two largest external NCEA Level 3 Calculus standards, carrying 6 credits. It tests differentiation of polynomial, exponential, logarithmic, and trigonometric functions, including product, quotient, and chain rules; curve sketching; optimisation; related rates; and kinematics. This is the cornerstone standard for university STEM entry and is a prerequisite for first-year university calculus.
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91578-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91578-spc-2026.pdf.
 
 ---
 

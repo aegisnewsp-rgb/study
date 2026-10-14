@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 4 Topic 3 of WACE Mathematics Methods covers continuous random variables, the normal distribution and its parameters, the standard normal distribution and confidence intervals for proportions. Third Topic of Unit 4 and assessed in the ATAR Year 12 examination.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods.
 
 ---
 

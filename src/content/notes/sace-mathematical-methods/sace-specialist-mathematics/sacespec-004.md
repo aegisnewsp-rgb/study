@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 4 of SACE Stage 2 Specialist Mathematics covers vectors in three dimensions; vector operations; the dot product, the cross product, parametric equations and applications to three-dimensional geometry.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Financial Mathematics is one of the seven Areas of Study in the HSC Mathematics Advanced syllabus. It is a Year 12 topic, taught after Sequences and Series because most financial mathematics problems reduce to arithmetic and geometric series. Compound interest, depreciation, loans and annuities are core HSC content.
 
-> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision around these figures.
+> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview.
 
 ---
 

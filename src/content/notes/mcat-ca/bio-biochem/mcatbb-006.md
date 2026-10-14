@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Lipid, amino acid, and integrated metabolism complete AAMC Foundational Concept 3 of the Bio/Biochem section. The MCAT tests beta-oxidation, fatty acid synthesis, ketogenesis, amino acid catabolism, the urea cycle, gluconeogenesis, the pentose phosphate pathway, and metabolic regulation. These topics connect lipid and protein metabolism to the central pathways and explain how the body responds to fasting and feeding.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

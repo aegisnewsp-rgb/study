@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 News Report is one of the four reading selection types on the OSSLT. The EQAO Framework describes it as inverted-pyramid news writing on a current event, with the most important information at the top. News Report selections are paired with multiple-select items that target the five Ws (who/what/when/where/why), the lead, supporting facts, and accompanying graphic elements.
 
-> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

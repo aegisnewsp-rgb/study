@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Reading 2 is the second-largest cluster of items on the OSSLT. The EQAO Framework describes it as the reading skill of understanding ideas and information that are stated indirectly and that require the reader to make reasonable inferences. Inference items sit beside Reading 1 items on the same selection, but they ask a different question: not "what does the selection say?" but "what does the selection mean without saying it?"
 
-> Verify the live item count, session timing and any in-year item-type changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live item count, session timing and any in-year item-type changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

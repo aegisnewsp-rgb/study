@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Unit 3 of QCE General Mathematics covers bivariate data, correlation and regression; sequences and series, recurrence relations and change; Earth geometry including great circle distances, time zones and latitude/longitude.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics.
 
 ---
 

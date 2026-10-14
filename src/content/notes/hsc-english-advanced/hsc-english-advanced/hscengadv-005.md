@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Textual Conversations is the Year 12 Module A of the HSC English Advanced syllabus. It is examined in HSC Paper 2 Section I. Students explore how composers engage with other texts through imitation, appropriation, parody or subversion. The module requires sustained comparative composition across two prescribed texts.
 
-> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course before planning revision around these figures.
+> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91586 is one of six external NCEA Level 3 Calculus standards, carrying 4 credits. It tests discrete and continuous probability distributions: binomial, Poisson, normal, uniform; properties, calculations, and applications to real-world contexts. The content is the foundation for first-year university statistics and for actuarial work.
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91586-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91586-spc-2026.pdf.
 
 ---
 

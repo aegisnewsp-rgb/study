@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Passage mapping and timing strategy are practical skills for the CARS section. The MCAT gives roughly 90 minutes for the CARS section, distributed across roughly nine to ten passages with five to seven items each. Active reading (passage mapping) and disciplined time management are central to score improvement, especially for the Reasoning Within the Text and Reasoning Beyond the Text skills.
 
-> Verify the live CARS section length and item distribution on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live CARS section length and item distribution on https://students-residents.aamc.org/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 2 of WACE Mathematics Methods covers exponential, circular (sine, cosine) and logarithmic functions and their transformations; product, quotient and chain rules of differentiation; applications of differentiation to curve sketching and rates of change. Second Unit of the Year 11-12 sequence.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods.
 
 ---
 

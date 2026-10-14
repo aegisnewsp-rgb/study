@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91573 is the first of fifteen NCEA Level 3 Mathematics (Calculus) standards. It is internally assessed, carries 3 credits, and tests the geometry of conic sections: circles, ellipses, parabolas, and hyperbolas. Conic sections appear throughout physics (orbital mechanics, projectile motion), engineering (lens design, satellite dishes), and first-year university mathematics. Most schools schedule 91573 in Term 1.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics.
 
 ---
 

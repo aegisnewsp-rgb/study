@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Algebra is the largest single content strand at AQA GCSE Mathematics higher tier by marks. It spans Paper 1 (non-calculator) and Paper 2/3 (calculator), with questions ranging from basic substitution at foundation tier up to algebraic proof, iteration, and the use of functions at higher tier. Mastery of Algebra is the single highest-return investment for a student aiming at grade 7–9.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300.
 
 ---
 

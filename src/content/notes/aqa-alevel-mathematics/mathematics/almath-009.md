@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Numerical Methods is section I of the AQA 7357 specification. The section covers locating a root by sign change, fixed-point iteration, and the Newton–Raphson method, plus recognising when these methods fail or converge slowly. It is the smallest of the pure sections at A-level and is deliberately weighted last in revision priority because every method here requires a calculator, the answer format is usually "show that the next approximation is …", and the marks available are modest compared to calculus or algebra. Once the calculus is secure, a focused pass on numerical methods is enough.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

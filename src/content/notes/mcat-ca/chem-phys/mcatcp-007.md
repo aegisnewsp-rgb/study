@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Acid-base chemistry and electrochemistry form a heavily tested cluster of AAMC Foundational Concept 5 in the Chem/Phys section. The MCAT tests Brønsted-Lowry acids and bases, pKa, buffers, titration curves, galvanic and electrolytic cells, standard reduction potentials, the Nernst equation, and electrochemical gradients across membranes. These topics bridge to biochemistry (protein charge, enzyme pH optima) and physiology (nerve signalling, kidney acid-base balance).
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

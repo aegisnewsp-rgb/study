@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Vectors and Vector Algebra is a Year 12 topic in VCE Specialist Mathematics Units 3 and 4. The 2023 Study Design covers vector notation, vector operations (addition, scalar multiplication, dot product, cross product), unit vectors, projection and resolution of vectors. The topic is tested in Examination 2 and is foundational for Mechanics and Kinematics questions.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics.
 
 ---
 

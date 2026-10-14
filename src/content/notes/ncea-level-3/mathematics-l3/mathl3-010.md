@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91582 carries 4 credits and tests formal statistical inference: confidence intervals and hypothesis tests for population means and proportions; one-sample and two-sample tests; interpreting p-values. This is the Level 3 progression from the Level 2 informal inference in 91264.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics.
 
 ---
 

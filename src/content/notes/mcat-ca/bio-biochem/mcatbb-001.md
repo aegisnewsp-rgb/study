@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Amino acids, proteins, and enzymes form the first part of AAMC Foundational Concept 1 of the Bio/Biochem section. The MCAT tests amino acid structure and properties, peptide bonds, protein primary through quaternary structure, and enzyme kinetics (Michaelis-Menten, Lineweaver-Burk) and regulation. These topics are foundational for nearly every other biochemistry passage on the exam.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

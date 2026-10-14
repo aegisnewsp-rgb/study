@@ -14,7 +14,7 @@ lastUpdated: "2026-09-25"
 
 Differentiation is the heaviest topic on the ACSEE Advanced Mathematics syllabus. The NECTA 142/1 paper carries the bulk of calculus questions, and differentiation questions are commonly weighted at around one fifth of the total marks on that paper. The exam tests three things in roughly increasing order of difficulty: the mechanics of differentiation (rules and their application), the geometric reading of the derivative as slope of tangent / normal, and the analytic uses — maxima and minima, rates of change, and simple curve sketching. Strong performance here pulls up the entire NECTA 142 grade.
 
-> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz before planning around the figures below.
+> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 > Survive Paper 1 by re-learning the rules you once knew.

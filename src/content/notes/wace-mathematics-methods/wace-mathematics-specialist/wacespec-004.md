@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 3 Topic 2 of WACE Mathematics Specialist covers further integration by parts and substitution; integration applications in kinematics; Newton's laws and motion in one and two dimensions. Second Topic of Unit 3 and assessed in the ATAR Year 12 examination.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Periodic trends and chemical bonding form a large part of AAMC Foundational Concept 5 of the Chem/Phys section. The MCAT tests periodic-table trends (atomic radius, ionisation energy, electronegativity), ionic and covalent bonding, Lewis structures, VSEPR geometry, molecular polarity, and intermolecular forces. These topics are foundational for biochemistry and for organic chemistry reasoning.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

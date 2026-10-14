@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Unit 4 of QCE General Mathematics covers compound interest, depreciation and amortisation; statistical inference, confidence intervals and hypothesis testing; the chi-squared test; time series and forecasting. Unit 4 is the summative Unit and is externally assessed.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics.
 
 ---
 

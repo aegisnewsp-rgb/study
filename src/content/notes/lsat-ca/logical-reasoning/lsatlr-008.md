@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Conditional reasoning is the formal-logic backbone of many LSAT Logical Reasoning items. The LSAT tests translation of conditional statements ("if...then," "only if," "unless"), the contrapositive, and syllogistic patterns. Mastering conditional reasoning unlocks many otherwise-tricky items.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

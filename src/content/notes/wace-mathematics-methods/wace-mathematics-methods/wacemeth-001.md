@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 1 of WACE Mathematics Methods covers combinations of functions, composite functions and inverse functions; further transformations of graphs; introduction to discrete probability distributions. First Unit of the Year 11-12 Mathematics Methods sequence.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods.
 
 ---
 

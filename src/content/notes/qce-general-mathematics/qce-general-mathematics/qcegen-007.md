@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Statistics and Probability is one of the three major domains in QCE General Mathematics. It covers univariate and bivariate data, summary statistics, correlation, regression, the normal distribution, time series analysis and statistical inference.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics.
 
 ---
 

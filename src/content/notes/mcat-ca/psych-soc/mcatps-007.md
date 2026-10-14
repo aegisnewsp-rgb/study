@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The biology of behaviour spans AAMC Foundational Concept 10 of the Psych/Soc section. The MCAT tests the neuron, action potentials, synapses and neurotransmitters, the central and peripheral nervous systems, the brainstem, limbic system, cerebral cortex, the endocrine system, and the biological basis of behaviour. These topics underpin every brain-behaviour passage on the exam.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

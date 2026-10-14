@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91261 is one of three external NCEA Level 2 Mathematics standards, carrying 4 credits and assessed by an end-of-year NZQA examination. The standard covers manipulation of algebraic expressions, expanding and factorising, solving linear and quadratic equations, simultaneous equations, and exponential equations. The algebra here underpins the Level 2 calculus standard 91262 and the Level 3 calculus standards 91578-91579.
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91261-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91261-spc-2026.pdf.
 
 ---
 

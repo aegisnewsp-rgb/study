@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Vectors and Mechanics is one of the four major topics in QCE Specialist Mathematics. It covers vectors in two and three dimensions, vector operations, dot and cross products, parametric equations; kinematics, Newton's laws, connected bodies, work, energy and momentum.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

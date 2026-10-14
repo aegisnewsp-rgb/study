@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Unit 1 of QCE General Mathematics covers consumer arithmetic, percentages and finance; measurement and error; algebra and linear equations with applications to practical contexts. It is the first Unit of the four-Unit General Mathematics course in the Queensland Certificate of Education.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics.
 
 ---
 

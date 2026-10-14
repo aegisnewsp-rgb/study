@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Differentiation is section G of the AQA 7357 specification. The section covers differentiation from first principles, standard results, the product, quotient and chain rules, tangents and normals, stationary points and points of inflection, and implicit differentiation. Differentiation is the largest calculus block at A-level and the single section most students lose the most marks on — not because the methods are hard, but because they are applied inside a wider algebra problem where a slip elsewhere costs the marks. The two habits that give the most payoff are: write the derivative before substituting values, and check the chain rule on every term.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

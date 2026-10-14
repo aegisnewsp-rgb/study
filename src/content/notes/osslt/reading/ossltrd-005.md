@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Information Paragraph is one of the four reading selection types on the OSSLT. The EQAO Framework describes it as a short expository paragraph (typically a printed page) that explains a process, concept, or topic in plain language. Information Paragraph selections test whether the student can locate the central idea, identify supporting details, work out the meaning of vocabulary in context, and recognise the writer's purpose.
 
-> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

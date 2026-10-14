@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 1 of WACE Mathematics Specialist covers combinatorics and counting; vectors in two dimensions, vector operations and the language of mathematical proof. First Unit of the Year 11-12 Mathematics Specialist sequence.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist.
 
 ---
 

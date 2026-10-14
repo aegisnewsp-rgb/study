@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The LSAT Reading Comprehension section includes four passages, drawn from four discipline areas: humanities, social sciences, natural sciences, and law-related topics. One of the four passages is a comparative reading pair (two passages on related topics). Each discipline demands a slightly different reading approach: law passages reward tracking the argument, humanities passages reward tracking the author's voice, social sciences passages reward tracking claims and evidence, and natural sciences passages reward tracking the explanation of a phenomenon.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

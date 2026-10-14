@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Periodic Motion is a relatively low-weight slot on the DU Unit B Physics paper but the questions it produces are quick to answer once the formulae are memorised, so the points-per-minute return is high. The chapter covers simple harmonic motion (SHM), the simple pendulum, the mass-spring oscillator, damped and forced oscillations, resonance, and the basics of wave motion. Three MCQ patterns recur: (1) compute the period or frequency of a pendulum or spring given its length/mass and $g$ or $k$, (2) relate SHM quantities ($x$, $v$, $a$) at a given phase to amplitude and angular frequency, and (3) recognise resonance and identify which damping regime a given system is in. The chapter also feeds forward into waves and sound in the 2nd Paper, where the same phase and superposition language is reused.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 4 of QCE Mathematical Methods covers trigonometric identities, equations and graphs; further calculus (differential equations, motion); continuous random variables, the normal distribution, sampling and confidence intervals. Fourth Unit and the summative external assessment Unit.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods.
 
 ---
 

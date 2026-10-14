@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Unit 2 of QCE General Mathematics covers linear equations in two variables; trigonometry in right-angled triangles and the sine and cosine rules; matrix arithmetic and applications; univariate data, summary statistics and the standard normal distribution.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics.
 
 ---
 

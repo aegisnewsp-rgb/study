@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Real-Life Narrative (RLN) is one of the four reading selection types on the OSSLT. The EQAO Framework describes RLN selections as first-person or close-third-person recountings of an event, typically a personal experience. Each RLN selection is followed by seven multiple-select items that target the three reading skills (Reading 1: explicit, Reading 2: inference, Reading 3: connection) plus conventions where applicable.
 
-> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Geometry and Measures is the third-largest content strand by marks. It spans angle properties, polygons, area and volume, similarity and congruence, Pythagoras, trigonometry, vectors, and transformations. AQA assesses it across all three papers at both tiers, with higher-tier candidates extending into the sine and cosine rules, 3D trigonometry, and transformations of trigonometric graphs.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300.
 
 ---
 

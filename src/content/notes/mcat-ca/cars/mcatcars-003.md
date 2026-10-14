@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Reasoning Beyond the Text is CARS Skill 3 in the AAMC CARS framework. It is the ability to apply the passage to new situations: drawing inferences, recognising analogies, identifying implications, and judging how a new scenario would be affected by the author's argument. This skill extends Skill 2 (Reasoning Within the Text) by stepping outside the passage to new contexts.
 
-> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/.
 
 ---
 

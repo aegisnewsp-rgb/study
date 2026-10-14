@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Sensation, perception, and attention form part of AAMC Foundational Concept 6 of the Psych/Soc section. The MCAT tests sensory transduction, thresholds, signal detection theory, the visual and auditory systems, perceptual organisation, attention, and consciousness. These topics connect psychology to neurobiology and underpin many passages on sensory processing and disorders.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

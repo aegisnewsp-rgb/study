@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91262 is the highest-credit external standard in NCEA Level 2 Mathematics, carrying 5 credits and assessed by end-of-year NZQA examination. The standard covers differentiation of polynomial, exponential and trigonometric functions, rates of change, tangent lines, maxima and minima, and an introduction to anti-differentiation. The calculus content here is the foundation for first-year university STEM and the prerequisite for Level 3 calculus standards 91578 (differentiation) and 91579 (integration).
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91262-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91262-spc-2026.pdf.
 
 ---
 

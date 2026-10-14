@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Cellular and molecular biology form the bulk of AAMC Foundational Concept 2 of the Bio/Biochem section. The MCAT tests eukaryotic and prokaryotic cell structure, membrane transport, the cytoskeleton, organelles, cell signalling, the cell cycle, mitosis and meiosis, and the molecular biology of the cell. These topics underpin almost every physiology and genetics passage on the exam.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

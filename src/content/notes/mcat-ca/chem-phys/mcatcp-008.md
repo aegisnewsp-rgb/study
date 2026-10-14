@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Separations, spectrophotometry, and laboratory techniques form part of AAMC Foundational Concept 5 of the Chem/Phys section and tie directly into the AAMC Scientific Inquiry and Reasoning Skills (SIRS). The MCAT tests the principles of distillation, extraction, chromatography, electrophoresis, mass spectrometry, and UV-Vis spectrophotometry, and asks students to interpret data from these techniques in the context of biological and chemical problems.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

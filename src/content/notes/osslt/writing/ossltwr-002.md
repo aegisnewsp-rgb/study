@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The Series-of-Paragraphs is the second long-writing task on the OSSLT. Students are given an information source on a debatable issue and asked to write two or three connected paragraphs that state a clear opinion and support it with reasons drawn from the source. The EQAO OSSLT rubric scores the response on idea development, organisation, language and conventions. This is the single highest-weighted writing item on the OSSLT.
 
-> Verify the live task stem, source pairing, and rubric on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live task stem, source pairing, and rubric on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

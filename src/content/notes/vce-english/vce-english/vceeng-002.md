@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Creating Texts is the Unit 3 Area of Study 2 of VCE English. Students create a sustained piece of writing (imaginative, persuasive or discursive) that demonstrates craft in language, form and structure. The Area of Study is assessed as part of the Unit 3 School-Assessed Coursework.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91579 is the second of the two largest external NCEA Level 3 Calculus standards, carrying 6 credits. It tests integration techniques including substitution and integration by parts; definite integrals; area under and between curves; volumes of revolution; and differential equations. Together with 91578 (differentiation), this standard is the prerequisite for first-year university calculus.
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91579-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91579-spc-2026.pdf.
 
 ---
 

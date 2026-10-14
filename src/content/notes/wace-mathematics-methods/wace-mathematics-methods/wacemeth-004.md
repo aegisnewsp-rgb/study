@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 3 Topic 2 of WACE Mathematics Methods covers anti-differentiation, the fundamental theorem of calculus, definite integrals and the area under a curve, and basic substitution. Second Topic of Unit 3 in the Year 12 syllabus and assessed in the ATAR Year 12 examination.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods.
 
 ---
 

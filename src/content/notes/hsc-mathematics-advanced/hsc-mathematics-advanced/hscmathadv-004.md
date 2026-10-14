@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Calculus is the largest single content strand by HSC Mathematics Advanced mark share. The 2024 syllabus introduces differentiation in Year 11 (Introduction to Differentiation) and extends in Year 12 (Differential Calculus, Integral Calculus, Applications of Calculus). Calculus appears in every HSC paper and is essential for any further study of Mathematics Extension 1 or tertiary mathematics.
 
-> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision around these figures.
+> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview.
 
 ---
 

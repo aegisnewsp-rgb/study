@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Coordinate Geometry is section C of the AQA 7357 specification. The section covers equations of straight lines (with the parallel/perpendicular condition), the equation of a circle, and parametric equations of curves in the (x, y) plane. Most of the marks in this section sit on the line equations and the circle equation; parametric equations come up as a smaller, more concentrated sub-topic and form the bridge to the kinematics work in mechanics. The section is short enough to revise in a few focused sessions and returns reliable marks because the question types repeat year on year.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 1 of SACE Stage 2 Specialist Mathematics covers the principle of mathematical induction; rigorous proofs for sums of integer series, divisibility statements and inequality statements over the positive integers.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics.
 
 ---
 

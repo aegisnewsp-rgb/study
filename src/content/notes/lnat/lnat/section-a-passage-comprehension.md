@@ -15,7 +15,7 @@ lastUpdated: "2026-09-24"
 
 Section A of the LNAT gives you 42 multiple-choice questions drawn from 12 argumentative passages — three or four questions on each — to answer in 95 minutes. Each passage argues a position rather than narrates an event, so the sentence that settles any given question is a claim, a concession or a piece of evidence, not a description. The 95-minute wall across 12 passages means you cannot read all of them carefully; the students who score well work the passages instead of studying them. The fastest way to lose a Section A mark is to answer from memory of the passage after skimming it, because an option that is true in the world but unsupported by the printed words is still wrong.
 
-> Verify the live test format, timings and access arrangements on https://lnat.ac.uk/ before planning revision around the figures below.
+> Verify the live test format, timings and access arrangements on https://lnat.ac.uk/.
 
 ---
 

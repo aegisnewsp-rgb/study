@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91258 is a small but tightly-scoped internal standard at NCEA Level 2, carrying 2 credits. It focuses on arithmetic and geometric sequences and series, including explicit and recursive forms, sum to n terms, and applications to growth and decay problems. The content here underpins financial mathematics and exponential growth problems in later Level 2 standards and the Level 3 calculus stream.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

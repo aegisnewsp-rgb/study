@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 3 of SACE Stage 2 Specialist Mathematics covers rational functions and asymptotes, the modulus function, composite and inverse functions, and detailed curve sketching using calculus.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics.
 
 ---
 

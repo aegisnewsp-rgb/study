@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Identifying the conclusion of an argument is the foundation for every other Logical Reasoning skill. The MCAT-style LSAT Logical Reasoning items test whether the test-taker can identify the argument's conclusion, the premises that support it, and the overall structure (deductive, inductive, or analogical). Without a clear read on the conclusion, every other item type is harder.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

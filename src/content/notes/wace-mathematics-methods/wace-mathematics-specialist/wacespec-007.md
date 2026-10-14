@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 4 Topic 3 of WACE Mathematics Specialist covers sampling distributions, the central limit theorem, confidence intervals for means and proportions, hypothesis testing for means and proportions and the chi-squared test. Third Topic of Unit 4 and assessed in the ATAR Year 12 examination.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist.
 
 ---
 

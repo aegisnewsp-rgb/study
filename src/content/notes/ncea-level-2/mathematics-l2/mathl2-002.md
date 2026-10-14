@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91257 is the largest of the NCEA Level 2 internal mathematics standards, carrying 4 credits. It tests graphical methods across linear, quadratic, cubic, exponential, reciprocal and trigonometric functions, plus transformations and the use of the derivative at Level 2. Most schools schedule 91257 in Term 1 because it sits at the foundation of the Level 2 calculus work in 91262.
 
-> Verify the live achievement standard document and any clarifications on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document and any clarifications on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

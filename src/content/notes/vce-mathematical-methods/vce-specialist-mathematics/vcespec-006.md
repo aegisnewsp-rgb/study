@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Mechanics and Kinematics is a Year 12 topic in VCE Specialist Mathematics Units 3 and 4. The 2023 Study Design covers motion in one and two dimensions using vector and parametric methods, Newton's laws applied to particles on inclined planes and connected bodies, work, energy, power and momentum. Mechanics is the most applied strand of Specialist Mathematics.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics.
 
 ---
 

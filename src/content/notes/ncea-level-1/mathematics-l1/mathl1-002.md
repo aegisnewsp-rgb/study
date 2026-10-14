@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91945 is the second of four NCEA Level 1 Mathematics and Statistics standards. It is internally assessed, carries 5 credits, and asks students to apply number, measurement, algebra, geometry, statistics, or probability methods to a problem with a clear Aotearoa New Zealand or Pacific context. Most schools schedule 91945 across Terms 2 and 3, which gives students time to research the chosen context and apply at least two different mathematical methods.
 
-> Verify the live assessment specifications, exemplars, and any in-year changes on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=01&query=mathematics before planning revision around the figures below.
+> Verify the live assessment specifications, exemplars, and any in-year changes on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=01&query=mathematics.
 
 ---
 

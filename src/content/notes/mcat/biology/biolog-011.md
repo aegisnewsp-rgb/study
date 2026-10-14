@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Inheritance is the highest-weight unit in the PMDC Biology syllabus: under the MDCAT pattern of 81 Biology MCQs (≈45 % of the 180-question paper; PMDC 2026 Public Notice), the genetics block — Mendelian ratios, molecular genetics, sex-linked inheritance, and pedigree reading — produces the densest single-topic return per hour of study. PMC confirms the 2026 paper draws from the same Uniform Curriculum as 2025 (PMDC MDCAT Curriculum 2025), so the chapter list and Student Learning Outcomes below are unchanged for this cycle. Every question in this unit is MCQ, single-best-answer, with no negative marking (PMDC Public Notice, 2026), which means ambiguous crosses must be solved, not skipped.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

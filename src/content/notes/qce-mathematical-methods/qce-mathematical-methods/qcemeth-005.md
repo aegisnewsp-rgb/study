@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Functions and their Graphs is one of the four major topics in QCE Mathematical Methods. It covers linear, quadratic, polynomial, exponential, logarithmic and trigonometric functions; combinations of functions and inverse functions; transformations.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods.
 
 ---
 

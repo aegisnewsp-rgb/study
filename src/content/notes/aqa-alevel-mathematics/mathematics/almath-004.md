@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Sequences and Series is section D of the AQA 7357 specification. The section covers arithmetic and geometric sequences, sigma notation, recurrence relations, and the binomial expansion for positive integer and rational n (with the validity condition for approximation). Sequences and series questions on AQA papers are usually short — 3 to 6 marks — but they cover a lot of ground per question, mixing the formula application with sigma notation and the convergence condition for the binomial expansion. Mastering sigma notation early saves time on both the series sums and the binomial expansion.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

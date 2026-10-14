@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91580 carries 4 credits and tests time series analysis: trend, seasonal, cyclic, and irregular components; moving averages; seasonal indices; deseasonalisation; forecasting; and residual analysis. Time series is the foundation of forecasting in economics, business, climate science, and many other fields.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics.
 
 ---
 

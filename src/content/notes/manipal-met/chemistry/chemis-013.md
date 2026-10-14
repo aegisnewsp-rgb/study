@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Organic Chemistry — Basic Principles is a weight-5 topic inside the MET B.Tech Chemistry section. The 2026 official paper carries 10 MCQs plus 5 Numerical Answer Type (NAT) questions on Chemistry, and "Some Basic Principles of Organic Chemistry" is one of the heaviest topics by question count because every later chapter (hydrocarbons, haloalkanes, aldehydes/ketones) builds on its nomenclature, electronic-displacement language, and reaction-mechanism classification. Per the official Manipal MET 2026 B.Tech syllabus PDF, the chapter explicitly tests tetravalency of carbon, $sp^3$/$sp^2$/$sp$ hybridisation, classification by functional groups (halogens, oxygen, nitrogen, sulphur), homologous series, structural and stereoisomerism, trivial and IUPAC nomenclature, homolytic and heterolytic bond fission, free radicals, carbocations, carbanions, the stability order of intermediates, electrophiles and nucleophiles, inductive effect, electromeric effect, resonance, hyperconjugation, and the four common reaction types — substitution, addition, elimination, rearrangement. Marking is +4 for a correct MCQ, −1 for a wrong MCQ, +4 for a correct NAT with no negative marking.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://manipal.edu/mu-met before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://manipal.edu/mu-met.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

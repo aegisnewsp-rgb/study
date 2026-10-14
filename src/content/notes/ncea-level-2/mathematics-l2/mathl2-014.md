@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91269 is the smallest internal standard (2 credits) in the NCEA Level 2 Mathematics algebra strand. It tests systems of simultaneous linear equations in two or three variables, solved algebraically and graphically, applied to problems with constraints. The standard is the foundation for the Level 3 standard 91587 (systems of three equations in three variables).
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

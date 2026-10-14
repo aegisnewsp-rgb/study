@@ -15,7 +15,7 @@ lastUpdated: "2026-09-21"
 
 Quadratics and polynomials are the spine of the MoEHE Advanced-track Mathematics curriculum at Grade 12. The MoEHE 2018 Mathematics Curriculum Standards publish quadratics, polynomial identities, the Remainder and Factor Theorems, polynomial long division, and partial fractions as the core algebra strand at advanced track (MoEHE Mathematics Standards, pp. 50-52). Algebra together with Calculus carries around 69 percent of the marks at the Grade 12 advanced terminal, so confidence here is the single largest determinant of the terminal Mathematics grade.
 
-> Verify the live assessment weighting, the new unified Grade 10 science curriculum introduced from the 2026-2027 academic year, and any track-specific changes on https://www.edu.gov.qa/ before planning revision around the figures below.
+> Verify the live assessment weighting, the new unified Grade 10 science curriculum introduced from the 2026-2027 academic year, and any track-specific changes on https://www.edu.gov.qa/.
 
 ---
 

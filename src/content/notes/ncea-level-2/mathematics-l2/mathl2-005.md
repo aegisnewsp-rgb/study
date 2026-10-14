@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91260 is a small internal standard (2 credits) that introduces graph theory. It covers vertices, edges, paths, cycles, trees, spanning trees, the shortest path problem, and the minimum connector problem. The content is unusual at NCEA Level 2 because most of the curriculum is continuous mathematics, but graph theory appears in algorithms, computer science and operations research, and NZQA treats it as a discrete-mathematics strand of the Mathematics subject.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

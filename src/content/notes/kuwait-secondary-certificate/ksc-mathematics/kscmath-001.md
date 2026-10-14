@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Algebra and Number Theory is the largest algebra strand at the Kuwait Secondary Certificate (Thanawiya Amma) terminal exam, with the Kuwait MOE Mathematics curriculum published by the Curriculum Development Sector allocating the heaviest mark weight to this domain. The strand runs from Grade 10 foundations (linear equations, basic manipulation) through Grade 12 terminal-level content (sequences, binomial theorem, elementary number theory). At terminal level, questions typically combine multiple algebraic techniques in a single problem — factoring a quadratic, then using the result inside an inequality, then interpreting the result geometrically — so fluency with the core identities is non-negotiable.
 
-> Verify the live terminal paper pattern, the 2026/2027 track regulation, and any in-year curriculum change on https://www.moe.edu.kw/ before planning revision around the figures below.
+> Verify the live terminal paper pattern, the 2026/2027 track regulation, and any in-year curriculum change on https://www.moe.edu.kw/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91267 is one of three external NCEA Level 2 Mathematics standards, carrying 4 credits. It tests probability concepts, conditional probability, independence, normal and binomial distributions applied in context, expected value, and tree diagrams. The content is the foundation for the Level 3 probability and statistics standards 91585 and 91586.
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91267-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91267-spc-2026.pdf.
 
 ---
 

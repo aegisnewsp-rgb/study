@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 2 of QCE Mathematical Methods covers introduction to differential calculus (limit, derivative, gradient of tangent); differentiation rules (power, sum, product, quotient, chain); introduction to integral calculus (anti-derivative, definite integral as area under a curve). Second Unit of the four-Unit Mathematical Methods sequence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods.
 
 ---
 

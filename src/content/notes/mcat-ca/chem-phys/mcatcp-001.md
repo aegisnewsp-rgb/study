@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Translational motion, forces and work form AAMC Foundational Concept 4 of the Chem/Phys section. The MCAT tests these first-year physics concepts in the context of biological systems — body movement, blood flow, muscle contraction, and lab techniques. Most items pair a short physics passage with a multiple-choice item that requires applying the formulas to a new situation.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

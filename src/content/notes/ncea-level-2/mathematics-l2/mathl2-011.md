@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91266 is a small internal standard (2 credits) that tests critical evaluation of a statistical report. Students are given a published report (from a newspaper, magazine, government publication, or website) and asked to assess the source, sampling, data quality, statistical techniques used, and the validity of the conclusions. The standard is a bridge between doing statistics and reading statistics — essential for media literacy.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

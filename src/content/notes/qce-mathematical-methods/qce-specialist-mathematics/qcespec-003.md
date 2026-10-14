@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 3 of QCE Specialist Mathematics covers further differentiation and applications (chain, product, quotient rules); further integration (substitution, definite integrals, areas between curves); discrete random variables and the binomial distribution. Third Unit of the four-Unit sequence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

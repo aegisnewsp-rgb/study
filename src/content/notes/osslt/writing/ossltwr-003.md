@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Developing a main idea with supporting details is the foundation of every successful OSSLT writing response. The EQAO OSSLT rubric scores "idea development" as one of the four dimensions, and a response that has a clear main idea and relevant supporting details scores higher than one that drifts or pads. This skill underlies both long-writing tasks and most short-writing tasks.
 
-> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

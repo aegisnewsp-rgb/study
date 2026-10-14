@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Social structure, stratification, and demographics form the core of AAMC Foundational Concept 9 of the Psych/Soc section. The MCAT tests the family, education, religion, economy, government, healthcare, social class, stratification, mobility, demographic transition, urbanisation, immigration, and aging. These topics underpin most sociological passages on the exam.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

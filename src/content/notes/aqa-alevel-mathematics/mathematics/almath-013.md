@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Statistical Distributions and Hypothesis Testing is sections N and O of the AQA 7357 specification, covering the binomial and normal distributions, the normal approximation to the binomial, and setting up, carrying out and interpreting a hypothesis test against a stated significance level. These two sections sit together because they share the same logical structure: model a random variable with a named distribution, compute a probability, and compare to an observation. Hypothesis testing is the formal version of this comparison. The section also feeds forward to A-level Further Mathematics (where continuous distributions beyond the normal appear) and is the most-examined content on Paper 3.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

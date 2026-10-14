@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Statistical Inference is one of the four major topics in QCE Specialist Mathematics. It covers sampling distributions, the central limit theorem, confidence intervals for means and proportions, hypothesis testing and the chi-squared test for independence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

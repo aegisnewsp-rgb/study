@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 4 of SACE Stage 2 Mathematical Methods covers logarithmic functions and their graphs, the natural logarithm, change of base and applications to growth and decay models. Fourth Topic and the third Topic of the calculus strand.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods.
 
 ---
 

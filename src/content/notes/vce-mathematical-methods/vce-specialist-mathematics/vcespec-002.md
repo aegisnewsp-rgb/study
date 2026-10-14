@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Algebra, number and structure is one of the four Areas of Study in VCE Specialist Mathematics Units 3 and 4. The 2023 Study Design covers complex numbers (rectangular, polar and exponential forms), arithmetic and geometric sequences, recurrence relations, matrices and matrix algebra, and the formal logic of mathematical proof.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics.
 
 ---
 

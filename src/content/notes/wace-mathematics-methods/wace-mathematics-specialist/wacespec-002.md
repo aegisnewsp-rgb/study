@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 2 of WACE Mathematics Specialist covers complex numbers in rectangular form, Argand diagrams and modulus/argument; further trigonometry and the inverse trigonometric functions; matrices and matrix algebra. Second Unit of the Year 11-12 sequence.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist.
 
 ---
 

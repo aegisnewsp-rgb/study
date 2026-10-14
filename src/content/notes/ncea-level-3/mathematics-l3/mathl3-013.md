@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91585 is one of six external NCEA Level 3 Calculus standards, carrying 4 credits. It tests probability rules, conditional probability, Bayes' theorem, expected value, and decision trees; probability applied to risk and quality problems. The content is foundational for first-year university statistics and for many applied fields.
 
-> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91585-spc-2026.pdf before planning revision around the figures below.
+> Verify the live assessment specification on https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/91585-spc-2026.pdf.
 
 ---
 

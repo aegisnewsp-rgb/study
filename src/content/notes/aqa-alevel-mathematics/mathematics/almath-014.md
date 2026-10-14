@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Quantities, Units and Kinematics is sections P and Q of the AQA 7357 specification. The section covers SI base units for length, time and mass, the derived units for velocity, acceleration, force, weight and moment, the constant-acceleration formulae, displacement–time and velocity–time graphs, and variable acceleration. Quantities and units are the foundation of every mechanics question; kinematics is where most of the marks in the mechanics section actually sit. The two habits that pay off most are: write the units on every numerical answer, and check the SUVAT equations by matching dimensions.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

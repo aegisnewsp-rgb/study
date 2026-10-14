@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 4 Topic 2 of WACE Mathematics Methods covers further integration by substitution; definite integrals and areas between curves; integration of trigonometric functions and applications to kinematics. Second Topic of Unit 4 and assessed in the ATAR Year 12 examination.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods.
 
 ---
 

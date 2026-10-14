@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Geometry and Trigonometry is the second-largest strand at the Kuwait Secondary Certificate terminal, with the Kuwait MOE Mathematics curriculum allocating substantial marks to plane geometry, circle theorems, vectors in the plane, sine/cosine/tangent ratios, the sine and cosine rules, and the heights-and-distances applications. The strand integrates Euclidean with trigonometry at terminal level — most geometry questions on the Grade 12 paper require either a trigonometric identity or the sine/cosine rule to solve.
 
-> Verify the live terminal paper pattern and the 2026/2027 tracks-system subject list on https://www.moe.edu.kw/ before planning revision around the figures below.
+> Verify the live terminal paper pattern and the 2026/2027 tracks-system subject list on https://www.moe.edu.kw/.
 
 ---
 

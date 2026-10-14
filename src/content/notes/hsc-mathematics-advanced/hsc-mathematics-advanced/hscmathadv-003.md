@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Exponential and Logarithmic Functions is one of the seven Areas of Study in the HSC Mathematics Advanced syllabus. It is taught in Year 11 and applied to growth and decay modelling in Year 12. Exponential and logarithmic forms appear in both HSC papers — in financial mathematics, calculus (derivatives of aˣ and logₐx), and probability (continuous distributions involve e⁻ˣ²).
 
-> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision around these figures.
+> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview.
 
 ---
 

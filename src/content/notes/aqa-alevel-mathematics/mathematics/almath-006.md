@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Exponentials and Logarithms is section F of the AQA 7357 specification. The section covers the exponential function and its graph, laws of logarithms, solving exponential equations, modelling growth and decay, and reducing a relationship to linear form with logarithms. The function e^x is the natural exponential; its inverse is ln x, the natural logarithm. The pair (e^x, ln x) is the single most-used function family in calculus at A-level — differentiation of e^x is e^x, integration is also e^x, and every related function reduces to the same rule. Modelling questions on growth and decay (population, radioactive decay, cooling, compound interest) all sit on this section.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

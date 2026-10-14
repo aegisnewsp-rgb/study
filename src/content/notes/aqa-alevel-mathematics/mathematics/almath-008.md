@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Integration is section H of the AQA 7357 specification. The section covers definite and indefinite integration, area under a curve and between curves, integration by substitution and by parts, volumes of revolution, and the trapezium rule as an approximation. Integration is the reverse of differentiation, but it is a much harder skill in practice because the answer is not unique — many different functions can have the same derivative, and a particular integral can usually be tackled by more than one method. The two habits that pay off most are: check the derivative of your answer, and look for the substitution that would make the integrand a single function before you start.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

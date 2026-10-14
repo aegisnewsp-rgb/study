@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Narratives that Shape our World is a Year 11 module in the HSC English Advanced syllabus. Students explore how narratives — literary, non-fiction, visual and multimodal — shape attitudes, values and understandings of self and others. The module is school-assessed in Year 11 and bridges into the Year 12 Common Module (Texts and Human Experiences).
 
-> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course before planning revision around these figures.
+> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 1 of SACE Stage 2 Mathematical Methods extends differentiation to products, quotients and composite functions, then applies the second derivative, curve sketching and optimisation to functions in applied contexts. First Topic of the six-Topic SACE Stage 2 Mathematical Methods course.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/en_US/web/mathematical-methods.
 
 ---
 

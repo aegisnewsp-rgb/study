@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Reading 3 is the third of the three reading skills named in the EQAO Framework. It is the bridge from the selection to the reader: items ask the student to link ideas across selections, compare perspectives, or connect what the selection says to what the reader already knows. Reading 3 is the skill most often paired with the open-response reading item on the OSSLT.
 
-> Verify the live item count, session timing and any in-year item-type changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live item count, session timing and any in-year item-type changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

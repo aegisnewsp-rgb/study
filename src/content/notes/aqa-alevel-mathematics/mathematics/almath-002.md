@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Algebra and Functions is section B of the AQA 7357 specification and the section every other section leans on. Differentiation questions become algebra mistakes, integration by substitution is algebra, modelling questions use function notation, and the statistics content (probability trees, normal distribution calculations) is arithmetic wrapped in formula substitution. The AQA description flags indices and surds, quadratics, simultaneous equations, inequalities, polynomials and the factor theorem, partial fractions, function notation and transformations, and modelling with functions as the key sub-topics. Master this section first and the rest of the course becomes much easier; treat it as a single block and most other topics become accessible.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

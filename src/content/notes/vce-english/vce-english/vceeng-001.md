@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Reading and Responding to Texts is the Unit 3-4 Area of Study 1 of VCE English. It is the largest single content strand of the VCE English course and is assessed through School-Assessed Coursework and on the end-of-year examination. Students read and respond to a range of texts (literary, non-fiction, visual, multimodal) across Unit 3 and Unit 4, demonstrating understanding of argument, perspective, language features and context.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal.
 
 ---
 

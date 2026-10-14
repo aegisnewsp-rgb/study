@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Current Electricity is the topic that follows electrostatics in FSc Part II and dominates a sizeable chunk of the ECAT (Engineering) paper. You work with moving charges, ohmic and non-ohmic conductors, resistor networks, Kirchhoff's laws, cells with internal resistance, and DC circuits involving capacitors and inductors at switch-on/switch-off. The MCQs lean heavily on numerical combinations: equivalent resistance of mixed networks, balance conditions for Wheatstone and metre bridges, power dissipation in parallel branches, and time constants of RC transient circuits. Mastery of this topic makes the rest of electricity and electromagnetism far easier, because most of it is built on these circuit laws.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Statistical Analysis is one of the seven Areas of Study in the HSC Mathematics Advanced syllabus. It is taught across Year 11 (Probability and Data) and Year 12 (Random Variables, including discrete and continuous probability distributions and the normal distribution). Statistics questions appear across both HSC papers and require fluency with the calculator's statistical functions.
 
-> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision around these figures.
+> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview.
 
 ---
 

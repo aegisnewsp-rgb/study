@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Strengthen and weaken items ask which answer choice, if true, would most strengthen or most weaken the author's argument. They are the most-tested Logical Reasoning question type on the LSAT. The skill is identifying the argument's conclusion and the assumption that links premises to conclusion, then evaluating which choice most directly affects that link.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

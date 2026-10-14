@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 1 of QCE Mathematical Methods covers surds, algebraic manipulation, indices, logarithms; arithmetic and geometric sequences; linear and quadratic functions; introduction to statistics. First Unit of the four-Unit Mathematical Methods sequence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods.
 
 ---
 

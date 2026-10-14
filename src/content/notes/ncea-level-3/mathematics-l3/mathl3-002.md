@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91574 carries 3 credits and tests linear programming: formulating a problem with constraints, graphing the feasible region, finding the vertices, and optimising the objective function. Linear programming is the foundation of operations research and appears in business, logistics, finance, and engineering.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics.
 
 ---
 

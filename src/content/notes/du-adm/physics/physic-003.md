@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Newtonian Mechanics is the single highest-weight unit on the DU Unit B Physics paper and the one where careless sign and friction mistakes cost the most marks. The examiner pulls from NCTB HSC Physics 1st Paper Chapters 3–6: Newton's three laws, friction on horizontal and inclined surfaces, the work–energy theorem, conservation of linear momentum (including 1D and 2D collisions), and rigid-body rotation (torque, angular momentum, moment of inertia). Three MCQ patterns show up year after year — (1) a block on a rough incline where you have to find the coefficient of friction or the angle of repose from a given condition, (2) a two-body collision problem testing whether kinetic energy is conserved (elastic vs inelastic), and (3) a uniform disc or sphere where you apply $I = \frac{1}{2}MR^2$ or $I = \frac{2}{5}MR^2$ to relate torque and angular acceleration. Master this topic and roughly a fifth of the Physics paper is recoverable; skip it and you cannot compensate anywhere else.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Texts and Human Experiences is the Year 12 Common Module of the HSC English Advanced syllabus. It is examined in HSC Paper 1 Section I and assesses the ways composers represent human experiences and the ways responders engage with and are affected by those representations. Every HSC English Advanced student sits this module.
 
-> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course before planning revision around these figures.
+> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course.
 
 ---
 

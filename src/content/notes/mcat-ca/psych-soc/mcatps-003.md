@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Learning, motivation, and emotion form part of AAMC Foundational Concept 6 of the Psych/Soc section. The MCAT tests classical and operant conditioning, observational learning, cognitive learning, reinforcement schedules, motivation theories, emotion theories, and stress responses. These topics underpin many clinical and educational passages on behaviour change.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

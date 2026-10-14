@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Decision Making is the second subtest of the UCAT ANZ. It assesses the candidate's ability to make sound decisions and judgements using complex information. The subtest includes logic puzzles, syllogisms, Venn diagrams, probability, conditional reasoning and recognising assumptions.
 
-> Re-check the live test format and any updates on https://www.ucat.edu.au/about-ucat-anz/test-format/ before planning revision around these figures.
+> Re-check the live test format and any updates on https://www.ucat.edu.au/about-ucat-anz/test-format/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Number and Algebra is one of the three major domains in QCE General Mathematics. It is the cross-cutting strand that runs through all four Units. The domain covers consumer arithmetic, rates and ratios, algebraic manipulation, indices, logarithms, sequences and recurrence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/general-mathematics.
 
 ---
 

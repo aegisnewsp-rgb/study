@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Probability is one of two smaller strands at GCSE Mathematics and is often tested jointly with Statistics on Paper 2. It spans sample space diagrams, Venn diagrams, tree diagrams (independent and dependent events), conditional probability, and expectation. Higher tier extends into formal notation and algebraic probability.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300.
 
 ---
 

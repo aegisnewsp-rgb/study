@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Reading to Write: Transition to English Advanced is the Year 11 common module shared with English Standard and English Studies. It is the foundation module for senior English study and consolidates the skills students need for analysis, composition and evidence-based response. The module is school-assessed in Year 11 and not directly examined in the HSC; however, the skills developed here carry forward into every Year 12 module and into the HSC examination itself.
 
-> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course before planning revision around these figures.
+> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course.
 
 ---
 

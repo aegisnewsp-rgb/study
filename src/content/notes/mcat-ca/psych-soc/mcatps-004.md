@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Development, personality, and psychopathology span AAMC Foundational Concepts 6 and 7 of the Psych/Soc section. The MCAT tests Piaget's cognitive development stages, attachment theory, Erikson's psychosocial stages, Freud and the psychodynamic tradition, trait theories (including the five-factor model), and major psychological disorders (anxiety, mood, schizophrenia, personality disorders). These topics underpin developmental and clinical passages.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

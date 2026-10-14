@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Equilibrium, torque, fluid statics and dynamics, and DC circuits form part of AAMC Foundational Concept 4 of the Chem/Phys section. The MCAT tests these concepts in the context of human biomechanics, blood flow, and laboratory instrumentation. Items pair a passage describing a physical setup (a lever, a fluid column, an electrical circuit) with a multiple-choice item that requires applying the relevant formula.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

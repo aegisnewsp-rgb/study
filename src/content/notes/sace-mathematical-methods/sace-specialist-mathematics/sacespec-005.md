@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Topic 5 of SACE Stage 2 Specialist Mathematics covers further integration by substitution, by parts and by partial fractions; definite integrals and applications to areas, volumes and kinematics.
 
-> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics before planning revision around these figures.
+> Re-check the live Subject Outline on https://www.sace.sa.edu.au/web/specialist-mathematics.
 
 ---
 

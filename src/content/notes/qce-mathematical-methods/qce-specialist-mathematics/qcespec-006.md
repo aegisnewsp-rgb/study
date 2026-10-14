@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Complex Numbers is one of the four major topics in QCE Specialist Mathematics. It covers the imaginary unit, complex arithmetic, Argand diagrams, modulus and argument, De Moivre's theorem and applications to roots of polynomial equations.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Assumptions and implicit premises are unstated beliefs the argument depends on. The LSAT tests whether the test-taker can recognise a necessary assumption (the missing link without which the argument collapses) versus a sufficient assumption (a stronger claim that, if true, would guarantee the conclusion). Assumption items appear throughout the LSAT and underpin strengthen/weaken, flaw, and inference items.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

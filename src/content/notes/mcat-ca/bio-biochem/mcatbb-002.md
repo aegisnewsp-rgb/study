@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Carbohydrates, lipids, and nucleotides complete AAMC Foundational Concept 1 of the Bio/Biochem section. The MCAT tests monosaccharides and glycosidic bonds, polysaccharides, fatty acids, triglycerides, phospholipids, sterols, nitrogenous bases, and nucleotides. These biomolecules underpin energy metabolism, membrane structure, and genetic information storage.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

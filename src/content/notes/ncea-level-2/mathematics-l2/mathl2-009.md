@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91264 is the highest-credit internal standard in the NCEA Level 2 Mathematics statistics strand, carrying 4 credits. It tests bivariate data analysis: scatter plots, correlation, regression lines, residual analysis, and making an informal inference about a population from sample data. The content is the foundation for the formal inference work in Level 3 standard 91582.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

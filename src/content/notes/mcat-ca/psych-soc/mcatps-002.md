@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Cognition, memory, and language form the largest cluster of AAMC Foundational Concept 6 in the Psych/Soc section. The MCAT tests information processing, encoding, storage and retrieval, working memory versus long-term memory, forgetting, language production and comprehension, problem solving, decision making, and judgement under uncertainty. These topics underpin nearly every cognitive and clinical passage on the exam.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Data analysis, probability and statistics is one of the four Areas of Study in VCE Mathematical Methods Units 3 and 4. The 2023 Study Design covers univariate and bivariate data, correlation and regression, the normal distribution, discrete random variables, the binomial distribution, sampling and confidence intervals. This Area of Study is heavily weighted in Examination 2.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 3 Topic 1 of WACE Mathematics Specialist covers polar form of complex numbers, De Moivre's theorem and applications to roots of polynomial equations; vectors in three dimensions, the dot product and the cross product. First Topic of Unit 3 and assessed in the ATAR Year 12 examination.
 
-> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist before planning revision around these figures.
+> Re-check the live specification details on https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-specialist.
 
 ---
 

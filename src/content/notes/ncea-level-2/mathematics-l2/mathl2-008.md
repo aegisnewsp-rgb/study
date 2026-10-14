@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91263 is an internal standard (3 credits) that tests the design of a questionnaire to investigate a research question. It is part of the Level 2 statistics strand and connects to 91264 (statistical inference) and 91265 (conducting an experiment). The standard emphasises question design, sampling, ethical considerations, and pilot testing.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Trigonometry is section E of the AQA 7357 specification. The section covers radian measure, arc length and sector area, exact values of trigonometric functions, trigonometric identities and equations, reciprocal and inverse trigonometric functions, and small-angle approximations. Trigonometry bridges the pure content (calculus of trigonometric functions, identity work in algebra) and the mechanics content (oscillations, vector resolution, projectile angles). The radian mode on the calculator and the exact-value set (π/6, π/4, π/3, and their multiples) are the two habits that make the rest of the section faster.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357.
 
 ---
 

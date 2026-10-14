@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Main idea and primary purpose items ask the test-taker to identify the central claim, theme, or purpose of the passage. Often the first and highest-weighted question type on each LSAT Reading Comprehension passage.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

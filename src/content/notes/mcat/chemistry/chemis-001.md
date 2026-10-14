@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Atomic Structure is the foundation of every other Chemistry unit: orbitals, quantum numbers, electron configuration, and periodic trends. Under the PMDC 2026 Chemistry allotment of 45 MCQs (≈25 % of the 180-MCQ MDCAT paper, PMDC Public Notice, 2026), this unit contributes roughly 5–7 MCQs per paper — every question rests on it, even when the stem is about bonding, kinetics, or the periodic table. PMDC confirms the 2026 syllabus is identical to the 2025 Uniform Curriculum (PMDC MDCAT Curriculum 2025), so the student learning outcomes below are unchanged for this cycle.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

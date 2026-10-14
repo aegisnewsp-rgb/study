@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Organisation is one of the four dimensions of the EQAO OSSLT rubric for the long-writing tasks. The rubric scores paragraph structure (topic sentences, paragraph separation, logical flow) and the use of transitions to connect ideas within and between paragraphs. This skill is central to both the News Report and the Series-of-Paragraphs long-writing tasks.
 
-> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

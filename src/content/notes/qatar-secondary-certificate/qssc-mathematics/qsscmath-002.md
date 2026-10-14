@@ -15,7 +15,7 @@ lastUpdated: "2026-09-21"
 
 Functions and their graphs are the language of calculus, the language of applied algebra, and the language of the MoEHE Mathematics Curriculum Standards. At Grade 12 advanced track the MoEHE 2018 standards publish quadratic, reciprocal, absolute-value, square-root, cube-root, exponential, logarithmic and trigonometric functions as core functions, with operations on functions and geometric transformations (translations, reflections, stretches) on their graphs (MoEHE pp. 50-53). Functions are a prerequisite for calculus: derivative and integral are defined as limits of function operations on the graph.
 
-> Verify the live assessment weighting, the new unified Grade 10 science curriculum introduced from the 2026-2027 academic year, and any track-specific changes on https://www.edu.gov.qa/ before planning revision around the figures below.
+> Verify the live assessment weighting, the new unified Grade 10 science curriculum introduced from the 2026-2027 academic year, and any track-specific changes on https://www.edu.gov.qa/.
 
 ---
 

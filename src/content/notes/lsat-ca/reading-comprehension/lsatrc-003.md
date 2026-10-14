@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Detail items ask the test-taker to locate stated facts, examples, and definitions in the passage. They are the most straightforward RC item type if you remember the structure of the passage.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Quantitative Reasoning is the third subtest of the UCAT ANZ. It assesses the candidate's ability to critically evaluate information presented in a numerical form. The subtest includes numerical problem solving, percentages, ratios, rates, data interpretation from tables and charts, and basic arithmetic and estimation. The on-screen calculator is available.
 
-> Re-check the live test format and any updates on https://www.ucat.edu.au/about-ucat-anz/test-format/ before planning revision around these figures.
+> Re-check the live test format and any updates on https://www.ucat.edu.au/about-ucat-anz/test-format/.
 
 ---
 

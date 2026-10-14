@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Unit 1 of QCE Specialist Mathematics covers surds, algebraic manipulation, indices and logarithms; linear and quadratic functions, transformations and the language of function notation; elementary probability and counting. First Unit of the four-Unit Specialist Mathematics sequence.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

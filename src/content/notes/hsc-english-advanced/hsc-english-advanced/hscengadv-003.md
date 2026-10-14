@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Critical Study of Literature is a Year 11 module in the HSC English Advanced syllabus. Students engage in close study of a Shakespearean drama and additional literary texts. The module builds the close-reading and analytical skills that the Year 12 Critical Study of Literature module and the HSC examination depend on.
 
-> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course before planning revision around these figures.
+> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course.
 
 ---
 

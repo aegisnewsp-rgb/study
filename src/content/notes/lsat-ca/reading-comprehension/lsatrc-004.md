@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Inference items ask the test-taker to draw a conclusion that follows from the passage even when not stated explicitly. They are the single most-tested RC question type.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

@@ -17,7 +17,7 @@ Studies of Diverse Cultures is the one CARS passage type that AAMC deliberately 
 
 This matters because it is the passage type most likely to feel unfamiliar to a candidate. When a passage describes a custom, a language structure, a diaspora experience, or a small community the reader has no context for, the instinct is to disengage. The AAMC position is blunt about the fix: "no additional coursework or specific knowledge is required to do well on the Critical Analysis and Reasoning Skills section," and "everything you need to know to answer test questions is in the passages and the questions themselves." The passage explains its own terms.
 
-> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live CARS section length and passage distribution on https://students-residents.aamc.org/.
 
 ---
 

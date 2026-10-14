@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Situational Judgement is the fourth subtest of the UCAT ANZ. It measures the candidate's capacity to understand real world situations and to identify critical factors and appropriate behaviour in dealing with them. Tested through scenarios drawn from healthcare and professional settings; measures integrity, perspective taking, team involvement and resilience.
 
-> Re-check the live test format and any updates on https://www.ucat.edu.au/about-ucat-anz/test-format/ before planning revision around these figures.
+> Re-check the live test format and any updates on https://www.ucat.edu.au/about-ucat-anz/test-format/.
 
 ---
 

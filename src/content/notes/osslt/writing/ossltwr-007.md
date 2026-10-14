@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Short-writing tasks on the OSSLT ask the student to write a single focused paragraph in response to a specific prompt — usually a summary of a supplied source, a short response to a specific question, or a brief opinion paragraph. The EQAO Framework describes these as single-paragraph tasks under a tight word limit. Practising short-writing tasks builds the foundation for the two long-writing tasks.
 
-> Verify the live task stems, word limits, and any in-year task changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live task stems, word limits, and any in-year task changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

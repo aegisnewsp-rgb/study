@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Sequences and Series is one of the seven Areas of Study in the HSC Mathematics Advanced syllabus. It is a Year 12 topic, taught after financial mathematics. Arithmetic sequences, geometric sequences and their sums are essential for financial mathematics (compound interest, depreciation) and for understanding limits of series.
 
-> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview before planning revision around these figures.
+> Re-check the live specification details and any in-year assessment changes on https://curriculum.nsw.edu.au/learning-areas/mathematics/mathematics-advanced-11-12-2024/overview.
 
 ---
 

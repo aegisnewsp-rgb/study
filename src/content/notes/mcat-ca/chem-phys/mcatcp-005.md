@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Phases, gases, and solutions form a core part of AAMC Foundational Concept 5 of the Chem/Phys section. The MCAT tests phase changes, phase diagrams, the ideal gas law, partial pressures, solubility, and colligative properties in the context of biological fluids (blood, alveolar gas, intracellular solution). Items pair a passage describing a physical setup with a multiple-choice item that requires applying the relevant formula.
 
-> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/ before planning around the figures below.
+> Verify the live section length, scoring scale, and any in-year content changes on https://students-residents.aamc.org/.
 
 ---
 

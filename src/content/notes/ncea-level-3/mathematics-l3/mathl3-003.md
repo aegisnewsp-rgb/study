@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91575 carries 4 credits and tests trigonometric identities, addition and double-angle formulas, equations involving compound angles, and applications in 2D and 3D problems. It is the Level 3 progression from the Level 2 standard 91259. The content is essential for first-year university STEM courses and for the Level 3 differentiation and integration standards, where trigonometric identities appear in derivative and integral calculations.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=03&query=mathematics.
 
 ---
 

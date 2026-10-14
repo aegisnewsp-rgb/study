@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 The Craft of Writing is the Year 12 Module C of the HSC English Advanced syllabus. It is examined in HSC Paper 1 Section II. Students develop a portfolio of crafted writing in a range of forms for a range of audiences and purposes. The module is composition-focused and rewards a sustained writing habit across Year 12.
 
-> Re-check the live specification details and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course before planning revision around these figures.
+> Re-check the live specification details and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course.
 
 ---
 

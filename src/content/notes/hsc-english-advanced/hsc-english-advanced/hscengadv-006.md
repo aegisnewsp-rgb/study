@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Critical Study of Literature is the Year 12 Module B of the HSC English Advanced syllabus. It is examined in HSC Paper 2 Section II. Students undertake an in-depth critical study of a substantial literary text, examining how meaning is shaped through textual features, form and context.
 
-> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course before planning revision around these figures.
+> Re-check the live specification details, prescribed text list and any in-year changes on https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course.
 
 ---
 

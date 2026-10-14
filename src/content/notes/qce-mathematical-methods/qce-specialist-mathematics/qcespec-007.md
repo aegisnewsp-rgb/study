@@ -15,7 +15,7 @@ lastUpdated: 2026-09-24
 
 Proof and Mathematical Reasoning is one of the four major topics in QCE Specialist Mathematics. It covers direct and indirect proof, proof by contradiction, mathematical induction, the language of mathematical argument and the formal logic of proof.
 
-> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details on https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/specialist-mathematics.
 
 ---
 

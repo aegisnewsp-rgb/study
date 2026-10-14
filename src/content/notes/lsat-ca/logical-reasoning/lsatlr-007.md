@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Parallel reasoning items ask the test-taker to identify an argument that has the same logical structure as the one in the passage, even if the topic is completely different. The skill is focusing on the form of the argument, not the content.
 
-> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/ before planning around the figures below.
+> Verify the live section count, item count, and any in-year changes on https://www.lsac.org/.
 
 ---
 

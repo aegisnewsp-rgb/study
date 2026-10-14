@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Dynamics is the study of why things move: force, mass, acceleration, momentum, and impulse. Under the PMDC 2026 Physics allotment of 36 MCQs (≈20 % of the 180-MCQ MDCAT paper, PMDC Public Notice, 2026), Dynamics and Newton's Laws contributes roughly 5–7 MCQs per paper — every question on inclined planes, pulleys, friction, or collisions reduces to a free-body diagram and the three laws. PMDC confirms the 2026 syllabus is identical to the 2025 Uniform Curriculum (PMDC MDCAT Curriculum 2025), so the student learning outcomes below are unchanged for this cycle.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://pmdc.pk/.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

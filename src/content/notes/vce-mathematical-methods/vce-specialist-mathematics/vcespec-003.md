@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Calculus is one of the four Areas of Study in VCE Specialist Mathematics Units 3 and 4. The 2023 Study Design covers further differentiation and integration techniques, differential equations, vector calculus, kinematics in one and two dimensions, the language of mechanics, and applications of calculus to motion under constant and variable forces. This Area of Study is heavily weighted in Examination 2.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/specialist-mathematics/vce-specialist-mathematics.
 
 ---
 

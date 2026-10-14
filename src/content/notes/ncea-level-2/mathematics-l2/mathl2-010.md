@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91265 is an internal standard (3 credits) requiring students to plan and carry out an experiment, manage data, select and apply appropriate statistical methods, and report on findings. It pairs with 91264 (inference) and is the practical-experiment companion to the 91944 statistical enquiry process at Level 1. The Level 2 version emphasises experimental design (control, replication, randomisation) more than the Level 1 version.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics.
 
 ---
 

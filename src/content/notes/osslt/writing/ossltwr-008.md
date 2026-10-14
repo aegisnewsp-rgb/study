@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The OSSLT selected-response Writing items test editing and revising skills: identifying the most effective sentence, the best word choice, the correct punctuation, and the most coherent paragraph order. These items sit alongside the long-writing tasks and short-writing tasks. The EQAO Framework describes them as multiple-select items that test the same conventions and language skills as the open-response writing scoring.
 
-> Verify the live item count, item types, and any in-year changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live item count, item types, and any in-year changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: 2026-09-20
 
 Analysing Argument is the Unit 4 Area of Study 2 of VCE English. Students analyse the ways argument is constructed in contemporary media texts and produce a written commentary on a selected text. The Area of Study is assessed as part of the Unit 4 School-Assessed Coursework and is one of the three sections of the end-of-year examination.
 
-> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal before planning revision around these figures.
+> Re-check the live specification details, examination specifications and any Notice to Schools on https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/english-and-english-additional-language/english-and-english-additional-language-eal.
 
 ---
 

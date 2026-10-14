@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Sentence variety and clarity affect the "language and vocabulary" dimension of the EQAO OSSLT rubric. A response that mixes simple, compound, and complex sentences — and that uses precise verbs and nouns — scores higher than a response that relies on short, choppy sentences or on long, vague sentences. This skill is central to the long-writing tasks and to the conventions scoring on sentence completeness.
 
-> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/ before planning around the figures below.
+> Verify the live rubric and any in-year task changes on https://www.eqao.com/the-assessments/osslt/.
 
 ---
 

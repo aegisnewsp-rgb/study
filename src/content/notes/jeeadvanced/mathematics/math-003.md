@@ -206,7 +206,7 @@ Actually, $\sin^{-1}(2x)$ domain: $|2x| \leq 1 \Rightarrow |x| \leq \frac{1}{2}$
 | Solving equations with inverse trig | 1 question every 3 years |
 | Graphs of inverse trig | 1 question per 3 years |
 
-**Advanced Worked Example (JEE 2019):** Find the value of $\cot^{-1}\frac{1}{2} + \tan^{-1}\frac{1}{3}$.
+**Advanced Worked Example:** Find the value of $\cot^{-1}\frac{1}{2} + \tan^{-1}\frac{1}{3}$.
 
 Note: $\cot^{-1}x = \tan^{-1}\frac{1}{x}$ for $x > 0$. So $\cot^{-1}\frac{1}{2} = \tan^{-1}2$.
 
@@ -219,6 +219,8 @@ But $7 > 1$ and the sum should be in $(\frac{\pi}{2}, \pi)$ since both terms are
 - $y = \sin^{-1}(x-1)$: shift right by 1 unit.
 - $y = 2\cos^{-1}x$: vertical stretch by factor 2 (range becomes $[0, 2\pi]$).
 - $y = \frac{\pi}{2} - \tan^{-1}x$: reflection then shift (equivalent to $\cot^{-1}x$ for all $x$).
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 

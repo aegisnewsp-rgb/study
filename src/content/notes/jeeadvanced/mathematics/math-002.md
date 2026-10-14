@@ -82,7 +82,7 @@ Reciprocals: $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\th
 
 **Worked Examples:**
 
-*Example 1 (JEE 2022):* If $\sin A + \sin B = 1$ and $\cos A + \cos B = \sqrt{2}$, find $\cos(A-B)$.
+*Example 1:* If $\sin A + \sin B = 1$ and $\cos A + \cos B = \sqrt{2}$, find $\cos(A-B)$.
 
 Square and add:
 $(\sin A + \sin B)^2 + (\cos A + \cos B)^2 = 1^2 + (\sqrt{2})^2 = 1 + 2 = 3$.
@@ -134,7 +134,7 @@ Series such as $\sum \cos(k\theta)$ and $\sum \sin(k\theta)$ are evaluated by tr
 
 **Advanced Problems:**
 
-*Problem (JEE Advanced 2020):* Solve $\sin^{-1} x + \sin^{-1} 2x = \pi/3$.
+*Problem:* Solve $\sin^{-1} x + \sin^{-1} 2x = \pi/3$.
 
 First fix the domain. Both $\sin^{-1} x$ and $\sin^{-1} 2x$ require $|x| \le 1$ and $|2x| \le 1$, so the feasible set is $|x| \le 1/2$.
 
@@ -157,9 +157,11 @@ which reduces to a polynomial equation in $u$. Solving it and discarding roots t
 **JEE Advanced Patterns (2018–2024):**
 - Inverse trigonometric equations and identities are very common
 - Sum-to-product and product-to-sum transformations are frequent
-- Trigonometric equations with multiple angles tested in 2021, 2023
+- Multiple-angle trigonometric equations — reduce everything to a single angle first
 - Maximum/minimum of trigonometric expressions using AM-GM or Cauchy
 - Conditional trigonometric identities (like the $A+B+C=\pi$ type) are common
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

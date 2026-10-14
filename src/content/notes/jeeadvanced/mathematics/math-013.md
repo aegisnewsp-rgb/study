@@ -90,7 +90,7 @@ $\cos\theta = \frac{11}{14}$, so $\theta = \cos^{-1}\left(\frac{11}{14}\right) \
 
 $D = \frac{|2(1) + 1(2) - 2(3) + 5|}{\sqrt{4+1+4}} = \frac{|2 + 2 - 6 + 5|}{\sqrt{9}} = \frac{|3|}{3} = 1$.
 
-*Example 3 (JEE 2022):* Find the equation of plane passing through $(1, 2, 3)$ and perpendicular to line joining $(3, 4, 5)$ and $(5, 6, 7)$.
+*Example 3:* Find the equation of plane passing through $(1, 2, 3)$ and perpendicular to line joining $(3, 4, 5)$ and $(5, 6, 7)$.
 
 Direction of line: $\vec{b} = (2, 2, 2)$ or $(1, 1, 1)$. This is the normal to our required plane.
 Plane: $1(x-1) + 1(y-2) + 1(z-3) = 0$ → $x + y + z - 6 = 0$.
@@ -124,7 +124,7 @@ Solve quadratic in $\lambda$. If discriminant $< 0$, line misses sphere.
 
 **Advanced Problems:**
 
-*Problem (JEE Advanced 2020):* Find the locus of a point $P$ such that the sum of squares of its distances from planes $x + y + z = 3$ and $x + 2y + 2z = 4$ equals $10$.
+*Problem:* Find the locus of a point $P$ such that the sum of squares of its distances from planes $x + y + z = 3$ and $x + 2y + 2z = 4$ equals $10$.
 
 *Solution:* Let $P(x,y,z)$. Distance to first plane: $d_1 = \frac{|x+y+z-3|}{\sqrt{3}}$.
 Distance to second: $d_2 = \frac{|x+2y+2z-4|}{\sqrt{9} = 3}$.
@@ -147,7 +147,9 @@ Similar equations give system to solve for $u, v, w$.
 - Sphere intersection with planes/lines tested nearly every year
 - Combined problems with conics and 3D are common in Paper 2
 - Conditions for perpendicularity/coplanarity appear frequently
-- Projection-related questions have appeared in 2021, 2023
+- Projections onto lines and planes, and the angle a line makes with a plane
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -89,7 +89,7 @@ So $x = 2$ is a root (the middle term). Dividing out $(x-2)$:
 $$x^3 - 7x^2 + 14x - 8 = (x-2)(x^2 - 5x + 4) = (x-2)(x-1)(x-4).$$
 The roots are $1, 2, 4$, which form a GP with common ratio $r = 2$. This illustrates the key technique: when terms are in GP, choosing the symmetric parametrisation $a/r, a, ar$ makes the product collapse to $a^3$, isolating the middle term immediately.
 
-*Example 2 (JEE 2022):* Find $m$ such that the roots of $x^2 + (3m-1)x + 2m^2 = 0$ are real and positive.
+*Example 2:* Find $m$ such that the roots of $x^2 + (3m-1)x + 2m^2 = 0$ are real and positive.
 
 Real roots require $D \geq 0$:
 $$(3m-1)^2 - 8m^2 \geq 0 \implies 9m^2 - 6m + 1 - 8m^2 \geq 0 \implies m^2 - 6m + 1 \geq 0.$$
@@ -154,8 +154,10 @@ Each valid $(m,n)$ yields a distinct $(p,q)$, giving **14 ordered pairs** $(p,q)
 - Transformation of roots (reciprocals, squares) is a recurring theme.
 - Conditions for one root to be greater than or less than a given number.
 - Common-root problems appear in mixed-difficulty sets.
-- Location of roots (between intervals, in specific quadrants) tested in 2020 and 2023.
+- Location of roots — between two values, or in a named quadrant
 - Maxima–minima with quadratic constraints is trending upward.
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

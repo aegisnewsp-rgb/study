@@ -205,7 +205,7 @@ For natural number $n$, this follows by induction on $n$ using the multiplicatio
 | Fibonacci identities | 1 question per 3 years |
 | Sum of odd numbers / square numbers | 1 question per 3 years |
 
-**Advanced Worked Example (JEE 2017):** Prove that $\frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \cdots + \frac{1}{2^n} = 1 - \frac{1}{2^n}$ for all $n \geq 1$.
+**Advanced Worked Example:** Prove that $\frac{1}{2} + \frac{1}{2^2} + \frac{1}{2^3} + \cdots + \frac{1}{2^n} = 1 - \frac{1}{2^n}$ for all $n \geq 1$.
 
 **Base Case ($n=1$):** LHS $= \frac{1}{2}$, RHS $= 1 - \frac{1}{2} = \frac{1}{2}$. ✓
 
@@ -242,6 +242,8 @@ Alternatively, using the binomial theorem: $(1+1)^n = \sum_{r=0}^{n}\binom{n}{r}
 $$\left(\sum_{i=1}^{n} a_i b_i\right)^2 \leq \left(\sum_{i=1}^{n} a_i^2\right)\left(\sum_{i=1}^{n} b_i^2\right)$$
 
 Can be proved by induction on $n$ using the identity for $n=2$ and showing adding the $(n+1)$th term preserves the inequality.
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 

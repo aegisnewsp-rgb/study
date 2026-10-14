@@ -76,7 +76,7 @@ Where $f''(c) = 0$ or changes sign. The function changes from concave up to conc
 
 **Worked Examples:**
 
-*Example 1 (JEE 2022):* Find local maxima and minima of $f(x) = x^4 - 4x^3 + 6x^2 - 4x + 1$.
+*Example 1:* Find local maxima and minima of $f(x) = x^4 - 4x^3 + 6x^2 - 4x + 1$.
 
 Note: $f(x) = (x-1)^4$ (binomial expansion).
 $f'(x) = 4(x-1)^3$.
@@ -119,7 +119,7 @@ Radius of curvature at $(x, y)$: $\rho = \frac{[1 + (y')^2]^{3/2}}{|y''|}$.
 
 **Advanced Problems:**
 
-*Problem (JEE Advanced 2019):* Show that the function $f(x) = \frac{\ln x}{x}$ has exactly one local extremum on $(0, \infty)$.
+*Problem:* Show that the function $f(x) = \frac{\ln x}{x}$ has exactly one local extremum on $(0, \infty)$.
 
 $f'(x) = \frac{1 - \ln x}{x^2}$.
 $f'(x) = 0$ when $\ln x = 1$, i.e., $x = e$.
@@ -147,9 +147,11 @@ Thus $e^x > 1 + x + x^2/2$ for $x > 0$.
 **JEE Advanced Patterns (2018–2024):**
 - MVT and Rolle's theorem applications are very common
 - Maxima-minima with constraints use Lagrange multipliers (advanced)
-- Curvature and radius of curvature questions appeared in 2021
+- Curvature and radius of curvature — read the condition off the parametric or implicit form instead of solving twice
 - Monotonicity and convexity are frequently combined
 - Problems involving number of roots via derivatives are trending
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -88,7 +88,7 @@ $e = c/a = \sqrt{7}/4$.
 Foci: $(\pm\sqrt{7}, 0)$.
 Latus rectum: $\frac{2b^2}{a} = \frac{2 \times 9}{4} = \frac{9}{2}$.
 
-*Example 2 (JEE 2021):* Find equation of tangent to $\frac{x^2}{25} + \frac{y^2}{16} = 1$ at point where $x = 3$.
+*Example 2:* Find equation of tangent to $\frac{x^2}{25} + \frac{y^2}{16} = 1$ at point where $x = 3$.
 
 When $x = 3$: $\frac{9}{25} + \frac{y^2}{16} = 1$ → $\frac{y^2}{16} = \frac{16}{25}$ → $y^2 = \frac{256}{25}$ → $y = \pm \frac{16}{5}$.
 For point $(3, 16/5)$: tangent is $\frac{x \cdot 3}{25} + \frac{y \cdot 16/5}{16} = 1$.
@@ -126,7 +126,7 @@ If a ray emanates from one focus, it reflects off the ellipse to the other focus
 
 **Advanced Problems:**
 
-*Problem 1 (JEE Advanced 2020):* From a point $(h, k)$, tangents are drawn to ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$. Find the condition for the chord of contact to subtend a right angle at the centre.
+*Problem 1:* From a point $(h, k)$, tangents are drawn to ellipse $\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$. Find the condition for the chord of contact to subtend a right angle at the centre.
 
 The chord of contact is $\frac{xx_1}{a^2} + \frac{yy_1}{b^2} = 1$ where $(x_1, y_1)$ is the pole.
 For it to subtend a right angle at centre, the tangents drawn from centre to this chord must be perpendicular. Actually, we need the points where the chord meets the ellipse to have normals perpendicular at their intersection... No, that's not it.
@@ -158,8 +158,10 @@ One can show the locus is a circle (or ellipse) related to the original.
 - Combined conic sections (ellipse + line, circle + ellipse) are very common
 - Director circle and auxiliary circle questions appear frequently
 - Parametric point problems are common — always try parametric form first
-- Reflection property questions appeared in 2019, 2023
+- The reflection property of the ellipse, and how it converts a focal-distance condition into a simple length equation
 - Locus problems involving chords normal to ellipse are advanced but appear in tough sets
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

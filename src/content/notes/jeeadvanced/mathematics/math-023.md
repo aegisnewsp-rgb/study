@@ -84,7 +84,7 @@ $e = c/a = 5/3 \approx 1.667$.
 Foci: $(\pm 5, 0)$.
 Asymptotes: $y = \pm \frac{b}{a}x = \pm \frac{4}{3}x$.
 
-*Example 2 (JEE 2021):* Find equation of tangent to $\frac{x^2}{16} - \frac{y^2}{9} = 1$ at point where $x = 5$.
+*Example 2:* Find equation of tangent to $\frac{x^2}{16} - \frac{y^2}{9} = 1$ at point where $x = 5$.
 
 When $x = 5$: $\frac{25}{16} - \frac{y^2}{9} = 1$ → $\frac{y^2}{9} = \frac{25}{16} - 1 = \frac{9}{16}$ → $y^2 = \frac{81}{16}$ → $y = \pm \frac{9}{4}$.
 For point $(5, 9/4)$: tangent is $\frac{x \cdot 5}{16} - \frac{y \cdot 9/4}{9} = 1$.
@@ -124,7 +124,7 @@ A ray directed toward one focus reflects off the hyperbola as if it came from th
 
 **Advanced Problems:**
 
-*Problem 1 (JEE Advanced 2019):* From a point $(h, k)$, tangents are drawn to the hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$. Find the locus of $(h, k)$ for which the chord of contact is a genuine chord (meeting the hyperbola in two real points).
+*Problem 1:* From a point $(h, k)$, tangents are drawn to the hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$. Find the locus of $(h, k)$ for which the chord of contact is a genuine chord (meeting the hyperbola in two real points).
 
 The chord of contact from $(h,k)$ is $T = 0$, i.e. $\frac{xh}{a^2} - \frac{yk}{b^2} = 1$.
 Two real tangents can be drawn from an external point, and the chord of contact then joins the two real points of tangency. Hence the chord of contact is a real chord precisely when $(h, k)$ lies outside the hyperbola, i.e. when
@@ -157,6 +157,8 @@ Check that the centre satisfies both: $2(-1) + 0 + 2 = 0$ ✓ and $(-1) + 2(0) +
 - Asymptotes appear in combined conic problems
 - Equation transformation (rotation to get rectangular form) is an advanced topic that appears
 - Director circle and conjugate hyperbola are less common but appear in tough sets
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

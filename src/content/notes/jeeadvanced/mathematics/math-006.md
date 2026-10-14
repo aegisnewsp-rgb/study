@@ -93,7 +93,7 @@ $f'_-(2) = \lim_{h \to 0^-} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^-} \frac{4-(
 $f'_+(2) = \lim_{h \to 0^+} \frac{(2+h)^2-4}{h} = \lim_{h \to 0^+} \frac{4+4h+h^2-4}{h} = \lim_{h \to 0^+} (4 + h) = 4$.
 Since $-4 \neq 4$, not differentiable at $x=2$.
 
-*Example 2 (JEE 2021):* Find $a$ and $b$ such that $f(x) = \begin{cases} ax^2 + b & x \leq 1 \\ x & x > 1 \end{cases}$ is differentiable at $x=1$.
+*Example 2:* Find $a$ and $b$ such that $f(x) = \begin{cases} ax^2 + b & x \leq 1 \\ x & x > 1 \end{cases}$ is differentiable at $x=1$.
 
 A differentiable function must first be continuous, then have matching one-sided derivatives.
 
@@ -147,7 +147,7 @@ For implicit functions, differentiate repeatedly.
 
 **Advanced Problems:**
 
-*Problem (JEE Advanced 2023):* If $f$ is differentiable at $x = 1$ and $\lim_{x \to 1} \frac{f(x) - f(1)}{x-1} = 4$, find $f'(1)$.
+*Problem:* If $f$ is differentiable at $x = 1$ and $\lim_{x \to 1} \frac{f(x) - f(1)}{x-1} = 4$, find $f'(1)$.
 
 By definition, $f'(1) = \lim_{x \to 1} \frac{f(x) - f(1)}{x-1}$.
 Given this limit is 4, $f'(1) = 4$.

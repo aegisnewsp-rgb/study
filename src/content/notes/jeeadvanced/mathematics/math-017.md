@@ -90,7 +90,7 @@ So $a_n = \frac{2^{n+1} + (-1)^n}{3}$.
 Divide numerator and denominator by $n^2$:
 $\lim \frac{2 + 3/n}{5 - 1/n^2} = \frac{2}{5}$.
 
-*Example 2 (JEE 2022):* Does $\{a_n\}$ converge? $a_1 = 1, a_{n+1} = \sqrt{2 + a_n}$.
+*Example 2:* Does $\{a_n\}$ converge? $a_1 = 1, a_{n+1} = \sqrt{2 + a_n}$.
 
 We claim $a_n$ is increasing and bounded above by 2.
 $a_1 = 1 < 2$.
@@ -132,7 +132,7 @@ For convergent sequences: $\lim a_n = L$ implies $\lim \frac{1}{n}\sum_{k=1}^n a
 
 **Advanced Limit Computation:**
 
-*Problem (JEE Advanced 2020):* Evaluate $\lim_{n \to \infty} n \left(\sin \frac{1}{\sqrt{n}} - \frac{1}{\sqrt{n}}\right)$.
+*Problem:* Evaluate $\lim_{n \to \infty} n \left(\sin \frac{1}{\sqrt{n}} - \frac{1}{\sqrt{n}}\right)$.
 
 The standard technique is to expand the sine in its Taylor series for small argument. For small $x$, $\sin x = x - \frac{x^3}{6} + O(x^5)$.
 
@@ -163,9 +163,11 @@ So the limit equals $\sin 1 - \cos 1$.
 **JEE Advanced Patterns (2018–2024):**
 - Recurrence relations solving via characteristic equation is frequent
 - Monotone convergence with bounding arguments is common
-- Stolz-Cesàro theorem applications appeared in 2021, 2023
+- Stolz–Cesàro applications, where the theorem is only a shortcut once you have shown the limit of ratios exists
 - Limit inferior and superior are tested less frequently but appear
-- Riemann sum interpretation of summations appeared in 2020
+- Riemann-sum interpretation of a finite summation, which turns a sum into a definite integral
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

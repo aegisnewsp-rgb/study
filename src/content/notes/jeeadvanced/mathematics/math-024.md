@@ -90,7 +90,7 @@ From first equation: $c = -2 - 2g - 2f = -2 - 2(-11/6) - 2(-11/6) = -2 + 11/3 + 
 So circle: $x^2 + y^2 - \frac{11}{3}x - \frac{11}{3}y + \frac{16}{3} = 0$.
 Multiply by 3: $3x^2 + 3y^2 - 11x - 11y + 16 = 0$.
 
-*Example 2 (JEE 2022):* Find length of tangent from $(5, 3)$ to $x^2 + y^2 - 4x - 6y + 3 = 0$.
+*Example 2:* Find length of tangent from $(5, 3)$ to $x^2 + y^2 - 4x - 6y + 3 = 0$.
 
 Circle: $g = -2, f = -3, c = 3$.
 Radius $r = \sqrt{4 + 9 - 3} = \sqrt{10}$.
@@ -162,11 +162,13 @@ Thus $C_1 = (5, 0)$, and indeed the distance from $C_1$ to $P$ is $5 - 2 = 3 = r
 So the required circle is: centre $(5,0)$, radius $3$: $(x-5)^2 + y^2 = 9$.
 
 **JEE Advanced Patterns (2018–2024):**
-- Radical axis problems and properties of concurrent radical axes appeared in 2020, 2023
+- Radical axis, and the concurrency of radical axes taken three at a time
 - Number of common tangents between circles is frequently tested
 - Family of circles (touching conditions) is a major topic
-- Orthogonal circles (where tangents are perpendicular at intersection) appeared in 2021
+- Orthogonal circles, where the tangents at a common point are perpendicular
 - Combined problems with lines and circles are very common
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

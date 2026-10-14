@@ -71,7 +71,7 @@ Comparing with $x^2 = 4ay$: here $4a = 8$, so $a = 2$. Latus rectum length $= 4a
 
 At $x = 3$: $y^2 = 12(3) = 36$, so $y = \pm 6$. For point $(3, 6)$: tangent is $y(6) = 6(x + 3)$ → $6y = 6x + 18$ → $x - y + 3 = 0$ or equivalently $y = x + 3$. For $(3, -6)$: $-6y = 6x + 18$ → $x + y + 3 = 0$.
 
-*Example 3 (JEE 2022 pattern):* Find the equation of normal to $y^2 = 8x$ at point $(2, 4)$.
+*Example 3:* Find the equation of normal to $y^2 = 8x$ at point $(2, 4)$.
 
 Parametric form: $(2at, 2a)$ gives $(2at^2, 4at)$. Comparing: $2at^2 = 2$ and $4at = 4$. With $a = 2$, we get $t^2 = 1/2$ and $t = 1/\sqrt{2}$. Normal: $y + tx = 2at + at^3 = 4(1/\sqrt{2}) + 2(1/(2\sqrt{2})) = \frac{4}{\sqrt{2}} + \frac{1}{\sqrt{2}} = \frac{5}{\sqrt{2}}$. So $y + \frac{x}{\sqrt{2}} = \frac{5}{\sqrt{2}}$ or multiply by $\sqrt{2}$: $\sqrt{2}y + x = 5$.
 
@@ -102,7 +102,7 @@ $$k + t_2 h = 2at_2 + at_2^3$$
 Also chord equation: $y(t_1 + t_2) = 2x + a(t_1^2 + t_2^2 + 2)$.
 Eliminating $t_1, t_2$ gives locus: $(h - a)^2 = 2a(k - 2a)$, another parabola shifted by $(a, 2a)$.
 
-*Problem 2 (JEE Advanced 2019):* From point $P(6, 8)$, normals are drawn to $y^2 = 8x$. Find the equation of the chord of contact and length of chord.
+*Problem 2:* From point $P(6, 8)$, normals are drawn to $y^2 = 8x$. Find the equation of the chord of contact and length of chord.
 
 *Solution:* Chord of contact from $P$: $yy_1 = 2a(x + x_1)$ gives $8y = 8(x + 6)$ → $y = x + 6$. This meets parabola at points satisfying $(x+6)^2 = 8x$ → $x^2 - 4x + 36 = 0$ → discriminant $16 - 144 < 0$. This seems off. Rechecking: chord of contact formula uses $S = 0$ form. Actually for $y^2 = 8x$ (i.e., $4a = 8, a=2$): $8y = 8(x+6)$ → $y = x + 6$. Substituting in $y^2 = 8x$: $(x+6)^2 = 8x$ → $x^2 + 12x + 36 = 8x$ → $x^2 + 4x + 36 = 0$. Discriminant negative means no real intersection — the chord of contact from an external point doesn't intersect the parabola.
 
@@ -116,6 +116,8 @@ The locus approach for the midpoint of chord whose normals intersect at $P$ give
 - Parametric approach is often the fastest method for complex problems
 - Questions involving the focal property and reflection are trending upward
 - "Three normals from a point to a parabola" is a classic problem type
+
+**Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

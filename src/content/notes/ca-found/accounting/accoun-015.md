@@ -86,12 +86,6 @@ Shows all inflows of funds during the period. Funds from operations is the most 
 **Part 3 — Applications of Funds**
 Shows all outflows of funds. Payment of dividend and income tax are always applications even if they are shown as transfers in the balance sheet.
 
-## Continue your study
-
-- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Funds Flow Statement" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
-- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject
 
 ## Net Profit Available for Preference Dividend
 
@@ -118,3 +112,10 @@ This appears as an adjustment when preference dividend is declared.
 2. Prepare a Funds Flow Statement given: Equity capital issued ₹2,00,000; 10% Debentures redeemed ₹50,000; Machinery purchased ₹1,20,000; Dividend paid ₹30,000; Tax paid ₹20,000; Depreciation charged ₹15,000. Closing Working Capital exceeds Opening Working Capital by ₹25,000.
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Funds Flow Statement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject

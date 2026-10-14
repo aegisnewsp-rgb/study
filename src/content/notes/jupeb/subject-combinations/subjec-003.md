@@ -91,14 +91,15 @@ In a population of 10,000 individuals, 16% exhibit an autosomal recessive phenot
 
 ---
 
+
+## Sources & verification
+- Joint Universities Preliminary Examinations Board (JUPEB) National Syllabus.
+- JAMB Direct Entry Guidelines for Allied Health & Biological Engineering.
+- Federal University of Technology, Owerri (FUTO) Department of Biomedical Engineering.
+
 ## Continue your study
 
 - **[View this topic in your JUPEB (Nigeria) roadmap](/roadmap/?exam=jupeb&duration=1mo)** — see where "JUPEB Science Combination (PMB)" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=jupeb&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[JUPEB (Nigeria) exam overview](/exams/jupeb/)** — pattern, eligibility, and syllabus
 - **[All Subject-Combinations notes](/notes/jupeb/subject-combinations/)** — browse sibling topics in this subject
-
-## Sources & verification
-- Joint Universities Preliminary Examinations Board (JUPEB) National Syllabus.
-- JAMB Direct Entry Guidelines for Allied Health & Biological Engineering.
-- Federal University of Technology, Owerri (FUTO) Department of Biomedical Engineering.

@@ -34,12 +34,6 @@ A: **B (Accommodation)** — Two 'c's, two 'm's. Remember: "Accommodation has tw
 
 ---
 
-## Continue your study
-
-- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Spelling Correction" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
-- **[All English Language notes](/notes/ssc-cgl/english-language/)** — browse sibling topics in this subject
 
 ## Spelling Correction — Quick Reference
 
@@ -179,3 +173,10 @@ Answer: **(C) yesterdays** — "Yesterdays" is incorrect in this context. The co
 - **Trap 4 — Homophone + spelling combo**: "Your" vs "You're" vs "Yours" — sometimes these appear in context-based questions where both spelling and usage matter. Read the full sentence carefully before answering.
 
 *Content adapted based on your selected roadmap duration.*
+
+## Continue your study
+
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Spelling Correction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/ssc-cgl/english-language/)** — browse sibling topics in this subject

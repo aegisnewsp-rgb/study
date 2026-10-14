@@ -122,14 +122,15 @@ The UPPSC examination board places significant emphasis on distinguishing betwee
 
 ---
 
+
+## Sources & verification
+- उत्तर प्रदेश लोक सेवा आयोग (UPPSC) प्रामाणिक हल प्रश्नपत्र.
+- डॉ. हरदेव बाहरी, *हिंदी शब्दकोश*, राजकमल प्रकाशन.
+- वासुदेव नंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना*.
+
 ## Continue your study
 
 - **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "हिंदी शब्दावली: पर्यायवाची शब्द (Hindi Vocabulary: Synonyms)" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
 - **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
-
-## Sources & verification
-- उत्तर प्रदेश लोक सेवा आयोग (UPPSC) प्रामाणिक हल प्रश्नपत्र.
-- डॉ. हरदेव बाहरी, *हिंदी शब्दकोश*, राजकमल प्रकाशन.
-- वासुदेव नंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना*.

@@ -485,12 +485,6 @@ $$M_o = 19.5 + \frac{8}{8+12} \times 10 = 19.5 + \frac{8}{20} \times 10 = 19.5 +
 
 ---
 
-## Continue your study
-
-- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Statistics" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
-- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
 
 ## 📋 Quick Reference Summary
 
@@ -521,3 +515,10 @@ $$M_o = 19.5 + \frac{8}{8+12} \times 10 = 19.5 + \frac{8}{20} \times 10 = 19.5 +
 ---
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Statistics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject

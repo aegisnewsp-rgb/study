@@ -125,14 +125,15 @@ When tackling complex Sandhi and Samas questions in the UPPSC preliminary examin
 
 ---
 
+
+## Sources & verification
+- उत्तर प्रदेश लोक सेवा आयोग (UPPSC) सामान्य अध्ययन एवं सामान्य हिंदी प्रश्न बैंक.
+- कामता प्रसाद गुरु, *हिंदी व्याकरण*, नागरी प्रचारिणी सभा.
+- वासुदेव नंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना*.
+
 ## Continue your study
 
 - **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "हिंदी व्याकरण: संधि एवं समास (Hindi Grammar: Sandhi and Samas)" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
 - **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
-
-## Sources & verification
-- उत्तर प्रदेश लोक सेवा आयोग (UPPSC) सामान्य अध्ययन एवं सामान्य हिंदी प्रश्न बैंक.
-- कामता प्रसाद गुरु, *हिंदी व्याकरण*, नागरी प्रचारिणी सभा.
-- वासुदेव नंदन प्रसाद, *आधुनिक हिंदी व्याकरण और रचना*.

@@ -417,12 +417,6 @@ Negative words in the statement (never, hardly, nothing) make the tag positive.
 
 ---
 
-## Continue your study
-
-- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Question Tags and Short Answers" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
-- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
 
 ## Quick Reference Summary
 
@@ -437,3 +431,10 @@ Negative words in the statement (never, hardly, nothing) make the tag positive.
 | Statement with negative word | "He never came, **did he?**" | Positive tag (statement already negative) |
 
 > **Remember:** Question tags are a test of your ability to understand polarity (positive vs. negative), auxiliary verbs, and pronoun reference — all in one small structure. Master the rule, and you can answer any tag question JAMB throws at you.
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Question Tags and Short Answers" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject

@@ -39,7 +39,7 @@ Economy questions test conciseness, redundancy elimination, and formal academic 
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you select the word that fits the passage's tone, meaning, and economy of expression?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Economy questions test conciseness, redundancy elimination, and formal academic 
 
 To secure consistent accuracy on Knowledge of Language: Word Choice, Tone, and Economy, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For word choice, mark the audience and purpose signaled by the passage's overall register.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Select the shortest grammatically correct option that preserves the original meaning without redundancy. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Select the shortest grammatically correct option that preserves the original meaning without redundancy. Mark your evidence by circling any word in the choice that clashes in formality, precision, or connotation with its neighbors.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, confirm the candidate is concise, consistent in tone, and free of redundancy.
 
 ---
 

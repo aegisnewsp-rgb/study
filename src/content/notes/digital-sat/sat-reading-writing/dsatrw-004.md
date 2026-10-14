@@ -39,7 +39,7 @@ Central Ideas and Details questions evaluate your ability to identify the primar
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you separate the main idea from a detail and match it to an answer that states it accurately?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Central Ideas and Details questions evaluate your ability to identify the primar
 
 To secure consistent accuracy on Information and Ideas: Central Ideas and Details, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For central ideas, mark whether the question targets the central claim, a supporting detail, or a summary phrasing.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Differentiate the primary overarching argument from subordinate supporting examples. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Differentiate the primary overarching argument from subordinate supporting examples. Mark your evidence by locating the passage's controlling sentence, then tracing each detail back to it.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, confirm the chosen option mirrors that central claim at the requested level of generality.
 
 ---
 

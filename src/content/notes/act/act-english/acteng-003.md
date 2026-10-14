@@ -39,7 +39,7 @@ Sentence structure questions test comma splices, run-on sentences, missing main 
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you name which choice turns the fragment into a complete thought or fixes the run-on?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Sentence structure questions test comma splices, run-on sentences, missing main 
 
 To secure consistent accuracy on Conventions of Standard English: Sentence Structure and Fragments, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For sentence boundaries, mark whether the choice yields a complete clause with a subject and a finite verb.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Separate independent clauses with a period, semicolon, or comma + coordinating conjunction (FANBOYS). Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Separate independent clauses with a period, semicolon, or comma + coordinating conjunction (FANBOYS). Mark your evidence by crossing out the underlined portion and checking if what remains still reads as a full sentence.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, confirm the candidate repairs the fragment or fused sentence without introducing a new error.
 
 ---
 

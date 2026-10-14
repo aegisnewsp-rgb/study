@@ -39,7 +39,7 @@ Rhetorical Synthesis questions provide four to six bulleted research notes follo
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you choose an addition that serves the stated rhetorical goal without disrupting cohesion?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Rhetorical Synthesis questions provide four to six bulleted research notes follo
 
 To secure consistent accuracy on Expression of Ideas: Rhetorical Synthesis, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For rhetorical synthesis, mark the rhetorical effect the new sentence must achieve, such as exemplifying, conceding, or emphasizing.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Read the prompt goal first (e.g., 'present an explanation to an audience unfamiliar with the topic') and evaluate choices solely on fulfilling that stated goal. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Read the prompt goal first (e.g., 'present an explanation to an audience unfamiliar with the topic') and evaluate choices solely on fulfilling that stated goal. Mark your evidence by selecting a phrase whose content and sentence role fit the stated purpose and the prior paragraph.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, verify the inserted sentence flows logically and does not repeat an earlier point verbatim.
 
 ---
 

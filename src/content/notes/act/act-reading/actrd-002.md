@@ -39,7 +39,7 @@ Inference questions require deducing unstated implications that follow strictly 
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you draw a logical inference that the author leaves unstated but the passage plainly supports?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Inference questions require deducing unstated implications that follow strictly 
 
 To secure consistent accuracy on Key Ideas and Details: Drawing Logical Inferences, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For supported inferences, mark what the question implies must be true but never states outright.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Choose inferences that directly align with text evidence; avoid speculative leaps not grounded in the passage. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Choose inferences that directly align with text evidence; avoid speculative leaps not grounded in the passage. Mark your evidence by combining two or more textual clues that, taken together, support the implied conclusion.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, confirm your inference stays inside what the passage can reasonably support without outside knowledge.
 
 ---
 

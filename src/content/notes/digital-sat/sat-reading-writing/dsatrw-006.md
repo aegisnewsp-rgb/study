@@ -39,7 +39,7 @@ Inference questions conclude with an unfinished sentence requiring you to select
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you name the stated cues behind each inference and reject choices that overreach the passage?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Inference questions conclude with an unfinished sentence requiring you to select
 
 To secure consistent accuracy on Information and Ideas: Inferences, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For implied claims, mark whether the inference is about a character's motive, a cause, or an implied author attitude.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Determine the logical trajectory of the argument and choose the conclusion that requires zero unsupported assumptions. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Determine the logical trajectory of the argument and choose the conclusion that requires zero unsupported assumptions. Mark your evidence by listing the stated facts that any reading must reconcile, then deducing only from those.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, verify the inference stays text-supported and avoids pulling in outside knowledge.
 
 ---
 

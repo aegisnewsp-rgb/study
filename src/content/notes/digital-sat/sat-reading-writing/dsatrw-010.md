@@ -39,7 +39,7 @@ Transitions questions require choosing the most logical linking word or phrase c
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you label the exact logical relation between two sentences and pick the transition that matches?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Transitions questions require choosing the most logical linking word or phrase c
 
 To secure consistent accuracy on Expression of Ideas: Transitions, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For transition purpose, mark whether the link is additive, contrastive, causal, or conclusory between the two clauses.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Categorize transitions into three families: Contrast (however, nevertheless, whereas), Continuation/Addition (moreover, furthermore, specifically), and Cause/Effect (therefore, consequently). Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Categorize transitions into three families: Contrast (however, nevertheless, whereas), Continuation/Addition (moreover, furthermore, specifically), and Cause/Effect (therefore, consequently). Mark your evidence by describing the relationship in plain words, then matching it to a transition that signals it.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, read both joined clauses aloud to confirm the connector conveys the intended logic.
 
 ---
 

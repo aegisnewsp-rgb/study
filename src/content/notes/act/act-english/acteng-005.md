@@ -39,7 +39,7 @@ Usage questions test subject-verb agreement across long prepositional phrases, v
 
 #### 20-minute triage checklist
 
-- [ ] Can you state the fundamental definitions and core formulas for this topic without hesitation?
+- [ ] Can you match pronoun case, verb tense, subject-verb agreement, and parallel form to the underlined slot?
 - [ ] Do you know the standard distractor patterns that test writers use to construct wrong choices for this topic?
 - [ ] Have you practiced timed sets under realistic test-day constraints?
 - [ ] Are you comfortable using standard examination interface tools (highlighters, question-flagging flags)?
@@ -52,14 +52,14 @@ Usage questions test subject-verb agreement across long prepositional phrases, v
 
 To secure consistent accuracy on Conventions of Standard English: Usage and Agreement, candidates should follow a structured three-step execution framework:
 
-1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+1. **Identify What the Item Actually Asks**:
+   Begin by identifying the exact question asked. For agreement, mark the grammatical role the underlined word plays in the surrounding sentence.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Identify the true subject noun and match singular or plural verb forms accurately. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+   Apply official methodology rather than intuition. Identify the true subject noun and match singular or plural verb forms accurately. Mark your evidence by tracing the antecedent, subject, or parallel structure that governs the choice's form.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+   Before you commit, confirm the candidate agrees, parallels, or fits the case the sentence demands.
 
 ---
 

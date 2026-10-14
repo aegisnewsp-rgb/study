@@ -137,6 +137,80 @@ India's cultural heritage spans over 5,000 years of continuous civilization, mak
 - [ ] Difference between Nagara, Dravidian, Vesara temple styles
 - [ ] Intangible cultural heritage list entries from India
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Diagnosing a temple by its plan
+
+Temple-style questions usually show a photograph and expect a style name. Learn the diagnostic features, because the plan gives the answer away faster than the tower does.
+
+| Feature | Nagara (North) | Dravidian (South) | Vesara (Karnataka) |
+|---|---|---|---|
+| Tower above sanctum | Shikhara, curvilinear | Vimana, stepped in tiers | Neither dominant |
+| Finial | Amalaka disc, then kalasha | Stupi on a griva | Stupi on a turned base |
+| Entrance hall | Mandapa, often an ardha-mandapa behind | Pillared, projecting Nandi | Stellate outer hall |
+| Hall roof | Pyramidal phamsana | Flat, corbelled in tiers | Domed |
+| Example | Khajuraho, Konark | Brihadeeswarar, Meenakshi | Chennakeshava, Belur, Halebidu |
+
+The fastest single cue: a tower curving upward into a disc is Nagara. A tower stepping inward in storeys above a flat hall roof is Dravidian. A stellate outer hall cut from soapstone is Vesara.
+
+> **Examiner trap:** Chennakeshava at Belur and the Hoysaleswara temple at Halebidu are Hoysala work and therefore Vesara, yet they are routinely mislabelled Dravidian because they stand south of the Vindhyas. The location of a *site* is not the *style* of the temple.
+
+#### Sacred versus commemorative architecture
+
+Stupas are Buddhist and solid; temples are Hindu or Jain and hollow, with a walkable sanctum. Sorting these settles a whole class of confusion.
+
+- **Stupa** - Sanchi, Bharhut: a hemispherical mound inside a railing, with toranas at the cardinal entries. A reliquary, not a congregational hall.
+- **Temple** - contains a garbhagriha holding the deity image, with a circumambulatory path around it.
+
+#### UNESCO categories are not interchangeable
+
+| Category | Test applied | Indian examples |
+|---|---|---|
+| Cultural | Built by human hands | Taj Mahal, Ajanta and Ellora, Mahabalipuram |
+| Natural | Geological or biological processes | Kaziranga, Sundarbans, Western Ghats |
+| Mixed | Satisfies both criteria | Khangchendzonga National Park |
+
+When a question presents a site and asks for the category, test the criterion first. If the answer protects an animal population, it is Natural. If a ruler built it, it is Cultural.
+
+#### Language, script and constitutional status
+
+Three separate lists get confused in nearly every heritage question.
+
+- **22 scheduled languages** - recognised under Article 343 and listed in the Eighth Schedule.
+- **6 classical languages** - Tamil (2004), Sanskrit (2005), Telugu and Kannada (2008), Malayalam (2013), Odia (2014), each notified under Article 343(3) as holding classical status, which is distinct from being a scheduled language.
+- **Scripts** - Devanagari, Bengali, Gurmukhi, Gujarati, Oriya, Tamil, Telugu, Kannada, Malayalam, Arabic, Persian and Roman. A script is an orthography; a language is a spoken system. Several Indian languages share one script.
+
+> **Examiner trap:** *Which of these is the classical language of India?* is usually ill-posed, because six qualify. When an option list offers only Tamil, the question is testing the notification year rather than the status.
+
+#### Circuits worth memorising as sets
+
+- **Char Dham** - Badrinath, Kedarnath, Gangotri, Yamunotri. All four lie in Uttarakhand.
+- **Panch Kedar** - Kedarnath, Tungnath, Rudranath, Madhugiri, Shankaracharya.
+- **Shakti Peethas** - a Shakta circuit whose count and sites both vary by text, so treat any fixed number with care.
+- **Buddhist circuit** - Sarnath for the first sermon, Bodh Gaya for enlightenment, Kushinagar for the mahaparinirvana, Lumbini for the birth, plus the monasteries at Rajgir and Nalanda.
+
+> **Examiner trap:** Lumbini is on the Buddhist circuit and lies in Nepal. Kushinagar, the site of the fourth event, is in Uttar Pradesh.
+
+#### A worked identification
+
+*A temple in Karnataka stands on a soapstone platform, its outer hall cut as a star with brackets on every face, supported on lathe-turned pillars. Name the style and the dynasty.*
+
+Soapstone, a stellate plan and lathe-turned pillars are the Hoysala signature, and Hoysala work is Vesara in style. The answer is Vesara; the dynasty is Hoysala, of the 12th-13th centuries.
+
+> **Examiner trap:** Vishnuvardhana is remembered as the patron of the Hoysaleswara temple at Halebidu, while his son Narasimhavarman III built Chennakeshava at Belur. Do not swap them.
+
+#### Living traditions versus staged display
+
+- **Koodiyattam** - Sanskrit theatre of Kerala performed by Chakyar actors, inscribed on the intangible list in 2001.
+- **Kalbelia** - Rajasthan's snake-charmer and folk dance tradition, inscribed in 2010.
+- **Chhau** - a martial dance with distinct forms in Jharkhand and in Purulia, West Bengal.
+- **Theyyam** - a Kerala ritual performance in which the performer is treated as the deity for the duration.
+
+These are living practices governed by rules about who may perform them, which is precisely why they belong on an intangible heritage list rather than a monument list.
+
+> **Examiner trap:** Kalbelia is sometimes given as snake catching in Gujarat. It is a Rajasthani tradition; Gujarat only shares the adjoining geography.
+
+
 ## Continue your study
 
 - **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Indian Heritage & CulturalDiversities" fits in your personalised plan

@@ -175,6 +175,62 @@ After each task ends, quickly scan your notes while the questions are being coll
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
 
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Notes are a working memory substitute, not a transcript
+
+Every MUET Listening task sets the same bargain: the audio is transient, the questions are fixed. Your notes are the only bridge between them. The instinct under pressure is to write more; the better instinct is to write *narrower*. A candidate who writes forty fragments and re-reads them gains nothing over one who writes twelve, because both still have to decode every symbol during the question phase. Aim for a note set you can scan in the time it takes to turn a page.
+
+#### The anchor-first grid
+
+Read the questions before the audio begins, then draw a grid: one row per question. The left column holds the information type you are hunting. The right column stays empty until the audio supplies it.
+
+| Question asks for | Listen specifically for | Note form |
+|---|---|---|
+| A time or gate | Numerals after *at*, *by*, *boarding* | `1430 / Gate 12` |
+| A reason | Causal connectives: due to, owing to, because of | `cause -> factor` |
+| An opinion | Evaluative adverbs: unfortunately, arguably, ideally | `S1 + / S2 -` |
+| A place | Prepositions of position, building nouns | `loc -> place` |
+| A sequence | Ordinal markers: first, then, finally, after that | `1...2...3` |
+
+Filling the left column first does something subtle: it converts listening from reception into search. You stop transcribing the recording and start hunting for five specific things.
+
+#### Worked example: the distractor problem
+
+> "Passengers for flight MH370 to Kota Kinabalu should proceed to gate 27. The departure time has been moved forward to 4:40 p.m. Please note that boarding for the earlier 3:15 flight has been cancelled."
+
+Three numbers appear - 27, 4:40, 3:15 - and only two of them are live. The cancelled 3:15 flight is the trap, and it sits *after* the useful number, which is exactly where a still-writing hand is most likely to be. If the question asks for the gate, you write `gate 27` and abandon the row. Everything else is discarded on the spot.
+
+> **Examiner trap:** Distractors are usually positioned immediately after the real answer, never before it. The last number you hear is very often the one you discard.
+
+#### First-listen and second-listen duties differ
+
+Tasks 3 and 4 play twice. Candidates who treat both listens identically throw the second one away.
+
+| | First listen | Second listen |
+|---|---|---|
+| Task 3 (conversation) | Roles, relationship, the question under debate | Attitude phrases attached to each speaker |
+| Task 4 (news) | Headline plus who / what / when | Figures, dates, quoted phrases |
+
+On the first listen of a conversation, write only who argues for what. Resist the urge to capture reasoning you cannot yet evaluate.
+
+#### Abbreviation discipline
+
+A symbol earns its place only if you can decode it without hesitation.
+
+- Reserve one character per category: `+` increase, `-` decrease, `->` cause, `!=` contrast, `~` approximate.
+- Never invent a new symbol mid-task. Write the word instead; an unfamiliar glyph costs more time than the word would have.
+- Write numerals the way you will need to read them. Use `0745` rather than `7.45 am`, because the option will likely read `7:45 a.m.` and you want a visual match, not a translation.
+
+#### Failure modes in long tasks
+
+1. **Lagging handwriting.** Speed, not accuracy, is the binding constraint. Practise at 120 words per minute with mixed numerals and proper nouns.
+2. **Alphabet drift on names.** Write phonetically - `Ahmadsin` - and accept that the marker wants recognition, not spelling.
+3. **Second-listen passivity.** If a question got nothing in the first listen, the second listen belongs to that question alone.
+4. **No scan between tasks.** Twelve seconds of re-reading after each task is cheaper than one recovered mark.
+5. **Copying the question stem.** You already know the question. Copying it spends seconds the audio needed.
+
+
 ## Continue your study
 
 - **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Note-Taking & Information Extraction" fits in your personalised plan

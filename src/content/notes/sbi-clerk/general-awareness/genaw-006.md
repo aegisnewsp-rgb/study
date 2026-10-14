@@ -118,7 +118,7 @@ India's peninsular plateau is one of the oldest landmasses on Earth.
 **Andaman & Nicobar**:
 - Volcanic and coral islands
 - Southernmost point: Indira Point (Great Coco Island)
-- Indira Point: India's southernmost point on mainland
+- Indira Point: India's southernmost point, on Great Nicobar Island - the mainland's southernmost point is Kanyakumari
 
 ## Major Rivers of India
 
@@ -183,6 +183,76 @@ India's climate is dominated by the **Southwest Monsoon** (June-September).
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+### 🔴 Extended — Deep Study (3mo+)
+
+#### Read the map as a mechanism
+
+Indian geography questions rarely test a name on its own; they test whether you can say *why* a feature sits where it does. Every division in this note follows from three forces: relief, latitude, and the direction the summer monsoon arrives from. Learn the mechanism and the list reconstructs itself.
+
+#### Orographic rainfall and the rain-shadow rule
+
+Moist air off the Arabian Sea meets the Western Ghats and is forced upward. Rising air cools, condenses, and rains out on the windward slope. Having shed its moisture, the same air descends the leeward side as dry, descending air.
+
+| Position | Air movement | Rainfall | Example |
+|---|---|---|---|
+| Windward | Forced up, cools, condenses | Heavy | Mahabaleshwar, Agumbe on the Ghats |
+| Leeward | Descends, warms, dries | Low, deficit-prone | Vidarbha and the interior Deccan |
+| Windward of the Himalaya | Blocked, orographically lifted | Very heavy | Mawsynram, Cherrapunji on the Meghalaya plateau |
+
+The Deccan interior sits in the shadow of the Western Ghats, which is why Vidarbha and Marathwada face water stress while the coast receives 250 cm. Where a question pairs heavy rainfall with the leeward side, the pair is the contradiction it wants you to catch.
+
+#### The two-peninsular-river rule
+
+Peninsular rivers split by slope, and the slope is decided by the Narmada-Tapi line.
+
+| Flow | Rivers | Controlling landform | Basin character |
+|---|---|---|---|
+| East-flowing | Mahanadi, Godavari, Krishna, Cauvery | Western Ghats to gentle eastern slope | Long, mature, navigable, delta-building |
+| West-flowing | Narmada, Tapi | Rift valley between the Vindhyas and Satpuras | Short, steep, incised, delta-less |
+
+> **Examiner trap:** Narmada and Tapi are the only west-flowing peninsular rivers, and also the only two that build no delta. A question asserting that the Narmada forms a large delta contains its own contradiction.
+
+#### Pairing rivers with their projects
+
+Repeated questions join a river to a dam, and the joins are conventional.
+
+- **Hirakud** on the Mahanadi, **Almatti** on the Krishna, **KRS** on the Cauvery, **Sardar Sarovar** on the Narmada.
+- **Bhakra** on the Sutlej, **Nagarjuna Sagar** and **Srisailam** on the Krishna, **Hirakud** on the Mahanadi.
+- **Tehri** on the Bhagirathi, **Chamera** on the Chenab.
+
+> **Examiner trap:** The Indus and its five tributaries - Jhelum, Chenab, Ravi, Beas, Sutlej - belong to the Himalayan system, not the peninsular one. The entire system drains into the Arabian Sea through Pakistan and none of it reaches Indian territory.
+
+#### Soils as an agricultural argument
+
+Soil questions are agricultural questions in disguise. The crop follows the soil, and the soil follows the climate.
+
+| Soil | Where | Behaviour under water | Typical crop |
+|---|---|---|---|
+| Alluvial | Indo-Gangetic plain and river valleys | Retains moisture, deep deposit | Wheat, rice, sugarcane |
+| Black cotton | Deccan (Maharashtra, MP, Gujarat) | Swells when wet, cracks when dry | Cotton, soybean, jowar |
+| Red | South of the Vindhyas | Porous, leaches readily | Millets, groundnut, tobacco |
+| Laterite | Western and Eastern Ghats, Odisha | Hard crust once exposed | Tea, cashew, with heavy manuring |
+| Desert | Western Rajasthan | Sandy, low organic matter | Bajra, moth bean under irrigation |
+
+Black cotton soil's moisture behaviour is the most asked property in that table: it swells through the monsoon and shrinks through the dry season, which is why it is partly self-ploughing and why it cracks visibly by April.
+
+#### Monsoon onset and withdrawal
+
+- **Onset** begins over Kerala around 1 June and advances north-west, covering the country by mid-July.
+- **Withdrawal** starts from the north-west in early September and completes by the end of October.
+- The **Arabian Sea branch** strikes the Western Ghats first; the **Bay of Bengal branch** curves up the Gangetic plain.
+
+The Bay branch decides whether a Kharif crop succeeds in north India, because it tracks the plain rather than the coast. A late Bay branch pushes sowing past the July window. Monsoon questions usually turn on that timing rather than on total rainfall.
+
+#### A worked reading
+
+*Two villages sit 30 km apart on opposite sides of a low hill in coastal Karnataka. One records 280 cm of rain a year and dense evergreen forest; the other records 65 cm and scrub. Neither is on the coast.*
+
+The wetter village is on the windward, western side facing the Arabian Sea. The drier one lies in the interior rain-shadow. Same latitude, same distance from the sea, entirely different rainfall because of the hill standing between them. Any question that hands you rainfall figures without geography is asking you to infer position.
+
+> **Examiner trap:** Do not read *coastal* as *high rainfall* without checking which side of the Ghats you are on. The Konkan coast is wet; the Karnataka coast just south of it is markedly drier for exactly this reason.
+
 
 ## Continue your study
 

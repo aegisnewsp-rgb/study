@@ -144,12 +144,12 @@ Similarly, $f(x)$ is strictly increasing for $x > 0$.
 Since $f(0) = 0$, we get $f(x) > 0$ for $x > 0$.
 Thus $e^x > 1 + x + x^2/2$ for $x > 0$.
 
-**JEE Advanced Patterns (2018–2024):**
-- MVT and Rolle's theorem applications are very common
-- Maxima-minima with constraints use Lagrange multipliers (advanced)
+**What to Practise in This Topic:**
+- Mean value theorem and Rolle's theorem — check the hypothesis (continuity on the closed interval, differentiability inside it) before applying either, because the question usually turns on the condition rather than the algebra
+- Maxima and minima under a constraint — eliminate one variable by substituting the constraint first, and reach for Lagrange multipliers only when the substitution turns messy
 - Curvature and radius of curvature — read the condition off the parametric or implicit form instead of solving twice
-- Monotonicity and convexity are frequently combined
-- Problems involving number of roots via derivatives are trending
+- Monotonicity and convexity asked in the same question — settle the sign of the first derivative, then the sign of the second, in that order, and check the answer against the shape of the curve
+- Number of roots through derivatives — find where the function changes sign, and handle a repeated root by solving $f = 0$ and $f' = 0$ together instead of trying to factor the expression
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 

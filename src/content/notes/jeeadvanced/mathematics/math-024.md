@@ -161,12 +161,12 @@ Thus $C_1 = (5, 0)$, and indeed the distance from $C_1$ to $P$ is $5 - 2 = 3 = r
 
 So the required circle is: centre $(5,0)$, radius $3$: $(x-5)^2 + y^2 = 9$.
 
-**JEE Advanced Patterns (2018–2024):**
+**What to Practise in This Topic:**
 - Radical axis, and the concurrency of radical axes taken three at a time
-- Number of common tangents between circles is frequently tested
-- Family of circles (touching conditions) is a major topic
+- Number of common tangents — read it off the relative position of centre and radii (disjoint, externally touching, intersecting, internally touching, one inside the other), since the count changes at every boundary case
+- Families of circles with a touching condition — write the general equation with its parameter and impose the tangency condition once, so every member of the family comes from the same working
 - Orthogonal circles, where the tangents at a common point are perpendicular
-- Combined problems with lines and circles are very common
+- Lines and circles together — find the foot of the perpendicular from the centre to the line before anything else, because its distance from the centre decides how many times the line meets the circle
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 

@@ -142,11 +142,11 @@ Passing through circle means passing through three points on circle, e.g., $(\sq
 From $(\sqrt{5},0,2)$: $5+4+2u\sqrt{5}+2w(2) = 0$ → $2u\sqrt{5}+2w(2) = -9$.
 Similar equations give system to solve for $u, v, w$.
 
-**JEE Advanced Patterns (2018–2024):**
-- Shortest distance between skew lines is a recurring topic
-- Sphere intersection with planes/lines tested nearly every year
-- Combined problems with conics and 3D are common in Paper 2
-- Conditions for perpendicularity/coplanarity appear frequently
+**What to Practise in This Topic:**
+- Shortest distance between skew lines — write the direction ratios of both, check whether the scalar triple product is zero, then solve the pair of plane equations that meet at right angles to both lines
+- A sphere cut by a plane or a line — measure the distance from the centre to the plane or line and compare it with the radius; that one comparison decides intersection, tangency, or no contact at all
+- Conics and 3D geometry in one question — decide whether a line meets a cone in one point or two, since a tangent meets the cone in exactly one
+- Perpendicularity and coplanarity — test direction ratios for the first and the scalar triple product for the second; a zero triple product means coplanar however the vectors look on paper
 - Projections onto lines and planes, and the angle a line makes with a plane
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.

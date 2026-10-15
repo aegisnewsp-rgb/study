@@ -160,11 +160,11 @@ $$\int_0^1 x \sin x \, dx = [-x \cos x]_0^1 + \int_0^1 \cos x \, dx = -\cos 1 + 
 
 So the limit equals $\sin 1 - \cos 1$.
 
-**JEE Advanced Patterns (2018–2024):**
-- Recurrence relations solving via characteristic equation is frequent
-- Monotone convergence with bounding arguments is common
+**What to Practise in This Topic:**
+- Linear recurrences — write out the first few terms, guess the shape of the general term, then confirm it with the characteristic equation before relying on it
+- Monotone convergence — prove boundedness and monotonicity separately, because one without the other does not establish convergence
 - Stolz–Cesàro applications, where the theorem is only a shortcut once you have shown the limit of ratios exists
-- Limit inferior and superior are tested less frequently but appear
+- liminf and limsup — identify the subsequential limits first, then take the smallest and largest of them; both must be limits of genuine subsequences
 - Riemann-sum interpretation of a finite summation, which turns a sum into a definite integral
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.

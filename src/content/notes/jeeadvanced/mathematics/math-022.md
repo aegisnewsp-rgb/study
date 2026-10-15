@@ -154,12 +154,12 @@ This passes through $(h,k)$: $\frac{ah}{\cos\theta} - \frac{bk}{\sin\theta} = a^
 Similarly for $\phi$. The locus requires eliminating $\theta$ and $\phi$.
 One can show the locus is a circle (or ellipse) related to the original.
 
-**JEE Advanced Patterns (2018–2024):**
-- Combined conic sections (ellipse + line, circle + ellipse) are very common
-- Director circle and auxiliary circle questions appear frequently
-- Parametric point problems are common — always try parametric form first
+**What to Practise in This Topic:**
+- One conic combined with another curve — substitute the parametric form of one into the other and let the parameter run, rather than carrying full Cartesian coordinates for both
+- Director circle and auxiliary circle — write the condition down first (tangents at right angles, chord contact) and derive the radius from the standard form instead of trying to recall the constant
+- Parametric point problems — always try the parametric form first; it removes the sign ambiguity the Cartesian form hides
 - The reflection property of the ellipse, and how it converts a focal-distance condition into a simple length equation
-- Locus problems involving chords normal to ellipse are advanced but appear in tough sets
+- Locus problems where the chord is normal to the ellipse — carry the parameter through the foot-of-perpendicular condition instead of solving for the chord endpoints
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 

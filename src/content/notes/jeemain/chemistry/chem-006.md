@@ -99,7 +99,7 @@ The **Zeroth Law** establishes temperature as a fundamental property enabling th
 | Sections | Physics, Chemistry, Mathematics |
 | Type | MCQ + Numerical Value (NAT) |
 | Time | 3 hours |
-| Marking | Section A MCQ and Section B NAT both: +4 correct, −1 wrong, 0 unanswered (Information Bulletin 2026, Numerical Value Questions) |
+| Marking | Section A MCQ and Section B NAT both: +4 correct, −1 wrong, 0 unanswered (Information Bulletin 2026, Multiple Choice Questions and Numerical Value Questions) |
 | Sessions | January + April per year; best score considered |
 | **Topic Weightage** | **~6%** (based on 2023–2025 paper analysis) |
 

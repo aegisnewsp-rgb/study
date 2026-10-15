@@ -106,7 +106,7 @@ In 1580 CE, Akbar and his finance minister Raja Todar Mal introduced the **Ain-i
 | :--- | :--- | :--- | :--- | :--- |
 | **Polaj** | Annually cultivated for each harvest | Zero fallow; never allowed to lie idle | Assessed every season on actual harvest | Full rate ($1/3$ produce) assessed regularly |
 | **Parauti** | Left uncultivated temporarily | 1 to 2 years fallow to recover natural fertility | Assessed only when brought under plough | Concessional rates during first reclamation year |
-| **Chachar** | Left uncultivated for medium term | 3 to 4 years fallow | Re-assessed incrementally over 5-year cycle | Nominal nominal rate rising to standard $1/3$ in 5th year |
+| **Chachar** | Left uncultivated for medium term | 3 to 4 years fallow | Re-assessed incrementally over 5-year cycle | Nominal rate rising to standard $1/3$ in 5th year |
 | **Banjar** | Uncultivated wasteland or virgin forest | 5 or more years uncultivated | Reclaimed through state loans (*Taccavi*) | Nominal token tax during reclamation stages |
 
 #### The Bhakti and Sufi Movements: Social and Linguistic Transformation

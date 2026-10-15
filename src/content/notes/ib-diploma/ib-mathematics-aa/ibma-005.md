@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Calculus is the largest single topic in the IB Mathematics: Analysis and Approaches syllabus by teaching hours and is the dominant content of Paper 1. The topic covers limits and continuity, differentiation of standard functions via the product, quotient and chain rules, implicit and parametric differentiation, integration techniques (substitution, by parts, partial fractions), definite integrals and their applications to area and volume, differential equations (separable and linear), and (at HL) Maclaurin series. An IB student aiming at a 6 or 7 must secure this topic above all others.
 
-> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision around the patterns below.
+> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision.
 
 ---
 

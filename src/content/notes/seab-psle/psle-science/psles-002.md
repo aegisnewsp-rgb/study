@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Systems is the largest single section in the 2023 MOE Primary Science syllabus at Primary 6 by marks. The strand covers plant transport, the human digestive, circulatory, respiratory and excretory systems, and the interactions within and between systems. The PSLE Science paper assesses systems through a mix of multiple-choice items, structured questions and the open-ended question (OEQ), which is the highest-mark single item on Paper 2.
 
-> Verify the live PSLE Science paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision around the patterns below.
+> Verify the live PSLE Science paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision.
 
 ---
 

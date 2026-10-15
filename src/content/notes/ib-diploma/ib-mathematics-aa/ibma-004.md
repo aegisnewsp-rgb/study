@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Statistics and Probability is the fourth topic of the IB Mathematics: Analysis and Approaches syllabus. The topic covers sampling, presenting data, measures of central tendency and dispersion, linear regression, probability rules (including conditional probability and Bayes' theorem), the binomial distribution, the normal distribution, expectation and variance, and (at HL) the Poisson distribution, the Central Limit Theorem, confidence intervals, and hypothesis testing. Statistics and Probability items appear on IB Math AA Paper 2 alongside Functions, Calculus and Geometry items.
 
-> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision around the patterns below.
+> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision.
 
 ---
 

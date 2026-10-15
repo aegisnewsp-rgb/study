@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Energy is the combined Primary 5–6 theme that runs through the MOE Primary Science syllabus. At Primary 5, the strand covers forms of energy, sources of energy, and energy conversion. At Primary 6, the strand extends into electrical energy: conductors, insulators, simple circuits, and the electromagnet. The strand is assessed through both multiple-choice items on Paper 1 and structured questions on Paper 2, and is a common OEQ topic.
 
-> Verify the live PSLE Science paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision around the patterns below.
+> Verify the live PSLE Science paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision.
 
 ---
 

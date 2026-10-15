@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Numbers and Their Operations is the arithmetic foundation of the O-Level Mathematics 4052 syllabus. The sub-strand covers integers, rational and real numbers, indices, standard form, surds, bounds, estimation, and the four operations in applied contexts. While Algebra is the heaviest sub-strand by marks on the paper, Numbers and Their Operations underpins every other topic — a Sec 4 student cannot succeed on the algebraic items without arithmetic fluency, and cannot succeed on the applied Paper-2 items without confidence with surds, standard form and bounds.
 
-> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision around the patterns below.
+> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision.
 
 ---
 

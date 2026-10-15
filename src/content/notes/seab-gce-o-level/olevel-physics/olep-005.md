@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Section V (Electricity and Magnetism) is the second-largest single section in the O-Level Pure Physics 6091 syllabus by marks, after Section II (Newtonian Mechanics). It covers seven sub-topics: Static Electricity, Current Electricity, D.C. Circuits, Practical Electricity, Magnetism, Electromagnetism, and Electromagnetic Induction. The section spans roughly half of Paper 2's structured questions, with circuit-analysis questions and electromagnetic-induction questions being the heaviest individual items.
 
-> Verify the live O-Level Pure Physics 6091 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision around the patterns below.
+> Verify the live O-Level Pure Physics 6091 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision.
 
 ---
 

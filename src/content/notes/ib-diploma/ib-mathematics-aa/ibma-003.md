@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Geometry and Trigonometry is the third topic of the IB Mathematics: Analysis and Approaches syllabus. At SL the topic covers coordinate geometry in 2D, trigonometry of right and non-right triangles, vectors in 2D, and the sine and cosine rules. At HL it extends to vectors in 3D, vector equations of lines and planes, the cross product, and the use of vectors in geometric problems. Together with Calculus, Geometry and Trigonometry is the heaviest section at HL by teaching hours.
 
-> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision around the patterns below.
+> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Whole Numbers and Operations is the first content strand in the 2021 MOE Primary Mathematics syllabus and underpins every other topic in PSLE Mathematics. A Primary 6 student cannot succeed on the applied questions of Paper 2 without arithmetic fluency here: place value, the four operations with whole numbers, estimation and approximation, and order of operations are all assessed on every PSLE Mathematics paper. The official MOE syllabus strand heading is "Number and Algebra" at Primary 5–6, of which Whole Numbers and Operations is the first sub-strand.
 
-> Verify the live PSLE Mathematics paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision around the patterns below.
+> Verify the live PSLE Mathematics paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision.
 
 ---
 

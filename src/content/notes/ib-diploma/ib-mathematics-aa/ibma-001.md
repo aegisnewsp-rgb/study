@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Number and Algebra is the first topic of the IB Mathematics: Analysis and Approaches syllabus. The topic covers sequences, series, exponents, logarithms, financial maths, the binomial theorem, proof by induction, complex numbers (roots of polynomials, polar form, De Moivre's theorem), and (at HL) counting principles and partial fractions. While Number and Algebra is not the largest topic by teaching hours, it sets the algebraic fluency that the rest of the syllabus assumes.
 
-> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision around the patterns below.
+> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision.
 
 ---
 

@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Ratio, Rate, Proportion and Percentages is one of the three strands of the O-Level Mathematics 4052 syllabus (alongside Algebra and Geometry / Measurement / Statistics). It is the heaviest practical-application load on Paper 2 because most of the long structured questions in this strand are built around money, time, distance and other real-world contexts. A Sec 4 student who is fluent in ratio and proportion will find that the applied paper questions become straightforward; a student who is not will lose marks on the highest-load section of the paper.
 
-> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision around the patterns below.
+> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision.
 
 ---
 

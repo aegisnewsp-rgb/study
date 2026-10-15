@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Functions is the second topic of the IB Mathematics: Analysis and Approaches syllabus (after Number and Algebra) and the most heavily weighted topic at SL by teaching hours. The topic covers domain and range, composite and inverse functions, transformations of graphs, the modulus function, and a wide range of standard functions: polynomial, exponential, logarithmic, rational, and (at HL) trigonometric, parametric and piecewise functions. Functions underpins every other topic in the syllabus — calculus, geometry, statistics and probability all use function notation and graph-reading skills.
 
-> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision around the patterns below.
+> Verify the live IB Math AA subject brief and any in-year curriculum update on https://ibo.org/programmes/diploma-programme/curriculum/mathematics/ before planning revision.
 
 ---
 

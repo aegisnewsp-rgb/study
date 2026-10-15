@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Fractions, Decimals and Percentages is the second sub-strand under "Number and Algebra" in the 2021 MOE Primary Mathematics syllabus and the heaviest paper-1 load at Primary 6. The strand spans equivalent fractions; conversion among fractions, decimals and percentages; the four operations with fractions and mixed numbers; and percentage contexts including percentage change, discount, simple interest and GST (where the syllabus still uses the term). Mastery of this strand is the second-highest return investment for a Primary 6 student after Whole Numbers and Operations.
 
-> Verify the live PSLE Mathematics paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision around the patterns below.
+> Verify the live PSLE Mathematics paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision.
 
 ---
 

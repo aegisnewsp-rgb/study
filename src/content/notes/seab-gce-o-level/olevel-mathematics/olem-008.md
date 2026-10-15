@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Statistics and Probability is the third of the three strands of the O-Level Mathematics 4052 syllabus (alongside Number / Algebra and Geometry / Measurement). It covers data presentation and analysis (histograms, cumulative-frequency curves, box plots, stem-and-leaf diagrams), measures of central tendency and spread (mean, median, mode, standard deviation), and probability (sample space, Venn diagrams, tree diagrams, conditional probability). The strand is often paired with the geometry / measurement strand on a single Paper-2 question and is a reliable source of marks for a well-prepared Sec 4 student.
 
-> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision around the patterns below.
+> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision.
 
 ---
 

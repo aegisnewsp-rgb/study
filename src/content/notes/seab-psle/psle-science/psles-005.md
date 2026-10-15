@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Interactions is the Primary 6–specific theme in the 2023 MOE Primary Science syllabus. The strand covers types of forces, ecosystems and food chains, adaptation for survival, and the impact of human activity on the environment. The strand is assessed through a mix of multiple-choice items on Paper 1 and structured and open-ended questions on Paper 2, and is a common OEQ topic at the upper end of the mark range.
 
-> Verify the live PSLE Science paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision around the patterns below.
+> Verify the live PSLE Science paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision.
 
 ---
 

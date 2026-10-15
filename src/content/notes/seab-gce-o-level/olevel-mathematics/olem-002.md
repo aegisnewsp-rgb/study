@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Algebraic Expressions, Equations and Inequalities is the largest single sub-strand in the O-Level Mathematics 4052 syllabus by marks. The sub-strand covers algebraic expressions, equations (linear and quadratic), simultaneous equations, and inequalities. Every O-Level Mathematics paper carries algebra items, and the highest-mark structured questions on Paper 2 are often built around algebraic manipulation. Mastery of this sub-strand is the single highest-return investment for a Sec 4 student.
 
-> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision around the patterns below.
+> Verify the live O-Level Mathematics 4052 paper format and any in-year syllabus changes on https://www.seab.gov.sg/gce-o-level/ before planning revision.
 
 ---
 

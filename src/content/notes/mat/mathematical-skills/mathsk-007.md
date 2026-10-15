@@ -53,7 +53,7 @@ Simple Interest is the most basic form of interest in financial mathematics. It 
 - If time is in months: $SI = \frac{P \times R \times M}{12 \times 100}$
 - If time is in days: $SI = \frac{P \times R \times D}{365 \times 100}$
 
-**Example (MAT 2022 pattern):** A sum of ₹8,000 is lent at 5% p.a. for 3 years. Find the total interest.
+**Example (MAT pattern):** A sum of ₹8,000 is lent at 5% p.a. for 3 years. Find the total interest.
 $$SI = \frac{8000 \times 5 \times 3}{100} = ₹1,200$$
 Amount = ₹8,000 + ₹1,200 = **₹9,200**
 
@@ -67,7 +67,7 @@ $$A = P\left(1 + \frac{R}{200}\right)^{2T}$$
 **Quarterly compounding:** Rate becomes R/4, time becomes 4T
 $$A = P\left(1 + \frac{R}{400}\right)^{4T}$$
 
-**Example (MAT 2023 pattern):** Find the compound interest on ₹6,000 at 10% p.a. for 1.5 years, compounded half-yearly.
+**Example (MAT pattern):** Find the compound interest on ₹6,000 at 10% p.a. for 1.5 years, compounded half-yearly.
 
 Since compounding is half-yearly: Time = 3 periods, Rate = 5% per half-year:
 $$A = 6000 \times \left(1 + \frac{5}{100}\right)^3 = 6000 \times (1.05)^3 = 6000 \times 1.157625 = ₹6,945.75$$

@@ -159,7 +159,7 @@ R(θ) = [[cos θ, −sin θ], [sin θ, cos θ]] — orthogonal, det = +1
 |---|---|
 | Questions | 75 in Paper 1 (25 per subject); Paper 2A/2B for B.Arch/B.Plan |
 | Time | 3 hours |
-| Marks | 300 (90 per subject) |
+| Marks | 300 (100 per subject) |
 | Section | Physics (25), Chemistry (25), Mathematics (25) |
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |

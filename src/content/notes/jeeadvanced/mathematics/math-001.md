@@ -119,7 +119,7 @@ Consider $* : \mathbb{Z} \times \mathbb{Z} \to \mathbb{Z}$ defined by $a * b = a
 - **Identity:** $a * e = a + e - 1 = a \Rightarrow e = 1$.
 - **Inverse:** $a * a^{-1} = 1 \Rightarrow a + a^{-1} - 1 = 1 \Rightarrow a^{-1} = 2 - a$.
 
-**JEE Advanced Worked Example (2019 pattern):** If $f: \mathbb{R} \to \mathbb{R}$ is defined by $f(x) = \frac{x}{1 + |x|}$. Determine whether $f$ is injective or surjective.
+**JEE Advanced Worked Example:** If $f: \mathbb{R} \to \mathbb{R}$ is defined by $f(x) = \frac{x}{1 + |x|}$. Determine whether $f$ is injective or surjective.
 
 Solution: For injectivity: if $f(x_1) = f(x_2)$, then $\frac{x_1}{1+|x_1|} = \frac{x_2}{1+|x_2|}$. For $x_1, x_2 \geq 0$: $\frac{x_1}{1+x_1} = \frac{x_2}{1+x_2} \Rightarrow x_1(1+x_2) = x_2(1+x_1) \Rightarrow x_1 + x_1x_2 = x_2 + x_1x_2 \Rightarrow x_1 = x_2$. For $x_1, x_2 < 0$: similar. For $x_1 \geq 0, x_2 < 0$: $f(x_1) \geq 0$, $f(x_2) < 0$, so equality forces $f(x_1) = f(x_2) = 0$ which requires $x_1 = 0 = x_2$. Hence $f$ is injective. For surjectivity: range of $f$ is $(-1, 1)$, so not surjective onto $\mathbb{R}$.
 

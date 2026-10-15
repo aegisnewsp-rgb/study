@@ -155,19 +155,6 @@ JAMB questions frequently test: (1) Pythagoras' theorem applications, (2) Angle 
 | Score | 400 max (used for university admission) |
 | Registration | January – February each year |
 
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
-
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
 ### 🔗 Official Resources
 - [JAMB Official](https://www.jamb.gov.ng/)
 - [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)

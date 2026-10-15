@@ -103,20 +103,6 @@ The **Zeroth Law** establishes temperature as a fundamental property enabling th
 | Sessions | January + April per year; best score considered |
 | **Topic Weightage** | **~6%** (based on 2023–2025 paper analysis) |
 
-### 🎯 High-Yield Topics for JEE Main
-- Coordination Compounds — 8 marks
-- Organic Reactions & Mechanisms — 12 marks
-- Electrochemistry + Kinetics — 12 marks
-- Determinants & Matrices — 10 marks
-- Integration (Definite + Indefinite) — 15 marks
-- Electrodynamics (Capacitance + Current) — 12 marks
-
-### 💡 Pro Tips
-- Mathematics is the highest-scoring subject for students who master it — target 100+ in Math
-- In Physics, Alternating Current and EM Waves are easiest to score — rarely out of syllabus
-- Organic Chemistry: questions on name reactions (Kolbe electrolysis, Hofmann, etc.) appear every year
-- Coordinate Geometry: 60% of JEE Main geometry questions come from Circle + Parabola + Ellipse
-
 ### 🔗 Official Resources
 - [NTA JEE Main](https://jeemain.nta.nic.in/)
 - [JEE Main Syllabus](https://www.nta.ac.in/JEEMAIN)

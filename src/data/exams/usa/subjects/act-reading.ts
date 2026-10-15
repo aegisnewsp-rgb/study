@@ -1,6 +1,6 @@
 // ACT — Reading Section.
 // Awarding body: ACT, Inc.
-// 40 questions, 35 minutes assessing reading comprehension across prose fiction, social science, humanities, and natural science.
+// 36 questions, 40 minutes assessing reading comprehension across prose fiction, social science, humanities, and natural science.
 // Official source: https://www.act.org/content/act/en/products-and-services/the-act.html
 
 import type { Subject } from '../../types';

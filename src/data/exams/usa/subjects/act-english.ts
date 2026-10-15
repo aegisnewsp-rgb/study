@@ -1,6 +1,6 @@
 // ACT — English Section.
 // Awarding body: ACT, Inc.
-// 75 questions, 45 minutes assessing production of writing, language knowledge, and standard conventions.
+// 50 questions, 35 minutes assessing production of writing, language knowledge, and standard conventions.
 // Official source: https://www.act.org/content/act/en/products-and-services/the-act.html
 
 import type { Subject } from '../../types';

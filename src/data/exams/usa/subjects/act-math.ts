@@ -1,6 +1,6 @@
 // ACT — Mathematics Section.
 // Awarding body: ACT, Inc.
-// 60 questions, 60 minutes assessing higher math, essential skills, and mathematical modeling.
+// 45 questions, 50 minutes assessing higher math, essential skills, and mathematical modeling.
 // Official source: https://www.act.org/content/act/en/products-and-services/the-act.html
 
 import type { Subject } from '../../types';

@@ -1,8 +1,8 @@
 // SAT Reading and Writing — College Board digital SAT (Qatar).
 // Awarding body: College Board. Topics are the four published "content
 // domains" of the digital SAT Reading and Writing section plus the
-// cross-test skills. Two modules of 32 questions (operational + pretest),
-// 32 minutes per module, 64 minutes total. In Qatar the test is administered
+// cross-test skills. Two modules of 27 questions each (25 operational +
+// 2 pretest), 32 minutes per module, 64 minutes total. In Qatar the test is administered
 // by the British Council at its Doha test centre as part of the College
 // Board international test centre network, and at approved international
 // school test sites in Doha. Source: The Digital SAT Suite of Assessments

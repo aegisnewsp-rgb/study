@@ -1,6 +1,6 @@
 // ACT — Science Section.
 // Awarding body: ACT, Inc.
-// 40 questions, 35 minutes assessing scientific analysis, data representation, research summaries, and conflicting viewpoints.
+// Optional section, 40 questions, 40 minutes, assessing scientific analysis, data representation, research summaries, and conflicting viewpoints.
 // Official source: https://www.act.org/content/act/en/products-and-services/the-act.html
 
 import type { Subject } from '../../types';

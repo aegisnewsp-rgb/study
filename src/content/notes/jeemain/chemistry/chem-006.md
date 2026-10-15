@@ -100,6 +100,7 @@ The **Zeroth Law** establishes temperature as a fundamental property enabling th
 | Type | MCQ + Numerical Value (NAT) |
 | Time | 3 hours |
 | Marking | Section A MCQ and Section B NAT both: +4 correct, −1 wrong, 0 unanswered (Information Bulletin 2026, Multiple Choice Questions and Numerical Value Questions) |
+| Section B rule | 5 numerical-value questions per subject, all must be attempted - they cannot be left blank (NTA Advisory and Instructions, JEE (Main) 2026 Session 1) |
 | Sessions | January + April per year; best score considered |
 | **Topic Weightage** | **~6%** (based on 2023–2025 paper analysis) |
 

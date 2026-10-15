@@ -34,8 +34,8 @@ const quant: Subject = {
 const awa: Subject = {
   id: 'awa', name: 'Analytical Writing', color: '#f59e0b',
   topics: [
-    { id: 'aw-001', name: 'Issue Essay', weight: 5 },
-    { id: 'aw-002', name: 'Argument Essay', weight: 5 },
+    { id: 'aw-001', name: 'Analyze an Issue Task', weight: 5 },
+    { id: 'aw-002', name: 'Evidence and Reasoning', weight: 4 },
     { id: 'aw-003', name: 'Structuring Arguments', weight: 4 },
     { id: 'aw-004', name: 'Evidence Integration', weight: 4 },
   ]
@@ -75,9 +75,9 @@ const rescueMode: RescueTemplate = {
   focusAreas: [
     { subject: 'Verbal Reasoning', topics: ['Reading Comprehension', 'Text Completion', 'Vocabulary Building', 'Critical Reasoning'] },
     { subject: 'Quantitative Reasoning', topics: ['Arithmetic', 'Algebra', 'Data Interpretation', 'Word Problems'] },
-    { subject: 'Analytical Writing', topics: ['Issue Essay', 'Argument Essay'] },
+    { subject: 'Analytical Writing', topics: ['Analyze an Issue Task', 'Evidence and Reasoning'] },
   ],
-  strategy: 'Focus equally on Verbal and Quant — both scored out of 170. Practice one Issue and one Argument essay. Review common algebra and arithmetic shortcuts.',
+  strategy: 'Focus equally on Verbal and Quant — both scored out of 170. The exam has a single "Analyze an Issue" task, so practise that one task repeatedly rather than splitting time between two essays. Review common algebra and arithmetic shortcuts.',
 };
 
 const exam: ExamTemplate = {
@@ -85,7 +85,7 @@ const exam: ExamTemplate = {
   examName: 'GRE',
   country: 'india',
   description: 'The Graduate Record Examination is a standardised test widely required for graduate and business school admissions in the US, Canada, Europe, and other countries. Accepted by thousands of universities worldwide.',
-  examPattern: 'Two scored Verbal sections (27 questions each) and two scored Quant sections (27 questions each), plus one unmarked experimental section. Analytical Writing: 2 essays (Issue and Argument), 30 minutes each. Scores: Verbal and Quant on a 130-170 scale.',
+  examPattern: 'Since the September 2023 shortening (https://www.ets.org/gre), the GRE is just under 2 hours: two Verbal sections of 12 and 15 questions (18 + 23 minutes) and two Quant sections of 12 and 15 questions (21 + 26 minutes), plus a single 30-minute "Analyze an Issue" task. There is no unscored section and no scheduled break. Scores: Verbal and Quant on a 130-170 scale.',
   eligibility: "No official eligibility criteria. Most Indian and international students with a bachelor's degree take the GRE. Test is computer-delivered year-round at ETS-authorised test centres.",
   subjects,
   durations,
@@ -94,6 +94,7 @@ const exam: ExamTemplate = {
     'GRE preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ets.org/gre for the current cycle — rules change by year and country (exams).',
   commonMistakes: [
     'Using outdated GRE pattern or syllabus PDFs instead of the live official notice.',
+    'Still practising an "Analyze an Argument" essay — that task was removed when the exam was shortened in 2023.',
     'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
     'Ignoring high-weight sections while over-studying low-yield topics.',
     'No written error log — repeating the same mistake types across mocks.',

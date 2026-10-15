@@ -16,7 +16,7 @@ const exam: ExamTemplate = {
   examName: 'GMAT',
   country: 'ghana',
   description: 'Graduate Management Admission Test (GMAT) — the global entrance exam for MBA and Master\'s in Finance programmes worldwide, including Ghana\'s top business schools. The GMAT is a computer-adaptive test (CAT) developed by the Graduate Management Admission Council (GMAC). While not a Ghana-specific exam, it is used by Ghanaian business schools including the University of Ghana Business School, Ghana Institute of Management and Public Administration (GIMPA), and other institutions offering MBA and postgraduate management programmes.',
-  examPattern: 'Analytical Writing Assessment (30min), Integrated Reasoning (30min), Quantitative (62min), Verbal (65min). Adaptive format, scored 200-800. The AWA requires writing an essay analyzing an argument. Integrated Reasoning tests data interpretation from multiple sources. Quantitative covers problem solving and data sufficiency. Verbal covers reading comprehension, critical reasoning, and sentence correction. The test is taken on a computer at an authorized testing center (e.g., Ghanaian test centers in Accra).',
+  examPattern: 'GMAT Focus, current since February 2024 (https://www.gmac.com): three sections, 64 questions, 2 hours 15 minutes total — Quantitative Reasoning 21 questions in 45 minutes, Verbal Reasoning 23 questions in 45 minutes, and Data Insights 20 questions in 45 minutes. There is no separate writing task on the current exam. Total score 205-805, with the three sections weighted equally. The older GMAT exam had five sections including Analytical Writing and Integrated Reasoning; that version is retired. Taken on a computer at an authorized testing centre (including centres in Accra).',
   eligibility: 'Any undergraduate degree. No minimum score requirement but top programmes typically require 600+. The GMAT has no eligibility criteria in terms of education background — anyone can take it. However, a score of 600+ is generally needed for admission to top MBA programmes. The GMAT score is valid for 5 years. Candidates may take the exam multiple times, but there is a 16-day waiting period between attempts.',
   subjects,
     durations: {
@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Doing only favourite GMAT chapters leaves the clock as the real examiner.',
     'Some GMAT programmes add extra subject prerequisites after you pay — check https://www.gmac.com.',
     'Nobody on this site can guarantee a GMAT rank, percentile, or admission.',
-    'The published GMAT shape in our files is: Analytical Writing Assessment (30min), Integrated Reasoning (30min), Quantitative (62min), Verbal (65min)… If https://www.gmac.com differs, follow https://www.gmac.com.'
+    'The published GMAT shape in our files is: GMAT Focus — Quantitative 21 questions / 45 min, Verbal 23 questions / 45 min, Data Insights 20 questions / 45 min, 64 questions in 2h15m, no separate writing task, scored 205-805… If https://www.gmac.com differs, follow https://www.gmac.com.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.gmac.com',

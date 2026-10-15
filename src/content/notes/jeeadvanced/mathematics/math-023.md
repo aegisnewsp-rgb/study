@@ -151,12 +151,12 @@ Check that the centre satisfies both: $2(-1) + 0 + 2 = 0$ ✓ and $(-1) + 2(0) +
 
 **Asymptotes:** $2x + y + 2 = 0$ and $x + 2y + 1 = 0$.
 
-**JEE Advanced Patterns (2018–2024):**
-- Parametric form $(a\sec\theta, b\tan\theta)$ is essential for hyperbola problems
-- Rectangular hyperbola $xy = c^2$ and its properties are frequently tested
-- Asymptotes appear in combined conic problems
-- Equation transformation (rotation to get rectangular form) is an advanced topic that appears
-- Director circle and conjugate hyperbola are less common but appear in tough sets
+**What to Practise in This Topic:**
+- Parametric form $(a\sec\theta, b\tan\theta)$ — reach for it when the second-degree terms dominate, and remember $\sec^2\theta - \tan^2\theta = 1$ retires the parameter far faster than algebraically eliminating $x$ and $y$
+- Rectangular hyperbola $xy = c^2$ — its asymptotes are the coordinate axes, and any chord of slope $m$ has its midpoint on $y = -mx$, so midpoint questions collapse to a single line
+- Asymptotes inside a combined conic problem — discard the highest-degree terms of the quadratic part alone to get them; throwing away the rest of the equation changes the answer
+- Rotation to rectangular form — compare the coefficients of $x^2$ and $y^2$ first, because if they are already equal the axes are perpendicular and the rotation you were about to do is unnecessary
+- Director circle and conjugate hyperbola — the director circle depends on $b^2 - a^2$ from the standard form, and the conjugate flips the sign of the $x^2$ term; hold both when a problem states that a point lies on one of them
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 

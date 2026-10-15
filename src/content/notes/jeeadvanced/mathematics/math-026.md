@@ -150,12 +150,12 @@ Enumerate unordered pairs $1 \leq m \leq n$ with product $q = mn \leq 10$ and su
 
 Each valid $(m,n)$ yields a distinct $(p,q)$, giving **14 ordered pairs** $(p,q)$.
 
-**JEE Advanced Patterns (2018–2024):**
-- Transformation of roots (reciprocals, squares) is a recurring theme.
-- Conditions for one root to be greater than or less than a given number.
-- Common-root problems appear in mixed-difficulty sets.
-- Location of roots — between two values, or in a named quadrant
-- Maxima–minima with quadratic constraints is trending upward.
+**What to Practise in This Topic:**
+- Transformation of roots — for reciprocals substitute $1/x$ and read the coefficients off the reversed polynomial; for squares get $\alpha^2 + \beta^2$ from the sum and product of roots instead of expanding a square
+- One root above or below a given number — check $f(k)$ against the discriminant before touching the roots, since the sign of $f(k)$ already settles which side both of them fall on
+- Common-root problems — subtract the two equations to cancel the shared factor, then substitute that value back into either quadratic rather than dividing out a higher-degree factor
+- Location of roots — for "between $a$ and $b$" read the signs of $f(a)$, $f(b)$ and the discriminant together; for a named quadrant read off the signs of the root sum and the root product
+- Maxima and minima under a quadratic constraint — eliminate one variable using the constraint, differentiate what is left once, and then check the endpoints of the interval you ended up with
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 

@@ -110,12 +110,12 @@ Actually let's find where the normals from $P$ actually hit the parabola: normal
 
 The locus approach for the midpoint of chord whose normals intersect at $P$ gives the required locus.
 
-**JEE Advanced Patterns (2018–2024):**
-- Combined conics (parabola + circle/line) are extremely common — about 2–3 questions per paper
-- Condition-based problems (tangents from a point, chord of contact) appear frequently
-- Parametric approach is often the fastest method for complex problems
-- Questions involving the focal property and reflection are trending upward
-- "Three normals from a point to a parabola" is a classic problem type
+**What to Practise in This Topic:**
+- Parabola combined with a circle or a line — eliminate the parameter first so both conics meet on one curve, then take the discriminant of the quadratic in $x$ that results, which counts the common points for you
+- Tangents from a point and the chord of contact — write the point in parametric form $(at^2, 2at)$; the chord of contact satisfies $T=0$, so the quadratic in $t$ yields both points of contact directly
+- Parametric method for a long algebraic setup — parametrise before you plan the attack, since a point on $y^2=4ax$ is $(at^2, 2at)$ and feeding that into the second condition usually beats eliminating $y$
+- Focal property and reflection of a ray — the tangent at a point bisects the angle between the focal radius and the line parallel to the axis, which is the whole basis of the reflection questions
+- Three normals from a point to a parabola — equate the cubic in the parameter to the given point and solve for three roots, then check which of them is a real foot of the perpendicular on the curve
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 

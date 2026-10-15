@@ -154,12 +154,12 @@ Squaring once more,
 $$16u^2(1 - 5u + 4u^2) = \Big(8u^2 - 5u + \tfrac{3}{4}\Big)^2,$$
 which reduces to a polynomial equation in $u$. Solving it and discarding roots that violate $u \in [0, 1/4]$ (and that fail to keep the original inverse-sine sum within its principal range) yields the admissible value of $x$ in the interval $0 < x \le 1/2$. Always back-substitute the candidate root into the original equation, since squaring can introduce extraneous solutions.
 
-**JEE Advanced Patterns (2018–2024):**
-- Inverse trigonometric equations and identities are very common
-- Sum-to-product and product-to-sum transformations are frequent
-- Multiple-angle trigonometric equations — reduce everything to a single angle first
-- Maximum/minimum of trigonometric expressions using AM-GM or Cauchy
-- Conditional trigonometric identities (like the $A+B+C=\pi$ type) are common
+**What to Practise in This Topic:**
+- Inverse trigonometric equations — set both sides equal to $x$ and work with the quadratic in $\tan x$ or $\sin x$ that falls out, rather than splitting an arctangent by hand and losing branches
+- Sum-to-product and product-to-sum — rewrite the expression as one sine or cosine of a half-sum before you differentiate or integrate it, because the transformed form usually collapses to something trivial
+- Multiple-angle trigonometric equations — reduce everything to a single angle first, then count roots over the interval the question actually asks about instead of over one full period
+- Maximum and minimum of trigonometric expressions — reach for AM-GM or Cauchy only after the expression sits in a single trigonometric function, since neither inequality applies to a bare sum of sines
+- Conditional identities when $A+B+C=\pi$ — convert the third angle into the other two and substitute at once, so every term is written in the two variables you actually control
 
 **Check the record yourself:** JEE (Advanced) publishes every past paper free of charge — Paper 1 and Paper 2 for each year from 2007 onward — at [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html). Download the mathematics papers for the years you are revising and read the actual questions. A year-specific claim is worth trusting only when you have the paper in front of you; we would rather point you at the source than assert a year we cannot cite.
 

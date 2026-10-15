@@ -212,18 +212,17 @@ PTFE (Teflon) has an exceptionally low friction coefficient due to CF₂ groups 
 **Melamine-Formaldehyde Resin:**
 Melamine (C₃N₆H₆) has three —NH₂ groups. Reaction with formaldehyde at pH 8.5–10 forms methylolmelamine intermediates, which condense to form a cross-linked thermosetting resin. It is fire-resistant (does not melt, forms carbonaceous char), scratch-resistant, and used in kitchenware (Melamine brand). The resin contains —N(CH₂OH)— bridges between melamine rings.
 
-**Previous Year JEE Advanced Patterns:**
+**What the Official Record Shows — and How to Check It:**
 
-| Year | Topic Tested |
-|------|-------------|
-| 2023 | Nylon-6,6 synthesis, condensation polymer |
-| 2022 | Polyethylene degree of polymerisation |
-| 2021 | Vulcanisation mechanism, natural rubber |
-| 2020 | Copolymerisation, reactivity ratios |
-| 2019 | Molecular mass by osmotic pressure |
-| 2018 | PTFE structure, Teflon polymerisation |
-| 2017 | Bakelite formation, cross-linking |
-| 2016 | Cellulose vs starch, glycosidic linkages |
+JEE Advanced publishes no topic-wise index, so no official document states which polymer concept appeared in which year. A year-by-year table is somebody's recollection until you have opened that year's paper yourself. The previous-years' papers are free on the official site, [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html), with Paper 1 and Paper 2 for each year, so the check costs one page of reading.
+
+Do it this way: open a year, read the Chemistry section, and write the year and the concept in your own words. A record you read yourself is worth more than a table you inherited from a coaching module.
+
+Concepts worth preparing whichever paper a given year chose:
+- Addition versus condensation polymerisation, and how the monomer structure tells you which one applies
+- Degree of polymerisation from conversion, Xₙ = 1/(1 − p)
+- Molar mass by osmometry, and PDI = M_w / M_n as a homogeneity test
+- Named polymers asked as recognition items: Bakelite, PTFE, Nylon-6,6, vulcanised rubber
 
 **Numerical Problem Examples:**
 

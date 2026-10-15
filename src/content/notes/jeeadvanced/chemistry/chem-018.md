@@ -118,12 +118,14 @@ A: Due to lanthanide contraction, Zr (Z = 40) and Hf (Z = 72) have nearly identi
 - Uranium and thorium in nuclear reactors
 - Cerium(IV) sulphate as an oxidising agent in redox titrations
 
-**Previous Year JEE Advanced Patterns:**
-Topics that appear repeatedly in JEE Advanced (2015–2024):
-1. Lanthanide contraction: consequences on second/third transition series (~2 questions per 3 years)
-2. Ion exchange separation: procedure and principle (~1 question per 2 years)
-3. Actinide oxidation states: especially uranium chemistry (~1 question per 3 years)
-4. Magnetic moments: calculation of unpaired electrons and μ values (~1 question per 4 years)
+**What the Official Record Shows — and How to Check It:**
+JEE Advanced publishes no topic-frequency table, so how often a concept has been asked cannot be quoted from an official source. Counts such as "about two questions in three years" are editorial estimates from coaching material, not published data. If you need a real year-wise picture, open the previous papers yourself on the free official archive, [jeeadv.ac.in/archive.html](https://jeeadv.ac.in/archive.html), and count.
+
+Prepare these f-block ideas, which form the standard examinable core regardless of year:
+1. Lanthanide contraction, and its consequences for the second and third transition series
+2. Ion-exchange separation of lanthanides — procedure and underlying principle
+3. Actinide oxidation states, with uranium chemistry as the usual case study
+4. Magnetic moments from unpaired-electron counts, compared against the observed value
 
 Numerical problems often involve calculation of magnetic moment: for Gd³⁺ (4f⁷), n = 7, μ = √[7×9] = √63 = 7.94 BM, which matches the experimental value of 7.9–8.0 BM.
 

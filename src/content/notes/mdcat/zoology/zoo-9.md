@@ -112,7 +112,7 @@ $$\text{External Environment} \xrightarrow{\text{Organ systems}} \text{Internal 
 - Type 2: Insulin resistance → insulin present but cells unresponsive
 - Gestational: During pregnancy, insulin resistance
 
-⚡ **MDCAT PYQ (2019)**: "The thermostat of the human body is located in the: (a) Cerebrum (b) Hypothalamus (c) Cerebellum (d) Medulla oblongata" → Answer: (b) Hypothalamus
+⚡ **MDCAT PYQ**: "The thermostat of the human body is located in the: (a) Cerebrum (b) Hypothalamus (c) Cerebellum (d) Medulla oblongata" → Answer: (b) Hypothalamus
 
 #### Kidney as Homeostatic Organ
 
@@ -210,9 +210,9 @@ Maximum urine concentration (with full ADH): up to 1200 mOsm/L
 
 ⚡ **MDCAT Strategy**: Homeostasis questions often ask for the INTEGRATION of multiple systems. For example: "How does the kidney respond to dehydration?" — answer involves ADH, RAAS, and renal physiology.
 
-⚡ **MDCAT PYQ (2021)**: "Which part of the brain acts as the thermostat? (a) Thalamus (b) Hypothalamus (c) Medulla (d) Cerebrum" → Answer: (b) Hypothalamus
+⚡ **MDCAT PYQ**: "Which part of the brain acts as the thermostat? (a) Thalamus (b) Hypothalamus (c) Medulla (d) Cerebrum" → Answer: (b) Hypothalamus
 
-⚡ **MDCAT PYQ (2020)**: "Positive feedback is seen in: (a) Body temperature regulation (b) Blood clotting (c) Heart rate regulation (d) Blood pressure regulation" → Answer: (b) Blood clotting
+⚡ **MDCAT PYQ**: "Positive feedback is seen in: (a) Body temperature regulation (b) Blood clotting (c) Heart rate regulation (d) Blood pressure regulation" → Answer: (b) Blood clotting
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

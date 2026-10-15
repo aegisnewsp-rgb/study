@@ -156,7 +156,7 @@ Given two vectors $\vec{a}$ and $\vec{b}$ representing sides of a parallelogram:
 The area of the parallelogram is $|\vec{a} \times \vec{b}|$.
 The area of the triangle with the same edges is $\frac{1}{2}|\vec{a} \times \vec{b}|$.
 
-**NDA Worked Example (2020):**
+**NDA Worked Example:**
 Given $\vec{a} = 2\hat{i} + \hat{j} - \hat{k}$ and $\vec{b} = \hat{i} - \hat{j} + 2\hat{k}$, find the angle between them.
 $$\vec{a} \cdot \vec{b} = 2(1) + 1(-1) + (-1)(2) = 2 - 1 - 2 = -1$$
 $$|\vec{a}| = \sqrt{4+1+1} = \sqrt{6}, \quad |\vec{b}| = \sqrt{1+1+4} = \sqrt{6}$$

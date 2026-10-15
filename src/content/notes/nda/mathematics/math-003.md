@@ -111,7 +111,7 @@ Let $D = \begin{vmatrix} a_1 & b_1 \\ a_2 & b_2 \end{vmatrix}$, $D_x = \begin{vm
 If $D \neq 0$:
 $$x = \frac{D_x}{D}, \quad y = \frac{D_y}{D}$$
 
-**NDA Worked Example (2020):**
+**NDA Worked Example:**
 Solve: $3x + 4y = 11$ and $2x + y = 4$.
 $$D = \begin{vmatrix} 3 & 4 \\ 2 & 1 \end{vmatrix} = 3(1) - 4(2) = 3 - 8 = -5$$
 $$D_x = \begin{vmatrix} 11 & 4 \\ 4 & 1 \end{vmatrix} = 11(1) - 4(4) = 11 - 16 = -5$$

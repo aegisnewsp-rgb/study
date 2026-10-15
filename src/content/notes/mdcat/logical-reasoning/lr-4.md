@@ -97,7 +97,7 @@ O(15)→L(12): 27−15=12 ✓
 D(4)→W(23): 27−4=23 ✓
 E(5)→V(22): 27−5=22 ✓
 
-⚡ **MDCAT PYQ (2018)**: "In a certain code, BUILD is written as YFROW. How is HOUSE written?"
+⚡ **MDCAT PYQ**: "In a certain code, BUILD is written as YFROW. How is HOUSE written?"
 Solution: B(2)→Y(25): 27−2=25 ✓. U(21)→F(6): 27−21=6 ✓. I(9)→R(18): 27−9=18 ✓. L(12)→O(15): 27−12=15 ✓. D(4)→W(23): 27−4=23 ✓. The rule is confirmed bilateral.
 Apply to HOUSE: H(8)→27−8=19=S, O(15)→27−15=12=L, U(21)→27−21=6=F, S(19)→27−19=8=H, E(5)→27−5=22=V → **SLFHV**.
 
@@ -234,10 +234,10 @@ If "Either P is Q or R is S" — at least one must be true, possibly both. In MD
 **Converse Relationships**:
 If P > Q, then Q < P (converse: reverse the inequality).
 
-⚡ **MDCAT PYQ (2019)**: "If in a code, A @ B means A is sister of B, A # B means A is brother of B, A % B means A is mother of B, which shows 'P is grandmother of Q'?"
+⚡ **MDCAT PYQ**: "If in a code, A @ B means A is sister of B, A # B means A is brother of B, A % B means A is mother of B, which shows 'P is grandmother of Q'?"
 Answer: **P % R @ Q** (P is mother of R, R is sister of Q → R and Q share parents, so P is the grandmother of Q).
 
-⚡ **MDCAT PYQ (2020)**: "If P × Q means P is father of Q, P ÷ Q means P is mother of Q, P − Q means P is brother of Q, who is the uncle of R?"
+⚡ **MDCAT PYQ**: "If P × Q means P is father of Q, P ÷ Q means P is mother of Q, P − Q means P is brother of Q, who is the uncle of R?"
 Answer: The uncle relation requires P to be the brother of R's parent. The expression **Q × R − P** reads: Q is father of R, and R is brother of P — which does not give an uncle. The correct relation is **P − S × R**: P is brother of S, and S is father of R, so P is the brother of R's father, i.e., **P is the uncle of R**. The key is that an uncle is the sibling of a parent, so the chain must link the candidate to a parent via a brother/sister symbol and that parent to the child via a father/mother symbol.
 
 ⚡ **MDCAT Strategy**: Draw a family tree diagram. Use standard symbols: → for father/mother, = for spouse, ∥ for siblings.

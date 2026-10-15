@@ -85,7 +85,7 @@ $$(A^T)^T = A, \quad (kA)^T = kA^T, \quad (AB)^T = B^T A^T$$
 For $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, the determinant is:
 $$|A| = \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$
 
-**NDA Worked Example (2019):**
+**NDA Worked Example:**
 Find the determinant of $A = \begin{pmatrix} 3 & -1 \\ 2 & 4 \end{pmatrix}$.
 $$|A| = (3)(4) - (-1)(2) = 12 + 2 = 14$$
 

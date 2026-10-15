@@ -142,7 +142,7 @@ const exam: ExamTemplate = {
   examName: 'JAMB UTME',
   country: 'nigeria',
   description: 'JAMB UTME is Nigeria\'s unified tertiary matriculation exam, mandatory for university admission. Covers English and three subject combinations based on candidate\'s intended course.',
-  examPattern: '180 MCQs, 2 hours (120 minutes), 400 marks total. Computer-Based Test (CBT) covering Use of English (60 questions including comprehension, lexis, structure, and prescribed literary text) plus three subject combinations (40 questions each = 120 questions). No negative marking applies.',
+  examPattern: 'Per JAMB: 180 MCQs, 2 hours (120 minutes), 400 marks total. Computer-Based Test (CBT) covering Use of English (60 questions including comprehension, lexis, structure, and prescribed literary text) plus three subject combinations (40 questions each = 120 questions). No negative marking applies.',
   eligibility: 'UTME: Class 12 graduate or final-year student, age 16+. Direct Entry: ND/NCE/A-Level or equivalent, minimum 5 credits in WASSCE or NECO including English and Mathematics.',
   subjects,
   durations,

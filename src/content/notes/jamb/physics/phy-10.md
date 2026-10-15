@@ -105,7 +105,7 @@ If dielectrics fill successive layers (stacked): treat as two capacitors in seri
 Charge accumulates on the dome. Maximum field at the surface $E = V/r$. Breakdown occurs at $E ≈ 3 × 10^6$ V/m. For a dome of $r = 1$ m: $V_{max} ≈ 3 × 10^6$ V. Practically, much lower due to air humidity and sharp points.
 
 **JAMB Pattern Analysis:**
-JAMB questions frequently test: (1) Coulomb's law calculations, (2) Electric potential from point charges, (3) Capacitor combinations and energy, (4) Gauss's law for spherical shells and infinite planes, (5) Relationship between $E$ and $V$. Common mistakes: forgetting that $E$ is a vector and $V$ is a scalar. JAMB 2023: "Two charges of $+2 \mu C$ and $-3 \mu C$ are 0.1 m apart. Find the force between them." Answer: $F = 9×10^9 × (2×10^{-6} × 3×10^{-6})/(0.1)^2 = 9×10^9 × 6×10^{-12}/0.01 = 9×6×10^{-4}/10^{-2} = 54×10^{-2} = 0.54$ N (attractive).
+JAMB questions frequently test: (1) Coulomb's law calculations, (2) Electric potential from point charges, (3) Capacitor combinations and energy, (4) Gauss's law for spherical shells and infinite planes, (5) Relationship between $E$ and $V$. Common mistakes: forgetting that $E$ is a vector and $V$ is a scalar. JAMB 2023: "Two charges of $+2 \mu C$ and $-3 \mu C$ are 0.1 m apart. Find the force between them." Answer: $F = 9×10^9 × (2×10^{-6} × 3×10^{-6})/(0.1)^2 = 9×10^9 × 6×10^{-12}/0.01 = 9×6×10^{-3}/10^{-2} = 54×10^{-1} = 5.4$ N (attractive).
 
 ---
 

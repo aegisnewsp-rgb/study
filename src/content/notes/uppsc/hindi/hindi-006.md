@@ -61,7 +61,7 @@ Vilom is not a synonym for "any word starting with the negation prefix *अ/अ�
 
 #### 🎯 Exam-Level Worked Problem
 
-**Question (UPPSC RO/ARO 2019 style):** "अग्र" का विलोम है —
+**Question (UPPSC RO/ARO style):** "अग्र" का विलोम है —
 (A) मध्य  (B) पश्च  (C) अंत  (D) उपरि
 
 #### Step-by-step resolution:

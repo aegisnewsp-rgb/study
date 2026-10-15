@@ -32,7 +32,7 @@ This topic covers Elective Topic IX of the HKDSE Physics Elective Part. Candidat
 - **The human ear**: outer ear (pinna, ear canal), middle ear (eardrum, ossicles — malleus, incus, stapes), inner ear (cochlea, semicircular canals). The cochlea converts sound waves into nerve impulses via hair cells.
 - **Hearing aids**: amplify sound; placed in or behind the ear.
 - **Ultrasound**: sound waves with frequency > 20 kHz. Used in medical imaging (sonography). Frequency ~1-15 MHz. The probe emits pulses and detects echoes from tissue interfaces.
-- **Magnetic Resonance Imaging (MRI)**: uses strong magnetic fields and radio-frequency pulses to to image hydrogen nuclei (protons) in tissue. Excellent soft-tissue contrast; no ionising radiation.
+- **Magnetic Resonance Imaging (MRI)**: uses strong magnetic fields and radio-frequency pulses to image hydrogen nuclei (protons) in tissue. Excellent soft-tissue contrast; no ionising radiation.
 - **X-rays**: produced by accelerating electrons onto a metal target (typically tungsten). The bremsstrahlung and characteristic X-rays are used for imaging. Dense tissue (bone) absorbs more X-rays and appears white on the image.
 - **CT (Computed Tomography)**: X-ray imaging from multiple angles, reconstructed by computer into 3D images. Higher dose than a single X-ray image but more diagnostic information.
 - **PET (Positron Emission Tomography)**: a radioactive tracer (typically FDG, ¹⁸F-fluorodeoxyglucose) emits positrons; the positron-electron annihilation produces two 511 keV gamma photons detected in coincidence. PET shows metabolic activity.
@@ -95,7 +95,7 @@ This topic covers Elective Topic IX of the HKDSE Physics Elective Part. Candidat
 
 #### PET
 
-**Principle**: a positron-emitting radionuclide (e.g. ¹⁸F, ¹¹C, ¹⁵O, ¹³N) is attached to a biological molecule (e.g. FDG, a glucose analogue). The tracer is injected into the the patient. The emitted positron annihilates with a nearby electron, producing two 511 keV gamma photons at ~180° apart. The coincidence detection identifies the annihilation point.
+**Principle**: a positron-emitting radionuclide (e.g. ¹⁸F, ¹¹C, ¹⁵O, ¹³N) is attached to a biological molecule (e.g. FDG, a glucose analogue). The tracer is injected into the patient. The emitted positron annihilates with a nearby electron, producing two 511 keV gamma photons at ~180° apart. The coincidence detection identifies the annihilation point.
 
 **Applications**: oncology ( (FDG uptake is high in metabolically active tumours), neurology (brain metabolism), cardiology.
 

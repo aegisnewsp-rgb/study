@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Problem Solving with Heuristics is the cross-strand topic that runs through every PSLE Mathematics paper. The MOE Primary Mathematics syllabus names a specific set of ten heuristics — draw a model, make a list, look for pattern, work backwards, guess and check, before-after, part-whole, comparison, supposition, and simultaneous-equations form — and the PSLE assessment explicitly tests a student's ability to choose and apply the right heuristic to a non-routine word problem. Heuristic word problems are the heaviest single paper-2 load at Primary 6 and the most reliable source of marks lost to mis-classification.
 
-> Verify the live PSLE Mathematics paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision around the patterns below.
+> Verify the live PSLE Mathematics paper format and any in-year syllabus changes on https://www.seab.gov.sg/psle/ before planning revision around the heuristics below.
 
 ---
 

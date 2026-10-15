@@ -13,11 +13,14 @@ lastUpdated: "2026-10-13"
 
 # Grammar and Usage — Manipal MET (MET)
 
-Manipal MET treats English as a tested skill rather than a literature subject. Grammar and Usage provides the sentence-level foundation for error detection, sentence improvement, cloze choices, comprehension, and the logical connections used in longer passages. A question may look like vocabulary, but the answer can depend on whether a noun is countable, whether a verb follows a modal, or which noun a pronoun refers to.
+Manipal MET treats English as a tested skill rather than a literature subject: the 2026 B.Tech paper sets 10 of its 60 questions in English. Grammar and Usage provides the sentence-level foundation for error detection, sentence improvement, cloze choices, comprehension, and the logical connections used in longer passages. A question may look like vocabulary, but the answer can depend on whether a noun is countable, whether a verb follows a modal, or which noun a pronoun refers to.
 
 Build accuracy from structure: locate the subject and finite verb, check tense and agreement, inspect the relationship between parts of a sentence, and then check punctuation. Work with complete sentences instead of isolated rules, because a form that is acceptable in one context may be wrong in another. Confirm the current syllabus and question presentation on the official MAHE website before applying paper-level advice.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://manipal.edu/ before planning around the figures below.
+> The MET 2026 B.Tech paper runs for 120 minutes, carries 60 questions and 240 marks, and splits into 45 multiple-choice items — Mathematics 15, Physics 10, Chemistry 10 and English 10 — plus 15 numerical-answer items, Mathematics 5, Physics 5 and Chemistry 5. A correct answer is worth 4 everywhere; a wrong multiple choice costs 1, while a wrong numerical answer costs nothing. Ten questions is a sixth of the paper, so English cannot be treated as a leftover subject.
+>
+> The official English portion of the MAHE syllabus is written as four parts: Grammar and Language Use, Vocabulary, Punctuation and Usages, and Reading Comprehension. Everything below is organised to serve those four. Check in-year changes against the MAHE MET 2026 B.Tech syllabus before planning around these figures.
+> Source: MAHE, MET 2026 B.Tech syllabus (updated 2.00PM January 16, 2026).
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

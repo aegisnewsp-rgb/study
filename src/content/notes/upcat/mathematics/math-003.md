@@ -137,7 +137,6 @@ UP publishes no mathematics syllabus, question count or per-subtest weightage fo
 - [UPCAT exam hub](/exams/upcat/) — the four official subtests and the five-hour sitting.
 - [Word Problems and Reasoning](/notes/upcat/mathematics/) — the long items that consume the time this topic saves you.
 - [Statistics and Probability](/notes/upcat/mathematics/) — reading data rather than producing it from a formula.
-- [PCAT](/exams/pcat/) — the separate Philippine entrance test, useful for comparing how differently two bodies structure the same subject.
 
 Everything on this page about UPCAT itself comes from the University of the Philippines Office of Admissions (https://upcat.up.edu.ph/htmls/aboutupcat.html, retrieved 9 October 2026). UP publishes no mathematics syllabus or per-subtest weightage for UPCAT; the weights here are StudyRoadmap's own prioritisation.
 

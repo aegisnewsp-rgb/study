@@ -135,7 +135,7 @@ $$A = 10000 \times 1.10 \times 1.15 \times 1.20 = ₹15,156$$
 
 #### Net Fractional Change Problems
 
-**Example (MAT 2021):** A product's price increases by 20% in January, decreases by 20% in February, and increases by 10% in March. What is the net change from the original price?
+**Example:** A product's price increases by 20% in January, decreases by 20% in February, and increases by 10% in March. What is the net change from the original price?
 
 After January: $P \times 1.20$
 After February: $P \times 1.20 \times 0.80 = P \times 0.96$

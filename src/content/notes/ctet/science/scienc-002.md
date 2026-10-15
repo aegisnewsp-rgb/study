@@ -135,13 +135,6 @@ The 4-4-9 kcal/g rule is a bomb calorimeter average. Real digestion of protein y
 1. A pond water sample shows green organisms that release oxygen bubbles only in sunlight, never in shade. Classify their nutrition mode, name the cell organelle responsible, and explain why the bubbles stop at night.
 2. A factory worker (60 kg, moderate activity) needs a daily energy quota. Calculate his BMR, then apply Activity Factor 1.7 to get DER, and convert the answer to joules using 1 kcal = 4184 J. Discuss how pregnancy or heavy labour would shift the figure.
 
-## Continue Your Study
-
-- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Nutrition in Plants and Animals" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
-- **[All Science notes](/notes/ctet/science/)** — browse sibling topics in this subject
-
 ---
 
 ## Continue your study

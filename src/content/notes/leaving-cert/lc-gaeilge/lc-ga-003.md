@@ -115,7 +115,7 @@ Tá an dá shnáithe nasctha go dlúth. Is minic go n-úsáidtear scileanna scr�
 2. **Gramadach míchruinn**: Botúin ghramadaí arís agus arís eile — aimsirí a mheascadh, an chopail a úsáid go mícheart, urú a fhágáil ar lár. Cleachtadh a dhéanamh go dtí go mbeidh na rialacha seo nádúrtha.
 3. **Foclóir teoranta**: Má tá do chuid foclóirí srianta do théacsleabhar amháin, caillfidh tú marcanna ar stíl agus ar chruinneas. Léigh leabhair Gaeilge agus féach ar chláir Ghaeilge chun do chuid foclóirí a leathnú.
 4. **Easpa athbhreithnithe**: Murar léigh tú do chuid oibre os ard ag deireadh, d'fhéadfá botúin shimplí a fhágáil ann nach mbeadh ort a fhágáil.
-5. **Gan a bheith cruthaitheach**: Mura ndéanann tú iarracht a bheith cruthaitheach, beidh do chuid oibre cosúil le gach aiste eile. Bíodh d'fhianaise agat agat féin.
+5. **Gan a bheith cruthaitheach**: Mura ndéanann tú iarracht a bheith cruthaitheach, beidh do chuid oibre cosúil le gach aiste eile. Bíodh d'fhianaise agat féin.
 
 #### Sceideal cleachtaidh fadtéarmach
 

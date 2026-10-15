@@ -118,7 +118,7 @@ Properties:
 #### Exam technique
 
 - **For periodicity questions**: state the trend and explain it in terms of atomic structure (number of shells, nuclear charge, shielding).
-- **For Group 1/17 questions**: state the trend, give specific reactions with water water (Group 1) or as oxidising agents (Group 17).
+- **For Group 1/17 questions**: state the trend, give specific reactions with water (Group 1) or as oxidising agents (Group 17).
 - **For transition metal questions**: cite specific examples of variable oxidation states, coloured compounds, complex ions, and catalytic activity.
 
 #### Common misconceptions (and the correction)

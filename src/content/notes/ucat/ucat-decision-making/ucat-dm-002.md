@@ -187,7 +187,7 @@ The best-supported conclusion (C) is the one that mirrors the chart exactly. The
 
 ### What to do next
 
-- Drill three three-set Venn problems a day for a week, with the inclusion-exclusion check written down next to the answer.
+- Drill three-set Venn problems a day for a week, with the inclusion-exclusion check written down next to the answer.
 - Take three probability problems from the official UCAT practice tests and identify which of the five rules each one tests before you calculate.
 - For one Decision Making drill this week, write down the type of every wrong answer (Venn, Bayes, causation, scope, direction) and use that to pick the next drill topic.
 - Re-read each Decision Making worked example in this note without looking at the answer, then check. The re-read is what turns the rule into a habit.

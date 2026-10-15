@@ -86,7 +86,7 @@ The series limit corresponds to n = ∞ (the ionisation energy of hydrogen is 13
 
 #### Probing the nano scale
 
-**STM (scanning tunnelling microscope)**: a sharp tip is brought within ~ 1 nm of a conducting surface. A small bias voltage produces a tunnelling current between the tip and the surface, which depends exponentially on the tip-surface distance. Scanning the tip across across the surface produces an atomically resolved image.
+**STM (scanning tunnelling microscope)**: a sharp tip is brought within ~ 1 nm of a conducting surface. A small bias voltage produces a tunnelling current between the tip and the surface, which depends exponentially on the tip-surface distance. Scanning the tip across the surface produces an atomically resolved image.
 
 **AFM (atomic force microscope)**: a sharp tip on a cantilever is scanned across a surface. The force between the tip and the surface (van der Waals, electrostatic) bends the cantilever; the bending is measured with a laser, producing a topographical image. AFM works on insulating surfaces, unlike STM.
 

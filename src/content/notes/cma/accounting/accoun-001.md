@@ -113,7 +113,7 @@ Three to five objective items worth ~3% of marks, mostly application-based. Aver
 3. Recording personal assets of the proprietor inside the balance sheet.
 4. Switching depreciation method in year 3 with no disclosure note.
 5. Mixing Materiality (size-and-nature judgement) with Conservatism (anticipate losses only).
-6. Recording a hire-purchase purchase as an outright sale because the invoice says "Sale".
+6. Recording a hire-purchase as an outright sale because the invoice says "Sale".
 7. Booking a probable gain to "be on the safe side of revenue" — violates Prudence.
 8. Ignoring Prepaid and Outstanding adjustments because they are below a personal threshold.
 9. Using Government fiscal year (1 April to 31 March) as the entity's accounting period without comment.

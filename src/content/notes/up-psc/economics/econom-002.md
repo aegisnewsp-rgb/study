@@ -57,7 +57,7 @@ A standard UPPSC problem supplies two linear equations. Set Qd = Qs and solve fo
 |---|---|---|---|
 | Change in **quantity demanded** | Change in **demand** | Movement *along* the curve from own-price change | Shift of entire curve |
 | Movement along supply curve | Shift of supply curve | Caused by own-price change only | Caused by non-price factors |
-| Price elasticity of demand | Slope of demand curve | Dimensionless ratio; depends on P/Q | Has units units/₹; constant on a linear curve |
+| Price elasticity of demand | Slope of demand curve | Dimensionless ratio; depends on P/Q | Has units/₹; constant on a linear curve |
 | Normal good | Inferior good | Demand rises with income | Demand falls as income rises |
 | Substitute goods | Complementary goods | Cross-elasticity > 0 | Cross-elasticity < 0 |
 | Excess demand (shortage) | Excess supply (surplus) | Qd > Qs at given P → price rises | Qs > Qd at given P → price falls |

@@ -124,7 +124,7 @@ These three are **bundled in 1991** under the Narasimham–Rao–Manmohan reform
 
 - **Indian Economy →** Move next to Planning (Five-Year Plans, NITI Aayog role).
 - **Macro aggregates →** Pairs directly with Money and Banking (RBI, repo rate) and Fiscal Policy (tax–expenditure stance of the Union Budget).
-- **Micro foundations →** Connects to Market Equilibrium, Elasticity Elasticity of Demand, and Cost Curves — these recur in TNPSC Group 1 mains descriptive answers.
+- **Micro foundations →** Connects to Market Equilibrium, Elasticity of Demand, and Cost Curves — these recur in TNPSC Group 1 mains descriptive answers.
 
 #### Two Advanced Practice Prompts
 

@@ -37,7 +37,7 @@ This topic covers Elective Topic VI of the HKDSE Physics Elective Part. Candidat
 - **Stellar classification**: by spectral type (O, B, A, F, G, K, M) and luminosity class (I-V).
 - **Hertzsprung-Russell (H-R) diagram**: plot of luminosity vs. temperature (or spectral type). Most stars are on the main sequence.
 - **Stellar evolution**: nebula → protostar → main sequence → red giant/supergiant → planetary nebula/supernova → white dwarf/neutron star/black hole.
-- **Big Bang theory**: the universe began ~13.8 billion years ago from a hot hot state; the universe is expanding (Hubble's law); evidence includes cosmic microwave background radiation, abundance of light elements, galaxy distribution.
+- **Big Bang theory**: the universe began ~13.8 billion years ago from a hot state; the universe is expanding (Hubble's law); evidence includes cosmic microwave background radiation, abundance of light elements, galaxy distribution.
 
 #### Examiner traps
 
@@ -79,7 +79,7 @@ The equatorial system uses right ascension (RA, measured eastward along the cele
 
 #### Stellar properties
 
-**Luminosity L**: the total energy radiated per per unit time (W). L = 4πR²σT⁴ (Stefan-Boltzmann law).
+**Luminosity L**: the total energy radiated per unit time (W). L = 4πR²σT⁴ (Stefan-Boltzmann law).
 
 **Spectral classification**: by surface temperature. Order: O (hottest, blue, > 30,000 K) > B > A > F > G (Sun, ~5,800 K) > K > M (coolest, red, < 3,500 K). Mnemonic: "Oh Be A Fine Girl/Guy Kiss Me".
 

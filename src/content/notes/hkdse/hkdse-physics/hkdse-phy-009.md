@@ -52,7 +52,7 @@ This topic covers Elective Topic IX of the HKDSE Physics Elective Part. Candidat
 
 **Refraction by the eye**: the cornea provides most of the refractive power (~43 dioptres); the lens provides additional ~19 dioptres at rest (more when accommodating). The lens changes shape to focus on objects at different distances.
 
-**Myopia**: the eyeball is too long or the cornea too curved. Light from distant points points focuses in front of the retina. Correction: diverging lens (negative power) moves to the image back onto the retina.
+**Myopia**: the eyeball is too long or the cornea too curved. Light from distant points focuses in front of the retina. Correction: diverging lens (negative power) moves to the image back onto the retina.
 
 **Hyperopia**: the eyeball is too short or the cornea too flat. Light focuses behind the retina. Correction: converging lens (positive power).
 

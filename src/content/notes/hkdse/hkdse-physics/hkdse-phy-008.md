@@ -94,7 +94,7 @@ This topic covers Elective Topic VIII of the HKDSE Physics Elective Part. Candid
 
 - **Coal**: abundant, cheap, high CO₂ emissions.
 - **Oil**: liquid, easy to transport, moderate CO₂ emissions.
-- **Natural gas**: cleaner than coal or oil (less CO₂ per per unit air pollution, but methane leakage is a concern.
+- **Natural gas**: cleaner than coal or oil (less CO₂ per unit air pollution, but methane leakage is a concern).
 - **Nuclear**: fission of U-235 or Pu-239. Very low CO₂ during operation, but produces long-lived radioactive waste.
 
 #### Energy storage

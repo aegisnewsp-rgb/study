@@ -31,7 +31,7 @@ Is ionann meáchan 5 sa chatalóg agus an gnáth-thionchar a imríonn an snáith
 - **An scrúdú éisteachta**: Cloisfidh tú píosaí gearra agus freagróidh tú ceisteanna. Bíonn cluastéacsanna éagsúla ann (nuacht, agallamh, píosaíocht shóisialta). Is é an cleachtadh a fheabhsaíonn an scil seo.
 - **An fhílocht agus an prós forordaithe**: Foilsíonn an NCCA liosta de shleachta próis agus de dhánta filíochta a mbeidh tú ag déileáil leo ar an bpáipéar Léitheoireachta. Caithfidh tú a bheith ar an eolas faoi na sleachta agus na dánta forordaithe don bhliain áirithe — seiceáil foilseacháin reatha an NCCA.
 - **Straitéis don Léitheoireacht**: Léigh an téacs faoi dhó. Ar an gcéad léamh, faigh an príomhsmaoineamh. Ar an dara léamh, déan iniúchadh ar fhocail nua agus ar an gcomhthéacs. Freagair ceisteanna de réir an téacs a bhfuil tú ag léamh, ní de réir do thuairimí féin.
-- **Straitéis don Scríbhneoireacht**: Tosaigh le plean gearr (3-4 míreanna). Scríobh i nGaeilge shimplí ach chruinn — is fearr abairtí simplí a bhfuil siad ceart ná abairtí casta a bhfuil botúin iontacha iontacha iontu. Seiceáil an gramadach agus an litriú ag an deireadh.
+- **Straitéis don Scríbhneoireacht**: Tosaigh le plean gearr (3-4 míreanna). Scríobh i nGaeilge shimplí ach chruinn — is fearr abairtí simplí a bhfuil siad ceart ná abairtí casta a bhfuil botúin iontacha iontu. Seiceáil an gramadach agus an litriú ag an deireadh.
 - **Cleachtadh cainte**: Cleachtadh labhartha gach lá ar feadh 10-15 nóiméad. Labhair leis féin nó le cairde. Déan taifeadadh agus éisteacht leis. Is é an labhairt rialta a thógann líofacht.
 
 #### Botúin choitianta

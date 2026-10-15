@@ -78,7 +78,7 @@ Civil service examinations test candidate ability to differentiate endocrine pat
 
 **Question 1 (TNPSC Group 1 Prelims):** Which cranial nerve is responsible for the sensory perception of smell?  
 *(A) Cranial Nerve I (Olfactory) (B) Cranial Nerve II (Optic) (C) Cranial Nerve V (Trigeminal) (D) Cranial Nerve VIII (Vestibulocochlear)*  
-**Answer:** (A) Cranial Nerve I (Olfactory) (Explanation: The olfactory nerve is the first cranial nerve, transmitting sensory sensory signals from the nasal olfactory neuroepithelium to the olfactory bulb).
+**Answer:** (A) Cranial Nerve I (Olfactory) (Explanation: The olfactory nerve is the first cranial nerve, transmitting sensory signals from the nasal olfactory neuroepithelium to the olfactory bulb).
 
 **Question 2 (TNPSC Group 1 Prelims):** The hormone calcitonin, which lowers blood calcium levels, is secreted by:  
 *(A) Parathyroid chief cells (B) Thyroid parafollicular C-cells (C) Adrenal cortex (D) Thymus*  

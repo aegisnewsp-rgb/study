@@ -143,13 +143,6 @@ Treat men first: seat 5 men around the round table in (5−1)! = 4! = 24 ways �
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - P&C: 1–2 questions per year, 4–8 marks
 - Common patterns: arrangements with restrictions, distribution of identical/distinct objects, committee formation, inclusion-exclusion

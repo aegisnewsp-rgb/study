@@ -198,13 +198,6 @@ If ε is any n-th root of unity except 1, then 1 + ε + ε² + ... + ε^{n−1} 
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Complex Numbers (Applications): 1 question per year, 4 marks
 - Common patterns: locus problems, rotation, n-th roots geometry

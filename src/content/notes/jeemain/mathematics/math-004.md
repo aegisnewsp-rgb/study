@@ -140,13 +140,6 @@ For independent term: 18 − 3r = 0 → r = 6 → coefficient = C(9, 6) = 84
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Binomial Theorem: 1 question per year, 4 marks
 - Common patterns: greatest term, coefficient of x^r, sum of series, divisibility

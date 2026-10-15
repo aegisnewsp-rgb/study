@@ -159,13 +159,6 @@ Two lines intersect at point solving their equations simultaneously
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Straight Lines: 1 question per year, 4 marks
 - Common patterns: distance point to line, angle between lines, locus, family of lines

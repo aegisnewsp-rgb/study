@@ -129,13 +129,6 @@ Example: If AM of numbers 1, 1+r, 1+r+r² exceeds their GM by 2, then solve (1 +
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Sequences & Series: 1–2 questions per year, 4–8 marks
 - Common patterns: find nth term from sum formula, sum of special series, infinite GP sum, AP+GP combined

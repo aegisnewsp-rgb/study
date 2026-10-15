@@ -164,13 +164,6 @@ For shifted conic (x − h)²/a² + (y − k)²/b² = 1: centre (h, k), axes par
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Conic Sections: 1 question per year, 4 marks
 - Common patterns: find equation, tangent at point, condition of tangency, focus-directrix, parametric form

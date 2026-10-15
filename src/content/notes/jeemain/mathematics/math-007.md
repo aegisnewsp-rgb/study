@@ -164,13 +164,6 @@ R(θ) = [[cos θ, −sin θ], [sin θ, cos θ]] — orthogonal, det = +1
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Matrices & Determinants: 1 question per year, 4 marks
 - Common patterns: inverse of 2×2, solving linear equations, determinant of 3×3, adjoint, eigenvalues

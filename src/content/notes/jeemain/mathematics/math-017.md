@@ -156,13 +156,6 @@ Substitute line into circle, solve quadratic in x; if discriminant = 0 → tange
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Circles: 1–2 questions per year, 4–8 marks
 - Common patterns: find circle equation, tangent at point, length of tangent, common tangents

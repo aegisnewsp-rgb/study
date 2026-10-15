@@ -169,13 +169,6 @@ GM = (x₁·x₂·...·x_n)^{1/n}; less affected by outliers than arithmetic mea
 | Negative | −1 for wrong answer |
 | Mode | Computer-based |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
-
 ### 📝 Previous Year Question Patterns
 - Statistics: 1 question per year, 4 marks
 - Common patterns: calculate mean of grouped data, find mode/median, standard deviation calculation

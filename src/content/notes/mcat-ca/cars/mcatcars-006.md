@@ -48,7 +48,7 @@ This matters because it is the passage type most likely to feel unfamiliar to a 
 
 - **Assuming the passage is testing cultural knowledge.** It is not. The items test comprehension and reasoning.
 - **Reading your own priors into the author's position.** These passages often open by paraphrasing a position they then complicate. Track who is speaking.
-- **Skipping unfamiliar terms instead of reading their gloss.** The author defines what matters. That definition is usually the answer to the item.
+- **Skipping unfamiliar terms instead of reading their gloss.** The author defines what matters. That definition is the answer to the item.
 
 ---
 

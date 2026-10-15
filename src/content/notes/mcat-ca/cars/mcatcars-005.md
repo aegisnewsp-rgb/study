@@ -95,7 +95,7 @@ The MCAT tests psychology and sociology passages for argument evaluation, method
 #### Common errors and the correction
 
 - **"CARS Social Sciences passages need content knowledge."** CARS items can be answered from the passage alone. The content is provided; the test is reasoning.
-- **"Correlation implies causation."** Social Sciences passages often distinguish correlation from causation. Items test this distinction.
+- **"Correlation implies causation."** Social Sciences passages distinguish correlation from causation. Items test this distinction.
 - **"A study's findings are the same as the author's claim."** The author may interpret the findings in a particular way. Items test the interpretation.
 
 #### Exam technique

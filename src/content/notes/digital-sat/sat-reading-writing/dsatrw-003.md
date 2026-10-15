@@ -79,7 +79,7 @@ Cross-text items reward deciding the type of connection before comparing content
 
 - **Relationship naming**: Name the relationship first: reinforces, qualifies, contradicts, or applies a method. The type determines what a valid comparison looks like.
 - **Quoted anchoring**: Quote the specific line from each passage before judging them. Comparing from memory is where cross-text items are lost.
-- **All-or-nothing test**: Reject any option asserting agreement or disagreement on everything. Two authors who agree on a method can still differ sharply in conclusion.
+- **All-or-nothing test**: Reject any option asserting agreement or disagreement on everything. Two authors who agree on a method can still reach opposite final answers.
 
 ## Continue your study
 

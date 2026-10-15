@@ -83,7 +83,7 @@ When analysing a narrative, consider:
 #### Common misconceptions (and the correction)
 
 - "Narratives that shape our world are always literary fiction." No — narratives include essay, memoir, documentary, podcast and other non-fiction.
-- "The composer is always the author." For multimodal narratives the composer may be a team (writer + director + cinematographer).
+- "The composer is always the author." For multimodal narratives the composer be a team (writer + director + cinematographer).
 - "Values are what the narrative is about." Values are what the narrative endorses or challenges. A narrative about war may or may not endorse war.
 
 #### Specification reference

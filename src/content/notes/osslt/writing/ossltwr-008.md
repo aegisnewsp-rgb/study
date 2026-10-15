@@ -24,7 +24,7 @@ The OSSLT selected-response Writing items test editing and revising skills: iden
 #### What selected-response Writing items test
 
 - **Effective sentences.** Identifying the most clear, concise, or grammatically correct sentence from a set of choices.
-- **Word choice.** Identifying the best word for a specific context — usually a precise verb or noun replacing a vague one.
+- **Word choice.** Identifying the best word for a specific context — a precise verb or noun replacing a vague one.
 - **Punctuation.** Identifying the correct punctuation — comma, apostrophe, quotation mark, end punctuation.
 - **Paragraph order.** Identifying the most coherent order of sentences in a paragraph.
 - **Conventions.** Identifying the correct spelling, grammar, or punctuation for a specific context.
@@ -32,7 +32,7 @@ The OSSLT selected-response Writing items test editing and revising skills: iden
 #### One-pass strategy for selected-response Writing items
 
 1. Read the item stem carefully. Note what is being tested — sentence effectiveness, word choice, punctuation, paragraph order, or conventions.
-2. If the item asks about sentence effectiveness, read each choice aloud. The most clear and concise choice is usually right.
+2. If the item asks about sentence effectiveness, read each choice aloud. The most clear and concise choice is right.
 3. If the item asks about word choice, substitute each choice in place of the original word. The choice that fits the context is right.
 4. If the item asks about punctuation, recall the rule. The choice that follows the rule is right.
 5. If the item asks about paragraph order, identify the topic sentence first. Then arrange the supporting sentences in logical order.
@@ -49,7 +49,7 @@ The OSSLT selected-response Writing items test editing and revising skills: iden
 
 #### Strategy for sentence-effectiveness items
 
-**Read each choice aloud.** The most clear and concise sentence is usually right. A choice that is wordy or vague is usually wrong.
+**Read each choice aloud.** The most clear and concise sentence is right. A choice that is wordy or vague is usually wrong.
 
 **Look for the choice that fixes a specific problem.** If the original sentence has a run-on, the right choice is the one that splits the run-on into two sentences or joins the clauses with a semicolon.
 

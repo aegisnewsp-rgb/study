@@ -74,7 +74,7 @@ The choice of summary statistics and displays depends on the data:
 
 At Level 2, compare the treatments by eye and by descriptive statistics:
 
-- "Treatment A had a higher mean (24.3) than Treatment B (19.7), but the spread was also larger (SD 4.2 vs 2.1). With only 5 replicates per treatment, the difference might be due to chance; a formal test would be needed to confirm."
+- "Treatment A had a higher mean (24.3) than Treatment B (19.7), but the spread was also larger (SD 4.2 vs 2.1). With only 5 replicates per treatment, the difference be due to chance; a formal test would be needed to confirm."
 
 The move to formal inference (confidence intervals, hypothesis tests) happens in Level 3 standard 91582.
 

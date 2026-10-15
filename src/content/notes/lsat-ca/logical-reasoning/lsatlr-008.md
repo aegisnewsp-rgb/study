@@ -90,7 +90,7 @@ If P → Q and Q → R, then P → R. Conditional chains allow chaining through 
 
 #### How conditional reasoning connects to the other LR skills
 
-- **Assumption items** often require identifying the missing link in a conditional chain.
+- **Assumption items** require identifying the missing link in a conditional chain.
 - **Strengthen/weaken items** may involve conditionals; translation is the first step.
 - **Parallel reasoning items** often match conditional structures.
 

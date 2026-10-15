@@ -13,7 +13,7 @@ lastUpdated: "2026-10-13"
 
 # Reading Comprehension — BUET Admission Test
 
-Reading comprehension asks you to work from unseen passages, not memory. You identify the main idea, trace details, infer, judge tone, explain vocabulary in context, and resolve references. It usually forms the largest single block inside the English paper, so weak passage handling damages several answers at once. The same skills carry your grammar and vocabulary marks. This maps to NCTB HSC English Unit 5 "Language and Communication" for meaning and intent, Unit 7 "Literature and Language" for tone and implication, Unit 9 "Language and Society" for viewpoint, and Unit 13 "Science and Technology" for technical cause-and-effect.
+Reading comprehension asks you to work from unseen passages, not memory. You identify the main idea, trace details, infer, judge tone, explain vocabulary in context, and resolve references. It forms the largest single block inside the English paper, so weak passage handling damages several answers at once. The same skills carry your grammar and vocabulary marks. This maps to NCTB HSC English Unit 5 "Language and Communication" for meaning and intent, Unit 7 "Literature and Language" for tone and implication, Unit 9 "Language and Society" for viewpoint, and Unit 13 "Science and Technology" for technical cause-and-effect.
 
 > Verify the live syllabus, paper pattern, and any in-year changes on https://buet.ac.bd/ before planning around the figures below.
 
@@ -44,7 +44,7 @@ Spend the first 20 seconds on the title, the stems, and the opening and closing 
 
 Dhaka's bus terminals turn a transport problem into a problem before the journey starts. A rider may queue at the wrong stop, then carry a heavy bag over an uneven road. When service is unreliable, people leave home earlier, but the extra hour does not make the trip predictable. Some try ride-hailing; others accept crowded buses, because a vehicle must arrive before evening plans begin.
 
-Planners often add routes without asking why buses stay slow. A new route can spread passenger demand across the city, yet draw riders from older services. Commuters need a network linking homes, workplaces, schools and markets at useful hours. Clear signs and delay information matter as much as extra vehicles. The question is not whether buses or apps win. It is whether either gets people where they are going with less uncertainty.
+Planners add routes without asking why buses stay slow. A new route can spread passenger demand across the city, yet draw riders from older services. Commuters need a network linking homes, workplaces, schools and markets at useful hours. Clear signs and delay information matter as much as extra vehicles. The question is not whether buses or apps win. It is whether either gets people where they are going with less uncertainty.
 
 **1. Main idea: What should transport planning improve?**
 **Answer: Whole-journey reliability.** "It is whether either gets people where they are going with less uncertainty." The writer's closing test, not the route debate before it.
@@ -57,9 +57,9 @@ Planners often add routes without asking why buses stay slow. A new route can sp
 
 #### School canteen
 
-At first the school canteen served lunch from a narrow counter beside the playground. At the bell, lines formed before trays could be arranged, and pupils carried bowls back because the dining room was too small. A short menu did not remove the rush; it only decided which foods vanished first.
+At first the school canteen served lunch from a narrow counter beside the playground. At the bell, lines formed before trays be arranged, and pupils carried bowls back because the dining room was too small. A short menu did not remove the rush; it only decided which foods vanished first.
 
-During a recent term the school surveyed its pupils. Most replies blamed waiting time, unclear prices, and dishes that did not suit younger children. The manager changed the order of service and posted a price list. Some welcomed this; others disliked separating vegetables from rice. Because the survey recorded preferences rather than causes, it could not settle every argument. It did support the first change.
+During a recent term the school surveyed its pupils. Most replies blamed waiting time, unclear prices, and dishes that did not suit younger children. The manager changed the order of service and posted a price list. Some welcomed this; others disliked separating vegetables from rice. Because the survey recorded preferences rather than causes, it not settle every argument. It did support the first change.
 
 **1. Tone: How does the manager's account come across?**
 **Answer: Measured and self-critical.** "Because the survey recorded preferences rather than causes, it could not settle every argument." Credit and limit stated in one breath.
@@ -72,7 +72,7 @@ During a recent term the school surveyed its pupils. Most replies blamed waiting
 
 #### River erosion
 
-River erosion is usually treated as a local disaster: a bank breaks, a village disappears, families move on. That account is accurate but incomplete. The pressure commonly begins far upstream, where deforestation and heavy monsoon rain increase the amount and speed of water entering a channel. A community may strengthen the bank in front of its homes and still meet a larger surge months later.
+River erosion is treated as a local disaster: a bank breaks, a village disappears, families move on. That account is accurate but incomplete. The pressure commonly begins far upstream, where deforestation and heavy monsoon rain increase the amount and speed of water entering a channel. A community may strengthen the bank in front of its homes and still meet a larger surge months later.
 
 Engineers can reduce risk at particular sites, but no embankment covers the whole basin. Planners therefore need local protection combined with measures across catchment areas. Restoring vegetation slows runoff; land-use rules keep new construction off exposed banks. The strongest plan is not the one with the largest concrete wall. It treats erosion as a connected process rather than waiting for collapse.
 
@@ -89,7 +89,7 @@ Engineers can reduce risk at particular sites, but no embankment covers the whol
 
 Every Saturday the public library opened before most shops. At first children filled the low tables while job seekers read notices near the entrance. Then university students arrived. One man marked an atlas; a woman listened to a language lesson on headphones. The room had no single purpose, yet everyone shared one habit: using a place that expected no purchase.
 
-A librarian noticed that visitors stayed longer when materials were easier to find. She moved local-history books near the door, labelled shelves plainly, and set two chairs beside the catalogue. Regular readers worried that newcomers would take the best seats. The librarian replied that a public library must serve quiet study and public information alike. She treated disagreement as evidence about who the building might serve next.
+A librarian noticed that visitors stayed longer when materials were easier to find. She moved local-history books near the door, labelled shelves plainly, and set two chairs beside the catalogue. Regular readers worried that newcomers would take the best seats. The librarian replied that a public library must serve quiet study and public information alike. She treated disagreement as evidence about who the building serve next.
 
 **1. Purpose: Why mention the atlas and the language lesson?**
 **Answer: To show varied uses of one room.** "One man marked an atlas; a woman listened to a language lesson on headphones." Two unrelated activities, deliberately paired.
@@ -107,7 +107,7 @@ A librarian noticed that visitors stayed longer when materials were easier to fi
 Every wrong option is built by a method. Learn the methods and the options stop being random.
 
 - **Echo distractor:** reuses passage words but reverses actor, cause, or sequence. If delays continue after routes open, "the new routes caused the delays" borrows the wording and inverts the link.
-- **Over-generalisation:** turns *some*, *often*, or *may* into *all*.
+- **Over-generalisation:** turns *some*, **, or *may* into *all*.
 - **Outside-knowledge distractor:** true in the world, absent from the passage. Dhaka may have such a policy; that settles nothing here.
 - **Absolute quantifier:** *every, never, only,* and *impossible*. One hedge in the passage kills it.
 - **Two true halves:** each clause supported, but the joined claim is not. Test the join, not the clauses.
@@ -120,11 +120,11 @@ On timing: read the stems first, take twenty seconds on title and paragraph jobs
 
 #### Set A — Climate migration
 
-Climate migration is often described as a retreat from land that can no longer support familiar work. The description is useful but incomplete. In many low-lying districts families move before a river or rising salinity makes farming impossible. They may shift to another district for a season, work near a city while construction lasts, or return once water conditions improve. Such movement is not always permanent abandonment of home.
+Climate migration is described as a retreat from land that can no longer support familiar work. The description is useful but incomplete. In many low-lying districts families move before a river or rising salinity makes farming impossible. They may shift to another district for a season, work near a city while construction lasts, or return once water conditions improve. Such movement is not always permanent abandonment of home.
 
 Not every arrival follows the same sequence. Some households leave with savings and relatives already waiting; others sell land in panic, accept transport they cannot afford, and depend on aid during the first weeks. On a map these paths look alike. They carry different risks. An official who files every mover under one label may erase that distinction and design support for the wrong stage of the journey.
 
-A recent group of local studies followed several of these journeys, and the researchers had to widen their idea of success. A household that lost a crop might still count the move as successful if remittances paid for medicine or a child's tuition. People who can finance long journeys, however, usually have more choices than those forced to leave after a disaster. Advice built for the first group can ignore the second.
+A recent group of local studies followed several of these journeys, and the researchers had to widen their idea of success. A household that lost a crop still count the move as successful if remittances paid for medicine or a child's tuition. People who can finance long journeys, however, have more choices than those forced to leave after a disaster. Advice built for the first group can ignore the second.
 
 That difference changes policy. Relocation support is still necessary when homes become unsafe, but compensation alone does not build a viable new economy. Jobs, schools, transport, documents and social networks decide whether arrival becomes recovery or a longer spell of dependence. The strongest plans begin with local knowledge and offer different routes rather than one official timetable.
 
@@ -146,7 +146,7 @@ The spread of digital payments can make a familiar transaction feel newly invisi
 
 Shopkeepers first advertised digital payment as simple convenience. Reports from neighbourhoods with weak connections tell a less tidy story. A poor signal can freeze the screen after the customer has walked away. A transfer sent to the wrong account is harder to recover than a small banknote, especially for a worker with no spare cash. Some vendors keep both options open, though running two systems confuses customers and slows service.
 
-Communities answered differently. In some markets a trusted helper records payments for sellers who cannot use an app. Elsewhere traders buy a power bank or pay for a stronger signal. These fixes improve daily reliability, and they expose a larger point: payment is not made digital merely because money moves through a phone. Access depends on who can enter the system, who pays when an entry goes wrong, and whether anyone can still pay when the network fails. The best policy debate starts with those conditions rather than with the app itself — including people who read little, change phones often, or are paid irregularly.
+Communities answered differently. In some markets a trusted helper records payments for sellers who cannot use an app. Elsewhere traders buy a power bank or pay for a stronger signal. These fixes improve daily reliability, and they expose a larger point: payment is not made digital merely because money moves through a phone. Access depends on who can enter the system, who pays when an entry goes wrong, and whether anyone can still pay when the network fails. The best policy debate starts with those conditions rather than with the app itself — including people who read little, change phones , or are paid irregularly.
 
 **1. Detail: How do sellers who cannot use an app get help?**
 **Answer: A trusted helper records payments.** "In some markets a trusted helper records payments for sellers who cannot use an app."
@@ -178,7 +178,7 @@ Communities answered differently. In some markets a trusted helper records payme
 2. **Accepting an inverted echo.** Borrowed words are not borrowed meaning. Check who acts, and what causes what.
 3. **Confusing a paragraph with the main idea.** A body paragraph supports a wider claim; it rarely is the claim.
 4. **Answering tone with a mood word.** "Worried" describes the writer. Say what pressure the writing creates.
-5. **Overreading a hedge.** *May, often,* and *can* never mean *always*.
+5. **Overreading a hedge.** *May, ,* and *can* never mean *always*.
 6. **Missing polarity.** For **NOT** or **EXCEPT**, negate each option and choose the one that fails the passage's rule.
 
 ## Continue your study

@@ -34,13 +34,13 @@ News Report is one of the four reading selection types on the OSSLT. The EQAO Fr
 - Reading 1 items: identify the lead, locate a stated detail (who/what/when/where), recall a quoted fact, read a graphic element.
 - Reading 2 items: infer the writer's purpose (to inform, to alert, to advocate), infer the meaning of a quoted phrase, infer why the writer placed a detail where it did.
 - Reading 3 items: connect the news event to a real-world situation or to another selection on the test.
-- One conventions item: a sentence-level edit, often a punctuation or subject-verb agreement fix.
+- One conventions item: a sentence-level edit, a punctuation or subject-verb agreement fix.
 
 #### Examiner traps
 
 - Treating the headline as a peripheral detail. The headline is the most concise statement of the lead. Many Reading 1 items can be answered from the headline alone.
-- Confusing fact with comment. News Report selections usually separate stated facts from the writer's comments. Items ask "according to the selection" — only stated facts are eligible.
-- Missing the graphic element. News Report items often reference a captioned photo, a sidebar, or a small chart. Read the graphic element before answering.
+- Confusing fact with comment. News Report selections separate stated facts from the writer's comments. Items ask "according to the selection" — only stated facts are eligible.
+- Missing the graphic element. News Report items reference a captioned photo, a sidebar, or a small chart. Read the graphic element before answering.
 
 ---
 
@@ -48,13 +48,13 @@ News Report is one of the four reading selection types on the OSSLT. The EQAO Fr
 
 #### Strategy for News Report selections
 
-**Read the headline first, then the lead.** The headline plus the lead paragraph contain the five Ws. Reading 1 items targeting who/what/when/where can usually be answered from these two lines alone.
+**Read the headline first, then the lead.** The headline plus the lead paragraph contain the five Ws. Reading 1 items targeting who/what/when/where can be answered from these two lines alone.
 
 **Skim the supporting paragraphs for quotes and statistics.** Most News Report selections contain at least one direct quote and one statistic. Reading 1 items often target these.
 
 **Note the graphic element.** A captioned photo, sidebar, or chart is part of the selection. Read it before answering the items — many items depend on it.
 
-**Identify the writer's purpose.** News Report writers usually write to inform. Sometimes they write to alert (an urgent event) or to advocate (an opinion-bearing report on a community issue). Reading 2 items ask the student to infer the purpose from the verbs and adjectives.
+**Identify the writer's purpose.** News Report writers write to inform. Sometimes they write to alert (an urgent event) or to advocate (an opinion-bearing report on a community issue). Reading 2 items ask the student to infer the purpose from the verbs and adjectives.
 
 #### Practice routine for News Report
 
@@ -83,7 +83,7 @@ News Report is one of the four reading selection types on the OSSLT. The EQAO Fr
 
 - **"I need to read every paragraph in detail."** The lead has the five Ws. Read it first, then skim the supporting paragraphs.
 - **"The graphic element is decoration."** The graphic element is part of the selection. Items depend on it.
-- **"The writer is being objective."** News Report writers usually are objective, but the choice of which facts to include and which to omit is itself a choice. Reading 2 items may ask what the inclusion of a specific fact suggests.
+- **"The writer is being objective."** News Report writers are objective, but the choice of which facts to include and which to omit is itself a choice. Reading 2 items may ask what the inclusion of a specific fact suggests.
 
 #### Exam technique
 
@@ -95,7 +95,7 @@ News Report is one of the four reading selection types on the OSSLT. The EQAO Fr
 
 #### Specification reference
 
-News Report is one of the four OSSLT reading selection types defined in the EQAO OSSLT Framework. Each News Report selection is paired with multiple-select items covering Reading 1, Reading 2, Reading 3, and conventions, and typically includes a graphic element. Confirm the live selection count, item count, and any in-year changes on the EQAO OSSLT Framework (https://www.eqao.com/wp-content/uploads/2021/01/framework-osslt.pdf) and the OSSLT landing page (https://www.eqao.com/the-assessments/osslt/).
+News Report is one of the four OSSLT reading selection types defined in the EQAO OSSLT Framework. Each News Report selection is paired with multiple-select items covering Reading 1, Reading 2, Reading 3, and conventions, and includes a graphic element. Confirm the live selection count, item count, and any in-year changes on the EQAO OSSLT Framework (https://www.eqao.com/wp-content/uploads/2021/01/framework-osslt.pdf) and the OSSLT landing page (https://www.eqao.com/the-assessments/osslt/).
 
 ---
 

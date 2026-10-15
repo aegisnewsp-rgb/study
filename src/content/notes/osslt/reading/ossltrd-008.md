@@ -33,7 +33,7 @@ This topic covers the conventions, vocabulary and visual-information items that 
 
 1. Read the conventions item stem carefully. Note whether it asks about spelling, grammar, punctuation, or vocabulary.
 2. If it asks about spelling, eliminate choices that look plausible but use a wrong letter pattern (e.g., "definately" instead of "definitely").
-3. If it asks about grammar, read the sentence aloud in your head. The choice that makes the sentence read smoothly is usually right.
+3. If it asks about grammar, read the sentence aloud in your head. The choice that makes the sentence read smoothly is right.
 4. If it asks about punctuation, recall the rule (comma before "and" in a list, apostrophe for possession, capital letter at the start of a sentence).
 5. If it asks about vocabulary in context, substitute each choice for the unfamiliar word. The choice that keeps the sentence making sense is right.
 
@@ -103,7 +103,7 @@ The same conventions rules are tested in the Writing component and in the scorin
 
 #### Specification reference
 
-Conventions, vocabulary and visual information are tested across all four OSSLT reading selection types. The EQAO OSSLT Framework names spelling, grammar, and punctuation as assessed skills, and the OSSLT reading selections typically include a graphic element. Confirm the live conventions coverage and any in-year item-type changes on the EQAO OSSLT Framework (https://www.eqao.com/wp-content/uploads/2021/01/framework-osslt.pdf) and the OSSLT landing page (https://www.eqao.com/the-assessments/osslt/).
+Conventions, vocabulary and visual information are tested across all four OSSLT reading selection types. The EQAO OSSLT Framework names spelling, grammar, and punctuation as assessed skills, and the OSSLT reading selections include a graphic element. Confirm the live conventions coverage and any in-year item-type changes on the EQAO OSSLT Framework (https://www.eqao.com/wp-content/uploads/2021/01/framework-osslt.pdf) and the OSSLT landing page (https://www.eqao.com/the-assessments/osslt/).
 
 ---
 

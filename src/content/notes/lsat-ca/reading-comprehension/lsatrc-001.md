@@ -45,25 +45,25 @@ The LSAT Reading Comprehension section includes four passages, drawn from four d
 #### Humanities passages
 
 - Excerpts from literature, philosophy, art history, music, religion.
-- Often feature personal voice, narrative, or reflective argument.
+- Feature personal voice, narrative, or reflective argument.
 - Reading strategy: track the author's central theme or claim; pay attention to tone and word choice.
 
 #### Social sciences passages
 
 - Excerpts from sociology, political science, economics, education, anthropology, psychology.
-- Often feature empirical claims, theoretical frameworks, or policy debates.
+- Feature empirical claims, theoretical frameworks, or policy debates.
 - Reading strategy: track the central claim and the evidence; identify the methodology if the passage describes a study.
 
 #### Natural sciences passages
 
 - Excerpts from biology, chemistry, physics, earth science, medicine.
-- Often feature explanation of a phenomenon, a process, or a finding.
+- Feature explanation of a phenomenon, a process, or a finding.
 - Reading strategy: track the explanation; identify the phenomenon, the cause, and the implications.
 
 #### Law-related passages
 
 - Excerpts from legal scholarship, judicial opinions, law reviews.
-- Often feature argument about a legal principle, a case, or a doctrine.
+- Feature argument about a legal principle, a case, or a doctrine.
 - Reading strategy: track the argument structure (claim, evidence, counter-argument, response); identify the legal principle.
 
 #### Comparative reading passages
@@ -86,7 +86,7 @@ The LSAT Reading Comprehension section includes four passages, drawn from four d
 
 - **Main idea** depends on identifying the discipline; different disciplines reward different central claims.
 - **Inference** depends on the discipline; law inferences are about the argument, science inferences are about the explanation.
-- **Author's tone** depends on the discipline; humanities passages have distinctive voice; science passages are usually neutral.
+- **Author's tone** depends on the discipline; humanities passages have distinctive voice; science passages are neutral.
 
 #### Common errors and the correction
 

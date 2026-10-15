@@ -54,13 +54,13 @@ ACT trigonometry tests sine, cosine, tangent ratios, graphs of trigonometric cur
 To secure consistent accuracy on Higher Math: Trigonometry and Radians, candidates should follow a structured three-step execution framework:
 
 1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+ Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Use Law of Sines: sin(A)/a = sin(B)/b = sin(C)/c and Law of Cosines: c^2 = a^2 + b^2 - 2ab*cos(C). Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+ Apply official methodology rather than intuition. Use Law of Sines: sin(A)/a = sin(B)/b = sin(C)/c and Law of Cosines: c^2 = a^2 + b^2 - 2ab*cos(C). Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+ Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
 
 ---
 
@@ -68,7 +68,7 @@ To secure consistent accuracy on Higher Math: Trigonometry and Radians, candidat
 
 #### Advanced variations and high-difficulty edge cases
 
-Radian items are usually trigonometry items with a unit conversion hidden inside. Attack the conversion first, every time:
+Radian items are trigonometry items with a unit conversion hidden inside. Attack the conversion first, every time:
 
 - **Ambiguous case**: The Law of Sines can produce two candidate angles when sin(A) = sin(B). Both may be geometrically valid, and the item is decided by which one keeps the angle sum below 180 degrees.
 - **Degree to radian**: Convert before substituting into any identity. Radians are dimensionless, so a leftover degree figure inside a sine is the usual cause of an otherwise clean-looking wrong answer.

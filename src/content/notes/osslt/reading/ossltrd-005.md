@@ -23,7 +23,7 @@ Information Paragraph is one of the four reading selection types on the OSSLT. T
 
 #### What an Information Paragraph looks like
 
-- A short expository passage, usually a single extended paragraph or two short paragraphs.
+- A short expository passage, a single extended paragraph or two short paragraphs.
 - A clear central idea stated in a topic sentence at or near the start.
 - Supporting details: definitions, examples, comparisons, or numbered steps.
 - Vocabulary that is general or lightly technical (no specialist jargon).
@@ -34,13 +34,13 @@ Information Paragraph is one of the four reading selection types on the OSSLT. T
 - Reading 1 items: identify the central idea, locate a definition, recall a stated detail, find the purpose of the paragraph.
 - Reading 2 items: infer the writer's purpose, infer the meaning of a word from context, infer why the writer chose a specific example.
 - Reading 3 items: connect the explanation to the reader's experience, or to another selection on the test.
-- One conventions item: a sentence-level edit, often a transition word or punctuation choice.
+- One conventions item: a sentence-level edit, a transition word or punctuation choice.
 
 #### Examiner traps
 
-- Treating the topic sentence as a peripheral detail. Information Paragraph items often ask which sentence states the central idea; the topic sentence is the answer.
+- Treating the topic sentence as a peripheral detail. Information Paragraph items ask which sentence states the central idea; the topic sentence is the answer.
 - Picking a vocabulary answer that sounds right in isolation but does not fit the sentence. The OSSLT tests vocabulary *in context*; the answer must match the way the word is used in the selection.
-- Inferring too much. Information Paragraph selections are designed to be read at face value; the writer's purpose is usually stated or strongly implied by the structure.
+- Inferring too much. Information Paragraph selections are designed to be read at face value; the writer's purpose is stated or strongly implied by the structure.
 
 ---
 
@@ -48,13 +48,13 @@ Information Paragraph is one of the four reading selection types on the OSSLT. T
 
 #### Strategy for Information Paragraph selections
 
-**Find the topic sentence first.** The topic sentence is usually the first or second sentence and states the central idea. Read it, then read the supporting details. Most Reading 1 items target the topic sentence.
+**Find the topic sentence first.** The topic sentence is the first or second sentence and states the central idea. Read it, then read the supporting details. Most Reading 1 items target the topic sentence.
 
 **Underline the transitions.** Information Paragraphs use transitions ("for example," "in other words," "however," "as a result") to signal how the supporting details relate to the central idea. Reading 2 items often ask what a transition implies.
 
 **For vocabulary-in-context items, replace the word with each choice.** If a sentence contains an unfamiliar word and offers four choices, try each choice in place of the unfamiliar word. The choice that keeps the sentence making sense is the right answer.
 
-**Mark the writer's purpose.** The writer of an Information Paragraph is explaining something. The specific purpose — to define a term, to compare two things, to describe a process, to give instructions — is usually identifiable from the verbs in the paragraph.
+**Mark the writer's purpose.** The writer of an Information Paragraph is explaining something. The specific purpose — to define a term, to compare two things, to describe a process, to give instructions — is identifiable from the verbs in the paragraph.
 
 #### Practice routine for Information Paragraph
 
@@ -80,7 +80,7 @@ Information Paragraph is one of the four reading selection types on the OSSLT. T
 
 #### Common errors and the correction
 
-- **"I should infer the central idea."** The central idea is usually stated in the topic sentence. Reading 1 items ask the student to identify it, not to infer it.
+- **"I should infer the central idea."** The central idea is stated in the topic sentence. Reading 1 items ask the student to identify it, not to infer it.
 - **"The writer's purpose is to entertain."** Information Paragraph selections are designed to explain. The writer's purpose is to inform, to define, to describe, or to instruct — not to entertain.
 - **"Vocabulary items need me to know the dictionary definition."** Vocabulary-in-context items test the meaning in the sentence. The right answer is the choice that fits the way the word is used in the selection, even if the dictionary definition is broader.
 

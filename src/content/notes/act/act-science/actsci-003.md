@@ -54,13 +54,13 @@ Interpreting results tests extrapolating data points beyond the recorded range a
 To secure consistent accuracy on Research Summaries: Interpreting Experimental Results, candidates should follow a structured three-step execution framework:
 
 1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+ Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Interpolate between data points or extrapolate along established linear trends. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+ Apply official methodology rather than intuition. Interpolate between data points or extrapolate along established linear trends. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+ Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
 
 ---
 
@@ -68,7 +68,7 @@ To secure consistent accuracy on Research Summaries: Interpreting Experimental R
 
 #### Advanced variations and high-difficulty edge cases
 
-Results questions are mostly questions about how far a trend may be trusted:
+Results questions are mostly questions about how far a trend be trusted:
 
 - **Where a trend flattens**: A curve that levels off signals the mechanism is no longer the limiting factor. Extending the earlier slope through that point overstates what the data support.
 - **Outlier handling**: Exclude a point only with a stated reason such as a documented measurement error. Dropping inconvenient points to tidy a graph is the failure these questions are built to catch.

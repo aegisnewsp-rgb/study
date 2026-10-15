@@ -34,12 +34,12 @@ Dialogue is one of the four reading selection types on the OSSLT. The EQAO Frame
 - Reading 1 items: track who said a specific line, recall a stated fact, identify the order of the exchange.
 - Reading 2 items: infer the speaker's purpose (to inform, to persuade, to request, to deflect), infer the relationship between speakers, infer what a subtextual line implies.
 - Reading 3 items: connect the dialogue to the reader's experience of a similar conversation or to another selection on the test.
-- One conventions item: a sentence-level edit, often a punctuation fix (a missing comma, an incorrect quotation mark).
+- One conventions item: a sentence-level edit, a punctuation fix (a missing comma, an incorrect quotation mark).
 
 #### Examiner traps
 
-- Confusing the speakers. Dialogue items often refer to a specific line by speaker name. Track the speaker labels as you read.
-- Reading the literal words without reading the subtext. Dialogue Reading 2 items ask what the speaker *means*, not what the speaker *says*. The literal line and the intended meaning often differ.
+- Confusing the speakers. Dialogue items refer to a specific line by speaker name. Track the speaker labels as you read.
+- Reading the literal words without reading the subtext. Dialogue Reading 2 items ask what the speaker *means*, not what the speaker *says*. The literal line and the intended meaning differ.
 - Missing the punctuation cue. Dialogue selections are heavy on quotation marks and commas. A conventions item may depend on the punctuation of the dialogue itself.
 
 ---
@@ -48,13 +48,13 @@ Dialogue is one of the four reading selection types on the OSSLT. The EQAO Frame
 
 #### Strategy for Dialogue selections
 
-**Read the setting sentence first.** The setting sentence usually identifies where the conversation happens (in a kitchen, on a bus, in a school hallway) and often signals the relationship (between siblings, between teammates, between a customer and a clerk). Reading 2 items depend on this signal.
+**Read the setting sentence first.** The setting sentence identifies where the conversation happens (in a kitchen, on a bus, in a school hallway) and signals the relationship (between siblings, between teammates, between a customer and a clerk). Reading 2 items depend on this signal.
 
 **Track who-said-what as you read.** For each line, mark in your mind who the speaker is. Many Reading 1 items ask "according to the selection, who says..." — the answer is in the speaker label, not in the line content.
 
-**Note the verbs of speech.** "Asked," "replied," "mumbled," "shouted," "sighed" signal tone and attitude. Reading 2 items ask what the speaker feels; the verb often carries the answer.
+**Note the verbs of speech.** "Asked," "replied," "mumbled," "shouted," "sighed" signal tone and attitude. Reading 2 items ask what the speaker feels; the verb carries the answer.
 
-**Identify the central issue.** Dialogue selections usually revolve around a decision, a misunderstanding, or a piece of advice. Reading 3 items often connect the central issue to the reader's experience.
+**Identify the central issue.** Dialogue selections revolve around a decision, a misunderstanding, or a piece of advice. Reading 3 items connect the central issue to the reader's experience.
 
 #### Practice routine for Dialogue
 
@@ -76,7 +76,7 @@ Dialogue is one of the four reading selection types on the OSSLT. The EQAO Frame
 #### How Dialogue connects to the other OSSLT items
 
 - **The Series-of-Paragraphs long-writing task** depends on understanding how different speakers or sources present different perspectives. Dialogue practice strengthens the perspective-tracking skill that the writing task depends on.
-- **Reading 3** in Dialogue selections often asks the student to connect the conversation to a similar situation in the reader's experience. This is the same skill the open-response reading item tests.
+- **Reading 3** in Dialogue selections asks the student to connect the conversation to a similar situation in the reader's experience. This is the same skill the open-response reading item tests.
 
 #### Common errors and the correction
 

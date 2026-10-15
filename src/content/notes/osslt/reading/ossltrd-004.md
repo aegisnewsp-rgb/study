@@ -13,7 +13,7 @@ lastUpdated: "2026-09-20"
 
 # Real-Life Narrative Selections — OSSLT Reading
 
-Real-Life Narrative (RLN) is one of the four reading selection types on the OSSLT. The EQAO Framework describes RLN selections as first-person or close-third-person recountings of an event, typically a personal experience. Each RLN selection is followed by seven multiple-select items that target the three reading skills (Reading 1: explicit, Reading 2: inference, Reading 3: connection) plus conventions where applicable.
+Real-Life Narrative (RLN) is one of the four reading selection types on the OSSLT. The EQAO Framework describes RLN selections as first-person or close-third-person recountings of an event, a personal experience. Each RLN selection is followed by seven multiple-select items that target the three reading skills (Reading 1: explicit, Reading 2: inference, Reading 3: connection) plus conventions where applicable.
 
 > Verify the live selection count, item count, and any in-year changes on https://www.eqao.com/the-assessments/osslt/.
 
@@ -25,24 +25,24 @@ Real-Life Narrative (RLN) is one of the four reading selection types on the OSSL
 
 - A short personal story told in the first person ("I remember the day...") or close third person ("Maya had been waiting for weeks...").
 - A clear sequence of events with time markers ("the morning of," "later that day," "by the end of the week").
-- A small cast — usually one or two named characters and a setting.
+- A small cast — one or two named characters and a setting.
 - A central feeling or reflection, sometimes stated at the end of the selection.
 - Length set so the selection fits the OSSLT screen without scrolling for most items.
 
 #### How RLN items are organised
 
-The seven items per RLN selection typically follow this pattern:
+The seven items per RLN selection follow this pattern:
 
 - Reading 1 items: who, what, when, where, sequence.
 - Reading 2 items: the narrator's feeling, the meaning of a detail, the narrator's attitude toward another character.
 - Reading 3 items: a connection to a parallel situation in the reader's experience or to another selection on the test.
-- One conventions item: a sentence-level edit, often in the final paragraph.
+- One conventions item: a sentence-level edit, in the final paragraph.
 
 #### Examiner traps
 
 - Confusing the narrator with the writer. RLN selections are fiction; the narrator's view is what items ask about, not the writer's view.
 - Reading for plot when the item asks for feeling. RLN Reading 2 items target the narrator's emotion, not the sequence of events.
-- Treating the final paragraph as the "answer." The central reflection is in the final paragraph, but earlier details often support it. Skim the whole selection first.
+- Treating the final paragraph as the "answer." The central reflection is in the final paragraph, but earlier details support it. Skim the whole selection first.
 
 ---
 
@@ -54,7 +54,7 @@ The seven items per RLN selection typically follow this pattern:
 
 **Mark the time markers as you read.** "First," "next," "after," "later," "by the time" signal the order of events. Reading 1 sequence items depend on these markers.
 
-**Underline the final paragraph.** The last paragraph of an RLN selection usually contains the central reflection or the change in the narrator. Reading 3 items often connect to this final paragraph.
+**Underline the final paragraph.** The last paragraph of an RLN selection contains the central reflection or the change in the narrator. Reading 3 items often connect to this final paragraph.
 
 **Note the names of characters and the relationship between them.** RLN selections often have a small cast with a defined relationship (mother, coach, friend, sibling). Reading 2 items ask about the nature of the relationship, not just the names.
 
@@ -84,7 +84,7 @@ The seven items per RLN selection typically follow this pattern:
 
 - **"The narrator is unreliable, so I should distrust everything."** OSSLT RLN selections are not constructed as unreliable narrators. The narrator's view is the view items target. Do not overthink.
 - **"I need to read the events in detail."** RLN items do not ask for detailed event recall (that is Reading 1, and only for explicit items). Reading 2 and Reading 3 items care about the narrator's perspective and the central reflection.
-- **"The selection is too short to support inferences."** OSSLT RLN selections are short by design — typically a few paragraphs. Inference is supported by tone, word choice, and the central reflection, not by length.
+- **"The selection is too short to support inferences."** OSSLT RLN selections are short by design — a few paragraphs. Inference is supported by tone, word choice, and the central reflection, not by length.
 
 #### Exam technique
 

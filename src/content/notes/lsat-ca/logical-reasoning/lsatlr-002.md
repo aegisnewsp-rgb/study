@@ -81,7 +81,7 @@ To find a sufficient assumption:
 #### How assumptions connect to the other LR skills
 
 - **Strengthen items** add evidence for the assumption; weaken items undermine it.
-- **Flaw items** often target an unstated assumption that is questionable.
+- **Flaw items** target an unstated assumption that is questionable.
 - **Inference items** ask what must be true given the premises, which is similar to a sufficient assumption.
 - **Parallel reasoning items** require identifying the same assumption in a different context.
 

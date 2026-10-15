@@ -54,13 +54,13 @@ Statistics and counting test permutations nPr, combinations nCr, basic probabili
 To secure consistent accuracy on Higher Math: Statistics, Probability, and Counting, candidates should follow a structured three-step execution framework:
 
 1. **Deconstruct the Prompt and Identify Target Variable**:
-   Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
+ Begin by identifying the exact question asked. In quantitative problems, circle the required variable and note units. In qualitative verbal items, identify whether the prompt asks for a main idea, an inference, or an evaluation of rhetorical structure.
 
 2. **Execute Systematic Solution Protocol**:
-   Apply official methodology rather than intuition. Use permutations when order matters; use combinations when order does not matter. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
+ Apply official methodology rather than intuition. Use permutations when order matters; use combinations when order does not matter. Work through intermediate steps on scratch paper or digital scratchpad, maintaining clear algebraic notation to prevent transcription errors.
 
 3. **Validate Against Constraints**:
-   Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
+ Before selecting your choice, verify that your result satisfies all conditions specified in the problem statement. Ensure that your answer is in simplest form, matches requested units, and avoids common rounding traps.
 
 ---
 
@@ -71,7 +71,7 @@ To secure consistent accuracy on Higher Math: Statistics, Probability, and Count
 Counting and probability items separate students on reading whether order matters, not on arithmetic:
 
 - **Ordered or unordered**: Seatings, passwords, and race finishes are permutations; committees, hands of cards, and selections are combinations. Write the word order or not next to the formula to force the decision.
-- **At least one**: Subtract the complement rather than summing cases. The complement is usually a single term, while the direct count branches by the number of excluded items.
+- **At least one**: Subtract the complement rather than summing cases. The complement is a single term, while the direct count branches by the number of excluded items.
 - **With and without replacement**: Sampling changes the available count on each draw. Treat a drawn object as removed unless the problem explicitly says it is returned.
 
 #### Systematic drill schedule

@@ -50,7 +50,7 @@ Foundations of Comprehension is CARS Skill 1 in the AAMC CARS framework. It is t
 
 The main idea is the central claim the passage is making. To find it:
 
-- Read the first and last paragraphs first. They often state the main idea explicitly.
+- Read the first and last paragraphs first. They state the main idea explicitly.
 - Look for a sentence that the rest of the passage supports, illustrates, or argues for.
 - If the main idea is implied, summarise each paragraph in one sentence, then look for the common thread.
 

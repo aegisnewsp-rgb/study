@@ -45,7 +45,7 @@ Main idea and primary purpose items ask the test-taker to identify the central c
 
 #### Strategy for main idea items
 
-1. **Read the first paragraph.** The main idea is often stated or implied here.
+1. **Read the first paragraph.** The main idea is stated or implied here.
 2. **Read the last paragraph.** The main idea is often restated or reinforced here.
 3. **Identify the central claim** that the rest of the passage supports, illustrates, or argues for.
 4. **Summarise the passage in one sentence.**

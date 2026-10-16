@@ -49,7 +49,7 @@ Section 16(2) imposes a conjunctive four-part test. Failure of any one limb dis-
 |---|---|---|
 | Motor vehicles, except specified | **No** | Car used by driving school, GTA, or for further supply of vehicles is permitted |
 | Food & beverages, outdoor catering, beauty treatment, health services, cosmetic surgery | **No** | Applies even if TDS u/s 194R deducted |
-| Club membership, health & life insurance | **No** | Insur­ance of goods in transit is allowed |
+| Club membership, health & life insurance | **No** | Insurance of goods in transit is allowed |
 | Rent-a-cab / health insurance where TDS not deducted | **No** | Only the TDS-non-deduction clause triggers block |
 | Goods lost, stolen, destroyed, written off | **No** | Insurance recovery does not re-allow credit |
 | Tax paid under Section 74 (fraud) | **No** | Personal liability of supplier, not recipient |

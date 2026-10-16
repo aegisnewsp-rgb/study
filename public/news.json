@@ -44,9 +44,9 @@
     "description": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMlVTdzhwU2hpVTJWQjB2ZDl0Vm5oX0FYaWMwNTdlNkRQZ1dUSWFULWZPMjlKczBJR3J2cWhlV1VSdG5hSEMxUHZLTkdGa1FseDkzemRSSnVVX0o2VUx3SjFLUnNvdlRLVzVYdldjbElEd2tvNHFkUUJaQmxRTzBoelJrSENFMU1IVDZwVnJjSEthdEM3MTVTU0I0MEhxVmZNX1FsNkhjSDc?oc=5\" target=\"_blank\">What FG’s Proposed JAMB, WAEC, NECO Harmonised Timetable Means for Nigerian Students</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TVC News</font>",
     "country": "nigeria",
     "tags": [
-      "jamb",
       "waec",
-      "neco"
+      "neco",
+      "jamb"
     ]
   },
   {
@@ -58,8 +58,8 @@
     "description": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxNMHBzSTlyaGFELVRkWlcwME42cmdHUVNTR1pOMDN1VHhFVlpIVmR4WjJvV3A3ZGowTkFhOVo3WTNWR0VCWVdKcnRLTGprZ3paVF80cWs2MUg2RkNQN0FBd0ZMLWJGYXJweDJPVjFWT2VEamhTUWIzT1FhaGhTR3lGbGcyUDI2TDZyRXhCTmZhZmthMmZQeHBSSEZRNkVUZWNDdEtqUEtia1hRV3gzNnRKa2lOTHRvWE55dDNBcnZNTVV4TExrWTF6TUN2NE9nQmVqOW56Y0FQdEd2MFXSAeABQVVfeXFMTVBRTlRqTEpnQUxfWnIyVHI5ZzZhSVNMTHlxclpsWU4wTkk0b0R4RUtsbW8xTEIxUGhLVUV3N3pyUUdHVTV5TWNmMHpOLXh4Y3BENG9sbE0tWXBUMktkMkVmaWU2ZlFwTHp1Vk02WXdfTH",
     "country": "india",
     "tags": [
-      "upsc",
       "jee",
+      "upsc",
       "neet"
     ]
   },
@@ -86,12 +86,12 @@
     ]
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS3d1QmJiUEs1cFJTQm01cEFBOVJ1VVJzYmg3UF9LWXNUZkhWZEJtVnNzV2daQUQ1VW5NTXlKa1R3aFpvNC1WSTZ3X3JGWlpad2ZuMk5rUzNnTGtPNlpwcklSYUt5REVsMTRVMDlseTRDMlRVUlhwSHlVOHI3NWZXdk9ZQmRxMlVrUU1YalVsc1MzelE1?oc=5",
-    "title": "Operational struggles, AI threaten WAEC credibility, CBT gains - The Guardian Nigeria News",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS3d1QmJiUEs1cFJTQm01cEFBOVJ1VVJzYmg3UF9LWXNUZkhWZEJtVnNzV2daQUQ1VW5NTXlKa1R3aFpvNC1WSTZ3X3JGWlpad2ZuMk5rUzNnTGtPNlpwcklSYUt5REVsMTRVMDlseTRDMlRVUlhwSHlVOHI3NWZXdk9ZQmRxMlVrUU1YalVsc1MzelE1?oc=5",
-    "source": "The Guardian Nigeria News",
-    "published": "2026-09-08T07:00:00+00:00",
-    "description": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNS3d1QmJiUEs1cFJTQm01cEFBOVJ1VVJzYmg3UF9LWXNUZkhWZEJtVnNzV2daQUQ1VW5NTXlKa1R3aFpvNC1WSTZ3X3JGWlpad2ZuMk5rUzNnTGtPNlpwcklSYUt5REVsMTRVMDlseTRDMlRVUlhwSHlVOHI3NWZXdk9ZQmRxMlVrUU1YalVsc1MzelE1?oc=5\" target=\"_blank\">Operational struggles, AI threaten WAEC credibility, CBT gains</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">The Guardian Nigeria News</font>",
+    "id": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamR3dkp2eHdkTFZQbGE5REJEN2o0R2ZZMEozUWZlTHV0QmdETXNkU3cwdFcxZXNjMllDZi1TSWRaR3lMbFpUMmVvN0VwTlZCNGtxWnBYVHFOWHhWQ0pLUm9wZDUxVVVwNkM0Wmo1a01fc0gwQXh4bExrSUV3NkxWZ2pJV1hzY1Znbld0a0h6SlZ2V0R4SzZKV2M4ZzRGZFgwNjZPMEVTYw?oc=5",
+    "title": "WAEC’s CBT Gamble: Between Exam Integrity, Infrastructure And A Troubled Transition - Independent Newspaper Nigeria",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamR3dkp2eHdkTFZQbGE5REJEN2o0R2ZZMEozUWZlTHV0QmdETXNkU3cwdFcxZXNjMllDZi1TSWRaR3lMbFpUMmVvN0VwTlZCNGtxWnBYVHFOWHhWQ0pLUm9wZDUxVVVwNkM0Wmo1a01fc0gwQXh4bExrSUV3NkxWZ2pJV1hzY1Znbld0a0h6SlZ2V0R4SzZKV2M4ZzRGZFgwNjZPMEVTYw?oc=5",
+    "source": "Independent Newspaper Nigeria",
+    "published": "2026-09-09T07:00:00+00:00",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOamR3dkp2eHdkTFZQbGE5REJEN2o0R2ZZMEozUWZlTHV0QmdETXNkU3cwdFcxZXNjMllDZi1TSWRaR3lMbFpUMmVvN0VwTlZCNGtxWnBYVHFOWHhWQ0pLUm9wZDUxVVVwNkM0Wmo1a01fc0gwQXh4bExrSUV3NkxWZ2pJV1hzY1Znbld0a0h6SlZ2V0R4SzZKV2M4ZzRGZFgwNjZPMEVTYw?oc=5\" target=\"_blank\">WAEC’s CBT Gamble: Between Exam Integrity, Infrastructure And A Troubled Transition</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Independent Newspaper Nigeria</font>",
     "country": "nigeria",
     "tags": [
       "waec"

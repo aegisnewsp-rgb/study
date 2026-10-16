@@ -50,11 +50,11 @@ A debenture acknowledges a debt under the company’s common seal. It can be sec
 
 Debentures can be issued at par, discount, or premium. When a ₹1,000 debenture is issued at ₹980 with interest at 9%, annual coupon interest remains ₹90 because coupons use face value.
 
-\[
+$$
 \text{Annual interest}=N\times F\times r
-\]
+$$
 
-Here, \(N\) is the number of debentures, \(F\) is face value in rupees, and \(r\) is the annual coupon rate expressed as a decimal. For ₹500 debentures, annual interest is ₹500 × 9% = ₹45.
+Here, $N$ is the number of debentures, $F$ is face value in rupees, and $r$ is the annual coupon rate expressed as a decimal. For ₹500 debentures, annual interest is ₹500 × 9% = ₹45.
 
 - Journal entry for cash issued at par: debit Bank and credit Debentures.
 - At discount: debit Bank by cash received and debit Discount on Issue by the difference, then credit Debentures at face value.
@@ -76,12 +76,12 @@ A Debenture Redemption Reserve is created from divisible profits when legally re
 
 The loss associated with debentures can include issue discount and premium on redemption. When these amounts cannot be charged through another permitted account, they are written off over the debentures’ life.
 
-\[
+$$
 \text{Annual loss written off}
 =
 \frac{\text{Issue discount + redemption premium − issue premium}}
 {\text{Number of years of life}}
-\]
+$$
 
 This produces a relatively even charge, although companies can adopt a permitted policy under the applicable accounting framework. YTM is different from coupon rate: it equates the issue proceeds with the present value of coupons and redemption cash flows. Thus, a discount can raise YTM above the coupon rate, while a premium can lower it.
 

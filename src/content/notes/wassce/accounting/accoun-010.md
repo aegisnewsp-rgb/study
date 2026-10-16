@@ -78,10 +78,10 @@ Overheads cannot always be traced to one product. **Allocation** assigns an enti
 
 **Absorption** charges overheads to cost units using a predetermined or computed rate:
 
-\[
+$$
 \text{Overhead absorption rate} =
 \frac{\text{Overhead for the period}}{\text{Basis of absorption}}
-\]
+$$
 
 The basis could be direct labour hours, machine hours or direct labour cost. A rate based on machine hours suits a machine-intensive business; direct labour cost may be less suitable where machines dominate production.
 
@@ -89,12 +89,12 @@ The basis could be direct labour hours, machine hours or direct labour cost. A r
 
 Work-in-progress includes partly completed units. Use:
 
-\[
+$$
 \text{Cost of production completed} =
 \text{Total production cost} +
 \text{Opening work-in-progress} -
 \text{Closing work-in-progress}
-\]
+$$
 
 Finished goods adjustment then gives cost of goods sold. Omitting either stock figure transfers cost between accounting periods and distorts profit.
 

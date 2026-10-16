@@ -96,8 +96,8 @@ export const EXAM_EQUIVALENTS: Record<string, Array<{id: string; name: string; f
   // ── Secondary / National Boards ──────────────────────────
   'neco':       [{id:'waec', name:'WAEC (West Africa)', flag:'🇳🇬'}, {id:'nabteb', name:'NABTEB (Nigeria)', flag:'🇳🇬'}],
   'waec':       [{id:'neco', name:'NECO (Nigeria)', flag:'🇳🇬'}, {id:'nabteb', name:'NABTEB (Nigeria)', flag:'🇳🇬'}],
-  'nabteb':     [{id:'waec', name:'WAEC (Nigeria)', flag:'🇳🇬'}, {id:'neco', name:'NECO (Nigeria)', flag:'🇳🇬'}],
-  'ncee':       [{id:'waec', name:'WAEC (Nigeria)', flag:'🇳🇬'}, {id:'neco', name:'NECO (Nigeria)', flag:'🇳🇬'}],
+  'nabteb':     [{id:'waec', name:'WAEC (West Africa)', flag:'🇳🇬'}, {id:'neco', name:'NECO (Nigeria)', flag:'🇳🇬'}],
+  'ncee':       [{id:'waec', name:'WAEC (West Africa)', flag:'🇳🇬'}, {id:'neco', name:'NECO (Nigeria)', flag:'🇳🇬'}],
 
   // ── Sub-national / State Exams ────────────────────────────
   'ssc-cgl':    [{id:'bpsc', name:'BPSC (India)', flag:'🇮🇳'}, {id:'uppsc', name:'UPPSC (India)', flag:'🇮🇳'}],
@@ -105,8 +105,8 @@ export const EXAM_EQUIVALENTS: Record<string, Array<{id: string; name: string; f
   'kpsc':       [{id:'upsc', name:'UPSC (India)', flag:'🇮🇳'}, {id:'ras', name:'RAS (India)', flag:'🇮🇳'}],
 
   // ── International University Admissions ───────────────────
-  'acsee':      [{id:'waec', name:'WAEC (Nigeria)', flag:'🇳🇬'}, {id:'ncee', name:'NCEE (Nigeria)', flag:'🇳🇬'}],
-  'legon-adm':  [{id:'waec', name:'WAEC (Nigeria)', flag:'🇳🇬'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
+  'acsee':      [{id:'waec', name:'WAEC (West Africa)', flag:'🇳🇬'}, {id:'ncee', name:'NCEE (Nigeria)', flag:'🇳🇬'}],
+  'legon-adm':  [{id:'waec', name:'WAEC (West Africa)', flag:'🇳🇬'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
   'aau':        [{id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
   'emu-entrance': [{id:'aau', name:'AAU (Ethiopia)', flag:'🇪🇹'}],
 };

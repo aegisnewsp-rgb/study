@@ -127,5 +127,3 @@ By interpreting "life" as meaningful existence rather than mere animal survival 
 
 - **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Fundamental Rights (Articles 12-35)" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
-- **[All Indian Polity notes](/notes/kpsc/indian-polity/)** — browse sibling topics in this subject

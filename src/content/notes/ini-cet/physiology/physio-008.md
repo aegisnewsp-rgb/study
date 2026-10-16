@@ -159,5 +159,3 @@ A strongly positive free water clearance ($+6.25\text{ mL/min}$, or $+9.0\text{ 
 
 - **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Renal Physiology: Tubular Transport and Urine Formation" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
-- **[All Physiology notes](/notes/ini-cet/physiology/)** — browse sibling topics in this subject

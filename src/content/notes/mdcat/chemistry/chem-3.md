@@ -158,5 +158,3 @@ Gases with high critical temperatures ($\\text{NH}_3: 132.4^\\circ\\text{C}, \\t
 
 - **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "States of Matter" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
-- **[All Chemistry notes](/notes/mdcat/chemistry/)** — browse sibling topics in this subject

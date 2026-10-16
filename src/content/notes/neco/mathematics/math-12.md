@@ -162,5 +162,3 @@ If the computed area equals zero, the three points are strictly collinear.
 
 - **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Coordinate Geometry and Graphs" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
-- **[All Mathematics notes](/notes/neco/mathematics/)** — browse sibling topics in this subject

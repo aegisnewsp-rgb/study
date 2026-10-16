@@ -127,5 +127,3 @@ A level of 25.0 mg/L exceeds the 20 mg/L toxic threshold. The patient requires t
 
 - **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Renal and Respiratory Pharmacology" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
-- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject

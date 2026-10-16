@@ -70,6 +70,10 @@ function makeEnv({ zoneEnabled = true, multitagEnabled = false, vignetteEnabled 
     popunderTag: 'https://al5sm.com/tag.min.js',
     pubKey: 'sr:pu:ts', sessionKey: 'sr:pu:session', geoKey: 'sr:geo', pageGeo: 'IN',
     restricted: ['DE', 'FR', 'GB', 'CH'], crawlerSrc, crawlerFlags,
+    // Mirrors NO_DEMAND_GEOS in src/lib/ads.ts. Without this key every geo
+    // case silently exercised the `|| []` fallback added in ea7422cc rather
+    // than the real gate, so the gate had no coverage at all.
+    noDemand: ['SG', 'CN'],
     aiRefSrc: '$^', aiRefFlags: '', allowPopunder: true, allowMultitag: true, host: 'studyroadmap.in',
   };
   const mk = (init = {}) => { const m = new Map(Object.entries(init)); return { getItem: k => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: k => m.delete(k) }; };
@@ -142,6 +146,33 @@ const cases = [
   ['WebDriver automation       ', { webdriver: true }, env => env.ids.length === 0 && env.ad.reason === 'automation'],
   ['declared crawler           ', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.ids.length === 0 && env.ad.reason === 'crawler'],
   ['popunder switch off        ', { zoneEnabled: false }, env => env.ids.length === 1 && env.ad.popunderSkipped === 'zone-not-serving'],
+
+  // ---- no-demand geos (SG/CN), shipped in a214425e ------------------------
+  // Monetag does not bid in these geos, so loading nothing is correct rather
+  // than a revenue loss. Both cases below assert the LOAD FLAGS, not `ids`:
+  // `ids` is the script list at makeEnv time and stays populated for every
+  // consent-reasoned case.
+  //
+  // Case A is the path that actually suppresses loads: geo is known by the time
+  // gate() first runs (cached sr:geo, or the trace resolving before consent).
+  ['SG loads nothing when geo is known ', { geo: 'SG', consent: 'unknown' }, env => env.ad.reason === 'no-demand-geo' && env.ad.vignette === false && env.ad.popunder === false],
+  ['CN loads nothing when geo is known ', { geo: 'CN', consent: 'unknown' }, env => env.ad.reason === 'no-demand-geo' && env.ad.vignette === false && env.ad.popunder === false],
+  // Control: the gate must not over-fire. A wrong code list, or a truthy
+  // default, would silently zero ad loads site-wide while every other case
+  // stayed green.
+  ['no-demand gate spares IN           ', { geo: 'IN', consent: 'unknown' }, env => env.ad.reason === 'eligible' && env.ad.vignette === true],
+
+  // CHARACTERISATION TEST - pins a known defect, do not read it as desired
+  // behaviour. gate() fails open when consent is already granted and geo is not
+  // yet resolved: `!state.visitorGeo` + granted takes the startAds() branch
+  // before the /cdn-cgi/trace promise settles. On a session's first page view
+  // ConsentManager's trace resolves first (its fetch starts earlier), so this
+  // ordering is reachable in production; the tags load and only THEN is
+  // state.reason relabelled 'no-demand-geo'. startAds() is guarded by `started`,
+  // so the later label is cosmetic. This assertion will FAIL when the fail-open
+  // branch is fixed - that is the point. Flip it to false/true then, and drop
+  // this case.
+  ['KNOWN DEFECT SG loads when consent beats geo', { geo: 'SG', consent: 'granted' }, env => env.ad.reason === 'no-demand-geo' && env.ad.vignette === true && env.ad.popunder === true],
 
   // Push opt-in (zone 11798846). The measured failure mode is a permission
   // request without a gesture, which browsers suppress or ignore — so the

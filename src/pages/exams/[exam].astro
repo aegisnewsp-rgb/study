@@ -352,7 +352,12 @@ const conductingBody = (() => {
       if (host.includes('iim')) return 'Indian Institutes of Management (IIM)';
       if (host.includes('iit')) return 'Indian Institute of Technology (IIT)';
       if (host.includes('cbse')) return 'Central Board of Secondary Education (CBSE)';
-      if (host.includes('ets')) return 'Educational Testing Service (ETS)';
+      // Anchored to the registrable domain. The previous `host.includes('ets')`
+      // also matched unrelated hosts that merely contain those three letters,
+      // e.g. doenets.lk (Department of Examinations, Sri Lanka).
+      if (host === 'ets.org' || host.endsWith('.ets.org')) return 'Educational Testing Service (ETS)';
+      if (host === 'doenets.lk' || host.endsWith('.doenets.lk')) return 'Department of Examinations, Sri Lanka';
+      if (host.includes('apsche')) return 'Andhra Pradesh State Council of Higher Education (APSCHE)';
       return host.replace(/^www\./, '');
     } catch {
       // fallback

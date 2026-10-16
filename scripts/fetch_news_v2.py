@@ -163,8 +163,14 @@ def score_item(item: dict) -> float:
     score -= min(10, routine_count * 3)
 
     # ── Quality (max 10 pts) ───────────────────────────────────────────────────
-    # Longer descriptions with specifics suggest depth
-    desc_len = len(desc)
+    # Longer descriptions with specifics suggest depth.
+    # Measure the PROSE depth: RSS <description> is stored verbatim including
+    # CDATA wrappers and <a href>/<img> tags, so raw byte length counts markup
+    # as depth and lets empty navigation artifacts outrank real articles.
+    # Strip tags for measurement only — desc itself is left untouched, so the
+    # stored and reader-visible description does not change.
+    desc_prose = re.sub(r'<[^>]+>', ' ', desc)
+    desc_len = len(desc_prose.strip())
     if desc_len > 200:
         score += 6
     elif desc_len > 80:
@@ -172,7 +178,7 @@ def score_item(item: dict) -> float:
     # Numbers in title (dates, years, scores) suggest concrete info
     if re.search(r'\b(202\d|20\d\d)\b', title):
         score += 2
-    if re.search(r'\b\d+\b', desc) and desc_len > 100:
+    if re.search(r'\b\d+\b', desc_prose) and desc_len > 100:
         score += 2
 
     return max(0.0, min(100.0, score))

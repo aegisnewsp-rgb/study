@@ -195,7 +195,7 @@ Cholesterol → Pregnenolone → 17-OH Pregnenolone → DHEA → Androstenedione
 **Sperm Transport**:
 - **Epididymis**: 2–12 days (sperm gain motility and maturity)
 - **Vas deferens**: Storage and transport
-- **Ejaculatory duct*: Contributes seminal fluid (fructose)
+- **Ejaculatory duct**: Contributes seminal fluid (fructose)
 - **Urethra**: Final passage
 
 **Accessory Sex Gland Secretions**:

@@ -64,7 +64,7 @@ HAT-UG Analytical Reasoning in most keys presents a one-sentence advisory or war
 
 - Always scan for the speaker's **intent** first — it in many papers reveals the assumption.
 - Beware options that *strengthen* the statement; strengthening is not presupposing.
-- Discard assumptions that are ** true; the test demands *necessity*.
+- Discard assumptions that are **true**; the test demands *necessity*.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
@@ -76,7 +76,7 @@ Examiners commonly insert options that *sound* reasonable in everyday life but a
 #### Common mistakes
 
 - Selecting options that only *support* the statement rather than *presuppose* it.
-- Marking assumptions that are ** true as implicit; the test needs *necessary* truth.
+- Marking assumptions that are **true** as implicit; the test needs *necessary* truth.
 - Ignoring the speaker's motive behind warnings, requests, and recommendations.
 - Confusing inference (what follows) with assumption (what must already hold).
 

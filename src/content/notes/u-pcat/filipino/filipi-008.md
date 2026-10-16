@@ -76,7 +76,7 @@ Match the verb in the item to the technique. "*Ayon sa teksto*" and "*tukoy na d
 #### Practice prompts
 
 1. Read a 12-line Filipino paragraph in 30 seconds; write the **pangunahing ideya** in one sentence using only topic sentences.
-2. Given a 20-line passage, locate the exact year, the author's name, and the word *samakatuwid** in under 40 seconds using scanning only.
+2. Given a 20-line passage, locate the exact year, the author's name, and the word *samakatuwid* in under 40 seconds using scanning only.
 
 ---
 

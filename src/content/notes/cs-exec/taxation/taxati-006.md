@@ -369,7 +369,7 @@ The credit of STT is available only if:
 | **Demerger** | One company splits into two or more companies | Under Section 2(19AA), tax-neutral if conditions met |
 | **Merger** | Similar to amalgamation | Same as amalgamation |
 | **Slump Sale** | Sale of entire business as a going concern | Section 50B — gains taxable as capital gains |
-| ** hive-off | Transfer of division to new company | Demerger provisions may apply |
+| hive-off | Transfer of division to new company | Demerger provisions may apply |
 
 #### 8.2 Section 2(1A) — Definition of Amalgamation
 

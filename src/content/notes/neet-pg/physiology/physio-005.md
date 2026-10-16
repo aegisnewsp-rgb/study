@@ -335,7 +335,7 @@ SA node → Atrial muscle → AV node → Bundle of His → Left and right bundl
 - Vasodilation
 - Inhibits renin and aldosterone
 
-⚡ **Exam tip**: ACE inhibitors (captopril, enalapril) block conversion of Ang I → Ang II → ↓ efferent arteriolar pressure → beneficial in diabetic nephropathy; ** Cough is a common side effect (bradykinin accumulation)
+⚡ **Exam tip**: ACE inhibitors (captopril, enalapril) block conversion of Ang I → Ang II → ↓ efferent arteriolar pressure → beneficial in diabetic nephropathy; **Cough is a common side effect** (bradykinin accumulation)
 
 ### Cardiovascular Adjustments
 

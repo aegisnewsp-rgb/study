@@ -26,7 +26,7 @@ This topic groups the inorganic chemistry of the metals you meet most often at A
 - Reactivity with water increases down the group: $2Na + 2H_2O \rightarrow 2NaOH + H_2$.
 - Flame colours: Li crimson-red, Na yellow, K lilac, Rb red-violet, Cs blue.
 
-**Group 2 (alkaline earth metals, Be → Ba):
+**Group 2 (alkaline earth metals, Be → Ba):**
 - Harder, denser than Group 1; also stored to exclude air.
 - Oxides ($MO$) and hydroxides ($M(OH)_2$); hydroxides get more soluble down the group ($Be(OH)_2$ amphoteric, $Ba(OH)_2$ strongly alkaline).
 - Carbonates decompose on heating: $CaCO_3 \rightarrow CaO + CO_2$ (the basis of cement and lime manufacture).

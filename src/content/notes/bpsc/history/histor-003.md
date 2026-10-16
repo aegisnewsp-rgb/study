@@ -75,7 +75,7 @@ The **Delhi Sultanate (1206–1526 CE)** was established by Qutb-ud-din Aibak af
 #### The Khilji Dynasty (1290–1320)
 
 **Jalal-ud-din Khilji (1289–1296):**
-- Seized power from Balban's grandson; **forgave** his enemies — a policy of ** reconciliation
+- Seized power from Balban's grandson; **forgave** his enemies — a policy of **reconciliation**
 - First Sultanate ruler to expand into **South India** (Gujarat, Jhansi, Dwaraka)
 - His nephew **Ala-ud-din Khilji** murdered him to take the throne
 

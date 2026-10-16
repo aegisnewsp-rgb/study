@@ -98,7 +98,7 @@ The 2025 entry conversion (5** = 8.5, 5* = 7, 5 = 5.5) is different from the pre
 
 #### Exam technique
 
-- **For "what is the conversion for 5**?" questions**: state 8.5 explicitly.
+- **For "what is the conversion for 5\*\*?" questions**: state 8.5 explicitly.
 - **For "what is the conversion for Category B?" questions**: state the Category B table.
 
 #### Common misconceptions (and the correction)

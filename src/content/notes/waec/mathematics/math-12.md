@@ -102,7 +102,7 @@ Intersection point: $\left(\frac{2}{3}, \frac{13}{3}\right)$
 
 **Coordinate Geometry of Circles:**
 
-**Equation of a circle with centre $(h, k)$ and radius $r$:
+**Equation of a circle with centre $(h, k)$ and radius $r$:**
 $$(x - h)^2 + (y - k)^2 = r^2$$
 
 *Problem*: Find the equation of a circle with centre (3, -2) and radius 5.

@@ -107,7 +107,7 @@ A librarian noticed that visitors stayed longer when materials were easier to fi
 Every wrong option is built by a method. Learn the methods and the options stop being random.
 
 - **Echo distractor:** reuses passage words but reverses actor, cause, or sequence. If delays continue after routes open, "the new routes caused the delays" borrows the wording and inverts the link.
-- **Over-generalisation:** turns *some*, **, or *may* into *all*.
+- **Over-generalisation:** turns *some*, or *may* into *all*.
 - **Outside-knowledge distractor:** true in the world, absent from the passage. Dhaka may have such a policy; that settles nothing here.
 - **Absolute quantifier:** *every, never, only,* and *impossible*. One hedge in the passage kills it.
 - **Two true halves:** each clause supported, but the joined claim is not. Test the join, not the clauses.

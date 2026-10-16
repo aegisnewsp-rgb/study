@@ -160,7 +160,7 @@ The TCA cycle intermediates are drawn off for biosynthetic reactions — anapler
 
 #### The Citric Acid Cycle in Context
 
-** amphibolic: Both catabolic and anabolic functions
+**amphibolic: Both catabolic and anabolic functions**
 
 **Catabolic uses:**
 - Glucose oxidation (via glycolysis → acetyl-CoA → TCA)

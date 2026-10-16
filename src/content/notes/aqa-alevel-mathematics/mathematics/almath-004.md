@@ -95,7 +95,7 @@ To evaluate Σ from k=1 to n of (3k² − 2k + 5): split into 3 Σ k² − 2 Σ 
 
 #### Recurrence relations
 
-A recurrence relation defines aₙ in terms of earlier terms. The first term (or first few terms) is given explicitly, and the rule generates the rest.**
+A recurrence relation defines aₙ in terms of earlier terms. The first term (or first few terms) is given explicitly, and the rule generates the rest.
 
 **Worked example.** Given a₁ = 3, aₙ₊₁ = 2aₙ − 1, find a₄.
 

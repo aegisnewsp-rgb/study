@@ -1,0 +1,10 @@
+{
+ "brokenTargets": [],
+ "indexableOrphans": [
+  "/50x",
+  "/blog",
+  "/monetag_dd2db0a07f698ebaba6882a4873ffe84"
+ ],
+ "note": "Empty brokenTargets = measured zero broken internal links across all emitted pages at 2026-10-16T04:05Z. indexableOrphans are REPORT-ONLY, each needs an owner decision, not a silent edit: /50x has no source page (emitted without src/pages/50x.astro, provenance unresolved); /blog is a real src/pages/blog route with 9 indexable posts, unreachable from any internal link because Navbar.astro is LOCKED; /monetag_<id>.html is the Monetag ad-network verification file, which ad networks expect to be fetchable. Do not grow this list silently — a new entry here is a decision, not a fix.",
+ "updated": "2026-10-16T04:05:00Z"
+}

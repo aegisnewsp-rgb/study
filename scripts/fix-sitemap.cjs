@@ -60,6 +60,123 @@ if (examIds.length === 0) {
 }
 
 const today = new Date().toISOString().split('T')[0];
+
+// ---------------------------------------------------------------------------
+// SOURCE-DATE RESOLVER (vqzo 2026-10-16, MEASURED against the live corpus)
+// ---------------------------------------------------------------------------
+// Why this exists. STEP 4/5/6b appended `<lastmod>${today}</lastmod>` to every
+// URL they added. `today` is the BUILD date, so those entries assert the page
+// changed on the day the site was deployed. Measured live 2026-10-16
+// (sitemap-0.xml, HTTP 200, 862,035 B, 5,062 blocks): 3,293 isoDatetime +
+// 1,769 date-only, and ALL 1,769 date-only values hold the IDENTICAL date
+// (2026-10-16). One build-stamp cohort, not 1,769 independent edit dates.
+//
+// The earlier proposed fix dropped all 1,769 (patches/…-SHAPE.diff). That
+// discards real recency: the true dates are already in this repo. Measured
+// coverage of a source-derived rule over the live 1,769:
+//   1,744 (98.6%) resolve to a real content date from source
+//      study-plan 1,014 | notes 415 | exams 255 | exam-dates 26 | compare 25 | blog 9
+//    25 (1.4%) are genuinely dateless hubs/utility pages (about, privacy,
+//      terms, contact, the /notes/ index, ...). Those emit NO <lastmod> at
+//      all, which is valid sitemap XML — an absent tag claims nothing.
+// So this is not "drop recency"; it replaces a false date with the true one
+// on 98.6% of the cohort and removes the claim on the remaining 1.4%.
+//
+// Rules, each traceable to a source field that already exists:
+//   /exams/<id>/, /exams/<id>/<spoke>/  -> examLastUpdated[id]     (ExamTemplate.lastUpdated)
+//   /study-plan/<id>/...               -> examLastUpdated[id]     (spoke is derived from the exam)
+//   /compare/<a>-vs-<b>/               -> min(a,b)               (older of the two: conservative)
+//   /notes/<section>/...               -> newest member note lastUpdated (section index page)
+//   /exam-dates/<exam>/<event>/<date>/ -> the date in the URL path (it IS the page's subject)
+//   /blog/<slug>/                      -> publishDate frontmatter
+// No rule falls back to `today`. Absent a source date, the tag is omitted.
+const examsSrcBase = path.join(__dirname, '..', 'src', 'data', 'exams');
+const examLastUpdated = (() => {
+  const map = new Map();
+  const walk = dir => {
+    let entries;
+    try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+    for (const ent of entries) {
+      const full = path.join(dir, ent.name);
+      if (ent.isDirectory()) { walk(full); continue; }
+      if (!/\.ts$/.test(ent.name)) continue;
+      let src;
+      try { src = fs.readFileSync(full, 'utf8'); } catch { continue; }
+      const id = src.match(/\bexamId:\s*['"]([^'"]+)['"]/);
+      const lu = src.match(/\blastUpdated:\s*['"](\d{4}-\d{2}-\d{2})['"]/);
+      if (id && lu) map.set(id[1], lu[1]);
+    }
+  };
+  walk(examsSrcBase);
+  return map;
+})();
+
+const notesSrcBase = path.join(__dirname, '..', 'src', 'content', 'notes');
+const notesNewestCache = new Map();
+function notesNewestLastUpdated(relDir) {
+  if (notesNewestCache.has(relDir)) return notesNewestCache.get(relDir);
+  let newest = null;
+  const walk = dir => {
+    let entries;
+    try { entries = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+    for (const ent of entries) {
+      const full = path.join(dir, ent.name);
+      if (ent.isDirectory()) { walk(full); continue; }
+      if (!/\.(md|mdx)$/.test(ent.name)) continue;
+      try {
+        const m = fs.readFileSync(full, 'utf8').match(/^lastUpdated:\s*["']?(\d{4}-\d{2}-\d{2})/m);
+        if (m && (!newest || m[1] > newest)) newest = m[1];
+      } catch {}
+    }
+  };
+  walk(path.join(notesSrcBase, relDir));
+  notesNewestCache.set(relDir, newest);
+  return newest;
+}
+
+const blogPublishDate = (() => {
+  const map = new Map();
+  let files;
+  try { files = fs.readdirSync(path.join(__dirname, '..', 'src', 'pages', 'blog')); } catch { return map; }
+  for (const f of files) {
+    if (!/\.astro$/.test(f)) continue;
+    try {
+      const m = fs.readFileSync(path.join(__dirname, '..', 'src', 'pages', 'blog', f), 'utf8')
+        .match(/publishDate\s*=\s*['"](\d{4}-\d{2}-\d{2})['"]/);
+      if (m) map.set(f.replace(/\.astro$/, ''), m[1]);
+    } catch {}
+  }
+  return map;
+})();
+
+// Full-URL form (works for blocks already in the sitemap as well as new ones).
+function sourceLastmodFor(fullUrl) {
+  let p;
+  try { p = new URL(fullUrl).pathname; } catch { return null; }
+  const seg = p.split('/').filter(Boolean);
+  if (!seg.length) return null;
+  if (seg[0] === 'exams' && seg.length >= 2 && examLastUpdated.has(seg[1])) return examLastUpdated.get(seg[1]);
+  if (seg[0] === 'study-plan' && seg.length >= 2 && examLastUpdated.has(seg[1])) return examLastUpdated.get(seg[1]);
+  if (seg[0] === 'compare' && seg.length >= 2) {
+    const pair = seg[1].split('-vs-');
+    if (pair.length === 2 && examLastUpdated.has(pair[0]) && examLastUpdated.has(pair[1])) {
+      return [examLastUpdated.get(pair[0]), examLastUpdated.get(pair[1])].sort()[0];
+    }
+    return null;
+  }
+  if (seg[0] === 'exam-dates') {
+    const dated = p.match(/\/(\d{4}-\d{2}-\d{2})\/?$/);
+    if (dated) return dated[1];
+    if (seg.length >= 2 && examLastUpdated.has(seg[1])) return examLastUpdated.get(seg[1]);
+    return null;
+  }
+  if (seg[0] === 'notes') {
+    return notesNewestLastUpdated(seg.slice(1).join('/')) || (seg.length === 1 ? notesNewestLastUpdated('') : null);
+  }
+  if (seg[0] === 'blog' && seg.length === 2 && blogPublishDate.has(seg[1])) return blogPublishDate.get(seg[1]);
+  return null;
+}
+
 const BASE_URL = 'https://studyroadmap.in';
 
 // Read raw sitemap
@@ -163,13 +280,29 @@ sitemap = sitemap.replace(/(<url>[\s\S]*?<\/url>)/g, (urlBlock) => {
   //      on every newly appended URL, which is how the cohort keeps growing.
   const existingLm = [...urlBlock.matchAll(/<lastmod>([^<]*)<\/lastmod>/g)]
     .map(m => m[1]).filter(Boolean);
-  const realLm = existingLm.find(v => v.slice(0, 10) !== today);
-  const lastmod = realLm || existingLm[0] || today;
+  const locM = urlBlock.match(/<loc>([^<]*)<\/loc>/);
+  // Prefer a date resolved from SOURCE over anything the sitemap already
+  // carried. `today` in an existing value means build stamp, not content date.
+  const srcDate = locM ? sourceLastmodFor(locM[1]) : null;
+  // Fallback ONLY accepts an isoDatetime-shaped value. A date-only value in
+  // this corpus is always a build stamp: every genuine content date reaches
+  // the sitemap as YYYY-MM-DDTHH:mm:ss.sssZ (astro.config serialize() and
+  // note frontmatter both produce that shape), and the only producer of a
+  // bare YYYY-MM-DD is this script's own `${today}` injection. Accepting a
+  // date-only value here is what lets the stamp re-adopt itself on the NEXT
+  // deploy, because `v !== today` is true again once the build date moves on.
+  const realLm = srcDate || existingLm.find(v => /^\d{4}-\d{2}-\d{2}T/.test(v));
+  // MEASURED s1144 (2026-10-16): a <lastmod> whose date equals the build date is a build
+  // artefact, not a content date. Note `existingLm[0]` is ALSO a stamp: this script is
+  // idempotent, so once a prior run wrote a build-date value that value survives on every
+  // later run and gets re-adopted. Removing only the injection left 1769 bare stamps in
+  // place (measured 1769 -> 1769). Drop both: emit <lastmod> only for a real content date.
+  const lastmod = realLm || null;
   let fixed = urlBlock
     .replace(/<lastmod>[^<]*<\/lastmod>/g, '')
     .replace(/<priority>[^<]*<\/priority>/g, '')
     .replace(/<changefreq>[^<]*<\/changefreq>/g, '');
-  fixed = fixed.replace('</loc>', `</loc><lastmod>${lastmod}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>`);
+  fixed = fixed.replace('</loc>', `</loc>${lastmod ? `<lastmod>${lastmod}</lastmod>` : ''}<changefreq>${changefreq}</changefreq><priority>${priority}</priority>`);
   return fixed;
 });
 
@@ -219,9 +352,11 @@ if (lastClosingIndex !== -1) {
 // STEP 2: Add <lastmod> to all <url> entries that don't have one
 // Also repair any malformed closing tag position from previous buggy runs
 sitemap = sitemap.replace(/<url>([\s\S]*?<\/url>)/g, (match, inner) => {
-  if (inner.includes('<lastmod>')) return match;
-  // Insert <lastmod> right after the first </loc>
-  return `<url>${inner.replace('</loc>', `</loc><lastmod>${today}</lastmod>`)}`;
+  // MEASURED s1144: this step WAS the primary injector - it stamped `today` into every URL
+  // block that had none. STEP 1 has already collapsed duplicates and kept only real content
+  // dates, so anything still lacking a lastmod here genuinely has none. Omit the tag rather
+  // than assert a false one; a missing <lastmod> is valid sitemaps XML.
+  return match;
 });
 
 // STEP 3a: Strip URLs whose rendered HTML carries `<meta name="robots" content="noindex...">`.
@@ -295,7 +430,10 @@ const newExamUrls = examIds
     }
     return true;
   })
-  .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);
+  .map(id => {
+    const lm = sourceLastmodFor(`${BASE_URL}/exams/${id}/`);
+    return `<url><loc>${BASE_URL}/exams/${id}/</loc>${lm ? `<lastmod>${lm}</lastmod>` : ''}</url>`;
+  });
 if (reAddSkippedNoindex > 0) console.log(`Sitemap: refused to re-add ${reAddSkippedNoindex} noindexed exam hubs`);
 
 // STEP 5: Add notes pages to sitemap
@@ -318,7 +456,8 @@ function scanNotesDir(dir, urlPath) {
         } else {
           const noteUrl = `${BASE_URL}${newUrlPath}/`;
           if (!existingUrls.has(noteUrl)) {
-            noteUrls.push(`<url><loc>${noteUrl}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`);
+            const noteLm = sourceLastmodFor(noteUrl);
+            noteUrls.push(`<url><loc>${noteUrl}</loc>${noteLm ? `<lastmod>${noteLm}</lastmod>` : ''}<changefreq>weekly</changefreq><priority>0.6</priority></url>`);
           }
         }
       }
@@ -344,7 +483,10 @@ const staticPages = [
 const staticUrls = staticPages
   .map(p => `${BASE_URL}${p}`)
   .filter(url => !existingUrls.has(url))
-  .map(url => `<url><loc>${url}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
+  .map(url => {
+    const lm = sourceLastmodFor(url);
+    return `<url><loc>${url}</loc>${lm ? `<lastmod>${lm}</lastmod>` : ''}<changefreq>weekly</changefreq><priority>0.7</priority></url>`;
+  });
 
 // STEP 6b: Catch-all — walk dist/ recursively, add any index.html whose URL is missing.
 // Covers /exams/{id}/{spoke}/, /study-plan/{id}/{d}/, /compare/{pair}/, /after-12th/{stream}/,
@@ -368,7 +510,8 @@ function walkCatchAll(dir, urlPath) {
             // the sitemap-vs-noindex mismatch as a quality problem.
             const html = fs.readFileSync(path.join(full, 'index.html'), 'utf8');
             if (!/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
-              catchAllUrls.push(`<url><loc>${u}</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`);
+              const clm = sourceLastmodFor(u);
+              catchAllUrls.push(`<url><loc>${u}</loc>${clm ? `<lastmod>${clm}</lastmod>` : ''}<changefreq>monthly</changefreq><priority>0.6</priority></url>`);
             }
           }
         }

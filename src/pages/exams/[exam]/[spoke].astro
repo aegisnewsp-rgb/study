@@ -145,6 +145,11 @@ const patternText = (exam.examPattern || '').trim();
 const hasRichEligibility = eligibilityText.length >= 80;
 const hasRichPattern = patternText.length >= 80;
 const hasSubstantialSyllabus = totalTopics >= 8 && subjects.length >= 1 && !isPlaceholderSyllabus;
+// Weight-tombstone guard: most awarding bodies publish no per-Unit weightage, and
+// those subject modules deliberately omit the field. Rendering w{t.weight}
+// unguarded emits a lone "w" for every such topic, and the prose below must not
+// promise weightage cues the page does not carry.
+const hasAnyWeight = allTopics.some((t: any) => typeof t.weight === 'number' && Number.isFinite(t.weight));
 
 const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
 
@@ -203,11 +208,19 @@ const overviewBlurb = (exam.description || '').trim()
       {spoke === 'syllabus' && (
         <div>
           <h2 class="text-2xl font-bold mb-4">{examName} syllabus overview — {subjects.length} subjects, {totalTopics} topics</h2>
-          <p>
-            The {examName} syllabus below is organised by subject with weightage cues (1–5) so you know what to revise first.
-            Weightings are derived from how often topics appear in competitive practice patterns and official outlines —
-            they are a planning tool, not a guarantee of question counts in any single paper.
-          </p>
+          {hasAnyWeight ? (
+            <p>
+              The {examName} syllabus below is organised by subject with weightage cues (1–5) so you know what to revise first.
+              Weightings are derived from how often topics appear in competitive practice patterns and official outlines —
+              they are a planning tool, not a guarantee of question counts in any single paper.
+            </p>
+          ) : (
+            <p>
+              The {examName} syllabus below is organised by subject and lists every Unit in the order the awarding body publishes it.
+              This awarding body does not release per-Unit assessment weightings, so no priority score is shown here —
+              treat the Unit order as the official sequence, not as a revision ranking.
+            </p>
+          )}
           {subjects.length === 0 ? (
             <p class="text-surface-600">Detailed topic lists for {examName} are being expanded. Start with the
               <a href={`/exams/${exam.examId}/`} class="text-brand-600 underline"> exam overview</a> and a free duration-based plan meanwhile.</p>
@@ -221,7 +234,9 @@ const overviewBlurb = (exam.description || '').trim()
                     {(s.topics || []).slice(0, 10).map((t: any) => (
                       <li class="flex justify-between gap-2">
                         <span>{t.name}</span>
-                        <span class="text-xs text-surface-500 shrink-0">w{t.weight}</span>
+                        {t.weight != null && (
+                          <span class="text-xs text-surface-500 shrink-0">w{t.weight}</span>
+                        )}
                       </li>
                     ))}
                   </ul>
@@ -384,7 +399,9 @@ const overviewBlurb = (exam.description || '').trim()
                 {highWeight.slice(0, 8).map((t: any) => (
                   <li class="p-2 rounded border border-surface-200 dark:border-surface-700">
                     <span class="font-medium">{t.name}</span>
-                    <span class="text-surface-500"> · {t.subjectName} · w{t.weight}</span>
+                    <span class="text-surface-500">
+                      {' · '}{t.subjectName}{t.weight != null && ` · w${t.weight}`}
+                    </span>
                   </li>
                 ))}
               </ul>
@@ -503,7 +520,9 @@ const overviewBlurb = (exam.description || '').trim()
                 {highWeight.slice(0, 6).map((t: any) => (
                   <li class="flex justify-between gap-2 border-b border-surface-100 dark:border-surface-800 py-1">
                     <span>{t.name} <span class="text-surface-500">({t.subjectName})</span></span>
-                    <span class="text-xs text-surface-500">w{t.weight}</span>
+                    {t.weight != null && (
+                      <span class="text-xs text-surface-500">w{t.weight}</span>
+                    )}
                   </li>
                 ))}
               </ul>

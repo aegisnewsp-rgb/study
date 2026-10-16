@@ -452,7 +452,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/compare/mdcat-vs-ecat/': {
     title: 'MDCAT vs ECAT: Full Form, Subjects & Difference',
     description:
-      'MDCAT and ECAT full forms, what each test, and how they differ: medical versus engineering, subjects, marks, negative marking and which one you should sit.',
+      'What is MDCAT and ECAT? MDCAT = Medical and Dental College Admission Test, ECAT = Engineering College Admission Test. Subjects, marks, which to pick.',
     query: 'what is mdcat and ecat (40.5%), mdcat and ecat full form (27.0%)',
     gscImpressions: 460,
   },

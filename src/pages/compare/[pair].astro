@@ -5,6 +5,7 @@ import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 import { isCuratedComparePair, curatedComparePartners, COMPARE_TIER1 } from '../../data/compare-curation';
 import { seoMetaFor, validateSeoMetaOverrides } from '../../data/seo-meta-overrides';
+import { expandExamLabel, shortExamLabel, examFullForm } from '../../data/exam-full-forms';
 validateSeoMetaOverrides();
 
 export async function getStaticPaths() {
@@ -48,6 +49,19 @@ const onlyB = [...subjectsB].filter(x => !subjectsA.has(x));
 const totalTopicsA = (examA.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
 const totalTopicsB = (examB.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
 
+// First-screen answer for definitional queries ("what is X and Y", "X full
+// form"). Both names come from data already on the page — no new claim.
+const fullFormA = examFullForm(examA.examId);
+const fullFormB = examFullForm(examB.examId);
+const labelA = expandExamLabel(examA.examId, examA.examName);
+const labelB = expandExamLabel(examB.examId, examB.examName);
+const standsFor = fullFormA && fullFormB
+  ? `${shortExamLabel(examA.examName)} stands for ${fullFormA}. ${shortExamLabel(examB.examName)} stands for ${fullFormB}.`
+  : null;
+const definitionFaq = standsFor
+  ? { q: `What is ${examA.examName} and ${examB.examName}?`, a: `${standsFor} Both are ${examA.country} entrance papers — the table below compares subjects, eligibility and pattern.` }
+  : null;
+
 const BRAND_SUFFIX = ' | StudyRoadmap';
 const _t1 = `${examA.examName} vs ${examB.examName}${BRAND_SUFFIX}`;
 const _titleBase = _t1.length <= 60
@@ -72,6 +86,7 @@ const breadcrumbJsonLd = {
 };
 
 const faqs = [
+  ...(definitionFaq ? [definitionFaq] : []),
   { q: `Can I prepare for ${examA.examName} and ${examB.examName} together?`,
     a: shared.length >= Math.min(subjectsA.size, subjectsB.size) * 0.6
        ? `Yes — ${shared.length} of ${Math.max(subjectsA.size, subjectsB.size)} subjects overlap. Combined preparation saves significant time, especially in the first 60 days. After that, separate the unique sections (${[...onlyA, ...onlyB].slice(0,4).join(', ')}) with focused week-long blocks.`
@@ -112,10 +127,10 @@ const faqJsonLd = {
       <div class="container-page py-10">
         <nav class="text-sm text-surface-500 mb-4"><a href="/" class="hover:text-brand-600">Home</a> › <a href="/compare/" class="hover:text-brand-600">Compare</a> › <span>{examA.examName} vs {examB.examName}</span></nav>
         <h1 class="text-3xl md:text-4xl font-black text-surface-900 dark:text-white mb-3">
-          {examA.examName} vs {examB.examName} {year}: Which Exam is Right for You?
+          {labelA} vs {labelB} {year}: Which Exam is Right for You?
         </h1>
         <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-4">
-          {shared.length} of {Math.max(subjectsA.size, subjectsB.size)} subjects overlap. Structured comparison below — syllabus, difficulty, career path, and which one suits your strengths.
+          {standsFor && <>{standsFor} </>}{shared.length} of {Math.max(subjectsA.size, subjectsB.size)} subjects overlap. Structured comparison below — syllabus, difficulty, career path, and which one suits your strengths.
         </p>
       </div>
     </section>

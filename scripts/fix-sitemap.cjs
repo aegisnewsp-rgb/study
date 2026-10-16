@@ -137,6 +137,30 @@ sitemap = sitemap.replace(/(<url>[\s\S]*?<\/url>)/g, (urlBlock) => {
   // is worthless to Google. This version is idempotent AND self-healing: it
   // collapses existing duplicates to the real date and only stamps today when
   // the URL genuinely has no date of its own (STEP 2's original intent).
+  //
+  // 2026-10-16 CORRECTION (vqzo): the sentence above misnames what the code
+  // actually does, and it has already cost one wasted fix. `realLm` is NOT
+  // "the real content date" -- it is only "the first existing value that is not
+  // today's date". STEP 1 cannot tell a build stamp from a genuine content
+  // date: once a URL is stamped on day X, that stamp is indistinguishable from
+  // a real date and is preserved forever after. Measured against the live
+  // corpus 2026-10-16 (sitemap-0.xml, HTTP 200, 862,035 bytes, 5,062 blocks):
+  // 3,293 isoDatetime + 1,769 date-only, 0 absent -- and all 1,769 date-only
+  // values hold the SAME date (2026-10-16). That is one build-stamp cohort, not
+  // 1,769 independent edit dates. Replaying this predicate over simulated
+  // deploy dates 2026-10-16..20 leaves the distribution identical (delta 0):
+  // these values do NOT advance on deploy, and have not since this rewrite.
+  //
+  // Two consequences, recorded so the next reader is not misled the same way:
+  //   1. Do NOT "fix" this by filtering on `v !== today`. That predicate
+  //      matches nothing after the first day and yields output byte-identical
+  //      to the current file. Already tried once:
+  //      patches/fix-sitemap-omit-false-lastmod.diff -- adjudicated ok=false
+  //      as a proven no-op (861,962 bytes either way over the live corpus).
+  //   2. A real fix needs a shape- or source-based rule, and that is an
+  //      SEO-semantics decision, currently held for the operator. Note also
+  //      that STEP 4 (~lines 274/297/323/347) stamps `today` unconditionally
+  //      on every newly appended URL, which is how the cohort keeps growing.
   const existingLm = [...urlBlock.matchAll(/<lastmod>([^<]*)<\/lastmod>/g)]
     .map(m => m[1]).filter(Boolean);
   const realLm = existingLm.find(v => v.slice(0, 10) !== today);

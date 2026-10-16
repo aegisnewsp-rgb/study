@@ -26,11 +26,11 @@ Here \(x\) is the independent variable, \(n\) is a real exponent, \(C\in\mathbb 
 | Integral | Antiderivative |
 |---|---|
 | \(\displaystyle \int x^n\,dx\) | \(\displaystyle \frac{x^{n+1}}{n+1}+C,\quad n\ne-1\) |
-| \(\displaystyle \int\frac1x\,dx\) | \(\ln|x|+C,\quad x\ne0\) |
+| \(\displaystyle \int\frac1x\,dx\) | \(\ln\|x\|+C,\quad x\ne0\) |
 | \(\displaystyle \int\sin x\,dx\) | \(-\cos x+C\) |
 | \(\displaystyle \int\cos x\,dx\) | \(\sin x+C\) |
 | \(\displaystyle \int e^x\,dx\) | \(e^x+C\) |
-| \(\displaystyle \int\frac{1}{\sqrt{1-x^2}}\,dx\) | \(\arcsin x+C,\quad |x|<1\) |
+| \(\displaystyle \int\frac{1}{\sqrt{1-x^2}}\,dx\) | \(\arcsin x+C,\quad \|x\|<1\) |
 | Constant of integration | Add \(+C\) to every indefinite result |
 
 1. Simplify first, then use a standard antiderivative.

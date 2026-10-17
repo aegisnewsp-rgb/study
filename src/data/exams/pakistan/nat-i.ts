@@ -123,7 +123,7 @@ const exam: ExamTemplate = {
   country: 'pakistan',
   description: `NAT-I (NTS) has 100 MCQs in 2 hours across four sections: Verbal (20), Analytical (20), Quantitative (20) and Subject (40), scored on a 100-point scale. It is Pakistan's aptitude test used by various universities for admission decisions, testing verbal, analytical and quantitative reasoning along with subject knowledge.`,
   examPattern: `100 MCQs in 2 hours. Sections: Verbal (20), Analytical (20), Quantitative (20), Subject (40). Score reported on 100-point scale.`,
-  eligibility: `Bachelor's degree (16 years of education) for postgraduate programs. HSSC for undergraduate. Varies by institution.`,
+  eligibility: `Bachelor's degree (16 years (confirm this against the current NTS official notice before you plan around it) of education) for postgraduate programs. HSSC for undergraduate. Varies by institution.`,
   subjects,
   durations,
   rescueMode,

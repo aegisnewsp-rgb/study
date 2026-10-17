@@ -23,6 +23,21 @@ const args = new Function('return [' + m[1] + ']')();
 const crawlerSrc = args[0];
 const crawlerFlags = args[1] || '';
 
+// Derive NO_DEMAND_GEOS from ads.ts too. A hardcoded copy in this harness is a
+// THIRD literal: production can add or drop a geo and every case below still
+// reports green, so "all guard cases pass" would attest to coverage of a list
+// that no longer exists. Verified 2026-10-17: adding 'ID' to ads.ts left this
+// harness at rc=0 with zero cases covering ID.
+const nd = adsTs.match(/NO_DEMAND_GEOS\s*=\s*\[([^\]]*)\]/);
+if (!nd) {
+  console.error(
+    'FATAL could not extract NO_DEMAND_GEOS from src/lib/ads.ts — the geo ' +
+      'cases below are generated from it, so they would silently cover nothing.'
+  );
+  process.exit(1);
+}
+const NO_DEMAND_GEOS = new Function('return [' + nd[1] + ']')();
+
 const src = readFileSync('src/components/AdRouter.astro', 'utf8');
 const body = src.match(/const js = `\n([\s\S]*?)\n`;/)[1].replace(/\\\\/g, '\\');
 
@@ -70,10 +85,10 @@ function makeEnv({ zoneEnabled = true, multitagEnabled = false, vignetteEnabled 
     popunderTag: 'https://al5sm.com/tag.min.js',
     pubKey: 'sr:pu:ts', sessionKey: 'sr:pu:session', geoKey: 'sr:geo', pageGeo: 'IN',
     restricted: ['DE', 'FR', 'GB', 'CH'], crawlerSrc, crawlerFlags,
-    // Mirrors NO_DEMAND_GEOS in src/lib/ads.ts. Without this key every geo
-    // case silently exercised the `|| []` fallback added in ea7422cc rather
-    // than the real gate, so the gate had no coverage at all.
-    noDemand: ['SG', 'CN'],
+    // Derived from src/lib/ads.ts above, not a second literal. Without this key
+    // every geo case silently exercised the `|| []` fallback added in ea7422cc
+    // rather than the real gate, so the gate had no coverage at all.
+    noDemand: NO_DEMAND_GEOS,
     aiRefSrc: '$^', aiRefFlags: '', allowPopunder: true, allowMultitag: true, host: 'studyroadmap.in',
   };
   const mk = (init = {}) => { const m = new Map(Object.entries(init)); return { getItem: k => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: k => m.delete(k) }; };
@@ -155,8 +170,11 @@ const cases = [
   //
   // Case A is the path that actually suppresses loads: geo is known by the time
   // gate() first runs (cached sr:geo, or the trace resolving before consent).
-  ['SG loads nothing when geo is known ', { geo: 'SG', consent: 'unknown' }, env => env.ad.reason === 'no-demand-geo' && env.ad.vignette === false && env.ad.popunder === false],
-  ['CN loads nothing when geo is known ', { geo: 'CN', consent: 'unknown' }, env => env.ad.reason === 'no-demand-geo' && env.ad.vignette === false && env.ad.popunder === false],
+  ...NO_DEMAND_GEOS.map(geo => [
+    `${geo} loads nothing when geo is known `,
+    { geo, consent: 'unknown' },
+    env => env.ad.reason === 'no-demand-geo' && env.ad.vignette === false && env.ad.popunder === false,
+  ]),
   // Control: the gate must not over-fire. A wrong code list, or a truthy
   // default, would silently zero ad loads site-wide while every other case
   // stayed green.

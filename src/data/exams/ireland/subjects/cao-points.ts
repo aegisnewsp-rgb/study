@@ -12,6 +12,8 @@ import type { Subject } from '../../types';
 // Points Calculation Grid, https://www.cao.ie/index.php?page=scoring&s=lcepointsgrid
 // Source: Central Applications Office - Common Points Scale,
 // https://www.cao.ie/index.php?bb=cps&page=newcps
+// Source: Central Applications Office - CAO Handbook,
+// https://www.cao.ie/handbook
 // Verify the live points scale, bonus-points rule and any in-year rule
 // changes on cao.ie before committing a revision plan.
 export const caoPoints: Subject = {
@@ -26,6 +28,8 @@ export const caoPoints: Subject = {
     { id: 'cao-005', name: 'Matriculation Minimum Requirements', weight: 4 as const, description: 'The minimum subject and grade requirements to be considered for a CAO offer - typically O6/H7 in English, O6/H7 in Mathematics (or F6 in Foundation Maths for some courses) and O6/H7 in two other subjects, plus any course-specific subject requirements.' },
     { id: 'cao-006', name: 'Random Number Allocation', weight: 2 as const, description: 'When candidates are tied on points for the last available place, CAO allocates the place by a random number generated when the application is submitted, independent of grades and order of course choices.' },
     { id: 'cao-007', name: 'Course Points Cut-offs', weight: 4 as const, description: 'The published minimum points for each Level 7/8 course from previous years - the round-by-round CAO points history - and how these relate to a candidate\'s predicted aggregate, including year-on-year variation.' },
-    { id: 'cao-008', name: 'Order of Course Choices', weight: 2 as const, description: 'A candidate lists up to ten Level 7/8 courses in genuine order of preference; CAO allocates one offer per round at the highest preference the candidate is entitled to, regardless of prior-round expectations.' }
+    { id: 'cao-008', name: 'Order of Course Choices', weight: 2 as const, description: 'A candidate lists up to ten Level 7/8 courses in genuine order of preference; CAO allocates one offer per round at the highest preference the candidate is entitled to, regardless of prior-round expectations.' },
+    { id: 'cao-009', name: 'Offer Acceptances and the Allocation Cycle', weight: 3 as const, description: 'After working through this you can explain what accepting or declining an offer does to the candidate\'s position in the next round, and why an earlier offer left on the table can be worth more than the one in front of you now.' },
+    { id: 'cao-010', name: 'Restricted Entry Courses and Supplementary Forms', weight: 3 as const, description: 'After working through this you can spot a course carrying a restriction from the CAO Handbook, work out what it means for your own application, and identify the separate supplementary form or assessment a course requires alongside the CAO application.' }
   ]
 };

@@ -29,7 +29,7 @@ Derivative: dy/dx = lim(h→0) [f(x+h)−f(x)]/h; represents rate of change and 
 d/dx(x^n) = nx^{n−1}; d/dx(sin x) = cos x; d/dx(e^x) = e^x; d/dx(ln x) = 1/x
 Integration: reverse of differentiation; ∫ x^n dx = x^{n+1}/(n+1) + C
 Fundamental theorem: ∫_a^b f(x) dx = F(b) − F(a) where F' = f
-⚡ Exam tip: BUET calculus is the highest-weight section — practice integration by parts and area problems extensively!
+⚡ Exam tip: practice integration by parts and area-under-curve problems extensively!
 
 ---
 
@@ -100,7 +100,6 @@ A = ∫_a^b |f(x) − g(x)| dx
 
 - **Key formula:** d/dx(x^n) = nx^{n−1}; ∫ x^n dx = x^{n+1}/(n+1) + C; ∫_a^b f(x) dx = F(b) − F(a)
 - **Common trap:** Chain rule: d/dx(sin(x²)) = cos(x²) · 2x, not just cos(x²); always multiply by derivative of inner function
-- **Exam weight:** 5–8 questions per exam (20–32 marks); the highest weight section in BUET
 
 ---
 
@@ -195,14 +194,14 @@ d/dx [∫_{a(x)}^{b(x)} f(t) dt] = f(b(x))b'(x) − f(a(x))a'(x)
 | Mode | Written + MCQ depending on year |
 
 ### 🎯 High-Yield Topics for BUET Mathematics
-- Calculus (Differentiation + Integration) — highest weight (20–30 marks)
+- Calculus (Differentiation + Integration) — highest weight
 - Algebra (Quadratics, AP/GP/HP) — very high weight
 - Coordinate Geometry (Circle, Conics) — high weight
 - Trigonometry — medium-high weight
 - Complex Numbers — medium weight
 
 ### 📝 Previous Year Question Patterns
-- Calculus: 5–8 questions per exam, 20–32 marks
+- Calculus
 - Common patterns: differentiation, integration by parts, area under curve, differential equations
 - Weight: very high — must master for BUET admission
 

@@ -87,7 +87,7 @@ Property: 1 + ω + ω² = 0; ω³ = 1; ω² = ω̄
 
 - **Key formula:** z·z̄ = |z|²; [r cis θ]^n = r^n cis nθ; 1 + ω + ω² = 0 for cube roots of unity
 - **Common trap:** arg(z) is NOT simply tan⁻¹(y/x) — always check the quadrant: Q1: tan⁻¹(y/x); Q2: π + tan⁻¹(y/x); Q3: tan⁻¹(y/x) − π; Q4: tan⁻¹(y/x)
-- **Exam weight:** 1–2 questions per exam (4–8 marks); frequently combined with other topics
+- **Exam weight:** frequently combined with other topics
 
 ---
 
@@ -181,14 +181,14 @@ If coefficients are real and discriminant < 0, roots include complex conjugate p
 | Mode | Written + MCQ depending on year |
 
 ### 🎯 High-Yield Topics for BUET Mathematics
-- Calculus (Differentiation + Integration) — highest weight (20–30 marks)
+- Calculus (Differentiation + Integration) — highest weight
 - Algebra (Quadratics, AP/GP/HP) — very high weight
 - Coordinate Geometry (Circle, Conics) — high weight
 - Trigonometry — medium-high weight
 - Complex Numbers — medium weight
 
 ### 📝 Previous Year Question Patterns
-- Complex Numbers: 1–2 questions per exam, 4–8 marks
+- Complex Numbers
 - Common patterns: polar form conversion, de Moivre's theorem, nth roots, geometry in Argand plane
 - Weight: medium — important as foundation
 

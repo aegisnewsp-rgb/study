@@ -87,7 +87,7 @@ x²/a² − y²/b² = 1; focus (±c, 0) where c² = a² + b²; e = c/a > 1
 
 - **Key formula:** Distance point-line: |Ax₁+By₁+C|/√(A²+B²); Circle centre: (−g, −f); tan θ = |(m₂−m₁)/(1+m₁m₂)|
 - **Common trap:** For circle in general form, radius = √(g²+f²−c), not √(g²+f²)
-- **Exam weight:** 2–3 questions per exam (8–12 marks); combined with calculus often
+- **Exam weight:** combined with calculus often
 
 ---
 
@@ -187,7 +187,7 @@ For removing linear terms, complete the square in x and y separately
 - Complex Numbers — medium weight
 
 ### 📝 Previous Year Question Patterns
-- Coordinate Geometry: 2–3 questions per exam, 8–12 marks
+- Coordinate Geometry
 - Common patterns: circle equations, tangent at point, distance point-line, locus
 - Weight: high — frequently combined with calculus
 

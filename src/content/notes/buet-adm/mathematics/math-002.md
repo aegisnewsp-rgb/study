@@ -87,7 +87,7 @@ Compound angles: sin(A+B) = sin A cos B + cos A sin B; cos(A+B) = cos A cos B �
 
 - **Key formula:** sin²θ + cos²θ = 1; sin(A+B) = sin A cos B + cos A sin B; tan(A+B) = (tan A + tan B)/(1 − tan A tan B)
 - **Common trap:** tan(90°) is undefined — not infinity; always be careful with domain restrictions
-- **Exam weight:** 2–3 questions per exam (8–12 marks); foundational for other topics
+- **Exam weight:** foundational for other topics
 
 ---
 
@@ -186,7 +186,7 @@ z^n = r^n (cos nθ + i sin nθ)
 - Complex Numbers — medium weight
 
 ### 📝 Previous Year Question Patterns
-- Trigonometry: 2–3 questions per exam, 8–12 marks
+- Trigonometry
 - Common patterns: compound angle formulas, solving trig equations, proving identities, finding specific angle values
 - Weight: medium-high — foundations needed for calculus
 

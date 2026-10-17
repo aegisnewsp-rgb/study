@@ -12,9 +12,11 @@ lastUpdated: "2026-09-25"
 ---
 # Mechanics — ACSEE (Tanzania)
 
-Mechanics is the largest single block on the ACSEE Physics syllabus. In the NECTA 131/1 paper it accounts for roughly one quarter of the marks, and the related items from the Questions/structured parts of 131/2 also draw on the same mechanics core. The exam tests the kinematics and dynamics toolkit you built at O-Form plus the harder applications: projectiles launched from a height, energy methods on inclined planes, momentum in two dimensions, and simple rotational motion. The assumptions are idealised (negligible air resistance, inextensible strings, point masses) unless the question says otherwise, and units must be SI throughout.
+Mechanics carries 3 of the 10 questions on NECTA 131/1 Physics 1, and NECTA's table of specifications gives the topic a 22.57% weight - joint-highest with Electronics, not the single largest block. Where the topic reappears it matters more than anywhere else on the paper: 131/2 Physics 2 does not assess mechanics at all, and on 131/3 Physics 3 mechanics is 1 of only 3 questions yet takes 42.19% of the weight, the heaviest single item on that paper. Plan 131/3 as the mechanics paper instead of expecting mechanics items on 131/2. The exam tests the kinematics and dynamics toolkit you built at O-Form plus the harder applications: projectiles launched from a height, energy methods on inclined planes, momentum in two dimensions, and simple rotational motion. The assumptions are idealised (negligible air resistance, inextensible strings, point masses) unless the question says otherwise, and units must be SI throughout.
 
 > Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz.
+
+Source for the 131/1, 131/2 and 131/3 paper structures and per-topic weights quoted above (NECTA Approved Examination Formats, Physics 131, section 5.0 and the three tables of specifications): https://www.necta.go.tz/publications/Approved%20Exam%20Formats/ACSEE_FORMATS_2019.pdf
 
 ### 🟢 Lite — Quick Review (1h-1d)
 > Survive the first paper with the toolkit you already half-remember.

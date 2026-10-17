@@ -91,6 +91,15 @@ function emittedPages() {
     else p = '/' + rel.slice(0, -'.html'.length);
     pages.set(canon(p), full);
   }
+  // An EMPTY dist/ is not a pass. The existsSync guard above only catches a
+  // missing directory; a half-finished or wiped build leaves an empty one, and
+  // that turns this gate into a green line that measured nothing. Measured
+  // 2026-10-17T12:40Z: dist/ existed with 0 html, the gate printed
+  // "0 emitted pages ... OK - no new broken links", and exited 0.
+  if (pages.size === 0) {
+    console.error(`check-internal-links: ${DIST} exists but contains no HTML — an empty build is not a pass; run a build first`);
+    process.exit(2);
+  }
   return pages;
 }
 

@@ -135,7 +135,7 @@ const exam: ExamTemplate = {
   examName: 'ECAT (Engineering College Admission Test)',
   country: 'pakistan',
   description: 'ECAT (Engineering College Admission Test) is Pakistan\'s test for engineering university admissions. Conducted by UET Lahore and other universities, it covers Physics, Chemistry, Mathematics, and English.',
-  examPattern: 'As administered by University of Engineering and Technology (UET) Lahore (https://ecat.uet.edu.pk), the entrance test consists of 100 MCQs (400 marks total across Physics, Chemistry/Computer, Mathematics, and English) with a duration of 2 hours (120 minutes). In the official marking scheme, each correct answer is awarded 4 marks, with negative marking for incorrect options as notified in the current bulletin.',
+  examPattern: 'As administered by University of Engineering and Technology (UET) Lahore (https://ecat.uet.edu.pk), the entrance test consists of 100 MCQs (400 marks total across Physics, Chemistry/Computer, Mathematics, and English) with a duration of 100 minutes. In the official marking scheme each correct answer is worth four points; ten questions are English and the remaining ninety are divided equally among the other three subjects. There is no passing threshold for any programme and no negative marking (UET Lahore states both at https://ecat.uet.edu.pk/General/Ecat).',
   eligibility: 'Per the official UET admission policy (https://ecat.uet.edu.pk), candidates must have passed intermediate FSc (Pre-Engineering) or an equivalent examination with a minimum 60% aggregate marks. Candidates awaiting HSSC Part-II results who have cleared Part-I may apply provisionally as prescribed.',
   subjects,
   durations,

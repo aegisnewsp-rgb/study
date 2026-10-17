@@ -65,6 +65,15 @@ function walk(dir, out = []) {
 }
 
 const files = walk(DIST);
+// The no-dist soft pass above is intentional. This is NOT that case: dist/ exists
+// but holds no HTML, so the scan below would cover zero pages and still print
+// "all disclosed and rel-tagged" as an all-clear. Measured 2026-10-17T12:48Z on an
+// empty dist: "0 pages scanned, 0 affiliate link(s) across 0 page(s), all disclosed
+// and rel-tagged", exit 0. An all-clear must never be able to describe zero pages.
+if (files.length === 0) {
+  console.error(`affiliate-guard: ${DIST} exists but contains no HTML — cannot certify disclosure. Run a build first.`);
+  process.exit(2);
+}
 const failures = [];
 const anchorRe = /<a\b[^>]*>/gi;
 let affiliatePages = 0;

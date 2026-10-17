@@ -19,7 +19,7 @@
 // V8 parser and reports the same SyntaxError, in milliseconds.
 //
 // Idempotent and safe to re-run.
-import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { readdirSync, readFileSync, statSync, existsSync } from 'node:fs';
 import { join, relative } from 'node:path';
 import vm from 'node:vm';
 
@@ -80,6 +80,15 @@ let filesScanned = 0;
 let scriptsChecked = 0;
 let firstError = null;
 
+// No guard existed here at all. On an empty dist/ this printed "OK (files=0
+// scripts=0)" and exited 0 — a green line describing zero pages. Measured
+// 2026-10-17T12:48Z. Same class as the fix in check-internal-links.mjs and
+// check-affiliate-disclosure.mjs: an empty build is not a pass.
+if (!existsSync(DIST)) {
+  console.error(`check-inline-scripts: no build output at ${DIST} — run a build first`);
+  process.exit(2);
+}
+
 for (const file of walk(DIST)) {
   filesScanned += 1;
   const html = readFileSync(file, 'utf8');
@@ -100,6 +109,13 @@ for (const file of walk(DIST)) {
     }
   }
   if (firstError) break;
+}
+
+// The empty-build case: dist/ exists, walk() found no HTML, filesScanned is 0.
+// Without this the report below reads "OK (files=0 scripts=0)" and exits 0.
+if (filesScanned === 0) {
+  console.error(`check-inline-scripts: ${DIST} exists but contains no HTML — an empty build is not a pass; run a build first`);
+  process.exit(2);
 }
 
 if (firstError) {

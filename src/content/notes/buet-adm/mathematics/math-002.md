@@ -171,12 +171,9 @@ z^n = r^n (cos nθ + i sin nθ)
 
 | Detail | Value |
 |---|---|
-| Questions | Varies by year (~40-50 MCQ) |
-| Time | Usually 2–3 hours |
-| Marks | Varies by section |
+| Paper shape | Question count varies and we found no citable figure; read length off the notice |
+| Marking | Treat the scoring rule as unsettled until the current notice states it |
 | Subjects | Mathematics (highest weight), Physics, Chemistry |
-| Negative | Usually no negative marking in BUET |
-| Mode | Written + MCQ depending on year |
 
 ### 🎯 High-Yield Topics for BUET Mathematics
 - Calculus (Differentiation + Integration) — highest weight

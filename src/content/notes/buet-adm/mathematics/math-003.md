@@ -172,12 +172,9 @@ For removing linear terms, complete the square in x and y separately
 
 | Detail | Value |
 |---|---|
-| Questions | Varies by year (~40-50 MCQ) |
-| Time | Usually 2–3 hours |
-| Marks | Varies by section |
+| Paper shape | The session format has shifted between years, so no count is given here |
+| Marking | Practice pages disagree on this; the notice is the only authority |
 | Subjects | Mathematics (highest weight), Physics, Chemistry |
-| Negative | Usually no negative marking in BUET |
-| Mode | Written + MCQ depending on year |
 
 ### 🎯 High-Yield Topics for BUET Mathematics
 - Calculus (Differentiation + Integration) — highest weight

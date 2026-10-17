@@ -173,12 +173,9 @@ If coefficients are real and discriminant < 0, roots include complex conjugate p
 
 | Detail | Value |
 |---|---|
-| Questions | Varies by year (~40-50 MCQ) |
-| Time | Usually 2–3 hours |
-| Marks | Varies by section |
+| Paper shape | Any count you meet elsewhere for this paper is unverified until the notice lands |
+| Marking | We found no official statement of the marking scheme for this exam |
 | Subjects | Mathematics (highest weight), Physics, Chemistry |
-| Negative | Usually no negative marking in BUET |
-| Mode | Written + MCQ depending on year |
 
 ### 🎯 High-Yield Topics for BUET Mathematics
 - Calculus (Differentiation + Integration) — highest weight

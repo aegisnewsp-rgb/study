@@ -186,12 +186,9 @@ d/dx [∫_{a(x)}^{b(x)} f(t) dt] = f(b(x))b'(x) − f(a(x))a'(x)
 
 | Detail | Value |
 |---|---|
-| Questions | Varies by year (~40-50 MCQ) |
-| Time | Usually 2–3 hours |
-| Marks | Varies by section |
+| Paper shape | Duration and format are announced each cycle, not fixed in advance |
+| Marking | Confirm the rule before the sitting rather than assuming the usual convention |
 | Subjects | Mathematics (highest weight), Physics, Chemistry |
-| Negative | Usually no negative marking in BUET |
-| Mode | Written + MCQ depending on year |
 
 ### 🎯 High-Yield Topics for BUET Mathematics
 - Calculus (Differentiation + Integration) — highest weight

@@ -8,13 +8,13 @@ topicName: "Differentiation"
 weight: 5
 country: tanzania
 generated: "2026-09-25T12:15:00"
-lastUpdated: "2026-09-25"
+lastUpdated: "2026-10-17"
 ---
 # Differentiation — ACSEE (Tanzania)
 
-Differentiation is the heaviest topic on the ACSEE Advanced Mathematics syllabus. The NECTA 142/1 paper carries the bulk of calculus questions, and differentiation questions are commonly weighted at around one fifth of the total marks on that paper. The exam tests three things in roughly increasing order of difficulty: the mechanics of differentiation (rules and their application), the geometric reading of the derivative as slope of tangent / normal, and the analytic uses — maxima and minima, rates of change, and simple curve sketching. Strong performance here pulls up the entire NECTA 142 grade.
+Differentiation is the heaviest-weighted topic NECTA sets for Advanced Mathematics. The council's own table of specifications gives it one question and a 15.9% topic weight, the highest of the ten topics on paper 142/1, with Integration at 15.0% and Coordinate geometry I also at 15.0%. Read that weight as curriculum emphasis rather than raw marks: 142/1 is ten compulsory questions of ten marks each, so the single differentiation question is 10 marks out of 100, and it is always the last question on the paper. Calculus sits almost entirely in 142/1, since differentiation and integration together carry 30.9% of it, while differential equations is examined in 142/2. The 2019 format revision kept the examination content but moved the paper toward competence-based questions, so expect to apply a rule rather than recite one. The topic divides into three strands in rising difficulty: the mechanics of differentiation (rules and their application), the geometric reading of the derivative as slope of tangent / normal, and the analytic uses — maxima and minima, rates of change, and simple curve sketching. One strong topic will not carry a grade on its own: at 15.9% of one of two papers, differentiation moves a borderline candidate a long way, but the other nine questions on 142/1 and the six that count on 142/2 still decide the aggregate.
 
-> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz.
+> The paper format and every topic weight on this page come from NECTA's approved ACSEE examination formats, section 142 — still the format NECTA reports as in use for ACSEE 2025. Confirm any in-year change with NECTA before you plan around a number here.
 
 ### 🟢 Lite — Quick Review (1h-1d)
 > Survive Paper 1 by re-learning the rules you once knew.
@@ -178,4 +178,6 @@ Convergence is quadratic if $f'(x^*) \neq 0$. Work one or two iterations to the 
 - **[Build a quick revision plan](/roadmap/?exam=acsee&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[ACSEE (Tanzania) exam overview](/exams/acsee/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/acsee/mathematics/)** — browse sibling topics in this subject
+
+*Last updated 2026-10-17. Source: NECTA approved ACSEE examination formats, section 142 Advanced Mathematics (revised format, based on the Advanced Mathematics Syllabus of 2009), https://www.necta.go.tz/publications/Approved%20Exam%20Formats/ACSEE_FORMATS_2019.pdf — structure corroborated by NECTA Candidates' Item Response Analysis report, 142 Advanced Mathematics, ACSEE 2025, https://www.necta.go.tz/publications/Performance%20Analysis%20Books/Candidates'%20Item%20Response%20Analysis%20(CIRA)%20Reports%20/ACSEE/2025/142_ADVANCED_MATHEMATICS.pdf, which records 142/1 as ten compulsory questions of ten marks each and places Differentiation as Question 10. Awarding body: National Examinations Council of Tanzania (NECTA). Documents retrieved 2026-10-17.*
 

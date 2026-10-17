@@ -49,6 +49,45 @@ const onlyB = [...subjectsB].filter(x => !subjectsA.has(x));
 const totalTopicsA = (examA.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
 const totalTopicsB = (examB.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
 
+// "Which is harder" answer (sr-20261016-1250Z). No official difficulty rating
+// exists for these papers, so ranking them would be invention. Everything below
+// is derived from the counts this page already computes and renders.
+// Note: topic totals are unevenly populated across exams (UPSC 16, SSC CGL 50,
+// NEET 97), so they describe coverage, NOT difficulty. Keep that framing.
+const maxSubjects = Math.max(subjectsA.size, subjectsB.size);
+const broaderName = subjectsA.size > subjectsB.size ? examA.examName
+  : subjectsB.size > subjectsA.size ? examB.examName : '';
+const volumeGap = Math.abs(totalTopicsA - totalTopicsB);
+const maxTopics = Math.max(totalTopicsA, totalTopicsB);
+const nearIdentical = subjectsA.size === subjectsB.size && maxTopics > 0
+  && volumeGap / maxTopics <= 0.05;
+
+const coverageShape =
+  `${examA.examName} lists ${subjectsA.size} subjects across ${totalTopicsA} topics; `
+  + `${examB.examName} lists ${subjectsB.size} subjects across ${totalTopicsB} topics. `;
+const breadthLine = broaderName
+  ? `${broaderName} spans the wider syllabus. `
+  : 'Subject counts match on both sides. ';
+const transferLine = shared.length
+  ? `${shared.length} of ${maxSubjects} names overlap; preparation carries over on those. `
+  : 'No names overlap between them at all. ';
+const closerLine = nearIdentical
+  ? 'Structurally the two sit close, so weigh eligibility, exam pattern and careers next.'
+  : 'Weigh eligibility, exam pattern and careers next.';
+
+// First screen. Measured: 7.8% of this page's impressions are the query
+// "which is tough", and the page previously answered it at no scroll depth.
+const difficultyAnswer =
+  `Neither paper is officially rated harder, so compare what actually differs. ${coverageShape}`
+  + 'Listed topics reflect our coverage, not official size. '
+  + breadthLine + transferLine + closerLine;
+
+// Short summary for the hero. Deliberately not the FAQ text — the FAQ answer
+// stays self-contained because FAQPage schema is read detached from the page.
+const difficultySummary =
+  `Neither paper is officially rated harder. ${examA.examName} spans ${subjectsA.size} subjects, `
+  + `${examB.examName} ${subjectsB.size}. ${transferLine}${closerLine}`;
+
 // First-screen answer for definitional queries ("what is X and Y", "X full
 // form"). Both names come from data already on the page — no new claim.
 const fullFormA = examFullForm(examA.examId);
@@ -93,7 +132,7 @@ const faqs = [
        : `Partially — only ${shared.length} subjects overlap. The exams test different skills; combined preparation is inefficient beyond the basics. Pick the exam whose subjects you're stronger in, master it first, then attempt the other.`,
   },
   { q: `Which is harder, ${examA.examName} or ${examB.examName}?`,
-    a: `Difficulty is subjective but can be compared structurally: ${examA.examName} has ${totalTopicsA} topics across ${subjectsA.size} subjects; ${examB.examName} has ${totalTopicsB} topics across ${subjectsB.size}. The exam with fewer, broader subjects favours deep learners; the one with more subjects favours breadth. Your strengths decide.`,
+    a: difficultyAnswer,
   },
   { q: `Do ${examA.examName} and ${examB.examName} have any subject overlap?`,
     a: shared.length ? `Yes. Shared subjects: ${shared.slice(0,5).join(', ')}. ${[...onlyA.slice(0,3)].length ? examA.examName + ' adds: ' + onlyA.slice(0,3).join(', ') + '. ' : ''}${[...onlyB.slice(0,3)].length ? examB.examName + ' adds: ' + onlyB.slice(0,3).join(', ') + '.' : ''}` : `No shared subjects. Preparation for one does not transfer to the other.`,
@@ -132,6 +171,10 @@ const faqJsonLd = {
         <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-4">
           {standsFor && <>{standsFor} </>}{shared.length} of {Math.max(subjectsA.size, subjectsB.size)} subjects overlap. Structured comparison below — syllabus, difficulty, career path, and which one suits your strengths.
         </p>
+        <div class="max-w-3xl mb-4 rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-4">
+          <div class="text-sm font-semibold text-surface-900 dark:text-white mb-1">Which is harder?</div>
+          <p class="text-sm text-surface-600 dark:text-surface-300">{difficultySummary}</p>
+        </div>
       </div>
     </section>
 

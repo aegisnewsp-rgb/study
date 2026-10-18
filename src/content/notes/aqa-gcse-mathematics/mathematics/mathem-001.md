@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 The Number strand is the foundation of every other topic at GCSE. Four operations, fractions, decimals, percentages, indices and standard form all appear across Paper 1 (non-calculator), Paper 2 and Paper 3, and a mistake in this strand pulls marks out of Ratio, Algebra, Geometry and Statistics questions that depend on it. AQA splits the strand into four sub-areas at the higher tier: structure and calculation, fractions, decimals and percentages, indices and surds, and approximation and estimation.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300
 
 ---
 

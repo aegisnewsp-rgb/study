@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Cell Biology is the foundation on which every later Biology topic in the DU Unit B paper is built. Whether the question is about genetics (DNA replication happens in the nucleus), respiration (mitochondria), photosynthesis (chloroplast), or neural function (membrane potential), the cell is the stage on which the action occurs. The chapter, drawn from NCTB HSC Botany Chapter 1 and the matching Zoology sections, covers cell theory and its exceptions, prokaryotic versus eukaryotic organisation, plant and animal organelles, the fluid-mosaic membrane, transport across membranes, and mitotic and meiotic division. Three MCQ patterns dominate: (1) identify an organelle from a description of its function, (2) distinguish between mitosis and meiosis by counting divisions or by chromosome behaviour, and (3) compare diffusion, osmosis, and active transport across the plasma membrane. A student who can sketch a plant cell and label twelve structures correctly, then explain plasmolysis, will get nearly every Cell Biology MCQ the paper throws.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

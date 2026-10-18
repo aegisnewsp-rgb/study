@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Statistical Sampling and Data Presentation is sections K and L of the AQA 7357 specification, covering sampling methods and their limitations, the large data set, and presenting, describing and interpreting data with summary statistics and appropriate diagrams. The content is the most "real-world" part of A-level mathematics — every question ties to a dataset and asks you to interpret it — and it sits on Paper 3 alongside the rest of statistics. The single most important skill is reading what the question is asking for: many marks are lost because the student computes the wrong summary statistic or describes the wrong feature of a diagram.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357
 
 ---
 

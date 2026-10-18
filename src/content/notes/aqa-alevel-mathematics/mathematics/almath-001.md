@@ -15,7 +15,7 @@ lastUpdated: "2026-09-22"
 
 Proof is the language of A-level mathematics, not a separate topic to learn at the end. Every AQA 7357 paper — pure content, mechanics and statistics — uses proof notation somewhere: showing a derivative, justifying an inequality, arguing that a stationary point is a minimum rather than a maximum, or completing a step in a hypothesis test. Section A in the AQA specification names the four standard proof methods you must recognise and use: direct proof, proof by exhaustion, disproof by counter-example, and proof by contradiction. The classic demonstrations of the irrationality of √2 and the infinity of primes appear on Paper 1 every few series and are worth learning by heart because they expose the structure of a rigorous argument more clearly than any worked textbook example.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357
 
 ---
 

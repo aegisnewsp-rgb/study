@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Statistics is the second of the two smaller strands at GCSE Mathematics and is often tested jointly with Probability on Paper 2. It spans data collection, frequency tables, averages and spread, cumulative frequency, histograms, box plots, scatter graphs and correlation, and interpreting distributions. Higher tier extends into time series and the interpretation of large data sets.
 
-> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300 before planning revision around the figures below.
+> Verify the live specification details and any in-year assessment changes on https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300
 
 ---
 

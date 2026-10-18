@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Electrostatics is the part of the ECAT (Engineering) paper where you work with stationary charges, fields, and potentials. The topic pulls straight from the FSc (Part I & II) syllabus: Coulomb's law, electric field strength, electric potential, capacitors, dielectrics, and Gauss's law in symmetric geometry. MCQs on this topic mix formula recall (V = kQ/r, E = σ/ε₀ for a sheet) with numerical reasoning (work done moving a charge, equivalent capacitance of a network). Practice is dominated by sign-of-force MCQs and capacitor combination problems.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

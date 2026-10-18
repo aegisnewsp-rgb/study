@@ -15,7 +15,7 @@ lastUpdated: "2026-10-13"
 
 Safe laboratory use is the practical side of chemistry: reading labels, selecting PPE, controlling heat and ignition, segregating incompatible reagents, and choosing a safe waste route. NCTB HSC Chemistry approaches it through chemical symbols, GHS pictograms, and the acidic, basic, oxidising, or reducing behaviour of common reagents. First-year chemistry syllabus and laboratory work add dilution of concentrated acids, flammable-liquid storage, residue disposal, and emergency routines. Accuracy is what decides the mark: in any question that makes you read a GHS pictogram, choose PPE, or route a waste stream, one careless word costs the answer. How much of this BUET actually asks is set by the live admission notice, not by this note.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://buet.ac.bd/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://buet.ac.bd/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

@@ -1,0 +1,17 @@
+# Hosts intentionally allowed to have no DNS A record.
+#
+# One bare hostname per line. Lines starting with # are comments.
+# Read by default - no env var required to activate it.
+#
+# BASELINE A HOST HERE ONLY IF it legitimately has no A record (a retired
+# domain you must still cite historically, a print-only body with no web
+# presence). Do NOT baseline a host to silence a genuine typo or a dropped
+# TLD - that is the defect class this allowlist exists to keep visible, and
+# three such hosts shipped to production on 2026-10-18:
+#   cmat.edu.np     - Nepal CMAT, no A record
+#   slmedcouncil.lk - SLMC, no A record
+#   cem-inc.org     - CEM Philippines, .ph dropped
+#
+# Deliberately empty as of 2026-10-18: every current officialSource host
+# resolves, so there is nothing to baseline. An empty file that is read by
+# default keeps the mechanism honest rather than shipping inert.

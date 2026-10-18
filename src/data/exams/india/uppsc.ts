@@ -50,10 +50,11 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'UPPSC PCS-style exams typically include Prelims (GS + CSAT as notified) and Mains descriptive papers. Phase 1: NCERT + standard GS; Phase 2: UP special (history, geography, schemes); Phase 3: answer writing + mocks. Confirm pattern on uppsc.up.nic.in for the live notification.',
+    'RO/ARO is a two-stage exam, not the three-stage PCS structure, and it has no CSAT paper. Phase 1: NCERT and standard General Studies, reasoning and intelligence practice. Phase 2: UP-specific content (regional history, culture, geography, administrative setup) plus current affairs on a monthly revision cycle. Phase 3: General Hindi grammar, vocabulary and comprehension to exam standard, then timed written practice for the conventional-type Mains. Confirm the paper-wise pattern and marks on uppsc.up.nic.in for the live notification, because the Prelims total has been described differently across cycles.',
   commonMistakes: [
     'Ignoring Uttar Pradesh-specific content.',
-    'No timed CSAT practice if CSAT is qualifying/scoring as notified.',
+    'Neglecting General Hindi, which carries substantial marks in both Prelims and the Mains paper.',
+    'Applying UPPSC PCS figures (three stages, interview, 42-year age limit) to an RO/ARO application.',
     'Weak answer structure for mains.',
     'Outdated optional/GS paper lists.',
     'Random current affairs without monthly revision notes.'

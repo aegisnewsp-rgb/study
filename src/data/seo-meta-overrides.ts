@@ -228,9 +228,27 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/ppsc/': {
-    title: 'PPSC Full Form: Punjab & Sindh PSC Exams',
+    // 2026-10-18 vqzo: the old copy was wrong in the same shape as the NABTEB
+    // defect fixed at bb148402 — the snippet denied what the page's own body says.
+    // It read "PPSC Pakistan runs the PMS and SPSC combined competitive
+    // examinations". PPSC is the PUNJAB Public Service Commission; SPSC is the
+    // SINDH Public Service Commission, a separate constitutional body headquartered
+    // in Karachi (spsc.gos.pk) with its own CCE, age bands and domicile rules. PPSC
+    // cannot run SPSC examinations. The giveaway was internal: the string "SPSC"
+    // appears nowhere in this page's body (src/data/exams/pakistan/ppsc.ts), which
+    // is Punjab-only throughout, and the site already has a separate, correctly
+    // labelled /exams/spsc/ page for Sindh. The old title compounded it by
+    // presenting "Punjab & Sindh PSC" as one thing with one full form.
+    // Dropping the word "Punjab" from "Public Service Commission" is what allowed
+    // the two commissions to be merged at all.
+    // Expansion + jurisdiction: this page's own description field, corroborated by
+    // ppsc.gop.pk ("General Recruitment Examinations and PMS Examinations in
+    // Punjab") and Wikipedia (Punjab Public Service Commission, a constitutional
+    // and statutory agency). PMS is the Punjab Civil Service, per the body — so
+    // PMS is a Punjab exam, not a Sindh one. No marks, fees or dates introduced.
+    title: 'PPSC Full Form: Punjab Public Service Commission Exam',
     description:
-      'PPSC stands for Public Service Commission. PPSC Pakistan runs the PMS and SPSC combined competitive examinations: written paper, interview, full syllabus.',
+      'PPSC is the Punjab Public Service Commission, the constitutional body that runs Punjab competitive exams, including the PMS civil service exam.',
     query: 'ppsc pakistan (22.4%), what is ppsc exam in pakistan (20.8%)',
     gscImpressions: 1107,
   },

@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Section timing for A/L Examination (Sri Lanka) only counts if it matches the live duration.',
     'A friend who sat A/L Examination (Sri Lanka) two years ago is not your eligibility officer; https://doenets.lk is.',
     'StudyRoadmap will not promise a A/L Examination (Sri Lanka) outcome — only a study order.',
-    'Who the board describes as eligible for A/L Examination (Sri Lanka): GCE O-Level with minimum 6 credits including English. GCE A-Level stream selection based on O-Level results… Re-read it on https://doenets.lk the week you apply.'
+    'Who the board describes as eligible for A/L Examination (Sri Lanka): GCE O-Level with minimum 6 credits including English. Re-read it on https://doenets.lk the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://doenets.lk',

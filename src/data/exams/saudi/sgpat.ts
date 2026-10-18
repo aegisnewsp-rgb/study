@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     'Doing only favourite Saudi General Aptitude Test (SGPAT) chapters leaves the clock as the real examiner.',
     'Photo, ID, and attempt-limit rules for Saudi General Aptitude Test (SGPAT) live on https://etec.gov.sa/en/service/Generalabilitytest/servicegoal, not on WhatsApp.',
     'Cut-off rumours are not Saudi General Aptitude Test (SGPAT) offers of admission.',
-    'Who the board describes as eligible for Saudi General Aptitude Test (SGPAT): Secondary school students and graduates. No minimum score requirement but used in combination with high… Re-read it on https://etec.gov.sa/en/service/Generalabilitytest/servicegoal the week you apply.'
+    'Who the board describes as eligible for Saudi General Aptitude Test (SGPAT): Secondary school students and graduates. No minimum score requirement. Re-read it on https://etec.gov.sa/en/service/Generalabilitytest/servicegoal the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://etec.gov.sa/en/service/Generalabilitytest/servicegoal',

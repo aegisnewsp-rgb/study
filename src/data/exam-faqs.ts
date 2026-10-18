@@ -695,3 +695,9 @@ EXAM_FAQS['cmat-nepal'] = EXAM_FAQS['cmat'];
 EXAM_FAQS['gaokao-cn'] = EXAM_FAQS['gaokao'];
 EXAM_FAQS['law-apt-kenya'] = EXAM_FAQS['law-apt'];
 EXAM_FAQS['wassce'] = EXAM_FAQS['waec'];
+// Country-variant IELTS pages. The generic block asserts no delivery mode and
+// names no accepting institution, so it is variant-neutral; each variant's own
+// data file already carries its local administering body and test centres.
+EXAM_FAQS['ielts-hk'] = EXAM_FAQS['ielts'];
+EXAM_FAQS['ielts-kuwait'] = EXAM_FAQS['ielts'];
+EXAM_FAQS['ielts-qatar'] = EXAM_FAQS['ielts'];

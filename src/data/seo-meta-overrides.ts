@@ -114,9 +114,9 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   // ── /exams/gaokao/ ─ 8,510 imp, 0.38% CTR. NOTE: CN traffic is non-monetisable
   // (Monetag serves no CN demand) — ranked for reach, not revenue.
   '/exams/gaokao/': {
-    title: 'Gaokao Exam Syllabus 2026: 3 Core + 1 Elective',
+    title: 'Gaokao 2026 Syllabus: 3+1+2, Six Papers, 750 Marks',
     description:
-      'Gaokao syllabus 2026: Chinese, Mathematics and English are compulsory, plus one elective from Physics, History, Politics or Geography.',
+      'Gaokao 2026 sits six papers: Chinese, Mathematics and a foreign language, plus one of Physics or History and two of Chemistry, Biology, Politics or Geography.',
     query: 'gaokao exam syllabus (35.5% @ 0.00% CTR)',
     gscImpressions: 8510,
   },

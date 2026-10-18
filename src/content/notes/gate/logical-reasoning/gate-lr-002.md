@@ -95,10 +95,6 @@ When multiple patterns seem possible, eliminate options by applying each candida
 
 *Worked example:* FLY → UOB. F(6) → 27 − 6 = 21 = U; L(12) → 27 − 12 = 15 = O; Y(25) → 27 − 25 = 2 = B. ✓
 
-**Word-structure coding.** Letters are rearranged rather than substituted. Adjacent pairs can swap (LE|AD → EL|DA = ELDA), the whole word can reverse, or the first and last letters can trade places.
-
-**Number-symbol coding.** Letters map to digits or symbols through a fixed key that stays consistent across every example in the question.
-
 **Pair and sequence swaps.** Letters can be rearranged by rule rather than substituted: adjacent pairs swap (AB CD → BA DC), first and last trade places (ABCD → DBCA), each pair reverses (AB CD EF → BA DC FE), or the whole word reverses before another operation applies. Test these four before inventing anything new.
 
 **Interweaving.** Two words can merge their letters alternately — take the first letter of word one, then word two, and continue in turn. If the question supplies a pair of words rather than one, interweaving is usually the rule.

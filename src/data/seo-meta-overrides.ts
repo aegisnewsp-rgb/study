@@ -333,7 +333,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/ini-cet/': {
     title: 'INI CET Exam Pattern: Questions, Marks, Duration',
     description:
-      'INI CET for AIIMS PG: 200 multiple-choice questions in 3.5 hours, 200 marks. Sections, negative marking and eligibility.',
+      'INI CET for AIIMS PG: 200 multiple-choice questions in 3 hours, 200 marks. Sections, negative marking and eligibility.',
     query: 'ini cet exam pattern total marks (15.4%), ini cet exam pattern (11.4%)',
     gscImpressions: 764,
   },

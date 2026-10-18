@@ -204,9 +204,25 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/uptet/': {
+// 2026-10-18 vqzo: the snippet named the conducting body that this page's own
+    // body explicitly debunks. src/data/exams/india/uptet.ts states that "several
+    // older write-ups still name the UP Basic Education Board (UPBEB) as the
+    // conducting body, and that attribution is out of date", and gives the current
+    // one: the U.P. Directorate of Elementary Education (U.P. Pariksha Niyamak
+    // Pradhikari, Prayagraj), which runs updeled.gov.in. The string "Basic Education
+    // Board" appeared nowhere else in that file except inside the debunking sentence.
+    // Same defect shape as the NABTEB snippet fixed at bb148402 -- the SERP denied
+    // what the page's own body says -- and worse here, because the measured query IS
+    // the body question: "uptet conducted by" is 38.8% of this page's impressions at
+    // 0.00% CTR, so the single string a searcher reads before clicking was the one
+    // string the page disputes.
+    // Off-site corroboration 2026-10-18: updeled.gov.in states its contents are
+    // "provided by U.P. PARIKSHA NIYAMAK PRADHIKARI, PRAYAGRAJ, Uttar Pradesh". No
+    // source found attributes UPTET to UPBEB.
+    // No marks, dates, fees or paper structure touched.
     title: 'UPTET: Who Conducts It, Papers & Eligibility',
     description:
-      'UPTET is conducted by the Uttar Pradesh Basic Education Board for teacher recruitment. Paper I for Classes I-V, Paper II for VI-VIII.',
+      'UPTET is conducted by the U.P. Directorate of Elementary Education, Pariksha Niyamak Pradhikari, Prayagraj. Paper I for Classes I-V, Paper II for VI-VIII.',
     query: 'uptet conducted by (38.8% @ 0.00% CTR), uptet conducting body (7.0%)',
     gscImpressions: 1278,
   },
@@ -285,9 +301,23 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/nce-cours/': {
+// 2026-10-18 vqzo: two errors against this page's own body, on a snippet whose
+    // measured query is literally "what is NCE".
+    // 1. Expansion -- the snippet said "National Certificate in Education"; the body
+    //    (src/data/exams/nigeria/nce-cours.ts) says "The Nigeria Certificate in
+    //    Education (NCE)". ncce.gov.ng and Wikipedia both give "Nigeria Certificate
+    //    in Education".
+    // 2. Awarding body -- the snippet said "awarded by TRCN"; the body says it is
+    //    awarded by the National Commission for Colleges of Education (NCCE), linked
+    //    in the same file as ncceonline.edu.ng. TRCN is a separate body that teachers
+    //    register with AFTER holding the NCE. The string "TRCN" occurred nowhere else
+    //    anywhere in src/ -- a snippet-only claim with no page support, which is how it
+    //    came to contradict the page it was describing.
+    // Measured: 1,053 impressions; "nce" 31.2% and "what is nce qualification" 8.2%.
+    // Same defect class as NABTEB (bb148402) and UPTET above.
     title: 'NCE Nigeria: Full Form, Course Papers & Certificate',
     description:
-      'NCE stands for National Certificate of Education, awarded by TRCN after NECO, WAEC or GCE O/L. Course papers and certificate tiers.',
+      'NCE stands for Nigeria Certificate in Education, awarded by NCCE, the National Commission for Colleges of Education. TRCN registration follows.',
     query: 'nce (31.2%), what is nce qualification (8.2%)',
     gscImpressions: 1053,
   },

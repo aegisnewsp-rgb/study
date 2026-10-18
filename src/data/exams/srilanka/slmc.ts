@@ -52,16 +52,16 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Sri Lanka Medical Council exam — required for foreign medical graduates seeking registration to practice medicine in Sri Lanka. The SLMC examination is mandated under the Medical Ordinance to ensure that doctors who obtained their primary medical qualification outside Sri Lanka meet the required standards of medical knowledge, clinical competence, and ethical practice before being granted a license to practice in the country. For SLMC Medical (Sri Lanka), use this SLMC Medical (Sri Lanka) hub to see what SLMC Medical (Sri Lanka) topics to study; use https://slmedcouncil.lk to see when you may register.',
+    'Sri Lanka Medical Council exam — required for foreign medical graduates seeking registration to practice medicine in Sri Lanka. The SLMC examination is mandated under the Medical Ordinance to ensure that doctors who obtained their primary medical qualification outside Sri Lanka meet the required standards of medical knowledge, clinical competence, and ethical practice before being granted a license to practice in the country. For SLMC Medical (Sri Lanka), use this SLMC Medical (Sri Lanka) hub to see what SLMC Medical (Sri Lanka) topics to study; use https://slmc.gov.lk/ to see when you may register.',
   commonMistakes: [
-    'An outdated SLMC Medical (Sri Lanka) PDF is not a substitute for the current notice at https://slmedcouncil.lk.',
+    'An outdated SLMC Medical (Sri Lanka) PDF is not a substitute for the current notice at https://slmc.gov.lk/.',
     'Untimed SLMC Medical (Sri Lanka) practice hides whether you can finish the published paper.',
-    'A friend who sat SLMC Medical (Sri Lanka) two years ago is not your eligibility officer; https://slmedcouncil.lk is.',
+    'A friend who sat SLMC Medical (Sri Lanka) two years ago is not your eligibility officer; https://slmc.gov.lk/ is.',
     'Cut-off rumours are not SLMC Medical (Sri Lanka) offers of admission.',
-    'The published SLMC Medical (Sri Lanka) shape in our files is: Multiple choice and clinical examination components. Tests medical knowledge, clinical skills, and ethical… If https://slmedcouncil.lk differs, follow https://slmedcouncil.lk.'
+    'The published SLMC Medical (Sri Lanka) shape in our files is: Multiple choice and clinical examination components. Tests medical knowledge, clinical skills, and ethical… If https://slmc.gov.lk/ differs, follow https://slmc.gov.lk/.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://slmedcouncil.lk',
+  officialSource: 'https://slmc.gov.lk/',
 };
 
 export default exam;

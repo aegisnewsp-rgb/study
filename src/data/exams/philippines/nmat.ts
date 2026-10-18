@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Philippines NMAT is a two-part CEM/APMC medical-school aptitude test, not the GMAC MBA exam used in India. Spend early weeks on Part I (verbal, inductive, quantitative, perceptual speed) because that block is timing-heavy, then rebuild undergraduate Physics, Chemistry, Biology, and Social Sciences for Part II. Aim your mocks at percentile reporting and the two-year score validity window. Confirm the live bulletin, fees, and centre list only at https://www.cem-inc.org before you register.',
+    'Philippines NMAT is a two-part CEM/APMC medical-school aptitude test, not the GMAC MBA exam used in India. Spend early weeks on Part I (verbal, inductive, quantitative, perceptual speed) because that block is timing-heavy, then rebuild undergraduate Physics, Chemistry, Biology, and Social Sciences for Part II. Aim your mocks at percentile reporting and the two-year score validity window. Confirm the live bulletin, fees, and centre list only at https://www.cem-inc.org.ph before you register.',
   commonMistakes: [
     'Confusing this NMAT with GMAC NMAT by GMAC used for Indian MBA programmes.',
     'Drilling only Part II sciences and ignoring Part I speed tests.',

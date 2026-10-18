@@ -50,16 +50,16 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Philippine College Admission Test (PCAT) — used by several Philippine universities as part of their admission process for various undergraduate programmes. The PCAT is a standardised entrance examination developed by the Center for Educational Measurement (CEM) and is used by multiple universities to supplement their internal admission criteria. For PCAT (Philippines), a crash week for PCAT (Philippines) only works after you have the live PCAT (Philippines) paper map from https://www.cem-inc.org.',
+    'Philippine College Admission Test (PCAT) — used by several Philippine universities as part of their admission process for various undergraduate programmes. The PCAT is a standardised entrance examination developed by the Center for Educational Measurement (CEM) and is used by multiple universities to supplement their internal admission criteria. For PCAT (Philippines), a crash week for PCAT (Philippines) only works after you have the live PCAT (Philippines) paper map from https://www.cem-inc.org.ph.',
   commonMistakes: [
-    'Screenshot cut-offs from last cycle do not bind PCAT (Philippines) this year — https://www.cem-inc.org does.',
+    'Screenshot cut-offs from last cycle do not bind PCAT (Philippines) this year — https://www.cem-inc.org.ph does.',
     'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',
-    'A friend who sat PCAT (Philippines) two years ago is not your eligibility officer; https://www.cem-inc.org is.',
+    'A friend who sat PCAT (Philippines) two years ago is not your eligibility officer; https://www.cem-inc.org.ph is.',
     'Treat \'sure selection\' PCAT (Philippines) ads as marketing; the board does not endorse them.',
-    'The published PCAT (Philippines) shape in our files is: Verbal ability, Quantitative ability, Science (Biology, Chemistry, Physics), and General Information. MCQ… If https://www.cem-inc.org differs, follow https://www.cem-inc.org.'
+    'The published PCAT (Philippines) shape in our files is: Verbal ability, Quantitative ability, Science (Biology, Chemistry, Physics), and General Information. MCQ… If https://www.cem-inc.org.ph differs, follow https://www.cem-inc.org.ph.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.cem-inc.org',
+  officialSource: 'https://www.cem-inc.org.ph',
 };
 
 export default exam;

@@ -57,16 +57,16 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Common Management Admission Test (CMAT) Nepal — entrance exam for MBA and management programmes at various universities in Nepal. For CMAT Nepal (MBA Entrance), save the CMAT Nepal (MBA Entrance) syllabus PDF from https://cmat.edu.np and ignore unofficial CMAT Nepal (MBA Entrance) must-do lists that omit that file.',
+    'Common Management Admission Test (CMAT) Nepal — entrance exam for MBA and management programmes at various universities in Nepal. For CMAT Nepal (MBA Entrance), save the CMAT Nepal (MBA Entrance) syllabus PDF from https://www.tudoms.org/ and ignore unofficial CMAT Nepal (MBA Entrance) must-do lists that omit that file.',
   commonMistakes: [
-    'If your CMAT Nepal (MBA Entrance) brochure has no date, throw it out and open https://cmat.edu.np.',
+    'If your CMAT Nepal (MBA Entrance) brochure has no date, throw it out and open https://www.tudoms.org/.',
     'Section timing for CMAT Nepal (MBA Entrance) only counts if it matches the live duration.',
-    'Some CMAT Nepal (MBA Entrance) programmes add extra subject prerequisites after you pay — check https://cmat.edu.np.',
+    'Some CMAT Nepal (MBA Entrance) programmes add extra subject prerequisites after you pay — check https://www.tudoms.org/.',
     'Nobody on this site can guarantee a CMAT Nepal (MBA Entrance) rank, percentile, or admission.',
-    'Pattern note for CMAT Nepal (MBA Entrance): 100 questions across five sections of 20 - Verbal Ability, Quantitative Ability, Logical Reasoning, General Awareness and Business and Economics - to be answered in 90 minutes for 100 marks. Confirm the current wording on https://cmat.edu.np before you lock a timetable.'
+    'Pattern note for CMAT Nepal (MBA Entrance): 100 questions across five sections of 20 - Verbal Ability, Quantitative Ability, Logical Reasoning, General Awareness and Business and Economics - to be answered in 90 minutes for 100 marks. Confirm the current wording on https://www.tudoms.org/ before you lock a timetable.'
   ],
-  lastUpdated: '2026-09-19',
-  officialSource: 'https://cmat.edu.np',
+  lastUpdated: '2026-10-18',
+  officialSource: 'https://www.tudoms.org/',
 };
 
 export default exam;

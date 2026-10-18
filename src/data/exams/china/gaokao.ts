@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Untimed Gaokao (China National College Entrance) practice hides whether you can finish the published paper.',
     'Photo, ID, and attempt-limit rules for Gaokao (China National College Entrance) live on https://www.neea.edu.cn, not on WhatsApp.',
     'Treat \'sure selection\' Gaokao (China National College Entrance) ads as marketing; the board does not endorse them.',
-    'Pattern note for Gaokao (China National College Entrance): 3 mandatory subjects + 1 elective: Chinese Language(150 marks, 150 minutes), Mathematics(150 marks, 150… Confirm that wording on https://www.neea.edu.cn before you lock a timetable.'
+    'Pattern note for Gaokao (China National College Entrance): the exam runs the 3+1+2 model — 3 compulsory papers, 1 stream-defining paper (Physics for Science, History for Arts), then 2 more chosen from Chemistry, Biology, Politics and Geography, for 750 marks in total. A candidate who plans around "3 subjects plus 1 elective" sits the wrong subject set. Confirm that wording on https://www.neea.edu.cn before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.neea.edu.cn',

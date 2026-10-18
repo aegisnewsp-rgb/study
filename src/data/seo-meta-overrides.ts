@@ -237,7 +237,12 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     // cannot run SPSC examinations. The giveaway was internal: the string "SPSC"
     // appears nowhere in this page's body (src/data/exams/pakistan/ppsc.ts), which
     // is Punjab-only throughout, and the site already has a separate, correctly
-    // labelled /exams/spsc/ page for Sindh. The old title compounded it by
+    // labelled /exams/sppsc/ page for Sindh (examId 'sppsc', examName "SPSC
+    // (Sindh)"). Correction 2026-10-18 0420Z: this comment first cited
+    // /exams/spsc/, which is NOT a route on this site -- there is no spsc exam
+    // file and no /exams/spsc/ page. src/pages/exams/[exam].astro:155 keys the
+    // Sindh title off 'sppsc'. Cite /exams/sppsc/ here.
+    // The old title compounded it by
     // presenting "Punjab & Sindh PSC" as one thing with one full form.
     // Dropping the word "Punjab" from "Public Service Commission" is what allowed
     // the two commissions to be merged at all.

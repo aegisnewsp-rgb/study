@@ -15,7 +15,7 @@ lastUpdated: "2026-09-20"
 
 Achievement Standard 91259 carries 3 credits and tests trigonometric relationships including the sine rule, cosine rule, area of a triangle using trigonometry, and 3D trigonometry. It is internally assessed by the school and is the prerequisite for 91575 (Apply trigonometric methods) at Level 3. Most schools schedule 91259 in Term 1 or early Term 2 so the techniques are available for the rest of the year.
 
-> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics before planning revision around the figures below.
+> Verify the live achievement standard document on https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics
 
 ---
 

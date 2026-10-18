@@ -14,7 +14,7 @@ lastUpdated: "2026-09-25"
 
 This topic groups the inorganic chemistry of the metals you meet most often at ACSEE: the s-block (Groups 1 and 2), the d-block transition metals, and a few key p-block metals (aluminium, tin, lead). It is weighted heavily within the ACSEE Chemistry syllabus scope on NECTA 132/1 — typical questions ask you to compare oxides and hydroxides down a group, write balanced equations for extraction or corrosion reactions, and identify the complex ion responsible for a coloured solution. The exam routinely sets a structured question on the chemistry of sodium, calcium, copper, iron, zinc, or aluminium, with sub-parts on bonding, hydrolysis, and a use tied to a Tanzanian industry (cement, fertiliser, mining).
 
-> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz before planning around the figures below.
+> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz
 
 ### 🟢 Lite — Quick Review (1h-1d)
 > Re-learn the inorganics you half-remember from O-Form Chemistry.

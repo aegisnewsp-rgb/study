@@ -15,7 +15,7 @@ lastUpdated: "2026-10-13"
 
 Reading comprehension asks you to work from unseen passages, not memory. You identify the main idea, trace details, infer, judge tone, explain vocabulary in context, and resolve references. Nearly every question hangs off a passage, so weak passage handling damages several answers at once. The same skills carry your grammar and vocabulary marks. This maps to NCTB HSC English Unit 5 "Language and Communication" for meaning and intent, Unit 7 "Literature and Language" for tone and implication, Unit 9 "Language and Society" for viewpoint, and Unit 13 "Science and Technology" for technical cause-and-effect.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://buet.ac.bd/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://buet.ac.bd/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

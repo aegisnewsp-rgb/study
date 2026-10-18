@@ -15,7 +15,7 @@ lastUpdated: "2026-10-13"
 
 Integration is the reverse operation of differentiation: an antiderivative has a given integrand as its derivative. On NECTA 142/1, it is the heaviest calculus topic alongside Differentiation, sharing the highest weight tier. Its applications include signed change, area, volume, and numerical integration.
 
-> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz before planning around the figures below.
+> Verify the live syllabus, examination format, and any in-year changes on https://necta.go.tz
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

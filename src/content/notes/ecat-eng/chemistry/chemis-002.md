@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Chemical Bonding is the second topic of the ECAT (Engineering) Chemistry syllabus, sitting between atomic structure and the reactions-of-organic-and-inorganic-chemistry block. The paper tests ionic, covalent and metallic bonding along with the geometry rules that follow from VSEPR, the hybridisation scheme, and the intermolecular forces that decide melting points, boiling points and solubility. MCQs lean on three recurring patterns: rank melting points of a small set using intermolecular-force logic, identify the geometry of a given central atom from its steric number, and decide whether a covalent bond is polar/non-polar from an electronegativity difference. This topic also feeds forward into reaction mechanisms in Organic Chemistry and into lattice-energy calculations.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

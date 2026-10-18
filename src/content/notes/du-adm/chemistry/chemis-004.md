@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Chemical Bonding sits at the heart of the DU Unit B Chemistry paper: it is the chapter that ties atomic structure to every reaction mechanism, every physical property (melting point, solubility, conductivity), and every organic reaction the paper later asks about. NCTB HSC Chemistry 1st Paper Chapter 4 is the source scope — ionic, covalent, coordinate, hydrogen and metallic bonds, VSEPR, hybridisation, and the basics of molecular orbital theory for homonuclear diatomics. Three MCQ patterns dominate the paper: (1) classify a given bond as ionic / polar covalent / non-polar covalent from electronegativity difference, (2) predict the geometry and hybridisation of a given central atom using steric number, and (3) decide which intermolecular force explains an observed trend in boiling point or solubility. Get this chapter right and the rest of chemistry (acids-bases, electrochemistry, organic reactions) reads as applications of these rules rather than as separate facts to memorise.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://du.ac.bd/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

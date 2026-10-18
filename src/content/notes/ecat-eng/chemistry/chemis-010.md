@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Organic Chemistry is the ECAT (Engineering) topic where your knowledge of functional groups, nomenclature and reaction mechanisms gets tested across the full spread of alkanes, alkenes, alkynes, aromatics, alcohols, aldehydes, ketones, carboxylic acids, amines and their derivatives. The MCQs mix three styles: identifying the product of a given transformation, naming or sketching an IUPAC structure, and ranking reactivity among related substrates. Success on this topic rests on three pillars: a clean mental map of functional-group transformations (alcohol → aldehyde → carboxylic acid, for example), the ability to read and write reaction mechanisms with curved arrows showing electron flow, and fluency with IUPAC nomenclature. The topic also leans on hybridisation and intermolecular forces from Chemical Bonding.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

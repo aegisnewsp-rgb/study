@@ -15,7 +15,7 @@ lastUpdated: "2026-09-25"
 
 Differentiation is one of the highest-weight Mathematics topics in ECAT (Engineering). The paper tests limits as the route into the derivative, then standard differentiation rules (power, product, quotient, chain), implicit differentiation, parametric derivatives, applications to tangents and normals, rates of change, and maxima/minima with second-derivative testing. The MCQs lean on three skills: differentiate cleanly under time pressure, recognise the rule a question is testing before reaching for a calculator-style approach, and translate a word problem ("rate of change of volume with respect to time…") into a derivative relationship and solve for the unknown rate. This topic also feeds into Integration (the next topic) and into kinematics for physics.
 
-> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/ before planning around the figures below.
+> Verify the live syllabus, paper pattern, and any in-year changes on https://www.uet.edu.pk/
 
 ### 🟢 Lite — Quick Review (1h-1d)
 

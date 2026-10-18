@@ -2,14 +2,20 @@ import type { ExamTemplate, Subject } from '../types';
 
 import { mathematics } from './subjects/mathematics';
 import { english } from './subjects/english';
-import { economics } from './subjects/economics';
-import { accounting } from './subjects/accounting';
+import { integratedScience } from './subjects/integrated-science';
+import { socialStudies } from './subjects/social-studies';
 
+// The four WAEC core subjects every WASSCE school candidate must sit, in the
+// order the examination papers are taken. WAEC states the core set before it
+// enumerates any programme, so these four are programme-independent; the
+// electives below are tracked in examPattern rather than in the study plan.
+// See https://waecgh.org/home/wassce-school/ — candidates then add 3 or 4
+// electives for 7 or 8 papers in total.
 const subjects: Subject[] = [
     mathematics,
     english,
-    economics,
-    accounting,
+    integratedScience,
+    socialStudies,
 ];
 
 import { makeRoadmap } from '../_lib/roadmap';

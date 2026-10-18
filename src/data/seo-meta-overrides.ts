@@ -286,9 +286,23 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/nabteb/': {
-    title: 'NABTEB Full Form: What Is the Naptech Exam?',
+    // 2026-10-18 vqzo: the old copy stated the wrong expansion AND the wrong
+    // country — "National Board for Technical Education, Benin". NABTEB is the
+    // National Business and Technical Examinations Board, Nigeria (formed April
+    // 1992), which is what this page's own body copy in
+    // src/data/exams/nigeria/nabteb.ts already says. The snippet contradicted
+    // the page it described, and "naptech" appeared nowhere in src/ outside this
+    // override — so the query this page ranks for ("what is naptech exam",
+    // 43.7% of its impressions) was answered by the SERP and not by the page.
+    // "Naptech" is retained as the informal name Nigerian candidates use for the
+    // National Technical Certificate (NTC); it is not an official exam title.
+    // Board name/country: Wikipedia, National Business and Technical Examinations
+    // Board (nabteb.gov.ng was returning a WordPress fatal error this cycle).
+    // Certificate names and the Nov/Dec + April/May sittings: the examPattern
+    // field of this page's own data file.
+    title: 'NABTEB Full Form: What "Naptech" Actually Means',
     description:
-      'NABTEB is the National Board for Technical Education, Benin. The NABTEB/NAPTECH exam is the technical entrance test: papers per programme and eligibility.',
+      'NABTEB is Nigeria\'s National Business and Technical Examinations Board. "Naptech" is the informal name for its National Technical Certificate (NTC).',
     query: 'what is naptech exam (43.7% @ 0.00% CTR)',
     gscImpressions: 892,
   },

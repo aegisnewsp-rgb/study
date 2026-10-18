@@ -236,9 +236,23 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/kpkpse/': {
+    // 2026-10-18 vqzo: same defect class as bb148402 (nabteb) and ea0bc43e
+    // (uptet, nce-cours) — the snippet denied what the page's own body says.
+    // It read "the Punjab Management Service". This page's data file
+    // (src/data/exams/pakistan/kpkpse.ts) names the exam "Khyber Pakhtunkhwa
+    // Public Service Commission PROVINCIAL Management Service (KP PMS)"
+    // throughout, and "Punjab" appears nowhere in the module. Punjab is a
+    // different province running a different service: the Punjab Management
+    // Service belongs to the PUNJAB Public Service Commission, which is the
+    // /exams/ppsc/ page. The two entries had the provinces mirrored — ppsc's
+    // own copy was corrected for this at bb148402 and the correction was never
+    // propagated back here.
+    // So the snippet gave the searcher the wrong province for the exact query
+    // this page ranks for ("pms kpk" 37.1% + "kpk pms" 12.0%). Names fixed to
+    // the module's own: KP PMS, KPPSC. The title was already correct.
     title: 'PMS KPK: Khyber Pakhtunkhwa Public Service Commission',
     description:
-      'PMS KPK is the Punjab Management Service, recruited by the Khyber Pakhtunkhwa Public Service Commission: written exam, interview, syllabus.',
+      'PMS KPK is the Khyber Pakhtunkhwa Provincial Management Service (KP PMS), recruited by the KPPSC: written exam, interview, syllabus.',
     query: 'pms kpk (37.1%), kpk pms (12.0%)',
     gscImpressions: 1155,
   },

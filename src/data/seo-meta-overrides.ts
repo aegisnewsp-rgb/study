@@ -529,9 +529,9 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/nda/syllabus/': {
-    title: 'NDA Syllabus Weightage: Maths, GAT & GK Paper-Wise',
+    title: 'NDA Syllabus Weightage: Maths, GAT, History, Polity',
     description:
-      'NDA syllabus weightage paper by paper: how many Maths, GAT and General Knowledge questions have actually appeared in past papers, subject by subject.',
+      'NDA syllabus weightage paper by paper: how many Maths, GAT, History and Polity questions have actually appeared in past papers, subject by subject.',
     query: 'history weightage in nda (8.7%), polity weightage in nda (7.9%)',
     gscImpressions: 310,
   },

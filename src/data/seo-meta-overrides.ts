@@ -164,7 +164,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/fpsc-cce/': {
     title: 'FPSC CSS 2026: Full Form, Paper Pattern & Optionals',
     description:
-      'FPSC stands for Federal Public Service Commission, Pakistan. FPSC CSS written exam, interview and the syllabus for each optional subject.',
+      'FPSC stands for Federal Public Service Commission; CSS is the Central Superior Services Competitive Examination. Written exam, interview, optionals.',
     query: 'fpsc full form (38.1% @ 0.00% CTR)',
     gscImpressions: 1527,
   },
@@ -214,7 +214,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/accagl/': {
     title: 'CA Pakistan 2026: Subjects, Stages & Total Papers',
     description:
-      'How many papers are there in CA Pakistan under ACCA: the SQE, PSSE and TSA stages, then three levels of the qualification.',
+      'How many papers in CA Pakistan: ICAP runs Foundation, Professional and Final stages, while ACCA is a separate body with 13 exams across three levels.',
     query: 'ca total papers in pakistan 2026 (10.1%), ca subjects in pakistan (8.9%)',
     gscImpressions: 1304,
   },
@@ -468,7 +468,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/waec/': {
     title: 'WAEC WASSCE: Subjects, Papers & Grading',
     description:
-      'WAEC WASSCE for Nigeria: objective papers plus essay and theory papers, how the A1-F8 grade is awarded, entry requirements.',
+      'WAEC WASSCE for Nigeria: objective papers plus essay and theory papers, how the A1-F9 grade is awarded, entry requirements.',
     query: 'wassece exam (13.6%), waec qualification (9.1%), what is waec exam (9.1%)',
     gscImpressions: 477,
   },

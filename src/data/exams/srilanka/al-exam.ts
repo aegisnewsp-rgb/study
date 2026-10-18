@@ -15,8 +15,8 @@ const exam: ExamTemplate = {
   examId: 'al-exam',
   examName: 'A/L Examination (Sri Lanka)',
   country: 'srilanka',
-  description: 'Sri Lanka GCE Advanced Level (A-Level) examination is the national university entrance exam. Students choose a stream (Science, Commerce, Arts) and sit exams in 3-4 subjects. Results determine university admission. The exam is administered by the Department of Examinations, Sri Lanka, and is held annually. It is the most important examination for students seeking higher education in Sri Lanka\'s public universities.',
-  examPattern: '3-4 subjects depending on stream: Commerce (Business Studies, Accounting, Economics, ICT), Science (Chemistry, Physics, Biology, Mathematics), Arts (Economics, Geography, History, Political Science). Papers include MCQs, structured, and essay questions. Each subject has 3 papers: Paper I (MCQ), Paper II (structured + essay), and a practical or project component for science subjects. Exams are held over several weeks in August/September.',
+  description: 'Sri Lanka GCE Advanced Level (A-Level) examination is the national university entrance exam. Students choose a stream (Science, Commerce, Arts) and sit 3 main subjects plus a compulsory Common General Test. Results determine university admission. The exam is administered by the Department of Examinations, Sri Lanka, and is held annually. It is the most important examination for students seeking higher education in Sri Lanka\'s public universities.',
+  examPattern: 'Every candidate sits 3 main subjects plus the compulsory Common General Test, and may add General English. Subjects are drawn from one stream: Commerce (Business Studies, Accounting, Economics), Science (Chemistry, Physics, with Biology or Combined Mathematics), Arts (Economics, Geography, History, Political Science). Papers include MCQs, structured, and essay questions. Each subject has 3 papers: Paper I (MCQ), Paper II (structured + essay), and a practical or project component for science subjects. Exams are held over several weeks in August/September.',
   eligibility: 'GCE O-Level with minimum 6 credits including English. GCE A-Level stream selection based on O-Level results. Students typically select their stream based on career interests — Science for medicine/engineering, Commerce for business, Arts for humanities/social sciences. University admission cut-off points vary by university programme and change annually based on demand.',
   subjects,
     durations: {
@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Sri Lanka GCE Advanced Level (A-Level) examination is the national university entrance exam. Students choose a stream (Science, Commerce, Arts) and sit exams in 3-4 subjects. For A/L Examination (Sri Lanka), if two blogs disagree on A/L Examination (Sri Lanka) marking, https://doenets.lk wins; this page only sequences A/L Examination (Sri Lanka) study.',
+    'Sri Lanka GCE Advanced Level (A-Level) examination is the national university entrance exam. Students choose a stream (Science, Commerce, Arts) and sit 3 main subjects plus a Common General Test. For A/L Examination (Sri Lanka), if two blogs disagree on A/L Examination (Sri Lanka) marking, https://doenets.lk wins; this page only sequences A/L Examination (Sri Lanka) study.',
   commonMistakes: [
     'An outdated A/L Examination (Sri Lanka) PDF is not a substitute for the current notice at https://doenets.lk.',
     'Section timing for A/L Examination (Sri Lanka) only counts if it matches the live duration.',

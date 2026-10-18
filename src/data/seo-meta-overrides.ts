@@ -140,7 +140,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/al-exam/': {
     title: 'GCE A/L Sri Lanka: Subjects, Streams & Pattern',
     description:
-      'GCE Advanced Level Sri Lanka: sit 3 subjects, or 4 on the Science stream. Choose Science, Commerce or Arts. Papers, marks and grading explained.',
+      'GCE Advanced Level Sri Lanka: sit 3 main subjects plus a Common General Test. Choose Science, Commerce or Arts — papers, marks and grading explained.',
     query: 'gce advanced level in sri lanka (49.5% @ 0.00% CTR)',
     gscImpressions: 2619,
   },

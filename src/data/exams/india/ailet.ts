@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'AILET (NLU Delhi) is a law entrance with three published sections: English Language, Current Affairs & General Knowledge, and Logical Reasoning (confirm live section weights against the brochure for your cycle). Legal principles may appear inside Logical Reasoning, so principle-to-fact drills still pay. Build daily reading + reasoning drills; keep a legal-current-affairs notebook. Full timed mocks weekly. Confirm pattern and dates on the official NLU Delhi AILET portal.',
+    'AILET (NLU Delhi) is a law entrance with three published sections: English Language, Current Affairs & General Knowledge, and Logical Reasoning. Legal principles may appear inside Logical Reasoning, so principle-to-fact drills still pay. Build daily reading + reasoning drills; keep a legal-current-affairs notebook. Full timed mocks weekly. Confirm pattern and dates on the official NLU Delhi AILET portal.',
   commonMistakes: [
     'Memorising bare acts instead of practising principle-application passages.',
     'Ignoring GK/current affairs with legal themes.',

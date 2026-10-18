@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'LSAT—India style law admission tests emphasise reading comprehension, analytical and logical reasoning (confirm the current LSAT—India / Pearson pattern for your cycle). Daily untimed-to-timed LR and RC drills; full practice tests weekly. Verify registration and score use with target law schools and the official test provider.',
+    'LSAT—India style law admission tests emphasise reading comprehension, analytical and logical reasoning. Daily untimed-to-timed LR and RC drills; full practice tests weekly. Verify the current pattern, registration and score use with target law schools and the official test provider.',
   commonMistakes: [
     'Memorising legal facts instead of practising reasoning sections.',
     'No full-length timed practice tests.',

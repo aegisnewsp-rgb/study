@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'AIIMS MBBS admissions now primarily use NEET UG ranks under the national counselling framework (confirm the live MCC / AIIMS counselling rules for the year). Prepare via NEET UG: NCERT Biology first, then Chemistry and Physics with full mocks. Use StudyRoadmap NEET notes and roadmaps; verify seat and counselling steps only on official portals.',
+    'AIIMS MBBS admissions now primarily use NEET UG ranks under the national counselling framework. Prepare via NEET UG: NCERT Biology first, then Chemistry and Physics with full mocks. Use StudyRoadmap NEET notes and roadmaps; verify seat and counselling steps only on official portals.',
   commonMistakes: [
     'Studying obsolete AIIMS-only exam patterns that no longer apply.',
     'Ignoring NEET UG NCERT Biology weight.',

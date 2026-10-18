@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'JIPMER MBBS seats are filled through the national NEET UG process under current rules (confirm live MCC counselling notices). Prepare as for NEET UG with strong NCERT Biology and timed mocks. Verify eligibility and counselling on official portals only.',
+    'JIPMER MBBS seats are filled through the national NEET UG process under current rules. Prepare as for NEET UG with strong NCERT Biology and timed mocks. Verify eligibility and counselling on official portals only.',
   commonMistakes: [
     'Preparing for a separate JIPMER MBBS written exam that is no longer the primary route.',
     'Weak NCERT Biology coverage.',

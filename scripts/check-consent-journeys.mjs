@@ -14,7 +14,9 @@
 //   python3 -m http.server 8899 --directory dist &
 //   node scripts/check-consent-journeys.mjs http://127.0.0.1:8899
 //
-// Exits non-zero if any check fails (25 checks as of 2026-09-15).
+// Exit codes: 0 = all journeys passed, 1 = journeys ran and a check failed,
+// 2 = could not run at all (missing browser). Codes 1 and 2 are deliberately
+// distinct: only 1 is evidence about the CMP.
 import { chromium } from 'playwright';
 
 const BASE = process.argv[2] || 'http://127.0.0.1:8899';
@@ -76,7 +78,26 @@ const state = (page) => page.evaluate(() => {
 
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
-const browser = await chromium.launch();
+let browser;
+try {
+  browser = await chromium.launch();
+} catch (err) {
+  // A precondition failure is NOT a CMP defect, and the two must not share an
+  // exit code. Both used to exit 1 with zero check results printed, so an
+  // operator could not tell "this gate never ran" from "the CMP is broken" —
+  // which on the AdSense-critical path is the worst possible ambiguity.
+  //   0 = all journeys passed   1 = journeys ran and a check failed   2 = could not run
+  const missing = /Executable doesn't exist|playwright install/i.test(String((err && err.message) || ''));
+  if (missing) {
+    console.error('check-consent-journeys: PRECONDITION NOT MET — Chromium is not installed for Playwright.');
+    console.error('  Fix: npx playwright install');
+    console.error('  This gate drives a real browser; it can say nothing about the CMP without one.');
+  } else {
+    console.error('check-consent-journeys: could not launch Chromium — this is NOT a CMP verdict.');
+  }
+  console.error(String((err && err.message) || err).split('\n')[0]);
+  process.exit(2);
+}
 
 // ── 1. EEA visitor, no decision yet: banner required, nothing loads ─────────
 {

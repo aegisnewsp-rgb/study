@@ -182,10 +182,14 @@ function scoreOf(row) {
   return typeof s === 'number' && Number.isFinite(s) ? s : null;
 }
 
-/** Top of queue, DISPATCHABLE rows only, ranked by score. Ties break on filename. */
+/** Top of queue, DISPATCHABLE rows only, ranked by score. Ties break on filename.
+ *  TERMINAL rows are excluded: a row the filer already marked SHIPPED/LANDED/etc must
+ *  not be offered back as work. This is the same "false negative wastes a pulse,
+ *  false positive re-does shipped work" trade, resolved toward not re-doing work --
+ *  and it closes nothing. Excluding a row from a list mutates no row. */
 function rankTop(entries, n) {
   return entries
-    .filter((e) => e.dispatchable && e.score !== null)
+    .filter((e) => e.dispatchable && e.score !== null && e.bucket !== 'TERMINAL')
     .sort((a, b) => b.score - a.score || a.file.localeCompare(b.file))
     .slice(0, n);
 }
@@ -428,8 +432,12 @@ function selfTest() {
     // artifact and the live row were TIED at 44000, so an implementation that
     // sorted first and filtered after would put the artifact on top on a
     // filename tie-break and still call it correct.
+    // The shipped row is here for a reason: task-router measured 86 rows whose
+    // own status says SHIPPED__COMMIT_* still ranking as top work, which
+    // re-does shipped work if the router believes the list.
     const rankEntries = [
       { file: 'sr-artifact.json', score: 44000, ...dispatchability({ claw_dispatchable: 'False' }) },
+      { file: 'sr-shipped.json', score: 44000, bucket: 'TERMINAL', ...dispatchability({ exam: 'neet', pageType: 'exam-overview' }) },
       { file: 'sr-live.json', score: 44000, ...dispatchability({ exam: 'neet', pageType: 'exam-overview' }) },
       { file: 'sr-low.json', score: 100, ...dispatchability({ exam: 'jee', pageType: 'exam-syllabus' }) },
       { file: 'sr-unscored.json', score: null, ...dispatchability({ exam: 'ups', pageType: 'exam-dates' }) },
@@ -440,7 +448,8 @@ function selfTest() {
     if (!rankPass) ok = false;
     results.push({
       id: 'rank-filters-before-sort', expected: rankWant.join(','), got: rankedFiles.join(','), pass: rankPass,
-      why: 'a tied artifact must never reach the top of queue; an unscored row must not either', detail: '',
+      why: 'a tied artifact must never reach the top of queue; a row already marked SHIPPED must not either; an unscored row must not either',
+      detail: '',
     });
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
@@ -470,14 +479,15 @@ function main() {
 
   const loaded = loadRows(QUEUE_DIR);
   const counts = {};
-  const rows = loaded.map(({ file, row }) => {
+  const rows = loaded.map(({ file, row, dispatchable, why, score }) => {
     const c = classify(row);
     counts[c.bucket] = (counts[c.bucket] || 0) + 1;
-    return { file, row, ...c };
+    return { file, row, dispatchable, why, score, ...c };
   });
-  const dispatchable = loaded.filter((e) => e.dispatchable);
-  const artifacts = loaded.filter((e) => !e.dispatchable);
-  const top = rankTop(loaded, 5);
+  const dispatchable = rows.filter((e) => e.dispatchable);
+  const artifacts = rows.filter((e) => !e.dispatchable);
+  const top = rankTop(rows, 5);
+  const topShipped = rows.filter((e) => e.bucket === 'TERMINAL' && e.dispatchable && e.score !== null).length;
 
   let closed = 0;
   const probes = [];
@@ -516,6 +526,7 @@ function main() {
       artifacts: artifacts.length,
       buckets: counts,
       top_of_queue: top.map((e) => ({ file: e.file, score: e.score, why: e.why })),
+      dispatchable_but_terminal_withheld: topShipped,
       artifacts_sample: artifacts.slice(0, 10).map((e) => ({ file: e.file, score: e.score, why: e.why })),
       autoclose: AUTOCLOSE,
       closed,
@@ -527,6 +538,7 @@ function main() {
     console.log(`check-queue-row-freshness: ${rows.length} json objects in ${QUEUE_DIR}`);
     console.log(`  head ${git(['rev-parse', '--short', 'HEAD']).out.trim()}`);
     console.log(`  dispatchable ${dispatchable.length}   artifacts ${artifacts.length}`);
+    console.log(`  dispatchable-but-already-terminal, withheld from the list: ${topShipped}`);
     console.log('  top of queue (dispatchable only, ranked by score):');
     for (const e of top) {
       console.log(`    ${String(e.score).padStart(7)}  ${e.file.slice(0, 64).padEnd(64)} ${e.why}`);

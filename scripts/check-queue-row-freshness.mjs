@@ -104,6 +104,37 @@ const SELF_TEST = hasFlag('--self-test');
 const AUTOCLOSE = hasFlag('--autoclose');
 const QUEUE_DIR = optVal('--queue', DEFAULT_QUEUE);
 
+// UNKNOWN-FLAG REJECTION
+//
+// (vqzo pulse 2026-10-19T16:20Z, class FALSE_GREEN__TYPO_FLAG_READS_AS_PASS)
+//
+// hasFlag/optVal treat the flag set as open-ended: any argv this script does not
+// recognize falls through every branch to the report path, which exits 0. Measured
+// on this gate, at the tree this file was written:
+//
+//   node scripts/check-queue-row-freshness.mjs --selftest              -> exit 0
+//   node scripts/check-queue-row-freshness.mjs --totally-made-up-flag  -> exit 0
+//   cmp of the two outputs                                           -> identical
+//
+// `--selftest` is the spelling a caller reaches for first; the real flag is
+// `--self-test`. The 1620Z orchestrator pulse ran `--selftest`, read the rc=0 as a
+// passing self-test, and was one line away from reporting it. A gate that cannot
+// tell "I was asked the wrong question" from "everything is fine" is not a gate.
+const KNOWN_FLAGS = new Set(['--json', '--self-test', '--autoclose', '--queue']);
+const queueIdx = argv.indexOf('--queue');
+const unknownFlags = argv.filter(
+  (a, i) => !KNOWN_FLAGS.has(a) && !(queueIdx >= 0 && i === queueIdx + 1)
+);
+if (unknownFlags.length) {
+  console.error(
+    `check-queue-row-freshness: unknown argument(s): ${unknownFlags.join(' ')}\n` +
+    '  known flags: --json --self-test --autoclose --queue <dir>\n' +
+    '  note: the self-test flag is --self-test (hyphenated). An unrecognized flag\n' +
+    '        used to fall through to the report path and exit 0, which read as a pass.'
+  );
+  process.exit(2);
+}
+
 // A row is terminal when its own status/state already says the work ended.
 // These are the tokens an agent writes when it believes it finished.
 const TERMINAL_TOKENS = [

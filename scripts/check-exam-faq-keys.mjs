@@ -240,14 +240,22 @@ if (src !== null) {
       if (editDistance(a, b) > 1) continue;
       const liveA = isLive(a, consumers), liveB = isLive(b, consumers);
       if (liveA && liveB) liveTwins.push([a, b]);
-      else if (liveA !== liveB) deadNearTwins.push([a, b]);
-      else deadNearTwins.push([a, b]);
+      else if (liveA !== liveB) deadNearTwins.push({ dead: liveA ? b : a, live: liveA ? a : b });
+      else deadNearTwins.push({ dead: null, live: null, both: [a, b] });
     }
   }
   const baseline = readBaseline();
-  for (const [a, b] of deadNearTwins) {
+  // Name WHICH twin is dead. "At least one is never referenced" is not actionable:
+  // it forced the 2026-10-19 09:45Z row to guess 'met' was superseded by 'mat',
+  // which was wrong ('mat' is AIMA's exam; the real twin is 'manipal-met').
+  // That guess reached a permanent file. The gate already computes liveness, so
+  // report it instead of discarding it.
+  for (const t of deadNearTwins) {
+    const a = t.dead ?? t.both[0], b = t.live ?? t.both[1];
     const pair = [a, b].sort().join(' ');
-    const detail = `'${a}' and '${b}' differ by one edit; at least one is never referenced by any consumer file. A grep for either cannot distinguish them.`;
+    const detail = t.dead
+      ? `'${a}' and '${b}' differ by one edit; '${t.dead}' is DEAD (no consumer file references it) and '${t.live}' is the live key. Delete the '${t.dead}' block; a grep for '${t.dead}' matches only the dead one.`
+      : `'${a}' and '${b}' differ by one edit and NEITHER is referenced by any consumer file, so both are dead. Delete both blocks.`;
     if (baseline.has(pair)) {
       baselined.push(pair);
       warns.push({ code: 'BASELINED_DEAD_TWIN', detail: `${detail} (recorded in exam-faq-key-baseline.txt — fix it and delete the line to re-arm.)` });

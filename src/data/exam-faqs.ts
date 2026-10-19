@@ -725,7 +725,20 @@ EXAM_FAQS['cmat-nepal'] = [
   { question: "When is the exam held, and how do Nepali colleges use the score?", answer: "The Faculty of Management publishes the admission notice, the application window and the exam date on tudoms.org, and those dates move each cycle — a previous cycle ran its application across a window in the Nepali calendar with the exam scheduled separately, so treat any date you read on a coaching site as unverified until you have seen it on tudoms.org. Nepali colleges then run their own admissions on the CMAT result: institutions affiliated to Tribhuvan University, including the College of Development Management, publish their own combined entrance and admission notices on their own domains. That is why the CMAT is one paper with many downstream uses, and why you should check a specific college's notice instead of assuming one date covers every programme in the country." },
   { question: "Why do Nepali applicants keep getting India's NTA CMAT details — how do I avoid that mix-up?", answer: "It is an easy mistake to make, because NTA's CMAT in India genuinely exists, genuinely uses the same name, and genuinely has 100 questions — so a search for 'CMAT' hands you the Indian paper by default. From there every number is wrong for Nepal: NTA's paper is 400 marks in 180 minutes with +4 for a correct answer and −1 for a wrong one, its bulletin lives on cmat.nta.nic.in, its fee is in rupees, and its eligibility discussion is framed around Indian citizenship. Nepal's CMAT is 100 marks in 90 minutes, run by the Tribhuvan University Faculty of Management, with its fee in NPR. Treat any NTA URL, rupee fee or 180-minute timing as evidence that you have landed on the wrong country's paper. Also confirm the marking scheme on the current notice rather than assuming either version carries negative marking." }
 ];
-EXAM_FAQS['gaokao-cn'] = EXAM_FAQS['gaokao'];
+// The generic 'gaokao' block covers both History and Physics streams, and told a
+// science-stream (likao) candidate to consider History. This page is the science
+// track only, so it gets its own block; no marks are quoted that the official
+// provincial notices do not fix, because they differ by province.
+EXAM_FAQS['gaokao-cn'] = [
+  { question: "Which subjects make up the Gaokao science stream?", answer: "Under the 3+1+2 model, every candidate sits Chinese, Mathematics and one foreign language. The science stream takes Physics as the single first-choice subject, then chooses two more from Chemistry, Biology, Politics and Geography. Most engineering, medicine and natural-science candidates pick Chemistry and Biology, which is the combination this page's study plan covers." },
+  { question: "How should a science-stream candidate split revision between Physics, Chemistry and Biology?", answer: "Weight revision by how your target programme scores you, not by an even split. Physics is mandatory and graded on raw marks, while Chemistry and Biology are usually converted to a ranked score in reformed provinces, so a steady error-log routine on all three matters more than cramming one. Use the Physics, Chemistry and Biology topic notes on StudyRoadmap to sequence topics, then check your province's scoring rules." },
+  { question: "Where do I confirm this year's science-stream rules and dates?", answer: "Marks per paper, exam dates and subject-combination rules are set by each provincial examination authority, and the national framework comes from the Ministry of Education and NEEA at neea.edu.cn. Check your own province's notice before fixing a plan, because reformed and non-reformed provinces differ." },
+];
+// Page examIds 'engineering-ent' and 'eed' are the same exams as the 'ioe-ent'
+// (IOE Entrance, Nepal) and 'ege' (EGE, Russia) blocks; without these aliases
+// the written FAQs were dropped and the pages emitted no FAQPage schema.
+EXAM_FAQS['engineering-ent'] = EXAM_FAQS['ioe-ent'];
+EXAM_FAQS['eed'] = EXAM_FAQS['ege'];
 // Sri Lanka's Law Aptitude Test and Kenya's Law Aptitude Test share an English
 // name and almost nothing else. The Sri Lankan paper is run by Sri Lanka Law
 // College for its own admissions, and its answers described A/L passes, a

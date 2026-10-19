@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'A KUET Admission Test mock with a different number of items trains the wrong stamina.',
     'A friend who sat KUET Admission Test two years ago is not your eligibility officer; https://kuet.ac.bd is.',
     'If a page promises you will \'crack KUET Admission Test\' with this plan, it is not this site.',
-    'Use 100 MCQs: Mathematics(40 questions), Physics(30 questions), Chemistry(20 questions), plus 10 questions from… only as a memory aid for KUET Admission Test, then match the live paper on https://kuet.ac.bd.'
+    'Use 100 MCQs: Mathematics(40 questions), Physics(30 questions), Chemistry(20 questions) only as a memory aid for KUET Admission Test, then match the live paper on https://kuet.ac.bd.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://kuet.ac.bd',

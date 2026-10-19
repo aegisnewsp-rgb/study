@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Section timing for UNEB UACE (Uganda) only counts if it matches the live duration.',
     'Photo, ID, and attempt-limit rules for UNEB UACE (Uganda) live on https://www.uneb.ac.ug, not on WhatsApp.',
     'StudyRoadmap will not promise a UNEB UACE (Uganda) outcome — only a study order.',
-    'Who the board describes as eligible for UNEB UACE (Uganda): UCE (Form IV) certificate with minimum passes. Subject combinations must meet university course… Re-read it on https://www.uneb.ac.ug the week you apply.'
+    'Who the board describes as eligible for UNEB UACE (Uganda): UCE (Form IV) certificate with minimum passes. Re-read it on https://www.uneb.ac.ug the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.uneb.ac.ug',

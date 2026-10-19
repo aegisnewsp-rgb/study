@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Section timing for BUET Admission Test only counts if it matches the live duration.',
     'Photo, ID, and attempt-limit rules for BUET Admission Test live on https://buet.ac.bd, not on WhatsApp.',
     'Nobody on this site can guarantee a BUET Admission Test rank, percentile, or admission.',
-    'Who the board describes as eligible for BUET Admission Test: HSC or equivalent with GPA 4.0+ in Physics, Chemistry, and Mathematics (combined minimum 13.5 in these three… Re-read it on https://buet.ac.bd the week you apply.'
+    'Who the board describes as eligible for BUET Admission Test: HSC or equivalent with GPA 4.0+ in Physics, Chemistry, and Mathematics. Re-read it on https://buet.ac.bd the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://buet.ac.bd',

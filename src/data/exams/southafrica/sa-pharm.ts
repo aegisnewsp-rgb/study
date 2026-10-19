@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Skipping full SAPC (South Africa) papers until the final weekend is how scores stall.',
     'Some SAPC (South Africa) programmes add extra subject prerequisites after you pay — check https://www.sapc.za.org.',
     'If a page promises you will \'crack SAPC (South Africa)\' with this plan, it is not this site.',
-    'The published SAPC (South Africa) shape in our files is: The examination covers Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Clinical Pharmacy, and… If https://www.sapc.za.org differs, follow https://www.sapc.za.org.'
+    'The published SAPC (South Africa) shape in our files is: The examination covers Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Clinical Pharmacy. If https://www.sapc.za.org differs, follow https://www.sapc.za.org.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.sapc.za.org',

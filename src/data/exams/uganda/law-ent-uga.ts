@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'A Uganda Law Admission mock with a different number of items trains the wrong stamina.',
     'Some Uganda Law Admission programmes add extra subject prerequisites after you pay — check https://ldc.ac.ug.',
     'Treat \'sure selection\' Uganda Law Admission ads as marketing; the board does not endorse them.',
-    'Use Typically covers English Language (comprehension, grammar, essay writing), General Paper (current affairs… only as a memory aid for Uganda Law Admission, then match the live paper on https://ldc.ac.ug.'
+    'Use Typically covers English Language (comprehension, grammar, essay writing), General Paper only as a memory aid for Uganda Law Admission, then match the live paper on https://ldc.ac.ug.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ldc.ac.ug',

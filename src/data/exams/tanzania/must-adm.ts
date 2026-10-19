@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Untimed MUST Admission (Tanzania) practice hides whether you can finish the published paper.',
     'Do not assume MUST Admission (Tanzania) is open to every degree title until https://must.ac.tz says so.',
     'StudyRoadmap will not promise a MUST Admission (Tanzania) outcome — only a study order.',
-    'Use Varies by programme applied for — typically tests relevant subjects at CSEE or ACSEE level depending on the… only as a memory aid for MUST Admission (Tanzania), then match the live paper on https://must.ac.tz.'
+    'Use Varies by programme applied for — typically tests relevant subjects at CSEE or ACSEE level only as a memory aid for MUST Admission (Tanzania), then match the live paper on https://must.ac.tz.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://must.ac.tz',

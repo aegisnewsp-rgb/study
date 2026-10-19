@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Doing only favourite AAU Admission (Ethiopia) chapters leaves the clock as the real examiner.',
     'A friend who sat AAU Admission (Ethiopia) two years ago is not your eligibility officer; https://www.aau.edu.et/admission is.',
     'Treat \'sure selection\' AAU Admission (Ethiopia) ads as marketing; the board does not endorse them.',
-    'Use Ethiopian University Entrance Examination (EUEE) — 2 papers: General Aptitude Test (GAT: verbal… only as a memory aid for AAU Admission (Ethiopia), then match the live paper on https://www.aau.edu.et/admission.'
+    'Use Ethiopian University Entrance Examination (EUEE) — 2 papers: General Aptitude Test only as a memory aid for AAU Admission (Ethiopia), then match the live paper on https://www.aau.edu.et/admission.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.aau.edu.et/admission',

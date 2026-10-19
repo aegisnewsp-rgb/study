@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'A LOE Nepal (Bachelor Entrance) mock with a different number of items trains the wrong stamina.',
     'Some LOE Nepal (Bachelor Entrance) programmes add extra subject prerequisites after you pay — check https://psc.gov.np.',
     'StudyRoadmap will not promise a LOE Nepal (Bachelor Entrance) outcome — only a study order.',
-    'Who the board describes as eligible for LOE Nepal (Bachelor Entrance): +2 (Higher Secondary Education Board) completion or equivalent. Minimum percentage requirements vary by… Re-read it on https://psc.gov.np the week you apply.'
+    'Who the board describes as eligible for LOE Nepal (Bachelor Entrance): +2 (Higher Secondary Education Board) completion or equivalent. Minimum percentage requirements vary. Re-read it on https://psc.gov.np the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://psc.gov.np',

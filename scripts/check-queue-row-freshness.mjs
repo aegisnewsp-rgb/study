@@ -189,10 +189,17 @@ function runProbe(row, baseDir) {
   if (!probe || typeof probe !== 'object') {
     return { verdict: 'NO_PROBE', why: 'row carries no machine-checkable closure_probe' };
   }
-  if (typeof probe.pattern === 'string' && typeof probe.path === 'string') {
-    return probeGrepAbsent(probe, baseDir);
+  // Dispatch on the DECLARED kind, never on the presence of path+pattern.
+  // Dispatching on shape let a probe whose kind is deliberately NOT closable
+  // (fix_in_history) — and any invented kind — run grep_absent and close the
+  // row, which is exactly the false green this gate exists to prevent.
+  if (probe.kind !== 'grep_absent') {
+    return { verdict: 'UNSUPPORTED', why: `probe kind is not closable: ${JSON.stringify(probe.kind)}` };
   }
-  return { verdict: 'UNSUPPORTED', why: `unsupported probe shape: ${Object.keys(probe).join(',')}` };
+  if (typeof probe.pattern !== 'string' || typeof probe.path !== 'string') {
+    return { verdict: 'UNSUPPORTED', why: `probe needs string path+pattern, got: ${Object.keys(probe).join(',')}` };
+  }
+  return probeGrepAbsent(probe, baseDir);
 }
 
 // ---------------------------------------------------------------------------
@@ -252,11 +259,34 @@ function selfTest() {
       status: 'OPEN',
       closure_probe: { kind: 'vibes' },
     };
+    // The load-bearing cases. Each carries a COMPLETE, well-formed path+pattern
+    // pointed at a CLEAN file — so a shape-only dispatch would read them as
+    // CLOSED. The declared kind must be what stops them. Without these, the
+    // "unsupported kind" case above passed vacuously (no path, no pattern) and
+    // the whole kind check went untested.
+    const fixInHistoryRow = {
+      id: 'selftest-fix-in-history',
+      status: 'OPEN',
+      closure_probe: { kind: 'fix_in_history', path: 'fixed.txt', pattern: 'cuet-pg' },
+    };
+    const inventedKindRow = {
+      id: 'selftest-invented-kind',
+      status: 'OPEN',
+      closure_probe: { kind: 'i_just_made_this_kind_up', path: 'fixed.txt', pattern: 'cuet-pg' },
+    };
+    const kindlessRow = {
+      id: 'selftest-kindless',
+      status: 'OPEN',
+      closure_probe: { path: 'fixed.txt', pattern: 'cuet-pg' },
+    };
 
     const expect = [
       [liveRow, 'LIVE', 'a row whose defect is still present must NOT be closed'],
       [fixedRow, 'CLOSED', 'a row whose defect is provably absent must close'],
       [noProbeRow, 'NO_PROBE', 'a row with no probe must NOT be closed'],
+      [fixInHistoryRow, 'UNSUPPORTED', 'fix_in_history is documented NOT closable and must NOT close on a clean file'],
+      [inventedKindRow, 'UNSUPPORTED', 'an invented kind must NOT close just because it carries path+pattern'],
+      [kindlessRow, 'UNSUPPORTED', 'a probe with no declared kind must NOT close on shape alone'],
       [missingRow, 'INDETERMINATE', 'a missing probe path is not proof of absence'],
       [unsupportedRow, 'UNSUPPORTED', 'an unsupported probe kind must NOT be closed'],
     ];

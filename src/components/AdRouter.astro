@@ -602,6 +602,45 @@ const js = `
         state.popunderSkipped = '';
     }
 
+    // ---- dwell beacon (s21) -----------------------------------------------
+    // Single-pageview sessions have max-min dwell of 0, so arm-delay decisions
+    // cannot be measured from pageview timestamps. One bucketed event per page
+    // on first hide gives visible time-on-page. Analytics only: loads no ad code.
+    // Limits: /u.js loads after window load + idle, so a hide before umami exists
+    // is parked in sessionStorage and flushed (late:1) on the next page that has
+    // umami; a visitor who bounces and never returns is not counted. A tab switch
+    // freezes the bucket, so long reads that pause early are undercounted.
+    var dwellKey = 'sr_dwell_pending';
+    var dwellStart = Date.now();
+    var dwellSent = false;
+    function dwellBucket(ms) {
+        return ms < 1200 ? 'lt1.2s' : ms < 3500 ? '1.2-3.5s' : ms < 10000 ? '3.5-10s' : ms < 30000 ? '10-30s' : 'gte30s';
+    }
+    function umamiReady() { return !!(w.umami && typeof w.umami.track === 'function'); }
+    function sendDwell() {
+        if (dwellSent) return;
+        dwellSent = true;
+        var b = dwellBucket(Date.now() - dwellStart);
+        if (umamiReady()) { track('sr_dwell', { bucket: b }); return; }
+        try { w.sessionStorage.setItem(dwellKey, b); } catch (e) {}
+    }
+    function flushPendingDwell() {
+        var tries = 0;
+        var t = setInterval(function () {
+            tries++;
+            if (umamiReady()) {
+                clearInterval(t);
+                try {
+                    var b = w.sessionStorage.getItem(dwellKey);
+                    if (b) { w.sessionStorage.removeItem(dwellKey); track('sr_dwell', { bucket: b, late: 1 }); }
+                } catch (e) {}
+            } else if (tries > 20) { clearInterval(t); }
+        }, 1000);
+    }
+    try { if (w.sessionStorage.getItem(dwellKey)) flushPendingDwell(); } catch (e) {}
+    d.addEventListener('visibilitychange', function () { if (d.visibilityState === 'hidden') sendDwell(); });
+    w.addEventListener('pagehide', sendDwell);
+
     gate();
 })();
 `;

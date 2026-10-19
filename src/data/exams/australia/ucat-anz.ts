@@ -26,7 +26,7 @@ const exam: ExamTemplate = {
   examName: 'UCAT ANZ (University Clinical Aptitude Test)',
   country: 'australia',
   description: 'The UCAT ANZ is a computer-based admissions test used by universities in Australia and New Zealand for entry to undergraduate medicine, dentistry and some clinical science courses. The UCAT ANZ Consortium (a group of universities operating in partnership with Pearson VUE) owns and administers the test. As of the 2025 test cycle the test consists of four subtests: Verbal Reasoning, Decision Making, Quantitative Reasoning and Situational Judgement. The UCAT ANZ is sat in Year 12 (or equivalent) and is required by most Australian medical schools (Monash, Melbourne, UNSW, UQ, Adelaide, UWA, Curtin, Western Sydney, Notre Dame, Griffith, ANU, Tasmania and others) and by the University of Auckland and the University of Otago.',
-  examPattern: 'The standard UCAT ANZ test is computer-based and consists of four separately timed subtests: Verbal Reasoning (44 items, target testing time 21 minutes), Decision Making (29 items, target testing time 31 minutes), Quantitative Reasoning (36 items, target testing time 24 minutes) and Situational Judgement (69 items, target testing time 26 minutes). Each subtest is preceded by a one-minute instruction section. The on-screen calculator is available in Quantitative Reasoning. Confirm the live subtest question counts, timings and any extended-testing arrangements on ucat.edu.au before each cycle.',
+  examPattern: 'The standard UCAT ANZ test is computer-based and consists of four separately timed subtests: Verbal Reasoning (44 questions, 22 minutes), Decision Making (35 questions, 37 minutes), Quantitative Reasoning (36 questions, 26 minutes) and Situational Judgement (69 questions, 26 minutes). Each subtest is preceded by a timed instruction section: one minute 30 seconds for Verbal Reasoning, Decision Making and Situational Judgement, and two minutes for Quantitative Reasoning. The whole test is just under two hours and cannot be paused once started. A calculator is available on-screen in Decision Making as well as in Quantitative Reasoning. Scores are scaled to a common 300-900 range per subtest; the Total Scaled Score is the sum of Verbal Reasoning, Decision Making and Quantitative Reasoning only, ranging 900-2700, while Situational Judgement is reported separately on the same 300-900 scale. There is no negative marking. Confirm the live subtest question counts, timings and any extended-testing arrangements on ucat.edu.au before each cycle.',
   eligibility: 'The UCAT ANZ is open to candidates whose educational level is considered equivalent to Year 12 (or higher) and who intend to apply for entry to a participating university in Australia or New Zealand. Candidates typically sit the UCAT ANZ in July-August of Year 12 (or equivalent). Registration is via the UCAT ANZ website and requires a Pearson VUE test booking. Some universities impose additional non-academic requirements (interview, English proficiency). Confirm the live eligibility rules, registration deadlines and the list of participating universities on ucat.edu.au.',
   subjects,
     durations: {
@@ -64,12 +64,21 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Practising only without timing — the UCAT ANZ is heavily time-pressured and untimed practice trains slow habits; every drill must run against the official per-subtest time.',
     'Skipping Decision Making because it looks like an English task — Decision Making tests logical reasoning, not reading; over-reading the prompt wastes time.',
-    'Forgetting that Quantitative Reasoning has an on-screen calculator — but typing in calculations is slow; mental arithmetic and estimation should be the default, with the calculator used to verify.',
+    'Forgetting that a calculator is on-screen in Decision Making as well as in Quantitative Reasoning — but typing in calculations is slow; mental arithmetic and estimation should be the default, with the calculator used to verify.',
     'Reading every Situational Judgement scenario twice — SJT scenarios are dense; first-pass reading for the key conflict then refer back is faster than re-reading.',
     'Studying for Abstract Reasoning after the 2025 change — Abstract Reasoning was removed from the UCAT ANZ in 2025; studying it now wastes time.',
     'Booking the test late — Pearson VUE test centres fill quickly in July-August; late bookings may force travel to a distant centre or miss preferred sitting dates.'
   ],
-  lastUpdated: '2026-09-20',
+  calendarDates: {
+    applicationStart:
+      'Concession Scheme and Access Arrangements applications open 16 February 2026; booking opens 3 March 2026. All UCAT ANZ deadlines are 11:59pm Australian Eastern Standard Time and the Consortium states it makes no exceptions to them.',
+    applicationEnd:
+      'Concession applications close 11 May 2026 and Access Arrangements applications close 15 May 2026. The booking deadline is 15 May 2026; the late-booking period runs 16-29 May 2026 and the final late-booking period 30 May-5 June 2026. The cancellation deadline is 12 June 2026 and bookings for 2026 closed on 5 June 2026.',
+    examDates: 'The 2026 testing window is 1 July to 5 August 2026, sat at Pearson VUE test centres.',
+    resultDate:
+      'Pearson emails a Score Report access link within 24 hours of sitting the test. Results are released to Consortium universities directly by the UCAT ANZ Office in early September 2026; preliminary test statistics are published in late August and summary statistics with Total Score percentiles in September 2026.',
+  },
+  lastUpdated: '2026-10-19',
   officialSource: 'https://www.ucat.edu.au/about-ucat-anz/test-format/',
 };
 

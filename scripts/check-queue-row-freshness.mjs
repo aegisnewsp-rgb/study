@@ -24,6 +24,17 @@
  *   exist at HEAD.
  *
  * WHAT THIS GATE DOES
+ *   0. DISPATCHABILITY, before anything is ranked. A file in queue/pending is not
+ *      automatically work: the directory also holds tooling artifacts (instrument
+ *      findings, censuses, dumps), and an artifact is a JSON object, so a naive
+ *      loader counts it as a row. Ranking by `score` alone put an artifact at the
+ *      top of queue (sr-20261019T1540Z: the 0335Z near-identical-FAQ-keys finding,
+ *      score 44000, TIED with the real 0935Z row — so no tie-break saved it).
+ *      A row is dispatchable when it does NOT declare `claw_dispatchable: false`
+ *      AND it either names work (exam / pageType / slug / promptFile / target)
+ *      or declares itself dispatchable. The gate prints the count split and the
+ *      real top of queue, so the router does not hand-rank and cannot reach a dump.
+ *
  *   1. REPORT (default, read-only). Classifies every pending row into one of:
  *        TERMINAL              — status/state already carries a terminal token
  *        AUTOVERIFIABLE_STALE  — body asserts completion AND cites a commit SHA
@@ -60,8 +71,7 @@
  * USAGE
  *   node scripts/check-queue-row-freshness.mjs                 # report (read-only)
  *   node scripts/check-queue-row-freshness.mjs --json          # machine-readable
- *   node scripts/check-queue-row-freshness.mjs --self-test     # prove the controls
- *   node scripts/check-queue-row-freshness.mjs --autoclose     # run probes, close
+ *   node scripts/check-queue-row-freshness.mjs --self-test     # prove the controls *   node scripts/check-queue-row-freshness.mjs --autoclose     # run probes, close
  *
  * EXIT CODES
  *   0  report completed, or self-test held in both directions, or every probe
@@ -110,6 +120,75 @@ const COMPLETION_BODY_TOKENS = [
 ];
 
 const SHA_RE = /\b[0-9a-f]{7,40}\b/g;
+
+// ---------------------------------------------------------------------------
+// dispatchability — a queue file is not automatically WORK
+//
+// (queue row sr-20261019T1540Z-vqzo-FINDING-top-scored-row-is-a-tooling-dump-not-a-queue-row,
+//  score 4200, class FALSE_TOP_OF_QUEUE__TOOLING_ARTIFACT_RANKED_AS_WORK)
+//
+//   queue/pending mixes dispatchable rows with tooling artifacts — instrument
+//   findings, censuses, dumps. An artifact is a JSON object, so loadRows counted
+//   it as a row, and ranking by `score` put one at the top of queue: the 0335Z
+//   near-identical-FAQ-keys finding, score 44000. It was TIED with a real row
+//   (0935Z, also 44000, declared dispatchable), so a tie-break would not have
+//   saved it either. Its cited token 63756365742d7067 is the hex encoding of the
+//   ASCII string "cucet-pg", not a commit — `git cat-file -t` rejects it.
+//
+//   So: filter BEFORE sorting, and let the gate do the ranking. The router was
+//   hand-ranking by score, which is how a dump reached the top.
+//
+// ENCODING TRAP, measured on this corpus (494 object rows):
+//   `claw_dispatchable` is a JSON boolean on 163 rows and the STRING "False" on
+//   6 more (a leaked Python repr — 9 rows are string-encoded in total). A
+//   `row.claw_dispatchable === false` test passes all 6 string rows straight
+//   through as dispatchable work. Normalize before comparing.
+//
+// WORK_FIELDS is measured, not guessed: exam 231, pageType 269, slug 34,
+//   promptFile 28, target 8. `task`, `path`, `dispatchTo` and `examSlug` occur
+//   ZERO times in this corpus and are deliberately NOT listed — a rule built on
+//   fields that never occur is decoration that reads like evidence.
+const WORK_FIELDS = ['exam', 'pageType', 'slug', 'promptFile', 'target'];
+
+/** true / false when the row declares it, null when absent or unrecognised. */
+function declaredDispatchable(row) {
+  const v = row.claw_dispatchable;
+  if (v === undefined || v === null) return null;
+  if (typeof v === 'boolean') return v;
+  const s = String(v).trim().toLowerCase();
+  if (s === 'false') return false;
+  if (s === 'true') return true;
+  return null; // unrecognised: fall through to the structural test
+}
+
+function workFields(row) {
+  return WORK_FIELDS.filter((k) => {
+    const v = row[k];
+    return v !== undefined && v !== null && v !== '' && !(Array.isArray(v) && v.length === 0);
+  });
+}
+
+function dispatchability(row) {
+  const declared = declaredDispatchable(row);
+  if (declared === false) return { dispatchable: false, why: 'declares claw_dispatchable false' };
+  const work = workFields(row);
+  if (work.length) return { dispatchable: true, why: `work fields: ${work.join(',')}` };
+  if (declared === true) return { dispatchable: true, why: 'declares dispatchable; no work field' };
+  return { dispatchable: false, why: 'no work field, no dispatchable declaration' };
+}
+
+function scoreOf(row) {
+  const s = row.score;
+  return typeof s === 'number' && Number.isFinite(s) ? s : null;
+}
+
+/** Top of queue, DISPATCHABLE rows only, ranked by score. Ties break on filename. */
+function rankTop(entries, n) {
+  return entries
+    .filter((e) => e.dispatchable && e.score !== null)
+    .sort((a, b) => b.score - a.score || a.file.localeCompare(b.file))
+    .slice(0, n);
+}
 
 function git(args, cwd = ROOT) {
   try {
@@ -219,7 +298,7 @@ function loadRows(queueDir) {
       continue; // malformed rows are not this gate's problem
     }
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) continue;
-    out.push({ file: name, row: parsed });
+    out.push({ file: name, row: parsed, ...dispatchability(parsed), score: scoreOf(parsed) });
   }
   return out;
 }
@@ -316,6 +395,53 @@ function selfTest() {
       if (!pass) ok = false;
       results.push({ id: `classify-${want.toLowerCase()}`, expected: want, got: got.bucket, pass, why, detail: '' });
     }
+
+    // Direction-3 control: dispatchability. The 1540Z finding is that a tooling
+    // artifact outranked real work. Each half must be falsifiable on its own,
+    // so the two ENCODINGS of the declaration get separate cases -- a single
+    // case for `=== false` would pass while 6 string rows still leaked through.
+    const dispCases = [
+      ['disp-bool-false', dispatchability({ score: 44000, claw_dispatchable: false }), false,
+        'boolean false is an artifact'],
+      ['disp-string-false', dispatchability({ score: 44000, exam: 'cucet', pageType: 'exam-overview', claw_dispatchable: 'False' }), false,
+        'STRING "False" beats a work field. This case carries exam+pageType on purpose: WITHOUT the normalization it classifies dispatchable and the case still passed, which is how the first version of this test proved nothing'],
+      ['disp-string-true', dispatchability({ score: 5, claw_dispatchable: 'True' }), true,
+        'STRING "True" is a declaration, and is honoured'],
+      ['disp-no-signal', dispatchability({ score: 5 }), false,
+        'no work field and no declaration is an artifact'],
+      ['disp-declared-true-no-work', dispatchability({ score: 5, claw_dispatchable: true }), true,
+        'declared dispatchable with no work field is still work'],
+      ['disp-work-field', dispatchability({ exam: 'neet', pageType: 'exam-overview' }), true,
+        'a work field is dispatchable'],
+      ['disp-declaration-beats-work', dispatchability({ exam: 'neet', claw_dispatchable: false }), false,
+        'a non-dispatchable declaration beats a work field'],
+      ['disp-empty-work-array', dispatchability({ exam: [], pageType: 'exam-overview' }), true,
+        'an empty array is not a work value; the other field still counts'],
+    ];
+    for (const [id, got, want, why] of dispCases) {
+      const pass = got.dispatchable === want;
+      if (!pass) ok = false;
+      results.push({ id, expected: want, got: got.dispatchable, pass, why, detail: got.why });
+    }
+
+    // Direction-4 control: the RANK, at the shape actually measured. The
+    // artifact and the live row were TIED at 44000, so an implementation that
+    // sorted first and filtered after would put the artifact on top on a
+    // filename tie-break and still call it correct.
+    const rankEntries = [
+      { file: 'sr-artifact.json', score: 44000, ...dispatchability({ claw_dispatchable: 'False' }) },
+      { file: 'sr-live.json', score: 44000, ...dispatchability({ exam: 'neet', pageType: 'exam-overview' }) },
+      { file: 'sr-low.json', score: 100, ...dispatchability({ exam: 'jee', pageType: 'exam-syllabus' }) },
+      { file: 'sr-unscored.json', score: null, ...dispatchability({ exam: 'ups', pageType: 'exam-dates' }) },
+    ];
+    const rankedFiles = rankTop(rankEntries, 5).map((e) => e.file);
+    const rankWant = ['sr-live.json', 'sr-low.json'];
+    const rankPass = JSON.stringify(rankedFiles) === JSON.stringify(rankWant);
+    if (!rankPass) ok = false;
+    results.push({
+      id: 'rank-filters-before-sort', expected: rankWant.join(','), got: rankedFiles.join(','), pass: rankPass,
+      why: 'a tied artifact must never reach the top of queue; an unscored row must not either', detail: '',
+    });
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
   }
@@ -349,6 +475,9 @@ function main() {
     counts[c.bucket] = (counts[c.bucket] || 0) + 1;
     return { file, row, ...c };
   });
+  const dispatchable = loaded.filter((e) => e.dispatchable);
+  const artifacts = loaded.filter((e) => !e.dispatchable);
+  const top = rankTop(loaded, 5);
 
   let closed = 0;
   const probes = [];
@@ -383,7 +512,11 @@ function main() {
       queue_dir: QUEUE_DIR,
       head: git(['rev-parse', 'HEAD']).out.trim(),
       rows_scanned: rows.length,
+      dispatchable: dispatchable.length,
+      artifacts: artifacts.length,
       buckets: counts,
+      top_of_queue: top.map((e) => ({ file: e.file, score: e.score, why: e.why })),
+      artifacts_sample: artifacts.slice(0, 10).map((e) => ({ file: e.file, score: e.score, why: e.why })),
       autoclose: AUTOCLOSE,
       closed,
       probes,
@@ -391,8 +524,13 @@ function main() {
       stale_unverifiable: unver.slice(0, 20).map((r) => ({ file: r.file, cited: r.shas.slice(0, 3) })),
     }, null, 2));
   } else {
-    console.log(`check-queue-row-freshness: ${rows.length} rows in ${QUEUE_DIR}`);
+    console.log(`check-queue-row-freshness: ${rows.length} json objects in ${QUEUE_DIR}`);
     console.log(`  head ${git(['rev-parse', '--short', 'HEAD']).out.trim()}`);
+    console.log(`  dispatchable ${dispatchable.length}   artifacts ${artifacts.length}`);
+    console.log('  top of queue (dispatchable only, ranked by score):');
+    for (const e of top) {
+      console.log(`    ${String(e.score).padStart(7)}  ${e.file.slice(0, 64).padEnd(64)} ${e.why}`);
+    }
     for (const b of ['TERMINAL', 'AUTOVERIFIABLE_STALE', 'STALE_UNVERIFIABLE', 'LIVE_UNCLAIMED']) {
       console.log(`  ${b.padEnd(22)} ${counts[b] || 0}`);
     }

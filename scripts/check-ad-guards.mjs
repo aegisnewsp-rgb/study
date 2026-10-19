@@ -46,7 +46,7 @@ const body = src.match(/const js = `\n([\s\S]*?)\n`;/)[1].replace(/\\\\/g, '\\')
 // guard case can pass while the real build fails with 'Expected ";" but found
 // ...' — which is exactly what happened on 2026-09-16 (a backtick in a comment).
 // Assert the body reaches its real end before trusting anything it says.
-const TERMINATOR = 'gate();\n})();';
+const TERMINATOR = '} catch (e) {}\n})();'; // the dwell beacon try/catch closes the IIFE; gate() runs just before it
 if (!body.trimEnd().endsWith(TERMINATOR)) {
   console.error(
     'FATAL AdRouter emitted body looks truncated — a backtick inside the `js` ' +

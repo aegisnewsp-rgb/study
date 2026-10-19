@@ -69,7 +69,7 @@ const exam: ExamTemplate = {
     'Missing the examination-entry close. KASNEB publishes the entry deadline per sitting, and it sits well before the examination window.',
     'Ignoring the entry requirement. A KCSE mean grade of C+ (Plus), a KASNEB diploma, or another recognised diploma is required, and candidates with foreign secondary results should check how those are treated before registering.',
   ],
-  lastUpdated: '2026-10-09',
+  lastUpdated: '2026-10-19',
   officialSource: 'https://www.kasneb.or.ke/cpa',
 };
 

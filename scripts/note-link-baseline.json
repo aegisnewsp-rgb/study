@@ -1,7 +1,7 @@
 {
   "note": "Known unreachable notes. Regenerate deliberately with --update-baseline.",
-  "updated": "2026-09-19",
-  "count": 1568,
+  "updated": "2026-10-19",
+  "count": 1588,
   "unreachable": [
     "buet-adm/mathematics/math-001",
     "buet-adm/mathematics/math-002",
@@ -1570,6 +1570,26 @@
     "waec/physics/phy-6",
     "waec/physics/phy-7",
     "waec/physics/phy-8",
-    "waec/physics/phy-9"
+    "waec/physics/phy-9",
+    "wassce/accounting/accoun-001",
+    "wassce/accounting/accoun-002",
+    "wassce/accounting/accoun-003",
+    "wassce/accounting/accoun-004",
+    "wassce/accounting/accoun-005",
+    "wassce/accounting/accoun-006",
+    "wassce/accounting/accoun-007",
+    "wassce/accounting/accoun-008",
+    "wassce/accounting/accoun-009",
+    "wassce/accounting/accoun-010",
+    "wassce/economics/econom-001",
+    "wassce/economics/econom-002",
+    "wassce/economics/econom-003",
+    "wassce/economics/econom-004",
+    "wassce/economics/econom-005",
+    "wassce/economics/econom-006",
+    "wassce/economics/econom-007",
+    "wassce/economics/econom-008",
+    "wassce/economics/econom-009",
+    "wassce/economics/econom-010"
   ]
 }

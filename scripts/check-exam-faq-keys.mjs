@@ -186,6 +186,14 @@ function isLive(key, consumers) {
  * does not import cannot be proven to contain anything.
  */
 async function runtimeKeys() {
+  const obj = await runtimeObj();
+  if (!obj) return null;
+  return Object.keys(obj);
+}
+
+let RUNTIME_OBJ = null;
+async function runtimeObj() {
+  if (RUNTIME_OBJ) return RUNTIME_OBJ;
   try {
     const mod = await import(pathToFileUrl(TARGET));
     const obj = mod.EXAM_FAQS;
@@ -193,7 +201,8 @@ async function runtimeKeys() {
       fails.push({ code: 'EXPORT_MISSING', detail: 'EXAM_FAQS did not export an object' });
       return null;
     }
-    return Object.keys(obj);
+    RUNTIME_OBJ = obj;
+    return obj;
   } catch (err) {
     fails.push({ code: 'IMPORT_FAILED', detail: String(err && err.message || err).slice(0, 300) });
     return null;
@@ -202,6 +211,131 @@ async function runtimeKeys() {
 
 function pathToFileUrl(p) {
   return new URL(`file://${p}`).href;
+}
+
+// ------------------------------------------------------- render-path resolution
+
+/**
+ * INVARIANT 6 — MISROUTED_FAQ_KEY.
+ *
+ * The near-twin analysis above compares FAQ keys ONLY against each other. But the
+ * twin of a mis-typed FAQ key usually lives on the MODULE side, and no FAQ-vs-FAQ
+ * comparison can see it. Measured 2026-10-19 on this repo:
+ *
+ *   module  src/data/exams/india/vitee.ts  examId: 'vitee'  examName: 'VITEEE'  (live page /exams/vitee/)
+ *   FAQ     src/data/exam-faqs.ts           key:    'viteee'  (3 written answers)
+ *
+ * The page exists and is indexed; the FAQ never renders, because both render sites
+ * index by examId:
+ *   exams/[exam].astro:69   params: { exam: exam.examId }
+ *   exams/[exam].astro:476  EXAM_FAQS[exam.examId]
+ *   roadmap.astro:161       EXAM_FAQS[e.examId]
+ * This gate reported that key as LIVE, because isLive() only asks whether any
+ * consumer file contains the literal 'viteee' — and RoadmapApp.tsx:33 does.
+ *
+ * A key one edit away from a real examId, with no byte-equal match, is therefore
+ * content written for a page that can never show it. Distance 1 FAILS. Distance 2
+ * only WARNS: toefl/toafa and pte/putme are unrelated exams that happen to be two
+ * edits apart, so a distance-2 FAIL would cry wolf on its first honest run.
+ */
+function readExamIds() {
+  const base = path.join(ROOT, 'src/data/exams');
+  const ids = new Set();
+  const walk = (dir) => {
+    let ents;
+    try { ents = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+    for (const e of ents) {
+      const p = path.join(dir, e.name);
+      if (e.isDirectory()) { walk(p); continue; }
+      if (!/\.ts$/.test(e.name)) continue;
+      let text;
+      try { text = fs.readFileSync(p, 'utf8'); } catch { continue; }
+      for (const m of text.matchAll(/examId:\s*'([^']+)'/g)) ids.add(m[1]);
+    }
+  };
+  walk(base);
+  return ids;
+}
+
+function renderPathFindings(keys) {
+  const examIds = readExamIds();
+  const obj = RUNTIME_OBJ;
+  if (!obj || examIds.size === 0) {
+    warns.push({
+      code: 'RENDER_PATH_SKIPPED',
+      detail: `could not resolve the render path (examIds=${examIds.size}, module=${obj ? 'loaded' : 'not loaded'}); invariant 6 did NOT run. An unresolved check is not a pass.`,
+    });
+    return;
+  }
+
+  const sig = (v) => JSON.stringify(v ?? null);
+  const bySig = new Map();
+  for (const k of keys) {
+    const s = sig(obj[k]);
+    if (!bySig.has(s)) bySig.set(s, []);
+    bySig.get(s).push(k);
+  }
+  const idList = [...examIds];
+  const misrouted = [];
+  const stranded = [];
+  const far = [];
+  for (const k of keys) {
+    if (examIds.has(k)) continue;
+    if (bySig.get(sig(obj[k])).some((o) => o !== k && examIds.has(o))) continue; // alias of a live key
+    const near = idList
+      .filter((id) => Math.abs(id.length - k.length) <= 2 && editDistance(k, id) <= 2)
+      .sort((a, b) => editDistance(k, a) - editDistance(k, b) || a.localeCompare(b));
+    if (!near.length) { stranded.push(k); continue; }
+    const d1 = near.find((id) => editDistance(k, id) === 1);
+    if (d1) {
+      // DEFECT d3 (2026-10-19 11:05Z pulse): the first version advised
+      // "Rename the key to '<examId>'" unconditionally. On the one real case this
+      // gate has ever fired on, the suggested examId was ALREADY a key ('vitee'),
+      // so following the advice verbatim would have created a duplicate literal
+      // in the object -- one block silently shadowing the other, which is the
+      // same silent-failure class this invariant exists to remove. A key that is
+      // one edit from a live examId has TWO distinct shapes, and they need
+      // opposite remediations, so they are now reported under separate codes.
+      misrouted.push({ faqKey: k, examId: d1, liveKeyExists: keys.includes(d1) });
+      continue;
+    }
+    // DEFECT d2 (this pulse): the first version of this function dropped every key
+    // whose nearest candidate was 2 edits away — they matched neither `stranded`
+    // nor `misrouted`, so 8 never-rendered keys vanished from the report entirely.
+    // An instrument that silently discards a bucket is the same blindness this
+    // gate exists to remove, so the bucket is now named rather than swallowed.
+    far.push({ faqKey: k, nearest: near[0] });
+  }
+
+  for (const m of misrouted) {
+    if (m.liveKeyExists) {
+      fails.push({
+        code: 'DEAD_DUPLICATE_FAQ_KEY',
+        detail: `FAQ key '${m.faqKey}' and FAQ key '${m.examId}' BOTH exist, and the module src/data/exams/*/ declares examId '${m.examId}'. Both render sites index EXAM_FAQS[exam.examId], so the '${m.faqKey}' block renders NOWHERE. DO NOT rename '${m.faqKey}' to '${m.examId}' — that name is taken, and a duplicate literal would shadow one block. This is a dead duplicate: read both blocks, delete the '${m.faqKey}' one, and first carry across any answer whose question intent is not already covered by '${m.examId}'. Where the two blocks disagree on a fact, the LIVE '${m.examId}' block wins — a block that never rendered is the one most likely to hold a stale figure.`,
+      });
+      continue;
+    }
+    fails.push({
+      code: 'MISROUTED_FAQ_KEY',
+      detail: `FAQ key '${m.faqKey}' is not any module's examId, but the live module examId '${m.examId}' differs from it by ONE edit. /exams/${m.examId}/ exists and indexes EXAM_FAQS[exam.examId], so the '${m.faqKey}' block renders nowhere. No FAQ key '${m.examId}' exists yet, so renaming '${m.faqKey}' -> '${m.examId}' is safe and is the fix. Check the block's facts against the module first, because a key this wrong usually sits beside content that is wrong too.`,
+    });
+  }
+  if (stranded.length) {
+    warns.push({
+      code: 'STRANDED_FAQ_KEYS',
+      count: stranded.length,
+      detail: `${stranded.length} FAQ keys match no examId and have no near candidate, so they render nowhere today: ${stranded.join(', ')}. These are usually content prepared ahead of a module, so they are REPORTED, not failed — deleting them would throw away work for an exam that may still get a page.`,
+    });
+  }
+  if (far.length) {
+    warns.push({
+      code: 'UNBACKED_FAR_FAQ_KEYS',
+      count: far.length,
+      detail: `${far.length} FAQ keys render nowhere and their nearest examId is 2 edits away, which usually means a genuinely absent exam rather than a typo: ${far.map((f) => `${f.faqKey}->${f.nearest}`).join(', ')}. Distance 2 does not fail: toefl/toafa and pte/putme are unrelated exams.`,
+    });
+  }
+  report.renderPathExamIds = examIds.size;
+  report.misrouted = misrouted.length;
 }
 
 // ------------------------------------------------------------------------ main
@@ -294,6 +428,9 @@ if (src !== null) {
   report.staticKeys = staticSet.size;
   report.aliases = aliases.length;
   report.baselined = baselined;
+
+  // Invariant 6 — needs the live object, so it runs after the import above.
+  renderPathFindings([...staticSet]);
 }
 
 // ---------------------------------------------------------------------- output

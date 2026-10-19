@@ -1,0 +1,47 @@
+# SR_FAQ_KEY_BASELINE - deliberate, recorded dead near-twin FAQ keys.
+#
+# A pair listed here is BOTH a real one-edit-apart key pair in
+# src/data/exam-faqs.ts AND already recorded as a defect, so
+# scripts/check-exam-faq-keys.mjs REPORTS it on every run and excludes it from
+# the fail set. Same idiom as scripts/known-breach-baseline.txt: one historical
+# defect cannot pin the gate red forever and get the whole gate ignored.
+# Removing a line re-arms the gate for that pair immediately.
+#
+# Format: one 'a b' key pair per line, either order. '#' starts a comment.
+#
+# MEASURED 2026-10-19T09:40Z at HEAD 15979f87, by
+# scripts/check-exam-faq-keys.mjs, filed as queue row
+# sr-20261019T0935Z-vqzo-exam-faqs-two-live-dead-near-twin-keys.
+#
+# WHY EACH IS A DEFECT (the 'cucet-pg' class from sr-20261019T0335Z, score 44000):
+#   Two keys one edit apart means a grep for either matches exactly one of them.
+#   A patch written against the wrong key then applies cleanly, passes every
+#   other gate, and changes nothing a reader sees. This is silent, not loud.
+#
+#   'ap-eamcet' is dead. The live key is 'ap-eapcet' (doubled 'e'), which is the
+#   real exam id: src/data/exams/india/ap-eapcet.ts holds examId 'ap-eapcet', and
+#   the route /exams/ap-eapcet/, seo-meta-overrides.ts, exam-equivalents.ts,
+#   notes-pool.ts and affiliates.ts all use it. 'ap-eamcet' has no exam file, no
+#   route and no consumer. Its 3 questions are stale-name duplicates of content
+#   the live block already answers with 5 current 2026-dated questions.
+#
+#   'met' is dead. The live key is 'mat' (MIT Manipal MAT), which has
+#   src/data/exams/india/mat.ts and is referenced by
+#   src/pages/after-12th/[stream].astro and exam-equivalents.ts. 'met' has no
+#   exam file and no consumer anywhere in the repo. MET was Manipal's former
+#   name for the same exam, so its 3 questions are legacy-naming content.
+#
+# RECOMMENDED FIX (uc5t owns this — it is a content decision, not a vqzo one):
+#   Delete the two dead blocks: the 'met' array at exam-faqs.ts:551 and the
+#   'ap-eamcet' array at exam-faqs.ts:647. Pure deletion, no additions, which is
+#   the same shape as the accepted cucet-pg fix (commits f52af547, 9efd14fc).
+#   Reader-visible impact of the deletion is zero: neither key is reachable
+#   today, so no reader sees those 3 questions now or after.
+#
+# NOT CLAIMED: the gate also reports 52 near-twin pairs where BOTH keys are
+# referenced by real consumers (cat/mat/sat/xat/gat, kpsc/ppsc/upsc/bpsc,
+# cmat/nmat/gmat/clat and similar). On inspection these are genuinely distinct
+# exams. They are confusable to a human reader but none is a dead duplicate, so
+# they are a lower-grade risk than the two above and are NOT filed as defects.
+ap-eamcet ap-eapcet
+mat met

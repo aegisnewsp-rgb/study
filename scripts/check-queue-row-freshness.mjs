@@ -150,6 +150,46 @@ const COMPLETION_BODY_TOKENS = [
   'HAS LANDED', 'IS NOW LANDED', 'NO LONGER', 'COMMITTED AT', 'DELETED',
 ];
 
+// ---------------------------------------------------------------------------
+// operator-gated rows are not work either
+//
+// (queue row sr-20261019T1650Z-vqzo-FINDING-top-of-queue-is-an-operator-ruling-not-work,
+//  class FALSE_TOP_OF_QUEUE__OPERATOR_GATED_WORK_RANKED_AS_DISPATCHABLE)
+//
+//   From 2026-10-16 to 2026-10-19 the top of queue was, on every pulse, a 3-way
+//   TIE at score 35769: sr-20261016-0705Z/0720Z/0735Z, the hero-fold cluster.
+//   All three say in their own bodies that they are not dispatchable work. 0705Z
+//   verbatim: "This item is not a dispatchable content task, it is an operator
+//   ruling." All three carry a `dispatch_backlog` beginning "EXHAUSTED".
+//
+//   Why they ranked anyway: dispatchability() returns true on a WORK FIELD, and
+//   all three carry exam+pageType+slug. Nothing downstream asked whether a
+//   dispatchable-shaped row is actually blocked on a human, so the same three
+//   un-actionable rows were handed to the top of every consumer's list for 15
+//   consecutive pulses while the real top of queue sat at 6500.
+//
+//   SCOPE, DELIBERATELY NARROW. This keys on `dispatch_backlog` starting with
+//   EXHAUSTED, which occurs on exactly 3 rows in the corpus -- the 3 above.
+//   The BROADER rule was measured and REJECTED: scanning status/state for
+//   OPERATOR_* / EXHAUSTED / NEEDS_OPERATOR moves 23 rows, and roughly ten of
+//   them are real work that merely names an operator (sr-20261018-2335Z
+//   "SUBAGENT-CHANNEL-IS-LIVE-27-pulse-rut-ends", sr-20261018-1235Z
+//   "dispatch-channel-severed", the mcat-mdcat cannibalisation pair). Withholding
+//   those would bury the work this gate exists to surface, so the status-token
+//   variant stays a filed finding for the operator, not code.
+//
+//   Same safety trade as TERMINAL: withhold from the LIST only. This closes
+//   nothing, rewrites nothing, and runs no probe. Excluding a row from a list
+//   mutates no row -- 'status is a claim, not a measurement' still holds.
+const OPERATOR_GATED_BUCKET = 'OPERATOR_GATED';
+
+/** true only for a row whose own dispatch_backlog declares the backlog exhausted. */
+function operatorGated(row) {
+  const v = row.dispatch_backlog;
+  if (typeof v !== 'string') return false;
+  return v.trim().toUpperCase().startsWith('EXHAUSTED');
+}
+
 const SHA_RE = /\b[0-9a-f]{7,40}\b/g;
 
 // ---------------------------------------------------------------------------
@@ -220,7 +260,8 @@ function scoreOf(row) {
  *  and it closes nothing. Excluding a row from a list mutates no row. */
 function rankTop(entries, n) {
   return entries
-    .filter((e) => e.dispatchable && e.score !== null && e.bucket !== 'TERMINAL')
+    .filter((e) => e.dispatchable && e.score !== null
+      && e.bucket !== 'TERMINAL' && e.bucket !== OPERATOR_GATED_BUCKET)
     .sort((a, b) => b.score - a.score || a.file.localeCompare(b.file))
     .slice(0, n);
 }
@@ -258,6 +299,9 @@ function classify(row) {
   const body = JSON.stringify({ ...row, status: undefined, state: undefined });
 
   if (hasToken(statusField, TERMINAL_TOKENS)) return { bucket: 'TERMINAL', shas: [], landedShas: [] };
+
+  // TERMINAL wins over OPERATOR_GATED: a closed row is closed, whatever else it says.
+  if (operatorGated(row)) return { bucket: OPERATOR_GATED_BUCKET, shas: [], landedShas: [] };
 
   const shas = citedShas(row);
   const landedShas = shas.filter(isAncestor);
@@ -482,6 +526,55 @@ function selfTest() {
       why: 'a tied artifact must never reach the top of queue; a row already marked SHIPPED must not either; an unscored row must not either',
       detail: '',
     });
+
+    // Direction-5 control: operator-gated rows. The measured defect is that the
+    // top of queue was a 3-way tie of rows that each declare themselves an
+    // operator ruling. Each half is falsifiable on its own:
+    //   (a) the real shape IS gated,
+    //   (b) the BROADER status-token rule is NOT applied -- this is the guard
+    //       against re-introducing the variant measured at 23 rows, ~10 of them
+    //       real work. Without this case a future edit could widen the rule and
+    //       every operator case would still pass.
+    //   (c) TERMINAL still wins, so the new bucket cannot resurrect dead rows.
+    //   (d) the list is filtered, not truncated: a lower-scored live row still
+    //       appears after the gated one is dropped.
+    const gatedRow = {
+      score: 35769,
+      state: 'BLAST_RADIUS_MEASURED__OPERATOR_DECISION_REQUIRED__CONFLICT_WITH_STANDING_RULING',
+      dispatch_backlog: 'EXHAUSTED - 29/30 revenue rows applied_or_na. This item is not a dispatchable content task, it is an operator ruling.',
+    };
+    const operatorCases = [
+      ['gate-exhausted-backlog', classify(gatedRow), OPERATOR_GATED_BUCKET,
+        'a row whose own dispatch_backlog reads EXHAUSTED is an operator ruling, not work'],
+      ['gate-not-on-status-token', classify({
+        score: 4000,
+        status: 'OPEN__OPERATOR_DECISION_STANDS__ITS_EVIDENCE_BASE_IS_OLD',
+        dispatch_backlog: 'revenue backlog: 12 rows still open',
+      }), 'LIVE_UNCLAIMED',
+        'naming an operator in status is NOT gating. This is the rejected 23-row variant; it must never creep back in'],
+      ['gate-not-on-stray-token', classify({ score: 4000, status: 'OPEN', note: 'EXHAUSTED' }), 'LIVE_UNCLAIMED',
+        'EXHAUSTED outside dispatch_backlog is not a gate signal'],
+      ['gate-terminal-precedence', classify({ ...gatedRow, status: 'SHIPPED__AUTOVERIFIED' }), 'TERMINAL',
+        'TERMINAL wins over OPERATOR_GATED so the new bucket cannot resurrect a closed row'],
+    ];
+    for (const [id, got, want, why] of operatorCases) {
+      const pass = got.bucket === want;
+      if (!pass) ok = false;
+      results.push({ id, expected: want, got: got.bucket, pass, why, detail: '' });
+    }
+    const gatedEntries = [
+      { file: 'sr-gated.json', score: 35769, bucket: OPERATOR_GATED_BUCKET, ...dispatchability({ exam: 'cs-exec', pageType: 'shared-template-first-screen' }) },
+      { file: 'sr-live.json', score: 6500, ...dispatchability({ exam: 'kuccps', pageType: 'exam-overview' }) },
+    ];
+    const gatedRanked = rankTop(gatedEntries, 5).map((e) => e.file);
+    const gatedWant = ['sr-live.json'];
+    const gatedPass = JSON.stringify(gatedRanked) === JSON.stringify(gatedWant);
+    if (!gatedPass) ok = false;
+    results.push({
+      id: 'rank-drops-gated-not-truncate', expected: gatedWant.join(','), got: gatedRanked.join(','), pass: gatedPass,
+      why: 'the gated 35769 row leaves the list AND the real 6500 row is still there -- a gate that merely truncated would also pass a weaker assertion',
+      detail: '',
+    });
   } finally {
     fs.rmSync(dir, { recursive: true, force: true });
   }
@@ -519,6 +612,7 @@ function main() {
   const artifacts = rows.filter((e) => !e.dispatchable);
   const top = rankTop(rows, 5);
   const topShipped = rows.filter((e) => e.bucket === 'TERMINAL' && e.dispatchable && e.score !== null).length;
+  const topGated = rows.filter((e) => e.bucket === OPERATOR_GATED_BUCKET && e.dispatchable && e.score !== null).length;
 
   let closed = 0;
   const probes = [];
@@ -526,6 +620,9 @@ function main() {
     const baseDir = ROOT;
     for (const entry of rows) {
       if (entry.bucket === 'TERMINAL') continue;
+      // Never auto-close an operator-gated row. It is blocked on a human, so a
+      // probe that comes back clean says nothing about whether the human acted.
+      if (entry.bucket === OPERATOR_GATED_BUCKET) continue;
       const res = runProbe(entry.row, baseDir);
       probes.push({ file: entry.file, bucket: entry.bucket, ...res });
       if (res.verdict !== 'CLOSED') continue;
@@ -556,8 +653,9 @@ function main() {
       dispatchable: dispatchable.length,
       artifacts: artifacts.length,
       buckets: counts,
-      top_of_queue: top.map((e) => ({ file: e.file, score: e.score, why: e.why })),
+      top_of_queue: top.map((e) => ({ file: e.file, score: e.score, bucket: e.bucket, why: e.why })),
       dispatchable_but_terminal_withheld: topShipped,
+      dispatchable_but_operator_gated_withheld: topGated,
       artifacts_sample: artifacts.slice(0, 10).map((e) => ({ file: e.file, score: e.score, why: e.why })),
       autoclose: AUTOCLOSE,
       closed,
@@ -570,11 +668,12 @@ function main() {
     console.log(`  head ${git(['rev-parse', '--short', 'HEAD']).out.trim()}`);
     console.log(`  dispatchable ${dispatchable.length}   artifacts ${artifacts.length}`);
     console.log(`  dispatchable-but-already-terminal, withheld from the list: ${topShipped}`);
+    console.log(`  dispatchable-but-operator-gated, withheld from the list: ${topGated}`);
     console.log('  top of queue (dispatchable only, ranked by score):');
     for (const e of top) {
       console.log(`    ${String(e.score).padStart(7)}  ${e.file.slice(0, 64).padEnd(64)} ${e.why}`);
     }
-    for (const b of ['TERMINAL', 'AUTOVERIFIABLE_STALE', 'STALE_UNVERIFIABLE', 'LIVE_UNCLAIMED']) {
+    for (const b of ['TERMINAL', OPERATOR_GATED_BUCKET, 'AUTOVERIFIABLE_STALE', 'STALE_UNVERIFIABLE', 'LIVE_UNCLAIMED']) {
       console.log(`  ${b.padEnd(22)} ${counts[b] || 0}`);
     }
     const claimGap = (counts.AUTOVERIFIABLE_STALE || 0) + (counts.STALE_UNVERIFIABLE || 0);

@@ -87,13 +87,23 @@ for (const file of files) {
   if (indexedOnly && !indexEligible) continue;
   scanned++;
 
-  // Prefer the "**X** covers" declaration; fall back to first H1, then first bold.
+  // The H1 is the note's authoritative title, so it decides the comparison.
+  // A bold "**X** covers" lead is only a fallback for notes with no H1: the
+  // same construction occurs in ordinary prose ("**Epithelium** covers
+  // surfaces, lines lumina"), so preferring it over the H1 reported correct
+  // notes as mismatches (ini-cet/anatomy/anatom-003, sgpat/family-medicine/
+  // family-005) while a corpus H1-vs-topicName sweep found zero mismatches.
   const head = body.slice(0, 600);
-  let lead =
-    (head.match(/\*\*(.+?)\*\*\s+covers\b/) || [])[1] ||
-    (head.match(/^#\s+(.+)$/m) || [])[1] ||
-    (head.match(/\*\*(.+?)\*\*/) || [])[1] ||
-    '';
+  const h1 = (body.match(/^#\s+(.+)$/m) || [])[1];
+  let lead = h1;
+  let leadSource = 'h1';
+  if (!lead) {
+    lead =
+      (head.match(/\*\*(.+?)\*\*\s+covers\b/) || [])[1] ||
+      (head.match(/\*\*(.+?)\*\*/) || [])[1] ||
+      '';
+    leadSource = 'bold';
+  }
   if (!lead) { noLead++; continue; }
 
   if (!overlap(tokens(tn), tokens(lead))) {
@@ -103,6 +113,7 @@ for (const file of files) {
       indexEligible,
       topicName: tn,
       bodyLead: lead.trim().slice(0, 100),
+      leadSource,
     });
   }
 }

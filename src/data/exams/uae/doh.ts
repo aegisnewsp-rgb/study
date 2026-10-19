@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'A DOH (UAE) mock with a different number of items trains the wrong stamina.',
     'Do not assume DOH (UAE) is open to every degree title until https://www.doh.gov.ae says so.',
     'Treat \'sure selection\' DOH (UAE) ads as marketing; the board does not endorse them.',
-    'Eligibility snippet we store for DOH (UAE): Recognised primary medical qualification. Post-graduate experience may be required for specialists. All… Boards edit this; https://www.doh.gov.ae wins.'
+    'Eligibility snippet we store for DOH (UAE): Recognised primary medical qualification. Post-graduate experience may be required for specialists. Boards edit this; https://www.doh.gov.ae wins.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.doh.gov.ae',

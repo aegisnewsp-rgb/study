@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Doing only favourite ICAN (Institute of Chartered Accountants of Nigeria) chapters leaves the clock as the real examiner.',
     'A friend who sat ICAN (Institute of Chartered Accountants of Nigeria) two years ago is not your eligibility officer; https://www.ican.org.ng is.',
     'Treat \'sure selection\' ICAN (Institute of Chartered Accountants of Nigeria) ads as marketing; the board does not endorse them.',
-    'Pattern note for ICAN (Institute of Chartered Accountants of Nigeria): Multiple papers per diet (June and December): Financial Accounting and Reporting, Auditing and Assurance… Confirm that wording on https://www.ican.org.ng before you lock a timetable.'
+    'Pattern note for ICAN (Institute of Chartered Accountants of Nigeria): Multiple papers per diet (June and December): Financial Accounting and Reporting, Auditing and Assurance. Confirm that wording on https://www.ican.org.ng before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ican.org.ng',

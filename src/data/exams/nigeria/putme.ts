@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     'Doing only favourite Post-UTME (Nigeria) chapters leaves the clock as the real examiner.',
     'A friend who sat Post-UTME (Nigeria) two years ago is not your eligibility officer; https://www.jamb.gov.ng is.',
     'Treat \'sure selection\' Post-UTME (Nigeria) ads as marketing; the board does not endorse them.',
-    'Pattern note for Post-UTME (Nigeria): Format varies by university — typically 40-100 MCQs in relevant subjects, 1-2 hours duration. Most… Confirm that wording on https://www.jamb.gov.ng before you lock a timetable.'
+    'Pattern note for Post-UTME (Nigeria): Format varies by university — typically 40-100 MCQs in relevant subjects, 1-2 hours duration. Confirm that wording on https://www.jamb.gov.ng before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.jamb.gov.ng',

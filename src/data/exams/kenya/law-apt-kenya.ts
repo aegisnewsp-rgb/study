@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Skipping full Kenya Law Aptitude papers until the final weekend is how scores stall.',
     'Some Kenya Law Aptitude programmes add extra subject prerequisites after you pay — check https://ksl.ac.ke.',
     'Cut-off rumours are not Kenya Law Aptitude offers of admission.',
-    'The published Kenya Law Aptitude shape in our files is: Typically consists of two papers: Paper 1 covers English (comprehension, grammar, vocabulary) and General… If https://ksl.ac.ke differs, follow https://ksl.ac.ke.'
+    'The published Kenya Law Aptitude shape in our files is: Typically consists of two papers: Paper 1 covers English (comprehension, grammar, vocabulary). If https://ksl.ac.ke differs, follow https://ksl.ac.ke.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ksl.ac.ke',

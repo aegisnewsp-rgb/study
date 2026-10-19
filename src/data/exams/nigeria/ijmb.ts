@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     'Section timing for IJMB (Interim Joint Matriculation Board) only counts if it matches the live duration.',
     'Some IJMB (Interim Joint Matriculation Board) programmes add extra subject prerequisites after you pay — check https://abu.edu.ng/ijmb.',
     'If a page promises you will \'crack IJMB (Interim Joint Matriculation Board)\' with this plan, it is not this site.',
-    'Use 3-4 subjects depending on programme choice, each paper 3 hours duration. Conducted by Ahmadu Bello… only as a memory aid for IJMB (Interim Joint Matriculation Board), then match the live paper on https://abu.edu.ng/ijmb.'
+    'Use 3-4 subjects depending on programme choice, each paper 3 hours duration. Only as a memory aid for IJMB (Interim Joint Matriculation Board), then match the live paper on https://abu.edu.ng/ijmb.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://abu.edu.ng/',

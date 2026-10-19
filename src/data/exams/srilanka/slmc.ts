@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Untimed SLMC Medical (Sri Lanka) practice hides whether you can finish the published paper.',
     'A friend who sat SLMC Medical (Sri Lanka) two years ago is not your eligibility officer; https://slmc.gov.lk/ is.',
     'Cut-off rumours are not SLMC Medical (Sri Lanka) offers of admission.',
-    'The published SLMC Medical (Sri Lanka) shape in our files is: Multiple choice and clinical examination components. Tests medical knowledge, clinical skills, and ethical… If https://slmc.gov.lk/ differs, follow https://slmc.gov.lk/.'
+    'The published SLMC Medical (Sri Lanka) shape in our files is: Multiple choice and clinical examination components. Tests medical knowledge, clinical skills. If https://slmc.gov.lk/ differs, follow https://slmc.gov.lk/.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://slmc.gov.lk/',

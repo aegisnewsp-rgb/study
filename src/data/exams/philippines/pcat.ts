@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',
     'A friend who sat PCAT (Philippines) two years ago is not your eligibility officer; https://www.cem-inc.org.ph is.',
     'Treat \'sure selection\' PCAT (Philippines) ads as marketing; the board does not endorse them.',
-    'The published PCAT (Philippines) shape in our files is: Verbal ability, Quantitative ability, Science (Biology, Chemistry, Physics), and General Information. MCQ… If https://www.cem-inc.org.ph differs, follow https://www.cem-inc.org.ph.'
+    'The published PCAT (Philippines) shape in our files is: Verbal ability, Quantitative ability, Science (Biology, Chemistry, Physics), and General Information. If https://www.cem-inc.org.ph differs, follow https://www.cem-inc.org.ph.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.cem-inc.org.ph',

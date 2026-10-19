@@ -60,7 +60,7 @@ const exam: ExamTemplate = {
     'A ACSEE (Tanzania) mock with a different number of items trains the wrong stamina.',
     'A friend who sat ACSEE (Tanzania) two years ago is not your eligibility officer; https://www.necta.go.tz is.',
     'StudyRoadmap will not promise a ACSEE (Tanzania) outcome — only a study order.',
-    'Use 6-7 papers including compulsory General Studies plus 3 elective subjects. Essay, short answer, and MCQ… only as a memory aid for ACSEE (Tanzania), then match the live paper on https://www.necta.go.tz.'
+    'Use 6-7 papers including compulsory General Studies plus 3 elective subjects. Essay, short answer, and MCQ. Only as a memory aid for ACSEE (Tanzania), then match the live paper on https://www.necta.go.tz.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.necta.go.tz',

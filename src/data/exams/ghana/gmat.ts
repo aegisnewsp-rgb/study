@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Doing only favourite GMAT chapters leaves the clock as the real examiner.',
     'Some GMAT programmes add extra subject prerequisites after you pay — check https://www.gmac.com.',
     'Nobody on this site can guarantee a GMAT rank, percentile, or admission.',
-    'The published GMAT shape in our files is: GMAT Focus — Quantitative 21 questions / 45 min, Verbal 23 questions / 45 min, Data Insights 20 questions / 45 min, 64 questions in 2h15m, no separate writing task, scored 205-805… If https://www.gmac.com differs, follow https://www.gmac.com.'
+    'The published GMAT shape in our files is: GMAT Focus — Quantitative 21 questions / 45 min, Verbal 23 questions / 45 min, Data Insights 20 questions / 45 min, 64 questions in 2h15m, no separate writing task, scored 205-805. If https://www.gmac.com differs, follow https://www.gmac.com.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.gmac.com',

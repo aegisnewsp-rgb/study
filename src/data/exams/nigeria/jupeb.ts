@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     'Section timing for JUPEB (Joint Universities Preliminary Examinations Board) only counts if it matches the live duration.',
     'Paying JUPEB (Joint Universities Preliminary Examinations Board) fees before re-reading eligibility on https://jupeb.edu.ng is a frequent waste.',
     'StudyRoadmap will not promise a JUPEB (Joint Universities Preliminary Examinations Board) outcome — only a study order.',
-    'The published JUPEB (Joint Universities Preliminary Examinations Board) shape in our files is: 3 subjects (depending on desired university course), each with 2-3 papers per subject plus a general paper… If https://jupeb.edu.ng differs, follow https://jupeb.edu.ng.'
+    'The published JUPEB (Joint Universities Preliminary Examinations Board) shape in our files is: 3 subjects (depending on desired university course), each with 2-3 papers per subject plus a general paper. If https://jupeb.edu.ng differs, follow https://jupeb.edu.ng.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://jupeb.edu.ng',

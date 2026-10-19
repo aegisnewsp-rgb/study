@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Untimed UAE University CAT practice hides whether you can finish the published paper.',
     'Some UAE University CAT programmes add extra subject prerequisites after you pay — check https://www.uaeu.ac.ae.',
     'Cut-off rumours are not UAE University CAT offers of admission.',
-    'Pattern note for UAE University CAT: Tests English, Mathematics, and analytical skills. Computer-based adaptive format. The English section… Confirm that wording on https://www.uaeu.ac.ae before you lock a timetable.'
+    'Pattern note for UAE University CAT: Tests English, Mathematics, and analytical skills. Computer-based adaptive format. Confirm that wording on https://www.uaeu.ac.ae before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.uaeu.ac.ae',

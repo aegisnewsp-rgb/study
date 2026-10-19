@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Doing only favourite RUET Admission Test chapters leaves the clock as the real examiner.',
     'Some RUET Admission Test programmes add extra subject prerequisites after you pay — check https://ruet.ac.bd.',
     'StudyRoadmap will not promise a RUET Admission Test outcome — only a study order.',
-    'Who the board describes as eligible for RUET Admission Test: HSC or equivalent with a minimum GPA of 4.0 in Physics, Chemistry, and Mathematics (combined). Science group… Re-read it on https://ruet.ac.bd the week you apply.'
+    'Who the board describes as eligible for RUET Admission Test: HSC or equivalent with a minimum GPA of 4.0 in Physics, Chemistry, and Mathematics (combined). Re-read it on https://ruet.ac.bd the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ruet.ac.bd',

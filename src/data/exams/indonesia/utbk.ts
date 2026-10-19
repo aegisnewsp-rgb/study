@@ -60,7 +60,7 @@ const exam: ExamTemplate = {
     'Skipping full UTBK/SNPMTN (Indonesia) papers until the final weekend is how scores stall.',
     'Some UTBK/SNPMTN (Indonesia) programmes add extra subject prerequisites after you pay — check https://portal.snpmb.id.',
     'StudyRoadmap will not promise a UTBK/SNPMTN (Indonesia) outcome — only a study order.',
-    'Use TPA (verbal, numerical, figural reasoning) + TPS (Academic Potential Test) + subject-specific tests. 195… only as a memory aid for UTBK/SNPMTN (Indonesia), then match the live paper on https://portal.snpmb.id.'
+    'Use TPA (verbal, numerical, figural reasoning) + TPS (Academic Potential Test) + subject-specific tests. Only as a memory aid for UTBK/SNPMTN (Indonesia), then match the live paper on https://portal.snpmb.id.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://portal.snpmb.id',

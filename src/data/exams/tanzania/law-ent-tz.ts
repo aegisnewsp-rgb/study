@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Skipping full Tanzania Law School papers until the final weekend is how scores stall.',
     'A friend who sat Tanzania Law School two years ago is not your eligibility officer; https://udsm.ac.tz is.',
     'If a page promises you will \'crack Tanzania Law School\' with this plan, it is not this site.',
-    'Use Typically consists of multiple papers covering English (comprehension and legal writing), General Knowledge… only as a memory aid for Tanzania Law School, then match the live paper on https://udsm.ac.tz.'
+    'Use Typically consists of multiple papers covering English (comprehension and legal writing), General Knowledge. Only as a memory aid for Tanzania Law School, then match the live paper on https://udsm.ac.tz.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://udsm.ac.tz',

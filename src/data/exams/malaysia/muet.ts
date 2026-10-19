@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Doing only favourite MUET (Malaysia) chapters leaves the clock as the real examiner.',
     'Do not assume MUET (Malaysia) is open to every degree title until https://www.mpm.edu.my says so.',
     'Treat \'sure selection\' MUET (Malaysia) ads as marketing; the board does not endorse them.',
-    'Who the board describes as eligible for MUET (Malaysia): Malaysian secondary or pre-university students. Required for UPU and university admission alongside… Re-read it on https://www.mpm.edu.my the week you apply.'
+    'Who the board describes as eligible for MUET (Malaysia): Malaysian secondary or pre-university students. Re-read it on https://www.mpm.edu.my the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.mpm.edu.my',

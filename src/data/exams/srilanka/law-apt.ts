@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Doing only favourite Sri Lanka Law Aptitude chapters leaves the clock as the real examiner.',
     'A friend who sat Sri Lanka Law Aptitude two years ago is not your eligibility officer; https://www.sllc.ac.lk is.',
     'If a page promises you will \'crack Sri Lanka Law Aptitude\' with this plan, it is not this site.',
-    'Pattern note for Sri Lanka Law Aptitude: Tests English, General Knowledge, Logic and Reasoning, and Legal Awareness. Structured as MCQs and short… Confirm that wording on https://www.sllc.ac.lk before you lock a timetable.'
+    'Pattern note for Sri Lanka Law Aptitude: Tests English, General Knowledge, Logic and Reasoning, and Legal Awareness. Structured as MCQs. Confirm that wording on https://www.sllc.ac.lk before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.sllc.ac.lk',

@@ -24,13 +24,11 @@ const exam: ExamTemplate = {
   examName: 'WASSCE (Ghana)',
   country: 'ghana',
   description: `WASSCE is written in 4 compulsory core subjects — English Language, Mathematics (Core), Integrated Science and Social Studies — plus 3 or 4 elective subjects, so a candidate sits 7 or 8 papers in total. Electives are drawn from a single programme option, with Physics, Chemistry, Biology, Economics, Geography and Government among the choices. Science subjects carry a practical component alongside the written paper, and papers mix essay-type, short-answer and MCQ questions. The examination is held in May/June. The West African Senior School Certificate Examination (WASSCE) for Ghana is Ghana's national secondary school leaving exam, equivalent to the Nigerian WAEC exam, and required for university admission in Ghana. It is administered by the West African Examinations Council (WAEC) and taken by Senior High School (SHS) students in their third year (SHS 3). It is the benchmark examination for both university admission and employment in Ghana.`,
-  // The subject count, the elective list and the May/June window live in the
-  // description above, which renders unclamped in the hero and answers the
-  // measured query ("how many subjects are written in wassce"). This field is
-  // clamped to three lines there, so repeating that prose here burned the
-  // first screen without adding a single fact.
-  examPattern: 'Core subjects: English Language, Integrated Science, Mathematics (Core) and Social Studies. Electives: every candidate also sits 3 or 4 more, chosen from a single programme track — Science, Business, General Arts, Home Economics or Visual Arts — so the total is 7 or 8 papers. Written papers + practical for science subjects.',
-  eligibility: 'Junior High School (JHS) completion certificate. Minimum WASSCE grades required for university admission. Candidates must have completed JHS 3 and be registered SHS 3 students. WASSCE grades run on a nine-point scale: A1 is the highest and F9 the lowest, and only A1-C6 counts as a credit pass. For university admission, candidates typically need credits in the four core subjects plus three electives. The University of Ghana, for example, requires at least six (6) credits (A1-C6 in WASSCE) in English, Core Mathematics, Integrated Science or Core Science, and Social Studies plus three electives, with an aggregate of six subjects not exceeding 24; science-related programmes ask for at least C4 in Elective Mathematics alongside two other science electives. Competitive programmes are won on the aggregate, not on A1s in every science paper.',
+  // The unclamped description is the canonical answer to the measured subject-count
+  // query and retains the May/June window. examPattern is a clamped structural
+  // summary, so keep its wording distinct from the description and FAQ.
+  examPattern: 'Four compulsory core subjects are fixed for every candidate, then three or four electives are added from a single programme track — Science, Business, General Arts, Home Economics or Visual Arts — so a school candidate writes 7 or 8 papers. Written papers plus a practical for science subjects.',
+  eligibility: 'Junior High School (JHS) completion certificate. Candidates must have completed JHS 3 and be registered SHS 3 students. WASSCE grades run on a nine-point scale: A1 is the highest and F9 the lowest, and only A1-C6 counts as a credit pass. Entry itself is the easy gate: sitting the paper needs the certificate, while the competitive gate comes afterwards, when a university reads an aggregate across your compulsory and elective subjects rather than a single science paper. The University of Ghana publishes its own credit count and aggregate ceiling, and those figures are set out in the FAQ below.',
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for WASSCE (Ghana) — 1 Hour'),
@@ -71,7 +69,7 @@ const exam: ExamTemplate = {
     'Doing only favourite WASSCE (Ghana) chapters leaves the clock as the real examiner.',
     'A friend who sat WASSCE (Ghana) two years ago is not your eligibility officer; https://www.waecgh.org is.',
     'Nobody on this site can guarantee a WASSCE (Ghana) rank, percentile, or admission.',
-    'The published WASSCE (Ghana) shape in our files is: four core subjects — English Language, Integrated Science, Mathematics (Core) and Social Studies — plus 3 or 4 electives drawn from one programme option. If https://www.waecgh.org differs, follow https://www.waecgh.org.'
+    'Treating any subject shape quoted on this page as WAEC\'s rule rather than our summary of it; if https://www.waecgh.org differs from anything here, follow https://www.waecgh.org.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.waecgh.org',

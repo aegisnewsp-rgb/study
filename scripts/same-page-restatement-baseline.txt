@@ -30,7 +30,6 @@ mcat	7
 must-adm	7
 uii	7
 utbk	7
-wassce	7
 ailet	6
 law-apt	6
 law-ent-tz	6

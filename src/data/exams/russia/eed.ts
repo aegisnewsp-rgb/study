@@ -55,10 +55,10 @@ const exam: ExamTemplate = {
     'For EGE (Russia), match the exam medium for EGE (Russia) to whatever https://fipi.ru/ege states — do not assume English for EGE (Russia).',
   commonMistakes: [
     'Coaching blogs that skip https://fipi.ru/ege often recycle a retired EGE (Russia) pattern.',
-    'A EGE (Russia) mock with a different number of items trains the wrong stamina.',
+    'An EGE (Russia) mock with a different number of items trains the wrong stamina.',
     'A friend who sat EGE (Russia) two years ago is not your eligibility officer; https://fipi.ru/ege is.',
-    'StudyRoadmap will not promise a EGE (Russia) outcome — only a study order.',
-    'The published EGE (Russia) shape in our files is: 2 mandatory exams: Russian Language (100 points), Mathematics (100 points base or 100 points profile). If https://fipi.ru/ege differs, follow https://fipi.ru/ege.'
+    'StudyRoadmap will not promise an EGE (Russia) outcome — only a study order.',
+    'Building a year of revision around an exam shape copied from a single site: when the official notice changes, the plan you already finished does not survive the sitting.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://fipi.ru/ege',

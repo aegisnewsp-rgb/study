@@ -8,7 +8,7 @@
 # ABSENT here and reuses any shingle FAILS - pages nobody looked at are the
 # gap this gate exists to close.
 
-dat	15
+dat	9
 act	13
 gat	13
 tnpsc	12

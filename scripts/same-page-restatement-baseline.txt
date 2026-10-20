@@ -10,7 +10,7 @@
 
 cima-cgma	2
 mht-cet-law	8
-muet	8
+muet	7
 putme	8
 qimiyah	8
 cmat	7

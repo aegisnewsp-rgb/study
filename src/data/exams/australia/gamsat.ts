@@ -65,9 +65,9 @@ const exam: ExamTemplate = {
   ],
   calendarDates: {
     examDates:
-      'Two cycles in 2026. March cycle: Written Communication 28 February - 1 March 2026, then Reasoning in Humanities and Social Sciences and Reasoning in Biological and Physical Sciences 20-22 March 2026. September cycle: Written Communication 22-23 August 2026, then the two multiple-choice sections 11-13 September 2026.',
+      'ACER runs two test cycles a year. The 2026 sittings have both now been sat: March cycle Written Communication 28 February - 1 March 2026 and the two multiple-choice sections 20-22 March 2026; September cycle Written Communication 22-23 August 2026 and the two multiple-choice sections 11-13 September 2026. The next registration window after these is announced on gamsat.acer.org, so check there for the dates and the opening date rather than assuming a cycle is still open.',
     resultDate:
-      'Results are released in late May 2026 for the March cycle and mid November 2026 for the September cycle.',
+      'Results for the March 2026 cycle were released in late May 2026. Results for the September 2026 cycle are released in mid November 2026.',
   },
   lastUpdated: '2026-10-20',
   officialSource: 'https://gamsat.acer.org/',

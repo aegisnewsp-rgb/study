@@ -56,7 +56,6 @@ ras	3
 uaeu-cat	3
 uppm	3
 waec	3
-bpsc	2
 du-ad	2
 gate	2
 ibps-po	2

@@ -355,7 +355,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/bpsc/': {
     title: 'BPSC Bihar: Prelims Paper, Marks & Eligibility',
     description:
-      'BPSC Bihar Combined Competitive Preliminary: one General Studies objective paper. Prelims and mains pattern, marks and eligibility.',
+      'BPSC Bihar Combined Competitive: one General Studies Prelims paper and five Mains papers. DSP physical standard, marks and eligibility.',
     query: 'bihar (17.1%), dsp height in bihar (12.2%), bpsc roadmap (5.5%)',
     gscImpressions: 904,
   },

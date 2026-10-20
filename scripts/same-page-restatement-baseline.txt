@@ -9,7 +9,6 @@
 # gap this gate exists to close.
 
 cima-cgma	2
-dat	9
 ruet	9
 eed	8
 mht-cet-law	8
@@ -49,7 +48,6 @@ emu-entrance	4
 gce-ol	4
 ibps-clerk	4
 ini-cet	4
-jeeupsee	4
 kuet	4
 mdcat	4
 pcat	4

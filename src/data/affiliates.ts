@@ -410,7 +410,7 @@ export const COUNTRY_AFFILIATES: Record<string, LocalizedAffiliate> = {
     offerId: 'preply',
     badge: '1-on-1 WASSCE Tutoring & Mentorship',
     headline: 'Personalized 1-on-1 Tutoring for Ghanaian Exams',
-    contextText: 'Connect with verified tutors in Core Mathematics, Integrated Science, and English to secure top WASSCE grades.',
+    contextText: 'Connect with verified tutors in Core Mathematics, Integrated Science, Social Studies and English to secure top WASSCE grades.',
     ctaText: 'Connect with a 1-on-1 Tutor →',
   },
 };

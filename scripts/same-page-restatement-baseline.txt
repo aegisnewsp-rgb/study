@@ -21,7 +21,13 @@ putme	8
 qimiyah	8
 cmat	7
 ican	7
-kpsc	7
+# kpsc sits at 5 and cannot go lower: the residual is entirely the shared
+# citation "Source: KPSC GP 2026-27 final notification, 31 July 2026, citing",
+# which faq1a, faq2a and faq4a all legitimately draw on (faq2a cites the 9th
+# Amendment Rules 2011, faq4a the 10th Amendment Rules 2013 - different rules,
+# same notification). Do NOT cut a citation to win this gate: that trades
+# E-E-A-T for a shingle count. The measured worst pair is faq2a vs faq4a.
+kpsc	5
 makerere-ent	7
 must-adm	7
 uii	7

@@ -8,7 +8,7 @@
 # ABSENT here and reuses any shingle FAILS - pages nobody looked at are the
 # gap this gate exists to close.
 
-cima-cgma	10
+cima-cgma	2
 haad	10
 plab	10
 upcat	10

@@ -59,7 +59,6 @@ uppm	3
 waec	3
 bpsc	2
 du-ad	2
-fpsc-cce	2
 gate	2
 ibps-po	2
 jamb	2

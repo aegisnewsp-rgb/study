@@ -106,7 +106,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/sbi-clerk/': {
     title: 'SBI Clerk Exam Pattern 2026: Prelims + Mains',
     description:
-      'SBI Clerk exam pattern 2026: Prelims is 100 questions in 1 hour, each section separately timed. Mains has 4 sections. Negative marking, marks and cut-off.',
+      'SBI Clerk exam pattern 2026: Prelims is 100 questions in 1 hour, Mains has 4 sections, and both stages carry one-fourth negative marking. Marks and cut-off.',
     query: 'sbi clerk exam pattern (16.8%) + sbi clerk exam pattern 2026 (14.3%)',
     gscImpressions: 7648,
   },

@@ -73,7 +73,7 @@ const exam: ExamTemplate = {
     'Leaving SCSA sample assessment materials until the last week — sample papers reflect the live paper structure and rubric; familiarity with them is the single biggest preparation lever.',
     'Ignoring the SCSA-approved calculator policy — the ATAR examination lists approved calculators; an unapproved calculator may lead to marks being disallowed.'
   ],
-  lastUpdated: '2026-09-20',
+  lastUpdated: '2026-10-20',
   officialSource: 'https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods',
 };
 

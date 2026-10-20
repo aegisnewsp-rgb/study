@@ -18,8 +18,11 @@
 // 2 = could not run at all (missing browser). Codes 1 and 2 are deliberately
 // distinct: only 1 is evidence about the CMP.
 import { chromium } from 'playwright';
+import { readdirSync, existsSync } from 'node:fs';
+import { homedir } from 'node:os';
+import { join } from 'node:path';
 
-const BASE = process.argv[2] || 'http://127.0.0.1:8899';
+let BASE = process.argv[2] || 'http://127.0.0.1:8899';
 const PAGE = '/exams/neet/';
 const results = [];
 let failures = 0;
@@ -67,7 +70,17 @@ const state = (page) => page.evaluate(() => {
     required: !!c.required,
     ad: { multitag: !!a.multitag, popunder: !!a.popunder, reason: a.reason, visitorGeo: a.visitorGeo },
     scripts: {
-      monetag: !!document.getElementById('sr-monetag'),
+      // Assert on the Monetag loader that actually runs. The MultiTag
+      // container (#sr-monetag) was switched off by operator decision
+      // 2026-09-17 — it bundled a second uncapped popunder plus In-Page Push
+      // at $0.0099 eCPM — so pinning this to that one id was wrong twice
+      // over: the "loader present" positives could never pass, and every
+      // "no loader" negative passed vacuously because the element never
+      // existed at all. Consent gating of ad loads is the real invariant
+      // here, so match any Monetag-sourced zone script.
+      monetag: !!document.querySelector(
+        "script[id^='sr-monetag'], script[id^='sr-push-tag'], script[id^='sr-vignette']"
+      ),
       umami: !!document.getElementById('sr-umami'),
       gtag: !!document.getElementById('sr-gtag'),
     },
@@ -78,10 +91,59 @@ const state = (page) => page.evaluate(() => {
 
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Playwright resolves its browser by build number (playwright 1.60.0 wants
+// chromium_headless_shell-1223). That number is a property of the installed
+// *package*, not of the machine: a box can carry a complete, working headless
+// shell at a different build and a bare launch() still throws "Executable
+// doesn't exist". That is how this gate came to sit at rc=2 for a day while
+// chromium was installed and working the whole time — and a gate that asserts
+// nothing is worse than no gate, because it reads as coverage. So: try the
+// pinned build, then fall back to any complete build actually on disk.
+function installedBrowsers() {
+  const found = [];
+  const roots = [
+    process.env.PLAYWRIGHT_BROWSERS_PATH,
+    join(process.env.HOME || homedir(), '.cache', 'ms-playwright'),
+    join(homedir(), '.cache', 'ms-playwright'),
+  ].filter(Boolean);
+  for (const root of new Set(roots)) {
+    let entries;
+    try { entries = readdirSync(root, { withFileTypes: true }); } catch { continue; }
+    for (const e of entries) {
+      if (!e.isDirectory() || !/^chromium(_headless_shell)?-/.test(e.name)) continue;
+      for (const rel of [
+        ['chrome-headless-shell-linux64', 'chrome-headless-shell'],
+        ['chrome-linux', 'chrome'],
+      ]) {
+        const p = join(root, e.name, ...rel);
+        if (existsSync(p)) { found.push(p); break; }
+      }
+    }
+  }
+  // A system browser is a valid last resort.
+  for (const p of ['/usr/bin/chromium', '/usr/bin/chromium-browser', '/usr/bin/google-chrome']) {
+    if (existsSync(p)) found.push(p);
+  }
+  // Highest build number first: the pinned one wins when it is present.
+  return [...new Set(found)].sort().reverse();
+}
+
 let browser;
+let launchNote = '';
+let lastLaunchError = null;
 try {
   browser = await chromium.launch();
 } catch (err) {
+  lastLaunchError = err;
+  if (/Executable doesn't exist|playwright install/i.test(String((err && err.message) || ''))) {
+    for (const p of installedBrowsers()) {
+      try { browser = await chromium.launch({ executablePath: p }); lastLaunchError = null; launchNote = p; break; } catch { /* try next */ }
+    }
+    if (browser) console.log(`check-consent-journeys: pinned build unavailable; using installed browser ${launchNote}`);
+  }
+}
+if (!browser) {
+  const err = lastLaunchError;
   // A precondition failure is NOT a CMP defect, and the two must not share an
   // exit code. Both used to exit 1 with zero check results printed, so an
   // operator could not tell "this gate never ran" from "the CMP is broken" —
@@ -89,8 +151,8 @@ try {
   //   0 = all journeys passed   1 = journeys ran and a check failed   2 = could not run
   const missing = /Executable doesn't exist|playwright install/i.test(String((err && err.message) || ''));
   if (missing) {
-    console.error('check-consent-journeys: PRECONDITION NOT MET — Chromium is not installed for Playwright.');
-    console.error('  Fix: npx playwright install');
+    console.error('check-consent-journeys: PRECONDITION NOT MET — no Chromium build found for Playwright.');
+    console.error('  Fix: npx playwright install   (a working system /usr/bin/chromium also works; it is auto-detected)');
     console.error('  This gate drives a real browser; it can say nothing about the CMP without one.');
   } else {
     console.error('check-consent-journeys: could not launch Chromium — this is NOT a CMP verdict.');
@@ -100,6 +162,52 @@ try {
 }
 
 // ── 1. EEA visitor, no decision yet: banner required, nothing loads ─────────
+// A locally served dist/ is the gate's only precondition after the browser, and
+// making an operator remember to start one is how this gate sat unrun for a day.
+// Serve it here when nothing is already listening, so the chain can drive it
+// unattended. An already-running server always wins.
+const { spawn } = await import('node:child_process');
+let server = null;
+async function reachable(u) {
+  try { return (await fetch(u, { method: 'GET' })).ok; } catch { return false; }
+}
+if (!(await reachable(BASE + '/'))) {
+  const dist = new URL('../dist/', import.meta.url);
+  if (existsSync(dist)) {
+    const port = Number(new URL(BASE).port || 0) || 8899;
+    const host = new URL(BASE).hostname;
+    if (!(await reachable(`http://127.0.0.1:${port}/`))) {
+      server = spawn('python3', ['-m', 'http.server', String(port), '--directory', dist.pathname, '--bind', host],
+        { stdio: 'ignore' });
+      for (let i = 0; i < 40 && !(await reachable(`http://127.0.0.1:${port}/`)); i++) {
+        await new Promise((r) => setTimeout(r, 250));
+      }
+      if (await reachable(`http://127.0.0.1:${port}/`)) {
+        console.log(`check-consent-journeys: serving dist/ on 127.0.0.1:${port}`);
+        BASE = `http://127.0.0.1:${port}`;
+      }
+    }
+  }
+}
+
+// Every journey below throws an uncaught exception when the served build is
+// not reachable (ERR_CONNECTION_REFUSED). Node then exits 1 — and 1 is this
+// gate's code for "journeys ran and the CMP failed". So a forgotten server
+// reported the consent manager as broken: the one false verdict this gate
+// exists to prevent, produced by the gate itself. Preflight the base URL and
+// fail as a precondition (2) instead.
+try {
+  const probe = await fetch(BASE + '/', { method: 'GET' });
+  if (!probe.ok && probe.status >= 500) throw new Error(`HTTP ${probe.status}`);
+} catch (err) {
+  console.error(`check-consent-journeys: PRECONDITION NOT MET — no build served at ${BASE}`);
+  console.error(`  ${String((err && err.message) || err).split('\n')[0]}`);
+  console.error('  Fix: python3 -m http.server 8899 --directory dist &   (or pass a BASE that is already served)');
+  console.error('  This gate drives a real browser; it can say nothing about the CMP without one.');
+  if (server) server.kill();
+  process.exit(2);
+}
+
 {
   const ctx = await newCtx(browser, { geo: 'DE' });
   const page = await ctx.newPage();
@@ -216,6 +324,7 @@ try {
 }
 
 await browser.close();
+if (server) server.kill();
 console.log(results.join('\n'));
 console.log(`\n${results.length - failures}/${results.length} checks passed`);
 process.exit(failures ? 1 : 0);

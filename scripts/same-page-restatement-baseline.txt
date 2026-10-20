@@ -32,7 +32,7 @@ mht-cet-law	8
 muet	8
 putme	8
 qimiyah	8
-sbi-clerk	8
+sbi-clerk	0
 cmat	7
 ican	7
 kpsc	7

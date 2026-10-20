@@ -62,7 +62,6 @@ du-ad	2
 gate	2
 ibps-po	2
 jamb	2
-nce-cours	2
 sa-pharm	2
 sbi-po	2
 sgpat	2

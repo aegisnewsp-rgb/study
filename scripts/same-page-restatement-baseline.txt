@@ -8,7 +8,7 @@
 # ABSENT here and reuses any shingle FAILS - pages nobody looked at are the
 # gap this gate exists to close.
 
-tnpsc	24
+tnpsc	12
 ras	23
 al-exam	21
 fpsc-cce	21

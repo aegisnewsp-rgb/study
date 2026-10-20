@@ -518,7 +518,7 @@ export function getCountryAffiliate(country: string, examId?: string, examName?:
         offerId: 'preply',
         badge: '1-on-1 JAMB & WAEC Coaching',
         headline: `Personalized 1-on-1 Tutors for ${label}`,
-        contextText: 'Get targeted 1-on-1 tutoring from verified teachers in Use of English, Mathematics, Chemistry, and Physics to aim for a competitive JAMB score out of 400 and strong WAEC grades.',
+        contextText: 'Get targeted 1-on-1 tutoring from verified teachers in Use of English and your three course subjects, such as Mathematics, Chemistry, or Physics, to aim for a competitive JAMB score out of 400 and strong WAEC grades.',
         ctaText: `Find a 1-on-1 ${label} Tutor →`,
       };
     }

@@ -8,9 +8,6 @@
 # ABSENT here and reuses any shingle FAILS - pages nobody looked at are the
 # gap this gate exists to close.
 
-act	13
-xat	12
-jupeb	11
 cima-cgma	10
 haad	10
 plab	10
@@ -26,7 +23,6 @@ cmat	7
 ican	7
 kpsc	7
 makerere-ent	7
-mcat	7
 must-adm	7
 uii	7
 utbk	7

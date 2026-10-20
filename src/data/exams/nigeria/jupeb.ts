@@ -48,11 +48,12 @@ const exam: ExamTemplate = {
   prepOverview:
     'Register only through https://jupeb.edu.ng, and use this hub to pace the one-year A-level subject load for Direct Entry.',
   commonMistakes: [
-    'Mirrors of JUPEB (Joint Universities Preliminary Examinations Board) \'syllabus 2019\' are a common trap; start from https://jupeb.edu.ng.',
-    'Section timing for JUPEB (Joint Universities Preliminary Examinations Board) only counts if it matches the live duration.',
-    'Paying JUPEB (Joint Universities Preliminary Examinations Board) fees before re-reading eligibility on https://jupeb.edu.ng is a frequent waste.',
-    'StudyRoadmap will not promise a JUPEB (Joint Universities Preliminary Examinations Board) outcome — only a study order.',
-    'The published JUPEB (Joint Universities Preliminary Examinations Board) shape in our files is: 3 subjects (depending on desired university course), each with 2-3 papers per subject plus a general paper. If https://jupeb.edu.ng differs, follow https://jupeb.edu.ng.'
+    'Chasing a mark total instead of the grade. JUPEB reports a letter grade per paper, so the revision time that matters goes to your weakest topic rather than to arithmetic you cannot compute.',
+    'Registering with a centre that is not on the JUPEB accredited list, or turning up to write the finals somewhere the board has not approved. Both the registering centre and the exam venue are fixed by JUPEB, not by whoever collects your form.',
+    'Picking your subject combination after you have registered. The science, arts and commercial groupings are chosen against the course you intend to read, and the choice is settled at enrolment, not at admission.',
+    'Budgeting for three papers and forgetting the general paper written alongside them.',
+    'Treating this as a JAMB substitute. Direct Entry is a separate route with its own grading and its own one-year study load, so tactics that work for JAMB or for O-Level do not transfer here.',
+    'Leaving revision until the final term. Every paper is written at the close of the programme and each one runs long enough to punish an unprepared candidate, which rewards steady term-by-term coverage.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://jupeb.edu.ng',

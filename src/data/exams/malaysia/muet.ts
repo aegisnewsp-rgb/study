@@ -1,3 +1,16 @@
+// Malaysian University English Test (MUET) — Majlis Peperiksaan Malaysia
+// (Malaysian Examinations Council), a statutory body under the Malaysian
+// Ministry of Education.
+//
+// Awarding body: Majlis Peperiksaan Malaysia (MEC). Paper codes 800/1-800/4.
+// The four components are weighted equally at 25% each and each component is
+// marked out of 90, giving an aggregated score out of 360.
+//
+// Source: MEC, Malaysian University English Test (MUET) 800 — Regulations and
+//   Test Specifications (ISBN 978-983-2321-69-9), applying from Session 1 2021
+//   onward until further notice.
+//   https://portal.mpm.edu.my/images/dokumen/calon-peperiksaan/muet/regulation/Regulations_and_Test_Specifications.pdf
+
 import type { ExamTemplate, Subject } from '../types';
 
 import { reading } from './subjects/reading';
@@ -17,9 +30,9 @@ const exam: ExamTemplate = {
   examId: 'muet',
   examName: 'MUET (Malaysia)',
   country: 'malaysia',
-  description: "Malaysian University English Test (MUET) is a compulsory English proficiency test for admission to Malaysian public universities. Scored on a band scale 1-6, with most programmes requiring Band 4 minimum.",
-  examPattern: "As administered by the Malaysian Examinations Council (Majlis Peperiksaan Malaysia https://mpm.edu.my), the test evaluates four components: Listening (approximately 50 minutes), Speaking (about 30 minutes), Reading (75 minutes), and Writing (75 minutes) in computer-delivered or paper-based testing mode.",
-  eligibility: "Malaysian secondary or pre-university students. Required for UPU and university admission alongside STPM/Matriculation.",
+  description: "The Malaysian University English Test (MUET) is an English proficiency test sat for entry to Malaysian public universities, administered by Majlis Peperiksaan Malaysia (MEC) and sat three times a year. Each of the four papers is marked out of 90 and carries a 25% weighting, so the aggregated score runs out of 360. The reporting scale runs from Band 1 up to Band 5+ in half-band steps at the top: 331-360 is Band 5+, 294-330 is Band 5.0, 258-293 is Band 4.5, 211-257 is Band 4.0, 164-210 is Band 3.5 and 123-163 is Band 3.0. There is no Band 6. Most programmes ask for Band 4 or above.",
+  examPattern: "MUET is a written, invigilated test, not a computer-delivered one. It runs as four papers, each weighted 25% and each marked out of 90: Paper 800/1 Listening in 50 minutes, 800/2 Speaking in 30 minutes, 800/3 Reading in 75 minutes and 800/4 Writing in 75 minutes, for 360 marks in aggregate. The Listening paper has 5 parts built on 7 listening texts and 30 questions, and each text is heard twice. The Reading paper has 7 parts, 10 texts and 40 questions. The Writing paper has 2 tasks and 75 minutes in total. The Speaking paper is Part 1, a 2-minute individual presentation after 2 minutes of preparation, and Part 2, a group discussion with up to 4 candidates after 3 minutes of preparation, running 8 to 12 minutes. Listening, Reading and Writing are taken on the same day; Speaking is sat on a different day, subject to room availability. All four components must be attempted for a band score to be awarded. The separate online version is MUET on Demand (MoD), which carries its own fee.",
+  eligibility: "Malaysian secondary or pre-university students. Required for UPU and university admission alongside STPM/Matriculation. Candidates register through the MEC online portal, and a candidate who misses a paper cannot be awarded a band score, because all four components must be attempted.",
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for MUET (Malaysia) — 1 Hour'),
@@ -49,19 +62,19 @@ const exam: ExamTemplate = {
       subject: s.name,
       topics: s.topics.slice(0, 5).map(t => t.name),
     })),
-    strategy: 'Focus on high-weight topics and previous year questions.',
+    strategy: 'The four papers are weighted equally, so time spent on one paper cannot be traded against another. Rehearse Speaking Part 1 to the clock first, because a 2-minute talk after only 2 minutes of preparation is the hardest constraint to meet and it is not self-paced. Then drill Listening against the 50-minute limit with every text played twice, the condition the real paper imposes. Leave Writing Task 1 and Task 2 timed inside 75 minutes rather than writing to quality and checking the clock. Finish with Reading, where 40 questions across 10 texts is the densest paper.',
   },
   prepOverview:
-    'Malaysian University English Test (MUET) is a compulsory English proficiency test for admission to Malaysian public universities. Scored on a band scale 1-6, with most programmes requiring Band 4 minimum. For MUET (Malaysia), match the exam medium for MUET (Malaysia) to whatever https://www.mpm.edu.my states — do not assume English for MUET (Malaysia).',
+    'MUET is sat three times a year, as MUET Session 1, Session 2 and Session 3, and results released since 2009 stay valid for five years from the date of release. Because the four papers carry identical 25% weightings and equal 90-mark maxima, a candidate cannot buy a better aggregate by sacrificing one paper: each of the four contributes the same 90 marks to a 360 total. The most common planning error is treating the scale as running 1-6, which encourages targets that do not exist. The scale runs from Band 1 to Band 5+, with Band 4.0 and Band 4.5 as separate steps, so a programme asking for Band 4 is asking for 211-257 aggregated, not for a third of the way up a six-point scale. Sit the papers in the order that exposes a timing weakness early: Speaking first in rehearsal, because a 2-minute presentation after 2 minutes of preparation is the constraint most easily missed, then Listening at 50 minutes with every text played twice, then Writing and Reading. Registration is through the MEC portal and the test fee is RM150 for Malaysian candidates and RM350 for non-Malaysian candidates, with the separate MUET on Demand (MoD) online version priced higher.',
   commonMistakes: [
-    'Mirrors of MUET (Malaysia) \'syllabus 2019\' are a common trap; start from https://www.mpm.edu.my.',
-    'Doing only favourite MUET (Malaysia) chapters leaves the clock as the real examiner.',
-    'Do not assume MUET (Malaysia) is open to every degree title until https://www.mpm.edu.my says so.',
-    'Treat \'sure selection\' MUET (Malaysia) ads as marketing; the board does not endorse them.',
-    'Who the board describes as eligible for MUET (Malaysia): Malaysian secondary or pre-university students. Re-read it on https://www.mpm.edu.my the week you apply.'
+    'Believing the scale runs 1 to 6 — MUET tops out at Band 5+, with Band 4.0 and Band 4.5 as distinct steps and no Band 6 existing at all. A candidate aiming at a "Band 6" is aiming at a grade the council does not award.',
+    'Assuming the test can be taken online — MUET is a written, invigilated sitting. The online product is a separate exam called MUET on Demand (MoD), with its own fee of RM350 for Malaysian and RM550 for non-Malaysian candidates against RM150 and RM350 for MUET itself.',
+    'Booking only the papers that feel comfortable — all four components must be attempted for a band score to be awarded, and MEC will issue no certificate to a candidate who skips one. Listening, Reading and Writing fall on one day and Speaking on another, so the Speaking date is part of the booking, not an extra.',
+    'Missing the accommodation deadline and assuming a later request will be considered — applications for specific arrangements have to reach MEC before the test date, and the council states it will not consider cases reported after it.',
+    'Leaving the test fee unpaid and expecting a result anyway — MEC reserves the right to withhold results from candidates who have not paid in full, so an unpaid fee converts a completed sitting into no certificate.'
   ],
-  lastUpdated: '2026-07-28',
-  officialSource: 'https://www.mpm.edu.my',
+  lastUpdated: '2026-10-20',
+  officialSource: 'https://portal.mpm.edu.my/images/dokumen/calon-peperiksaan/muet/regulation/Regulations_and_Test_Specifications.pdf',
 };
 
 export default exam;

@@ -18,7 +18,7 @@ wassce	17
 dat	15
 act	13
 gat	13
-gaokao	12
+gaokao	3
 xat	12
 jupeb	11
 cima-cgma	10

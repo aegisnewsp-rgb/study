@@ -8,7 +8,6 @@
 # ABSENT here and reuses any shingle FAILS - pages nobody looked at are the
 # gap this gate exists to close.
 
-fpsc-cce	21
 gujcet	19
 ctet	18
 dat	15
@@ -18,6 +17,7 @@ tnpsc	12
 xat	12
 jupeb	11
 cima-cgma	10
+fpsc-cce	10
 haad	10
 plab	10
 upcat	10

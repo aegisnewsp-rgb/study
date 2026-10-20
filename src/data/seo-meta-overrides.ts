@@ -172,7 +172,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/wassce/': {
     title: 'WASSCE Ghana: How Many Subjects Are Written?',
     description:
-      'How many subjects are written in WASSCE Ghana: English, Mathematics and Integrated Science are core, plus your electives. Structure and grading.',
+      'How many subjects are written in WASSCE Ghana? Four core (English, Maths, Integrated Science, Social Studies) plus 3-4 electives. Grading explained.',
     query: 'how many subjects are written in wassce (26.4%)',
     gscImpressions: 1735,
   },

@@ -9,7 +9,6 @@
 # gap this gate exists to close.
 
 cima-cgma	2
-plab	10
 upcat	10
 dat	9
 ruet	9

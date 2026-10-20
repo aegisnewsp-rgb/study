@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Section timing for HAAD (UAE) only counts if it matches the live duration.',
     'Some HAAD (UAE) programmes add extra subject prerequisites after you pay — check https://www.doh.gov.ae.',
     'Nobody on this site can guarantee a HAAD (UAE) rank, percentile, or admission.',
-    'Pattern note for HAAD (UAE): Computer-based exam with MCQs relevant to the professional\'s scope of practice. Number of questions varies. Confirm that wording on https://www.doh.gov.ae before you lock a timetable.'
+    'Copying one HAAD (UAE) revision plan across professions. What you sit is decided by your profession, so a plan built for a physician wastes hours on sections you will never be asked. List only what your own profession is examined on, then build outward from that.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.doh.gov.ae',

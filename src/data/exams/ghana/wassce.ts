@@ -77,9 +77,9 @@ const exam: ExamTemplate = {
     'Start from the WAEC notice for the current year, not a past paper pile. Mark each of the 7 or 8 papers you actually sit, and check your elective choice against the programme that will accept it — the WASSCE grade is aggregated across core and elective credits, so one weak elective can move the whole aggregate. For WASSCE (Ghana), if two blogs disagree on WASSCE (Ghana) marking, https://www.waecgh.org wins; this page only sequences WASSCE (Ghana) study.',
   commonMistakes: [
     'Mirrors of WASSCE (Ghana) \'syllabus 2019\' are a common trap; start from https://www.waecgh.org.',
-    'Doing only favourite WASSCE (Ghana) chapters leaves the clock as the real examiner.',
+    'Counting your subjects off an old index page — WAEC sets the compulsory and elective pattern for the year, so read the current combination rules at https://www.waecgh.org rather than assuming a fixed total.',
     'WAEC distinguishes school candidates, who register through their schools, from private candidates, who register online. Confirm which category applies to you and, if you are a school candidate, confirm with your school that it has submitted your entry before the applicable WAEC deadline.',
-    'Nobody on this site can guarantee a WASSCE (Ghana) rank, percentile, or admission.',
+    'Reading a single grade as a result — WAEC reports grades A1 to F8 and totals them into an aggregate, and what placements compare is the aggregate, not one letter. Check how the current year combines your grades at https://www.waecgh.org.',
     'Treating any subject shape quoted on this page as WAEC\'s rule rather than our summary of it; if https://www.waecgh.org differs from anything here, follow https://www.waecgh.org.'
   ],
   lastUpdated: '2026-07-28',

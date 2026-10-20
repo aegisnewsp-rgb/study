@@ -13,9 +13,9 @@ const exam: ExamTemplate = {
   examId: 'sgpat',
   examName: 'Saudi General Aptitude Test (SGPAT)',
   country: 'saudi',
-  description: "Saudi General Aptitude Test (Qiyas/القدرات) — a standardised aptitude test measuring verbal and quantitative reasoning abilities, required for Saudi university admission.",
-  examPattern: "Verbal section (synonyms, analogies, sentence completion, reading comprehension) and Quantitative section (mathematics, problem solving). Each section 25 questions, approximately 2.5 hours total.",
-  eligibility: "Secondary school students and graduates. No minimum score requirement but used in combination with high school GPA.",
+  description: "Saudi General Aptitude Test (Qiyas/القدرات) — ETEC's national aptitude test for verbal and quantitative reasoning, used by Saudi universities as one component of an admission decision.",
+  examPattern: "The test is built from verbal and quantitative reasoning rather than from subject knowledge. ETEC's own guidance lists the verbal side as semantic relationships — analogy, related terms, odd-one-out — and linguistic structures such as sentence completion and reading, with the quantitative side carrying the reasoning load. The paper-delivered sitting is split into several short timed sections rather than two long halves, and some of those questions are experimental and never count towards your score, so attempt every one. A computer-delivered version runs to a different structure and a different question count — confirm which form you have been assigned before you plan your revision.",
+  eligibility: "Open to candidates sitting the test as part of a Saudi university application — check the current eligibility notice on ETEC's Qiyas service page before you register. ETEC sets no pass mark of its own; the score that matters is the minimum your target university and programme set, and those minimums differ between programmes and institutions. Results stay valid for five years from the test date.",
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Saudi General Aptitude Test (SGPAT) — 1 Hour'),
@@ -48,13 +48,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For Saudi General Aptitude Test (SGPAT), save the Saudi General Aptitude Test (SGPAT) syllabus PDF from https://etec.gov.sa/en/service/Generalabilitytest/servicegoal and ignore unofficial Saudi General Aptitude Test (SGPAT) must-do lists that omit that file.',
+    'Work in short timed blocks built the way the paper is built, rather than by textbook chapter, and keep the verbal and quantitative sides rotating from the first week so neither goes cold. Full-length sets come last: build them in the section format you have actually been assigned, not the one you assume you will get, because the paper and computer versions do not match. Treat any practice score as a practice number — what matters is the score ETEC reports and how your target university weighs it. Confirm the current sittings and registration route at https://etec.gov.sa/en/service/Generalabilitytest/servicegoal before fixing a calendar.',
   commonMistakes: [
-    'If your Saudi General Aptitude Test (SGPAT) brochure has no date, throw it out and open https://etec.gov.sa/en/service/Generalabilitytest/servicegoal.',
-    'Doing only favourite Saudi General Aptitude Test (SGPAT) chapters leaves the clock as the real examiner.',
-    'Photo, ID, and attempt-limit rules for Saudi General Aptitude Test (SGPAT) live on https://etec.gov.sa/en/service/Generalabilitytest/servicegoal, not on WhatsApp.',
-    'Cut-off rumours are not Saudi General Aptitude Test (SGPAT) offers of admission.',
-    'Who the board describes as eligible for Saudi General Aptitude Test (SGPAT): Secondary school students and graduates. No minimum score requirement. Re-read it on https://etec.gov.sa/en/service/Generalabilitytest/servicegoal the week you apply.'
+    'Timing the paper as two long halves — it runs as five separate 25-minute sections, and a section clock does not pause for you.',
+    'Leaning on a past paper you have already worked through. ETEC re-forms the paper for each sitting, so recall of an old question tells you about the old paper.',
+    'Reading a forum cut-off as an offer — each university builds its own admission composite, so the same result can rank differently at two of them.',
+    'Fixing your calendar from last year\'s dates. Sittings follow the academic term, so confirm the current ones at https://etec.gov.sa/en/service/Generalabilitytest/servicegoal.',
+    'Converting a practice score into a predicted rank. What you compute yourself is not the reported score, which the university combines with your school results.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://etec.gov.sa/en/service/Generalabilitytest/servicegoal',

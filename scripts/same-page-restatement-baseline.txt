@@ -52,7 +52,6 @@ uppsc	4
 aau	3
 engineering-ent	3
 fmge	3
-gaokao	3
 law-ent-uga	3
 llb-ent	3
 ras	3

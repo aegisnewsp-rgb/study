@@ -17,7 +17,7 @@ const exam: ExamTemplate = {
   examId: 'nmat',
   examName: 'NMAT (Philippines)',
   country: 'philippines',
-  description: 'National Medical Admission Test (NMAT) is the Philippines\' standardised entrance exam for medical schools — required for admission to all medical schools in the Philippines. The NMAT is a national standardised examination administered by the Center for Educational Measurement (CEM) on behalf of the Association of Philippine Medical Colleges (APMC). It is a rigorous aptitude test that measures the academic preparedness of candidates for medical school.',
+  description: 'The Philippines\' National Medical Admission Test (NMAT) is a standardised entrance exam required for admission to all medical schools in the country. Each sitting is run by the Center for Educational Measurement (CEM) on behalf of the Philippine association of medical colleges. It is a two-part aptitude test that measures the academic preparedness of candidates for medical school.',
   examPattern: 'Part I: Verbal (analogies, reading comprehension), Inductive Reasoning, Quantitative (math fundamentals, problem solving), Perceptual Acuity. Part II: Physics, Chemistry, Biology, Social Sciences. Scored on percentile. Part I is designed to measure mental abilities and is taken first. Part II covers the four science subjects studied at the undergraduate level. Each subtest has 200-250 items. The exam is computer-based and can be taken at designated testing centers across the Philippines.',
   eligibility: 'Bachelor\'s degree (any field) with minimum GPA requirement. NMAT score valid for 2 years. Most medical schools require a minimum NMAT percentile score of 40-50, though top schools like UP Manila, Ateneo, and De La Salle require 80-90+. Candidates must have completed all undergraduate prerequisite courses (Biology, Physics, General Chemistry, Organic Chemistry, Biochemistry). The NMAT can be taken while completing the bachelor\'s degree or after graduation.',
   subjects,
@@ -61,7 +61,7 @@ const exam: ExamTemplate = {
     'Using unofficial Facebook cut-offs instead of the current CEM bulletin and school prospectus.',
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.mba.com/exams/nmat',
+  officialSource: 'https://www.cem-inc.org.ph',
 };
 
 export default exam;

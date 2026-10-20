@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Section timing for Saudi University Admission (Qimiyah) only counts if it matches the live duration.',
     'Some Saudi University Admission (Qimiyah) programmes add extra subject prerequisites after you pay — check https://etec.gov.sa/en/centers/qiyas.',
     'If a page promises you will \'crack Saudi University Admission (Qimiyah)\' with this plan, it is not this site.',
-    'The published Saudi University Admission (Qimiyah) shape in our files is: Standardized admission based on: High School GPA (30%), General Aptitude Test/Qiyas (30%), Achievement Test. If https://etec.gov.sa/en/centers/qiyas differs, follow https://etec.gov.sa/en/centers/qiyas.'
+    'Building a revision timetable around a weighting figure copied from an old page or a coaching video instead of the ETEC notice — the split decides how many hours each block earns, so a stale one misreads every plan built on it.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://etec.gov.sa/en/centers/qiyas',

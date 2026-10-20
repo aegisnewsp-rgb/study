@@ -12,7 +12,6 @@ cima-cgma	2
 mht-cet-law	8
 muet	7
 putme	8
-qimiyah	8
 cmat	7
 ican	7
 # kpsc sits at 5 and cannot go lower: the residual is entirely the shared

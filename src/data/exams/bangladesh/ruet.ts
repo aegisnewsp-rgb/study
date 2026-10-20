@@ -16,7 +16,7 @@ const exam: ExamTemplate = {
   examName: 'RUET Admission Test',
   country: 'bangladesh',
   description: 'Rajshahi University of Engineering and Technology (RUET) admission test is the entrance examination for undergraduate engineering programmes at RUET, located in Rajshahi, Bangladesh. RUET is one of the premier public engineering universities in the country, offering degrees in Civil, Electrical, Mechanical, Computer Science, and Textile Engineering. The admission process is highly competitive, testing candidates from the science background in essential engineering prerequisites.',
-  examPattern: '100 MCQs: Mathematics(40 questions), Physics(30 questions), Chemistry(20 questions), and English/General Knowledge(10 questions). Total 100 marks with each MCQ carrying 1 mark. No negative marking for wrong answers. Exam is usually held in a single sitting of 1.5 to 2 hours at the Rajshahi university campus and regional centres.',
+  examPattern: 'RUET admission runs in two stages, not one. Stage one is the Preliminary Test, a multiple-choice paper: the published seat plans for that sitting are titled for an MCQ paper, and RUET issues a separate result sheet for each of three shifts (Shift 2 runs 12.00-01.00 PM and Shift 3 03.00-04.00 PM). Candidates who clear it appear on an eligible-candidates list, published separately for Group-KA and Group-KHA, with a tribal list published alongside them. Stage two is a written test, for which RUET separately issues an admit card and then publishes the written test result ahead of the final admission test result. This page works to a breakdown of 100 preliminary MCQ questions - Mathematics 40, Physics 30, Chemistry 20 and English/General Knowledge 10, one mark each, with no negative marking. RUET publishes its session circular and prospectus as scanned images rather than as text, so confirm the current subject-wise split against the circular for the session you are sitting before you build a timetable around it.',
   eligibility: 'HSC or equivalent with a minimum GPA of 4.0 in Physics, Chemistry, and Mathematics (combined). Science group students from HSC or equivalent are eligible. Diploma holders in engineering may apply for credit transfer in some programmes. Bangladeshi nationals only under the general quota. Foreign students may apply through designated quotas with proper equivalence certificates from the Bangladeshi education board.',
   subjects,
     durations: {
@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'StudyRoadmap will not promise a RUET Admission Test outcome — only a study order.',
     'Who the board describes as eligible for RUET Admission Test: HSC or equivalent with a minimum GPA of 4.0 in Physics, Chemistry, and Mathematics (combined). Re-read it on https://ruet.ac.bd the week you apply.'
   ],
-  lastUpdated: '2026-07-28',
+  lastUpdated: '2026-10-20',
   officialSource: 'https://ruet.ac.bd',
 };
 

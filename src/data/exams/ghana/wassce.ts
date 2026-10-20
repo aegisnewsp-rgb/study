@@ -4,6 +4,17 @@ import { mathematics } from './subjects/mathematics';
 import { english } from './subjects/english';
 import { integratedScience } from './subjects/integrated-science';
 import { socialStudies } from './subjects/social-studies';
+// WASSCE Business-programme electives. Imported so the ten Accounting and ten
+// Economics notes under notes/wassce/ resolve to a declared topic: the note
+// gate reaches a note only when the exam imports the subject file that declares
+// its topic id. Neither module was imported anywhere, so 20 finished notes were
+// unreachable from the hub. Held out of `subjects` below so the study plan still
+// sequences the four core papers only, per the comment there.
+import { accounting } from './subjects/accounting';
+import { economics } from './subjects/economics';
+
+void accounting;
+void economics;
 
 // The four WAEC core subjects every WASSCE school candidate must sit, in the
 // order the examination papers are taken. WAEC states the core set before it

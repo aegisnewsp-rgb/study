@@ -10,7 +10,7 @@
 
 tnpsc	12
 ras	23
-al-exam	21
+al-exam	2
 fpsc-cce	21
 gujcet	19
 ctet	18

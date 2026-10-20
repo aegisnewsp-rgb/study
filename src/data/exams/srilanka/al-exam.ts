@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Sri Lanka GCE Advanced Level (A-Level) examination is the national university entrance exam. Students choose a stream (Science, Commerce, Arts) and sit 3 main subjects plus a Common General Test. For A/L Examination (Sri Lanka), if two blogs disagree on A/L Examination (Sri Lanka) marking, https://doenets.lk wins; this page only sequences A/L Examination (Sri Lanka) study.',
+    'Start from the stream your O-Level results qualify you for, then plan a revision order rather than a subject list: take each main subject in the same three-paper shape — an objective Paper I you can drill for speed, a written Paper II carrying the structured and essay responses, and, in Science, the practical or project component that sits alongside them. Because the papers run across several weeks in August and September, finish one full pass of a subject before opening the next and leave the last stretch for mixed timed practice. Treat the Common General Test — general knowledge and quantitative skills — as its own component rather than an afterthought, and weigh an optional General English paper against the hours it takes from your three main ones. Results are ranked by a normalised Z-score rather than by raw marks, and because that normalisation shifts with the difficulty of each year\'s paper, practise to the standard instead of chasing a target number.',
   commonMistakes: [
     'An outdated A/L Examination (Sri Lanka) PDF is not a substitute for the current notice at https://doenets.lk.',
     'Section timing for A/L Examination (Sri Lanka) only counts if it matches the live duration.',

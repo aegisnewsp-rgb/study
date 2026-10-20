@@ -22,7 +22,7 @@ The format is almost always the same shape: a short scenario, a table or schedul
 Three things arrive together and must be untangled separately:
 
 - **The scenario** tells you what the numbers mean and what is fixed.
-- **The data** gives the figures, often as a table where the relevant row is not the first one.
+- **The data** gives the figures, frequently as a table where the relevant row is not the first one.
 - **The question** specifies the quantity, the unit and the reference point.
 
 Candidates reliably lose time by starting at the data and hunting for the answer there. Start at the question.
@@ -65,7 +65,7 @@ This turns a lost item into a named, fixable error, which is worth far more than
 ## Time discipline
 
 - **Budget per item and hold it.** These items are deliberately proportional. An item taking twice its budget is an item to mark and move from.
-- **Do not let the scenario become an essay.** Two lines of working is usually enough. If you are writing a third, you have misunderstood the question.
+- **Do not let the scenario become an essay.** Two lines of working is enough. If you are writing a third, you have misunderstood the question.
 - **Estimate before you compute.** Look at the options. If your intuition says the answer is in the low hundreds and you have set up a formula that will give you a number under ten, the setup is wrong — and you have found out in five seconds instead of three minutes.
 - **Leave nothing blank.** A guess on a multiple-choice paper costs nothing but the option you eliminate.
 

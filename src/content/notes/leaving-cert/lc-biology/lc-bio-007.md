@@ -37,9 +37,9 @@ The learning outcome is deliberately built around *evidence* rather than recall:
 
 #### Core facts in one pass
 
-- **Prokaryote.** No membrane-bound nucleus, no membrane-bound organelles. DNA lies free in the cytoplasm in a nucleoid region, and there may be small plasmids. Ribosomes are present but smaller (70S) than eukaryotic ribosomes (80S). *Escherichia coli*, *Staphylococcus*, cyanobacteria. Bacteria typically 0.5–5 µm.
-- **Eukaryote.** DNA enclosed in a membrane-bound nucleus, with linear chromosomes associated with histone proteins. Membrane-bound organelles: mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes, vacuoles. Animals, plants, fungi, protists. Typically 10–100 µm.
-- **Animal cell** structures: cell membrane (no cell wall), cytoplasm, nucleus, mitochondrion, ribosome, endoplasmic reticulum, Golgi apparatus, lysosome, centriole. **Plant cell** adds: cellulose cell wall, large permanent vacuole with cell sap, chloroplasts, plasmodesmata. Plant cells also usually have a more regular rectangular shape.
+- **Prokaryote.** No membrane-bound nucleus, no membrane-bound organelles. DNA lies free in the cytoplasm in a nucleoid region, and small plasmids are present. Ribosomes are present but smaller (70S) than eukaryotic ribosomes (80S). *Escherichia coli*, *Staphylococcus*, cyanobacteria. Bacteria measure 0.5–5 µm.
+- **Eukaryote.** DNA enclosed in a membrane-bound nucleus, with linear chromosomes associated with histone proteins. Membrane-bound organelles: mitochondria, endoplasmic reticulum, Golgi apparatus, lysosomes, vacuoles. Animals, plants, fungi, protists. Size: 10–100 µm.
+- **Animal cell** structures: cell membrane (no cell wall), cytoplasm, nucleus, mitochondrion, ribosome, endoplasmic reticulum, Golgi apparatus, lysosome, centriole. **Plant cell** adds: cellulose cell wall, large permanent vacuole with cell sap, chloroplasts, plasmodesmata. Plant cells also have a more regular rectangular shape.
 - **Organelle functions to state under pressure**: mitochondrion — site of aerobic respiration and ATP production, double membrane with internal cristae; chloroplast — site of photosynthesis, contains chlorophyll and thylakoid membranes; ribosome — site of protein synthesis; rough ER — ribosomes attached, makes and transports protein; smooth ER — makes lipids, detoxifies; Golgi apparatus — modifies, sorts and packages proteins; lysosome — contains hydrolytic enzymes for digestion and recycling of worn-out organelles; vacuole — cell sap, storage of water, ions and sugars, maintains turgor pressure which supports the plant; nucleus — contains chromosomes and nucleolus, controls cell activity; cell wall — cellulose, fully permeable, supports and prevents bursting.
 - **Cell membrane** is a phospholipid bilayer with proteins — selective, partially permeable, described by the fluid mosaic model.
 - **Light microscope** magnification up to about ×1000–1500; resolution about 200 nm, so it can show cells but not most organelles. **Electron microscope** magnification up to about ×500,000; resolution about 0.2 nm, so organelles and viruses become visible. SEM gives a three-dimensional surface view of a specimen; TEM gives a thin-section two-dimensional view of internal structure.
@@ -50,7 +50,7 @@ The learning outcome is deliberately built around *evidence* rather than recall:
 - **Saying the cell wall is selectively permeable.** The cell wall is *fully* permeable; it gives shape and support and prevents osmotic bursting. It is the *membrane* that is selectively permeable.
 - **Confusing the centriole with the chloroplast.** Centrioles are in animal cells and organise spindle microtubules; chloroplasts are in plant cells and photosynthesise.
 - **Claiming prokaryotes have no DNA or no ribosomes.** They have both. What they lack is a *nuclear envelope* and membrane-bound organelles.
-- **Using "prokaryote has no chromosomes".** Prokaryotic DNA is usually a single circular chromosome plus plasmids — chromosomes without a nucleus.
+- **Using "prokaryote has no chromosomes".** Prokaryotic DNA is a single circular chromosome plus plasmids — chromosomes without a nucleus.
 - **Calculating magnification wrong-way-round.** Magnification = image size ÷ actual size. Writing actual = image ÷ magnification loses the mark.
 - **Mixing up SEM and TEM.** SEM = surface and three-dimensional. TEM = internal thin section.
 - **Saying plants get energy from soil.** Plants get energy from light; they get *carbon* from CO₂ and *minerals* from soil.
@@ -98,14 +98,14 @@ The specification names this explicitly, and it is the easiest experimental ques
 | Feature | Prokaryotic cell | Eukaryotic cell |
 | --- | --- | --- |
 | Nucleus | Absent; DNA free in cytoplasm | Membrane-bound nucleus |
-| Chromosomes | Usually one circular, plus plasmids | Linear, wrapped around histones |
+| Chromosomes | One circular, plus plasmids | Linear, wrapped around histones |
 | Organelles | No membrane-bound organelles | Mitochondria, ER, Golgi, lysosomes |
 | Ribosomes | 70S, smaller | 80S, larger |
 | Size | 0.5–5 µm | 10–100 µm |
 | Division | Binary fission | Mitosis or meiosis |
 | Examples | Bacteria, archaea, cyanobacteria | Animals, plants, fungi, protists |
 
-Archaea are prokaryotic but differ from bacteria in their cell wall, membrane lipids and ribosomes, which is why the specification places them in a separate domain. **Prokaryotic and eukaryotic** is a classification based on cell type; **archaea, bacteria and eukaryota** is a domain classification. Questions often swap these deliberately.
+Archaea are prokaryotic but differ from bacteria in their cell wall, membrane lipids and ribosomes, which is why the specification places them in a separate domain. **Prokaryotic and eukaryotic** is a classification based on cell type; **archaea, bacteria and eukaryota** is a domain classification. Questions swap these deliberately.
 
 #### Complexity in multicellular organisms
 
@@ -117,7 +117,7 @@ In a multicellular organism, differentiation means cells of the same organism ha
 
 #### Reading a primary micrograph critically
 
-The Biology in Practice Investigation requires primary data, and unit 1.3 is the unit where a light microscope appears most often. The evaluation marks are earned by saying something specific about the imagery, not by writing "human error".
+The Biology in Practice Investigation requires primary data, and unit 1.3 is the unit where a light microscope appears most frequently. The evaluation marks are earned by saying something specific about the imagery, not by writing "human error".
 
 - **Systematic vs random error in imaging.** A graticule inserted into the eyepiece lets you calibrate once and then measure many fields without recalibrating. Not doing this is a *systematic* error, because it biases every reading in the same direction.
 - **Sampling.** Ten randomly selected fields is a poor sample of a whole tissue; the field positions should be systematic and the count large enough that the count of cells stabilises as fields are added.
@@ -146,7 +146,7 @@ Unit 2.2 requires you to relate the **internal structures of mitochondria and ch
 3. **Forgetting ribosomes sit on the rough ER as well as free in the cytoplasm.** Both make protein; only the membrane-bound ones make it for export.
 4. **Omitting the resolution argument.** When a question asks why an organelle was or was not visible, quote the 200 nm limit and the organelle's actual size.
 5. **Ignoring the scale bar on electron micrographs.** Magnification labels on published images assume a print size that may not be yours.
-6. **Treating "image too blurry" as an explanation for everything.** Blurriness is often a focusing fault; faintness may be a stain concentration problem; a partly visible field is usually a sampling problem. Name the specific fault.
+6. **Treating "image too blurry" as an explanation for everything.** Blurriness is a focusing fault; faintness may be a stain concentration problem; a partly visible field is a sampling problem. Name the specific fault.
 
 ## Sources
 

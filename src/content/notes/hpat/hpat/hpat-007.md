@@ -17,14 +17,14 @@ Section 2 of HPAT-Ireland is the least familiar section for most candidates, and
 
 ## Read for the people, not the problem
 
-The instinct on encountering a scenario is to look for a puzzle in it. There usually is one — a missing report, a clash between two colleagues, a deadline. Section 2 does not ask you to solve it. It asks you to identify the emotion, the motive or the likely next action of a named person.
+The instinct on encountering a scenario is to look for a puzzle in it. There is one — a missing report, a clash between two colleagues, a deadline. Section 2 does not ask you to solve it. It asks you to identify the emotion, the motive or the likely next action of a named person.
 
 This reframing is most of the technique. An item reads like a problem and is scored like a character judgement.
 
 Two habits make the shift:
 
 - **Name the people and their relationships first.** Who wants what from whom? Who has the authority? Who is being let down?
-- **Read the last line as the tell.** Scenarios in this section typically end on the detail that carries the emotional content — a pause, a choice of words, an action that contradicts what was said. The middle is context.
+- **Read the last line as the tell.** Scenarios in this section end on the detail that carries the emotional content — a pause, a choice of words, an action that contradicts what was said. The middle is context.
 
 ## What you are actually inferring
 
@@ -45,7 +45,7 @@ Section 2 distractors are rarely random. They are drawn from four recurring sour
 3. **An under-reading.** Taking the surface-level reading when the scenario has signalled otherwise.
 4. **A plausible-but-unrelated motive.** A reason that would explain the action in the abstract but does not fit what this person has established.
 
-**Consequence test.** For any candidate answer, ask: *if this were true, would the rest of the scenario still make sense?* A correct answer fits every detail. A wrong answer usually explains one moment and leaves the others stranded.
+**Consequence test.** For any candidate answer, ask: *if this were true, would the rest of the scenario still make sense?* A correct answer fits every detail. A wrong answer explains one moment and leaves the others stranded.
 
 **Consistency of scale.** Emotions in a scenario have a consistent register. If a person has been mildly embarrassed throughout and the options include *furious*, the answer is not the strongest available — it is the one at the right temperature for this person.
 

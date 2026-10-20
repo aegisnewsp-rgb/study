@@ -90,10 +90,10 @@ Step 5 → Check: Can we say "Some roses are not red"? Yes, also possible.
 **Answer:** Only a possible conclusion (like "Some roses could be red") follows definitely? Actually no definite conclusion follows about the relationship between roses and red. So the answer is: "No definite conclusion follows."
 
 ### Common Mistakes
-- Confusing "some" with "all" → **Fix:** "Some" only means at least one. It doesn't mean all. So "Some A are B" doesn't tell you whether all A are B.
-- Assuming converse is true (if All A are B, assuming All B are A) → **Fix:** This is the converse fallacy. All cats are animals, but NOT all animals are cats.
-- Drawing only one Venn diagram configuration → **Fix:** For possibility questions, draw ALL possible configurations consistent with premises. Check if the conclusion holds in any of them.
-- The undistributed middle fallacy → **Fix:** When both premises are "All A are B" type but they don't share a common element to connect, no conclusion can be drawn. Example: All A are C, All B are C. We can't conclude anything about A and B's relationship.
+- Confusing "some" with "all" → **Fix:** "Some" only means at least one. It doesn't mean all. So "Some A are B" doesn't tell you whether all A are B.**
+- Assuming converse is true (if All A are B, assuming All B are A) → **Fix:** This is the converse fallacy. All cats are animals, but NOT all animals are cats.**
+- Drawing only one Venn diagram configuration → **Fix:** For possibility questions, draw ALL possible configurations consistent with premises. Check if the conclusion holds in any of them.**
+- The undistributed middle fallacy → **Fix:** When both premises are "All A are B" type but they don't share a common element to connect, no conclusion can be drawn. Example: All A are C, All B are C. We can't conclude anything about A and B's relationship.**
 
 ### 🔴 Extended
 

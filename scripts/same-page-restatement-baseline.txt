@@ -58,7 +58,6 @@ ras	3
 uaeu-cat	3
 uppm	3
 waec	3
-al-exam	2
 bpsc	2
 du-ad	2
 fpsc-cce	2

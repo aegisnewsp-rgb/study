@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Universiti Malaysia Perlis (UNIMAP) admission test — entry requirements for engineering and technology programmes at this northern Malaysian university. UNIMAP/UPPM intake rules live on https://admission.unimap.edu.my/; use this page only to order engineering subjects before you apply.',
+    'UNIMAP/UPPM intake rules live on https://admission.unimap.edu.my/; use this page only to order engineering subjects before you apply.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind UPPM/UNIMAP Admission (Malaysia) this year — https://admission.unimap.edu.my/ does.',
     'Doing only favourite UPPM/UNIMAP Admission (Malaysia) chapters leaves the clock as the real examiner.',

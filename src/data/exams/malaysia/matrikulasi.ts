@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Malaysian Matriculation Programme (Matrikulasi) is a one-year pre-university programme at Malaysian public universities, particularly for students who did not achieve the required STPM grades. For Matriculation (Malaysia), a crash week for Matriculation (Malaysia) only works after you have the live Matriculation (Malaysia) paper map from https://mohe.gov.my.',
+    'For Matriculation (Malaysia), a crash week for Matriculation (Malaysia) only works after you have the live Matriculation (Malaysia) paper map from https://mohe.gov.my.',
   commonMistakes: [
     'Mirrors of Matriculation (Malaysia) \'syllabus 2019\' are a common trap; start from https://mohe.gov.my.',
     'A Matriculation (Malaysia) mock with a different number of items trains the wrong stamina.',

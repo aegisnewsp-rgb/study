@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Universitas Nusa Cendana (Undana) admission test — public university in East Nusa Tenggara, Indonesia. For UNDANA Admission (Indonesia), use this UNDANA Admission (Indonesia) hub to see what UNDANA Admission (Indonesia) topics to study; use https://undana.ac.id to see when you may register.',
+    'For UNDANA Admission (Indonesia), use this UNDANA Admission (Indonesia) hub to see what UNDANA Admission (Indonesia) topics to study; use https://undana.ac.id to see when you may register.',
   commonMistakes: [
     'Mirrors of UNDANA Admission (Indonesia) \'syllabus 2019\' are a common trap; start from https://undana.ac.id.',
     'Section timing for UNDANA Admission (Indonesia) only counts if it matches the live duration.',

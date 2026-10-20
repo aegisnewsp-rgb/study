@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'ЕГЭ (Yediniy Gosudarstvenniy Ekzamen, Unified State Exam) is Russia\'s national university entrance examination. One of the largest standardized tests in the world — required for admission to all Russian universities. For EGE (Russia), match the exam medium for EGE (Russia) to whatever https://fipi.ru/ege states — do not assume English for EGE (Russia).',
+    'For EGE (Russia), match the exam medium for EGE (Russia) to whatever https://fipi.ru/ege states — do not assume English for EGE (Russia).',
   commonMistakes: [
     'Coaching blogs that skip https://fipi.ru/ege often recycle a retired EGE (Russia) pattern.',
     'A EGE (Russia) mock with a different number of items trains the wrong stamina.',

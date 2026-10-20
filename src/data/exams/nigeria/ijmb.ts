@@ -46,7 +46,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'The Interim Joint Matriculation Board (IJMB) is an alternative pathway to JAMB for admission into Nigerian universities. Managed and conducted by Ahmadu Bello University (ABU), Zaria, IJMB is a two-year programme that results in an IJMB certificate accepted by all Nigerian universities for direct entry into 200 level (second year). For IJMB (Interim Joint Matriculation Board), use this IJMB (Interim Joint Matriculation Board) hub to see what IJMB (Interim Joint Matriculation Board) topics to study; use https://abu.edu.ng/ijmb to see when you may register.',
+    'For IJMB (Interim Joint Matriculation Board), use this IJMB (Interim Joint Matriculation Board) hub to see what IJMB (Interim Joint Matriculation Board) topics to study; use https://abu.edu.ng/ijmb to see when you may register.',
   commonMistakes: [
     'An outdated IJMB (Interim Joint Matriculation Board) PDF is not a substitute for the current notice at https://abu.edu.ng/ijmb.',
     'Section timing for IJMB (Interim Joint Matriculation Board) only counts if it matches the live duration.',

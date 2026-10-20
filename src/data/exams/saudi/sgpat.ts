@@ -48,7 +48,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Saudi General Aptitude Test (Qiyas/القدرات) — a standardised aptitude test measuring verbal and quantitative reasoning abilities, required for Saudi university admission. For Saudi General Aptitude Test (SGPAT), save the Saudi General Aptitude Test (SGPAT) syllabus PDF from https://etec.gov.sa/en/service/Generalabilitytest/servicegoal and ignore unofficial Saudi General Aptitude Test (SGPAT) must-do lists that omit that file.',
+    'For Saudi General Aptitude Test (SGPAT), save the Saudi General Aptitude Test (SGPAT) syllabus PDF from https://etec.gov.sa/en/service/Generalabilitytest/servicegoal and ignore unofficial Saudi General Aptitude Test (SGPAT) must-do lists that omit that file.',
   commonMistakes: [
     'If your Saudi General Aptitude Test (SGPAT) brochure has no date, throw it out and open https://etec.gov.sa/en/service/Generalabilitytest/servicegoal.',
     'Doing only favourite Saudi General Aptitude Test (SGPAT) chapters leaves the clock as the real examiner.',

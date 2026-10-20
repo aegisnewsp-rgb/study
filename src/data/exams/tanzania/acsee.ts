@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Tanzania Advanced Certificate of Secondary Education (ACSEE) is the national examination for post-secondary selection. Equivalent to A-Levels, it determines university admission in Tanzania. NECTA publishes ACSEE sitting rules at https://www.necta.go.tz; this hub only orders Form VI subjects for university selection.',
+    'NECTA publishes ACSEE sitting rules at https://www.necta.go.tz; this hub only orders Form VI subjects for university selection.',
   commonMistakes: [
     'If your ACSEE (Tanzania) brochure has no date, throw it out and open https://www.necta.go.tz.',
     'A ACSEE (Tanzania) mock with a different number of items trains the wrong stamina.',

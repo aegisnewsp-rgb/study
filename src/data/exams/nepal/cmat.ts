@@ -57,7 +57,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Common Management Admission Test (CMAT) Nepal — entrance exam for MBA and management programmes at various universities in Nepal. For CMAT Nepal (MBA Entrance), save the CMAT Nepal (MBA Entrance) syllabus PDF from https://www.tudoms.org/ and ignore unofficial CMAT Nepal (MBA Entrance) must-do lists that omit that file.',
+    'For CMAT Nepal (MBA Entrance), save the CMAT Nepal (MBA Entrance) syllabus PDF from https://www.tudoms.org/ and ignore unofficial CMAT Nepal (MBA Entrance) must-do lists that omit that file.',
   commonMistakes: [
     'If your CMAT Nepal (MBA Entrance) brochure has no date, throw it out and open https://www.tudoms.org/.',
     'Section timing for CMAT Nepal (MBA Entrance) only counts if it matches the live duration.',

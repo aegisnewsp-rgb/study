@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Nepal\'s Bachelor-level entrance examinations for various programmes at Tribhuvan University and other universities. For LOE Nepal (Bachelor Entrance), if two blogs disagree on LOE Nepal (Bachelor Entrance) marking, https://psc.gov.np wins; this page only sequences LOE Nepal (Bachelor Entrance) study.',
+    'For LOE Nepal (Bachelor Entrance), if two blogs disagree on LOE Nepal (Bachelor Entrance) marking, https://psc.gov.np wins; this page only sequences LOE Nepal (Bachelor Entrance) study.',
   commonMistakes: [
     'If your LOE Nepal (Bachelor Entrance) brochure has no date, throw it out and open https://psc.gov.np.',
     'A LOE Nepal (Bachelor Entrance) mock with a different number of items trains the wrong stamina.',

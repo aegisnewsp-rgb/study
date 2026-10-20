@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Rajshahi University of Engineering and Technology (RUET) admission test is the entrance examination for undergraduate engineering programmes at RUET, located in Rajshahi, Bangladesh. RUET is one of the premier public engineering universities in the country, offering degrees in Civil, Electrical, Mechanical, Computer Science, and Textile Engineering. For RUET Admission Test, a crash week for RUET Admission Test only works after you have the live RUET Admission Test paper map from https://ruet.ac.bd.',
+    'For RUET Admission Test, a crash week for RUET Admission Test only works after you have the live RUET Admission Test paper map from https://ruet.ac.bd.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind RUET Admission Test this year — https://ruet.ac.bd does.',
     'Doing only favourite RUET Admission Test chapters leaves the clock as the real examiner.',

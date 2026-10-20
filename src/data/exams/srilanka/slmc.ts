@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Sri Lanka Medical Council exam — required for foreign medical graduates seeking registration to practice medicine in Sri Lanka. The SLMC examination is mandated under the Medical Ordinance to ensure that doctors who obtained their primary medical qualification outside Sri Lanka meet the required standards of medical knowledge, clinical competence, and ethical practice before being granted a license to practice in the country. For SLMC Medical (Sri Lanka), use this SLMC Medical (Sri Lanka) hub to see what SLMC Medical (Sri Lanka) topics to study; use https://slmc.gov.lk/ to see when you may register.',
+    'For SLMC Medical (Sri Lanka), use this SLMC Medical (Sri Lanka) hub to see what SLMC Medical (Sri Lanka) topics to study; use https://slmc.gov.lk/ to see when you may register.',
   commonMistakes: [
     'An outdated SLMC Medical (Sri Lanka) PDF is not a substitute for the current notice at https://slmc.gov.lk/.',
     'Untimed SLMC Medical (Sri Lanka) practice hides whether you can finish the published paper.',

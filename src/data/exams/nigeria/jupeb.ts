@@ -46,7 +46,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'The Joint Universities Preliminary Examinations Board (JUPEB) is a national direct entry programme accepted by all Nigerian universities. Candidates study 3-4 subjects for one academic year at accredited JUPEB centres and use the resulting certificate for 200-level (second year) admission. Register only through https://jupeb.edu.ng, and use this hub to pace the one-year A-level subject load for Direct Entry.',
+    'Register only through https://jupeb.edu.ng, and use this hub to pace the one-year A-level subject load for Direct Entry.',
   commonMistakes: [
     'Mirrors of JUPEB (Joint Universities Preliminary Examinations Board) \'syllabus 2019\' are a common trap; start from https://jupeb.edu.ng.',
     'Section timing for JUPEB (Joint Universities Preliminary Examinations Board) only counts if it matches the live duration.',

@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'The Tanzania Law School entrance examination is the mandatory entry test for admission to the postgraduate Diploma in Law programme offered by the Tanzania School of Law (the law faculty at the University of Dar es Salaam and other accredited institutions). The programme is a prerequisite for being called to the bar and practicing law in Tanzania. For Tanzania Law School, hold Tanzania Law School ID-photo and fee rules against https://udsm.ac.tz in the same week as your first Tanzania Law School mock.',
+    'For Tanzania Law School, hold Tanzania Law School ID-photo and fee rules against https://udsm.ac.tz in the same week as your first Tanzania Law School mock.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind Tanzania Law School this year — https://udsm.ac.tz does.',
     'Skipping full Tanzania Law School papers until the final weekend is how scores stall.',

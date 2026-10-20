@@ -48,7 +48,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Universitas Islam Indonesia (UII) entrance examination — one of Indonesia\'s oldest private universities, known for Islamic studies, engineering, and business programmes. For UII Entrance (Indonesia), keep UII Entrance (Indonesia) application admin (photo specs, IDs) off your UII Entrance (Indonesia) study clock by checking https://uii.ac.id early.',
+    'For UII Entrance (Indonesia), keep UII Entrance (Indonesia) application admin (photo specs, IDs) off your UII Entrance (Indonesia) study clock by checking https://uii.ac.id early.',
   commonMistakes: [
     'If your UII Entrance (Indonesia) brochure has no date, throw it out and open https://uii.ac.id.',
     'Section timing for UII Entrance (Indonesia) only counts if it matches the live duration.',

@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'United Arab Emirates University (UAEU) College Admission Test — a standardised admissions test for undergraduate admission to UAEU\'s various colleges. UAEU is the UAE\'s flagship national university, located in Al Ain. For UAE University CAT, save the UAE University CAT syllabus PDF from https://www.uaeu.ac.ae and ignore unofficial UAE University CAT must-do lists that omit that file.',
+    'For UAE University CAT, save the UAE University CAT syllabus PDF from https://www.uaeu.ac.ae and ignore unofficial UAE University CAT must-do lists that omit that file.',
   commonMistakes: [
     'Mirrors of UAE University CAT \'syllabus 2019\' are a common trap; start from https://www.uaeu.ac.ae.',
     'Untimed UAE University CAT practice hides whether you can finish the published paper.',

@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'UTBK (Ujian Tulis Berbasis Komputer) is Indonesia\'s national computer-based university entrance exam, required for admission to most public universities through the SNPMB system. Download the SNPMB/UTBK guide from https://portal.snpmb.id, then sequence TPA/TPS topics here rather than mixing random bank questions.',
+    'Download the SNPMB/UTBK guide from https://portal.snpmb.id, then sequence TPA/TPS topics here rather than mixing random bank questions.',
   commonMistakes: [
     'Mirrors of UTBK/SNPMTN (Indonesia) \'syllabus 2019\' are a common trap; start from https://portal.snpmb.id.',
     'Skipping full UTBK/SNPMTN (Indonesia) papers until the final weekend is how scores stall.',

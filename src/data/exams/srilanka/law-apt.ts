@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Sri Lanka Law College admission test for the Certificate in Law programme — the first step toward becoming an attorney-at-law in Sri Lanka. The test is conducted by the Sri Lanka Law College under the supervision of the Supreme Court of Sri Lanka. For Sri Lanka Law Aptitude, keep Sri Lanka Law Aptitude application admin (photo specs, IDs) off your Sri Lanka Law Aptitude study clock by checking https://www.sllc.ac.lk early.',
+    'For Sri Lanka Law Aptitude, keep Sri Lanka Law Aptitude application admin (photo specs, IDs) off your Sri Lanka Law Aptitude study clock by checking https://www.sllc.ac.lk early.',
   commonMistakes: [
     'An outdated Sri Lanka Law Aptitude PDF is not a substitute for the current notice at https://www.sllc.ac.lk.',
     'Doing only favourite Sri Lanka Law Aptitude chapters leaves the clock as the real examiner.',

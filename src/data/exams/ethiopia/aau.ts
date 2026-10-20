@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Addis Ababa University (AAU) entrance examination is Ethiopia\'s most competitive university admission test. AAU is Ethiopia\'s largest and oldest university, and entrance is based on Ethiopian University Entrance Examination (EUEE) results. AAU placement follows the Ethiopian EUEE path listed on https://www.aau.edu.et/admission — do not treat this hub as the placement office.',
+    'AAU placement follows the Ethiopian EUEE path listed on https://www.aau.edu.et/admission — do not treat this hub as the placement office.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind AAU Admission (Ethiopia) this year — https://www.aau.edu.et/admission does.',
     'Doing only favourite AAU Admission (Ethiopia) chapters leaves the clock as the real examiner.',

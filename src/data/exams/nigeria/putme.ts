@@ -48,7 +48,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Post-UTME is the screening examination conducted by individual Nigerian universities after the JAMB UTME. Each university designs its own Post-UTME test, which evaluates candidates on subject-specific knowledge relevant to their chosen course. For Post-UTME (Nigeria), hold Post-UTME (Nigeria) ID-photo and fee rules against https://www.jamb.gov.ng in the same week as your first Post-UTME (Nigeria) mock.',
+    'For Post-UTME (Nigeria), hold Post-UTME (Nigeria) ID-photo and fee rules against https://www.jamb.gov.ng in the same week as your first Post-UTME (Nigeria) mock.',
   commonMistakes: [
     'If your Post-UTME (Nigeria) brochure has no date, throw it out and open https://www.jamb.gov.ng.',
     'Doing only favourite Post-UTME (Nigeria) chapters leaves the clock as the real examiner.',

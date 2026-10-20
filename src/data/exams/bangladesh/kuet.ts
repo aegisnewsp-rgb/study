@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Khulna University of Engineering and Technology (KUET) admission test is a highly competitive exam for undergraduate engineering programmes in southern Bangladesh. KUET is one of the nine public engineering universities in Bangladesh and focuses on engineering, technology, and applied sciences. For KUET Admission Test, hold KUET Admission Test ID-photo and fee rules against https://kuet.ac.bd in the same week as your first KUET Admission Test mock.',
+    'For KUET Admission Test, hold KUET Admission Test ID-photo and fee rules against https://kuet.ac.bd in the same week as your first KUET Admission Test mock.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind KUET Admission Test this year — https://kuet.ac.bd does.',
     'A KUET Admission Test mock with a different number of items trains the wrong stamina.',

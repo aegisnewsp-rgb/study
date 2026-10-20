@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Makerere University direct admission test — an entrance examination for students who did not meet the direct entry requirements for Makerere University\'s various undergraduate programmes. Makerere University is Uganda\'s oldest and most prestigious university, and admission to many programmes is highly competitive. For Makerere University (Uganda), if two blogs disagree on Makerere University (Uganda) marking, https://mak.ac.ug wins; this page only sequences Makerere University (Uganda) study.',
+    'For Makerere University (Uganda), if two blogs disagree on Makerere University (Uganda) marking, https://mak.ac.ug wins; this page only sequences Makerere University (Uganda) study.',
   commonMistakes: [
     'An outdated Makerere University (Uganda) PDF is not a substitute for the current notice at https://mak.ac.ug.',
     'Skipping full Makerere University (Uganda) papers until the final weekend is how scores stall.',

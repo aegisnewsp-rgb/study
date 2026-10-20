@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'The Institute of Chartered Accountants of Nigeria (ICAN) examinations test accounting, auditing, taxation, and business knowledge across multiple levels: Foundation, Intermediate, and Final. ICAN is the professional body for accountants in Nigeria and its qualification is recognized across the West African sub-region and internationally. For ICAN (Institute of Chartered Accountants of Nigeria), keep ICAN (Institute of Chartered Accountants of Nigeria) application admin (photo specs, IDs) off your ICAN (Institute of Chartered Accountants of Nigeria) study clock by checking https://www.ican.org.ng early.',
+    'For ICAN (Institute of Chartered Accountants of Nigeria), keep ICAN (Institute of Chartered Accountants of Nigeria) application admin (photo specs, IDs) off your ICAN (Institute of Chartered Accountants of Nigeria) study clock by checking https://www.ican.org.ng early.',
   commonMistakes: [
     'An outdated ICAN (Institute of Chartered Accountants of Nigeria) PDF is not a substitute for the current notice at https://www.ican.org.ng.',
     'Doing only favourite ICAN (Institute of Chartered Accountants of Nigeria) chapters leaves the clock as the real examiner.',

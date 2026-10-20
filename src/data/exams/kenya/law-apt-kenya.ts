@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'The Kenya Law Aptitude Test (LAT) is an entrance examination for admission to law programmes at Kenyan universities, primarily the Kenya School of Law which trains advocates. The test assesses candidates on logical reasoning, legal awareness, English language proficiency, and general knowledge — skills essential for legal study. For Kenya Law Aptitude, hold Kenya Law Aptitude ID-photo and fee rules against https://ksl.ac.ke in the same week as your first Kenya Law Aptitude mock.',
+    'For Kenya Law Aptitude, hold Kenya Law Aptitude ID-photo and fee rules against https://ksl.ac.ke in the same week as your first Kenya Law Aptitude mock.',
   commonMistakes: [
     'Mirrors of Kenya Law Aptitude \'syllabus 2019\' are a common trap; start from https://ksl.ac.ke.',
     'Skipping full Kenya Law Aptitude papers until the final weekend is how scores stall.',

@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Graduate Management Admission Test (GMAT) — the global entrance exam for MBA and Master\'s in Finance programmes worldwide, including Ghana\'s top business schools. The GMAT is a computer-adaptive test (CAT) developed by the Graduate Management Admission Council (GMAC). GMAC sets GMAT appointments and the 16-day retake gap at https://www.gmac.com; this Ghana-facing hub only orders Quant/Verbal/IR practice.',
+    'GMAC sets GMAT appointments and the 16-day retake gap at https://www.gmac.com; this Ghana-facing hub only orders Quant/Verbal/IR practice.',
   commonMistakes: [
     'Mirrors of GMAT \'syllabus 2019\' are a common trap; start from https://www.gmac.com.',
     'Doing only favourite GMAT chapters leaves the clock as the real examiner.',

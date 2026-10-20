@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Engineering entrance examination for admission to Nepal\'s engineering colleges, particularly under Tribhuvan University Institute of Engineering. For IOE Entrance (Nepal), revisit weak IOE Entrance (Nepal) units the day after a timed IOE Entrance (Nepal) set, and do not pay until https://ioe.edu.np shows an open window.',
+    'For IOE Entrance (Nepal), revisit weak IOE Entrance (Nepal) units the day after a timed IOE Entrance (Nepal) set, and do not pay until https://ioe.edu.np shows an open window.',
   commonMistakes: [
     'Mirrors of IOE Entrance (Nepal) \'syllabus 2019\' are a common trap; start from https://ioe.edu.np.',
     'Skipping full IOE Entrance (Nepal) papers until the final weekend is how scores stall.',

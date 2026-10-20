@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'South African Pharmacy Council (SAPC) examination — the licensing examination for pharmacists trained outside South Africa who wish to register and practice as pharmacists in South Africa. The SAPC is the statutory body that regulates the pharmacy profession in South Africa. SAPC registration exams are governed at https://www.sapc.za.org; use these notes for foreign-graduate pharmacy revision, not as a licence.',
+    'SAPC registration exams are governed at https://www.sapc.za.org; use these notes for foreign-graduate pharmacy revision, not as a licence.',
   commonMistakes: [
     'If your SAPC (South Africa) brochure has no date, throw it out and open https://www.sapc.za.org.',
     'Skipping full SAPC (South Africa) papers until the final weekend is how scores stall.',

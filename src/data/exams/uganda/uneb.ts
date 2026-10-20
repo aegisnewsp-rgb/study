@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Uganda National Examinations Board (UNEB) UACE (Uganda Advanced Certificate of Education) is the national A-Level equivalent exam for university entrance in Uganda. The UACE is taken after two years of advanced secondary education (S.5 and S.6) and is the primary criterion for admission to Ugandan universities. For UNEB UACE (Uganda), keep UNEB UACE (Uganda) application admin (photo specs, IDs) off your UNEB UACE (Uganda) study clock by checking https://www.uneb.ac.ug early.',
+    'For UNEB UACE (Uganda), keep UNEB UACE (Uganda) application admin (photo specs, IDs) off your UNEB UACE (Uganda) study clock by checking https://www.uneb.ac.ug early.',
   commonMistakes: [
     'Coaching blogs that skip https://www.uneb.ac.ug often recycle a retired UNEB UACE (Uganda) pattern.',
     'Section timing for UNEB UACE (Uganda) only counts if it matches the live duration.',

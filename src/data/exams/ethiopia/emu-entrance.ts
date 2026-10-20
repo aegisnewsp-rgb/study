@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Entry examination for Ethiopian universities under the EMU (Ethiopian Media University) or general Ethiopian university placement system. For EMU Entrance (Ethiopia), save the EMU Entrance (Ethiopia) syllabus PDF from https://eaes.et/ and ignore unofficial EMU Entrance (Ethiopia) must-do lists that omit that file.',
+    'For EMU Entrance (Ethiopia), save the EMU Entrance (Ethiopia) syllabus PDF from https://eaes.et/ and ignore unofficial EMU Entrance (Ethiopia) must-do lists that omit that file.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind EMU Entrance (Ethiopia) this year — https://eaes.et/ does.',
     'A EMU Entrance (Ethiopia) mock with a different number of items trains the wrong stamina.',

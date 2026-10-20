@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Dubai Health Authority (DOH) exam — a licensing examination for healthcare professionals seeking to practice in Dubai\'s health facilities. The DOH is the regulatory and licensing authority for all healthcare professionals and facilities operating in the Emirate of Dubai. For DOH (UAE), match the exam medium for DOH (UAE) to whatever https://www.doh.gov.ae states — do not assume English for DOH (UAE).',
+    'For DOH (UAE), match the exam medium for DOH (UAE) to whatever https://www.doh.gov.ae states — do not assume English for DOH (UAE).',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind DOH (UAE) this year — https://www.doh.gov.ae does.',
     'A DOH (UAE) mock with a different number of items trains the wrong stamina.',

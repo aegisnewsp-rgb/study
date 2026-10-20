@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Health Authority of Abu Dhabi (HAAD) examination for healthcare professionals — a licensing exam for physicians, nurses, and allied health professionals seeking to practice in Abu Dhabi. HAAD (now integrated under DOH — Department of Health Abu Dhabi) was the regulatory body for healthcare in the Emirate of Abu Dhabi. HAAD/DOH licensing steps are on https://www.doh.gov.ae. Study clinical topics here; book the professional exam only on that portal.',
+    'HAAD/DOH licensing steps are on https://www.doh.gov.ae. Study clinical topics here; book the professional exam only on that portal.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind HAAD (UAE) this year — https://www.doh.gov.ae does.',
     'Section timing for HAAD (UAE) only counts if it matches the live duration.',

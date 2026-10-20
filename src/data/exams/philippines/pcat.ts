@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Philippine College Admission Test (PCAT) — used by several Philippine universities as part of their admission process for various undergraduate programmes. The PCAT is a standardised entrance examination developed by the Center for Educational Measurement (CEM) and is used by multiple universities to supplement their internal admission criteria. For PCAT (Philippines), a crash week for PCAT (Philippines) only works after you have the live PCAT (Philippines) paper map from https://www.cem-inc.org.ph.',
+    'For PCAT (Philippines), a crash week for PCAT (Philippines) only works after you have the live PCAT (Philippines) paper map from https://www.cem-inc.org.ph.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind PCAT (Philippines) this year — https://www.cem-inc.org.ph does.',
     'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',

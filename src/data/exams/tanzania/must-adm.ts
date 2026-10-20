@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Mzumbe University of Tanzania (MUST) admission test is the entrance examination for undergraduate programmes at Mzumbe University, one of Tanzania\'s leading public universities. Mzumbe University is particularly known for its programmes in law, public administration, business, and economics. For MUST Admission (Tanzania), a crash week for MUST Admission (Tanzania) only works after you have the live MUST Admission (Tanzania) paper map from https://must.ac.tz.',
+    'For MUST Admission (Tanzania), a crash week for MUST Admission (Tanzania) only works after you have the live MUST Admission (Tanzania) paper map from https://must.ac.tz.',
   commonMistakes: [
     'Coaching blogs that skip https://must.ac.tz often recycle a retired MUST Admission (Tanzania) pattern.',
     'Untimed MUST Admission (Tanzania) practice hides whether you can finish the published paper.',

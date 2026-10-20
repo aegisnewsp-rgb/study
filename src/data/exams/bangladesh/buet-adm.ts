@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'BUET Admission Test is the extremely competitive entrance exam for Bangladesh University of Engineering and Technology — the premier engineering university in Bangladesh. Only top ~1% of applicants are admitted. Print the current BUET Admission Test circular from https://buet.ac.bd and mark finished engineering topics on this hub.',
+    'Print the current BUET Admission Test circular from https://buet.ac.bd and mark finished engineering topics on this hub.',
   commonMistakes: [
     'An outdated BUET Admission Test PDF is not a substitute for the current notice at https://buet.ac.bd.',
     'Section timing for BUET Admission Test only counts if it matches the live duration.',

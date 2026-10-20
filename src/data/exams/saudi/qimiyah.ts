@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'القبول في الجامعات السعودية (University Admission) — Saudi university admission through the unified admission system. High school GPA plus standardized test scores determine placement. Saudi unified admission (Qiyas + GPA) is described on https://etec.gov.sa/en/centers/qiyas; this hub sequences revision, not the national seat offer.',
+    'Saudi unified admission (Qiyas + GPA) is described on https://etec.gov.sa/en/centers/qiyas; this hub sequences revision, not the national seat offer.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind Saudi University Admission (Qimiyah) this year — https://etec.gov.sa/en/centers/qiyas does.',
     'Section timing for Saudi University Admission (Qimiyah) only counts if it matches the live duration.',

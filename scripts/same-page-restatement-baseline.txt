@@ -10,7 +10,7 @@
 
 dat	9
 act	13
-gat	13
+gat	1
 tnpsc	12
 xat	12
 jupeb	11

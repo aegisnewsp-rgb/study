@@ -78,7 +78,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Mirrors of WASSCE (Ghana) \'syllabus 2019\' are a common trap; start from https://www.waecgh.org.',
     'Doing only favourite WASSCE (Ghana) chapters leaves the clock as the real examiner.',
-    'A friend who sat WASSCE (Ghana) two years ago is not your eligibility officer; https://www.waecgh.org is.',
+    'WAEC distinguishes school candidates, who register through their schools, from private candidates, who register online. Confirm which category applies to you and, if you are a school candidate, confirm with your school that it has submitted your entry before the applicable WAEC deadline.',
     'Nobody on this site can guarantee a WASSCE (Ghana) rank, percentile, or admission.',
     'Treating any subject shape quoted on this page as WAEC\'s rule rather than our summary of it; if https://www.waecgh.org differs from anything here, follow https://www.waecgh.org.'
   ],

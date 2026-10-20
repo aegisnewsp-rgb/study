@@ -54,8 +54,8 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'An outdated A/L Examination (Sri Lanka) PDF is not a substitute for the current notice at https://doenets.lk.',
     'Section timing for A/L Examination (Sri Lanka) only counts if it matches the live duration.',
-    'A friend who sat A/L Examination (Sri Lanka) two years ago is not your eligibility officer; https://doenets.lk is.',
-    'StudyRoadmap will not promise a A/L Examination (Sri Lanka) outcome — only a study order.',
+    'Choosing a stream without first checking that stream\'s approved subject combinations — you sit subjects within the combination your registered stream allows, and a degree programme can add a subject requirement on top of that.',
+    'Treating an unofficial answer key or a grade-calculator as a result; the Department of Examinations publishes the outcome, and a rumoured cut-off circulating on a forum is not one.',
     'Check the published credit requirement yourself against https://doenets.lk the week you apply — do not rely on memory of last year\'s rule.'
   ],
   lastUpdated: '2026-07-28',

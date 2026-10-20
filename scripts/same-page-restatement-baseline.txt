@@ -8,9 +8,6 @@
 # ABSENT here and reuses any shingle FAILS - pages nobody looked at are the
 # gap this gate exists to close.
 
-tnpsc	12
-ras	23
-al-exam	2
 fpsc-cce	21
 gujcet	19
 ctet	18
@@ -18,7 +15,7 @@ wassce	17
 dat	15
 act	13
 gat	13
-gaokao	3
+tnpsc	12
 xat	12
 jupeb	11
 cima-cgma	10
@@ -32,7 +29,6 @@ mht-cet-law	8
 muet	8
 putme	8
 qimiyah	8
-sbi-clerk	0
 cmat	7
 ican	7
 kpsc	7
@@ -70,11 +66,14 @@ uppsc	4
 aau	3
 engineering-ent	3
 fmge	3
+gaokao	3
 law-ent-uga	3
 llb-ent	3
+ras	3
 uaeu-cat	3
 uppm	3
 waec	3
+al-exam	2
 bpsc	2
 du-ad	2
 gate	2

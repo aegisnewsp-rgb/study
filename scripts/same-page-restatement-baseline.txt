@@ -71,7 +71,6 @@ wbjee	2
 ap-eapcet	1
 ca-found	1
 comedk	1
-gat	1
 gmat	1
 manipal-met	1
 nums-mdcat	1

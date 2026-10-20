@@ -196,9 +196,17 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/gat/': {
-    title: 'GAT Pakistan Full Form: NTS Graduate Admissions',
+    // 2026-10-20 vqzo: this snippet ranks for the measured query 'gat full form'
+    // (24.1% of this page's impressions, at 0.00% CTR) and expanded the acronym as
+    // 'Graduate Admissions Test'. NTS itself writes 'Graduate Assessment Test' on
+    // nts.org.pk/new/GAT-S.php, and src/data/exams/pakistan/gat.ts says the same in
+    // its own body copy. A user searching the full form was shown an expansion that
+    // the official body and the page itself contradicted. Corrected to the official
+    // name; both strings are 25 characters, so the 155-char description limit and the
+    // measured snippet length are both unchanged.
+    title: 'GAT Pakistan Full Form: NTS Graduate Assessment Test',
     description:
-      'GAT stands for Graduate Admissions Test, run by NTS Pakistan for MS, MPhil and PhD admissions. Test pattern, schedule, score validity and test fee.',
+      'GAT stands for Graduate Assessment Test, run by NTS Pakistan for MS, MPhil and PhD admissions. Test pattern, schedule, score validity and test fee.',
     query: 'gat full form (24.1% @ 0.00% CTR), gat test schedule 2026 for mphil (19.8%)',
     gscImpressions: 1435,
   },

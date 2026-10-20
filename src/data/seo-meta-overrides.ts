@@ -106,7 +106,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/sbi-clerk/': {
     title: 'SBI Clerk Exam Pattern 2026: Prelims + Mains',
     description:
-      'SBI Clerk exam pattern 2026: Prelims is 100 questions in 1 hour, Mains has 4 sections, and both stages carry one-fourth negative marking. Marks and cut-off.',
+      'SBI Clerk exam pattern 2026: Prelims is 100 questions in 1 hour, Mains has 4 sections, and both stages carry one-fourth negative marking. Marks, cut-off.',
     query: 'sbi clerk exam pattern (16.8%) + sbi clerk exam pattern 2026 (14.3%)',
     gscImpressions: 7648,
   },
@@ -116,7 +116,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/gaokao/': {
     title: 'Gaokao 2026 Syllabus: 3+1+2, Six Papers, 750 Marks',
     description:
-      'Gaokao 2026 sits six papers: Chinese, Mathematics and a foreign language, plus one of Physics or History and two of Chemistry, Biology, Politics or Geography.',
+      'Gaokao 2026 has six papers: Chinese, Mathematics and a foreign language, plus one of Physics or History and two of Chemistry, Biology, Politics, Geography.',
     query: 'gaokao exam syllabus (35.5% @ 0.00% CTR)',
     gscImpressions: 8510,
   },

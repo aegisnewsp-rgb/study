@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For EGE (Russia), match the exam medium for EGE (Russia) to whatever https://fipi.ru/ege states — do not assume English for EGE (Russia).',
+    'The decision that costs candidates the most is picking basic-level Mathematics when their target programmes actually require the advanced (profile) paper, or the reverse — the level you sit decides which faculties and specialities you can apply to, so check the programme requirement before you register rather than after you have the score. Second, the 2026 Russian Language paper broadened task 7 to all types of grammatical error and changed the essay marking parameters, so any prep material written before that cycle is actively misleading for that subject; work from the current FIPI specification and not from a past paper pack.',
   commonMistakes: [
     'Coaching blogs that skip https://fipi.ru/ege often recycle a retired EGE (Russia) pattern.',
     'An EGE (Russia) mock with a different number of items trains the wrong stamina.',

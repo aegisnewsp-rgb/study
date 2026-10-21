@@ -91,6 +91,33 @@ const state = (page) => page.evaluate(() => {
 
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
 
+// Settle time for a journey that asserts on ad-tag PRESENCE in the DOM.
+//
+// These four journeys used a 2500 ms sleep while section 3 asserts the same
+// "IN baseline loads ads" fact with 5200 ms. Measured A/B on one unchanged
+// dist/ served on 127.0.0.1:8899, one variable changed, run back to back
+// (2026-10-21T22:2xZ, queue row sr-20261021T2205Z-vqzo-CONSENT-GATE-2500MS-WAIT-RACES-THE-ADS-LOADER):
+//   wait 2500 -> FAIL travel: IN baseline loads ads  (state=granted)   24/25, rc=1
+//   wait 6000 -> PASS travel: IN baseline loads ads  (state=granted)   25/25, rc=0
+// All four at 6000 -> 25/25, rc=0, including the crawler and noads=1
+// negatives, so no journey was masking a late loader.
+//
+// The consent state was `granted` in BOTH readings, so this was never a CMP
+// defect and never lost ad impressions: the zone loader simply arrives after
+// 2.5 s. It was the gate racing its own loader.
+//
+// Why the short wait was unsafe, not merely wrong: the IN->DE leg asserts
+// monetag === false. A late loader makes that negative pass VACUOUSLY — the
+// element is absent because it has not arrived yet, not because consent
+// withheld it. The one assertion protecting EEA-travel consent safety was
+// being decided by a sleep. At 6000 ms it still passes with state=unknown,
+// which is the genuine reading.
+//
+// A longer settle makes the crawler and noads negatives STRICTER, since a
+// late-injected tag now has to be caught. Do not shorten this to save ~3 s
+// per journey: it is the difference between measuring the CMP and racing it.
+const SETTLE = 6000;
+
 // Playwright resolves its browser by build number (playwright 1.60.0 wants
 // chromium_headless_shell-1223). That number is a property of the installed
 // *package*, not of the machine: a box can carry a complete, working headless
@@ -282,14 +309,14 @@ try {
     route.fulfill({ status: 200, contentType: 'text/plain', body: `fl=1\nloc=${geo}\n` }));
   const page = await ctx.newPage();
   await page.goto(BASE + PAGE, { waitUntil: 'load' });
-  await wait(2500);
+  await wait(SETTLE);
   const before = await state(page);
   check('travel: IN baseline loads ads', before.scripts.monetag === true, `state=${before.consent}`);
 
   geo = 'DE';
   const page2 = await ctx.newPage();
   await page2.goto(BASE + PAGE, { waitUntil: 'load' });
-  await wait(2500);
+  await wait(SETTLE);
   const s = await state(page2);
   check('travel IN→DE: assumed grant not replayed as consent',
     s.scripts.monetag === false && s.ad.multitag === false, `state=${s.consent} via=${s.via}`);
@@ -305,7 +332,7 @@ try {
   });
   const page = await ctx.newPage();
   await page.goto(BASE + PAGE, { waitUntil: 'load' });
-  await wait(2500);
+  await wait(SETTLE);
   const s = await state(page);
   check('crawler: no banner', s.ccHtml === false, `modals=${s.modals}`);
   check('crawler: no Monetag loader', s.scripts.monetag === false, `reason=${s.ad.reason}`);
@@ -317,7 +344,7 @@ try {
   const ctx = await newCtx(browser, { geo: 'IN' });
   const page = await ctx.newPage();
   await page.goto(BASE + PAGE + '?noads=1', { waitUntil: 'load' });
-  await wait(2500);
+  await wait(SETTLE);
   const s = await state(page);
   check('noads=1: ads suppressed', s.scripts.monetag === false, `state=${s.consent} reason=${s.ad.reason}`);
   await ctx.close();

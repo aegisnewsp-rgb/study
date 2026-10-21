@@ -53,8 +53,8 @@ const exam: ExamTemplate = {
     'Saudi unified admission (Qiyas + GPA) is described on https://etec.gov.sa/en/centers/qiyas; this hub sequences revision, not the national seat offer.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind Saudi University Admission (Qimiyah) this year — https://etec.gov.sa/en/centers/qiyas does.',
-    'Section timing for Saudi University Admission (Qimiyah) only counts if it matches the live duration.',
-    'Some Saudi University Admission (Qimiyah) programmes add extra subject prerequisites after you pay — check https://etec.gov.sa/en/centers/qiyas.',
+    'Applying the Qiyas sitting date you saw on a forum to your own timetable. Each sitting has its own registration window and seat allocation, and the ETEC notice for your date is the only one that binds you.',
+    'Starting the application before your school transcript is final. A Qiyas result only turns into a place once the secondary record behind it supports the scores, so a certificate still being amended at enrolment has to be settled before the admission result is confirmed.',
     'If a page promises you will \'crack Saudi University Admission (Qimiyah)\' with this plan, it is not this site.',
     'Building a revision timetable around a weighting figure copied from an old page or a coaching video instead of the ETEC notice — the split decides how many hours each block earns, so a stale one misreads every plan built on it.'
   ],

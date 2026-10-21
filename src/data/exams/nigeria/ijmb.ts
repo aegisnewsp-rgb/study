@@ -46,16 +46,16 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For IJMB (Interim Joint Matriculation Board), use this IJMB (Interim Joint Matriculation Board) hub to see what IJMB (Interim Joint Matriculation Board) topics to study; use https://abu.edu.ng/ijmb to see when you may register.',
+    'The Interim Joint Matriculation Board was set up under statute 5 of the Ahmadu Bello University law and is run by the IJMB Secretariat inside ABU\'s Institute of Education. Register through the Secretariat site, then plan two years of A-level-equivalent study around the subject combination your target programme needs.',
   commonMistakes: [
-    'An outdated IJMB (Interim Joint Matriculation Board) PDF is not a substitute for the current notice at https://abu.edu.ng/ijmb.',
-    'Section timing for IJMB (Interim Joint Matriculation Board) only counts if it matches the live duration.',
-    'Some IJMB (Interim Joint Matriculation Board) programmes add extra subject prerequisites after you pay — check https://abu.edu.ng/ijmb.',
-    'If a page promises you will \'crack IJMB (Interim Joint Matriculation Board)\' with this plan, it is not this site.',
-    'Use 3-4 subjects depending on programme choice, each paper 3 hours duration. Only as a memory aid for IJMB (Interim Joint Matriculation Board), then match the live paper on https://abu.edu.ng/ijmb.'
+    'An outdated IJMB PDF is not a substitute for the current notice at http://ijmb.abu.edu.ng/, the Secretariat site run from ABU\'s Institute of Education.',
+    'Assuming every paper runs to three hours regardless of subject. Papers are set to A-level standard, and the Secretariat\'s own notice is the only place the per-subject duration is confirmed — check it before you build a timetable.',
+    'Picking subjects from what is easiest to study rather than what the target programme accepts. The combination is fixed by the course you are aiming at, and a paper you cannot sit is a lost year rather than a weaker result.',
+    'If a page promises you will \'crack IJMB\' with this plan, it is not this site.',
+    'Reading IJMB as a shortcut past the certificate. It is a two-year programme whose own assessments sit inside the course, so the certificate is earned across the whole span rather than in one terminal sitting.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://abu.edu.ng/',
+  officialSource: 'http://ijmb.abu.edu.ng/',
 };
 
 export default exam;

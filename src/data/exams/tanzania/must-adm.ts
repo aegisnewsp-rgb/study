@@ -15,7 +15,7 @@ const exam: ExamTemplate = {
   examId: 'must-adm',
   examName: 'MUST Admission (Tanzania)',
   country: 'tanzania',
-  description: 'Mzumbe University of Tanzania (MUST) admission test is the entrance examination for undergraduate programmes at Mzumbe University, one of Tanzania\'s leading public universities. Mzumbe University is particularly known for its programmes in law, public administration, business, and economics. The university conducts its own admission test for competitive programmes to supplement the TCU centralized admission system.',
+  description: 'Mzumbe University (MU) runs its own entrance test for competitive undergraduate programmes, alongside Tanzania\'s centralized TCU admission system. Mzumbe is a comprehensive public university in Morogoro, best known for law, public administration, business and economics. Do not confuse it with Mbeya University of Science and Technology, a different university whose web address is must.ac.tz — this page is about Mzumbe.',
   examPattern: 'Varies by programme applied for — typically tests relevant subjects at CSEE or ACSEE level depending on the programme. For law and business programmes, tests English, Mathematics, and General Knowledge. For science programmes, tests Physics, Chemistry, and Mathematics. Questions are MCQ and short-answer. Each paper is approximately 2 hours. The test is paper-based and conducted on campus.',
   eligibility: 'CSEE (Form IV) certificate with minimum passes for diploma programmes. ACSEE certificate with relevant subject passes for degree programmes. Each programme has specific subject requirements — Law typically requires a credit in English at CSEE; Business programmes require Mathematics. Candidates must apply through the TCU system and separately to Mzumbe University for programmes requiring the admission test.',
   subjects,
@@ -50,16 +50,16 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For MUST Admission (Tanzania), a crash week for MUST Admission (Tanzania) only works after you have the live MUST Admission (Tanzania) paper map from https://must.ac.tz.',
+    'Mzumbe publishes its own admission advert and applies through admission.mzumbe.ac.tz, so the test you actually sit depends on the programme advert you are answering. Read the advert first, then use this hub to sequence the CSEE or ACSEE subjects it names.',
   commonMistakes: [
-    'Coaching blogs that skip https://must.ac.tz often recycle a retired MUST Admission (Tanzania) pattern.',
-    'Untimed MUST Admission (Tanzania) practice hides whether you can finish the published paper.',
-    'Do not assume MUST Admission (Tanzania) is open to every degree title until https://must.ac.tz says so.',
-    'StudyRoadmap will not promise a MUST Admission (Tanzania) outcome — only a study order.',
-    'Use Varies by programme applied for — typically tests relevant subjects at CSEE or ACSEE level only as a memory aid for MUST Admission (Tanzania), then match the live paper on https://must.ac.tz.'
+    'Assuming the Mzumbe test is the TCU route. Direct entry through TCU and the university\'s own entrance test are separate applications, and the university advert is the one that names the papers you sit.',
+    'Reading must.ac.tz and assuming it is Mzumbe. That address belongs to Mbeya University of Science and Technology; Mzumbe\'s own sites are mu.ac.tz and admission.mzumbe.ac.tz.',
+    'Mugging "the programme decides" as a rule. Decide which programme you are applying to first, then read only the subject list that advert names — the test papers do not overlap enough to revise them all.',
+    'Timing a full mock without the real paper length. At roughly two hours per paper, a candidate who only ever rehearses in 30-minute sittings misjudges which questions to abandon and arrives having run out of paper mid-way.',
+    'Treating a coaching video\'s "Mzumbe pattern" as current. The test has changed more than once and the advert is the only source that says which CSEE or ACSEE papers this year\'s candidates sit.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://must.ac.tz',
+  officialSource: 'https://mu.ac.tz',
 };
 
 export default exam;

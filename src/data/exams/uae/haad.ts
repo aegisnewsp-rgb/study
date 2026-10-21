@@ -55,8 +55,8 @@ const exam: ExamTemplate = {
     'HAAD/DOH licensing steps are on https://www.doh.gov.ae. Study clinical topics here; book the professional exam only on that portal.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind HAAD (UAE) this year — https://www.doh.gov.ae does.',
-    'Section timing for HAAD (UAE) only counts if it matches the live duration.',
-    'Some HAAD (UAE) programmes add extra subject prerequisites after you pay — check https://www.doh.gov.ae.',
+    'Assuming the exam has one fixed question count. HAAD is computer-based and the number of items and the time allowed are set by the DOH for each profession, so a number quoted from another candidate\'s booking is not transferable to yours.',
+    'Starting the application before your qualification documents are verified. Credentials go through verification before an exam date is set, so an incomplete or unattested document holds up the booking rather than being sorted out afterwards.',
     'Nobody on this site can guarantee a HAAD (UAE) rank, percentile, or admission.',
     'Copying one HAAD (UAE) revision plan across professions. What you sit is decided by your profession, so a plan built for a physician wastes hours on sections you will never be asked. List only what your own profession is examined on, then build outward from that.'
   ],

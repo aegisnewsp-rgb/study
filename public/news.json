@@ -1,5 +1,17 @@
 [
   {
+    "id": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3JoUmNkRzhxTkh5MERlZDEwTV9tRkFReVlrdTNTa3pTZlFxR0d4ZldySkc3U3prWFc1NHNEMzFucDVzX01abXNKU0oyeDAtSXFORzlsazdJbGxxRGg3R2J6Rmd6MXBxNy1ydGhyMXN0UFNPbWFsMVV6SDROSEUxLVBOUmZLQkZsVU1lemRYSHZYaEJjUUFjOXFuZ3FDTzZiWVMydmhCTU82MWVCY3FR?oc=5",
+    "title": "Pakistan orders new investigation into MDCAT exam complaints — The Express Tribune - UA.NEWS",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3JoUmNkRzhxTkh5MERlZDEwTV9tRkFReVlrdTNTa3pTZlFxR0d4ZldySkc3U3prWFc1NHNEMzFucDVzX01abXNKU0oyeDAtSXFORzlsazdJbGxxRGg3R2J6Rmd6MXBxNy1ydGhyMXN0UFNPbWFsMVV6SDROSEUxLVBOUmZLQkZsVU1lemRYSHZYaEJjUUFjOXFuZ3FDTzZiWVMydmhCTU82MWVCY3FR?oc=5",
+    "source": "UA.NEWS",
+    "published": "2026-10-21T23:41:54+00:00",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ3JoUmNkRzhxTkh5MERlZDEwTV9tRkFReVlrdTNTa3pTZlFxR0d4ZldySkc3U3prWFc1NHNEMzFucDVzX01abXNKU0oyeDAtSXFORzlsazdJbGxxRGg3R2J6Rmd6MXBxNy1ydGhyMXN0UFNPbWFsMVV6SDROSEUxLVBOUmZLQkZsVU1lemRYSHZYaEJjUUFjOXFuZ3FDTzZiWVMydmhCTU82MWVCY3FR?oc=5\" target=\"_blank\">Pakistan orders new investigation into MDCAT exam complaints — The Express Tribune</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">UA.NEWS</font>",
+    "country": "pakistan",
+    "tags": [
+      "mdcat"
+    ]
+  },
+  {
     "id": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdU1NY192bEI3LTRLbUNEM2hJNmZSR2RFbWYzclVxMDNDT0ZvMUxZT0dfNmRaU0JhZG9Sc1JFb2gyQnF5dXFnNFVjNFpiSWVLN0NQdjRzakViUzEzTE9aVEk3b2d2UlhocXg4NWxOOC1KSU9rSS0zTjBQUHFEcTNXc3hHOXRoN1l0dFBtYzJ6UmcteHUzNy1VWXZUQ2ZyaUZMSFdoZWxyRWM2UQ?oc=5",
     "title": "NTA Exam Calendar 2027 Out: Check JEE Main, UGC NET, CUET PG Dates - News Arena India",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdU1NY192bEI3LTRLbUNEM2hJNmZSR2RFbWYzclVxMDNDT0ZvMUxZT0dfNmRaU0JhZG9Sc1JFb2gyQnF5dXFnNFVjNFpiSWVLN0NQdjRzakViUzEzTE9aVEk3b2d2UlhocXg4NWxOOC1KSU9rSS0zTjBQUHFEcTNXc3hHOXRoN1l0dFBtYzJ6UmcteHUzNy1VWXZUQ2ZyaUZMSFdoZWxyRWM2UQ?oc=5",
@@ -8,10 +20,10 @@
     "description": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdU1NY192bEI3LTRLbUNEM2hJNmZSR2RFbWYzclVxMDNDT0ZvMUxZT0dfNmRaU0JhZG9Sc1JFb2gyQnF5dXFnNFVjNFpiSWVLN0NQdjRzakViUzEzTE9aVEk3b2d2UlhocXg4NWxOOC1KSU9rSS0zTjBQUHFEcTNXc3hHOXRoN1l0dFBtYzJ6UmcteHUzNy1VWXZUQ2ZyaUZMSFdoZWxyRWM2UQ?oc=5\" target=\"_blank\">NTA Exam Calendar 2027 Out: Check JEE Main, UGC NET, CUET PG Dates</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">News Arena India</font>",
     "country": "india",
     "tags": [
-      "jee main",
-      "cuet",
       "jee",
-      "ugc net"
+      "cuet",
+      "ugc net",
+      "jee main"
     ]
   },
   {
@@ -85,15 +97,5 @@
     "tags": [
       "jamb"
     ]
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaG5zRU5Ybjg1ajNhVUtIanlxR0dONHk0LWJxZHBQSVp2V25wdUplWXVBQVZ1OWFDNFhuU3hOT3kwcVRadkMxQXBteXNzckhpQ1c0ZUxJdGpqWjBORHhKV05uSktyODl4MkFoa1lIN01uNE0tT2Y1WXhodWVLZjYzNVpCTm03LS1jOGNlZWN3cnRXT2R3WDFDS09HUFVUR0dnNlE?oc=5",
-    "title": "KMAT 2026 Session 2 exam date announced @kmatindia.com - Shiksha.com",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaG5zRU5Ybjg1ajNhVUtIanlxR0dONHk0LWJxZHBQSVp2V25wdUplWXVBQVZ1OWFDNFhuU3hOT3kwcVRadkMxQXBteXNzckhpQ1c0ZUxJdGpqWjBORHhKV05uSktyODl4MkFoa1lIN01uNE0tT2Y1WXhodWVLZjYzNVpCTm03LS1jOGNlZWN3cnRXT2R3WDFDS09HUFVUR0dnNlE?oc=5",
-    "source": "Shiksha.com",
-    "published": "2026-10-21T05:06:45+00:00",
-    "description": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQaG5zRU5Ybjg1ajNhVUtIanlxR0dONHk0LWJxZHBQSVp2V25wdUplWXVBQVZ1OWFDNFhuU3hOT3kwcVRadkMxQXBteXNzckhpQ1c0ZUxJdGpqWjBORHhKV05uSktyODl4MkFoa1lIN01uNE0tT2Y1WXhodWVLZjYzNVpCTm03LS1jOGNlZWN3cnRXT2R3WDFDS09HUFVUR0dnNlE?oc=5\" target=\"_blank\">KMAT 2026 Session 2 exam date announced @kmatindia.com</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Shiksha.com</font>",
-    "country": "india",
-    "tags": []
   }
 ]

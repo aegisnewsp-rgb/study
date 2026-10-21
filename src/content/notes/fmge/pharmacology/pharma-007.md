@@ -112,7 +112,7 @@ A level of 25.0 mg/L exceeds the 20 mg/L toxic threshold. The patient requires t
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. A 52-year-old male with cirrhosis and tense ascites receives high-dose furosemide alone. Explain why secondary hyperaldosteronism limits the efficacy of loop diuretics in this setting, and specify the rationale for combining spironolactone with furosemide at a 100:40 mg ratio.
 2. A 26-year-old female presents to the emergency department with acute severe asthma unresponsive to three doses of inhaled salbutamol. Formulate the rationale for intravenous magnesium sulfate, detailing its molecular mechanism at smooth muscle calcium channels.

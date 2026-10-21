@@ -140,7 +140,7 @@ A candidate scoring below 6 on the choice family typically has an option-reading
 
 ---
 
-### Exam Essentials — IELTS Listening Choice Family
+#### Exam Essentials — IELTS Listening Choice Family
 
 | Field | Value |
 |---|---|
@@ -163,7 +163,7 @@ A candidate scoring below 6 on the choice family typically has an option-reading
 
 ---
 
-### High-Yield — IELTS Listening Choice Family
+#### High-Yield — IELTS Listening Choice Family
 
 The seven most-testable contexts and the calibrated response framework:
 
@@ -177,7 +177,7 @@ The seven most-testable contexts and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — IELTS Listening Choice Family
+#### Previous Year Patterns — IELTS Listening Choice Family
 
 The four choice families have been structurally stable across every IELTS cycle since the Academic / General Training split in 1989. The format (multiple choice, matching, plan/map/diagram labelling, short-answer) is published verbatim on ielts.org and is not expected to change.
 
@@ -192,7 +192,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Pro Tips — IELTS Listening Choice Family
+#### Pro Tips — IELTS Listening Choice Family
 
 1. **Read ALL options before the recording starts.** The binding constraint in choice questions is reading speed, not listening speed. Use the gap between questions to read options.
 2. **Predict the answer type from the stem.** "What is the speaker's main point?" expects a conclusion; "What does the speaker mean by X?" expects a paraphrase; "Which of the following is TRUE?" expects a fact.
@@ -207,7 +207,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Official Resources — IELTS Listening Choice Family
+#### Official Resources — IELTS Listening Choice Family
 
 | Resource | URL | Use |
 |---|---|---|

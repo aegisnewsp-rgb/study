@@ -168,7 +168,7 @@ Let symbols represent operators:
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. If $A + B$ means $A$ is the mother of $B$; $A - B$ means $A$ is the brother of $B$; $A \\times B$ means $A$ is the father of $B$, what does $P + Q - R \\times S$ indicate about the relationship between $P$ and $S$?
 2. A family consists of six members: $U, V, W, X, Y, Z$. $W$ is the wife of $V$. $Z$ is the mother of $U$. $X$ is the daughter of $W$. $Y$ is the brother of $U$. If $U$ is the son of $V$, how many male members are present in this family?

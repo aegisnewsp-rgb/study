@@ -164,7 +164,7 @@ A gas at high pressure gives Z = 1.4, and another at moderate pressure and low t
 
 Z = PV/nRT. For Z = 1.4, PV exceeds nRT, so the measured PV is larger than the ideal value — molecules have **finite size**, so the free volume is smaller than V and pressure rises faster than ideal. For Z = 0.9, PV is smaller than ideal — **intermolecular attractions** reduce the wall collision frequency, so a lower pressure gives the same PV. Z = 1 at intermediate conditions, where the two effects roughly cancel.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -200,7 +200,7 @@ flowchart TD
   - *Two gases mixed in fixed volumes, partition removed?* → apply Boyle's to each gas separately, then add the pressures.
   - *N₂ critical temperature?* → 126 K, which is why compression alone cannot liquefy it at room temperature.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 1. **A 3.0 L container holds 0.200 mol of gas at 300 K. Pressure in atm?**
    Use R = 0.0821 L·atm mol⁻¹ K⁻¹ so the litres and atmospheres match: P = nRT/V = (0.200)(0.0821)(300)/3.0 = 4.926/3.0 = 1.64 atm. Using R = 8.314 here gives a number 100 times too large, which is the whole lesson about matching R to the units.
@@ -219,7 +219,7 @@ flowchart TD
 8. **Does the average kinetic energy of a gas depend on its molar mass?**
    **No.** The average translational kinetic energy per molecule is (3/2)k_BT, a function of temperature alone. So 1 g of hydrogen and 1 g of argon at 300 K have the same average kinetic energy per molecule, but the hydrogen molecules move faster because they are lighter: v_rms ∝ 1/√M, and M(H₂) = 2 against M(Ar) = 40, so hydrogen moves √20 ≈ 4.5 times faster. The thermal energy *of the sample* is a different question — it scales with the number of molecules, so 1 g of hydrogen (0.5 mol) holds far more total energy than 1 g of argon (0.025 mol).
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Using 22.4 L at 25 °C.** 22.4 L mol⁻¹ belongs to 273 K and 1 atm. At 25 °C and 1 bar the answer is 24.8 L mol⁻¹. This error is baked into a lot of answer keys, so quote the conditions you assumed.
 2. **Using 22.7 L as a room-temperature value.** 22.7 L is 0 °C at 1 bar — the IUPAC STP. Mixing it with a 25 °C stem is a double error.
@@ -233,7 +233,7 @@ flowchart TD
 10. **Averaging pressures after mixing equal volumes.** Each gas expands to the full combined volume, so the final pressure is the sum of what each exerts in that volume.
 11. **Treating total pressure as a mass-weighted average.** Partial pressures follow **mole** fractions, so the more abundant molecules dominate regardless of their mass.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Write the given and required quantities with their units, then convert, then substitute.** Three lines, no room for a unit error.
 2. **Put the temperature conversion on the first line of every solution,** even when the number looks obviously right.

@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 Global indices are comparative rankings published by international organisations that measure a country's performance across human development, innovation, and business environment dimensions.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI uses these indices to gauge India's competitive position globally, which affects foreign investor sentiment, capital flows, and the country's credit rating — all feeding into monetary policy formulation.
 
-### Must Know Facts
+#### Must Know Facts
 - HDI (UNDP) combines three dimensions — health (life expectancy), education (mean/expected schooling), and income (GNI per capita) — India's rank: 134th (2023-24 HDR)
 - Global Innovation Index (WIPO): India ranked 39th in 2024, up from 81st a decade ago — fastest rise among BRICS nations
 - Ease of Doing Business (World Bank, discontinued 2021): India peaked at 63rd — replaced by B-READY framework
 - MPI (Multidimensional Poverty Index, UNDP/OPHI): Uses Alkire Foster method; 23 crore Indians lifted out of poverty in 15 years; India ranked 65th among 112 countries
 - GDP per capita alone fails to capture human welfare — HDI was created precisely to address this limitation
 
-### Quick Example / Application
+#### Quick Example / Application
 When India climbed to 39th on the Global Innovation Index in 2024, foreign venture capital inflows into Indian tech start-ups surged, demonstrating how global rankings directly influence capital market dynamics.
 
-### 1-Line Summary
+#### 1-Line Summary
 Global indices give India a report card on development, innovation, and business climate — and investors watch them closely to decide where money flows.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Here's something they'll never tell you in a standard economics textbook: **GDP is a measure of a country's economic output, not its people's wellbeing.** A country can have a high GDP because it has oil, but if that oil wealth goes to a handful of oligarchs while most citizens live in poverty, GDP doesn't tell you that. This is exactly why the world built composite indices — to capture what GDP misses.
 
@@ -58,7 +58,7 @@ The **Ease of Doing Business (EoDB)** index, formerly published by the World Ban
 
 The **Multidimensional Poverty Index (MPI)**, developed by OPHI (Oxford Poverty and Human Development Initiative) and published with UNDP, uses the Alkire Foster method. Unlike income poverty, MPI captures deprivation across three equally weighted dimensions: health (nutrition, child mortality), education (years of schooling, school attendance), and standard of living (cooking fuel, sanitation, drinking water, electricity, housing, assets). India's MPI 2023 found that **23 crore people were lifted out of multidimensional poverty between 2005-06 and 2019-21** — that's roughly the entire population of all European Union countries combined.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -71,18 +71,18 @@ The **Multidimensional Poverty Index (MPI)**, developed by OPHI (Oxford Poverty 
 | PPP | Purchasing Power Parity — adjusts exchange rates so the same basket of goods costs the same in every country |
 | Gini Coefficient | Measure of income inequality; 0 = perfect equality, 1 = perfect inequality |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 When India's GII rank jumped to 39th in 2024, RBI's report on "India's Innovation Landscape" noted that this directly correlated with rising venture capital inflows — ₹1.15 lakh crore in VC funding in 2023. RBI connected this to its own data on startup registrations and unicorn creation (India has 110+ unicorns, 3rd largest globally). For the exam, you should note: higher innovation ranking → better investor confidence → more FDI → strengthens rupee and widens capital markets.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Conceptual**: Why is India's HDI rank lower than its GDP rank? (Answer: inequality, education deficit, health outcomes)
 - **Comparative**: Compare India's HDI with Sri Lanka, Bangladesh, China on any two dimensions
 - **Numerical/Formula**: Given life expectancy and GNI per capita, calculate the health dimension index using the geometric mean formula (yes, they ask this!)
 - **Current**: What did India's B-READY score reveal? How many people were lifted out of poverty under the MPI?
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** Suppose India's health dimension score (life expectancy index) is 0.548, education dimension score is 0.493, and income dimension score is 0.645. Using the geometric mean method, calculate India's approximate HDI. (HDI = cube root of health × education × income)
 
@@ -94,7 +94,7 @@ Note: India's actual HDI uses slightly different methodology with specific geome
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 The story of global indices is fundamentally a story about measurement — and the eternal tension between what we measure and what matters. GDP was invented in the 1930s by Simon Kuznets to track economic activity during the Great Depression. It was never designed to be a measure of human welfare. Yet, for decades, it was treated as such. The indices we study — HDI, GII, MPI, EoDB — represent the global community's effort to correct this narrowness.
 
@@ -158,7 +158,7 @@ The "GDP is insufficient" argument rests on three distinct critiques:
 
 HDI, MPI, and GII were each designed to address one or more of these failures.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 **For RBI Grade B specifically**, these indices have three practical applications:
 
@@ -168,7 +168,7 @@ HDI, MPI, and GII were each designed to address one or more of these failures.
 
 **Third, inflation and HDI interaction**: Countries with high HDI tend to have more stable inflation expectations (better institutions, more credible central banks). India's relatively high inflation (compared to developed economies) partly reflects its lower HDI and less developed financial markets.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 RBI tracks these indices through its:
 - **Annual Report chapter on "Structural Reforms"** — analyses India's competitive rankings
@@ -182,7 +182,7 @@ What the examiner wants you to know: these indices are not abstract academic ran
 - Negotiating leverage in trade deals (a higher GII means India can demand better terms in services trade)
 - Domestic policy credibility (global indices are benchmarks for international comparisons)
 
-### Case Study / Application
+#### Case Study / Application
 
 **Case: How India's GII improvement reflects real economic transformation**
 
@@ -199,7 +199,7 @@ In 2010, India's GII rank was 56th. WIPO's 2024 report noted India's remarkable 
 
 The paradox: while India's GII rank has improved dramatically, its GERD (research spending) remains at 0.65% of GDP. This suggests India's innovation model is "frugal innovation" (doing more with less) and services application rather than deep science-based innovation. For the exam, note this distinction — it's what separates India's GII story from, say, South Korea's.
 
-### GATE-Level Numerical
+#### GATE-Level Numerical
 
 **Q:** India's HDI data for 2023-24 is as follows:
 - Life expectancy at birth: 68.5 years
@@ -235,13 +235,13 @@ Education dimension index = (0.550)² = 0.303
 
 Note: India's actual reported HDI in 2022 (HDR) was 0.633. The discrepancy arises because HDR 2022 used a different data year (2019 data for some indicators). Our calculation uses 2023-24 estimates and a simplified methodology. The principle is what matters for the exam — geometric mean penalises a low score in any dimension.
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 - **Academic view**: The HDI was criticised by economists like Angus Deaton (Nobel laureate) for over-simplifying development into three indicators. The real challenge is that each dimension can be measured in dozens of ways — why life expectancy and not healthy life expectancy? Why mean schooling and not quality-adjusted learning?
 - **RBI/Regulatory view**: RBI uses composite indices (including global indices) to assess India's financial system resilience compared to peers. India's MPI improvement supports the case that rising incomes are broad-based — a crucial indicator for financial inclusion strategy.
 - **Practical/Industry view**: Global rankings matter for business location decisions. Companies doing FDI due diligence look at GII and EoDB/B-READY ranks alongside raw market size. India's GII rise has made it a credible innovation destination beyond just low-cost labour.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 - **GII 2024**: India ranked 39th globally, 2nd among BRICS nations after China (rank 14th). India is the only LMI country in the top 40.
 - **HDR 2023-24 update**: UNDP released new HDI data — India remains at 134th; however, the HDR 2024 introduced new methodology for education and health that marginally affected India's scores.

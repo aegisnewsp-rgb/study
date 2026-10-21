@@ -74,7 +74,7 @@ State H₀ and H₁. Choose α (typically 0.05). Compute z = (x̄ − μ₀)/(σ
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the third Topic of Unit 4 in the WACE Mathematics Specialist ATAR Year 12 syllabus. Confirm the live examination design brief on senior-secondary.scsa.wa.edu.au.
 

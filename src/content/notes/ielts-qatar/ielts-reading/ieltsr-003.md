@@ -159,7 +159,7 @@ A candidate scoring below 7 on True/False/Not Given typically has a paraphrase-r
 
 ---
 
-### Exam Essentials — Identifying Information (True/False/Not Given)
+#### Exam Essentials — Identifying Information (True/False/Not Given)
 
 | Field | Value |
 |---|---|
@@ -184,7 +184,7 @@ A candidate scoring below 7 on True/False/Not Given typically has a paraphrase-r
 
 ---
 
-### High-Yield — Identifying Information (True/False/Not Given)
+#### High-Yield — Identifying Information (True/False/Not Given)
 
 The seven most-testable passage contexts and the calibrated response framework:
 
@@ -198,7 +198,7 @@ The seven most-testable passage contexts and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — Identifying Information (True/False/Not Given)
+#### Previous Year Patterns — Identifying Information (True/False/Not Given)
 
 The True/False/Not Given question type has been part of the IELTS Reading test since the Academic / General Training split in 1989. It is published verbatim on ielts.org Identifying Information question type guide and is not expected to be removed.
 
@@ -213,7 +213,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Pro Tips — Identifying Information (True/False/Not Given)
+#### Pro Tips — Identifying Information (True/False/Not Given)
 
 1. **Compare the statement to the passage, not to your knowledge.** IELTS Reading tests the candidate's ability to read the passage — not to validate real-world facts.
 2. **Read for qualifications first.** Underline (in your mind) the qualification words (some, many, most, all, never, always, often, rarely, sometimes). These are the most common False vs Not Given trap.
@@ -228,7 +228,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Official Resources — Identifying Information (True/False/Not Given)
+#### Official Resources — Identifying Information (True/False/Not Given)
 
 | Resource | URL | Use |
 |---|---|---|

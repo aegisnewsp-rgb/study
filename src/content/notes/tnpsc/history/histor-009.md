@@ -64,7 +64,7 @@ The two stone inscriptions of Parantaka I at Vaikunda Perumal temple in Uttarame
   - *Pon Variyam:* Gold bullion and currency standards committee.
   - *Pancha Variyam:* Standing committee for emergency relief.
 
-### Table 1: Comparative Framework of Major Medieval Administrative Systems
+#### Table 1: Comparative Framework of Major Medieval Administrative Systems
 
 | Administrative Tier / Office | Imperial Chola Empire (Tamil Nadu) | Delhi Sultanate (Imperial North) | Mughal Empire (Subah-Sarkar-Pargana) | Vijayanagara Empire (South India) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -100,7 +100,7 @@ In 1580 CE, Akbar and his finance minister Raja Todar Mal introduced the **Ain-i
 - The state demand was fixed at **one-third** ($33.3\%$) of average produce, payable in cash or kind.
 - Land was systematically measured using the **Ilahi Gaz** (41 digits) and iron-ringed bamboo rods (**Tanab**), replacing hemp ropes which stretched in humid weather.
 
-### Table 2: Land Classification Under Mughal Revenue Administration
+#### Table 2: Land Classification Under Mughal Revenue Administration
 
 | Land Classification | Cultivation Frequency | Fallow Period | Revenue Assessment Frequency | State Demand Status |
 | :--- | :--- | :--- | :--- | :--- |
@@ -119,7 +119,7 @@ Medieval India witnessed a profound democratization of religious life led by mys
   - **Ramanuja (1017–1137 CE):** Propounded *Vishishtadvaita* (Qualified Non-Dualism; soul attains liberation through devotional surrender, *Prapatti*).
   - **Madhvacharya (1238–1317 CE):** Propounded *Dvaita* (Strict Dualism between God, individual souls, and matter).
 
-### Table 3: Medieval Vernacular Literary Masters & Devotional Classics
+#### Table 3: Medieval Vernacular Literary Masters & Devotional Classics
 
 | Saint / Author | Philosophical Movement | Primary Language | Seminal Masterwork | Key Reformist / Thematic Principle |
 | :--- | :--- | :--- | :--- | :--- |
@@ -133,7 +133,7 @@ Medieval India witnessed a profound democratization of religious life led by mys
 
 ---
 
-### Table 4: Maratha Rule in Thanjavur (1676–1855 CE)
+#### Table 4: Maratha Rule in Thanjavur (1676–1855 CE)
 
 | Ruler / Era | Regnal Dates | Seminal Contribution | Significance for Tamil History |
 | :--- | :--- | :--- | :--- |

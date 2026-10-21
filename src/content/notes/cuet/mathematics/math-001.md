@@ -222,7 +222,7 @@ Let S = {1, 2, 3, 4, 5, 6}. Answer each in one line with the reason.
 
 ---
 
-### 🟠 Exam Essentials (1 day before)
+#### 🟠 Exam Essentials (1 day before)
 
 #### Formula card — reproduce this from memory
 
@@ -255,7 +255,7 @@ Do not re-read definitions. Take a blank sheet and do three things: (1) draw and
 
 ---
 
-### 🔵 High-Yield Patterns
+#### 🔵 High-Yield Patterns
 
 1. **Rebuild regions from the inside out.** Given the messy pairwise data, start with the all-three block, subtract it from each pair to get pair-only lenses, then get outer crescents by subtraction. This is the single most reliable routine on the topic.
 2. **Always run the region-sum check.** If the seven regions do not total the union from inclusion–exclusion, the question is a "find the wrong entry" item and the mismatch localises the error.
@@ -267,7 +267,7 @@ Do not re-read definitions. Take a blank sheet and do three things: (1) draw and
 
 ---
 
-### 🟣 Traps and question forms you will meet
+#### 🟣 Traps and question forms you will meet
 
 | Trap | What happens if you fall in | Fix |
 |---|---|---|
@@ -288,7 +288,7 @@ Do not re-read definitions. Take a blank sheet and do three things: (1) draw and
 
 ---
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Write the Venn before you write the arithmetic.** A drawn diagram turns a word problem into seven labelled numbers, and it is the only way to catch a misread of "only" versus "at least".
 2. **Carry one worked example all the way through.** The seven-region example in the Extended section uses the same numbers in four different questions. Re-solving it under a different wording teaches more than four unrelated problems.
@@ -301,7 +301,7 @@ Do not re-read definitions. Take a blank sheet and do three things: (1) draw and
 
 ---
 
-### 📚 Sources and where to go deeper
+#### 📚 Sources and where to go deeper
 
 | Resource | Where to find it | Use it for |
 |---|---|---|

@@ -18,22 +18,22 @@ lastUpdated: 2026-03-25
 
 ### 🟢 Lite
 
-### Key Rule / Formula
+#### Key Rule / Formula
 Pythagoras: a² + b² = c² (right triangle). Area = ½ × base × height. Similar triangles: ratio of sides = ratio of areas = square of similarity ratio.
 
-### Memory Trick
+#### Memory Trick
 **BPT (Basic Proportionality Theorem):** A line parallel to one side of a triangle cuts the other two sides proportionally. In triangle ABC, if DE || BC and D,E are on AB,AC → AD/DB = AE/EC.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Geometry tests knowledge of triangle theorems (Pythagoras, BPT, Apollonius), circle properties (angle at centre, chord theorems), and the ability to identify similar/congruent triangles.
 
-### Quick Example
+#### Quick Example
 Q: In a triangle with sides 5, 12, 13 — is it right-angled?
 A: **Yes** — 5² + 12² = 25 + 144 = 169 = 13².
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 Geometry in SSC CGL Quant is visual and theorem-based. You need to recall and apply specific theorems quickly. The most tested concepts are: Pythagoras theorem and its applications (3-4-5, 5-12-13, 8-15-17 triangles), similarity criteria (AA, SAS, SSS), and circle theorems (angle at centre, chord equalities, tangent properties).
 
 **Triangle Similarity:** Two triangles are similar if: (AA) two angles equal → third automatically equal; (SAS) ratio of two sides equal with the included angle equal; (SSS) all three sides proportional. When triangles are similar, corresponding sides are in the same ratio, and areas are in the ratio of squares of corresponding sides.
@@ -50,19 +50,19 @@ Geometry in SSC CGL Quant is visual and theorem-based. You need to recall and ap
 - Tangent at any point is perpendicular to the radius at that point.
 - Two tangents drawn from an external point are equal in length.
 
-### Key Points
+#### Key Points
 - Area ratio of similar triangles = (side ratio)². If sides are in ratio 2:3, areas are in ratio 4:9.
 - For any triangle: area = √[s(s−a)(s−b)(s−c)] where s = semi-perimeter (Heron's formula).
 - In a circle, angle at centre = 2 × angle at circumference (subtended by same arc).
 - Opposite angles of a cyclic quadrilateral sum to 180°.
 - If two circles touch externally: distance between centres = sum of radii. Internally: difference of radii.
 
-### Worked Example
+#### Worked Example
 **Q:** In a triangle ABC, AD is the median to BC. If AB = 10, AC = 8, BC = 12, find AD.
 **Approach:** Apollonius: AB² + AC² = 2(AD² + (BC/2)²). 100 + 64 = 2(AD² + 36). 164 = 2AD² + 72 → 2AD² = 92 → AD² = 46 → AD = √46.
 **Answer:** √46
 
-### SSC Pattern / Tips
+#### SSC Pattern / Tips
 - Pythagorean triplets save time — know 3-4-5, 5-12-13, 8-15-17, 7-24-25, 15-20-25.
 - For similar triangles, always identify which sides correspond to which before writing ratios.
 - In cyclic quadrilateral problems, look for pairs of opposite angles summing to 180°.
@@ -70,7 +70,7 @@ Geometry in SSC CGL Quant is visual and theorem-based. You need to recall and ap
 
 ### 🔴 Extended
 
-### Full Concept
+#### Full Concept
 **Advanced Triangle Properties:**
 - **Inradius and Circumradius:** For any triangle with area A, semi-perimeter s: Inradius r = A/s. Circumradius R = abc/4A. For right triangle: R = hypotenuse/2.
 - **Centroid:** Intersection of medians. Divides each median in 2:1 ratio (vertex to centroid : centroid to base midpoint = 2:1).
@@ -96,28 +96,28 @@ Geometry in SSC CGL Quant is visual and theorem-based. You need to recall and ap
 - If a quadrilateral has opposite angles summing to 180°, it is cyclic.
 - The exterior angle of a cyclic quadrilateral equals the interior opposite angle.
 
-### SSC CGL Deep Analysis
+#### SSC CGL Deep Analysis
 - **Frequency:** 1–2 questions per paper. Pythagoras theorem application and circle theorems appear every year.
 - **Difficulty:** Medium to hard. Questions involving Ptolemy's theorem, combined with circle properties, are the most challenging.
 - **Recent trend:** Coordinate geometry isn't tested in Tier 2 quant, but angle bisector theorem combined with area calculations is increasingly common.
 - **Newer patterns:** Problems combining two triangles with shared altitude or base, finding ratios of areas.
 - **Total weight in Tier 2:** Roughly 3–4% of the quant paper.
 
-### High-Scoring Strategy
+#### High-Scoring Strategy
 1. For geometry in exam, always draw a diagram even if one isn't provided — label what you know.
 2. When similarity is involved, identify the similarity ratio first (which triangle is similar to which), then write all sides in that ratio.
 3. For circles, the key is identifying which theorem applies: angle at centre, chord properties, or tangent-secant relationship.
 4. Ptolemy's theorem is a major shortcut for cyclic quadrilateral side/ diagonal problems — learn it.
 5. In triangle area problems, Heron's formula is often needed when height isn't given.
 
-### SSC-Level Practice
+#### SSC-Level Practice
 **Q1:** In a triangle, the medians are 9, 12, and 15 cm. Find the area of the triangle.
 Answer: 72 sq cm — Working: If medians are m₁, m₂, m₃, area of triangle = (4/3) × area of triangle formed by medians. For medians 9, 12, 15: semi-perimeter s = (9+12+15)/2 = 18. Area of median triangle = √[18(18−9)(18−12)(18−15)] = √[18×9×6×3] = √[2916] = 54. Area of original triangle = (4/3) × 54 = 72 sq cm.
 
 **Q2:** In a circle, two chords AB and CD intersect at P inside the circle. If AP = 4, PB = 6, CP = 3, find PD.
 Answer: 8 — Working: By intersecting chords theorem: AP × PB = CP × PD → 4 × 6 = 3 × PD → 24 = 3PD → PD = 8.
 
-### Common Traps
+#### Common Traps
 - **Trap 1:** Confusing when to apply Pythagoras (only for right triangles). Always check for a right angle first — look for a diameter subtending a right angle in a circle.
 - **Trap 2:** For similar triangles, writing the wrong ratio of sides. The ratio must correspond to the same orientation — angle at A in triangle 1 corresponds to angle at A in triangle 2.
 - **Trap 3:** In cyclic quadrilateral problems, using Ptolemy's theorem on non-cyclic quadrilaterals. Always confirm it's cyclic first (opposite angles = 180°).

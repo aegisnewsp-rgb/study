@@ -147,7 +147,7 @@ If the computed area equals zero, the three points are strictly collinear.
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. A line passing through $P(k, 2)$ and $Q(4, 8)$ is perpendicular to the line $2x + 3y - 5 = 0$. Calculate the numerical value of $k$.
 2. The vertices of a triangle are $A(1, 2)$, $B(5, 6)$, and $C(7, 2)$. Calculate the area of the triangle and determine whether the triangle is isosceles, right-angled, or scalene.

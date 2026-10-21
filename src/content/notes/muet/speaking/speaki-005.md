@@ -50,7 +50,7 @@ A candidate who says *"the weather is good"* is using vocabulary at a Band 2–3
 
 MUET is an academic English test. The speaking topics are drawn from areas such as education, technology, environment, health, social issues, and culture. This means you need vocabulary that is appropriate for discussing these topics in a university context — not slang, not casual conversational English, but **semi-formal academic register**.
 
-### Examples of Register Shift
+#### Examples of Register Shift
 
 | Casual | Academic Equivalent |
 |---|---|
@@ -62,7 +62,7 @@ MUET is an academic English test. The speaking topics are drawn from areas such 
 | "find out" | "ascertain", "determine" |
 | "look into" | "investigate", "examine" |
 
-### Topic-Specific Terminology
+#### Topic-Specific Terminology
 
 Each MUET topic has its own set of specialist vocabulary. Using these correctly is a major advantage.
 
@@ -87,7 +87,7 @@ Each MUET topic has its own set of specialist vocabulary. Using these correctly 
 
 One of the fastest ways to limit your lexical score is to repeat the same word or phrase across multiple sentences. Even when your vocabulary range is adequate, repetition signals a limited active vocabulary.
 
-### Strategies for Avoiding Repetition
+#### Strategies for Avoiding Repetition
 
 **1. Use synonyms naturally:**
 Instead of repeating *"the government"* every time:
@@ -116,7 +116,7 @@ Knowing a word's family helps you expand your vocabulary without memorising thou
 **Example: "develop"**
 - development / developmental / developing / developed / underdeveloped / redevelop
 
-### Collocations
+#### Collocations
 Collocations are word partnerships that native speakers use together naturally. Using correct collocations signals fluency and natural language use.
 
 | Correct Collocation | Incorrect |

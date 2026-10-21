@@ -130,7 +130,7 @@ The Academic Word List, compiled by Averil Coxhead at Victoria University of Wel
 3. **A gap wants a number.** Count it as a word. IELTS counts "30%" as one word and "30 percent" as two.
 4. **An option is used twice.** In labelling and matching, read the instruction line at the top of the set — it states how many answers to select and whether options repeat.
 
-### Exam Essentials — IELTS Listening Part 4
+#### Exam Essentials — IELTS Listening Part 4
 
 | Field | Value | Source |
 |---|---|---|
@@ -152,7 +152,7 @@ The Academic Word List, compiled by Averil Coxhead at Victoria University of Wel
 - [ ] I have completed a Part 4 set on computer without pausing.
 - [ ] I practise Part 4 last in full mocks, matching test-day fatigue.
 
-### High-Yield — IELTS Listening Part 4
+#### High-Yield — IELTS Listening Part 4
 
 Seven lecture shapes that cover most of the section, with what each one usually asks of you.
 
@@ -164,7 +164,7 @@ Seven lecture shapes that cover most of the section, with what each one usually 
 6. **Advantages and disadvantages lecture.** The lecturer flags the turn explicitly, and one gap wants the concession the speaker downplays.
 7. **Research summary lecture.** A study's aim, method, findings and implication. Most summary gaps sit where the lecture shifts from method to result.
 
-### Previous Year Patterns — IELTS Listening Part 4
+#### Previous Year Patterns — IELTS Listening Part 4
 
 The structural facts are published and stable, so plan around them. IELTS states the paper has four parts of 10 questions, 40 questions in total, and approximately 30 minutes for the whole Listening test. Part 4 is described as one person speaking on an academic subject. British Council's Part 4 brief describes a lecture on a specific area of study, played once with no break between question sets. Those do not vary by year or by country.
 
@@ -172,7 +172,7 @@ What does vary is the question mix. IELTS lists the number of questions for each
 
 The academic register is also stable. A lecture delivered in an educational or training setting keeps its structure whether the subject is geology or business, so the signposting, the definition moves and the comparison turns are the reliable part of your revision, and the subject matter is not. Accent range is stable too: British Council's brief lists British, Australian, New Zealand, American and Canadian, so practise across those five rather than training on one familiar voice.
 
-### Pro Tips — IELTS Listening Part 4
+#### Pro Tips — IELTS Listening Part 4
 
 1. **Read the question set and mark the section boundaries first.** The preview time is for heading detection. You are not reading to answer; you are building a map.
 2. **Predict the grammatical slot.** A gap after "is caused by ___" wants a noun phrase. The prediction narrows what you listen for in a fast sentence.
@@ -184,7 +184,7 @@ The academic register is also stable. A lecture delivered in an educational or t
 8. **Practise the five accents.** British, Australian, New Zealand, American and Canadian, per the British Council Part 4 brief.
 9. **Place Part 4 last in every full mock.** It is last on the day too, and the section is where a tired candidate loses ground.
 
-### Official Resources — IELTS Listening Part 4
+#### Official Resources — IELTS Listening Part 4
 
 | Resource | URL | Use |
 |---|---|---|

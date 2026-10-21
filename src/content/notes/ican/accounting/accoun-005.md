@@ -114,7 +114,7 @@ Depreciation is charged on the straight-line basis. On 31 December 2025, the cat
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. An item of plant costing $₦8,000,000$ with an estimated residual value of $₦800,000$ has been depreciated under the straight-line method over an 8-year life for 3 years. At the start of year 4, the remaining useful life is revised to 3 additional years, and residual value is revised to $₦500,000$. Calculate the revised depreciation charge for year 4.
 2. Outline the accounting entries required under IAS 16 when an enterprise derecognizes an asset with an original cost of $₦15,000,000$, accumulated depreciation of $₦9,000,000$, and sale proceeds of $₦7,500,000$.

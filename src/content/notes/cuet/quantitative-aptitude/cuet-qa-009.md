@@ -112,7 +112,7 @@ The reciprocals of an AP form a harmonic progression. Convert to AP by taking re
 2. **Form and solve.** Factor if the numbers are friendly, otherwise use the formula — but compute D first, because it may tell you there is no real answer.
 3. **Sanity-check the context.** A count of people cannot be negative or fractional, and a length cannot exceed the total it is part of. Discard any root that violates the situation, even if the algebra produced it.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -147,7 +147,7 @@ flowchart TD
   - *Sum of first 20 natural numbers?* → 20 × 21/2 = 210.
   - *Insert 3 terms in a GP between 3 and 48?* → 6, 12, 24 (r = 2).
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Dividing by 2 instead of 2a** in the quadratic formula. The denominator is 2a, and it is the single most common slip in the chapter.
 2. **Dropping the minus sign in Vieta.** α + β = −b/a, and the sign is part of the formula, not a detail.
@@ -160,7 +160,7 @@ flowchart TD
 9. **Accepting a root that makes no sense in context** — a negative count, or a length longer than the whole.
 10. **Confusing aₙ = a + (n−1)d with a + nd,** which shifts the whole sequence by one term.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Attempt all eight before reading the solutions, and write down the tool you intend to use before you start computing.
 
@@ -181,7 +181,7 @@ Attempt all eight before reading the solutions, and write down the tool you inte
 8. **Insert 3 numbers between 3 and 48 so that the five numbers form a GP.**
    It is a 5-term GP with a = 3 and a₅ = 48, so a₅ = ar⁴ gives 48 = 3r⁴, r⁴ = 16 and r = 2 (the negative root r = −2 is also possible). The terms are 3, **6, 12, 24**, 48. With r = −2 the sequence is 3, −6, 12, −24, 48, which also satisfies a₅ = 3 × 16 = 48; whether it is allowed depends on whether the question permits a negative ratio.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Compute the discriminant before touching the quadratic.** Four operations can tell you the answer does not exist, or that factoring will be quick.
 2. **Try factorising for ten seconds, then switch.** Look for numbers multiplying to c and adding to b; if nothing appears, use the formula without further deliberation.

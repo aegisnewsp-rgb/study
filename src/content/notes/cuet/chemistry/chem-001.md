@@ -145,7 +145,7 @@ CUET-style options are often written to 2 or 3 significant figures, so match tha
 
 Whatever the question gives, walk the chain in one direction: **mass → moles → particles**, or **volume/molarity → moles → mass**, or **moles → volume at STP**. Never mix units. Every step written down is a place to catch the error, and CUET options are built so that students who skip steps select the number produced by mixing units.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -184,7 +184,7 @@ Mnemonics and recall hooks:
   - *Sum of mole fractions?* → 1.
   - *What is the limiting reagent when the two quotients tie?* → neither; the mixture is stoichiometric and both reagents are exhausted.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 Keep this list open and add to it after every wrong answer in this chapter.
 
@@ -198,7 +198,7 @@ Keep this list open and add to it after every wrong answer in this chapter.
 8. **Assuming isotopes have identical masses.** Isotope data must be weighted-averaged before use.
 9. **Ignoring van't Hoff factor** when computing freezing-point depression for a salt; you will get a result exactly i times too small.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 **Q1.** A compound is 40.0% carbon, 6.7% hydrogen and 53.3% oxygen by mass. What is its empirical formula?
 *Take 100 g.* C = 40.0/12 = 3.33 mol, H = 6.7/1 = 6.7 mol, O = 53.3/16 = 3.33 mol.
@@ -231,7 +231,7 @@ The same gas at 1 bar occupies 22.7 L mol⁻¹ and would give 45.4 L. Read the p
 CaCO₃ → CaO + CO₂. 100 g of CaCO₃ would give 56 g of CaO, so 10.0 g should give 5.60 g.
 Yield = 4.48/5.60 × 100 = **80%**. A yield above 100% is not a good result, it is an arithmetic error or a wet precipitate.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Write the unit on every intermediate number.** The single highest-yield habit in this unit. A missing unit is where most wrong answers are actually wrong.
 2. **Convert to moles first, always.** Even when the question looks like a mass problem, going through moles removes a whole class of errors.

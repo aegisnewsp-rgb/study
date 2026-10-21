@@ -61,7 +61,7 @@ Each bean-shaped kidney contains about one million nephrons. Urine travels from 
 
 The human adult skeleton consists of **206 bones** — a framework that supports the body, protects internal organs, enables movement, produces blood cells, and stores minerals (especially calcium and phosphorus).
 
-### Divisions of the Skeleton
+#### Divisions of the Skeleton
 
 **Axial Skeleton** (80 bones):
 - Skull (cranium + facial bones)
@@ -72,7 +72,7 @@ The human adult skeleton consists of **206 bones** — a framework that supports
 - Upper limbs: Shoulder girdle (2 clavicles + 2 scapulae), arm (humerus), forearm (radius + ulna), hand (carpals, metacarpals, phalanges)
 - Lower limbs: Pelvic girdle (2 hip bones + sacrum), thigh (femur), leg (tibia + fibula), foot (tarsals, metatarsals, phalanges)
 
-### Types of Joints
+#### Types of Joints
 
 | Joint Type | Movement | Example |
 |---|---|---|
@@ -85,7 +85,7 @@ The human adult skeleton consists of **206 bones** — a framework that supports
 
 **Synovial joints**: Joints with a fluid-filled cavity (synovial fluid) — allow free movement. Ball-and-socket and hinge joints are types of synovial joints.
 
-### Bone and Cartilage
+#### Bone and Cartilage
 
 - **Bones**: Rigid, vascular (have blood supply), can heal when broken
 - **Cartilage**: Flexible, avascular (no blood supply) — found in ear, nose, trachea, joints (smooth cartilage for joint movement)
@@ -98,7 +98,7 @@ The human adult skeleton consists of **206 bones** — a framework that supports
 
 #### Muscular System
 
-### Types of Muscle Tissue
+#### Types of Muscle Tissue
 
 **Skeletal (Striated) Muscle**:
 - Attached to bones — responsible for voluntary movement
@@ -127,7 +127,7 @@ The human adult skeleton consists of **206 bones** — a framework that supports
 
 #### Nervous System
 
-### Central Nervous System (CNS)
+#### Central Nervous System (CNS)
 
 **Brain** (protected by skull + three meninges):
 - **Cerebrum**: Largest part, controls voluntary actions, intelligence, memory, speech — divided into left and right hemispheres (left controls right body, right controls left body)
@@ -139,7 +139,7 @@ The human adult skeleton consists of **206 bones** — a framework that supports
 - Carries messages between brain and body
 - Responsible for **reflex actions** (rapid, automatic responses — not involving the brain)
 
-### Peripheral Nervous System (PNS)
+#### Peripheral Nervous System (PNS)
 
 **Somatic NS**: Controls voluntary actions — messages from CNS to skeletal muscles.
 
@@ -147,7 +147,7 @@ The human adult skeleton consists of **206 bones** — a framework that supports
 - **Sympathetic NS**: "Fight or flight" — increases heart rate, dilates pupils, slows digestion
 - **Parasympathetic NS**: "Rest and digest" — decreases heart rate, constricts pupils, promotes digestion
 
-### Neurons (Nerve Cells)
+#### Neurons (Nerve Cells)
 
 **Structure of a neuron**:
 - **Cell body** (soma): Contains nucleus and most organelles
@@ -161,7 +161,7 @@ The human adult skeleton consists of **206 bones** — a framework that supports
 - **Motor neurons**: Carry signals from CNS to muscles/glands
 - **Interneurons**: Connect sensory and motor neurons (in brain and spinal cord)
 
-### Reflex Arc
+#### Reflex Arc
 
 A reflex is a rapid, automatic response to a stimulus that doesn't require conscious thought:
 
@@ -175,7 +175,7 @@ Examples: Knee-jerk reflex, pulling hand away from hot object. These are evoluti
 
 The endocrine system uses hormones (chemical messengers) to coordinate body functions. Hormones are secreted by **ductless glands** directly into the bloodstream.
 
-### Major Endocrine Glands
+#### Major Endocrine Glands
 
 | Gland | Hormone | Function |
 |---|---|---|
@@ -190,7 +190,7 @@ The endocrine system uses hormones (chemical messengers) to coordinate body func
 | **Pineal** | Melatonin | Sleep-wake cycle (circadian rhythm) |
 | **Thymus** | Thymosin | Immune system development |
 
-### Key Hormone Functions
+#### Key Hormone Functions
 
 **Thyroid hormones (T3/T4)**:
 - Regulate metabolism, heart rate, digestion, brain development
@@ -213,7 +213,7 @@ The endocrine system uses hormones (chemical messengers) to coordinate body func
 
 Excretion is the removal of metabolic waste products (urea, CO₂, water, salts) from the body.
 
-### Human Excretory System
+#### Human Excretory System
 
 **Kidneys** (most important excretory organs):
 - Bean-shaped, ~10 cm long, located in the lower back
@@ -230,7 +230,7 @@ Excretion is the removal of metabolic waste products (urea, CO₂, water, salts)
 
 **Urethra**: Carries urine out of the body. In males, it also carries semen.
 
-### Functions of the Kidneys
+#### Functions of the Kidneys
 
 1. **Excretion**: Removes urea, uric acid, creatinine (nitrogenous waste)
 2. **Osmoregulation**: Maintains water and salt balance

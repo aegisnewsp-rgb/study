@@ -115,7 +115,7 @@ Two displays can appear to disagree while both being correct, when they measure 
 
 Options in DI sets are usually spaced far enough apart that a two-significant-figure estimate selects the right one. Estimate the total, estimate the share, and multiply roughly: if the pie says about one-third and the total is about 900, the answer is about 300, and any option near 300 is the one. This only fails when the options are clustered, and you can see that from the question itself.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -149,7 +149,7 @@ flowchart TD
   - *30% then 20% rise?* → 1.3 × 1.2 = 56%, a 56% rise.
   - *Two factories, 95 and 100, axis from 90?* → difference is 5, not 5×.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Reading the wrong bar in a grouped chart,** because the legend was not matched to the series.
 2. **Ignoring a truncated y-axis** and concluding that near-equal values are wildly different.
@@ -162,7 +162,7 @@ flowchart TD
 9. **Answering the change when the question asked for the value at the end** (or the reverse). Read the last line of the question.
 10. **Panicking over a caselet and skipping it.** The prose-to-table step takes thirty seconds and the questions that follow are ordinary arithmetic.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Use this set for the practice. Answers are worked below, and the numbers in bold are the ones you should have located.
 
@@ -188,7 +188,7 @@ Use this set for the practice. Answers are worked below, and the numbers in bold
 8. **A bar chart has an axis running from 90 to 100. Two bars are at 95 and 100. What is the percentage difference?**
    The values differ by 5. As a percentage of the larger, 5/100 = **5%**; as a percentage of the smaller, 5/95 ≈ **5.3%**. The chart makes the difference look enormous because the bars are drawn over a range of 10 rather than 100, and that visual impression is the trap the question is built on.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Read the question stem twice and underline the target quantity** before looking at any chart. It converts a scanning task into a lookup.
 2. **Find the axis origin and the units in the first five seconds.** Those two facts decide whether every later reading is right.

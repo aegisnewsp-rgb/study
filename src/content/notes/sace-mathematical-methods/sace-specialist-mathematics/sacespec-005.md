@@ -67,7 +67,7 @@ Volume of revolution about x-axis: V = π ∫_a^b [f(x)]² dx.
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the fifth Topic of the SACE Stage 2 Specialist Mathematics Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

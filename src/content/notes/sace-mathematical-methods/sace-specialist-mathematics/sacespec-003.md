@@ -67,7 +67,7 @@ Identify domain, range, intercepts, asymptotes, stationary points (f'(x) = 0), i
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the third Topic of the SACE Stage 2 Specialist Mathematics Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

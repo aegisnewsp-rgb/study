@@ -108,7 +108,7 @@ A candidate scoring below 6 on Part 1 typically has a vocabulary, spelling or at
 
 ---
 
-### Exam Essentials — IELTS Listening Part 1
+#### Exam Essentials — IELTS Listening Part 1
 
 | Field | Value |
 |---|---|
@@ -129,7 +129,7 @@ A candidate scoring below 6 on Part 1 typically has a vocabulary, spelling or at
 
 ---
 
-### High-Yield — IELTS Listening Part 1
+#### High-Yield — IELTS Listening Part 1
 
 The seven most-testable scenarios and the calibrated response framework:
 
@@ -143,7 +143,7 @@ The seven most-testable scenarios and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — IELTS Listening Part 1
+#### Previous Year Patterns — IELTS Listening Part 1
 
 Part 1 has been structurally stable across every IELTS cycle since the Academic / General Training split in 1989. The four-section format (Part 1 everyday social context, Part 2 social monologue, Part 3 academic discussion, Part 4 academic lecture) is published verbatim on ielts.org and is not expected to change.
 
@@ -158,7 +158,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Pro Tips — IELTS Listening Part 1
+#### Pro Tips — IELTS Listening Part 1
 
 1. **Read ahead.** Use the 30-60 seconds before each recording starts to read every question. The binding constraint in Part 1 is reading speed, not listening speed.
 2. **Predict the answer.** For form completion, predict the field type (name, date, place, number) BEFORE the recording starts. This lets you hear the answer rather than decipher it.
@@ -171,7 +171,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Official Resources — IELTS Listening Part 1
+#### Official Resources — IELTS Listening Part 1
 
 | Resource | URL | Use |
 |---|---|---|

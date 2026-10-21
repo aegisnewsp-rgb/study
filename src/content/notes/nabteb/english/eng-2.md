@@ -40,15 +40,15 @@ Quick anchors for the test:
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-### Word-Formation Processes
+#### Word-Formation Processes
 
 English builds new words through predictable mechanisms NABTEB loves to test. **Affixation** adds prefixes (*un-, in-, re-, dis-*) or suffixes (*-tion, -ment, -ity, -ous*) to a base. **Compounding** joins two free words (*blackboard, mother-in-law*). **Clipping** shortens long words (*flu* from *influenza*). **Blending** fuses parts of two words (*smog* = *smoke + fog*). **Acronyms** use initial letters (*NABTEB, OPEC*); **initialisms** are pronounced letter-by-letter (*NBS, BBC*). **Conversion** (zero-derivation) shifts a word's part of speech without changing form (*to bottle water*, *a daily run*). **Borrowing** imports from Latin, French, or indigenous Nigerian languages (*agbada, kente*).
 
-### Denotation vs Connotation
+#### Denotation vs Connotation
 
 **Denotation** is the dictionary definition; **connotation** is the cultural/emotional charge. *Childish* and *youthful* both denote "of a young person," but *childish* connotes immaturity (negative), while *youthful* connotes vigour (positive). Cloze and analogy questions in NABTEB commonly hinge on this contrast.
 
-### Commonly Confused Words
+#### Commonly Confused Words
 
 | Correct Pair | Trap to Avoid |
 |---|---|
@@ -58,11 +58,11 @@ English builds new words through predictable mechanisms NABTEB loves to test. **
 | **fewer** (countable) / **less** (uncountable) | Wrong quantifier |
 | **lay** (action) / **lie** (rest) | Tense: *laid/laid* vs *lay/lain* |
 
-### Idioms and Collocations
+#### Idioms and Collocations
 
 A **collocation** is a habitual word partnership that sounds natural to native speakers: *strong coffee* (not *powerful coffee*), *make a decision* (not *do a decision*). **Idioms** carry figurative meanings unrelated to literal word senses: *kick the bucket* means *to die*; *spill the beans* means *to reveal a secret*. NABTEB often asks candidates to substitute idiomatic phrases with single words — e.g., *one who is all things to all men* → **accommodating** or **opportunist**.
 
-### Typical NABTEB Question Formats
+#### Typical NABTEB Question Formats
 
 1. Choose the word **nearest in meaning** (synonym).
 2. Choose the word **opposite in meaning** (antonym).
@@ -73,7 +73,7 @@ A **collocation** is a habitual word partnership that sounds natural to native s
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-### Context Clues — The Engine Behind Cloze Questions
+#### Context Clues — The Engine Behind Cloze Questions
 
 When NABTEB removes a word from a passage, candidates must decode meaning from surrounding cues. Recognise five clue types:
 
@@ -83,26 +83,26 @@ When NABTEB removes a word from a passage, candidates must decode meaning from s
 - **Example clue** — such as / for example / e.g. introduces an illustration.
 - **Inference clue** — the surrounding logic forces the meaning.
 
-### Register and Appropriacy
+#### Register and Appropriacy
 
 **Register** is the level of formality fitting a context. *Kids* suits a chat; *children* suits an essay. NABTEB rarely uses slang but tests **dysphemism vs euphemism**: *passed on* (euphemism for *died*) vs *croaked* (dysphemism). Examiners may give a sentence and ask which option best completes it in formal register.
 
-### Subject-Verb and Pronoun Concord
+#### Subject-Verb and Pronoun Concord
 
 NABTEB occasionally embeds agreement traps in lexis questions: *Neither the principal nor the teachers **were** present* (verb agrees with the nearer subject). Collective nouns take singular verbs in formal British English (*The jury **has** retired*) — a frequent pitfall.
 
-### Homophones, Homonyms and Polysemy
+#### Homophones, Homonyms and Polysemy
 
 **Homophones** sound identical but differ in spelling and meaning (*flour/flower*). **Homonyms** share spelling and sound but differ in meaning (*bank* of a river / *bank* as financial institution). **Polysemous** words have multiple related meanings (*head* of a body, *head* of a department, *head* of beer). Analogy questions exploit polysemy by stretching a single word across an unexpected domain.
 
-### Common Examiner Traps
+#### Common Examiner Traps
 
 - Choosing a synonym that fits a single sense but breaks collocational norms.
 - Picking the denotative meaning when connotation is required.
 - Ignoring prepositions: *interested **in***, *good **at***, *married **to***, *anxious **about***.
 - Confusing gerunds and infinitives: *enjoy **swimming*** vs *want **to swim***.
 
-### Practice Prompts
+#### Practice Prompts
 
 1. **Cloze:** *The manager's decision was met with _____ from the staff, who felt it was unfair.* Choose between *adulation, approbation, opprobrium, commendation* — answer: **opprobrium** (severe criticism).
 2. **One-word substitution:** *A person who believes that war and violence are unjustifiable.* Answer: **pacifist**.

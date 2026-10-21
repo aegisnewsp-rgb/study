@@ -144,7 +144,7 @@ A strongly positive free water clearance ($+6.25\text{ mL/min}$, or $+9.0\text{ 
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. A 24-year-old female presents with recurrent episodes of muscle weakness, cramps, and salt craving. Blood pressure is 108/68 mmHg. Serum potassium is 2.4 mEq/L, serum magnesium is 1.1 mg/dL, and arterial blood gas reveals pH 7.52, $HCO_3^-$ 34 mEq/L. Urinary calcium excretion is markedly reduced at 40 mg/24h. Identify the underlying tubulopathy and explain the biochemical mechanism of hypocalciuria.
 2. Explain the mechanism by which the loop of Henle establishes the vertical medullary osmotic gradient, detailing the contribution of NKCC2, descending limb water permeability, and urea recycling via UT-A1 and UT-A3.

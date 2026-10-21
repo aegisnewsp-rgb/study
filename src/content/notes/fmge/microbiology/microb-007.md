@@ -123,7 +123,7 @@ The calculated $\text{AUC}_{24}/\text{MIC}$ ratio of 520 falls within the recomm
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. An isolated colony of *Klebsiella pneumoniae* recovered from a catheter-associated urinary tract infection displays resistance to ceftriaxone, ceftazidime, and aztreonam, but retains susceptibility to meropenem and imipenem. Phenotypic confirmation with cefotaxime-clavulanate demonstrates a zone diameter expansion of > 5 mm. Identify the resistance mechanism and name the preferred definitive antibiotic regimen.
 2. Differentiate the pharmacokinetic and pharmacodynamic profiles of aminoglycosides and beta-lactam antibiotics regarding post-antibiotic effect, concentration-dependent versus time-dependent killing, and dosing frequency strategy.

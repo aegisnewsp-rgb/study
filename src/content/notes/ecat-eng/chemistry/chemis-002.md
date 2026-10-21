@@ -178,7 +178,7 @@ High-spin vs low-spin depends on $\Delta$ vs the pairing energy. This is rarely 
 
 Chemical bonding is the foundation for **organic chemistry** (every reaction mechanism is a bond break / bond form; hybridisation explains the geometry of every intermediate), for **states of matter and solutions** (intermolecular forces decide melting/boiling points and solubility), and for **electrochemistry** (the standard electrode potentials correlate with lattice energies and ion-solvation enthalpies). A student who masters this topic removes half the uncertainty from FSc Part II chemistry.
 
-### Common traps
+#### Common traps
 
 - **Ignoring lone pairs when assigning hybridisation.** The SN counts both bonding and non-bonding domains; NH₃ has SN 4 (not 3) and is sp³ (not sp²), so its geometry is trigonal pyramidal with a bond angle around 107°, not 120°.
 - **Conflating bond polarity and molecular polarity.** A molecule with polar bonds can be non-polar overall (CO₂, CCl₄) if the geometry cancels the bond dipoles. ECAT questions often test exactly this distinction.

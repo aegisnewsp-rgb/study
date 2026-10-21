@@ -102,7 +102,7 @@ A five-figure sequence with one step missing usually applies one transformation 
 **Confirm the live structure before each cycle:**
 Section counts, timings and the section structure are set by ACER and have changed between cycles. Check the current Information Booklet on hpat-ireland.acer.org before you lock in a timing plan; a 2-second per-item error across 30 items is nearly a full minute lost per section.
 
-### Exam Essentials
+#### Exam Essentials
 
 **Section 3 specification (verify on hpat-ireland.acer.org before each cycle):**
 | Item | Detail |
@@ -139,7 +139,7 @@ Section counts, timings and the section structure are set by ACER and have chang
 - Official Practice Tests (purchased from ACER): https://hpat-ireland.acer.org/preparation
 - Registration window and fee: https://hpat-ireland.acer.org/
 
-### High-Yield Topics
+#### High-Yield Topics
 
 **Topics to drill down in detail, in priority order:**
 
@@ -157,7 +157,7 @@ Section counts, timings and the section structure are set by ACER and have chang
 
 8. **Pacing and time management** - 75 seconds per question is tight. Section 3 diagrams take longer to interpret than Section 1 passages or Section 2 scenarios. The productive pattern is to skip-and-flag a hard question within 30 seconds, attempt all remaining questions in order, then return to flagged questions in any remaining time. A blank answer scores zero; an attempted answer has a 25-33% chance of being correct by elimination.
 
-### Previous Year Patterns
+#### Previous Year Patterns
 
 **Recurring Section 3 patterns in ACER practice materials (qualitative, not quantitative):**
 
@@ -175,7 +175,7 @@ Section counts, timings and the section structure are set by ACER and have chang
 
 **Pattern to watch:** Section 3 items are *single-diagram* (one figure per question, four or five alternatives) — they are not long-form passages with multiple sub-items. Plan to spend 75-90 seconds per item, including a quick first scan and a slower verification pass.
 
-### Pro Tips
+#### Pro Tips
 
 1. **Use the official ACER Practice Tests first.** They are the only published real past questions and the only authoritative source of section style. Work through them after the practice-question and practice-placement stages described on the ACER preparation page.
 
@@ -193,7 +193,7 @@ Section counts, timings and the section structure are set by ACER and have chang
 
 9. **Confirm Section 3 in the live Information Booklet before each cycle.** ACER updates the booklet annually. Verify the live question count, time allocation, response format and the participating universities' score-combination rules on hpat-ireland.acer.org before committing a revision plan to a student.
 
-### Official Resources
+#### Official Resources
 
 - **HPAT-Ireland Information Booklet 2022** (canonical spec): https://hpat-ireland.acer.org/files/HPAT-Ireland_2022.pdf
 - **ACER preparation page** (Practice Tests, preparation materials, registration): https://hpat-ireland.acer.org/preparation

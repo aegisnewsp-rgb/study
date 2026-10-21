@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 Portfolio management is the art of combining different assets to maximize returns for a given level of risk, based on Harry Markowitz's mean-variance framework.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI Grade B officers need to understand how banks and financial institutions manage their investment portfolios — a key component of financial stability assessment and monetary policy implementation.
 
-### Must Know Facts
+#### Must Know Facts
 - Minimum variance portfolio sits at the leftmost point of the efficient frontier
 - Systematic risk (beta) cannot be eliminated through diversification; unsystematic risk can
 - Sharpe Ratio = (Portfolio Return − Risk-Free Rate) / Standard Deviation — higher is better
 - Correlation of −1 between two assets enables perfect risk elimination
 - Security Market Line (SML) plots expected return vs beta; Capital Market Line (CML) plots return vs total risk for efficient portfolios
 
-### Quick Example / Application
+#### Quick Example / Application
 An SBI Mutual Fund manager holds 60% equity (volatile) and 40% government bonds (stable). By blending these, the fund reduces overall portfolio volatility without sacrificing too much return — this is diversification working in practice.
 
-### 1-Line Summary
+#### 1-Line Summary
 Don't put all your money in one asset; spreading across imperfectly correlated assets reduces risk more than it reduces return.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Let me give you the real picture of portfolio management — not the textbook version, but what actually matters for your exam and your career in banking.
 
@@ -53,7 +53,7 @@ Now here's where it gets interesting for banking: the **Capital Market Line (CML
 
 The **Sharpe Ratio** is your practical tool: it tells you how much return you're getting per unit of total risk. Higher Sharpe = better risk-adjusted performance. This is exactly how mutual fund rankings work in India.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 | Term | Definition |
 |------|------------|
 | Expected Return (μ) | Mean return of an asset or portfolio over a period |
@@ -71,13 +71,13 @@ The **Sharpe Ratio** is your practical tool: it tells you how much return you're
 | Security Market Line | Expected return = Rf + β(Rm − Rf) |
 | Two-Fund Theorem | Optimal portfolio = combination of risk-free asset + market portfolio |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 When HDFC Asset Management launches a new balanced fund, they apply Markowitz principles to blend equity shares (high risk, high return) with Government of India bonds (low risk, low return). The fund manager picks the mix that sits on the efficient frontier — maximizing return for the fund's chosen risk level. SEBI requires all mutual funds to disclose portfolio risk metrics including standard deviation and beta, which are direct applications of Markowitz mean-variance analysis.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 Expect conceptual questions on the difference between CML and SML, numerical problems calculating portfolio variance given correlation, and definition-based questions on systematic vs unsystematic risk. Case studies may describe a bank portfolio and ask which assets to combine to reduce risk.
 
-### Step-by-Step Example
+#### Step-by-Step Example
 **Q:** Asset A has expected return 15% and standard deviation 20%. Asset B has expected return 10% and standard deviation 12%. The correlation between A and B is 0.3. If you invest 60% in A and 40% in B, what is the portfolio's expected return and variance?
 
 **Answer:**
@@ -92,7 +92,7 @@ Portfolio Standard Deviation = √0.02016 = **14.2%**
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 Harry Markowitz published "Portfolio Selection" in the Journal of Finance in 1952 — all of 14 pages that changed the investment world forever. Before Markowitz, investors picked assets based on individual merit. Markowitz showed that this was fundamentally wrong: what matters is how assets behave *together*. This is called the "only union makes strength" principle of diversification.
 
@@ -102,7 +102,7 @@ The **Two-Fund Theorem** (proved by Tobin) states that all investors, regardless
 
 The distinction between **CML and SML** is examiner-favorite territory. The CML applies to efficient portfolios only (those on the frontier) and measures risk in terms of total risk (standard deviation). The SML applies to individual securities and uses systematic risk (beta). The slope of the CML is the Sharpe ratio of the market portfolio; the slope of the SML is the market risk premium.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 In the Indian context, the Nifty 50 acts as the market proxy for most portfolio calculations. The risk-free rate is typically taken as the 10-year Government of India bond yield (currently around 6.8-7.2% range in 2025). Beta is calculated by regressing stock returns against Nifty returns — Infosys typically has a beta around 0.9 (less volatile than market), while a PSU bank like Bank of Baroda might have beta above 1.3.
 
@@ -116,17 +116,17 @@ For Indian equity investors, the Nifty index has a realized volatility (standard
 
 The **Sharpe Ratio** remains the gold standard for risk-adjusted performance comparison. In India, debt mutual funds targeting consistent 7-8% returns with very low volatility often have better Sharpe ratios than equity funds swinging between 20% and −30%.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 RBI's own investment portfolio (comprising government securities, foreign currency assets, and other holdings) is managed under the Reserve Bank of India (Management of Banks' Investment) directions. RBI's Financial Markets Department manages the RBI's own portfolio with safety and liquidity as primary objectives — a very conservative application of portfolio theory.
 
 SEBI's Riskometer for mutual funds is a practical retail investor-facing tool that uses portfolio volatility concepts to classify fund risk as "Low," "Moderate," "High," etc. — making Markowitz concepts accessible to everyday investors.
 
-### Case Study / Application
+#### Case Study / Application
 
 In 2020, during the COVID-19 market crash, Indian equity markets fell over 40% peak-to-trough. However, portfolios diversified across equities + gold + government bonds performed dramatically better. Gold, historically uncorrelated with equities, surged 30%+ as investors fled to safety. A portfolio with 60% equity, 20% gold, 20% bonds would have fallen far less than the pure equity index — directly demonstrating how correlation-driven diversification protects capital in crises.
 
-### GATE-level Numerical
+#### GATE-level Numerical
 **Q:** You have two assets with the following data:
 
 | | Expected Return | Standard Deviation |
@@ -167,12 +167,12 @@ Portfolio Variance:
 
 (c) Sharpe Ratio = (13.28% − 6%) / 13.19% = 7.28% / 13.19% = **0.552**
 
-### Multiple Perspectives
+#### Multiple Perspectives
 - **Academic View:** Markowitz mean-variance is foundational but relies on normally distributed returns and stable covariances — assumptions that break down in market crises (correlation goes to 1 precisely when you need diversification most).
 - **RBI/Regulatory View:** SEBI mandates portfolio disclosure norms, riskometer classification, and total expense ratio transparency — making portfolio literacy essential for retail investor protection.
 - **Practical/Industry View:** Most actively managed Indian equity funds fail to beat their benchmark index over 5-year periods post-fees, reinforcing the Two-Fund Theorem's insight that holding a low-cost index fund is the rational choice.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 - SEBI's rationalization of mutual fund categories in 2024-25 has pushed AMC portfolios toward more standardized efficient frontier positioning
 - RBI's FPI investment limits review in 2025 highlighted how foreign portfolio flows affect correlation dynamics of Indian markets
 - Greater adoption of factor-based investing (small-cap, value, momentum factors) beyond traditional Markowitz mean-variance in Indian institutional circles

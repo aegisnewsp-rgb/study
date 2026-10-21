@@ -114,7 +114,7 @@ For r successes in n independent trials, each with success probability p, P = nC
 
 **P4.** Three cards are drawn without replacement. What is the probability all three are Kings? (4/52) × (3/51) × (2/50) = **1/5525**.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -153,7 +153,7 @@ flowchart TD
   - *60% M, 50% P, 30% both — P(M|P)?* → 30/50 = 3/5.
   - *¹⁰C₈?* → ¹⁰C₂ = 45.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Using nPr where nCr is meant,** which over-counts by a factor of r! — the error is invisible, so read the verb carefully.
 2. **Adding probabilities for "or" without subtracting the overlap,** giving a value above 1.
@@ -166,7 +166,7 @@ flowchart TD
 9. **Forgetting that with an even count the median averages the two middle values.**
 10. **Producing a probability greater than 1** and not treating it as a signal that the counting is wrong.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Work all eight on paper first, and for each probability question write down the sample space you are dividing by.
 
@@ -187,7 +187,7 @@ Work all eight on paper first, and for each probability question write down the 
 8. **In a class, 60% of students like Mathematics, 50% like Physics and 30% like both. A student who likes Physics is selected. What is the probability they also like Mathematics?**
    P(M | P) = P(M and P) ÷ P(P) = 30/50 = **3/5**. The "given that" restricts the sample space to the 50% who like Physics, and 30 of those 50 also like Mathematics. The answer 30/100 would describe a randomly chosen student, which is a different question.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Use the complement for anything phrased "at least one"** before you start enumerating cases.
 2. **Read the verb in counting questions** — arrange, order, sequence, position means nPr; choose, select, team, committee means nCr.

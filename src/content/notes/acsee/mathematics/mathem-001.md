@@ -165,7 +165,7 @@ Convergence is quadratic if $f'(x^*) \neq 0$. Work one or two iterations to the 
 - Series: $e^x - 1 - x = \frac{x^2}{2} + \frac{x^3}{6} + \cdots$.
 - Dividing by $x^2$: $\frac{1}{2} + \frac{x}{6} + \cdots \to \frac{1}{2}$.
 
-### Common traps
+#### Common traps
 1. **Forgetting the chain rule factor.** The derivative of $\sin(3x)$ is $3\cos(3x)$, not $\cos(3x)$. Always check whether the inside of the function depends on $x$.
 2. **Misapplying the quotient rule.** The numerator is $f'g - fg'$, with $f$ on top and $g$ on the bottom; the minus sign goes with $fg'$, not with $f'g$. Slip the sign and the rest is wrong.
 4. **Confusing "turning point" with "point of inflection".** A turning point has $f'(x) = 0$ and changes sign. An inflection point has $f''(x) = 0$ (or undefined) and changes concavity. They are not the same.

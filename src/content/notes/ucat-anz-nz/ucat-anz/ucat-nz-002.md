@@ -168,7 +168,7 @@ Decision Making is the largest subtest by allocated testing time (29% of the cog
 
 ---
 
-### 🎯 Exam Essentials
+#### 🎯 Exam Essentials
 
 | Field | Detail |
 |---|---|
@@ -187,19 +187,19 @@ Decision Making is the largest subtest by allocated testing time (29% of the cog
 
 ---
 
-### High-Yield
+#### High-Yield
 
 The single highest-yield Decision Making habit is **practising each of the five archetypes in isolation first, then mixed timed sets**. The UCAT ANZ tests five reasoning modes (syllogisms, logical puzzles, probability, Venn diagrams, conditional reasoning) and each has a distinct strategy. Allocate the first 2-3 hours to 15-20 items per archetype; the next 5-10 hours to mixed timed sets of 29 items in 31 minutes against the official UCAT ANZ practice tests on ucat.edu.au. The second-highest-yield habit is the **matrix approach for logical-puzzle items** — build a 4×4 or 5×5 matrix immediately, mark constraints line by line, and let the matrix collapse into the answer; do not solve in working memory.
 
 ---
 
-### Previous Year
+#### Previous Year
 
 The UCAT ANZ 2024 and 2025 cycles both used Decision Making as the second cognitive subtest with 29 items and 31 minutes. The 2026 cycle is expected to retain the same format. Confirm the live test format and timing on ucat.edu.au/ucat-anz/test-format before each cycle. Abstract Reasoning was removed from the UCAT ANZ starting the 2025 cycle — do not allocate study time to Abstract Reasoning for 2025 onwards.
 
 ---
 
-### Pro Tips
+#### Pro Tips
 
 - **Archetype mastery**: practise each of the five archetypes in isolation first (15-20 items per archetype), then move to mixed timed sets of 29 items in 31 minutes.
 - **Matrix for puzzles**: build a 4×4 or 5×5 matrix immediately for logical-puzzle items; mark constraints line by line.
@@ -209,7 +209,7 @@ The UCAT ANZ 2024 and 2025 cycles both used Decision Making as the second cognit
 
 ---
 
-### Official Resources
+#### Official Resources
 
 - ucat.edu.au/ucat-anz — UCAT ANZ Consortium official site
 - ucat.edu.au/ucat-anz/practice-tests — Official UCAT ANZ practice tests

@@ -198,7 +198,7 @@ The published scoring description is "partial marks if your response is close to
 
 ---
 
-### Memory anchors
+#### Memory anchors
 
 - **Two reading modes.** Appropriateness asks what should be done. Importance asks what should weigh in.
 - **Four points on the scale.** Very, somewhat-but-not-ideal, opposite-very, opposite-somewhat.
@@ -208,7 +208,7 @@ The published scoring description is "partial marks if your response is close to
 
 ---
 
-### Common traps
+#### Common traps
 
 - "I would do this, so it is appropriate." Personal instinct is not the panel.
 - Treating relatedness as importance. A factor mentioned in the scenario is not automatically important.
@@ -218,7 +218,7 @@ The published scoring description is "partial marks if your response is close to
 
 ---
 
-### What to do next
+#### What to do next
 
 1. Take ten official SJT scenarios and rate the four responses on each. Without looking at the answer key, write one sentence defending each rating.
 2. Build a flashcard set of professional standards phrases — GMC Good Medical Practice duties, ABPI code clauses, NHS consent guidance. Each card gives a duty and asks whether an action upholds or breaks it.

@@ -112,7 +112,7 @@ At 75 s per item, two annotations per session is already more than most candidat
 > **Memory hook — "Consistent, specific, minimal."** Every alternative clears all three in that order: kill on contradiction first, then on the wrong moment, then on over-reading.
 
 
-### Exam Essentials
+#### Exam Essentials
 
 **Section 2 specification (verify on hpat-ireland.acer.org before each cycle):**
 | Item | Detail |
@@ -149,7 +149,7 @@ At 75 s per item, two annotations per session is already more than most candidat
 - Official Practice Tests (purchased from ACER): https://hpat-ireland.acer.org/preparation
 - Registration window and fee: https://hpat-ireland.acer.org/
 
-### High-Yield Topics
+#### High-Yield Topics
 
 **Topics to drill down in detail, in priority order:**
 
@@ -165,7 +165,7 @@ At 75 s per item, two annotations per session is already more than most candidat
 
 7. **Recognising scenario context quickly** - clinical vs home vs workplace. Section 2 scenarios are set in care-relevant contexts but the *specific* setting shapes the right answer. A workplace scenario's "right behaviour" is different from a family-care scenario's right behaviour, even when the emotional content is the same.
 
-### Previous Year Patterns
+#### Previous Year Patterns
 
 **Recurring Section 2 patterns in ACER practice materials (qualitative, not quantitative):**
 
@@ -181,7 +181,7 @@ At 75 s per item, two annotations per session is already more than most candidat
 
 **Pattern to watch:** ACER practice materials rotate the *type* of interpersonal-inference across scenarios - emotion, motivation, dynamic, prediction - so a Section 2 block may test all four sub-skills across 42 items. Plan to spend 1-1.5 minutes per scenario, including the item.
 
-### Pro Tips
+#### Pro Tips
 
 1. **Use the official ACER Practice Tests first.** They are the only published real past questions and the only authoritative source of section style. Work through them after the practice-question and practice-placement stages described on the ACER preparation page.
 
@@ -201,7 +201,7 @@ At 75 s per item, two annotations per session is already more than most candidat
 
 10. **Confirm Section 2 in the live Information Booklet before each cycle.** ACER updates the booklet annually. Verify the live question count, time allocation, response format and the participating universities' score-combination rules on hpat-ireland.acer.org before committing a revision plan to a student.
 
-### Official Resources
+#### Official Resources
 
 - **HPAT-Ireland Information Booklet 2022** (canonical spec): https://hpat-ireland.acer.org/files/HPAT-Ireland_2022.pdf
 - **ACER preparation page** (Practice Tests, preparation materials, registration): https://hpat-ireland.acer.org/preparation

@@ -61,7 +61,7 @@ Sections 1-3 reward repeated timed practice on diagram and passage-style questio
 **The key difference between Sections 1-3 and Section 4 preparation**
 Sections 1-3 are psychometric — they measure pattern recognition, spatial reasoning and interpersonal inference. Section 4 measures a writing ability. Preparation that improves Sections 1-3 (timed diagram practice, error-log review) does not necessarily improve Section 4, and vice versa. Candidates applying to both medicine and UL OT/SLT must budget separate time for Section 4 in the final two weeks.
 
-### Exam Essentials
+#### Exam Essentials
 
 **Section 4 specification (verify on hpat-ireland.acer.org before each cycle):**
 | Item | Detail |
@@ -98,7 +98,7 @@ Sections 1-3 are psychometric — they measure pattern recognition, spatial reas
 - UL MSc Occupational Therapy admissions: https://www.ul.ie/gps/courses/msc-occupational-therapy-professional-qualification
 - UL MSc Speech and Language Therapy admissions: https://www.ul.ie/gps/courses/msc-speech-and-language-therapy-professional-qualification
 
-### High-Yield Topics
+#### High-Yield Topics
 
 **Topics to drill down in detail, in priority order:**
 
@@ -116,7 +116,7 @@ Sections 1-3 are psychometric — they measure pattern recognition, spatial reas
 
 10. **Common error patterns and how to spot them** - sentence-pattern repetition, paragraph cohesion failure, register slip. Build an error-log of one-line notes from practice pieces.
 
-### Previous Year Patterns
+#### Previous Year Patterns
 
 **Recurring Section 4 patterns in ACER materials (qualitative, not quantitative):**
 
@@ -130,7 +130,7 @@ Sections 1-3 are psychometric — they measure pattern recognition, spatial reas
 
 **Pattern to watch:** Section 4 is structurally different from Sections 1-3. Candidates often underprepare it because Sections 1-3 take most of the practice time, especially for medicine applicants. The productive pattern is to budget 30-45 minutes of Section 4 practice per week for the two weeks before the sitting, alongside the Section 1-3 programme.
 
-### Pro Tips
+#### Pro Tips
 
 1. **Use the official ACER Practice Tests first.** They are the only published real past questions and the only authoritative source of section style. Work through them after the practice-question and practice-placement stages described on the ACER preparation page.
 
@@ -152,7 +152,7 @@ Sections 1-3 are psychometric — they measure pattern recognition, spatial reas
 
 10. **Confirm Section 4 in the live Information Booklet before each cycle.** ACER updates the booklet annually. Verify the live specification on hpat-ireland.acer.org before committing a revision plan to a student.
 
-### Official Resources
+#### Official Resources
 
 - **HPAT-Ireland Information Booklet 2022** (canonical spec): https://hpat-ireland.acer.org/files/HPAT-Ireland_2022.pdf
 - **ACER preparation page** (Practice Tests, preparation materials, registration): https://hpat-ireland.acer.org/preparation

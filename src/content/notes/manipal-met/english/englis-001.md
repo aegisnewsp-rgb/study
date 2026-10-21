@@ -413,7 +413,7 @@ Make the smallest change that repairs the error. A short correction is often mor
 - **Incorrect summary:** The new procedure will reduce waiting time.
 - **Correct summary:** The new procedure may reduce waiting time, but the reduction has not been confirmed.
 
-### Common traps
+#### Common traps
 
 1. **Taking the nearest noun as the subject.** A plural noun inside **of**, **with**, or **among** may not control agreement.
    - **Incorrect:** The quality of the answers submitted by the candidates are likely to affect the result.

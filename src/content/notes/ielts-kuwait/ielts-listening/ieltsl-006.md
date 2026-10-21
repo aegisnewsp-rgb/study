@@ -119,7 +119,7 @@ Score a practice set by the shape of the error, not just the total.
 4. **A directional anchor that resolves several labels at once.** Catch the anchor first.
 5. **A short-answer question asking for two or three answers.** Bank them in order.
 
-### Exam Essentials — Listening Selection Question Types
+#### Exam Essentials — Listening Selection Question Types
 
 | Field | Value | Source |
 |---|---|---|
@@ -151,7 +151,7 @@ Score a practice set by the shape of the error, not just the total.
 - [ ] I write short answers in the recording's words and count them.
 - [ ] I bank multi-answer short-answer items as they arrive.
 
-### High-Yield — Multiple Choice, Matching, Labelling and Short Answer
+#### High-Yield — Multiple Choice, Matching, Labelling and Short Answer
 
 **Multiple choice.** A discussion where speakers disagree; a lecture where a claim is qualified or corrected; a proposal the second speaker rejects. In all three the wrong options are stated, which is why elimination beats recall.
 
@@ -163,7 +163,7 @@ Score a practice set by the shape of the error, not just the total.
 
 **The one skill that serves all four.** Hold the recording's structure rather than its words. Each type is answered by locating a point in a structure you predicted — options eliminated, list positions consumed, visual regions filled, facts banked in order.
 
-### Previous Year Patterns — IELTS Listening Selection Types
+#### Previous Year Patterns — IELTS Listening Selection Types
 
 The paper-level constants do not move: four parts, 40 questions, approximately 30 minutes, 1 mark per correct answer, no negative marking, results in whole or half bands. The types are fixed too — IELTS lists six Listening question types, and this note covers four.
 
@@ -171,7 +171,7 @@ The distribution is not fixed. Every type's count is published as "Variable", an
 
 The transferable part is the printed rule set. The word limit, the hyphenation rule and the instruction to read how many answers to choose appear every time and apply whether the item is a completion or a selection. Learn those once.
 
-### Pro Tips — Selection Question Types
+#### Pro Tips — Selection Question Types
 
 1. **Count the boxes before you read the options.** Multiple choice can require more than one answer.
 2. **Read sentence-ending stems aloud.** You are testing endings, not facts.
@@ -184,7 +184,7 @@ The transferable part is the printed rule set. The word limit, the hyphenation r
 9. **Skip what you will not get.** No negative marking means a blank costs only the mark you were already losing.
 10. **Type your answers.** On computer delivery there is no transfer time to lose.
 
-### Official Resources — IELTS Listening Selection Types
+#### Official Resources — IELTS Listening Selection Types
 
 | Resource | URL | Use |
 |---|---|---|

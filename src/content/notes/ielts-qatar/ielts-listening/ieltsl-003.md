@@ -111,7 +111,7 @@ A candidate scoring below 6 on Part 3 typically has an argument-tracking, vocabu
 
 ---
 
-### Exam Essentials — IELTS Listening Part 3
+#### Exam Essentials — IELTS Listening Part 3
 
 | Field | Value |
 |---|---|
@@ -133,7 +133,7 @@ A candidate scoring below 6 on Part 3 typically has an argument-tracking, vocabu
 
 ---
 
-### High-Yield — IELTS Listening Part 3
+#### High-Yield — IELTS Listening Part 3
 
 The seven most-testable scenarios and the calibrated response framework:
 
@@ -147,7 +147,7 @@ The seven most-testable scenarios and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — IELTS Listening Part 3
+#### Previous Year Patterns — IELTS Listening Part 3
 
 Part 3 has been structurally stable across every IELTS cycle since the Academic / General Training split in 1989. The four-section format (Part 1 everyday social context, Part 2 social monologue, Part 3 academic discussion, Part 4 academic lecture) is published verbatim on ielts.org and is not expected to change.
 
@@ -162,7 +162,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Pro Tips — IELTS Listening Part 3
+#### Pro Tips — IELTS Listening Part 3
 
 1. **Read ahead.** Use the 30-60 seconds before each recording starts to read every question. The binding constraint in Part 3 is reading speed and speaker-attribution speed, not listening speed.
 2. **Identify the speaker label first.** Before the recording starts, identify which SPEAKER you are tracking for each item. A speech-labelled answer is the difference between right and wrong on speaker-attribution questions.
@@ -177,7 +177,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Official Resources — IELTS Listening Part 3
+#### Official Resources — IELTS Listening Part 3
 
 | Resource | URL | Use |
 |---|---|---|

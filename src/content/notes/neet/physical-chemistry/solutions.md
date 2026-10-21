@@ -27,7 +27,7 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 
 ### 🟡 Standard Study
 
-### Concentration Terms
+#### Concentration Terms
 
 **Molarity (M):** Moles of solute per litre of solution
 - M = (mass solute / M_w) / (volume solution in L)
@@ -49,7 +49,7 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 **Parts Per Million (ppm):** Parts of solute per million parts of solution
 - ppm = (mass solute / mass solution) × 10⁶
 
-### Raoult's Law
+#### Raoult's Law
 
 - For a solution of volatile liquids: P_total = P_A + P_B
 - P_A = X_A × P°_A (vapour pressure of pure A × mole fraction)
@@ -57,13 +57,13 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 - **Positive Deviation:** P_solution > P_ideal (A-B attraction < A-A or B-B) — e.g., ethanol-hexane
 - **Negative Deviation:** P_solution < P_ideal (A-B attraction > A-A or B-B) — e.g., acetone-chloroform
 
-### Azeotropes
+#### Azeotropes
 
 - Constant boiling mixtures — composition of liquid and vapour is same
 - Minimum boiling azeotrope: positive deviation (e.g., ethanol-water 95.6%)
 - Maximum boiling azeotrope: negative deviation (e.g., nitric acid-water 68%)
 
-### Colligative Properties
+#### Colligative Properties
 
 **1. Lowering of Vapour Pressure:**
 - ΔP = P°_solvent − P_solution = X_solute × P°_solvent
@@ -84,7 +84,7 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 - πV = nRT
 - Osmotic pressure is the pressure needed to stop osmosis
 
-### Abnormal Molecular Mass
+#### Abnormal Molecular Mass
 
 - When solute dissociates or associates, observed molecular mass differs from true value
 - **Van't Hoff Factor:** i = (Normal molecular mass) / (Observed molecular mass) × n
@@ -94,23 +94,23 @@ Solutions are homogeneous mixtures of two or more substances. This chapter cover
 
 ### 🔴 Deep Study
 
-### Energetics of Solution Formation
+#### Energetics of Solution Formation
 
 - ΔH_solution = ΔH_mixing + (ΔH_solute−solute + ΔH_solvent−solvent)
 - Solution forms if ΔH_mixing is negative (exothermic) or small and TΔS is positive
 
-### Solubility and Temperature
+#### Solubility and Temperature
 
 - For solid in liquid: solubility increases with temperature if dissolution is endothermic
 - For gas in liquid: solubility decreases with increasing temperature (Henry's Law)
 
-### Van't Hoff Factor Details
+#### Van't Hoff Factor Details
 
 - For strong electrolytes: i = number of ions (complete dissociation assumed)
 - For weak electrolytes: i depends on degree of dissociation α
 - i = 1 + (v − 1)α where v = number of ions from one formula unit
 
-### Osmosis and Reverse Osmosis
+#### Osmosis and Reverse Osmosis
 
 - Isotonic: equal osmotic pressure
 - Hypotonic: lower concentration (cell swells)

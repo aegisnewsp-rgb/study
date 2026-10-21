@@ -46,7 +46,7 @@ The Malaysian University English Test (MUET) Writing paper is designed to assess
 
 #### The Two Tasks at a Glance
 
-### Task 1: Information Transfer (Recommended: 30 minutes)
+#### Task 1: Information Transfer (Recommended: 30 minutes)
 
 Task 1 requires you to write a formal letter based on input provided in the form of a graph, table, chart, or diagram. You must transfer information from the visual stimulus into a written response of **150–200 words**. This task assesses your ability to:
 
@@ -59,7 +59,7 @@ The letter type varies — it could be a complaint letter, an application letter
 **Typical prompt example:**
 > The graph below shows the percentage of Malaysian students pursuing higher education abroad from 2015 to 2020. Write a formal letter to the Director of Education requesting more details about government scholarship programmes.
 
-### Task 2: Argumentative Essay (Recommended: 60 minutes)
+#### Task 2: Argumentative Essay (Recommended: 60 minutes)
 
 Task 2 is a full argumentative or discursive essay based on a given topic. You must write **350–400 words** in response to a statement or question that invites debate. This task assesses your ability to:
 
@@ -111,7 +111,7 @@ Understanding these criteria is the foundation for everything else. Each subsequ
 
 ---
 
-### ⚡ Quick Checklist Before the Exam
+#### ⚡ Quick Checklist Before the Exam
 
 - I know the word count for each task (150–200 and 350–400)
 - I know the difference between Task 1 (information transfer) and Task 2 (argument)

@@ -228,7 +228,7 @@ Apoptosis is essential in development (webbing between fetal fingers is removed 
 
 Cell Biology is the prerequisite for nearly every other Biology chapter in the DU Unit B syllabus. Genetics (Biolog-002) needs the nucleus and replication machinery. Respiration and photosynthesis depend on mitochondrial and chloroplast structure. The fluid-mosaic model underpins nerve impulse transmission in Human Physiology (Biolog-005). The cell cycle and apoptosis connect to cancer biology in Health and Disease (Biolog-013). A solid grasp of this chapter pays dividends throughout.
 
-### Common traps
+#### Common traps
 
 - **Conflating chloroplasts and mitochondria.** Both have double membranes and their own DNA, but only chloroplasts have thylakoids/grana and only mitochondria have cristae. The DU paper tests this distinction.
 - **Forgetting that plant cells have lysosome-equivalent function.** Plants do not have lysosomes; the equivalent function is carried out by the **vacuole** and by ER-derived vesicles. Saying "plant cells have lysosomes" is wrong.

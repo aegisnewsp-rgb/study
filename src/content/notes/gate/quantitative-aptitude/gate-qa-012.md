@@ -18,20 +18,20 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 If a person's age is multiplied by (or divided by) a factor after a certain period, account for the same passage of time on all people involved. Ages = Present ages, x = years added/subtracted.
 
-### Quick Memory Trick
+#### Quick Memory Trick
 **"Everyone ages together"** — when time passes, EVERYONE gets older by the same number of years. The age gap between two people never changes.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Age problems are just algebra in disguise: translate the words into equations, and remember that age differences stay constant while age ratios change over time.
 
-### Quick Example
+#### Quick Example
 Q: A father is 4 times his son's age. After 20 years, he will be twice as old. Find their present ages.
 A: Son = x, Father = 4x. After 20 years: 4x + 20 = 2(x + 20) → 4x + 20 = 2x + 40 → 2x = 20 → x = 10. Son = **10 years**, Father = **40 years**.
 
-### Must Remember
+#### Must Remember
 - Age gap is CONSTANT — never changes
 - Age ratio CHANGES — dilutes over time as both grow
 - "n years ago" means subtract from present age, and from ALL present ages
@@ -40,7 +40,7 @@ A: Son = x, Father = 4x. After 20 years: 4x + 20 = 2(x + 20) → 4x + 20 = 2x + 
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Age problems are a staple of quantitative aptitude because they test your ability to translate real situations into mathematical equations. The good news: the underlying math is straightforward algebra. The tricky part is reading the wording carefully, because these problems love to play with time — "5 years ago," "after 10 years," "twice as old as," and so on.
 
@@ -50,7 +50,7 @@ Another key concept: **age difference never changes**. If Rina is 3 years older 
 
 **Age ratios** work differently. If a mother is 40 and her daughter is 10, the ratio is 4:1. After 20 years, they'll be 60 and 30 — the ratio is now 2:1. The ratio shrinks over time because both numbers are growing, but the gap (30 years) stays fixed. This is why problems that give you future or past ratios usually involve more algebra — you have to solve for the present ages first.
 
-### Key Formulas
+#### Key Formulas
 
 | Symbol | Meaning |
 |--------|---------|
@@ -59,7 +59,7 @@ Another key concept: **age difference never changes**. If Rina is 3 years older 
 | x | Years in the future (positive) or past (negative) |
 | G | Constant age gap between two people |
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** The sum of the ages of a father and his son is 60 years. Five years ago, the father's age was four times the son's age. Find their present ages.
 
@@ -83,13 +83,13 @@ F = 60 – 15 = 45
 
 **Answer:** Son is 15 years old, father is 45 years old.
 
-### Common Mistakes
+#### Common Mistakes
 
 - Applying time change to only one person → Always apply "n years ago" or "after n years" to EVERY person's present age in the equation.
 - Forgetting that ages must be positive → If you get a negative age, something went wrong with the time direction (likely the "n years ago" subtraction was applied wrong).
 - Confusing average age with individual ages → "Sum of ages" problems require knowing how many people are involved.
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 
 1. Q: A mother is 3 times as old as her son. After 12 years, she will be twice as old. Find the son's present age. Options: A) 6 B) 10 C) 12 D) 15. Ans: **C** (Reason: Let son's age = x, mother's = 3x. After 12 years: 3x + 12 = 2(x + 12) → 3x + 12 = 2x + 24 → x = 12)
 
@@ -97,7 +97,7 @@ F = 60 – 15 = 45
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 Age problems reduce to two linear relationships: the fixed age difference and the shifting age ratio across time. Setting up equations requires identifying which variables change over time and which remain invariant.
 
@@ -133,7 +133,7 @@ These are the hardest age problems. "X will be twice as old as Y in 10 years" is
 
 The trick with "never be" problems: set up the equation anyway and show that it has no valid (positive, realistic) solution.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 
 **General age relationship for two people:**
 
@@ -145,7 +145,7 @@ If you know k and n, you can solve. If you don't have enough equations, the prob
 
 The important insight: when k = 1 (ages equal), this implies P = Q, which contradicts the assumption that P > Q. So equal age means the two people are twins — a specific, rare case.
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 
 **Q1 (GATE 2020 — style):**
 The present ages of a father and his son are in the ratio 5:3. After 10 years, the ratio becomes 3:2. Find their present ages.
@@ -168,7 +168,7 @@ A is twice as old as B was 5 years ago. B is 3 years younger than C. The sum of 
 - Answer: **19.75 years**
 - Common error: Misreading "B was 5 years ago" as "B will be 5 years from now." The word "was" is always in the past.
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Method A (Variable setup):** Assign x to the youngest or simplest person. Build all other ages from that. Works well for problems with sums and ratios.
 
@@ -178,7 +178,7 @@ A is twice as old as B was 5 years ago. B is 3 years younger than C. The sum of 
 
 **When to use:** Method A for sum problems. Method B for clear ratio problems. Method C when you need to verify your setup is correct.
 
-### Tricky Cases
+#### Tricky Cases
 
 - **"Never be" conditions:** Set up the equality as usual. If solving gives you a negative year count or an impossible age (like 200 years from now), the condition is indeed "never" — but you still need to show the math proves it.
 - **Fractional ages:** Ages can be fractional (12.5 years is valid). Don't round unless the problem context demands it.

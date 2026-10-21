@@ -158,7 +158,7 @@ Predict from the parent acid and base, using the stronger partner.
 
 Mnemonic that gets you through without a table: **the ion from the strong partner is the spectator, and the ion from the weak partner decides.** Strong partners are always neutral ions (Na⁺, K⁺, Cl⁻, NO₃⁻, SO₄²⁻).
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -199,7 +199,7 @@ flowchart TD
   - *Group 18 element that is s-block?* → helium.
   - *Is ⁴⁰Ar an isotope or isobar of ⁴⁰Ca?* → isobar; same A, different Z.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 1. **An element has the configuration [Xe] 5d¹ 4f¹ 6s². Which block, and which series does it head?**
    The differentiating electron is in 5d, so it is **d-block**. It is lanthanum (Z = 57), which heads the lanthanoid series despite being d-block, because its ground state has no f-electron. The f-electrons start with cerium. This is the standard example of the convention conflict.
@@ -218,7 +218,7 @@ flowchart TD
 8. **Is ³⁵Cl an isotope or isobar of ³⁷Cl? Can the two be separated by ordinary chemical means?**
    Isotopes — same Z (both chlorine, Z = 17), different A. They have the same electron configuration and therefore almost identical chemistry, so **ordinary chemical methods cannot separate them**; separation needs physical methods such as mass spectrometry or fractional diffusion. The practical consequence is that chlorine's atomic mass comes out as the abundance-weighted 35.45, not as either isotope's whole number.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Deciding block from the element's symbol or position in a list of "d-block metals."** The block is defined by the differentiating electron, so copper is d-block but tin is p-block, even though both are metals found in the middle of the table. Check the ground-state configuration every time.
 2. **Naming an ether as a suffix.** Ethers are named as alkoxyalkanes (methoxymethane), not with any suffix. There is no "-oxy-" suffix.
@@ -232,7 +232,7 @@ flowchart TD
 10. **Using the alcohol suffix for a phenol,** or calling phenol "benzenol".
 11. **Forgetting that bond angles and steric-number questions from Chemical Bonding reappear here** in disguised form whenever an –OH carbon is involved in naming.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Write the classification route on the question, not in your head** — a four-word chain: element → block; organic → group → suffix; acid/base → what is transferred. It takes five seconds and prevents category errors.
 2. **Build a single-page functional-group table** and use it for every naming question for the rest of the syllabus. It is reused in Aldehydes, Ketones, Acids, Amines and Alcohols.

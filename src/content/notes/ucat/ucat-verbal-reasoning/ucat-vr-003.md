@@ -44,7 +44,7 @@ Verbal Reasoning gives you 44 questions in 22 minutes, with a 1 minute 30 second
 
 > Source for the 44-item, 22-minute, 1:30 instruction section, 300–900 scale: UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The UCAT verbal reasoning question tutorial is the official source for pacing advice and is best viewed on a desktop.
 
-### Why the budget is tight by design
+#### Why the budget is tight by design
 
 The UCAT Consortium publishes 11 passages with four items each — 44 questions in total. Across 22 minutes of test time, that gives an average of 30 seconds per item, but the items are not equally timed. The first question on a passage costs more because you are still reading the passage. The third and fourth usually cost less because the passage is loaded. So the budget is uneven, and a candidate who tries to spend exactly 30 seconds on every item will run out of time on the early items and rush the later ones.
 
@@ -62,7 +62,7 @@ Eleven passages at 2:30 each is 27:30 — over the 22-minute cap. So that split 
 
 Eleven passages at 1:55 each is 21:05, which leaves a buffer of about a minute for the items that take longer. That buffer is what saves you when one passage turns out to be unusually dense.
 
-### The two-pass method
+#### The two-pass method
 
 Most Verbal Reasoning candidates try to answer each statement in order, on the first read. That looks efficient but costs time, because you re-read the passage for almost every statement.
 
@@ -73,7 +73,7 @@ The two-pass method is faster:
 
 This is faster than the alternative because you are not re-reading the whole passage for each statement. The UCAT's online interface keeps the passage on screen alongside the statements, so the jump is a quick scroll or a tab click.
 
-### When to skip, when to guess, when to come back
+#### When to skip, when to guess, when to come back
 
 The UCAT has no negative marking, and the test is not adaptive — your performance on one item does not influence which item comes next. That means a guess is always worth as much as a confident wrong answer, and a skipped item is just a mark lost. So the rule is: never leave a Verbal Reasoning item blank.
 
@@ -107,7 +107,7 @@ The drill's review separates two outcomes for a flagged item. Getting it right o
 #### The last passage is worth attempting even at two minutes
 The note's advice on running out of clock is not to skip the remaining passage but to compress it hard — read it flat, answer what you can, and pick the best answer for the rest. This follows from the marking scheme rather than from optimism: there is no penalty for a guess, so abandoning a passage converts a set of recoverable items into a certain zero. Panic-skipping is the one response that is strictly worse than the alternative.
 
-### Worked example — pacing across a 22-minute drill
+#### Worked example — pacing across a 22-minute drill
 
 Suppose you have four passages of average length left, with about 8 minutes on the clock.
 
@@ -119,7 +119,7 @@ Suppose you have four passages of average length left, with about 8 minutes on t
 
 The pattern that wins: spend a little less on each successive passage so that the final passage does not run out the clock. Reading time compresses as you warm up; answering time compresses as you internalise the keyword jump.
 
-### Common pacing traps
+#### Common pacing traps
 
 - **Reading the whole passage twice.** Once is enough. Reading it twice signals you did not read for shape the first time.
 - **Re-reading the statement to "make it fit".** Statements are short. If the statement does not match the passage on a re-read, it was already wrong. Move on.
@@ -127,7 +127,7 @@ The pattern that wins: spend a little less on each successive passage so that th
 - **Panic-skipping the last passage.** When the clock hits 2 minutes and you have a passage left, do not skip the passage. Read it in 30 seconds flat, answer the four statements in 60 seconds, and pick the best answer for the rest.
 - **Not flagging.** The UCAT interface lets you flag items for review. Candidates who do not flag lose time on the items they got stuck on.
 
-### A 22-minute drill you can run this week
+#### A 22-minute drill you can run this week
 
 Use one of the official UCAT practice tests. Sit it under timed conditions, with the instruction section included. Then do three things in the review:
 
@@ -135,7 +135,7 @@ Use one of the official UCAT practice tests. Sit it under timed conditions, with
 2. **Log your read time per passage.** For each passage, write down how long you spent reading and how long you spent answering. If your reading time is over a minute, you are reading for memorisation rather than for shape.
 3. **Re-run the items you flagged.** If you flagged an item and got it right on the second pass, the problem was pacing, not skill. If you flagged an item and got it wrong on the second pass, the problem was skill.
 
-### What to do next
+#### What to do next
 
 - Sit one timed Verbal Reasoning drill from the official UCAT practice tests with a hard 22-minute cap. Flag any item you spend more than 30 seconds on.
 - After the drill, work out your average reading time per passage. If it is over 50 seconds, practise reading for shape only (one pass, with two keyword notes).

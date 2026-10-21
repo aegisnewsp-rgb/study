@@ -220,7 +220,7 @@ This matters in one specific place: the x- and y-intercepts change when the orig
 
 ---
 
-### 🟠 Exam Essentials (1 day before)
+#### 🟠 Exam Essentials (1 day before)
 
 #### Formula card — reproduce from memory
 
@@ -256,7 +256,7 @@ Convert a line given in general form to slope-intercept, then back. Find the dis
 
 ---
 
-### 🔵 High-Yield Patterns
+#### 🔵 High-Yield Patterns
 
 1. **Work in general form.** Slope-intercept is convenient for reading a y-intercept; general form is required for distance, angle, collinearity and the perpendicular test. Convert once at the start of each problem and stay there.
 2. **Use bx − ay + k = 0 for a perpendicular** instead of computing −1/m. It saves two arithmetic steps and never fails on a zero numerator.
@@ -269,7 +269,7 @@ Convert a line given in general form to slope-intercept, then back. Find the dis
 
 ---
 
-### 🟣 Traps and question forms you will meet
+#### 🟣 Traps and question forms you will meet
 
 | Trap | What happens if you fall in | Fix |
 |---|---|---|
@@ -291,7 +291,7 @@ Convert a line given in general form to slope-intercept, then back. Find the dis
 
 ---
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Draw the line when the question is about position.** Whether a point is above or below a line, whether an angle is obtuse, whether a foot falls inside a segment — a ten-second sketch answers these before any algebra.
 2. **Convert to general form as step one of every problem** and do not convert back. The two shortcut formulas (parallel, perpendicular) only exist in general form.
@@ -304,7 +304,7 @@ Convert a line given in general form to slope-intercept, then back. Find the dis
 
 ---
 
-### 📚 Sources and where to go deeper
+#### 📚 Sources and where to go deeper
 
 | Resource | Where to find it | Use it for |
 |---|---|---|

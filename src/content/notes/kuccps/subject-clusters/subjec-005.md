@@ -41,13 +41,13 @@ lastUpdated: 2026-03-25
 | Cutoffs run 35.00 to 42.00 across the four programme types | The cluster holds programmes with genuinely different entry bars |
 | Konza, fintech, BPO and the startup ecosystem are expanding | Demand is real, and it does not lower the entry requirement |
 | Typical salaries KES 60,000–250,000 per month | A range across roles and employers, not an entry figure |
-### What Is Cluster 5?
+#### What Is Cluster 5?
 
 Cluster 5 covers Computer Science and related technology programmes in Kenyan universities, including Bachelor of Science in Computer Science, Bachelor of Science in Information Technology (IT), Bachelor of Science in Software Engineering, and Bachelor of Science in Computer Technology. The cluster subjects are Mathematics, Physics, and any science subject (typically Chemistry, Biology, or Geography). A mean grade of **B (plain)** in each is the standard minimum entry requirement, with B+ preferred for the most competitive programmes.
 
 The Kenya Universities and Colleges Central Placement Service (KUCCPS) calculates cluster points from Mathematics, Physics, and your chosen science elective. This cluster is particularly relevant in Kenya's current context — the country is experiencing rapid growth in software development, fintech, business process outsourcing (BPO), and digital infrastructure, creating strong demand for qualified computer scientists.
 
-### Required Subjects and Grades
+#### Required Subjects and Grades
 
 The cluster subjects for Cluster 5 (Computer Science) are:
 
@@ -57,7 +57,7 @@ The cluster subjects for Cluster 5 (Computer Science) are:
 
 You must also meet general university entry requirements including passes in English and Kiswahili at KCSE level. Some universities may prefer double sciences (Physics and Chemistry) for software engineering or computer technology programmes.
 
-### Typical KUCCPS Cutoff Points
+#### Typical KUCCPS Cutoff Points
 
 Computer Science programmes have become increasingly competitive as tech careers have grown in popularity and earning potential:
 
@@ -72,7 +72,7 @@ Computer Science programmes have become increasingly competitive as tech careers
 
 Private universities like Strathmore and United States International University Africa (USIU-Af) may have different admission criteria that include interviews or additional entry requirements beyond KCSE cluster points.
 
-### Universities Offering Computer Science Under Cluster 5
+#### Universities Offering Computer Science Under Cluster 5
 
 - University of Nairobi (UoN) — Faculty of Science / School of Computing and Informatics
 - Jomo Kenyatta University of Agriculture and Technology (JKUAT)
@@ -87,13 +87,13 @@ Private universities like Strathmore and United States International University 
 
 The University of Nairobi's Department of Computer Science is one of the oldest in East Africa, and its graduates are well-represented in Kenya's tech industry, including at major firms like Google Kenya, Microsoft, Safaricom, and a growing ecosystem of startups.
 
-### Why Computer Science Is Growing Rapidly
+#### Why Computer Science Is Growing Rapidly
 
 Kenya has emerged as one of Africa's leading technology hubs. The Silicon Savannah — centred around Nairobi and supporting initiatives like the Konza Technology Park — has attracted significant investment in software development, mobile applications, fintech, and digital services. Companies like M-KOPA, Twiga Foods, and hundreds of app developers are actively hiring computer scientists.
 
 The COVID-19 pandemic accelerated digital transformation across Kenya's banking, retail, healthcare, and government sectors, further expanding demand for IT professionals. Computer Science graduates who can code, manage databases, analyse data, and develop digital solutions are among the most employable graduates in the Kenyan economy.
 
-### Career Paths After Computer Science
+#### Career Paths After Computer Science
 
 - **Software Developer/Engineer** — Building applications, websites, systems, and enterprise software
 - **Data Scientist / Data Analyst** — Mining data for insights; highly paid in fintech and e-commerce
@@ -106,7 +106,7 @@ The COVID-19 pandemic accelerated digital transformation across Kenya's banking,
 
 Salaries for computer science graduates in Kenya typically range from KES 60,000 to KES 250,000 per month, with top performers at multinational tech firms or successful startups earning significantly more.
 
-### Study Tips for Cluster 5 Subjects
+#### Study Tips for Cluster 5 Subjects
 
 - **Mathematics**: Prioritise algebra, calculus, logic, probability, and statistics. Computer science builds heavily on discrete mathematics, particularly for algorithms and data structures. Linear algebra becomes critical for areas like machine learning and computer graphics.
 - **Physics**: Focus on electronics, electromagnetism, and wave motion. These underpin understanding of computer hardware, digital circuits, and signal processing.
@@ -144,7 +144,7 @@ This note's sharpest claim is that the tech industry moves faster than universit
 #### Physics is not padding
 
 The note lists electronics, electromagnetism and wave motion as the physics that matters here, because those underpin processors, memory, circuits and signal processing. Hardware literacy is the stated edge over purely software-focused students, and it is also why "neglecting physics" appears among the mistakes to avoid: a student who treats physics as a subject to survive has already given up the part of the degree that the syllabus says will distinguish them.
-### Common Mistakes to Avoid
+#### Common Mistakes to Avoid
 
 - **Assuming computer science is just "using computers"** — It involves deep mathematical and logical reasoning. Students who enter expecting an easy tech certificate often struggle with algorithms, data structures, and formal methods.
 - **Neglecting physics** — Hardware literacy matters. Understanding how processors, memory, and circuits work gives you an edge over purely software-focused students.
@@ -152,7 +152,7 @@ The note lists electronics, electromagnetism and wave motion as the physics that
 - **Ignoring communication skills** — Technical ability alone is insufficient. Employers value graduates who can explain technical concepts to non-technical stakeholders.
 - **Overlooking professional certifications** — Industry certifications such as AWS, Cisco (CCNA), Google Analytics, and CompTIA can significantly boost your CV alongside your degree.
 
-### Summary
+#### Summary
 
 Cluster 5 (Computer Science) is a high-growth, high-demand cluster suited to students with strong mathematics and science backgrounds. With minimum entry of B in Mathematics, Physics, and a science elective, it is more accessible than the top engineering or medical clusters while offering excellent career prospects in Kenya's expanding tech sector. Success in this cluster requires not just academic performance but also proactive skill development in programming, problem-solving, and industry-relevant certifications.
 

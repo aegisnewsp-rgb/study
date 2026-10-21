@@ -66,7 +66,7 @@ Lines in 3D: r = r₀ + t d. Planes in 3D: r · n = d. Intersection of line and 
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the fourth Topic of the SACE Stage 2 Specialist Mathematics Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

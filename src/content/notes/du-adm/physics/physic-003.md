@@ -178,7 +178,7 @@ A spinning top precesses because the gravitational torque about the pivot point 
 
 Newtonian Mechanics feeds into **Gravitation** (orbital mechanics is centripetal force with $g = GM/r^2$), **Periodic Motion** (the simple pendulum is a direct consequence of small-angle SHM under gravity), **Current Electricity** (drift velocity uses momentum-relaxation arguments), and **Modern Physics** (de Broglie wavelength is momentum divided by Planck's constant). A student who solves one problem per sub-topic in this chapter removes the bulk of the Physics uncertainty on the DU Unit B paper.
 
-### Common traps
+#### Common traps
 
 - **Sign of friction on inclines.** Friction always opposes *the direction of motion* (kinetic) or *the tendency of motion* (static). On a block pushed up an incline, friction acts down the slope, not up. Students who put friction up because "the block is going up" lose the mark.
 - **Forgetting to recompute the normal force on inclines.** When a horizontal force pushes a block up a slope, the normal becomes $N = mg\cos\theta + F\sin\theta$, not $mg\cos\theta$. The normal force on an incline is not $mg$ except when no other vertical forces act.

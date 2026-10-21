@@ -143,7 +143,7 @@ Gases with high critical temperatures ($\\text{NH}_3: 132.4^\\circ\\text{C}, \\t
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. An ideal gas in a rigid container has a pressure of $3.00\\text{ atm}$ at $25^\\circ\\text{C}$. To what temperature must it be heated to double its pressure to $6.00\\text{ atm}$?
 2. Compare the van der Waals constants $a$ and $b$ for ammonia ($\\text{NH}_3$) and methane ($\\text{CH}_4$). Explain why ammonia has a substantially larger $a$ value despite both having similar molar masses ($17\\text{ g/mol}$ vs $16\\text{ g/mol}$).

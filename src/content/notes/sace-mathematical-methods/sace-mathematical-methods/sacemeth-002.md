@@ -64,7 +64,7 @@ X ~ B(n, p). P(X = k) = C(n, k) p^k (1 − p)^(n − k). E(X) = np, Var(X) = np(
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the second Topic of the SACE Stage 2 Mathematical Methods Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

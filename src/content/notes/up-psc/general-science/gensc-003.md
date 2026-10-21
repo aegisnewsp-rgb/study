@@ -180,7 +180,7 @@ In a frame rotating with angular velocity $\vec{\omega}$:
 
 ---
 
-### 📝 UPPSC PCS Model Questions & Step-by-Step Solutions
+#### 📝 UPPSC PCS Model Questions & Step-by-Step Solutions
 
 #### Question 1
 A cricket player pulls his hands backward while catching a fast-moving ball. Which scientific law or physical theorem explains this technique?

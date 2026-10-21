@@ -43,13 +43,13 @@ seoDescription: "Cluster points for journalism and mass communication in Kenya: 
 | Entry pay KES 30,000–60,000; corporate communications pays more | Communications officer routes pay differently from newsroom routes |
 | UoN's journalism school dates to 1970 | Alumni are well-represented in Kenya's media landscape, per the note |
 
-### What Is Cluster 14?
+#### What Is Cluster 14?
 
 Cluster 14 covers journalism, communications, media studies, and mass communication programmes in Kenyan universities. This includes Bachelor of Arts in Journalism, Bachelor of Arts in Mass Communication, Bachelor of Arts in Communications Studies, Bachelor of Science in Publishing, Bachelor of Film and Television Studies, and Bachelor of Arts in Media Science. The cluster subjects are English, Literature, and either History or Geography. The minimum entry grade is typically **B (plain)** in each cluster subject, though strong communication skills and demonstrable media awareness can be as important as raw KCSE grades.
 
 The Kenya Universities and Colleges Central Placement Service (KUCCPS) calculates cluster points from your performance in English, Literature, and History/Geography. Journalism and media is one of Kenya's most dynamic and rapidly evolving clusters, shaped by the internet, social media, mobile technology, and the country's vibrant democratic culture.
 
-### Required Subjects and Grades
+#### Required Subjects and Grades
 
 The cluster subjects for Cluster 14 (Journalism and Media) are:
 
@@ -59,7 +59,7 @@ The cluster subjects for Cluster 14 (Journalism and Media) are:
 
 Some media programmes may also require a practical assessment, interview, or portfolio demonstrating media awareness or previous media engagement. The Communications Authority of Kenya (CA) also regulates broadcast media, and media houses increasingly look for candidates with both academic credentials and practical skills.
 
-### Typical KUCCPS Cutoff Points
+#### Typical KUCCPS Cutoff Points
 
 Journalism and media programmes have moderate cutoffs, reflecting strong student interest and a growing number of programme slots:
 
@@ -74,7 +74,7 @@ Journalism and media programmes have moderate cutoffs, reflecting strong student
 
 Daystar University and Multi Media University of Kenya (MMU) are private institutions with strong media programmes and industry links. Daystar's communication programmes are particularly well-regarded in Kenya's media industry.
 
-### Universities Offering Journalism and Media Under Cluster 14
+#### Universities Offering Journalism and Media Under Cluster 14
 
 - University of Nairobi (UoN) — School of Journalism and Mass Communication
 - Kenyatta University (KU) — Department of Journalism and Media Studies
@@ -87,7 +87,7 @@ Daystar University and Multi Media University of Kenya (MMU) are private institu
 
 The University of Nairobi's School of Journalism and Mass Communication is East Africa's oldest journalism school, having been established in 1970. Its alumni are well-represented in Kenya's media landscape.
 
-### Kenya's Media Landscape
+#### Kenya's Media Landscape
 
 Kenya has one of Africa's most vibrant and diverse media environments. The country has:
 
@@ -99,7 +99,7 @@ Kenya has one of Africa's most vibrant and diverse media environments. The count
 
 Kenya's Constitution (2010) guarantees freedom of the media under Article 34, and the Media Council of Kenya (MCK) regulates journalistic practice and standards. However, journalists in Kenya continue to face challenges including legal threats (libel laws), physical safety risks, and economic pressures from declining traditional media revenues.
 
-### Career Paths After Journalism and Media
+#### Career Paths After Journalism and Media
 
 - **Broadcast Journalist** — Television or radio reporting, presenting, news anchoring; major employers include KBC, Citizen TV, KTN, NTV, K24
 - **Print Journalist** — Newspaper and magazine reporting, sub-editing, photojournalism
@@ -112,7 +112,7 @@ Kenya's Constitution (2010) guarantees freedom of the media under Article 34, an
 
 Starting salaries for journalists at major media houses range from KES 30,000 to KES 60,000 per month, with experienced journalists and those in corporate communications earning considerably more. Freelance and digital media work can pay significantly more per assignment but offers less financial security.
 
-### Study Tips for Cluster 14 Subjects
+#### Study Tips for Cluster 14 Subjects
 
 - **English**: Perfect your grammar, vocabulary, essay writing, and comprehension skills. As a journalist, your writing must be clear, accurate, and engaging. Read widely — newspapers, literary fiction, non-fiction — to absorb different writing styles.
 - **Literature**: Analyse texts for themes, narrative structure, character, and social context. This hones the critical thinking and contextual analysis skills that distinguish excellent journalists from mediocre ones.
@@ -152,7 +152,7 @@ Three of the note's study tips are portfolio instructions rather than syllabus i
 #### Two forces the cluster does not resolve for you
 
 The note puts accessible academic entry, 32.00+ at Moi, next to a relationship-driven industry where it also warns you not to neglect connections and internships. Low entry points and competitive job placement are both true here. Decide early whether you are aiming at a newsroom, which the note says is where salaries start at KES 30,000–60,000, or at corporate communications, which the same note says pays considerably more.
-### Common Mistakes to Avoid
+#### Common Mistakes to Avoid
 
 - **Confusing journalism with "just writing"** — Modern journalism requires multimedia skills, data literacy, social media fluency, and an understanding of media law and ethics.
 - **Not understanding media law** — Kenya's legal environment for journalists is complex. Defamation, privacy law, and official secrets legislation can land journalists in legal trouble. Study media law and ethics carefully.
@@ -160,7 +160,7 @@ The note puts accessible academic entry, 32.00+ at Moi, next to a relationship-d
 - **Neglecting ethics** — Fake news, clickbait, and sensationalism are pressures that erode trust. Strong ethical foundations distinguish professional journalists from content fabricators.
 - **Not building industry connections** — Journalism is a relationship-driven industry. Internships at media houses, journalism awards, and professional associations (e.g., Kenya Union of Journalists, Kenya Correspondents Association) are valuable for networking and career advancement.
 
-### Summary
+#### Summary
 
 Cluster 14 (Journalism and Media) is a dynamic and exciting cluster for students passionate about storytelling, communication, and information. With B plain minimums in English, Literature, and History/Geography, it is accessible to arts-focused students with strong language skills. Kenya's vibrant media environment — spanning broadcast, print, digital, and social platforms — offers diverse career opportunities for well-trained journalists and communicators. Success in this cluster requires not just academic credentials but also practical media skills, ethical grounding, and active engagement with the media industry.
 

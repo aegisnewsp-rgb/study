@@ -64,7 +64,7 @@ For proportion: p̂ ± 1.96 × √(p̂(1 − p̂)/n).
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the sixth Topic of the SACE Stage 2 Mathematical Methods Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

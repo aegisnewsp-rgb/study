@@ -18,33 +18,33 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Pattern/Rule
+#### Key Pattern/Rule
 Start with **definite positions** first, then place relative conditions. Always draw a rough sketch — your brain processes spatial info faster than abstract logic.
 
-### Memory Trick
+#### Memory Trick
 "ABSOLUTE then RELATIVE" — fix what you know absolutely before trying to chain "A is left of B" statements.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Tests your ability to arrange people in linear or circular configurations based on conditions about who sits where relative to whom.
 
-### Quick Example
+#### Quick Example
 Q: Five people (A-E) in a row. A is at one end. B is to the right of A. C is between B and D. Where is E?
 A: Multiple valid arrangements exist — more info needed to fix E's position uniquely.
 
-### Quick Example 2
+#### Quick Example 2
 Q: Six people around a circular table, facing center. P is between Q and R. S is to the left of T. Who is opposite P?
 A: Cannot determine — facing center circular seating requires direction information (clockwise order) to fix opposites.
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 Seating Arrangement is about reconstructing positions from clues. The key insight is that this isn't about probability or guessing — there's always a unique solution if you methodically apply constraints. The challenge is avoiding information overload when you have 6-8 people and 10+ conditions.
 
 Seating problems come in three main flavors: **linear (row)**, **circular**, and **rectangular**. Each has its own conventions. Linear arrangements are simplest — left-right is straightforward. Circular arrangements introduce the "facing center" vs "facing outward" complication, which reverses how left-right works. Rectangular is circular with a twist: you have corners that behave differently than sides.
 
 The approach is always the same: find what you know **for certain**, not what seems likely. A statement like "A sits at the left end" gives you absolute positional information. A statement like "A sits to the left of B" only gives relative information — you can't place either until you have more context.
 
-### Types & Approach
+#### Types & Approach
 
 **Linear Arrangement**
 - Left/Right positions are absolute (not relative to observer)
@@ -68,7 +68,7 @@ The approach is always the same: find what you know **for certain**, not what se
 - "Corner" people have only 2 neighbors; "side" people have 3
 - Corners get special treatment in conditions
 
-### Step-by-Step Example
+#### Step-by-Step Example
 **Q:** Six people (P, Q, R, S, T, U) around a circular table facing center.
 1. P is between U and S.
 2. Q is immediately right of T.
@@ -81,14 +81,14 @@ Step 3 → R is not next to Q — this eliminates adjacent slots.
 
 **Answer:** Draw it out — U, P, S occupy three consecutive seats. T and Q occupy adjacent seats. Since U, P, S form a block and T, Q form a block, they must be separated. R fills the gap between blocks. Final arrangement clockwise: T → Q → U → P → S → R (or its rotation/reflection). R is between S and T.
 
-### Common Mistakes
+#### Common Mistakes
 - Confusing "A's left" with "A is on the left side" → In circular facing center, A's left neighbor is clockwise, not visual left.
 - Forgetting that circular arrangements have rotational symmetry → If no "reference point" is given, the answer might have multiple valid rotations; check if the question accounts for this.
 - Trying to use all information simultaneously → Place definite items first, then fill in the gaps. Don't force fits.
 
 ### 🔴 Extended
 
-### Full Concept Explanation
+#### Full Concept Explanation
 Seating Arrangement is fundamentally a constraint satisfaction problem. You have a set of variables (the people) and a set of constraints (the conditions), and you need to find the single valid assignment. The difficulty comes not from any single condition being complex, but from the interactions between conditions creating a web of dependencies that can overwhelm working memory if not managed systematically.
 
 The core principle is **progressive constraint application**. You never try to solve the whole puzzle at once. Instead, you identify the most restrictive condition — the one that eliminates the most possibilities — and start there. Usually this is an absolute position ("A is third from the left") or a tight grouping ("A is immediately between B and C").
@@ -101,7 +101,7 @@ When people face outward, the opposite applies. Your left hand points counterclo
 
 Grouping conditions create "blocks" that act like single entities until they're separated. "A is between B and C" creates a three-person block that can face left or right (two orientations). "A is immediately next to B" creates a two-person block with two orientations. When you have multiple blocks, you determine their relative positions first, then resolve orientations within blocks.
 
-### GATE-Level Practice
+#### GATE-Level Practice
 
 **Q1:** Eight people (A-H) sitting in a row. A is left of B. E and F are neighbors. C is somewhere left of D. G is at one end. H is between A and F. E is not next to C. Who is at the other end?
 
@@ -111,14 +111,14 @@ Answer: G is at one end (given). Since H is between A and F, A-H-F in that order
 
 Answer: In facing-center circular arrangement, opposite means 3 positions away clockwise. If P and Q are opposite, the seats are: P, -, Q, -, P (rotational). T is between P and Q, so T is one of the seats between them. With 6 seats, P and Q split the circle into two arcs of 3 seats each (including endpoints). T on the arc between them. R is to the left of S (clockwise from R to S). With P, Q, T fixed relative to each other, and R-S relationship, we can determine U's position through elimination.
 
-### Multiple Approaches
+#### Multiple Approaches
 **Sketch Method**: Draw the seats as circles. Fill in definite positions first. Mark "slots" between known positions. Place relative conditions by seeing which slots fit. This is the fastest for most problems.
 
 **Block Method**: Identify blocks (consecutive groups) and treat each block as a single unit initially. Arrange blocks, then resolve internal order. Best when you have multiple "immediately adjacent" conditions.
 
 **Elimination Table**: Create a grid of Person vs Position. Mark X for impossible, ✓ for possible. When a row or column has only one ✓, fix that position. Continue propagating constraints. Useful for complex problems with many negative constraints ("A is not next to B").
 
-### Tricky Cases / Edge Cases
+#### Tricky Cases / Edge Cases
 - **Rotational symmetry without reference**: In circular problems with no fixed point (like "A is at the north position"), two mirror-image arrangements are considered the same. Questions may ask "how many ways" — account for this division by 2.
 - **"Between" ambiguity**: In linear arrangements, "A is between B and C" means B-A-C OR C-A-B (A is somewhere between them, not necessarily equidistant). In circular, it typically means B and C are A's immediate neighbors.
 - **Facing mixed directions**: Some problems have some people facing center, others facing outward. In these hybrid problems, left-right relationships become inconsistent — solve each group separately where possible.

@@ -120,7 +120,7 @@ The **image-charge method** replaces a grounded conducting plane with a mirror c
 
 Electrostatics ties directly to **current electricity** (the next topic) through the capacitor discharge equation $Q(t) = Q_0 e^{-t/RC}$, where $R$ is the series resistance and $C$ the capacitance. The time constant $\tau = RC$ is in seconds because $R$ is in ohms and $C$ in farads; this is the same exponential decay you see in radioactive decay and damped oscillators. The energy density $u = \tfrac{1}{2}\varepsilon_0 E^2$ also generalises to magnetic fields as $u = B^2/(2\mu_0)$, so the electromagnetic energy density is $u_{em} = \tfrac{1}{2}\varepsilon_0 E^2 + B^2/(2\mu_0)$.
 
-### Common traps
+#### Common traps
 
 - **Forgetting the dielectric constant in media.** Coulomb's law and capacitance formulas both need $\kappa$ when a material is present; plugging vacuum $\varepsilon_0$ into a problem set in water (or inside a capacitor with a dielectric) gives an answer off by the dielectric factor.
 - **Sign errors in work-energy problems.** Work done *by the field* on a positive charge moving from high to low potential is positive; the same motion for a negative charge gives negative work. Always write $W = q(V_A - V_B)$, never $W = qV_A + qV_B$.

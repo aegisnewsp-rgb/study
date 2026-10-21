@@ -56,13 +56,13 @@ Three checks decide this cluster, in order:
 
 Demand is not the constraint here. The Big Four Agenda affordable-housing target of 500,000 units by 2030, Konza Technopolis and the Mombasa port expansion all feed this cluster directly.
 
-### What Is Cluster 11?
+#### What Is Cluster 11?
 
 Cluster 11 covers programmes in architecture, building technology, construction management, quantity surveying, and urban planning. The cluster subjects are Physics, Mathematics, and either Drawing or Technical Drawing. The minimum entry grade is typically **B (plain)** in Physics and Mathematics, and a pass in the drawing-related subject, though some universities require B in Drawing as well. This cluster sits at the intersection of science and design — requiring both analytical rigour and spatial creativity.
 
 The Kenya Universities and Colleges Central Placement Service (KUCCPS) calculates cluster points from Physics, Mathematics, and your Drawing or Technical subject scores. Kenya's urbanisation rate — among the highest in Africa — means that architects, quantity surveyors, construction managers, and urban planners are in significant demand to support the country's growing cities and infrastructure development.
 
-### Required Subjects and Grades
+#### Required Subjects and Grades
 
 The cluster subjects for Cluster 11 (Architecture and Building) are:
 
@@ -72,7 +72,7 @@ The cluster subjects for Cluster 11 (Architecture and Building) are:
 
 Some universities offering Architecture (a 5-year professional degree) may require a portfolio review or an interview in addition to KCSE grades. Others offering Building Technology or Quantity Surveying may accept a third science subject (such as Chemistry or Geography) in place of Drawing for students without a drawing background.
 
-### Typical KUCCPS Cutoff Points
+#### Typical KUCCPS Cutoff Points
 
 Cutoff points for Cluster 11 vary significantly between the more design-oriented Architecture programmes and the more technical Building Technology programmes:
 
@@ -87,7 +87,7 @@ Cutoff points for Cluster 11 vary significantly between the more design-oriented
 
 Architecture consistently commands the highest cutoffs within this cluster because it combines artistic creativity with technical science, requiring the most diverse skill set.
 
-### Universities Offering Architecture and Building Under Cluster 11
+#### Universities Offering Architecture and Building Under Cluster 11
 
 - University of Nairobi (UoN) — School of Architecture
 - Technical University of Kenya (TUK) — Faculty of Architecture and Building
@@ -99,7 +99,7 @@ Architecture consistently commands the highest cutoffs within this cluster becau
 
 The University of Nairobi's School of Architecture is the oldest and most prestigious architecture school in Kenya. Its graduates are registered with the Board of Registration of Architects and Quantity Surveyors (BORAQS) and are eligible to practise as professional architects after completing the mandatory pupillage period.
 
-### Kenya's Construction Boom
+#### Kenya's Construction Boom
 
 Kenya is experiencing a significant construction and infrastructure boom that makes Cluster 11 particularly attractive. Notable projects include:
 
@@ -111,7 +111,7 @@ Kenya is experiencing a significant construction and infrastructure boom that ma
 
 This construction boom translates directly into employment opportunities for Cluster 11 graduates.
 
-### Career Paths After Architecture and Building
+#### Career Paths After Architecture and Building
 
 - **Architect** — Designing residential, commercial, and institutional buildings; licensed by BORAQS after pupillage
 - **Quantity Surveyor** — Managing construction costs, preparing bills of quantities, contract administration; chartered by the Institute of Quantity Surveyors of Kenya (I.QSK)
@@ -124,7 +124,7 @@ This construction boom translates directly into employment opportunities for Clu
 
 Graduate salaries for architecture and building professionals start at approximately KES 50,000 to KES 100,000 per month in established firms, with experienced architects and quantity surveyors earning significantly more, especially when running their own practices.
 
-### Study Tips for Cluster 11 Subjects
+#### Study Tips for Cluster 11 Subjects
 
 - **Physics**: Focus on mechanics (forces, motion, equilibrium), thermodynamics, and wave phenomena. For architecture, understanding structural loads, material strength, and acoustics is particularly important. Practice solving physics problems that involve force diagrams and equilibrium calculations.
 - **Mathematics**: Master algebra, trigonometry, geometry, and statistics. Architects and surveyors use mathematics daily for measurements, area calculations, scale drawing, and cost estimation.
@@ -167,7 +167,7 @@ Structural Engineer appears in the career list on this page, and it is the one r
 
 Green building certification — LEED, EDGE, Green Star Africa — is becoming a standard expectation in Kenyan practice rather than a specialist niche. It is also the cheapest place to be visibly ahead of a cohort, because it is barely studied at school at all.
 
-### Common Mistakes to Avoid
+#### Common Mistakes to Avoid
 
 - **Confusing Architecture with purely artistic design** — Architecture is both an art and a science. You need creative vision AND technical competence in physics, mathematics, and building regulations.
 - **Underestimating the licensing pathway** — After completing your degree, you must register with BORAQS and complete a pupillage period before practising independently as an architect. This takes additional time beyond your degree.
@@ -175,7 +175,7 @@ Green building certification — LEED, EDGE, Green Star Africa — is becoming a
 - **Ignoring the business dimension** — Many architects eventually run their own firms. Understanding contracts, project finance, and client management is as important as design skill for long-term career success.
 - **Overlooking sustainability** — Green building design (using LEED, EDGE, or Green Star Africa certification systems) is becoming a standard expectation in Kenya's construction industry. Familiarise yourself with sustainable design principles.
 
-### Summary
+#### Summary
 
 Cluster 11 (Architecture and Building) offers a unique blend of design creativity and technical science, leading to careers in architecture, quantity surveying, construction management, and urban planning. With B plain in Physics and Mathematics and a pass in Drawing, it is more accessible than the top engineering or medical clusters while offering excellent career prospects in Kenya's construction boom. The government's Big Four Agenda and rapid urbanisation ensure strong and growing demand for qualified built-environment professionals in Kenya.
 

@@ -149,7 +149,7 @@ Dimensions express the dependence of a physical quantity on the base dimensions 
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. An experiment measures acceleration due to gravity using a simple pendulum: $g = 4\pi^2 \frac{L}{T^2}$. If length $L$ has a percentage error of $1.5\%$ and time period $T$ has a percentage error of $2.0\%$, compute the maximum percentage error in the calculated value of $g$.
 2. Write the dimensional formula for Planck constant $h$, gravitational constant $G$, and coefficient of viscosity $\eta$. Identify which pair of physical quantities among work, torque, and angular momentum share identical dimensions.

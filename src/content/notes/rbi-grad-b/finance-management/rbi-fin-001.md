@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 The financial market is a marketplace where buyers and sellers trade financial instruments like money market securities, bonds, and equities to allocate funds efficiently across the economy.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI uses money market operations — especially repos and reverse repos — as its primary tool to control liquidity and signal monetary policy stance; understanding this helps you predict rate movements that affect everything from bank FD rates to loan EMIs.
 
-### Must Know Facts
+#### Must Know Facts
 - Treasury Bills come in 91-day, 182-day, and 364-day tenures; the 364-day T-Bill is the most frequently issued by the GoI
 - Call Money is an overnight market where banks borrow from each other to meet CRR shortfalls; RBI's LAF repo rate is the policy anchor
 - BSE (established 1875) is Asia's oldest stock exchange; NSE (1994) is the larger one by turnover
 - NSDL and CDSL are India's two depositories holding securities in electronic (demat) form
 - India Inc's total market capitalisation crossed ₹320 lakh crore (~USD 4 trillion) by early 2025
 
-### Quick Example / Application
+#### Quick Example / Application
 When HDFC Bank needs ₹500 crore for 3 days to meet a sudden CRR gap, it enters the Call Money market at the prevailing rate — typically close to the RBI's repo rate. If the repo rate rises, call money becomes more expensive for all banks.
 
-### 1-Line Summary
+#### 1-Line Summary
 India's financial markets split into a short-term Money Market (T-Bills, CP, Call Money, repos) for liquidity management and a long-term Capital Market (equities, bonds, derivatives) for capital formation, both regulated by RBI and SEBI.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Think of India's financial market as the circulatory system of the economy. Just like your body needs blood to reach every organ, the economy needs capital to flow from people who have surplus (households saving in FDs, PPF) to people who need it (a startup building a factory, the government building highways). Financial markets are the channels that make this possible.
 
@@ -49,7 +49,7 @@ The **Capital Market** is where long-term dreams get funded. This is where compa
 
 The genius of having both markets working together is that money can flow efficiently — from your Savings Account into Fixed Deposits, into T-Bills or bonds, into equity shares, into economic growth.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -63,18 +63,18 @@ The genius of having both markets working together is that money can flow effici
 | Depository (NSDL/CDSL) | Institutions that hold securities in electronic (demat) form and enable paperless settlement |
 | Market Capitalisation | Total market value of all listed shares = share price × total number of shares outstanding |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 In October 2023, the RBI conducted an unscheduled repo operation under LAF when system liquidity turned deficit. Banks that needed funds tendered government securities (G-Secs, T-Bills) as collateral and received funds at the repo rate. This operation temporarily eased the liquidity crunch and brought call money rates back toward the policy repo rate of 6.5%. As an RBI Grade B candidate, notice how a single LAF operation simultaneously affects short-term rates across the entire money market curve.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Conceptual questions**: "Distinguish between money market and capital market" or "What is the role of NSDL?"
 - **Numerical questions**: Simple yield calculations on T-Bills, computing holding period yield
 - **Case-based**: A scenario where RBI changes the repo rate — you need to trace the impact on various money market rates and explain transmission
 - **Memory-based**: Match instruments to their correct market segment; identify which entity regulates which market
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** A 91-day Treasury Bill is issued at a discount price of ₹97.50 per ₹100 face value. Calculate the annualized yield.
 
@@ -98,7 +98,7 @@ Note: The bank discount yield and the annualised yield can differ slightly depen
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 India's financial market architecture has evolved dramatically since liberalisation. Before 1991, the system was heavily controlled — interest rates were administered, credit was rationed, and the distinction between money and capital markets was blurry because everything ran through the same state-owned banking system. The Narasimham Committee reports (1991 and 1998) laid the blueprint for the modern two-tier market structure we have today.
 
@@ -108,7 +108,7 @@ The **Capital Market** ecosystem has three pillars: the **stock exchanges** (NSE
 
 The **primary market** underwent a structural shift with SEBI's overhaul of the IPO process — from the old "book building" approach to the modern "fixed price + book building" hybrid, and now increasingly digitised ASBA (Application Supported by Blocked Amount) processes that eliminate the need for refund mechanics. The 2019-2021 IPO boom saw-record issuances from companies like LIC (₹21,000 crore in 2022), Paytm, and LIC HFL, demonstrating the market's capacity to absorb enormous volumes.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 From a theoretical perspective, financial markets serve three functions simultaneously: **price discovery** (what is the fair value of capital?), **liquidity provision** (can you exit an investment quickly without price impact?), and **risk transfer** (can you shift risk to someone more willing to bear it?). The money market excels at liquidity; the capital market excels at price discovery and risk-sharing through diversified portfolios.
 
@@ -116,7 +116,7 @@ RBI's dual role is unique — it operates both in the money market (as a partici
 
 The **G-Sec market** deserves special attention because it straddles both money and capital markets — short-term G-Secs (up to 1 year) trade like money market instruments while long-term G-Secs (10, 15, 30 years) are capital market instruments. RBI conducts Open Market Operations (OMO) — buying and selling G-Secs — as a supplementary liquidity management tool. When RBI buys G-Secs from banks, it injects liquidity directly into the banking system.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 For the RBI Grade B exam, examiners expect you to understand the **transmission mechanism** — how changes in RBI's policy rate ripple through the entire financial market. When RBI raises the repo rate:
 1. Banks' cost of funds rises → deposit rates eventually increase
@@ -128,7 +128,7 @@ For the RBI Grade B exam, examiners expect you to understand the **transmission 
 
 You must also know that RBI uses **qualitative and quantitative tools**: the quantitative tools are CRR, SLR, and Repo/Reverse Repo; the qualitative tools include Margin Requirements, Credit Ceiling directives, and moral suasion (speeches and circulars).
 
-### Case Study / Application
+#### Case Study / Application
 
 **The September 2019 IL&FS Crisis**: Infrastructure Leasing & Financial Services (IL&FS), a systemically important NBFC, defaulted on its debt obligations in September 2018. This sent shockwaves through the Indian financial system. The immediate impact:
 - CP market froze as investors stopped rolling over short-term paper
@@ -138,7 +138,7 @@ You must also know that RBI uses **qualitative and quantitative tools**: the qua
 
 Lessons for exam: This case demonstrates why understanding the money market's interconnectedness matters — an NBFC default rippled into the CP market, then into mutual funds, then into systemic liquidity. It validated RBI's later push for stricter NBFC regulations (the Scale-Based Regulation framework launched in 2021).
 
-### GATE-Level Numerical
+#### GATE-Level Numerical
 
 **Q:** The RBI conducts a repo auction where it injects ₹50,000 crore for 3 days at a repo rate of 6.5%. A bank participates and borrows ₹1,000 crore. Calculate the interest the bank must pay on maturity (day 3).
 
@@ -162,13 +162,13 @@ $$\text{Total Repayment} = ₹1{,}000 + ₹5.34 = ₹1{,}005.34 \text{ crore}$$
 
 Note: In practice, repo transactions are calculated on an actual/365 basis, and the collateral (G-Secs) is marked-to-market daily to protect against default risk.
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 - **Academic view**: Financial markets reduce information asymmetry (signalling theory), improve allocative efficiency, and allow risk-sharing across time horizons. The Modigliani-Miller theorem assumes perfect markets — Indian markets deviate significantly due to taxes, bankruptcy costs, and asymmetric information.
 - **RBI/Regulatory view**: Financial stability is paramount. RBI monitors systemic risk through the **Financial Stability Report (FSR)** and uses tools like the **Capital Conservation Buffer (CCB)** to ensure banks can absorb shocks. SEBI focuses on investor protection and market integrity through disclosure-based regulation.
 - **Practical/Industry view**: Market participants care about liquidity, transaction costs, and price efficiency. Foreign Institutional Investors (FIIs) represent ~20% of Indian equity market capitalisation — their flows significantly impact rupee-dollar dynamics and domestic liquidity.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 - **RBI's T+1 Settlement Success**: By 2025, the T+1 settlement cycle for equity trades was fully operational across both BSE and NSE, significantly reducing systemic risk from settlement failures
 - **Unified Lending Interface (ULI)**: RBI's 2024 initiative to create a frictionless credit delivery platform, analogous to UPI for retail lending

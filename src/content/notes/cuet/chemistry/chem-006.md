@@ -153,7 +153,7 @@ The criterion is about the **system plus surroundings at constant T and P**. ΔS
 
 What thermodynamics cannot do is tell you **how fast** a reaction will be. Diamond and graphite are both stable, graphite is thermodynamically favoured, and diamond nevertheless persists, because the activation barrier for converting one to the other is enormous. If a question seems to ask thermodynamics to explain a rate, the question is wrong or is really a kinetics question — and kinetics is a separate chapter with its own criteria.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -194,7 +194,7 @@ flowchart TD
   - *Specific heat capacity of water?* → 4.18 J g⁻¹ K⁻¹.
   - *Can ΔS of a perfect crystal at 0 K be negative?* → no, the Third Law sets it to exactly zero.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 1. **Ethanol combustion has ΔH = −1367 kJ mol⁻¹ and ΔS = +138 J K⁻¹ mol⁻¹. Spontaneous at 298 K?**
    ΔG = ΔH − TΔS. Convert ΔS: 138 J K⁻¹ = 0.138 kJ K⁻¹. TΔS = 298 × 0.138 = 41.1 kJ mol⁻¹. ΔG = −1367 − 41.1 = **−1408 kJ mol⁻¹**, so it is spontaneous. Notice that both terms helped: the reaction is exothermic (favourable) and increases the number of gas moles (also favourable). Case 1 of the sign table.
@@ -213,7 +213,7 @@ flowchart TD
 8. **Diamond is less stable than graphite at ordinary conditions. Why has it not all turned into graphite?**
    Thermodynamics says the conversion is spontaneous, because graphite is the lower-energy form of carbon. But thermodynamics says nothing about **rate**, and the activation barrier for rearranging the entire covalent network is enormous at room temperature. This is the standard warning: ΔG predicts what is stable, not what happens quickly, and no amount of thermodynamic knowledge will tell you a reaction rate. Kinetics is a separate chapter with separate criteria.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Reading "heat released" as a positive ΔH.** Released heat means an exothermic reaction, so ΔH is negative. If a question asks how much heat was liberated, report the magnitude and say the reaction is exothermic.
 2. **Using Celsius in η = 1 − T_c/T_h.** The ratio is meaningless unless both temperatures are absolute.
@@ -227,7 +227,7 @@ flowchart TD
 10. **Asking thermodynamics to predict a rate.** ΔG says whether, not how fast.
 11. **Using Q_p = ΔH for a bomb calorimeter.** A bomb calorimeter works at constant volume, so what it measures is ΔU.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Decide the question type before you touch the data: signs, or numbers.** A sign question needs no arithmetic at all, and reading four data values before noticing that is wasted time.
 2. **Write the four sign cases on the back of your sheet** and use them for every spontaneity question, including assertion–reason items where the "reason" is usually a sign pair.

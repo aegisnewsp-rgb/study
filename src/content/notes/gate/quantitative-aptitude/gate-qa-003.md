@@ -18,20 +18,20 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 Average = (Sum of all values) ÷ (Number of values)
 
-### Quick Memory Trick
+#### Quick Memory Trick
 Average is just a fair share — if everyone got the same amount, what would that amount be? That's your average.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 The average tells you what the "per person" value would be if you redistributed everything equally across all values.
 
-### Quick Example
+#### Quick Example
 Q: Heights of 5 students: 150cm, 155cm, 160cm, 165cm, 170cm. Find average height.
 A: (150+155+160+165+170) ÷ 5 = 800 ÷ 5 = 160 cm
 
-### Must Remember
+#### Must Remember
 - Average of first n natural numbers = (n+1)/2
 - Average is always between the minimum and maximum value
 - Adding the same value to every item doesn't change the average difference from each item — it shifts the average by that same amount
@@ -40,14 +40,14 @@ A: (150+155+160+165+170) ÷ 5 = 800 ÷ 5 = 160 cm
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 Average is one of the most intuitive concepts in mathematics, yet it trips up even smart students when weighted averages enter the picture. At its core, an average is an attempt to find one representative number that captures the essence of a group. If five friends share a pizza and each eats a different number of slices (2, 3, 4, 5, 6), how many slices per person is the "fair share"? You add up all the slices (20) and divide by the number of people (5), giving 4 slices per person. That's the average — a way of redistributing so everyone has an equal share. Simple averages work perfectly when every value carries the same weight or importance.
 
 But what happens when values aren't equal in importance? This is where weighted average comes in. Imagine a college course where your exam counts for 60% of your grade but assignments count for only 40%. If you score 90 in exams and 70 in assignments, a simple average would give you (90 + 70) ÷ 2 = 80. But that's misleading — your exam performance should count more. The weighted average is (90 × 0.6) + (70 × 0.4) = 54 + 28 = 82. The exam's higher weight pulls your average up toward your exam score. This is why weighted average matters: it respects the reality that not everything contributes equally to the final picture.
 
 Another common trap is the assumption that combining two groups of numbers always preserves the average. It doesn't. If you merge a class of students with an average score of 80 with another class averaging 60, the combined average isn't 70 — it depends on how many students are in each class. A class of 10 students averaging 80 combined with a class of 40 students averaging 60 gives a combined average of (10×80 + 40×60) ÷ 50 = 800 + 2400 = 3200 ÷ 50 = 64, not 70. The larger group dominates and drags the average down toward 60.
 
-### Key Formulas
+#### Key Formulas
 | Symbol | Meaning |
 |--------|---------|
 | A | Average |
@@ -60,7 +60,7 @@ Average formula: A = S / n = (x₁ + x₂ + ... + xₙ) / n
 Weighted average: WA = (Σ wᵢ × xᵢ) / (Σ wᵢ)
 Combined average: A = (n₁×A₁ + n₂×A₂) / (n₁ + n₂)
 
-### Step-by-Step Example
+#### Step-by-Step Example
 **Q:** A student scores 70, 80, 90, and 85 in four tests. Each test has different weights: 1, 2, 3, and 2 respectively. Find the weighted average.
 
 **Step 1:** Set up the weighted average formula.
@@ -75,12 +75,12 @@ WA = (Σ wᵢ × xᵢ) / (Σ wᵢ)
 
 Compare with simple average: (70+80+90+85)/4 = 325/4 = 81.25. The weighted average is higher because the 90 (weight 3) pulls the result up.
 
-### Common Mistakes
+#### Common Mistakes
 - Simple average vs weighted average confusion → Correction: Only use simple average when all values are equally important. If weights differ, you MUST use weighted average.
 - Adding averages directly without considering group sizes → Correction: When combining groups, multiply each group's average by its size before adding.
 - Assuming equal distribution causes no change in average → Correction: Adding the same value to every term increases the average by exactly that value. Adding the same value to only some terms changes the weighted result.
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 1. Q: The average of 15 numbers is 25. If each number is multiplied by 3, what is the new average?
    Options: A) 25  B) 75  C) 28  D) 50
    Ans: B) 75 (average also gets multiplied by 3: 25 × 3 = 75)
@@ -91,7 +91,7 @@ Compare with simple average: (70+80+90+85)/4 = 325/4 = 81.25. The weighted avera
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 Average is a measure of central tendency — one of the three key statistical measures (alongside median and mode) that tell you where data tends to cluster. But average has a fascinating mathematical property that makes it unique: it minimizes the sum of squared deviations from itself. What does this mean practically? If you pick any other number as your "typical" value and measure how far each actual value strays from it (squared, so direction doesn't matter), the total squared error is always smallest when you use the arithmetic mean. This is why the average is so fundamental — it's the single number that best represents a set of numbers in the least-squares sense.
 
 Let's dig into weighted average from first principles. When you compute a simple average of [80, 90], you get 85 — equal weight to both values. But mathematically, the simple average (x₁ + x₂)/2 is just a special case of weighted average where both weights equal 1. The formula (w₁x₁ + w₂x₂)/(w₁ + w₂) generalizes this. When w₁ = w₂, it simplifies to (x₁ + x₂)/2. So simple average IS weighted average with equal weights. The distinction is only about whether the weights differ.
@@ -100,7 +100,7 @@ The combined average formula — A = (n₁×A₁ + n₂×A₂)/(n₁ + n₂) —
 
 Consider the case where one value in a dataset changes. If the average of n values is A, and one value x is replaced by y, the new average A' can be found without knowing all other values: A' = A + (y − x)/n. This formula is incredibly useful in problems where you're tracking how one change affects the overall average. If the average salary of 10 employees is ₹50,000 and an employee earning ₹40,000 gets a raise to ₹60,000, the new average is 50,000 + (60,000 − 40,000)/10 = 52,000. You didn't need to know what everyone else earned.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 
 **Deriving the combined average formula:**
 Given:
@@ -119,7 +119,7 @@ New average A' = S'/n = (nA − x + y)/n = A + (y − x)/n
 **For three or more groups, the formula extends naturally:**
 A = (n₁×A₁ + n₂×A₂ + n₃×A₃ + ...) / (n₁ + n₂ + n₃ + ...)
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 
 **Q1 (GATE 2020):** The average of 50 numbers is 30. Later it was found that one number 45 was wrongly taken as 54. What is the corrected average?
 - Working:
@@ -145,7 +145,7 @@ A = (n₁×A₁ + n₂×A₂ + n₃×A₃ + ...) / (n₁ + n₂ + n₃ + ...)
 - Answer: 60 runs
 - Common error: Thinking the average increases by 10 means just add 10 to the old average — the fifth score must specifically cause this increase.
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Method A: Direct calculation (always works)**
 Find sum of all values, divide by count. For weighted average, multiply each value by its weight, sum those, then divide by total weight. This method is foolproof but slower.
@@ -155,7 +155,7 @@ When values are close to a guessed average, compute deviations from the guess an
 
 **When to use:** Method A for precision and when data is not conveniently clustered. Method B for speed when you spot numbers near a round value.
 
-### Tricky Cases
+#### Tricky Cases
 - **Negative values in weighted average:** Weighted average works with any real numbers, positive or negative. Weights can also be negative, though this is rare in exam contexts. In signal processing, negative weights allow weighted averages below every individual value.
 - **Percentage as weight:** When weights are percentages (like 40%, 60%), they must sum to 100%. You can verify: weighted average = (40%×A + 60%×B)/100% = 0.4A + 0.6B. This is exactly the same as giving weights 2 and 3 to A and B respectively.
 - **Missing data from averages:** If you know the average of n values but one value is unknown, you can't determine the exact value — only the sum. To find the missing value, you need either another equation or the sum of the remaining values.

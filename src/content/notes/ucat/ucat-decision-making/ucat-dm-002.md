@@ -45,7 +45,7 @@ Decision Making mixes logical puzzles with statistical and visual reasoning. The
 
 > Source for subtest size, time and marking (35 items / 37 minutes / 300–900 scale / single-answer 1 mark, multiple-statement 2 marks with partial credit): UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The Decision Making question tutorial is the official source for item-type examples.
 
-### Venn diagrams — the inclusion-exclusion check
+#### Venn diagrams — the inclusion-exclusion check
 
 A Venn diagram represents sets as overlapping circles. For a two-set problem the regions are: only A, only B, A and B, neither. For a three-set problem the regions are: only A, only B, only C, A∩B only, A∩C only, B∩C only, A∩B∩C, none.
 
@@ -76,7 +76,7 @@ Inclusion-exclusion check: |A ∪ B ∪ C| = 50 + 40 + 30 − 20 − 15 − 10 +
 
 The trap on three-set Venns is forgetting that the pairwise overlaps include the triple overlap. If you write down "A and B = 20" without subtracting the triple overlap, the only-A and only-B regions come out wrong.
 
-### Probability — the rules that come up most often
+#### Probability — the rules that come up most often
 
 The UCAT does not test advanced probability. It tests five rules, applied correctly under time pressure:
 - Complement: P(not A) = 1 − P(A)
@@ -128,7 +128,7 @@ The hip replacement chart between 2019 and 2024 shows length of stay falling fro
 #### A statement of fact is not a statement of cause
 The five patterns in this note all reduce to one question: does the conclusion add a word the data did not contain. A correlation stated as causation, a clinic generalised to a country, a direction reversed, a trend stated as an absolute, a difference attributed to one cause when others are plausible — each is the same move. Recognising the shared shape is faster than running five separate checks, and it survives item types the note does not list.
 
-### Worked example — interpreting a probability claim from data
+#### Worked example — interpreting a probability claim from data
 
 A clinic reports that 60% of patients referred for a sleep study are diagnosed with obstructive sleep apnoea (OSA). Among patients with OSA, 40% have a body mass index above 30. Among patients without OSA, 15% have a body mass index above 30.
 
@@ -150,7 +150,7 @@ Let OSA = A. P(A) = 0.6. P(not A) = 0.4. P(BMI > 30 | A) = 0.4. P(BMI > 30 | not
 
 So 80% of patients with a BMI above 30 have OSA under the clinic's data. The reverse-conditioning step (using Bayes' rule) is the part candidates miss: the question gives you P(BMI | OSA) and asks you to find P(OSA | BMI). The two are not equal, and the swap is one of the most common errors in Decision Making probability items.
 
-### Argument evaluation — does the data actually support the conclusion?
+#### Argument evaluation — does the data actually support the conclusion?
 
 The Decision Making subtest also includes short argument-evaluation items: a passage makes a claim, and you have to decide which conclusion is best supported by the data. The marking shape is the same as for syllogisms — pick the conclusion that follows, and reject any conclusion that adds an unsupported step.
 
@@ -164,7 +164,7 @@ Five patterns to watch for:
 
 In each case the right response is the conclusion that sticks closest to what the data literally says.
 
-### Worked example — argument evaluation against a chart
+#### Worked example — argument evaluation against a chart
 
 A hospital trust publishes a chart showing that, between 2019 and 2024, average length of stay for elective hip replacements fell from 4.2 days to 2.8 days, while the 30-day readmission rate rose from 3.1% to 4.0%.
 
@@ -177,7 +177,7 @@ Which conclusion is best supported?
 
 The best-supported conclusion (C) is the one that mirrors the chart exactly. The UCAT rewards that discipline.
 
-### Common mistakes to correct now
+#### Common mistakes to correct now
 
 - Treating "more than half" and "most" as interchangeable. "More than half" is a strict mathematical statement (>50%); "most" can mean a non-strict majority.
 - Forgetting that P(A ∪ B) subtracts the intersection. Adding P(A) + P(B) without subtracting the double-counted region overcounts the union.
@@ -185,7 +185,7 @@ The best-supported conclusion (C) is the one that mirrors the chart exactly. The
 - Reading a chart and answering from the conclusion in the title rather than from the data in the body.
 - Concluding causation from a chart that shows correlation. The chart shows what changed; it does not show what caused what.
 
-### What to do next
+#### What to do next
 
 - Drill three-set Venn problems a day for a week, with the inclusion-exclusion check written down next to the answer.
 - Take three probability problems from the official UCAT practice tests and identify which of the five rules each one tests before you calculate.

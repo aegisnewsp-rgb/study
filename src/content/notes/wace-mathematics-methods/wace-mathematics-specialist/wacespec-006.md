@@ -68,7 +68,7 @@ For an object on a smooth incline of angle θ: weight components parallel to slo
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the second Topic of Unit 4 in the WACE Mathematics Specialist ATAR Year 12 syllabus. Confirm the live examination design brief on senior-secondary.scsa.wa.edu.au.
 

@@ -42,7 +42,7 @@ Verbal Reasoning asks the same question from two angles: what can you draw out f
 
 > Source for subtest size, time and scoring (44 items / 22 minutes / 300–900 scale): UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The UCAT Consortium's verbal reasoning question tutorial covers the same True/False/Can't Tell format this note builds on.
 
-### What "inference" actually means in the test
+#### What "inference" actually means in the test
 
 An inference is a statement that must be true given what the passage says. To check whether a statement is a valid inference, take the premise and apply one logical step. If the conclusion follows necessarily — not probably, not in most cases — it is True. If the conclusion can be drawn but with a gap, it is not a valid inference under the UCAT's strict reading.
 
@@ -50,7 +50,7 @@ A useful test: ask whether you can construct a world in which the passage's stat
 
 For example, if the passage says "All the pilot schemes used recycled water" and the statement says "Some of the pilot schemes were in dry regions", you can construct a world in which all the schemes used recycled water but were in wet regions. The premise does not force the inference, so the statement is Cannot Tell, not True.
 
-### What "assumption" actually means in the test
+#### What "assumption" actually means in the test
 
 An assumption is the unstated link between a premise and a conclusion. The UCAT does not label an item "spot the assumption" — but it tests the same skill when a statement says something that the passage only implies, or when a False statement can be flipped into True by removing an unstated premise.
 
@@ -61,7 +61,7 @@ Two patterns come up repeatedly:
 
 In both cases, the trap is that the conclusion sounds reasonable. The marker does not score reasonableness. It scores the match between the statement and the passage.
 
-### A four-question framework for any statement
+#### A four-question framework for any statement
 
 When you read a statement, run it through four checks before committing:
 
@@ -96,7 +96,7 @@ A statement the passage gestures towards without ever stating comes out Cannot T
 #### Reading for shape pays back on the long passages
 The note's reading advice is that the first read should establish where the evidence sits, where the conclusion sits and where the qualifiers are, so that each statement can be answered from one sentence. The saving is largest where passages get longest: there, a candidate who re-reads from the top for every statement spends the budget the timing note warns about. One pass for shape, then a jump per statement.
 
-### Worked example — distinguishing inference from assumption
+#### Worked example — distinguishing inference from assumption
 
 Passage:
 
@@ -112,7 +112,7 @@ Statements:
 
 The pattern to notice: items 1 and 3 are inferences, and the answer is True because the statement follows from the passage. Item 2 swaps "is associated with" for "caused", which adds an unsupported assumption. Item 4 generalises across boroughs, again adding an unsupported assumption. Item 5 introduces a new comparison the passage does not make.
 
-### Strong inferences versus weak ones
+#### Strong inferences versus weak ones
 
 A strong inference is one that the passage makes difficult to deny. "71% of residents felt pavements had improved" is a strong inference because the passage gives the survey result directly.
 
@@ -120,20 +120,20 @@ A weak inference is one that the passage suggests but does not state. "Residents
 
 A rule of thumb: if the statement uses any of the words "probably", "likely", "tends to" or "may", check whether the passage uses the same word. If the passage does not, the statement has upgraded a soft claim into a hard one, and the answer is False.
 
-### How this changes your reading strategy
+#### How this changes your reading strategy
 
 Most candidates read the passage once and answer the statements. That works for the first few items but starts to break down on the longer passages in the second half of the subtest. The UCAT verbal reasoning tutorial recommends spending the first read on the shape of the argument: where the evidence is, where the conclusion is, and where any qualifiers sit. Then for each statement, you return to the relevant sentence rather than re-reading the whole passage.
 
 Reading for shape first lets you catch the four-question framework faster. You know where to look for the direction, the strength, the scope and the comparison before you read the statement.
 
-### Common mistakes to correct now
+#### Common mistakes to correct now
 
 - Treating "Cannot Tell" as the same as "False". Cannot Tell means the passage is silent; False means the passage contradicts. Both are common wrong answers, but for different reasons.
 - Reading the conclusion of a passage and assuming the whole passage supports it. The conclusion can be an inference of the author's argument, but the UCAT scores the match between the statement and the explicit passage text.
 - Adding a "common sense" assumption. The UCAT does not award marks for bringing in real-world knowledge.
 - Confusing direction with strength. A statement can be the right direction ("improved") but the wrong strength ("all" instead of "most"), and that is False, not True.
 
-### What to do next
+#### What to do next
 
 - Take one Verbal Reasoning passage from the official UCAT practice tests and write down the four-question framework answers (direction, strength, scope, comparison) for every statement before you pick True, False or Cannot Tell.
 - Mark any statement you almost marked True without a clear passage citation. If you cannot cite the sentence, change the answer to Cannot Tell.

@@ -27,18 +27,18 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 
 ### 🟡 Standard Study
 
-### Rutherford's Atomic Model
+#### Rutherford's Atomic Model
 
 - Gold foil experiment: most alpha particles passed through → atom is mostly empty
 - Few particles deflected at large angles → presence of a dense positively charged nucleus
 - Limitations: Cannot explain stability of atoms, nor the hydrogen spectrum
 
-### Thomson's Plum Pudding Model
+#### Thomson's Plum Pudding Model
 
 - Positive sphere with electrons embedded like plums in pudding
 - Disproved by Rutherford's experiment
 
-### Bohr's Atomic Model
+#### Bohr's Atomic Model
 
 **Postulates:**
 1. Electrons revolve in discrete circular orbits (stationary states) — do not radiate energy
@@ -56,7 +56,7 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 - Cannot explain spectral intensity variations
 - Fails for multi-electron atoms
 
-### Energy Levels and Spectral Series
+#### Energy Levels and Spectral Series
 
 **Hydrogen Spectrum Series:**
 
@@ -71,19 +71,19 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 **Ionisation Energy of Hydrogen:** 13.6 eV (ground state)
 **Ionisation Potential:** 13.6 V (first ionisation potential)
 
-### Hydrogen-like Atoms
+#### Hydrogen-like Atoms
 
 - Species with one electron: He⁺, Li²⁺, Be³⁺
 - Formula: En = −13.6 Z²/n² eV
 - Radius: r = 0.529 n²/Z Å
 
-### de Broglie's Matter Waves
+#### de Broglie's Matter Waves
 
 - λ = h/mv = h/√(2mE)
 - Applied to electron orbits: for stable orbits, circumference = nλ
 - This gives the quantisation condition: mvr = nh/2π
 
-### X-rays
+#### X-rays
 
 - Produced when high-speed electrons strike metal target
 - Continuous spectrum (bremsstrahlung) + characteristic spectrum
@@ -92,30 +92,30 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 
 ### 🔴 Deep Study
 
-### Velocity and Frequency in Bohr Orbits
+#### Velocity and Frequency in Bohr Orbits
 
 - Orbital velocity: vₙ = (ke²Z)/nh = 2.18 × 10⁶ Z/n m/s
 - Orbital radius: rₙ = (n²h²)/(4π²mke²Z) = 0.529 n²/Z Å
 - Time period: Tₙ = (2πrₙ)/vₙ ∝ n³
 - Frequency of revolution: fₙ = 1/Tₙ ∝ 1/n³
 
-### Frequency of Emitted Radiation
+#### Frequency of Emitted Radiation
 
 - ν = (me⁴)/(8ε₀²h³) × (Z²) × (1/n_f² − 1/n_i²)
 - Rydberg constant for hydrogen: R = me⁴/(8ε₀²h³c) = 1.097 × 10⁷ m⁻¹
 
-### Shortest Wavelength in Hydrogen Spectrum
+#### Shortest Wavelength in Hydrogen Spectrum
 
 - Maximum energy transition: n = ∞ to n = 1
 - λ_min = 1/R = 912 Å (Lyman series limit)
 
-### Atomic Radius and Nucleus Size
+#### Atomic Radius and Nucleus Size
 
 - Atomic radius: ~10⁻¹⁰ m (angstrom)
 - Nuclear radius: ~10⁻¹⁵ m (femtometer)
 - Nuclear radius formula: R = R₀A^(1/3), where R₀ ≈ 1.2 × 10⁻¹⁵ m
 
-### Bohr's Correspondence Principle
+#### Bohr's Correspondence Principle
 
 - Quantum mechanics gives same results as classical physics for large quantum numbers (n → ∞)
 

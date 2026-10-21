@@ -123,7 +123,7 @@ Cost of 5 kg = 3 × 40 + 2 × 60 = ₹240 → ₹48/kg. Gain = 55 − 48 = ₹7.
 **P3.** A shopkeeper buys at ₹400, marks the price up by 50% and offers a 20% discount. What is the gain%?
 MP = 400 × 1.5 = ₹600. SP = 600 × 0.8 = ₹480. Gain = 480 − 400 = ₹80, so 80 ÷ 400 = **20%**. Note the shopkeeper's 20% gain and the 20% discount are numerically equal and have nothing to do with each other — a good illustration of why the two percentages must be kept apart.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -156,7 +156,7 @@ flowchart TD
   - *20% off then 10% off ₹1,000?* → ₹720, overall 28% off.
   - *900 g sold as 1 kg?* → (1000 − 900)/900 = 11.11% gain.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Dividing the gain by the SP.** ₹150 on a sale of ₹750 is 20% of 750 and 25% of the ₹600 cost. Profit percentage is always over CP.
 2. **Adding successive percentages.** +20% and −10% is +8%, not +10%. Same for two discounts: 20% and 10% is 28%.
@@ -169,7 +169,7 @@ flowchart TD
 9. **Answering a percentage-point question with a relative percentage** (or the reverse).
 10. **Setting up the alligation/weighted-average cost incorrectly for a mixture,** then computing a gain off the selling price instead of that cost.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Write your answer and your base before reading the solution.
 
@@ -190,7 +190,7 @@ Write your answer and your base before reading the solution.
 8. **A ₹1,000 article is discounted by 20% and then by a further 10%. What is the final price and the overall discount?**
    First discount: 1000 × 0.80 = ₹800. Second: 800 × 0.90 = **₹720**. The overall discount is (1000 − 720)/1000 = **28%**, not 30% — the second 10% applies to ₹800, not to ₹1,000.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Name the base before you compute.** Write "CP = 600" next to the question and the right answer usually follows without thought.
 2. **Convert every percentage to a multiplier the moment you see two of them.** 1.20 and 0.90 cannot be misread; "20% up, 10% down" can.

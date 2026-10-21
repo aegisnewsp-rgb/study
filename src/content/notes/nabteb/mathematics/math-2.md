@@ -140,7 +140,7 @@ $$\frac{3\frac{1}{4} - 1\frac{2}{3}}{2\frac{1}{2} \times 1\frac{1}{5}} \div \fra
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. An artisan uses $\frac{3}{8}$ of a metal pipe on Monday and $\frac{2}{5}$ of the remainder on Tuesday. If $4.5 \text{ metres}$ of pipe remains, calculate the original length of the pipe.
 2. A trader sells an electrical generator for $₦165,000$ and makes a profit of $10\%$. If the trader had sold it for $₦142,500$, calculate the percentage profit or loss.

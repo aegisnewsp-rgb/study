@@ -72,7 +72,7 @@ Motivation and emotion are two closely related psychological processes that sign
 
 Abraham Maslow (1908–1970), an American psychologist, proposed one of the most influential theories of motivation. His **Hierarchy of Needs** arranges human needs in a pyramid from basic physiological needs to higher psychological needs.
 
-### The Pyramid (Bottom to Top)
+#### The Pyramid (Bottom to Top)
 
 **Level 1: Physiological Needs (Most Basic)**
 The most fundamental human needs — food, water, sleep, shelter, breathing, homeostasis.
@@ -95,7 +95,7 @@ Needs for respect, recognition, status, self-esteem, achievement.
 The need to become the best version of oneself — realizing one's potential, seeking personal growth.
 - Example: A child who is self-actualized pursues knowledge for its own sake, not just for rewards
 
-### Key Principles
+#### Key Principles
 
 1. **Lower needs must be satisfied before higher needs become motivating.** A child who is hungry (physiological) will not be motivated by praise (esteem). This is called the **deficiency needs vs growth needs** distinction.
 
@@ -103,7 +103,7 @@ The need to become the best version of oneself — realizing one's potential, se
 
 3. **Classroom implication:** Teachers must first ensure that basic needs (safety, belonging) are met before expecting students to be motivated for academic achievement.
 
-### CTET Application
+#### CTET Application
 
 - Anganwadi and primary school teachers must be alert to children coming to school hungry or in distress
 - Creating a safe, welcoming classroom environment satisfies safety and belonging needs
@@ -113,7 +113,7 @@ The need to become the best version of oneself — realizing one's potential, se
 
 #### 2. Types of Motivation
 
-### Intrinsic Motivation
+#### Intrinsic Motivation
 
 Motivation that comes from **within** the individual — the activity itself is rewarding and enjoyable. No external rewards are needed.
 
@@ -128,7 +128,7 @@ Motivation that comes from **within** the individual — the activity itself is 
 - Associated with deeper learning
 - Promotes creativity
 
-### Extrinsic Motivation
+#### Extrinsic Motivation
 
 Motivation that comes from **external** factors — rewards, praise, grades, avoiding punishment, recognition.
 
@@ -144,7 +144,7 @@ Motivation that comes from **external** factors — rewards, praise, grades, avo
 
 **Overjustification Effect (Important for CTET):** When external rewards are given for activities that were originally intrinsically motivating, the person may lose intrinsic interest. For example, if a child who loves drawing is given candy for every drawing, they may eventually only draw for candy and lose the joy of drawing itself.
 
-### Maintaining Intrinsic Motivation in the Classroom
+#### Maintaining Intrinsic Motivation in the Classroom
 
 1. **Stimulate curiosity** — pose questions that spark interest
 2. **Provide choices** — allow students to choose topics or methods
@@ -156,13 +156,13 @@ Motivation that comes from **external** factors — rewards, praise, grades, avo
 
 David McClelland (1917–1998) introduced the concept of **Achievement Motivation** — the desire to accomplish something, succeed at a high standard, and excel relative to others.
 
-### Three Basic Needs (McClelland)
+#### Three Basic Needs (McClelland)
 
 1. **Need for Achievement (nAch):** The drive to succeed, accomplish goals, and excel.
 2. **Need for Affiliation (nAff):** The desire for friendly, warm relationships and social acceptance.
 3. **Need for Power (nPow):** The desire to influence, control, and have an impact on others.
 
-### High Achievers — Characteristics
+#### High Achievers — Characteristics
 
 McClelland's research found that individuals with high need for achievement:
 - Set moderately difficult (not too easy, not too hard) goals
@@ -171,7 +171,7 @@ McClelland's research found that individuals with high need for achievement:
 - Prefer tasks where effort, not just luck, determines success
 - Are more concerned with personal accomplishment than external rewards
 
-### Classroom Implications
+#### Classroom Implications
 
 - **Goal-setting:** Help students set challenging but achievable goals
 - **Feedback:** Provide immediate, specific feedback on performance
@@ -185,7 +185,7 @@ McClelland's research found that individuals with high need for achievement:
 
 #### 4. Factors Affecting Motivation in the Classroom
 
-### Teacher-Related Factors
+#### Teacher-Related Factors
 
 1. **Teacher expectations:** High teacher expectations → improved student performance (Pygmalion effect / Rosenthal effect). Conversely, low expectations can become self-fulfilling prophecies.
 
@@ -193,14 +193,14 @@ McClelland's research found that individuals with high need for achievement:
 
 3. **Teaching methods:** Active, engaging methods (discussions, projects, experiments) increase intrinsic motivation more than lectures.
 
-### Student-Related Factors
+#### Student-Related Factors
 
 1. **Self-efficacy:** Belief in one's own ability to succeed. Bandura showed that self-efficacy affects motivation, effort, and persistence.
 2. **Interest:** Personal interest in the subject matter.
 3. **Prior success:** Success breeds confidence and further motivation.
 4. **Anxiety:** High test anxiety can decrease motivation and performance.
 
-### Environment-Related Factors
+#### Environment-Related Factors
 
 1. **Classroom climate:** A safe, orderly, stimulating environment promotes motivation.
 2. **Peer influence:** Friends' attitudes toward school and learning affect motivation.
@@ -209,11 +209,11 @@ McClelland's research found that individuals with high need for achievement:
 
 #### 5. Emotion — Definition and Role in Learning
 
-### What is Emotion?
+#### What is Emotion?
 
 Emotion is a complex psychological state involving **physiological arousal**, **behavioral expression**, and **subjective experience**. Emotions are immediate, intense, and often short-lived.
 
-### Key Emotions in the Classroom
+#### Key Emotions in the Classroom
 
 **Positive emotions (facilitate learning):**
 - Joy, curiosity, interest, excitement → increase attention, memory consolidation, and engagement
@@ -226,7 +226,7 @@ Emotion is a complex psychological state involving **physiological arousal**, **
 - Shame → may lead to avoidance, learned helplessness
 - Sadness → reduces cognitive processing
 
-### Emotional Intelligence and Learning
+#### Emotional Intelligence and Learning
 
 Daniel Goleman's emotional intelligence includes:
 - **Self-awareness:** Recognizing one's emotions
@@ -236,7 +236,7 @@ Daniel Goleman's emotional intelligence includes:
 
 **Classroom application:** Teachers who model emotional regulation, validate student emotions, and create emotionally safe spaces promote better learning outcomes.
 
-### Managing Emotions in the Classroom
+#### Managing Emotions in the Classroom
 
 1. **Validate emotions** — "I understand you are frustrated" before redirecting behavior
 2. **Teach emotional vocabulary** — help students name and express emotions

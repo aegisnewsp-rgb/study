@@ -227,7 +227,7 @@ The radians step is where most of these are lost. Convert once, at the top.
 
 ---
 
-### 🟠 Exam Essentials (1 day before)
+#### 🟠 Exam Essentials (1 day before)
 
 #### Formula card — reproduce from memory
 
@@ -263,7 +263,7 @@ Write the general form and, without looking, state the centre and the radius. Th
 
 ---
 
-### 🔵 High-Yield Patterns
+#### 🔵 High-Yield Patterns
 
 1. **Complete the square once per problem and work from standard form.** The general form is useful only for the tangent and distance formulas; everything else is cleaner with the centre and radius visible.
 2. **PT² = OP² − r² and PT² = S₁ are the same number.** If one gives an odd-looking result, the other will locate your slip immediately.
@@ -276,7 +276,7 @@ Write the general form and, without looking, state the centre and the radius. Th
 
 ---
 
-### 🟣 Traps and question forms you will meet
+#### 🟣 Traps and question forms you will meet
 
 | Trap | What happens if you fall in | Fix |
 |---|---|---|
@@ -298,7 +298,7 @@ Write the general form and, without looking, state the centre and the radius. Th
 
 ---
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Memorise the conversion table, not the expanded square.** x² + y² + 2gx + 2fy + c = 0 → centre (−g, −f), radius √(g² + f² − c) is one memorised line and covers most items on the topic.
 2. **Write a one-line justification with every answer.** "Centre (−3, 4), since 2g = 6 gives g = 3" costs five seconds and stops the sign slip before it becomes a wrong answer.
@@ -311,7 +311,7 @@ Write the general form and, without looking, state the centre and the radius. Th
 
 ---
 
-### 📚 Sources and where to go deeper
+#### 📚 Sources and where to go deeper
 
 | Resource | Where to find it | Use it for |
 |---|---|---|

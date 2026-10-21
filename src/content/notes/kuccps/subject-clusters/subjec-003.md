@@ -41,13 +41,13 @@ lastUpdated: 2026-03-25
 | The Group II choice is open (Religious Education, Business, CRE, Computer Studies, other humanities options) | Take the one you can carry to a B or better — that is the whole score |
 | Mathematics C plain and passes in both languages are also required | Read as a second gate, not a footnote |
 | One year at Kenya School of Law follows the LLB | The profession is a year longer than the degree |
-### What Is Cluster 3?
+#### What Is Cluster 3?
 
 Cluster 3 covers Law programmes in Kenyan universities, leading to the Bachelor of Laws (LLB) degree. Unlike the science-intensive clusters, Cluster 3 is designed for students with strengths in humanities, languages, and social sciences. The core cluster subjects are History or Geography, English or Kiswahili, and any one subject from the second group (which includes Religious Education, Business, and other humanities options). A mean grade of **B (plain)** in each cluster subject is the standard minimum entry requirement, though competitive programmes may require B+.
 
 The Kenya Universities and Colleges Central Placement Service (KUCCPS) determines cluster points from your performance in these three cluster subjects. Because Law is a popular and prestigious degree, the cutoffs at top universities like the University of Nairobi can be very competitive, often exceeding 42 cluster points even with a B plain minimum.
 
-### Required Subjects and Grades
+#### Required Subjects and Grades
 
 The cluster subjects for Cluster 3 (Law) are:
 
@@ -57,7 +57,7 @@ The cluster subjects for Cluster 3 (Law) are:
 
 You must also meet general university entry requirements, which include a minimum of C plain in Mathematics and a passes in both English and Kiswahili at KCSE level. Some universities may have additional requirements — always verify with the specific institution.
 
-### Typical KUCCPS Cutoff Points
+#### Typical KUCCPS Cutoff Points
 
 Cutoff points for Law programmes are generally high due to the large number of applicants:
 
@@ -72,7 +72,7 @@ Cutoff points for Law programmes are generally high due to the large number of a
 
 The University of Nairobi's School of Law is the oldest and most prestigious law school in Kenya, and its cutoff consistently exceeds that of other institutions.
 
-### Universities Offering Law Under Cluster 3
+#### Universities Offering Law Under Cluster 3
 
 - University of Nairobi (UoN) — School of Law
 - Kenyatta University (KU) — Faculty of Law
@@ -85,13 +85,13 @@ The University of Nairobi's School of Law is the oldest and most prestigious law
 
 Note that after completing your LLB, you must attend the Kenya School of Law (KSL) for a one-year Bar Programme before being admitted to the roll of advocates.
 
-### Why Law Is a Popular Cluster
+#### Why Law Is a Popular Cluster
 
 Law attracts students who excel in reading, writing, argumentation, and critical thinking. It does not require the same level of scientific rigor as medicine or engineering, which makes it accessible to arts and humanities students who may not have taken the hard sciences. The profession offers social prestige, diverse career options, and relatively high earning potential — all of which contribute to high demand for LLB places.
 
 However, Law is also competitive because the number of law school places has not grown proportionally with the number of applicants. Additionally, the legal market in Kenya, while growing, is concentrated in Nairobi and a few major cities, which can make career entry challenging for graduates from rural or smaller towns.
 
-### Career Paths After Law
+#### Career Paths After Law
 
 An LLB opens the door to multiple career options:
 
@@ -106,7 +106,7 @@ An LLB opens the door to multiple career options:
 
 Graduate lawyers in Kenya typically earn between KES 50,000 and KES 200,000 per month in their early years, with top corporate lawyers at major firms earning considerably more.
 
-### Study Tips for Cluster 3 Subjects
+#### Study Tips for Cluster 3 Subjects
 
 - **History**: Understand cause-and-effect relationships, timelines, and the social-political context of events. For law, particular focus on Kenya's constitutional history, colonial legacy, and post-independence legal developments is valuable.
 - **English/Kiswahili**: Hone your essay writing, comprehension, and oral expression skills. Legal practice is built on communication — clear, persuasive writing is essential.
@@ -141,7 +141,7 @@ The career list above — corporate firms, in-house counsel, the ODPP, the judic
 #### What the Group II subject is actually for
 
 Religious Education, Business, CRE, IRE and Computer Studies all qualify. The subject does not follow you into the LLB — the programme is not built on it. So it is purely a scoring decision: take the subject you can carry to a B or better. Its value is the cluster point it generates, and nothing after admission.
-### Common Mistakes to Avoid
+#### Common Mistakes to Avoid
 
 - **Assuming B plain is always enough** — At UoN and other competitive institutions, B+ in cluster subjects is effectively needed.
 - **Choosing Cluster 3 without genuine interest in law** — The LLB is a professional degree. Students who enter solely for prestige often struggle with the workload and may not pass bar examinations.
@@ -149,7 +149,7 @@ Religious Education, Business, CRE, IRE and Computer Studies all qualify. The su
 - **Ignoring language subjects** — Cures in languages can disqualify you from university admission entirely. Maintain at least C plain in both English and Kiswahili.
 - **Not researching the legal market** — Understand where legal jobs are available and what skills (e.g., ICT, corporate law, IP law) are in demand before choosing electives.
 
-### Summary
+#### Summary
 
 Cluster 3 (Law) is ideal for arts and humanities students who excel in languages, history, and social sciences. With minimum entry of B in each cluster subject but cutoffs often exceeding 42 points at top schools, competition is real. However, the legal profession offers a respected, diverse, and potentially lucrative career path for those who complete both the LLB and the Kenya School of Law Bar Programme. Strategic subject selection and strong language skills are the keys to success in this cluster.
 

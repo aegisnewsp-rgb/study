@@ -117,7 +117,7 @@ If the rate differs by year, the single-formula route is wrong. Apply each year'
 
 6 months is 0.5 years, 18 months is 1.5 years, 2 years 3 months is 2.25 years. SI is directly proportional to T, so T = 3/12 of a year on a monthly rate is exactly the arithmetic. Under simple interest this is trivial; under compound interest a fractional number of periods needs a fractional power, which is why such questions are almost always posed on simple interest. Convert the unit first, then apply the formula.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -152,7 +152,7 @@ flowchart TD
   - *₹8,00,000 at 10% depreciation for 3 years?* → ₹5,83,200.
   - *4 equal instalments at 10% SI?* → interest on 3, 2, 1, 0 years.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Reporting the amount when the interest is asked.** A = ₹24,200 is not the CI; the CI is ₹4,200.
 2. **Using the nominal rate with the wrong number of periods.** 8% half-yearly for 2 years is 4% for 4 periods, never 8% for 2.
@@ -165,7 +165,7 @@ flowchart TD
 9. **Treating the Rule of 72 as exact** when two options are within a few percent of each other.
 10. **Solving for the principal from the CI–SI difference using SI − CI,** which is negative and produces a negative sum.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Attempt all eight before reading a solution, and write down whether the question wants the amount or the interest.
 
@@ -186,7 +186,7 @@ Attempt all eight before reading a solution, and write down whether the question
 8. **₹10,000 is borrowed at 10% per annum simple interest and repaid in four equal annual instalments of ₹2,500. Find the total interest charged.**
    The first instalment stays outstanding for 3 years, the second for 2, the third for 1 and the last for none. Interest = 2500 × 10/100 × (3 + 2 + 1 + 0) = 250 × 6 = **₹1,500**. In parts: ₹750 + ₹500 + ₹250 + ₹0. Charging the first instalment for a full 4 years would give ₹2,500 of interest and is the usual error.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Write "amount" or "interest" at the top of your rough work** before you start. The subtraction of P is the most common step to forget.
 2. **Convert the time to years the moment you read it,** and write the conversion down: 6 months → 0.5, 18 months → 1.5.

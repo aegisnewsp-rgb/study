@@ -100,7 +100,7 @@ diagramPrompt: "Educational diagram illustrating IELTS Listening Part 1 flow: a 
 
 ---
 
-### 🟠 Exam Essentials (1 day before the test)
+#### 🟠 Exam Essentials (1 day before the test)
 
 #### 12-row strategy table for Part 1
 
@@ -133,7 +133,7 @@ diagramPrompt: "Educational diagram illustrating IELTS Listening Part 1 flow: a 
 
 ---
 
-### 🔵 High-Yield Band 7.0–9.0 Patterns
+#### 🔵 High-Yield Band 7.0–9.0 Patterns
 
 #### 7 patterns that lift Part 1 to band 7.0+
 
@@ -147,7 +147,7 @@ diagramPrompt: "Educational diagram illustrating IELTS Listening Part 1 flow: a 
 
 ---
 
-### 🟣 Previous Year patterns (2018–2026)
+#### 🟣 Previous Year patterns (2018–2026)
 
 #### Common Part 1 topics (2018–2026)
 
@@ -160,7 +160,7 @@ diagramPrompt: "Educational diagram illustrating IELTS Listening Part 1 flow: a 
 
 ---
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Practice with UK, US, AU, and NZ accents.** IELTS uses a range of English accents — including non-native accents. Familiarity with all four major native accents is essential.
 2. **Practice with the official IELTS Listening practice tests.** Cambridge IELTS 15/16/17 Academic contains 4 full Listening tests with answer keys.
@@ -175,7 +175,7 @@ diagramPrompt: "Educational diagram illustrating IELTS Listening Part 1 flow: a 
 
 ---
 
-### 📚 Official Resources
+#### 📚 Official Resources
 
 | Resource | URL | Notes |
 |---|---|---|

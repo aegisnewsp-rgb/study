@@ -67,7 +67,7 @@ Horizontal velocity is constant. Vertical acceleration is −g (constant gravity
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the second Topic of Unit 3 in the WACE Mathematics Specialist ATAR Year 12 syllabus. Confirm the live examination design brief on senior-secondary.scsa.wa.edu.au.
 

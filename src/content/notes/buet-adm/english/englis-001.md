@@ -172,7 +172,7 @@ Communities answered differently. In some markets a trusted helper records payme
 - **Writing composition:** the main-idea test is the thesis test you use on your own paragraphs.
 - **Literature-based reading:** tone, imagery, and symbolism still require textual evidence.
 
-### Common traps
+#### Common traps
 
 1. **Using outside knowledge.** Dhaka may well have such a policy. The passage still decides the answer.
 2. **Accepting an inverted echo.** Borrowed words are not borrowed meaning. Check who acts, and what causes what.

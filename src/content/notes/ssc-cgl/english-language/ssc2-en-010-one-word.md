@@ -18,23 +18,23 @@ lastUpdated: 2026-03-25
 
 ### 🟢 Lite
 
-### Key Rule / Formula
+#### Key Rule / Formula
 A phrase of several words has ONE precise single-word equivalent in English. "One who collects stamps" = philatelist. "Study of birds" = ornithology. SSC tests your vocabulary through phrase-to-word matching.
 
-### Memory Trick
+#### Memory Trick
 **"Root + suffix = field"** — Most one-word substitutions follow Latin/Greek word formation. "Geo" (earth) + "logy" (study) = geology (study of earth). Learn common roots: "bio" (life), "psych" (mind), "soci" (society), "graph" (write), "phobia" (fear).
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 SSC gives you a phrase and asks for the single word that fully captures it — the key is building a vocabulary where you know the precise shade of meaning each word carries.
 
-### Quick Example
+#### Quick Example
 Q: "A place where coins are minted or money is made."
 (A) Treasury (B) Mint (C) Bank (D) Vault
 A: **(B) Mint** — "Mint" specifically means a place where coins are manufactured. Treasury is where money is stored, bank is where it's deposited, vault is where it's secured.
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 
 One Word Substitution (OWS) is a vocabulary-based question type where SSC gives you a definition or description of something and asks you to identify the single word that captures its full meaning. Instead of saying "a place where clothes are washed," the English language has the word "laundromat." Instead of "someone who collects coins," it has "numismatist." The skill is knowing that specific word.
 
@@ -42,7 +42,7 @@ OWS questions test whether your vocabulary is precise. Anyone can say "a place w
 
 The words SSC uses are drawn from consistent categories: professions and specialists, scientific fields, geographical terms, fear types (phobias), literary terms, legal terms, and common descriptive adjectives. Within each category, the same root-and-suffix patterns appear repeatedly — once you learn the pattern, you can decode many words at once.
 
-### Key Points
+#### Key Points
 
 - **Categories**:
   - **Professions**: philatelist (stamps), numismatist (coins), optometrist (eyes), cardiologist (heart)
@@ -55,14 +55,14 @@ The words SSC uses are drawn from consistent categories: professions and special
 - **Precision matters**: "Autocracy" (one person rule) and "aristocracy" (rule by nobles) are different. SSC tests whether you know the exact shade of meaning.
 - **Common distractors**: Words that sound similar but mean different things. "Oral" vs "verbal" — both mean spoken, but "oral" specifically means through the mouth (medicine), while "verbal" means using words in general (includes written).
 
-### Worked Example
+#### Worked Example
 
 **Q:** "A disease that spreads by contact with infected animals."
 (A) Epidemic (B) Pandemic (C) Zoonosis (D) Contagion
 **Approach:** "Epidemic" = widespread disease in a region. "Pandemic" = worldwide epidemic. "Contagion" = spread by contact but not the specific source. "Zoonosis" = disease transmitted from animals to humans.
 **Answer:** **(C) Zoonosis** — The definition specifies transmission from animals, which is precisely what zoonosis means.
 
-### SSC Pattern / Tips
+#### SSC Pattern / Tips
 
 - **Frequency**: 1–2 questions per paper (1 mark each)
 - **Format**: Phrase given → choose the one-word substitute from four options
@@ -72,7 +72,7 @@ The words SSC uses are drawn from consistent categories: professions and special
 
 ### 🔴 Extended
 
-### Full Concept
+#### Full Concept
 
 One Word Substitution (OWS) is one of the most vocabulary-dense question types in SSC CGL Tier 2. A single English word can replace an entire phrase, capturing both denotation (literal meaning) and connotation (associated meaning, tone, register) in one lexical item. The test is whether you know that precise word — the one that fits the definition exactly, not approximately.
 
@@ -88,7 +88,7 @@ The word formation follows consistent patterns, largely from Latin and Greek:
 - **-ment** → result or state of: bewilderment (state of being bewildered), abandonment (state of being abandoned), enlightenment (state of being enlightened)
 - **-able / -ible** → capable of being:Readable (can be read), digestible (can be digested), imperceptible (cannot be perceived)
 
-### SSC CGL Deep Analysis
+#### SSC CGL Deep Analysis
 
 - **Frequency**: 1–2 questions per paper (1 mark each)
 - **Most common categories tested**: Professions/specialists, scientific fields, phobias, geographical terms, literary terms, legal terms
@@ -97,7 +97,7 @@ The word formation follows consistent patterns, largely from Latin and Greek:
 - **Format**: SSC gives a descriptive phrase → pick the single word from four options
 - **Distractor design**: Options are either (a) correct word, (b) word with similar meaning but wrong shade, (c) word that sounds similar but means something different, (d) word with partially correct but incomplete coverage
 
-### High-Scoring Strategy
+#### High-Scoring Strategy
 
 1. **Build a category-based word list** — Don't study one-word substitutions in isolation. Group them by category (professions, sciences, fears, geography, law, literature). This creates mental filing cabinets; you retrieve by category.
 2. **Root and suffix mastery** — Once you know "bio" = life, "logy" = study, "ist" = person who, you can decode "biologist" even if you haven't memorised it directly. Build this decoding ability alongside memorisation.
@@ -105,7 +105,7 @@ The word formation follows consistent patterns, largely from Latin and Greek:
 4. **Eliminate sound-alikes** — If you don't know the exact word, eliminate the options that sound like they mean something different. A word that sounds medical when the description is legal is likely wrong.
 5. **Active use** — After learning each word, use it in a sentence. Writing "The philanthropist donated generously" embeds it deeper than passive review.
 
-### SSC-Level Practice
+#### SSC-Level Practice
 
 **Q1:** (SSC CGL 2022)
 "A person who has a excessive and indiscriminate fondness for another country."
@@ -122,7 +122,7 @@ Answer: **(A) Elegy** — An elegy is a poem of lamentation, typically for someo
 (A) Lexicographer (B) Bibliographer (C) Editor (D) Compiler
 Answer: **(A) Lexicographer** — "Lexicon" (dictionary) + "grapher" (writer) = dictionary writer. Bibliographer writes about books (not specifically dictionaries). Editor oversees publications. Compiler puts together documents.
 
-### Common Traps
+#### Common Traps
 
 - **Trap 1 — Too broad or too narrow**: "Aquatic animal that breathes through gills" → "Fish" (correct) vs "Animal" (too broad) vs "Goldfish" (too narrow). SSC tests whether you know the precise category boundary.
 - **Trap 2 — Sound-alike distractors**: "Heinous" (wicked) sounds like "Haneous" which isn't a word. Students pick wrong options because they mishear the sound in their mind.

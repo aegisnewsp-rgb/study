@@ -45,7 +45,7 @@ Decision Making gives you 35 questions in 37 minutes (after a 1 minute 30 second
 
 > Source for subtest size, time, scoring (300–900 scale) and the 1-mark / 2-mark / 1-mark-partial marking: UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The UCAT Consortium notes that the subtest "assesses your ability to apply logic to reach a decision or conclusion, evaluate arguments and analyse statistical information", and that "knowledge of specific mathematical or logical reasoning terminology is not required" — so the techniques below are operational habits rather than formal-logic vocabulary.
 
-### Syllogisms — what is and is not valid
+#### Syllogisms — what is and is not valid
 
 A syllogism is a two-premise argument that aims to draw a conclusion. In the UCAT, the premises are short, a single sentence, and the conclusion has to follow from them alone.
 
@@ -65,7 +65,7 @@ The invalid forms that the test uses as traps:
 
 The underlying rule: "all" chains force overlap, "some" chains do not. The moment you mix "all" and "some" in a way that requires an extra link, the syllogism is invalid.
 
-### Conditional reasoning — what to keep and what to throw away
+#### Conditional reasoning — what to keep and what to throw away
 
 Decision Making also tests conditional reasoning: "if P then Q". The UCAT does not require you to name the form, but you need to know which inferences are valid and which are not.
 
@@ -85,7 +85,7 @@ A worked example:
 
 The conclusion that the patient has appendicitis is invalid. Many conditions cause right lower-quadrant pain. The UCAT will offer this trap as a distractor; learn to spot the direction of the rule.
 
-### Logical puzzles — set logic and ordering
+#### Logical puzzles — set logic and ordering
 
 Decision Making also includes short logical puzzles: who sits where, who arrives in which order, which key opens which door. Two habits handle most of them:
 
@@ -116,7 +116,7 @@ The easy items are the two-premise syllogisms and the four conditional forms; bo
 #### A puzzle you have not solved is still worth a decision
 Marking an item is not the same as skipping it, and the difference is the marking scheme rather than the difficulty. On the six-student arrangement the note walks through four block positions before landing on one. Candidates who bail out early have not avoided the cost — they have paid it and collected nothing, which is strictly worse than a guess that costs the same time and sometimes scores.
 
-### Worked example — syllogism validity
+#### Worked example — syllogism validity
 
 ```
   Premise 1: All pharmacists are health professionals.
@@ -136,7 +136,7 @@ A valid version of the same shape would be:
 
 The "all" + "all" pattern forces overlap; "all" + "some" does not. That is the rule the test rewards.
 
-### Worked example — conditional reasoning with the affirming-the-consequent trap
+#### Worked example — conditional reasoning with the affirming-the-consequent trap
 
 ```
   If a laboratory sample is contaminated, the pH reading is outside the safe range.
@@ -145,7 +145,7 @@ The "all" + "all" pattern forces overlap; "all" + "some" does not. That is the r
 
 Conclusion: the sample is contaminated. Invalid. This is affirming the consequent. The pH reading can be outside the safe range for reasons other than contamination — a miscalibrated probe, a degraded reagent, a temperature error. The conditional only supports modus ponens (sample is contaminated → pH is outside the range) and modus tollens (pH is not outside the range → sample is not contaminated).
 
-### Worked example — ordering puzzle
+#### Worked example — ordering puzzle
 
 Six students — A, B, C, D, E, F — sit in a row of six seats. Constraints:
 
@@ -168,7 +168,7 @@ Try BC at (4,5): ED can be (1,3), (2,4) (collides with BC at 4), (3,5) (collides
 
 That took a moment to work through. The skill is not the answer; the skill is the constraint-extraction habit. The UCAT tests the habit by giving you a stem with four to six constraints and four or five answer choices, and asking which arrangement is consistent with all of them.
 
-### Common mistakes to correct now
+#### Common mistakes to correct now
 
 - Treating common sense as proof. The UCAT scores formal validity, not plausibility. A syllogism that sounds right but does not follow is wrong.
 - Inserting "all" where the premise says "some". The "all" / "some" distinction is the most common single error.
@@ -176,7 +176,7 @@ That took a moment to work through. The skill is not the answer; the skill is th
 - Skipping structured items because they look long. The partial-credit floor on a multiple-statement item means even an attempt that gets one statement wrong scores one mark.
 - Drawing a Venn diagram that overlaps the wrong region. A Venn answer depends on the diagram, not on intuition.
 
-### What to do next
+#### What to do next
 
 - Drill ten syllogisms a day for a week, focusing on "all A are B, some B are C" patterns and checking each one with a Venn diagram.
 - Build a one-page reference card for the four conditional-reasoning forms (modus ponens, modus tollens, affirming the consequent, denying the antecedent) and review it before each Decision Making drill.

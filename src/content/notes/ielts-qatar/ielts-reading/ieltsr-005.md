@@ -150,7 +150,7 @@ A candidate scoring below 7 on Matching Headings typically has a main-idea-recog
 
 ---
 
-### Exam Essentials — Matching Headings to Paragraphs
+#### Exam Essentials — Matching Headings to Paragraphs
 
 | Field | Value |
 |---|---|
@@ -176,7 +176,7 @@ A candidate scoring below 7 on Matching Headings typically has a main-idea-recog
 
 ---
 
-### High-Yield — Matching Headings (7 testable passage contexts)
+#### High-Yield — Matching Headings (7 testable passage contexts)
 
 The seven most-testable passage contexts and the calibrated response framework:
 
@@ -190,7 +190,7 @@ The seven most-testable passage contexts and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — Matching Headings
+#### Previous Year Patterns — Matching Headings
 
 The Matching Headings question type has been part of the IELTS Reading test since the Academic / General Training split in 1989. It is published verbatim on ielts.org Matching Headings question type guide and is not expected to be removed.
 
@@ -205,7 +205,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Pro Tips — Matching Headings
+#### Pro Tips — Matching Headings
 
 1. **Skim the headings first.** Read each heading quickly. Underline (in your mind) the KEY WORD in each heading.
 2. **Read first and last sentences first.** Identify the main idea from the first and last sentences before reading in depth.
@@ -220,7 +220,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Official Resources — Matching Headings
+#### Official Resources — Matching Headings
 
 | Resource | URL | Use |
 |---|---|---|

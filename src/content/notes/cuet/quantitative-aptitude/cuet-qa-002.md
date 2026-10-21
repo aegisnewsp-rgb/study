@@ -133,7 +133,7 @@ A minus immediately outside a bracket distributes as a minus to every term insid
 **P3.** Which step is wrong? A student writes 288 ÷ 12 × 6 = 288 ÷ (12 × 6) = 4.
 ÷ and × are the same rank, so the leftmost operation is 288 ÷ 12 = 24, and 24 × 6 = **144**. The error is in treating the two symbols as different ranks. The value 4 is a perfectly calculated answer to a different expression.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -164,7 +164,7 @@ flowchart TD
   - *1/(√5+√3)?* → (√5−√3)/2, multiply by the conjugate.
   - *288 ÷ 12 × 6?* → 24 × 6 = 144.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Doing all multiplications before all divisions.** ÷ and × are the same rank. 12 ÷ 4 × 3 = 9, not 1. This is the single most common error in the chapter.
 2. **Reading M before D because M comes before D in the letters.** The spelling of the mnemonic is not the rule; the equal rank is.
@@ -177,7 +177,7 @@ flowchart TD
 9. **Carrying surds deeper than necessary.** √2 + √8 = 3√2; extracting first removes the decimal approximations that cause errors.
 10. **Trusting a bracket result without checking the sign of the next operation.** Write the sign before you write the operation.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Do all eight on paper, one operation per line, before reading the solutions.
 
@@ -198,7 +198,7 @@ Do all eight on paper, one operation per line, before reading the solutions.
 8. **Estimate √1523 without a calculator, and say which integers it lies between.**
    39² = 1521 and 40² = 1600, so 39 < √1523 < 40 and the value is just above 39 — approximately **39.02**, so 39 is the right choice among options like 38, 39, 40, 51. Note that 39² = 1521 is itself the giveaway: 1523 is 2 above a perfect square, so the root is 2/(39+40) ≈ 0.025 above 39.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **One operation per line, always.** It costs three extra seconds and it converts an untraceable wrong answer into a one-line correction.
 2. **Write the sign before the operation.** When a bracket turns negative, record the minus immediately; that is where simplification errors actually live.

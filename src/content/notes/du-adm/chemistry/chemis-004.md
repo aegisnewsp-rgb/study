@@ -179,7 +179,7 @@ High-spin vs low-spin configurations depend on $\Delta$ vs pairing energy. This 
 
 Chemical bonding is the foundation for **organic chemistry** (every reaction mechanism is a bond break / bond form; hybridisation explains the geometry of every intermediate), for **acids, bases and salts** (electrolyte strength depends on lattice energy vs hydration), for **electrochemistry** (electrode potentials correlate with lattice energies and ion-solvation enthalpies), and for **environmental chemistry** (water's H-bonding explains its solvent properties). Master this chapter and you remove a large fraction of the uncertainty from HSC Chemistry as a whole.
 
-### Common traps
+#### Common traps
 
 - **Ignoring lone pairs when assigning hybridisation.** NH₃ has SN = 4 (not 3), so it is sp³ (not sp²) and trigonal pyramidal with a bond angle around 107°, not 120°. The same trap catches SO₂ (SN = 3 with one lone pair → sp² bent, not trigonal planar).
 - **Conflating bond polarity with molecular polarity.** A molecule with polar bonds can be non-polar overall if the geometry cancels the dipoles. CO₂, BF₃, CCl₄, SF₆ are the classic traps. The paper often tests exactly this distinction.

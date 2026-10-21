@@ -27,7 +27,7 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 
 ### 🟡 Standard Study
 
-### Adsorption
+#### Adsorption
 
 **Characteristics of Adsorption:**
 - Exothermic process (ΔH negative) — heat is released
@@ -51,7 +51,7 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 - Physical Adsorption (Physisorption): Weak forces, low specificity, multilayer formation
 - Chemical Adsorption (Chemisorption): Strong forces, high specificity, monolayer formation
 
-### Catalysis
+#### Catalysis
 
 **Homogeneous Catalysis:** Catalyst and reactants in same phase
 - Example: SO₂ oxidation in lead chamber process (NO as catalyst)
@@ -74,7 +74,7 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 - Optimum temperature and pH for maximum activity
 - Michaelis-Menten kinetics: v = V_max [S]/(K_m + [S])
 
-### Colloids
+#### Colloids
 
 **Classification Based on Phase:**
 - **Sols:** Solid in liquid (e.g., paint, ink) — Tyndall effect present
@@ -99,7 +99,7 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 - For As₂S₃ (negative sol): Al³⁺ > Ba²⁺ > Na⁺
 - For Fe(OH)₃ (positive sol): [Fe(CN)₆]⁴⁻ > PO₄³⁻ > SO₄²⁻ > Cl⁻
 
-### Emulsions
+#### Emulsions
 
 - Type of colloidal system with two immiscible liquids
 - **Oil in Water:** Milk (oil droplets in water)
@@ -109,7 +109,7 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 
 ### 🔴 Deep Study
 
-### Adsorption Isotherms
+#### Adsorption Isotherms
 
 **Langmuir Adsorption Isotherm:**
 - Assumes monolayer adsorption, identical sites, no interaction between adsorbed molecules
@@ -120,14 +120,14 @@ Surface chemistry deals with phenomena occurring at the surface of substances �
 - Used for physical adsorption at high pressures
 - Important for gas adsorption on catalysts
 
-### Catalytic Activity at Surfaces
+#### Catalytic Activity at Surfaces
 
 - Rate depends on available surface area
 - Steps: Diffusion → Adsorption → Reaction → Desorption → Diffusion
 - Activated adsorption intermediate states
 - Turnover frequency (TOF): number of reactions per active site per unit time
 
-### Colloid Stability (DLVO Theory)
+#### Colloid Stability (DLVO Theory)
 
 - Balance between van der Waals attraction and electrical repulsion
 - Energy barrier must be overcome for coagulation

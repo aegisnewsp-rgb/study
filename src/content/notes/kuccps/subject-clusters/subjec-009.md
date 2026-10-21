@@ -55,13 +55,13 @@ Three checks decide this cluster, in order:
 
 Two consequences worth pricing in early. First, the entry grade does not predict first-year performance as tightly as candidates assume: a student entering on B+ across all three still meets a step change in pace and abstraction. Second, a BSc alone opens research and academic posts poorly, because both routes assume a Master's, and the professorial route a PhD after that.
 
-### What Is Cluster 9?
+#### What Is Cluster 9?
 
 Cluster 9 is one of Kenya's most academically rigorous clusters, covering programmes in Pure Sciences including Bachelor of Science (BSc) degrees with specialisations in Chemistry, Physics, Mathematics, and interdisciplinary science programmes. The cluster subjects are Chemistry, Physics, and Mathematics — the three fundamental sciences. The minimum entry grade is typically **B+ (plus)** in each subject, reflecting the advanced analytical and quantitative skills required for success in these programmes.
 
 The Kenya Universities and Colleges Central Placement Service (KUCCPS) calculates cluster points from your performance in these three subjects. Cluster 9 is distinct from Cluster 1 (Engineering) and Cluster 5 (Computer Science) because it focuses on theoretical and foundational science rather than applied engineering or technology applications. Pure Science graduates often pursue careers in research, academia, or industries requiring deep scientific knowledge.
 
-### Required Subjects and Grades
+#### Required Subjects and Grades
 
 The cluster subjects for Cluster 9 (Pure Sciences) are:
 
@@ -71,7 +71,7 @@ The cluster subjects for Cluster 9 (Pure Sciences) are:
 
 All three subjects must be passed at the B+ level or above at KCSE. There is no optional third subject — all three are mandatory. This makes Cluster 9 one of the most demanding cluster combinations in the entire KUCCPS system.
 
-### Typical KUCCPS Cutoff Points
+#### Typical KUCCPS Cutoff Points
 
 Cutoff points for Cluster 9 reflect the high academic standards required:
 
@@ -87,7 +87,7 @@ Cutoff points for Cluster 9 reflect the high academic standards required:
 
 Mathematics tends to have the highest cutoffs because of its scarcity — relatively few Kenyan students achieve a B+ or above in KCSE Mathematics compared to Biology or Chemistry.
 
-### Universities Offering Pure Sciences Under Cluster 9
+#### Universities Offering Pure Sciences Under Cluster 9
 
 - University of Nairobi (UoN) — Faculty of Science
 - Kenyatta University (KU) — Faculty of Science
@@ -101,13 +101,13 @@ Mathematics tends to have the highest cutoffs because of its scarcity — relati
 
 The University of Nairobi's Faculty of Science is the most prestigious science faculty in Kenya and has strong research links with international institutions, including the International Centre for Insect Physiology and Ecology (ICIPE), KEMRI, and various UNESCO-affiliated programmes.
 
-### Why Pure Sciences Require B+ Minimum
+#### Why Pure Sciences Require B+ Minimum
 
 The B+ threshold for Cluster 9 is not arbitrary. Pure science disciplines — particularly Chemistry, Physics, and Mathematics at university level — demand strong analytical reasoning, abstract thinking, and comfort with mathematical formalisation. University-level chemistry, for instance, requires mastery of quantum mechanics, thermodynamics, and advanced organic synthesis. Physics at university involves vector calculus, differential equations, and linear algebra. Students who enter with only a B plain foundation often struggle with the transition.
 
 Additionally, laboratory work in chemistry and physics requires careful observation, precision, and adherence to safety protocols. These are skills that correlate with prior academic rigour.
 
-### Career Paths After Pure Sciences
+#### Career Paths After Pure Sciences
 
 - **Research Scientist** — Working at KEMRI, ICIPE, Kenya Agricultural Research Institute (KARI), Kenya Bureau of Standards (KEBS), or international research bodies
 - **Academia** — University lecturer, researcher, professor (requires Master's and PhD)
@@ -120,7 +120,7 @@ Additionally, laboratory work in chemistry and physics requires careful observat
 
 Salaries for pure science graduates in research or industry range from KES 50,000 to KES 200,000 per month, with those in specialised sectors like oil and gas commanding the highest salaries.
 
-### Study Tips for Cluster 9 Subjects
+#### Study Tips for Cluster 9 Subjects
 
 - **Chemistry**: Master the periodic table, chemical bonding, stoichiometry, organic reactions, and energetics. Lab work is essential — practice writing proper lab reports with observations, calculations, and conclusions. Connect chemistry to real-world applications such as drug synthesis, agricultural fertilisers, and water treatment.
 - **Physics**: Focus on mechanics (Newton's laws, energy, momentum), electromagnetism, waves, and modern physics. Physics at university builds heavily on mathematics, so ensure your algebra, trigonometry, and calculus foundations are solid. Work through problems methodically.
@@ -159,7 +159,7 @@ Between two candidates holding identical cluster points, the one who can write a
 
 A candidate weak in calculus but sound in mechanics should repair the algebra rather than abandon the cluster. Physics and Mathematics draw from the same foundation, so the deficit is shared rather than duplicated — fixing it once moves two papers instead of one.
 
-### Common Mistakes to Avoid
+#### Common Mistakes to Avoid
 
 - **Assuming B+ is enough to coast** — At university, the pace and depth of pure science courses are significantly greater than KCSE. Begin preparation well before joining university.
 - **Neglecting laboratory skills** — Many pure science programmes have a strong practical component. Students who only study theory without hands-on lab experience struggle in assessments.
@@ -167,7 +167,7 @@ A candidate weak in calculus but sound in mechanics should repair the algebra ra
 - **Ignoring programming skills** — Even in pure chemistry and physics, data analysis using tools like Python, R, or MATLAB is increasingly valuable. Consider basic coding as a supplementary skill.
 - **Not planning for postgraduate study** — A BSc alone has limited research and academia pathways. If you aspire to be a research scientist or university professor, plan for a Master's degree from the start.
 
-### Summary
+#### Summary
 
 Cluster 9 (Pure Sciences) is one of Kenya's most demanding clusters, requiring B+ or above in Chemistry, Physics, and Mathematics. It is the foundation for careers in scientific research, academia, chemical industries, energy, and environmental management. While cutoffs are high and the coursework is challenging, graduates enter some of the most impactful and rewarding scientific careers in Kenya and globally. Those who excel in all three sciences and enjoy theoretical reasoning and problem-solving will thrive in this cluster.
 

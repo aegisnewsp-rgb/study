@@ -112,7 +112,7 @@ Score a full practice test part-by-part before choosing an intervention. The pat
 4. **Numbers and units.** IELTS counts "30%" as one word and "30 percent" as two. Decide before you write.
 5. **Blank beats wrong on nothing.** There is no negative marking, so never write a guess where you are genuinely uncertain and the stem has three plausible options.
 
-### Exam Essentials — IELTS Listening Part 3
+#### Exam Essentials — IELTS Listening Part 3
 
 | Field | Value | Source |
 |---|---|---|
@@ -135,7 +135,7 @@ Score a full practice test part-by-part before choosing an intervention. The pat
 - [ ] I treat a matching set as one block, not as separate items.
 - [ ] I know the question types in my practice set match the published list.
 
-### High-Yield — IELTS Listening Part 3
+#### High-Yield — IELTS Listening Part 3
 
 Seven scenarios that carry most of the Part 3 marks, with the response each one usually demands.
 
@@ -147,7 +147,7 @@ Seven scenarios that carry most of the Part 3 marks, with the response each one 
 6. **Technology in teaching.** Recorded lectures, blended delivery, online tutorials. Expect hedging from both sides and a partial agreement at the end.
 7. **Placement and industry readiness.** Two students compare what an employer values in a graduate. The distinguishing detail is usually a specific behaviour, not an adjective.
 
-### Previous Year Patterns — IELTS Listening Part 3
+#### Previous Year Patterns — IELTS Listening Part 3
 
 The four-part structure is not a yearly choice. IELTS publishes it as the standard Listening format — four parts, 10 questions each, 40 questions in total, approximately 30 minutes — and it has survived every revision since the Academic and General Training split. A student planning a revision timetable can bank on Part 3 being the third academic-style section.
 
@@ -161,7 +161,7 @@ Three patterns have been stable enough to plan around:
 
 A past paper tells you the shape of the task. It does not tell you which word will carry the mark, and British Council and IDP refresh their question banks rather than recycling recordings verbatim.
 
-### Pro Tips — IELTS Listening Part 3
+#### Pro Tips — IELTS Listening Part 3
 
 1. **Label before you listen.** Write the speaker each item needs in the margin. Thirty seconds of setup removes the most common Part 3 error.
 2. **Answer the closing position.** When a speaker revises, the revision is the answer. The original was a distractor the recording planted on purpose.
@@ -174,7 +174,7 @@ A past paper tells you the shape of the task. It does not tell you which word wi
 9. **Practise with several accents.** British Council's guide to IELTS states that different accents, "including British, Australian, New Zealand, and North American", are used.
 10. **Do not revisit a lost item.** The order is guaranteed. Item 34's answer is ahead of item 33's, and chasing backwards costs you two marks to recover none.
 
-### Official Resources — IELTS Listening Part 3
+#### Official Resources — IELTS Listening Part 3
 
 | Resource | URL | Use |
 |---|---|---|

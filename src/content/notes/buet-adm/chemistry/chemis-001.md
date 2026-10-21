@@ -264,7 +264,7 @@ Prepare and use these reagents on a small scale in a fume hood, with dry inert g
 
 Acid-base equilibrium and Le Chatelier’s principle explain proton transfer and quenching, while ionic and covalent bonding explains solvent polarity, miscibility and organometallic reactivity. Redox and electrode potential connect oxidisers, reductants and combustion; functional groups predict solvent and reagent reactions. Polymer and waste chemistry informs degradation and disposal, titration trains standardisation, and mixing thermochemistry explains why acid dilution demands controlled heat transfer.
 
-### Common traps
+#### Common traps
 
 1. **“DANGER simply means the bottle contains a high concentration.”** It is assigned to a more severe GHS hazard classification; concentration alone does not decide it.
 2. **“Water is safe on every fire.”** Water can spread burning liquids and reacts violently with alkali metals such as sodium.

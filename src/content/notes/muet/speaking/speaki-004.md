@@ -50,7 +50,7 @@ The discussion typically follows this sequence:
 
 One of the most effective strategies in group discussion is adopting a clear **role**. Examiners notice candidates who take initiative in managing the interaction.
 
-### The Moderator
+#### The Moderator
 The moderator's job is to **guide the discussion without dominating it**. They ensure all voices are heard, keep the conversation on track, and help the group reach a conclusion.
 
 **Moderator phrases:**
@@ -61,7 +61,7 @@ The moderator's job is to **guide the discussion without dominating it**. They e
 
 Being moderator is a high-visibility role. Done well, it demonstrates leadership and organisational ability. However, **do not force the moderator role** — if you are not comfortable leading, contribute strongly as a panellist instead.
 
-### The Panellist
+#### The Panellist
 A panellist contributes ideas, responds to others, and builds the discussion through quality contributions. You do not need to be the moderator to score highly.
 
 **Panellist strategies:**
@@ -70,7 +70,7 @@ A panellist contributes ideas, responds to others, and builds the discussion thr
 - Introduce a new angle: *"I'd like to add another point. In addition to what Ali mentioned..."*
 - Gently disagree with evidence: *"I understand your point, but statistics show that..."*
 
-### The summariser (usually done by whoever is paying attention to the time)
+#### The summariser (usually done by whoever is paying attention to the time)
 At the end of the discussion, a good candidate will offer a summary:
 *"So, to summarise what we have discussed: we all agreed that... though we differed on..."*
 
@@ -78,22 +78,22 @@ At the end of the discussion, a good candidate will offer a summary:
 
 Turn-taking is one of the hardest skills in group discussion. The challenge is contributing without interrupting, while also ensuring you get your fair share of speaking time.
 
-### When You Want to Contribute but Someone Else Is Speaking
+#### When You Want to Contribute but Someone Else Is Speaking
 Wait for a natural break — a pause, a completed thought, or a question directed at the group. Then enter with:
 - *"That's a valid point. I'd like to add something."*
 - *"Building on what Mei Ling said..."*
 - *"If I could respond to that..."*
 
-### When You Want to Redirect the Discussion
+#### When You Want to Redirect the Discussion
 - *"That's an interesting angle. However, I think we should also consider..."*
 - *"I'd like to steer our discussion back to the main question, which is..."*
 
-### When You Want to Invite Someone Else to Speak
+#### When You Want to Invite Someone Else to Speak
 - *"What do you think, Wei Kang?"*
 - *"I'd like to hear from anyone who hasn't spoken yet."*
 - *"Do you have a different perspective, Sara?"*
 
-### When You Disagree
+#### When You Disagree
 Disagreement is healthy in academic discussion, but it must be handled respectfully. Never dismiss another candidate outright.
 
 **Polite disagreement phrases:**
@@ -130,16 +130,16 @@ Not every group discussion requires a unanimous conclusion, but candidates who c
 
 #### Common Problems and How to Avoid Them
 
-### Problem: One person dominates
+#### Problem: One person dominates
 **Solution:** Do not fight for the floor constantly. Instead, use inclusive phrases: *"I'd like to hear other perspectives."*
 
-### Problem: Silence falls
+#### Problem: Silence falls
 **Solution:** Be the one who breaks the silence with a new idea or question: *"Perhaps we should consider how this affects university students specifically."*
 
-### Problem: Candidates talk over each other
+#### Problem: Candidates talk over each other
 **Solution:** Wait for a clear gap before speaking. If you do accidentally interrupt, yield gracefully: *"Sorry, please continue."*
 
-### Problem: Discussion goes completely off-topic
+#### Problem: Discussion goes completely off-topic
 **Solution:** Redirect politely: *"That's an interesting point, but I think we should return to the main topic, which is..."*
 
 

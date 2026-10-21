@@ -55,11 +55,11 @@ On factors, **heredity** sets traits, temperament and some cognitive potential t
 What this changes in the classroom: age-appropriate lesson design, planning for individual differences inside an age group, play-based methods before age 8, milestone-based screening for developmental delay, inclusive provision under Samarthya and NEP 2020, and stage-appropriate motivation.
 
 
-### Introduction
+#### Introduction
 
 Child development refers to the biological, cognitive, emotional, and social changes that occur in an individual from birth through adolescence. For CTET aspirants, understanding child development is essential because it forms the foundation of pedagogical decisions in the classroom. Questions in CTET Paper I (for classes I–V) and Paper II (for classes VI–VIII) frequently test a candidate's understanding of how children grow, learn, and evolve across different stages.
 
-### Growth vs Development — The Core Distinction
+#### Growth vs Development — The Core Distinction
 
 These two terms are used interchangeably in casual speech but have distinct meanings that CTET examiners frequently test:
 
@@ -71,7 +71,7 @@ Key difference: Growth is about *becoming bigger*; development is about *becomin
 
 In CTET questions, exam items present statements like: "The child can now write sentences" — this reflects development, not just growth.
 
-### Stages of Development
+#### Stages of Development
 
 #### 1. Infancy (Birth to 2 Years)
 
@@ -120,7 +120,7 @@ Also called the **formal operational stage** (Piaget). Characteristics include:
 
 **CTET Focus:** Paper II deals with this age group. Teachers must engage adolescents with questioning, debate, project-based work, and opportunities for self-expression.
 
-### Principles of Development
+#### Principles of Development
 
 Understanding the principles of development helps teachers create age-appropriate instruction:
 
@@ -145,7 +145,7 @@ While every child is unique, development follows a predictable sequence. This al
 #### 7. Principle of Multidirectionalism
 Different aspects of development proceed at different rates. A child can be advanced cognitively while developing at a standard pace physically, or vice versa.
 
-### Factors Influencing Development
+#### Factors Influencing Development
 
 #### Heredity (Nature)
 Genetic factors determine physical traits, basic temperament, and some cognitive potentials. The concept of **maturation** — genetically programmed biological changes — drives many developmental milestones.
@@ -164,7 +164,7 @@ Nutrition, family environment, schooling, culture, peer groups, and socioeconomi
 - **Gender:** Socialization patterns differ for boys and girls in Indian context
 - **Media and technology:** New influences on cognitive and social development
 
-### Significance for Teachers
+#### Significance for Teachers
 
 1. **Age-Appropriate Teaching:** Knowing the stage of development helps teachers design lessons that are neither too easy nor too complex.
 
@@ -197,7 +197,7 @@ For teaching decisions the practical payoff is sequencing: because development i
 | Attachment and first words | Development | Infancy |
 | Vocabulary beyond 2,500 words | Development | Early childhood |
 
-### CTET Exam Pattern — Key Points to Remember
+#### CTET Exam Pattern — Key Points to Remember
 
 | Concept | CTET Weight |
 |---|---|
@@ -208,7 +208,7 @@ For teaching decisions the practical payoff is sequencing: because development i
 | Erikson's psychosocial stages | Paper II, child psychology section |
 | Bronfenbrenner's theory | Occasionally asked in Paper I |
 
-### Practice Questions (CTET Pattern)
+#### Practice Questions (CTET Pattern)
 
 1. Development refers to qualitative changes while growth refers to:
    a) Quantitative changes

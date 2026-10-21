@@ -149,7 +149,7 @@ Step by step:
 
 The salt is therefore an aluminium carbonate or hydrogen carbonate. Aluminium carbonate does not exist as a stable solid (it hydrolyses), so $X$ is $Al(HCO_3)_3$ in solution or, more likely, the answer expected is $NaAl(OH)_4$ context or simply that the cation is $Al^{3+}$ and the anion is $HCO_3^-$. (This is a deliberately awkward question; expect the marker to credit partial identification.)
 
-### Common traps
+#### Common traps
 1. **Writing $Na_2O$ reacting with water to give $Na_2O_2$ or vice versa.** Sodium oxide gives $NaOH$; sodium peroxide gives $NaOH$ and $O_2$. Don't mix the two.
 2. **Treating $Zn(OH)_2$ as a normal insoluble base.** It dissolves in excess $NaOH$ and in excess $NH_3$. Failing to recognise amphoteric behaviour loses a structural mark on extraction and qualitative-analysis questions.
 3. **Forgetting the charge on a complex ion.** $[Cu(NH_3)_4]SO_4$ is a sulphate; the complex inside the brackets is $[Cu(NH_3)_4]^{2+}$, not neutral. Wrong charge → wrong formulae downstream.

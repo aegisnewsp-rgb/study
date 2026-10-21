@@ -30,13 +30,13 @@ lastUpdated: 2026-03-25
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 
-### Law of Demand and Supply
+#### Law of Demand and Supply
 
 **Law of Demand:** When price of a good rises, quantity demanded falls (and vice versa), keeping other factors constant. This inverse relationship forms the **downward-sloping demand curve**. The slope is negative because of the **diminishing marginal utility** — each additional unit consumed gives less satisfaction.
 
 **Law of Supply:** When price rises, quantity supplied rises (and vice versa). This direct relationship creates an **upward-sloping supply curve** because higher prices incentivize producers to produce more and enter the market.
 
-### Determinants of Demand
+#### Determinants of Demand
 
 1. **Price of the good** — own price effect (movement along the curve)
 2. **Income of consumers** — normal goods: demand rises with income; inferior goods: demand falls with income
@@ -49,7 +49,7 @@ lastUpdated: 2026-03-25
 
 > ⚡ **Rajasthan Context:** In Rajasthan, the demand for water-saving appliances (like drip irrigation equipment) increases when farmers expect water scarcity or electricity tariff hikes for tubewells. This is a classic example of demand shifting due to price expectations of related goods (electricity) and future scarcity expectations.
 
-### Determinants of Supply
+#### Determinants of Supply
 
 1. **Price of the good** — own price effect (movement along the curve)
 2. **Cost of production** — raw material prices, wages, rent
@@ -59,7 +59,7 @@ lastUpdated: 2026-03-25
 6. **Expectations** — expected price falls may prompt sellers to supply more now
 7. **Natural factors** — drought reduces agricultural supply
 
-### Market Equilibrium
+#### Market Equilibrium
 
 Equilibrium is reached when:
 - **Quantity Demanded = Quantity Supplied**
@@ -73,7 +73,7 @@ Equilibrium is reached when:
 
 > ⚡ **Exam Tip:** In RPSC RAS, questions frequently ask what happens to equilibrium price/quantity when demand or supply curves shift. Always draw a diagram mentally: rightward shift = increase, leftward shift = decrease.
 
-### Price Elasticity of Demand (PED)
+#### Price Elasticity of Demand (PED)
 
 **Types:**
 | Value | Type | Meaning |
@@ -93,7 +93,7 @@ Equilibrium is reached when:
 
 > ⚡ **Exam Tip:** For RPSC RAS, remember: **"NECST"** — N (necessities inelastic), E (elastic for luxuries), C (complements have cross elasticity), S (substitutes have cross elasticity), T (time — more elastic in long run).
 
-### Price Elasticity of Supply (PES)
+#### Price Elasticity of Supply (PES)
 
 PES = % change in quantity supplied / % change in price
 
@@ -113,7 +113,7 @@ PES = % change in quantity supplied / % change in price
 
 ### 🔴 Extended — Deep Study (3mo+)
 
-### Law of Demand — Deep Dive
+#### Law of Demand — Deep Dive
 
 The **Law of Demand** can be derived from:
 1. **Diminishing Marginal Utility (DMU):** Each additional unit gives less utility, so consumers will only buy more at lower prices
@@ -128,7 +128,7 @@ The **Law of Demand** can be derived from:
 
 > ⚡ **Exam Tip:** Giffen goods are rare and often confused. The classic example is **staple food in poor economies** — when bread prices rise, poor households buy more bread (not less!) because they cannot afford expensive protein substitutes. Remember: Giffen goods are **inferior goods with no close substitutes**.
 
-### Determinants of Demand — Detailed Analysis
+#### Determinants of Demand — Detailed Analysis
 
 **1. Income Elasticity of Demand (YED):**
 - **Normal goods:** YED > 0 (demand increases with income)
@@ -144,7 +144,7 @@ The **Law of Demand** can be derived from:
 
 > ⚡ **Rajasthan Focus:** Rajasthan has a significant **inferior good** pattern in rural areas — items like *ragi* (finger millet) and *bajra* (pearl millet) may be inferior goods for lower-income households. When incomes rise, households switch to wheat and rice. This is a common RPSC RAS economics question.
 
-### Determinants of Supply — Detailed Analysis
+#### Determinants of Supply — Detailed Analysis
 
 **Supply Function:** Qs = f(P, Pr, T, G, E, N)
 Where: P = own price, Pr = price of resources, T = technology, G = government policy, E = expectations, N = number of firms
@@ -158,7 +158,7 @@ Where: P = own price, Pr = price of resources, T = technology, G = government po
 - **Constant returns** — proportional increase
 - **Decreasing returns** — supply increases slower than inputs (diseconomies of scale)
 
-### Market Equilibrium — Advanced Concepts
+#### Market Equilibrium — Advanced Concepts
 
 **Types of Equilibrium:**
 1. **Stable equilibrium** — disturbance causes forces pushing back to equilibrium
@@ -185,7 +185,7 @@ Where: P = own price, Pr = price of resources, T = technology, G = government po
 
 > ⚡ **Rajasthan Context:** The **Maharaja Kesar** (MSP) system for wheat and mustard in Rajasthan is a classic price floor example. The government guarantees a minimum price, creating surplus if world prices are lower. This is frequently tested in RPSC RAS Prelims under agricultural economics.
 
-### Price Elasticity of Demand — Calculation Methods
+#### Price Elasticity of Demand — Calculation Methods
 
 **1. Point Elasticity Method:**
 ```
@@ -210,7 +210,7 @@ PED = (ΔQ/[(Q₁+Q₂)/2]) ÷ (ΔP/[(P₁+P₂)/2])
 
 > ⚡ **Exam Tip:** A very common RPSC RAS question asks: *"If price falls by 10% and quantity demanded rises by 20%, is demand elastic, inelastic, or unitary?"* Answer: Elastic (20%/10% = 2 > 1). This also means total revenue (TR) will **increase**.
 
-### Consumer Surplus and Producer Surplus
+#### Consumer Surplus and Producer Surplus
 
 **Consumer Surplus (CS):**
 - Difference between what consumers are willing to pay (max price) and what they actually pay (market price)
@@ -228,7 +228,7 @@ PED = (ΔQ/[(Q₁+Q₂)/2]) ÷ (ΔP/[(P₁+P₂)/2])
 
 > ⚡ **Exam Tip:** In RPSC RAS diagrams, consumer surplus is always the **triangle between the demand curve and the market price line**. Producer surplus is the **triangle between the market price line and the supply curve**. Combined, they form the **"welfare triangle"** at equilibrium.
 
-### Types of Markets — Detailed Comparison
+#### Types of Markets — Detailed Comparison
 
 | Feature | Perfect Competition | Monopoly | Monopolistic Competition | Oligopoly |
 |---------|---------------------|----------|--------------------------|-----------|
@@ -256,7 +256,7 @@ PED = (ΔQ/[(Q₁+Q₂)/2]) ÷ (ΔP/[(P₁+P₂)/2])
 
 > ⚡ **Rajasthan Example for Monopoly:** **Rajasthan State Road Transport Corporation (RSRTC)** is a state monopoly for many inter-city bus routes. It sets routes and fares with limited competition, giving it monopoly power despite being a public utility.
 
-### Cross Elasticity, Income Elasticity, and Their Applications
+#### Cross Elasticity, Income Elasticity, and Their Applications
 
 **Cross Elasticity of Demand (XED):**
 ```
@@ -277,7 +277,7 @@ YED = (% change in Qd) / (% change in income)
 
 > ⚡ **Exam Tip:** RPSC RAS often asks: *"Which type of elasticity would a statistician use to determine if a good is normal or inferior?"* Answer: **Income Elasticity of Demand (YED)**. A positive YED = normal good; negative YED = inferior good.
 
-### High-Yield Formulas Summary
+#### High-Yield Formulas Summary
 
 ```
 PED = (ΔQ/ΔP) × (P/Q)                          [Point elasticity]
@@ -298,7 +298,7 @@ Marginal Revenue (MR) = ΔTR/ΔQ
 
 > ⚡ **Exam Tip:** If total revenue (TR) falls when price falls, demand is **inelastic**. If TR rises when price falls, demand is **elastic**. This is a quick mental check RPSC RAS uses in multiple-choice questions.
 
-### Diagrams to Remember
+#### Diagrams to Remember
 
 **1. Basic Demand-Supply Diagram:**
 ```
@@ -351,7 +351,7 @@ P
 - CS = area between demand curve and price line
 - PS = area between supply curve and price line
 
-### REET/RAS Specific Question Patterns
+#### REET/RAS Specific Question Patterns
 
 Based on previous years' RPSC RAS Economics papers:
 
@@ -371,7 +371,7 @@ Based on previous years' RPSC RAS Economics papers:
 
 > ⚡ **Last-Minute Tip:** For RPSC RAS Prelims, the economics section typically has 3-5 questions from Demand and Supply. Focus on: **PED calculation**, **equilibrium shifts**, and **market structure characteristics**. These are the most frequently tested topics. Time spent on consumer/producer surplus diagrams pays off because one well-drawn diagram can answer 2-3 questions.
 
-### ⚡ Quick Exam Checklist
+#### ⚡ Quick Exam Checklist
 
 Before entering the exam hall, mentally verify:
 - [ ] Demand curve slopes **downward** (inverse P-Q relationship)

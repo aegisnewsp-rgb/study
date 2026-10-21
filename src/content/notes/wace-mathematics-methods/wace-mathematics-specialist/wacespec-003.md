@@ -68,7 +68,7 @@ Vector v = (a, b, c). Magnitude |v| = √(a² + b² + c²). Dot product v · w =
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the first Topic of Unit 3 in the WACE Mathematics Specialist ATAR Year 12 syllabus. Confirm the live examination design brief on senior-secondary.scsa.wa.edu.au.
 

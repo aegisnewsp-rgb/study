@@ -67,7 +67,7 @@ dT/dt = −k(T − T_s) where T_s is the surrounding temperature.
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the sixth Topic of the SACE Stage 2 Specialist Mathematics Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

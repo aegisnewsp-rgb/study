@@ -20,18 +20,18 @@ seoDescription: "GATE general aptitude notes on simple and compound interest: SI
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 **Simple Interest (SI)** = (P × R × T) / 100
 **Compound Interest (CI)** = P(1 + R/100)^T − P
 **Amount (CI)** = P(1 + R/100)^T
 
-### Memory Trick
+#### Memory Trick
 Simple Interest = flat, same amount each year. Compound Interest = interest on interest, grows faster over time. CI > SI when T > 1 year (for positive rate).
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Simple interest charges on the original principal only; compound interest charges on accumulated principal (principal + previous interest), which accelerates growth.
 
-### Simple vs Compound — Side by Side
+#### Simple vs Compound — Side by Side
 
 | Year | Simple Interest (P=1000, R=10%, T=2yr) | Compound Interest (P=1000, R=10%) |
 |------|----------------------------------------|----------------------------------|
@@ -41,7 +41,7 @@ Simple interest charges on the original principal only; compound interest charge
 
 **CI always > SI** for T > 1 year at positive rates.
 
-### Effective Annual Rate
+#### Effective Annual Rate
 
 When interest is compounded more frequently (half-yearly, quarterly, monthly), the effective annual rate increases:
 
@@ -55,7 +55,7 @@ When interest is compounded more frequently (half-yearly, quarterly, monthly), t
 
 ⚡ **GATE Tip:** Watch for "compounded semi-annually" or "compounded quarterly" — split the rate and multiply the time periods accordingly.
 
-### Quick Example
+#### Quick Example
 
 Q: Rs. 1000 at 10% per annum for 2 years. Find SI and CI.
 A:
@@ -64,7 +64,7 @@ A:
 - CI Year 2: 1100 × 0.10 = 110 → Total CI = **Rs. 210**
 - Difference: CI − SI = Rs. 10 (small for 2 years, grows larger over time)
 
-### Must Remember
+#### Must Remember
 
 - **SI Amount** = P + (P × R × T)/100 = P(1 + RT/100)
 - **CI Amount** = P(1 + R/100)^T
@@ -73,7 +73,7 @@ A:
 - **Difference between CI and SI** for 2 years = P(R/100)² (on the same principal)
 - **Present worth** = A / (1 + RT/100) for SI; = A / (1 + R/100)^T for CI
 
-### Common GATE Question Patterns
+#### Common GATE Question Patterns
 
 **Pattern 1 — Find rate/time given amount:**
 SI: A = P(1 + RT/100) → solve for R or T
@@ -90,7 +90,7 @@ For 3 years: CI − SI = P × [3(R/100)² + (R/100)³]
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 When you borrow or invest money, interest is the price you pay or earn for using that money. Simple Interest is the straightforward version — you calculate it once on the original principal and that's it. The interest amount stays identical every year because you're always multiplying the same principal by the same rate and time. It's like renting money at a fixed annual fee.
 
@@ -98,7 +98,7 @@ Compound Interest works differently because it treats accumulated interest as ne
 
 The compounding frequency matters enormously. When banks say "10% per annum compounded half-yearly," they mean the rate is actually 5% every six months, applied twice a year. Your money grows faster because you're earning interest on interest more often. The same principle applies to quarterly, monthly, or daily compounding — the more frequent the compounding, the more you end up with (as a borrower or lender).
 
-### Key Formulas
+#### Key Formulas
 
 | Symbol | Meaning |
 |--------|---------|
@@ -109,7 +109,7 @@ The compounding frequency matters enormously. When banks say "10% per annum comp
 
 A = Amount, P = Principal, R = Rate per annum, T = Time in years
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** Find the compound interest on Rs. 5000 at 12% p.a. for 2 years, compounded annually.
 
@@ -121,20 +121,20 @@ A = Amount, P = Principal, R = Rate per annum, T = Time in years
 
 **Answer:** CI = Rs. 1272
 
-### Common Mistakes
+#### Common Mistakes
 
 - Using simple interest formula for compound interest problems → Recognize when the question says "compound"
 - Forgetting that CI includes principal in the final amount → CI = Amount − P, not just the power formula result
 - Mixing up annual rate with per-compounding-period rate → Divide annual rate by number of periods, multiply time by number of periods
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 
 1. Q: The simple interest on a sum for 3 years at 8% p.a. is Rs. 720. Find the compound interest on the same sum at the same rate for 2 years. Options: Rs. 480, Rs. 520, Rs. 560, Rs. 640. Ans: Rs. 520 (Reason: P = 720 × 100/(3×8) = 3000. CI for 2 years = 3000[(1.08)^2 − 1] = 3000 × 0.1664 = 499.2 ≈ 520)
 2. Q: At what rate will Rs. 800 become Rs. 882 in 2 years at compound interest? Options: 4%, 5%, 6%, 7%. Ans: 5% (Reason: 800(1 + R/100)^2 = 882 → (1 + R/100)^2 = 1.1025 → 1 + R/100 = 1.05 → R = 5%)
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 Simple Interest represents linear growth. Imagine you put Rs. 10,000 in a fixed deposit at 10% simple interest per year. Every year, you earn exactly Rs. 1,000. After 5 years, you've earned Rs. 5,000 total. Your money grows in a straight line — predictable, steady, but unspectacular. The graph of Amount vs Time is a straight line. This is why simple interest is sometimes called "flat rate" interest.
 
@@ -144,7 +144,7 @@ The Rule of 72 is a handy shortcut: divide 72 by the annual interest rate to est
 
 For fractional time periods, the compound interest formula handles non-integer exponents correctly, but simple interest for fractional years uses proportional time: SI for 1½ years at 10% on Rs. 1000 = (1000 × 10 × 1.5)/100 = Rs. 150. Never compound for fractions — simple interest always uses proportional time.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 
 For compound interest with different compounding periods: If rate R% per annum is compounded n times per year, the effective rate per period is R/n%, and total periods = nT. So Amount = P(1 + R/(100n))^(nT). As n → ∞ (continuous compounding), Amount → Pe^(RT/100).
 
@@ -152,7 +152,7 @@ The difference between CI and SI over T years at R% comes from the binomial expa
 
 For comparing investments: When comparing SI and CI options, always calculate the effective annual rate. A rate of 10% compounded half-yearly gives an effective annual rate of (1 + 0.10/2)^2 − 1 = 10.25%, which is better than 10% compounded annually.
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 
 **Q1 (GATE 2020):** The compound interest on a sum for the second year is Rs. 880 and for the third year is Rs. 968. Find the rate of interest and the principal.
 
@@ -172,14 +172,14 @@ For comparing investments: When comparing SI and CI options, always calculate th
 - Answer: Each installment ≈ Rs. 56,079
 - Common error: Forgetting to discount the second installment back to present value
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Method A:** Direct formula — use standard SI or CI formulas for straightforward problems
 **Method B:** Multiplier method — multiply by (1 + r)^n directly for compound problems with clean numbers
 **Method C:** Installment/equated monthly installment (EMI) approach — equate present values of payment streams to loan amount
 **When to use:** Method A for SI and single-period CI. Method B for multi-year CI with clean rates. Method C for installment-based questions.
 
-### Tricky Cases
+#### Tricky Cases
 
 - When rate is given per annum but time is in months: convert months to years fraction (3 months = 3/12 = 0.25 year)
 - Depreciation is opposite of compound interest growth: Value = P(1 − R/100)^T (rate is subtracted, not added)

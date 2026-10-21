@@ -28,7 +28,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 
 ### 🟡 Standard Study
 
-### Energy Bands
+#### Energy Bands
 
 - **Conduction Band:** Higher energy states where electrons are free
 - **Valence Band:** Lower energy states with bound electrons
@@ -37,7 +37,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 - **Insulator:** Large band gap (> 3 eV) — electrons cannot jump
 - **Semiconductor:** Small band gap (~1 eV) — electrons can jump with thermal energy
 
-### Intrinsic Semiconductors
+#### Intrinsic Semiconductors
 
 - Pure semiconductors at room temperature
 - Electrons and holes are equal in number (n = p = ni)
@@ -45,7 +45,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 - Silicon (Si): Eg = 1.12 eV, ni ≈ 10¹⁰/cm³ at 300K
 - Germanium (Ge): Eg = 0.72 eV, ni ≈ 10¹³/cm³ at 300K
 
-### Extrinsic Semiconductors
+#### Extrinsic Semiconductors
 
 **n-Type (Donor doping):**
 - Add group V elements (Phosphorus, Arsenic)
@@ -59,7 +59,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 - Minority carriers: electrons
 - Fermi level moves towards valence band
 
-### p-n Junction
+#### p-n Junction
 
 - **Depletion Region:** No mobile charge carriers on either side of junction
 - **Barrier Potential:** ~0.7V for Si, ~0.3V for Ge at 300K
@@ -67,7 +67,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 - **Reverse Bias:** External voltage increases barrier → no conduction (only leakage)
 - **Breakdown:** When reverse voltage exceeds critical value — Zener or Avalanche breakdown
 
-### Diode Applications
+#### Diode Applications
 
 1. **Rectifier:** Converts AC to DC (half-wave and full-wave bridge)
 2. **Zener Diode:** Voltage regulation — operates in reverse breakdown
@@ -75,7 +75,7 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 4. **Photodiode:** Reverse biased, converts light to current
 5. **Solar Cell:** Converts light energy to electrical energy
 
-### Bipolar Junction Transistor (BJT)
+#### Bipolar Junction Transistor (BJT)
 
 - **npn Transistor:** Two n-regions separated by p-region
 - **pnp Transistor:** Two p-regions separated by n-region
@@ -84,20 +84,20 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 - **Common Base Configuration:** α ~ 0.98, no current gain but voltage gain
 - **Common Emitter Configuration:** β varies from 20 to 200, current gain
 
-### Transistor as Amplifier
+#### Transistor as Amplifier
 
 - Input is in forward-biased emitter-base circuit
 - Output is in reverse-biased collector-base circuit
 - Small base current controls large collector current
 - Voltage gain: Av = β × (Rc/Re)
 
-### Transistor as Switch
+#### Transistor as Switch
 
 - Cut-off region: Base current = 0 → Transistor OFF
 - Saturation region: Base current large enough → Transistor ON
 - Used in digital logic circuits
 
-### Logic Gates
+#### Logic Gates
 
 | Gate | Symbol | Output |
 |------|--------|--------|
@@ -112,32 +112,32 @@ Semiconductors form the backbone of modern electronic devices. This topic covers
 
 ### 🔴 Deep Study
 
-### Drift and Diffusion Currents
+#### Drift and Diffusion Currents
 
 - **Drift Current:** Due to electric field in semiconductor
 - **Diffusion Current:** Due to concentration gradient of carriers
 - Total current = drift + diffusion for each carrier type
 
-### Fermi Level
+#### Fermi Level
 
 - Represents energy level with 50% probability of occupation at 0K
 - In intrinsic semiconductor, Fermi level is mid-gap
 - In n-type, Fermi level is above mid-gap (closer to conduction band)
 - In p-type, Fermi level is below mid-gap (closer to valence band)
 
-### Transistor Characteristics
+#### Transistor Characteristics
 
 - **Input Characteristic:** IB vs VBE at constant VCE
 - **Output Characteristic:** IC vs VCE at constant IB
 - Active region: Used for amplification
 - Saturation and cut-off: Used as switch in digital circuits
 
-### Feedback in Amplifiers
+#### Feedback in Amplifiers
 
 - Negative feedback stabilizes gain, reduces distortion
 - Emitter bypass capacitor improves gain at high frequencies
 
-### Oscillator Circuit
+#### Oscillator Circuit
 
 - An amplifier with positive feedback produces oscillations
 - LC or RC network determines frequency

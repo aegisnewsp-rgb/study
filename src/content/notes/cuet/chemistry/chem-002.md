@@ -144,7 +144,7 @@ An electron is accelerated through 150 V.
 
 **Quantum tunnelling** is the other place this model earns marks: a particle with energy below a barrier has a non-zero probability of appearing on the other side. It is why the Sun fuses, why the scanning tunnelling microscope images single atoms, and why a NAND flash memory stores a charge — and it is the direct reason alpha decay happens despite the barrier.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -179,7 +179,7 @@ flowchart TD
   - *Angular nodes in 4p?* → l = 1, so 1.
   - *Threshold wavelength?* → ν₀ = c/λ₀ with λ₀ the longest wavelength that works.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Writing 4s² 3d⁴ for chromium or 4s² 3d⁹ for copper.** Both are wrong; the exceptions are 4s¹ 3d⁵ and 4s¹ 3d¹⁰.
 2. **Removing 3d electrons before 4s when forming a cation.** Always strip the highest n first.
@@ -192,7 +192,7 @@ flowchart TD
 9. **Confusing ΔE sign.** Falling from 3 to 1 emits energy, so ΔE is negative; only the magnitude enters λ = hc/ΔE.
 10. **Writing λ = h/mv for a macroscopic object and expecting it to be visible.** It exists; it is just 10⁻³⁰ m and irrelevant. The question is about magnitude, not existence.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Answer these on paper before reading the solution. Each maps to a form the chapter actually uses.
 
@@ -213,7 +213,7 @@ Answer these on paper before reading the solution. Each maps to a form the chapt
 8. **Why is the Bohr model valid for He⁺ but not for He?**
    The derivation of E = −13.6/n² assumes a single electron outside a nucleus of charge +Ze. He⁺ satisfies that exactly. He has two electrons, so the electron–electron repulsion term has no place in the one-electron equation, and the predicted energy levels are wrong.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Write the Aufbau ladder before every configuration question**, then tick orbitals off. Faster and far more reliable than recalling a 26-electron string.
 2. **Convert every electron count back to Z at the end.** If a question says Fe³⁺, count the electrons: 26 − 3 = 23. If your configuration has a different number, you have dropped or added one.

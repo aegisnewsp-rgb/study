@@ -18,20 +18,20 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 Profit = SP − CP (when SP > CP). Loss = CP − SP (when CP > SP). Always calculate based on Cost Price.
 
-### Quick Memory Trick
+#### Quick Memory Trick
 SP > CP = Profit (seller happy). CP > SP = Loss (seller sad). Percentage always based on CP unless question says otherwise.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Profit and loss are just the difference between what you sell something for and what it cost you, expressed as a percentage of the cost price.
 
-### Quick Example
+#### Quick Example
 Q: A shopkeeper buys a phone for Rs. 8,000 and sells it for Rs. 9,600. What's the profit percentage?
 A: Profit = 9600 − 8000 = 1600. Profit % = (1600/8000) × 100 = 20%
 
-### Must Remember
+#### Must Remember
 - Profit % = (Profit/CP) × 100
 - Loss % = (Loss/CP) × 100
 - Discount is always on Marked Price (MP), not CP
@@ -39,7 +39,7 @@ A: Profit = 9600 − 8000 = 1600. Profit % = (1600/8000) × 100 = 20%
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Profit and loss are the most fundamental business concepts you'll encounter in quantitative aptitude. At its core, profit happens when you sell something for more than it cost you to acquire it. Loss is the opposite — you sold it for less than what you paid. The tricky part is that every percentage in profit and loss problems is calculated relative to the Cost Price, unless the problem explicitly says otherwise. This is where many students go wrong: they calculate profit percentage using selling price as the base, which is incorrect.
 
@@ -47,7 +47,7 @@ The marked price (also called list price or tag price) is what the seller initia
 
 Overhead charges like transportation, packaging, or storage get added to the cost price. If you buy a refrigerator for Rs. 20,000 and spend Rs. 1,500 on delivery and installation, your actual cost price is Rs. 21,500. Now when you sell it, your profit or loss is calculated against Rs. 21,500, not Rs. 20,000. Always account for all costs before calculating profit percentage.
 
-### Key Formulas
+#### Key Formulas
 
 | Symbol | Meaning |
 |--------|---------|
@@ -59,7 +59,7 @@ Overhead charges like transportation, packaging, or storage get added to the cos
 | SP | CP × (1 − Loss%/100) |
 | Discount % | ((MP − SP)/MP) × 100 |
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** A shopkeeper buys goods at a 20% discount on the marked price of Rs. 2,500. He sells them at the marked price. What is his profit percentage?
 
@@ -73,20 +73,20 @@ Overhead charges like transportation, packaging, or storage get added to the cos
 
 **Answer:** 25% profit
 
-### Common Mistakes
+#### Common Mistakes
 
 - Calculating discount percentage on cost price instead of marked price → Discounts always apply to the marked price
 - Mixing up profit percentage with markup percentage → Profit % is on CP; markup might be on MP
 - Forgetting to include overhead costs in CP → Always add all acquisition costs before finding profit/loss percentage
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 
 1. Q: A shopkeeper sells a shirt for Rs. 990 and gains 10%. What is the cost price? Options: Rs. 880, Rs. 890, Rs. 900, Rs. 910. Ans: Rs. 900 (Reason: CP = SP/(1 + 10/100) = 990/1.1 = 900)
 2. Q: If the cost price of 20 articles equals the selling price of 25 articles, find the loss percentage. Options: 20%, 25%, 15%, 10%. Ans: 20% (Reason: Let CP of 1 = 1. CP of 20 = 20. SP of 25 = 20, so SP of 1 = 20/25 = 0.8. Loss% = (1 − 0.8)/1 × 100 = 20%)
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 Profit and loss problems appear deceptively simple but have surprising depth. The core insight is that every business transaction involves multiple prices: the cost price (what you pay to acquire or produce something), the marked price (what you initially ask for it), and the selling price (what the customer actually pays, after any discounts). Each of these can be the basis for different percentage calculations, and mixing them up is the most common error.
 
@@ -96,7 +96,7 @@ False weights represent a clever (though dishonest) profit-maximization techniqu
 
 The relationship between successive discounts and profit/loss is nuanced. Two successive discounts of 20% and 10% do NOT equal a single 30% discount. The combined discount = 1 − (0.8 × 0.9) = 1 − 0.72 = 28%, not 30%. This is because the second discount applies to the already-reduced price, not the original marked price. The same logic applies in reverse to successive price increases.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 
 When discount and profit/loss interact: If an item costs Rs. C and is marked at M with a discount of d%, sold at a profit of p% on cost, we have SP = M(1 − d/100) = C(1 + p/100). From this, M = C(1 + p/100)/(1 − d/100). This formula shows the relationship between marked price, cost, discount, and profit simultaneously.
 
@@ -104,7 +104,7 @@ For false weight fraud: If a merchant uses a weight of W kg but claims it is 1 k
 
 Break-even analysis: Selling price at which there is neither profit nor loss = Cost Price. Below CP is loss; above CP is profit. The distance from CP determines how much buffer you have before making a loss.
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 
 **Q1 (GATE 2020):** A merchant buys goods at a 25% discount on the marked price. He marks them at a price that is 20% above the marked price. He then sells at a 15% discount on the marked price. Find his profit percentage.
 
@@ -124,14 +124,14 @@ Break-even analysis: Selling price at which there is neither profit nor loss = C
 - Answer: 10% loss on the 4th goat
 - Common error: Assuming equal selling price for all goats, not accounting for different profit percentages
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Method A:** Assume base value = 100 — this eliminates fractions and makes percentage calculations cleaner
 **Method B:** Algebraic method — use variables for unknown prices and set up equations
 **Method C:** Back-calculation — start from known selling price and work backwards to find cost
 **When to use:** Method A for problems with discounts and markups. Method B for complex multi-step transactions. Method C when you know SP and want to find CP.
 
-### Tricky Cases
+#### Tricky Cases
 
 - When cost price and selling price are expressed as ratios: Profit % = [(ratio − 1)] × 100 when CP:SP is given
 - If a merchant sells at a loss equal to the discount percentage he offered: This creates interesting equations linking discount % and loss %

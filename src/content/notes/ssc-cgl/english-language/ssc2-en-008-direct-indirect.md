@@ -18,22 +18,22 @@ lastUpdated: 2026-03-25
 
 ### 🟢 Lite
 
-### Key Rule / Formula
+#### Key Rule / Formula
 Direct speech uses quotation marks and reports exact words. Indirect speech uses a reporting verb + that/if/whether/wh-word + tense backshift (past reporting verb causes tense to shift back: said → had said, will → would).
 
-### Memory Trick
+#### Memory Trick
 **"Tense slides back when the reporting verb is past"** — "He said, 'I am happy'" → "He said that he was happy." If the reporting verb is present/future, no backshift.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 SSC tests conversion between Direct and Indirect speech — the key skills are tense backshift and adjusting time/place words (now → then, today → that day, here → there, tomorrow → the next day).
 
-### Quick Example
+#### Quick Example
 Q: Indirect: He said, "I have completed the task."
 A: **"He said that he had completed the task."** — Present Perfect backshifts to Past Perfect when reporting verb "said" is past tense.
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 
 Direct speech quotes a speaker's exact words with quotation marks. Indirect speech reports what was said without quotes, integrating it into the reporting clause structure with adjustments to tense and reference words.
 
@@ -41,7 +41,7 @@ The critical adjustment is **backshift** — when the reporting verb is past (sa
 
 However, when the reporting verb is in the present or future tense ("He says," "She will say"), no backshift occurs. "He says that he is busy" — the present tense is preserved because the saying is current. This is a very common exam point.
 
-### Key Points
+#### Key Points
 
 - **Backshift rules (reporting verb = past)**:
   - Present Simple → Past Simple: "I am" → "he was"
@@ -58,13 +58,13 @@ However, when the reporting verb is in the present or future tense ("He says," "
   - Exclamations → "exclaimed that"
 - **Time word adjustments**: now → then, today → that day, yesterday → the previous day, tomorrow → the next day, here → there, this → that
 
-### Worked Example
+#### Worked Example
 
 **Q:** Indirect: "He said, 'I was waiting for her.'"
 **Approach:** Reporting verb "said" is past → backshift applies. Past Continuous "was waiting" → Past Perfect Continuous "had been waiting."
 **Answer:** "He said that he had been waiting for her."
 
-### SSC Pattern / Tips
+#### SSC Pattern / Tips
 
 - "said" → for statements; "told [object]" → statements with a direct object; "asked" → questions
 - "told" always needs an object — "He told that he was leaving" is wrong. Say "He said that..." or "He told me that..."
@@ -73,7 +73,7 @@ However, when the reporting verb is in the present or future tense ("He says," "
 
 ### 🔴 Extended
 
-### Full Concept
+#### Full Concept
 
 Direct and Indirect (Reported) Speech are two representations of spoken or written words. Direct speech replicates exact words verbatim — enclosed in quotation marks, preserving original tenses and time references. Indirect speech embeds the reported content into the grammar of the reporting sentence, requiring tense backshift and adjustment of deictic words (now/then, here/there, this/that).
 
@@ -83,7 +83,7 @@ However, backshift is not obligatory — it is a tendency. When reported informa
 
 The deeper structural principle: indirect speech restructures the entire sentence type based on what kind of utterance it is. Statements become noun clauses. Yes/No questions become if/whether clauses. Wh-questions become wh-clauses with statement word order. Commands become to-infinitive phrases.
 
-### SSC CGL Deep Analysis
+#### SSC CGL Deep Analysis
 
 - **Frequency**: 1–3 questions per paper — usually one statement conversion and one question conversion
 - **Most common format**: Fill-in-the-blank — "He said that he ___ leaving" with options for verb form
@@ -93,7 +93,7 @@ The deeper structural principle: indirect speech restructures the entire sentenc
 - **Imperative conversions**: "Let us go" in suggestions → "suggested that they should go" or "proposed to go"
 - **From 2022**: Questions involving embedded indirect speech within passive constructions — "He was said to be leaving" — require recognition of both passive and indirect patterns
 
-### High-Scoring Strategy
+#### High-Scoring Strategy
 
 1. **First identify the sentence type** — Is it a statement, question (yes-no or wh-), command, or exclamation? This determines the entire structure.
 2. **Check the reporting verb's tense** — If past → apply backshift (unless universal truth). If present/future → no backshift.
@@ -101,7 +101,7 @@ The deeper structural principle: indirect speech restructures the entire sentenc
 4. **Adjust time words** — now → then, today → that day, yesterday → the previous day, tomorrow → the next day, ago → before, this → that, these → those
 5. **Wh-questions**: Remove question mark, change to statement word order, keep wh-word at beginning. "Where do you live?" → "where I lived" (not "where did I live")
 
-### SSC-Level Practice
+#### SSC-Level Practice
 
 **Q1:** (SSC CGL 2023)
 Indirect: She said, "I have been waiting for him since morning."
@@ -118,7 +118,7 @@ Indirect: He said, "Let us go for a walk."
 (A) He suggested to go for a walk (B) He suggested that they should go for a walk (C) He said that they go for a walk (D) He ordered to go for a walk
 Answer: **(B) He suggested that they should go for a walk** — "Let us" in a suggestion becomes "suggested that [subject] should." "He suggested to go" is wrong — the subject must be expressed in the infinitive.
 
-### Common Traps
+#### Common Traps
 
 - **Trap 1 — Universal truth no-backshift**: "The teacher said, 'The earth is round'" → NOT "The teacher said that the earth was round." General scientific truths don't backshift because they remain true.
 - **Trap 2 — 'Said to' vs 'Told'**: "He said to her, 'I am leaving'" → "He told her that he was leaving." "told" always takes a direct object. "He said that he was leaving" is also correct but note the difference in verb used.

@@ -179,7 +179,7 @@ If it is cyclic, planar, conjugated, and has 4n π electrons, it is **antiaromat
 
 Organic Chemistry is the most "applied" of the ECAT chemistry topics — it consumes everything from Chemical Bonding (hybridisation, polarity, intermolecular forces), Acid-Base Equilibria (the pKa of carboxylic acids, amines, phenols), Thermochemistry (heats of combustion, bond energies), and Kinetics (reaction rate laws, activation energy). Students who treat organic chemistry as a memorisation exercise struggle; those who see the underlying physical-organic logic — what the electrophile, nucleophile, leaving group, and reaction conditions are doing — find the topic manageable.
 
-### Common traps
+#### Common traps
 
 - **Confusing Markovnikov and anti-Markovnikov.** "Alkene + HBr → tertiary alkyl bromide" is only true without peroxide. With peroxide (radical initiator), the product is the primary alkyl bromide. ECAT questions are explicit about the conditions.
 - **Writing "cis-2-butene" when the substituents are different.** Cis/trans only applies when each sp² carbon has two identical substituents. Use E/Z (or cis/trans only when both ends have a pair of identical substituents).

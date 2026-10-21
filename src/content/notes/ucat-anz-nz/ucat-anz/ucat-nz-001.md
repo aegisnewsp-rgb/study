@@ -137,7 +137,7 @@ The four UCAT ANZ subtest scores are summed (with each scored 300–900) to give
 
 ---
 
-### 🎯 Exam Essentials
+#### 🎯 Exam Essentials
 
 | Field | Detail |
 |---|---|
@@ -157,19 +157,19 @@ The four UCAT ANZ subtest scores are summed (with each scored 300–900) to give
 
 ---
 
-### High-Yield
+#### High-Yield
 
 The single highest-yield Verbal Reasoning habit is **timed practice against the official UCAT ANZ practice tests on ucat.edu.au**. The official question bank is the only authentic question bank — third-party prep materials do not match the live test style, item density or per-item time pressure. Drill full timed sets of 4–8 passages repeatedly; track your accuracy per passage and your average item time. The second-highest-yield habit is the **"Can't Tell" log** — every time you choose Can't Tell, write one line explaining why; this trains the calibration needed to choose Can't Tell over True/False when the statement goes beyond the passage.
 
 ---
 
-### Previous Year
+#### Previous Year
 
 The UCAT ANZ 2024 and 2025 cycles both used the four-subtest format with Verbal Reasoning as the first cognitive subtest. The 2026 cycle is expected to retain the same format. Confirm the live test format and timing on ucat.edu.au/ucat-anz/test-format before each cycle. Abstract Reasoning was removed from the UCAT ANZ starting the 2025 cycle — do not allocate study time to Abstract Reasoning for 2025 onwards.
 
 ---
 
-### Pro Tips
+#### Pro Tips
 
 - **First-pass skim**: read each passage in ~60–90 seconds, mapping structure in 2–3 margin notes. Do not read word-for-word on first pass.
 - **"Can't Tell" default**: when the statement is plausible but not directly supported, default to Can't Tell rather than True.
@@ -179,7 +179,7 @@ The UCAT ANZ 2024 and 2025 cycles both used the four-subtest format with Verbal 
 
 ---
 
-### Official Resources
+#### Official Resources
 
 - ucat.edu.au/ucat-anz — UCAT ANZ Consortium official site
 - ucat.edu.au/ucat-anz/practice-tests — Official UCAT ANZ practice tests

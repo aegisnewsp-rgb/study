@@ -151,7 +151,7 @@ A candidate scoring below 6 on the completion family typically has a vocabulary,
 
 ---
 
-### Exam Essentials — IELTS Listening Completion Family
+#### Exam Essentials — IELTS Listening Completion Family
 
 | Field | Value |
 |---|---|
@@ -175,7 +175,7 @@ A candidate scoring below 6 on the completion family typically has a vocabulary,
 
 ---
 
-### High-Yield — IELTS Listening Completion Family
+#### High-Yield — IELTS Listening Completion Family
 
 The seven most-testable contexts and the calibrated response framework:
 
@@ -189,7 +189,7 @@ The seven most-testable contexts and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — IELTS Listening Completion Family
+#### Previous Year Patterns — IELTS Listening Completion Family
 
 The five completion families have been structurally stable across every IELTS cycle since the Academic / General Training split in 1989. The format (form / note / table / flow-chart / summary) is published verbatim on ielts.org and is not expected to change.
 
@@ -204,7 +204,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Pro Tips — IELTS Listening Completion Family
+#### Pro Tips — IELTS Listening Completion Family
 
 1. **Predict the word type before the recording starts.** The binding constraint in completion questions is reading speed and word-type prediction, not listening speed.
 2. **Listen for paraphrase markers.** "in other words", "that is", "what I mean is", "to put it another way", "which is to say" signal a paraphrase is coming. Train to hear them on first pass.
@@ -219,7 +219,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Official Resources — IELTS Listening Completion Family
+#### Official Resources — IELTS Listening Completion Family
 
 | Resource | URL | Use |
 |---|---|---|

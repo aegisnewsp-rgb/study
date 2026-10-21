@@ -237,7 +237,7 @@ Questions phrased as "if α and β are acute angles with tan α + tan β = 4/3 a
 
 ---
 
-### 🟠 Exam Essentials (1 day before)
+#### 🟠 Exam Essentials (1 day before)
 
 #### Formula card — reproduce without looking
 
@@ -270,7 +270,7 @@ Write out the standard-angle table from memory, then the ASTC chart from memory,
 
 ---
 
-### 🔵 High-Yield Patterns
+#### 🔵 High-Yield Patterns
 
 1. **Sign before magnitude.** Determine the signs of sin, cos and tan from the quadrant before touching sin²θ + cos²θ = 1. Choosing the wrong root of the square root is the single most common error in this chapter.
 2. **Substitute u = sin x or u = cos x** for any equation that is quadratic in a ratio. It turns a trig equation into an algebra problem you already know how to do.
@@ -283,7 +283,7 @@ Write out the standard-angle table from memory, then the ASTC chart from memory,
 
 ---
 
-### 🟣 Traps and question forms you will meet
+#### 🟣 Traps and question forms you will meet
 
 | Trap | What happens if you fall in | Fix |
 |---|---|---|
@@ -305,7 +305,7 @@ Write out the standard-angle table from memory, then the ASTC chart from memory,
 
 ---
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Recite the 30-45-60 triangle, not the values.** If you can draw the triangle and label √3/2 opposite 60°, every value in the table follows in either direction.
 2. **Drill the ASTC chart in all four orientations** — starting at quadrant I, at quadrant II, and again for cot. The cotan column is the one that gets skipped and then guessed.
@@ -318,7 +318,7 @@ Write out the standard-angle table from memory, then the ASTC chart from memory,
 
 ---
 
-### 📚 Sources and where to go deeper
+#### 📚 Sources and where to go deeper
 
 | Resource | Where to find it | Use it for |
 |---|---|---|

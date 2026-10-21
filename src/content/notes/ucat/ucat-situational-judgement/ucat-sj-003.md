@@ -292,7 +292,7 @@ After one cycle of the four-day plan, your wrong answers should cluster in one o
 
 ---
 
-### Memory anchors
+#### Memory anchors
 
 - **Read all four options twice before rating any.** Anchor on the absolute scale.
 - **Patient safety, dignity, consent, honesty, professional standards.** Highest-rated considerations.
@@ -302,7 +302,7 @@ After one cycle of the four-day plan, your wrong answers should cluster in one o
 
 ---
 
-### Common traps
+#### Common traps
 
 - Rating a sympathetic but wrong action as appropriate because the patient or family is in distress.
 - Defending silence or loyalty over patient safety.
@@ -393,7 +393,7 @@ Now group those six by trap: three from one scenario type and three from another
 Nothing about the published format changes in the last few days: the item count, the minutes, the scoring rule and the band order are fixed. Cohort averages and per-band distributions move between years and must be read live from the official site at the time you are booking.
 
 ---
-### What to do next
+#### What to do next
 
 1. Take ten SJT scenarios and rate every response. After rating, write one sentence defending each rating. If the defence is shaky, that response is where your calibration needs work.
 2. Build a flashcard set of the six traps with one example for each. Read the set before each practice session.

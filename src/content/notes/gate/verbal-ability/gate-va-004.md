@@ -18,16 +18,16 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Pattern/Rule
+#### Key Pattern/Rule
 Read the question first, then scan the passage for the answer — don't try to memorise the entire passage before answering.
 
-### Memory Trick
+#### Memory Trick
 **"Q-Lamp-S"** — Question type → Locate relevant lines → Analyse the section → Match to options → Pick the best answer.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 GATE RC passages test how well you extract meaning, draw inferences, and identify purpose from 200–400 word passages on technical and general topics.
 
-### Question Types & Approach
+#### Question Types & Approach
 
 **1. Main Idea / Primary Purpose**
 Look at the first and last paragraphs. The main purpose is usually stated there or is the organising principle of the entire passage. Wrong options are often too narrow, too broad, or address only a supporting detail rather than the passage's core argument.
@@ -44,14 +44,14 @@ Identify whether the author is neutral, critical, enthusiastic, nostalgic, sarca
 **5. Factual / Detail Questions**
 Directly stated in the passage. Find the relevant sentence and match it to the option with the closest wording. These are the easiest to get right if you can locate the line quickly.
 
-### Speed Reading Tips
+#### Speed Reading Tips
 
 - **First pass:** Read the passage title, opening sentence, and concluding paragraph — this gives you ~60% of the main idea in ~20% of the time
 - **Second pass:** Read questions, then scan for the relevant lines
 - **Skip unknown words:** Unless the word is central to the question, move past it. Context often makes the meaning clear even without knowing the exact word
 - **Circle key terms** in the passage as you read — names, dates, causes, effects, comparison terms
 
-### Common Trap Options
+#### Common Trap Options
 
 | Trap Type | Example | Why It's Wrong |
 |-----------|---------|---------------|
@@ -61,7 +61,7 @@ Directly stated in the passage. Find the relevant sentence and match it to the o
 | Too narrow | Covers only a sub-point, not the main argument | Main idea questions need the big picture |
 | True but irrelevant | Factually accurate but doesn't answer the question asked | Read the question carefully! |
 
-### Quick Example
+#### Quick Example
 
 Q: "The primary purpose of the passage is to..."
 A: Look at the first and last paragraphs. The main purpose is usually stated there or is the organising principle of the entire passage.
@@ -73,14 +73,14 @@ A: The answer is not stated directly but follows logically. Look for a statement
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 Reading Comprehension in GATE presents you with a passage of 200-400 words followed by 3-5 questions. The passages are drawn from diverse topics: science and technology, environment, economics, literature, and social issues. The questions test not just comprehension of what the passage says, but your ability to analyze its structure, evaluate its tone, draw logical inferences, and understand word meanings in context.
 
 The key to RC is strategic reading. Most students approach RC by reading the entire passage carefully before looking at the questions, trying to memorize everything. This wastes time and doesn't work — you forget details by the time you reach the questions, and you haven't read with any purpose. A better strategy: read the first question, then read the passage with that question in mind. This is called "active reading with a target."
 
 Different question types demand different reading depths. Factual questions require you to locate specific details — you can scan for them. Inference questions require you to read between the lines — you need to understand the author's logic. Main idea questions require you to step back and see the forest for the trees — you need the big picture. Vocabulary questions are often the easiest and fastest — the answer is usually right there in the context around the word.
 
-### Types & Approach
+#### Types & Approach
 
 **Main Idea / Primary Purpose** — Asks what the passage is primarily about or what the author's main point is. Look at the first paragraph, the last paragraph, and how each paragraph contributes to the whole. The main idea is usually stated explicitly, often in the introduction. The wrong answer choices are typically either too narrow (mentioning one detail), too broad (mentioning something the passage is merely an example of), or off-topic. The correct answer captures the central theme without over- or under-stating it.
 
@@ -92,13 +92,13 @@ Different question types demand different reading depths. Factual questions requ
 
 **Tone / Purpose Questions** — Ask about the author's attitude (tone) or intent (purpose). Is the author critical? Supportive? Neutral? Informative? Persuasive? Look at word choices, the types of claims made, and the overall structure. Technical passages are usually neutral/informative. Passages with strong adjectives and emotional language signal a more subjective tone. Purpose questions ask why the author wrote the passage — to inform, persuade, criticize, entertain, or describe.
 
-### Step-by-Step Example
+#### Step-by-Step Example
 **Passage:** [A passage about adaptive learning systems in education technology]
 **Q:** "According to the passage, what is the main limitation of traditional adaptive learning systems?"
 **Approach:** Step 1 → Identify keywords: "main limitation," "traditional adaptive learning systems." Step 2 → Scan passage for relevant lines. Step 3 → Read surrounding context. Step 4 → Match to options — the answer will be directly stated or clearly implied by the passage.
 **Answer:** Depends on passage content — either directly stated limitation or clearly inferable from stated constraints.
 
-### Common Mistakes
+#### Common Mistakes
 - Reading the passage once and assuming you've understood it well enough for all question types.
 - Choosing an answer that sounds plausible from general knowledge but isn't supported by the passage — always go back to the text.
 - Over-valuing impressive vocabulary in answer choices — a passage about a simple topic won't have "esoteric" as the main idea.
@@ -107,7 +107,7 @@ Different question types demand different reading depths. Factual questions requ
 
 ### 🔴 Extended
 
-### Full Concept Explanation
+#### Full Concept Explanation
 
 Reading Comprehension is the most time-intensive question type in GATE Verbal Ability. A 200-400 word passage followed by multiple questions requires careful allocation of your reading time and a systematic approach to each question. Understanding how RC passages are constructed and how questions are designed will help you approach them strategically.
 
@@ -153,7 +153,7 @@ Watch for words that look like vocabulary words but are being used in an ordinar
 
 **Purpose Questions** ask why the passage exists, not what it says. Purpose is about communication intent. The passage exists to inform, to persuade, to entertain, to criticize, to celebrate, to warn, to compare, or to introduce a new concept. The purpose shapes the structure, the evidence chosen, and the language used.
 
-### GATE-Level Practice
+#### GATE-Level Practice
 **Q1 (Inference):** "The passage states that 'early attempts at machine translation produced gibberish.' It can be inferred that..."
 Correct inference: The early systems were not yet adequate for accurate translation.
 Wrong: Early systems were deliberately designed to produce humorous output (not supported — gibberish was unintended).
@@ -169,14 +169,14 @@ Too broad: To discuss all renewable energy sources (passage is specifically abou
 Wrong (distractor): Normal — clearly opposite of what anomalous means.
 Wrong (distractor): Typical — also opposite.
 
-### Multiple Approaches
+#### Multiple Approaches
 **Full-passage approach:** Best for short passages (under 250 words). Read the entire passage once, then answer all questions. As you read, mark the topic sentence of each paragraph. Then go to questions. For each question, you know roughly which paragraph to check.
 
 **Question-first approach:** Best for longer passages or when time is tight. Read the first question, note its keywords, then read the passage with that question in mind. Answer it. Then go to the next question and re-scan as needed. This prevents you from reading irrelevant details.
 
 **Hybrid approach:** Read the first paragraph and the last paragraph. This gives you the introduction and conclusion — often enough to answer main idea questions without reading every detail. Then go to questions. For factual and inference questions, scan to the relevant section.
 
-### Tricky Cases / Edge Cases
+#### Tricky Cases / Edge Cases
 - **Double negatives in answer choices:** "Which of the following is NOT mentioned..." requires you to find what's absent, not what's present. Read carefully — a "not" in the question or answer choice changes everything.
 - **Best title vs most accurate summary:** These are similar but not identical. A best title captures the essence concisely; a summary covers the content more completely. For main idea, either could be an option — read each choice carefully.
 - **Author's view vs passage content:** Sometimes the passage presents multiple viewpoints without endorsing any. The author's view may be "different views exist" rather than "my view is X." Don't attribute a position to the author that the passage doesn't clearly assign to them.

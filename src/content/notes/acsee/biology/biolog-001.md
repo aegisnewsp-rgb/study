@@ -172,7 +172,7 @@ Answers:
 - No net water movement → the cell $\Psi$ equals the external $\Psi$ (since at equilibrium $\Psi_{inside} = \Psi_{outside}$, with $\Psi_p = 0$ in the incipient plasmolysis limit).
 - Cell $\Psi \approx -1.49$ MPa.
 
-### Common traps
+#### Common traps
 1. **Calling mitosis "for growth and reproduction".** Mitosis is for growth, repair, and asexual reproduction. Sexual reproduction uses meiosis, not mitosis. The exam marks this distinction strictly.
 2. **Treating "cell wall" as a single structure.** Plant cell wall = cellulose plus pectin plus hemicellulose. Fungal wall = chitin. Bacterial wall = peptidoglycan. ACSEE occasionally asks for the wall composition; defaulting to "cellulose" loses marks on a fungus or bacterium.
 3. **Saying "glucose is transported by diffusion in all cells".** Intestinal uptake is active (SGLT1). Kidney reabsorption uses Na⁺-coupled transport. Liver uptake of glucose uses GLUT2 (facilitated diffusion). The mechanism depends on the tissue.

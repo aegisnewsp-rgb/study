@@ -240,7 +240,7 @@ A tangent to the ellipse x²/25 + y²/9 = 1 meets the positive axes. Find the mi
 
 ---
 
-### 🟠 Exam Essentials (1 day before)
+#### 🟠 Exam Essentials (1 day before)
 
 #### Formula card — reproduce from memory
 
@@ -282,7 +282,7 @@ Convert 16x² + 9y² = 144 into standard form and write down a, b, c, e, the lat
 
 ---
 
-### 🔵 High-Yield Patterns
+#### 🔵 High-Yield Patterns
 
 1. **Standardise the equation first, always.** Every other formula in the chapter takes a standard-form ellipse as input, and reading a, b off a general quadratic is the only step that is genuinely error-prone.
 2. **Check the directrix with PF = e · PM at a vertex.** Two arithmetic steps, and it catches the ±c versus ±a/e confusion immediately.
@@ -295,7 +295,7 @@ Convert 16x² + 9y² = 144 into standard form and write down a, b, c, e, the lat
 
 ---
 
-### 🟣 Traps and question forms you will meet
+#### 🟣 Traps and question forms you will meet
 
 | Trap | What happens if you fall in | Fix |
 |---|---|---|
@@ -318,7 +318,7 @@ Convert 16x² + 9y² = 144 into standard form and write down a, b, c, e, the lat
 
 ---
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Memorise the constants table, not the derivations.** a, b, c, e, the latus rectum, the directrices, the director circle, and the auxiliary circle are seven facts, and every question on the topic is a permutation of them.
 2. **Always check which axis is the major one** before writing foci or directrices. In a shifted ellipse the major axis follows whichever denominator is larger, not whichever letter you read first.
@@ -331,7 +331,7 @@ Convert 16x² + 9y² = 144 into standard form and write down a, b, c, e, the lat
 
 ---
 
-### 📚 Sources and where to go deeper
+#### 📚 Sources and where to go deeper
 
 | Resource | Where to find it | Use it for |
 |---|---|---|

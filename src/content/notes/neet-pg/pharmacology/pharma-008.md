@@ -127,7 +127,7 @@ The plasma level exceeds the 20 mg/L toxicity threshold, putting the patient at 
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. A 62-year-old patient with non-valvular atrial fibrillation taking dabigatran etexilate 150 mg twice daily is prescribed oral clarithromycin for atypical pneumonia. Explain the pharmacokinetics of the resulting interaction involving P-glycoprotein and the expected change in bleeding risk.
 2. Formulate the biochemical basis of serotonin syndrome versus neuroleptic malignant syndrome, highlighting the difference in onset velocity, muscle tone characteristics, and specific pharmacological antidotes.

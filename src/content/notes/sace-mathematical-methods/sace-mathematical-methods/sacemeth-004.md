@@ -67,7 +67,7 @@ A(t) = A₀ e^(kt). Half-life: t = (ln 2)/k. Time to N times: t = (ln N)/k.
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the fourth Topic of the SACE Stage 2 Mathematical Methods Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

@@ -55,7 +55,7 @@ To score full marks on grammatical identification, you must distinguish between 
 - **Adjectival Phrase / Clause:** Modifies or qualifies a noun or pronoun. Adjectival clauses typically begin with relative pronouns (*who, whom, whose, which, that*) and directly follow their noun antecedent.
 - **Adverbial Phrase / Clause:** Modifies a verb, adjective, or another adverb, indicating *time, place, manner, condition, concession, reason, or purpose*.
 
-### Table 1: Grammatical Names and Functions in NABTEB Textual Analysis
+#### Table 1: Grammatical Names and Functions in NABTEB Textual Analysis
 
 | Grammatical Expression Type | Structural Defining Marker | Grammatical Name | Standard Grammatical Function Formula | Illustrative Sentence Example |
 | :--- | :--- | :--- | :--- | :--- |
@@ -96,7 +96,7 @@ Authors of comprehension passages employ literary devices to enrich descriptions
 - **Synecdoche:** A figure of speech in which a part of something represents the whole (*"The project required twenty extra hands"* $\rightarrow$ *hands* represents manual laborers).
 - **Metonymy:** Substituting the name of an attribute or adjunct for that of the thing meant (*"The Ministry issued a warning to all vocational colleges"* $\rightarrow$ *The Ministry* represents government officials).
 
-### Table 2: Figures of Speech in NABTEB Textual Exegesis
+#### Table 2: Figures of Speech in NABTEB Textual Exegesis
 
 | Figure of Speech | Defining Linguistic Mechanism | Diagnostic Text Clue | Worked Example from Technical Literature | Rhetorical Effect on Reader |
 | :--- | :--- | :--- | :--- | :--- |
@@ -109,7 +109,7 @@ Authors of comprehension passages employ literary devices to enrich descriptions
 
 ---
 
-### Table 3: Author's Tone, Mood, and Attitude Taxonomy
+#### Table 3: Author's Tone, Mood, and Attitude Taxonomy
 
 | Tonal Category | Defining Characteristic | Textual Indicators & Vocabulary Choices | Typical Passage Genre |
 | :--- | :--- | :--- | :--- |
@@ -121,7 +121,7 @@ Authors of comprehension passages employ literary devices to enrich descriptions
 
 ---
 
-### Table 4: Common Rhetorical Patterns in Comprehension Passages
+#### Table 4: Common Rhetorical Patterns in Comprehension Passages
 
 | Rhetorical Organizational Pattern | Structural Logic | Pivotal Transition Markers | Diagnostic Question Strategy |
 | :--- | :--- | :--- | :--- |

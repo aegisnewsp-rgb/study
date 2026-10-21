@@ -229,7 +229,7 @@ At t = 1 the tangent passes through the point (−a, 0), which is on the directr
 
 ---
 
-### 🟠 Exam Essentials (1 day before)
+#### 🟠 Exam Essentials (1 day before)
 
 #### Formula card — reproduce from memory
 
@@ -271,7 +271,7 @@ Write the four-orientation table from memory. Then, for a parabola given as (y +
 
 ---
 
-### 🔵 High-Yield Patterns
+#### 🔵 High-Yield Patterns
 
 1. **Read the geometry off the shifted standard form, never off the expanded one.** (y − k)² = 4a(x − h) exposes h, k and a simultaneously; the expanded quadratic hides all three behind three terms to be rearranged.
 2. **The focal distance is the fastest route to a point on the parabola.** For a point on y² = 4ax, SP = x + a. Once you know a point, everything else — tangents, normals, chords — has a known starting coordinate.
@@ -284,7 +284,7 @@ Write the four-orientation table from memory. Then, for a parabola given as (y +
 
 ---
 
-### 🟣 Traps and question forms you will meet
+#### 🟣 Traps and question forms you will meet
 
 | Trap | What happens if you fall in | Fix |
 |---|---|---|
@@ -306,7 +306,7 @@ Write the four-orientation table from memory. Then, for a parabola given as (y +
 
 ---
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Memorise the parametric forms, not the point forms.** Once (at², 2at) is automatic, the tangent and normal follow from the same parameter and every question becomes one substitution.
 2. **Write the four-orientation table once on a single sheet and reuse it across the ellipse and hyperbola notes.** The three conics share the architecture, and one table serves all three.
@@ -319,7 +319,7 @@ Write the four-orientation table from memory. Then, for a parabola given as (y +
 
 ---
 
-### 📚 Sources and where to go deeper
+#### 📚 Sources and where to go deeper
 
 | Resource | Where to find it | Use it for |
 |---|---|---|

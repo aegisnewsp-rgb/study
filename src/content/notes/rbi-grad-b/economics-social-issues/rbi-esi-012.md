@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 Current economic affairs refers to the latest macroeconomic developments — RBI's monetary policy decisions, Union Budget allocations, inflation trends, and banking sector reforms — that shape India's economic trajectory in real time.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI Grade B officers must understand the pulse of the economy; questions in Phase 2 directly test your ability to connect current policy announcements to theoretical concepts like inflation targeting, fiscal consolidation, and financial inclusion.
 
-### Must Know Facts
+#### Must Know Facts
 - RBI's MPC (Monetary Policy Committee) meets 6 times a year; the repo rate has been held at 6.5% since February 2023 as of early 2025, signalling a wait-and-see stance
 - Union Budget 2025-26 targets fiscal deficit at 4.8% of GDP (down from 5.1% in FY25), with capex outlay of ₹11.2 lakh crore
 - GST collections crossed ₹1.87 lakh crore in December 2024 — the 20th consecutive month above ₹1.5 lakh crore
 - RBI projects India's GDP growth at 6.5% for FY25; inflation is expected to moderate to 4.5% by end-2025
 - Digital Rupee (e-₹) pilot now covers 17 banks and 5 lakh users for wholesale and retail use cases
 
-### Quick Example / Application
+#### Quick Example / Application
 When the Finance Minister announced in Budget 2025-26 that the fiscal deficit would be brought down to 4.8%, bond yields softened (10-year G-sec fell by 8 basis points) because lower deficits mean less government borrowing — a classic link between fiscal and monetary policy.
 
-### 1-Line Summary
+#### 1-Line Summary
 Staying current with RBI's policy moves, Budget announcements, and macroeconomic data is not optional for Grade B — it is the exam.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Here's what you need to understand before diving into specific policies: RBI Grade B Phase 2 doesn't test whether you memorised economic theories. It tests whether you can connect what's happening *right now* in the economy to the theory you've studied. So when the exam asks about current economic affairs, it wants you to demonstrate exactly this: policy → data → impact chain.
 
@@ -64,7 +64,7 @@ Now, the **Union Budget 2025-26** was presented by Finance Minister Nirmala Sith
 
 The **Digital Rupee (e-₹)** is RBI's central bank digital currency (CBDC) initiative. As of early 2025, the e-₹ pilot covers 17 banks for wholesale use (intended for interbank settlements and government securities) and 11 banks for retail use in select cities. Over 5 lakh users have transacted using e-₹. RBI's stated objectives: reduce cost of money printing and distribution, enable direct government transfers, and improve monetary policy transmission. The challenge? Private digital payment systems (UPI, wallets) are already extremely efficient in India — finding the niche for CBDC is the ongoing work.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -79,18 +79,18 @@ The **Digital Rupee (e-₹)** is RBI's central bank digital currency (CBDC) init
 | CRR | Cash Reserve Ratio — percentage of deposits banks must keep with RBI as reserves (currently 4.5%) |
 | SLR | Statutory Liquidity Ratio — percentage of deposits banks must invest in government securities (currently 18%) |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 When the February 2025 MPC held the repo rate at 6.5% for the 10th consecutive time, the Governor's statement said the decision was "guided by the evolving growth-inflation dynamics." Bond markets reacted — the 10-year G-sec yield softened by 3 basis points. The same day, UPI transaction values hit a record ₹21 lakh crore in January 2025. These two data points tell a complete story: rate stability on one hand, digital payments momentum on the other — the exam loves asking you to connect such dots.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Conceptual**: Why does RBI use CPI (not WPI) as its inflation target? What is flexible inflation targeting?
 - **Numerical**: Calculate fiscal deficit as % of GDP from given Budget figures; compute real interest rate from nominal rate and inflation
 - **Case-based**: MPC statement excerpts → predict the likely monetary policy direction
 - **Current**: Which GST slab covers restaurant services? What is the current repo rate? (Keep these current facts on your fingertips)
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** The Union Budget shows total receipts (excluding borrowings) of ₹30.6 lakh crore and total expenditure of ₹50.6 lakh crore. Calculate the fiscal deficit as a percentage of GDP, given that GDP is ₹200 lakh crore.
 
@@ -102,7 +102,7 @@ Note: India's actual fiscal deficits are lower because government also gets disi
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 "Current economic affairs" for an RBI Grade B officer is not about memorising news — it's about developing the analytical muscle to connect today's data releases to yesterday's policy decisions and tomorrow's likely outcomes. Let me build this for you systematically.
 
@@ -175,7 +175,7 @@ RBI's long-term e-₹ vision:
 2. **Programmability**: RBI could programme e-₹ to expire (to incentivise spending), be restricted to certain merchants (subsidised loans), or carry attached conditions (like PM-KISAN benefits)
 3. **Financial inclusion**: Those without bank accounts could hold e-₹ wallets — but this raises KYC and AML concerns
 
-### Advanced Analysis
+#### Advanced Analysis
 
 **The fiscal-monetary policy interaction — the most tested concept:**
 
@@ -208,7 +208,7 @@ This growth is powered by:
 4. **Infrastructure capex**: Government investment in roads, railways, ports, and airports is improving logistics costs
 5. **Services superpower**: IT-BPM sector at $250 billion, financial services growing rapidly
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 RBI's MPC statements are the single most important current affairs document for Grade B preparation. Each statement has:
 - **conomic overview**: Growth and inflation assessment
@@ -218,7 +218,7 @@ RBI's MPC statements are the single most important current affairs document for 
 
 What the examiner wants: understand that RBI doesn't operate in a vacuum — it coordinates with the Finance Ministry (though operationally independent), with the Bank for International Settlements (BIS), and with other central banks via the Financial Stability Board (FSB). The **RBIAct 1934 Section 45Z** gives RBI authority over payment systems, which is increasingly relevant as digital money evolves.
 
-### Case Study / Application
+#### Case Study / Application
 
 **Case: How RBI managed the 2022 rupee crisis and what it teaches**
 
@@ -232,7 +232,7 @@ RBI's response toolkit:
 
 The lesson: RBI's forex reserves are not just numbers — they are a strategic asset that buys policy credibility and time during global shocks. The 2022 episode showed India's reserves ($524B minimum in 2022) were sufficient despite the drawdown. By December 2024, reserves recovered to $630 billion.
 
-### GATE-Level Numerical
+#### GATE-Level Numerical
 
 **Q:** The following data is from RBI's MPC statement and the Union Budget (all figures approximate):
 
@@ -281,13 +281,13 @@ Primary Deficit = Fiscal Deficit − Interest Payments
 
 This means the government is running a **primary surplus** — meaning even before interest payments, the government's primary expenditures are covered by revenue. The entire fiscal deficit is accounted for by interest payments — which means government is not borrowing to fund new spending, only to refinance past obligations. This is a significantly healthier position and is consistent with India's fiscal consolidation trajectory.
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 - **Academic view**: Keynesian economists argue that India's fiscal consolidation is too aggressive during a global slowdown — the government should run larger deficits to stimulate demand. Monetarists disagree — they argue that fiscal deficits crowd out private investment and that monetary policy should handle demand management. RBI's FIT framework implicitly accepts a middle path: fiscal consolidation over time, while monetary policy handles cyclical demand.
 - **RBI/Regulatory view**: RBI's primary concern is inflation targeting — any fiscal policy that risks de-anchoring inflation expectations is a concern. RBI has publicly welcomed the fiscal consolidation path (stated in MPC minutes). RBI also monitors the **government's debt sustainability** — the ratio of government debt to GDP, which has been declining from 84% (2020 peak) to ~81% (FY25 RE) and projected at ~78% (FY26 BE).
 - **Practical/Industry view**: Industry wants lower repo rates to reduce borrowing costs. Banks want strong credit growth to deploy deposits profitably. The RBI-industry relationship is often tense: RBI's regulatory tightening (digital lending norms, NPA recognition rules) is seen as necessary but burdensome by fintech companies. The digital rupee is viewed with cautious interest — if it can reduce payment gateway costs for merchants (currently 1-2% MDR), it would be widely adopted.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 - **RBI MPC meetings 2024-25**: Repo rate held at 6.5% in February, April, June, August, October, December 2024 and February 2025 — "data-dependent, amorphous pause" is the policy stance
 - **UPI 2.0 / Credit on UPI**: Launched — UPI now enables credit card linked payments through UPI, a major development for digital credit penetration in Tier 2/3 cities

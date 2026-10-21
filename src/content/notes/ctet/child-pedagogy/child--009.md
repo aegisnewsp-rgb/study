@@ -72,7 +72,7 @@ Individual differences refer to the variations among individuals in psychologica
 - **Interaction:** The dynamic interplay between heredity and environment
 - **Experiences:** Unique life experiences shape each individual
 
-### Types of Individual Differences
+#### Types of Individual Differences
 
 **Cognitive Differences:** Variations in intelligence, memory, attention, reasoning, creativity, and problem-solving abilities.
 
@@ -84,7 +84,7 @@ Individual differences refer to the variations among individuals in psychologica
 
 **Socioeconomic Differences:** Variations based on family income, parental education, caste, gender, and access to resources. In the Indian context, these differences are particularly significant.
 
-### Why Individual Differences Matter for Teachers
+#### Why Individual Differences Matter for Teachers
 
 1. A single teaching method cannot reach all students
 2. What works for one child may not work for another
@@ -96,7 +96,7 @@ Individual differences refer to the variations among individuals in psychologica
 
 Howard Gardner's Multiple Intelligences (MI) theory is one of the most important frameworks for understanding individual differences. For detailed coverage of the 8 intelligences, refer to the Intelligence Theories chapter. Here, we focus on classroom application.
 
-### The 8 Intelligences (Brief)
+#### The 8 Intelligences (Brief)
 
 | Intelligence | Core Strength | Classroom Activities |
 |---|---|---|
@@ -109,7 +109,7 @@ Howard Gardner's Multiple Intelligences (MI) theory is one of the most important
 | Intrapersonal | Self-awareness | Journaling, independent projects |
 | Naturalistic | Nature and patterns | Nature walks, classification |
 
-### MI in the Classroom
+#### MI in the Classroom
 
 **Traditional teaching** primarily engages linguistic and logical-mathematical intelligence (the "school intelligences"). This disadvantages students whose strengths lie elsewhere.
 
@@ -129,7 +129,7 @@ Howard Gardner's Multiple Intelligences (MI) theory is one of the most important
 
 Learning styles refer to the preferred ways individuals process information and learn. While the scientific validity of learning styles has been debated, understanding them helps teachers design varied instruction.
 
-### Primary Learning Styles (VARK Model — Fleming)
+#### Primary Learning Styles (VARK Model — Fleming)
 
 **Visual (V):** Learning through images, charts, diagrams, maps, videos, written materials.
 - Strengths: Remembering what is seen, spatial understanding
@@ -147,7 +147,7 @@ Learning styles refer to the preferred ways individuals process information and 
 - Strengths: Hands-on activities, physical exploration, real-world application
 - Strategies: Experiments, role-play, field trips, building models, movement
 
-### Limitations of Learning Styles Theory
+#### Limitations of Learning Styles Theory
 
 CTET examiners sometimes test the critique of learning styles:
 - Research (e.g., Pashler et al., 2008) suggests that matching instruction to learning style does not reliably improve learning
@@ -155,7 +155,7 @@ CTET examiners sometimes test the critique of learning styles:
 - Teachers should use **multimodal approaches** rather than narrowing students to one style
 - The key is **variety** in teaching methods, not matching to each student's supposed style
 
-### Inclusive Approach
+#### Inclusive Approach
 
 Rather than labeling children as "visual learners" or "auditory learners," the better approach is:
 - Use **multisensory teaching** — present information through multiple channels simultaneously
@@ -164,7 +164,7 @@ Rather than labeling children as "visual learners" or "auditory learners," the b
 
 #### 4. Multiple Intelligences and Inclusive Education
 
-### What is Inclusive Education?
+#### What is Inclusive Education?
 
 Inclusive education ensures that **all children** — regardless of ability, background, gender, caste, socioeconomic status, or disability — have access to quality education in regular schools.
 
@@ -175,13 +175,13 @@ Inclusive education ensures that **all children** — regardless of ability, bac
 - Barriers to learning are identified and removed
 - Physical, social, and cognitive differences are accommodated
 
-### NCF 2005 on Individual Differences
+#### NCF 2005 on Individual Differences
 
 NCF 2005 states: "The principle of flexibility in learning situations implies that the curriculum, teaching strategies, and resources would need to be organized in such a manner that children with different needs, abilities and backgrounds can find their own paths."
 
 This is directly connected to understanding individual differences — teachers must adapt, not expect children to adapt to a single rigid approach.
 
-### Addressing Individual Differences in Practice
+#### Addressing Individual Differences in Practice
 
 **Differentiated Instruction:**
 1. **Content:** Same concept taught at different levels of complexity
@@ -206,7 +206,7 @@ NEP 2020 emphasizes:
 
 Individual differences include children with disabilities and special educational needs.
 
-### Types of Disabilities
+#### Types of Disabilities
 
 **Visual Impairment:** Blind or low vision. Teaching adaptations: Braille textbooks, audio materials, enlarged print, tactile learning aids.
 
@@ -224,14 +224,14 @@ Individual differences include children with disabilities and special educationa
 
 #### 6. Gender Differences in Learning
 
-### Observed Differences
+#### Observed Differences
 
 Research has documented some differences (not necessarily innate — often socially constructed):
 - Girls may initially show stronger verbal abilities; boys may show stronger spatial abilities
 - Social expectations can influence subject choices and performance
 - Teachers may unconsciously treat boys and girls differently
 
-### Teacher's Role
+#### Teacher's Role
 
 1. **Avoid stereotypes:** Do not assume "boys are good at math" or "girls are good at languages"
 2. **Encourage all students** to pursue all subjects and activities regardless of gender

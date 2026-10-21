@@ -18,20 +18,20 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 **Distance = Speed × Time** — the holy trinity. Every TSD problem is some rearrangement of this one equation.
 
-### Quick Memory Trick
+#### Quick Memory Trick
 "Distance is the area under the speed-time curve, and speed is just how fast you're covering ground." — Think of speed like your rate of distance accumulation, and distance as what piles up over time.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Speed tells you how fast, time tells you how long, and distance tells you how far — they're connected by the single formula D = S × T, and everything else (average speed, relative speed, boats in rivers) is just variations on this theme.
 
-### Quick Example
+#### Quick Example
 Q: A car travels 180 km at 60 km/h. How long does it take?
 A: Time = Distance/Speed = 180/60 = **3 hours**.
 
-### Must Remember
+#### Must Remember
 - **Average speed ≠ (a+b)/2** — use Total Distance / Total Time for average speed
 - **Relative speed** = sum of speeds when moving toward each other, difference when moving away
 - **Boats in rivers:** Downstream speed = B + R, Upstream speed = B - R (B = boat speed in still water, R = river speed)
@@ -39,7 +39,7 @@ A: Time = Distance/Speed = 180/60 = **3 hours**.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 Distance, speed, and time are three sides of the same coin. Speed is simply how quickly you're covering distance — it tells you how many kilometers (or meters) you tick off per hour (or per second). Time is how long you're doing it. Multiply them together and you get the total distance traveled. Every single problem in this topic — no matter how convoluted the story — boils down to applying this one relationship correctly. The trick isn't memorizing formulas; it's recognizing which two of the three you know and solving for the third.
 
 Average speed is where most students go wrong. They take two speeds, add them, and divide by two — but that only works if you spent equal time at each speed. The correct formula is total distance divided by total time. Imagine driving 100 km at 50 km/h (taking 2 hours) and then another 100 km at 100 km/h (taking 1 hour). Your average speed isn't (50+100)/2 = 75 km/h. It's total distance (200 km) divided by total time (3 hours) = 66.7 km/h. The slower speed dragged your average down because you spent more time going slow.
@@ -48,7 +48,7 @@ Relative speed becomes essential when two things are moving at the same time. If
 
 The boat and stream problem adds a river current into the mix. A boat moving in still water has a certain speed. When the river flows, it pushes the boat downstream (adding to effective speed) or pushes against it upstream (subtracting from effective speed). The boat's speed in still water is its own capability; the river's speed is external interference. Downstream speed is their sum; upstream speed is their difference. The river speed itself is half the difference between downstream and upstream speeds, and the boat's still-water speed is half their sum.
 
-### Key Formulas
+#### Key Formulas
 | Symbol | Meaning |
 |--------|---------|
 | D = S × T | Core relationship |
@@ -62,25 +62,25 @@ The boat and stream problem adds a river current into the mix. A boat moving in 
 | km/h to m/s | S × 5/18 |
 | m/s to km/h | S × 18/5 |
 
-### Step-by-Step Example
+#### Step-by-Step Example
 **Q:** Two trains 200 km apart approach each other at 50 km/h and 70 km/h. How long until they meet?
 
 **Step 1:** Since they're moving toward each other, relative speed = 50 + 70 = 120 km/h.
 **Step 2:** Time = Distance / Relative Speed = 200 / 120 = 5/3 hours = 1 hour 40 minutes.
 **Answer:** **1 hour 40 minutes**
 
-### Common Mistakes
+#### Common Mistakes
 - Calculating average speed as arithmetic mean → Only valid when time spent at each speed is equal; otherwise use Total Distance / Total Time
 - Forgetting to convert units → km/h and m/s are different; always check what's being asked before solving
 - Mixing up downstream/upstream formulas → Downstream: boat + stream speed (faster). Upstream: boat - stream speed (slower)
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 1. Q: A man rows upstream at 12 km/h in still water, and the river flows at 3 km/h. His downstream speed is? Options: A) 9 km/h B) 12 km/h C) 15 km/h D) 36 km/h. Ans: **C) 15 km/h** (Reason: Downstream = B + R = 12 + 3 = 15 km/h)
 2. Q: A car goes 240 km at 80 km/h and returns at 60 km/h. Average speed for the round trip? Options: A) 70 km/h B) 68.6 km/h C) 72 km/h D) 69 km/h. Ans: **B) 68.6 km/h** (Reason: Total distance = 480 km. Time out = 3h, return = 4h. Total time = 7h. Avg speed = 480/7 ≈ 68.6 km/h)
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 Time, speed, and distance is a topic where surface familiarity masks significant complexity. Every formula looks simple — D = S × T, average speed = total distance / total time, relative speed = sum or difference — but GATE's real challenge lies in layered problems where these basic concepts combine in non-obvious ways. A single problem might involve multiple journey segments with different speeds, perhaps with a stoppage time thrown in, or require you to work backwards from meeting times to find individual speeds.
 
 Average speed deserves deep conceptual attention because it has two distinct interpretations that students frequently confuse. The arithmetic mean of speeds (S₁ + S₂) / 2 applies only when you traveled equal distances at each speed. The harmonic mean applies when you spent equal times at each speed. The correct generalized formula — total distance / total time — always works regardless of how the journey was split. Consider a journey where you spend 1 hour at 60 km/h (covering 60 km) and 3 hours at 40 km/h (covering 120 km). Total distance = 180 km, total time = 4 hours, average speed = 45 km/h. Notice that (60 + 40) / 2 = 50, which is wrong. The time-weighted average (weighted toward the slower speed) gives 45, which matches.
@@ -91,7 +91,7 @@ Boats and streams problems add a layer of physics intuition. A boat trying to mo
 
 Circular motion problems in TSD are deceptively tricky. When two runners start at the same point on a circular track and run at different speeds, they meet when the faster has lapped the slower by a whole number of laps. The relative speed (difference) tells you how fast the gap closes. For them to meet at the starting point again, both must separately complete integer laps in the same time. These problems require careful attention to whether they're asking about meeting at the starting point versus meeting anywhere on the track.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 **Average Speed for Two Equal Distances:**
 If distance d is covered at speed S₁ and the same distance d at speed S₂:
 Total distance = 2d
@@ -112,7 +112,7 @@ Relative speed = S₁ - S₂ (in distance units per time unit).
 Time to first meeting = L / (S₁ - S₂) if running in same direction.
 If running in opposite directions: Time to meeting = L / (S₁ + S₂).
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 **Q1 (GATE 2022):** A train moving at 45 km/h takes 20 seconds to pass a platform 200 m long. How long will it take to pass a man running at 9 km/h in the opposite direction?
 - Working: Train speed = 45 km/h = 45 × 5/18 = 12.5 m/s. Train length = speed × time to pass platform - platform length. Time to clear platform = time to pass platform completely = 20 sec. In 20 sec, train travels 12.5 × 20 = 250 m. Since 200 m is platform, train length = 250 - 200 = 50 m. Relative speed of train and man (opposite) = 12.5 + 9 × 5/18 = 12.5 + 2.5 = 15 m/s. Time to pass man = (train length) / relative speed = 50 / 15 = 10/3 ≈ 3.33 seconds.
 - Answer: **3.33 seconds (approximately)**
@@ -128,7 +128,7 @@ If running in opposite directions: Time to meeting = L / (S₁ + S₂).
 - Answer: **720 km**
 - Common error: Jumping to formulas instead of using the time equality at the meeting point. The key insight is that time taken by each from start to meeting equals time taken by the other to cover the remaining distance after meeting.
 
-### Multiple Approaches
+#### Multiple Approaches
 **Method A: Algebraic setup**
 Set up equations for each segment. Use D = S × T for each phase. Solve the system of equations. Best for multi-segment journeys with unknown distances or speeds.
 
@@ -140,7 +140,7 @@ Draw the distance-time relationship as a single line. The crossing point represe
 
 **When to use:** Ratio approach for meeting-point problems. Algebraic for complex multi-leg journeys. Relative speed for chase problems.
 
-### Tricky Cases
+#### Tricky Cases
 - **Meeting at right angles:** If two people start from the same point and walk at right angles, their distance apart grows at √2 times each speed (Pythagorean theorem). After t hours, distance = t × √(S₁² + S₂²).
 - **Catch-up on a circular track:** If the faster runner laps the slower one n times before meeting at start, the faster has run n+1 laps when the slower has run n laps. Time = (n+1)L/S₁ = nL/S₂.
 - **Unit conversion traps:** km/h to m/s multiplies by 5/18; m/s to km/h multiplies by 18/5. A common mistake is using the wrong conversion direction. Always ask: is m/s larger or smaller than km/h for the same speed? (Answer: m/s is smaller, so to convert km/h to m/s you reduce the number.)

@@ -192,7 +192,7 @@ The UCAT ANZ Consortium does not publish a recommended SJT study time. Reflectiv
 
 ---
 
-### Exam Essentials — UCAT ANZ Situational Judgement
+#### Exam Essentials — UCAT ANZ Situational Judgement
 
 | Field | Value |
 |---|---|
@@ -216,7 +216,7 @@ The UCAT ANZ Consortium does not publish a recommended SJT study time. Reflectiv
 
 ---
 
-### High-Yield — UCAT ANZ Situational Judgement
+#### High-Yield — UCAT ANZ Situational Judgement
 
 The eight most-testable scenario types and the calibrated response framework:
 
@@ -231,7 +231,7 @@ The eight most-testable scenario types and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — UCAT ANZ SJT (since 2025)
+#### Previous Year Patterns — UCAT ANZ SJT (since 2025)
 
 The UCAT ANZ SJT has been part of the UCAT ANZ Consortium test suite since the consortium's inception in 2019. As of the 2025 test cycle, four subtests are tested (Abstract Reasoning was removed in 2025), with SJT retained as the fourth subtest.
 
@@ -247,7 +247,7 @@ A previous-year scenario is NOT a deterministic indicator of a future test item.
 
 ---
 
-### Pro Tips — UCAT ANZ SJT
+#### Pro Tips — UCAT ANZ SJT
 
 1. **Treat the four attributes as a checklist.** When a scenario seems ambiguous, ask: does the action preserve integrity? Take perspective? Work in a team? Show resilience? A "yes" to all four is a strong candidate for the most-appropriate answer.
 2. **Reject the action bias.** The "any action must be done" pattern is wrong; the calibrated response often includes gathering more information or pausing to reflect before acting.
@@ -260,7 +260,7 @@ A previous-year scenario is NOT a deterministic indicator of a future test item.
 
 ---
 
-### Official Resources — UCAT ANZ SJT
+#### Official Resources — UCAT ANZ SJT
 
 | Resource | URL | Use |
 |---|---|---|

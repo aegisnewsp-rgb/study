@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 The Time Value of Money principle states that a rupee today is worth more than a rupee in the future because money in hand right now can be invested to earn returns.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI's entire monetary policy transmission works through the time value of money — when repo rates rise, future cash flows are discounted at a higher rate, reducing the Present Value of future bank loans, investment projects, and bond portfolios, thereby cooling economic activity.
 
-### Must Know Facts
+#### Must Know Facts
 - Present Value formula: PV = FV / (1+r)ⁿ — to find what future money is worth today, divide by (1 + rate)^periods
 - Future Value formula: FV = PV × (1+r)ⁿ — to find what today's money grows to tomorrow, multiply by (1 + rate)^periods
 - NPV decision rule: Accept a project if NPV ≥ 0 (benefits at least as much as the required return); reject if NPV < 0
 - IRR is the discount rate where NPV equals zero; accept the project if IRR > required rate of return
 - Annuity: equal cash flows at regular intervals (PV of annuity = P × [1 - 1/(1+r)ⁿ] / r); perpetuity: infinite stream of equal cash flows (PV = P/r)
 
-### Quick Example / Application
+#### Quick Example / Application
 RBI wants to evaluate a ₹100 crore infrastructure project that yields ₹30 crore annually for 5 years. At a required rate of 10%, PV of inflows = ₹30 × 3.7908 = ₹113.7 crore. Since ₹113.7 crore > ₹100 crore, NPV = +₹13.7 crore — accept the project. This is exactly how banks evaluate loan proposals.
 
-### 1-Line Summary
+#### 1-Line Summary
 Money's value changes over time — ₹100 today is worth more than ₹100 tomorrow because of earning potential, so we use discounting to compare cash flows across different time periods using NPV and IRR.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Let me explain this with a real example. If someone offered you ₹1,00,000 today or the same amount one year from now, which would you take? Obviously today — because you could put it in a Fixed Deposit at 7% and have ₹1,07,000 a year from now. This simple idea — that money available now is more valuable than the same amount in the future — is the foundation of all finance. We call this the **Time Value of Money (TVM)**.
 
@@ -51,7 +51,7 @@ Now let's talk about **Net Present Value (NPV)** — the most important capital 
 
 **IRR (Internal Rate of Return)** answers a different question: "At what discount rate would this project break even?" It's the rate where NPV equals zero. You compare IRR to your required rate of return — if IRR > required return, accept the project. For simple projects with only an initial outflow followed by inflows, NPV and IRR almost always agree. But for complex projects with non-conventional cash flows (outflows interspersed with inflows), they can disagree — and NPV is theoretically superior because it assumes reinvestment at the required rate (not at IRR which can be unrealistically high).
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -65,7 +65,7 @@ Now let's talk about **Net Present Value (NPV)** — the most important capital 
 | Perpetuity | An infinite series of equal cash flows that never ends (PV = P/r) |
 | Required Rate of Return | Minimum return an investment must generate to be worthwhile, reflecting opportunity cost and risk |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 Think about how State Bank of India (SBI) decides whether to approve a ₹500 crore corporate loan for a steel plant expansion. The bank's treasury team projects:
 - Project cost: ₹500 crore (outflow today)
@@ -74,13 +74,13 @@ Think about how State Bank of India (SBI) decides whether to approve a ₹500 cr
 
 The NPV calculation: PV of ₹80 crore annuity at 9% for 10 years = ₹80 × 6.418 = ₹513.5 crore. NPV = ₹513.5 - ₹500 = ₹13.5 crore. Positive NPV — the project creates ₹13.5 crore of value above the required return, so SBI approves the loan. If NPV had been negative, SBI would have rejected it regardless of how good the business plan looked, because the returns don't compensate for the capital's true cost.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Numerical problems**: Calculate PV or FV of a single sum; calculate PV or FV of an annuity; compute NPV of a project with given cash flows
 - **Conceptual questions**: "Why is NPV preferred over IRR for mutually exclusive projects?" or "What is the difference between an annuity and a perpetuity?"
 - **Application questions**: You're given cash flows and a discount rate and asked to compute both NPV and IRR and make an accept/reject decision
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** An investment costs ₹50,000 today and generates cash inflows of ₹15,000 at the end of Year 1, ₹20,000 at the end of Year 2, and ₹25,000 at the end of Year 3. If the required rate of return is 10%, should you accept the project? Calculate NPV.
 
@@ -108,7 +108,7 @@ $$\text{NPV} = ₹48{,}948.92 - ₹50{,}000 = -₹1{,}051.08$$
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 The Time Value of Money isn't just an academic concept — it's the DNA of modern banking. When RBI announces a repo rate hike, what actually happens? Banks face higher borrowing costs, which means their cost of funds rises. When a corporate treasurer at Tata Motors is deciding whether to raise a ₹1,000 crore loan to build a new EV plant, the first thing she does is NPV analysis — discounting all future cash flows at the new, higher required rate. If the NPV goes negative at the higher rate, the plant doesn't get built. This is monetary policy transmission working in real time.
 
@@ -127,7 +127,7 @@ A naive IRR comparison says take Project A (100% > 22%). But at a 10% required r
 
 For RBI's own perspective, the Social Rate of Time Preference (SRTP) — reflecting society's preference for present over future consumption — is theoretically the right discount rate for public projects, though in practice, government projects often use lower discount rates (around 12%) which may not fully reflect opportunity cost.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 **Growing Annuity and Growing Perpetuity** extend the basic formulas to handle scenarios where cash flows grow over time — more realistic for dividend discount models and inflation-linked payments:
 
@@ -146,7 +146,7 @@ Where D₀ is the current dividend, g is the growth rate, and r_e is the cost of
 
 **Profitability Index (PI)** = PV of future cash inflows / PV of cash outflows. PI of 1.2 means you get ₹1.20 back for every ₹1 invested, making it a useful complement to NPV for ranking projects when capital is rationed.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 For the RBI Grade B exam, understanding TVM is critical for:
 1. **Loan pricing**: Banks use IRR-based internal rate of return calculations to price their loan products
@@ -155,7 +155,7 @@ For the RBI Grade B exam, understanding TVM is critical for:
 4. **Yield calculations**: The concepts directly apply to calculating yields on T-Bills, CPs, and bonds
 5. **ALM (Asset Liability Management)**: Banks use NPV and duration matching to manage interest rate risk — if rates rise, the PV of their fixed-rate loan book falls
 
-### Case Study / Application
+#### Case Study / Application
 
 **NHAI's Highway Project Evaluation**: The National Highways Authority of India (NHAI) evaluates highway projects using NPV at a discount rate of 12% (real, inflation-adjusted). Consider a ₹1,000 crore highway project:
 - Construction cost: ₹1,000 crore (Year 0)
@@ -164,7 +164,7 @@ For the RBI Grade B exam, understanding TVM is critical for:
 
 At 12% discount rate, PV of ₹180 crore annuity for 30 years = ₹180 × 8.055 = ₹1,450 crore. NPV = ₹1,450 - ₹1,000 = ₹450 crore. Positive NPV → project is viable. But if NHAI had used a 15% discount rate (reflecting higher cost of borrowing), PV factor = 6.566, PV of inflows = ₹1,182 crore, NPV = ₹182 crore — still positive but much less margin. At 20%, PV factor = 4.979, PV = ₹896 crore, NPV = -₹104 crore → project fails. This is exactly why interest rate changes by RBI affect infrastructure project execution.
 
-### GATE-Level Numerical
+#### GATE-Level Numerical
 
 **Q:** A bank is evaluating a ₹200 crore loan to a manufacturing company for 5 years. The loan requires annual interest payments at 12% and principal repayment of ₹200 crore at the end of Year 5. However, the bank also incurs a processing fee of 1% upfront (₹2 crore paid at start). What is the IRR of this loan?
 
@@ -233,13 +233,13 @@ $$-198 + 24 \times \text{PVAF}(r, 4) + 224 \times \frac{1}{(1+r)^5} = 0$$
 
 The 1% processing fee effectively increases the true cost of the loan from 12% to approximately 12.3%, illustrating how upfront fees impact actual borrowing costs — a concept banks use when quoting "all-in cost" of loans.
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 - **Academic view**: The foundations rest on the Axiom of Temporal Utility — assuming people prefer earlier consumption to later consumption (positive time preference). The Arrow-Debreu framework generalises this to state-contingent claims, but NPV analysis is the practical workhorse.
 - **RBI/Regulatory view**: RBI's guidelines on IRR for microfinance (not exceeding 10% of flat rate, or equivalently 1.33 times the flat rate) and the usury laws reflect regulatory concern that TVM calculations can be misused to disguise steep effective interest rates. The Effective Interest Rate (EIR) regulation mandates disclosure of true cost of loans.
 - **Practical/Industry view**: Corporate treasurers obsess over WACC, using divisional hurdle rates that reflect each business line's risk. Banks use Duration and Convexity — extensions of TVM — to manage interest rate risk in their bond portfolios.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 - **RBI's Marginal Cost of Funds-based Lending Rate (MCLR) Reforms**: RBI has been pushing banks to link more loans to external benchmarks (EBLR), which changes how monetary policy transmits — TVM becomes more directly reflected in loan pricing
 - **Revival of Public Sector Banks' NPA Resolution via NCLT**: NPV-based recovery calculations determine how much banks can sacrifice ( haircut) when resolving stressed assets under the Insolvency and Bankruptcy Code (IBC)

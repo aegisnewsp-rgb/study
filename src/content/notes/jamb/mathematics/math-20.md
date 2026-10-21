@@ -41,7 +41,7 @@ In this comprehensive guide, you will learn every concept you need for JAMB — 
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 
-### What is a Set?
+#### What is a Set?
 
 A set is simply a collection of distinct objects that are grouped together as a single entity. The objects in a set are called **elements** or **members**. We use the symbol **∈** to mean "belongs to" and **∉** to mean "does not belong to."
 
@@ -53,7 +53,7 @@ Sets can be described in two ways:
 1. **Roster/Listing method**: Writing all elements within braces, e.g., A = {a, e, i, o, u}
 2. **Set-builder notation**: Describing properties, e.g., A = {x : x is a vowel in the English alphabet}
 
-### Types of Sets
+#### Types of Sets
 
 | Type | Definition | Example |
 |------|-----------|---------|
@@ -64,7 +64,7 @@ Sets can be described in two ways:
 | **Equal sets** | Same elements regardless of order | {1,2,3} = {3,2,1} |
 | **Equivalent sets** | Same number of elements | {a,b} and {1,2} |
 
-### Set Operations
+#### Set Operations
 
 **Union (A ∪ B):** All elements that belong to A or B or both.
 - Example: If A = {1,2,3} and B = {3,4,5}, then A ∪ B = {1,2,3,4,5}
@@ -78,7 +78,7 @@ Sets can be described in two ways:
 **Difference (A \ B):** Elements in A but NOT in B.
 - Example: A \ B = {1,2}
 
-### Venn Diagrams
+#### Venn Diagrams
 
 Venn diagrams are visual representations of sets and set operations. The universal set is usually represented by a rectangle, and individual sets are shown as circles inside it.
 
@@ -96,7 +96,7 @@ n(A ∩ B) = n(A) + n(B) − n(A ∪ B)
 For three sets:
 n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(A ∩ C) − n(B ∩ C) + n(A ∩ B ∩ C)
 
-### Worked JAMB Example
+#### Worked JAMB Example
 
 **Question (based on typical JAMB pattern):** In a class of 40 students, 25 offer Mathematics (M) and 20 offer English (E). If 10 offer both subjects, how many offer neither?
 
@@ -110,7 +110,7 @@ n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A ∩ B) − n(A ∩ C) − n(B ∩ 
 
 ### 🔴 Extended — Deep Study (3mo+)
 
-### De Morgan's Laws
+#### De Morgan's Laws
 
 For any sets A and B within universal set U:
 1. **(A ∪ B)' = A' ∩ B'** (The complement of the union is the intersection of complements)
@@ -118,7 +118,7 @@ For any sets A and B within universal set U:
 
 These laws are frequently tested in JAMB. Learn to recognise when to apply each one.
 
-### Properties of Sets
+#### Properties of Sets
 
 - **Commutative**: A ∪ B = B ∪ A; A ∩ B = B ∩ A
 - **Associative**: (A ∪ B) ∪ C = A ∪ (B ∪ C); (A ∩ B) ∩ C = A ∩ (B ∩ C)
@@ -126,7 +126,7 @@ These laws are frequently tested in JAMB. Learn to recognise when to apply each 
 - **Identity**: A ∪ ∅ = A; A ∩ U = A
 - **Idempotent**: A ∪ A = A; A ∩ A = A
 
-### Three-Set Venn Diagram Problems
+#### Three-Set Venn Diagram Problems
 
 When working with three sets (A, B, C), draw three overlapping circles and systematically fill in each region:
 
@@ -138,7 +138,7 @@ When working with three sets (A, B, C), draw three overlapping circles and syste
 **Typical JAMB Question Pattern:**
 "In a survey of 100 students, 60 offer Physics, 50 offer Chemistry, and 45 offer Biology. If 20 offer Physics and Chemistry, 25 offer Physics and Biology, 15 offer Chemistry and Biology, and 10 offer all three subjects, find the number of students who offer none."
 
-### Application to Probability
+#### Application to Probability
 
 Sets form the foundation of probability theory tested in JAMB Mathematics:
 - **P(A)** = n(A)/n(U) for equally likely outcomes

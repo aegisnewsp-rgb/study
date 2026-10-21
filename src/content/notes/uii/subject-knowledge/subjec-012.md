@@ -153,7 +153,7 @@ Pure random guessing yields an expected mathematical return of zero, but introdu
 
 ---
 
-### 📝 Step-by-Step Practice Problems (SIMAK UI Model Items)
+#### 📝 Step-by-Step Practice Problems (SIMAK UI Model Items)
 
 #### Problem 1: Propositional Logic and Implication Negation
 **Question**: What is the logical negation of the proposition: *"If an applicant passes the SIMAK UI exam, then they are admitted to Fakultas Kedokteran"*?

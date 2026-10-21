@@ -157,7 +157,7 @@ $$\dfrac{w_{\text{salt}}}{E_{\text{salt}}} = \dfrac{w_{\text{CaCO}_3}}{E_{\text{
 
 ---
 
-### 📝 Step-by-Step Worked Problems (JEE Main Numerical Drills)
+#### 📝 Step-by-Step Worked Problems (JEE Main Numerical Drills)
 
 #### Problem 1: Multi-Step Limiting Reagent & Percentage Yield
 **Question**: $20.0\,\text{g}$ of a sample of calcium carbonate ($\text{CaCO}_3$, molar mass $100.0\,\text{g/mol}$) containing $20\%$ inert impurities is treated with $50.0\,\text{mL}$ of $4.0\,\text{M}$ aqueous hydrochloric acid ($\text{HCl}$). Calculate:
@@ -204,7 +204,7 @@ $$\dfrac{w_{\text{salt}}}{E_{\text{salt}}} = \dfrac{w_{\text{CaCO}_3}}{E_{\text{
 
 ---
 
-### ⚠️ Common Traps & High-Yield Pitfalls in JEE Main
+#### ⚠️ Common Traps & High-Yield Pitfalls in JEE Main
 
 1. **Confusing Molality with Molarity**: In diluted aqueous solutions, $m \approx M$, but in concentrated solutions ($d 
 e 1\,\text{g/mL}$), they diverge sharply. Always use $1000\,d - M \cdot M_B$ in the denominator for molality.

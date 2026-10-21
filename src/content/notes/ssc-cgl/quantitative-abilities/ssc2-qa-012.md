@@ -18,22 +18,22 @@ lastUpdated: 2026-03-25
 
 ### 🟢 Lite
 
-### Key Rule / Formula
+#### Key Rule / Formula
 **Mean = Sum of all values ÷ Number of values. For grouped data, Mean = Σ(f × x) ÷ Σf, where x is the midpoint of each class interval.**
 
-### Memory Trick
+#### Memory Trick
 **"SAM" for Mean: Sum it up, Ask how many, Mean = Sum ÷ Count.** For mode (most frequent value), remember "MOO" — the Mode is the one that MOOs loudest (most frequent). For median, the Middle value splits the data in half.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 SSC tests your ability to read tables, bar graphs, pie charts, and line graphs — extracting numerical facts, computing averages, percentages, and comparing quantities presented visually.
 
-### Quick Example
+#### Quick Example
 Q: A pie chart shows expenditure on rent (25%), food (35%), transport (15%), and savings (25%) from a monthly income of Rs. 40,000. What is the amount spent on food?
 A: Rs. 14,000 — 35% of 40,000 = (35/100) × 40,000 = 14,000 ✓
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 
 Data Interpretation and Statistics together form one of the most scoring and time-bound sections in SSC CGL Tier 2. The questions test two distinct but complementary skill sets: the ability to read and extract information from charts and tables (Data Interpretation), and the ability to compute and understand statistical measures of central tendency and dispersion (Statistics proper).
 
@@ -43,7 +43,7 @@ Standard deviation measures how spread out the data is from the mean. A low stan
 
 Data Interpretation questions in SSC come as pie charts (showing parts of a whole as percentages), bar graphs (comparing categories), line graphs (showing trends over time), and tables (combining multiple data series). The skill is not just calculation — it is reading the visual correctly, identifying what is being asked, and knowing which operation to perform (percentage change, ratio, average, comparison).
 
-### Key Points
+#### Key Points
 
 - **Mean is affected by extreme values** — if one value is very high or very low, the mean shifts dramatically; median stays relatively stable.
 - **Mode can be non-unique** — a dataset can have two modes (bimodal) or no mode at all, so don't assume a unique "most frequent" value exists.
@@ -51,7 +51,7 @@ Data Interpretation questions in SSC come as pie charts (showing parts of a whol
 - **Percentage change = (New - Old) / Old × 100** — always identify which is the base (old) value before applying this formula.
 - **In bar graph comparisons, don't assume scale starts at zero** — some graphs start at a higher value to show detail, making differences look larger or smaller than they actually are.
 
-### Worked Example
+#### Worked Example
 
 **Q:** The following table shows marks obtained by students in a test out of 100:
 
@@ -69,7 +69,7 @@ Find the mean marks (using class midpoint method).
 
 **Answer:** 58 marks
 
-### SSC Pattern / Tips
+#### SSC Pattern / Tips
 
 - **Pie chart questions are fastest** if you convert the question's percentage to a decimal and multiply by the total — avoid long division.
 - **Bar graph comparison questions** often ask "which year showed the maximum/minimum" — scan visually first, then verify with numbers.
@@ -78,7 +78,7 @@ Find the mean marks (using class midpoint method).
 
 ### 🔴 Extended
 
-### Full Concept
+#### Full Concept
 
 Data Interpretation and Statistics in SSC CGL Tier 2 demands a dual mastery: you must be equally comfortable with statistical computation and with extracting information from visual data presentations. The two domains reinforce each other — statistical concepts help you choose the right metric for a DI question, while DI practice sharpens your number sense for statistics problems.
 
@@ -100,7 +100,7 @@ Bar graphs demand attention to the Y-axis scale. A student who doesn't check whe
 
 Tabular DI is the most calculation-heavy format. SSC typically presents a table with 4-6 rows and 3-5 columns, then asks 4-5 sub-questions based on it. The key skill is locating the relevant cells quickly — don't scan the entire table, identify the row and column that contain your needed data.
 
-### SSC CGL Deep Analysis
+#### SSC CGL Deep Analysis
 
 Data Interpretation and Statistics together constitute approximately 10-15 questions in Tier 2 (out of 100), though the exact split varies by year. The Statistics portion (mean, median, mode, SD) typically yields 4-6 questions while DI (charts and tables) yields 4-8 questions.
 
@@ -110,7 +110,7 @@ Statistics questions have become more concept-blended. Rather than asking "find 
 
 Common difficulty patterns: (1) Mode questions where the modal class calculation produces a value outside the class interval — this is correct by formula but confusing, (2) DI questions where the total is not directly given and must be calculated as a sum of rows or columns, (3) Percentage questions where the base year changes mid-question (compound percentage change).
 
-### High-Scoring Strategy
+#### High-Scoring Strategy
 
 For Statistics questions: First identify which measure is being asked for and in what context. If the question mentions "most common," "frequent," or "popular," go to mode. If it says "middle value" or "centre," go to median. If it implies "balance point" or "equal distribution," go to mean. When given multiple measures for the same dataset, use the conceptual differences to eliminate wrong options — a dataset with an extreme outlier will have mean > median > mode, so options violating this expected order are wrong.
 
@@ -120,7 +120,7 @@ For combined DI+Stats questions: Solve the DI part first (extract the numbers), 
 
 Approximate calculation is your friend in DI. If the question asks for 23.7% of 847 and the options are spread by more than 5, you can estimate 24% × 850 ≈ 204 and select confidently. Forcing exact calculation wastes time you need for other questions.
 
-### SSC-Level Practice
+#### SSC-Level Practice
 
 **Q1:** The following pie chart shows the mode of transport used by 1800 students to travel to school: Bus 30%, Bicycle 20%, Car 15%, Walking 25%, Metro 10%. If the number of students using Bicycle increases by 50% and Metro increases by 30%, while others remain same, what is the new percentage of students using Bicycle and Metro combined?
 
@@ -134,7 +134,7 @@ Working: Convert the original percentages to counts on a base of 1800 students. 
 
 Working: The original nine values sum to 12 + 15 + 18 + 22 + 28 + 35 + 40 + 45 + 50 = 265, so the original mean = 265 / 9 ≈ 29.44. Adding two values makes n = 11, and the mean rises by 1 to ≈ 30.44, so the new sum = 30.44 × 11 ≈ 335. With one added value equal to 55, the other = 335 − 265 − 55 = 15. Sorting the new 11-value dataset gives 12, 15, 15, 18, 22, 28, 35, 40, 45, 50, 55. For 11 values the median is the 6th value = 28, whereas the original median (the 5th of 9 values) was 22. The median therefore increases from 22 to 28.
 
-### Common Traps
+#### Common Traps
 - **Miscalculating the base for percentage change:** In questions like "A increased by 20% and then decreased by 20%," many students think it returns to original value — it doesn't. The second 20% is calculated on the new (higher) value, so net result is (1.20 × 0.80) = 0.96 of original, a 4% decrease. Always identify the base for each percentage operation.
 - **Confusing class midpoint with class boundaries in grouped data:** When calculating mean from grouped frequency distribution, the midpoint = (upper limit + lower limit)/2. Students sometimes use the lower limit incorrectly, producing wrong answers systematically.
 - **Reading the wrong scale on bar graphs:** Always verify the Y-axis scale and whether it starts at zero. A bar that appears twice as tall visually may represent a value that is only 20% larger if the scale is compressed at the bottom.

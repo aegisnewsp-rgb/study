@@ -61,7 +61,7 @@ f(x) = (1/(σ√(2π))) e^(−(x−μ)²/(2σ²)). Standardise Z = (X − μ)/σ
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the fifth Topic of the SACE Stage 2 Mathematical Methods Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

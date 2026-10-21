@@ -137,7 +137,7 @@ Compare to a frictionless sliding block where $v = \sqrt{2gh}$. The sphere is sl
 
 **Experimental mechanics — timing in the school lab.** The dominant error in pendulum-timing experiments is reaction time (~0.2 s). Standard mitigation: time $n \approx 20$ oscillations and divide. Error per period becomes $\sim 0.2/20 = 0.01$ s, an order of magnitude better. NECTA practicals expect this kind of treatment of experimental error.
 
-### Common traps
+#### Common traps
 1. **Sign error on $g$ in vertical motion.** If you take up as positive, $a = -9.8$ m/s², not $+9.8$. Wrong sign flips "time to max height" into "time to land" and you lose every subsequent step.
 2. **Using SUVAT when acceleration is not constant.** Drag problems, oscillating systems, or any motion with explicit time-varying force are not SUVAT problems. Go back to $F = ma$ or to energy.
 3. **Confusing mass and weight.** $W = mg$ is a force (Newtons). Mass is kg. ACSEE sometimes mixes them in word problems; check units.

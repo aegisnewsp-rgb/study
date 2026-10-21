@@ -18,16 +18,16 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 Percent means "per hundred" — 25% = 25/100 = 0.25. To find X% of Y, multiply Y by X/100. To express a value as a percentage, divide the part by the whole and multiply by 100.
 
-### Memory Trick
+#### Memory Trick
 **"Per-Cent" = Per-100** — just scale the part up to a 100-point base. Think of it like a test score: 25/100 marks is 25%. Convert percentage to decimal by dropping the % sign and dividing by 100. Convert decimal to percentage by multiplying by 100 and adding %.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 The core percentage operation is just multiplying by a fraction (X/100), and every percentage word problem in GATE is either "find X% of Y," "what percent is X of Y," or a percentage change scenario.
 
-### Quick Example
+#### Quick Example
 Q: What is 20% of 150?
 A: 150 × 20/100 = 150 × 0.20 = **30**
 
@@ -37,7 +37,7 @@ A: (35/140) × 100 = 0.25 × 100 = **25%**
 Q: A laptop's price decreased from ₹80,000 to ₹65,000. What is the percentage decrease?
 A: (15,000/80,000) × 100 = **18.75%**
 
-### Must Remember
+#### Must Remember
 - **X% of Y = Y% of X** — 20% of 50 = 50% of 20 = 10. Use this to simplify calculations.
 - **Increase by X%** → multiply by (100+X)/100 = 1 + X/100
 - **Decrease by X%** → multiply by (100−X)/100 = 1 − X/100
@@ -46,18 +46,18 @@ A: (15,000/80,000) × 100 = **18.75%**
 - **A becomes B** → percentage change = ((B−A)/A) × 100; if B < A it's a decrease
 - **Population growth problems** → after n years: Final = Initial × (1 ± r/100)^n
 
-### Exam Tips
+#### Exam Tips
 - If a question says "price increased by 20% then decreased by 20%", the final price is NOT the original — it's lower (×1.20 × 0.80 = ×0.96). GATE loves this trap.
 - For comparison problems, always identify the original/base value first.
 - Percentage → fraction conversions worth memorizing: 50% = 1/2, 25% = 1/4, 20% = 1/5, 10% = 1/10, 5% = 1/20.
 - When combining percentages (e.g., "35% of students play football and 20% of those also play cricket"), multiply the percentages: 35% × 20% = 7% of total.
 
-### Common Pitfalls
+#### Common Pitfalls
 - **Treating a percentage increase followed by decrease symmetrically** → A 20% increase then 20% decrease from the NEW base gives a net loss. Calculate: ×1.20 × 0.80 = 0.96 of original.
 - **Using the wrong base for percentage change** → Always divide by the ORIGINAL value, not the new value.
 - **Adding percentages directly when you should multiply** → "10% increase then 15% increase" is NOT 25% — it's ×1.10 × 1.15 = ×1.265 = 26.5%.
 
-### Solved GATE-Style Example
+#### Solved GATE-Style Example
 **Q (GATE 2022):** If the price of oil increases by 25% and then decreases by 20%, what is the net change from the original price?
 
 **Step 1:** Increase by 25%: multiply by 1.25 → Price = 1.25P
@@ -67,7 +67,7 @@ A: (15,000/80,000) × 100 = **18.75%**
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Percentage is just a way of expressing a fraction with a denominator of 100. Instead of saying "35 out of every 100 things," we say 35%. This makes comparisons easier because everything is on the same scale — you're always talking about parts of one whole, expressed as hundredths.
 
@@ -75,7 +75,7 @@ The key mental shift is that "percent" and "fraction" are two faces of the same 
 
 Percentage change comes up constantly in real life — salary hikes, price reductions, marks improvement. The formula measures how much something has grown or shrunk relative to where it started. The denominator is always the original value, which is why people sometimes forget to use the old number as the base.
 
-### Key Formulas
+#### Key Formulas
 
 | Symbol | Meaning |
 |--------|---------|
@@ -84,7 +84,7 @@ Percentage change comes up constantly in real life — salary hikes, price reduc
 | % change | ((New − Old)/Old) × 100 |
 | A% increase then B% decrease | Net = (1 + A/100)(1 − B/100) |
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** A shirt costs Rs. 800. Its price is first increased by 15%, then decreased by 10%. What is the final price?
 
@@ -94,19 +94,19 @@ Percentage change comes up constantly in real life — salary hikes, price reduc
 
 **Answer:** Rs. 828
 
-### Common Mistakes
+#### Common Mistakes
 
 - Confusing original value with intermediate value → Always use the immediate previous value as base for sequential percentage changes
 - Converting X% to decimal incorrectly (25% = 0.25, not 0.025) → Remember: percent means divide by 100
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 
 1. Q: If the population of a town grows from 50,000 to 60,000, what is the percentage increase? Options: 10%, 15%, 20%, 25%. Ans: 20% (Reason: (60000-50000)/50000 × 100 = 20%)
 2. Q: 40% of a number is 120. What is 60% of the same number? Options: 160, 170, 180, 200. Ans: 180 (Reason: Number = 120 × 100/40 = 300; 60% of 300 = 180)
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 The word "percent" comes from the Latin "per centum," meaning "by the hundred." So when we say 40%, we're really saying 40 out of every 100 units. This framing helps when percentages feel abstract — imagine walking into a store with exactly Rs. 100: if an item is 35% off, you'd save Rs. 35 and pay Rs. 65. The "per hundred" mental model makes it concrete.
 
@@ -116,7 +116,7 @@ The most common trap in percentage problems is misunderstanding successive perce
 
 Another subtle point: percentage change always uses the original (starting) value as the denominator, not the new value. This is crucial in multi-step problems where intermediate results become the starting point for the next percentage calculation.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 
 For successive percentage changes, the combined multiplier is the product of individual multipliers. After an increase of A% and then B%: Final = Original × (1 + A/100) × (1 + B/100). This extends to any number of sequential changes.
 
@@ -124,7 +124,7 @@ For percentage change around a circle: If value changes from P to Q and then bac
 
 For comparing fractions: To compare two fractions like 3/7 and 4/9, convert to percentages — 3/7 ≈ 42.86% and 4/9 ≈ 44.44%, so 4/9 is larger. Percentages give every fraction the same denominator (100), making comparison trivial.
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 
 **Q1 (GATE 2020):** The price of a commodity increases by 20% in January and decreases by 20% in February. The price in March is Rs. 384. What was the price before January?
 
@@ -143,13 +143,13 @@ For comparing fractions: To compare two fractions like 3/7 and 4/9, convert to p
 - Working: Initial mixture cost = (3×40 + 2×60)/5 = 240/5 = Rs. 48/kg. SP with 20% profit = 48 × 1.20 = Rs. 57.6/kg. New cost of expensive rice = 60 × 1.30 = Rs. 78/kg. New mixture cost = (3×40 + 2×78)/5 = 276/5 = Rs. 55.2/kg. To maintain 20% profit: SP needed = 55.2 × 1.20 = Rs. 66.24. Price increase = (66.24 − 57.6)/57.6 × 100 ≈ 15%.
 - Answer: ~15% increase in selling price
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Method A:** Direct calculation — apply each percentage change sequentially
 **Method B:** Use multiplier approach — multiply by (1 ± percentage/100) for each step
 **When to use:** Method A for 2-3 steps when numbers are clean. Method B for any number of steps or when you need the net effect quickly.
 
-### Tricky Cases
+#### Tricky Cases
 
 - Percentage decrease cannot exceed 100% when going toward zero (you can't decrease something by more than its entire value)
 - Comparing percentages across different bases requires converting to actual numbers first

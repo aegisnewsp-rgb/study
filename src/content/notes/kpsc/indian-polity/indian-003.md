@@ -112,7 +112,7 @@ By interpreting "life" as meaningful existence rather than mere animal survival 
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. Examine the constitutional validity of affirmative action quotas exceeding $50\%$ in light of *Indra Sawhney* (1992) and *Janki Prasad Parimoo*.
 2. Discuss the scope of reasonable restrictions on freedom of speech and expression under Article 19(2) regarding digital media and internet shutdowns.

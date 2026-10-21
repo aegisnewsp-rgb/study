@@ -126,7 +126,7 @@ For linear circuits with multiple sources, **superposition** says the response (
 
 Current Electricity links directly to **electrostatics** through the charging of a capacitor (a current must flow to deposit charge on the plates, even if no current flows through the dielectric). It links to **magnetism and electromagnetism** via the force on a current-carrying wire $F = BIL\sin\theta$ and the magnetic field at the centre of a coil $B = \mu_0 N I/(2R)$. The Thevenin approach also feeds forward into **AC analysis**, **three-phase circuits**, and **operational amplifiers** in later engineering coursework.
 
-### Common traps
+#### Common traps
 
 - **Forgetting internal resistance in terminal-voltage questions.** A "12 V battery" almost always means the EMF; the terminal voltage drops by $Ir$ under load. Plugging in 12 V as the terminal voltage gives a wrong current.
 - **Confusing series and parallel rules for batteries.** Identical cells in parallel do *not* increase the EMF; they reduce the internal resistance. Two $1.5\,\text{V}$ cells in parallel still give $1.5\,\text{V}$ to the load (with $r/2$ internal resistance), not $3\,\text{V}$.

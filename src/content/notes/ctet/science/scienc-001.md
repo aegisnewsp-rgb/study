@@ -70,7 +70,7 @@ Organelles sorted by the job they do:
 The plant-versus-animal comparison is the highest-yield table in the note: cell wall, chloroplast, large central vacuole and mostly-absent centrioles on one side; flexible shape, small numerous vacuoles, lysosomes, centrioles and heterotrophic nutrition on the other.
 
 
-### Characteristics of Living Organisms
+#### Characteristics of Living Organisms
 
 All living organisms share certain key characteristics that distinguish them from non-living matter:
 
@@ -86,7 +86,7 @@ All living organisms share certain key characteristics that distinguish them fro
 
 > **MR. GREN** (Movement, Respiration, Growth, Excretion, Nutrition, Responsiveness) — the mnemonic for characteristics of life.
 
-### Cell: The Basic Unit of Life
+#### Cell: The Basic Unit of Life
 
 #### Discovery
 
@@ -219,7 +219,7 @@ The Fluid Mosaic Model (Singer and Nicolson, 1972) is the one named model CTET a
 
 For exam strategy the density is in the tables, not the prose. Learn the plant-versus-animal table and the prokaryote-versus-eukaryote table as two separate grids — they overlap on cell wall but disagree on almost everything else, and conflating them is the single largest source of lost marks in this topic.
 
-### CTET Exam Focus
+#### CTET Exam Focus
 
 - Cell Theory: Schleiden, Schwann, Virchow
 - Prokaryotic vs Eukaryotic cells: nucleus membrane, organelles

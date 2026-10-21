@@ -33,7 +33,7 @@ For burns, the **Rule of Nines** gives rapid adult TBSA percentages (head 9%, ea
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-### Body Surface Area Formulas
+#### Body Surface Area Formulas
 
 BSA standardizes doses for chemotherapy, biologics, and pediatric drugs where fixed adult doses would be unsafe. Three formulas coexist, but the **Saudi GP Board** expects the Mosteller formula for rapid calculation MCQs because it requires only height, weight, and a square root.
 
@@ -45,13 +45,13 @@ BSA standardizes doses for chemotherapy, biologics, and pediatric drugs where fi
 
 > Variables: H = height in cm, W = weight in kg; result in m². Drug dose = mg/m² × BSA.
 
-### Burn Assessment and Resuscitation
+#### Burn Assessment and Resuscitation
 
 The **Rule of Nines** partitions the adult body into 9% regions for rapid TBSA estimation. In children, proportions differ (head ≈ 18% at birth), so the **Lund-Browder chart** is mandatory. The **Parkland formula** then drives crystalloid resuscitation:
 
 > **Volume (mL) = 4 × Weight_kg × %TBSA** of Lactated Ringer over 24 hours; **half in first 8 h**, remainder over next 16 h, measured from the burn time.
 
-### Renal-Based Dose Adjustment
+#### Renal-Based Dose Adjustment
 
 When eGFR is unreliable (extremes of body size, pregnancy, amputees), **Cockcroft-Gault** estimates CrCl from age, weight, and serum creatinine. **Always multiply by 0.85 in females**, or renally cleared drugs are underdosed.
 

@@ -126,7 +126,7 @@ Swapping the axes of $y = f(x)$ gives the inverse, and geometrically that is a r
 
 The horizontal-line test is worth doing physically rather than algebraically, because most lost inverse items are a root you took without asking whether the other branch was available.
 
-### 🔗 Official Resources
+#### 🔗 Official Resources
 
 [University of the Philippines Office of Admissions — UPCAT](https://upcat.up.edu.ph/htmls/aboutupcat.html)
 

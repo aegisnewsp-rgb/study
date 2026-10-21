@@ -180,7 +180,7 @@ Quantitative Reasoning is the third cognitive subtest and contributes proportion
 
 ---
 
-### 🎯 Exam Essentials
+#### 🎯 Exam Essentials
 
 | Field | Detail |
 |---|---|
@@ -199,19 +199,19 @@ Quantitative Reasoning is the third cognitive subtest and contributes proportion
 
 ---
 
-### High-Yield
+#### High-Yield
 
 The single highest-yield Quantitative Reasoning habit is **mental math + estimation first, calculator second**. Most QR items can be solved in 20-30 seconds with mental math; reaching for the calculator costs 2-3 seconds per keystroke and slows the per-item rhythm. The second-highest-yield habit is **read the question first, then locate the relevant chart/table region**. Reading the chart/table first and trying to memorise everything costs 30+ seconds before the item can be answered. The third-highest-yield habit is **practising each question family in isolation first, then mixed timed sets** — the UCAT ANZ tests five reasoning families (data interpretation, percentage / ratio / rate, proportions, currency conversions, formula application) and each has a distinct strategy.
 
 ---
 
-### Previous Year
+#### Previous Year
 
 The UCAT ANZ 2024 and 2025 cycles both used Quantitative Reasoning as the third cognitive subtest with 36 items and 24 minutes. The 2026 cycle is expected to retain the same format. Confirm the live test format and timing on ucat.edu.au/ucat-anz/test-format before each cycle. Abstract Reasoning was removed from the UCAT ANZ starting the 2025 cycle — do not allocate study time to Abstract Reasoning for 2025 onwards.
 
 ---
 
-### Pro Tips
+#### Pro Tips
 
 - **Mental math first**: mental math + estimation is faster than the calculator for most QR items. Use the calculator only for 3+ digit multiplications.
 - **Read the question first**: read the question, then locate the relevant chart/table region. Don't read the chart first.
@@ -221,7 +221,7 @@ The UCAT ANZ 2024 and 2025 cycles both used Quantitative Reasoning as the third 
 
 ---
 
-### Official Resources
+#### Official Resources
 
 - ucat.edu.au/ucat-anz — UCAT ANZ Consortium official site
 - ucat.edu.au/ucat-anz/practice-tests — Official UCAT ANZ practice tests

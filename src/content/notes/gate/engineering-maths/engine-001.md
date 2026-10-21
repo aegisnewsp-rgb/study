@@ -145,7 +145,7 @@ x + 2y + kz &= \mu
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. For a $3 \times 3$ matrix $M$, two eigenvalues are $1$ and $-2$, and $\det(M) = -6$. Find the third eigenvalue, the trace of $M$, and the determinant of $M^3 - 2I$.
 2. Prove that if an $n \times n$ matrix $A$ satisfies $A^2 = A$ (idempotent), all its eigenvalues are either $0$ or $1$, and its rank equals its trace ($\rho(A) = \text{tr}(A)$).

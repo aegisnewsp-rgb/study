@@ -125,7 +125,7 @@ So AlCl₃ is markedly covalent and NaCl is ionic; LiI is more covalent than LiF
 
 Run all five steps in that order for any VSEPR question and you cannot lose marks on geometry, hybridisation and polarity in the same item.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -166,7 +166,7 @@ flowchart TD
   - *μ of CH₂Cl₂?* → non-zero; two Cl and two H in a tetrahedron do not cancel.
   - *How many lone pairs on the central atom in PCl₅?* → 0. Steric number 5, all five are bonds.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 1. **Classify ClF₃: shape, hybridisation, bond angle, polarity.**
    Steric number 5 (3 bonds + 2 lone pairs) → sp³d, trigonal bipyramidal electron geometry. Lone pairs take the two axial sites, leaving three bonds equatorial, so the shape is **T-shaped** with 90° angles. The two F–Cl bond vectors do not cancel → **polar**, because only two of the three bonds have a directly opposite partner.
@@ -185,7 +185,7 @@ flowchart TD
 8. **What is the hybridisation and shape of XeF₄, and why is it non-polar?**
    Six electron domains → sp³d², octahedral electron geometry. With two lone pairs in opposite axial positions, the four Xe–F bonds form a square plane, and each bond has an exactly opposite partner, so the vectors cancel and μ = 0.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Deciding ionic versus covalent by a single "transfer or share" test when the species is a polyatomic ion.** A coordinate bond is not a third kind of bond; it is a covalent bond in which both electrons came from one atom, and that is the same bond that already exists in NH₄⁺, H₃O⁺ and the H₃O⁺⋯H₂O hydrogen-bonded complex. Labelling it separately is a description of its origin, not its nature.
 2. **Forgetting lone pairs when counting the steric number.** Most wrong shapes come from counting only bonds.
@@ -199,7 +199,7 @@ flowchart TD
 10. **Forgetting that ortho-nitrophenol hydrogen-bonds to itself,** which is what makes it less volatile and more acidic than the para isomer.
 11. **Reversing the Fajans' rules trend.** Covalent character increases with **smaller** cation and **larger** anion, not the reverse.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Answer in a fixed order every time:** Lewis structure → steric number → shape → polarity → bond order/magnetism. Skipping to the shape guesses; the sequence takes 60 seconds and removes the guessing.
 2. **Draw the structure before naming it.** Most shape errors come from a mental picture built from the formula alone.

@@ -71,7 +71,7 @@ Area = ∫_a^b |f(x) − g(x)| dx.
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the third Topic of the SACE Stage 2 Mathematical Methods Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

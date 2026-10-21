@@ -68,7 +68,7 @@ Constant velocity: r(t) = r₀ + v t. Constant acceleration: r(t) = r₀ + v₀ 
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the first Topic of Unit 4 in the WACE Mathematics Specialist ATAR Year 12 syllabus. Confirm the live examination design brief on senior-secondary.scsa.wa.edu.au.
 

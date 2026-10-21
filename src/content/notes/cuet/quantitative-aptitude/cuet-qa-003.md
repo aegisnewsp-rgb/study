@@ -119,7 +119,7 @@ For a set with repetitions, count every occurrence: the average of 5, 5, 5, 7, 7
 
 **Alligation with three components.** The two-ingredient cross does not generalise, so use algebra and choose the smallest quantity as the free variable. To get 50% by mixing 20%, 40% and 60% acid, set the total to 100 units and let y be the 40% acid. Then x + y + z = 100 and 0.2x + 0.4y + 0.6z = 50. Substituting x = 100 − y − z gives 0.2(100 − y − z) + 0.4y + 0.6z = 50, which simplifies to 20 + 0.2y + 0.4z = 50, so y + 2z = 150. Choose y = 0 and z = 75, giving x = 25 — a mixture of 20% and 60% in the ratio **1 : 3** reaches 50% without any 40% acid at all. Verify: (1 × 20 + 3 × 60)/4 = 200/4 = 50 ✓. The lesson is that a three-component question usually has a family of solutions, and the answer options will pick out one of them; solving the linear pair takes two minutes and removes all guesswork.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -152,7 +152,7 @@ flowchart TD
   - *60 L, 12 L replaced twice?* → 60 × (4/5)² = 38.4 L.
   - *5 numbers average 20, add 20?* → still 20.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Taking the simple average of two group averages.** Legal only when the groups are the same size; otherwise the answer is wrong by an amount proportional to the size difference.
 2. **Reading an alligation difference on the ingredient's own side.** 10 parts of cheap and 10 parts of dear is only right when the gaps are equal; in general the difference is written opposite.
@@ -164,7 +164,7 @@ flowchart TD
 8. **Confusing a ratio of quantities with a ratio of values.** If the question asks for the ratio of *money*, multiply each quantity by its unit price first.
 9. **Reducing the alligation ratio incorrectly,** e.g. writing 20 : 10 as 20 : 1. Divide both sides by the same number every time.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Work all eight before reading a solution. For every mixture question, verify the answer by plugging it back in.
 
@@ -185,7 +185,7 @@ Work all eight before reading a solution. For every mixture question, verify the
 8. **The average age of 30 students is 14 years. Including the teacher raises the average to 15 years. How old is the teacher?**
    Students' total age = 30 × 14 = 420 years. With the teacher there are 31 people, so the total is 31 × 15 = 465 years. Teacher's age = 465 − 420 = **45 years**. Two different counts, two different totals — count the change before you compute anything.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Draw the alligation cross on rough paper every time,** even when the numbers look obvious. It costs five seconds and it makes a reversed ratio impossible.
 2. **Write the units on every intermediate value** — kg, litres, ₹, years. A misplaced unit is the most common silent error in mixture problems.

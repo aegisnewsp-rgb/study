@@ -18,20 +18,20 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 AP: nth term = a + (n–1)d, sum = n/2 × [2a + (n–1)d]. GP: nth term = ar^(n–1), sum = a(r^n – 1)/(r – 1) for r > 1.
 
-### Quick Memory Trick
+#### Quick Memory Trick
 **"A" for "Always Add" in AP (constant difference "d" added each step). **"G" for "Grow by Multiply" in GP (constant ratio "r" multiplied each step).
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 AP numbers walk up stairs (keep adding the same step size), GP numbers grow like rabbits (each term is the last one multiplied by the same factor).
 
-### Quick Example
+#### Quick Example
 Q: Find the 10th term of the AP: 3, 7, 11, 15, ...
 A: a=3, d=4, n=10 → T₁₀ = 3 + (10–1)×4 = 3 + 36 = **39**
 
-### Must Remember
+#### Must Remember
 - AP: constant difference (d); GP: constant ratio (r)
 - Sum of AP = n/2 × (first + last) = n/2 × [2a + (n–1)d]
 - GP sum = a(r^n – 1)/(r – 1) when r ≠ 1; = n×a when r = 1
@@ -40,7 +40,7 @@ A: a=3, d=4, n=10 → T₁₀ = 3 + (10–1)×4 = 3 + 36 = **39**
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 A sequence is just a list of numbers that follow some rule. The two most important types you'll encounter are **Arithmetic Progressions (AP)** and **Geometric Progressions (GP)**. They show up everywhere — from calculating loan repayments to modeling population growth — which is why they're exam favorites.
 
@@ -48,7 +48,7 @@ An **Arithmetic Progression** is a sequence where you add the same number every 
 
 A **Geometric Progression** works differently. Instead of adding, you multiply by the same factor every time. That factor is the "common ratio" (denoted r). So if you start at 3 and multiply by 2 each time, you get 3, 6, 12, 24, 48... The ratio between consecutive terms never changes — that's the defining property. GP gets interesting because the numbers grow (or shrink) much faster than AP. A GP with r > 1 grows exponentially, while one with 0 < r < 1 shrinks toward zero.
 
-### Key Formulas
+#### Key Formulas
 
 | Symbol | Meaning |
 |--------|---------|
@@ -59,7 +59,7 @@ A **Geometric Progression** works differently. Instead of adding, you multiply b
 | l | Last term |
 | Sₙ | Sum of first n terms |
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** The 3rd term of an AP is 16 and the 10th term is 58. Find the sum of the first 20 terms.
 
@@ -80,13 +80,13 @@ S₂₀ = n/2 × [2a + (n–1)d] = 20/2 × [2(4) + 19(6)]
 
 **Answer:** 1220
 
-### Common Mistakes
+#### Common Mistakes
 
 - Confusing the (n–1) multiplier → In Tₙ = a + (n–1)d, when n = 1, the term is just a (makes sense). If you accidentally use n instead of (n–1), you'd get a + d as the first term — wrong.
 - Forgetting the GP sum formula changes when r < 1 → When r < 1, the formula a(r^n – 1)/(r – 1) still works if you flip the sign correctly. Write it as a(1 – r^n)/(1 – r) for r < 1 to avoid sign confusion.
 - Mixing up AP and GP formulas → AP involves addition, GP involves multiplication. Check which one you're solving.
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 
 1. Q: The 2nd term of a GP is 12 and the 5th term is 96. Find the common ratio. Options: A) 2 B) 3 C) 4 D) 8. Ans: **A** (Reason: T₂ = ar = 12, T₅ = ar⁴ = 96. Divide: ar⁴/ar = r³ = 96/12 = 8 → r = 2)
 
@@ -94,7 +94,7 @@ S₂₀ = n/2 × [2a + (n–1)d] = 20/2 × [2(4) + 19(6)]
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 Let's dig into *why* these formulas exist and what they really tell us about the sequences they describe.
 
@@ -114,7 +114,7 @@ The GP sum formula, Sₙ = a(r^n – 1)/(r – 1), comes from a clever trick: mu
 
 The most important thing to understand about GP is the ratio r. When r > 1, numbers explode toward infinity (think compound interest, population growth, viral spread). When r = 1, the GP is constant — every term equals a. When 0 < r < 1, numbers shrink toward zero asymptotically (think radioactive decay, drug absorption). When r < 0, you get alternating signs — the terms flip between positive and negative.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 
 **Infinite GP Sum:**
 
@@ -122,7 +122,7 @@ When |r| < 1 and n → ∞, the term r^n becomes vanishingly small. So S∞ = a/
 
 **Example:** 1, 1/2, 1/4, 1/8, ... Here a = 1, r = 1/2. S∞ = 1/(1 – 1/2) = 2. No matter how many terms you add, you'll never exceed 2.
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 
 **Q1 (GATE 2020 — style):**
 The sum of three numbers in GP is 26 and their product is 216. Find the numbers.
@@ -144,7 +144,7 @@ A person saves ₹1000 in the first month, ₹1200 in the second month, ₹1400 
 - Working: This is an AP with a = 1000, d = 200, n = 24. S₂₄ = 24/2 × [2(1000) + 23(200)] = 12 × [2000 + 4600] = 12 × 6600 = **₹79,200**.
 - Answer: **₹79,200**
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Method A (Standard formula):** Use Sₙ = n/2 × [2a + (n–1)d] directly. Safe, reliable, always works.
 
@@ -152,7 +152,7 @@ A person saves ₹1000 in the first month, ₹1200 in the second month, ₹1400 
 
 **When to use:** Method A when you have a and d. Method B when you can quickly find the last term (l = a + (n-1)d) and want a faster calculation.
 
-### Tricky Cases
+#### Tricky Cases
 
 - **AP of consecutive integers:** Numbers like 5, 6, 7, 8 are an AP with a = 5, d = 1. Their sum is n(a + l)/2 — same formula but simpler because d = 1.
 - **GP with negative ratio:** If r = –2, terms alternate signs: a, –2a, 4a, –8a... The absolute values grow, but the sign keeps flipping. Sum formula still works.

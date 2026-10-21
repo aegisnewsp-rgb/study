@@ -68,7 +68,7 @@ For a statement P(n):
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the first Topic of the SACE Stage 2 Specialist Mathematics Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

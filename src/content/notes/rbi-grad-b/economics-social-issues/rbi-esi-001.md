@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 The Indian economy is a large, mixed developing economy where the services sector dominates GDP contribution (~56%), agriculture employs the most people (~42%), and the informal sector accounts for nearly 80% of total employment.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI's monetary policy must balance growth across this uneven structure — supporting agriculture through KCC loans while managing services-sector inflation; understanding the informal sector is critical because it lies outside formal banking channels and affects monetary transmission.
 
-### Must Know Facts
+#### Must Know Facts
 - GDP composition (2023-24): Services ~56%, Industry ~26%, Agriculture ~18%
 - Employment: Agriculture ~42% of workforce, Services ~31%, Industry ~25%
 - PLFS 2022-23: Labour force participation rate for women aged 15+ was 37.0%
 - MSME sector contributes ~30% to GDP and ~63 million registered enterprises
 - Informal sector (unorganized) employs ~80% of India's workforce
 
-### Quick Example / Application
+#### Quick Example / Application
 When RBI cuts repo rates to boost growth, it works well for Infosys (services) and Tata Motors (industry) — both borrow formally. But a marginal farmer in Uttar Pradesh borrowing from a moneylender at 24% sees zero benefit from RBI's rate cuts. This structural gap is why RBI introduced priority sector lending norms and Kisan Credit Cards.
 
-### 1-Line Summary
+#### 1-Line Summary
 India's economy looks modern in GDP numbers (services-driven) but employs most people in low-productivity agriculture and informal work — a fundamental structural tension RBI must navigate.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Let me give you the real picture of how India earns and how India works — because these are two very different things.
 
@@ -53,7 +53,7 @@ This gap between GDP share and employment share is the single most important str
 
 **Demographic dividend:** India has one of the world's youngest populations — median age around 28. This "demographic dividend" means India has a large working-age population and relatively few dependents. If this workforce is skilled and absorbed into productive work, it can drive growth for decades. If not — if education and jobs don't keep pace — it becomes a demographic burden. PLFS data shows labour force participation for young women is still low (37%), meaning significant untapped potential.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -65,11 +65,11 @@ This gap between GDP share and employment share is the single most important str
 | Priority Sector Lending | RBI mandate requiring banks to lend 40% of advances to designated priority sectors (agriculture, micro, small business, education, housing) |
 | Organised vs Unorganised Sector | Organised: registered enterprises with formal contracts (government, corporations); Unorganised: everything else — the informal economy |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 In August 2022, RBI's Monetary Policy Committee (MPC) kept the repo rate unchanged at 5.90% — but the key issue was transmission. Large corporations and IT services firms were borrowing at declining rates. But for small borrowers, especially in agriculture and micro-enterprises, rates remained high because informal credit channels dominated. RBI responded by enhancing the limits under the Priority Sector Lending Certificates (PSLC) mechanism and introduced a new scheme for street vendors (SV-Credit@) to bring them into the formal banking fold.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 This topic most commonly appears as:
 - **Conceptual MCQs** asking for the current GDP share of a specific sector (Services ~56% is the most tested fact)
@@ -77,7 +77,7 @@ This topic most commonly appears as:
 - **Case-based questions** where a policy decision is described and you must identify the structural characteristic it addresses
 - Occasionally a short-answer question on the demographic dividend or MSME contribution
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** In 2023-24, the services sector contributed approximately what percentage to India's GDP, and which employment category does it *not* primarily belong to?
 **Answer:** Services contributed approximately **56% to India's GDP**. However, it does NOT primarily belong to the highest employment category — that honour goes to agriculture, which employs ~42% of workers despite contributing only ~18% of GDP. This paradox (low-productivity agriculture employing the most people) is a defining structural challenge of the Indian economy.
@@ -87,7 +87,7 @@ This topic most commonly appears as:
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 **Historical evolution of India's economic structure:**
 
@@ -119,7 +119,7 @@ The MSME sector (Micro, Small and Medium Enterprises) in India comprises over 63
 
 RBI's role here is primarily through credit flow. MSMEs struggle to get formal bank credit — they lack collateral, audited balance sheets, and credit history. RBI has mandated the filing of GST returns as an alternative credit assessment tool and has introduced the Account Aggregator framework to allow non-banking financial companies and fintechs to access GST and income tax data for lending decisions.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 The structural transformation literature (Lewis, 1954; Ranis-Fei, 1961) describes how developing economies transfer surplus labour from traditional agriculture to modern industry. India's experience has been atypical: instead of a smooth labour transfer from farms to factories, India saw mass migration to services — often informal services like delivery, construction, and retail. The informality of this migration means workers didn't gain formal employment benefits or stable incomes.
 
@@ -127,7 +127,7 @@ From a monetary economics perspective, the formal-informal structure creates sig
 
 The sectoral GVA growth differential is instructive: services GVA grew at 7.0% in 2023-24, industry at 6.5%, and agriculture at just 1.4% (NSO advance estimates). This productivity divergence means the gap between formal and informal, between services and agriculture, will continue to widen without structural interventions.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 For RBI Grade B examination, you should know:
 - The exact sectoral GDP shares for the most recent year available (2023-24 NSO advance estimates: Agriculture ~18.2%, Industry ~26.3%, Services ~55.5%)
@@ -137,7 +137,7 @@ For RBI Grade B examination, you should know:
 - RBI's role in MSME financing through various schemes (Mudra, PSLCs, Stand-Up India)
 - The demographic dividend concept: India expected to have the world's largest workforce by 2027
 
-### Case Study / Application
+#### Case Study / Application
 
 **The COVID-19 shock and India's structural fragility:**
 
@@ -147,7 +147,7 @@ RBI responded with an emergency package: a 75 basis point repo rate cut (from 5.
 
 This case illustrates: monetary policy (RBI's domain) cannot solve structural problems. Fiscal policy (government's domain) must complement it. The informal sector's absence from formal banking channels meant RBI's liquidity operations couldn't reach those who needed help most.
 
-### GATE-level Numerical
+#### GATE-level Numerical
 
 **Q:** In 2023-24, India's GDP at current prices was approximately ₹293 lakh crore. Agriculture contributed 18.2%, Industry 26.3%, and Services 55.5%. Calculate:
 (a) The GDP contribution of the Agriculture sector
@@ -167,7 +167,7 @@ For comparison:
 
 **Answer:** Agriculture produces only 0.43 units of GDP per unit of employment — far below industry (1.05) and services (1.79), confirming its low productivity per worker. This structural imbalance is why India's growth is job-rich in services but not labour-absorbing in the way manufacturing-led growth would be.
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 **Academic view:** Development economists argue India has experienced "jobless growth" in the services-led phase. The KLEMS (Knowledge, Industry, Labour, Energy, Materials, Services) database from the Reserve Bank shows labour productivity growth has been highest in services, lowest in agriculture — confirming a widening productivity gap.
 
@@ -175,7 +175,7 @@ For comparison:
 
 **Practical/Industry view:** Industry captains see India's demographic dividend as a talent advantage — the world's largest pool of English-speaking, tech-savvy young workers. Infosys, TCS, and Wipro built global businesses on this. But industry also acknowledges the skill gap in manufacturing — India's Technical Education Quality Improvement Programme (TEQIP) and Skill India mission are attempts to bridge this.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 **2024-25 developments relevant to this topic:**
 - NSO's PLFS for 2023-24 showed unemployment rate at 7.6% in urban areas; female LFPR continued to be a concern at ~37%

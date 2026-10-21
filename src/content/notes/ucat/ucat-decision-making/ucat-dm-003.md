@@ -45,7 +45,7 @@ Decision Making includes short argument-evaluation items where a passage makes a
 
 > Source for subtest size, time, marking and scoring (35 items / 37 minutes / 300–900 / single-answer 1 mark, multiple-statement 2 marks with partial credit): UCAT Consortium, *Test Format*, https://www.ucat.ac.uk/about-ucat/test-format/. The UCAT Decision Making question tutorial covers the same item types this note builds on.
 
-### What an "assumption" actually is in this subtest
+#### What an "assumption" actually is in this subtest
 
 An assumption is the unstated link between a premise and a conclusion. The argument depends on it being true. If the assumption is false, the conclusion does not necessarily follow.
 
@@ -57,7 +57,7 @@ Three common shapes:
 
 In each case, the conclusion is not necessarily wrong. The argument is just incomplete. The Decision Making item rewards the candidate who can point to the gap.
 
-### The five flaws that come up most often
+#### The five flaws that come up most often
 
 The UCAT does not name the flaws in the items, but the wrong-answer patterns test a small set. The five that come up most often are:
 
@@ -69,7 +69,7 @@ The UCAT does not name the flaws in the items, but the wrong-answer patterns tes
 
 These five cover most of the wrong-answer traps in argument-evaluation items. There are others (slippery slope, appeal to authority, appeal to popularity), but they appear less often.
 
-### A four-question checklist for any argument
+#### A four-question checklist for any argument
 
 When you read a Decision Making argument, run it through four checks before you pick a conclusion:
 
@@ -99,7 +99,7 @@ The electronic prescribing example reports errors falling from 9 to 4 between Ma
 #### A limitation and a flaw are different answers
 The note separates these explicitly, and the separation is worth more than any single flaw name. A limitation is something the evidence does not cover — the data is from one clinic, or the period is short, or the sample was selected. A flaw is a join in the argument that carries no weight, and it is repairable by rewriting the argument rather than by collecting more data. Candidates who answer "the data does not show that" on every argument item will be wrong on every item where the reasoning itself is broken, which is most of them.
 
-### Worked example — spotting the hidden assumption
+#### Worked example — spotting the hidden assumption
 
 Argument:
 
@@ -114,7 +114,7 @@ Which assumption does the argument rely on?
 
 The best answer is B. The reasoning chain is: "we observed improvement" → "the system caused it" → "roll it out elsewhere". The middle link is the hidden assumption.
 
-### Worked example — spotting a false dilemma
+#### Worked example — spotting a false dilemma
 
 Argument:
 
@@ -129,7 +129,7 @@ Which flaw does the argument contain?
 
 The best answer is A. The argument presents two options ("either extend hours or open a new unit") as if they are the only ways to reduce A&E pressure. Other plausible options — same-day GP appointments, community outreach, ambulance redirection — are not in the dilemma. That is the false-dilemma pattern, and the trap is that the cost comparison inside the dilemma looks reasonable, so the reader accepts the framing.
 
-### Worked example — spotting post hoc reasoning
+#### Worked example — spotting post hoc reasoning
 
 Argument:
 
@@ -144,14 +144,14 @@ Which flaw does the argument contain?
 
 The best answer is B. The argument observes that B followed A and concludes that A caused B. That is the post hoc fallacy. The other answers may also be true, but B is the load-bearing flaw.
 
-### Common mistakes to correct now
+#### Common mistakes to correct now
 
 - Naming the flaw without explaining the move. The UCAT scores the match between the chosen answer and the flaw, not the label. If you cannot say in one sentence why the argument fails, you have not identified the flaw.
 - Treating "the data does not say that" as a flaw. The data not addressing a point is not a flaw; it is a limitation. The UCAT scores flaws in the reasoning chain, not gaps in the data.
 - Skipping argument-evaluation items because they look subjective. They are subjective only on a careless read. The four-question checklist above makes them mechanical.
 - Reading only the conclusion and guessing. The conclusion is the part that sounds reasonable. The premise and the hidden assumption are where the error lives.
 
-### What to do next
+#### What to do next
 
 - Pick one Decision Making argument from the official UCAT practice tests. Write down the conclusion, the evidence, the hidden assumption and the strongest objection in one paragraph each.
 - Build a one-page reference card listing the five flaws above (false dilemma, post hoc, ad hominem, straw man, begging the question) with one example sentence for each. Review the card before each Decision Making drill.

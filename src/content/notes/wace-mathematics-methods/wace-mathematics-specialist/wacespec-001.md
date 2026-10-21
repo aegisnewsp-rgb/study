@@ -70,7 +70,7 @@ Direct, contradiction, induction. Induction: base case, inductive step, conclusi
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Unit is the first of four Units of WACE Mathematics Specialist. Confirm the live syllabus on senior-secondary.scsa.wa.edu.au.
 

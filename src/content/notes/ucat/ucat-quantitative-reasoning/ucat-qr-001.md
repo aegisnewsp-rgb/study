@@ -134,7 +134,7 @@ The trap is to average 6 and 4 to get 5 minutes. That arithmetic average is only
 
 ---
 
-### Memory anchors
+#### Memory anchors
 
 A pocket card to glance at before each practice set:
 
@@ -146,7 +146,7 @@ A pocket card to glance at before each practice set:
 
 ---
 
-### Common traps
+#### Common traps
 
 - Adding two percentage changes instead of multiplying: 20% off then 20% VAT is not "back to the original." It is 0.80 × 1.20 = 0.96.
 - Treating a part-to-whole ratio as part-to-part and dividing by the sum.
@@ -156,7 +156,7 @@ A pocket card to glance at before each practice set:
 
 ---
 
-### What to do next
+#### What to do next
 
 1. Time a single 9-question QR set in 10 minutes, every day for two weeks. The bar is 43 seconds per question including the chart read.
 2. Build a flashcard set for the multiplier form: 15% off = 0.85, 8% VAT added = 1.08, 30% increase = 1.30. Drill until the multiplier is reflex.

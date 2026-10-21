@@ -69,7 +69,7 @@ A matrix is m × n. Addition: element-wise. Scalar multiplication: each element.
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Unit is the second of four Units of WACE Mathematics Specialist. Confirm the live syllabus on senior-secondary.scsa.wa.edu.au.
 

@@ -164,7 +164,7 @@ For a wave packet — a localised disturbance built from many frequencies — th
 
 SHM is the bridge between Newtonian Mechanics (Physic-003) and Waves (covered in HSC Physics 2nd Paper). The same phase language appears in AC circuits (Physic-011/012), where current and voltage oscillate at $\omega$ and the impedance has a frequency-dependent form $Z = \sqrt{R^2 + (X_L - X_C)^2}$. Resonance in mechanical systems is the direct analogue of resonance in electrical circuits.
 
-### Common traps
+#### Common traps
 
 - **Period of a pendulum depends on amplitude only at large angles.** For small oscillations the period is amplitude-independent. DU questions sometimes give amplitude and ask for period; if it's $< 10°$, ignore amplitude.
 - **Confusing $\omega$, $f$ and $T$.** $\omega$ is in rad/s, $f$ in Hz, $T$ in seconds. They satisfy $\omega = 2\pi f = 2\pi/T$. A common mistake is to substitute $\omega$ into a formula expecting $f$ — usually off by a factor of $2\pi$.

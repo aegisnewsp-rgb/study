@@ -242,7 +242,7 @@ The Consortium publishes that there is no negative marking. A guess on a calibra
 
 ---
 
-### Memory anchors
+#### Memory anchors
 
 - **One full read of the scenario per cluster.** Re-read selectively thereafter.
 - **22.6 seconds per item.** That is the budget.
@@ -252,7 +252,7 @@ The Consortium publishes that there is no negative marking. A guess on a calibra
 
 ---
 
-### Common traps
+#### Common traps
 
 - Re-reading the scenario on every item. Costs 8 to 12 seconds each.
 - Deciding on A or D rather than calibrating B or C. The partial-mark candidates cluster in the mid-scale ratings.
@@ -348,7 +348,7 @@ Record the time from first word of a scenario to its final rating, for every clu
 After ten sets, take the median per cluster size. That median, not your sense of speed, is the budget you sit down with. Official UCAT practice tests are the right benchmark for the published shape; cohort statistics and any year-on-year figures belong on ucat.ac.uk, read live before your sitting.
 
 ---
-### What to do next
+#### What to do next
 
 1. Take ten official SJT clusters. Time each cluster from first read to last rating, and write the time on the sheet. A four-item cluster should land at 60 to 90 seconds; a six-item cluster at 90 to 130 seconds.
 2. Build a one-page pacing card: scenarios per minute, mid-scale calibration test, single-read rule. Read it before each mock.

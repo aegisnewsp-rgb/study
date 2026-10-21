@@ -130,7 +130,7 @@ Mark a practice set by looking at the shape of your errors, not just the count.
 3. **A list option is obviously too long.** Count before you choose; the longest option is rarely right under a tight limit.
 4. **The recording corrects a number or a name.** The second figure is the answer.
 
-### Exam Essentials — IELTS Listening Completion Question Types
+#### Exam Essentials — IELTS Listening Completion Question Types
 
 | Field | Value | Source |
 |---|---|---|
@@ -158,7 +158,7 @@ Mark a practice set by looking at the shape of your errors, not just the count.
 - [ ] I have drawn the flow-chart's arrows before listening.
 - [ ] I skip a lost gap instantly and resume at the next question number.
 
-### High-Yield — Form, Note, Table and Flow-Chart Completion
+#### High-Yield — Form, Note, Table and Flow-Chart Completion
 
 Eight real contexts that generate these four forms, and what each one usually asks of you.
 
@@ -173,7 +173,7 @@ Eight real contexts that generate these four forms, and what each one usually as
 
 The first three are transactional and sit most often in Part 1. The rest are academic and usually sit in Parts 2, 3 and 4. Practise both registers, because the answer style differs: transactional items want exact facts, academic items want category names and stage verbs.
 
-### Previous Year Patterns — IELTS Listening Completion
+#### Previous Year Patterns — IELTS Listening Completion
 
 The structural facts are published and do not move: four parts of 10 questions, 40 in total, approximately 30 minutes, 1 mark per correct answer, no negative marking. The four completion forms sit in the standing question-type list, which ielts.org enumerates as form completion, note completion, table completion and flow-chart completion, alongside multiple choice, matching, plan/map/diagram labelling, summary completion, sentence completion and short answer.
 
@@ -183,7 +183,7 @@ The one constant is the rule set, printed on the question paper every time: read
 
 Note that flow-chart completion is not a frequent item, and a candidate who has never practised reading a chart meets it cold. This is the form most worth a dedicated hour.
 
-### Pro Tips — Completion Question Types
+#### Pro Tips — Completion Question Types
 
 1. **Say the limit out loud before the audio.** One sentence, every set. The limit changes between sets and the printed instruction is the only authority.
 2. **Count words as you write.** Build the habit in training so the exam does it automatically.
@@ -196,7 +196,7 @@ Note that flow-chart completion is not a frequent item, and a candidate who has 
 9. **Type on computer delivery.** No transfer time exists, so a tidy-up rewrite costs you the following gap.
 10. **Practise the closed version too.** Where you select from a list, read the options first and watch for near-identical ones.
 
-### Official Resources — IELTS Listening Completion Types
+#### Official Resources — IELTS Listening Completion Types
 
 | Resource | URL | Use |
 |---|---|---|

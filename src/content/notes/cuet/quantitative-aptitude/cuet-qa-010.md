@@ -122,7 +122,7 @@ Lengths are linear, areas are squared, volumes are cubed, so the conversion fact
 
 A hollow cylinder is an outer cylinder minus an inner one, so its volume is π(R² − r²)h and its total surface area is 2πR(R + h) + 2πr(r + h), which includes the inner curved surface and both annular ends. Hollow spheres, hemispherical bowls and metal pipes all follow the same subtract-the-inner-solid pattern, and the same warning applies: the surface where the inner and outer surfaces meet is not exposed, but the inner surface itself is.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -160,7 +160,7 @@ flowchart TD
   - *Sphere r up 10%?* → surface area up 21%, volume up 33.1%.
   - *Cylinder r = 3, h = 10 melted into r = 1 spheres?* → 67 whole spheres.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Substituting the diameter into πr².** Halve it first; the error inflates every area by a factor of four.
 2. **Using CSA when the question asks for TSA,** or adding the bases twice.
@@ -173,7 +173,7 @@ flowchart TD
 9. **Reporting the area when the perimeter was asked,** which the unit of the options reveals immediately.
 10. **Assuming a change in radius changes area by the same percentage.** Radii are linear; areas and volumes are not.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Do all eight on paper, and before each one write down the quantity actually being asked for.
 
@@ -194,7 +194,7 @@ Do all eight on paper, and before each one write down the quantity actually bein
 8. **A trapezium has parallel sides 10 cm and 6 cm with a perpendicular height of 4 cm. Find its area.**
    Area = ½(a + b)h = ½ × (10 + 6) × 4 = 8 × 4 = **32 cm²**. The key step is taking the *sum* of the parallel sides and halving it — ½(10 + 6) = 8 is the mean of the two bases, and 8 × 4 = 32. Using 10 × 6 × 4 would give 240, which is the shape of the error options usually take.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Write the target quantity at the top of your rough work** — area, CSA, TSA or volume — before you touch a formula. It costs two seconds and prevents the most common mensuration error.
 2. **Adopt 22/7 when the radius is a multiple of 7, and 3.14 otherwise,** and stay with it for the whole question.

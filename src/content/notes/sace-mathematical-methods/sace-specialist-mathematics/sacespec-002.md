@@ -69,7 +69,7 @@ z = r(cos θ + i sin θ). Conversion: a = r cos θ, b = r sin θ.
 
 ---
 
-### Specification reference
+#### Specification reference
 
 This Topic is the second Topic of the SACE Stage 2 Specialist Mathematics Subject Outline. Confirm the live Subject Outline on sace.sa.edu.au.
 

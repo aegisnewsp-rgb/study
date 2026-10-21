@@ -18,16 +18,16 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Pattern/Rule
+#### Key Pattern/Rule
 Draw Venn diagrams for the two premises, then see what conclusion necessarily follows (definite) or what could possibly follow (possible).
 
-### Memory Trick
+#### Memory Trick
 **"All + All = All definite; All + Some = No conclusion possible; Some + Some = Some possible."** Actually, draw it out — it's simpler than memorizing rules.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Syllogisms test whether you can draw logically valid conclusions from two premises, using either definite conclusions (must be true) or possible conclusions (could be true).
 
-### Quick Example
+#### Quick Example
 Premise 1: All cats are mammals.
 Premise 2: All mammals are animals.
 Conclusion: **All cats are animals** — definitely true (chaining the sets).
@@ -38,14 +38,14 @@ Conclusion: **No definite conclusion** — can't say anything for certain.
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 A syllogism is a logical argument where you derive a conclusion from two premises. In GATE's logical reasoning section, the premises are categorical statements about groups (sets), and the conclusion is either a definite statement that MUST be true or a possible statement that COULD be true based on the information given.
 
 The key insight is that logic distinguishes between what we know for certain (definite conclusions) and what could be true (possibilities). Sometimes the information given is rich enough to pin down exactly what's true. Sometimes it only tells us what might be true. And sometimes the premises don't give us enough information to draw any meaningful conclusion at all.
 
 Understanding this distinction is half the battle in syllogism questions. The other half is knowing how to represent categorical statements visually using Venn diagrams — a technique that transforms abstract logical relationships into concrete spatial ones.
 
-### Types of Categorical Statements
+#### Types of Categorical Statements
 
 There are four standard forms, each with specific Venn diagram representations:
 
@@ -59,7 +59,7 @@ There are four standard forms, each with specific Venn diagram representations:
 
 The words "some" in logic means "at least one" — not necessarily many, just one or more.
 
-### Types & Approach
+#### Types & Approach
 
 **Type 1: Definite Conclusion Questions**
 These ask: "Which of the following conclusions definitely follows?"
@@ -75,7 +75,7 @@ These ask: "Which of the following could be true?" or "Which is a possible concl
 These ask which conclusion does NOT follow or is invalid.
 - Approach: Draw the Venn diagram, then check each conclusion. The ones that definitely don't follow are your answers.
 
-### Step-by-Step Example
+#### Step-by-Step Example
 **Q:** Premise 1: All roses are flowers.
 Premise 2: Some flowers are red.
 Conclusion: ?
@@ -89,7 +89,7 @@ Step 5 → Check: Can we say "Some roses are not red"? Yes, also possible.
 
 **Answer:** Only a possible conclusion (like "Some roses could be red") follows definitely? Actually no definite conclusion follows about the relationship between roses and red. So the answer is: "No definite conclusion follows."
 
-### Common Mistakes
+#### Common Mistakes
 - Confusing "some" with "all" → **Fix:** "Some" only means at least one. It doesn't mean all. So "Some A are B" doesn't tell you whether all A are B.**
 - Assuming converse is true (if All A are B, assuming All B are A) → **Fix:** This is the converse fallacy. All cats are animals, but NOT all animals are cats.**
 - Drawing only one Venn diagram configuration → **Fix:** For possibility questions, draw ALL possible configurations consistent with premises. Check if the conclusion holds in any of them.**
@@ -97,7 +97,7 @@ Step 5 → Check: Can we say "Some roses are not red"? Yes, also possible.
 
 ### 🔴 Extended
 
-### Full Concept Explanation
+#### Full Concept Explanation
 
 Syllogisms are the bedrock of formal logic, dating back to Aristotle. At their core, they represent a simple idea: given two statements (premises), what can we validly conclude? The challenge is that human intuition is unreliable for logical inference — we tend to see possibilities as certainties and confuse correlation with causation or relationship direction.
 
@@ -153,7 +153,7 @@ For two-premise syllogisms with categories A and B:
 - **Undistributed middle:** "All A are C. All B are C." — A and B both connect to C, but that doesn't tell us anything about A and B's relationship to each other.
 - **Existential fallacy:** "All A are B" traditionally doesn't imply any A exists. But in modern logic used in competitive exams, we usually assume existential import (that classes have members) unless stated otherwise.
 
-### GATE-Level Practice
+#### GATE-Level Practice
 
 **Q1:** Statements:
 - All politicians are liars.
@@ -176,7 +176,7 @@ III. Some unhappy people are not doctors.
 
 Answer: **Conclusion III follows definitely.** Since no doctor is rich and all rich people are unhappy, doctors cannot be rich, therefore they cannot be in the "rich and unhappy" overlap. But doctors could still be unhappy through other means. Conclusion I is false (doctors could be unhappy). Conclusion II is possible but not definite. Conclusion III is definite: some unhappy people are not doctors (the rich unhappy people, for instance).
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Approach 1: Venn Diagram (Most Visual)**
 Draw circles for each category. Shade for "none," mark X for "some." This gives you a visual of what must be true.
@@ -190,7 +190,7 @@ For "All A are B," the contrapositive is "All not-B are not-A." This can help dr
 **Approach 4: Negation Testing**
 If asked which conclusion does NOT follow, try assuming each conclusion is true and see if you can construct a valid scenario with the premises. If you can, the conclusion is possible (not ruled out). If you can't, it doesn't follow.
 
-### Tricky Cases / Edge Cases
+#### Tricky Cases / Edge Cases
 
 - **"Some" doesn't mean "only some":** "Some A are B" means at least one A is B. It could be all of A, or just one. Don't assume the rest of A is excluded.
 - **"Some are not" doesn't tell you how many are not:** "Some A are not B" could mean one A is not B, or all but one, or any number.

@@ -117,7 +117,7 @@ Four taps fill a tank in 6 hours. In 6 hours they do 4 × 6 = 24 tap-hours of wo
 
 When the shares themselves change mid-period, split the period at the change and add. Two shops sharing a daily profit of ₹3,000 in 2 : 3, where the second shop's partner joins halfway: split the day, apply the first ratio to the first half and the new ratio to the second half, then add the two amounts. The rule is the same one that governs partnership — no single ratio applies to the whole period once the ratio itself changes.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -152,7 +152,7 @@ flowchart TD
   - *₹5,000 × 12 months vs ₹3,000 × 8 months?* → 5 : 2.
   - *a, b, c continued, a = 4, c = 36?* → b = 12 since b² = ac.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Multiplying chained ratios without making the middle term common.** (2 : 3) × (4 : 5) is not 8 : 15 — it is 8 : 12 : 15 once b is made common.
 2. **Believing the ratio of two ages stays constant.** The *difference* stays constant; the ratio changes with every passing year.
@@ -165,7 +165,7 @@ flowchart TD
 9. **Leaving a ratio unsimplified** and then dividing a total by the unsimplified sum, which gives a valid-looking but wrong share.
 10. **Using "a/b = b/c" to mean a, b and c are equal.** Continued proportion gives a geometric, not an arithmetic, progression.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Work all eight on paper first, and for each one say whether the proportion is direct or inverse (or, for partnership, compute the rupee-months) before you start.
 
@@ -186,7 +186,7 @@ Work all eight on paper first, and for each one say whether the proportion is di
 8. **a, b and c are in continued proportion with a = 4 and c = 36. Find b, and verify.**
    a/b = b/c gives b² = ac = 4 × 36 = 144, so **b = 12**. Verify: 4/12 = 12/36 = 1/3 ✓. Squaring the middle term and comparing with the product of its neighbours is a two-second check that catches most arithmetic slips.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Reduce every ratio to lowest terms before using it,** including the intermediate ones. 48 : 72 becomes 2 : 3 and the arithmetic stops being risky.
 2. **For chained ratios, write the two ratios on separate lines with the shared term visibly in the same position,** then rewrite the first to match. It takes ten seconds and removes the only real trap in the question.

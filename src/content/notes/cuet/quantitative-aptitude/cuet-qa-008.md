@@ -104,7 +104,7 @@ For a boat over distance D each way, total time = D/(u − v) + D/(u + v) = 2Du/
 
 When a journey has three legs, never average the three speeds. Compute the total distance and the total time and divide once: total distance ÷ total time. Any leg-by-leg average is wrong unless the three legs took equal time, and a five-leg journey is a standard way to make the harmonic-mean error invisible.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -140,7 +140,7 @@ flowchart TD
   - *Downstream 15, upstream 9?* → u = 12, v = 3.
   - *400 m track, 8 and 5 m/s opposite?* → first meeting at 400/13 ≈ 30.8 s.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Averaging two speeds for a round trip over equal distances.** 2v₁v₂/(v₁ + v₂) is the answer; the mean is a guaranteed error.
 2. **Forgetting the train's own length** when it crosses a platform, or a pole.
@@ -153,7 +153,7 @@ flowchart TD
 9. **Treating an escalator as stationary,** which turns a 40-step climb into a different number of seconds entirely.
 10. **Answering the distance instead of the time** (or the meeting point instead of the time) in a relative-speed question — read the last line of the question twice.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Convert units before you start, and state which distance and which speed the question is really about.
 
@@ -174,7 +174,7 @@ Convert units before you start, and state which distance and which speed the que
 8. **A cyclist leaves at 25 km/h. An hour later a second cyclist leaves the same point at 20 km/h, following the same route. When does the second catch the first, and how far from the start?**
    Let t be the hours the second cyclist rides. The first has ridden t + 1 hours. Equal distances: 25(t + 1) = 20t, so 25t + 25 = 20t and 5t = −25, giving t = −5. A negative answer means the faster rider is *ahead* and never gets caught; the second cyclist is slower and starts later, so he never catches up. The correct reading is "the two never meet", and the negative t is the algebraic way of saying so.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Convert to one unit system at the start of every question,** and convert the relative speed only once.
 2. **Write down the distance you must cover in words before the formula.** "Both train lengths" or "train plus platform" prevents most of the errors in this topic.

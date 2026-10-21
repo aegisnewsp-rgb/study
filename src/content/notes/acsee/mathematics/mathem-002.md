@@ -97,7 +97,7 @@ For $\displaystyle I_p=\int_1^\infty x^{-p}\,dx$, $x>0$ is the integration varia
 | $p=1$ | Diverges | Logarithmic |
 | $p<1$ | Diverges | Power divergence |
 
-### Common traps
+#### Common traps
 
 1. Omitting $+C$ from an indefinite integral.
 2. Attaching an arbitrary constant to a definite result.
@@ -108,7 +108,7 @@ For $\displaystyle I_p=\int_1^\infty x^{-p}\,dx$, $x>0$ is the integration varia
 7. Confusing outer, inner, and shell radii.
 8. Giving trapezoidal endpoints a doubled weight.
 
-### Concept comparison matrix
+#### Concept comparison matrix
 
 Here $f$ is an integrand, $F$ its antiderivative, $a,b$ are bounds, $R,r$ are disc radii, $\rho,s$ are shell radius and height, and $n$ is the number of equal subintervals.
 

@@ -111,7 +111,7 @@ If efficiency rises by 25%, the *rate* rises by a factor of 1.25 and the *time* 
 
 When workers join or leave partway through, split the job into stages. In each stage compute rate × time = work done, subtract from what is left, and continue. A is twice as efficient as B; A works alone for 6 days, then B joins and both work for 4 days. In rate terms, if B's rate is 1, A's is 2, and the job is some total W. Stage 1 does 2 × 6 = 12 units; stage 2 does (2 + 1) × 4 = 12 units; total 24 units, so W = 24. The structure — stage, work, subtract, continue — is the same whatever the numbers are, and writing the stages on separate lines is what keeps it reliable.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -145,7 +145,7 @@ flowchart TD
   - *4 men, 6 h/day, 5 days?* → 120 man-hours.
   - *20 men, 30 days, 5 leave after 10?* → 26 2/3 extra days.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Adding the times instead of the rates.** Two people who take 6 and 3 days do not finish in 9 days, and certainly not in 4.5.
 2. **Averaging the times.** The combined time is always less than the faster individual time, and an average can be faster than the faster worker, which is impossible.
@@ -158,7 +158,7 @@ flowchart TD
 9. **Forgetting that a man-day count needs the same unit of time throughout** — mixing days and hours in one product.
 10. **Answering the total days when the question asked for the extra days,** or vice versa.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Set a whole-number total work before you start, and write the sign next to every rate.
 
@@ -179,7 +179,7 @@ Set a whole-number total work before you start, and write the sign next to every
 8. **4 men working 6 hours a day finish a job in 5 days. How many man-hours does the job contain, and how long would 6 men take at the same daily hours?**
    The job is 4 × 6 × 5 = **120 man-hours**. With 6 men at 6 hours a day, 36 man-hours are done per day, so 120 ÷ 36 = **3 1/3 days**. The man-hour total is the invariant here; only the men per day and therefore the duration change.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Pick a total work that clears every denominator** — 60 when the times are multiples of 12, 120 when they are multiples of 24. Integer arithmetic is the fastest route to a correct answer.
 2. **Write every rate with its sign,** even the positive ones. It takes a second and it makes the never-fills case obvious.

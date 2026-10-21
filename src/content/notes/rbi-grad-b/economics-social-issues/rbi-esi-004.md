@@ -18,13 +18,13 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 Inflation in India is primarily measured through CPI (Consumer Price Index, the official headline measure) and WPI (Wholesale Price Index); RBI controls it using the repo rate — the rate at which RBI lends to banks — under a formal inflation targeting framework with a 4% target (±2% band).
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI's primary mandate is maintaining price stability — keeping inflation at 4% (±2%); if inflation runs above 6% (top of the band) for three consecutive quarters, RBI must formally report to the government explaining why and what it will do; for the exam, understanding the transmission mechanism from repo rate to your EMI is essential — every percentage point change in repo rate eventually flows through to your home loan rate.
 
-### Must Know Facts
+#### Must Know Facts
 - CPI (Combined) inflation: India's official headline inflation — 4.9% (October 2024); RBI targets 4% with ±2% tolerance band (so 2-6% is the acceptable range)
 - WPI: Measures wholesale prices — food, fuel, manufactured products; WPI inflation was (-)2.6% in October 2024 (deflation in wholesale)
 - Repo Rate: 6.5% (as of December 2024, unchanged since February 2024); RBI's main policy rate
@@ -34,15 +34,15 @@ RBI's primary mandate is maintaining price stability — keeping inflation at 4%
 - CRR: Cash Reserve Ratio — 4.5% of NDTL (as of latest); banks must hold this as reserves with RBI
 - SLR: Statutory Liquidity Ratio — 18% of NDTL; banks must hold this in government securities, T-bills, etc.
 
-### Quick Example / Application
+#### Quick Example / Application
 When you take a home loan at 8.5% interest, here's how RBI's repo rate connects: RBI raises repo rate by 25 basis points (0.25%) → banks' cost of funds rises → banks raise their Marginal Cost of Funds based Lending Rate (MCLR) by roughly the same → your home loan EMI goes up. This is monetary policy transmission. Conversely, when inflation falls and RBI cuts repo, your EMI eventually falls. In 2020, RBI cut repo from 5.15% to 4.0% in emergency COVID measures — and within 6 months, home loan rates fell to historic lows of 6.5-7%, spurring a housing boom.
 
-### 1-Line Summary
+#### 1-Line Summary
 RBI fights inflation with the repo rate: hike to cool demand (and risk growth), cut to boost growth (and risk inflation) — all while CPI is the official target, WPI is a leading indicator, and the 4% ±2% band defines success.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Let me break this down practically — because the exam will test not just definitions but your ability to reason about what RBI should do in a given situation.
 
@@ -106,7 +106,7 @@ RBI changes repo rate → This changes banks' cost of borrowing from RBI → Ban
 
 In practice, transmission is not perfect or immediate. It can take 3-6 months for a repo rate change to affect your loan rate, depending on when your bank's MCLR resets. Some loans (like those linked to the External Benchmark Based Lending Rate, or EBR, introduced in 2019) transmit faster — within a month. Since October 2019, RBI mandated that all new floating-rate loans (home loans, MSME loans) must be linked to an external benchmark (usually RBI's repo rate or 3-month T-bill rate), which has improved transmission significantly.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -124,7 +124,7 @@ In practice, transmission is not perfect or immediate. It can take 3-6 months fo
 | MCLR (Marginal Cost of Funds based Lending Rate) | Banks' internal benchmark rate; revised at least annually; your loan's interest rate = MCLR + spread |
 | EBR (External Benchmark Based Lending) | Loan rates linked to external rates (RBI repo, T-bill yield); improves monetary policy transmission |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 **The 2022 inflation fight — when RBI was behind the curve:**
 
@@ -134,7 +134,7 @@ RBI's MPC responded aggressively — hiking the repo rate by 190 basis points (1
 
 However, this came with growth costs — GDP growth slowed from 7.2% in 2021-22 to 6.5% in 2023-24. But the inflation credibility was maintained — India avoided the hyperinflation seen in some peer economies (Pakistan, Sri Lanka, Turkey).
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Data-based MCQs**: Current repo rate, CRR, SLR percentages; recent CPI/WPI inflation figures
 - **Conceptual questions**: Why does RBI use CPI and not WPI for targeting? What is the transmission mechanism?
@@ -142,7 +142,7 @@ However, this came with growth costs — GDP growth slowed from 7.2% in 2021-22 
 - **Case-based**: Given a scenario (food inflation surges, rupee falls, growth slows), what should RBI do and why?
 - **Policy reasoning**: Repo rate hike vs CRR cut — which tool is more effective in a given situation
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** The CPI for a basket was 170 in 2023 and 178.5 in 2024. Calculate the inflation rate.
 **Answer:** Inflation rate = [(178.5 - 170) / 170] × 100 = (8.5 / 170) × 100 = **5.0%**
@@ -155,7 +155,7 @@ However, this came with growth costs — GDP growth slowed from 7.2% in 2021-22 
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 **The theoretical foundations — why central banks control inflation:**
 
@@ -231,7 +231,7 @@ The logic: global inflation was at 40-year highs, India was importing inflation 
 
 By December 2023, CPI had fallen to 5.7%. The rate hikes had worked — but at the cost of growth moderation (GDP growth slowed from 7.2% to 6.5%).
 
-### Advanced Analysis
+#### Advanced Analysis
 
 **Monetary policy challenges in a developing economy:**
 
@@ -261,7 +261,7 @@ Domestic factors:
 
 RBI's MPC has increasingly acknowledged that global inflation is outside its control — but it can manage domestic expectations and demand.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 For RBI Grade B examination, you must know:
 - The 2016 amendment to RBI Act, 1935 that formalised the inflation targeting framework
@@ -273,7 +273,7 @@ For RBI Grade B examination, you must know:
 - RBI's Monetary Policy Report (published bi-annually) — provides inflation projections
 - The concept of "policy lag" — monetary policy takes 12-18 months to fully impact inflation, making forward guidance critical
 
-### Case Study / Application
+#### Case Study / Application
 
 **The 2020 COVID shock and RBI's emergency monetary response:**
 
@@ -291,7 +291,7 @@ The result: India's recovery was V-shaped. GDP fell 7.3% in FY21 overall but reb
 
 However, the inflation that resulted from rapid recovery and supply constraints — combined with global commodity price spikes from 2021-22 — forced RBI into the aggressive rate hiking cycle of 2022-23. You can see the policy cycle: Emergency easing (2020) → Normalisation (2021) → Tightening (2022-23).
 
-### GATE-level Numerical
+#### GATE-level Numerical
 
 **Q:** Assume the following data for an economy:
 - Money supply (M) = ₹20,00,000 crore
@@ -325,7 +325,7 @@ Inflation rate = [(110 - 100) / 100] × 100 = **10%**
 
 **Answer:** (a) 10% inflation. (b) Real interest rate falls by 3 percentage points — meaning borrowing effectively becomes more expensive in real terms for lenders (who receive 1% instead of 4% real return), while borrowers benefit (repaying loans with devalued currency).
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 **Academic view:** Economists debate whether monetary policy can "supply-side" reduce inflation without growth costs. The New Keynesian view (dominant in academia) holds that central banks can reduce inflation without a permanent output loss if they act credibly and early. The Lucas Critique suggests that once people expect RBI to fight inflation credibly, inflation expectations anchor — and actual inflation falls without a recession. India's 2022-23 experience partially supports this: inflation fell without the unemployment spike that would accompany a classical recession.
 
@@ -333,7 +333,7 @@ Inflation rate = [(110 - 100) / 100] × 100 = **10%**
 
 **Practical/Industry view:** The industry chamber surveys (CII, FICCI, ASSOCHAM) consistently express concern that rate hikes hurt investment sentiment and increase the cost of capital for businesses. They argue that India's growth potential (8-9%) requires a prolonged period of low interest rates. Banks, however, welcome higher rates because it widens their net interest margin (NIM) — the difference between lending and deposit rates. MSMEs often find that even when RBI cuts rates, banks don't pass on the cuts to small borrowers — transmission failure remains their primary complaint.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 **Recent monetary policy and inflation developments:**
 - RBI MPC meetings in 2024: Repo rate held at 6.5% from February 2024 through December 2024, with stance shifting from "withdrawal of accommodation" to "neutral" in the October 2024 meeting

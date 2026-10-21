@@ -225,7 +225,7 @@ L'Hôpital fails on $\infty - \infty$ and $0 \cdot \infty$ until you convert the
 
 Differentiation links directly to **Integration** (the Fundamental Theorem of Calculus says the integral is the antiderivative), to **Applications of Derivatives** (the next Mathematics topic: rate of change, maxima/minima, Rolle's and Mean Value Theorems), and to **physics** (velocity is $ds/dt$, acceleration is $dv/dt$, force is the derivative of momentum, and most field quantities are derivatives of a potential). The chain rule, implicit differentiation, and parametric derivatives are reused in every topic that uses calculus.
 
-### Common traps
+#### Common traps
 
 - **Forgetting the chain rule on composite functions.** $f(g(x))$ differentiates to $f'(g(x)) \cdot g'(x)$, not $f'(x) g'(x)$. Writing $d/dx[\sin(3x)] = \cos(3x)$ (without the inner derivative 3) is the classic error.
 - **Mixing up $f'(x) = 0$ with "no slope".** $f'(x) = 0$ means the tangent is horizontal. To say the curve has no slope at a point you need $f'(x)$ to be undefined (a corner, a cusp, or a vertical tangent).

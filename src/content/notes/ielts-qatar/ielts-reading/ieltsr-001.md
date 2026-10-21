@@ -141,7 +141,7 @@ A candidate scoring below 6 on Reading typically has a vocabulary gap, a reading
 
 ---
 
-### Exam Essentials — IELTS Reading
+#### Exam Essentials — IELTS Reading
 
 | Field | Value |
 |---|---|
@@ -166,7 +166,7 @@ A candidate scoring below 6 on Reading typically has a vocabulary gap, a reading
 
 ---
 
-### High-Yield — IELTS Reading
+#### High-Yield — IELTS Reading
 
 The seven most-testable passage contexts and the calibrated response framework:
 
@@ -180,7 +180,7 @@ The seven most-testable passage contexts and the calibrated response framework:
 
 ---
 
-### Previous Year Patterns — IELTS Reading
+#### Previous Year Patterns — IELTS Reading
 
 The IELTS Reading test format has been structurally stable across every IELTS cycle since the Academic / General Training split in 1989. The three-passage format (40 questions, 60 minutes, 2,150-2,750 words) is published verbatim on ielts.org and is not expected to change.
 
@@ -194,7 +194,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Pro Tips — IELTS Reading
+#### Pro Tips — IELTS Reading
 
 1. **Skim the passage first.** Read the title, subheadings, first sentence of each paragraph, and last sentence of each paragraph. Identify the topic, the structure, and the overall argument.
 2. **Read the questions second.** Note which question types appear in each passage. Identify the question's order in the passage.
@@ -209,7 +209,7 @@ A previous-year record is not a deterministic indicator of a future test item. T
 
 ---
 
-### Official Resources — IELTS Reading
+#### Official Resources — IELTS Reading
 
 | Resource | URL | Use |
 |---|---|---|

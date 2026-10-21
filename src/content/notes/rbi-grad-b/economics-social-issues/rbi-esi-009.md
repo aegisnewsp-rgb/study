@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 Social sector schemes are government-funded programmes designed to improve human capabilities in health, education, and employment, primarily targeting vulnerable and economically weaker sections of the population.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI monitors social sector spending because it directly influences household income, consumption demand, inflation trajectory, and the fiscal deficit — all critical variables in monetary policy decisions.
 
-### Must Know Facts
+#### Must Know Facts
 - Ayushman Bharat PMJAY provides ₹5 lakh per family per year for secondary and tertiary hospitalisation, covering ~50 crore beneficiaries (the world's largest government health assurance scheme)
 - MGNREGA guarantees 100 days of wage employment per year to one adult member of a rural household willing to do unskilled manual work
 - India spends approximately 3% of GDP on education; government schools under Samagra Shiksha cover ~26 crore students
 - ASHA (Accredited Social Health Activist) workers number over 10 lakh, serving as the bridge between communities and the health system
 - Skill India has trained over 1.4 crore candidates since 2015 under PMKVY and other schemes
 
-### Quick Example / Application
+#### Quick Example / Application
 A village labourer in Rajasthan gets a job card under MGNREGA, works on a water harvesting structure, and receives wages directly in her bank account via DBT — cutting middlemen and ensuring welfare reaches the intended person.
 
-### 1-Line Summary
+#### 1-Line Summary
 Government social schemes are the backbone of inclusive growth, channelising fiscal resources into health, education, and employment for India's most vulnerable citizens.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Think of India's social sector as the government's promise to its citizens: that where you were born — in a village without a hospital, or a city without a school — shouldn't determine whether you have a shot at a decent life. That's the core philosophy behind schemes like MGNREGA, Ayushman Bharat, and Samagra Shiksha.
 
@@ -53,7 +53,7 @@ On **employment**, MGNREGA is the world's largest public works programme in term
 
 Skill India — specifically the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) — tries to bridge the massive skills gap. The problem it addresses is real: India's working-age population is enormous, but employers consistently complain that fresh graduates are not job-ready. PMKVY offers short-term skill training with a government-funded stipend and a certification recognised by industry.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -66,11 +66,11 @@ Skill India — specifically the Pradhan Mantri Kaushal Vikas Yojana (PMKVY) —
 | ASER | Annual Status of Education Report — annual survey by Pratham measuring learning outcomes in rural schools |
 | PMKVY | Pradhan Mantri Kaushal Vikas Yojana — skills training and certification scheme under Skill India |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 In its 2023-24 Annual Report, RBI highlighted that MGNREGA wages paid through DBT (Direct Benefit Transfer) reduced leakages by an estimated 20-25% compared to the pre-DBT era. RBI also noted that higher MGNREGA disbursements in Q3 FY24 boosted rural consumption, contributing to a 6.7% GDP growth in FY24. For a Grade B officer, understanding this link — how a welfare scheme flows into the real economy through consumption — is exactly what the exam tests.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 The exam frequently asks:
 - **Conceptual**: Difference between cash transfer and in-kind benefit; MGNREGA as a legal right vs. a scheme
@@ -78,7 +78,7 @@ The exam frequently asks:
 - **Case-based**: A paragraph describing Ayushman Bharat claims settlement process → what are the challenges?
 - **Current-linked**: How many ASHA workers were engaged during COVID? What did Skill India achieve in terms of placements?
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** In FY23, the Union Government spent ₹73,000 crore on MGNREGA, providing employment to 7.8 crore households. If the average wage per household was ₹12,000, how many person-days of employment were generated?
 
@@ -89,7 +89,7 @@ This is below the statutory guarantee of 100 days, which is a compliance issue o
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 India's social sector is where the gap between policy ambition and implementation reality is most visible — and where an aspiring RBI officer must develop a nuanced view. These schemes represent the government's fiscal commitment to human capital formation, which ultimately drives long-term productivity and, yes, economic growth.
 
@@ -117,7 +117,7 @@ Samagra Shiksha addresses this through a **Holistic Accelerated Learning Program
 **Skill India and the productivity paradox:**
 India has a demographic dividend — 65% of its population is under 35. But the quality of this dividend is contested. Only 5% of India's workforce has formal skill training (vs. 60-80% in developed economies). PMKVY has trained over 1.4 crore people, but placement rates remain low (~50% in some sectors) and wage premiums are often disappointing. The challenge is structural: industry says workers aren't job-ready; training centres say industry doesn't want to pay for on-the-job training. This is the classic indentured mismatch.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 The macro-economic significance of social sector spending for an RBI Grade B officer is threefold:
 
@@ -127,7 +127,7 @@ The macro-economic significance of social sector spending for an RBI Grade B off
 
 **Third, financial inclusion via DBT**: Over 54 major government schemes use DBT, transferring ₹2.5 lakh crore annually to beneficiary accounts. The Jan Dhan accounts (92 crore+ accounts, zero balance, Rupay debit card) are the platform. RBI monitors DBT flows closely because they indicate consumption demand in rural/semi-urban areas — a leading indicator for core sector output and credit growth.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 RBI's role in social sector schemes is indirect but significant:
 - RBI monitors **direct tax and GST collections** to assess fiscal space for welfare spending
@@ -137,7 +137,7 @@ RBI's role in social sector schemes is indirect but significant:
 
 What the examiner wants you to know: the **policy feedback loop** — how social spending affects consumption (demand), which affects inflation (RBI's mandate), which affects interest rates (RBI's tool), which affects investment and growth (the ultimate objective).
 
-### Case Study / Application
+#### Case Study / Application
 
 **Case: How DBT in MGNREGA changed welfare delivery**
 Before DBT (pre-2013): MGNREGA wages were paid in cash or through bank transfers that required multiple intermediaries. The 2012 Social Audit of MGNREGA in Karnataka found 40% discrepancies — ghost workers, inflated muster rolls, wages retained by intermediaries.
@@ -149,7 +149,7 @@ After DBT (post-2013): Wages credited directly to beneficiary bank accounts with
 
 The RBI angle: DBT is a financial inclusion success story. Jan Dhan + MGNREGA DBT created the largest financial inclusion programme in history. When COVID relief (PMGKY) was announced, the existing DBT infrastructure allowed the government to transfer ₹1.7 lakh crore to 42 crore Jan Dhan account holders within 3 weeks.
 
-### GATE-Level Numerical
+#### GATE-Level Numerical
 
 **Q:** The following data relates to MGNREGA for a state in FY23:
 
@@ -190,13 +190,13 @@ Note: This is MORE than the total funds released (₹2,500 crore), revealing a s
 (d) Total social sector budget:
 If ₹2,500 crore = 15%, then Total = ₹2,500 crore × (100/15) = ₹16,666.67 crore ≈ ₹1.67 lakh crore
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 - **Academic view**: Amartya Sen's capability approach — welfare schemes must enhance capabilities, not just provide income transfers. MGNREGA builds capabilities by creating assets (roads, ponds) that improve agricultural productivity long after the employment ends.
 - **RBI/Regulatory view**: Social spending is a fiscal risk. If welfare commitments grow faster than tax revenue, fiscal deficit widens → inflation rises → RBI must tighten. RBI monitors debt sustainability of states (many of which fund MGNREGA matching contributions) carefully.
 - **Practical/Industry view**: Hospital industry sees Ayushman Bharat as a volume game — margins are thin but volumes are high. Private hospital chains (Narayana Health, Manipal, Max) have expanded into tier-2 cities specifically for PMJAY. IT companies (TCS, Infosys) see DBT infrastructure as a business opportunity — they build and maintain the backend systems.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 - **PM-KISAN 17th instalment** (February 2025): ₹20,000 crore transferred directly to 9.3 crore farmer accounts — fully DBT, zero intermediary model
 - **Ayushman Bharat 2.0** announced in Budget 2025-26: PMJAY coverage extended to cover senior citizens above 70 (even if not in existing SECC data), adding ~6 crore new potential beneficiaries

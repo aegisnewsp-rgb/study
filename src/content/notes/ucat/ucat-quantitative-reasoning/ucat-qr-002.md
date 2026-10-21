@@ -140,7 +140,7 @@ The East region wins at about a third increase. The trap is to look at raw diffe
 
 ---
 
-### Memory anchors
+#### Memory anchors
 
 - **QR chart read = stem → axis → row → two values → compute.** Five steps, thirty seconds.
 - **The answer choices are the second hint.** A tight cluster means the question rewards precise reading; a wide spread means estimation.
@@ -149,7 +149,7 @@ The East region wins at about a third increase. The trap is to look at raw diffe
 
 ---
 
-### Common traps
+#### Common traps
 
 - Reading the chart first and the stem second. By the time you read the stem, you have already read three values you do not need.
 - Trusting the visual gap between bars instead of reading the y-axis labels.
@@ -159,7 +159,7 @@ The East region wins at about a third increase. The trap is to look at raw diffe
 
 ---
 
-### What to do next
+#### What to do next
 
 1. Time ten chart-read questions in a single sitting. Aim for an average under 40 seconds per chart read, including reading the stem.
 2. Build a six-card flashcard set: one card for each chart type, each with the axis-label warning printed on it.

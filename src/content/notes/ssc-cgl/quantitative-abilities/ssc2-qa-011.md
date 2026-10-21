@@ -18,22 +18,22 @@ lastUpdated: 2026-03-25
 
 ### 🟢 Lite
 
-### Key Rule / Formula
+#### Key Rule / Formula
 sin θ = Opposite/Hypotenuse. cos θ = Adjacent/Hypotenuse. tan θ = sin/cos = Opposite/Adjacent. Key identity: sin²θ + cos²θ = 1.
 
-### Memory Trick
+#### Memory Trick
 **SOH-CAH-TOA:** Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent. Complementary angle: sin θ = cos(90°−θ).
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 Trigonometry in SSC tests angle measurement, identity-based simplifications, and practical heights-and-distances problems using right triangle trigonometry.
 
-### Quick Example
+#### Quick Example
 Q: Find sin 30° + cos 60°.
 A: ½ + ½ = **1** — sin 30° = ½, cos 60° = ½.
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 Trigonometry in SSC Tier 2 has two components: algebraic manipulation using trigonometric identities, and practical application in heights-and-distances word problems. The algebraic side tests your ability to simplify expressions using standard identities, while the geometry side tests your ability to model real situations as right triangles.
 
 **Standard Values to Memorise:**
@@ -55,19 +55,19 @@ Trigonometry in SSC Tier 2 has two components: algebraic manipulation using trig
 - Angle of depression: when looking DOWN from a height — equals angle of elevation from the lower point to the higher point.
 - Always draw the right triangle — mark known sides, mark unknown (what you're solving for).
 
-### Key Points
+#### Key Points
 - tan θ = sin θ / cos θ. cot θ = cos θ / sin θ = 1/tan θ.
 - sec θ = 1/cos θ. cosec θ = 1/sin θ.
 - Complementary angles: sin θ = cos(90°−θ), tan θ = cot(90°−θ).
 - For heights and distances, if the angle and one side are known, use the appropriate trig ratio to find the other side.
 - When two angles of elevation are given from two different points to the same object, use tan values to set up two equations.
 
-### Worked Example
+#### Worked Example
 **Q:** The angle of elevation of the top of a tower from a point 30m away from its base is 30°. Find the height of the tower.
 **Approach:** tan 30° = Height / 30 → 1/√3 = h/30 → h = 30/√3 = 10√3 m.
 **Answer:** 10√3 m
 
-### SSC Pattern / Tips
+#### SSC Pattern / Tips
 - In heights-and-distances, always check whether the point is on level ground with the base or above/below it.
 - When an object is viewed from two different points, use both angles to create two equations.
 - For identity simplification, try to convert everything to sin and cos first — it's often the most general approach.
@@ -75,7 +75,7 @@ Trigonometry in SSC Tier 2 has two components: algebraic manipulation using trig
 
 ### 🔴 Extended
 
-### Full Concept
+#### Full Concept
 
 Trigonometry in SSC CGL Tier 2 goes far beyond the basic sin-cos-tan definitions. You need mastery over three interconnected domains: trigonometric identities and equations, heights and distances (applications), and angular relationships.
 
@@ -87,7 +87,7 @@ Heights and distances constitute about 30-35% of Tier 2 trigonometry questions. 
 
 Maximum and minimum values of trigonometric expressions require understanding the range of each function. sinθ and cosθ range from -1 to +1, while tanθ has no finite maximum or minimum. Questions ask for the greatest or least value of expressions like sinθ + cosθ (which ranges from -√2 to √2) or sinθ · cosθ (maximum 1/2 at 45°).
 
-### SSC CGL Deep Analysis
+#### SSC CGL Deep Analysis
 
 Trigonometry consistently contributes 8-10 questions out of 100 in Tier 2 Quantitative Abilities, making it one of the highest-yield topics. Questions break down into three difficulty bands: easy (direct identity application, standard angle values — roughly 40%), moderate (compound expressions, word problems with heights/distances — roughly 45%), and hard (maximum/minimum value problems, trigonometric equations, chained observations — roughly 15%).
 
@@ -97,7 +97,7 @@ Common question stems: "The angle of elevation of a tower from point A is 30°..
 
 The cot(90° - θ) = tanθ identity is frequently tested in the "complementary angles" question type. Similarly, sin(90° - θ) = cosθ appears so often that failing to recognise it wastes 2-3 minutes per question.
 
-### High-Scoring Strategy
+#### High-Scoring Strategy
 
 Step 1: Memorise all standard angle values for sin, cos, tan, cosec, sec, cot from 0° to 90° on a single table. Write this table 5 times by hand until it becomes reflex — no thinking, just recall.
 
@@ -109,7 +109,7 @@ Step 4: For maximum/minimum problems, express the given function as R sin(θ + �
 
 Step 5: Answer elimination works powerfully here. If asked for tan 15° and options include √3 - 1, √3 + 1, √3/2, 2 - √3 — you know 2 - √3 is correct. Train yourself to spot which option is clearly wrong before computing.
 
-### SSC-Level Practice
+#### SSC-Level Practice
 
 **Q1:** From a point on the ground, the angle of elevation of the top of a tower 60m tall is 30°. From another point on the ground 40√3 m away from the first point towards the tower, the angle of elevation is 60°. Find the height of the tower.
 
@@ -119,7 +119,7 @@ Answer: 60 m — Working: Let h be the height and x the horizontal distance from
 
 Answer: 135° — Working: sin 7θ = cos 5θ = sin(90° - 5θ). Using sin x = sin y ⇒ x = 180° - y, take 7θ = 180° - (90° - 5θ) = 90° + 5θ, so 2θ = 90° → θ = 45°. Then 3θ = 135°. ✓
 
-### Common Traps
+#### Common Traps
 - **Forgetting the complementary angle identity:** sin(90° - θ) = cosθ and cot(90° - θ) = tanθ are extremely common in SSC — always look for complementary pairs in the problem before starting calculation.
 - **Wrong angle selection in heights & distances:** Mixing up which side is opposite and which is adjacent, especially in problems with two observation points. Always mark the angle first, then identify the side opposite it.
 - **Assuming acute angles:** Many students implicitly assume θ is acute even when not stated. Trigonometric ratios for obtuse angles (90° < θ < 180°) behave differently — sin is positive but cos and tan are negative. This catches roughly 1 in 4 students on trick questions.

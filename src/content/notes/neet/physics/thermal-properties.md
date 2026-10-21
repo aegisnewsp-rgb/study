@@ -27,7 +27,7 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 
 ### 🟡 Standard Study
 
-### Temperature Scales
+#### Temperature Scales
 
 | Scale | Freezing Point | Boiling Point | Absolute Zero |
 |-------|---------------|---------------|---------------|
@@ -37,14 +37,14 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 
 - Conversion: C = (F − 32) × 5/9; K = C + 273.15
 
-### Heat and Calorimetry
+#### Heat and Calorimetry
 
 - **Heat gained/lost:** Q = mcΔT
 - **Water equivalent:** w = mc (mass of water having same heat capacity)
 - **Principle of calorimetry:** Heat lost = Heat gained (in isolated system)
 - **Joule's Mechanical Equivalent:** 1 cal = 4.184 J (specific heat of water = 1 cal/g°C)
 
-### Change of State
+#### Change of State
 
 - **Fusion (solid → liquid):** Heat required = mL_f
 - **Vaporisation (liquid → gas):** Heat required = mL_v
@@ -52,7 +52,7 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 - **Latent Heat of Fusion (water):** 80 cal/g = 334 J/g
 - **Latent Heat of Vaporisation (water):** 540 cal/g = 2260 J/g
 
-### Thermal Expansion
+#### Thermal Expansion
 
 **Linear Expansion:**
 - ΔL = αL₀ΔT
@@ -73,7 +73,7 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 - Maximum density at 4°C
 - Ice is less dense than water — floats
 
-### Heat Transfer Mechanisms
+#### Heat Transfer Mechanisms
 
 **Conduction:**
 - Heat flows through solid without flow of matter
@@ -94,7 +94,7 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 
 ### 🔴 Deep Study
 
-### Stefan-Boltzmann Law Details
+#### Stefan-Boltzmann Law Details
 
 - Emissivity (e): 0 ≤ e ≤ 1; black body has e = 1
 - P = eσAT⁴ (energy radiated per second)
@@ -102,19 +102,19 @@ This chapter covers heat, temperature, thermal expansion, calorimetry, heat tran
 - Wien's displacement law: λ_max × T = b (b = 2.898 × 10⁻³ m·K)
 - As temperature increases, λ_max shifts to shorter wavelengths
 
-### Newton's Law of Cooling
+#### Newton's Law of Cooling
 
 - dT/dt = −k(T − T_s)
 - T = T_s + (T₀ − T_s)e^(−kt)
 - Useful for cooling curves and determining specific heat by cooling method
 
-### Heat Conduction Through Composite Wall
+#### Heat Conduction Through Composite Wall
 
 - Series: R_total = R₁ + R₂ + ...; Q/t = ΔT/R_total
 - Parallel: 1/R_total = 1/R₁ + 1/R₂ + ...
 - Thermal resistance R = l/(kA)
 
-### Change of State Details
+#### Change of State Details
 
 - **Sensible Heat:** Heat that changes temperature without changing state
 - **Latent Heat:** Heat that changes state without changing temperature

@@ -173,7 +173,7 @@ The comparison reveals the questions where the calculator helps and the question
 
 ---
 
-### Memory anchors
+#### Memory anchors
 
 - **Mental first.** Always.
 - **Use the calculator when there are three or more digits in any operand.**
@@ -183,7 +183,7 @@ The comparison reveals the questions where the calculator helps and the question
 
 ---
 
-### Common traps
+#### Common traps
 
 - Reaching for the calculator because you "always use it," instead of because you need it.
 - Using the percentage button instead of the (1 + p) multiplier.
@@ -193,7 +193,7 @@ The comparison reveals the questions where the calculator helps and the question
 
 ---
 
-### What to do next
+#### What to do next
 
 1. Time ten QR questions twice: first calculator-free, then calculator-allowed. Record both times. The difference is your personal speed-up.
 2. Build a flashcard set for the percentage multipliers (5%, 8%, 12%, 15%, 20%, 25%, 30%) and drill both forms (× 0.05 vs × 0.95).

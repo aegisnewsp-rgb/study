@@ -145,7 +145,7 @@ Zeros at the end of a product are worth one habit: trailing zeros = min(exponent
 2. **Unit digit of 3^(3³).** Inner: 3³ = 27. Outer: 27 mod 4 = 3, so take the third entry of 3,9,7,1 → **7**.
 3. **Counting numbers between 1 and 1000 divisible by 7 but not by 14.** Multiples of 7 = 142; of these, multiples of 14 = 71; so **71**.
 
-### 🧠 Memory Anchors
+#### 🧠 Memory Anchors
 
 ```mermaid
 flowchart TD
@@ -178,7 +178,7 @@ flowchart TD
   - *Divisors of 360?* → 4 × 3 × 2 = 24.
   - *Does 1/12 have a terminating decimal?* → No: 12 = 2²×3 has a factor 3.
 
-### 🎯 Exam Traps & Error Log
+#### 🎯 Exam Traps & Error Log
 
 1. **Computing HCF of the original numbers instead of the remainder-adjusted ones.** In the 201/162 problem, HCF(201, 162) = 3, which is the tempting wrong answer. The correct route is HCF(194, 157) = 1.
 2. **Answering the LCM where the smallest number with a remainder was asked.** The LCM is the answer minus the remainder, never the answer.
@@ -190,7 +190,7 @@ flowchart TD
 8. **Halving the exponent twice for a two-cycle base.** For 9^2026: 2026 mod 2 = 0, so use the second entry, 1. Reading the first entry gives 9.
 9. **Dividing by the divisor rather than the quotient in Euclid's lemma.** a = bq + r is exact division of a by b; the remainder is always less than |b|.
 
-### 🧪 Self-Test — 8 Questions with Worked Answers
+#### 🧪 Self-Test — 8 Questions with Worked Answers
 
 Answer all eight on paper before reading a single solution.
 
@@ -211,7 +211,7 @@ Answer all eight on paper before reading a single solution.
 8. **Does 1/12 have a terminating decimal? How many places are needed, and does 1/40?**
    A fraction p/q in lowest terms terminates exactly when q = 2ᵃ × 5ᵇ. 1/12: 12 = 2² × 3 contains a 3, so it **repeats** (0.0833…). 1/40: 40 = 2³ × 5¹, so it terminates, and the number of places is max(3, 1) = **3**, giving 0.025. The test is the exponents of 2 and 5, not whether the denominator is even.
 
-### 💡 Pro Tips
+#### 💡 Pro Tips
 
 1. **Factorise before you divide.** Every HCF, LCM and divisor-count question is 90 seconds faster on paper once the prime factors are written out, and near-zero risk of a long-division slip.
 2. **Subtract the remainder before anything else** in a "divides leaving remainder" question. It converts a two-number problem into a single HCF.

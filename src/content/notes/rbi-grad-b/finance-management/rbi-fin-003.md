@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 The Balance Sheet is a snapshot of a company's financial position at a specific point in time, showing Assets = Liabilities + Shareholders' Equity (the accounting equation), while the Income Statement shows profitability over a period.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI's entire supervision of banks depends on reading balance sheets — when it sets CRR and SLR, it's manipulating the asset side of every bank's balance sheet; when it conducts asset quality reviews (AQR), it's checking whether banks' loan assets are truthfully valued.
 
-### Must Know Facts
+#### Must Know Facts
 - CRR (Cash Reserve Ratio): Banks must hold a percentage of their Net Demand and Time Liabilities (NDTL) as cash with RBI — currently 4% as of RBI's 2024-25 policy
 - SLR (Statutory Liquidity Ratio): Banks must hold 18% of NDTL in specified securities (G-Secs, T-Bills, gold) — affects how much is available for lending
 - Current Ratio = Current Assets / Current Liabilities (ideal ≥1.5); Debt-Equity Ratio measures leverage
 - Return on Equity (ROE) = Net Profit / Shareholders' Equity × 100 — the most watched profitability metric
 - DuPont Analysis: ROE = Net Margin × Asset Turnover × Financial Leverage (3-component decomposition)
 
-### Quick Example / Application
+#### Quick Example / Application
 State Bank of India (SBI) has deposits of ₹50 lakh crore. Under current SLR of 18%, SBI must hold ₹9 lakh crore in G-Secs and other approved securities. Under CRR of 4%, it must maintain ₹2 lakh crore as cash balance with RBI. The remaining ₹39 lakh crore can be used for lending and investments — this is how RBI controls the credit creation capacity of the entire banking system.
 
-### 1-Line Summary
+#### 1-Line Summary
 The balance sheet equation (Assets = Liabilities + Equity) is the foundation; ratio analysis — liquidity, leverage, profitability, and efficiency ratios — lets you evaluate whether a company (or a bank) is healthy, efficient, and profitable.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 The **Balance Sheet** is like a financial photograph — it freezes a company's financial position at one instant. Think of it as a scale perfectly balanced at all times. On one side are everything the company owns (Assets). On the other side are all the claims against those assets — what the company owes to lenders (Liabilities) and what belongs to the owners (Shareholders' Equity). The fundamental equation is:
 
@@ -73,7 +73,7 @@ $$ROE = \underbrace{\frac{\text{Net Profit}}{\text{Revenue}}}_{\text{Profit Marg
 
 This tells you WHY ROE is high or low — is it because of operational efficiency (high margins), asset efficiency (high turnover), or financial engineering (high leverage)?
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -88,7 +88,7 @@ This tells you WHY ROE is high or low — is it because of operational efficienc
 | Trend Analysis | Analysing how ratios change over multiple years to identify improving or deteriorating performance |
 | DuPont Analysis | Decomposition of ROE into three components: Profit Margin × Asset Turnover × Financial Leverage |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 **SBI's Balance Sheet — Simplified (₹ lakh crore):**
 
@@ -106,7 +106,7 @@ Under SLR of 18%: Required SLR holdings = 18% × ₹52.4 = ₹9.4 lakh crore ✓
 
 Notice: Total loans of ₹35.6 lakh crore represent only about 43% of total assets — the rest is SLR compliance and cash reserves. When RBI reduces SLR or CRR, it frees up capacity for more lending.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Ratio calculation**: Given a simplified balance sheet, calculate Current Ratio, Debt-Equity, ROE, etc.
 - **DuPont decomposition**: Given ROE and two components, calculate the third
@@ -114,7 +114,7 @@ Notice: Total loans of ₹35.6 lakh crore represent only about 43% of total asse
 - **Impact of CRR/SLR changes**: How does a change in CRR affect bank lending capacity?
 - **Case-based**: Analyse a bank's asset quality using the provided financial statements
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** A company has the following simplified financial data: Revenue = ₹500 crore, Net Profit = ₹40 crore, Total Assets = ₹250 crore, Shareholders' Equity = ₹125 crore, Current Liabilities = ₹60 crore, Current Assets = ₹90 crore. Calculate: (a) Current Ratio, (b) ROE, (c) Debt-Equity Ratio, (d) Asset Turnover, (e) using DuPont, what is the profit margin?
 
@@ -158,7 +158,7 @@ So the company earns 8 paise net profit on every rupee of revenue — modest mar
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 The story of financial statement analysis in India is inseparable from the story of banking regulation. When British colonial banks like Bank of Hindustan and Bank of Madras failed in the 19th century, the RBI was created in 1935 specifically to provide a stable banking infrastructure. But the real transformation came post-independence nationalisations (1969 and 1980) — suddenly the government owned most of the banking system, and the concept of rigorous financial statement analysis was sometimes subordinated to political objectives.
 
@@ -204,7 +204,7 @@ This extended DuPont tells you exactly where to intervene if ROE needs improveme
 
 **Trend analysis**: Track the same ratio over 5 years. If a company's Current Ratio has fallen from 2.0 to 1.1 over 5 years, that signals deteriorating liquidity — worth investigating further.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 **Reading a Bank's Balance Sheet Through RBI's Lens:**
 
@@ -220,7 +220,7 @@ RBI's **Financial Stability Report (FSR)** and **Trend and Progress of Banking i
 
 5. **Incremental Capital Output Ratio (ICOR)**: Measures how much additional capital is needed to produce one unit of additional GDP — used at macro level, not individual company level.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 For RBI Grade B examination, you must understand:
 
@@ -230,11 +230,11 @@ For RBI Grade B examination, you must understand:
 
 **Asset Quality Review (AQR)**: RBI conducted an AQR in 2015-16 that forced banks to recognise all stressed assets honestly — this revealed the true NPA crisis in Indian banking (especially in power, steel, and road sectors). The result was a massive cleanup involving PCA (Prompt Corrective Action) frameworks for weak banks, recapitalisation, and IBC resolution.
 
-### Case Study / Application
+#### Case Study / Application
 
 **Yes Bank Failure (2020)**: The Reserve Bank superseded Yes Bank's board in March 2020 due to serious financial irregularities and mounting bad loans. The RBI then orchestrated a reconstruction scheme that involved SBI and other banks subscribing to a ₹10,000 crore equity raise, and RBI granted a 30-month moratorium on deposit withdrawals. The balance sheet tells the story: Yes Bank had grown rapidly (CASA deposits rose, but so did contingent liabilities and derivative exposures), pursued aggressive lending to infrastructure and real estate without adequate NPA provisioning, and had a high concentration of large single borrower exposures violating Basel norms. The failure illustrates what happens when a bank's asset quality, capital adequacy, and liquidity simultaneously deteriorate.
 
-### GATE-Level Numerical
+#### GATE-Level Numerical
 
 **Q:** Tata Motors presents the following simplified financial data (₹ in crore):
 - Revenue: ₹3,20,000
@@ -288,13 +288,13 @@ $$\text{Debt-Equity Ratio} = \frac{₹1{,}60{,}000}{₹1{,}60{,}000} = 1.0$$
 
 **Interpretation**: Tata Motors has 1:1 debt-to-equity, 25% gross margin but only 6.125% net margin (interest and taxes bite significantly), 12.25% ROE driven primarily by low asset turnover (0.8×) and moderate leverage (2.5× equity multiplier), and a current ratio of 1.25 which is somewhat tight for a capital-intensive manufacturing company.
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 - **Academic view**: The Balance Sheet equation (A = L + E) is an accounting identity that must always hold — this is non-negotiable. The income statement is fundamentally about the transformation of inputs to outputs. Ratio analysis has limitations — industry averages can be misleading, and accounting policies vary significantly (IFRS vs Indian GAAP differences).
 - **RBI/Regulatory view**: RBI's entire supervisory framework — the CAMELS rating (Capital adequacy, Asset quality, Management, Earnings, Liquidity, Sensitivity to market risk) — is built on financial statement analysis. The RBI Act mandates that banks submit regular returns showing exact compliance with CRR/SLR and capital adequacy norms. RBI's Risk Assessment Framework (RAF) uses off-balance sheet exposures and derivative positions to gauge systemic risk.
 - **Practical/Industry view**: Credit rating agencies (CARE, CRISIL, ICRA) use financial ratios extensively. When rating an NBFC, they look at Net NPA %, Provisioning Coverage Ratio, and the mix of borrowings (bank lines vs NCDs vs CP). Investors use Price-to-Earnings (P/E) and Price-to-Book (P/BV) ratios. Analysts also look at "adjusted" or "improved" metrics that normalise for one-time items, accounting policy changes, or extraordinary gains/losses.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 - **RBI's Scale-Based Regulation (SBR) for NBFCs (2024)**: NBFCs are now categorised into four layers (Base, Middle, Upper, Top) with increasingly stringent capital and governance requirements. This changes how their balance sheets are analysed — upper layer NBFCs must comply with Basel III-like norms.
 - **Revised Prompt Corrective Action (PCA) Framework (2024)**: RBI revised the PCA framework for banks with stricter thresholds on CRAR, NPAs, and profitability, making early intervention more responsive

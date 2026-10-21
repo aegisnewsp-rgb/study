@@ -57,11 +57,11 @@ What makes this usable in a classroom is that reasoning is teachable even though
 > **Examiner Trap:** the item "Kohlberg observed how children act" is false. He observed how they justify — the behaviour is the distractor, the reasoning is the subject.
 
 
-### Introduction
+#### Introduction
 
 Lawrence Kohlberg (1927–1987) extended Piaget's work on moral development, proposing that moral reasoning develops through a fixed sequence of stages, regardless of culture. His theory focuses on how people think about right and wrong — not what they actually do. The CTET exam frequently tests Kohlberg's stage progression and Carol Gilligan's critique.
 
-### Levels of Moral Development
+#### Levels of Moral Development
 
 #### Level 1: Preconventional (ages 4–10)
 
@@ -133,7 +133,7 @@ Age ranges are approximate and stage progression is described as gradual rather 
 
 For teaching, the defensible claim from this theory is narrow: exposure to dilemmas and discussion advances reasoning, and progression needs time. Claims that teachers can accelerate a child into a higher stage, or that a child's stage predicts their behaviour, are not what the theory supports.
 
-### Carol Gilligan's Critique
+#### Carol Gilligan's Critique
 
 Carol Gilligan, a student of Kohlberg, argued that his theory was gender-biased. She observed that:
 
@@ -143,7 +143,7 @@ Carol Gilligan, a student of Kohlberg, argued that his theory was gender-biased.
 
 **For CTET**: Recognize that Gilligan does not say women are less moral — she says moral development has two orientations: justice (Kohlberg's emphasis) and care (which women may prioritize equally).
 
-### Application in the Classroom
+#### Application in the Classroom
 
 1. **Moral reasoning is learnable**: Teachers can expose students to moral dilemmas and encourage discussion
 2. **Stage progression needs time**: Students move through stages gradually — don't rush
@@ -151,7 +151,7 @@ Carol Gilligan, a student of Kohlberg, argued that his theory was gender-biased.
 4. **Promote higher-stage reasoning**: Encourage students to think about principles behind rules, not just rules themselves
 5. **Model moral reasoning**: Teachers should verbalize their own ethical thinking processes
 
-### CTET Exam Focus
+#### CTET Exam Focus
 
 - Know the 6 stages under 3 levels — be able to identify which stage a scenario describes
 - Key phrase: "Punishment avoidance" = preconventional; "Social order" = conventional; "Universal principle" = postconventional

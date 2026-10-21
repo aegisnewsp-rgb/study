@@ -18,20 +18,20 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Formula/Rule
+#### Key Formula/Rule
 Area of rectangle = length × breadth; Circumference of circle = 2πr; Area of triangle = ½ × base × height.
 
-### Quick Memory Trick
+#### Quick Memory Trick
 **"PIRL"** — **P**izza (**π**r²) **I**s **R**ound, **L**ength × **L**adies (for rectangle area).
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 For 2D shapes, "area" fills the inside (length × width for rectangles, π × radius² for circles), while "perimeter" walks the outside edge.
 
-### Quick Example
+#### Quick Example
 Q: A rectangle has length 8 cm and breadth 5 cm. Find its area.
 A: Area = 8 × 5 = **40 cm²**
 
-### Must Remember
+#### Must Remember
 - Square: all 4 sides equal, area = a², perimeter = 4a
 - Rectangle: opposite sides equal, area = l × b
 - Circle: area = πr², circumference = 2πr (diameter = 2r)
@@ -39,13 +39,13 @@ A: Area = 8 × 5 = **40 cm²**
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Mensuration is just a fancy word for "measuring shapes." When you want to know how much space a flat shape covers — like how much carpet you need for a room — you're looking for its **area**. When you want to know how far it is to walk around the edge — like how much fencing you need for a plot of land — you're looking for its **perimeter** or **circumference**.
 
 The four shapes that show up most often in exams are squares, rectangles, circles, and triangles. Each one has its own personality. A square is the simplest — all four sides are identical, so you only need to know one number (the side length) to figure out everything about it. A rectangle is like a stretched square — opposite sides match, so you need two numbers: length and breadth. A circle is different because it has no corners at all; everything revolves around one special number called the radius, which is the distance from the center to any point on the edge. A triangle is the simplest polygon — just three sides — and its area depends on how tall it is (the height), measured straight up from the base.
 
-### Key Formulas
+#### Key Formulas
 
 | Symbol | Meaning |
 |--------|---------|
@@ -57,7 +57,7 @@ The four shapes that show up most often in exams are squares, rectangles, circle
 | h | Height of a triangle |
 | π | Pi, approximately 3.14159 or 22/7 |
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** The radius of a circle is 7 cm. Find its area and circumference.
 
@@ -75,13 +75,13 @@ Circumference = 2 × π × 7 = 2 × 22/7 × 7 = 44 cm
 
 **Answer:** Area = 154 cm², Circumference = 44 cm
 
-### Common Mistakes
+#### Common Mistakes
 
 - Using diameter instead of radius in the area formula → Always square the radius first, not the diameter. If given diameter, halve it first.
 - Confusing area with perimeter → Area is inside (measured in square units), perimeter is the boundary walk (measured in linear units).
 - Forgetting to use consistent units → If length is in cm, area will be in cm². Mixing meters and centimeters destroys accuracy.
 
-### Quick Test (2 Qs)
+#### Quick Test (2 Qs)
 
 1. Q: A rectangle's length is 12 cm and its diagonal is 13 cm. What is its area? Options: A) 30 cm² B) 60 cm² C) 78 cm² D) 156 cm². Ans: **B** (Reason: breadth² = 13² – 12² = 169 – 144 = 25, so breadth = 5; area = 12 × 5 = 60 cm²)
 
@@ -89,7 +89,7 @@ Circumference = 2 × π × 7 = 2 × 22/7 × 7 = 44 cm
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 Let's really understand what area and perimeter *mean*, not just how to calculate them. Think of area as how much paint you need to fill a shape, and perimeter as how much tape you'd need to go around its edge. They're measuring completely different things — one fills, one wraps.
 
@@ -101,7 +101,7 @@ Let's really understand what area and perimeter *mean*, not just how to calculat
 
 **The Triangle** has the most formulas to remember because triangles come in so many varieties. The most powerful relationship is Heron's formula, which lets you find the area when you only know all three sides — incredibly useful when there's no obvious height. And the Pythagorean theorem (a² + b² = c² for right triangles) is arguably the single most tested concept in all of quantitative aptitude.
 
-### Advanced Formula Derivation
+#### Advanced Formula Derivation
 
 **Heron's Formula for Triangle Area:**
 
@@ -119,7 +119,7 @@ Why does this work? It's derived from the basic area formula and the law of cosi
 
 Cut a circle into 360 thin sectors. Now alternate the direction of every other sector so they interlock. You get something that looks almost like a parallelogram with height = r and base = πr (half the circumference). Area = base × height = πr × r = πr².
 
-### GATE-Level Numerical Problems
+#### GATE-Level Numerical Problems
 
 **Q1 (GATE 2020 — style):**
 The area of a right triangle is 30 cm² and its hypotenuse is 13 cm. Find the length of the shorter leg.
@@ -141,7 +141,7 @@ A rectangular park is 60 m long and 40 m wide. It has a circular fountain of rad
 - Working: Park area = 60 × 40 = 2400 m². Fountain area = π × 10² = 314 m². Garden area = ½ × 20 × 15 = 150 m². Excluded total = 314 + 150 = 464 m². Remaining = 2400 – 464 = **1936 m²**.
 - Answer: **1936 m²**
 
-### Multiple Approaches
+#### Multiple Approaches
 
 **Method A (Standard):** Use formulas directly — identify shape → recall formula → substitute → calculate.
 
@@ -149,7 +149,7 @@ A rectangular park is 60 m long and 40 m wide. It has a circular fountain of rad
 
 **When to use:** Unit cancellation is your safety net for complex composite shape problems. The standard approach is fastest for single-shape problems.
 
-### Tricky Cases
+#### Tricky Cases
 
 - **Circle inside a square:** When a circle is inscribed in a square (touches all four sides), the diameter equals the side of the square. When a circle is circumscribed around a square (touches all four vertices), the diameter equals the diagonal of the square.
 - **Triangle with same area as a rectangle:** Two completely different shapes can have identical areas. Never assume "bigger-looking" shape has bigger area — always calculate.

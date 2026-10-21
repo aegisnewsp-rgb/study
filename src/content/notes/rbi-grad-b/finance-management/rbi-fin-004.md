@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 Risk is the uncertainty that actual returns will differ from expected returns, measured by Standard Deviation or Beta; Return is the gain or loss on an investment measured as a percentage of the amount invested.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI manages systemic risk — the risk that the entire financial system could fail — by monitoring banks' Value-at-Risk (VaR) exposures and using capital adequacy requirements (Basel III) to ensure the system can absorb shocks; understanding individual risk metrics like Beta helps assess whether banks' investment portfolios are appropriately hedged.
 
-### Must Know Facts
+#### Must Know Facts
 - Expected Return formula: E(R) = Rf + β(Rm - Rf) — also called the Capital Asset Pricing Model (CAPM)
 - Beta (β) measures systematic risk: β = 1 means same risk as market; β > 1 is aggressive (amplifies market moves); β < 1 is defensive
 - Standard Deviation (σ) measures total risk (both systematic and unsystematic); higher σ = higher risk
 - Sharpe Ratio = (Rp - Rf) / σp — measures excess return per unit of total risk; higher is better
 - Jenson's Alpha = Actual Portfolio Return - Expected Return (from CAPM); positive alpha means the portfolio beat the market after adjusting for risk
 
-### Quick Example / Application
+#### Quick Example / Application
 Reliance Industries has a Beta of 1.3. If the Risk-Free Rate is 7% and the Market Return is 13%, the expected return for Reliance is: 7% + 1.3 × (13% - 7%) = 7% + 1.3 × 6% = 7% + 7.8% = 14.8%. If Reliance actually earned 16%, Jenson's Alpha = 16% - 14.8% = +1.2% — the stock beat expectations by 1.2% on a risk-adjusted basis.
 
-### 1-Line Summary
+#### 1-Line Summary
 Higher risk demands higher expected return — CAPM prices risk using Beta, while portfolio performance is measured by Sharpe Ratio (return per unit of total risk) and Jenson's Alpha (excess return above what risk level predicted).
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 Let me explain this using a simple real-life comparison. A Bank Fixed Deposit (FD) at 7% is virtually risk-free — you will almost certainly receive exactly 7% over the year. But an equity share of Tata Motors might give you +30% in a good year, -40% in a bad year, or anything in between. Which would you prefer? The answer depends on your risk appetite — but finance theory gives us a rigorous way to measure and price this trade-off.
 
@@ -88,7 +88,7 @@ $$\text{Sharpe Ratio} = \frac{R_p - R_f}{\sigma_p}$$
 
 Where Rₚ is portfolio return and σₚ is portfolio standard deviation. A Sharpe Ratio of 1.0 means the portfolio earns 1% excess return (above risk-free) for every 1% of volatility. The Nifty 50 index historically has a Sharpe Ratio around 0.5-0.7 for long periods. A Sharpe above 1.0 is excellent.
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -103,7 +103,7 @@ Where Rₚ is portfolio return and σₚ is portfolio standard deviation. A Shar
 | Jenson's Alpha | Actual portfolio return - CAPM expected return; positive alpha = outperformance |
 | Semi-Deviation | Downside risk measure; considers only returns below a target/threshold |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 Consider how RBI's Monetary Policy Committee (MPC) decisions affect different bank stocks differently through Beta:
 
@@ -116,14 +116,14 @@ Meanwhile, **Tata Power (β ≈ 1.8, energy transition theme)**: Actually rose d
 
 This illustrates that Beta is useful but not sufficient — you also need to understand the company's specific fundamentals.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Numerical questions**: Calculate expected return using CAPM given Rf, Beta, and Rm; calculate Beta from covariance/market variance data; compute Sharpe Ratio
 - **Conceptual questions**: "Why is Beta more relevant than Standard Deviation for a diversified investor?" or "What does a negative Sharpe Ratio mean?"
 - **Interpretation questions**: Given two portfolios with same return but different Sharpe Ratios, identify the better portfolio
 - **Application**: Given historical return data, calculate variance and standard deviation
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** You are constructing a two-asset portfolio. Asset A has Expected Return = 15%, Standard Deviation = 20%, Weight = 60%. Asset B has Expected Return = 10%, Standard Deviation = 12%, Weight = 40%. The correlation coefficient (ρ) between A and B is 0.3. Calculate: (a) Portfolio Expected Return, (b) Portfolio Standard Deviation.
 
@@ -157,7 +157,7 @@ $$\sigma_p = \sqrt{0.02016} = 0.142 = 14.2\%$$
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 The theory of risk and return didn't emerge from a vacuum — it was forged in the fires of market crashes. The 1929 Wall Street Crash revealed that naive investors had no framework for understanding why their diversified portfolios still collapsed. The Great Depression stimulated academic research into market behaviour. Harry Markowitz's 1952 paper on Portfolio Selection formalised what wise investors had always known intuitively: diversification works because not all risks are equal.
 
@@ -186,7 +186,7 @@ $$\beta_{\text{Asset}} = \frac{\beta_{\text{Equity}}}{1 + (1-t) \times D/E}$$
 
 This is critical when comparing companies with different capital structures — an Indian telecom company with high debt will have a higher Equity Beta than a zero-debt software company even if their underlying businesses have identical business risk.
 
-### Advanced Analysis
+#### Advanced Analysis
 
 **Beyond CAPM — Multi-Factor Models:**
 
@@ -232,7 +232,7 @@ Three methods for calculating VaR:
 2. **Variance-Covariance (Parametric)**: Assume normal distribution and calculate using σ
 3. **Monte Carlo Simulation**: Simulate thousands of scenarios using random number generation
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 For RBI Grade B exam, understanding risk metrics is critical because:
 
@@ -244,7 +244,7 @@ For RBI Grade B exam, understanding risk metrics is critical because:
 
 4. **Mutual Fund Risk Classification**: SEBI mandates that mutual funds classify schemes as "High Risk," "Moderately High Risk," etc. based on the scheme's computed Volatility Metric (based on monthly returns over the last 3 years). This uses standard deviation to help retail investors understand risk.
 
-### Case Study / Application
+#### Case Study / Application
 
 **LTCG Tax Change and Market Reaction (2018)**:
 
@@ -255,7 +255,7 @@ In the Union Budget 2018, the government introduced Long-Term Capital Gains (LTC
 
 The correlation structure of the market also shifted — during the initial panic, correlations between stocks spiked (everything fell together regardless of fundamentals). This is a classic "risk-off" scenario where diversification temporarily fails exactly when investors need it most — one of the key insights from the 2008 global financial crisis.
 
-### GATE-Level Numerical
+#### GATE-Level Numerical
 
 **Q:** You are the risk manager at an Indian asset management company. Your fund has the following characteristics:
 - Current Value: ₹500 crore
@@ -327,13 +327,13 @@ $$\alpha = 0.333\% - 1.354\% = -1.021\% \text{ per month} = -12.25\% \text{ per 
 
 Even with the lower Beta, alpha is substantially negative — this fund is underperforming significantly.
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 - **Academic view**: The CAPM is theoretically elegant but empirically challenged. The Roll Critique (1977) argues that since the "true" market portfolio is unobservable, CAPM can never be truly tested. Empirically, low-beta stocks have been shown to outperform on a risk-adjusted basis in many markets (the "Low-Volatility Anomaly") — contradicting CAPM's prediction that higher Beta leads to higher return. In India, the HNI (High Net Worth Individual) and retail investor preference for high-beta mid/small cap stocks over long periods suggests either irrational behaviour or that the Indian market has structural factors that invalidate simple CAPM assumptions.
 - **RBI/Regulatory view**: RBI uses a combination of capital adequacy requirements, liquidity ratios (LCR, NSFR), and stress testing to manage systemic risk — these go beyond individual asset pricing models. SEBI requires mutual funds to disclose standard deviation, Sharpe Ratio, and Beta in scheme offer documents — these standardised risk metrics help retail investors compare funds.
 - **Practical/Industry view**: Portfolio managers use Factor Models (Fama-French, Carhart) for return attribution — after accounting for market, size, value, and momentum exposures, what alpha remains? Genuine alpha (unexplained return) is what justifies active management fees. In practice, most active Indian equity fund managers struggle to generate positive alpha net of fees over 3-5 year periods.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 - **RBI's Stricter VaR Norms for Banks (2024)**: RBI issued revised guidelines on the use of Internal Models Approach (IMA) for market risk capital calculation, aligning more closely with Basel III standards. Banks must now calculate Stressed VaR using a 12-month stress period in addition to regular VaR.
 - **Rise of Passive Investing and Alpha Challenges**: The share of passive equity funds in total mutual fund AUM in India crossed 25% by 2024, raising questions about market efficiency and active manager viability — consistent with the global finding that most active managers underperform their benchmark.

@@ -18,16 +18,16 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Pattern/Rule
+#### Key Pattern/Rule
 Find the one part of the sentence that breaks a grammar rule — the answer is always one underlined segment.
 
-### Memory Trick
+#### Memory Trick
 **"Spell It Out"** — Subject-verb, Articles, Prepositions, Inverted word order, Number (singular/plural), Parallel structure, Tense, Modifier placement. Check each in that order.
 
-### 1-Sentence Summary
+#### 1-Sentence Summary
 GATE tests your ability to spot which underlined portion of a sentence violates standard English grammar rules.
 
-### The Big 5 Error Categories
+#### The Big 5 Error Categories
 
 **1. Subject-Verb Agreement**
 - "Each of the students **were given**" → were → **was** (each = always singular)
@@ -67,12 +67,12 @@ GATE tests your ability to spot which underlined portion of a sentence violates 
 - "Each student and teacher **have**" → have → **has** (each + and = singular)
 - "Neither of the options **seem** right" → seem → **seems** (neither = singular)
 
-### Quick Example
+#### Quick Example
 
 Q: "Neither the students nor the teacher **has been** informed about the change."
 A: (B) **has been** → **have been** — compound subject takes the verb agreeing with the nearer noun "students" (plural). The rule: with "neither...nor" or "either...or," the verb agrees with the nearer subject.
 
-### Common Trick Cases
+#### Common Trick Cases
 
 | Pattern | Rule |
 |---------|------|
@@ -88,14 +88,14 @@ A: (B) **has been** → **have been** — compound subject takes the verb agreei
 
 ### 🟡 Standard
 
-### Concept
+#### Concept
 Spotting Errors is one of the oldest and most reliable question types in GATE Verbal Ability. You're given a sentence with four underlined portions (A, B, C, D) and asked to identify which one contains a grammatical error. Sometimes there's a "no error" option. The key is to approach the sentence systematically — read it once for meaning, then scan for the most common trouble spots.
 
 The grammar rules tested are the standard ones you learned in school but probably forgot: subject-verb agreement across distances and intervening phrases, article selection based on whether the noun is countable or abstract, preposition selection that depends on the verb or adjective paired with it, and pronoun clarity about what each pronoun refers to.
 
 GATE doesn't try to trick you with obscure rules. They test the fundamentals that trip up even educated writers: subject-verb number mismatch when the subject is separated from its verb by a clause or phrase, wrong article forms (saying "an" before a consonant sound), tense shifts within a sentence, and wrong prepositions after fixed expressions.
 
-### Types & Approach
+#### Types & Approach
 
 **Subject-Verb Agreement** — Spot it when the subject is far from the verb, or when "and" vs "with/besides/together with" changes the verb number. Approach: ignore intervening phrases, identify the true subject, match its number.
 
@@ -107,12 +107,12 @@ GATE doesn't try to trick you with obscure rules. They test the fundamentals tha
 
 **Pronoun-Antecedent Agreement** — Spot it when a pronoun (he/she/it/they) refers back to a noun. Singular antecedents get singular pronouns; plural get plural. Watch for collective nouns ("team is" — singular, though some style guides allow plural).
 
-### Step-by-Step Example
+#### Step-by-Step Example
 **Q:** "Each of the contestants **were given** a chance to speak."
 **Approach:** Step 1 → Identify subject: "Each" (singular). Step 2 → Check verb agreement: "were given" is plural. Step 3 → Confirm: "Each of" always takes a singular verb.
 **Answer:** (C) **were given** → **was given**
 
-### Common Mistakes
+#### Common Mistakes
 - "Neither/nor" treated as always plural → Actually, verb agrees with the nearer subject: "Neither he nor his friends are coming" (friends = plural) vs "Neither he nor his friend is coming" (friend = singular).
 - "The number of" is singular, "A number of" is plural → Don't confuse them.
 - Present Perfect tense used where Simple Past is needed → "I have seen him yesterday" → "I saw him yesterday."
@@ -120,7 +120,7 @@ GATE doesn't try to trick you with obscure rules. They test the fundamentals tha
 
 ### 🔴 Extended
 
-### Full Concept Explanation
+#### Full Concept Explanation
 
 Spotting Errors questions in GATE are deceptively simple-looking but require you to hold many grammar rules simultaneously in your head while reading for meaning. The typical format presents a sentence with four segments underlined (A, B, C, D, E) and asks you to identify the grammatically incorrect portion. There is sometimes a "no error" option, which is correct roughly 10-15% of the time — don't be afraid to select it if you've genuinely checked everything.
 
@@ -140,7 +140,7 @@ Another nuance: collective nouns like "team," "jury," "committee," "family," and
 
 **Modifier Placement** errors occur when a modifier is positioned where it could grammatically attach to the wrong word. A classic dangling modifier: "Walking to class, the library looked old." Who is walking? The library can't walk. The sentence should be "Walking to class, I noticed how old the library looked." Squinting modifiers are ambiguous because they could modify either what comes before or after: "Students who study regularly often pass" — does "regularly" modify "study" or "often pass"? Usually context resolves it, but such sentences are considered poorly constructed.
 
-### GATE-Level Practice
+#### GATE-Level Practice
 **Q1:** "The committee **have** decided to postpone the meeting until next week."
 Answer: (A) **have** → **has** — "Committee" is a collective noun treated as singular in standard formal English. While British English sometimes treats collective nouns as plural, GATE follows American conventions. The committee acts as one unit and takes a singular verb.
 
@@ -150,14 +150,14 @@ Answer: (C) **submits** → **submit** — After "important that," use subjuncti
 **Q3:** "Despite of the heavy traffic, we **arrived** on time."
 Answer: (B) **Despite of** → **Despite** — "Despite" is a preposition that takes a noun object directly: "Despite the heavy traffic." "In spite of" is the two-word alternative that also works. "Despite of" is a common error — the "of" is unnecessary and incorrect.
 
-### Multiple Approaches
+#### Multiple Approaches
 **Standard method:** Read the entire sentence first. Identify its core message. Then check each underlined segment against one of the grammar categories. Start with the ones you find most reliably (often subject-verb agreement and articles are the fastest to check).
 
 **Shortcut method:** When you see "each," "every," "either," "neither," "one of," "none of" followed by a plural noun, immediately flag for singular verb agreement. When you see "and" between two nouns that represent a single entity ("bread and butter," "law and order"), flag for singular verb. When you see "a/an/the" before a noun, check if the article choice matches the noun type.
 
 **Elimination method:** If you can prove three options are correct, the fourth must be the error. This is especially useful when the "error" is subtle. Check the non-underlined portions too — sometimes the error isn't in an underlined segment but affects how the underlined portion interacts with the rest of the sentence.
 
-### Tricky Cases / Edge Cases
+#### Tricky Cases / Edge Cases
 - "Data" is increasingly treated as plural in formal writing ("The data show...") even though traditionally it was a mass noun. In GATE, treat "data" as plural unless the question specifically uses it as a mass noun.
 - "Which/That" distinction: "that" introduces essential (defining) clauses with no comma; "which" introduces non-essential (non-defining) clauses set off by commas. Both are grammatically correct in different contexts — GATE sometimes tests whether you know which is appropriate.
 - "Fewer/Less": "fewer" for countable nouns ("fewer mistakes"), "less" for uncountable ("less time," "less water"). However, "less than" works for numbers: "less than five days." This is a frequent GATE trap.

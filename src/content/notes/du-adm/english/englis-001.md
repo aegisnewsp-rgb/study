@@ -209,7 +209,7 @@ You rarely need to know the precise term to answer the question. The question as
 
 Reading Comprehension shares habits with **Cloze Test** (englis-005) — both require reading for meaning across sentences — and with **Sentence Rearrangement** (englis-004) — both reward recognising how sentences link through pronoun reference, tense, and logical connectors. The vocabulary work here also reinforces **Vocabulary** (englis-003). Students who drill RC daily for a month typically see a lift in their Cloze Test scores as a side effect.
 
-### Common traps
+#### Common traps
 
 - **Answering from prior knowledge instead of the passage.** RC is testing *reading*, not knowledge. If you know a lot about vultures and pick the option that matches your knowledge but contradicts the passage, you lose the mark. The passage is the only source.
 - **Choosing the option that "could be true" instead of "is supported".** "Could be true" describes speculation. The right inference is *supported by the passage*. Look for the option with the tightest match to the passage's logic.

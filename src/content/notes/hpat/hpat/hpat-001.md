@@ -109,7 +109,7 @@ Rule: repair the top row first. A 34% share of misses is worth more than any vol
 > **Memory hook — "Negate, then name."** Assumption items: negate the candidate and watch the conclusion. Weakness items: name the rival explanation in one clause. Both are single-sentence moves; the cost is the reading, not the thinking.
 
 
-### Exam Essentials
+#### Exam Essentials
 
 **Section 1 specification (verify on hpat-ireland.acer.org before each cycle):**
 | Item | Detail |
@@ -139,7 +139,7 @@ Rule: repair the top row first. A 34% share of misses is worth more than any vol
 - Official Practice Tests (purchased from ACER): https://hpat-ireland.acer.org/preparation
 - Registration window and fee: https://hpat-ireland.acer.org/
 
-### High-Yield Topics
+#### High-Yield Topics
 
 **Topics to drill down in detail, in priority order:**
 
@@ -155,7 +155,7 @@ Rule: repair the top row first. A 34% share of misses is worth more than any vol
 
 6. **Pacing and time management** - 88 seconds per question is tight. The productive pattern is to skip-and-flag a hard question within 30 seconds, attempt all remaining questions in order, then return to flagged questions in any remaining time. A blank answer scores zero; an attempted answer has a 20-25% chance of being correct by elimination.
 
-### Previous Year Patterns
+#### Previous Year Patterns
 
 **Recurring Section 1 patterns in ACER practice materials (qualitative, not quantitative):**
 
@@ -171,7 +171,7 @@ Rule: repair the top row first. A 34% share of misses is worth more than any vol
 
 **Pattern to watch:** ACER practice materials rotate the *types* of reasoning across items within a passage, so a single long passage may test assumption, conclusion, evaluation and quantitative reasoning across 4-6 items. Plan to spend 10-12 minutes per long passage with 4-6 items, and <90 seconds per item in a short-answer pair.
 
-### Pro Tips
+#### Pro Tips
 
 1. **Use the official ACER Practice Tests first.** They are the only published real past questions and the only authoritative source of section style. Work through them after the practice-question and practice-placement stages described on the ACER preparation page.
 
@@ -191,7 +191,7 @@ Rule: repair the top row first. A 34% share of misses is worth more than any vol
 
 10. **Confirm Section 1 in the live Information Booklet before each cycle.** ACER updates the booklet annually. Verify the live question count, time allocation, response format and the participating universities' score-combination rules on hpat-ireland.acer.org before committing a revision plan to a student.
 
-### Official Resources
+#### Official Resources
 
 - **HPAT-Ireland Information Booklet 2022** (canonical spec): https://hpat-ireland.acer.org/files/HPAT-Ireland_2022.pdf
 - **ACER preparation page** (Practice Tests, preparation materials, registration): https://hpat-ireland.acer.org/preparation

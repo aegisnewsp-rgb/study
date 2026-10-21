@@ -133,7 +133,7 @@ With a calculated value of $5,100\text{ mmHg}\cdot\text{s}\cdot\text{cm}$, the c
 
 ---
 
-### Practice Prompts
+#### Practice Prompts
 
 1. A 2-week-old full-term infant presents with persistent failure to pass meconium, abdominal distension, and bilious vomiting. Digital rectal examination reveals explosive passage of gas and liquid stool upon finger withdrawal. Explain the embryological, physiological, and histochemical basis of this condition.
 2. Contrast the physiological mechanism of receptive relaxation of the gastric fundus with the enterogastric reflex, detailing the sensory afferents, central integration, and motor mediators of each reflex.

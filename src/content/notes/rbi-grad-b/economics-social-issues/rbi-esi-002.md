@@ -18,28 +18,28 @@ lastUpdated: 2026-05-26
 
 ### 🟢 Lite
 
-### Key Definition (1 sentence)
+#### Key Definition (1 sentence)
 India's Five-Year Plans were centralised economic blueprints (1951-2017) that set development targets, allocated resources across sectors, and guided public investment — starting from a Fabian socialist model and eventually replaced by NITI Aayog's cooperative federalism approach.
 
-### Why It Matters for RBI
+#### Why It Matters for RBI
 RBI's monetary and credit policies historically aligned with Plan priorities — Plan documents directed bank credit to priority sectors; understanding the shift from planning to markets explains why RBI now operates independently with an inflation-targeting framework rather than serving Plan-directed lending.
 
-### Must Know Facts
+#### Must Know Facts
 - 12 Five-Year Plans from 1951 to 2017; the 12th Plan (2012-17) focused on "Faster, More Inclusive and Greener Growth"
 - The Planning Commission was replaced by NITI Aayog on 1 January 2015
 - First Plan (1951-56) — focused on agriculture and infrastructure; achieved food self-sufficiency goal
 - 1991: New Economic Policy shifted India from the Fabian socialist model to Liberalisation, Globalisation, and Privatisation (LPG)
 - The 11th Plan (2007-12) targeted 9% growth but achieved ~8% due to global financial crisis
 
-### Quick Example / Application
+#### Quick Example / Application
 Think of Five-Year Plans like a family making a 5-year financial plan: in 1950s, India decided to build dams (Hydel projects), set up steel plants (public sector), and promoted agriculture — like a family first building its house and farm before buying luxury items. By 1991, the family realised it couldn't plan everything centrally and needed to let market forces (banks, investors, businesses) make some decisions. NITI Aayog is like a financial advisor who guides without dictating — helping the family decide priorities but letting them choose.
 
-### 1-Line Summary
+#### 1-Line Summary
 From centrally planned Soviet-style documents to market-friendly cooperative federalism: India's five-year plans mirror India's ideological journey from Nehru's socialism to Modi's market federalism.
 
 ### 🟡 Standard
 
-### Concept Explanation
+#### Concept Explanation
 
 The story of Five-Year Plans is one of the most important chapters in India's economic history, tracing the country's path from state-led socialism to a market-oriented economy.
 
@@ -70,7 +70,7 @@ After 64 years, the Planning Commission was dissolved on 1 January 2015 and repl
 
 NITI Aayog's design reflects a changed India. Instead of a centrally authored Plan, NITI Aayog facilitates states in creating their own development plans aligned with national priorities. It publishes the Three-Year Action Agenda (covering 2017-18 to 2019-20) and the Saptarshi Priorities (seven national priorities for 2023-2030).
 
-### Key Terms & Definitions
+#### Key Terms & Definitions
 
 | Term | Definition |
 |------|------------|
@@ -82,18 +82,18 @@ NITI Aayog's design reflects a changed India. Instead of a centrally authored Pl
 | Disinvestment | Sale of government stake in public sector undertakings (PSUs) — began in earnest after 1991 reforms |
 | Structural Adjustment Programme | IMF loan programme with conditions requiring economic reforms — India's 1991 crisis triggered India's SAP conditions |
 
-### Real-World Example (RBI Context)
+#### Real-World Example (RBI Context)
 
 Before 1991, RBI's credit policies were essentially Plan implementation tools. The Lead Bank Scheme directed banks to develop banking infrastructure in specific districts — a Plan priority. Priority sector lending targets were set not by RBI independently but as part of the overall Plan resource allocation framework. After 1991, RBI gradually gained operational autonomy. The RBI Act was amended in 2016 to formalise the Monetary Policy Committee (MPC) framework with a 4% inflation target — completely disconnected from Plan priorities. Today, RBI sets repo rate based on inflation and growth, not what the Five-Year Plan needs. This institutional independence is a direct consequence of the 1991 shift.
 
-### Exam Pattern / How It Appears
+#### Exam Pattern / How It Appears
 
 - **Fact-based MCQs**: "Which plan targeted 9% growth?" (11th Plan), "Which body replaced the Planning Commission?" (NITI Aayog), "Which reform is associated with 1991?" (LPG)
 - **Matching questions**: Plan periods with their themes or growth achievements
 - **Analytical questions**: Why did the planning model fail in the 1980s? What did LPG reforms change?
 - **Current affairs linkage**: NITI Aayog's current priorities, Three-Year Action Agenda, Aspirational Districts Programme
 
-### Step-by-Step Example
+#### Step-by-Step Example
 
 **Q:** The 12th Five-Year Plan (2012-17) aimed for 9% growth but achieved around 7.1%. Give two reasons for this shortfall.
 **Answer:** (1) **Global factors**: The Eurozone debt crisis and global financial turbulence of 2011-13 reduced capital flows to emerging markets, including India. (2) **Domestic factors**: Policy paralysis, high fiscal deficit (6.4% in 2012-13), and inflation forced RBI to keep rates high — choking private investment. The twin balance sheet problem (bad loans in banks + stressed corporates) also suppressed investment. Growth slowed to ~6.9% in 2012-13 and 6.4% in 2013-14 — well below the 9% target.
@@ -103,7 +103,7 @@ Before 1991, RBI's credit policies were essentially Plan implementation tools. T
 
 ### 🔴 Extended
 
-### Concept Deep Dive
+#### Concept Deep Dive
 
 **The intellectual origins — why Nehru chose planning:**
 
@@ -148,7 +148,7 @@ NITI Aayog replaced the Planning Commission on 1 January 2015. It was not given 
 - **Three-Year Action Agenda** (2017-18 to 2019-20): Short-term policy blueprint
 - **Saptarshi Priorities** (2023-2030): Seven national priorities including health, infrastructure, digital transformation
 
-### Advanced Analysis
+#### Advanced Analysis
 
 The rise and fall of economic planning in India tells a story with global resonance. The Fabian socialist model succeeded in building India's industrial base (steel, heavy machinery, power generation) but failed to deliver equitable growth. The concentration of economic power in a few industrial houses (the "licence Raj" created the infamous "Raj" of the Ambanis and the Tatas) proved that state-led development did not automatically mean egalitarian development.
 
@@ -156,7 +156,7 @@ The 1991 shift to LPG was not ideologically neutral — it represented a fundame
 
 The shift to NITI Aayog reflects another important insight: in a $3.5 trillion economy with 1.4 billion people and 28 states, centralised planning is practically impossible. States have become economic powers in their own right — Karnataka drives IT, Tamil Nadu drives manufacturing, Gujarat drives chemicals and textiles, Punjab drives agriculture. A "whole of government" approach requires state ownership, not central diktat.
 
-### RBI-Specific Coverage
+#### RBI-Specific Coverage
 
 For RBI Grade B examination, understand:
 - How the Five-Year Plans drove credit allocation — before 1991, bank credit was directed through Plan priorities
@@ -165,7 +165,7 @@ For RBI Grade B examination, understand:
 - The RBI Act, 1935 was amended in 2006 and 2016 to modernise monetary policy; the 2016 amendment created the MPC with 4% inflation target — this is the post-planning era where monetary policy is independent and inflation-focused
 - Priority Sector Lending (PSL) is a remnant of Plan-era directed credit — RBI has continuously refined PSL guidelines, and it remains a key tool for financial inclusion
 
-### Case Study / Application
+#### Case Study / Application
 
 **The 1991 Crisis and its lasting legacy on Indian planning:**
 
@@ -179,7 +179,7 @@ This was a revolution — not just economic but political. Nehru's vision of sta
 
 But the adjustment was painful: small-scale industries that had been protected by import tariffs faced instant competition from cheaper imports; banking sector reforms took decades; and the informal sector remained largely untouched by the formal economy's liberalisation.
 
-### GATE-level Numerical
+#### GATE-level Numerical
 
 **Q:** The 12th Five-Year Plan targeted 8.0% growth but achieved 6.9% over the period 2012-17. In 2012-13, GDP growth was 5.5%, and in 2016-17 it was 7.1%. The annual GDP (at 2011-12 prices) in 2012-13 was ₹83.1 lakh crore and in 2016-17 was ₹101.6 lakh crore.
 
@@ -208,7 +208,7 @@ Average annual growth = (5.5 + 6.4 + 7.4 + 8.3 + 7.1) / 5 = 6.94% ≈ **6.9%**
 
 **Answer:** The 12th Plan underperformed by 1.1 percentage points annually. The output gap of 7.4% of GDP represents enormous forgone output — at current prices, this gap would translate to even larger absolute amounts. This gap reflects unutilised capacity due to the twin balance sheet problem (NPA crisis + stressed corporates suppressing investment).
 
-### Multiple Perspectives
+#### Multiple Perspectives
 
 **Academic view:** Economist Jean Drèze and Amartya Sen critique the planning era for not focusing enough on human development (education, health, nutrition) — arguing the First Plan onwards prioritised industrialisation over human capabilities. They point out that India's HDI (Human Development Index) improved slowly during the planned era compared to countries like South Korea and Taiwan that combined planning with mass education and health.
 
@@ -216,7 +216,7 @@ Average annual growth = (5.5 + 6.4 + 7.4 + 8.3 + 7.1) / 5 = 6.94% ≈ **6.9%**
 
 **Practical/Industry view:** The business community welcomed 1991 but points to unfinished reforms: land acquisition remains difficult, labour laws protect existing workers while leaving new entrants unprotected, and GST implementation, while transformative, still has compliance burdens. Industry bodies (CII, FICCI) consistently argue for further liberalisation of labour markets and faster infrastructure development.
 
-### Recent Developments (2024-2026)
+#### Recent Developments (2024-2026)
 
 **NITI Aayog's evolving role and recent developments:**
 - NITI Aayog released the **India Century Report 2075** (2024) — projecting India's trajectory to become the world's second-largest economy by 2075

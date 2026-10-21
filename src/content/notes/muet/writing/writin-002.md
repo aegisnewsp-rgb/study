@@ -69,19 +69,19 @@ When reading the visual, ask yourself: What is the main trend? What are the key 
 
 The purpose of the letter varies. Common letter types include:
 
-### Complaint Letter
+#### Complaint Letter
 > "The graph shows noise levels recorded near your factory over six months. Write a letter to the factory manager complaining about the noise and requesting action."
 
-### Application Letter
+#### Application Letter
 > "Based on the table showing scholarship eligibility criteria, write a letter to the Education Ministry applying for a scholarship."
 
-### Request for Information
+#### Request for Information
 > "The chart below shows Malaysia's tourist arrivals from 2018 to 2022. Write a letter to the Tourism Board requesting further information about promotion activities."
 
-### Letter to the Editor
+#### Letter to the Editor
 > "The diagram shows the increase in solid waste in Malaysian cities. Write a letter to a newspaper editor raising awareness about waste management."
 
-### General Structure of the Letter
+#### General Structure of the Letter
 
 ```
 [Your Address]
@@ -109,7 +109,7 @@ Yours faithfully / Yours sincerely,
 
 One of the biggest challenges in Task 1 is describing data without copying the exact words from the question. Here are essential data description phrases:
 
-### For Trends (increasing/decreasing/stable)
+#### For Trends (increasing/decreasing/stable)
 
 | Trend | Example Phrases |
 |---|---|
@@ -121,14 +121,14 @@ One of the biggest challenges in Task 1 is describing data without copying the e
 | **Peak** | reached a peak of, peaked at, hit the highest point |
 | **Lowest point** | fell to its lowest, reached a trough, bottomed out |
 
-### For Comparisons
+#### For Comparisons
 
 - "The figure for X was considerably higher than Y's..."
 - "X accounted for the largest share at 45%, whereas Y accounted for only 12%."
 - "In contrast to X, Y showed a declining trend."
 - "X and Y were similar in that both..."
 
-### For Generalisations
+#### For Generalisations
 
 - "Overall, the data indicates that..."
 - "In general, there was a clear trend of..."
@@ -156,7 +156,7 @@ One of the biggest challenges in Task 1 is describing data without copying the e
 
 ---
 
-### ⚡ Quick Reference — Data Verbs
+#### ⚡ Quick Reference — Data Verbs
 
 | Verb | Past Tense | Use When |
 |---|---|---|

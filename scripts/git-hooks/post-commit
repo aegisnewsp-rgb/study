@@ -1,0 +1,39 @@
+#!/bin/sh
+# sr-gate-audit post-commit — record EVERY commit, so a bypass leaves a trace.
+#
+# WHY THIS HOOK EXISTS (measured 2026-10-21):
+#   commit 870649cf landed four files that three refusing receipts govern.
+#   The pre-commit gate was live and correct (replayed in an isolated clone it
+#   returns rc=1 and names all three receipts), so the commit went in with
+#   `--no-verify` or SR_RECEIPT_GATE_BYPASS=1. Neither left a record.
+#
+#   Verified locally on git 2.47.3 (/tmp/nvtest, 2026-10-21): `--no-verify`
+#   skips the PRE-COMMIT hook but NOT the POST-COMMIT hook. A post-commit hook
+#   is therefore the only mechanism that observes a commit no matter which
+#   bypass was used.
+#
+# CONTRACT:
+#   - NEVER fails the commit. `post-commit` cannot abort a commit anyway, and
+#     this hook must not exit non-zero: a missing audit directory is reported
+#     loudly on stderr, not turned into an outage.
+#   - Appends one JSON line to the audit log. No secrets are recorded.
+#
+# Install with:  node scripts/sr-install-hooks.sh
+# Remove with:   rm .git/hooks/post-commit
+#
+# Audit log:  $SR_AUDIT_LOG  (default /data/openclaw-workspace/gate-audit.jsonl)
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
+GATE_AUDIT="$REPO_ROOT/scripts/sr-gate-audit.mjs"
+
+if [ ! -f "$GATE_AUDIT" ]; then
+    echo "sr-gate-audit: scripts/sr-gate-audit.mjs is missing — this commit is NOT recorded." >&2
+    exit 0
+fi
+
+# stdout carries the "recorded ..." line and is discarded; stderr carries a real
+# failure and stays visible to the committer.
+node "$GATE_AUDIT" --event commit >/dev/null || \
+    echo "sr-gate-audit: could not record this commit." >&2
+
+exit 0

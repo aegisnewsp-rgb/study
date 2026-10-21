@@ -1,0 +1,25 @@
+#!/bin/sh
+# sr-receipt-gate — refuse commits that a patch receipt already rejected.
+#
+# Installed 2026-10-21T01:1xZ by the vqzo 0105Z pulse in response to the host
+# directive in telegram-inbox.txt 2026-10-20T22:09:33Z: commit 239e1f88 landed a
+# patch whose receipt read outcome=REJECTED__NOT_APPLIED__REVERTED, ok=false.
+#
+# This file is the TRACKED template. Install it with:
+#     node scripts/sr-install-hooks.sh
+# Remove with:
+#     rm .git/hooks/pre-commit
+#
+# Host operator bypass:  SR_RECEIPT_GATE_BYPASS=1 git commit ...
+#     The bypass is now RECORDED on disk, not just printed:
+#     $SR_AUDIT_LOG (default /data/openclaw-workspace/gate-audit.jsonl).
+#     A bypass with `--no-verify` skips this hook entirely — the post-commit
+#     hook still records that commit, because `--no-verify` does not skip
+#     post-commit (verified on git 2.47.3).
+#
+# Self-test:              node scripts/sr-receipt-gate.mjs --selfcheck
+
+set -e
+GATE="$(git rev-parse --show-toplevel)/scripts/sr-receipt-gate.mjs"
+[ -f "$GATE" ] || exit 0
+exec node "$GATE"

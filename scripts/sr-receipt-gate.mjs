@@ -16,7 +16,11 @@
  * Exit 0 = allow. Exit 1 = refuse (commit blocked).
  *
  * OPERATOR ESCAPE HATCH: SR_RECEIPT_GATE_BYPASS=1 bypasses, and only the host
- * operator should ever set it. A bypass is printed loudly, never silent.
+ * operator should ever set it. A bypass is printed loudly, never silent, and
+ * it is RECORDED on disk (ts, staged paths, verdict, and the names of the
+ * receipts that said no) in $SR_AUDIT_LOG, default
+ * /data/openclaw-workspace/gate-audit.jsonl. The flag applies to the COMMIT
+ * path only: the deploy path (--worktree) never honours it.
  *
  * Usage:
  *   node scripts/sr-receipt-gate.mjs                 # read staged files from git
@@ -29,7 +33,72 @@ import { readFileSync, existsSync, readdirSync, mkdirSync, writeFileSync } from 
 import { join } from 'node:path';
 
 const PATCH_DIR = process.env.SR_PATCH_DIR || '/data/openclaw-workspace/patches';
-const BYPASS = process.env.SR_RECEIPT_GATE_BYPASS === '1';
+
+// Read at CALL time, not at import time: the self-check has to be able to
+// exercise the bypass path in-process, without re-spawning the process.
+export function bypassRequested() {
+  return process.env.SR_RECEIPT_GATE_BYPASS === '1';
+}
+
+// The durable audit writer lives next to this file. It is imported DYNAMICALLY
+// and its absence is tolerated on purpose: a host with an older checkout must
+// still be able to run the gate. The absence is LOUD, never silent — a control
+// that vanishes without a word is the defect class this exists to close.
+let writeAudit = null;
+try {
+  ({ writeAudit } = await import('./sr-gate-audit.mjs'));
+} catch {
+  writeAudit = null;
+}
+
+/** The repo root, or '' when git cannot answer. */
+export function repoRoot() {
+  try {
+    return execFileSync('git', ['rev-parse', '--show-toplevel'], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore'],
+    }).trim();
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * Record a bypass ON DISK. Called in BOTH directions — a bypass over a clean
+ * tree is exactly the case that used to be invisible, because the old code
+ * printed its one line only on the REFUSE path.
+ *
+ * Never throws and never changes the commit's fate: the verdict is already
+ * decided by the time this runs. A failed write is reported loudly, because a
+ * bypass nobody can see is the thing being fixed here.
+ */
+export function recordBypass({ staged, allow, rc, block, wouldRefuse }) {
+  const fields = {
+    event: 'bypass',
+    verdict: allow ? 'ALLOW' : 'REFUSE',
+    would_refuse: wouldRefuse === undefined ? !allow : Boolean(wouldRefuse),
+    rc,
+    paths: (staged || []).slice(0, 200),
+    path_count: (staged || []).length,
+    block: (block || []).slice(0, 20),
+    block_count: (block || []).length,
+    bypass_env: 'SR_RECEIPT_GATE_BYPASS=1',
+    repo: repoRoot(),
+    user: process.env.USER || process.env.LOGNAME || 'unknown',
+    pid: process.pid,
+  };
+  if (!writeAudit) {
+    console.error('  !! AUDIT UNAVAILABLE — scripts/sr-gate-audit.mjs could not be loaded.');
+    console.error('     This bypass is NOT recorded by the gate. The post-commit hook may still capture the commit.');
+    return { ok: false, error: 'audit module missing' };
+  }
+  const out = writeAudit(fields);
+  if (!out.ok) {
+    console.error(`  !! AUDIT WRITE FAILED — ${out.error}. This bypass is NOT recorded.`);
+    return out;
+  }
+  return out;
+}
 
 // A receipt refutes a commit when a value under any of these keys reads as a
 // refusal. Keys are matched at every depth because receipts in the wild disagree
@@ -154,7 +223,18 @@ export function receiptTargets(doc) {
  * receipt that governs the staged file.
  */
 export function findReceipts(staged, patchDir = PATCH_DIR) {
-  if (!existsSync(patchDir)) return { matched: [], unmappable: [] };
+  if (!existsSync(patchDir)) {
+    // MEASURED 2026-10-21T04:50Z: the receipt store lives OUTSIDE the repo
+    // (/data/openclaw-workspace/patches by default), so on any machine where it is
+    // not mounted — the host that actually runs deploy.sh — this used to return an
+    // empty match set and the gate printed a reassuring
+    // "OK (36 dirty shipped-content file(s), none governed by a refusing receipt)"
+    // and exited 0. That is the 0330Z failure class (a control that prints OK
+    // while governing nothing) sitting on the live deploy path: the guard shipped
+    // 0405Z would have waved EVERY deploy through. A missing store is now reported
+    // as INERT (rc=2) so it can never be read as a pass.
+    return { matched: [], unmappable: [], storeMissing: true, storePath: patchDir };
+  }
   const matched = [];
   const unmappable = [];
   for (const rf of readdirSync(patchDir).filter((f) => f.endsWith('.receipt.json'))) {
@@ -189,14 +269,32 @@ export function findReceipts(staged, patchDir = PATCH_DIR) {
     );
     if (hits.length) matched.push({ receipt: full, targets, hits });
   }
-  return { matched, unmappable };
+  return { matched, unmappable, storeMissing: false, storePath: patchDir };
 }
 
 export function gate(staged, patchDir = PATCH_DIR) {
   if (!staged.length) {
     return { allow: false, rc: 1, block: ['no staged files — nothing to adjudicate'], warn: [], receipts: [] };
   }
-  const { matched, unmappable } = findReceipts(staged, patchDir);
+  const { matched, unmappable, storeMissing, storePath } = findReceipts(staged, patchDir);
+  if (storeMissing) {
+    // NOT-RUN, not PASS. rc=2 is the house convention for "the gate could not
+    // execute" (see scripts/check-gate-chain.sh, defect D3). It is deliberately
+    // NOT rc=1: blocking every deploy because a control store is not mounted would
+    // be a self-inflicted outage, and a control that gets disabled within a day is
+    // worse than none. It is deliberately NOT rc=0 either: rc=0 is a verdict, and
+    // the entire point of this branch is that no verdict was reached.
+    return {
+      allow: true,
+      rc: 2,
+      block: [],
+      warn: [],
+      receipts: [],
+      inert: true,
+      storePath,
+      note: `RECEIPT STORE NOT FOUND (${storePath}) — nothing was adjudicated; this is NOT a pass`,
+    };
+  }
   const warn = unmappable.map((u) => `${u.receipt.split('/').pop()}: ${u.note}`);
   if (!matched.length) {
     return {
@@ -325,7 +423,9 @@ function selfcheck() {
   const wr = (n, s) => writeFileSync(join(tmp, n), s + '\n');
 
   let fails = 0;
+  let total = 0;
   const check = (ok, label, detail) => {
+    total++;
     if (!ok) fails++;
     console.log(`  ${ok ? 'PASS' : 'FAIL'}  ${label}${detail ? ` -> ${detail}` : ''}`);
   };
@@ -476,8 +576,139 @@ function selfcheck() {
     '',
   );
 
-  console.log(fails === 0 ? 'SELFTEST OK (21/21 controls)' : `SELFTEST FAILED (${fails} failing controls)`);
+  // 16. THE 0405Z DEPLOY-GUARD HOLE (measured 2026-10-21T04:50Z). The receipt
+  //     store lives outside the repo, so on the host the gate read NOTHING and
+  //     still printed "OK (... none governed by a refusing receipt)" with rc=0.
+  //     A missing store must be INERT (rc=2), never a pass.
+  const gInert = gate(['src/x.ts'], '/nonexistent/sr-receipt-store-selfcheck');
+  check(
+    gInert.inert === true && gInert.rc === 2,
+    'missing receipt store is INERT (rc=2), never a pass',
+    `rc=${gInert.rc} allow=${gInert.allow}`,
+  );
+  check(
+    gInert.note && /NOT a pass/i.test(gInert.note),
+    'the INERT verdict says in words that it is not a pass',
+    gInert.note || 'no note',
+  );
+
+  // 17. THE BYPASS AUDIT (measured 2026-10-21T05:35Z). Commit 870649cf landed
+  //     four files that three REFUSING receipts govern. The gate was live and
+  //     correct — replayed in an isolated clone it returns rc=1 and names all
+  //     three receipts — so the commit went in with `--no-verify` or with
+  //     SR_RECEIPT_GATE_BYPASS=1. Neither left a record: the bypass printed
+  //     ONE stderr line, only on the REFUSE path, and wrote nothing to disk.
+  //     A bypass is now written to the audit log in BOTH directions.
+  const auditLog = join(tmp, 'audit.jsonl');
+  const prevAuditLog = process.env.SR_AUDIT_LOG;
+  process.env.SR_AUDIT_LOG = auditLog;
+  const bypassed = recordBypass({
+    staged: ['src/data/exams/uganda/uneb.ts'],
+    allow: false,
+    rc: 1,
+    block: ['some.receipt.json: applied = "false"'],
+  });
+  check(bypassed.ok === true && existsSync(auditLog), 'a bypass writes a durable audit line', bypassed.error || '');
+  let auditRec = null;
+  try {
+    auditRec = JSON.parse(readFileSync(auditLog, 'utf8').trim().split('\n').pop());
+  } catch {
+    auditRec = null;
+  }
+  check(
+    !!auditRec && auditRec.event === 'bypass' && auditRec.verdict === 'REFUSE' && auditRec.rc === 1,
+    'the audit line records the event, the verdict and the rc',
+    auditRec ? JSON.stringify({ e: auditRec.event, v: auditRec.verdict, rc: auditRec.rc }) : 'unreadable',
+  );
+  check(
+    !!auditRec && Array.isArray(auditRec.paths) && auditRec.paths[0] === 'src/data/exams/uganda/uneb.ts',
+    'the audit line records the paths that were waved through',
+    auditRec ? JSON.stringify(auditRec.paths) : 'no paths',
+  );
+  // An OVERRIDE must be distinguishable from a clean allow: the record says
+  // what the gate said (would_refuse) and which receipts said no (block).
+  const overrideRec = (() => {
+    const p2 = join(tmp, 'audit-override.jsonl');
+    process.env.SR_AUDIT_LOG = p2;
+    recordBypass({
+      staged: ['src/data/exams/uganda/uneb.ts'],
+      allow: true,
+      rc: 0,
+      block: ['some.receipt.json: applied = "false"'],
+      wouldRefuse: true,
+    });
+    try {
+      return JSON.parse(readFileSync(p2, 'utf8').trim().split('\n').pop());
+    } catch {
+      return null;
+    }
+  })();
+  check(
+    !!overrideRec &&
+      overrideRec.verdict === 'ALLOW' &&
+      overrideRec.would_refuse === true &&
+      Array.isArray(overrideRec.block) &&
+      overrideRec.block.length === 1,
+    'an override records both the final verdict and the refusal it overrode',
+    overrideRec ? JSON.stringify({ v: overrideRec.verdict, w: overrideRec.would_refuse, b: overrideRec.block }) : 'unreadable',
+  );
+  process.env.SR_AUDIT_LOG = auditLog;
+  // The bypass env var must be read at CALL time, or the control above could
+  // never have exercised the path at all.
+  const prevBypass = process.env.SR_RECEIPT_GATE_BYPASS;
+  process.env.SR_RECEIPT_GATE_BYPASS = '1';
+  const bypassOn = bypassRequested();
+  process.env.SR_RECEIPT_GATE_BYPASS = '0';
+  const bypassOff = bypassRequested();
+  if (prevBypass === undefined) delete process.env.SR_RECEIPT_GATE_BYPASS;
+  else process.env.SR_RECEIPT_GATE_BYPASS = prevBypass;
+  check(
+    bypassOn === true && bypassOff === false,
+    'the bypass flag is read at call time',
+    `on=${bypassOn} off=${bypassOff}`,
+  );
+  // A broken audit trail must never break a commit: the writer returns a result
+  // object and does not throw, even when the destination is impossible.
+  // The impossible path here is a FILE used as a directory (ENOTDIR) — a
+  // deterministic, instant failure. A procfs path is NOT used: mkdirSync on
+  // /proc hangs forever on this host, which is why the writer never creates
+  // directories at all.
+  const badWrite = writeAudit
+    ? writeAudit({ event: 'bypass' }, join(tmp, 'audit.jsonl', 'nested.jsonl'))
+    : { ok: false, error: 'audit module missing' };
+  check(
+    badWrite.ok === false && typeof badWrite.error === 'string',
+    'a failed audit write is reported, not thrown',
+    badWrite.error || 'ok=true (the write should have failed)',
+  );
+  const missingDir = writeAudit
+    ? writeAudit({ event: 'bypass' }, join(tmp, 'no-such-dir', 'audit.jsonl'))
+    : { ok: false, error: 'audit module missing' };
+  check(
+    missingDir.ok === false && /does not exist/.test(missingDir.error || ''),
+    'a missing audit directory is reported, never created',
+    missingDir.error || 'ok=true (it should have refused to create a directory)',
+  );
+  if (prevAuditLog === undefined) delete process.env.SR_AUDIT_LOG;
+  else process.env.SR_AUDIT_LOG = prevAuditLog;
+
+  console.log(
+    fails === 0
+      ? `SELFTEST OK (${total - fails}/${total} controls)`
+      : `SELFTEST FAILED (${fails} failing control(s), ${total} total)`,
+  );
   process.exit(fails === 0 ? 0 : 1);
+}
+
+// The banner for the INERT case. It must be impossible to read as a pass: the
+// 0405Z deploy guard and the pre-commit hook both branch on the exit code, but a
+// human reading deploy logs reads this text.
+function printInert(storePath) {
+  console.error(`\n\x1b[33msr-receipt-gate: INERT — RECEIPT STORE NOT FOUND\x1b[0m — ${storePath}`);
+  console.error('  No receipt was read, so NOTHING was adjudicated. This is NOT a pass.');
+  console.error('  The receipt store lives outside this repo, so on a host where it is not');
+  console.error('  mounted every deploy would be waved through by a gate that read nothing.');
+  console.error('  Mount the store, or point SR_PATCH_DIR at the directory holding the *.receipt.json files.');
 }
 
 // Only act when run directly; importing this file for judgeReceipt()/gate() in a
@@ -495,6 +726,10 @@ if (!isMain) {
     process.exit(0);
   }
   const res = gate(files);
+  if (res.inert) {
+    printInert(res.storePath);
+    process.exit(res.rc);
+  }
   printWarns(res.warn || []);
   if (res.allow) {
     console.error(
@@ -516,13 +751,53 @@ if (!isMain) {
       ? argv[fi + 1].split(',').map((s) => s.trim()).filter(Boolean)
       : stagedFiles();
   const res = gate(staged);
+  if (res.inert) {
+    printInert(res.storePath);
+    process.exit(res.rc);
+  }
   printWarns(res.warn || []);
+  const bypassing = bypassRequested();
+  if (bypassing) {
+    // Record the bypass BEFORE acting on it, so the evidence exists even if
+    // the process dies on the next line. verdict is the FINAL outcome; the
+    // refusal it overrode is kept in `block` and `would_refuse`.
+    recordBypass({
+      staged,
+      // The FINAL outcome. When the flag overrides a refusal the effective
+      // verdict is ALLOW, and `would_refuse` keeps the refusal that was
+      // overridden, so an override can never be mistaken for a clean allow.
+      allow: res.allow || bypassing,
+      rc: res.allow || bypassing ? 0 : res.rc,
+      block: res.block || [],
+      wouldRefuse: !res.allow,
+    });
+  }
   if (res.allow) {
     if (res.note) console.error(`sr-receipt-gate: OK (${res.note})`);
+    if (bypassing) {
+      console.error('  !! SR_RECEIPT_GATE_BYPASS=1 was set — operator bypass, RECORDED in the audit log.');
+    }
+    process.exit(0);
+  }
+  if (bypassing) {
+    // THE DOCUMENTED ESCAPE HATCH, honoured ONLY on the commit path, and only
+    // after the audit line above has been written. The header of this file has
+    // always claimed the flag "bypasses"; the implementation never did — it
+    // printed one stderr line and then REFUSED anyway, so the flag was a
+    // documented hatch that no hatch could open (the same class as the 0405Z
+    // --worktree branch that did not exist). It is honoured now, and every
+    // use of it is on the record: ts, the staged paths, the verdict, and the
+    // names of the receipts that said no.
+    // The DEPLOY path (--worktree) does NOT honour this flag: a deploy is not
+    // a commit, and the operator's deploy decision must be made explicitly.
+    console.error('\n\x1b[31msr-receipt-gate: COMMIT REFUSED\x1b[0m — but SR_RECEIPT_GATE_BYPASS=1 is set.');
+    res.block.forEach((b) => console.error(`  - ${b}`));
+    console.error('  !! OPERATOR BYPASS: this commit is ALLOWED despite the refusal above.');
+    console.error('     The bypass is RECORDED in the audit log (ts, paths, verdict, receipts).');
+    console.error('     The deploy path (--worktree) does NOT honour this flag.');
     process.exit(0);
   }
   console.error('\n\x1b[31msr-receipt-gate: COMMIT REFUSED\x1b[0m');
-  if (BYPASS) console.error('  !! SR_RECEIPT_GATE_BYPASS=1 was set — operator bypass, recorded.');
   res.block.forEach((b) => console.error(`  - ${b}`));
   console.error('\n  A patch receipt says this edit did NOT land cleanly. Fix the content, or');
   console.error('  land the repair with a NEW receipt — do not commit against a rejected one.');

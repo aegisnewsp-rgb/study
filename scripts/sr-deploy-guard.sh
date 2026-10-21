@@ -31,6 +31,9 @@
 #   The missing gate is reported, never silently swallowed.
 #
 # Exit codes: 0 = deploy may proceed. 1 = abort the deploy.
+#   The gate underneath can also return 2 = NOT-RUN (receipt store unreachable);
+#   that is reported as a loud WARNING and the deploy proceeds, because a control
+#   that can never run is worse than one that says it did not run.
 # ─────────────────────────────────────────────────────────────────────────────
 
 set -uo pipefail
@@ -45,7 +48,27 @@ fi
 
 cd "$REPO_ROOT" || exit 1
 
-if ! node "$GATE" --worktree; then
+node "$GATE" --worktree
+rc=$?
+
+# rc=2 is NOT-RUN, not PASS (house convention: scripts/check-gate-chain.sh D3).
+# MEASURED 2026-10-21T04:50Z: the receipt store lives OUTSIDE this repo, so on the
+# host that actually runs deploy.sh it is not reachable and the gate read NOTHING
+# while printing a reassuring OK. The gate now says INERT instead. This guard must
+# NOT turn that into an outage: an unadjudicated deploy is bad, a deploy that can
+# never run is worse. It is a loud WARNING, and the operator sees it in the log.
+if [ "$rc" -eq 2 ]; then
+    {
+        echo ""
+        echo "DEPLOY GUARD WARNING: the receipt gate is INERT — the receipt store is not"
+        echo "  reachable from this machine, so NO receipt was adjudicated."
+        echo "  This deploy is proceeding WITHOUT receipt adjudication. It is not a pass."
+        echo "  To make the gate real here, mount the receipt store or set SR_PATCH_DIR."
+    } >&2
+    exit 0
+fi
+
+if [ "$rc" -ne 0 ]; then
     {
         echo ""
         echo "DEPLOY ABORTED: the working tree carries shipped content that a patch receipt refuses."

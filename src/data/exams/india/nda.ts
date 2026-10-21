@@ -99,5 +99,6 @@ const exam: ExamTemplate = {
   rescueMode,
   lastUpdated: '2026-07-28',
   officialSource: 'https://upsc.gov.in',
+  conductingBody: 'Union Public Service Commission (UPSC)',
 };
 export default exam;

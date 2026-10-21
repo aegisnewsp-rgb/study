@@ -63,6 +63,7 @@ const exam: ExamTemplate = {
   },
   lastUpdated: '2026-07-28',
   officialSource: 'https://gate2026.iitg.ac.in/',
+  conductingBody: 'National Coordination Board – GATE',
 };
 
 export default exam;

@@ -1,0 +1,34 @@
+{
+  "_comment": "Strings a curate verdict REFUSED, which must never be present in shipped content. Read by scripts/check-rejected-content-live.mjs. Each entry names the exact shipped literal that was rejected; the gate matches the FULL literal, never a fragment, because a fragment match produces false positives (e.g. 'section time limits' is a legitimate phrase on /exams/hpat/ - it is a per-SECTION timing table on that page, and only the full TNPSC snippet was rejected).",
+  "version": 1,
+  "entries": [
+    {
+      "id": "VQZO-20261021T1235Z-uptet-circular-appositive",
+      "rejected_string": "UPTET is conducted by the U.P. Directorate of Elementary Education, the conducting body, Prayagraj. Paper I for Classes I-V, Paper II for VI-VIII.",
+      "source_curate": "curate-VQZO-20261021T1235Z-firstscreen-measured-8-rows.json",
+      "source_patch": "VQZO-20261021T1235Z-firstscreen-measured-8-rows.diff",
+      "rejected_on": "2026-10-21T12:51:00Z",
+      "reason": "BLOCKING (check 4, keyword stuffing / natural English). Welds 'is conducted by X' to the appositive 'the conducting body', which is circular and comma-splices a three-item list. Fixed in VQZO-20261021T1250Z-firstscreen-8-rows-curate-fix.diff.",
+      "fixed_by": "97953e0a"
+    },
+    {
+      "id": "VQZO-20261021T1235Z-nce-unsupported-trcn",
+      "rejected_string": "NCE stands for Nigeria Certificate in Education, a teacher qualification awarded by NCCE, the National Commission for Colleges of Education. TRCN follows.",
+      "source_curate": "curate-VQZO-20261021T1235Z-firstscreen-measured-8-rows.json",
+      "source_patch": "VQZO-20261021T1235Z-firstscreen-measured-8-rows.diff",
+      "rejected_on": "2026-10-21T12:51:00Z",
+      "reason": "BLOCKING (check 1, changed claim with no page support). 'TRCN follows.' asserted a body that no page carries: grep -rn TRCN src/ hit only this file, and only inside comments. Fixed in VQZO-20261021T1250Z-firstscreen-8-rows-curate-fix.diff.",
+      "fixed_by": "97953e0a"
+    },
+    {
+      "id": "VQZO-20261021T1235Z-tnpsc-per-section-time-limits",
+      "rejected_string": "TNPSC Group 1 exam duration, marks and negative marking: prelims and mains paper structure, section time limits and how marks split across the two stages.",
+      "source_curate": "curate-VQZO-20261021T1235Z-firstscreen-measured-8-rows.json",
+      "source_patch": "VQZO-20261021T1235Z-firstscreen-measured-8-rows.diff",
+      "rejected_on": "2026-10-21T13:06:00Z",
+      "reason": "Changed claim with no page support (found by re-deriving the page body, after the curate). The TNPSC body states per-PAPER durations only ('200 questions carrying 300 marks (3 hours duration)', 'four descriptive papers of 3 hours each') and uses 'section' only for notification section numbers (1.11.3, 1.11.1.8 to 1.11.1.12). Fixed in VQZO-20261021T1250Z-firstscreen-8-rows-curate-fix.diff.",
+      "fixed_by": "97953e0a"
+    }
+  ],
+  "how_to_add": "When a curate verdict refuses a specific shipped string, add an entry here with the EXACT literal (copy it from the file, do not paraphrase), the curate artifact that refused it, and the reason. The gate will then refuse the tree while that literal is live, and pass once it is gone. A rejected string is a fact about a shipped literal, not about a rule, so a rule-shaped rejection (e.g. 'demote every H3') does NOT belong here - that shape is governed by the patch-level receipt."
+}

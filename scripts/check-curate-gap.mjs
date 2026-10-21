@@ -26,13 +26,35 @@
  *           name may or may not carry the .diff extension. A single glob cannot
  *           enumerate form A, which is why this drifted. So form A is matched by
  *           NAME CONTAINMENT **and** by the curate file's own "patch" field.
- *   form B  a verdict embedded in <name>.diff.receipt.json: ok:true, or
+ *   form B  a verdict embedded in <name>.diff.receipt.json: ok:true, or the
+ *           house string adjudication curate_verdict:"ok=true", or
  *           status in {APPLIED_AND_COMMITTED, SHIPPED, APPLIED, LANDED, CURATED}.
  *
  *   A REFUSAL IS NOT A VERDICT. ok:false with verdict "AWAITING_CURATOR" is a
  *   patch that still owes an audit; it is counted as UNCURATED, because counting
  *   it as audited is how a 13-reason REJECT could sit next to a pulse that
  *   reported "curated" for it.
+ *
+ *   A LIFECYCLE STATE IS NOT A VERDICT EITHER (measured 2026-10-21T16:35Z).
+ *   state=APPLIED__COMMITTED_5545b51d says THE PATCH LANDED. It says nothing
+ *   about a curator looking at it. Before this rule the gate read that string
+ *   as a verdict, so a patch nobody ever adjudicated was counted as CURATED:
+ *   MEASURED on the live store, 11 receipts carried a lifecycle state and no
+ *   adjudication at all - one of them
+ *   (VQZO-20261021T1150Z-ungoverned-content-census.diff, state
+ *   APPLIED__CARRIED_BY_THE_COMMIT_THAT_ADDS_THIS_TARGET) says so in as many
+ *   words - and the gauge reported a gap of 0 while 9 of them sat inside the
+ *   24h window. A gauge that reads green while blind is worse than no gauge.
+ *   A lifecycle state is now reported as UNCURATED, with the reason printed,
+ *   so the patch is owed an audit and the operator can see that it is owed.
+ *
+ *   THE ADJUDICATION VOCABULARY IS WIDER THAN ONE SPELLING (measured
+ *   2026-10-21T16:35Z). Two receipts in the live store carry their verdict
+ *   ONLY as the string curate_verdict:"ok=true" - the token list did not
+ *   recognise that spelling, so those patches were credited to their
+ *   lifecycle state instead of to the adjudication that actually exists.
+ *   Both spellings are now read, and a lifecycle state is never read as a
+ *   verdict on its own.
  *
  * WHAT IT DOES NOT DECIDE
  *   It does not judge content, and it never flips a receipt. It reports which
@@ -126,6 +148,24 @@ function stemOf(name) {
   return name;
 }
 
+/**
+ * Form-A verdict files.
+ *
+ * MEASURED 2026-10-21T16:35Z: the enumeration used to be
+ * names.startsWith('curate-'), so a verdict file named <stem>.curate.json was
+ * invisible to it - and one of those files exists in the live store
+ * (VQZO-20261021T1150Z-gce-ol-math-paper-duration-fact-correction.curate.json,
+ * ok:true). The patch it adjudicates was therefore credited to the LIFECYCLE
+ * state in its receipt instead of to the adjudication that actually exists,
+ * and the same patch would have been reported UNCURATED if its receipt had not
+ * carried that state. Form A is now: any *.json in the patch dir whose name
+ * mentions "curate" in either position. Receipts are excluded, because a
+ * receipt is form B, not form A.
+ */
+function curateFileNames(names) {
+  return names.filter((n) => n.endsWith('.json') && n.includes('curate') && !n.endsWith('.receipt.json'));
+}
+
 function isPatchFile(name) {
   if (name.endsWith('.receipt.json')) return false;
   if (name.startsWith('curate-')) return false;
@@ -166,9 +206,21 @@ function verdictInReceipt(receiptPath) {
   for (const f of fields) {
     if (f.leaf === 'ok' && f.value === true) return { home: 'B', why: `receipt ${f.key}=true` };
   }
+  // The house string adjudication: curate_verdict:"ok=true" (with or without a
+  // trailing justification). MEASURED 2026-10-21T16:35Z - two receipts in the
+  // live store carry their adjudication ONLY in this spelling, and the token
+  // list below did not recognise it, so those patches were credited to their
+  // lifecycle state instead of to the adjudication that exists.
+  for (const f of fields) {
+    if (!['verdict', 'curate_verdict', 'outcome'].includes(f.leaf)) continue;
+    const v = typeof f.value === 'string' ? f.value : JSON.stringify(f.value);
+    if (/\bok\s*[:=]\s*true\b/i.test(v)) return { home: 'B', why: `receipt ${f.key}="${v.slice(0, 60)}"` };
+  }
   // A REFUSAL is not a verdict, so an explicit ok:false anywhere in the receipt
   // wins over the state/status token below.
-  const explicitRefusal = fields.find((f) => f.leaf === 'ok' && f.value === false);
+  const explicitRefusal = fields.find((f) => f.leaf === 'ok' && f.value === false)
+    || fields.find((f) => ['verdict', 'curate_verdict', 'outcome'].includes(f.leaf)
+      && /\bok\s*[:=]\s*false\b/i.test(String(f.value)));
   if (!explicitRefusal) {
     for (const f of fields) {
       if (f.leaf !== 'status' && f.leaf !== 'state') continue;
@@ -184,7 +236,13 @@ function verdictInReceipt(receiptPath) {
       // CURATED}"), so match the first token.
       const first = raw.split('__')[0].trim().toUpperCase();
       if (VERDICT_STATUSES.has(raw.toUpperCase()) || VERDICT_STATUSES.has(first)) {
-        return { home: 'B', why: `receipt ${f.key}=${raw.slice(0, 60)}` };
+        // A LIFECYCLE state is not an adjudication. See the header: before
+        // 2026-10-21T16:35Z this returned home 'B' and a patch nobody had
+        // adjudicated was counted as CURATED.
+        return {
+          home: null,
+          why: `receipt ${f.key}=${raw.slice(0, 60)} is a LIFECYCLE state (the patch landed), not a curator adjudication`,
+        };
       }
     }
   }
@@ -265,14 +323,21 @@ function findSuperseder(patchName, targets, entries) {
     if (e.name === patchName) continue;
     if (e.mtimeMs <= mine) continue;
     if (!e.targets.some((t) => targets.includes(t))) continue;
-    if (e.verdict) return e.name;
+    // MEASURED 2026-10-21T16:35Z: this used to read `if (e.verdict)`, but a
+    // verdict OBJECT is always truthy - collect() assigns {home:null, why:...}
+    // when there is no verdict - so the FIRST newer patch on the same target
+    // was reported as the superseder even when it carried no adjudication at
+    // all. That hides a real gap behind a "superseded" label. A superseder must
+    // carry an APPROVAL (form A or form B); a refusal does not retire the
+    // artifact it refuses.
+    if (e.verdict && (e.verdict.home === 'A' || e.verdict.home === 'B')) return e.name;
   }
   return null;
 }
 
 function collect() {
   const names = fs.readdirSync(PATCH_DIR);
-  const curateFiles = names.filter((n) => n.startsWith('curate-') && n.endsWith('.json'));
+  const curateFiles = curateFileNames(names);
   const patchNames = names.filter(isPatchFile);
   const entries = patchNames.map((name) => {
     const full = path.join(PATCH_DIR, name);
@@ -374,7 +439,7 @@ function selfTest() {
   const d2 = path.join(tmp, 'home-b');
   fs.mkdirSync(d2);
   mk(d2, 'p2.diff', patchBody('src/y.ts'));
-  mk(d2, 'p2.diff.receipt.json', JSON.stringify({ status: 'SHIPPED', applied: true }));
+  mk(d2, 'p2.diff.receipt.json', JSON.stringify({ ok: true, status: 'SHIPPED', applied: true }));
   // p3: a REFUSAL in the receipt is not a verdict
   const d3 = path.join(tmp, 'refusal');
   fs.mkdirSync(d3);
@@ -399,10 +464,12 @@ function selfTest() {
   mk(d6, 'p7.diff', patchBody('src/u.ts'));
   mk(d6, 'curate-p7.json', JSON.stringify({ ok: true, reasons: [] }));
   // p8: the house receipt shape - the verdict is a TOKEN CHAIN in `state`
+  // (MEASURED 2026-10-21T16:35Z: the token chain alone is a LIFECYCLE state,
+  // so the house receipt pairs it with a string adjudication)
   const d8 = path.join(tmp, 'state-chain');
   fs.mkdirSync(d8);
   mk(d8, 'p8.diff', patchBody('src/s.ts'));
-  mk(d8, 'p8.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_5545b51d__SOURCE_RECONFIRMED_2026-10-21', applied: true }));
+  mk(d8, 'p8.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_5545b51d__SOURCE_RECONFIRMED_2026-10-21', applied: true, curate_verdict: 'ok=true (factually correct)' }));
   // p9: a state that says NOT COMMITTED must NOT read as a verdict
   const d9 = path.join(tmp, 'state-not-committed');
   fs.mkdirSync(d9);
@@ -424,11 +491,47 @@ function selfTest() {
   mk(d12, 'p12.diff', patchBody('src/m.ts'));
   mk(d12, 'curate-p12.json', JSON.stringify({ ok: false, reasons: ['refused'] }));
   mk(d12, 'p12.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_abc123', applied: true }));
+  // p13: a LIFECYCLE state alone is NOT an adjudication. The live store holds
+  // 11 receipts of this shape, one of them carrying the state
+  // APPLIED__CARRIED_BY_THE_COMMIT_THAT_ADDS_THIS_TARGET - "carried by a
+  // commit", not "looked at by a curator". Before 2026-10-21T16:35Z this read
+  // as a verdict and the gauge reported a gap of 0.
+  const d13 = path.join(tmp, 'lifecycle-only');
+  fs.mkdirSync(d13);
+  mk(d13, 'p13.diff', patchBody('src/l.ts'));
+  mk(d13, 'p13.diff.receipt.json', JSON.stringify({ state: 'APPLIED__CARRIED_BY_THE_COMMIT_THAT_ADDS_THIS_TARGET', applied: true }));
+  // p14: the house STRING adjudication, with no boolean ok field
+  const d14 = path.join(tmp, 'string-adjudication');
+  fs.mkdirSync(d14);
+  mk(d14, 'p14.diff', patchBody('src/k.ts'));
+  mk(d14, 'p14.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_abc123', applied: true, curate_verdict: 'ok=true (factually correct; removes a false claim)' }));
+  // p15: a form-A verdict file named <stem>.curate.json - the second spelling
+  // the house uses. The old enumeration (startsWith('curate-')) could not see
+  // it, and one of these exists in the live store.
+  const d15 = path.join(tmp, 'form-a-second-spelling');
+  fs.mkdirSync(d15);
+  mk(d15, 'p15.diff', patchBody('src/j.ts'));
+  mk(d15, 'p15.curate.json', JSON.stringify({ ok: true, reasons: [], patch: 'p15.diff' }));
+  // p16: the house STRING refusal - ok=false is not an approval
+  const d16 = path.join(tmp, 'string-refusal');
+  fs.mkdirSync(d16);
+  mk(d16, 'p16.diff', patchBody('src/i.ts'));
+  mk(d16, 'p16.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_abc123', applied: true, curate_verdict: 'ok=false (rejected: the copy is not delivered)' }));
+  // p17: a newer patch on the same target that carries NO adjudication does not
+  // retire the older artifact. MEASURED 2026-10-21T16:35Z: the superseder
+  // check read `if (e.verdict)`, and a verdict OBJECT is always truthy, so the
+  // first newer patch on the target was reported as the superseder even with
+  // no verdict at all - a real gap hidden behind a "superseded" label.
+  const d17 = path.join(tmp, 'superseder-uncurated');
+  fs.mkdirSync(d17);
+  mk(d17, 'p17.diff', patchBody('src/h.ts'));
+  mk(d17, 'p18.diff', patchBody('src/h.ts'));
+  mk(d17, 'p18.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_abc123', applied: true }));
 
   // The scanner is exercised through the same helpers the report path uses.
   const scan = (dir) => {
     const names = fs.readdirSync(dir);
-    const curateFiles = names.filter((n) => n.startsWith('curate-') && n.endsWith('.json'));
+    const curateFiles = curateFileNames(names);
     const patchNames = names.filter(isPatchFile);
     const entries = patchNames.map((name) => {
       const full = path.join(dir, name);
@@ -465,7 +568,7 @@ function selfTest() {
     p6.verdict.home === null && findSuperseder('p6.diff', p6.targets, s6) === 'p7.diff');
 
   const s8 = scan(d8);
-  check('a token-chain state in `state` IS a verdict',
+  check('a token-chain state PLUS a string adjudication IS a verdict',
     s8.find((e) => e.name === 'p8.diff').verdict.home === 'B',
     s8.find((e) => e.name === 'p8.diff').verdict.why);
 
@@ -486,6 +589,31 @@ function selfTest() {
   check('a refusal outranks a receipt that says APPLIED',
     s12.find((e) => e.name === 'p12.diff').verdict.home === 'R',
     s12.find((e) => e.name === 'p12.diff').verdict.why);
+
+  const s13 = scan(d13);
+  check('a LIFECYCLE state alone is NOT a verdict',
+    s13.find((e) => e.name === 'p13.diff').verdict.home === null,
+    s13.find((e) => e.name === 'p13.diff').verdict.why);
+
+  const s14 = scan(d14);
+  check('a string adjudication (curate_verdict:"ok=true") IS a verdict',
+    s14.find((e) => e.name === 'p14.diff').verdict.home === 'B',
+    s14.find((e) => e.name === 'p14.diff').verdict.why);
+
+  const s15 = scan(d15);
+  check('a form-A verdict file named <stem>.curate.json is found',
+    s15.find((e) => e.name === 'p15.diff').verdict.home === 'A',
+    s15.find((e) => e.name === 'p15.diff').verdict.why);
+
+  const s16 = scan(d16);
+  check('a string refusal (ok=false) is NOT an approval',
+    s16.find((e) => e.name === 'p16.diff').verdict.home === null,
+    s16.find((e) => e.name === 'p16.diff').verdict.why);
+
+  const s17 = scan(d17);
+  check('a newer UNADJUDICATED patch on the same target is NOT a superseder',
+    findSuperseder('p17.diff', ['src/h.ts'], s17) === null,
+    String(findSuperseder('p17.diff', ['src/h.ts'], s17)));
 
   // A refused patch is adjudicated, so it is not a curate GAP - but it is also
   // not an approval, so it must not be counted as curated either.

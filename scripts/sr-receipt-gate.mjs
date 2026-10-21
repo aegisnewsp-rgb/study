@@ -226,14 +226,29 @@ export function gate(staged, patchDir = PATCH_DIR) {
  *   forever, including legitimate news updates, and the operator would disable it
  *   within a day. Only editorial content paths are adjudicated here.
  *
- * src/data/site-revision.json is a release marker, not content. It sits under
- * src/data/ but NOT under src/data/exams/, so the prefix list already excludes it;
- * NEVER_GATE is a second, explicit line of defence so a future widening of
- * src/data/ cannot silently pull it back in.
+ * src/data/site-revision.json and public/revision.json are release markers, not
+ * content. MEASURED 2026-10-21T0412Z: both are written at BUILD time (identical
+ * mtime 02:35:28Z = the 02:35Z build the operator reported), so they are dirty
+ * on every deploy for reasons that have nothing to do with editorial work.
+ * NEVER_GATE is the explicit line of defence that keeps them out, so a future
+ * widening of the prefix list cannot silently pull them back in.
+ *
+ * WIDENED 2026-10-21T0412Z: src/data/ (not just src/data/exams/). The operator's
+ * 0240Z brief listed three prefixes, but src/data/ ROOT holds shipped content
+ * too: exam-faqs.ts is imported by src/pages/roadmap.astro and
+ * src/pages/exams/[exam].astro, and seo-meta-overrides.ts by four more pages.
+ * A guard that cannot see those two is blind to the most-edited data files in
+ * the repo. Editor backups (*.bak) are untracked and are excluded by NEVER_GATE.
+ * public/ stays OUT on purpose: public/news.json is machine-generated and
+ * committed by the news bot, and judging it would be the permanent-red trap.
  */
-const SHIPPED_CONTENT_PREFIXES = ['src/content/', 'src/data/exams/', 'src/pages/'];
+const SHIPPED_CONTENT_PREFIXES = ['src/content/', 'src/data/', 'src/pages/'];
 const SHIPPED_CONTENT_EXACT = new Set(['src/content.config.ts']);
-const NEVER_GATE = [/site-revision\.json$/, /(^|\/)revision\.json$/];
+const NEVER_GATE = [
+  /site-revision\.json$/,
+  /(^|\/)revision\.json$/,
+  /\.bak($|-)/,
+];
 
 export function isShippedContentPath(f) {
   if (NEVER_GATE.some((re) => re.test(f))) return false;
@@ -442,8 +457,26 @@ function selfcheck() {
   check(isShippedContentPath('src/pages/index.astro'), 'src/pages/... is judged', '');
   check(!isShippedContentPath('scripts/sr-receipt-gate.mjs'), 'scripts/... is NOT judged (not shipped content)', '');
   check(!isShippedContentPath('src/data/exam-faqs.ts.bak-20261017T072732Z'), 'a .bak in src/data is NOT judged', '');
+  // 15. WIDENED SCOPE (2026-10-21T0412Z). The operator's 0240Z brief named three
+  //     prefixes; src/data/ ROOT also holds shipped content. These three controls
+  //     pin the widened scope in BOTH directions so it can never drift back.
+  check(
+    isShippedContentPath('src/data/exam-faqs.ts'),
+    'src/data/exam-faqs.ts IS judged (imported by roadmap.astro and exams/[exam].astro)',
+    '',
+  );
+  check(
+    isShippedContentPath('src/data/seo-meta-overrides.ts'),
+    'src/data/seo-meta-overrides.ts IS judged (imported by 4 pages)',
+    '',
+  );
+  check(
+    !isShippedContentPath('public/news.json'),
+    'public/ is NOT judged (news bot commits it; machine-generated)',
+    '',
+  );
 
-  console.log(fails === 0 ? 'SELFTEST OK (18/18 controls)' : `SELFTEST FAILED (${fails} failing controls)`);
+  console.log(fails === 0 ? 'SELFTEST OK (21/21 controls)' : `SELFTEST FAILED (${fails} failing controls)`);
   process.exit(fails === 0 ? 0 : 1);
 }
 

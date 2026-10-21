@@ -2,6 +2,18 @@
 set -e
 cd /srv/studyroadmap
 
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+
+# A deploy builds the WORKING TREE (Dockerfile:6 `COPY . .`), so content that no
+# commit ever touched would ship unless something adjudicates the tree itself.
+# Added 2026-10-21T04:12Z; the operator's 02:40Z brief asked for exactly this and
+# measured the leak. See scripts/sr-deploy-guard.sh for the full reasoning.
+echo "=== RECEIPT GATE (dirty shipped-content tree) ==="
+bash "$REPO_ROOT/scripts/sr-deploy-guard.sh" || {
+    echo "DEPLOY ABORTED by receipt gate." >&2
+    exit 1
+}
+
 echo "=== BUILD ==="
 npm run build 2>&1 | tail -5
 

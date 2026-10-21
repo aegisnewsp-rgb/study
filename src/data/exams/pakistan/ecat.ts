@@ -151,6 +151,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ecat.uet.edu.pk/',
+  conductingBody: 'University of Engineering and Technology (UET) Lahore',
 };
 
 export default exam;

@@ -75,6 +75,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-20',
   officialSource: 'https://portal.mpm.edu.my/images/dokumen/calon-peperiksaan/muet/regulation/Regulations_and_Test_Specifications.pdf',
+  conductingBody: 'Majlis Peperiksaan Malaysia (MPM)',
 };
 
 export default exam;

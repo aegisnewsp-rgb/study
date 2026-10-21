@@ -70,6 +70,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://natboard.edu.in/viewnbeexam?exam=fmge',
+  conductingBody: 'National Board of Examinations in Medical Sciences (NBEMS)',
 };
 
 export default exam;

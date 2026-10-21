@@ -58,6 +58,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.jamb.gov.ng',
+  conductingBody: 'Individual Nigerian Universities (regulated by JAMB)',
 };
 
 export default exam;

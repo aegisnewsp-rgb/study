@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ibps.in/index.php/clerical-cadre/',
+  conductingBody: 'Institute of Banking Personnel Selection (IBPS)',
 };
 
 export default exam;

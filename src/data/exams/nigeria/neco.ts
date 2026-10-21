@@ -252,6 +252,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://neco.gov.ng',
+  conductingBody: 'National Examinations Council (NECO)',
 };
 
 export default exam;

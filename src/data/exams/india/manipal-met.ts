@@ -57,6 +57,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://manipal.edu/mu-met',
+  conductingBody: 'Manipal Academy of Higher Education (MAHE)',
 };
 
 export default exam;

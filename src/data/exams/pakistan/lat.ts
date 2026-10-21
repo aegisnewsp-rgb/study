@@ -150,6 +150,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://etc.hec.gov.pk',
+  conductingBody: 'Higher Education Commission of Pakistan (HEC)',
 };
 
 export default exam;

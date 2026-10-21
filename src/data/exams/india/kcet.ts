@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://cetonline.karnataka.gov.in/kea/',
+  conductingBody: 'Karnataka Examinations Authority (KEA)',
 };
 
 export default exam;

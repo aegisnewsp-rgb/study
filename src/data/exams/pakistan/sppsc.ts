@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://spsc.gos.pk/',
+  conductingBody: 'Sindh Public Service Commission (SPSC)',
 };
 
 export default exam;

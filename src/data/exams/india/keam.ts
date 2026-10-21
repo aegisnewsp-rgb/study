@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://cee.kerala.gov.in/',
+  conductingBody: 'Commissioner for Entrance Examinations, Kerala (CEE Kerala)',
 };
 
 export default exam;

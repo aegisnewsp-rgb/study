@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-22',
   officialSource: 'https://viteee.vit.ac.in/',
+  conductingBody: 'Vellore Institute of Technology (VIT)',
 };
 
 export default exam;

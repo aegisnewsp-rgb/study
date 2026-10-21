@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.gseb.org/',
+  conductingBody: 'Gujarat Secondary and Higher Secondary Education Board (GSEB)',
 };
 
 export default exam;

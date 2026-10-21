@@ -58,6 +58,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ug.edu.gh',
+  conductingBody: 'University of Ghana',
 };
 
 export default exam;

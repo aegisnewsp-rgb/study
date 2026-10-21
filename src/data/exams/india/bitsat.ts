@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.bits-pilani.ac.in/bitsat/',
+  conductingBody: 'Birla Institute of Technology and Science, Pilani (BITS Pilani)',
   historicalCutoffs: [
     { year: 2024, categoryOrStream: 'BITS Pilani Campus — Computer Science (B.E.)', scoreOrRank: '325–330 / 390', remarks: 'Iteration 6 closing score' },
     { year: 2024, categoryOrStream: 'BITS Goa Campus — Computer Science (B.E.)', scoreOrRank: '298–302 / 390', remarks: 'Iteration 6 closing score' },

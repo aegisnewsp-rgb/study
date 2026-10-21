@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://eapcet.tgche.ac.in/',
+  conductingBody: 'Telangana State Council of Higher Education (TSCHE)',
 };
 
 export default exam;

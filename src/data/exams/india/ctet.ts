@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ctet.nic.in/',
+  conductingBody: 'Central Board of Secondary Education (CBSE)',
 };
 
 export default exam;

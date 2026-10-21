@@ -146,9 +146,9 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/mcat/': {
-    title: 'MCAT Pakistan: Full Form & 4 Subject Areas',
+    title: 'MDCAT (MCAT) Pakistan 2026: 4 Subject Areas & Pattern',
     description:
-      'MCAT Pakistan, run by PMDC, is the single medical entrance test for medical colleges in Pakistan: four subject areas, multiple-choice.',
+      "MDCAT (formerly MCAT), run by PMDC, is Pakistan's single medical entrance test for MBBS and BDS: four subject areas, 180 MCQs in 3 hours.",
     query: 'what is mdcat exam in pakistan (11.8%), mcat pakistan, mcat exam pakistan',
     gscImpressions: 2513,
   },
@@ -291,7 +291,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     // PMS is a Punjab exam, not a Sindh one. No marks, fees or dates introduced.
     title: 'PPSC Full Form: Punjab Public Service Commission Exam',
     description:
-      'PPSC is the Punjab Public Service Commission, the constitutional body that runs Punjab competitive exams, including the PMS civil service exam.',
+      'PPSC is the Punjab Public Service Commission of Pakistan, the constitutional body running Punjab competitive exams, including the PMS civil service exam.',
     query: 'ppsc pakistan (22.4%), what is ppsc exam in pakistan (20.8%)',
     gscImpressions: 1107,
   },
@@ -401,7 +401,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/ras/': {
     title: 'RPSC RAS Exam Pattern: Prelims, Mains, Interview',
     description:
-      'RPSC RAS has three stages: Preliminary, Main and Personality Test. Paper structure, marks, duration and eligibility.',
+      'RPSC RAS has three stages: Prelims, Mains, Personality Test. Prelims: 150 questions, 200 marks, 3 hours, 1/3 negative marking.',
     query: 'ras exam pattern (31.5%), ras negative marking (4.5%)',
     gscImpressions: 764,
   },
@@ -459,9 +459,25 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/nda/': {
-    title: 'NDA Roadmap & Exam: Computer-Based, Two Papers',
+    // 2026-10-21 vqzo: the snippet said "Computer-Based" and the page's own
+    // first screen said "Exam Mode: Pen & Paper (OMR / Written)" -- the same
+    // page contradicted itself, and the snippet was the wrong half. The
+    // measured query is "is nda exam computer based" (11.2% of 638 GSC 28d
+    // impressions, frozen window 2026-09-10..2026-10-07), so the snippet was
+    // answering a direct question with a false premise.
+    // Primary source: UPSC Examination Notice No. 3/2026-NDA-I, dated 10.12.2025
+    // (107pp, notice file mirrored on cdn.testbook.com; upsc.gov.in hosts the
+    // same file as "Download Notification Notice (2.2 MB)"): "For both writing
+    // and marking answers in the OMR sheet (Answer Sheet) candidates must use
+    // black ball pen only." An OMR answer sheet is an offline, pen-and-paper
+    // paper. Corroborated for both 2026 sittings (NDA-I on 12.04.2026, NDA-II
+    // on 13.09.2026) by testbook, careers360, pw.live, bharatmock,
+    // educationtoday and nationdefenceacademy.
+    // CBT is only "possible introduction ... in [future]" (shoorveerdefenceacademy).
+    // The copy now answers the measured query truthfully instead of repeating it.
+    title: 'NDA Roadmap 2026: Offline (Pen-Paper), Two Papers',
     description:
-      'NDA exam roadmap for UPSC NDA: is it computer based, what are the two objective papers, marks, duration and the written and SSB stages after the written.',
+      'NDA roadmap 2026: the written exam runs offline (pen and paper) with OMR answer sheets, not computer-based - two papers, marks, duration, SSB.',
     query: 'nda roadmap (30.5%), is nda exam computer based (11.2%)',
     gscImpressions: 638,
   },

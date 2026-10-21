@@ -148,7 +148,7 @@ const exam: ExamTemplate = {
   examId: 'nabteb',
   examName: 'NABTEB',
   country: 'nigeria',
-  description: 'NABTEB (National Business and Technical Examinations Board) conducts technical and vocational examinations in Nigeria. Recognized for admission to technical degree programs and professional certifications.',
+  description: 'NABTEB (National Business and Technical Examinations Board) conducts technical and vocational examinations in Nigeria. It also runs the National Technical Certificate (NTC), informally known as Naptech. Recognized for admission to technical degree programs and professional certifications.',
   examPattern: 'Technical subjects vary by programme. Typically 3-5 papers per subject including theory and practical. Internal/external examination structure administered twice yearly (Nov/Dec and April/May).',
   eligibility: 'Passed Class 12/JSS3 with relevant technical background. For advanced programmes, ND/NCE certification required. Age requirements vary by institution.',
   subjects,

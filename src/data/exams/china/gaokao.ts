@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.neea.edu.cn',
+  conductingBody: 'Ministry of Education, China',
 };
 
 export default exam;

@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://rpsc.rajasthan.gov.in/',
+  conductingBody: 'Rajasthan Public Service Commission (RPSC)',
 };
 
 export default exam;

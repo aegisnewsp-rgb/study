@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.accaglobal.com/pk/en.html',
+  conductingBody: 'Institute of Chartered Accountants of Pakistan (ICAP)',
 };
 
 export default exam;

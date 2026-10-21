@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://aktu.ac.in/',
+  conductingBody: 'Dr. A.P.J. Abdul Kalam Technical University (AKTU)',
 };
 
 export default exam;

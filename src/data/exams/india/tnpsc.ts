@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-18',
   officialSource: 'https://www.tnpsc.gov.in',
+  conductingBody: 'Tamil Nadu Public Service Commission (TNPSC)',
 };
 
 export default exam;

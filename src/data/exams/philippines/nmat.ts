@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.cem-inc.org.ph',
+  conductingBody: 'Center for Educational Measurement (CEM)',
 };
 
 export default exam;

@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://kpsc.kar.nic.in/',
+  conductingBody: 'Karnataka Public Service Commission (KPSC)',
 };
 
 export default exam;

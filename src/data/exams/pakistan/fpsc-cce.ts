@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://fpsc.gov.pk/category/all-written-css-exams',
+  conductingBody: 'Federal Public Service Commission (FPSC)',
 };
 
 export default exam;

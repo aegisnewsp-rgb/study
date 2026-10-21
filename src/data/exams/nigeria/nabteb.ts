@@ -165,6 +165,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.nabtebnigeria.org',
+  conductingBody: 'National Board of Examinations and Tests (NABTEB)',
 };
 
 export default exam;

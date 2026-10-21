@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ppsc.gop.pk/',
+  conductingBody: 'Punjab Public Service Commission (PPSC)',
 };
 
 export default exam;

@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.kppsc.gov.pk/',
+  conductingBody: 'Khyber Pakhtunkhwa Public Service Commission (KPPSC)',
 };
 
 export default exam;

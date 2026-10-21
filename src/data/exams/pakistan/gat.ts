@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.nts.org.pk/new/GAT-G.php',
+  conductingBody: 'National Testing Service (NTS)',
 };
 
 export default exam;

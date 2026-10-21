@@ -45,6 +45,13 @@ export interface ExamTemplate {
   rescueMode?: RescueTemplate;
   lastUpdated?: string;
   officialSource?: string;
+  /**
+   * Name of the body that conducts the exam, for the first-screen answer capsule
+   * and the exam-prose "conducted by ..." sentence. Preferred over the bare-domain
+   * fallback the resolver derives from `officialSource`, because a capsule labelled
+   * "Conducting Body" that renders "www.tnpsc.gov.in" answers with a URL, not a name.
+   */
+  conductingBody?: string;
   calendarDates?: {
     notification?: string;
     applicationStart?: string;

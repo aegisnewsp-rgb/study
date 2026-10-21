@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://updeled.gov.in/',
+  conductingBody: 'U.P. Directorate of Elementary Education (U.P. Pariksha Niyamak Pradhikari)',
 };
 
 export default exam;

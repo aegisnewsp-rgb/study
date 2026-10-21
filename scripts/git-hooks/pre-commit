@@ -18,8 +18,29 @@
 #     post-commit (verified on git 2.47.3).
 #
 # Self-test:              node scripts/sr-receipt-gate.mjs --selfcheck
+#
+# EXIT CODES FROM THE GATE:
+#   0 = allow. 1 = refuse (commit blocked). 2 = INERT: the receipt store was
+#   not reachable, so NOTHING was adjudicated. rc=2 is NOT a pass and NOT a
+#   refusal. It is handled here as a loud WARNING and the commit proceeds,
+#   because a control that can never run on a machine is worse than none, and
+#   a commit blocked forever by an unmounted directory is a self-inflicted
+#   outage. The same rule is applied by scripts/sr-deploy-guard.sh.
 
-set -e
 GATE="$(git rev-parse --show-toplevel)/scripts/sr-receipt-gate.mjs"
 [ -f "$GATE" ] || exit 0
-exec node "$GATE"
+
+node "$GATE"
+rc=$?
+
+if [ "$rc" -eq 2 ]; then
+    {
+        echo ""
+        echo "RECEIPT GATE WARNING: the gate is INERT — the receipt store is not reachable"
+        echo "  from this machine, so NO receipt was adjudicated. This is not a pass."
+        echo "  To make the gate real here, mount the receipt store or set SR_PATCH_DIR."
+    } >&2
+    exit 0
+fi
+
+exit $rc

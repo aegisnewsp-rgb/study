@@ -123,11 +123,15 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
 
   '/exams/tnpsc/': {
     title: 'TNPSC Group 1: Duration, Marks & Negative Marking',
-    // 2026-10-21 vqzo: the measured query 'group 1 exam time duration' (9.7% of 6,201
-    // impressions) asks for the exam TIME; the snippet said 'section timings', which
-    // is a different word for the same section limits. Now it says time limits.
+    // 2026-10-21 vqzo 1250Z: the measured query 'group 1 exam time duration' (9.7% of
+    // 6,201 impressions) asks for the exam TIME. The snippet said 'section timings', then
+    // 'section time limits' - but TNPSC has no per-section time limit anywhere in its own
+    // body, only per-PAPER durations ('200 questions carrying 300 marks (3 hours
+    // duration)', 'four descriptive papers of 3 hours each'). 'per-paper time limits' is
+    // the wording the body actually supports, and it keeps the 'time' token the measured
+    // query needs. 150 chars.
     description:
-      'TNPSC Group 1 exam duration, marks and negative marking: prelims and mains paper structure, section time limits and how marks split across the two stages.',
+      'TNPSC Group 1 exam duration, marks and negative marking: prelims and mains structure, per-paper time limits and how marks split across the two stages.',
     query: 'group 1 exam time duration (9.7%), tnpsc group 1 negative marks (4.8%)',
     gscImpressions: 6201,
   },
@@ -236,16 +240,17 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     // source found attributes UPTET to UPBEB.
     // No marks, dates, fees or paper structure touched.
     title: 'UPTET: Who Conducts It, Papers & Eligibility',
-    // 2026-10-21 vqzo: the measured query 'uptet conducting body' asks for the body BY
-    // NAME; the snippet answered with a passive 'is conducted by' and never used the
-    // words the query used. Same fact, same length, now a phrase a reader can scan.
-    // 2026-10-21 vqzo: a first cut replaced 'is conducted by' with 'conducting body:' and
-    // LOST the word 'conducted', which the measured query 'uptet conducted by' (38.8%)
-    // actually uses. The snippet now carries both forms of the verb, because a reader
-    // searching either phrasing should find the answer. Trimmed to fit 155 chars: the
-    // Hindi name of the Directorate stays in the body, not the snippet.
+    // 2026-10-21 vqzo 1250Z: the measured queries are 'uptet conducted by' (38.8% of this
+    // page's impressions, 0.00% CTR) and 'uptet conducting body' (7.0%), so the snippet
+    // has to carry BOTH 'conducted' and 'conducting body'. Two earlier cuts failed: the
+    // first dropped 'conducted', the second welded a comma appositive onto the object of
+    // 'conducted by' ('... Elementary Education, the conducting body, Prayagraj'), which
+    // reads as a three-item list and is circular - X cannot be "conducted by the
+    // conducting body". The wording below states the fact in one sentence, then names the
+    // role in a sentence of its own, so nothing is welded onto anything. 155 chars, inside
+    // the 155 limit. The Hindi name stays in the body.
     description:
-      'UPTET is conducted by the U.P. Directorate of Elementary Education, the conducting body, Prayagraj. Paper I for Classes I-V, Paper II for VI-VIII.',
+      'UPTET is conducted by the U.P. Directorate of Elementary Education, Prayagraj. This is the conducting body. Paper I for Classes I-V, Paper II for VI-VIII.',
     query: 'uptet conducted by (38.8% @ 0.00% CTR), uptet conducting body (7.0%)',
     gscImpressions: 1278,
   },
@@ -353,13 +358,14 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     // Measured: 1,053 impressions; "nce" 31.2% and "what is nce qualification" 8.2%.
     // Same defect class as NABTEB (bb148402) and UPTET above.
     title: 'NCE Nigeria: Full Form, Course Papers & Certificate',
-    // 2026-10-21 vqzo: the measured query 'what is nce qualification' (8.2%) is a
-    // question the snippet never answered in the words asked. NCE IS the teacher
-    // qualification, so the snippet now says so. Trimmed to stay inside the 155-char
-    // limit: 'TRCN follows' replaces 'TRCN registration follows' - same claim, no
-    // change to who awards the NCE or what TRCN is.
+    // 2026-10-21 vqzo 1250Z: the measured query 'what is nce qualification' (8.2%) is a
+    // question the snippet never answered in the words asked, so the snippet now says
+    // NCE IS the teacher qualification. The TRCN clause is GONE: grep -rn 'TRCN' src/data/
+    // hits only this file, so every TRCN sentence here was a snippet-only claim with no
+    // page support - the exact defect class the 2026-10-18 note above was written to
+    // remove. Dropping it also leaves 15 chars of headroom under the 155-char limit.
     description:
-      'NCE stands for Nigeria Certificate in Education, a teacher qualification awarded by NCCE, the National Commission for Colleges of Education. TRCN follows.',
+      'NCE stands for Nigeria Certificate in Education, a teacher qualification awarded by NCCE, the National Commission for Colleges of Education.',
     query: 'nce (31.2%), what is nce qualification (8.2%)',
     gscImpressions: 1053,
   },

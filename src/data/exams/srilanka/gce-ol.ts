@@ -1,3 +1,14 @@
+// GCE O/L (General Certificate of Education Ordinary Level), Sri Lanka.
+// Awarding body: Department of Examinations (DoE), Sri Lanka.
+// Official sources:
+//   https://www.doenets.lk/examcalendar
+//   https://doenets.lk/images/resources/EXCA/OL timetable English - 2026_1791794467174.pdf
+// The session times and paper dates on this page are transcribed from the
+// Department's own 2026 O/L timetable PDF (signed by the Commissioner General of
+// Examinations, 6 April 2026). Re-read that PDF, not this page, before trusting
+// a time: the Department republishes a timetable per sitting, and the shape of
+// it changes between sittings.
+
 import type { ExamTemplate, Subject } from '../types';
 import { makeRoadmap } from '../_lib/roadmap';
 import { gceOlEnglish } from './subjects/gceol-english';
@@ -57,21 +68,21 @@ const exam: ExamTemplate = {
       { subject: 'English Language', topics: ['Summary, Note and Paragraph Writing', 'Grammar, Usage and Editing'] },
       { subject: 'Sinhala/Tamil Language and Literature', topics: ['Grammar and Language Structure'] },
     ],
-    strategy: 'English Language and Mathematics first, because they carry the most transferable marks and both are examined in a timed paper where technique moves the score faster than knowledge. English Paper II in particular rewards structured paragraph writing, which is a week of practice rather than a term of reading. Mathematics Paper II runs from 13:00 to 16:10, nearly three hours, so build to three-hour sittings rather than two. Science has the shortest single-paper session but the widest syllabus, so triage: Basic Chemistry and Human Biology return the most for the hours. Do not spend the last two days reading — sit full timed papers instead.',
+    strategy: 'English Language and Mathematics first, because they carry the most transferable marks and both are examined in a timed paper where technique moves the score faster than knowledge. English Paper II in particular rewards structured paragraph writing, which is a week of practice rather than a term of reading. Mathematics Paper II runs from 13:00 to 16:10, which is three hours and ten minutes — the same length as an ordinary Paper I or Paper II sitting, not a longer one — so build to three-hour-ten-minute sittings rather than two. Science has the shortest single-paper session but the widest syllabus, so triage: Basic Chemistry and Human Biology return the most for the hours. Do not spend the last two days reading — sit full timed papers instead.',
   },
   prepOverview:
-    'The structure of this exam differs from the single-paper entrance tests it is often compared with, and that difference should drive your plan. There is no common total mark and no common paper weighting across subjects, because the Department sets marking schemes subject by subject through its Evaluation Reports section. So the first thing to do is read the marking scheme for each subject you sit, not a general O/L revision guide. The English scheme gives a useful model of what to expect: Paper I 40 marks, Paper II 60 marks, so the paper carrying more marks is the one carrying the writing.\n\nTimetable the revision by session length rather than by topic. The 2026 timetable gives you ordinary subjects 3 hours 10 minutes per paper, Mathematics Paper II nearly three hours, English Language two hours, and History and Science split papers of very different lengths. Practise in blocks that match, because an hour of concentration is a trainable resource and the subjects that need it differ.\n\nProtect the date. The 2026 papers run over ten days in December, so the subjects are not simultaneous — you can revise all of them properly only if you treat it as a sequence rather than as one weekend. Work out which subject sits earliest and front-load it.\n\nVerify everything against the Department itself. This page reproduces the Department\'s published timetable, and a second, independent retrieval of the Department\'s own documents returned a different window for an earlier cycle of the examination. The Department does not publish the current O/L examination fee on the calendar page reviewed, and the current eligibility notice could not be located either. Both gaps are recorded here as gaps rather than filled in.',
+    'The structure of this exam differs from the single-paper entrance tests it is often compared with, and that difference should drive your plan. There is no common total mark and no common paper weighting across subjects, because the Department sets marking schemes subject by subject through its Evaluation Reports section. So the first thing to do is read the marking scheme for each subject you sit, not a general O/L revision guide. The English scheme gives a useful model of what to expect: Paper I 40 marks, Paper II 60 marks, so the paper carrying more marks is the one carrying the writing.\n\nTimetable the revision by session length rather than by topic. The 2026 timetable gives you ordinary subjects 3 hours 10 minutes per paper, Mathematics Paper II 3 hours 10 minutes as well, English Language two hours, and History and Science split papers of very different lengths. Practise in blocks that match, because an hour of concentration is a trainable resource and the subjects that need it differ.\n\nProtect the date. The 2026 papers run over ten days in December, so the subjects are not simultaneous — you can revise all of them properly only if you treat it as a sequence rather than as one weekend. Work out which subject sits earliest and front-load it.\n\nVerify everything against the Department itself. This page reproduces the Department\'s published timetable, and a second, independent retrieval of the Department\'s own documents returned a different window for an earlier cycle of the examination. The Department does not publish the current O/L examination fee on the calendar page reviewed, and the current eligibility notice could not be located either. Both gaps are recorded here as gaps rather than filled in.',
   commonMistakes: [
     'Assuming a common total mark across all subjects. The Department publishes no single common mark total or paper weighting; marking schemes are issued subject by subject.',
     'Assuming every subject is two papers. Sinhala/Tamil Language and Literature and Art are three-paper subjects, and their third paper is a two-hour session in a different slot.',
     'Memorising one O/L timetable and reusing it. The Department publishes a timetable per sitting and the shape of the timetable changes with the subjects chosen.',
-    'Leaving Mathematics Paper II short of practice. It is scheduled 13:00–16:10 in the 2026 timetable — nearly three hours, longer than any other single session.',
+    'Leaving Mathematics Paper II short of practice. It is scheduled 13:00–16:10 in the 2026 timetable — three hours ten minutes, which is the same length as an ordinary single paper, not longer.',
     'Practising English Language writing untimed. Paper II is 09:45–11:45 in the 2026 timetable and carries 60 of the subject\'s 100 marks, so paragraph structure under time is the single highest-return habit.',
     'Assuming the ordinary two-paper timing applies to History and Science. In the 2026 timetable both are split across a long morning paper and a short afternoon paper.',
     'Trusting a revision guide for the paper shape rather than the Department\'s own timetable. The schedule is published by the Department and changes between sittings.',
     'Booking travel on a single "O/L date". In 2026 the papers run from 8 to 17 December, so subjects are spread across ten days.',
   ],
-  lastUpdated: '2026-10-09',
+  lastUpdated: '2026-10-21',
   officialSource: 'https://www.doenets.lk/examcalendar',
 };
 

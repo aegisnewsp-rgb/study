@@ -163,10 +163,27 @@ export function findReceipts(staged, patchDir = PATCH_DIR) {
     try {
       doc = JSON.parse(readFileSync(full, 'utf8'));
     } catch {
-      unmappable.push(rf);
+      unmappable.push({ receipt: full, note: 'unreadable — could not be mapped to any file, NOT adjudicating it' });
       continue;
     }
     const targets = receiptTargets(doc);
+    if (!targets.size) {
+      // Fail-open shape, found live 2026-10-21T0330Z. A receipt that declares no
+      // target list can never be matched to a staged file, so its verdict never
+      // runs. Harmless for a passing receipt (there is nothing to adjudicate);
+      // NOT harmless for a refusing one — it becomes invisible. Surface it.
+      // Deliberately a WARN, not a block: a blanket block is what teaches an
+      // operator to disable a gate, and one unmappable receipt must not be able
+      // to stop every commit in the repo.
+      const j = judgeReceipt(full);
+      unmappable.push({
+        receipt: full,
+        note:
+          'declares no targets (targets/files/target_files/file) — cannot be mapped to any staged file' +
+          (j.refuse ? ` AND ITS VERDICT REFUSES: ${j.reasons.join('; ')}` : ''),
+      });
+      continue;
+    }
     const hits = staged.filter(
       (s) => targets.has(s) || [...targets].some((t) => s === t || s.startsWith(`${t}/`)),
     );
@@ -180,7 +197,7 @@ export function gate(staged, patchDir = PATCH_DIR) {
     return { allow: false, rc: 1, block: ['no staged files — nothing to adjudicate'], warn: [], receipts: [] };
   }
   const { matched, unmappable } = findReceipts(staged, patchDir);
-  const warn = unmappable.map((n) => `${n}: unreadable — could not be mapped to any file, NOT adjudicating it`);
+  const warn = unmappable.map((u) => `${u.receipt.split('/').pop()}: ${u.note}`);
   if (!matched.length) {
     return {
       allow: true,
@@ -197,6 +214,82 @@ export function gate(staged, patchDir = PATCH_DIR) {
     if (j.refuse) block.push(...j.reasons);
   }
   return { allow: block.length === 0, rc: block.length === 0 ? 0 : 1, block, warn, receipts: matched };
+}
+
+/**
+ * Paths whose WORKING-TREE state is what a deploy actually builds and serves.
+ *
+ * WHY THIS LIST IS NARROW (the trap, recorded in telegram-inbox 2026-10-21T0240Z):
+ *   A naive `git diff --quiet` dirty-tree guard is worse than having no guard. The
+ *   news bot rewrites src/data/site-revision.json and public/revision.json on EVERY
+ *   run, so the tree is never clean; a whole-tree guard would block every deploy
+ *   forever, including legitimate news updates, and the operator would disable it
+ *   within a day. Only editorial content paths are adjudicated here.
+ *
+ * src/data/site-revision.json is a release marker, not content. It sits under
+ * src/data/ but NOT under src/data/exams/, so the prefix list already excludes it;
+ * NEVER_GATE is a second, explicit line of defence so a future widening of
+ * src/data/ cannot silently pull it back in.
+ */
+const SHIPPED_CONTENT_PREFIXES = ['src/content/', 'src/data/exams/', 'src/pages/'];
+const SHIPPED_CONTENT_EXACT = new Set(['src/content.config.ts']);
+const NEVER_GATE = [/site-revision\.json$/, /(^|\/)revision\.json$/];
+
+export function isShippedContentPath(f) {
+  if (NEVER_GATE.some((re) => re.test(f))) return false;
+  return SHIPPED_CONTENT_EXACT.has(f) || SHIPPED_CONTENT_PREFIXES.some((p) => f.startsWith(p));
+}
+
+/**
+ * The dirty-worktree check a PRE-COMMIT gate structurally cannot do.
+ *
+ * A deploy builds the working tree, not a commit. The pre-commit hook therefore
+ * adjudicates content that is never staged and would otherwise ship unreviewed —
+ * measured live 2026-10-21T0350Z: 36 dirty content/exams files, several governed
+ * by receipts reading ok=false, and the hook sees none of them because nothing is
+ * staged. This mode closes that gap against the same receipts.
+ */
+function dirtyShippedFiles() {
+  const run = (args) => {
+    try {
+      return execFileSync('git', args, { encoding: 'utf8' })
+        .split('\n')
+        .map((s) => s.trim())
+        .filter(Boolean);
+    } catch {
+      return [];
+    }
+  };
+  const unstaged = run(['diff', '--name-only']);
+  const untracked = run(['ls-files', '--others', '--exclude-standard']);
+  return [...new Set([...unstaged, ...untracked])].filter(isShippedContentPath);
+}
+
+/**
+ * Print receipt warnings without burying the ones that matter.
+ *
+ * A wall of ~140 near-identical warnings is a warning nobody reads, and a gate whose
+ * output gets ignored is the same as no gate at all. Print the REFUSING receipts in
+ * full — those are the fail-open holes — and collapse the benign ones into a count.
+ */
+function printWarns(warns) {
+  const limit = Number(process.env.SR_RECEIPT_GATE_WARN_LIMIT || 12);
+  const refusing = warns.filter((w) => w.includes('REFUSES'));
+  refusing.slice(0, limit).forEach((w) => console.error(`sr-receipt-gate: WARN  ${w}`));
+  if (refusing.length > limit) {
+    // Measured 2026-10-21T0350Z: ~120 refusing-but-unmappable receipts are on disk,
+    // most of them month-old curate-pulse artifacts. Printing all of them buries the
+    // handful that belong to work in flight, so the overflow is counted, not hidden.
+    console.error(
+      `sr-receipt-gate: WARN  +${refusing.length - limit} more refusing-but-unmappable receipt(s) (SR_RECEIPT_GATE_WARN_LIMIT=${limit} to see all).`,
+    );
+  }
+  const benign = warns.length - refusing.length;
+  if (benign) {
+    console.error(
+      `sr-receipt-gate: WARN  ${benign} further receipt(s) declare no targets and PASS — they govern no staged file, nothing to adjudicate.`,
+    );
+  }
 }
 
 function stagedFiles() {
@@ -311,7 +404,46 @@ function selfcheck() {
   const g6 = gate(['src/w.ts'], tmp);
   check(g6.allow === false, 'short ok=false still blocks on a repair-shaped receipt', g6.block[0] || 'allowed!');
 
-  console.log(fails === 0 ? 'SELFTEST OK (11/11 controls)' : `SELFTEST FAILED (${fails} failing controls)`);
+  // 12. a receipt with NO targets and a PASSING verdict: warn, do not block.
+  //     Path is fresh (src/iso12.ts) because every earlier fixture still lives in this
+  //     tmp dir and t-bad already governs src/x.ts — reusing it would test contamination.
+  wr(R('notarget-pass'), '{"patch":"p8","applied":true,"curate_verdict":"ok=true"}');
+  const g7 = gate(['src/iso12.ts'], tmp);
+  check(
+    g7.allow === true && g7.warn.some((w) => w.includes('notarget-pass')),
+    'target-less PASSING receipt warns without blocking',
+    g7.warn.find((w) => w.includes('notarget-pass')) || 'no warning!',
+  );
+
+  // 13. REGRESSION, found live 0330Z: a receipt with NO targets and a REFUSING verdict
+  //     was invisible — findReceipts() could not match it, so ok=false never ran. The
+  //     WARN must now name the refusal. It must still NOT be a blanket block.
+  wr(R('notarget-refuse'), '{"patch":"p9","applied":false,"targets":[],"curate_verdict":"ok=false"}');
+  const g8 = gate(['src/iso13.ts'], tmp);
+  check(
+    g8.warn.some((w) => w.includes('notarget-refuse') && /REFUSES/.test(w)),
+    'target-less REFUSING receipt is surfaced by name (was silent)',
+    g8.warn.find((w) => w.includes('notarget-refuse')) || 'SILENT — the 0330Z hole is open',
+  );
+  check(
+    g8.allow === true,
+    'unmappable receipts still do not become a blanket block',
+    g8.block[0] || 'allow',
+  );
+
+  // 14. TRAP CONTROL: the news bot dirties the revision files on every single run.
+  //     If --worktree ever judged them it would be permanently red and would get
+  //     disabled, which is worse than no guard at all. Assert they are excluded
+  //     and that real editorial content is NOT.
+  check(!isShippedContentPath('src/data/site-revision.json'), 'src/data/site-revision.json is EXCLUDED (news bot)', '');
+  check(!isShippedContentPath('public/revision.json'), 'public/revision.json is EXCLUDED (news bot)', '');
+  check(isShippedContentPath('src/data/exams/uganda/uneb.ts'), 'src/data/exams/... is judged', '');
+  check(isShippedContentPath('src/content/notes/hpat/hpat/hpat-005.md'), 'src/content/... is judged', '');
+  check(isShippedContentPath('src/pages/index.astro'), 'src/pages/... is judged', '');
+  check(!isShippedContentPath('scripts/sr-receipt-gate.mjs'), 'scripts/... is NOT judged (not shipped content)', '');
+  check(!isShippedContentPath('src/data/exam-faqs.ts.bak-20261017T072732Z'), 'a .bak in src/data is NOT judged', '');
+
+  console.log(fails === 0 ? 'SELFTEST OK (18/18 controls)' : `SELFTEST FAILED (${fails} failing controls)`);
   process.exit(fails === 0 ? 0 : 1);
 }
 
@@ -323,6 +455,27 @@ if (!isMain) {
   // imported as a module — export and stop
 } else if (argv.includes('--selfcheck')) {
   selfcheck();
+} else if (argv.includes('--worktree')) {
+  const files = dirtyShippedFiles();
+  if (!files.length) {
+    console.error('sr-receipt-gate: OK (no dirty shipped-content files)');
+    process.exit(0);
+  }
+  const res = gate(files);
+  printWarns(res.warn || []);
+  if (res.allow) {
+    console.error(
+      `sr-receipt-gate: OK (${files.length} dirty shipped-content file(s), none governed by a refusing receipt)`,
+    );
+    process.exit(0);
+  }
+  console.error(
+    `\n\x1b[31msr-receipt-gate: DEPLOY REFUSED\x1b[0m — ${files.length} dirty shipped-content file(s) are governed by a receipt that refuses:`,
+  );
+  res.block.forEach((b) => console.error(`  - ${b}`));
+  console.error('\n  A deploy builds the WORKTREE, not a commit, so the pre-commit hook cannot see');
+  console.error('  any of this. Wire this mode into the deploy path, or deploy from clean HEAD.');
+  process.exit(res.rc);
 } else {
   const fi = argv.indexOf('--files');
   const staged =
@@ -330,7 +483,7 @@ if (!isMain) {
       ? argv[fi + 1].split(',').map((s) => s.trim()).filter(Boolean)
       : stagedFiles();
   const res = gate(staged);
-  (res.warn || []).forEach((w) => console.error(`sr-receipt-gate: WARN  ${w}`));
+  printWarns(res.warn || []);
   if (res.allow) {
     if (res.note) console.error(`sr-receipt-gate: OK (${res.note})`);
     process.exit(0);

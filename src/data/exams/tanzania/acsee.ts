@@ -54,13 +54,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'NECTA publishes ACSEE sitting rules at https://www.necta.go.tz; this hub only orders Form VI subjects for university selection.',
+    'NECTA publishes a separate examination format for every ACSEE subject code, and those formats diverge further than most candidates expect. Geography runs to two three-hour papers; Physics runs to three, the third being an actual practical sitting rather than more theory. Each subject format is set out at https://www.necta.go.tz/pages/acsee — read yours there rather than from a dated brochure.',
   commonMistakes: [
     'If your ACSEE (Tanzania) brochure has no date, throw it out and open https://www.necta.go.tz.',
-    'A ACSEE (Tanzania) mock with a different number of items trains the wrong stamina.',
-    'A friend who sat ACSEE (Tanzania) two years ago is not your eligibility officer; https://www.necta.go.tz is.',
-    'StudyRoadmap will not promise a ACSEE (Tanzania) outcome — only a study order.',
-    'Use 6-7 papers including compulsory General Studies plus 3 elective subjects. Essay, short answer, and MCQ. Only as a memory aid for ACSEE (Tanzania), then match the live paper on https://www.necta.go.tz.'
+    'An ACSEE (Tanzania) mock with a different number of items trains the wrong stamina.',
+    'Your subject combination is settled at registration, so check it against the programme you are aiming at before the list closes. The per-subject formats are on https://www.necta.go.tz/pages/acsee, which is where a combination mistake should be caught rather than in the revision timetable.',
+    'Assuming one paper pattern covers the whole examination is the error that collapses a timetable. There is no single ACSEE shape: the per-subject formats on https://www.necta.go.tz/pages/acsee are the document a plan has to be built from.',
+    'Count your own exam days from the per-subject format before committing to a timetable. General Studies is compulsory alongside three electives, but how many sitting hours those add up to depends on the subject, and Geography or Physics will take more time than three electives suggest. Work it out from https://www.necta.go.tz/pages/acsee.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.necta.go.tz',

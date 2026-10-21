@@ -50,13 +50,12 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For Sri Lanka Law Aptitude, keep Sri Lanka Law Aptitude application admin (photo specs, IDs) off your Sri Lanka Law Aptitude study clock by checking https://www.sllc.ac.lk early.',
+    'The Law College entrance is not four papers of the same shape. General Knowledge and General Intelligence are 50 multiple-choice questions in one hour each - confirm both figures against the current notice at https://www.sllc.ac.lk before you fix them in a timetable. English and your Sinhala-or-Tamil proficiency paper run an hour and a half of written work, and that split is what your study hours should follow instead of four equal slabs.',
   commonMistakes: [
     'An outdated Sri Lanka Law Aptitude PDF is not a substitute for the current notice at https://www.sllc.ac.lk.',
-    'Doing only favourite Sri Lanka Law Aptitude chapters leaves the clock as the real examiner.',
-    'A friend who sat Sri Lanka Law Aptitude two years ago is not your eligibility officer; https://www.sllc.ac.lk is.',
-    'If a page promises you will \'crack Sri Lanka Law Aptitude\' with this plan, it is not this site.',
-    'Pattern note for Sri Lanka Law Aptitude: Tests English, General Knowledge, Logic and Reasoning, and Legal Awareness. Structured as MCQs. Confirm that wording on https://www.sllc.ac.lk before you lock a timetable.'
+    'Spreading revision evenly across all four papers wastes the two multiple-choice hours. The multiple-choice pair is won on speed under a hard clock, while the written pair rewards summarisation and comprehension drills that no volume of timed multiple-choice practice replaces.',
+    'Eligibility here is arithmetic, and it cuts against candidates who assume a good rank is enough: https://www.sllc.ac.lk requires 40% in every paper while building the merit list from General Knowledge and General Intelligence alone, so a candidate can rank well and still be ruled out over a thin language paper.',
+    'Who the Law College describes as eligible: a recognised school certificate carrying the required subject combination. Re-read the eligibility notice at https://www.sllc.ac.lk in the week you apply rather than trusting a two-year-old account of it.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.sllc.ac.lk',

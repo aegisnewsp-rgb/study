@@ -50,16 +50,16 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For UNEB UACE (Uganda), keep UNEB UACE (Uganda) application admin (photo specs, IDs) off your UNEB UACE (Uganda) study clock by checking https://www.uneb.ac.ug early.',
+    'A UACE registration is not three papers and no more. Every candidate registers for a compulsory General Paper and then either three principal subjects with Subsidiary Mathematics, or three principal subjects with Subsidiary Computer Studies. The subsidiary is sat at UCE level rather than A-level, and candidates regularly discover that fourth paper in the timetable rather than in the prospectus. The registration circular is on https://ereg.uneb.ac.ug.',
   commonMistakes: [
-    'Coaching blogs that skip https://www.uneb.ac.ug often recycle a retired UNEB UACE (Uganda) pattern.',
-    'Section timing for UNEB UACE (Uganda) only counts if it matches the live duration.',
-    'Photo, ID, and attempt-limit rules for UNEB UACE (Uganda) live on https://www.uneb.ac.ug, not on WhatsApp.',
-    'StudyRoadmap will not promise a UNEB UACE (Uganda) outcome — only a study order.',
-    'Who the board describes as eligible for UNEB UACE (Uganda): UCE (Form IV) certificate with minimum passes. Re-read it on https://www.uneb.ac.ug the week you apply.'
+    'Coaching blogs that skip https://uneb.ac.ug often recycle a retired UNEB UACE (Uganda) pattern.',
+    'Candidates read the General Paper as a formality and leave it until the last month. It is a separate compulsory paper in the registration circular, sat alongside the principal subjects rather than instead of them, and it carries its own topic load. The requirements are in the circular at https://ereg.uneb.ac.ug.',
+    'The subsidiary paper gets dropped from study plans because it is not an A-level paper. Whichever subsidiary you register for — Mathematics or Computer Studies — still has to be sat, so a plan covering only the three principals leaves a paper unwritten.',
+    'Timed practice built on a borrowed paper length is worse than untimed practice. If the mock runs a different number of items than the real sitting, you are training a stamina the exam will never call on.',
+    'Entry to UACE runs through the UCE result: UNEB asks for a minimum of eight passes, and that set has to include English Language, a Humanity subject and Mathematics. Re-read the release statement at https://ereg.uneb.ac.ug for the cycle you are applying into.',
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.uneb.ac.ug',
+  officialSource: 'https://uneb.ac.ug',
 };
 
 export default exam;

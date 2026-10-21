@@ -56,8 +56,8 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Coaching blogs that skip https://fipi.ru/ege often recycle a retired EGE (Russia) pattern.',
     'An EGE (Russia) mock with a different number of items trains the wrong stamina.',
-    'A friend who sat EGE (Russia) two years ago is not your eligibility officer; https://fipi.ru/ege is.',
-    'StudyRoadmap will not promise an EGE (Russia) outcome — only a study order.',
+    'Shortlisting runs on the EGE score itself rather than the school certificate, and FIPI rebuilds the grade-to-score conversion from each year\'s cohort results. The published scale sits on https://fipi.ru/ege, and a school grade has no fixed exchange rate into it.',
+    'Carrying last year\'s target score into this year\'s revision is the common trap, precisely because the conversion is re-derived annually. Read the current scale on https://fipi.ru/ege before fixing a number to aim at, and read it again each cycle.',
     'Building a year of revision around an exam shape copied from a single site: when the official notice changes, the plan you already finished does not survive the sitting.'
   ],
   lastUpdated: '2026-07-28',

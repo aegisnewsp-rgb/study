@@ -45,7 +45,13 @@
  *   node scripts/check-same-page-restatement.mjs --report # table only, exit 0
  *   node scripts/check-same-page-restatement.mjs --write-baseline
  *
- * Exit codes: 0 pass (incl. baselined + improved), 1 a NEW or worsened page.
+ * Exit codes:
+ *   0 pass (incl. baselined + improved)
+ *   1 a NEW or worsened page
+ *   2 NOT-RUN: the measurement could not be produced (bundle/build failure).
+ *     NOT a pass and NOT a fail. rc=2 is the house NOT-RUN code
+ *     (scripts/check-gate-chain.sh D3), so the chain prints
+ *     "NOT-RUN - asserted nothing, NOT a pass" instead of a verdict.
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -88,22 +94,40 @@ fs.writeFileSync(
     `export { EXAM_FAQS } from '${path.join(REPO, 'src/data/exam-faqs.ts')}';\n`
 );
 
-const built = await esbuild.build({
-  entryPoints: [entry],
-  bundle: true,
-  write: false,
-  format: 'esm',
-  platform: 'node',
-  logLevel: 'silent',
-  absWorkingDir: REPO,
-});
-let code = built.outputFiles[0].text;
-// esbuild leaves relative .ts imports in dynamic-position strings; the runtime
-// import below is fed a bundled module, so this only normalises leftovers.
-code = code.replace(/(from\s+|import\s+)(['"])(\.[^'"]*?)\.(ts|tsx|astro)(\2)/g, '$1$2$3.mjs$5');
-const bundlePath = path.join(WORK, 'entry.built.mjs');
-fs.writeFileSync(bundlePath, code);
-const mod = await import(pathToFileURL(bundlePath).href + `?t=${process.hrtime.bigint()}`);
+// A build failure is NOT a verdict. Without the guard below, an esbuild error
+// (or a module that throws at import time) rejected at the top level, node
+// exited 1, and the gate chain read rc=1 as "check-same-page-restatement:
+// FAILED (N page(s))" - a FAIL that was never measured, reported with a
+// page count that did not exist. Same defect class as queue row
+// sr-20261020T0550Z-vqzo-DEFECT-negative-control-returned-rc1-on-a-build-error:
+// a control that fails for the wrong reason manufactures confidence that the
+// gate is armed. rc=2 is the house NOT-RUN code, so the chain reports
+// "asserted nothing, NOT a pass" and a broken tree can never look like a
+// clean tree, nor like a content regression.
+let code;
+let mod;
+try {
+  const built = await esbuild.build({
+    entryPoints: [entry],
+    bundle: true,
+    write: false,
+    format: 'esm',
+    platform: 'node',
+    logLevel: 'silent',
+    absWorkingDir: REPO,
+  });
+  code = built.outputFiles[0].text;
+  // esbuild leaves relative .ts imports in dynamic-position strings; the runtime
+  // import below is fed a bundled module, so this only normalises leftovers.
+  code = code.replace(/(from\s+|import\s+)(['"])(\.[^'"]*?)\.(ts|tsx|astro)(\2)/g, '$1$2$3.mjs$5');
+  const bundlePath = path.join(WORK, 'entry.built.mjs');
+  fs.writeFileSync(bundlePath, code);
+  mod = await import(pathToFileURL(bundlePath).href + `?t=${process.hrtime.bigint()}`);
+} catch (err) {
+  console.error('check-same-page-restatement: NOT-RUN (build failed) - asserted nothing, NOT a pass');
+  console.error(`  cause: ${err && err.message ? err.message : String(err)}`);
+  process.exit(2);
+}
 const exams = mod.exams ?? {};
 const faqs = mod.EXAM_FAQS ?? {};
 

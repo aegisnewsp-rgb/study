@@ -166,9 +166,27 @@ function verdictInReceipt(receiptPath) {
   for (const f of fields) {
     if (f.leaf === 'ok' && f.value === true) return { home: 'B', why: `receipt ${f.key}=true` };
   }
-  for (const f of fields) {
-    const v = typeof f.value === 'string' ? f.value.toUpperCase() : '';
-    if (f.leaf === 'status' && VERDICT_STATUSES.has(v)) return { home: 'B', why: `receipt ${f.key}=${v}` };
+  // A REFUSAL is not a verdict, so an explicit ok:false anywhere in the receipt
+  // wins over the state/status token below.
+  const explicitRefusal = fields.find((f) => f.leaf === 'ok' && f.value === false);
+  if (!explicitRefusal) {
+    for (const f of fields) {
+      if (f.leaf !== 'status' && f.leaf !== 'state') continue;
+      const raw = typeof f.value === 'string' ? f.value : '';
+      if (!raw) continue;
+      // MEASURED 2026-10-21T13:20Z: the house receipts spell the verdict as a
+      // token chain - "APPLIED__COMMITTED_5545b51d__SOURCE_RECONFIRMED_...",
+      // "APPLIED__CARRIED_BY_THE_COMMIT_THAT_ADDS_THIS_TARGET" - and they put it
+      // in `state`, not `status`. The detector read `status` only and matched the
+      // whole string, so every one of those receipts read as NO VERDICT and two
+      // SHIPPED patches were reported UNCURATED. The contract names the FIRST
+      // token ("status in {APPLIED_AND_COMMITTED, SHIPPED, APPLIED, LANDED,
+      // CURATED}"), so match the first token.
+      const first = raw.split('__')[0].trim().toUpperCase();
+      if (VERDICT_STATUSES.has(raw.toUpperCase()) || VERDICT_STATUSES.has(first)) {
+        return { home: 'B', why: `receipt ${f.key}=${raw.slice(0, 60)}` };
+      }
+    }
   }
   for (const f of fields) {
     if (f.leaf !== 'verdict' && f.leaf !== 'curate_verdict') continue;
@@ -184,18 +202,41 @@ function verdictInReceipt(receiptPath) {
 function verdictInCurateFiles(patchName, curateFiles, dir = PATCH_DIR) {
   const stem = stemOf(patchName);
   const hits = [];
+  const refusals = [];
   for (const cf of curateFiles) {
     const base = cf.toLowerCase();
     let why = null;
+    let parsed = null;
+    // The curate file is parsed even when the name already matched, because the
+    // verdict's ok value lives inside it and the ok value IS the verdict.
+    try {
+      const d = JSON.parse(fs.readFileSync(path.join(dir, cf), 'utf8'));
+      parsed = d && typeof d === 'object' ? d : null;
+    } catch { /* an unparseable curate file is not a verdict */ }
     if (base.includes(stem.toLowerCase())) why = 'name containment';
-    if (!why) {
-      try {
-        const d = JSON.parse(fs.readFileSync(path.join(dir, cf), 'utf8'));
-        const named = d && typeof d === 'object' ? String(d.patch || d.patch_file || d.file || '') : '';
-        if (named && (named === patchName || named.endsWith(patchName) || stemOf(named) === stem)) why = `curate file names "${named}"`;
-      } catch { /* an unparseable curate file is not a verdict */ }
+    if (!why && parsed) {
+      const named = String(parsed.patch || parsed.patch_file || parsed.file || '');
+      if (named && (named === patchName || named.endsWith(patchName) || stemOf(named) === stem)) why = `curate file names "${named}"`;
     }
-    if (why) hits.push({ file: cf, why });
+    if (!why) continue;
+    // MEASURED 2026-10-21T13:20Z: the verdict's ok value was never read. The
+    // gate decided CURATED by filename containment alone, so a curate file that
+    // says ok=false was reported as CURATED - the exact defect that
+    // scripts/check-rejected-content-live.mjs names ("A refusal is a verdict,
+    // and a verdict that says no is not a verdict that says yes"). Live
+    // measurement on the 6h window: 2 of 12 patches carry a REFUSED verdict
+    // (1235Z-firstscreen-measured-8-rows ok=false with 13 reasons, and
+    // 1105Z-capsule-marking-sentence-grammar ok=false with 3 reasons) and BOTH
+    // were reported as CURATED. A refusal is now its own verdict (home 'R'):
+    // adjudicated, but never approved.
+    const ok = parsed && typeof parsed.ok === 'boolean' ? parsed.ok : null;
+    if (ok === false) refusals.push({ file: cf, why });
+    else hits.push({ file: cf, why });
+  }
+  // A refusal outranks an approval: it is the stricter signal, and when both
+  // exist the patch must not be reported as approved.
+  if (refusals.length) {
+    return { home: 'R', why: refusals.map((h) => `${h.file} REFUSED (ok=false)`).join('; ') };
   }
   return hits.length ? { home: 'A', why: hits.map((h) => `${h.file} (${h.why})`).join('; ') } : { home: null, why: 'no curate file names this patch' };
 }
@@ -278,10 +319,24 @@ function report() {
     };
   });
 
+  return { summary: summarize(rows), rows };
+}
+
+/**
+ * Classify the window. A REFUSED patch (curate ok=false) is ADJUDICATED - it is
+ * not a curate gap - but it is NOT approved, so it is counted on its own line
+ * and never inside `curated`. Reporting it as curated is the defect this
+ * separates out; reporting it as uncurated would invent a gap that does not
+ * exist and would redden a gate for a patch a curator already adjudicated.
+ */
+function summarize(rows) {
   const uncurated = rows.filter((r) => !r.verdict_home);
-  const summary = {
+  const refused = rows.filter((r) => r.verdict_home === 'R');
+  const approved = rows.filter((r) => r.verdict_home === 'A' || r.verdict_home === 'B');
+  return {
     patches_in_window: rows.length,
-    curated: rows.length - uncurated.length,
+    curated: approved.length,
+    refused: refused.length,
     uncurated_total: uncurated.length,
     uncurated_applicable: uncurated.filter((r) => r.tree_state === 'applicable').length,
     uncurated_applied: uncurated.filter((r) => r.tree_state === 'applied').length,
@@ -289,7 +344,6 @@ function report() {
     uncurated_unknown: uncurated.filter((r) => r.tree_state === 'unknown').length,
     old_test_would_report: rows.reduce((a, r) => a + r.old_test_would_report, 0),
   };
-  return { summary, rows };
 }
 
 /* ------------------------------------------------------------------ self-test
@@ -335,13 +389,41 @@ function selfTest() {
   const d5 = path.join(tmp, 'renamed-curate');
   fs.mkdirSync(d5);
   mk(d5, 'p5.diff', patchBody('src/v.ts'));
-  mk(d5, 'curate-vqzo-something.json', JSON.stringify({ ok: false, reasons: ['x'], patch: 'p5.diff' }));
+  // ok:true here, because p5 tests HOW the curate file is matched, not what its
+  // verdict says. What the verdict says is p11/p12's job.
+  mk(d5, 'curate-vqzo-something.json', JSON.stringify({ ok: true, reasons: [], patch: 'p5.diff' }));
   // p6: uncurated, but a NEWER patch on the same target carries a verdict -> spent
   const d6 = path.join(tmp, 'superseded');
   fs.mkdirSync(d6);
   mk(d6, 'p6.diff', patchBody('src/u.ts'));
   mk(d6, 'p7.diff', patchBody('src/u.ts'));
   mk(d6, 'curate-p7.json', JSON.stringify({ ok: true, reasons: [] }));
+  // p8: the house receipt shape - the verdict is a TOKEN CHAIN in `state`
+  const d8 = path.join(tmp, 'state-chain');
+  fs.mkdirSync(d8);
+  mk(d8, 'p8.diff', patchBody('src/s.ts'));
+  mk(d8, 'p8.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_5545b51d__SOURCE_RECONFIRMED_2026-10-21', applied: true }));
+  // p9: a state that says NOT COMMITTED must NOT read as a verdict
+  const d9 = path.join(tmp, 'state-not-committed');
+  fs.mkdirSync(d9);
+  mk(d9, 'p9.diff', patchBody('src/r.ts'));
+  mk(d9, 'p9.diff.receipt.json', JSON.stringify({ state: 'RECEIPTED__NOT_COMMITTED', applied: false }));
+  // p10: a refusal with an APPLIED state is still a refusal, not a verdict
+  const d10 = path.join(tmp, 'refusal-with-applied-state');
+  fs.mkdirSync(d10);
+  mk(d10, 'p10.diff', patchBody('src/q.ts'));
+  mk(d10, 'p10.diff.receipt.json', JSON.stringify({ ok: false, state: 'APPLIED__COMMITTED_abc123', verdict: 'REJECTED' }));
+  // p11: a curate verdict that REFUSES (ok=false) is not an approval
+  const d11 = path.join(tmp, 'curate-refusal');
+  fs.mkdirSync(d11);
+  mk(d11, 'p11.diff', patchBody('src/n.ts'));
+  mk(d11, 'curate-p11.json', JSON.stringify({ ok: false, reasons: ['a blocking reason'] }));
+  // p12: a refusal outranks a receipt that says the patch was APPLIED
+  const d12 = path.join(tmp, 'curate-refusal-over-applied');
+  fs.mkdirSync(d12);
+  mk(d12, 'p12.diff', patchBody('src/m.ts'));
+  mk(d12, 'curate-p12.json', JSON.stringify({ ok: false, reasons: ['refused'] }));
+  mk(d12, 'p12.diff.receipt.json', JSON.stringify({ state: 'APPLIED__COMMITTED_abc123', applied: true }));
 
   // The scanner is exercised through the same helpers the report path uses.
   const scan = (dir) => {
@@ -382,6 +464,41 @@ function selfTest() {
   check('an uncurated patch with a newer curated sibling is reported superseded',
     p6.verdict.home === null && findSuperseder('p6.diff', p6.targets, s6) === 'p7.diff');
 
+  const s8 = scan(d8);
+  check('a token-chain state in `state` IS a verdict',
+    s8.find((e) => e.name === 'p8.diff').verdict.home === 'B',
+    s8.find((e) => e.name === 'p8.diff').verdict.why);
+
+  const s9 = scan(d9);
+  check('a state that says NOT COMMITTED is NOT a verdict',
+    s9.find((e) => e.name === 'p9.diff').verdict.home === null);
+
+  const s10 = scan(d10);
+  check('an explicit ok:false still wins over an APPLIED state',
+    s10.find((e) => e.name === 'p10.diff').verdict.home === null);
+
+  const s11 = scan(d11);
+  check('a curate verdict with ok=false is a REFUSAL, not an approval',
+    s11.find((e) => e.name === 'p11.diff').verdict.home === 'R',
+    s11.find((e) => e.name === 'p11.diff').verdict.why);
+
+  const s12 = scan(d12);
+  check('a refusal outranks a receipt that says APPLIED',
+    s12.find((e) => e.name === 'p12.diff').verdict.home === 'R',
+    s12.find((e) => e.name === 'p12.diff').verdict.why);
+
+  // A refused patch is adjudicated, so it is not a curate GAP - but it is also
+  // not an approval, so it must not be counted as curated either.
+  const ssum = summarize([
+    { verdict_home: 'A', tree_state: 'applied', old_test_would_report: 0 },
+    { verdict_home: 'B', tree_state: 'applied', old_test_would_report: 0 },
+    { verdict_home: 'R', tree_state: 'applied', old_test_would_report: 0 },
+    { verdict_home: null, tree_state: 'applicable', old_test_would_report: 0 },
+  ]);
+  check('a refused patch is neither CURATED nor UNCURATED',
+    ssum.curated === 2 && ssum.refused === 1 && ssum.uncurated_total === 1,
+    `curated=${ssum.curated} refused=${ssum.refused} uncurated=${ssum.uncurated_total}`);
+
   // The old test ("no .receipt.json") calls every patch with a receipt CURATED.
   // In d4 every patch carries a receipt, so the old test reports 0 gaps, while the
   // true gap is 1 (p4 has no verdict anywhere). This is the whole defect.
@@ -415,9 +532,15 @@ if (SELF_TEST) {
     console.log(JSON.stringify({ tool: 'check-curate-gap', hours: HOURS, patches_dir: PATCH_DIR, summary, rows }, null, 1));
   } else {
     console.log(`check-curate-gap: window ${HOURS}h in ${PATCH_DIR}`);
-    console.log(`  patches in window: ${summary.patches_in_window} | curated: ${summary.curated} | UNCURATED: ${summary.uncurated_total}`);
+    console.log(`  patches in window: ${summary.patches_in_window} | curated: ${summary.curated} | REFUSED: ${summary.refused} | UNCURATED: ${summary.uncurated_total}`);
     console.log(`  uncurated split: applicable ${summary.uncurated_applicable} | applied ${summary.uncurated_applied} | diverged ${summary.uncurated_diverged} | unknown ${summary.uncurated_unknown}`);
     console.log(`  the OLD test ("no .receipt.json") would have reported: ${summary.old_test_would_report}`);
+    for (const r of rows.filter((x) => x.verdict_home === 'R')) {
+      console.log(`   REFUSED ${r.patch}`);
+      console.log(`      tree_state=${r.tree_state} (${r.tree_why})`);
+      console.log(`      verdict: ${r.verdict_why}`);
+      console.log(`      a refused patch is adjudicated, not approved. Is the refused text live?`);
+    }
     for (const r of rows.filter((x) => !x.verdict_home)) {
       console.log(`   UNCURATED ${r.patch}`);
       console.log(`      tree_state=${r.tree_state} (${r.tree_why})`);

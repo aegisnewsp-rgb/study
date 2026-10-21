@@ -71,6 +71,13 @@ BASELINE="scripts/gate-chain-known-failures.txt"
 SCRIPTS="scripts"
 
 # Gates whose absence must fail the chain.
+# check-rejected-content-live.mjs is here because it enforces something no
+# other gate enforces: that a curator's REFUSED string is not live in shipped
+# content. It was added to the chain by glob (so it runs) but not to REQUIRED
+# (so its ABSENCE was free) - the same half-landed shape that left
+# check-curate-corpus.mjs REQUIRED while its script was untracked. Both files
+# it reads (the gate and scripts/rejected-content-strings.json) are tracked, so
+# a fresh checkout has it and it cannot go INERT there.
 REQUIRED="check-scope.sh
 check-astro-syntax.mjs
 check-exam-faq-keys.mjs
@@ -80,7 +87,8 @@ check-note-links.cjs
 check-internal-links.mjs
 check-source-hosts.sh
 check-same-page-restatement.mjs
-check-curate-corpus.mjs"
+check-curate-corpus.mjs
+check-rejected-content-live.mjs"
 
 mode="verify"
 only=""

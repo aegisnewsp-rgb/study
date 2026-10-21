@@ -123,8 +123,11 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
 
   '/exams/tnpsc/': {
     title: 'TNPSC Group 1: Duration, Marks & Negative Marking',
+    // 2026-10-21 vqzo: the measured query 'group 1 exam time duration' (9.7% of 6,201
+    // impressions) asks for the exam TIME; the snippet said 'section timings', which
+    // is a different word for the same section limits. Now it says time limits.
     description:
-      'TNPSC Group 1 exam duration, marks and negative marking: prelims and mains paper structure, section timings and how marks split across the two stages.',
+      'TNPSC Group 1 exam duration, marks and negative marking: prelims and mains paper structure, section time limits and how marks split across the two stages.',
     query: 'group 1 exam time duration (9.7%), tnpsc group 1 negative marks (4.8%)',
     gscImpressions: 6201,
   },
@@ -205,8 +208,12 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     // name; both strings are 25 characters, so the 155-char description limit and the
     // measured snippet length are both unchanged.
     title: 'GAT Pakistan Full Form: NTS Graduate Assessment Test',
+    // 2026-10-21 vqzo: the measured query cluster 'gat test schedule 2026 for mphil' is 19.8%
+    // of this page's 1,435 impressions and the snippet carried no year at all. The body
+    // now names the NTS 2026 session schedule in its first screen; the snippet has to
+    // carry the same year or the reader never sees it. Title, pattern and fee unchanged.
     description:
-      'GAT stands for Graduate Assessment Test, run by NTS Pakistan for MS, MPhil and PhD admissions. Test pattern, schedule, score validity and test fee.',
+      'GAT stands for Graduate Assessment Test, run by NTS Pakistan for MS, MPhil and PhD admissions. 2026 test schedule, pattern, score validity and fee.',
     query: 'gat full form (24.1% @ 0.00% CTR), gat test schedule 2026 for mphil (19.8%)',
     gscImpressions: 1435,
   },
@@ -229,8 +236,16 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     // source found attributes UPTET to UPBEB.
     // No marks, dates, fees or paper structure touched.
     title: 'UPTET: Who Conducts It, Papers & Eligibility',
+    // 2026-10-21 vqzo: the measured query 'uptet conducting body' asks for the body BY
+    // NAME; the snippet answered with a passive 'is conducted by' and never used the
+    // words the query used. Same fact, same length, now a phrase a reader can scan.
+    // 2026-10-21 vqzo: a first cut replaced 'is conducted by' with 'conducting body:' and
+    // LOST the word 'conducted', which the measured query 'uptet conducted by' (38.8%)
+    // actually uses. The snippet now carries both forms of the verb, because a reader
+    // searching either phrasing should find the answer. Trimmed to fit 155 chars: the
+    // Hindi name of the Directorate stays in the body, not the snippet.
     description:
-      'UPTET is conducted by the U.P. Directorate of Elementary Education, Pariksha Niyamak Pradhikari, Prayagraj. Paper I for Classes I-V, Paper II for VI-VIII.',
+      'UPTET is conducted by the U.P. Directorate of Elementary Education, the conducting body, Prayagraj. Paper I for Classes I-V, Paper II for VI-VIII.',
     query: 'uptet conducted by (38.8% @ 0.00% CTR), uptet conducting body (7.0%)',
     gscImpressions: 1278,
   },
@@ -338,8 +353,13 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     // Measured: 1,053 impressions; "nce" 31.2% and "what is nce qualification" 8.2%.
     // Same defect class as NABTEB (bb148402) and UPTET above.
     title: 'NCE Nigeria: Full Form, Course Papers & Certificate',
+    // 2026-10-21 vqzo: the measured query 'what is nce qualification' (8.2%) is a
+    // question the snippet never answered in the words asked. NCE IS the teacher
+    // qualification, so the snippet now says so. Trimmed to stay inside the 155-char
+    // limit: 'TRCN follows' replaces 'TRCN registration follows' - same claim, no
+    // change to who awards the NCE or what TRCN is.
     description:
-      'NCE stands for Nigeria Certificate in Education, awarded by NCCE, the National Commission for Colleges of Education. TRCN registration follows.',
+      'NCE stands for Nigeria Certificate in Education, a teacher qualification awarded by NCCE, the National Commission for Colleges of Education. TRCN follows.',
     query: 'nce (31.2%), what is nce qualification (8.2%)',
     gscImpressions: 1053,
   },
@@ -354,8 +374,12 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
 
   '/exams/bpsc/': {
     title: 'BPSC Bihar: Prelims Paper, Marks & Eligibility',
+    // 2026-10-21 vqzo: the measured query 'dsp height in bihar' (12.2%) and 'bpsc
+    // roadmap' (5.5%) both fell outside the snippet. 'Height and physical standard for
+    // DSP posts' names the topic without asserting a published DSP height figure - the
+    // body says the Home (Police) Department sets it and no DSP figure is published.
     description:
-      'BPSC Bihar Combined Competitive: one General Studies Prelims paper and five Mains papers. DSP physical standard, marks and eligibility.',
+      'BPSC Bihar Combined Competitive: one General Studies Prelims paper and five Mains papers. Height, physical standard for DSP posts, marks, study roadmap.',
     query: 'bihar (17.1%), dsp height in bihar (12.2%), bpsc roadmap (5.5%)',
     gscImpressions: 904,
   },
@@ -384,8 +408,10 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
 
   '/exams/ini-cet/': {
     title: 'INI CET Exam Pattern: Questions, Marks, Duration',
+    // 2026-10-21 vqzo: the measured query 'ini cet exam pattern total marks' (15.4%)
+    // asks for TOTAL marks; the snippet said '200 marks' and the word was missing.
     description:
-      'INI CET for AIIMS PG: 200 multiple-choice questions in 3 hours, 200 marks. Sections, negative marking and eligibility.',
+      'INI CET for AIIMS PG: 200 multiple-choice questions in 3 hours, 200 total marks. Sections, negative marking and eligibility.',
     query: 'ini cet exam pattern total marks (15.4%), ini cet exam pattern (11.4%)',
     gscImpressions: 764,
   },
@@ -508,8 +534,11 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
 
   '/exams/sgpat/': {
     title: 'SGPAT Full Form: Saudi General Aptitude Test',
+    // 2026-10-21 vqzo: the measured query 'general aptitude test saudi arabia' (9.3%)
+    // names the country; the snippet said 'Saudi' and never 'Saudi Arabia'. No new
+    // fact - ETEC and Saudi Arabia are already the page's own words.
     description:
-      'SGPAT is the Saudi General Aptitude Test run by ETEC for postgraduate admission. Verbal and quantitative sections, questions, duration and eligibility.',
+      'SGPAT is the Saudi General Aptitude Test run by ETEC in Saudi Arabia for postgraduate admission. Verbal and quantitative sections, duration, eligibility.',
     query: 'sgpat (38.9% @ 0.00% CTR), general aptitude test saudi arabia (9.3%)',
     gscImpressions: 576,
   },

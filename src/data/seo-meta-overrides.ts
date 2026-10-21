@@ -425,7 +425,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/ras/syllabus/': {
     title: 'RPSC RAS Syllabus Weightage: Prelims Subject-Wise',
     description:
-      'RPSC RAS syllabus weightage subject by subject for the prelims paper: how many questions each topic has actually appeared in.',
+      'RPSC RAS syllabus weightage subject by subject for the prelims paper: 1-5 weightage cues by topic, so you know which questions to prepare for first.',
     query: 'ras pre question weightage (26.7%), ras question weightage (26.7%)',
     gscImpressions: 714,
   },
@@ -634,7 +634,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/nda/syllabus/': {
     title: 'NDA Syllabus Weightage: Maths & GAT Topic Breakdown',
     description:
-      'NDA syllabus weightage for the Mathematics and GAT papers: how many questions each topic has actually appeared in past papers, subject by subject.',
+      'NDA syllabus weightage for the Mathematics and GAT papers: 1-5 weightage cues by topic, so you know which questions you should prepare for first.',
     query: 'history weightage in nda (8.7%), polity weightage in nda (7.9%)',
     gscImpressions: 310,
   },

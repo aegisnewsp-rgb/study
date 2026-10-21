@@ -11,8 +11,11 @@
 #     rm .git/hooks/pre-commit
 #
 # Host operator bypass:  SR_RECEIPT_GATE_BYPASS=1 git commit ...
-#     The bypass is now RECORDED on disk, not just printed:
+#     The bypass is RECORDED on disk, not just printed:
 #     $SR_AUDIT_LOG (default /data/openclaw-workspace/gate-audit.jsonl).
+#     It opens ONLY when that record was actually written: if the audit write
+#     fails, the gate keeps refusing, because a bypass with no record is
+#     indistinguishable from no gate at all.
 #     A bypass with `--no-verify` skips this hook entirely — the post-commit
 #     hook still records that commit, because `--no-verify` does not skip
 #     post-commit (verified on git 2.47.3).

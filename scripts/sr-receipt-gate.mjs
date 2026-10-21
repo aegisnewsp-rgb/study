@@ -19,8 +19,10 @@
  * operator should ever set it. A bypass is printed loudly, never silent, and
  * it is RECORDED on disk (ts, staged paths, verdict, and the names of the
  * receipts that said no) in $SR_AUDIT_LOG, default
- * /data/openclaw-workspace/gate-audit.jsonl. The flag applies to the COMMIT
- * path only: the deploy path (--worktree) never honours it.
+ * /data/openclaw-workspace/gate-audit.jsonl. If that write FAILS the gate does
+ * NOT open the hatch: the commit stays refused, because a bypass that leaves
+ * no record is indistinguishable from no gate at all. The flag applies to the
+ * COMMIT path only: the deploy path (--worktree) never honours it.
  *
  * Usage:
  *   node scripts/sr-receipt-gate.mjs                 # read staged files from git
@@ -31,6 +33,7 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync, existsSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 const PATCH_DIR = process.env.SR_PATCH_DIR || '/data/openclaw-workspace/patches';
 
@@ -38,6 +41,23 @@ const PATCH_DIR = process.env.SR_PATCH_DIR || '/data/openclaw-workspace/patches'
 // exercise the bypass path in-process, without re-spawning the process.
 export function bypassRequested() {
   return process.env.SR_RECEIPT_GATE_BYPASS === '1';
+}
+
+/**
+ * The escape hatch opens ONLY when the bypass was actually RECORDED.
+ *
+ * MEASURED 2026-10-21T17:20Z by the 0545Z curator, reproduced end to end in a
+ * scratch repo: with SR_RECEIPT_GATE_BYPASS=1 and an audit path that cannot be
+ * written, the gate reached process.exit(0) and the commit LANDED — the escape
+ * hatch worked precisely when the audit trail did not, the opposite of the
+ * condition the file's own header claims. A bypass that leaves no record is
+ * indistinguishable from no gate at all, so it is not the documented hatch.
+ *
+ * The operator's hatch is not removed: with a working audit path the bypass
+ * still opens, still prints loudly, and still writes the record.
+ */
+export function bypassOpensHatch(bypassAudit) {
+  return !!(bypassAudit && bypassAudit.ok === true);
 }
 
 // The durable audit writer lives next to this file. It is imported DYNAMICALLY
@@ -833,6 +853,72 @@ function selfcheck() {
     'a missing audit directory is reported, never created',
     missingDir.error || 'ok=true (it should have refused to create a directory)',
   );
+
+  // 18. THE HATCH IS THE HATCH ONLY WHILE IT LEAVES A RECORD (measured
+  //     2026-10-21T17:20Z by the 0545Z curator, reproduced end to end in a
+  //     scratch repo: with SR_RECEIPT_GATE_BYPASS=1 and an audit path that
+  //     cannot be written, the gate exited 0 and the commit LANDED — the
+  //     escape hatch worked precisely when the audit trail did not, the
+  //     opposite of the condition this file's own header claims).
+  //     The hatch now opens only when the audit line was actually written.
+  check(
+    bypassOpensHatch({ ok: true }) === true &&
+      bypassOpensHatch({ ok: false, error: 'x' }) === false &&
+      bypassOpensHatch(null) === false &&
+      bypassOpensHatch(undefined) === false,
+    'the escape hatch opens only when the bypass was actually recorded',
+    '4 cases pinned: {ok:true}->true; {ok:false}, null, undefined->false',
+  );
+
+  // The end-to-end control. The unit control above cannot prove the COMMIT
+  // path, because that path only runs when this file is the entry point — so
+  // this one spawns a REAL child gate against a REAL receipt store, with a
+  // REAL refusal, and reads the REAL exit code.
+  const gateSelf = fileURLToPath(import.meta.url);
+  const scratchStore = join(tmp, 'store');
+  mkdirSync(scratchStore, { recursive: true });
+  writeFileSync(
+    join(scratchStore, 'refuse.receipt.json'),
+    JSON.stringify({
+      artifact: 'refuse.diff',
+      applied: false,
+      targets: ['src/data/exams/uganda/uneb.ts'],
+    }),
+  );
+  const runGateWithBypass = (auditPath) => {
+    try {
+      execFileSync('node', [gateSelf, '--files', 'src/data/exams/uganda/uneb.ts'], {
+        env: {
+          ...process.env,
+          SR_PATCH_DIR: scratchStore,
+          SR_AUDIT_LOG: auditPath,
+          SR_RECEIPT_GATE_BYPASS: '1',
+        },
+        stdio: ['ignore', 'pipe', 'pipe'],
+        encoding: 'utf8',
+        // A timeout, because this file's own history has a self-check that
+        // hung once. A child that hangs must FAIL a control, not hang the
+        // control run: the exit code below is -1 when the child is killed.
+        timeout: 10000,
+      });
+      return { rc: 0, stderr: '', signal: null };
+    } catch (e) {
+      const rc = e.status === undefined || e.status === null ? -1 : e.status;
+      return { rc, stderr: String(e.stderr || ''), signal: e.signal || null };
+    }
+  };
+  const unrecorded = runGateWithBypass(join(tmp, 'no-such-dir', 'audit.jsonl'));
+  check(
+    unrecorded.rc === 1,
+    'with the bypass flag set and NO audit record, the commit is still REFUSED (the hatch does not open unrecorded)',
+    `rc=${unrecorded.rc} signal=${unrecorded.signal || 'none'} :: ${(unrecorded.stderr || '').split('\n').filter(Boolean).slice(-2).join(' | ')}`,
+  );
+  const recorded = runGateWithBypass(join(tmp, 'audit-opened.jsonl'));
+  check(
+    recorded.rc === 0 && existsSync(join(tmp, 'audit-opened.jsonl')),
+    'with the bypass flag set and a WORKING audit, the operator hatch still opens and the record is written',
+    `rc=${recorded.rc} signal=${recorded.signal || 'none'} :: ${(recorded.stderr || '').split('\n').filter(Boolean).slice(-2).join(' | ')}`,
+  );
   if (prevAuditLog === undefined) delete process.env.SR_AUDIT_LOG;
   else process.env.SR_AUDIT_LOG = prevAuditLog;
 
@@ -901,11 +987,18 @@ if (!isMain) {
   }
   printWarns(res.warn || []);
   const bypassing = bypassRequested();
+  let bypassAudit = null;
   if (bypassing) {
     // Record the bypass BEFORE acting on it, so the evidence exists even if
     // the process dies on the next line. verdict is the FINAL outcome; the
     // refusal it overrode is kept in `block` and `would_refuse`.
-    recordBypass({
+    // The result is KEPT, not discarded. Measured 2026-10-21 by the 0545Z
+    // curator: the old code dropped this return value, so when the audit
+    // write failed the gate still printed "RECORDED in the audit log" and
+    // exited 0 — a bypass with no record, announced as recorded. A control
+    // that cannot see its own escape hatch is the one thing an audit trail
+    // must not be.
+    bypassAudit = recordBypass({
       staged,
       // The FINAL outcome. When the flag overrides a refusal the effective
       // verdict is ALLOW, and `would_refuse` keeps the refusal that was
@@ -919,7 +1012,13 @@ if (!isMain) {
   if (res.allow) {
     if (res.note) console.error(`sr-receipt-gate: OK (${res.note})`);
     if (bypassing) {
-      console.error('  !! SR_RECEIPT_GATE_BYPASS=1 was set — operator bypass, RECORDED in the audit log.');
+      if (bypassAudit && bypassAudit.ok) {
+        console.error(`  !! SR_RECEIPT_GATE_BYPASS=1 was set — operator bypass, RECORDED in ${bypassAudit.path}.`);
+      } else {
+        console.error('  !! SR_RECEIPT_GATE_BYPASS=1 was set — operator bypass, NOT RECORDED.');
+        console.error(`     The audit write failed: ${(bypassAudit && bypassAudit.error) || 'unknown error'}.`);
+        console.error(`     No record of this bypass exists at ${(bypassAudit && bypassAudit.path) || 'the audit path'}.`);
+      }
     }
     process.exit(0);
   }
@@ -930,14 +1029,25 @@ if (!isMain) {
     // printed one stderr line and then REFUSED anyway, so the flag was a
     // documented hatch that no hatch could open (the same class as the 0405Z
     // --worktree branch that did not exist). It is honoured now, and every
-    // use of it is on the record: ts, the staged paths, the verdict, and the
-    // names of the receipts that said no.
+    // use of it is written to the audit log: ts, the staged paths, the
+    // verdict, and the names of the receipts that said no. If the write
+    // FAILS the hatch does NOT open: the commit stays refused, because the
+    // escape hatch is the documented hatch only while it leaves a record.
     // The DEPLOY path (--worktree) does NOT honour this flag: a deploy is not
     // a commit, and the operator's deploy decision must be made explicitly.
     console.error('\n\x1b[31msr-receipt-gate: COMMIT REFUSED\x1b[0m — but SR_RECEIPT_GATE_BYPASS=1 is set.');
     res.block.forEach((b) => console.error(`  - ${b}`));
+    if (!bypassOpensHatch(bypassAudit)) {
+      console.error('  !! OPERATOR BYPASS REFUSED — the audit write FAILED, so this bypass could not be RECORDED.');
+      console.error(`     Audit write error: ${(bypassAudit && bypassAudit.error) || 'unknown error'}.`);
+      console.error(`     No usable record of this bypass was written to ${(bypassAudit && bypassAudit.path) || 'the audit path'}.`);
+      console.error('     The escape hatch is the documented hatch only while it leaves a record; an');
+      console.error('     unrecorded bypass is indistinguishable from no gate at all.');
+      console.error('     Fix the audit path (SR_AUDIT_LOG) or fix the content, then commit again.');
+      process.exit(res.rc || 1);
+    }
     console.error('  !! OPERATOR BYPASS: this commit is ALLOWED despite the refusal above.');
-    console.error('     The bypass is RECORDED in the audit log (ts, paths, verdict, receipts).');
+    console.error(`     The bypass is RECORDED in ${bypassAudit.path} (ts, paths, verdict, receipts).`);
     console.error('     The deploy path (--worktree) does NOT honour this flag.');
     process.exit(0);
   }

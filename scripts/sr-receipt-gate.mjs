@@ -128,6 +128,36 @@ const NARRATIVE_KEY = /(proof|check|_note|context|rationale|why|detail|excerpt|s
 // verdict; a 30-word sentence containing "rejected" is not.
 const MAX_VERDICT_WORDS = 6;
 
+// A verdict about work that was DISCARDED is not a verdict about this patch.
+//
+// MEASURED FALSE REFUSAL, 2026-10-21 vqzo 0605Z pulse. The receipt
+// VQZO-20261019T1105Z-dead-duplicate-viteee-block-and-gate-advice-fix carries
+//   discarded_uncommitted_work.verdict = "FACTUALLY WRONG for 2026 and REJECTED"
+// That block is a NARRATIVE about uncommitted work found by another actor and
+// correctly REJECTED and DELETED — the handling was RIGHT, and the receipt
+// says so: state = "LANDED", landed_commit = "ee2f2a4d", and it lists
+// scripts/check-exam-faq-keys.mjs among the files its own patch changed.
+//
+// The gate read that nested narrative as the receipt's own verdict and refused
+// EVERY commit that touched scripts/check-exam-faq-keys.mjs — the very file
+// this receipt landed a change to. The file became permanently uncommittable,
+// and the refusal message told the operator to "fix the content, or land the
+// repair with a NEW receipt" for a change that had nothing to do with the
+// discarded block.
+//
+// Two gate rules missed it, both worth recording:
+//   - the leaf key was "verdict", which is a real verdict key, so the
+//     NARRATIVE_KEY filter (which matches proof|check|_note|context|...) did
+//     not fire;
+//   - the value is exactly 6 words, so the >6-word prose filter did not fire
+//     either. "FACTUALLY WRONG for 2026 and REJECTED" is a sentence wearing a
+//     verdict key.
+//
+// The fix is narrow: a path that names discarded work is not this patch's
+// verdict. The receipt's OWN fields (applied/ok/status/outcome/...) are
+// untouched, so a receipt that genuinely refuses still refuses.
+const DISCARDED_PATH = /discard/i;
+
 function walk(node, path = '') {
   const hits = [];
   if (Array.isArray(node)) {
@@ -175,6 +205,10 @@ export function judgeReceipt(receiptPath) {
     if (value === null || value === undefined) continue;
     const leafKey = path.split('.').pop().replace(/\[\d+\]$/, '').toLowerCase();
     if (!REFUSE_KEYS.includes(leafKey)) continue;
+    if (DISCARDED_PATH.test(path)) {
+      skippedProse.push(`${name}: ${path} (a verdict about DISCARDED work, not about this patch)`);
+      continue;
+    }
     if (NARRATIVE_KEY.test(leafKey)) {
       skippedProse.push(`${name}: ${path} (narrative field, not a verdict)`);
       continue;
@@ -453,6 +487,31 @@ function selfcheck() {
   wr(R('nested'), '{"patch":"p","applied":true,"gates":{"curate":{"ok":false}}}');
   j = judgeReceipt(join(tmp, R('nested')));
   check(j.refuse, 'nested ok=false refuses', j.reasons[0] || 'allowed!');
+
+  // 3b. THE 0605Z FALSE REFUSAL, as a control. A receipt that LANDED a change
+  //     and records that some OTHER uncommitted work was rejected must not
+  //     refuse a later commit to the file it landed. Measured live: this
+  //     blocked every commit touching scripts/check-exam-faq-keys.mjs.
+  wr(
+    R('discarded-narrative'),
+    '{"patch":"p","state":"LANDED","landed_commit":"ee2f2a4d","files":["src/x.ts"],' +
+      '"discarded_uncommitted_work":{"what":"an uncommitted rewrite","verdict":"FACTUALLY WRONG for 2026 and REJECTED"}}',
+  );
+  j = judgeReceipt(join(tmp, R('discarded-narrative')));
+  check(
+    !j.refuse,
+    'a verdict about DISCARDED work does not refuse the patch (the 0605Z false refusal)',
+    j.refuse ? j.reasons[0] : 'allow',
+  );
+
+  // 3c. ...and the same receipt WITH a real refusal of its own still refuses.
+  //     The fix must not become a blanket allow.
+  wr(
+    R('discarded-but-also-refuses'),
+    '{"patch":"p","state":"LANDED","applied":false,"discarded_uncommitted_work":{"verdict":"REJECTED"}}',
+  );
+  j = judgeReceipt(join(tmp, R('discarded-but-also-refuses')));
+  check(j.refuse, 'a discarded-work narrative does not mask the receipt\'s own refusal', j.reasons[0] || 'allowed!');
 
   // 4. malformed JSON must fail LOUD, never open
   wr(R('bad'), '{"patch":"p", "applied": tru');

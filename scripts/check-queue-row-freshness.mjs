@@ -367,19 +367,36 @@ function runProbe(row, baseDir) {
 function loadRows(queueDir) {
   if (!fs.existsSync(queueDir)) throw new Error(`queue dir not found: ${queueDir}`);
   const out = [];
+  // MALFORMED ROWS ARE REPORTED, NOT DROPPED — 2026-10-21, vqzo 0605Z pulse.
+  //
+  // The defect this closes was measured, not reasoned: 2 of 561 files in
+  // queue/pending failed JSON.parse, so they were invisible to this gate AND
+  // to every router that parses the directory. Nothing raised. The row simply
+  // did not appear in the ranking — a row written to be read and never read.
+  // The failure MODE is the point: a blind spot that reports itself is a
+  // nuisance, one that does not is a trap. The row that was invisible here
+  // happened to be a FIXED row and a score-12 row, so nothing was lost — that
+  // was luck, not design.
+  //
+  // A malformed row is REPORTED, never FAILED: a broken row in a work queue
+  // must not turn a content gate red, or the queue gets abandoned instead of
+  // repaired. It is named with the exact parse error so the next pulse can
+  // repair it instead of rediscovering it.
+  const malformed = [];
   for (const name of fs.readdirSync(queueDir).sort()) {
     if (!name.endsWith('.json')) continue;
     if (name.startsWith('_') || name.startsWith('.')) continue; // artifacts, not rows
     let parsed;
     try {
       parsed = JSON.parse(fs.readFileSync(path.join(queueDir, name), 'utf8'));
-    } catch {
-      continue; // malformed rows are not this gate's problem
+    } catch (err) {
+      malformed.push({ file: name, error: String((err && err.message) || err).slice(0, 200) });
+      continue;
     }
     if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) continue;
     out.push({ file: name, row: parsed, ...dispatchability(parsed), score: scoreOf(parsed) });
   }
-  return out;
+  return { rows: out, malformed };
 }
 
 // ---------------------------------------------------------------------------
@@ -602,8 +619,9 @@ function main() {
   if (SELF_TEST) selfTest();
 
   const loaded = loadRows(QUEUE_DIR);
+  const malformed = loaded.malformed;
   const counts = {};
-  const rows = loaded.map(({ file, row, dispatchable, why, score }) => {
+  const rows = loaded.rows.map(({ file, row, dispatchable, why, score }) => {
     const c = classify(row);
     counts[c.bucket] = (counts[c.bucket] || 0) + 1;
     return { file, row, dispatchable, why, score, ...c };
@@ -650,6 +668,8 @@ function main() {
       queue_dir: QUEUE_DIR,
       head: git(['rev-parse', 'HEAD']).out.trim(),
       rows_scanned: rows.length,
+      malformed_rows: malformed.length,
+      malformed: malformed.map((m) => ({ file: m.file, error: m.error })),
       dispatchable: dispatchable.length,
       artifacts: artifacts.length,
       buckets: counts,
@@ -666,6 +686,10 @@ function main() {
   } else {
     console.log(`check-queue-row-freshness: ${rows.length} json objects in ${QUEUE_DIR}`);
     console.log(`  head ${git(['rev-parse', '--short', 'HEAD']).out.trim()}`);
+    if (malformed.length) {
+      console.log(`  MALFORMED ROWS (unreadable, invisible to every router): ${malformed.length}`);
+      for (const m of malformed) console.log(`    ${m.file} -> ${m.error}`);
+    }
     console.log(`  dispatchable ${dispatchable.length}   artifacts ${artifacts.length}`);
     console.log(`  dispatchable-but-already-terminal, withheld from the list: ${topShipped}`);
     console.log(`  dispatchable-but-operator-gated, withheld from the list: ${topGated}`);

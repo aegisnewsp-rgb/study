@@ -32,6 +32,8 @@
  *   3. runtime keys == static keys           -> FAIL (requirement (b))
  *   4. no dead near-twin key                 -> FAIL (the cucet-pg/cuet-pg class)
  *   5. near-twin pairs where both are live   -> WARN (informational; real exams)
+ *   6. no key misrouted away from a live examId -> FAIL (INVARIANT 6, renderPathFindings)
+ *   7. cited national ccTLD == module country -> FAIL (INVARIANT 7, contentCountryFindings)
  *
  * BASELINE
  *   scripts/exam-faq-key-baseline.txt records pairs that are known-bad ON
@@ -338,10 +340,308 @@ function renderPathFindings(keys) {
   report.misrouted = misrouted.length;
 }
 
+// --------------------------------------------------- INVARIANT 7 — country/cctld
+
+/**
+ * INVARIANT 7 — OFF_COUNTRY_FAQ_SOURCE.
+ *
+ * Invariants 1-6 judge a key by its NAME. They cannot see the CONTENT under it.
+ * The defect this exists for (queue row sr-20261019T2035Z, score 8800): Saudi
+ * Qudrat FAQs were being served to Pakistan GAT. Every name-side invariant
+ * passed, because 'gat' is a real key, a real module examId, and one edit from
+ * nothing. The block was simply about the wrong country.
+ *
+ * THE MEASUREMENT THAT DECIDED THE DESIGN:
+ *   A first attempt at this invariant sliced src/data/exam-faqs.ts by source
+ *   offsets to get "the text under key K". It reported a mismatch on 'sgpat'
+ *   (Saudi) citing .ke and .au hosts. FALSE POSITIVE. The file has TWO block
+ *   forms — 2-space `'key': [` literals AND 0-indent `EXAM_FAQS['key'] = [`
+ *   assignments — and the slicer only understood the first. So every assignment
+ *   block after the object literal closed was absorbed into the last literal
+ *   key's slice: sgpat swallowed kasneb-cpa (Kenya) and hsc-mathematics-advanced
+ *   (Australia). Same class as defects d2/d3 already recorded in this file — an
+ *   instrument that cannot see its own target. The slicer was deleted, not tuned.
+ *
+ *   So this invariant reads CONTENT FROM THE RUNTIME OBJECT, never from source
+ *   offsets. That is strictly better than fixing the slicer: it is immune to the
+ *   block-shape problem entirely, and it also excludes editorial `//` comments,
+ *   which sit between blocks in the source and are never rendered to a reader.
+ *   A comment saying "verified against kasneb.or.ke" must not fail a Saudi page.
+ *
+ * ALIASES: resolved through the source-parsed alias map, so an alias is judged
+ * on the country of the exam whose content it actually serves.
+ */
+function readModuleCountries() {
+  const out = new Map();
+  const walk = (dir) => {
+    let ents;
+    try { ents = fs.readdirSync(dir, { withFileTypes: true }); } catch { return; }
+    for (const e of ents) {
+      const p = path.join(dir, e.name);
+      if (e.isDirectory()) { walk(p); continue; }
+      if (!/\.ts$/.test(e.name)) continue;
+      let text;
+      try { text = fs.readFileSync(p, 'utf8'); } catch { continue; }
+      const id = /examId:\s*'([^']+)'/.exec(text);
+      const co = /^\s*country:\s*'([^']+)'/m.exec(text);
+      if (id && co) out.set(id[1], { country: co[1], file: path.relative(ROOT, p) });
+    }
+  };
+  walk(path.join(ROOT, 'src/data/exams'));
+  return out;
+}
+
+/**
+ * National ccTLDs only, and only where the code is unambiguous. Deliberately
+ * NOT exhaustive: an unmapped ccTLD is ignored, because a wrong guess here
+ * fails a correct page. Two-letter codes that are also real gTLD-style noise
+ * (.ai, .io, .tv, .me) are excluded below by the name check.
+ *
+ * .co WAS mapped here, to 'colombia', and that was a false-positive generator
+ * (measured 2026-10-21, vqzo 0550Z): a perfectly ordinary commercial host
+ * such as https://www.university.co/portal scored as a Colombian source and
+ * hard-FAILED any exam that cited it, with no way to excuse it. Colombia has
+ * no exam module in this repo, so dropping the entry costs nothing. .co is
+ * ambiguous, and this table only accepts unambiguous codes.
+ */
+const CC_TLD_COUNTRY = {
+  pk: 'pakistan', sa: 'saudi', in: 'india', lk: 'sri-lanka', np: 'nepal',
+  uk: 'united-kingdom', sg: 'singapore',
+  tz: 'tanzania', ru: 'russia', ug: 'uganda', ng: 'nigeria', gh: 'ghana',
+  ke: 'kenya', bd: 'bangladesh', au: 'australia', ca: 'canada',
+  us: 'united-states', gb: 'united-kingdom', za: 'south-africa', eg: 'egypt',
+  id: 'indonesia', my: 'malaysia', ph: 'philippines', vn: 'vietnam',
+  cn: 'china', jp: 'japan', kr: 'south-korea', br: 'brazil', mx: 'mexico',
+  tr: 'turkey', ae: 'uae', qa: 'qatar', om: 'oman', kw: 'kuwait',
+  bh: 'bahrain', jo: 'jordan', lb: 'lebanon', il: 'israel', ir: 'iran',
+  iq: 'iraq', ie: 'ireland', nz: 'new-zealand', ar: 'argentina', cl: 'chile',
+  et: 'ethiopia', hk: 'hong-kong', bt: 'bhutan', mv: 'maldives',
+  si: 'slovenia', rs: 'serbia', ba: 'bosnia', mk: 'north-macedonia',
+  al: 'albania', ge: 'georgia', am: 'armenia', kz: 'kazakhstan',
+  uz: 'uzbekistan', mn: 'mongolia', kh: 'cambodia', la: 'laos', mm: 'myanmar',
+};
+
+/**
+ * ONE VOCABULARY FOR COUNTRY NAMES — MEASURED DEFECT FIX (2026-10-21, vqzo 0550Z).
+ *
+ * THE DEFECT, MEASURED NOT REASONED: CC_TLD_COUNTRY names a country
+ * 'hong-kong'. The exam modules name the SAME country 'hongkong'. The two
+ * vocabularies were never compared, so the equality test that decides "is
+ * this source domestic?" was STRUCTURALLY UNREACHABLE for every country whose
+ * spelling differs. Proof: the gate FAILED on CORRECT content. The Hong Kong
+ * HKDSE exam, citing its own official Examinations and Assessment Authority
+ * source (https://www.hkeaa.edu.hk/), produced
+ *   FAIL OFF_COUNTRY_FAQ_SOURCE: FAQ key 'hkdse' serves module 'hkdse' whose
+ *   country is 'hongkong' ... but its reader-visible text cites .hk = hong-kong
+ *   exit 1
+ * A false positive on an officially-sourced page is the cry-wolf this gate was
+ * supposed to avoid: a gate that reds on correct content gets switched off.
+ * Six spellings were affected, covering 31 exam modules.
+ *
+ * WHY IT WAS GREEN TODAY: the escape hatch. A mismatch is excused when the
+ * answer text names the foreign country. 'Hong Kong' happened to be absent
+ * from the hkdse block, so it FAILED. Where the block did name its country the
+ * same bug only produced a misleading WARN - the gate calling South Africa's
+ * own official .za source a "cross-reference" to a different country, in a
+ * message that printed both spellings side by side. Green by accident, and one
+ * content edit away from red. The anti-slop work is actively adding scheme-ful
+ * official URLs to these blocks, so the trap was about to be sprung.
+ *
+ * THE FIX: normalise the module's country value to the table's vocabulary
+ * before comparing, so a domestic source is recognised as domestic and
+ * hyphenation can never decide pass or fail.
+ */
+const COUNTRY_ALIAS = {
+  uk: 'united-kingdom', usa: 'united-states', srilanka: 'sri-lanka',
+  hongkong: 'hong-kong', newzealand: 'new-zealand', southafrica: 'south-africa',
+};
+
+function canonicalCountry(code) {
+  return COUNTRY_ALIAS[code] || code;
+}
+
+/**
+ * Human names for the self-justification escape hatch. ALWAYS returns an array.
+ *
+ * DEFECT IN THIS GATE'S OWN NEW CODE, caught by its own negative test
+ * (2026-10-21 vqzo 0220Z pulse): the first version returned a bare string on
+ * the SPECIAL branch and an array on the generic branch. The caller does
+ * `phrases.some(...)`, so every SPECIAL country — Saudi, UK, Sri Lanka, the
+ * very ones this escape hatch exists for — threw a TypeError and the gate
+ * exited 1. That made the FIRST negative test look like it passed: exit 1 was
+ * a crash, not a detection. Same class as defects d2/d3 in this file: an
+ * instrument that reports success without having looked. The test passed for
+ * the wrong reason, which is worse than not testing.
+ */
+function countryPhrase(code) {
+  // Short and long forms BOTH. A page that says 'the United Kingdom' is
+  // naming the country just as clearly as one that says 'UK', and the escape
+  // hatch exists to excuse a stated cross-reference, not to grade spelling.
+  // Measured: the short-only list made a correct .uk citation on a non-UK
+  // page a FAIL, because 'UK' is not a substring of 'the United Kingdom'.
+  const SPECIAL = {
+    'saudi': ['Saudi', 'Saudi Arabia'],
+    'united-kingdom': ['UK', 'United Kingdom'],
+    'united-states': ['US', 'United States', 'USA'],
+    'sri-lanka': ['Sri Lanka'],
+    'south-korea': ['Korea', 'South Korea'],
+    'new-zealand': ['New Zealand'],
+    'hong-kong': ['Hong Kong'],
+    'south-africa': ['South Africa'],
+    'uae': ['UAE', 'United Arab Emirates'],
+    'north-macedonia': ['Macedonia', 'North Macedonia'],
+    'costa-rica': ['Costa Rica'],
+  };
+  if (SPECIAL[code]) return SPECIAL[code];
+  const generic = code.replace(/-/g, ' ').replace(/\b[a-z]/g, (c) => c.toUpperCase());
+  return [generic];
+}
+
+function contentCountryFindings(keys, aliasMap) {
+  const mods = readModuleCountries();
+  if (RUNTIME_OBJ === null || mods.size === 0) {
+    warns.push({
+      code: 'COUNTRY_CHECK_SKIPPED',
+      detail: `could not resolve modules (examIds with a country=${mods.size}, module=${RUNTIME_OBJ === null ? 'not loaded' : 'loaded'}); invariant 7 did NOT run. An unresolved check is not a pass.`,
+    });
+    return;
+  }
+
+  const aliasOf = new Map();
+  for (const a of aliasMap) aliasOf.set(a.key, a.target);
+
+  const noModule = [];
+  const mismatches = [];
+  let judged = 0;
+
+  for (const key of keys) {
+    const target = aliasOf.get(key) || key;
+    const mod = mods.get(target);
+    if (!mod) { noModule.push(key); continue; }      // NEVER silently dropped
+    const modCountry = canonicalCountry(mod.country);
+    const arr = RUNTIME_OBJ[target];
+    if (!Array.isArray(arr) || arr.length === 0) continue;
+
+    const text = arr
+      .map((e) => `${(e && e.question) || ''} ${(e && e.answer) || ''}`)
+      .join('\n');
+    if (!text.trim()) continue;
+    judged++;
+
+    const found = new Map();  // ccTLD -> [hostnames]
+    // The house citation style is a BARE hostname - 'Source: nts.org.pk' - with
+    // no scheme. Measured on src/data/exam-faqs.ts: 609 bare hostnames against
+    // 4 scheme-ful URLs. A matcher that only accepts https?:// therefore saw
+    // 4 of 613 citations and was blind to the defect class it exists for, in
+    // the exact form this file uses. The bare form is matched instead, and it
+    // yields the host alone, so a URL is still reported once.
+    for (const u of text.matchAll(/\b((?:[a-z0-9-]+\.)+[a-z]{2,})\b/gi)) {
+      const parts = u[1].toLowerCase().split('.');
+      const tld = parts[parts.length - 1];
+      if (!/^[a-z]{2}$/.test(tld)) continue;
+      if (!CC_TLD_COUNTRY[tld]) continue;
+      if (!found.has(tld)) found.set(tld, new Set());
+      found.get(tld).add(u[1].toLowerCase());
+    }
+
+    const foreign = [];
+    for (const [tld, hosts] of found) {
+      const country = CC_TLD_COUNTRY[tld];
+      if (country === modCountry) continue;   // domestic source: NOT a finding
+      foreign.push({ tld, country, hosts: [...hosts] });
+    }
+    if (!foreign.length) continue;
+
+    // SELF-JUSTIFICATION: content that deliberately cross-references another
+    // country says so. Upgrading the mismatch to a FAIL there would make the
+    // gate cry wolf on its first honest run and get switched off for good.
+    //
+    // THE TEST RUNS ON PROSE, NOT ON THE WHOLE TEXT — DEFECT FOUND AND FIXED
+    // BY THE 0605Z PULSE (2026-10-21), NOT BY READING:
+    //   The justification test used to run on `text`, which CONTAINS the cited
+    //   hostnames. A host whose name contains the country word therefore
+    //   excused an off-country source even when the answer never named the
+    //   country — the gate's own instruction is "name the country in the
+    //   ANSWER TEXT", and a hostname is not the answer text.
+    //   PROVED, not reasoned: a negative-control fixture — a module with
+    //   country 'pakistan' whose FAQ cites www.saudihighwayschool.sa and never
+    //   mentions Saudi — was EXCUSED (rc=0, no finding). The same fixture with
+    //   the hostname changed to www.alahli.edu.sa FAILED correctly (rc=1,
+    //   OFF_COUNTRY_FAQ_SOURCE naming the key, the module, the ccTLD and the
+    //   host). The only difference was whether the HOSTNAME spelled the
+    //   country. An instrument whose verdict depends on the spelling of a
+    //   hostname is not measuring the thing it claims to measure.
+    //   BLAST RADIUS, measured on the live corpus before the fix: 0 live
+    //   blocks were excused this way (1 block, cmat-nepal, is excused because
+    //   its PROSE names India; it stays a WARN). The defect was LATENT, not
+    //   live — so the fix changes no existing verdict and closes the class.
+    let prose = text.toLowerCase();
+    for (const hosts of found.values()) {
+      for (const h of hosts) prose = prose.split(h).join(' ');
+    }
+    const justified = [];
+    const unjustified = [];
+    for (const f of foreign) {
+      const phrases = [...countryPhrase(f.country), f.country.replace(/-/g, ' ')];
+      const hit = phrases.some((p) => prose.includes(String(p).toLowerCase()));
+      (hit ? justified : unjustified).push(f);
+    }
+
+    if (unjustified.length === 0) {
+      justified.forEach((f) => warns.push({
+        code: 'CROSS_COUNTRY_SOURCE_NAMED',
+        detail: `FAQ key '${key}' (module country '${modCountry}', ${mod.file}) cites .${f.tld} — a ${f.country} source — and names ${countryPhrase(f.country)[0]} in the answer, so it reads as a deliberate cross-reference. ${f.hosts[0]}`,
+      }));
+      continue;
+    }
+
+    mismatches.push({ key, target, country: modCountry, file: mod.file, foreign: unjustified, justified });
+  }
+
+  for (const m of mismatches) {
+    const detail = m.foreign
+      .map((f) => `.${f.tld} = ${f.country} (${f.hosts.slice(0, 3).join(', ')})`)
+      .join('; ');
+    fails.push({
+      code: 'OFF_COUNTRY_FAQ_SOURCE',
+      detail: `FAQ key '${m.key}' serves module '${m.target}' whose country is '${m.country}' (${m.file}), but its reader-visible text cites ${detail}. Either the block is filed under the wrong key, or it answers about the wrong country's exam — the gat/qudrat case: a key can pass invariants 1-6 and still describe a different country's paper. If the reference is deliberate, name the country in the answer text (that downgrades it to a WARN) rather than leaving the gate red.`,
+    });
+  }
+
+  // Lesson d2: a bucket that is computed and then not reported is the same
+  // blindness this gate exists to remove. Skipped keys are named every run.
+  if (noModule.length) {
+    warns.push({
+      code: 'COUNTRY_CHECK_NO_MODULE',
+      count: noModule.length,
+      detail: `${noModule.length} FAQ keys have no exam module carrying a country field, so invariant 7 could not judge them: ${noModule.join(', ')}. Mostly English-proficiency and foreign exams that are correct without one (ielts, toefl, pte). They are REPORTED, not passed — if one of these ever grows a module, it gets judged from then on.`,
+    });
+  }
+  // A country that no ccTLD in the table maps to can never be flagged: an
+  // off-country source under it is invisible. That is not a pass, so it is
+  // REPORTED on every run. (Measured 2026-10-21: 7 of the repo's 29 country
+  // values were unreachable before the alias map, including 'singapore'.)
+  const reachable = new Set(Object.values(CC_TLD_COUNTRY));
+  const unreachable = [...new Set([...mods.values()].map((m) => canonicalCountry(m.country)))]
+    .filter((c) => !reachable.has(c))
+    .sort();
+  if (unreachable.length) {
+    warns.push({
+      code: 'COUNTRY_CHECK_UNREACHABLE',
+      count: unreachable.length,
+      detail: `${unreachable.length} exam countries have no ccTLD in the table, so invariant 7 can never flag an off-country source for them: ${unreachable.join(', ')}. They are REPORTED, not passed — add the ccTLD, or accept that those pages are unjudged by this check.`,
+    });
+  }
+  report.countryJudged = judged;
+  report.countrySkipped = noModule.length;
+  report.countryMismatches = mismatches.length;
+  report.countryUnreachable = unreachable.length;
+}
+
 // ------------------------------------------------------------------------ main
 
 const src = readTarget();
-let report = { target: path.relative(ROOT, TARGET), staticKeys: 0, runtimeKeys: 0, fails, warns };
+let report = { target: path.relative(ROOT, TARGET), staticKeys: 0, runtimeKeys: 0, countryJudged: 0, countrySkipped: 0, countryMismatches: 0, countryUnreachable: 0, fails, warns };
 
 if (src !== null) {
   const { defined, aliases } = parseKeys(src);
@@ -431,6 +731,11 @@ if (src !== null) {
 
   // Invariant 6 — needs the live object, so it runs after the import above.
   renderPathFindings([...staticSet]);
+
+  // Invariant 7 — content country vs module country. Also needs the live object,
+  // and reads content from it rather than from source offsets: see the long
+  // comment on the false positive that forced that choice.
+  contentCountryFindings([...staticSet], aliases);
 }
 
 // ---------------------------------------------------------------------- output

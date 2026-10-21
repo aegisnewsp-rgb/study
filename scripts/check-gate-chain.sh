@@ -79,7 +79,8 @@ check-ad-guards.mjs
 check-note-links.cjs
 check-internal-links.mjs
 check-source-hosts.sh
-check-same-page-restatement.mjs"
+check-same-page-restatement.mjs
+check-curate-corpus.mjs"
 
 mode="verify"
 only=""

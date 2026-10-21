@@ -78,6 +78,16 @@ SCRIPTS="scripts"
 # check-curate-corpus.mjs REQUIRED while its script was untracked. Both files
 # it reads (the gate and scripts/rejected-content-strings.json) are tracked, so
 # a fresh checkout has it and it cannot go INERT there.
+#
+# check-curate-gap.mjs is here for the same reason, one step further: it
+# enforces that every patch in the window carries a curate VERDICT, and NO
+# other gate in this chain checks that. Until 1505Z it ran by glob (so it
+# executed) but was not in REQUIRED (so deleting it was free) - exactly the
+# half-landed shape the 1320Z patch closed for check-rejected-content-live.mjs.
+# It is tracked, and its own INERT paths (unknown flag, bad --hours, missing
+# patch dir) all exit 2, which the chain reports as NOT-RUN ("asserted
+# nothing", never a pass) - so arming it cannot turn a missing control into a
+# false green.
 REQUIRED="check-scope.sh
 check-astro-syntax.mjs
 check-exam-faq-keys.mjs
@@ -88,7 +98,8 @@ check-internal-links.mjs
 check-source-hosts.sh
 check-same-page-restatement.mjs
 check-curate-corpus.mjs
-check-rejected-content-live.mjs"
+check-rejected-content-live.mjs
+check-curate-gap.mjs"
 
 mode="verify"
 only=""

@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.aiims.edu/',
+  conductingBody: 'All India Institute of Medical Sciences (AIIMS), New Delhi',
 };
 
 export default exam;

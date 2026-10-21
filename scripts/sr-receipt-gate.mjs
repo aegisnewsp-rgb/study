@@ -345,6 +345,42 @@ export function gate(staged, patchDir = PATCH_DIR) {
     const j = judgeReceipt(r.receipt);
     if (j.refuse) block.push(...j.reasons);
   }
+  // PARTIAL-COVERAGE WARNING — added 2026-10-21T1205Z.
+  //
+  // MEASURED, NOT INFERRED: the "no receipt governs the staged files" note used
+  // to fire ONLY when matched.length === 0. In the PARTIAL case — the normal
+  // shape of a real commit, where some staged files are governed and others are
+  // not — the gate returned allow:true with NO note, NO warn and NO block. The
+  // governed half was adjudicated and reported; the ungoverned half appeared
+  // nowhere in the output at all. A verdict that is true of the governed half
+  // and silent about the rest reads as a verdict on all of it.
+  //
+  // Measured live 2026-10-21T1150Z: gate(['src/data/exams/srilanka/gce-ol.ts'])
+  // returned allow:true rc:0 with a note, and the ungoverned file appeared in no
+  // hits, no block, no warn and no note — the string "gce-ol" survived in that
+  // output only inside a warning naming a DIFFERENT receipt file.
+  //
+  // WHAT THIS IS: a WARNING, not a block. The gate must not become a blanket
+  // block (selfcheck case 7 proves an unreadable receipt must not stop an
+  // unrelated commit), and an operator taught that a control blocks everything
+  // will disable it within a day. The warning makes the half that was NOT
+  // adjudicated visible, so a human can decide.
+  //
+  // NARROWED ON PURPOSE to shipped-content paths (the same exported
+  // isShippedContentPath the ungoverned-content census uses, so the two cannot
+  // drift). A staged scripts/ or docs/ file is not a receipt-governed path and
+  // must not produce a warning, or the signal drowns in its own noise.
+  const covered = new Set();
+  for (const r of matched) for (const h of r.hits) covered.add(h);
+  const uncovered = staged.filter((s) => !covered.has(s) && isShippedContentPath(s));
+  if (uncovered.length) {
+    const shown = uncovered.slice(0, 10);
+    const more = uncovered.length - shown.length;
+    warn.push(
+      `PARTIAL COVERAGE: ${uncovered.length} staged shipped-content file(s) are governed by NO receipt, ` +
+        `so no receipt verdict was applied to them: ${shown.join(', ')}${more > 0 ? ` (+${more} more)` : ''}`,
+    );
+  }
   return { allow: block.length === 0, rc: block.length === 0 ? 0 : 1, block, warn, receipts: matched };
 }
 
@@ -421,6 +457,20 @@ function dirtyShippedFiles() {
  */
 function printWarns(warns) {
   const limit = Number(process.env.SR_RECEIPT_GATE_WARN_LIMIT || 12);
+  // PARTIAL COVERAGE gets its own printed category, added 2026-10-21T1205Z.
+  // It must NOT be folded into the benign count: the benign bucket is a single
+  // summary line about target-less PASSING receipts, which is exactly the
+  // place a silently-ungoverned file would vanish again. It is printed in
+  // full, up to the same limit, because "the gate adjudicated half of my commit
+  // and said nothing about the other half" is the one line the operator must
+  // always read.
+  const partial = warns.filter((w) => w.includes('PARTIAL COVERAGE'));
+  partial.slice(0, limit).forEach((w) => console.error(`sr-receipt-gate: WARN  ${w}`));
+  if (partial.length > limit) {
+    console.error(
+      `sr-receipt-gate: WARN  +${partial.length - limit} more partial-coverage warning(s) (SR_RECEIPT_GATE_WARN_LIMIT=${limit} to see all).`,
+    );
+  }
   const refusing = warns.filter((w) => w.includes('REFUSES'));
   refusing.slice(0, limit).forEach((w) => console.error(`sr-receipt-gate: WARN  ${w}`));
   if (refusing.length > limit) {
@@ -431,7 +481,7 @@ function printWarns(warns) {
       `sr-receipt-gate: WARN  +${refusing.length - limit} more refusing-but-unmappable receipt(s) (SR_RECEIPT_GATE_WARN_LIMIT=${limit} to see all).`,
     );
   }
-  const benign = warns.length - refusing.length;
+  const benign = warns.length - refusing.length - partial.length;
   if (benign) {
     console.error(
       `sr-receipt-gate: WARN  ${benign} further receipt(s) declare no targets and PASS — they govern no staged file, nothing to adjudicate.`,
@@ -603,6 +653,41 @@ function selfcheck() {
     g8.allow === true,
     'unmappable receipts still do not become a blanket block',
     g8.block[0] || 'allow',
+  );
+
+  // 14. REGRESSION, found live 2026-10-21T1150Z: PARTIAL COVERAGE was silent.
+  //     When some staged files are governed by a receipt and others are not, the
+  //     gate reported a verdict for the governed half and said NOTHING about the
+  //     ungoverned half — the "no receipt governs the staged files" note fired
+  //     only when NOTHING was governed. A partial commit is the NORMAL shape of a
+  //     real commit, so this was the common case, not the edge case.
+  //     Two shipped-content paths are staged: one governed, one not. The governed
+  //     one must still be allowed, and the ungoverned one must be NAMED.
+  wr(R('partial-cov'), '{"patch":"p10","applied":true,"targets":["src/data/exams/iso14.ts"]}');
+  const g9 = gate(['src/data/exams/iso14.ts', 'src/data/exams/iso15.ts'], tmp);
+  check(
+    g9.allow === true,
+    'partial coverage still allows (the gate is a warning, not a blanket block)',
+    g9.block[0] || 'allow',
+  );
+  check(
+    g9.warn.some((w) => w.includes('PARTIAL COVERAGE') && w.includes('src/data/exams/iso15.ts')),
+    'partial coverage NAMES the ungoverned file instead of staying silent',
+    g9.warn.find((w) => w.includes('PARTIAL COVERAGE')) || 'SILENT — the 1150Z hole is open',
+  );
+  check(
+    !g9.warn.some((w) => w.includes('PARTIAL COVERAGE') && w.includes('src/data/exams/iso14.ts')),
+    'the GOVERNED file is not reported as ungoverned',
+    g9.warn.find((w) => w.includes('PARTIAL COVERAGE')) || 'no partial warning',
+  );
+  // 15. a non-content staged path (scripts/) must NOT raise a partial-coverage
+  //     warning: only receipt-governed shipped content is in scope, or the signal
+  //     drowns in its own noise and the operator switches the gate off.
+  const g10 = gate(['src/data/exams/iso14.ts', 'scripts/sr-something.mjs'], tmp);
+  check(
+    !g10.warn.some((w) => w.includes('PARTIAL COVERAGE')),
+    'a staged scripts/ path is not a receipt-governed path and does not warn',
+    g10.warn.find((w) => w.includes('PARTIAL COVERAGE')) || 'no partial warning',
   );
 
   // 14. TRAP CONTROL: the news bot dirties the revision files on every single run.

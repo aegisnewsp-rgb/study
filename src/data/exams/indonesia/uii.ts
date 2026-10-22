@@ -51,7 +51,7 @@ const exam: ExamTemplate = {
     'For UII Entrance (Indonesia), keep UII Entrance (Indonesia) application admin (photo specs, IDs) off your UII Entrance (Indonesia) study clock by checking https://uii.ac.id early.',
   commonMistakes: [
     'If your UII Entrance (Indonesia) brochure has no date, throw it out and open https://uii.ac.id.',
-    'Section timing for UII Entrance (Indonesia) only counts if it matches the live duration.',
+    'Universitas Islam Indonesia admits on a valid UTBK score from LTMPT, so confirm with the university which UTBK sitting this intake will accept before you build a timetable around it. Separately, practise the entrance paper to the published duration on https://uii.ac.id - untimed practice will not show you whether you can hold that pace.',
     'Some UII Entrance (Indonesia) programmes add extra subject prerequisites after you pay — check https://uii.ac.id.',
     'Cut-off rumours are not UII Entrance (Indonesia) offers of admission.',
     'Eligibility snippet we store for UII Entrance (Indonesia): High school/SMA graduate (SMA or equivalent). Must have valid UTBK score from LTMPT. Boards edit this; https://uii.ac.id wins.'

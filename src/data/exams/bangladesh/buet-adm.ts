@@ -55,8 +55,8 @@ const exam: ExamTemplate = {
     'Print the current BUET Admission Test circular from https://buet.ac.bd and mark finished engineering topics on this hub.',
   commonMistakes: [
     'An outdated BUET Admission Test PDF is not a substitute for the current notice at https://buet.ac.bd.',
-    'Section timing for BUET Admission Test only counts if it matches the live duration.',
-    'Photo, ID, and attempt-limit rules for BUET Admission Test live on https://buet.ac.bd, not on WhatsApp.',
+    'BUET Admission Test is a timed paper, and an untimed question bank hides a pace problem until you are in the hall. The admission rule that gates the whole thing is the HSC result: a 4.0+ GPA with a combined 13.5 in Physics, Chemistry and Mathematics. The current notice on https://buet.ac.bd is what binds you.',
+    'BUET Admission Test is run by Bangladesh University of Engineering and Technology, which publishes its admission notice, campus reporting instructions and any attempt limits on https://buet.ac.bd. Alumni chat groups are useful for timing advice, not for rules - they circulate the previous cycle dates.',
     'Nobody on this site can guarantee a BUET Admission Test rank, percentile, or admission.',
     'Who the board describes as eligible for BUET Admission Test: HSC or equivalent with GPA 4.0+ in Physics, Chemistry, and Mathematics. Re-read it on https://buet.ac.bd the week you apply.'
   ],

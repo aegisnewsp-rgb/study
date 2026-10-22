@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind Tanzania Law School this year — https://udsm.ac.tz does.',
     'Skipping full Tanzania Law School papers until the final weekend is how scores stall.',
-    'A friend who sat Tanzania Law School two years ago is not your eligibility officer; https://udsm.ac.tz is.',
+    'Entry to the Tanzania School of Law turns on an undergraduate degree of at least Lower Second Class, English proficiency and a good-character declaration, and selection weighs the entrance examination against your undergraduate record. The School publishes its prospectus on https://udsm.ac.tz - a previous candidate experience says nothing about whether your degree class and language test clear the current bar.',
     'If a page promises you will \'crack Tanzania Law School\' with this plan, it is not this site.',
     'Use Typically consists of multiple papers covering English (comprehension and legal writing), General Knowledge. Only as a memory aid for Tanzania Law School, then match the live paper on https://udsm.ac.tz.'
   ],

@@ -54,8 +54,8 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Mirrors of IOE Entrance (Nepal) \'syllabus 2019\' are a common trap; start from https://ioe.edu.np.',
     'Skipping full IOE Entrance (Nepal) papers until the final weekend is how scores stall.',
-    'Photo, ID, and attempt-limit rules for IOE Entrance (Nepal) live on https://ioe.edu.np, not on WhatsApp.',
-    'StudyRoadmap will not promise a IOE Entrance (Nepal) outcome — only a study order.',
+    'The IOE Entrance is run by the Tribhuvan University Institute of Engineering, which publishes the admission circular - reporting dates, identification requirements and attempt limits - on https://ioe.edu.np. Alumni messaging groups are useful for timing advice, not for rules: what circulates there is usually the previous cycle dates.',
+    'No IOE Entrance place is promised here. The measurable side of the qualification is the +2 Science result: Physics, Chemistry and Mathematics with a minimum of 45% in PCM, as set out on https://ioe.edu.np. Treat the study order on this page as preparation against that bar, not as a prediction.',
     'Who the board describes as eligible for IOE Entrance (Nepal): +2 Science with Physics, Chemistry, Mathematics. Minimum 45% in PCM. Re-read it on https://ioe.edu.np the week you apply.'
   ],
   lastUpdated: '2026-07-28',

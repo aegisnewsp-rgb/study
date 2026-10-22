@@ -51,8 +51,8 @@ const exam: ExamTemplate = {
     'For Post-UTME (Nigeria), hold Post-UTME (Nigeria) ID-photo and fee rules against https://www.jamb.gov.ng in the same week as your first Post-UTME (Nigeria) mock.',
   commonMistakes: [
     'If your Post-UTME (Nigeria) brochure has no date, throw it out and open https://www.jamb.gov.ng.',
-    'Doing only favourite Post-UTME (Nigeria) chapters leaves the clock as the real examiner.',
-    'A friend who sat Post-UTME (Nigeria) two years ago is not your eligibility officer; https://www.jamb.gov.ng is.',
+    'Every Nigerian university writes its own Post-UTME paper, ranking combines your JAMB UTME score with the Post-UTME result, and the cut-off plus O-Level subject requirements are set per institution. What you revise still sits inside the UTME syllabus JAMB sets, narrowed to the subjects your chosen university names, so decide which university you may sit - only one per admission year - and build your order from that university\'s subject list.',
+    'Post-UTME eligibility starts with a JAMB UTME score and the cut-off your university publishes for that year, and that cut-off moves with each institution and course - last cycle number is not this cycle number. JAMB sets the national framework on https://www.jamb.gov.ng, but the university you apply to is the body that fixes its own threshold.',
     'Treat \'sure selection\' Post-UTME (Nigeria) ads as marketing; the board does not endorse them.',
     'Pattern note for Post-UTME (Nigeria): do not read the question count and clock time in the pattern section above as settled, because every university runs a paper of its own. Confirm the version for the university you apply to before you plan your revision timetable.'
   ],

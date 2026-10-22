@@ -55,7 +55,7 @@ const exam: ExamTemplate = {
     'If your LOE Nepal (Bachelor Entrance) brochure has no date, throw it out and open https://psc.gov.np.',
     'A LOE Nepal (Bachelor Entrance) mock with a different number of items trains the wrong stamina.',
     'Some LOE Nepal (Bachelor Entrance) programmes add extra subject prerequisites after you pay — check https://psc.gov.np.',
-    'StudyRoadmap will not promise a LOE Nepal (Bachelor Entrance) outcome — only a study order.',
+    'A study order is all this page can offer for LOE Nepal - no admission outcome is promised. What the Public Service Commission measures is the +2 (Higher Secondary Education Board) result or its equivalent, with a minimum percentage set per programme, so read the threshold for each bachelor programme you are considering on https://psc.gov.np and aim at the strictest one you qualify for.',
     'Who the board describes as eligible for LOE Nepal (Bachelor Entrance): +2 (Higher Secondary Education Board) completion or equivalent. Minimum percentage requirements vary. Re-read it on https://psc.gov.np the week you apply.'
   ],
   lastUpdated: '2026-07-28',

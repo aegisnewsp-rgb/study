@@ -53,9 +53,9 @@ const exam: ExamTemplate = {
     'For RUET Admission Test, a crash week for RUET Admission Test only works after you have the live RUET Admission Test paper map from https://ruet.ac.bd.',
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind RUET Admission Test this year — https://ruet.ac.bd does.',
-    'Doing only favourite RUET Admission Test chapters leaves the clock as the real examiner.',
+    'The RUET preliminary is one multiple-choice paper of 100 questions worth a mark apiece - 40 in Mathematics, 30 in Physics, 20 in Chemistry, 10 in English/General Knowledge - so revising only the chapters you find comfortable leaves the rest of the syllabus untouched. RUET admission runs in two stages and the written test after the preliminary is the second, so clearing the MCQ paper is not the whole selection. Time a complete paper against the published duration from https://ruet.ac.bd before you trust a mock average.',
     'Some RUET Admission Test programmes add extra subject prerequisites after you pay — check https://ruet.ac.bd.',
-    'StudyRoadmap will not promise a RUET Admission Test outcome — only a study order.',
+    'No RUET Admission Test rank is promised here, and none should be read into a study order. Rajshahi University of Engineering and Technology admits on the HSC Science-group result you already hold, so aim the sequence at the aggregate those departments actually use, and let https://ruet.ac.bd confirm the threshold for this cycle.',
     'Reading your marks off a previous admission circular instead of the eligibility requirement itself. RUET sets one combined figure across Physics, Chemistry and Mathematics, and that figure has to clear the stated minimum on its own. The requirement is set out in the eligibility section above.'
   ],
   lastUpdated: '2026-10-20',

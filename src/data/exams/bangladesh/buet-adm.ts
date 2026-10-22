@@ -18,7 +18,7 @@ const exam: ExamTemplate = {
   examName: 'BUET Admission Test',
   country: 'bangladesh',
   description: 'BUET Admission Test is the extremely competitive entrance exam for Bangladesh University of Engineering and Technology — the premier engineering university in Bangladesh. Only top ~1% of applicants are admitted. The test assesses candidates in Mathematics, Physics, Chemistry, and English at the HSC level, with Mathematics carrying the highest weightage. Candidates who pass the written test are called for a viva voce examination as the final stage of selection.',
-  examPattern: 'Written + MCQ: Mathematics(100 marks), Physics(50 marks), Chemistry(50 marks), English(25 marks). Total 225 marks. Shortlisted candidates then appear for viva voce. The examination is held in Dhaka and other divisional cities simultaneously.',
+  examPattern: 'Written + MCQ papers totalling 225 marks: Mathematics(100 marks), Physics(50 marks), Chemistry(50 marks), English(25 marks). Shortlisted candidates then appear for viva voce. The examination is held in Dhaka and other divisional cities simultaneously.',
   eligibility: 'HSC or equivalent with GPA 4.0+ in Physics, Chemistry, and Mathematics (combined minimum 13.5 in these three subjects). Bangladesh citizen only. Foreign nationals may apply under specific quotas. Students from science background in HSC/equivalent are eligible.',
   subjects,
     durations: {
@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'BUET Admission Test is a timed paper, and an untimed question bank hides a pace problem until you are in the hall. The admission rule that gates the whole thing is the HSC result: a 4.0+ GPA with a combined 13.5 in Physics, Chemistry and Mathematics. The current notice on https://buet.ac.bd is what binds you.',
     'BUET Admission Test is run by Bangladesh University of Engineering and Technology, which publishes its admission notice, campus reporting instructions and any attempt limits on https://buet.ac.bd. Alumni chat groups are useful for timing advice, not for rules - they circulate the previous cycle dates.',
     'Nobody on this site can guarantee a BUET Admission Test rank, percentile, or admission.',
-    'Who the board describes as eligible for BUET Admission Test: HSC or equivalent with GPA 4.0+ in Physics, Chemistry, and Mathematics. Re-read it on https://buet.ac.bd the week you apply.'
+    'Reading the BUET Admission Test as open to any student with strong marks. The gate is not only the HSC result: it is Bangladesh citizenship, with foreign nationals admitted only under specific quotas, and the test open to science-background students holding HSC or its equivalent. Check which of those routes you actually fall under on https://buet.ac.bd before you plan a timetable around the paper.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://buet.ac.bd',

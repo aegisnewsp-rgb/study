@@ -16,7 +16,7 @@ const exam: ExamTemplate = {
   examName: 'KUCCPS Placement (Kenya)',
   country: 'kenya',
   description: 'The Kenya Universities and Colleges Central Placement Service (KUCCPS) places students into university programmes based on KCSE (Kenya Certificate of Secondary Education) grades. There is no separate placement examination — admission is determined entirely by KCSE performance. Students apply through KUCCPS by selecting courses from the available programme list, and placement is done based on cluster points calculated from KCSE grades in the four cluster subjects relevant to the chosen programme. KUCCPS manages placement for all public universities and is the official body for ensuring transparent and merit-based placement of students into higher education in Kenya.',
-  examPattern: 'Based on KCSE cluster subjects — no separate exam. Points are calculated from KCSE grades in 4 cluster subjects plus redundancy subjects. The cluster system uses the 48-point scale where each grade (A=12, A-=11, B+=10, B=9, B-=8, C+=7, C=6, C-=5, D+=4, D=3, E=0) is multiplied by the subject weight and summed to produce a cluster points score. Each programme specifies the four subjects that form its cluster.',
+  examPattern: 'Based on KCSE cluster subjects — no separate exam. Points are calculated from KCSE grades in 4 cluster subjects plus redundancy subjects. The cluster system uses the 48-point scale, where a grade carries a point value (A=12, A-=11, B+=10, B=9, B-=8, C+=7, C=6, C-=5, D+=4, D=3, D-=2, E=1) and the four cluster values are added together, so a candidate scoring an A in every cluster subject reaches 48. Each programme specifies the four subjects that form its cluster.',
   eligibility: 'KCSE holder with minimum C+ for most programmes (some require higher, some accept C). Must apply through KUCCPS during the application window after KCSE results are released. The minimum subject requirements vary by programme — for example, Medicine typically requires A in Biology, A- in Chemistry, A- in Physics/Mathematics, and B+ in English. Candidates must meet both the overall KCSE mean grade requirement and the specific cluster subject requirements for their chosen programme.',
   subjects,
     durations: {
@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'KUCCPS Placement (Kenya) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://kuccps.net for the current cycle — rules change by year and country (kenya).',
+    'Prepare for KUCCPS placement by calculating and checking the cluster points that will be used for programme selection, rather than revising for a separate entrance test. KCSE grades determine placement, with points calculated from the four subjects relevant to each programme plus redundancy subjects. Check the programme’s defined cluster subjects and subject-specific minimum grades before selecting courses, because the point values on the scale decide how close you are to the cutoff for that programme. Most programmes require a minimum C+, although some require higher grades or accept C. Candidates must apply through KUCCPS after KCSE results are released and meet both the programme’s overall mean and cluster-subject conditions.',
   commonMistakes: [
-    'Using outdated KUCCPS Placement (Kenya) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Looking for a KUCCPS entrance paper even though placement is based entirely on KCSE performance rather than a separate examination.',
+    'Adding all subjects without identifying the four that form the selected programme’s cluster.',
+    'Ignoring redundancy subjects even though their grades are included alongside the cluster subjects in the points calculation.',
+    'Checking the general C+ requirement without reviewing higher subject minima for programmes such as Medicine.',
+    'Applying without confirming the programme’s specific cluster requirements as well as its overall KCSE mean.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://kuccps.net',

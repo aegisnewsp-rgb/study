@@ -159,13 +159,13 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   prepOverview:
-    'NCEE (National Common Entrance Examination) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://ncee.neco.gov.ng for the current cycle — rules change by year and country (nigeria).',
+    'NCEE is two objective papers for final-year Primary 6 pupils, so prepare by paper rather than by one long syllabus. Each paper bundles several subjects, and the split between them decides your revision plan: Paper I carries four subjects and Paper II three. The NECO notice sets the subject list and the session schedule for each cycle, and the paper is multiple-choice and paper-based, so timed practice on the objective format is worth more than extra reading. Age eligibility for the Federal Government Colleges (Unity Schools) rests on the NECO guidelines, so check the current notice before you register.',
   commonMistakes: [
-    'Using outdated NCEE (National Common Entrance Examination) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Preparing Paper I as one blob: a candidate who drills only Mathematics leaves three of the other subjects on that paper uncovered.',
+    'Treating National Values Education as a formality — it is a named subject on Paper I, so its marks come from the same paper you are already sitting.',
+    'Planning only for Paper I and leaving three whole subjects unrehearsed: NCEE is administered across scheduled sessions, and every subject on Paper II goes unattempted.',
+    'Missing the age rule for the school you are applying to: the Unity Schools admission guidelines set a minimum age, and the notice for each cycle is what states it.',
+    'Reading the exam as a secondary-school paper. It is a Primary 6 exit paper, and material pitched above the primary level costs time without earning marks.',
   ],
   lastUpdated: '2026-09-22',
   officialSource: 'https://ncee.neco.gov.ng',

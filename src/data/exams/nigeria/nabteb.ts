@@ -148,24 +148,24 @@ const exam: ExamTemplate = {
   examId: 'nabteb',
   examName: 'NABTEB',
   country: 'nigeria',
-  description: 'NABTEB (National Business and Technical Examinations Board) conducts technical and vocational examinations in Nigeria. It also runs the National Technical Certificate (NTC), informally known as Naptech. Recognized for admission to technical degree programs and professional certifications.',
-  examPattern: 'Technical subjects vary by programme. Typically 3-5 papers per subject including theory and practical. Internal/external examination structure administered twice yearly (Nov/Dec and April/May).',
+  description: 'NABTEB is the National Business and Technical Examinations Board, the body that examines technical and vocational candidates in Nigeria. Candidates searching for the Naptech exam are looking for this board: Naptech is the informal name Nigerian candidates use for the National Technical Certificate, the trade and technical certificate NABTEB awards, and the board also issues the National Business Certificate for commercial studies plus advanced versions of both. NABTEB runs two examination series a year — a May/June certificate session for candidates registered through their schools, and a November/December modular session that private and external candidates register for — along with the National Common Entrance Examination that JSS3 candidates sit for entry to federal and participating state technical colleges.',
+  examPattern: 'A candidate writes a mix of papers rather than one exam. A trade subject is split into Paper I, the theory and objective paper, and Paper II, the practical taken in a workshop or laboratory, so a candidate who revises theory alone is preparing for part of the paper only. General education subjects in the modular scheme follow the standard objective and essay format — English Language alone runs an objective Paper I and an essay Paper II — and the number of trade papers depends on the programme registered for, typically three to five papers per subject.',
   eligibility: 'Passed Class 12/JSS3 with relevant technical background. For advanced programmes, ND/NCE certification required. Age requirements vary by institution.',
   subjects,
   durations,
   rescueMode,
   prepOverview:
-    'NABTEB preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.nabtebnigeria.org for the current cycle — rules change by year and country (nigeria).',
+    'Plan for the paper you are weakest in, not the one you enjoy. A trade subject ends in a practical, examined in the workshop rather than on paper, so it cannot be revised from notes: solving past theory papers and memorising technical terminology and formulas is only half the preparation, and the other half is tool handling, wiring diagrams and machine setups that match the practical prompt. The subjects on your registration form are the list the revision plan has to be built around, and the series you register in decides the date, so both are worth settling before the first topic is opened rather than in the registration week.',
   commonMistakes: [
-    'Using outdated NABTEB pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Registering in the wrong series: candidates registered through their schools sit the May/June certificate session, while private and external candidates sit the November/December modular series, so a candidate who plans around the May/June date is not sitting the series that is open to them.',
+    'Revising theory and skipping the practical: a trade subject ends in a practical paper examined in the workshop, so a candidate who never touches tools or a machine setup leaves that paper unattempted.',
+    'Registering fewer subjects than the entry guide expects: English Language and Mathematics are compulsory for every candidate, and Physics and Chemistry are compulsory for technical candidates, so a registration built on the trade papers alone is an incomplete entry form.',
+    'Ignoring the second paper in a general education subject: a general education subject here carries an objective paper and then an essay paper, so revising only the multiple-choice half leaves the longer written paper unprepared.',
+    'Planning only for the trade certificate: the board also runs the National Common Entrance for JSS3 candidates and the National Business Certificate for business candidates, so a candidate who registers for one series and never checks the others misses routes the same board opens.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.nabtebnigeria.org',
-  conductingBody: 'National Board of Examinations and Tests (NABTEB)',
+  conductingBody: 'National Business and Technical Examinations Board (NABTEB)',
 };
 
 export default exam;

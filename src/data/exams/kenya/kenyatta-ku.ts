@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Kenyatta University Admission Test (Kenya) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://ku.ac.ke for the current cycle — rules change by year and country (kenya).',
+    'Prepare for Kenyatta University’s campus-administered admission test by first checking the programme and its subject demands. The selection process evaluates subject knowledge, general aptitude, and language proficiency, alongside KCSE performance where applications exceed available slots. Depending on the programme, there may be 2–3 papers: a course-relevant subject paper, an English and General Aptitude test, and sometimes another programme-specific paper. Each paper typically lasts 1–2 hours and contains mainly multiple-choice questions with some structured short-answer questions; Medicine, for example, draws on Biology and Chemistry, while Engineering includes Mathematics and Physics. Practise papers under the stated duration and prepare an interview for Education programmes. Most programmes require a C+ KCSE mean, while programme subject grades may be higher. Apply through KUCCPS before being shortlisted for Kenyatta University’s test.',
   commonMistakes: [
-    'Using outdated Kenyatta University Admission Test (Kenya) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Using a general KCSE mean as the only check, although some programmes require higher grades in specified subjects.',
+    'Preparing one shared paper instead of identifying the 2–3 papers relevant to the chosen programme.',
+    'Studying English and General Aptitude superficially despite language proficiency and general aptitude being assessed.',
+    'Practising only multiple-choice items and skipping the structured short-answer questions included in some papers.',
+    'Forgetting that shortlisted candidates must apply through KUCCPS before receiving an invitation to the university test.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ku.ac.ke',

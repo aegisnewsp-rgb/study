@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'MCAT Pakistan preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://pmdc.pk/ for the current cycle — rules change by year and country (pakistan).',
+    'MDCAT is a single paper: 180 multiple-choice questions in 3 hours, and the subject weights come from the PM&DC curriculum — Biology 81 questions, Chemistry 45, Physics 36, English 9, Logical Reasoning 9. Plan your hours to those weights rather than to your strongest topic. Nothing is deducted for a wrong answer, so an empty answer sheet costs the same as a wrong one, and every full mock should be sat inside the full 3-hour window. Each province runs its own cycle, so the body you deal with for registration and the date printed on your admit card are the ones in your own local notice. PM&DC moved the 2026 sitting to 20 September, and the 2025 curriculum is the one in force. Check the date, the notice and the syllabus version on pmdc.pk before you plan the last month.',
   commonMistakes: [
-    'Using outdated MCAT Pakistan pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Splitting revision evenly across the five sections: the curriculum puts 81 of the 180 questions in Biology and 45 in Chemistry, so English and Logical Reasoning — 9 questions each, 18 of the 180 in total — do not deserve a fifth of your time.',
+    'Assuming a 55% or 50% score is a place. Those are the minimum pass marks for medical college and dental admission, and the bar that actually puts you in a seat is drawn by the university running your province\'s admissions, above them.',
+    'Rushing a guess on a paper with no negative marking: a wrong question and an unattempted question score the same, so leaving a question blank costs nothing and a rushed guess cannot do better.',
+    'Preparing from last year\'s structure. The 2026 sitting was moved, the 2025 syllabus is the live one, and both the weight of each section and the notice itself come out of the current PM&DC circular — not out of a coaching page that never got updated.',
+    'Waiting for the HSSC result before you apply: a final-year candidate can still put in an application, and anyone whose qualification came from abroad has to attach an IBCC equivalence certificate on top of it.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://pmdc.pk/',

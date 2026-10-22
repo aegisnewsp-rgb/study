@@ -48,13 +48,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Legon Admissions (Ghana) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://ug.edu.gh for the current cycle — rules change by year and country (ghana).',
+    'Prepare for the University of Ghana supplementary admission test by matching revision to the subjects linked to your programme. Science applicants cover Biology, Chemistry, and Physics; Business applicants cover Mathematics, Economics, and Accounting; Arts applicants cover English, History, and a chosen elective; Law applicants cover English, Literature, and Government or History. Written papers generally last 1–2 hours and combine MCQs with short-answer questions, so practise both formats while tracking programme-specific weaknesses. Candidates sit the test on the Legon campus and should first confirm that their WASSCE grades meet the chosen programme’s minimum subject requirements. The test is intended for candidates with strong WASSCE results whose aggregate is slightly below the direct-admission cut-off, and performance determines whether a place is offered. Check programme cut-offs and subject combinations through the University of Ghana.',
   commonMistakes: [
-    'Using outdated Legon Admissions (Ghana) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Studying a generic paper instead of the programme subjects, although Science, Business, Arts, and Law each have specified combinations.',
+    'Ignoring short-answer practice because the written papers are described as including both MCQs and short-answer questions.',
+    'Using longer practice sessions that do not reflect the typical 1–2-hour paper duration for each relevant subject.',
+    'Assuming any WASSCE result qualifies, although programme subject minima and direct-admission cut-offs must be met.',
+    'Preparing without accounting for the test being taken on the Legon campus rather than treating it as a remote assessment.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ug.edu.gh',

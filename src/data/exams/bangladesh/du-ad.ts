@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'DU Unit D Admission (Arts & Institute) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://du.ac.bd for the current cycle — rules change by year and country (bangladesh).',
+    'Prepare for Dhaka University’s Unit D test as an objective written examination for humanities, social sciences, law, and specialized institute programmes. Allocate practice by the stated split: Bangla carries 30 marks, English 25, General Knowledge 25, and General Science 20, making 100 marks in 1 hour. Because the test covers Bangla, English, General Knowledge, and General Science at HSC level, revise each named subject and practise multiple-choice questions within the time limit. Review the official Dhaka University notices for unit-specific details. Candidates generally need Bangladeshi nationality and an HSC or equivalent qualification with a GPA of at least 3.5, although Law Faculty may impose additional subject requirements. Final-year HSC candidates may apply provisionally. Shortlisted candidates for specific faculties also undertake viva voce.',
   commonMistakes: [
-    'Using outdated DU Unit D Admission (Arts & Institute) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Confusing Unit D with the university’s separate units, even though Unit D covers humanities, social sciences, law, and specialized institute programmes.',
+    'Assuming the HSC stream limits eligibility, although Science, Arts, and Commerce graduates may apply subject to the stated GPA requirement.',
+    'Ignoring additional Law Faculty subject conditions when checking eligibility for programmes served by Unit D.',
+    'Practising multiple-choice questions without the one-hour limit, despite the paper containing 100 marks across four named subjects.',
+    'Missing the viva voce stage for shortlisted applicants to specific faculties, which is separate from the written test.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://du.ac.bd',

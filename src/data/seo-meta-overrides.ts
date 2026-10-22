@@ -552,7 +552,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/notes/waec/chemistry/': {
     title: 'WAEC Chemistry Notes: Topics, Formulas, Past Papers',
     description:
-      'Free WAEC Chemistry notes for the WASSCE syllabus: 18 topics in Quick, Standard and Deep tiers, with reactions, formulas and worked calculations.',
+      'Free WAEC GCE chemistry notes for the WASSCE syllabus: 18 topics in Quick, Standard and Deep tiers, with past questions, reactions and formulas.',
     query: 'chemistry syllabus for wassce, chemistry gce past questions',
     gscImpressions: 566,
   },

@@ -61,6 +61,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-24',
   officialSource: 'https://www.act.org/content/act/en/products-and-services/the-act.html',
+  conductingBody: 'ACT, Inc.',
 };
 
 export default exam;

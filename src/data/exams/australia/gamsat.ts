@@ -71,6 +71,7 @@ const exam: ExamTemplate = {
   },
   lastUpdated: '2026-10-20',
   officialSource: 'https://gamsat.acer.org/',
+  conductingBody: 'ACER',
 };
 
 export default exam;

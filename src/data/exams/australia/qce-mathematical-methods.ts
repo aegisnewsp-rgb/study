@@ -74,6 +74,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.qcaa.qld.edu.au/senior/senior-subjects/syllabuses/mathematics/mathematical-methods',
+  conductingBody: 'Queensland Curriculum and Assessment Authority (QCAA)',
 };
 
 export default exam;

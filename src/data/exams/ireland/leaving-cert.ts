@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.curriculumonline.ie/senior-cycle/',
+  conductingBody: 'State Examinations Commission (SEC)',
 };
 
 export default exam;

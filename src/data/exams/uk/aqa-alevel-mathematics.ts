@@ -57,6 +57,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-21',
   officialSource: 'https://www.aqa.org.uk/subjects/mathematics/a-level/mathematics-7357/specification/specification-at-a-glance',
+  conductingBody: 'AQA',
 };
 
 export default exam;

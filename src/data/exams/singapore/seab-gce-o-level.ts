@@ -84,6 +84,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.seab.gov.sg/gce-o-level/',
+  conductingBody: 'Singapore Examinations and Assessment Board (SEAB)',
 };
 
 export default exam;

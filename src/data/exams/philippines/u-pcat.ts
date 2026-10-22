@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://up.edu.ph',
+  conductingBody: 'University of the Philippines',
 };
 
 export default exam;

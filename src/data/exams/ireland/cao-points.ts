@@ -58,6 +58,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.cao.ie/',
+  conductingBody: 'Central Applications Office (CAO)',
 };
 
 export default exam;

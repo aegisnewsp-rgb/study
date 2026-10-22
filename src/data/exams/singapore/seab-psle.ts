@@ -77,6 +77,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.seab.gov.sg/psle/',
+  conductingBody: 'SEAB',
 };
 
 export default exam;

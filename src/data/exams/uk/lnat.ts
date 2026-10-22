@@ -56,6 +56,7 @@ const exam: ExamTemplate = {
   },
   lastUpdated: '2026-10-19',
   officialSource: 'https://lnat.ac.uk/what-is-lnat/test-format/',
+  conductingBody: 'LNAT Consortium',
 };
 
 export default exam;

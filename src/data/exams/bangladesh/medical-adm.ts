@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://dghs.gov.bd',
+  conductingBody: 'Director General of Health Services (DGHS)',
 };
 
 export default exam;

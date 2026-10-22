@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   },
   lastUpdated: '2026-09-21',
   officialSource: 'https://www.ucat.ac.uk/about-ucat/test-format/',
+  conductingBody: 'UCAT Consortium',
 };
 
 export default exam;

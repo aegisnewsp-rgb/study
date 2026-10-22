@@ -58,6 +58,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://hpat-ireland.acer.org/',
+  conductingBody: 'Australian Council for Educational Research (ACER)',
 };
 
 export default exam;

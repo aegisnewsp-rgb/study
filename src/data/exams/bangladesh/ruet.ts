@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-20',
   officialSource: 'https://ruet.ac.bd',
+  conductingBody: 'Rajshahi University of Engineering and Technology (RUET)',
 };
 
 export default exam;

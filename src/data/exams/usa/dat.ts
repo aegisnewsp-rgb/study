@@ -73,6 +73,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-20',
   officialSource: 'https://www.ada.org/education/testing/exams/dental-admission-test-dat',
+  conductingBody: 'ADA',
 };
 
 export default exam;

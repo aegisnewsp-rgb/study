@@ -71,6 +71,7 @@ const exam: ExamTemplate = {
   },
   lastUpdated: '2026-07-28',
   officialSource: 'https://natboard.edu.in/viewnbeexam?exam=neetpg',
+  conductingBody: 'NBEMS',
 };
 
 export default exam;

@@ -71,6 +71,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-19',
   officialSource: 'https://www.kasneb.or.ke/cpa',
+  conductingBody: 'Kenya Accountants and Secretaries National Examinations Board',
 };
 
 export default exam;

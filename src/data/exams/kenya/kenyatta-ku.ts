@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ku.ac.ke',
+  conductingBody: 'Kenyatta University',
 };
 
 export default exam;

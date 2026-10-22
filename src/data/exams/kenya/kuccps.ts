@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://kuccps.net',
+  conductingBody: 'Kenya Universities and Colleges Central Placement Service (KUCCPS)',
 };
 
 export default exam;

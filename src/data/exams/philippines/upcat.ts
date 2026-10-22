@@ -73,6 +73,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-09',
   officialSource: 'https://upcat.up.edu.ph/htmls/aboutupcat.html',
+  conductingBody: 'University of the Philippines',
 };
 
 export default exam;

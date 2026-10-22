@@ -57,6 +57,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-24',
   officialSource: 'https://satsuite.collegeboard.org/sat',
+  conductingBody: 'College Board',
 };
 
 export default exam;

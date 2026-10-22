@@ -75,6 +75,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-20',
   officialSource: 'https://senior-secondary.scsa.wa.edu.au/syllabus-and-support-materials/mathematics/mathematics-methods',
+  conductingBody: 'School Curriculum and Standards Authority (SCSA)',
 };
 
 export default exam;

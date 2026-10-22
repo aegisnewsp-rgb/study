@@ -82,6 +82,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://ibo.org/programmes/diploma-programme/',
+  conductingBody: 'International Baccalaureate Organization',
 };
 
 export default exam;

@@ -70,6 +70,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-20',
   officialSource: 'https://curriculum.nsw.edu.au/learning-areas/english/english-advanced-11-12-2024/overview/course',
+  conductingBody: 'NSW Education Standards Authority (NESA)',
 };
 
 export default exam;

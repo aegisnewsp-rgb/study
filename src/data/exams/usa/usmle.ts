@@ -52,6 +52,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-19',
   officialSource: 'https://www.usmle.org/',
+  conductingBody: 'Federation of State Medical Boards (FSMB) and NBME',
 };
 
 export default exam;

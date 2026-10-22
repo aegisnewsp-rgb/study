@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.hpcsa.co.za',
+  conductingBody: 'Health Professions Council of South Africa (HPCSA)',
 };
 
 export default exam;

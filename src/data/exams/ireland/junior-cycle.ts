@@ -59,6 +59,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.curriculumonline.ie/junior-cycle/',
+  conductingBody: 'State Examinations Commission',
 };
 
 export default exam;

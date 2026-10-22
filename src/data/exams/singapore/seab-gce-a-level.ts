@@ -81,6 +81,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.seab.gov.sg/gce-a-level/',
+  conductingBody: 'SEAB',
 };
 
 export default exam;

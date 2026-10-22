@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.sapc.za.org',
+  conductingBody: 'South African Pharmacy Council (SAPC)',
 };
 
 export default exam;

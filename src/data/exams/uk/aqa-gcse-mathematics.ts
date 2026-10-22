@@ -57,6 +57,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.aqa.org.uk/subjects/mathematics/gcse/mathematics-8300',
+  conductingBody: 'AQA',
 };
 
 export default exam;

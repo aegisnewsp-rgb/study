@@ -74,6 +74,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://vcaa.vic.edu.au/curriculum/vce-curriculum/vce-study-designs/mathematical-methods/vce-mathematical-methods',
+  conductingBody: 'Victorian Curriculum and Assessment Authority (VCAA)',
 };
 
 export default exam;

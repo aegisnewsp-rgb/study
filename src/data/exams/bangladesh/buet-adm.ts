@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://buet.ac.bd',
+  conductingBody: 'Bangladesh University of Engineering and Technology',
 };
 
 export default exam;

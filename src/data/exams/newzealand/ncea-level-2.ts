@@ -57,6 +57,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.nzqa.govt.nz/ncea/assessment/search.do?level=02&query=mathematics',
+  conductingBody: 'NZQA',
 };
 
 export default exam;

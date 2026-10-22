@@ -76,6 +76,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.sace.sa.edu.au/en_US/web/mathematical-methods',
+  conductingBody: 'SACE Board of South Australia',
 };
 
 export default exam;

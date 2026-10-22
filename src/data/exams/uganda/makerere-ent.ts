@@ -50,12 +50,12 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Work from the programme you are applying to rather than one generic paper set, because the test varies by programme and each one is examined on its own subject list. Take that list from the current notice on https://mak.ac.ug, then rehearse one full paper under a timer — the format mixes MCQs with short-answer questions and a paper runs 2-3 hours, so isolated topic drills are not the same as a sitting.',
+    'Work from the programme you are applying to rather than one generic paper set, because the test varies by programme and each one is examined on its own subject list. Take that list from the current notice on https://mak.ac.ug, then rehearse one full paper under a timer — the format mixes MCQs with short-answer questions and a paper typically runs 2-3 hours, so isolated topic drills are not the same as a sitting.',
   commonMistakes: [
-    'Assuming one paper set covers every programme. The subjects tested change with the programme, so revising a list you copied from another programme leaves you unprepared for the one you sat. Check the list for your own programme on https://mak.ac.ug before you finalise your revision.',
-    'Rehearsing MCQs only. The format includes short-answer questions as well, and the paper runs 2-3 hours, so practice writing the short-answer section against a clock, not just picking options under time.',
-    'Reading UACE as the whole requirement. The entry asks for UACE or equivalent with the subject passes the programme requires, and an age limit may apply to some programmes, so check the programme-specific condition on https://mak.ac.ug rather than assuming the general rule covers you.',
-    'No page on this site can promise a Makerere University (Uganda) rank or an admission offer. The admission test score has to clear the cut-off, and even then the place is subject to capacity in the programme you chose, so treat a predicted rank as a rumour.',
+    'Assuming one paper set covers every programme. The subjects tested change with the programme, so revising a list you copied from another programme leaves you unprepared for the one you are sitting. Check the list for your own programme on https://mak.ac.ug before you finalise your revision.',
+    'Rehearsing MCQs only. The format includes short-answer questions as well, and the paper typically runs 2-3 hours, so practice writing the short-answer section against a clock, not just picking options under time.',
+    'Reading UACE as the whole requirement, or assuming every degree title is open the same way. The entry asks for UACE or equivalent with the subject passes the programme requires, an age limit may apply to some programmes, and not every degree title is open to the same route, so check the programme-specific condition on https://mak.ac.ug rather than assuming the general rule covers you.',
+    'Reading a predicted rank as a result. No page on this site can know your score before the test, so a rank quoted from an earlier cohort says nothing about where you will sit — use it to check which programme you are aiming at, nothing more.',
     'Applying through UNCHE and being found eligible is not an offer. Admission turns on your admission-test score clearing the cut-off and on capacity in the programme you chose, so treat the UNCHE eligibility result as a checkpoint rather than a result - check the current cut-off on https://mak.ac.ug.'
   ],
   lastUpdated: '2026-07-28',

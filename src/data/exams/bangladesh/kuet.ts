@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'A KUET Admission Test mock with a different number of items trains the wrong stamina.',
     'KUET Admission Test eligibility turns on the HSC Science-group result you actually scored - a combined GPA of 4.0 across Physics, Chemistry and Mathematics - and on Bangladeshi nationality, with diploma holders in engineering eligible for some programmes under special quotas. An alumnus remembers their own transcript, not yours; https://kuet.ac.bd states the rule that applies to your year.',
     'If a page promises you will \'crack KUET Admission Test\' with this plan, it is not this site.',
-    'Use 100 MCQs: Mathematics(40 questions), Physics(30 questions), Chemistry(20 questions) only as a memory aid for KUET Admission Test, then match the live paper on https://kuet.ac.bd.'
+    'Read the KUET Admission Test paper structure as a memory aid, not as the paper itself: 100 MCQs in Mathematics (40), Physics (30) and Chemistry (20), plus 10 from English and General Knowledge combined, 1 mark each with no negative marking, typically 1.5 to 2 hours. The live paper on https://kuet.ac.bd is the one that counts.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://kuet.ac.bd',

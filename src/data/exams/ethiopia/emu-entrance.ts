@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'A EMU Entrance (Ethiopia) mock with a different number of items trains the wrong stamina.',
     'Paying EMU Entrance (Ethiopia) fees before re-reading eligibility on https://eaes.et/ is a frequent waste.',
     'Nobody on this site can guarantee a EMU Entrance (Ethiopia) rank, percentile, or admission.',
-    'Use Standard Ethiopian university entrance format — aptitude test plus subject-specific paper. only as a memory aid for EMU Entrance (Ethiopia), then match the live paper on https://eaes.et/.'
+    'The EMU Entrance (Ethiopia) runs on the standard Ethiopian university entrance format — an aptitude test and a subject-specific paper — and you enter it with an ESCCE certificate carrying the required grades. Read the format as a memory aid; https://eaes.et/ carries the live notice.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://eaes.et/',

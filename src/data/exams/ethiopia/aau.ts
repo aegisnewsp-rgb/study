@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'AAU admission is built on the Ethiopian Secondary School Completion Examination (ESCCE) grade plus a General Aptitude paper, so revision that skips the aptitude half leaves half the entry test unpractised. Run the paper to its published duration rather than to your own pace, and re-read the grade and minimum-age requirements on https://www.aau.edu.et/admission.',
     'AAU eligibility is read off your own ESCCE result and your age - the stated minimum is 17 - not off the cohort that applied before you, whose grade requirements may since have moved. https://www.aau.edu.et/admission publishes the threshold that applies to your year.',
     'Treat \'sure selection\' AAU Admission (Ethiopia) ads as marketing; the board does not endorse them.',
-    'Use Ethiopian University Entrance Examination (EUEE) — 2 papers: General Aptitude Test only as a memory aid for AAU Admission (Ethiopia), then match the live paper on https://www.aau.edu.et/admission.'
+    'Read the AAU Admission (Ethiopia) paper structure as a memory aid, not as the paper itself: the EUEE sits two papers, the General Aptitude Test on verbal, quantitative and analytical reasoning, and the Field of Study Test in Science, Social Science or Humanities. The live notice on https://www.aau.edu.et/admission is the one that counts.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.aau.edu.et/admission',

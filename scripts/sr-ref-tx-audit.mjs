@@ -54,6 +54,9 @@
  *   - Records no secrets: shas, refs, paths, identities only.
  *
  * Usage (as a git reference-transaction hook):
+ *   git gives the hook a BATCH of ref updates on stdin, one per line:
+ *     <old-value> <new-value> <ref-name>
+ *   so this script reads all of them, not just the first.
  *   printf '%s %s %s' <old> <new> <ref> | node scripts/sr-ref-tx-audit.mjs committed
  */
 
@@ -64,9 +67,13 @@ import { writeAudit } from './sr-gate-audit.mjs';
 const NULL_SHA = '0'.repeat(40);
 
 /** Refs worth recording. Remote-tracking, stash, notes and worktree refs are
- *  not commits and would drown the log in fetch noise. */
+ *  not commits and would drown the log in fetch noise. HEAD counts: a
+ *  detached-HEAD commit updates no branch at all, and that is exactly the
+ *  case a plumbing commit inside a worktree produces. */
 function isInterestingRef(ref) {
-  return ref.startsWith('refs/heads/') || ref.startsWith('refs/tags/');
+  return (
+    ref === 'HEAD' || ref.startsWith('refs/heads/') || ref.startsWith('refs/tags/')
+  );
 }
 
 function git(args, cwd) {
@@ -112,6 +119,57 @@ export function recordRefUpdate({ oldSha, newSha, ref, phase, cwd = process.cwd(
   });
 }
 
+/**
+ * Parse the hook's stdin into the ref updates it carries.
+ *
+ * MEASURED, and this is not a detail: `git commit` does NOT deliver one ref
+ * update. It delivers a BATCH, one update per line, and the first line is
+ * usually HEAD — not the branch. A probe on git 2.47.3 (/tmp/nvtest5) shows a
+ * single `git commit` producing:
+ *   prepared  HEAD
+ *   prepared  refs/heads/master
+ *   committed HEAD
+ *   committed refs/heads/master
+ *   aborted   AUTO_MERGE      <- a transient merge ref, not a commit
+ *   prepared  AUTO_MERGE
+ *   committed AUTO_MERGE
+ * So an implementation that reads only the first line records HEAD, and one
+ * that only accepts refs/heads/* records nothing at all — which is exactly
+ * what the first implementation did: the commit b5d231bc produced a "commit"
+ * record and NO "ref-update" record, and the hole it was written to close was
+ * still open for that commit.
+ */
+export function parseBatch(payload) {
+  const updates = [];
+  for (const line of String(payload || '').split('\n')) {
+    const parts = line.trim().split(/\s+/).filter(Boolean);
+    if (parts.length < 3) continue;
+    const [oldSha, newSha, ref] = parts;
+    if (!ref) continue;
+    updates.push({ oldSha, newSha, ref });
+  }
+  return updates;
+}
+
+/**
+ * Keep the updates worth recording, and drop the duplicate HEAD line.
+ *
+ * A commit updates HEAD and the branch to the SAME sha in one batch. Recording
+ * both would double-count every commit, so the HEAD line is dropped when a
+ * branch line in the same batch carries the same sha. HEAD is still kept when
+ * it is the ONLY line — a detached-HEAD commit updates no branch, and that is
+ * precisely the case a plumbing commit in a worktree produces.
+ */
+export function selectUpdates(updates) {
+  const branchShas = new Set(
+    updates.filter((u) => u.ref.startsWith('refs/heads/') || u.ref.startsWith('refs/tags/')).map((u) => u.newSha),
+  );
+  return updates.filter((u) => {
+    if (u.ref === 'HEAD') return !branchShas.has(u.newSha);
+    return isInterestingRef(u.ref);
+  });
+}
+
 function main() {
   const phase = process.argv[2] || 'unknown';
   let payload = '';
@@ -120,15 +178,16 @@ function main() {
   } catch {
     payload = '';
   }
-  const parts = payload.trim().split(/\s+/).filter(Boolean);
-  const [oldSha, newSha, ref] = parts;
-  if (!ref) {
-    // Nothing to record. A logger must never be the reason a ref update fails.
+  const updates = selectUpdates(parseBatch(payload));
+  if (!updates.length) {
+    // Nothing worth recording. A logger must never be the reason a ref update fails.
     return 0;
   }
-  const out = recordRefUpdate({ oldSha, newSha, ref, phase });
-  if (!out.ok) {
-    console.error(`sr-ref-tx-audit: AUDIT WRITE FAILED (${out.error}). The ref update is NOT recorded.`);
+  for (const u of updates) {
+    const out = recordRefUpdate({ ...u, phase });
+    if (!out.ok) {
+      console.error(`sr-ref-tx-audit: AUDIT WRITE FAILED (${out.error}). The ref update is NOT recorded.`);
+    }
   }
   return 0;
 }

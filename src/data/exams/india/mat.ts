@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://mat.aima.in/',
+  conductingBody: 'All India Management Association (AIMA)',
 };
 
 export default exam;

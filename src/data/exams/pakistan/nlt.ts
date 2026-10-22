@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://nts.org.pk',
+  conductingBody: 'National Testing Service (NTS)',
 };
 
 export default exam;

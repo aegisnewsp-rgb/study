@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.icai.org/category/examination-students',
+  conductingBody: 'Institute of Chartered Accountants of India (ICAI)',
 };
 
 export default exam;

@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://opportunities.rbi.org.in/',
+  conductingBody: 'Reserve Bank of India (RBI)',
 };
 
 export default exam;

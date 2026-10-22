@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://cetcell.mahacet.org/',
+  conductingBody: 'State Common Entrance Test Cell, Maharashtra',
 };
 
 export default exam;

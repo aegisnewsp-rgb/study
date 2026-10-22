@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://uppsc.up.nic.in/',
+  conductingBody: 'Uttar Pradesh Public Service Commission (UPPSC)',
 };
 
 export default exam;

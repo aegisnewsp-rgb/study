@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://xatonline.in/',
+  conductingBody: 'XLRI Jamshedpur (on behalf of Xavier Association of India)',
 };
 
 export default exam;

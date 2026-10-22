@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://nludelhi.ac.in/admission/ailet/',
+  conductingBody: 'National Law University, Delhi (NLU Delhi)',
 };
 
 export default exam;

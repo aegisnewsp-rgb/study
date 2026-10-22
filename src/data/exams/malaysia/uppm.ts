@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'UPPM/UNIMAP selection reads your STPM or Matriculation record, including the subject prerequisites attached to the programme you pick, so favourite-subject-only revision leaves the prerequisite papers unstudied. Map each target programme to its prerequisite subjects before you fix a timetable - https://admission.unimap.edu.my/ lists them.',
     'Do not assume UPPM/UNIMAP Admission (Malaysia) is open to every degree title until https://admission.unimap.edu.my/ says so.',
     'Cut-off rumours are not UPPM/UNIMAP Admission (Malaysia) offers of admission.',
-    'Eligibility snippet we store for UPPM/UNIMAP Admission (Malaysia): STPM/Matriculation with minimum CGPA requirements. Relevant subject prerequisites. Boards edit this; https://admission.unimap.edu.my/ wins.'
+    'The eligibility bar is two-part and both parts are checked separately: the minimum CGPA on your STPM or Matriculation record, and the subject requirements that come with the programme you pick. Meeting only one leaves you short - https://admission.unimap.edu.my/ states the current figures for each.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://admission.unimap.edu.my/',

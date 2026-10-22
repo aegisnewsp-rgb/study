@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Skipping full Makerere University (Uganda) papers until the final weekend is how scores stall.',
     'Do not assume Makerere University (Uganda) is open to every degree title until https://mak.ac.ug says so.',
     'Nobody on this site can guarantee a Makerere University (Uganda) rank, percentile, or admission.',
-    'Eligibility snippet we store for Makerere University (Uganda): UACE or equivalent with required subject passes. Age limit may apply for some programmes. Boards edit this; https://mak.ac.ug wins.'
+    'Applying through UNCHE and being found eligible is not an offer. Admission turns on your admission-test score clearing the cut-off and on capacity in the programme you chose, so treat the UNCHE eligibility result as a checkpoint rather than a result - check the current cut-off on https://mak.ac.ug.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://mak.ac.ug',

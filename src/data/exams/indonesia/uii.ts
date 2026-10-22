@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     'Universitas Islam Indonesia admits on a valid UTBK score from LTMPT, so confirm with the university which UTBK sitting this intake will accept before you build a timetable around it. Separately, practise the entrance paper to the published duration on https://uii.ac.id - untimed practice will not show you whether you can hold that pace.',
     'Some UII Entrance (Indonesia) programmes add extra subject prerequisites after you pay — check https://uii.ac.id.',
     'Cut-off rumours are not UII Entrance (Indonesia) offers of admission.',
-    'Eligibility snippet we store for UII Entrance (Indonesia): High school/SMA graduate (SMA or equivalent). Must have valid UTBK score from LTMPT. Boards edit this; https://uii.ac.id wins.'
+    'UII reads two eligibility limbs independently: an SMA or equivalent certificate on one side, a valid UTBK score from LTMPT on the other. A candidate who clears only one has not met the requirement, so check both before you pay an application fee - https://uii.ac.id states what the current intake wants.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://uii.ac.id',

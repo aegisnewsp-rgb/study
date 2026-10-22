@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'ICAN runs level-specific papers in two diets a year - June and December - and the work changes with the level: Foundation has 4 papers, Intermediate 5 and Final 6, each paper 3 hours. Settle the level your SSCE/NECO credits and degree qualify you for, then drill that diet rather than a mixed pile; confirm the current paper list on https://www.ican.org.ng.',
     'ICAN eligibility is a level and a registration, not a recollection: Foundation needs SSCE/NECO credits in English and Mathematics plus two further subjects, Intermediate needs the Foundation or a degree in a relevant discipline, and a non-accounting degree holder starts from Foundation. Registration with the institute is required before you may sit any paper - check your own level against https://www.ican.org.ng rather than against a colleague who sat a different diet.',
     'Treat \'sure selection\' ICAN (Institute of Chartered Accountants of Nigeria) ads as marketing; the board does not endorse them.',
-    'Pattern note for ICAN (Institute of Chartered Accountants of Nigeria): Multiple papers per diet (June and December): Financial Accounting and Reporting, Auditing and Assurance. Confirm that wording on https://www.ican.org.ng before you lock a timetable.'
+    'ICAN papers mix multiple-choice items with long-form questions that need calculations and narrative answers, so a revision pile built on question banks alone leaves the written sections unprepared. Split your time between objective practice and timed written answers, and confirm the mix for your level on https://www.ican.org.ng.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ican.org.ng',

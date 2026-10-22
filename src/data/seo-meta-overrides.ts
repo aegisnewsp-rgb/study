@@ -576,7 +576,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/waec/': {
     title: 'WAEC WASSCE: Subjects, Papers & Grading',
     description:
-      'WAEC WASSCE for Nigeria: objective papers plus essay and theory papers, how the A1-F9 grade is awarded, entry requirements.',
+      'WAEC (West African Examinations Council) awards the WASSCE qualification: objective, essay and theory papers, the A1-F9 grade, entry requirements.',
     query: 'wassece exam (13.6%), waec qualification (9.1%), what is waec exam (9.1%)',
     gscImpressions: 477,
   },
@@ -600,7 +600,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/gujcet/': {
     title: 'GUJCET Syllabus & Pattern: 120 MCQs, 3 Hours',
     description:
-      'GUJCET syllabus and pattern for Gujarat engineering: 120 MCQs in 3 hours, 40 each from Physics, Chemistry and Mathematics. Marking scheme and eligibility.',
+      'GUJCET (Gujarat Common Entrance Test) syllabus and pattern: 120 MCQs in 3 hours for Gujarat engineering, 40 each from Physics, Chemistry and Maths.',
     query: 'gujcet (16.2% @ 0.00% CTR), gujcet syllabus (16.2%), gujarat engineering entrance exam (8.5%)',
     gscImpressions: 323,
   },

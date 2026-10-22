@@ -54,9 +54,19 @@ const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string)
     desc:  n => `${n} ${year} eligibility explained — minimum age, maximum age, educational qualification, nationality rules, attempt limits, reservation categories. Based on the latest official notification.`,
   },
   syllabus: {
-    h1:    n => `${n} ${year} Syllabus: Subjects, Topics and Weightage`,
-    title: n => `${n} ${year} Syllabus — Subjects, Topics, Weightage`,
-    desc:  n => `Complete ${n} ${year} syllabus — every subject, every topic, weightage derived from last 5 years of papers. Build a study plan prioritised by what actually appears.`,
+    // A module with no per-Unit weights renders no weightage at all, so the title,
+    // the H1 and the description must not name one. The measured syllabus-spoke
+    // rows (ras 714, tnpsc 619, cs-exec 461, nda 310 measured 28d impressions) are
+    // all weighted modules, so no measured query term is affected by this split.
+    h1:    n => _syllabusHasWeight
+      ? `${n} ${year} Syllabus: Subjects, Topics and Weightage`
+      : `${n} ${year} Syllabus: Subjects and Topics`,
+    title: n => _syllabusHasWeight
+      ? `${n} ${year} Syllabus — Subjects, Topics, Weightage`
+      : `${n} ${year} Syllabus — Subjects and Topics`,
+    desc:  n => _syllabusHasWeight
+      ? `Complete ${n} ${year} syllabus: every subject and topic with 1-5 weightage cues to plan your revision order.`
+      : `Complete ${n} ${year} syllabus: every subject and topic. No per-topic weightage is published.`,
   },
   pattern: {
     h1:    n => `${n} ${year} Exam Pattern: Questions, Marks, Duration and Negative Marking`,
@@ -69,6 +79,16 @@ const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string)
     desc:  n => `${n} ${year} preparation strategy — how to plan the syllabus, what to revise weekly, when to start mock tests, and a free AI-generated day-by-day plan for your exact remaining time.`,
   },
 };
+
+// A syllabus spoke may or may not carry per-Unit weightage: most awarding bodies publish
+// none, and those modules deliberately omit the field (see the body guard further down).
+// The SERP title, H1 and description must not advertise a weightage the page does not
+// render, so the same placeholder-filtered weight check the body uses is computed once,
+// here, and reused below.
+const _syllabusHasWeight = (exam.subjects || []).some((s: any) =>
+  (s.topics || []).some((t: any) =>
+    !isPlaceholderExamTopic(t) && typeof t.weight === 'number' && Number.isFinite(t.weight))
+);
 
 const meta = SPOKE_META[spoke] || SPOKE_META.strategy;
 const BRAND_SUFFIX = ' | StudyRoadmap';
@@ -149,7 +169,9 @@ const hasSubstantialSyllabus = totalTopics >= 8 && subjects.length >= 1 && !isPl
 // those subject modules deliberately omit the field. Rendering w{t.weight}
 // unguarded emits a lone "w" for every such topic, and the prose below must not
 // promise weightage cues the page does not carry.
-const hasAnyWeight = allTopics.some((t: any) => typeof t.weight === 'number' && Number.isFinite(t.weight));
+// Same flag as _syllabusHasWeight above: both are computed over the placeholder-filtered
+// topic list, so the SERP copy and the body copy can never disagree.
+const hasAnyWeight = _syllabusHasWeight;
 
 const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
 
@@ -248,7 +270,16 @@ const overviewBlurb = (exam.description || '').trim()
             </div>
           )}
 
-          {highWeight.length > 0 && (
+          {/*
+            The "Highest-priority topics" list is a WEIGHT ordering, so it is only
+            meaningful where a weightage exists. On the modules whose awarding body
+            publishes no per-Unit weightage the list was an arbitrary order and the
+            un-guarded `weight {t.weight}` printed the literal "(Subject, weight
+            undefined)" directly under a paragraph that says no priority score is
+            shown here. hasAnyWeight is the same flag the body copy and the SERP copy
+            use, so the list is emitted only where a priority order actually exists.
+          */}
+          {hasAnyWeight && highWeight.length > 0 && (
             <div class="mt-8">
               <h3 class="text-xl font-bold mb-3">Highest-priority {examName} topics</h3>
               <p>Start here if your remaining calendar is short. These are the highest weightage items in our {examName} model:</p>

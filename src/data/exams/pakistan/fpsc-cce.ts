@@ -54,13 +54,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'FPSC CSS (Pakistan) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://fpsc.gov.pk/category/all-written-css-exams for the current cycle — rules change by year and country (pakistan).',
+    'Plan your FPSC CSS preparation around the written examination’s structure: six compulsory papers and six optional papers, every one worth 100 marks and running three hours. Give early attention to the paper on Urdu translation and precise writing, the one on English composition and précis, Islamic studies or Pakistan studies, current affairs, Pakistan affairs and Islamic history, and general science with computer proficiency. Choose optional subjects from the listed groups, then spread revision across the set you picked rather than leaning only on what you already know. The written stage is followed by a psychological test and an interview, so paper practice should not fill your entire routine. Match your Pakistani nationality, bachelor’s degree, age band and character requirements to the post you have in mind before you register.',
   commonMistakes: [
-    'Using outdated FPSC CSS (Pakistan) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Believing English and Current Affairs are the only compulsory papers is wrong, because FPSC also sets Urdu with Precise Writing and Translation, Islamic Studies or Pakistan Studies, General Science and Computer Proficiency, and Pakistan Affairs and Islamic History, each worth 100 marks.',
+    'Reading 27 optional groups as 27 pickable papers misleads candidates, because the option list is organised as groups and each pick uses one of the six optional slots within the 12-paper written exam.',
+    'Bypassing the nationality and degree conditions is a mistake, because FPSC requires Pakistani nationals who hold a bachelor\'s degree from an HEC-recognized university, earned with no less than second division.',
+    'Missing the good character requirement disqualifies a candidate, because FPSC requires candidates to be of good character and not to have been convicted for any criminal offence.',
+    'Believing you get only a fixed number of chances is wrong, because candidates may sit the CSS examination any number of times and the FPSC imposes no cap on attempts.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://fpsc.gov.pk/category/all-written-css-exams',

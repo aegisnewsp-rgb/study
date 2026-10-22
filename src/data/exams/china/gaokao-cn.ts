@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Gaokao Science Stream (China) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.neea.edu.cn for the current cycle — rules change by year and country (china).',
+    'Gaokao Science Stream is a 750-mark examination, and the way to prepare for it is to treat the science paper as one subject rather than three. Physics carries 110 marks, Chemistry 100 and Biology 90 inside a single 300-mark Combined Science paper, so skipping Biology alone puts 90 of the paper\'s 300 marks outside your revision plan. Chinese, Mathematics and English each carry 150 marks on top — more than the science paper on its own — and each is a separate paper. Sit the science paper to its typical 2.5 hours in every mock, because the paper moves from straight recall to problems that take several steps to solve. If you hold Hong Kong, Macau or Taiwan credentials, check the separate 聯招 admission procedure early: those applicants do not come through the mainland route.',
   commonMistakes: [
-    'Using outdated Gaokao Science Stream (China) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Treating the science paper as one block and ignoring its internal mark split wastes prep time because Physics, Chemistry and Biology carry 110, 100 and 90 marks respectively within the 300-mark combined paper.',
+    'Forgetting that English, Chinese and Mathematics each sit as a separate 150-mark paper leads candidates to underweight them while overdrilling the combined science paper alone.',
+    'Overlooking household registration rules out mainland applicants, because eligibility requires a valid Hukou while candidates from Hong Kong, Macau and Taiwan apply through the separate Mainland College Entrance Examination (聯招).',
+    'Skipping Physics, Chemistry or Biology in senior high school rules you out, because eligibility requires all three to have been studied throughout the senior high school years.',
+    'Applying without checking the eligibility floor is a mistake, because Gaokao asks for a high school graduation certificate with a science stream background and a minimum age typically 17.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.neea.edu.cn',

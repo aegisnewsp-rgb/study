@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'GAT Pakistan preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.nts.org.pk/new/GAT-G.php for the current cycle — rules change by year and country (pakistan).',
+    'Work on verbal reasoning, quantitative reasoning and analytical reasoning as separate blocks, then check how NTS allocates sections to your paper category, whether GAT-A, GAT-B, GAT-C or GAT-D, before you settle the balance. The paper is 100 multiple-choice questions in 120 minutes, so rehearse reading a question and committing to an answer under timed, paper-based conditions. NTS runs GAT-General across several sessions, publishing each session’s own date, its announcement date and the registration window that goes with it, so track the live schedule rather than assuming a single fixed annual sitting. Eligibility rests on a recognized bachelor’s degree or equivalent from an HEC-recognized institution, while each university and scholarship body sets its own admission threshold. Your result card stays usable for two full years counting from the day you sat it.',
   commonMistakes: [
-    'Using outdated GAT Pakistan pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Planning around a single fixed annual test date makes applicants miss the published NTS session schedule, because NTS runs GAT-General in several sessions and each has its own registration and test date.',
+    'Counting only Verbal and Quantitative questions is a common slip, since the 100 MCQs also include Analytical Reasoning and the section weightage shifts across GAT-A, GAT-B, GAT-C and GAT-D categories.',
+    'Retaking the test because an old result card looks expired is a misread, because NTS keeps the official result card good for two full years from the day you sat the paper.',
+    'Applying without checking the degree level is a common error, because GAT expects a degree of typically 16 years of formal schooling, or the equivalent, from an HEC-recognized institution.',
+    'Ignoring that each university sets its own threshold leads to surprise, because NTS sets no single centralised cut-off of its own, and admission scores are notified separately by each institution.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.nts.org.pk/new/GAT-G.php',

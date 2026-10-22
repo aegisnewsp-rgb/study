@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'ACCA/CA Pakistan preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.accaglobal.com/pk/en.html for the current cycle — rules change by year and country (pakistan).',
+    'Settle the ACCA-versus-CA-Pakistan question early, because the awarding body, the exam structure and the experience requirement differ between them. Under ACCA, map your study order through the three ACCA levels - Applied Knowledge, Applied Skills, Strategic Professional - and plan for two compulsory papers up front, Strategic Business Leader and Strategic Business Reporting, alongside your choice of two optional papers; under CA Pakistan, work through ICAP’s Foundation, Professional and Final stages. Neither route ends at the last exam, because both are followed by practical experience, so tie each paper to work in audit, taxation, financial management or advisory services as you go. Entry differs too: with ACCA open to anyone starting from the Foundations Diplomas while CA Pakistan turns on Intermediate marks, a bachelor’s degree or an exemption claim for graduates with 16 years of education.',
   commonMistakes: [
-    'Using outdated ACCA/CA Pakistan pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Calling ACCA and CA Pakistan two names for the same qualification is wrong, because the ACCA Qualification has 13 exams across Applied Knowledge, Applied Skills and Strategic Professional while ICAP\'s route is Foundation, Professional and Final stages with its own practical training.',
+    'Assuming Strategic Professional is four compulsory papers costs marks, since it has only two compulsory papers and two optional papers you choose from Advanced Performance Management, Advanced Financial Management, Advanced Audit and Assurance or Advanced Taxation.',
+    'Missing Mathematics or English at school level blocks the full ACCA route, because the typical entry asks for two A-levels plus three GCSEs (or equivalent), taken across five separate subjects, and both of those two have to be among them.',
+    'Relying on exams alone ignores the practical training requirement, because CA Pakistan candidates must also log three years of supervised work with a qualified Chartered Accountant before the title fully qualified is theirs, and ACCA is followed by practical experience too.',
+    'Assuming you can sit any paper in any order is risky, because every ACCA paper is sat on computer, and the order you take them in is yours to choose, but only once the prerequisite papers behind it are cleared.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.accaglobal.com/pk/en.html',

@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'PPSC (Pakistan) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ppsc.gop.pk/ for the current cycle — rules change by year and country (pakistan).',
+    'Use the PPSC Combined Competitive Examination pattern for the Punjab Civil Service to set your revision order: English, Urdu, Islamic Studies or Ethics, Pakistan Studies and the General Knowledge objective paper, then three optional subjects chosen so that no more than one falls in any single subject group. The written aggregate is 1200 marks, 600 of them from the compulsory papers and the remainder from your optionals, and you need 50% of that aggregate to reach the interview, then 50% in the interview itself. Negative marking on the General Knowledge objective paper makes careless guessing expensive, so drill answer selection. Read the current advertisement for the paper list, totals, age band and cut-off date, and check your Punjab domicile and graduate-degree standing against it.',
   commonMistakes: [
-    'Using outdated PPSC (Pakistan) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Adding up only the optional subjects leaves a candidate 600 marks short, because six compulsory papers of 100 marks contribute 600 marks and three optional subjects of 200 marks add 600 more, for the 1200-mark written total.',
+    'Guessing freely on the General Knowledge objective paper is costly, because every wrong answer there is docked at a quarter of a mark on top of the 100-mark weight.',
+    'Picking two optional subjects from the same group is rejected, because no more than one optional subject may come from any single subject group, and each optional carries 200 marks.',
+    'Hitting 50% in the interview without the written threshold still eliminates a candidate, because 50% of the written aggregate (600 marks) is required to reach the viva.',
+    'Judging the 21 to 30 age band on the exam date is wrong, because the advertised cutoff for the 2025 cycle is age as on 1st January 2026, with relaxations to 35 years for specified government servants and up to 15 years for special persons.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ppsc.gop.pk/',

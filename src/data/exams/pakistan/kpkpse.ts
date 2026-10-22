@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'KPK PMS preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.kppsc.gov.pk/ for the current cycle — rules change by year and country (pakistan).',
+    'Every KP PMS paper carries 100 marks, and KPPSC splits the examination into compulsory and optional written papers before candidates who qualify go on to psychological evaluation and viva voce. Build your coverage around general knowledge and general science, then English, current affairs, Islamic studies and Pakistan affairs, and add optional subjects for the recruitment cycle you are applying in. Use the official KPPSC recruitment notice to fix the paper combination and any category-specific conditions rather than an older description. Before applying, verify that you are domiciled in Khyber Pakhtunkhwa, hold a second-division bachelor’s degree of 14 or 16 years recognized by HEC, and fall inside the 21 to 30 age requirement as measured at the advertisement cutoff date. Qualifiers train at the Civil Services Academy before departmental posting.',
   commonMistakes: [
-    'Using outdated KPK PMS pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Missing the Khyber Pakhtunkhwa domicile requirement disqualifies a candidate, because KPPSC recruitment notices require domicile in the province.',
+    'Preparing for only the compulsory papers leaves the optional ones uncovered, because the KPPSC competitive examination pairs compulsory and optional written papers, each individual paper carrying 100 marks.',
+    'Reading 21 to 30 as a fixed age band ignores the statutory relaxations, since backward-region and in-service government personnel categories receive separate upper-age extensions under the official KPPSC rules.',
+    'Stopping after the written papers is a mistake, because a written-stage pass carries you only as far as the psychological evaluation and the viva voce, and the Civil Services Academy training comes before any departmental posting.',
+    'Preparing for a generic civil service exam misses what KP PMS selects, because the recruitment targets provincial administrative posts such as Deputy Commissioner and Assistant Commissioner along with various provincial secretary posts.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.kppsc.gov.pk/',

@@ -52,11 +52,11 @@ const exam: ExamTemplate = {
   prepOverview:
     'TOEFL (Nigeria) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ets.org/toefl for the current cycle — rules change by year and country (nigeria).',
   commonMistakes: [
-    'Using outdated TOEFL (Nigeria) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Retaking without checking the gap — you may sit the test as many times as you like, but ETS requires at least 3 days between attempts.',
+    'Expecting Speaking to be scored only by a machine — ETS uses AI scoring and human raters for Speaking and Writing.',
+    'Arriving without a valid identity document; one is required on the day, and a passport is preferred.',
+    'Defaulting to the internet-based test when the institutional programme fits better — TOEFL ITP is also offered in Nigeria for in-country use.',
+    'Applying before you know the score the programme asks for — most institutions want 80-100 on the internet-based test, or 550-600 on the paper version.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ets.org/toefl',

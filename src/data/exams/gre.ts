@@ -93,12 +93,12 @@ const exam: ExamTemplate = {
   prepOverview:
     'GRE preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ets.org/gre for the current cycle — rules change by year and country (exams).',
   commonMistakes: [
-    'Using outdated GRE pattern or syllabus PDFs instead of the live official notice.',
-    'Still practising an "Analyze an Argument" essay — that task was removed when the exam was shortened in 2023.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Working from a pre-2023 practice set — the section lengths and the writing task changed with the shortening.',
+    'Practising the written task wrongly — since the September 2023 shortening the paper has a single 30-minute "Analyze an Issue" task and nothing else in writing.',
+    'Building a schedule around a break or an unscored section; the current format has neither.',
+    'Practising without the clock — Verbal gets 18 and 23 minutes and Quant 21 and 26, and the timing is the constraint.',
+    'Expecting one combined score; ETS reports Verbal and Quant separately, each on the 130-170 scale.',
+    'Looking for an eligibility certificate — GRE has no official eligibility criteria; holding a degree is what most candidates do, not a condition of entry.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ets.org/gre',

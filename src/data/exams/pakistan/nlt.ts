@@ -52,11 +52,11 @@ const exam: ExamTemplate = {
   prepOverview:
     'NLT Pakistan preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://nts.org.pk for the current cycle — rules change by year and country (pakistan).',
   commonMistakes: [
-    'Using outdated NLT Pakistan pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Assuming wrong answers cost you marks — each correct answer carries equal marks and negative marking is not typically applied.',
+    'Preparing only the three sections the test typically covers, when the structure actually varies with the postgraduate programme.',
+    'Applying with a degree from a university HEC does not recognise — NTS asks for a degree or equivalent from a recognised institution.',
+    'Assuming one NLT score works everywhere — the score is valid for participating universities, and each programme sets its own rules.',
+    'Dropping current-affairs revision because the ability being tested sounds academic — current affairs is one of the sections the paper includes, alongside English and general knowledge, though the exact structure varies with the programme.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://nts.org.pk',

@@ -52,11 +52,11 @@ const exam: ExamTemplate = {
   prepOverview:
     'LLB Admission (South Africa) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.nbt.ac.za for the current cycle — rules change by year and country (southafrica).',
   commonMistakes: [
-    'Using outdated LLB Admission (South Africa) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Applying on the bare minimum — most universities set a higher cut-off than the published floor.',
+    'Assuming every university runs the same paper — some set their own, such as the Wits Writing Test, and the NBT covers academic and quantitative literacy.',
+    'Leaving out Life Orientation, the language and the subject choice — the rule is typically 50% across four NSC subjects, and English Home Language or a First Additional Language is usually mandatory at that level, along with a Humanities subject.',
+    'Budgeting two hours for the paper; the format runs roughly 2-4 hours depending on the university.',
+    'Practising only multiple choice — some papers are set as essay writing rather than MCQ, and a candidate who prepares for one can meet the other cold.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.nbt.ac.za',

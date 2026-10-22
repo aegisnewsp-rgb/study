@@ -54,11 +54,11 @@ const exam: ExamTemplate = {
   prepOverview:
     'DU Unit B Admission (Science) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://du.ac.bd for the current cycle — rules change by year and country (bangladesh).',
   commonMistakes: [
-    'Using outdated DU Unit B Admission (Science) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Revising Biology for an Engineering and Technology application, where the paper pattern asks for Mathematics in that slot.',
+    'Leaving the viva to chance — Dhaka University holds it for shortlisted Engineering and Technology candidates.',
+    'Treating the test score as the whole selection, when the unit says HSC performance is combined with it.',
+    'Applying without checking the nationality rule, which the university limits to Bangladeshi nationals.',
+    'Waiting for final HSC results before applying; candidates in their final year may apply provisionally.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://du.ac.bd',

@@ -52,11 +52,11 @@ const exam: ExamTemplate = {
   prepOverview:
     'HEPC Medical (South Africa) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.hpcsa.co.za for the current cycle — rules change by year and country (southafrica).',
   commonMistakes: [
-    'Using outdated HEPC Medical (South Africa) pattern or syllabus PDFs instead of the live official notice.',
-    'Practising only untimed quizzes and never sitting full-length mocks under exam fatigue.',
-    'Ignoring high-weight sections while over-studying low-yield topics.',
-    'No written error log — repeating the same mistake types across mocks.',
-    'Treating unofficial cut-offs or rank predictors as guarantees.'
+    'Applying without the evaluation step — the foreign qualification has to go to HPCSA for evaluation.',
+    'Counting the internship and the years of practice as one requirement — for doctors the two stack, and the usual expectation is 2 years of practice once a 12-month internship is behind you.',
+    'Revising the doctor material only — the council examines nurses and allied health professionals too, so the preparation you do should match the profession you are registering in.',
+    'Skipping ethics because the paper sounds clinical — professional ethics is one of the things the exam covers.',
+    'Leaving English to the last minute — English language proficiency is mandatory, so it is an entry condition rather than a topic to revise.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.hpcsa.co.za',

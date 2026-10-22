@@ -12,6 +12,13 @@
 #   three refusing receipts govern, and there was no post-commit hook, so
 #   neither `--no-verify` nor SR_RECEIPT_GATE_BYPASS=1 left a record.
 #
+#   And the hole reopened by a path NO commit hook can see (measured
+#   2026-10-22T09:05Z): commits made with `git commit-tree` + `git update-ref`
+#   run no hooks at all, so they left no pre-commit verdict and no post-commit
+#   record — the audit trail was blind for 4h34m, covering the window in which
+#   a refused change landed. `reference-transaction` fires for every ref
+#   update and is not skipped by --no-verify, so it closes that hole.
+#
 # USAGE:
 #   scripts/sr-install-hooks.sh            # install pre-commit + post-commit
 #   scripts/sr-install-hooks.sh --check    # report what is installed, change nothing
@@ -31,7 +38,7 @@ REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || {
 
 HOOKS_DIR="$REPO_ROOT/.git/hooks"
 SRC_DIR="$REPO_ROOT/scripts/git-hooks"
-HOOKS="pre-commit post-commit"
+HOOKS="pre-commit post-commit reference-transaction"
 MODE="${1:-install}"
 
 report() {
@@ -91,7 +98,10 @@ for h in $HOOKS; do
         continue
     fi
     # Back up a hook that is not ours before replacing it. Ours carries a marker.
-    if [ -f "$dst" ] && ! grep -q "sr-receipt-gate" "$dst" 2>/dev/null; then
+    # The reference-transaction hook is ours too, and it is identified by its
+    # own script name — testing for the gate's name alone made the installer
+    # back up its own hook on every run.
+    if [ -f "$dst" ] && ! grep -qE "sr-receipt-gate|sr-ref-tx-audit" "$dst" 2>/dev/null; then
         cp "$dst" "$dst.bak-$(date -u +%Y%m%dT%H%M%SZ)"
         echo "  $h: existing hook was not ours — backed it up to $dst.bak-*"
     fi

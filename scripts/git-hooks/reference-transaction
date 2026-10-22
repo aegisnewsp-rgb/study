@@ -1,0 +1,71 @@
+#!/bin/sh
+# sr-ref-tx-audit — record every ref update, including ones no commit hook sees.
+#
+# WHY THIS EXISTS (measured 2026-10-22T09:05Z–09:12Z; queue row
+# sr-20261022T0835Z-vqzo-COMMIT-BYPASS-the-receipt-gate-refused-my-staged-set-and-a-concurrent-git-add-A-landed-it-anyway):
+#   The receipt gate refused a staged set (rc=1, correct) and the same change
+#   landed anyway in commit 0ce4aa56, inside another writer's commit whose
+#   message does not mention it. The audit trail was blind for the same 4h34m:
+#   its last entry was 04:17:34Z, and the commits at 08:00:42Z, 08:46:57Z and
+#   08:51:07Z are absent from it.
+#
+#   MEASURED why: `core.hooksPath` is unset in every config scope; `--no-verify`
+#   does NOT skip post-commit on this git 2.47.3 (verified in /tmp/nvtest3 — two
+#   commits, two "post-commit fired" lines); a normal `git commit` in this repo
+#   always produces both the gate output and an audit record (probe fa9b0633);
+#   and `git commit-tree` + `git update-ref -m "commit: <msg>"` reproduces the
+#   observed signature EXACTLY — a reflog line reading "commit: <msg>", no gate
+#   output, no post-commit record (probe 76d745be).
+#
+#   So those commits were made through a path that runs NO git hooks. No
+#   hook-based control can cover that path. reference-transaction can: it fires
+#   for every ref update and --no-verify does not skip it.
+#
+# THIS HOOK RECORDS. IT NEVER BLOCKS.
+#   The "prepared" phase of reference-transaction can abort a transaction, and
+#   aborting is the natural next step, but this repo has other live writers (a
+#   news bot and a monetisation writer commit every ~50 minutes). An aborting
+#   hook that mis-fires would block their production commits — a self-inflicted
+#   outage, which is the failure mode this codebase's hooks exist to avoid.
+#   Aborting is an operator decision; a cleanup pass does not make it.
+#
+# CONTRACT:
+#   - NEVER exits non-zero. A ref update must not fail because of a logger.
+#   - Only the "committed" phase is recorded: that is the phase where the ref
+#     has actually moved. "prepared" and "aborted" are ignored.
+#   - Only refs/heads/* and refs/tags/* are recorded. Remote-tracking, stash,
+#     notes and worktree refs are not commits and would drown the log.
+#   - The record is written by scripts/sr-ref-tx-audit.mjs, which reuses
+#     writeAudit() from sr-gate-audit.mjs — one durable writer, one format.
+#
+# Install with:  node scripts/sr-install-hooks.sh
+# Remove with:   rm .git/hooks/reference-transaction
+
+REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || exit 0
+
+# Resolve the script from the COMMON git dir, not from the checkout. A linked
+# worktree, or any worktree at a commit that predates this script, would
+# otherwise silently disable the control — measured during installation: a
+# worktree at bebd298c has no scripts/sr-ref-tx-audit.mjs, the hook resolved
+# to a path that does not exist, and it exited 0 without recording anything.
+# A control must not be disabled by the state of the tree it protects.
+COMMON_DIR="$(git rev-parse --git-common-dir 2>/dev/null)" || COMMON_DIR=""
+if [ -n "$COMMON_DIR" ]; then
+    case "$COMMON_DIR" in
+        /*) ;;
+        *) COMMON_DIR="$REPO_ROOT/$COMMON_DIR" ;;
+    esac
+    SCRIPT="$(cd "$COMMON_DIR/.." 2>/dev/null && pwd)/scripts/sr-ref-tx-audit.mjs"
+    if [ ! -f "$SCRIPT" ]; then
+        SCRIPT="$REPO_ROOT/scripts/sr-ref-tx-audit.mjs"
+    fi
+else
+    SCRIPT="$REPO_ROOT/scripts/sr-ref-tx-audit.mjs"
+fi
+
+[ -f "$SCRIPT" ] || exit 0
+[ "$1" = "committed" ] || exit 0
+
+node "$SCRIPT" "$1" >/dev/null 2>&1 || true
+
+exit 0

@@ -1,6 +1,6 @@
 {
-  "_comment": "Strings a curate verdict REFUSED, which must never be present in shipped content. Read by scripts/check-rejected-content-live.mjs. Each entry names the exact shipped literal that was rejected; the gate matches the FULL literal, never a fragment, because a fragment match produces false positives (e.g. 'section time limits' is a legitimate phrase on /exams/hpat/ - it is a per-SECTION timing table on that page, and only the full TNPSC snippet was rejected).",
-  "version": 1,
+  "_comment": "Strings a curate verdict REFUSED, which must never be present in shipped content. Read by scripts/check-rejected-content-live.mjs. Each entry names the exact shipped literal that was refused, the curate verdict that refused it, and the reason. The ten entries added 2026-10-22T1305Z were each verified two-sided: the literal WAS present in a commit on mainline (it reached production - the 1135Z patch shipped in ddfd3855 while its curate verdict said ok=false) and is ABSENT from the tree now, so the gate passes on the repaired tree and fails if the refused text is ever reintroduced.",
+  "version": 2,
   "entries": [
     {
       "id": "VQZO-20261021T1235Z-uptet-circular-appositive",
@@ -28,7 +28,207 @@
       "rejected_on": "2026-10-21T13:06:00Z",
       "reason": "Changed claim with no page support (found by re-deriving the page body, after the curate). The TNPSC body states per-PAPER durations only ('200 questions carrying 300 marks (3 hours duration)', 'four descriptive papers of 3 hours each') and uses 'section' only for notification section numbers (1.11.3, 1.11.1.8 to 1.11.1.12). Fixed in VQZO-20261021T1250Z-firstscreen-8-rows-curate-fix.diff.",
       "fixed_by": "97953e0a"
+    },
+    {
+      "id": "VQZO-20261022T1135Z-loe-prep-overview-faculty-and-programme-attribution",
+      "rejected_string": "Start from the notes on this page, then rehearse under the clock. A typical paper is 100 MCQs in the relevant subjects over 2 hours at +2 level, so a short quiz session is not a rehearsal — work through full 100-question sets against a two-hour timer. Before you fix that plan, pin down the faculty you are applying to, because the pattern and the minimum percentage requirement both vary by faculty and by programme.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R1/R5 attribution: the overview said the pattern AND the minimum-percentage rule both vary by faculty AND by programme. The module's own fields support faculty variation for the PATTERN and programme variation for the PERCENTAGE rule only. Fixed: 'the pattern varies by faculty while the minimum percentage requirement is set per programme'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/nepal/loe.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-loe-cm0-uncategorical-paper-duration",
+      "rejected_string": "Treating an undated brochure as the syllabus. The paper is 100 MCQs in 2 hours and the subjects it covers vary by faculty, so a handout that never names the faculty it is for is not a revision plan. Read the current notice on https://psc.gov.np before you plan your sets.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R6 missing hedge: the entry stated 'The paper is 100 MCQs in 2 hours' categorically while the module's examPattern says 'typically 100 MCQs in relevant subjects, 2 hours'. Fixed: 'The paper is typically 100 MCQs in 2 hours'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/nepal/loe.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-loe-cm1-uncategorical-paper-duration",
+      "rejected_string": "Practising on a mock with the wrong number of questions. A paper is 100 MCQs in 2 hours, so a shorter set teaches you a pace you will not be held to. Time full 100-item sets instead, and check the current notice on https://psc.gov.np if you are unsure what the paper contains.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R6 missing hedge: the entry stated 'A paper is 100 MCQs in 2 hours' categorically while the module's examPattern says 'typically'. Fixed: 'A paper is typically 100 MCQs in 2 hours'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/nepal/loe.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-loe-cm-duplicate-programme-percentage-threshold",
+      "rejected_string": "A study order is all this page can offer for LOE Nepal - no admission outcome is promised. What the Public Service Commission measures is the +2 (Higher Secondary Education Board) result or its equivalent, with a minimum percentage set per programme, so read the threshold for each bachelor programme you are considering on https://psc.gov.np and aim at the strictest one you qualify for.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R8 + R10: the entry gave the exam the wrong agency ('LOE Nepal (Bachelor Entrance) takes +2 ... completion') and copied an eight-word run out of the eligibility field. Fixed: 'The entry asks for +2 ... or an equivalent qualification'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/nepal/loe.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-loe-cm-wrong-agency-on-plus2-and-eligibility-restatement",
+      "rejected_string": "Reading \"or equivalent\" as a decision already made. LOE Nepal (Bachelor Entrance) takes +2 (Higher Secondary Education Board) completion or equivalent and sets a minimum percentage per programme, so an equivalent route still has to clear the threshold for the bachelor programme you are actually applying to. Read how your own result is assessed on https://psc.gov.np the week you apply.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R8 + R10: the entry gave the exam the wrong agency ('LOE Nepal (Bachelor Entrance) takes +2 ... completion') and copied an eight-word run out of the eligibility field. Fixed: 'The entry asks for +2 ... or an equivalent qualification'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/nepal/loe.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-makerere-prep-overview-uncategorical-paper-duration",
+      "rejected_string": "Work from the programme you are applying to rather than one generic paper set, because the test varies by programme and each one is examined on its own subject list. Take that list from the current notice on https://mak.ac.ug, then rehearse one full paper under a timer — the format mixes MCQs with short-answer questions and a paper runs 2-3 hours, so isolated topic drills are not the same as a sitting.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R1 missing hedge: the overview said 'a paper runs 2-3 hours' categorically while the module's examPattern says 'The test is typically 2-3 hours per paper'. Fixed: 'a paper typically runs 2-3 hours'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/uganda/makerere-ent.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-makerere-cm0-wrong-tense-one-you-sat",
+      "rejected_string": "Assuming one paper set covers every programme. The subjects tested change with the programme, so revising a list you copied from another programme leaves you unprepared for the one you sat. Check the list for your own programme on https://mak.ac.ug before you finalise your revision.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R7 wrong tense: the pre-exam revision warning said 'the one you sat' - past tense, for a paper the candidate has not yet sat. Fixed: 'the one you are sitting'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/uganda/makerere-ent.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-makerere-cm1-uncategorical-paper-duration",
+      "rejected_string": "Rehearsing MCQs only. The format includes short-answer questions as well, and the paper runs 2-3 hours, so practice writing the short-answer section against a clock, not just picking options under time.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R1 missing hedge: the entry said 'the paper runs 2-3 hours' categorically while the module's examPattern says 'typically'. Fixed: 'the paper typically runs 2-3 hours'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/uganda/makerere-ent.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-makerere-cm-dropped-degree-title-warning",
+      "rejected_string": "Reading UACE as the whole requirement. The entry asks for UACE or equivalent with the subject passes the programme requires, and an age limit may apply to some programmes, so check the programme-specific condition on https://mak.ac.ug rather than assuming the general rule covers you.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R2 dropped fact: the entry dropped the warning that not every degree title is open to the same route. Fixed: 'or assuming every degree title is open the same way ... not every degree title is open to the same route'.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/uganda/makerere-ent.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
+    },
+    {
+      "id": "VQZO-20261022T1135Z-makerere-cm-duplicate-cutoff-and-capacity",
+      "rejected_string": "No page on this site can promise a Makerere University (Uganda) rank or an admission offer. The admission test score has to clear the cut-off, and even then the place is subject to capacity in the programme you chose, so treat a predicted rank as a rumour.",
+      "source_curate": "curate-VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff.json",
+      "source_patch": "VQZO-20261022T1135Z-prep-overview-template-class-3-modules.diff",
+      "rejected_on": "2026-10-22T12:01:00Z",
+      "reason": "R3 duplicate teaching: this entry and the next one both taught that admission depends on the cut-off AND on programme capacity. The corrected entries split the two ideas across two entries.",
+      "fixed_by": "7caf4112",
+      "files": [
+        "src/data/exams/uganda/makerere-ent.ts"
+      ],
+      "_verification": {
+        "shipped_in_mainline": true,
+        "absent_from_tree": true,
+        "removal_commit": "7caf4112",
+        "removal_commit_subject": "fix(exams): repair 10 curator-flagged faults in makerere-ent and loe hubs",
+        "verified_by": "vqzo sr-orchestrate 2026-10-22T1305Z",
+        "method": "literal present in a commit that is an ancestor of HEAD, absent from the current tree, and a mainline commit exists where the literal's parent had it and that commit does not"
+      }
     }
   ],
-  "how_to_add": "When a curate verdict refuses a specific shipped string, add an entry here with the EXACT literal (copy it from the file, do not paraphrase), the curate artifact that refused it, and the reason. The gate will then refuse the tree while that literal is live, and pass once it is gone. A rejected string is a fact about a shipped literal, not about a rule, so a rule-shaped rejection (e.g. 'demote every H3') does NOT belong here - that shape is governed by the patch-level receipt."
+  "how_to_add": "When a curate verdict refuses a specific shipped string, add an entry here with the EXACT literal (copy it from the file, do not paraphrase), the curate artifact that refused it, and the reason. The gate will then refuse the tree while that literal is live, and pass once it is gone. A rejected string is a fact about a shipped literal, not about a rule, so a rule-shaped rejection (e.g. 'demote every H3') does NOT belong here - that shape is governed by the patch-level receipt. VERIFICATION BEFORE ADDING (added 2026-10-22T1305Z): an entry may only be added when the exact literal (a) was present in a commit that is an ancestor of HEAD - it actually reached production - and (b) is absent from the current tree, so the gate still passes. A literal that never shipped in that exact wording is not a record entry: it would be a decorative guard, not a record of a shipped defect. A literal that is still live is a live defect to fix, not a record entry."
 }

@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Untimed UAE University CAT practice hides whether you can finish the published paper.',
     'Some UAE University CAT programmes add extra subject prerequisites after you pay — check https://www.uaeu.ac.ae.',
     'Cut-off rumours are not UAE University CAT offers of admission.',
-    'Pattern note for UAE University CAT: Tests English, Mathematics, and analytical skills. Computer-based adaptive format. Confirm that wording on https://www.uaeu.ac.ae before you lock a timetable.'
+    'Practising UAE University CAT at one fixed difficulty. The paper adapts as you answer - a correct answer routes you to a harder item, a wrong one to an easier one - so how far you get on a fixed-level mock is not how far you will get in the hall, and each section is timed separately, which a single blended practice timer does not test. Re-check the current format on https://www.uaeu.ac.ae.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.uaeu.ac.ae',

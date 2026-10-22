@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'A Matriculation (Malaysia) mock with a different number of items trains the wrong stamina.',
     'Paying Matriculation (Malaysia) fees before re-reading eligibility on https://mohe.gov.my is a frequent waste.',
     'Treat \'sure selection\' Matriculation (Malaysia) ads as marketing; the board does not endorse them.',
-    'Pattern note for Matriculation (Malaysia): Module assessments throughout the year plus final exam. Subjects: Biology, Chemistry, Physics, Mathematics. Confirm that wording on https://mohe.gov.my before you lock a timetable.'
+    'Leaving the module assessments until the final term. Matriculation (Malaysia) spreads its module assessments across the year and adds a final exam on top, so a study plan that opens when the final paper does has already missed the part that was assessable months earlier - lock your timetable against the module schedule on https://mohe.gov.my, not against the final exam date alone.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://mohe.gov.my',

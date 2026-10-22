@@ -17,7 +17,7 @@ lastUpdated: 2026-03-25
 
 Task 2 is a collaborative speaking task for **3–4 candidates** lasting approximately **5–7 minutes**. The examiner introduces a topic and gives each candidate a card containing related information or perspectives. You are assessed on listening, responding, building on others' ideas and working constructively towards a shared outcome, rather than delivering a monologue.
 
-The discussion usually moves through four stages:
+The discussion normally moves through four stages:
 - **Opening:** The examiner introduces the topic and invites responses.
 - **Initial exchange:** Candidates share their first views.
 - **Development:** Ideas are challenged, expanded and refined.
@@ -29,7 +29,7 @@ When you want to contribute, wait for a natural break at a pause, completed thou
 
 Build on others by agreeing and extending, providing evidence, connecting two ideas or asking a probing question. Aim for shared understanding rather than a unanimous decision. If consensus is difficult, identify what the group agrees on and where the main disagreement remains.
 
-Handle common problems calmly. If one person dominates, invite other perspectives instead of fighting for the floor. If silence falls, contribute a new idea or question. Wait for a clear gap if candidates start talking over each other, and yield gracefully if you interrupt. If the discussion goes off-topic, redirect it politely. At the end, the candidate watching time may summarise the shared points and remaining differences.
+Handle common problems calmly. If one person dominates, invite other perspectives instead of fighting for the floor. If silence falls, contribute a new idea or question. Wait for a clear gap if candidates start talking over each other, and yield gracefully if you interrupt. If the discussion goes off-topic, redirect it politely. At the end, the candidate watching time can summarise the shared points and remaining differences.
 
 ### 🟡 Standard — Regular Study
 
@@ -40,7 +40,7 @@ Task 2 of the MUET Speaking paper brings together **3 to 4 candidates** for a co
 
 The examiner will introduce the topic and give each candidate a card with different perspectives or information related to the topic. This design ensures every candidate has something to contribute and prevents the discussion from collapsing into a single monologue.
 
-The discussion typically follows this sequence:
+The discussion normally follows this sequence:
 1. **Opening** — The examiner introduces the topic and invites responses
 2. **Initial exchange** — Candidates share their initial views
 3. **Development** — Ideas are challenged, expanded, and refined
@@ -126,7 +126,7 @@ Not every group discussion requires a unanimous conclusion, but candidates who c
 - *"We may not fully agree, but I think we can all accept that..."*
 - *"It seems our main disagreement is on X, while we agree on Y."*
 
-⚡ **Exam tip:** Examiners deliberately put candidates together who may have different viewpoints. This is not a debate competition — it is a discussion. The goal is to explore the topic collaboratively, not to win an argument.
+⚡ **Exam tip:** Examiners deliberately put candidates together who can have different viewpoints. This is not a debate competition — it is a discussion. The goal is to explore the topic collaboratively, not to win an argument.
 
 #### Common Problems and How to Avoid Them
 
@@ -147,14 +147,14 @@ Not every group discussion requires a unanimous conclusion, but candidates who c
 
 #### Worked mini-example: an online-education discussion
 
-Four candidates are discussing whether universities should make more courses available online. Candidate A says, “Online learning is convenient, so everyone should use it,” but gives no reason. Candidate B begins a long answer while A is still speaking. Candidate C waits for a pause and says, “Building on the point about convenience, online access could help students with location or timing constraints. However, we should also consider interaction. How could participation be maintained?” Candidate D adds, “Smaller online discussion groups could be one solution,” and then invites A back into the exchange.
+Four candidates are discussing whether universities should make more courses available online. Candidate A says, “Online learning is convenient, so everyone should use it,” but gives no reason. Candidate B begins a long answer while A is still speaking. Candidate C waits for a pause and says, “Building on the point about convenience, online access can help students with location or timing constraints. However, we should also consider interaction. How can participation be maintained?” Candidate D adds, “Smaller online discussion groups can be one solution,” and then invites A back into the exchange.
 
 A's turn is relevant but generic. C's turn names the previous idea, adds a consequence, introduces a counter-consideration and asks a question that keeps the discussion moving. D extends the solution without shutting A out. The useful contribution is not simply the number of words spoken; it is the relevant thinking produced while others still have room to enter.
 
 #### Role traps
 
 - A moderator who delivers the longest answer confuses leadership with domination. A practical moderator contribution is shorter: frame the next question, invite an absent view and then leave space for it.
-- A panellist should not wait until the final minute because the moderator has spoken often. Moderating is optional; entering with one developed, responsive point can shape the exchange.
+- A panellist should not wait until the final minute because the moderator has spoken frequently. Moderating is optional; entering with one developed, responsive point can shape the exchange.
 - A candidate who accepts every earlier claim creates agreement without development. Add a reason, example, consequence or question rather than only saying, “I agree.”
 - A time-conscious candidate need not deliver the final summary alone. Any speaker can summarise, but the summary should capture agreement and unresolved difference.
 
@@ -174,7 +174,7 @@ If the group repeats a point, sharpen it instead of restarting: “That is the s
 
 #### Safe turn versus strong turn
 
-A safe turn may acknowledge the previous speaker and add one general benefit. A strong turn links that benefit to a consequence, qualifies it and hands the floor to someone with a relevant perspective:
+A safe turn can acknowledge the previous speaker and add one general benefit. A strong turn links that benefit to a consequence, qualifies it and hands the floor to someone with a relevant perspective:
 
 > “The cost argument has covered affordability. If savings come from reduced travel, we should also ask whether students who depend on campus facilities lose access to support services. Mei, what do you think?”
 

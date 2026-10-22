@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
     'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',
     'Each university taking the Philippines PCAT sets its own minimum percentile, and competitive programmes can ask for the 60th percentile or better, so a score that cleared one campus may not clear another. The CEM publishes the test itself on https://www.cem-inc.org.ph, but the cutoff that counts is the one on the admissions page of the school you are applying to.',
     'Treat \'sure selection\' PCAT (Philippines) ads as marketing; the board does not endorse them.',
-    'The published PCAT (Philippines) shape in our files is: Verbal ability, Quantitative ability, Science (Biology, Chemistry, Physics), and General Information. If https://www.cem-inc.org.ph differs, follow https://www.cem-inc.org.ph.'
+    'Practising PCAT (Philippines) as one undifferentiated score. The paper is built from four named sections - Verbal Ability, Quantitative Ability, Science (Biology, Chemistry, Physics) and General Information - so a mock that reports only a total hides the one section actually costing you percentile. Track each section separately, and check the current section list on https://www.cem-inc.org.ph.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.cem-inc.org.ph',

@@ -54,7 +54,7 @@ Task 1 requires you to write a formal letter based on input provided in the form
 - Write in an appropriate formal letter format
 - Organise information logically (e.g., from general to specific, or chronologically)
 
-The letter type varies — it could be a complaint letter, an application letter, a request for information, or a letter to the editor. The key is that you are *describing* information, not arguing a position.
+The letter type varies — it can be a complaint letter, an application letter, a request for information, or a letter to the editor. The key is that you are *describing* information, not arguing a position.
 
 **Typical prompt example:**
 > The graph below shows the percentage of Malaysian students pursuing higher education abroad from 2015 to 2020. Write a formal letter to the Director of Education requesting more details about government scholarship programmes.
@@ -126,9 +126,9 @@ Understanding these criteria is the foundation for everything else. Each subsequ
 
 - **Treating Task 1 as an essay:** A request for scholarship details does not permit a long argument about government policy. Describe the relevant visual information and make the requested request.
 - **Abandoning Task 1 because Task 2 has the larger share:** The approximate 70% share does not cancel task fulfilment in the 150–200-word letter. An unfinished or inaccurate Task 1 cannot be repaired by extra Task 2 prose.
-- **Assuming that “balanced” means no position:** A discursive response may acknowledge different views while still maintaining a clear, reasoned stance.
+- **Assuming that “balanced” means no position:** A discursive response can acknowledge different views while still maintaining a clear, reasoned stance.
 - **Using difficult language for its own sake:** Formal writing requires control and precision, not inflated sentences or unnecessary jargon.
-- **Exceeding a word range:** An answer of 149 or 201 words falls outside the stated range for that task. Cutting repeated material is usually more useful than adding a decorative final sentence.
+- **Exceeding a word range:** An answer of 149 or 201 words falls outside the stated range for that task. Cutting repeated material is normally more useful than adding a decorative final sentence.
 - **Writing both tasks to a word limit rather than to the prompt:** Correct length does not repair an irrelevant letter or an essay that answers a different question.
 
 #### Worked mini-example: planning Task 1
@@ -143,7 +143,7 @@ A workable content plan is:
 4. **Trend:** Note where growth became sharper.
 5. **Request:** Ask for eligibility, application procedures and funding information.
 
-A concise descriptive section could read:
+A concise descriptive section can read:
 
 > The graph shows that the percentage of Malaysian students pursuing higher education abroad rose from 18% in 2015 to 30% in 2020. Growth was gradual at first, reaching 23% in 2018, before becoming faster during the final two years. The sharpest rise occurred between 2019 and 2020. Overall, the percentage increased throughout the period shown.
 
@@ -154,9 +154,9 @@ The request for scholarship information belongs in the letter because it matches
 For the prompt, “Social media does more harm than good to young people. Do you agree?”, avoid listing unconnected advantages and disadvantages. A workable plan is:
 
 - **Thesis:** Social media expands communication and access to information, but its overall effect depends on patterns of use and safeguards.
-- **First main idea:** Constant comparison and attention-seeking may affect well-being.
+- **First main idea:** Constant comparison and attention-seeking can affect well-being.
 - **Second main idea:** Online networks can support learning, friendship and access to information.
-- **Counter-consideration:** The same platform may be beneficial for one purpose and harmful in another.
+- **Counter-consideration:** The same platform can be beneficial for one purpose and harmful in another.
 - **Conclusion:** Evaluate the conditions of use rather than treating every form of social media as identical.
 
 This structure gives you reasons to develop rather than a list with equal word counts. Each paragraph should perform a distinct job.
@@ -185,7 +185,7 @@ This is a practice method, not an official timetable.
 
 #### Safe draft versus strong draft
 
-A safe draft may contain roughly 180 words for Task 1 and 380 for Task 2 while still misreading one task or presenting only a list of ideas. A strong draft answers each prompt directly, selects meaningful information, maintains a clear line of reasoning and leaves enough time for a final accuracy check. Length alone does not distinguish them.
+A safe draft can contain roughly 180 words for Task 1 and 380 for Task 2 while still misreading one task or presenting only a list of ideas. A strong draft answers each prompt directly, selects meaningful information, maintains a clear line of reasoning and leaves enough time for a final accuracy check. Length alone does not distinguish them.
 
 #### Continue your study
 

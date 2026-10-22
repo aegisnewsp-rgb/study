@@ -63,7 +63,7 @@ A: 8 + 2 × 5 = 8 + 10 = **18**
 ### 🟡 Standard
 
 #### Concept
-The number system is the backbone of SSC CGL Quant. It covers natural numbers, whole numbers, integers, rational and irrational numbers. Simplification means evaluating expressions correctly using BODMAS, while the number system portion tests your skills in divisibility, HCF/LCM, remainders, and finding missing digits in sums or products. In Tier 2, expect higher difficulty — questions often combine two concepts (e.g., LCM + remainder theorem).
+The number system is the backbone of SSC CGL Quant. It covers natural numbers, whole numbers, integers, rational and irrational numbers. Simplification means evaluating expressions correctly using BODMAS, while the number system portion tests your skills in divisibility, HCF/LCM, remainders, and finding missing digits in sums or products. In Tier 2, expect higher difficulty — questions frequently combine two concepts (e.g., LCM + remainder theorem).
 
 Key sub-topics: divisibility rules (2, 3, 4, 5, 6, 8, 9, 11), unit digit cycles, cyclicity of remainders, and Euclidean algorithm for HCF.
 
@@ -81,16 +81,16 @@ Key sub-topics: divisibility rules (2, 3, 4, 5, 6, 8, 9, 11), unit digit cycles,
 
 #### SSC Pattern / Tips
 - Most questions ask for the HCF/LCM of 3+ numbers — use the prime factor method or successive division.
-- Remainder problems often give remainders 1 or 2 when dividing by small numbers — look for the LCM approach.
+- Remainder problems frequently give remainders 1 or 2 when dividing by small numbers — look for the LCM approach.
 - For unit digit problems, always find exponent mod 4 (or mod 20 for larger bases).
 - Always check if the numbers are co-prime before applying the HCF × LCM = product rule.
 
 ### 🔴 Extended
 
 #### Full Concept
-The number system in SSC CGL Tier 2 goes well beyond textbook definitions. It demands fluency with properties of real numbers, modular arithmetic, and the ability to spot patterns in cycles. Simplification requires mastery of BODMAS, fraction operations, surds, and powers. The most advanced Tier 2 questions often combine number system properties with algebra or apply the Chinese Remainder Theorem (CRT) in disguised form.
+The number system in SSC CGL Tier 2 goes well beyond textbook definitions. It demands fluency with properties of real numbers, modular arithmetic, and the ability to spot patterns in cycles. Simplification requires mastery of BODMAS, fraction operations, surds, and powers. The most advanced Tier 2 questions frequently combine number system properties with algebra or apply the Chinese Remainder Theorem (CRT) in disguised form.
 
-**Number Classification:** Natural (1,2,3...), Whole (includes 0), Integers (pos + neg), Rational (p/q form), Irrational (non-repeating decimals). SSC often tests whether students confuse rational/irrational — remember √2, π, and most roots of non-perfect squares are irrational.
+**Number Classification:** Natural (1,2,3...), Whole (includes 0), Integers (pos + neg), Rational (p/q form), Irrational (non-repeating decimals). SSC frequently tests whether students confuse rational/irrational — remember √2, π, and most roots of non-perfect squares are irrational.
 
 **HCF/LCM Methods:** Prime factor method gives exact factors. Successive division (divide larger by smaller, then remainder becomes divisor) is faster for two numbers. For 3+ numbers, find HCF of first two, then HCF of result with third. LCM method: same for LCM.
 

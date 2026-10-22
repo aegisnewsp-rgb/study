@@ -58,7 +58,7 @@ const exam: ExamTemplate = {
     'Skipping full SAPC (South Africa) papers until the final weekend is how scores stall.',
     'Some SAPC (South Africa) programmes add extra subject prerequisites after you pay — check https://www.sapc.za.org.',
     'If a page promises you will \'crack SAPC (South Africa)\' with this plan, it is not this site.',
-    'The published SAPC (South Africa) shape in our files is: The examination covers Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Clinical Pharmacy. If https://www.sapc.za.org differs, follow https://www.sapc.za.org.'
+    'Revising only the four papers everyone names. The SAPC examination covers Pharmaceutical Chemistry, Pharmacology, Pharmaceutics and Clinical Pharmacy plus Pharmacy Practice/Law - and it is not MCQs alone: short-answer questions and case-based scenarios sit alongside them, with a possible practical component on dispensing skills and pharmaceutical calculations. A plan built from the four subjects alone leaves both the law component and the written formats unstudied. Confirm the current structure on https://www.sapc.za.org.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.sapc.za.org',

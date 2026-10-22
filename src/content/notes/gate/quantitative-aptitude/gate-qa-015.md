@@ -43,9 +43,9 @@ A: (90/360) × 18 = (1/4) × 18 = **₹4.5 lakhs**
 #### Concept Explanation
 Data interpretation is the art of extracting meaningful information from visual and tabular representations of data. In the GATE exam context, this means you need to rapidly read tables, bar charts, and pie charts, identify which numbers matter, perform the right arithmetic, and avoid getting tricked by misleading presentations. The good news is that DI problems almost never require complex mathematics — they're really reading comprehension problems dressed in numbers. The challenge is doing the arithmetic quickly and accurately under pressure.
 
-Tables present raw data in rows and columns. Your first task is always to identify what each row and column represents, what units are being used, and whether any cells contain estimated or projected values. Look for footnotes — tables often have asterisks or notes that qualify the data with important caveats. Bar charts show comparisons across categories. The key trap here is the truncated y-axis: if a chart starts at 50 instead of 0, a bar that's twice as tall actually represents a much larger difference than 2x. Always check where the y-axis begins before interpreting visual differences.
+Tables present raw data in rows and columns. Your first task is always to identify what each row and column represents, what units are being used, and whether any cells contain estimated or projected values. Look for footnotes — tables frequently have asterisks or notes that qualify the data with important caveats. Bar charts show comparisons across categories. The key trap here is the truncated y-axis: if a chart starts at 50 instead of 0, a bar that's twice as tall actually represents a much larger difference than 2x. Always check where the y-axis begins before interpreting visual differences.
 
-Pie charts show how parts relate to a whole. Every slice represents a proportion of 360° (or 100%). The critical skill is translating between the visual angle and the actual quantity. A slice that looks twice as big might actually represent twice the value only if the chart is drawn to scale. Always verify by checking whether all slices sum to 360° or 100%. When comparing two pie charts of different totals, you need to convert to percentages first before making any comparison.
+Pie charts show how parts relate to a whole. Every slice represents a proportion of 360° (or 100%). The critical skill is translating between the visual angle and the actual quantity. A slice that looks twice as big can actually represent twice the value only if the chart is drawn to scale. Always verify by checking whether all slices sum to 360° or 100%. When comparing two pie charts of different totals, you need to convert to percentages first before making any comparison.
 
 #### Key Formulas
 | Symbol | Meaning |
@@ -78,9 +78,9 @@ What is the average population of city A across all three years?
 **Answer:** 150%
 
 #### Common Mistakes
-- Ignoring units → A table might show values in "thousands" or "lakhs" — always convert to the same unit before comparing
+- Ignoring units → A table can show values in "thousands" or "lakhs" — always convert to the same unit before comparing
 - Misreading truncated bar charts → If the y-axis doesn't start at 0, visual comparison is misleading. Always read the actual values, not just heights.
-- Forgetting to check if pie chart sums to 100% → If slices don't sum to 360° or 100%, the chart might include an "other" category or there could be rounding
+- Forgetting to check if pie chart sums to 100% → If slices don't sum to 360° or 100%, the chart can include an "other" category or there can be rounding
 
 #### Quick Test (2 Qs)
 1. Q: In a bar chart showing quarterly sales (Q1: ₹4L, Q2: ₹5L, Q3: ₹3L, Q4: ₹8L), what is the average quarterly sales? Options: A) 4L B) 5L C) 6L D) 20L. Ans: B) 5L (Reason: (4+5+3+8)/4 = 20/4 = 5L)
@@ -89,11 +89,11 @@ What is the average population of city A across all three years?
 ### 🔴 Extended
 
 #### Concept Deep Dive
-Data interpretation in competitive exams is less about mathematical sophistication and more about systematic reading and arithmetic precision. The kinds of DI problems you'll encounter in GATE typically involve extracting data from multiple related tables, comparing quantities across bar charts, or calculating shares from pie charts. What makes these challenging isn't the difficulty of the math — it's the volume of information you need to process quickly and the traps embedded in how the data is presented.
+Data interpretation in competitive exams is less about mathematical sophistication and more about systematic reading and arithmetic precision. The kinds of DI problems you'll encounter in GATE normally involve extracting data from multiple related tables, comparing quantities across bar charts, or calculating shares from pie charts. What makes these challenging isn't the difficulty of the math — it's the volume of information you need to process quickly and the traps embedded in how the data is presented.
 
-One of the most common traps is the compound or stacked bar chart. Instead of showing a single value per category, these charts split the bar into components (say, domestic sales vs. export sales for each year). The temptation is to compare only the total bar heights, but the real insight often lies in the ratio of components. Has the proportion of exports grown over time? That shows up as a changing slice within each bar, not just a changing total height. Always ask yourself: what story is this chart trying to tell, and am I reading all the layers?
+One of the most common traps is the compound or stacked bar chart. Instead of showing a single value per category, these charts split the bar into components (say, domestic sales vs. export sales for each year). The temptation is to compare only the total bar heights, but the real insight frequently lies in the ratio of components. Has the proportion of exports grown over time? That shows up as a changing slice within each bar, not just a changing total height. Always ask yourself: what story is this chart trying to tell, and am I reading all the layers?
 
-Another critical skill is handling data in different units. A table might list some values in crores, others in lakhs, and others in thousands — all mixed together. Before doing any calculation across rows, you need to convert everything to a common unit. Similarly, watch out for values labeled as "approximate" or "projected." A projected value for 2025 might be based on extrapolation from past trends, and if the projection assumption changes, the numbers could shift significantly.
+Another critical skill is handling data in different units. A table can list some values in crores, others in lakhs, and others in thousands — all mixed together. Before doing any calculation across rows, you need to convert everything to a common unit. Similarly, watch out for values labeled as "approximate" or "projected." A projected value for 2025 can be based on extrapolation from past trends, and if the projection assumption changes, the numbers can shift significantly.
 
 Ratios and proportions appear constantly in DI. If A:B = 2:3 and B:C = 4:5, finding A:C requires linking through B. The LCM approach: make B's value the same in both ratios. A:B = 2:3 = 8:12 (multiply by 4), B:C = 4:5 = 12:15 (multiply by 3). So A:C = 8:15. This linking technique shows up in age problems, work problems, and DI problems involving multiple linked quantities.
 
@@ -131,15 +131,15 @@ What is the difference between the number of players in sport D in State 2 and s
 #### Multiple Approaches
 **Method A: Read-then-calculate** — Always read all labels, axes, and units first. Build a mental picture of what the data represents. Then identify which numbers you need. Calculate last.
 
-**Method B: Estimate before exact** — In DI, approximate answers often help you eliminate wrong options quickly. If options are spread far apart, you might not need full precision. This is especially useful for percentage-heavy questions.
+**Method B: Estimate before exact** — In DI, approximate answers frequently help you eliminate wrong options quickly. If options are spread far apart, you can not need full precision. This is especially useful for percentage-heavy questions.
 
 **When to use:** Use Method A for precise calculations where options are close together. Use Method B for rough estimation to quickly eliminate unlikely options.
 
 #### Tricky Cases
 - **Dual pie charts with different totals**: If you're comparing pie charts where each represents a different total, convert to percentages first. A slice that's 90° in both charts represents the same fraction but different absolute values.
 - **Bar charts with negative values**: Some charts show losses or declines as bars going downward. Always check whether negative values are possible before summing.
-- **Approximated data**: Tables with "approx." or "—" for missing values require careful handling. Don't treat approximate values as exact — your answer might be within the rounding error.
-- **Cumulative vs individual bars**: In a cumulative bar chart, each bar adds on to the previous one. To find the value of a single component, you may need to subtract adjacent bar heights.
+- **Approximated data**: Tables with "approx." or "—" for missing values require careful handling. Don't treat approximate values as exact — your answer can be within the rounding error.
+- **Cumulative vs individual bars**: In a cumulative bar chart, each bar adds on to the previous one. To find the value of a single component, you need to subtract adjacent bar heights.
 
 *Content adapted based on your selected roadmap duration.*
 

@@ -17,7 +17,7 @@ lastUpdated: 2026-03-25
 
 Task 1 requires you to interpret a graph, table, chart or diagram and transfer the information into a **150–200-word formal letter**. It accounts for approximately **30% of the Writing paper**. Your job is to describe, select and organise visual information accurately. You should not give opinions, guess reasons for the pattern or argue for a position unless the prompt explicitly asks for that.
 
-The visual may show:
+The visual can show:
 - **Line graphs:** trends over time
 - **Bar charts:** comparisons between categories
 - **Pie charts:** proportions of a whole
@@ -26,7 +26,7 @@ The visual may show:
 
 Identify the main trend, key figures, noticeable features and useful comparisons.
 
-The prompt may require a complaint letter, application letter, request for information or letter to the editor. A basic layout contains your address, date, recipient's details, salutation, opening purpose, organised body, closing request and formal sign-off. Use **“Yours faithfully”** with “Dear Sir or Madam” and **“Yours sincerely”** with a named recipient.
+The prompt can require a complaint letter, application letter, request for information or letter to the editor. A basic layout contains your address, date, recipient's details, salutation, opening purpose, organised body, closing request and formal sign-off. Use **“Yours faithfully”** with “Dear Sir or Madam” and **“Yours sincerely”** with a named recipient.
 
 Use accurate data language:
 - Increase: *rose, climbed, grew*
@@ -41,7 +41,7 @@ Paraphrase the task rather than copying long stretches of the question. Do not r
 ### 🟡 Standard — Regular Study
 
 
-Task 1 of the MUET Writing paper tests your ability to interpret visual data and present it in formal letter format. You are given a graph, table, chart, or diagram, and you must write a **150–200 word** formal letter that accurately conveys the information shown. This task accounts for approximately 30% of your Writing paper marks, and because it is more structured than Task 2, it is often the easier task to score well in with the right preparation.
+Task 1 of the MUET Writing paper tests your ability to interpret visual data and present it in formal letter format. You are given a graph, table, chart, or diagram, and you must write a **150–200 word** formal letter that accurately conveys the information shown. This task accounts for approximately 30% of your Writing paper marks, and because it is more structured than Task 2, it is frequently the easier task to score well in with the right preparation.
 
 #### Understanding the Task
 
@@ -55,7 +55,7 @@ Your job is purely to **describe, select, and organise** the information from th
 
 #### Types of Visual Stimuli
 
-You may encounter any of the following:
+You can encounter any of the following:
 
 - **Line graphs** — show trends over time (e.g., temperature changes, sales figures)
 - **Bar charts** — compare quantities across categories (e.g., preferred modes of transport)
@@ -188,7 +188,7 @@ Spend a few seconds identifying:
 - **Salient evidence:** Which starting point, ending point, peak, trough or contrast deserves space?
 - **Required action:** What must the letter request, complain about, apply for or raise?
 
-A diagram showing a process may require you to describe stages and relationships, not invent numerical trends. A graph showing similar annual changes may support *rose steadily* but not *surged*.
+A diagram showing a process can require you to describe stages and relationships, not invent numerical trends. A graph showing similar annual changes can support *rose steadily* but not *surged*.
 
 #### Worked mini-example: a practice letter
 
@@ -229,13 +229,13 @@ The response identifies the overall pattern, selects meaningful points, compares
 
 - **“Listing every number makes the description complete.”** Selection demonstrates judgement; a long number dump can obscure the pattern.
 - **“Copying titles proves that the information has been transferred.”** Titles identify categories, but your sentences must still explain relationships and changes.
-- **“A request for action allows personal opinions.”** The request may be direct, but the body should still remain evidence-led.
+- **“A request for action allows personal opinions.”** The request can be direct, but the body should still remain evidence-led.
 - **“A complaint needs accusations.”** Unsupported claims about an organisation's motives weaken the factual basis of the letter.
 - **“Every increase can be called a surge.”** Accuracy takes priority over a large vocabulary display.
 
 #### Safe response versus strong response
 
-A safe response may repeat every data label and reproduce all fifteen figures in separate sentences. It remains within the word range but gives the reader little sense of development. A stronger response selects the opening, ending, main trend, largest change and most relevant comparison. It then reserves space for the letter's required purpose.
+A safe response can repeat every data label and reproduce all fifteen figures in separate sentences. It remains within the word range but gives the reader little sense of development. A stronger response selects the opening, ending, main trend, largest change and most relevant comparison. It then reserves space for the letter's required purpose.
 
 Before submitting, check the sign-off pairing: use *Dear Sir or Madam* with *Yours faithfully*, and a named recipient with *Yours sincerely*. Also check the measure, dates, spelling of the recipient's title and whether your closing request repeats the actual purpose of the prompt.
 

@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For LOE Nepal (Bachelor Entrance), if two blogs disagree on LOE Nepal (Bachelor Entrance) marking, https://psc.gov.np wins; this page only sequences LOE Nepal (Bachelor Entrance) study.',
+    'Start from the notes on this page, then rehearse under the clock. A typical paper is 100 MCQs in the relevant subjects over 2 hours at +2 level, so a short quiz session is not a rehearsal — work through full 100-question sets against a two-hour timer. Before you fix that plan, pin down the faculty you are applying to, because the pattern and the minimum percentage requirement both vary by faculty and by programme.',
   commonMistakes: [
-    'If your LOE Nepal (Bachelor Entrance) brochure has no date, throw it out and open https://psc.gov.np.',
-    'A LOE Nepal (Bachelor Entrance) mock with a different number of items trains the wrong stamina.',
-    'Some LOE Nepal (Bachelor Entrance) programmes add extra subject prerequisites after you pay — check https://psc.gov.np.',
+    'Treating an undated brochure as the syllabus. The paper is 100 MCQs in 2 hours and the subjects it covers vary by faculty, so a handout that never names the faculty it is for is not a revision plan. Read the current notice on https://psc.gov.np before you plan your sets.',
+    'Practising on a mock with the wrong number of questions. A paper is 100 MCQs in 2 hours, so a shorter set teaches you a pace you will not be held to. Time full 100-item sets instead, and check the current notice on https://psc.gov.np if you are unsure what the paper contains.',
+    'Studying above the level the paper is set at. The questions test subject knowledge at +2 (Higher Secondary Education Board) level, so university material is time taken from the level you are actually examined at. Revise the +2 course first, and widen your reading only once that is secure.',
     'A study order is all this page can offer for LOE Nepal - no admission outcome is promised. What the Public Service Commission measures is the +2 (Higher Secondary Education Board) result or its equivalent, with a minimum percentage set per programme, so read the threshold for each bachelor programme you are considering on https://psc.gov.np and aim at the strictest one you qualify for.',
-    'Who the board describes as eligible for LOE Nepal (Bachelor Entrance): +2 (Higher Secondary Education Board) completion or equivalent. Minimum percentage requirements vary. Re-read it on https://psc.gov.np the week you apply.'
+    'Reading "or equivalent" as a decision already made. LOE Nepal (Bachelor Entrance) takes +2 (Higher Secondary Education Board) completion or equivalent and sets a minimum percentage per programme, so an equivalent route still has to clear the threshold for the bachelor programme you are actually applying to. Read how your own result is assessed on https://psc.gov.np the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://psc.gov.np',

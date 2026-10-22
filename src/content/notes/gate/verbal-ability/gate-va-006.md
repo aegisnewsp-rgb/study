@@ -51,20 +51,20 @@ A: **(B) Kind** — "benevolent" means well-meaning, generous, kind. "Cruel" is 
 #### Exam Tips for GATE
 - When the exact synonym isn't among the options, choose the **closest in meaning** — not the "best" word, the closest.
 - **Root method:** If you don't know a word, break it down. "Benevolent" = "bene" (good, well) + "volent" (wishing) = "well-wishing" = kind. "Malevolent" = "male" (bad) + "volent" = "ill-wishing" = harmful.
-- **Watch for partial overlaps:** "Happy" and "joyful" are synonyms but "happy" might be the distractor for "fortunate" — only one option is truly correct.
-- GATE often uses **words from specific domains** — science, law, administration, technology. A good vocabulary base from newspaper reading helps.
+- **Watch for partial overlaps:** "Happy" and "joyful" are synonyms but "happy" can be the distractor for "fortunate" — only one option is truly correct.
+- GATE frequently uses **words from specific domains** — science, law, administration, technology. A good vocabulary base from newspaper reading helps.
 
 #### Common Pitfalls
 - **Picking a word that sounds right but means something different** — "composed" and "calm" are synonyms but "composed" can also mean "made up of." Context matters in full-sentence questions.
 - **Confusing synonyms with words in the same category** — "Tiger" and "Lion" are related but not synonyms. "Predator" and "hunter" are closer to being synonyms.
-- **Forgetting tone register:** In formal/academic GATE synonyms, the answer is often a more elevated word — "angry" → "irate" or "wrathful"; "sad" → "sorrowful" or "melancholy."
+- **Forgetting tone register:** In formal/academic GATE synonyms, the answer is frequently a more elevated word — "angry" → "irate" or "wrathful"; "sad" → "sorrowful" or "melancholy."
 
 ### 🟡 Standard
 
 #### Concept
 Synonyms are words that express the same or nearly the same idea. GATE's synonym questions go beyond simple word matching — they test whether you understand shades of meaning, context appropriateness, and intensity levels. A "big" word and a "massive" word share meaning, but one is always more emphatic. Choosing the right synonym means matching not just the core meaning, but also the register (formal vs. informal), intensity, and emotional coloring.
 
-The trap in GATE synonym questions is the near-synonym. Options often include words that are related but not interchangeable. For example, "lazy" and "slothful" both describe unwillingness to work, but they're not perfect synonyms — slothful carries moral judgment while lazy is more neutral. Understanding these fine distinctions is what separates confident test-takers from confused ones.
+The trap in GATE synonym questions is the near-synonym. Options frequently include words that are related but not interchangeable. For example, "lazy" and "slothful" both describe unwillingness to work, but they're not perfect synonyms — slothful carries moral judgment while lazy is more neutral. Understanding these fine distinctions is what separates confident test-takers from confused ones.
 
 #### Types & Approach
 **Exact Synonyms:** Words perfectly interchangeable (copy/duplicate, courage/bravery). Rare in GATE — they're too easy.
@@ -93,11 +93,11 @@ Step 3 → "Random" captures the "not based on reason" aspect best
 ### 🔴 Extended
 
 #### Full Concept Explanation
-Synonym questions in GATE probe your understanding of lexical relationships at a sophisticated level. True synonyms — words perfectly substitutable in all contexts — are linguistically rare. What GATE typically tests are near-synonyms: words that share a semantic field but diverge in connotation, intensity, formality, or collocation. This is why rote memorization of vocabulary lists fails. Instead, you need to develop an intuitive feel for how words differ.
+Synonym questions in GATE probe your understanding of lexical relationships at a sophisticated level. True synonyms — words perfectly substitutable in all contexts — are linguistically rare. What GATE normally tests are near-synonyms: words that share a semantic field but diverge in connotation, intensity, formality, or collocation. This is why rote memorization of vocabulary lists fails. Instead, you need to develop an intuitive feel for how words differ.
 
-Consider the cluster around "intelligent": clever, bright, smart, wise, brilliant, shrewd, astute. All relate to mental acuity, yet each carries distinct baggage. "Clever" suggests quick learning and inventiveness, often in younger people. "Wise" implies deep experience and sound judgment. "Brilliant" signals exceptional intellectual power. "Shrewd" carries a slightly negative connotation — intelligence used for practical advantage, sometimes at others' expense. GATE's synonym questions ask you to navigate these subtle distinctions.
+Consider the cluster around "intelligent": clever, bright, smart, wise, brilliant, shrewd, astute. All relate to mental acuity, yet each carries distinct baggage. "Clever" suggests quick learning and inventiveness, frequently in younger people. "Wise" implies deep experience and sound judgment. "Brilliant" signals exceptional intellectual power. "Shrewd" carries a slightly negative connotation — intelligence used for practical advantage, sometimes at others' expense. GATE's synonym questions ask you to navigate these subtle distinctions.
 
-The role of collocation — which words naturally pair together — is crucial. "Heavy rain" and "strong rain" both make sense, but "strong clouds" is wrong while "heavy clouds" is correct. When faced with near-synonym options, the answer that collocates naturally with surrounding words is usually correct. Context sentences in GATE problems are often designed to make collocational fit the deciding factor.
+The role of collocation — which words naturally pair together — is crucial. "Heavy rain" and "strong rain" both make sense, but "strong clouds" is wrong while "heavy clouds" is correct. When faced with near-synonym options, the answer that collocates naturally with surrounding words is normally correct. Context sentences in GATE problems are frequently designed to make collocational fit the deciding factor.
 
 Word roots offer another pathway. Many English word pairs share Latin or Greek origins that reveal their relationship. The words " benefactor" and "beneficiary" both contain "bene-" (good/well), linking them semantically. When you encounter an unfamiliar word, identifying its root can illuminate its meaning group and help you spot the synonym among options.
 
@@ -122,7 +122,7 @@ Word roots offer another pathway. Many English word pairs share Latin or Greek o
 **Collocations and Register:** Higher-register words (more formal, academic) should match with similarly elevated options. "The data was... [analyzed/examined/looked at]" — "analyzed" is the formal, academic choice.
 
 #### Tricky Cases / Edge Cases
-- Near-synonym clusters: "anger, rage, fury, wrath" all mean strong displeasure, but fury is the most intense and wrath often implies righteous punishment. Context determines which is correct.
+- Near-synonym clusters: "anger, rage, fury, wrath" all mean strong displeasure, but fury is the most intense and wrath frequently implies righteous punishment. Context determines which is correct.
 - Technical vs. general meanings: "table" (furniture) and "table" (data arrangement) share a word but not meaning. True synonyms must work in the same sense.
 - Commonly confused pairs: affect/effect, adapt/adopt, eminent/imminent, discreet/discrete, principal/principle. GATE sometimes tests these as "which word fits the sentence."
 - Positive/negative valence: Some words are neutral, others carry praise or criticism. A synonym must match not just meaning but also emotional tone.

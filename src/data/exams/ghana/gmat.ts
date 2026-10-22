@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.gmac.com',
+  conductingBody: 'Graduate Management Admission Council (GMAC)',
 };
 
 export default exam;

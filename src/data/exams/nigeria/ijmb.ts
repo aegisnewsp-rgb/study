@@ -56,6 +56,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'http://ijmb.abu.edu.ng/',
+  conductingBody: 'Ahmadu Bello University (ABU), Zaria',
 };
 
 export default exam;

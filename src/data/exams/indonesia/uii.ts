@@ -58,6 +58,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://uii.ac.id',
+  conductingBody: 'Universitas Islam Indonesia (UII)',
 };
 
 export default exam;

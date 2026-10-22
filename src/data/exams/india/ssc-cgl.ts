@@ -140,5 +140,6 @@ const exam: ExamTemplate = {
   rescueMode,
   lastUpdated: '2026-07-28',
   officialSource: 'https://ssc.gov.in',
+  conductingBody: 'Staff Selection Commission (SSC)',
 };
 export default exam;

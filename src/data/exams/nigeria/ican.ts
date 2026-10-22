@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ican.org.ng',
+  conductingBody: 'Institute of Chartered Accountants of Nigeria (ICAN)',
 };
 
 export default exam;

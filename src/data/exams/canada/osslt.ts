@@ -80,6 +80,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-20',
   officialSource: 'https://www.eqao.com/the-assessments/osslt/',
+  conductingBody: 'Education Quality and Accountability Office (EQAO)',
 };
 
 export default exam;

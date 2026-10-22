@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.uaeu.ac.ae',
+  conductingBody: 'United Arab Emirates University (UAEU)',
 };
 
 export default exam;

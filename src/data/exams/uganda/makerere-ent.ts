@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://mak.ac.ug',
+  conductingBody: 'Makerere University',
 };
 
 export default exam;

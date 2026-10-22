@@ -60,5 +60,6 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-21',
   officialSource: 'https://satsuite.collegeboard.org/',
+  conductingBody: 'College Board',
 };
 export default exam;

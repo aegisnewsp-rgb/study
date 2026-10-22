@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://mu.ac.tz',
+  conductingBody: 'Mzumbe University',
 };
 
 export default exam;

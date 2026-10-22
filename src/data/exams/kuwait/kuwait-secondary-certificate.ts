@@ -62,5 +62,6 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.moe.edu.kw/',
+  conductingBody: 'Kuwait Ministry of Education (MOE)',
 };
 export default exam;

@@ -63,5 +63,6 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-21',
   officialSource: 'https://www.edu.gov.qa/',
+  conductingBody: 'Ministry of Education and Higher Education (MoEHE)',
 };
 export default exam;

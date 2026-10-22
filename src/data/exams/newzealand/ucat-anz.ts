@@ -58,6 +58,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.ucat.edu.au/about-ucat-anz/test-format/',
+  conductingBody: 'UCAT ANZ Consortium',
 };
 
 export default exam;

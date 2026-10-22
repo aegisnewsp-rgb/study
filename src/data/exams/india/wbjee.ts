@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://wbjeeb.nic.in/wbjee/',
+  conductingBody: 'West Bengal Joint Entrance Examination Board (WBJEEB)',
 };
 
 export default exam;

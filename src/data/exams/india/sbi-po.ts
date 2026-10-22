@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://sbi.co.in/web/careers',
+  conductingBody: 'State Bank of India (SBI)',
 };
 
 export default exam;

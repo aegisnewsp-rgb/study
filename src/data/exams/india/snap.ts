@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.snaptest.org/',
+  conductingBody: 'Symbiosis International University',
 };
 
 export default exam;

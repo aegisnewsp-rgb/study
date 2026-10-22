@@ -73,6 +73,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-09',
   officialSource: 'https://www.gmc-uk.org/registration-and-licensing/join-our-registers/plab',
+  conductingBody: 'General Medical Council (GMC)',
 };
 
 export default exam;

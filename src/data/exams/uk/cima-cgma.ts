@@ -70,6 +70,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-09',
   officialSource: 'https://www.aicpa-cima.com/resources/landing/exams',
+  conductingBody: 'AICPA & CIMA',
 };
 
 export default exam;

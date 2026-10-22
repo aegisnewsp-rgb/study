@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://slmc.gov.lk/',
+  conductingBody: 'Sri Lanka Medical Council (SLMC)',
 };
 
 export default exam;

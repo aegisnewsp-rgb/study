@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://icmai.in/ClntStudents/Overview',
+  conductingBody: 'Institute of Cost Accountants of India (ICAI)',
 };
 
 export default exam;

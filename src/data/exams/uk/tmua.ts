@@ -71,6 +71,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-09',
   officialSource: 'https://esat-tmua.ac.uk/about-the-tests/tmua-test/',
+  conductingBody: 'University Admissions Tests UK (UAT-UK)',
 };
 
 export default exam;

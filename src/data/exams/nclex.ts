@@ -125,5 +125,6 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-17',
   officialSource: 'https://www.ncsbn.org/',
+  conductingBody: 'National Council of State Boards of Nursing (NCSBN)',
 };
 export default exam;

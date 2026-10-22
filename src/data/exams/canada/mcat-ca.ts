@@ -78,6 +78,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://students-residents.aamc.org/whats-mcat-exam/publication-chapters/whats-mcat-exam',
+  conductingBody: 'Association of American Medical Colleges (AAMC)',
 };
 
 export default exam;

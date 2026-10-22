@@ -67,5 +67,6 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://ielts.org/',
+  conductingBody: 'British Council and IDP',
 };
 export default exam;

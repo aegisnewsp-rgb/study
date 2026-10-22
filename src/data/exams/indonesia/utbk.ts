@@ -64,6 +64,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://portal.snpmb.id',
+  conductingBody: 'SNPMB',
 };
 
 export default exam;

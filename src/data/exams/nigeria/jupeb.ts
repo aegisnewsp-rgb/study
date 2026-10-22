@@ -57,6 +57,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://jupeb.edu.ng',
+  conductingBody: 'Consortium of Nigerian universities',
 };
 
 export default exam;

@@ -195,6 +195,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.pmdc.pk',
+  conductingBody: 'Provincial admitting universities (under PM&DC)',
   historicalCutoffs: [
     { year: 2024, categoryOrStream: 'MBBS Statutory Qualifying Benchmark', scoreOrRank: '55% (110 / 200 Marks)', remarks: 'PMDC official passing cutoff' },
     { year: 2024, categoryOrStream: 'BDS Statutory Qualifying Benchmark', scoreOrRank: '50% (100 / 200 Marks)', remarks: 'PMDC official passing cutoff' },

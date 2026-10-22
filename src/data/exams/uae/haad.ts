@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.doh.gov.ae',
+  conductingBody: 'Department of Health Abu Dhabi (DoH)',
 };
 
 export default exam;

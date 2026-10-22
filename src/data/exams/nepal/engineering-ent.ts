@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ioe.edu.np',
+  conductingBody: 'Tribhuvan University Institute of Engineering (IOE)',
 };
 
 export default exam;

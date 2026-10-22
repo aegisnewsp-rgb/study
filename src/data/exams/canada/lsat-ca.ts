@@ -80,6 +80,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-10-20',
   officialSource: 'https://www.lsac.org/lsat',
+  conductingBody: 'Law School Admission Council (LSAC)',
 };
 
 export default exam;

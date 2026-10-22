@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://cets.apsche.ap.gov.in/EAPCET/',
+  conductingBody: 'JNTUK (on behalf of APSCHE)',
 };
 
 export default exam;

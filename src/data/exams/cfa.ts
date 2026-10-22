@@ -204,5 +204,6 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-17',
   officialSource: 'https://www.cfainstitute.org/',
+  conductingBody: 'CFA Institute',
 };
 export default exam;

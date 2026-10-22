@@ -72,5 +72,6 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.hkeaa.edu.hk/',
+  conductingBody: 'Hong Kong Examinations and Assessment Authority (HKEAA)',
 };
 export default exam;

@@ -62,6 +62,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://undana.ac.id',
+  conductingBody: 'Universitas Nusa Cendana (Undana)',
 };
 
 export default exam;

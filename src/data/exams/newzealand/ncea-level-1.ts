@@ -57,6 +57,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://www.nzqa.govt.nz/ncea/assessment/search.do?level=01&query=mathematics',
+  conductingBody: 'New Zealand Qualifications Authority (NZQA)',
 };
 
 export default exam;

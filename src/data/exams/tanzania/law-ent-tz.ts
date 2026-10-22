@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://udsm.ac.tz',
+  conductingBody: 'Tanzania School of Law',
 };
 
 export default exam;

@@ -61,21 +61,6 @@
     ]
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xS2NkQktMci11cEVxVzBmR1EtMmVjZmQyX3dibEVOd3FqSEJmaDhvejJuQ3ZkZ256SEk5VWVzR3d3dDVsNTBZdnZvTDZkRkwzT0JVQlVSVzlJU3MxczVEbFBBbTdTNFpkUkkxamhZWXNCTV9hRGlnSA?oc=5",
-    "title": "Proposed 2027 exam timetable, result dates: JAMB, WAEC, NECO, NABTEB & NBAIS - MySchoolGist",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5xS2NkQktMci11cEVxVzBmR1EtMmVjZmQyX3dibEVOd3FqSEJmaDhvejJuQ3ZkZ256SEk5VWVzR3d3dDVsNTBZdnZvTDZkRkwzT0JVQlVSVzlJU3MxczVEbFBBbTdTNFpkUkkxamhZWXNCTV9hRGlnSA?oc=5",
-    "source": "MySchoolGist",
-    "published": "2026-10-15T15:28:51+00:00",
-    "description": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE5xS2NkQktMci11cEVxVzBmR1EtMmVjZmQyX3dibEVOd3FqSEJmaDhvejJuQ3ZkZ256SEk5VWVzR3d3dDVsNTBZdnZvTDZkRkwzT0JVQlVSVzlJU3MxczVEbFBBbTdTNFpkUkkxamhZWXNCTV9hRGlnSA?oc=5\" target=\"_blank\">Proposed 2027 exam timetable, result dates: JAMB, WAEC, NECO, NABTEB & NBAIS</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MySchoolGist</font>",
-    "country": "nigeria",
-    "tags": [
-      "jamb",
-      "nabteb",
-      "neco",
-      "waec"
-    ]
-  },
-  {
     "id": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUG9hWkhyT09wTGwwaW1sNjBUR2VOMXFESGJFLUtOUTZRaG5lQndGVFdXbW1BcDE5WnJTOXF4bUJKSzJ3Z2RKSmxTQ2V3RE9ZRWJPcFk0TXdPRkwydUU2X1BONVQ5em1sNVhoSy16X1ZfaHo1eEI2cTFSOFpXSzUwY1ZoZ1RBbDNsMllrTGRtQkQ3dERrdXAzU1FqY05DU3BkeGhWcFVLa0t0dUF2Wi1HVjZENEdvWHNhaS1N?oc=5",
     "title": "Saba Capital Management sells $334k of BlackRock ECAT stock By Investing.com - Investing.com Canada",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUG9hWkhyT09wTGwwaW1sNjBUR2VOMXFESGJFLUtOUTZRaG5lQndGVFdXbW1BcDE5WnJTOXF4bUJKSzJ3Z2RKSmxTQ2V3RE9ZRWJPcFk0TXdPRkwydUU2X1BONVQ5em1sNVhoSy16X1ZfaHo1eEI2cTFSOFpXSzUwY1ZoZ1RBbDNsMllrTGRtQkQ3dERrdXAzU1FqY05DU3BkeGhWcFVLa0t0dUF2Wi1HVjZENEdvWHNhaS1N?oc=5",
@@ -97,6 +82,18 @@
     "country": "nigeria",
     "tags": [
       "waec"
+    ]
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95SHpacVhhLWRqT09FTk14UEEycGxFZUl2ek9PaG81R2N2cDF1ZW5rWDU2bmpIbG5KVTV0WmlaMkxaV29sRXFXbUxjUDJRZlhYclQ1dEZ4aTQydUJEbWhmS1RTeER4TVhI?oc=5",
+    "title": "JAMB Canada: Inside the Plan to Host the UTME in Ottawa - TechCabal",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95SHpacVhhLWRqT09FTk14UEEycGxFZUl2ek9PaG81R2N2cDF1ZW5rWDU2bmpIbG5KVTV0WmlaMkxaV29sRXFXbUxjUDJRZlhYclQ1dEZ4aTQydUJEbWhmS1RTeER4TVhI?oc=5",
+    "source": "TechCabal",
+    "published": "2026-10-17T12:00:23+00:00",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE95SHpacVhhLWRqT09FTk14UEEycGxFZUl2ek9PaG81R2N2cDF1ZW5rWDU2bmpIbG5KVTV0WmlaMkxaV29sRXFXbUxjUDJRZlhYclQ1dEZ4aTQydUJEbWhmS1RTeER4TVhI?oc=5\" target=\"_blank\">JAMB Canada: Inside the Plan to Host the UTME in Ottawa</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">TechCabal</font>",
+    "country": "nigeria",
+    "tags": [
+      "jamb"
     ]
   }
 ]

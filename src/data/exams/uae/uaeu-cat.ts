@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For UAE University CAT, save the UAE University CAT syllabus PDF from https://www.uaeu.ac.ae and ignore unofficial UAE University CAT must-do lists that omit that file.',
+    'The English section carries writing as well as reading and vocabulary, so a revision plan built only from reading passages leaves part of that section untouched. Set your writing practice inside a timed block and treat the writing task as part of the English score rather than as an extra.',
   commonMistakes: [
     'Taking the CAT in a language your programme does not use. The paper is set in Arabic and English, and which of the two your programme uses is decided by admissions rather than by you, so revising the other version is time you will not get back. Ask admissions which language your programme expects before you split your revision time. Details on https://www.uaeu.ac.ae.',
     'Untimed UAE University CAT practice hides whether you can finish the published paper.',

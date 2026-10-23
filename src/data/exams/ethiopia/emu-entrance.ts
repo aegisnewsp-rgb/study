@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For EMU Entrance (Ethiopia), save the EMU Entrance (Ethiopia) syllabus PDF from https://eaes.et/ and ignore unofficial EMU Entrance (Ethiopia) must-do lists that omit that file.',
+    'The topic lists on this page are uneven: Chemistry carries the longest one and Physics the shortest, so a plan that splits revision time evenly across the three subjects leaves the longest list short. Weight the hours by the list lengths rather than by the number of subjects.',
   commonMistakes: [
     'The subjects behind this revision order are mathematics, physics and chemistry, while the entrance itself pairs an aptitude test with a subject-specific paper, so a candidate who revises only these three topics has not yet covered the aptitude part of the entrance. Check the syllabus PDF on https://eaes.et/ before you split your revision time between the two parts.',
     'A EMU Entrance (Ethiopia) mock with a different number of items trains the wrong stamina.',

@@ -48,7 +48,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For Post-UTME (Nigeria), hold Post-UTME (Nigeria) ID-photo and fee rules against https://www.jamb.gov.ng in the same week as your first Post-UTME (Nigeria) mock.',
+    'The two lists on this page overlap more than the headings suggest: the subject-combination list carries Use of English for PUTME as its own entry, and the English list beside it has a chapter of its own on Use of English in Academic Contexts. Read the two of them as one English requirement written twice rather than as two separate blocks to revise.',
   commonMistakes: [
     'Applying to more than one university in the same admission year. You get one Post-UTME sitting per year, so a plan that treats several institutions as interchangeable spends the only sitting you have on the wrong paper. Fix which university you are sitting first, then work from its own subject list - Use of English is compulsory at most institutions that set a Post-UTME paper, the rest of the paper follows the course. Notices on https://www.jamb.gov.ng.',
     'Every Nigerian university writes its own Post-UTME paper, ranking combines your JAMB UTME score with the Post-UTME result, and the cut-off plus O-Level subject requirements are set per institution. What you revise still sits inside the UTME syllabus JAMB sets, narrowed to the subjects your chosen university names, so decide which university you may sit - only one per admission year - and build your order from that university\'s subject list.',

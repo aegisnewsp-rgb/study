@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For RUET Admission Test, a crash week for RUET Admission Test only works after you have the live RUET Admission Test paper map from https://ruet.ac.bd.',
+    'The three lists here are the chapter list behind the preliminary paper: Mathematics runs to vector algebra, complex numbers and three-dimensional geometry, Physics to electrostatics and current electricity, and Chemistry to equilibrium and rates. The chapter names are the syllabus on this page, and the subject labels on their own are not.',
   commonMistakes: [
     'RUET takes engineering diploma holders through a credit transfer route in some programmes, so a candidate who holds a diploma should check whether that route is open to their qualification and what it asks of them on https://ruet.ac.bd rather than assuming the standard HSC route is the only way in.',
     'The RUET preliminary is one multiple-choice paper of 100 questions worth a mark apiece - 40 in Mathematics, 30 in Physics, 20 in Chemistry, 10 in English/General Knowledge - so revising only the chapters you find comfortable leaves the rest of the syllabus untouched. RUET admission runs in two stages and the written test after the preliminary is the second, so clearing the MCQ paper is not the whole selection. Time a complete paper against the published duration from https://ruet.ac.bd before you trust a mock average.',

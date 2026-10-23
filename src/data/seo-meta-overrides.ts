@@ -645,7 +645,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   },
 
   '/exams/nda/syllabus/': {
-    title: 'NDA Syllabus Weightage: Maths, GAT, History & Polity',
+    title: 'NDA Syllabus Weightage: Maths & GAT Topic Breakdown',
     description:
       'NDA syllabus weightage for the Mathematics and GAT papers: 1-5 weightage cues by topic, so you know which questions you should prepare for first.',
     query: 'history weightage in nda (8.7%), polity weightage in nda (7.9%)',

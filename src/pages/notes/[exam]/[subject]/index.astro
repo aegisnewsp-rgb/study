@@ -40,6 +40,43 @@ const weightTable = subjectNotes
   .sort((a, b) => b.weight - a.weight);
 const totalWeight = weightTable.reduce((s, r) => s + (r.weight || 0), 0);
 
+// Past-question coverage, DERIVED from the bodies of the notes this hub already
+// lists (subjectNotes, already filtered by isGoodNote). A topic is listed only
+// when its OWN body carries a section that names past questions or previous-year
+// material: a heading or bold label containing the phrase, or the
+// "previous year questions from ... have asked" paragraph. A passing mention
+// ("solve past papers", "a past paper is free of charge") is NOT enough. A
+// whole-body match on "past question|past paper" over-claimed on 40 of the
+// 61 hubs it touched and missed 32 hubs whose real sections are titled
+// "Previous Year ..." (31 of those 32 carry such a title; both measured
+// 2026-10-23 on 3520 notes / 386 hubs). With this detector 53 hubs render the
+// block and 333 render nothing; waec/chemistry is 7 of 18.
+//
+// The block sits directly under the page title, ABOVE the "About" prose: the
+// page is ranked for "<subject> past questions", so the answer has to be in
+// the first screen. Measured 2026-10-23 on the built dist/ at 390x844,
+// 768x1024 and 1440x900: here the block heading is inside the viewport on
+// every measured hub; placed lower (just above "How to use these notes") it
+// fell below the fold on mobile and desktop.
+const _PAST_Q_WORD = /past question|previous[- ]year|past paper/i;
+const _PAST_Q_HEADING =
+  /^[ \t]*(?:#{1,6}[ \t]([^\n]{0,160})|\*\*([^\n]{0,160})\*\*|[-*][ \t]\*\*([^\n]{0,160})\*\*)/gm;
+const _PAST_Q_PROSE = /previous[- ]year questions? from [^\n]{0,80}have asked/i;
+const _hasPastQSection = (body: string): boolean => {
+  const b = body || '';
+  if (_PAST_Q_PROSE.test(b)) return true;
+  const re = new RegExp(_PAST_Q_HEADING.source, 'gm');
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(b)) !== null) {
+    const label = m[1] || m[2] || m[3] || '';
+    if (_PAST_Q_WORD.test(label)) return true;
+  }
+  return false;
+};
+const pastQuestionNotes = subjectNotes
+  .filter((n: any) => _hasPastQSection(n.body || ''))
+  .map((n: any) => ({ id: n.id.split('/')[2], name: n.data.topicName, topic: n.data.topic }));
+
 const { exam, subject } = Astro.params;
 const firstNote = allSubjectNotes[0];
 const examName = firstNote?.data.examName || exam;
@@ -187,6 +224,27 @@ const relatedExams = (EXAM_EQUIVALENTS[exam] || [])
 
     {/* About this subject — visible prose */}
     <section class="container-page py-10 max-w-3xl">
+      {pastQuestionNotes.length > 0 && (
+        <>
+          <h2>Past question practice in {subjectName}</h2>
+          <p>
+            {pastQuestionNotes.length} of the {subjectNotes.length} listed {subjectName} topics
+            carry a past-question, past-paper or previous-year section. Start with the ones below —
+            each one opens earlier-year questions or the patterns the exam repeats.
+          </p>
+          <div class="flex flex-wrap gap-3">
+            {pastQuestionNotes.map(n => (
+              <a
+                href={`/notes/${exam}/${subject}/${n.id}/`}
+                class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 text-surface-700 dark:text-surface-300 text-sm transition-all"
+              >
+                {n.name || n.topic} →
+              </a>
+            ))}
+          </div>
+        </>
+      )}
+
       <div class="prose prose-surface dark:prose-invert max-w-none">
         <h2>About {subjectName} in {examName}</h2>
         <p>

@@ -59,7 +59,7 @@ const exam: ExamTemplate = {
     'Ignoring Rajasthan-specific GS.',
     'No mains answer-writing practice.',
     'Weak prelims MCQ timing.',
-    'Outdated syllabus PDFs.',
+    'Assuming each prelim question carries one mark, when the paper carries more marks than it has questions.',
     'Unstructured current affairs.'
   ],
   lastUpdated: '2026-07-28',

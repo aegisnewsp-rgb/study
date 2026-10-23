@@ -57,7 +57,7 @@ const exam: ExamTemplate = {
     'Ignoring Karnataka-specific GS units.',
     'No mains answer-writing practice.',
     'Weak prelims MCQ timing and negative-marking strategy.',
-    'Outdated syllabus PDFs.',
+    'Skipping the Humanities questions in prelims Paper I.',
     'Application document and eligibility checklist failures.'
   ],
   lastUpdated: '2026-07-28',

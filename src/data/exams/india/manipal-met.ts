@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     'Only JEE Advanced prep without MET-speed practice.',
     'Ignoring English/aptitude components if present.',
     'No full-length mocks.',
-    'Outdated syllabus PDFs.',
+    'Assuming the B.Tech MET paper follows one marking rule throughout: 45 of its 60 items are multiple-choice and lose a mark when wrong, while the 15 numerical answers cost nothing to attempt.',
     'Application deadline misses.'
   ],
   lastUpdated: '2026-07-28',

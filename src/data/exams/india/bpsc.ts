@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Ignoring Bihar-specific GS while only reading national materials.',
     'No answer-writing practice for descriptive stages.',
-    'Outdated syllabus PDFs.',
+    'Counting the Optional subject paper toward the final merit list, when it is only a qualifying paper.',
     'Skipping current affairs notebooks.',
     'Treating prelims cut-offs as fixed guarantees.'
   ],

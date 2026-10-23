@@ -55,7 +55,7 @@ const exam: ExamTemplate = {
     'Missing the entry route you actually qualify for. There are two: the postgraduate Diploma route for candidates with an undergraduate degree in any field, and the graduate entry scheme for those with excellent UACE results, and they are not interchangeable. Confirm which route the Law Development Centre is admitting on this cycle, then read the notice on https://ldc.ac.ug for the admission window.',
     'A Uganda Law Admission mock with a different number of items trains the wrong stamina.',
     'Skimming Legal Knowledge as general knowledge. That section is set on the basic principles of law, Uganda\'s 1995 Constitution and the structure of the Ugandan legal system, so a plan built on the English Language and General Paper sections alone leaves it unprepared. Check the paper structure on https://ldc.ac.ug.',
-    'Treat \'sure selection\' Uganda Law Admission ads as marketing; the board does not endorse them.',
+    'Good character is part of the entry requirement and the academic route does not cover it: candidates must have no serious criminal record as well as the degree or UACE result and the English proficiency check, so verify that line against your own application before you submit - https://ldc.ac.ug.',
     'The Uganda Law Admission paper is normally a half-day written test at the Law Development Centre in Kampala, mixing MCQs with short answers over English Language (comprehension, grammar, essay writing), the General Paper and Legal Knowledge. Read the structure as a memory aid; https://ldc.ac.ug carries the live notice.'
   ],
   lastUpdated: '2026-07-28',

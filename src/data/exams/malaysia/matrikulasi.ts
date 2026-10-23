@@ -57,7 +57,7 @@ const exam: ExamTemplate = {
     'Waiting for an entrance paper that is not on the schedule. Matriculation has no separate entrance test - admission turns on SPM results - and what you sit afterwards is the subject list the programme runs: Biology, Chemistry, Physics, Mathematics, Accounting, Economics and Business Management. Build your year around those modules and the module-assessment schedule on https://mohe.gov.my.',
     'A Matriculation (Malaysia) mock with a different number of items trains the wrong stamina.',
     'Paying Matriculation (Malaysia) fees before re-reading eligibility on https://mohe.gov.my is a frequent waste.',
-    'Treat \'sure selection\' Matriculation (Malaysia) ads as marketing; the board does not endorse them.',
+    'Matriculation is the route for SPM students who did not reach the STPM grades for direct university entry, so a candidate who already holds those grades is looking at a programme built for a different starting point. Check your own pathway on https://mohe.gov.my before you plan the year.',
     'Leaving the module assessments until the final term. Matriculation (Malaysia) spreads its module assessments across the year and adds a final exam on top, so a study plan that opens when the final paper does has already missed the part that was assessable months earlier - lock your timetable against the module schedule on https://mohe.gov.my, not against the final exam date alone.'
   ],
   lastUpdated: '2026-07-28',

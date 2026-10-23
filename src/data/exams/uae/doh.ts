@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind DOH (UAE) this year — https://www.doh.gov.ae does.',
     'A DOH (UAE) mock with a different number of items trains the wrong stamina.',
-    'Do not assume DOH (UAE) is open to every degree title until https://www.doh.gov.ae says so.',
+    'Assuming a Department of Health licence covers Dubai conflates two separate regulators, so use the Dubai Health Authority there and review the DoH PQR for Abu Dhabi at https://www.doh.gov.ae.',
     'Treat \'sure selection\' DOH (UAE) ads as marketing; the board does not endorse them.',
     'Eligibility snippet we store for DOH (UAE): Recognised primary medical qualification. Post-graduate experience may be required for specialists. Boards edit this; https://www.doh.gov.ae wins.'
   ],

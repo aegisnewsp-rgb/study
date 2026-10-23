@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For SLMC Medical (Sri Lanka), use this SLMC Medical (Sri Lanka) hub to see what SLMC Medical (Sri Lanka) topics to study; use https://slmc.gov.lk/ to see when you may register.',
   commonMistakes: [
-    'An outdated SLMC Medical (Sri Lanka) PDF is not a substitute for the current notice at https://slmc.gov.lk/.',
+    'Revising clinical medicine but skipping basic medical sciences leaves part of the SLMC computer-based MCQ paper uncovered, since Part I covers both, so balance your preparation and check the current Part I structure at https://slmc.gov.lk/.',
     'Untimed SLMC Medical (Sri Lanka) practice hides whether you can finish the published paper.',
     'SLMC registration for foreign medical graduates turns on documents rather than recollection: a recognised degree, a finished internship, written standing from your own country\'s medical regulator, and proof of English or Sinhala/Tamil proficiency. The council sets what it accepts on https://slmc.gov.lk/ and the examination runs in English - check your own paperwork against that list rather than against someone who registered under the previous rules.',
     'Cut-off rumours are not SLMC Medical (Sri Lanka) offers of admission.',

@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Screenshot cut-offs from last cycle do not bind UPPM/UNIMAP Admission (Malaysia) this year — https://admission.unimap.edu.my/ does.',
     'UPPM/UNIMAP selection reads your STPM or Matriculation record, including the subject prerequisites attached to the programme you pick, so favourite-subject-only revision leaves the prerequisite papers unstudied. Map each target programme to its prerequisite subjects before you fix a timetable - https://admission.unimap.edu.my/ lists them.',
-    'Do not assume UPPM/UNIMAP Admission (Malaysia) is open to every degree title until https://admission.unimap.edu.my/ says so.',
+    'Planning only for STPM or Matriculation overlooks other UPPM/UNIMAP assessment routes, because direct assessment is listed and a university-specific test may be required, so confirm the route for your application at https://admission.unimap.edu.my/.',
     'Cut-off rumours are not UPPM/UNIMAP Admission (Malaysia) offers of admission.',
     'The eligibility bar is two-part and both parts are checked separately: the minimum CGPA on your STPM or Matriculation record, and the subject requirements that come with the programme you pick. Meeting only one leaves you short - https://admission.unimap.edu.my/ states the current figures for each.'
   ],

@@ -61,7 +61,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'If your CMAT Nepal (MBA Entrance) brochure has no date, throw it out and open https://www.tudoms.org/.',
     'CMAT Nepal is 100 questions in 90 minutes, so it leaves under a minute per question. Run full papers against that 90-minute limit rather than an untimed question bank, and confirm the current wording on https://www.tudoms.org/ before locking a timetable.',
-    'Some CMAT Nepal (MBA Entrance) programmes add extra subject prerequisites after you pay — check https://www.tudoms.org/.',
+    'Treating CMAT Nepal as one aptitude paper. Its 100 questions are five sections of 20, and two of them cover general awareness and business and economics rather than verbal, quantitative or logical reasoning, so a plan weighted to aptitude practice leaves two whole sections unprepared. Check the current paper structure on https://www.tudoms.org/.',
     'Nobody on this site can guarantee a CMAT Nepal (MBA Entrance) rank, percentile, or admission.',
     'Pattern note for CMAT Nepal (MBA Entrance): 100 questions across five sections of 20 - Verbal Ability, Quantitative Ability, Logical Reasoning, General Awareness and Business and Economics - to be answered in 90 minutes for 100 marks. Confirm the current wording on https://www.tudoms.org/ before you lock a timetable.'
   ],

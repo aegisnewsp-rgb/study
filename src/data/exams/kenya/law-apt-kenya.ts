@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'The Kenya Law Aptitude is not a test you can sit whenever you are ready. The Kenya School of Law takes the applications, and the paper typically has two parts - Paper 1 English and General Knowledge, Paper 2 Logical Reasoning and Legal Awareness - for approximately 2-3 hours. Read the current notice on https://ksl.ac.ke before you build a year around a date nobody has confirmed.',
     'Skipping full Kenya Law Aptitude papers until the final weekend is how scores stall.',
-    'Some Kenya Law Aptitude programmes add extra subject prerequisites after you pay — check https://ksl.ac.ke.',
+    'Reading your KCSE grade as a single number. The entry requirement is C+ overall and C+ in English, so a C+ aggregate with a weaker English mark does not clear it - the English grade has to reach C+ too. Check the current entry rules on https://ksl.ac.ke.',
     'Cut-off rumours are not Kenya Law Aptitude offers of admission.',
     'Assuming Paper 2 mirrors Paper 1. Kenya Law Aptitude typically runs two papers, and the pattern recorded for this exam describes Paper 1 and its English component only - so a syllabus built from that one line leaves the second paper unprepared. Read the full paper structure on https://ksl.ac.ke before you split your revision.'
   ],

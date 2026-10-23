@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Assuming a foreign degree is accepted as it stands. SAPC assesses the qualification first - it must be found substantially equivalent to the South African one - and may require supervised practice in South Africa before you can sit the licensing exam at all, so the paper date is not the first thing to fix. Start the equivalence assessment on https://www.sapc.za.org.',
     'Skipping full SAPC (South Africa) papers until the final weekend is how scores stall.',
-    'Some SAPC (South Africa) programmes add extra subject prerequisites after you pay — check https://www.sapc.za.org.',
+    'Treating the licensing exam as a single sitting that one plan can cover. The examination is typically held over 2 days, and for those seeking specialisation additional board examinations may be required, so a revision plan that assumes one paper leaves the second day - and any board exam - untouched. Check the SAPC\'s own guidance on https://www.sapc.za.org.',
     'If a page promises you will \'crack SAPC (South Africa)\' with this plan, it is not this site.',
     'Revising only the four papers everyone names. The SAPC examination covers Pharmaceutical Chemistry, Pharmacology, Pharmaceutics and Clinical Pharmacy plus Pharmacy Practice/Law - and it is not MCQs alone: short-answer questions and case-based scenarios sit alongside them, with a possible practical component on dispensing skills and pharmaceutical calculations. A plan built from the four subjects alone leaves both the law component and the written formats unstudied. Confirm the current structure on https://www.sapc.za.org.'
   ],

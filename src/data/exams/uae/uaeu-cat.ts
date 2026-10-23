@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Taking the CAT in a language your programme does not use. The paper is set in Arabic and English, and which of the two your programme uses is decided by admissions rather than by you, so revising the other version is time you will not get back. Ask admissions which language your programme expects before you split your revision time. Details on https://www.uaeu.ac.ae.',
     'Untimed UAE University CAT practice hides whether you can finish the published paper.',
-    'Some UAE University CAT programmes add extra subject prerequisites after you pay — check https://www.uaeu.ac.ae.',
+    'Treating the CAT as the only thing that decides your place. Admission also turns on the minimum GPA your programme asks for - which for UAE nationals is typically lower - and on programme-level subject requirements, with Engineering, for example, requiring high school Mathematics. A plan that stops at CAT practice leaves both out of reach. Check your programme\'s entry rules on https://www.uaeu.ac.ae.',
     'Cut-off rumours are not UAE University CAT offers of admission.',
     'Practising UAE University CAT at one fixed difficulty. The paper adapts as you answer - a correct answer routes you to a harder item, a wrong one to an easier one - so how far you get on a fixed-level mock is not how far you will get in the hall, and each section is timed separately, which a single blended practice timer does not test. Re-check the current format on https://www.uaeu.ac.ae.'
   ],

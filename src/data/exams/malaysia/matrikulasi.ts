@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For Matriculation (Malaysia), a crash week for Matriculation (Malaysia) only works after you have the live Matriculation (Malaysia) paper map from https://mohe.gov.my.',
+    'The four lists here - Mathematics, Physics, Chemistry and Biology - carry an equal number of topics each, so there is no list to start with and none to leave for last: an even split across the four is the shape that fits, and finishing each one once beats going round the same chapters twice.',
   commonMistakes: [
     'Waiting for an entrance paper that is not on the schedule. Matriculation has no separate entrance test - admission turns on SPM results - and what you sit afterwards is the subject list the programme runs: Biology, Chemistry, Physics, Mathematics, Accounting, Economics and Business Management. Build your year around those modules and the module-assessment schedule on https://mohe.gov.my.',
     'A Matriculation (Malaysia) mock with a different number of items trains the wrong stamina.',

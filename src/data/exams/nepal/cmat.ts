@@ -57,7 +57,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For CMAT Nepal (MBA Entrance), save the CMAT Nepal (MBA Entrance) syllabus PDF from https://www.tudoms.org/ and ignore unofficial CMAT Nepal (MBA Entrance) must-do lists that omit that file.',
+    'The five lists here are not the same size: three of them match each other, one is longer and one is shorter, so an equal share of hours across the five does not match the work each one carries. Give the longer one the first block of your plan and the shorter one the last.',
   commonMistakes: [
     'If your CMAT Nepal (MBA Entrance) brochure has no date, throw it out and open https://www.tudoms.org/.',
     'CMAT Nepal is 100 questions in 90 minutes, so it leaves under a minute per question. Run full papers against that 90-minute limit rather than an untimed question bank, and confirm the current wording on https://www.tudoms.org/ before locking a timetable.',

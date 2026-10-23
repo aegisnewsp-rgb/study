@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For KUET Admission Test, hold KUET Admission Test ID-photo and fee rules against https://kuet.ac.bd in the same week as your first KUET Admission Test mock.',
+    'The three lists on this page carry the same number of topics each, so there is no longest one to start with and no shortest one to save for last. An even spread across Mathematics, Physics and Chemistry is the shape that fits here, and finishing every list once matters more than going round the same chapters twice.',
   commonMistakes: [
     'Revising from a seat-mate\'s plan because you both sit an engineering entrance test. KUET is one of nine public engineering universities in Bangladesh, and the test in front of you selects only its own candidates, so a peer sitting another university\'s paper is revising a different paper — confirm the structure and fee notice for your own test on https://kuet.ac.bd.',
     'A KUET Admission Test mock with a different number of items trains the wrong stamina.',

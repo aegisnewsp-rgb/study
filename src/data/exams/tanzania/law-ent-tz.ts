@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For Tanzania Law School, hold Tanzania Law School ID-photo and fee rules against https://udsm.ac.tz in the same week as your first Tanzania Law School mock.',
+    'General Knowledge is the shortest of the three lists here, while English and Legal Reasoning match each other, so the hours you give the short one decide how much of it survives the revision. Give it a slot rather than folding it into the rest.',
   commonMistakes: [
     'Clearing the English-proficiency requirement and assuming English is then finished. The entrance also sets a paper of its own on English reading and legal writing, so the language you proved at entry is not the writing you are marked on — check the current paper list on https://udsm.ac.tz.',
     'Skipping full Tanzania Law School papers until the final weekend is how scores stall.',

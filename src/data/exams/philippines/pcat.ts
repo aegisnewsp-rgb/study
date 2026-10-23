@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For PCAT (Philippines), a crash week for PCAT (Philippines) only works after you have the live PCAT (Philippines) paper map from https://www.cem-inc.org.ph.',
+    'Pharmacy carries the longest list on this page and Chemistry and Biology carry equal shorter ones, so the hours should not be split evenly across the three - the long one is where the extra block belongs.',
   commonMistakes: [
     'Assuming you can sit the PCAT whenever you are ready. The test typically runs in the February-to-May application season rather than on demand, so a revision plan built around a sitting outside that window may be aimed at a date that does not exist — check the available sittings on https://www.cem-inc.org.ph.',
     'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',

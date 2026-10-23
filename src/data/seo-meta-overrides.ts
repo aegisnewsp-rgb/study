@@ -522,10 +522,23 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
     gscImpressions: 527,
   },
 
+  // ── /exams/cs-exec/syllabus/ ─ 461 imp, 68% of it from "cs executive syllabus"
+  // and "cs executive syllabus 2026". 2026-10-23 vqzo 0505Z: the old
+  // description ended "and the questions each paper has actually set". The page
+  // carries NO question data — it renders the 7 papers as subject cards with
+  // topic names and a 1-5 weight cue, and its own body says those cues are
+  // "not a guarantee of question counts in any single paper". The promise was
+  // false (the legon-adm defect class, landed 2026-10-23 a9eba7f4). It was also
+  // printed on the page itself: the spoke hero renders this same description.
+  // Measured over the 52 shipping measured overrides / 61,878 impressions, this
+  // was the only live instance of the class; the identical clause on
+  // /exams/tnpsc/syllabus/ is inert because that override ships: false.
+  // Measured tokens kept: "cs executive syllabus", "cs executive syllabus 2026",
+  // "paper by paper", "7 papers", "weightage". 144 chars.
   '/exams/cs-exec/syllabus/': {
     title: 'CS Executive Syllabus 2026: Paper-Wise Topics',
     description:
-      'CS Executive syllabus 2026 paper by paper: which module topics sit in each of the 7 papers, their weightage, and the questions each paper has actually set.',
+      'CS Executive syllabus 2026 paper by paper: which module topics sit in each of the 7 papers, their 1-5 weightage cue, and a weekly revision plan.',
     query: 'cs executive syllabus (41.4%), cs executive syllabus 2026 (26.6%)',
     gscImpressions: 461,
   },

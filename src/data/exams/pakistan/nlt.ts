@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'NLT Pakistan preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://nts.org.pk for the current cycle — rules change by year and country (pakistan).',
+    'The NLT is a pencil-and-paper multiple-choice test that NTS runs at centres across Pakistan, and every correct answer carries the same mark with no negative marking, so a guess costs nothing but also gains nothing you could not defend. The structure follows the postgraduate programme you are targeting rather than one fixed paper, with English, general knowledge and current affairs as the recurring sections. A bachelor degree of 16 years from an HEC-recognised university is the usual entry condition, final-year students can apply provisionally, and the score counts only at the participating universities. Check the test date and the section structure for your programme on https://nts.org.pk. The roadmaps and topic notes here split those sections into revision days.',
   commonMistakes: [
     'Assuming wrong answers cost you marks — each correct answer carries equal marks and negative marking is not typically applied.',
     'Preparing only the three sections the test typically covers, when the structure actually varies with the postgraduate programme.',

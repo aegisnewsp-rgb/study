@@ -115,7 +115,7 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   prepOverview:
-    'NCLEX preparation works best in three phases: (1) map the four client-needs categories from the NCSBN test plan and identify the heaviest-weighted topics in each, (2) finish high-weight topics with NGN-format practice sets and an error log, (3) sit full-length computer-adaptive mocks matching the official seat-time. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ncsbn.org/ for the current cycle — rules change by year and by state board of nursing.',
+    'NCLEX is computer-adaptive and scored pass/fail, so the item count is the result: RN candidates face 75-145 items within up to five hours and PN candidates 85-205, and the exam stops once the algorithm judges you competent with 95% confidence. Practise the Next Generation item types, including select-all-that-apply, ordered response, hot-spot and case studies, instead of single-answer multiple choice only. Management of Care, Safety and Infection Control, Pharmacological Therapies and Physiological Adaptation carry the heaviest weight. International nurses need a CGFNS VisaScreen certificate before a state board issues the Authorisation to Test. Confirm the live test plan on https://www.ncsbn.org/. The roadmaps and topic notes here break the client-needs categories into study blocks.',
   commonMistakes: [
     'Using outdated NCLEX-RN pattern PDFs instead of the live NCSBN test plan and Next Generation NCLEX (NGN) item types.',
     'Practising only single-answer MCQs and ignoring NGN item types (SATA, ordered response, case study, matrix/grid).',

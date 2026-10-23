@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Medical Admission Test (Bangladesh) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://dghs.gov.bd for the current cycle — rules change by year and country (bangladesh).',
+    'The Bangladesh medical admission test is 100 questions in one hour, and Biology takes 30 of them with Chemistry on 25, so those two sections are more than half the paper before the rest is counted. English and general knowledge carry 10 each, Physics 25, every question carries a single mark, and the sitting is computer-based; the designated centres are in Dhaka and the divisional cities. Roughly 4,000 government seats compete with more than 100,000 applicants, private-college seats sit beyond that, and the final selection folds your HSC grades in with the test score. Check the current notice, centre list and application dates on https://dghs.gov.bd. The roadmaps and topic notes here split the syllabus into revision days.',
   commonMistakes: [
     'Spreading the single hour evenly across sections, when Biology carries 30 questions and Chemistry 25 while English and GK carry 10 each.',
     'Missing the age cut-off: candidates must be at least 17 by December 31 of the admission year.',

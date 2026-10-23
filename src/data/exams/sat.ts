@@ -100,7 +100,7 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   prepOverview:
-    'SAT preparation works best in three phases: (1) map the Reading and Writing topics and the four Math domains from the official College Board test specifications, (2) finish high-weight topics with official Khan Academy and College Board practice sets and an error log, (3) sit full-length adaptive practice tests matching the official digital format and timing. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://satsuite.collegeboard.org/ for the current cycle — the paper SAT was retired and the format is now digital and adaptive.',
+    'The digital SAT is 134 minutes of test time and it is adaptive in two separate places: the 54-question Reading and Writing section runs across two 27-question modules of 32 minutes each, and the 44-question Math section across two 22-question modules of 35 minutes each. Module 2 difficulty follows what you did in Module 1, so a shaky first module costs you the easier second one. Reading and Writing and Math are each scored 200-800 and the two together make the 400-1600 composite, a single grid-in response sits in Math while Reading and Writing has none, and the paper SAT has been retired. Scheduled breaks sit outside the 134 minutes. Confirm the live specifications on https://satsuite.collegeboard.org/ before you fix a timetable. The roadmaps and topic notes here keep Reading and Writing and Math in separate blocks.',
   commonMistakes: [
     'Practising on outdated paper-SAT PDFs instead of the current digital, adaptive format.',
     'Ignoring the section-adaptive structure — Module 2 difficulty depends on Module 1 performance.',

@@ -194,7 +194,7 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   prepOverview:
-    'CFA Program preparation works best in three phases: (1) map the 10 topic areas from the current CFA Institute curriculum and identify the heaviest-weighted topics in each, (2) finish high-weight topics with end-of-chapter questions, CFA Institute mock exams, and an error log, (3) sit full-length mock exams matching the official seat-time and item format. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check exam windows, fees, eligibility and curriculum on https://www.cfainstitute.org/ for the current cycle — the curriculum is revised annually and exam windows shift by region.',
+    'Each CFA level is a different exam rather than a harder version of the last one. Level I is 180 multiple-choice questions across two 2-hour-15-minute sessions at Prometric centres, Level II is 88 vignette-based items in 22 item sets, and Level III is constructed response plus item-set multiple choice, so a plan built on drilling MCQs runs out of road at Level II. Ethics is examinable at every level and carries weight across all three, and the historical pass rates of 35-45% at Levels I and II and 50-60% at Level III are the honest frame for a first attempt. Read the current Learning Outcome Statements and exam windows on https://www.cfainstitute.org/. The roadmaps and topic notes here sort the ten topic areas into a study order.',
   commonMistakes: [
     'Using outdated CFA curriculum PDFs instead of the current year\'s Learning Outcome Statements (LOS) from CFA Institute.',
     'Skipping Ethics — it is tested on every CFA exam and weighted heavily across all three levels.',

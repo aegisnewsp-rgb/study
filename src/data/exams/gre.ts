@@ -91,7 +91,7 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   prepOverview:
-    'GRE preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ets.org/gre for the current cycle — rules change by year and country (exams).',
+    'Since the September 2023 shortening the GRE is just under two hours, and it is split into four separately timed blocks instead of a single long paper: a pair of Verbal sessions carrying 12 and then 15 questions under 18 and 23 minute clocks, a matching pair of Quant sessions with 12 and then 15 questions under 21 and 26 minutes, and a written task that lasts 30 minutes on its own. Nothing on the paper is unscored and there is no scheduled break, so rehearse the short verbal and quant blocks on their own instead of as one sitting. ETS reports Verbal and Quant separately on a 130-170 scale, which means a strong Quant score cannot carry a weak Verbal one. Check the live test dates and seat information on https://www.ets.org/gre. The roadmaps and topic notes here time each section separately.',
   commonMistakes: [
     'Working from a pre-2023 practice set — the section lengths and the writing task changed with the shortening.',
     'Practising the written task wrongly — since the September 2023 shortening the paper has a single 30-minute "Analyze an Issue" task and nothing else in writing.',

@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'DU Unit B Admission (Science) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://du.ac.bd for the current cycle — rules change by year and country (bangladesh).',
+    'The DU Unit B Science paper is 100 marks in a single hour, and the split decides how you budget that hour: Physics 30, Chemistry 25, Biology or Mathematics 25, English 20. For Engineering and Technology the 25-mark slot is Mathematics rather than Biology, so pick the paper that matches the faculty you are applying to and revise to that one. Physics and Chemistry together carry 55 of the 100 marks, which is where the time belongs. Shortlisted Engineering and Technology candidates also face a viva voce, and the unit combines the test score with HSC performance rather than ranking on the test alone. Check the current notice and application window on https://du.ac.bd. The roadmaps and topic notes here sequence the syllabus into study days.',
   commonMistakes: [
     'Revising Biology for an Engineering and Technology application, where the paper pattern asks for Mathematics in that slot.',
     'Leaving the viva to chance — Dhaka University holds it for shortlisted Engineering and Technology candidates.',

@@ -692,7 +692,7 @@ export const SEO_META_OVERRIDES: Record<string, SeoMetaOverride> = {
   '/exams/legon-adm/': {
     title: 'Legon Admissions 2026: Requirements & Entry Aggregate',
     description:
-      'Legon admissions 2026 at the University of Ghana: required subjects per programme, how the entry aggregate is computed, WASSCE grades.',
+      'Legon admissions 2026 at the University of Ghana: the admission test syllabus, subjects per programme, MCQ and short-answer papers, WASSCE grades.',
     query: 'legon-adm 2026 syllabus legon-adm.gov.in (57.1% @ 0.00% CTR)',
     gscImpressions: 349,
   },

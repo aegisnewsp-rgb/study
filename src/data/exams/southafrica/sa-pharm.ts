@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'SAPC registration exams are governed at https://www.sapc.za.org; use these notes for foreign-graduate pharmacy revision, not as a licence.',
   commonMistakes: [
-    'If your SAPC (South Africa) brochure has no date, throw it out and open https://www.sapc.za.org.',
+    'Assuming a foreign degree is accepted as it stands. SAPC assesses the qualification first - it must be found substantially equivalent to the South African one - and may require supervised practice in South Africa before you can sit the licensing exam at all, so the paper date is not the first thing to fix. Start the equivalence assessment on https://www.sapc.za.org.',
     'Skipping full SAPC (South Africa) papers until the final weekend is how scores stall.',
     'Some SAPC (South Africa) programmes add extra subject prerequisites after you pay — check https://www.sapc.za.org.',
     'If a page promises you will \'crack SAPC (South Africa)\' with this plan, it is not this site.',

@@ -52,11 +52,11 @@ const exam: ExamTemplate = {
   prepOverview:
     'GMAC sets GMAT appointments and the 16-day retake gap at https://www.gmac.com; this Ghana-facing hub only orders Quant/Verbal/IR practice.',
   commonMistakes: [
-    'Mirrors of GMAT \'syllabus 2019\' are a common trap; start from https://www.gmac.com.',
-    'In the GMAT Focus format held in our files, every section runs on its own 45-minute clock - Quantitative 21 questions, Verbal 23, Data Insights 20 - so a favourite-chapter-only plan is really a pacing plan that ignores three independent timers. Drill each section to its own 45 minutes instead of timing one long sitting.',
+    'A GMAT score is not a pass mark. There is no minimum score to clear, and each programme sets its own score - top programmes typically ask for 600+ - while the score stays valid for 5 years. Book the test against the score the school wants, not against a pass line that does not exist. Details on https://www.gmac.com.',
+    'In the GMAT Focus format, every section runs on its own 45-minute clock - Quantitative 21 questions, Verbal 23, Data Insights 20 - so a favourite-chapter-only plan is really a pacing plan that ignores three independent timers. Drill each section to its own 45 minutes instead of timing one long sitting.',
     'Some GMAT programmes add extra subject prerequisites after you pay — check https://www.gmac.com.',
     'Nobody on this site can guarantee a GMAT rank, percentile, or admission.',
-    'The published GMAT shape in our files is: GMAT Focus — Quantitative 21 questions / 45 min, Verbal 23 questions / 45 min, Data Insights 20 questions / 45 min, 64 questions in 2h15m, no separate writing task, scored 205-805. If https://www.gmac.com differs, follow https://www.gmac.com.'
+    'The published GMAT shape is: GMAT Focus — Quantitative 21 questions / 45 min, Verbal 23 questions / 45 min, Data Insights 20 questions / 45 min, 64 questions in 2h15m, no separate writing task, scored 205-805. If https://www.gmac.com differs, follow https://www.gmac.com.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.gmac.com',

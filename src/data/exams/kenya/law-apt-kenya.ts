@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For Kenya Law Aptitude, hold Kenya Law Aptitude ID-photo and fee rules against https://ksl.ac.ke in the same week as your first Kenya Law Aptitude mock.',
   commonMistakes: [
-    'Mirrors of Kenya Law Aptitude \'syllabus 2019\' are a common trap; start from https://ksl.ac.ke.',
+    'The Kenya Law Aptitude is not a test you can sit whenever you are ready. The Kenya School of Law takes the applications, and the paper typically has two parts - Paper 1 English and General Knowledge, Paper 2 Logical Reasoning and Legal Awareness - for approximately 2-3 hours. Read the current notice on https://ksl.ac.ke before you build a year around a date nobody has confirmed.',
     'Skipping full Kenya Law Aptitude papers until the final weekend is how scores stall.',
     'Some Kenya Law Aptitude programmes add extra subject prerequisites after you pay — check https://ksl.ac.ke.',
     'Cut-off rumours are not Kenya Law Aptitude offers of admission.',

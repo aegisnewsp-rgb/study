@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For UII Entrance (Indonesia), keep UII Entrance (Indonesia) application admin (photo specs, IDs) off your UII Entrance (Indonesia) study clock by checking https://uii.ac.id early.',
   commonMistakes: [
-    'If your UII Entrance (Indonesia) brochure has no date, throw it out and open https://uii.ac.id.',
+    'Assuming the paper is in English. The UTBK score UII admits on carries Literasi Bahasa Indonesia, Literasi Bahasa Inggris, the TPA reasoning blocks and Pengetahuan Kuantitatif - so an English-only revision plan leaves the Indonesian literacy component untouched. Start that component early rather than in the last week; it is a whole component of the paper, not a paragraph. Component list on https://uii.ac.id.',
     'Universitas Islam Indonesia admits on a valid UTBK score from LTMPT, so confirm with the university which UTBK sitting this intake will accept before you build a timetable around it. Separately, practise the entrance paper to the published duration on https://uii.ac.id - untimed practice will not show you whether you can hold that pace.',
     'Some UII Entrance (Indonesia) programmes add extra subject prerequisites after you pay — check https://uii.ac.id.',
     'Cut-off rumours are not UII Entrance (Indonesia) offers of admission.',

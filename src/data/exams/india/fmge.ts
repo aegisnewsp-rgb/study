@@ -60,12 +60,12 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'FMGE (NBEMS) is the screening test for foreign medical graduates seeking registration in India. Coverage spans the full MBBS map with high weight on Medicine, Surgery, OBG, PSM, Pathology and Pharma. Phase 1: subject-wise high-yield notes; Phase 2: large-volume MCQs with negative-marking discipline if applicable; Phase 3: full mocks. Confirm eligibility, attempts and pattern on the official NBEMS FMGE notice.',
+    'FMGE (NBEMS) is the screening test for foreign medical graduates seeking registration in India. Coverage spans the full MBBS map with high weight on Medicine, Surgery, OBG, PSM, Pathology and Pharma. Phase 1: subject-wise high-yield notes; Phase 2: large-volume MCQs; Phase 3: full mocks. Confirm eligibility, attempts and pattern on the official NBEMS FMGE notice (https://natboard.edu.in).',
   commonMistakes: [
     'Studying only pre-clinical subjects and under-preparing clinical and PSM blocks.',
     'No timed full papers before the exam window.',
     'Ignoring official eligibility and internship documentation rules.',
-    'Using outdated pattern claims from forums.',
+    'Trusting a recalled pattern over the bulletin. The screening test in the current bulletin runs 300 questions in two sessions of 150, each part 150 minutes with one mark per question and no negative marking, and that is the shape to plan against until the bulletin for your cycle says otherwise. Read the current bulletin on https://natboard.edu.in before you buy a second study plan.',
     'Skipping systematic revision of high-yield image/clinical vignette styles if present in recent papers.'
   ],
   lastUpdated: '2026-07-28',

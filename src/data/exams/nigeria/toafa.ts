@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'TOEFL (Nigeria) preparation works best in three phases: (1) map the live syllabus and paper pattern from the official notice, (2) finish high-weight topics with timed practice sets and an error log, (3) sit full-length mocks matching official duration and marking. Use StudyRoadmap free roadmaps and topic notes for day-level sequencing. Always re-check registration windows, fees, eligibility and pattern on https://www.ets.org/toefl for the current cycle — rules change by year and country (nigeria).',
+    'TOEFL (Nigeria) is four separately timed blocks rather than one long paper, and the two short ones - Speaking 4 tasks in 17 minutes, Writing 2 tasks in 50 minutes - are where a rehearsal of the clock earns the most. Drill those two on their own before you sit anything full length, and confirm the section timings, test-centre dates and fees on https://www.ets.org/toefl for your cycle. If a paper-based score is what your programme asks for, TOEFL ITP is also run in Nigeria for in-country use. Use the StudyRoadmap roadmaps and topic notes for sequencing your days on this page.',
   commonMistakes: [
     'Retaking without checking the gap — you may sit the test as many times as you like, but ETS requires at least 3 days between attempts.',
     'Expecting Speaking to be scored only by a machine — ETS uses AI scoring and human raters for Speaking and Writing.',

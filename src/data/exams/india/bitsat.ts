@@ -57,7 +57,7 @@ const exam: ExamTemplate = {
     'BITSAT is a computer-based, high-speed entrance for BITS campuses covering Physics, Chemistry, Mathematics/Biology, English and Logical Reasoning. Phase 1: NCERT-level PCM accuracy; Phase 2: speed drills + English/LR daily; Phase 3: full BITSAT-length mocks with bonus questions strategy as per the notice. Verify section composition and dates on bitsadmission.com / official BITSAT page.',
   commonMistakes: [
     'Preparing only JEE Advanced depth and never practising BITSAT-speed papers.',
-    'Ignoring English and Logical Reasoning sections.',
+    'Treating English Proficiency and Logical Reasoning as the sections to drop. In the paper that typically runs 130 questions over 3 hours, they are 30 of the questions: 10 in English Proficiency and 20 in Logical Reasoning - and because the paper awards +3 for a correct answer and deducts one for a wrong one, guessing there is not free. Keep a slot for both and check the current split in the brochure on https://www.bits-pilani.ac.in/bitsat/.',
     'No strategy for bonus questions if offered in the live pattern.',
     'Random guessing without understanding negative marking rules in the bulletin.',
     'Using outdated syllabus PDFs instead of the current BITSAT brochure.'

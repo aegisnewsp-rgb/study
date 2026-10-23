@@ -56,7 +56,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'Download the SNPMB/UTBK guide from https://portal.snpmb.id, then sequence TPA/TPS topics here rather than mixing random bank questions.',
   commonMistakes: [
-    'Mirrors of UTBK/SNPMTN (Indonesia) \'syllabus 2019\' are a common trap; start from https://portal.snpmb.id.',
+    'SNBP and SNBT are two different selections run through the same SNPMB system, and the UTBK score has to be valid for the selection you are entering - so a plan that prepares for one route and ignores the other spends the score you earn on the wrong route. Decide which selection you are targeting before you book the test, and read both routes on https://portal.snpmb.id.',
     'Skipping full UTBK/SNPMTN (Indonesia) papers until the final weekend is how scores stall.',
     'Some UTBK/SNPMTN (Indonesia) programmes add extra subject prerequisites after you pay — check https://portal.snpmb.id.',
     'No UTBK/SNPMTN outcome is promised here, and a study order cannot deliver one. The shape of the work is fixed though: the TPA reasoning components - verbal, numerical and figural - the TPS academic potential paper, and the subject tests you choose, sitting behind a valid UTBK score for SNBP or SNBT selection. Build the order from https://portal.snpmb.id.',

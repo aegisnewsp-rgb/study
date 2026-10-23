@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For Matriculation (Malaysia), a crash week for Matriculation (Malaysia) only works after you have the live Matriculation (Malaysia) paper map from https://mohe.gov.my.',
   commonMistakes: [
-    'Mirrors of Matriculation (Malaysia) \'syllabus 2019\' are a common trap; start from https://mohe.gov.my.',
+    'Waiting for an entrance paper that is not on the schedule. Matriculation has no separate entrance test - admission turns on SPM results - and what you sit afterwards is the subject list the programme runs: Biology, Chemistry, Physics, Mathematics, Accounting, Economics and Business Management. Build your year around those modules and the module-assessment schedule on https://mohe.gov.my.',
     'A Matriculation (Malaysia) mock with a different number of items trains the wrong stamina.',
     'Paying Matriculation (Malaysia) fees before re-reading eligibility on https://mohe.gov.my is a frequent waste.',
     'Treat \'sure selection\' Matriculation (Malaysia) ads as marketing; the board does not endorse them.',

@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For Uganda Law Admission, revisit weak Uganda Law Admission units the day after a timed Uganda Law Admission set, and do not pay until https://ldc.ac.ug shows an open window.',
   commonMistakes: [
-    'If your Uganda Law Admission brochure has no date, throw it out and open https://ldc.ac.ug.',
+    'Missing the entry route you actually qualify for. There are two: the postgraduate Diploma route for candidates with an undergraduate degree in any field, and the graduate entry scheme for those with excellent UACE results, and they are not interchangeable. Confirm which route the Law Development Centre is admitting on this cycle, then read the notice on https://ldc.ac.ug for the admission window.',
     'A Uganda Law Admission mock with a different number of items trains the wrong stamina.',
     'Some Uganda Law Admission programmes add extra subject prerequisites after you pay — check https://ldc.ac.ug.',
     'Treat \'sure selection\' Uganda Law Admission ads as marketing; the board does not endorse them.',

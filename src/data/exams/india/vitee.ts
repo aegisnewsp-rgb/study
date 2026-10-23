@@ -60,7 +60,7 @@ const exam: ExamTemplate = {
     'Ignoring English/Aptitude if present in the live pattern.',
     'No full-length mocks.',
     'Guessing without understanding marking rules in the brochure.',
-    'Using outdated pattern claims from forums.'
+    'Letting a forum thread set the pattern. The paper in the current cycle runs 125 questions in 2 hours 30 minutes, and Aptitude (10 questions) and English (5 questions) sit inside it - so a forum answer that describes a different mix is describing a paper you will not sit. Only the current-cycle brochure settles what is actually in front of you. Read the current-cycle brochure on https://viteee.vit.ac.in before you time a single mock.'
   ],
   lastUpdated: '2026-09-22',
   officialSource: 'https://viteee.vit.ac.in/',

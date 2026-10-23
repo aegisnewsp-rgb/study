@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For UAE University CAT, save the UAE University CAT syllabus PDF from https://www.uaeu.ac.ae and ignore unofficial UAE University CAT must-do lists that omit that file.',
   commonMistakes: [
-    'Mirrors of UAE University CAT \'syllabus 2019\' are a common trap; start from https://www.uaeu.ac.ae.',
+    'Taking the CAT in a language your programme does not use. The paper is set in Arabic and English, and which of the two your programme uses is decided by admissions rather than by you, so revising the other version is time you will not get back. Ask admissions which language your programme expects before you split your revision time. Details on https://www.uaeu.ac.ae.',
     'Untimed UAE University CAT practice hides whether you can finish the published paper.',
     'Some UAE University CAT programmes add extra subject prerequisites after you pay — check https://www.uaeu.ac.ae.',
     'Cut-off rumours are not UAE University CAT offers of admission.',

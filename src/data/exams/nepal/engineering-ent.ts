@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For IOE Entrance (Nepal), revisit weak IOE Entrance (Nepal) units the day after a timed IOE Entrance (Nepal) set, and do not pay until https://ioe.edu.np shows an open window.',
   commonMistakes: [
-    'Mirrors of IOE Entrance (Nepal) \'syllabus 2019\' are a common trap; start from https://ioe.edu.np.',
+    'Reading the PCM requirement as a per-subject bar. The stated requirement is a minimum of 45% in PCM, and it does not say whether that is the aggregate across Physics, Chemistry and Mathematics or each subject on its own - two readings that put very different revision hours on the same candidate. Check which one your admission circular means before you weight your study time. The requirement is on https://ioe.edu.np.',
     'Skipping full IOE Entrance (Nepal) papers until the final weekend is how scores stall.',
     'The IOE Entrance is run by the Tribhuvan University Institute of Engineering, which publishes the admission circular - reporting dates, identification requirements and attempt limits - on https://ioe.edu.np. Alumni messaging groups are useful for timing advice, not for rules: what circulates there is usually the previous cycle dates.',
     'No IOE Entrance place is promised here. The measurable side of the qualification is the +2 Science result: Physics, Chemistry and Mathematics with a minimum of 45% in PCM, as set out on https://ioe.edu.np. Treat the study order on this page as preparation against that bar, not as a prediction.',

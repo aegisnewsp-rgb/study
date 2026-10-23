@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'AAU placement follows the Ethiopian EUEE path listed on https://www.aau.edu.et/admission — do not treat this hub as the placement office.',
   commonMistakes: [
-    'Screenshot cut-offs from last cycle do not bind AAU Admission (Ethiopia) this year — https://www.aau.edu.et/admission does.',
+    'The Field of Study Test of the Ethiopian University Entrance Examination is set in one of three subject areas, and this AAU plan is built from physics, chemistry and biology, so a candidate whose own field is not covered by these subjects should check the paper they will sit before working through this order. https://www.aau.edu.et/admission carries the live notice.',
     'AAU admission is built on the Ethiopian Secondary School Completion Examination (ESCCE) grade plus a General Aptitude paper, so revision that skips the aptitude half leaves half the entry test unpractised. Run the paper to its published duration rather than to your own pace, and re-read the grade and minimum-age requirements on https://www.aau.edu.et/admission.',
     'AAU eligibility is read off your own ESCCE result and your age - the stated minimum is 17 - not off the cohort that applied before you, whose grade requirements may since have moved. https://www.aau.edu.et/admission publishes the threshold that applies to your year.',
     'Treat \'sure selection\' AAU Admission (Ethiopia) ads as marketing; the board does not endorse them.',

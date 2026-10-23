@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For EMU Entrance (Ethiopia), save the EMU Entrance (Ethiopia) syllabus PDF from https://eaes.et/ and ignore unofficial EMU Entrance (Ethiopia) must-do lists that omit that file.',
   commonMistakes: [
-    'Screenshot cut-offs from last cycle do not bind EMU Entrance (Ethiopia) this year — https://eaes.et/ does.',
+    'The subjects behind this revision order are mathematics, physics and chemistry, while the entrance itself pairs an aptitude test with a subject-specific paper, so a candidate who revises only these three topics has not yet covered the aptitude part of the entrance. Check the syllabus PDF on https://eaes.et/ before you split your revision time between the two parts.',
     'A EMU Entrance (Ethiopia) mock with a different number of items trains the wrong stamina.',
     'Paying EMU Entrance (Ethiopia) fees before re-reading eligibility on https://eaes.et/ is a frequent waste.',
     'Nobody on this site can guarantee a EMU Entrance (Ethiopia) rank, percentile, or admission.',

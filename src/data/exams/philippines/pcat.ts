@@ -55,7 +55,7 @@ const exam: ExamTemplate = {
     'Assuming you can sit the PCAT whenever you are ready. The test typically runs in the February-to-May application season rather than on demand, so a revision plan built around a sitting outside that window may be aimed at a date that does not exist — check the available sittings on https://www.cem-inc.org.ph.',
     'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',
     'Each university taking the Philippines PCAT sets its own minimum percentile, and competitive programmes can ask for the 60th percentile or better, so a score that cleared one campus may not clear another. The CEM publishes the test itself on https://www.cem-inc.org.ph, but the cutoff that counts is the one on the admissions page of the school you are applying to.',
-    'Treat \'sure selection\' PCAT (Philippines) ads as marketing; the board does not endorse them.',
+    'Revising long passages and calling that the Verbal section. It runs analogies, sentence completion and reading comprehension, so a plan built only on reading practice leaves the analogy and sentence-completion formats untaught - work through those formats separately before you sit the paper.',
     'Practising PCAT (Philippines) as one undifferentiated score. The paper is built from four named sections - Verbal Ability, Quantitative Ability, Science (Biology, Chemistry, Physics) and General Information - so a mock that reports only a total hides the one section actually costing you percentile. Track each section separately, and check the current section list on https://www.cem-inc.org.ph.'
   ],
   lastUpdated: '2026-07-28',

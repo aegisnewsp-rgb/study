@@ -55,7 +55,7 @@ const exam: ExamTemplate = {
     'Expecting to recognise questions from a previous sitting. The DoH exam draws on a large question bank, and no two attempts present the same selection, so a memorised item is worth less than the clinical rule behind it — check the current DoH guidance and the PQR for your profession on https://www.doh.gov.ae.',
     'A DOH (UAE) mock with a different number of items trains the wrong stamina.',
     'Assuming a Department of Health licence covers Dubai conflates two separate regulators, so use the Dubai Health Authority there and review the DoH PQR for Abu Dhabi at https://www.doh.gov.ae.',
-    'Treat \'sure selection\' DOH (UAE) ads as marketing; the board does not endorse them.',
+    'The DoH paper for a physician is not only medical knowledge. It also tests patient management and professional ethics, so a revision pile of textbooks leaves two of the three areas of the physician paper unpractised. https://www.doh.gov.ae carries the current guide.',
     'Eligibility snippet we store for DOH (UAE): Recognised primary medical qualification. Post-graduate experience may be required for specialists. Boards edit this; https://www.doh.gov.ae wins.'
   ],
   lastUpdated: '2026-07-28',

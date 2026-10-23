@@ -57,7 +57,7 @@ const exam: ExamTemplate = {
     'Mirrors of a UNDANA \'syllabus 2019\' are a common trap. The test is the national UTBK-SNBT paper, so a document titled after one campus is usually either out of date or is about that campus\'s internal regulations rather than the exam.',
     'Revision spread evenly across every subject when the national paper is not. UTBK-SNBT is a single computer-based sitting with one published duration, so a candidate who gives every topic equal hours can still run out of time in the section that decides the score.',
     'Assuming Undana sets the exam syllabus can misdirect preparation because the UTBK-SNBT syllabus and paper format are set nationally, so use the nationally set syllabus and check programme requirements at https://undana.ac.id.',
-    'Treat \'sure selection\' UNDANA Admission (Indonesia) ads as marketing; the board does not endorse them.',
+    'Undana admits through either a university-specific entrance or the national UTBK-based route, so a plan built only on the UTBK-SNBT paper may be aimed at the wrong paper for the programme you want. Check which route your programme uses on https://undana.ac.id.',
     'Counting an SMA certificate as the whole eligibility test. Indonesian admission also runs on the national score route, and the mix of results a candidate is expected to present differs by degree level — confirm which applies to the programme you want before you plan the year.'
   ],
   lastUpdated: '2026-07-28',

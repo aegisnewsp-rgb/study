@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For KUET Admission Test, hold KUET Admission Test ID-photo and fee rules against https://kuet.ac.bd in the same week as your first KUET Admission Test mock.',
   commonMistakes: [
-    'Screenshot cut-offs from last cycle do not bind KUET Admission Test this year — https://kuet.ac.bd does.',
+    'Revising from a seat-mate\'s plan because you both sit an engineering entrance test. KUET is one of nine public engineering universities in Bangladesh, and the test in front of you selects only its own candidates, so a peer sitting another university\'s paper is revising a different paper — confirm the structure and fee notice for your own test on https://kuet.ac.bd.',
     'A KUET Admission Test mock with a different number of items trains the wrong stamina.',
     'KUET Admission Test eligibility turns on the HSC Science-group result you actually scored - a combined GPA of 4.0 across Physics, Chemistry and Mathematics - and on Bangladeshi nationality, with diploma holders in engineering eligible for some programmes under special quotas. An alumnus remembers their own transcript, not yours; https://kuet.ac.bd states the rule that applies to your year.',
     'If a page promises you will \'crack KUET Admission Test\' with this plan, it is not this site.',

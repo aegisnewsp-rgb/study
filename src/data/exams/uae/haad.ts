@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'HAAD/DOH licensing steps are on https://www.doh.gov.ae. Study clinical topics here; book the professional exam only on that portal.',
   commonMistakes: [
-    'Screenshot cut-offs from last cycle do not bind HAAD (UAE) this year — https://www.doh.gov.ae does.',
+    'Treating an ambiguous HAAD item as if several options could be scored. The paper uses single-best-answer multiple choice, so where two options look defensible the item is testing which one the DoH rates best — check the current guidance on https://www.doh.gov.ae.',
     'Assuming the exam has one fixed question count. HAAD is computer-based and the number of items and the time allowed are set by the DOH for each profession, so a number quoted from another candidate\'s booking is not transferable to yours.',
     'Starting the application before your qualification documents are verified. Credentials go through verification before an exam date is set, so an incomplete or unattested document holds up the booking rather than being sorted out afterwards.',
     'Nobody on this site can guarantee a HAAD (UAE) rank, percentile, or admission.',

@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'Sequence your preparation around the workflow rather than around textbook chapters: start a DataFlow file first, because delays there block everything downstream, then book a Pearson VUE slot once verification is progressing. There is no single paper everyone sits. The content, weighting and item count differ by profession and by specialty, so pull the candidate guide and the PQR for your specific title before you commit to a question bank. Build timed mock blocks on the Pearson VUE interface early, not late.',
   commonMistakes: [
-    'Screenshot cut-offs from last cycle do not bind DOH (UAE) this year — https://www.doh.gov.ae does.',
+    'Expecting to recognise questions from a previous sitting. The DoH exam draws on a large question bank, and no two attempts present the same selection, so a memorised item is worth less than the clinical rule behind it — check the current DoH guidance and the PQR for your profession on https://www.doh.gov.ae.',
     'A DOH (UAE) mock with a different number of items trains the wrong stamina.',
     'Assuming a Department of Health licence covers Dubai conflates two separate regulators, so use the Dubai Health Authority there and review the DoH PQR for Abu Dhabi at https://www.doh.gov.ae.',
     'Treat \'sure selection\' DOH (UAE) ads as marketing; the board does not endorse them.',

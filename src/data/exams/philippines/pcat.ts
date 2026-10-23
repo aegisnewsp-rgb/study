@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
   prepOverview:
     'For PCAT (Philippines), a crash week for PCAT (Philippines) only works after you have the live PCAT (Philippines) paper map from https://www.cem-inc.org.ph.',
   commonMistakes: [
-    'Screenshot cut-offs from last cycle do not bind PCAT (Philippines) this year — https://www.cem-inc.org.ph does.',
+    'Assuming you can sit the PCAT whenever you are ready. The test typically runs in the February-to-May application season rather than on demand, so a revision plan built around a sitting outside that window may be aimed at a date that does not exist — check the available sittings on https://www.cem-inc.org.ph.',
     'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',
     'Each university taking the Philippines PCAT sets its own minimum percentile, and competitive programmes can ask for the 60th percentile or better, so a score that cleared one campus may not clear another. The CEM publishes the test itself on https://www.cem-inc.org.ph, but the cutoff that counts is the one on the admissions page of the school you are applying to.',
     'Treat \'sure selection\' PCAT (Philippines) ads as marketing; the board does not endorse them.',

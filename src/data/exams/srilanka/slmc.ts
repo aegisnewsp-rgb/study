@@ -57,7 +57,7 @@ const exam: ExamTemplate = {
     'Revising clinical medicine but skipping basic medical sciences leaves part of the SLMC computer-based MCQ paper uncovered, since Part I covers both, so balance your preparation and check the current Part I structure at https://slmc.gov.lk/.',
     'Untimed SLMC Medical (Sri Lanka) practice hides whether you can finish the published paper.',
     'SLMC registration for foreign medical graduates turns on documents rather than recollection: a recognised degree, a finished internship, written standing from your own country\'s medical regulator, and proof of English or Sinhala/Tamil proficiency. The council sets what it accepts on https://slmc.gov.lk/ and the examination runs in English - check your own paperwork against that list rather than against someone who registered under the previous rules.',
-    'Cut-off rumours are not SLMC Medical (Sri Lanka) offers of admission.',
+    'The Medical Ordinance mandates the SLMC examination, and the standards it sets for doctors who qualified outside Sri Lanka reach past the medicine: ethical practice is among them, and the SLMC examination tests it. A revision plan that covers the clinical work and the medicine leaves that strand unrehearsed. Confirm what the council assesses on https://slmc.gov.lk/ and rehearse ethical practice as its own block rather than a closing paragraph.',
     'The examination has two parts - a computer-based MCQ test and a practical/clinical examination - and both must be passed to obtain registration, so rehearse them as two separate blocks rather than as one continuous paper. If the composition published on https://slmc.gov.lk/ differs from the two-part shape this page describes, follow https://slmc.gov.lk/.'
   ],
   lastUpdated: '2026-07-28',

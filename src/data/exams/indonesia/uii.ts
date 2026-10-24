@@ -53,7 +53,7 @@ const exam: ExamTemplate = {
     'Assuming the paper is in English. The UTBK score UII admits on carries Literasi Bahasa Indonesia, Literasi Bahasa Inggris, the TPA reasoning blocks and Pengetahuan Kuantitatif - so an English-only revision plan leaves the Indonesian literacy component untouched. Start that component early rather than in the last week; it is a whole component of the paper, not a paragraph. Component list on https://uii.ac.id.',
     'Universitas Islam Indonesia admits on a valid UTBK score from LTMPT, so confirm with the university which UTBK sitting this intake will accept before you build a timetable around it. Separately, practise the entrance paper to the published duration on https://uii.ac.id - untimed practice will not show you whether you can hold that pace.',
     'Some UII Entrance (Indonesia) programmes add extra subject prerequisites after you pay — check https://uii.ac.id.',
-    'Cut-off rumours are not UII Entrance (Indonesia) offers of admission.',
+    'UTBK is a computer-based written test, and its TPA section carries three named blocks: verbal, numerical and figural. General reasoning practice is not the same as rehearsing each of those blocks, so a plan built on the first can leave two of them untouched without you noticing the gap. Check the component structure published on https://uii.ac.id and give each block its own slot before you fix a timetable.',
     'UII reads two eligibility limbs independently: an SMA or equivalent certificate on one side, a valid UTBK score from LTMPT on the other. A candidate who clears only one has not met the requirement, so check both before you pay an application fee - https://uii.ac.id states what the current intake wants.'
   ],
   lastUpdated: '2026-07-28',

@@ -10,6 +10,7 @@ export const general_awareness: Subject = {
     { id: 'genaw-007', name: 'Budget and Taxation', weight: 3 as const, description: 'Union Budget process, direct and indirect taxes (income tax, GST), TDS, fiscal deficit and Finance Bill basics.' },
     { id: 'genaw-008', name: 'International Financial Institutions', weight: 3 as const, description: 'IMF, World Bank, ADB, AIIB, NDB and other multilateral lenders — headquarters, founding year, mandate and India\'s membership.' },
     { id: 'genaw-009', name: 'Important Days, Dates & Current Affairs for Bank Exams', weight: 5 as const, description: 'UN and national observances, regulatory foundation days and the last six months\' banking, economy and policy current affairs.' },
-    { id: 'genaw-010', name: 'Static GK — Important Facts About India & the World', weight: 4 as const, description: 'Capitals, currencies, headquarters, firsts, awards, dances, dams and key dates — fixed factual knowledge tested across GA sections.' }
+    { id: 'genaw-010', name: 'Static GK — Important Facts About India & the World', weight: 4 as const, description: 'Capitals, currencies, headquarters, firsts, awards, dances, dams and key dates — fixed factual knowledge tested across GA sections.' },
+    { id: 'genaw-011', name: 'Negative Marking in SBI Clerk: What a Wrong Answer Costs You', weight: 3 as const, description: 'Negative marking in the SBI Clerk exam: how the deduction is computed from the mark assigned to a question, and what a wrong answer costs in the Prelims and Mains papers.' }
   ]
 };

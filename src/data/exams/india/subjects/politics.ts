@@ -8,6 +8,7 @@ export const politics: Subject = {
     { id: 'politi-005', name: 'Politics: Meaning, Approaches and Scope', weight: 2 as const },
     { id: 'politi-006', name: 'The Seventh Schedule of the Constitution Divides Legislative', weight: 4 as const },
     { id: 'politi-007', name: 'Six Fundamental Rights in Detail', weight: 5 as const },
-    { id: 'politi-008', name: 'National Emergency (Article 352)', weight: 4 as const }
+    { id: 'politi-008', name: 'National Emergency (Article 352)', weight: 4 as const },
+    { id: 'politi-009', name: 'TNPSC Group 1 Prelims: Time, Marks and Answering Rules', weight: 3 as const, description: 'The TNPSC Group 1 preliminary paper: how long it runs, how it is marked, and the answering rules a candidate has to follow on the OMR sheet.' }
   ]
 };

@@ -8,6 +8,7 @@ export const karnataka_specific: Subject = {
     { id: 'karnat-005', name: 'Karnataka Medieval History: Kalachakra, Jain/Buddhist Centres, Hoysala, and Vijayanagara', weight: 5 as const },
     { id: 'karnat-006', name: 'Karnataka Economy: Agriculture, IT, Silk, Coffee, Sericulture, and Industrial Development', weight: 4 as const },
     { id: 'karnat-007', name: 'Karnataka Polity: State Legislature, Governor, Council of Ministers, and Local Government', weight: 4 as const },
-    { id: 'karnat-008', name: 'Karnataka Cultural Heritage: Fairs, Festivals, Yakshagana, Puppet Shows, Forts, and Museums', weight: 3 as const }
+    { id: 'karnat-008', name: 'Karnataka Cultural Heritage: Fairs, Festivals, Yakshagana, Puppet Shows, Forts, and Museums', weight: 3 as const },
+    { id: 'karnat-009', name: 'KPSC KAS Negative Marking: How Marks Are Deducted', weight: 3 as const, description: 'Negative marking in the KPSC KAS prelims: how marks are deducted for a wrong answer, how the deduction scales with the mark of the question, and what it does to a candidate score.' }
   ]
 };

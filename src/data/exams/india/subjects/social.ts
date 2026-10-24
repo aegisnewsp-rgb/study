@@ -8,6 +8,7 @@ export const social: Subject = {
     { id: 'social-005', name: 'Medieval Indian History', weight: 4 as const, description: 'Medieval Indian history: the Delhi Sultanate (Slave, Khilji, Tughlaq, Sayyid, Lodi), the Mughal Empire, Bhakti and Sufi movements, and Maratha and regional polities.' },
     { id: 'social-006', name: 'Modern Indian History and Freedom Struggle', weight: 5 as const, description: 'Modern Indian history: the 1857 revolt, the Indian National Congress, Gandhian movements (Champaran, Non-Cooperation, Salt March, Quit India), and the 1947 partition.' },
     { id: 'social-007', name: 'Indian Economy and Development', weight: 3 as const, description: 'Indian economy and development: sectoral structure, Five Year Plans to NITI Aayog, the 1991 LPG reforms, the Green Revolution, and contemporary flagship schemes (GST, MGNREGA).' },
-    { id: 'social-008', name: 'Social Issues and Education Policy', weight: 2 as const, description: 'Environment and Social Issues: Sustainable development, waste management, population growth, urbanization challenges, and social inequality — connecting environment to social context.' }
+    { id: 'social-008', name: 'Social Issues and Education Policy', weight: 2 as const, description: 'Environment and Social Issues: Sustainable development, waste management, population growth, urbanization challenges, and social inequality — connecting environment to social context.' },
+    { id: 'social-009', name: 'UPTET: Who Conducts It, and How the Exam Runs', weight: 3 as const, description: 'Who conducts the UPTET, which authority it belongs to, and how the teacher eligibility examination is structured and marked for a candidate who sits it.' }
   ]
 };

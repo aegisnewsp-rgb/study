@@ -53,7 +53,7 @@ const exam: ExamTemplate = {
     'GUJCET is Gujarat\'s state entrance aligned closely to GSHSEB Class 12 PCM/PCB. Complete Gujarat board textbooks first; then timed GUJCET papers. Confirm dates and pattern on the official GSEB / GUJCET portal.',
   commonMistakes: [
     'Using only CBSE materials without Gujarat board emphasis.',
-    'No full-length timed mocks.',
+    'Score a GUJCET mock the way the booklet does, and the rule most candidates skip is the one for a question where more than one option gets marked, which the booklet treats separately from a single incorrect option. Read the deduction table in the GSEB booklet for the live cycle before your first practice set, then reproduce it exactly.',
     'Ignoring chemistry board-weight chapters.',
     'Application form errors.',
     'Outdated pattern PDFs.'

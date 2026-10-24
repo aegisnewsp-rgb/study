@@ -53,7 +53,7 @@ const exam: ExamTemplate = {
     'TS EAMCET (Telangana) covers Engineering/Agriculture & Medical streams with PCM or PCB as applicable. Align prep to Intermediate syllabus; practise previous TS EAMCET papers under official timing. Confirm stream, dates and marking on the official TG EAPCET / TS EAMCET portal for the live cycle.',
   commonMistakes: [
     'Studying only national JEE papers without state-board-aligned practice.',
-    'No full-length timed mocks.',
+    'A TS EAMCET mock must carry all 160 questions; a shorter set will not show you how you hold up over that many, and one subject carries more of the paper than the others. Match the counts in the real paper, sit the set end to end without stopping, and score each section on its own.',
     'Ignoring botany/zoology weight for biPC streams.',
     'Document errors at application time.',
     'Using outdated exam name/portal links.'

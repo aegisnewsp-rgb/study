@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Studying the wrong domain paper code relative to target university programmes.',
     'Ignoring the official NTA syllabus PDF for your paper.',
-    'No full-length timed mocks.',
+    'A mock set borrowed from another subject or another university tests a different paper, because CUCET PG papers are built per programme and the sections differ. Rebuild each set around the sections your own paper includes, score every sitting in marks rather than in raw question counts, and check the marking rule again before you start a new set.',
     'Assuming every central university still uses the same old CUCET branding/rules.',
     'Missing application and correction-window deadlines.'
   ],

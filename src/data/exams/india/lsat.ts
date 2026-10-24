@@ -55,7 +55,7 @@ const exam: ExamTemplate = {
     'LSAT—India style law admission tests emphasise reading comprehension, analytical and logical reasoning. Daily untimed-to-timed LR and RC drills; full practice tests weekly. Verify the current pattern, registration and score use with target law schools and the official test provider.',
   commonMistakes: [
     'Memorising legal facts instead of practising reasoning sections.',
-    'No full-length timed practice tests.',
+    'Rehearsing only the scored sections. The test also carries an experimental section and a writing sample that carries no marks, so a candidate who only runs scored blocks never practises the two unscored parts - and one asks you to write. Sit the whole thing once end to end and write the sample under time, though it is not scored.',
     'Ignoring official section order and timing.',
     'Random guessing without process of elimination discipline.',
     'Using outdated pattern claims.'

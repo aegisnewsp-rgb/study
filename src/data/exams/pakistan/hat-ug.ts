@@ -136,7 +136,7 @@ const exam: ExamTemplate = {
     'HAT / undergraduate aptitude pathways in Pakistan test English, analytical and quantitative skills as notified by HEC or the conducting body. Daily verbal + quant drills; weekly full timed tests; confirm the live HAT notice for pattern and score use by universities.',
   commonMistakes: [
     'Ignoring analytical reasoning while only cramming vocabulary lists.',
-    'No full-length timed practice tests.',
+    'Practising in blocks and never against the full clock. The paper is 100 MCQs in two hours, so 72 seconds a question, and it splits into six named sections, four of them recall - Pakistan Studies, Islamic Studies, General Knowledge and Current Affairs - not reasoning or language work. Sit one complete paper against a timer and note which section ran out.',
     'Outdated pattern claims.',
     'Weak quantitative speed.',
     'Missing score-reporting deadlines for target universities.'

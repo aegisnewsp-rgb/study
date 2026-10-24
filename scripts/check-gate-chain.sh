@@ -261,6 +261,20 @@ while read -r req; do
   fi
 done <<< "$REQUIRED"
 
+# ---- enforcement-gap census (2026-10-24T1250Z) --------------------------------
+# A MEASUREMENT, not a gate. It is printed here so the DEPLOY-side summary carries
+# the same coverage numbers the commit line carries: how many refusing receipts in
+# the store could NOT be enforced against the files being shipped. It cannot change
+# fail_count and cannot fail the chain - it is the "no refusal fired" vs "nothing was
+# refused" distinction, made visible where an operator reads the summary.
+#
+# Its own rc is ignored on purpose. It exits 2 when the receipt store is not
+# reachable, and on the deploy host it usually is not; that must read as NOT-RUN
+# (which it says out loud) and never as a failure of the chain.
+if [ -f "$SCRIPTS/sr-receipt-coverage-census.mjs" ]; then
+    node "$SCRIPTS/sr-receipt-coverage-census.mjs" >&2 || true
+fi
+
 printf '\ncheck-gate-chain: PASS %s | KNOWN-FAIL %s | NOT-RUN %s | FAIL %s | MISSING %s\n' \
   "$pass_count" "$known_count" "$notrun_count" "$fail_count" "$missing"
 

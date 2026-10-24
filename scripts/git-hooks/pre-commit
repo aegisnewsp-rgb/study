@@ -36,6 +36,31 @@ GATE="$(git rev-parse --show-toplevel)/scripts/sr-receipt-gate.mjs"
 node "$GATE"
 rc=$?
 
+# sr-receipt-coverage — the ENFORCEMENT-GAP census, on the commit line.
+#
+# WHY THIS RUNS HERE (2026-10-24T1250Z):
+#   The gate's warning for a receipt that declares no target ends in "AND ITS
+#   VERDICT REFUSES", which on a commit line reads like a refusal that FIRED. It
+#   did not fire — the gate could not map that receipt to any file, so nothing
+#   enforced it. Measured on the live store: 143 of the 157 refusing receipts
+#   declare no target. The gate's own file cannot carry the correction, because
+#   two refusing receipts govern scripts/sr-receipt-gate.mjs and block every
+#   commit that touches it (both are REJECTED supersession patches that never
+#   landed; the operator holds that decision, queue row 1935Z). The census
+#   therefore lives in scripts/sr-receipt-coverage-census.mjs, which IS
+#   committable, and prints the real numbers right below the gate's verdict.
+#
+#   It is a MEASUREMENT. It never changes a verdict and never blocks: the census
+#   exits 0 on success and 2 when the receipt store is unreachable, and neither
+#   exit code is allowed to touch the gate's own rc.
+CENSUS="$(git rev-parse --show-toplevel)/scripts/sr-receipt-coverage-census.mjs"
+if [ -f "$CENSUS" ]; then
+    node "$CENSUS" >&2 || true
+else
+    echo "sr-receipt-coverage: WARNING — $CENSUS not found, so NO enforcement-gap census was taken." >&2
+    echo "  This is NOT a pass: the coverage gap was not measured on this commit." >&2
+fi
+
 if [ "$rc" -eq 2 ]; then
     {
         echo ""

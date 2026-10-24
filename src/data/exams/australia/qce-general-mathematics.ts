@@ -69,7 +69,7 @@ const exam: ExamTemplate = {
     'Skipping Unit 4 because it is school-managed before external — Unit 4 is the summative Unit and the source of all external assessment items; weak Unit 4 preparation shows up directly in the external examination.',
     'Treating the QCE General Mathematics formula book as optional — the QCAA publishes a General Mathematics formula book that students are expected to use fluently; not knowing what is in it costs marks.',
     'Confusing QCE Mathematical Methods with VCE Mathematical Methods — the two syllabuses use similar names but different content and assessment patterns.',
-    'Memorising formulae instead of building from first principles — Unit 4 Specialist Mathematics rewards students who can derive integration formulas and chain-rule shortcuts, not just recall them.',
+    'Memorising standard forms instead of building from first principles. A student who copies forms without seeing where each comes from cannot adapt them when a question is worded differently, and General Mathematics Paper 2 is calculator-free, so the algebra comes from your own working. Work each method out in your notes, then use it on an unseen question.',
     'Leaving the QCAA sample examination until the last week — sample papers reflect the live paper structure and rubric; familiarity with them is the single biggest preparation lever.',
     'Ignoring the calculator-free paper in General Mathematics — Paper 2 is technology-free and assesses algebraic manipulation without a CAS calculator; over-reliance on technology in school assessment costs marks on this paper.'
   ],

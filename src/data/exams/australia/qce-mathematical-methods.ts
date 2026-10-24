@@ -67,7 +67,7 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Skipping Unit 4 because it is school-managed before external — Unit 4 is the summative Unit and the source of all external assessment items; weak Unit 4 preparation shows up directly in the external examination.',
     'Confusing QCE Mathematical Methods with VCE Mathematical Methods — the two syllabuses use similar names but different content and assessment patterns.',
-    'Memorising formulae instead of building from first principles — Unit 4 Specialist Mathematics rewards students who can derive integration formulas and chain-rule shortcuts, not just recall them.',
+    'Drilling derivative and integral steps with a CAS calculator. The Mathematical Methods external assessment includes a technology-free paper, so the derivative and integral steps have to be produced without a computer algebra system on that paper. Set the calculator aside for one full sample paper.',
     'Ignoring the technology-free paper — students who rely on CAS (computer algebra system) for derivative and integral steps struggle when the technology is removed.',
     'Leaving the QCAA sample examination until the last week — sample papers reflect the live paper structure and rubric; familiarity with them is the single biggest preparation lever.',
     'Skipping Specialist Mathematics vectors and mechanics practice — these are Units 3-4 topics with their own distinctive question style and worth significant marks in the Specialist Mathematics external assessment.'

@@ -468,8 +468,20 @@ const js = `
             // Standalone vignette 11799057 replaces the container's 11798845.
             // Note the different host: n6wxm.com, not the shared quge5.com one.
             if (cfg.vignetteEnabled) {
-                loadStandalone('sr-vignette', cfg.vignette, cfg.vignetteTag);
-                state.vignette = true;
+                // s1348: NO_DEMAND_GEOS can only fire if it is re-checked HERE.
+                // gate() may enter startAds() while the visitor country is still
+                // unknown (consent granted, /cdn-cgi/trace not yet answered), and
+                // this load fires 3.5 s later - by which time the country IS
+                // known. Measured 2026-10-21 over 7 days: 848 of 3,375 ad
+                // loads (25.1%) were for SG visitors, 9 days after a214425e
+                // added the gate. Fail-open: if the country is still unknown
+                // geoNoDemand() is false and the load proceeds as before.
+                if (!geoNoDemand()) {
+                    loadStandalone('sr-vignette', cfg.vignette, cfg.vignetteTag);
+                    state.vignette = true;
+                } else {
+                    state.reason = 'no-demand-geo';
+                }
             }
             startPush();
         }, 3500);
@@ -596,6 +608,11 @@ const js = `
             state.popunderSkipped = 'cooldown';
             return;
         }
+        // s1348: same re-check as the vignette. arm() runs on a timer or on
+        // first interaction, long after the country resolved, so it must honour
+        // NO_DEMAND_GEOS itself. Measured 2026-10-21 over 7 days: 930 of
+        // 3,375 ad loads (27.6%) were for SG visitors.
+        if (geoNoDemand()) { state.popunderSkipped = 'no-demand-geo'; return; }
         loadStandalone('sr-monetag-popunder', cfg.popunder, cfg.popunderTag);
         markPopunder();
         state.popunder = true;

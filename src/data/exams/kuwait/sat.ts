@@ -52,11 +52,11 @@ const exam: ExamTemplate = {
   commonMistakes: [
     'Preparing for an SAT Essay that is no longer on the paper. The optional Essay section has not been on it since 2021, so a practice set that still asks you to write an essay is built for a format you will not meet. Take your mocks from the current digital paper instead, and check what the live format still contains on https://satsuite.collegeboard.org/.',
     'Treating the first module as a warm-up at the British Council centre in Kuwait City. Module 2 difficulty follows Module 1 performance in each section, so a slow first module pulls the second one down and caps the section score. Time the first module on the 32-minute clock, then reset in the 10-minute break before Math.',
-    'Treating Reading and Writing and Math as equal — Math carries 800 points (half the composite) and is the section most candidates can move up most quickly with focused practice.',
+    'Treating the two sections as interchangeable at the British Council test centre in Kuwait City. Math carries 800 of the 1600 composite points and is the half most candidates can lift with focused practice. Give Math its own 35-minute clock and drill until 22 items per module is routine.',
     'No written error log — repeating the same mistake types across practice tests costs the same marks on every paper.',
-    'Under-preparing for the Reading and Writing passage-based questions — many candidates assume Math is the only "study" subject; the section-adaptive Reading and Writing module is a strong differentiator at the top of the band.',
-    'Failing to confirm the test-centre ID policy before test day — the College Board accepts a passport for non-residents and the Kuwait Civil ID for residents, and an incorrect ID on test day can void the registration.',
-    'Treating unofficial "SAT score predictor" results as guarantees. Only the official College Board score is reported to universities.'
+    'Assuming Math is the only half that needs study time. The Reading and Writing passages in the Kuwait sitting draw on literature, history, social science, the humanities and science, so a candidate who reads only math sets leaves half the paper unprepared. Read one passage a day and time it against the 32-minute module.',
+    'Turning up without checking which ID applies to you on the day. The College Board accepts a passport from non-residents and the Kuwait Civil ID from residents, and a mismatch on test day can void the registration. Confirm the live ID policy for the Kuwait sitting before you register, and check the ID rules on the College Board site.',
+    'Planning an application around an unofficial SAT score predictor. Only the official College Board report is sent to universities, so a forecast band from practice is a number no admissions office reads. Rehearse on timed papers until the band repeats, then plan from the official report, the score a Kuwaiti candidate sends to a US programme or a scholarship.'
   ],
   lastUpdated: '2026-09-20',
   officialSource: 'https://satsuite.collegeboard.org/',

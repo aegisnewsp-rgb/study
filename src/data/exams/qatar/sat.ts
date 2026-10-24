@@ -53,7 +53,7 @@ const exam: ExamTemplate = {
     'Practising on outdated paper-SAT PDFs instead of the current digital, adaptive format — the structure, pacing and difficulty profile are not equivalent.',
     'Ignoring the section-adaptive structure — Module 2 difficulty depends on Module 1 performance, so a slow first module can cascade into a low-difficulty second module and cap the score.',
     'Treating Reading and Writing and Math as equal — Math carries 800 points (half the composite) and is the section most candidates can move up most quickly with focused practice.',
-    'No written error log — repeating the same mistake types across practice tests costs the same marks on every paper.',
+    'Rehearsing Math on whatever calculator is in your bag. The Math section is calculator-permitted from the first question, and the test provides an on-screen calculator, while a personal device has to be an approved one. Check the approved list on https://satsuite.collegeboard.org/ before test day and drill your timed sets with the calculator you will actually be allowed to use.',
     'Under-preparing for the Reading and Writing passage-based questions — many candidates assume Math is the only "study" subject; the section-adaptive Reading and Writing module is a strong differentiator at the top of the band.',
     'Failing to confirm the test-centre ID policy before test day — the College Board accepts a passport for non-residents and the Qatar ID for residents, and an incorrect ID on test day can void the registration.',
     'Treating unofficial "SAT score predictor" results as guarantees. Only the official College Board score is reported to universities.'

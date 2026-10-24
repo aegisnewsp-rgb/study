@@ -53,7 +53,7 @@ const exam: ExamTemplate = {
     'The topic lists on this page are uneven: Chemistry carries the longest one and Physics the shortest, so a plan that splits revision time evenly across the three subjects leaves the longest list short. Weight the hours by the list lengths rather than by the number of subjects.',
   commonMistakes: [
     'The subjects behind this revision order are mathematics, physics and chemistry, while the entrance itself pairs an aptitude test with a subject-specific paper, so a candidate who revises only these three topics has not yet covered the aptitude part of the entrance. Check the syllabus PDF on https://eaes.et/ before you split your revision time between the two parts.',
-    'A EMU Entrance (Ethiopia) mock with a different number of items trains the wrong stamina.',
+    'Read the paper as the national placement entrance, not a campus internal test. The EMU Entrance is the entry examination for Ethiopian universities under the Ethiopian Media University or under the general Ethiopian university placement system, so the result is not confined to one institution. Check the placement notice on https://eaes.et/ before you fix the target list.',
     'Paying EMU Entrance (Ethiopia) fees before re-reading eligibility on https://eaes.et/ is a frequent waste.',
     'Nobody on this site can guarantee a EMU Entrance (Ethiopia) rank, percentile, or admission.',
     'The EMU Entrance (Ethiopia) runs on the standard Ethiopian university entrance format — an aptitude test and a subject-specific paper — and you enter it with an ESCCE certificate carrying the required grades. Read the format as a memory aid; https://eaes.et/ carries the live notice.'

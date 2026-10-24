@@ -62,11 +62,11 @@ const exam: ExamTemplate = {
   prepOverview:
     'UCAT ANZ preparation is best built around timed practice with the four subtests. The productive pattern is to start with Verbal Reasoning and Quantitative Reasoning (the most familiar subtest styles), then move to Decision Making (which has the longest per-item time but tests logical reasoning that Year 12 students often have less practice with), and finish with Situational Judgement (which has the most items but no prior knowledge required). The single highest-leverage habit is timed practice against the official UCAT ANZ practice tests on ucat.edu.au. The UCAT ANZ Consortium has removed Abstract Reasoning from the 2025 cycle onwards; students preparing from 2025 onwards should not allocate time to AR practice. Re-check the live test format and any free preparation resources on https://www.ucat.edu.au/about-ucat-anz/test-format/ before committing a revision plan to a student (australia).',
   commonMistakes: [
-    'Practising only without timing — the UCAT ANZ is heavily time-pressured and untimed practice trains slow habits; every drill must run against the official per-subtest time.',
-    'Skipping Decision Making because it looks like an English task — Decision Making tests logical reasoning, not reading; over-reading the prompt wastes time.',
+    'Rehearsing the Australian UCAT ANZ without a timer trains the wrong habits. The paper holds 184 items across 111 minutes of testing, so run every drill on its own clock and let the clock end the block, unanswered items and all.',
+    'Skipping Decision Making because the scenarios read like an English paper costs marks. The block runs longer than any other on the Australian paper, and the marks sit in whether the conclusion follows from the information given. Write the reasoning chain in one line before you mark an option.',
     'Forgetting that a calculator is on-screen in Decision Making as well as in Quantitative Reasoning — but typing in calculations is slow; mental arithmetic and estimation should be the default, with the calculator used to verify.',
-    'Reading every Situational Judgement scenario twice — SJT scenarios are dense; first-pass reading for the key conflict then refer back is faster than re-reading.',
-    'Studying for Abstract Reasoning after the 2025 change — Abstract Reasoning was removed from the UCAT ANZ in 2025; studying it now wastes time.',
+    'Reading every Situational Judgement scenario a second time is time taken from the next item. That block holds 69 items, so read once for the conflict, mark the option that names it, and only revisit a scenario if your mark told you nothing.',
+    'Still working through Abstract Reasoning after it was withdrawn from the paper in 2025 is wasted revision. A question bank that still carries a pattern section is testing a block that no Australian candidate sits, and the hours go on the blocks that are still timed.',
     'Booking the test late — Pearson VUE test centres fill quickly in July-August; late bookings may force travel to a distant centre or miss preferred sitting dates.'
   ],
   calendarDates: {

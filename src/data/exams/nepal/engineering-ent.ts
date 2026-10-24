@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For IOE Entrance (Nepal), revisit weak IOE Entrance (Nepal) units the day after a timed IOE Entrance (Nepal) set, and do not pay until https://ioe.edu.np shows an open window.',
+    'The paper sets 100 multiple-choice questions in two hours, weighted Mathematics 40, Physics 30 and Chemistry 20, with English taking the remaining 10. The lists on this page carry Chemistry 15 topics, Mathematics 8 and Physics 7. The chemistry list runs from Atomic Structure and Chemical Bonding through Electrochemistry, Chemical Kinetics and Chemical and Ionic Equilibrium to Chemical Thermodynamics, and the physics list runs from Work, Energy, and Power through Heat and Thermodynamics and Waves and Optics to Modern Physics and Electronics. Read the current admission notice on https://ioe.edu.np before you fix your plan.',
   commonMistakes: [
     'Reading the PCM requirement as a per-subject bar. The stated requirement is a minimum of 45% in PCM, and it does not say whether that is the aggregate across Physics, Chemistry and Mathematics or each subject on its own - two readings that put very different revision hours on the same candidate. Check which one your admission circular means before you weight your study time. The requirement is on https://ioe.edu.np.',
     'The IOE Entrance paper is pitched at the +2 Science level, so the difficulty band you practise in is the band you get used to. A mock written for a different level measures a different band from the one you will be examined on. Match the level of your practice papers to the +2 Science band, and confirm the current description on https://ioe.edu.np.',

@@ -48,7 +48,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For UII Entrance (Indonesia), keep UII Entrance (Indonesia) application admin (photo specs, IDs) off your UII Entrance (Indonesia) study clock by checking https://uii.ac.id early.',
+    'The TPA list on this page carries five blocks, Verbal Reasoning, Numerical Reasoning, Figural/Abstract Reasoning, Logical Reasoning and Analytical Reasoning, and the subject knowledge list carries eight topics, Mathematics, Physics, Chemistry and Biology for the Saintek track, Economics, Geography, History and Sociology for the Soshum track, and Indonesian Language and Literature, which that list marks as required under both tracks. Read the component structure on https://uii.ac.id before you fix your plan.',
   commonMistakes: [
     'Assuming the paper is in English. The UTBK score UII admits on carries Literasi Bahasa Indonesia, Literasi Bahasa Inggris, the TPA reasoning blocks and Pengetahuan Kuantitatif - so an English-only revision plan leaves the Indonesian literacy component untouched. Start that component early rather than in the last week; it is a whole component of the paper, not a paragraph. Component list on https://uii.ac.id.',
     'Universitas Islam Indonesia admits on a valid UTBK score from LTMPT, so confirm with the university which UTBK sitting this intake will accept before you build a timetable around it. Separately, practise the entrance paper to the published duration on https://uii.ac.id - untimed practice will not show you whether you can hold that pace.',

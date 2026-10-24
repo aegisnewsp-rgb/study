@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For Uganda Law Admission, revisit weak Uganda Law Admission units the day after a timed Uganda Law Admission set, and do not pay until https://ldc.ac.ug shows an open window.',
+    'English carries 10 topics on this page, including Reading Comprehension, Vocabulary and Word Choice, English Grammar, Sentence Completion and Cloze Tests and Essay Writing. Legal Reasoning carries 10, and its first topic is Constitutional Law of Uganda. Gk carries 8, and two of them are Constitutional Supremacy and Sources of Law and Constitutional History of Uganda. Read the admission notice for this cycle on https://ldc.ac.ug before you fix your plan.',
   commonMistakes: [
     'Missing the entry route you actually qualify for. There are two: the postgraduate Diploma route for candidates with an undergraduate degree in any field, and the graduate entry scheme for those with excellent UACE results, and they are not interchangeable. Confirm which route the Law Development Centre is admitting on this cycle, then read the notice on https://ldc.ac.ug for the admission window.',
     'This test gates a professional qualification, not just a university place. The LDC Diploma in Law is the qualification Uganda requires before a lawyer can practise, and it is the route into the Uganda Bar, so a candidate who treats the entrance as optional for a general law degree is reading it wrong. Read the programme notice on https://ldc.ac.ug before you plan.',

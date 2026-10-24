@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For ICAN (Institute of Chartered Accountants of Nigeria), keep ICAN (Institute of Chartered Accountants of Nigeria) application admin (photo specs, IDs) off your ICAN (Institute of Chartered Accountants of Nigeria) study clock by checking https://www.ican.org.ng early.',
+    'Accounting carries 15 topics on this page, from Accounting Principles and Journal Entries through Ledger Posting, the Trial Balance and Depreciation to Final Accounts, Company Accounts and Issue of Shares. Business Law carries 8 topics, Mathematics 10 and Economics 10, and the Mathematics list runs from Fractions, Decimals and Percentages through Ratios and Proportions to Algebraic Processes, while the Economics list runs from Demand and Supply to Elasticity and Consumer Behaviour. Check the paper list for the level you sit on https://www.ican.org.ng before you plan.',
   commonMistakes: [
     'Treating an accounting or related degree as an automatic exemption can mislead applicants because holders may gain exemptions from certain levels rather than receive them automatically, so check your level and exemption status with ICAN at https://www.ican.org.ng.',
     'ICAN runs level-specific papers in two diets a year - June and December - and the work changes with the level: Foundation has 4 papers, Intermediate 5 and Final 6, each paper 3 hours. Settle the level your SSCE/NECO credits and degree qualify you for, then drill that diet rather than a mixed pile; confirm the current paper list on https://www.ican.org.ng.',

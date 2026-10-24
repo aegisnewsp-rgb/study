@@ -52,7 +52,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'For SLMC Medical (Sri Lanka), use this SLMC Medical (Sri Lanka) hub to see what SLMC Medical (Sri Lanka) topics to study; use https://slmc.gov.lk/ to see when you may register.',
+    'The lists on this page carry Physics, Chemistry and Biology as the sciences, 12 topics each, and English as 10 topics, from Reading Comprehension through Vocabulary and Word Choice, Grammar and Usage and Sentence Completion to Essay Writing. The examination is set in two parts, and both must be passed before registration. Check the Part I structure published on https://slmc.gov.lk/ before you fix your plan.',
   commonMistakes: [
     'Revising clinical medicine but skipping basic medical sciences leaves part of the SLMC computer-based MCQ paper uncovered, since Part I covers both, so balance your preparation and check the current Part I structure at https://slmc.gov.lk/.',
     'Untimed SLMC Medical (Sri Lanka) practice hides whether you can finish the published paper.',

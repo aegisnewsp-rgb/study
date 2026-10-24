@@ -69,7 +69,7 @@ const exam: ExamTemplate = {
     'Skipping the SCSA examination design brief — the design brief sets out the structure, weighting and technology rules for each ATAR Year 12 examination; ignoring it costs preparation efficiency.',
     'Treating Mathematics Specialist as just harder Methods — Specialist has its own Topic strands (Vectors, Complex Numbers, Mechanics, Differential Equations) and missing these strands costs marks.',
     'Confusing WACE Mathematics Methods with HSC Mathematics Advanced or VCE Mathematical Methods — the three syllabuses use similar names but different content and assessment patterns.',
-    'Reciting a formula you cannot rebuild. Mathematics Specialist ATAR is where the mechanics, complex number and advanced calculus work in WACE lands, and Units 3 and 4 are externally assessed. Derive the Unit 3 and Unit 4 material yourself before the ATAR Year 12 examination.',
+    'Reciting a formula you cannot rebuild. Mathematics Specialist ATAR is where the mechanics, complex number and advanced calculus work in WACE lands, and Units 3 and 4 are the Year 12 courses that carry the external examination. Derive that material yourself before the ATAR examination.',
     'Leaving SCSA sample assessment materials until the last week — sample papers reflect the live paper structure and rubric; familiarity with them is the single biggest preparation lever.',
     'Ignoring the SCSA-approved calculator policy — the ATAR examination lists approved calculators; an unapproved calculator may lead to marks being disallowed.'
   ],

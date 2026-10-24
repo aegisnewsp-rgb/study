@@ -70,7 +70,7 @@ const exam: ExamTemplate = {
     'Underweighting the school-based assessment component — 70% of the grade is school-based and the external assessment is only 30%; weak school-based performance can\'t be recovered on the day.',
     'Treating Specialist Mathematics as just harder Methods — Specialist has its own Topic strands (Mathematical Induction, Complex Numbers, Vectors in Three Dimensions) and missing these strands costs marks.',
     'Confusing SACE Mathematical Methods with HSC Mathematics Advanced or VCE Mathematical Methods — the three syllabuses use similar names but different content and assessment patterns.',
-    'Memorising formulae instead of building them from scratch. In SACE Stage 2 Specialist Mathematics the Topics that extend Methods, mathematical induction among them, carry material the Methods course never covered. Work those Topics yourself, in the Topic order the Subject Outline sets out.',
+    'In SACE Stage 2 Specialist Mathematics the Topics deepen rather than repeat Mathematical Methods: mathematical induction, complex numbers and vectors in three dimensions sit in Specialist alone. Work those Topics yourself, in the Topic order the Subject Outline sets out.',
     'Leaving SACE sample assessment materials until the last week — sample papers reflect the live external assessment structure and rubric; familiarity with them is the single biggest preparation lever.',
     'Ignoring the calculus / statistics interleaving — Methods alternates calculus and statistics Topics and the assessment items test integration of both; practising them as separate silos misses the cross-Topic questions.'
   ],

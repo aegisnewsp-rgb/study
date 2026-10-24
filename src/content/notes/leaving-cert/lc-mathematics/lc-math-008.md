@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram of the standard geometric constructions — 
 
 Sections 2.1 and 2.2 test two different things under one heading. Synthetic geometry is *proof*: given a diagram with markings, show that a statement must be true, using named results. Constructions are *procedure*: produce a required point or line with straightedge and compass, and justify what you have produced. Marks are lost in both for the same reason — doing the thing without naming the theorem that makes it legal.
 
-## The results you need by name
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The results you need by name
 
 A proof that cites "by the third theorem" or names a theorem the marking scheme does not recognise earns nothing, however correct the argument. Learn the exact names.
 
@@ -34,7 +38,9 @@ A proof that cites "by the third theorem" or names a theorem the marking scheme 
 
 **Triangles.** Pythagoras. The angle between two tangents from an external point is 180° minus the central angle subtended by the points of contact.
 
-## Writing a proof
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Writing a proof
 
 Use the shape the marking schemes reward.
 
@@ -46,7 +52,8 @@ Each step reads: *[subject] [the theorem name] [what it follows]*. Example: *"an
 
 Work backwards from what you must prove to what you are given, then reverse. Most candidates reason forwards from the givens and run out of road.
 
-## Constructions
+
+#### Constructions
 
 Every construction question has two parts and they are marked separately: **do it**, then **justify it**. A correct drawing with no justification earns roughly half. The justification states which pair of arcs or lines produced equal lengths or angles, and which theorem follows.
 
@@ -62,7 +69,9 @@ The constructions you need:
 
 The examiner wants the construction set out in words as well as drawn. Name the arcs, name the intersection points, and name the theorem — a labelled sketch alone is not the full answer.
 
-## Where marks concentrate
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Where marks concentrate
 
 - Proving two triangles are congruent requires stating the matching pairs and the criterion — SAS, SSS, ASA, RHS — by name. Listing "angle, side, angle" without naming the criterion loses the identifying mark.
 - Showing two triangles are similar needs the criterion and a stated scale factor, with the corresponding sides identified.

@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing two triangles used in the ambiguous 
 
 Sections 2.3 and 2.4 are two separate toolkits that the exam likes to combine. Coordinate geometry turns shapes into algebra: once you have equations, intersection, distance and area become arithmetic. The geometry of triangles turns algebra back into lengths and angles when Pythagoras will not reach — the sine rule, the cosine rule and the area formula. A large share of the section questions in this block start as a diagram, become an equation system, and end with an angle.
 
-## Coordinate geometry
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Coordinate geometry
 
 **Gradient** between two points: (*y*₂ − *y*₁) ÷ (*x*₂ − *x*₁). Slope as well as gradient is used in Irish papers; same number.
 
@@ -34,7 +38,9 @@ Sections 2.3 and 2.4 are two separate toolkits that the exam likes to combine. C
 
 **Circles.** General form (*x* − *h*)² + (*y* − *k*)² = *r*², with centre (*h*, *k*) and radius *r*. A point on a circle satisfies the equation; a point outside does not. Intersection of a line and a circle gives a quadratic; the number of real solutions is the number of intersection points.
 
-## Solving triangles: knowing when Pythagoras fails
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Solving triangles: knowing when Pythagoras fails
 
 Pythagoras requires a right angle. The moment there is not one, you need the rules.
 
@@ -44,7 +50,8 @@ Pythagoras requires a right angle. The moment there is not one, you need the rul
 
 **Area formula.** Area = ½ *ab* sin *C*. This is the bridge between the two rules: when you know two sides and the included angle, the area is *½ab* sin *C*, and dividing by ½*bc* sin *A* recovers the sine rule.
 
-## The ambiguous case
+
+#### The ambiguous case
 
 This is where the sine rule earns its reputation. Given two sides and a **non-included** angle, there may be two triangles that satisfy the data — one acute, one obtuse. The diagram will show you which one is wanted.
 
@@ -52,7 +59,8 @@ The rule: if the angle known is the larger of the two given angles, or if the si
 
 Omitting the second solution loses marks even when the first is right, because the question expects both unless the diagram rules one out.
 
-## Higher-level extensions
+
+#### Higher-level extensions
 
 **Section formula** for a point dividing a line in a given ratio — internal and external.
 
@@ -60,7 +68,9 @@ Omitting the second solution loses marks even when the first is right, because t
 
 **Complex plane / vectors** are strand 2 extensions at Higher level and appear with the geometry of triangles: a rotation on a complex plane is multiplication by a complex number, and the modulus and argument of that number give the scale factor and the angle turned.
 
-## Frequent errors
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Frequent errors
 
 1. **Negative reciprocal.** Perpendicular gradients multiply to −1; a gradient of ½ gives a perpendicular of −2, not 2.
 2. **Area with a slanted base.** The perpendicular height is not the length of another side unless it is at right angles to the base.

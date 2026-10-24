@@ -74,7 +74,7 @@ const exam: ExamTemplate = {
   // Opening by expanding the exam name re-narrated the hero description verbatim.
   // This block is about what to do, so it starts there.
   prepOverview:
-    'Start from the WAEC notice for the current year, not a past paper pile. Mark each of the 7 or 8 papers you actually sit, and check your elective choice against the programme that will accept it — the WASSCE grade is aggregated across core and elective credits, so one weak elective can move the whole aggregate. For WASSCE (Ghana), if two blogs disagree on WASSCE (Ghana) marking, https://www.waecgh.org wins; this page only sequences WASSCE (Ghana) study.',
+    'Start from the WAEC notice for the current year, not a past paper pile. Mark each of the 7 or 8 papers you actually sit, and check your elective choice against the programme that will accept it — the WASSCE grade is aggregated across core and elective credits, so one weak elective can move the whole aggregate. Settling how many electives you take also fixes how many revision weeks you have, because a fourth elective eats into the run-up to the May/June sitting.',
   commonMistakes: [
     'Mirrors of WASSCE (Ghana) \'syllabus 2019\' are a common trap; start from https://www.waecgh.org.',
     'Counting your subjects off an old index page — WAEC sets the compulsory and elective pattern for the year, so read the current combination rules at https://www.waecgh.org rather than assuming a fixed total.',

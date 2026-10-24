@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram of the complex plane showing the real axis, 
 
 Sections 3.2 and 3.3 do two jobs. Section 3.2 asks you to place a value in the number system that describes it and to say why — a classification question with a short proof attached. Section 3.3 asks you to do arithmetic with complex numbers in Cartesian form and to interpret results geometrically. The classification is easy marks that candidates forfeit by writing the definition instead of the reason; the arithmetic is easy marks forfeited by sign errors.
 
-## The real numbers
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The real numbers
 
 The real numbers ℝ are built up in layers, and the syllabus expects you to be able to nest them correctly:
 
@@ -33,7 +37,9 @@ The proof that √2 is irrational is worth knowing, because the exam has asked f
 
 **The decimal trap.** A candidate asked "is 0.999… rational?" must reason rather than assert. It equals 1, because let *x* = 0.999…, then 10*x* = 9.999…, so 9*x* = 9, so *x* = 1. A recurring decimal is always rational because it can be written as a fraction — 0.333… = 1/3. The exam uses this to separate candidates who can apply the definition from candidates who can only recognise it.
 
-## Complex numbers
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Complex numbers
 
 A complex number is *z* = *a* + *bi*, where *a* is the real part and *b* is the imaginary part, and *i*² = −1.
 
@@ -51,13 +57,16 @@ The recurring sign errors are exactly two: forgetting that *i*² = −1 when red
 
 **Powers of i** cycle with period four: *i* = *i*, *i*² = −1, *i*³ = −*i*, *i*⁴ = 1, and then repeat. Any power of *i* can be reduced by taking the exponent modulo 4. Candidates who do not know the cycle spend the question expanding.
 
-## Quadratic equations in complex numbers
+
+#### Quadratic equations in complex numbers
 
 The syllabus connects this block to algebra: a quadratic with no real roots has complex roots *x* = *p* ± *qi*, and these are conjugates, because the coefficients are real. That is the reasoning to state — "the roots are complex conjugates since the coefficients are real".
 
 Working with roots is also how the discriminant is interpreted: negative discriminant, no real roots, two complex conjugates; zero discriminant, one repeated real root; positive, two distinct real roots.
 
-## Higher-level extension
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Higher-level extension
 
 **Polar form.** *z* = *r*(cos *θ* + *i* sin *θ*). Useful when the question asks for a modulus and an argument, or for powers of a complex number, where De Moivre's theorem applies: multiplying by (cos *θ* + *i* sin *θ*) corresponds to rotating by *θ* and keeping the modulus. Candidates who need it under this name should know it is nothing more than the addition formulae.
 

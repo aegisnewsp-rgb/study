@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 Probability at this level is a small set of rules applied to a written scenario, plus the discipline of counting the sample space correctly. The specification asks you to list or describe the sample space, apply the rules, and give the answer as a fraction, a decimal and a percentage — because the choice of representation is part of what is being assessed.
 
-## Sample spaces
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Sample spaces
 
 The sample space is the set of all equally likely outcomes. Two rules make or break the calculation.
 
@@ -23,7 +27,8 @@ The sample space is the set of all equally likely outcomes. Two rules make or br
 
 **Write it down.** Listing the sample space explicitly costs a line and catches almost every error. For two draws from {A, B, C} without replacement, the sample space is AA, AB, AC, BA, BB, BC, CA, CB, CC — nine outcomes, and seeing that AA appears once tells you the draws are not independent.
 
-## The rules
+
+#### The rules
 
 **Sum to 1.** The probabilities of all outcomes in a sample space add to 1. Use it to fill in the branch you did not work out — and use it as a check on your whole solution.
 
@@ -35,7 +40,9 @@ The sample space is the set of all equally likely outcomes. Two rules make or br
 
 **Complement.** P(not A) = 1 − P(A). Far faster than computing P(A) directly when "at least one" is really "not none".
 
-## With and without replacement
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### With and without replacement
 
 The distinction is the single most common source of error, and it is visible in the sample space.
 
@@ -45,7 +52,8 @@ The distinction is the single most common source of error, and it is visible in 
 
 Read the wording carefully: "the card is not replaced" versus "the card is replaced". When it is not stated, it is almost always about a single draw, and the question will say so if it matters.
 
-## Tree diagrams
+
+#### Tree diagrams
 
 - Every branch probability on a given stage sums to 1.
 - The probability of a **path** is the product along it.
@@ -53,7 +61,8 @@ Read the wording carefully: "the card is not replaced" versus "the card is repla
 
 Mixing the last two up is the standard loss. "Two blues" from a bag of two red and two blue is 2/4 × 2/3 + 2/4 × 1/3 = 1/3 + 1/6 = 1/2. The answer 2/4 × 2/4 = 1/4 corresponds to one specific path, not the event.
 
-## "At least one"
+
+#### "At least one"
 
 Read it as a complement. "At least one six when a die is rolled three times" is *not* the same as "one six" — it includes two and three. The complement route avoids the case-by-case counting:
 
@@ -61,7 +70,8 @@ P(at least one six) = 1 − P(no six in three rolls) = 1 − (5/6)³
 
 Two pitfalls. You must count **three** rolls in the complement, not two — this is the most common error in the topic. And P(at least one) is not the same as P(exactly one), which requires case analysis.
 
-## Working through the question
+
+#### Working through the question
 
 1. **Write the sample space.** List it if it is small.
 2. **Identify what is being asked** — a single outcome, a path, or a multi-outcome event.
@@ -71,7 +81,9 @@ Two pitfalls. You must count **three** rolls in the complement, not two — this
 
 Fractions should be simplified and, where the question asks, written in the simplest form. An unsimplified fraction loses the final mark even when the reasoning is perfect.
 
-## Common errors
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Common errors
 
 1. **Assuming independence when there is no replacement.**
 2. **Adding probabilities that can occur together**, without subtracting the overlap.

@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 This block covers three things the Junior Cycle Geometry and Trigonometry strand treats together: producing a required figure with straightedge and compass, moving figures around the plane, and deciding when one shape is an exact copy of another. All three end with the same requirement — a justification that names the reason, not a drawing on its own.
 
-## Constructions
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Constructions
 
 Every construction has two parts and both are marked: **the construction**, and **the justification**.
 
@@ -43,7 +47,9 @@ The constructions in the specification:
 
 State the arcs and name the intersection points in words. A drawing alone, however accurate, does not earn the justification marks.
 
-## Transformations
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Transformations
 
 Four transformations, each with a named centre or axis:
 
@@ -65,7 +71,8 @@ For an **enlargement with a negative scale factor**, the image is on the opposit
 
 An **enlargement of scale factor 1** is a translation-like move that preserves everything; a scale factor of −1 is a point reflection. Know these two edges.
 
-## Congruence
+
+#### Congruence
 
 Two triangles are congruent when they are identical in size and shape — same side lengths and same angles. To prove it you must name the criterion and match the pairs.
 
@@ -84,7 +91,9 @@ Two rules that cost marks every year:
 
 The writing convention: *AB = DE (given), ∠BAC = ∠EDF (alternate angles), ∠ABC = ∠DEF (isosceles triangle), so ΔABC ≅ ΔDEF by ASA.*
 
-## Similarity
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Similarity
 
 Similar triangles have the same shape — equal angles, proportional sides — but not necessarily the same size.
 

@@ -15,11 +15,15 @@ lastUpdated: "2026-10-17"
 
 Two topics that look apart and share a method: both are about finding an unknown from a pattern, and both reward writing the pattern down before computing anything. Quadratics give you roots that describe a graph; sequences give you a general term that describes a list. In both cases the marks are for identifying the structure and stating the formula you used.
 
-## Quadratic equations
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Quadratic equations
 
 *ax*² + *bx* + *c* = 0, with *a* ≠ 0.
 
-### Solving, in order of preference
+#### Solving, in order of preference
 
 **Factorising.** Look for two numbers that multiply to *ac* and add to *b*, then split the middle term and factorise in brackets. This is the method that gets full marks when the numbers were chosen to work, and the exam chooses them to work when it wants to see this method.
 
@@ -27,7 +31,7 @@ Two topics that look apart and share a method: both are about finding an unknown
 
 **The formula.** *x* = [*b* ± √(*b*² − 4*ac*)] ÷ 2*a*. Always valid. Write the discriminant line *b*² − 4*ac* = … before substituting — it is a mark, and it turns an opaque calculator step into visible reasoning.
 
-### The discriminant
+#### The discriminant
 
 | *b*² − 4*ac* | Roots | Graph and the x-axis |
 |---|---|---|
@@ -37,7 +41,7 @@ Two topics that look apart and share a method: both are about finding an unknown
 
 Stating the value *and* its meaning is two marks. Candidates routinely compute the discriminant and stop.
 
-### From roots to a sketch
+#### From roots to a sketch
 
 The roots are where the curve meets the *x*-axis — which is not the same as the *y*-intercept. Given roots *x*₁ and *x*₂:
 
@@ -48,37 +52,43 @@ The roots are where the curve meets the *x*-axis — which is not the same as th
 
 Writing the curve in factor form, *y* = *a*(*x* − *x*₁)(*x* − *x*₂), makes all of this immediate and is faster than expanding to standard form.
 
-### Equations with unknowns on both sides
+#### Equations with unknowns on both sides
 
 Where *x* appears on both sides, factorising usually needs a different move: bring everything to one side first, then factorise. Candidates who try to divide through immediately give up because the two sides do not match.
 
-## Sequences
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Sequences
 
 **Arithmetic** — constant difference. General term *uₙ* = *a* + (*n* − 1)*d*. Sum of the first *n* terms: *Sₙ* = *n*/2 [2*a* + (*n* − 1)*d*], or *n*(*a* + *l*)÷2 where *l* is the last term.
 
 **Geometric** — constant ratio. General term *uₙ* = *a rⁿ⁻¹*. Sum *Sₙ* = *a*(*rⁿ* − 1)÷(*r* − 1), valid for *r* ≠ 1. When *r* = 1 every term is *a* and the sum is *an*.
 
-### Identifying which you have
+#### Identifying which you have
 
 Divide consecutive terms: if the quotients are constant it is geometric. Subtract consecutive terms: if the differences are constant it is arithmetic. Do both checks before committing — a sequence that looks arithmetic for three terms can diverge, and that is a designed trap.
 
-### Sigma notation
+#### Sigma notation
 
 Σ with limits *n* = *a* to *n* = *b*. The summand is the general term; substituting the limits back must reproduce your first and last terms. That substitution is the check that catches an off-by-one, and it is quick.
 
-## Number sequences from a rule
+
+#### Number sequences from a rule
 
 Where the sequence comes from a described rule rather than from a formula, generate four or five terms and then look for the structure. Common patterns: arithmetic, geometric, quadratic (constant second difference), alternating between two behaviours, Fibonacci-style (each term the sum of the previous two), and *n*² or *n*³ terms.
 
 **Constant second differences** is worth being able to use. If the second differences are all equal to *k*, the sequence is quadratic and the leading coefficient of the general term is *k*/2.
 
-## Choosing the right method
+
+#### Choosing the right method
 
 The specification expects you to explain your choice, and a justification is marked. When you factorise a quadratic that could also have used the formula, say why: the factors are integers, so factorising is exact and faster. When you use the formula on an awkward quadratic, say that the roots are not integers, so factorising is not available.
 
 That one sentence is often worth a mark and takes ten seconds to write.
 
-## Frequent errors
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Frequent errors
 
 1. **(*n* − 1)** in the general term, and the *n* − 1 exponent in the geometric one.
 2. **Confusing the *y*-intercept with the roots.** *c* gives the intercept at *x* = 0; the roots are where *y* = 0.

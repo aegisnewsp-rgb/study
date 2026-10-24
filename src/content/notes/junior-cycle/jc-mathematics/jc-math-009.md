@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 Three ideas that look separate and are not: Pythagoras connects lengths, the area formulas are built from those lengths, and the volume formulas are built from the areas. The strand's learning outcomes ask you to select the appropriate formula from a diagram and to reason about why an answer is plausible — so the marks are split between the computation and the choice.
 
-## Pythagoras' theorem
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Pythagoras' theorem
 
 For a right-angled triangle, the square on the hypotenuse equals the sum of the squares on the other two sides: *a*² + *b*² = *c*².
 
@@ -34,7 +38,9 @@ Subtracting a larger square from a smaller one gives a negative number; that tel
 
 **3D Pythagoras.** The same theorem applied twice. In a cuboid with dimensions *a*, *b* and *c*, the base diagonal is √(*a*² + *b*²) and the space diagonal is √(*a*² + *b*² + *c*²). Draw the intermediate triangle — the mark scheme wants to see the two applications.
 
-## Area
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Area
 
 | Shape | Formula | Note |
 |---|---|---|
@@ -54,7 +60,8 @@ Three recurring errors:
 
 **Compound shapes.** Split into rectangles, triangles and trapezia, calculate each, add, and subtract any cut-outs. Show the split with lines on the diagram — the marking schemes expect the decomposition to be visible.
 
-## Volume and surface area
+
+#### Volume and surface area
 
 **Volume of a cuboid** = *lwh*. **Area of a cuboid** = 2(*lw* + *lh* + *wh*).
 
@@ -68,7 +75,9 @@ Three recurring errors:
 
 **Cone as a third of a cylinder** is the same idea: it occupies one third of the cylinder that encloses it, which is another way of remembering the factor.
 
-## Estimating and reasonableness
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Estimating and reasonableness
 
 Because this is a specification outcome and not just an examination habit, the exam asks you to check whether an answer is sensible. A door with area under a square metre is implausible; a swimming pool with a surface area of a few square centimetres is wrong. If your answer is off by a factor of a hundred, you have probably confused radius with diameter or multiplied the base area by the radius instead of the height — and the estimate tells you so before you write it down.
 

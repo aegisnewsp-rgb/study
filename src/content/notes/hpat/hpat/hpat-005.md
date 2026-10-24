@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing a reading-comprehension workflow for
 
 Section 1 of HPAT-Ireland does not test whether you have read a lot. It tests whether you can hold a short passage in your head, find the one clause that answers the question, and drop the rest. The skill is deliberately unglamorous and it is where a large share of Section 1 candidates lose time, because they read everything at equal weight instead of reading for the question.
 
-## The single rule: question first, passage second
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The single rule: question first, passage second
 
 Candidates who read the passage first are working the wrong way round. You cannot know what to retain until you know what will be asked. The efficient order is:
 
@@ -27,7 +31,9 @@ Candidates who read the passage first are working the wrong way round. You canno
 
 The noun phrase and the qualifier together are the search key. Written down, they beat rereading the passage every time.
 
-## What the passage is built from
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### What the passage is built from
 
 HPAT passages are constructed rather than sampled — they are written to carry a specific load. Recognising the construction tells you where the answer sits.
 
@@ -39,7 +45,8 @@ HPAT passages are constructed rather than sampled — they are written to carry 
 
 **Tables and diagrams appear alongside prose.** Where a question refers to a figure or a table, the answer is frequently in the table even when the prose around it is the more readable text. Check both; do not assume the passage paragraph carries it.
 
-## Inference, and where it stops
+
+#### Inference, and where it stops
 
 HPAT separates three levels, and the distinction is worth marking in your own answers:
 
@@ -53,14 +60,17 @@ HPAT separates three levels, and the distinction is worth marking in your own an
 
 Candidates lose marks by answering the strict question at weak-inference strength, and by answering the weak question as though it were strict. Read the modal verb as a specification.
 
-## Method under time
+
+#### Method under time
 
 - **Two passes maximum.** A first locating pass and a confirming glance. A third read is a sign you did not note the noun phrase.
 - **Mark as you go.** A single character against an option — correct, wrong, or *answer here* — stops you re-reading all four options later. "Answer here" is the valuable mark: it tells you where to return if time runs short.
 - **Guess rather than leave.** There is no penalty for a wrong answer on a multiple-choice paper. An unanswered item is strictly worse than a coin toss. Sweep for blanks at a checkpoint rather than at the end.
 - **Do not let a hard item eat the next one.** Section 1 items are not ordered by difficulty in a way that rewards persistence. Coming back later with the mark already made is worth more than five minutes sunk.
 
-## What this does not involve
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### What this does not involve
 
 Nothing here is recalled. HPAT draws on no syllabus, no subject knowledge and no prior reading. The entire content of this skill is: find the question, find the clause, discard the rest. Candidates who approach it as a knowledge test perform far below candidates who approach it as a search procedure.
 

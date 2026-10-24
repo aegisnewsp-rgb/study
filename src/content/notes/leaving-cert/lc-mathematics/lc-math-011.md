@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing rationalisation of a surd denominato
 
 Sections 3.1, 3.4 and 3.5 cover the mechanical core: fractions, standard form, indices and surds. No calculator-relevant concept appears here that you do not already use constantly in every other strand. The marks are lost almost entirely to sign errors and to leaving answers in a form the marking scheme does not accept, and both are cheap to fix with a fixed routine.
 
-## Indices
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Indices
 
 **Negative indices** move the term to the denominator: *a*⁻ⁿ = 1/*a*ⁿ.
 
@@ -33,7 +37,9 @@ Two expressions that look alike and are not:
 - *a*² *a*³ = *a*⁵, but (*a*²)³ = *a*⁶, and *a*² + *a*³ does not combine at all.
 - √*x* means *x*^(1/2); √*x* + √*x* = 2√*x*, while √(*x* + *x*) is a completely different expression. Root signs that extend over only part of a term are the single most expensive misreading in this topic.
 
-## Standard form
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Standard form
 
 Any number written as *a* × 10ⁿ with 1 ≤ *a* < 10.
 
@@ -43,7 +49,8 @@ Any number written as *a* × 10ⁿ with 1 ≤ *a* < 10.
 
 Estimation and order-of-magnitude questions are assessed. Saying "the answer is about 10⁷" from the coefficients alone is a legitimate and often-credited step.
 
-## Surds
+
+#### Surds
 
 A surd is an irrational root that cannot be simplified — √2, √3, √5, √7 and combinations of them. The arithmetic laws apply exactly as for fractions, which means surds never cancel to a rational number unless they are the *same* surd.
 
@@ -61,7 +68,8 @@ Two things earn the marks: writing the multiplication by the conjugate as an exp
 
 **Rationalising a binomial denominator with two surds.** Same procedure with *a* + √*b* and *a* − √*b*: their product is *a*² − *b*, which is rational. Then reduce any surds remaining in the numerator.
 
-## Fractions
+
+#### Fractions
 
 The routine that keeps fraction errors out:
 
@@ -71,7 +79,9 @@ The routine that keeps fraction errors out:
 4. Reduce and rationalise before you stop.
 5. Estimate the answer. If the sign or magnitude is impossible, you have made an error before you write it.
 
-## Fractions and surds combined
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Fractions and surds combined
 
 The higher-value items mix them. Solving for *x* in an equation with surds, or evaluating a function at a surd argument, both require the same discipline: reduce, operate, rationalise, check.
 

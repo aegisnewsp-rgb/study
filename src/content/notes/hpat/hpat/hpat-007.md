@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 Section 2 of HPAT-Ireland is the least familiar section for most candidates, and it is the one where reading speed helps least. The items give you a short written scenario and ask you to work out what the people in it are thinking, feeling or about to do. Nothing is stated directly. Everything has to be read out of behaviour, context and consequence.
 
-## Read for the people, not the problem
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Read for the people, not the problem
 
 The instinct on encountering a scenario is to look for a puzzle in it. There is one — a missing report, a clash between two colleagues, a deadline. Section 2 does not ask you to solve it. It asks you to identify the emotion, the motive or the likely next action of a named person.
 
@@ -26,7 +30,9 @@ Two habits make the shift:
 - **Name the people and their relationships first.** Who wants what from whom? Who has the authority? Who is being let down?
 - **Read the last line as the tell.** Scenarios in this section end on the detail that carries the emotional content — a pause, a choice of words, an action that contradicts what was said. The middle is context.
 
-## What you are actually inferring
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### What you are actually inferring
 
 **Emotion.** From behaviour to feeling. The candidate answer is the *specific* emotion, not the family of it. If a person declines an invitation in a particular way, the target is the precise emotional state, not "unhappy". The options are deliberately graded from vague to specific, and the specific one is correct — a distractor will always sit a rung too high (a stronger emotion than the evidence supports) or too low (a milder one).
 
@@ -36,7 +42,8 @@ Two habits make the shift:
 
 **Consistency.** Given what the person has said about something, which other statement would they also agree with. The test is whether the second statement follows from the first under the same set of values.
 
-## Where the distractors come from
+
+#### Where the distractors come from
 
 Section 2 distractors are rarely random. They are drawn from four recurring sources, and recognising one tells you to look elsewhere.
 
@@ -49,14 +56,17 @@ Section 2 distractors are rarely random. They are drawn from four recurring sour
 
 **Consistency of scale.** Emotions in a scenario have a consistent register. If a person has been mildly embarrassed throughout and the options include *furious*, the answer is not the strongest available — it is the one at the right temperature for this person.
 
-## Working under time
+
+#### Working under time
 
 - **Read the question first**, then the scenario. In a ranking item the question tells you the axis you are ranking along, which is often not the axis you would have chosen.
 - **Two passes.** A first pass for the people and the relationships, a second for the specific question. Do not re-read the scenario three times hunting for a sentence that states the answer.
 - **Mark, then move.** As with Section 1, leave a mark on the item and return if time allows.
 - **Guess rather than leave blank.** There is no penalty for a wrong answer.
 
-## The miscalibration to watch
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### The miscalibration to watch
 
 Candidates frequently answer Section 2 at the wrong register in one of two directions. Some choose the most emotionally extreme option available, assuming stronger is more perceptive. Others choose the mildest and safe-sounding option, assuming restraint is safer. Both are guesses about the test rather than readings of the scenario. The answer is the specific emotion that the evidence in *this* scenario supports, at the temperature *this* character has been established at.
 

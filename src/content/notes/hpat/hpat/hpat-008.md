@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram classifying HPAT Section 3 non-verbal reason
 
 Section 3 of HPAT-Ireland contains no written information at all. Every item is a diagram, and every question is answered by looking. That sounds like the most accessible section and it is the one where untrained candidates lose most time, because the failure is not perception — it is failing to classify the item before trying to solve it.
 
-## Classify first, solve second
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Classify first, solve second
 
 The single highest-value habit in this section is a two-second triage at the top of every item. Section 3 contains a small number of distinct families, and each has its own procedure. Deciding which family you are in before you touch the diagram converts a puzzling image into a routine.
 
@@ -30,7 +34,9 @@ The single highest-value habit in this section is a two-second triage at the top
 
 Two minutes of deliberate practice on classification alone converts this section more than any amount of pattern drilling.
 
-## Sequence items
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Sequence items
 
 The rule is always simpler than it looks. Three habits:
 
@@ -40,7 +46,8 @@ The rule is always simpler than it looks. Three habits:
 
 Common sequence families worth recognising instantly: rotation by a fixed amount; reflection; addition or removal of one element in a fixed order; alternation between two states; growth of size or number of sides; position change along a path; and combination of two independent cycles.
 
-## Transformation items
+
+#### Transformation items
 
 The discipline here is **one operation, once**.
 
@@ -51,7 +58,8 @@ The discipline here is **one operation, once**.
 
 The classic errors are folding a mirror and a rotation together, mirroring an image whose position also moves when only the orientation changes, and losing track of an element that should be hidden rather than deleted. On a fold, an element behind the fold line is occluded — it is not removed. That distinction is a designed distractor.
 
-## Search items
+
+#### Search items
 
 The complex figure decomposes into simple shapes. Work systematically rather than visually hunting:
 
@@ -63,7 +71,9 @@ The complex figure decomposes into simple shapes. Work systematically rather tha
 
 This ordering matters. Candidates who check position first spend the time budget on options that were eliminated by a one-second count.
 
-## What is actually being tested
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### What is actually being tested
 
 Section 3 measures speed of visual search and consistency of rule application, not drawing skill. Nothing in it rewards the ability to draw well, rotate a figure mentally with high fidelity, or work in fine detail. The score comes from maintaining accuracy while the clock runs.
 

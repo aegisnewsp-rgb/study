@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing a Pascal's triangle expansion aligne
 
 Sections 4.5 and 4.6 cover two small, self-contained skills that the exam uses as discriminators. The binomial theorem gives you a shortcut to coefficients and to approximations. Algebraic proof asks you to demonstrate that a stated statement is true, using a method the marking scheme names. Both are worth marks to a candidate who can do them and nothing to one who has met them only as formulae.
 
-## The binomial theorem
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The binomial theorem
 
 For (*a* + *b*)ⁿ:
 
@@ -24,7 +28,7 @@ For (*a* + *b*)ⁿ:
 
 The coefficients are the entries of **Pascal's triangle**, where each interior entry is the sum of the two above it. Recognising the pattern is faster and more reliable than reconstructing the formula under time pressure.
 
-### Finding a particular term or coefficient
+#### Finding a particular term or coefficient
 
 1. **General term.** *T*ᵣ⁺¹ = *n*Cᵣ *aⁿ⁻ʳ bʳ*, where *r* counts from 0.
 2. **Fix the exponent.** If the question asks for the coefficient of *x⁵*, set the exponent of *x* equal to 5 and solve for the other exponent. That gives *r*.
@@ -33,7 +37,7 @@ The coefficients are the entries of **Pascal's triangle**, where each interior e
 
 The off-by-one on *r* is the standard error. The question says "the fourth term"; that is *T*₄, which means *r* = 3. The question says "the coefficient of *x³*"; that is a constraint on the exponent and *r* follows from solving it. Both are different questions and the phrasing tells you which.
 
-### Coefficients and sums of coefficients
+#### Coefficients and sums of coefficients
 
 - **Sum of all coefficients** = set every variable to 1, so (1 + 1)ⁿ = 2ⁿ.
 - **Coefficient of *x⁰*** = substitute *x* = 0, which picks out the constant term directly.
@@ -42,11 +46,13 @@ The off-by-one on *r* is the standard error. The question says "the fourth term"
 
 These substitutions are worth memorising; each replaces a multi-line expansion with one line.
 
-### Approximation for small *x*
+#### Approximation for small *x*
 
 If *x* is small, the terms fall away quickly and truncating is accurate. Keep the first term or two and **state the degree of the approximation you have made**. "Approximately *x*⁴ + 6*x*³, taking the first three terms" earns the mark; a bare answer does not.
 
-## Algebraic proof
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Algebraic proof
 
 Three methods, each with a recognisable trigger.
 
@@ -62,11 +68,13 @@ Candidates who skip the base case lose a mark outright. Candidates who do not *u
 
 **Proof by counterexample.** Use when the statement is a universal claim that can be shown false by a single instance: "*n*² − *n* + 41 is prime for all integers *n*". Find one *n* where it fails. The whole proof is one well-chosen value plus the substitution — and choosing the value is the skill, which usually means testing the obvious candidates first.
 
-### The √2 irrational proof
+#### The √2 irrational proof
 
 The classic contradiction argument, and it appears often: suppose √2 = *a*/*b* in lowest terms. Then *a*² = 2*b*², so *a*² is even, so *a* is even. So *a* = 2*k*, giving 4*k*² = 2*b*², so *b*² is even, so *b* is even. Both *a* and *b* even contradicts lowest terms. Done.
 
-## Proof versus verification
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Proof versus verification
 
 Candidates lose marks by *verifying* an identity at a single value and writing "therefore true". Verifying at one point proves nothing about a polynomial identity; it only shows the identity holds there. The exam tests exactly this, and the mark scheme distinguishes "verified for one value" from "proved".
 

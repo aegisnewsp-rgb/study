@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 These two areas sit in the same topic because the exam combines them: a diagram of a circle with labelled points is used to prove an angle result, and a graph on an axis grid is used to read off a slope. Both require you to recognise which named fact applies rather than to compute.
 
-## Circle theorems
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Circle theorems
 
 Four results carry most of the marks. Learn them as statements, not as pictures.
 
@@ -27,19 +31,21 @@ Four results carry most of the marks. Learn them as statements, not as pictures.
 
 **The angle between a tangent and a chord equals the angle in the alternate segment.** The tangent is perpendicular to the radius at the point of contact, which gives a second route to most of these angles.
 
-### Writing the proof
+#### Writing the proof
 
 Name the theorem, name the subject, state the conclusion. For example: *angle AOB = 2 × angle ACB, by the theorem that the angle at the centre is twice the angle at the circumference standing on arc AB.*
 
 Candidates lose marks by drawing an accurate diagram and writing nothing — the diagram is not the proof. Equally, candidates who write "by the circle theorem" without naming which one fail, because the marking scheme specifies the theorem.
 
-### Common set-ups
+#### Common set-ups
 
 - **Triangle inscribed in a circle, centre O.** Draw radii to the two vertices not in the angle, and the isosceles triangles give you base angles. This is the standard route for finding an angle when a diameter is involved.
 - **Diameter as a chord.** The angle in a semicircle is a right angle — an application of the cyclic quadrilateral rule on the circle's own centre point, or of Thales' theorem. This converts a "hard" circle question into a Pythagoras question.
 - **Two tangents from an external point.** They are equal, so the triangle they form is isosceles; combined with the tangent–radius perpendicular, this gives a right angle at each point of contact and a fixed angle at the centre of 180° minus the central angle.
 
-## Coordinate geometry
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Coordinate geometry
 
 **Gradient** = (*y*₂ − *y*₁) ÷ (*x*₂ − *x*₁), equivalent to rise over run. Read a graph's gradient from a grid rather than from a drawing when the question supplies one.
 
@@ -53,7 +59,9 @@ Candidates lose marks by drawing an accurate diagram and writing nothing — the
 
 **Reflections and translations on a grid.** Reflecting in a horizontal or vertical line changes one coordinate's sign and leaves the other; reflecting in the line *y* = *x* swaps the coordinates. This connects directly to the transformations topic and is often the quickest route through a diagram question.
 
-## Combining the two
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Combining the two
 
 The exam's hardest items in this block place a circle on a grid, give the centre and a point, and ask for another point — for example the point diametrically opposite a given one, which is found by doubling the centre's coordinates and subtracting the given point's. Or they give two intersection points of a line and a circle and ask for the third, which uses the fact that the perpendicular from the centre bisects the chord.
 

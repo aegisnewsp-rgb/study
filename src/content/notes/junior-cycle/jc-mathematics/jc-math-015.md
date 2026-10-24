@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 This half of the Junior Cycle Statistics and Probability strand is about honesty: choosing the summary that fits the data, and choosing the graphic that shows the data without distorting it. The specification treats both as judgement, not calculation, and asks you to justify the choice.
 
-## Choosing the average
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Choosing the average
 
 | Average | Best for | Weakness |
 |---|---|---|
@@ -27,7 +31,8 @@ This half of the Junior Cycle Statistics and Probability strand is about honesty
 
 **Outliers.** Identify them by inspection: a value far outside the range of the rest. Do not silently remove one. State whether it is an error or a genuine observation, and explain what your choice of average does about it.
 
-## Spread
+
+#### Spread
 
 **Range** is the simplest and the weakest — it uses only two values and is dominated by outliers.
 
@@ -35,7 +40,9 @@ This half of the Junior Cycle Statistics and Probability strand is about honesty
 
 **Standard deviation** uses every value and measures typical distance from the mean. It is the right choice for symmetric data. Compute it with the calculator's statistics function, then say which — the sample or population version — your data set is.
 
-## Reading and building a data display
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Reading and building a data display
 
 Four displays, each with a job and a misuse.
 
@@ -51,7 +58,8 @@ Four displays, each with a job and a misuse.
 
 **Stem-and-leaf** preserves the original data values, which is its advantage: a candidate can recover the actual data from the display, and the shape and outliers are visible.
 
-## Choosing the display honestly
+
+#### Choosing the display honestly
 
 This is the outcome the specification emphasises. The question is not "which is prettiest" but "which shows the distribution truthfully".
 
@@ -62,11 +70,14 @@ This is the outcome the specification emphasises. The question is not "which is 
 
 A display that can hide data is the wrong choice when the task is to reveal it. A pie chart with thirty slices cannot be read, whatever the topic.
 
-## Boxplot
+
+#### Boxplot
 
 Draw from the five-number summary: minimum, lower quartile, median, upper quartile, maximum. Mark the box from Q1 to Q3 with a line at the median, and whiskers to the minimum and the maximum. The box covers the middle half of the data, which makes it comparable across groups even when the totals are not.
 
-## Where marks are lost
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Where marks are lost
 
 1. **Frequency density misread as frequency.** The area is the frequency, not the height.
 2. **Unequal-width histogram bars drawn with equal widths**, or equal data intervals drawn with unequal bars. Either breaks the area convention.

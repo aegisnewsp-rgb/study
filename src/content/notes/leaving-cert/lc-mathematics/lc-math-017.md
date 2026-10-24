@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing the transformations y=a^x, y=2^x, y=
 
 Sections 5.1 to 5.3 ask three things: sketch a polynomial from its defining equation, sketch and transform an exponential or logarithmic curve, and solve an equation in which the logarithm itself is the unknown. The sketching is done by calculator with a table of values; the transformation questions are done from a set of rules the syllabus fixes. The solving question is where the marks are.
 
-## Polynomials
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Polynomials
 
 Degree determines the shape, and knowing the table gets the sketch marks quickly.
 
@@ -34,13 +38,16 @@ What a full answer contains: the *y*-intercept, the *x*-intercepts if the range 
 
 **Rational functions** appear at Higher level with a vertical asymptote where the denominator is zero and, for higher degrees, an oblique or horizontal asymptote from comparing leading terms. These are the exception to the "polynomial curves are continuous" picture.
 
-## Exponential functions
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Exponential functions
 
 *y* = *a*^*x*, with *a* > 1 or 0 < *a* < 1.
 
 Key features: it passes through (0, 1) for every value of *a*; it is never zero and never negative; it has a horizontal asymptote at *y* = 0; it is increasing if *a* > 1 and decreasing if 0 < *a* < 1. That last pair is the identifying feature on a sketch.
 
-## Logarithmic functions
+
+#### Logarithmic functions
 
 *y* = logₐ *x* is the inverse of *y* = *a*^*x*. Every feature of the exponential reflects in the line *y* = *x*.
 
@@ -48,7 +55,8 @@ Key features: domain restricted to *x* > 0, which produces a **vertical asymptot
 
 The pair is the point of the topic: **what is an asymptote for the exponential is horizontal, and for the logarithm vertical.** Getting those two the wrong way round is the most common sketch error.
 
-## Transformations
+
+#### Transformations
 
 Apply in this order, because the order changes the result:
 
@@ -61,7 +69,9 @@ The shift rules are the ones candidates get wrong, because the sign is inside th
 
 For logarithms the same rules apply in the same order: logₐ(*kx*) and logₐ(*x* − *p*) and logₐ(*x*) + *q*.
 
-## Solving logarithmic equations
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Solving logarithmic equations
 
 The exam's standard item is the one where the logarithm is the unknown. It is solved by a single move: **make the logarithm the subject**, then exponentiate.
 
@@ -75,18 +85,18 @@ Solve the quadratic: *x*² − 2*x* − 3 = 8, so *x*² − 2*x* − 11 = 0, giv
 
 **Then reject the impossible root.** The domain condition from the original log arguments — *x* > 3 — removes 1 − 2√3. A solution that fails the domain restriction is not a solution, and stating which root is rejected and why earns a mark that candidates forfeit by quoting both.
 
-### The laws you need
+#### The laws you need
 
 - logₐ *x* + logₐ *y* = logₐ(*xy*)
 - logₐ *x* − logₐ *y* = logₐ(*x*/*y*)
 - *k* logₐ *x* = logₐ(*xᵏ*)
 - logₐ(*xᵏ*) = *k* logₐ *x*
 
-### The trap: log of a sum
+#### The trap: log of a sum
 
 **logₐ(*x* + *y*) ≠ logₐ *x* + logₐ *y*.** The law works on products and quotients, never on sums. A question written to catch this error is common, and the wrong answer always appears as a plausible option.
 
-### Equations with a variable on both sides
+#### Equations with a variable on both sides
 
 Where *a*^*x* = *b*^*x* and *a* ≠ *b*, take logs of both sides to get *x* log *a* = *x* log *b*, then solve for *x*. Taking logs is what makes a variable-both-sides equation solvable; candidates who try to match exponents directly get nowhere.
 

@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing a sine and a cosine curve over one p
 
 Sections 5.4 and 5.5 are the two Higher-level end blocks: sketching and transforming trigonometric functions, then differentiating and integrating. Both are small in content and large in marks, because the procedures are fixed and the marks are for showing the chain rule and setting up the integral correctly.
 
-## Trigonometric functions: the sketch
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Trigonometric functions: the sketch
 
 Every trigonometric sketch is determined by four quantities, and stating them is most of the answer:
 
@@ -30,7 +34,7 @@ Every trigonometric sketch is determined by four quantities, and stating them is
 
 With those four you can draw the curve without a calculator. Where accuracy is required, use a table on the calculator over one period.
 
-### Identities you need
+#### Identities you need
 
 - sin²*x* + cos²*x* = 1
 - tan*x* = sin*x* / cos*x*
@@ -39,7 +43,9 @@ With those four you can draw the curve without a calculator. Where accuracy is r
 
 Solving a trigonometric equation almost always reduces to one of these. For sin *x* = sin *y*, the general solutions are *x* = *y* + 2*n*π or *x* = π − *y* + 2*n*π — and omitting the second family is the standard loss, because a question that asks for solutions in a stated interval usually wants both.
 
-## Calculus: differentiation
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Calculus: differentiation
 
 **Power rule.** *y* = *xⁿ* differentiates to *n x*ⁿ⁻¹.
 
@@ -63,7 +69,8 @@ Solving a trigonometric equation almost always reduces to one of these. For sin 
 
 Candidates routinely compute the stationary point and omit the interpretation mark. Write the sentence.
 
-## Calculus: integration
+
+#### Calculus: integration
 
 **The power rule, reversed.** ∫ *xⁿ* dx = *x*ⁿ⁺¹/(*n* + 1) + *c*, for *n* ≠ −1. The **+ c** is a mark; omitting it loses one.
 
@@ -83,13 +90,16 @@ Candidates routinely compute the stationary point and omit the interpretation ma
 
 **Rates of change** questions: differentiate, evaluate at the given time, state the units. If the question is about a *decreasing* quantity, the negative derivative needs a sentence saying the quantity is decreasing at that rate.
 
-## Higher-level extensions
+
+#### Higher-level extensions
 
 **Exponentials and logarithms in calculus** appear with *a*^*x* = *e*^(ln *a* · *x*), so the chain rule handles them directly: d/d*x*(*a*^*x*) = *a*^*x* ln *a*.
 
 **Implicit differentiation** — differentiate both sides of an equation where *y* depends on *x*, treating *y* as a function, then solve for dy/d*x*.
 
-## Errors that recur
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Errors that recur
 
 1. **Missing *b* in the period.** Period is 2π/|*b|, not 2π.
 2. **Swapped sign in cos and sin integrals.** ∫ sin *x* dx = −cos *x*; ∫ cos *x* dx = sin *x*.

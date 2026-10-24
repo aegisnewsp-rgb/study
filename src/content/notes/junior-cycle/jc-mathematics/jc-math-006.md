@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 The Number strand at Junior Cycle asks you to move between representations of the same quantity without losing your place. A value can be a fraction, a decimal, a percentage or a ratio; an expression can be rewritten with negative, zero or fractional indices; a surd can be simplified or rationalised. The learning outcomes are not about doing these operations once — they are about choosing the representation that suits the question and justifying the change you made.
 
-## Placing a value in the number system
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Placing a value in the number system
 
 The sets nest: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.
 
@@ -26,7 +30,9 @@ The sets nest: ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ.
 
 Two consequences worth being able to state. Every integer is rational, because *n* = *n*/1. And a decimal is rational if and only if it is terminating or recurring — a non-recurring non-terminating decimal is irrational. When you are asked whether a decimal is rational, do not rely on how it looks; establish whether it repeats.
 
-## Ratio and proportion
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Ratio and proportion
 
 **Ratio** compares two quantities of the same kind. Write it as *a* : *b*, or as the fraction *a*/*b* when you are going to do something with it.
 
@@ -40,7 +46,8 @@ Two consequences worth being able to state. Every integer is rational, because *
 
 **Sharing in a ratio** is the same calculation going forwards: total the parts, then divide.
 
-## Percentage
+
+#### Percentage
 
 **Percentage change.** New value = original × (1 + *r*), where *r* is written as a decimal. A rise means adding the rate; a fall means subtracting it. "Increased by 40%" is × 1.4; "increased *to* 140%" is × 1.4 of the original too, but "increased *by* 140%" is × 2.4. The prepositions carry the meaning and the exam tests it.
 
@@ -52,7 +59,8 @@ Two consequences worth being able to state. Every integer is rational, because *
 
 **Interest** is compound when the calculation repeats on the new balance, and simple when it repeats on the original principal. Irish Junior Cycle financial work sits close to this boundary, so read the wording: "simple interest" and "compound interest" are named.
 
-## Indices
+
+#### Indices
 
 **Negative indices** put the term in the denominator. **Zero index** gives 1. **Fractional indices** are roots: *a*^(1/3) = ∛*a*.
 
@@ -60,7 +68,9 @@ Multiplying adds indices, dividing subtracts them, a power of a power multiplies
 
 **Order of precedence** — brackets, then indices, then multiplication and division, then addition and subtraction. When in doubt, substitute brackets. The Junior Cycle exam rewards a candidate who inserts brackets to show what a formula means, and the marks for reasoning are available in algebra questions.
 
-## Surds
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Surds
 
 A surd is an irrational root that cannot be simplified: √2, √3, √5.
 

@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram of the three trigonometric ratios anchored t
 
 Sine, cosine and tangent are three definitions, not three formulas to memorise. A candidate who knows which side is *opposite* the angle being used, which is the *adjacent* side and which is the *hypotenuse*, can reconstruct all three ratios in any arrangement. A candidate who memorises without that anchor cannot.
 
-## The three ratios
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The three ratios
 
 | Ratio | Definition | Use it when |
 |---|---|---|
@@ -26,7 +30,7 @@ Sine, cosine and tangent are three definitions, not three formulas to memorise. 
 
 **SOH-CAH-TOA** is the mnemonic, and the position of each letter is the whole content of it: sine and tangent both start from **O**pposite; cosine starts from **C**dges, i.e. the adjacent side; each of the first two ends at the hypotenuse (**H**), and tangent ends at **T** (the tangent of the angle).
 
-### The two-step procedure
+#### The two-step procedure
 
 1. **Name the angle you are working with.** The ratios are defined relative to a specific angle, and using the wrong one gives a reciprocal.
 2. **Label the three sides** of the right-angled triangle relative to *that* angle: opposite, adjacent, hypotenuse.
@@ -35,7 +39,9 @@ Sine, cosine and tangent are three definitions, not three formulas to memorise. 
 
 Candidates who draw the triangle and label the sides cannot make the last error, which is why the marking schemes encourage a labelled diagram.
 
-## Angles of elevation and depression
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Angles of elevation and depression
 
 The two are the same angle measured from opposite ends of a parallel horizontal line. At the top of a tower looking down at a point, the depression angle equals the elevation angle from that point looking up at the top.
 
@@ -43,7 +49,8 @@ The exam usually supplies a diagram showing both. If it does not, draw one: mark
 
 **What trigonometry cannot do.** A right triangle with one known angle and one known side does not determine the third. In these applications the second known length is the horizontal or vertical distance given in the problem — find it before you start.
 
-## Compound and multi-step problems
+
+#### Compound and multi-step problems
 
 The specification asks for problems where one triangle feeds into the next. The routine is:
 
@@ -57,7 +64,8 @@ The most common loss is stopping after the first triangle. If the question asks 
 
 **Angles in a horizontal plane** use the fact that the bearing from *A* to *B* and from *B* to *A* differ by 180°. Draw the plan view and mark it before substituting anything into a sine or cosine.
 
-## The inverse functions
+
+#### The inverse functions
 
 arcsin, arccos and arctan reverse the operation. They are required whenever the question gives you two sides and asks for the angle, because no direct ratio produces an angle.
 
@@ -65,7 +73,9 @@ arcsin, arccos and arctan reverse the operation. They are required whenever the 
 
 **Check with a quick estimate.** sin 30° = 0.5 and sin 60° ≈ 0.87. If your arcsin of 0.5 returns anything other than 30°, the mode is wrong.
 
-## What loses marks
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### What loses marks
 
 1. **Naming the angle after labelling the sides.** Label relative to the angle you are using, not the angle at the right-angled corner. The right angle is a fixed feature of the triangle, not your chosen angle.
 2. **Forgetting to invert.** sin *θ* = *x*/6* gives *x* = 6 sin *θ*.

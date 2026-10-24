@@ -11,12 +11,15 @@ generated: "2026-10-17T09:00:00Z"
 lastUpdated: "2026-10-17"
 diagramPrompt: "Educational diagram of an amortization schedule for a loan, with columns for period, opening balance, interest, repayment and closing balance, and a worked row filled in, white background, exam-style illustration"
 ---
-
 # Financial Mathematics and Counting — Leaving Certificate (Established) Mathematics Notes
 
 Sections 3.6 and 3.7 pair two topics that share a habit of mind: reading a situation, identifying the structure that generates it, and building a model. Finance questions become an amortization table or a formula substitution. Counting questions become a decision between a permutation and a combination. In both cases the mark is for naming the structure before you compute anything.
 
-## Finance: the four structures
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Finance: the four structures
 
 Every financial question in this section is one of four, and identifying which saves the whole question.
 
@@ -28,7 +31,9 @@ Every financial question in this section is one of four, and identifying which s
 
 **Annuities / regular savings.** Fixed amounts paid in regularly, accumulating with compound interest.
 
-### The routine for a loan question
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### The routine for a loan question
 
 1. Name the outstanding balance at the start of the period.
 2. Compute interest = balance × rate.
@@ -42,11 +47,7 @@ Two errors account for most of the lost marks here:
 - **Charging interest on the original principal every period** instead of the falling balance. This produces a larger total interest than the schedule and is the designed trap.
 - **Forgetting the direction of time.** If the question says interest is added at the end of the year, the first interest charge applies to the balance at the start of that year. Rounding conventions differ between questions; if the question says to round to the nearest cent at each step, do so and say you have.
 
-### What you should be able to state in words
-
-For any schedule, the examiner frequently asks for a description of the pattern rather than another number: "the interest charged each period decreases, while the amount of capital repaid each period increases". Being able to write that sentence earns marks that a further arithmetic attempt will not.
-
-## Counting principles
+#### Counting principles
 
 **Permutations** count arrangements where order matters. *n*Pr = *n*!/(*n* − *r*)!.
 
@@ -59,14 +60,20 @@ The decision is made by asking a single question: **does swapping two of the cho
 - A code from digits where 1 must come before 2 — order relevant → permutation.
 - Choosing two flavours of ice cream — order irrelevant → combination.
 
-### Adding the restrictions
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### What you should be able to state in words
+
+For any schedule, the examiner frequently asks for a description of the pattern rather than another number: "the interest charged each period decreases, while the amount of capital repaid each period increases". Being able to write that sentence earns marks that a further arithmetic attempt will not.
+
+#### Adding the restrictions
 
 - **Repetition not allowed** is the default. If the situation allows an item more than once, the counting is different: arrangements of a multiset are *n*! ÷ (*p*! *q*! …) for repeated items.
 - **Circular arrangements** divide by the number being arranged, since rotations are equivalent.
 - **At least one** conditions are handled by subtraction: count the total, subtract the complement.
 - **Restricted positions** — handle by placing the restricted item first, then arranging what remains.
 
-### Probability connections
+#### Probability connections
 
 The syllabus links counting to probability directly: where the sample space contains equally likely outcomes, P = (favourable arrangements) ÷ (total arrangements), and both counts use the same principle. If the favourable count is a combination and the total is also a combination, the factorials cancel in the final form — write the cancellation, it saves time and shows the reasoning.
 

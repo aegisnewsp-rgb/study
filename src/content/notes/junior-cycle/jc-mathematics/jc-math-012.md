@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 Algebra is the strand's language: an expression is a generalisation, an equation is a claim you can test, and a formula is an equation that already has one letter singled out for solving. The specification expects you to move freely between all three, and to explain why an algebraic step is valid rather than just performing it.
 
-## Expressions
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Expressions
 
 **Expanding** means removing the brackets. Multiply each term of the first bracket by every term of the second:
 
@@ -33,7 +37,8 @@ Algebra is the strand's language: an expression is a generalisation, an equation
 
 The middle term is where every error happens. Say the pattern out loud — "twice *a* times *b*" — before you write it.
 
-## Formulae
+
+#### Formulae
 
 Rearranging a formula is solving for a required variable, and the order of operations applies in reverse: undo the last thing done.
 
@@ -43,7 +48,9 @@ Candidates typically divide by *h* instead, which rearranges in the wrong direct
 
 Substituting into a formula then evaluating is a separate mark from rearranging it, and questions give both.
 
-## Linear equations
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Linear equations
 
 An equation is a balance; whatever you do to one side you do to the other. Write the operation out as you perform it.
 
@@ -58,7 +65,8 @@ The order that avoids almost every error:
 
 **Checking** is one substitution and it catches the errors above. Substitute your value back in and confirm both sides are equal. Where the question asks you to verify a solution, this substitution *is* the answer and it must be written out.
 
-## Simultaneous equations
+
+#### Simultaneous equations
 
 Two equations, two unknowns, and the method decides itself from the coefficients.
 
@@ -70,7 +78,8 @@ Two equations, two unknowns, and the method decides itself from the coefficients
 
 **Interpreting the solution.** A pair gives a coordinate. If the question says "the pair represents the meeting point of the two lines", say so — naming what it represents is a marked outcome, not a restatement of the numbers.
 
-## Sequences in algebra
+
+#### Sequences in algebra
 
 Generating terms from a rule, or building an expression for the *n*th term, connects here and to the Algebra strand's sequence outcomes:
 
@@ -79,7 +88,9 @@ Generating terms from a rule, or building an expression for the *n*th term, conn
 
 The (*n* − 1) is the error that costs the most marks across the whole topic, because it gives a correct answer for the first term and a wrong one for every other.
 
-## Common mistakes
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Common mistakes
 
 1. **The (*n* − 1)** in the general term of a sequence.
 2. **The middle term in a squared bracket** — writing 2*ab* as 2*a* or as *ab*.

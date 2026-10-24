@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram of a probability decision tree showing two s
 
 Sections 1.4 to 1.6 move from the arithmetic of probability to the use of two named distributions. The arithmetic is a small set of rules you can hold in your head; the distributions are lookup work plus a decision about which distribution the question has given you. The marks sit mostly in the middle step — stating the values of the parameters before computing — and in the interpretation sentence afterwards.
 
-## The three rules, and when each applies
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The three rules, and when each applies
 
 **Addition rule, mutually exclusive.** *P(A or B) = P(A) + P(B)* when A and B cannot both happen. If they can both happen, you need the second rule instead, and adding alone double-counts the overlap.
 
@@ -26,7 +30,7 @@ Sections 1.4 to 1.6 move from the arithmetic of probability to the use of two na
 
 **Conditional probability.** *P(A | B) = P(A and B) ÷ P(B)*. Read the conditioning carefully — *P(A | B)* and *P(B | A)* are different quantities and the exam reverses them deliberately.
 
-### Tree diagrams
+#### Tree diagrams
 
 The exam's staple two-stage item is: draw, note the outcome, do not replace, draw again. Three procedural rules carry the marks.
 
@@ -36,7 +40,9 @@ The exam's staple two-stage item is: draw, note the outcome, do not replace, dra
 
 Where a question adds "given that the first was red", you are being asked for a conditional probability. Compute the restricted sample space directly — condition on the event and recompute — rather than running a third formula on top of an unconditional one.
 
-## The binomial distribution
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### The binomial distribution
 
 Use it when the scenario has **a fixed number of independent trials, two outcomes each, and a constant probability of success**. If all three hold, do not build a tree; read the distribution.
 
@@ -51,7 +57,8 @@ Read the question's wording carefully to find which of the four forms is wanted:
 
 "At most 3" is inclusive. "Fewer than 3" is the same as "at most 2". Off-by-one errors here cost a full mark on an otherwise perfect answer.
 
-## The normal distribution
+
+#### The normal distribution
 
 Use it when a **continuous** measurement is being modelled — heights, masses, times, measurement errors — or when you are asked to approximate a binomial probability with a large number of trials.
 
@@ -63,13 +70,16 @@ Two directions of work:
 
 Always write the *z*-score line. It is a mark in its own right and it is what lets a marker see your method.
 
-## The continuity correction
+
+#### The continuity correction
 
 When a discrete variable is approximated by the normal, the boundaries shift by half a step. A count of "at most 8 successes" becomes a normal boundary at 8.5, not 8. The question signals the requirement with wording like "approximate using the normal distribution".
 
 The examiner's marking note flags the omitted continuity correction as a recurring error at Higher level. Include it the moment the question asks for an approximation, and state that you have applied it.
 
-## The interpretation sentence
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### The interpretation sentence
 
 Every distribution answer is followed, in most mark schemes, by a request to interpret it in context. *"The probability that at least three faults occur in a batch is 0.38, so about four in ten batches will contain three or more faults."* A bare number leaves that mark unclaimed. Use a proportion — "roughly one in three" — rather than restating the decimal.
 

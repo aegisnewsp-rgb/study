@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing a choice flowchart for choosing a me
 
 Sections 1.1 to 1.3 of the Leaving Certificate Mathematics syllabus cover the three moves that turn a pile of numbers into a statement you can defend: summarise a data set, decide whether the sample you took can stand for the population, and describe the relationship between two variables measured on the same subjects. Almost every question in this block carries two marks of method and one mark of interpretation, and the interpretation mark is the one candidates most often forfeit by writing a number where a sentence was asked for.
 
-## Choosing the right summary
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Choosing the right summary
 
 The decision is driven by the shape of the data, not by habit.
 
@@ -33,7 +37,9 @@ Two traps account for most of the lost marks here.
 
 **Grouped data can only be estimated.** Class midpoints give an *estimate* of the mean. Say so. The examiner credit is for acknowledging the approximation.
 
-## The standard deviation
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### The standard deviation
 
 Computed by calculator in the exam, but you must be able to write the formula and show the substitution, because the mark is for the working.
 
@@ -41,7 +47,8 @@ The calculator's statistical function returns the value for the sample standard 
 
 The interpretation sentence is the mark. Not "s = 4.2" but: *"the data typically lie about 4 marks either side of the mean."* Then, where the question allows it, one further clause: *"the spread is large relative to the mean, so individual results vary widely"* or *"the spread is small, so results are consistent."* A mark of interpretation without a judgement about whether the spread is *large or small for the context* usually stops short of the top credit.
 
-## Sampling
+
+#### Sampling
 
 The syllabus names the main sampling methods. For each, the question is the same: **what bias does this method introduce?**
 
@@ -52,7 +59,9 @@ The syllabus names the main sampling methods. For each, the question is the same
 
 Marks are awarded for naming the method and for stating the bias in terms of the population. "Stratified, and it guarantees that each group is represented in proportion to its size" is the shape of the answer that earns both marks. "Stratified is good" earns one.
 
-## Correlation and regression
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Correlation and regression
 
 The two are connected and the exam tests them as a pair.
 

@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 Junior Cycle treats financial mathematics as a strand outcome in its own right rather than a sub-topic of arithmetic, because the reasoning is the point and not the computation. The learning outcome asks candidates to compare financial options, judge whether a decision is financially sound, and reason about money over time — not to evaluate a compound interest formula they have been handed.
 
-## The three structures
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The three structures
 
 **Simple interest.** *A* = *P*(1 + *rt*), where *r* is the rate per year and *t* the time in years. Interest is always charged on the original principal, so the amount you receive grows in a straight line. Recognisable from the words "simple interest".
 
@@ -23,7 +27,8 @@ Junior Cycle treats financial mathematics as a strand outcome in its own right r
 
 **Depreciation.** The value of an asset falls. Straight-line depreciation writes off the same amount each year; reducing-balance depreciation applies a fixed percentage to the falling value. Both are assessed by asking you to build a table and then describe the pattern.
 
-## Deciding which one you are looking at
+
+#### Deciding which one you are looking at
 
 Read for three things in this order.
 
@@ -33,7 +38,9 @@ Read for three things in this order.
 
 Most candidates lose marks here by using the wrong structure, and the tell is nearly always in the wording rather than in the arithmetic.
 
-## Building the table
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Building the table
 
 When a question says to show the working year by year, a table is required — not a formula.
 
@@ -44,7 +51,8 @@ Fill in one row completely as a worked example, then use the pattern. Round at e
 
 Where the balance falls — a loan — the interest is charged on the *opening* balance and the repayment reduces the *closing* balance. Charging interest on the original amount every year is the standard error, and it produces a total interest that is too large.
 
-## Comparing two options
+
+#### Comparing two options
 
 The strand outcome is comparison, so the exam often gives you two savings products, two loans, or a cash price against a hire purchase, and asks which is better.
 
@@ -57,13 +65,16 @@ A comparison needs more than two final numbers. Build the comparison around:
 
 Where the question asks you to justify a choice, the sentence needs to reference the comparison, not just state the winner. "Option A gives more after five years but nothing can be withdrawn in the first two, so for money needed in year one Option B is the safer choice" earns the reasoning marks that "Option A is better" does not.
 
-## Judging a decision
+
+#### Judging a decision
 
 Questions that ask whether a decision is financially sound require the same move: state what the decision costs over its full duration, not just at the start. A monthly payment looks small until it is multiplied by the number of payments, and a headline rate ignores fees.
 
 The strand also expects economic reasoning in a familiar context — for example, why the effect of a percentage rise is different on a small base than on a large one. A 50% fall from €40 leaves €20, but a 50% rise from €20 gives €30, not €40. The percentages look the same and the amounts are not, and that asymmetry is a named outcome.
 
-## Common mistakes
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Common mistakes
 
 1. **Applying compound interest where simple interest is named.** Read the wording every time.
 2. **Charging interest on the original principal for a loan**, where it is charged on the falling balance.

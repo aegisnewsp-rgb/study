@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram of a parabola sketched from its roots and ve
 
 Sections 4.1 to 4.3 cover simultaneous equations, quadratics and inequalities. This is the block where candidates already know the material and still lose marks, almost always through the same four habits: not showing the substitution, not labelling which root is which, and testing the wrong values in an inequality. Each is cheap to correct and each costs marks on questions the candidate could otherwise answer fully.
 
-## Simultaneous equations
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Simultaneous equations
 
 Two equations, two unknowns. Three methods, and the marking schemes credit any of them if the working is shown.
 
@@ -26,13 +30,15 @@ Two equations, two unknowns. Three methods, and the marking schemes credit any o
 
 **Graphical.** Plot both lines and read the intersection. This is the method to use when the question asks for a *point* and expects you to identify it on a diagram, and it is worth knowing as a check on the algebraic answer.
 
-### The recurring loss
+#### The recurring loss
 
 Candidates write `x = 5` without ever writing the substituted equation. The substitution line **is** the method. Write `x = 5` and then immediately `3(5) + 2y = 16` and then `y = ½`. Three lines, and the marks are there.
 
 Where a question asks what the solution *represents*, write the coordinate pair and then the sentence: "the pair (*x*, *y*) = (5, ½) represents the meeting point of the two lines", or whatever the question specifies. Naming the meaning is a separate mark.
 
-## Quadratics
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Quadratics
 
 **Standard form** *ax*² + *bx* + *c* = 0, with *a* ≠ 0.
 
@@ -46,7 +52,7 @@ Where a question asks what the solution *represents*, write the coordinate pair 
 
 Stating the discriminant *and* what it means is two marks; stating it alone is one.
 
-### Solving — use the easiest route available
+#### Solving — use the easiest route available
 
 The order of preference matters for accuracy, not just speed:
 
@@ -56,7 +62,7 @@ The order of preference matters for accuracy, not just speed:
 
 The quadratic formula is always valid but it always loses the discriminant and substitution marks unless you write the discriminant line before substituting. Write it out; it costs four seconds and it is worth marks on its own.
 
-### Roots as a source of further information
+#### Roots as a source of further information
 
 Once you have roots *x*₁ and *x*₂ you have the whole picture of the quadratic, and the exam uses this heavily:
 
@@ -65,7 +71,9 @@ Once you have roots *x*₁ and *x*₂ you have the whole picture of the quadrati
 - **The discriminant as the minimum value**: the minimum of *ax*² + *bx* + *c* is −Δ/(4*a*), so Δ > 0 means the curve dips below the x-axis.
 - **Product and sum of roots**: *x*₁*x*₂ = *c*/*a* and *x*₁ + *x*₂ = −*b*/*a*. Both can answer a question without solving, and doing so where possible is faster and safer.
 
-## Inequalities
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Inequalities
 
 Two kinds, and they are solved by different methods.
 

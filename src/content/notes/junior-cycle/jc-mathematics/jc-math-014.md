@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 A function is a machine with one input and exactly one output. Almost everything in this topic follows from that: what the domain and range are, what a graph looks like, what a composite does, and what the rate of change means at a point. The specification asks you to move between a mapping, a table, a graph and an equation, so treat those four as four views of one thing.
 
-## Domain and range
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Domain and range
 
 **Domain** = the set of permitted inputs. **Range** = the set of outputs actually produced.
 
@@ -29,7 +33,8 @@ The *y*-intercept is *f*(0), when 0 is in the domain — and sometimes it is not
 
 **Mapping diagrams** show domain on the left and range on the right with arrows. One input must have exactly one arrow; two arrows from the same input make it a relation, not a function.
 
-## Graphs
+
+#### Graphs
 
 **Linear:** *y* = *mx* + *c* — a straight line, gradient *m*, cutting the *y*-axis at *c*.
 
@@ -49,7 +54,9 @@ The *y*-intercept is *f*(0), when 0 is in the domain — and sometimes it is not
 
 Where the exam tests it, the reasoning that works is: the bracket is zero at *x* = *p*, and that is where the shifted curve takes the original curve's starting value.
 
-## Composite functions
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Composite functions
 
 *f*(*g*(*x*)) means apply *g* first, then apply *f* to the result. The order is not interchangeable — *f*∘*g* and *g*∘*f* are different functions, and there are pairs where one is defined and the other is not.
 
@@ -57,7 +64,8 @@ The domain of *f*∘*g* is the set of inputs where *g*'s output falls inside *f*
 
 **Inverse functions.** *f*⁻¹ reverses *f*. A function has an inverse function only if it is one-to-one; a parabola does not, because two different inputs give the same output. The graph of an inverse is the reflection of the original in the line *y* = *x*. The domain and range swap.
 
-## Rate of change from first principles
+
+#### Rate of change from first principles
 
 The idea the Junior Cycle course introduces before formal differentiation:
 
@@ -69,11 +77,14 @@ The idea the Junior Cycle course introduces before formal differentiation:
 
 **Average speed** is distance ÷ time; **average velocity** is displacement ÷ time, and it is signed. If the question asks for velocity and the object is moving back the way it came, the answer is negative, and saying so is the mark.
 
-## Connecting to calculus
+
+#### Connecting to calculus
 
 At Higher level in the same strand, differentiation formalises the tangent gradient and integration formalises accumulated change. The reasoning is identical; only the notation changes. A candidate who is secure on "gradient of the tangent at this point" has already understood what a derivative is.
 
-## Frequent errors
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Frequent errors
 
 1. **Domain excluding a value that is not actually a problem.** Check whether the excluded value is real and in the range of the inner function before removing it.
 2. **Reading a range from the axis** rather than from where the curve actually reaches.

@@ -60,6 +60,7 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ncce.gov.ng',
+  conductingBody: 'National Commission for Colleges of Education (NCCE)',
 };
 
 export default exam;

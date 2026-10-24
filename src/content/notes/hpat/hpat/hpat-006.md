@@ -15,7 +15,11 @@ lastUpdated: "2026-10-17"
 
 The quantitative half of HPAT Section 1 is not a maths test. It does not ask whether you can do arithmetic faster than a calculator, and it does not reward advanced technique. It asks whether you can take an unfamiliar situation described in prose, work out what is actually being asked, and get to a defensible answer inside a time budget. Candidates with weaker mathematical backgrounds routinely outperform candidates with stronger ones on these items, because the failure is nearly always in the reading rather than the arithmetic.
 
-## What these items actually are
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### What these items actually are
 
 The format is almost always the same shape: a short scenario, a table or schedule of figures, and a question with four or five options. The difficulty is concentrated in the first step — deciding what quantity the question wants and in what unit.
 
@@ -27,7 +31,8 @@ Three things arrive together and must be untangled separately:
 
 Candidates reliably lose time by starting at the data and hunting for the answer there. Start at the question.
 
-## The five-step procedure
+
+#### The five-step procedure
 
 1. **Read the question first.** Write the target quantity in your own words and note the unit. If the unit is not stated in the question, infer it and check it against the data.
 2. **Scan the scenario for the constraint.** Rate, ratio, percentage change, per-capita, fixed total, two-stage — one of these is in play, and it determines which formula applies.
@@ -35,7 +40,9 @@ Candidates reliably lose time by starting at the data and hunting for the answer
 4. **Compute once, cleanly.** Write the operation before the numbers. Substitute the rounded figures shown in the table, not remembered or re-derived ones.
 5. **Check the options.** Most items are designed so that two or three options correspond to specific errors — using a numerator instead of a denominator, forgetting to multiply by a second stage, applying the change in the wrong direction. Reading the options tells you which errors the item is built around, and a quick scan for your value among them often identifies your mistake.
 
-## The constraint bank
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### The constraint bank
 
 Almost every item resolves to one of these. Recognise it from the question wording and the setup is half done.
 
@@ -50,7 +57,8 @@ Almost every item resolves to one of these. Recognise it from the question wordi
 | Weighted average | "average", "combined", "overall" | Weight each part by its own count before summing |
 | Two-stage | "of those, some proportion" | Do the first stage, carry the reduced base into the second |
 
-## The option-as-diagnostic technique
+
+#### The option-as-diagnostic technique
 
 Options in well-designed multiple-choice items are not random numbers. Each one is there because a particular mistake produces it. When your computed value is absent, do not immediately recompute — work out what each wrong option represents.
 
@@ -62,14 +70,17 @@ Options in well-designed multiple-choice items are not random numbers. Each one 
 
 This turns a lost item into a named, fixable error, which is worth far more than the single mark.
 
-## Time discipline
+
+#### Time discipline
 
 - **Budget per item and hold it.** These items are deliberately proportional. An item taking twice its budget is an item to mark and move from.
 - **Do not let the scenario become an essay.** Two lines of working is enough. If you are writing a third, you have misunderstood the question.
 - **Estimate before you compute.** Look at the options. If your intuition says the answer is in the low hundreds and you have set up a formula that will give you a number under ten, the setup is wrong — and you have found out in five seconds instead of three minutes.
 - **Leave nothing blank.** A guess on a multiple-choice paper costs nothing but the option you eliminate.
 
-## Common errors
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Common errors
 
 1. **Answering the question that was near yours.** These items often contain a second quantity you could compute. Check the verb: *how many*, *what proportion*, *how much more*.
 2. **Ratio direction.** "Twice as many doctors as nurses" is a statement about the larger group. Reversing it produces an answer that looks plausible and is wrong.

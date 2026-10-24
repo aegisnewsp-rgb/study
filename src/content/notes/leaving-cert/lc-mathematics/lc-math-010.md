@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram showing a 3D box with a space diagonal resol
 
 Section 2.5 at Higher level asks for lengths and angles that no flat diagram shows. The exam provides a three-dimensional setup — a cuboid, a right-angle wedge, a tower with a shadow, a building viewed from two positions — and expects you to reduce it to a two-dimensional triangle, solve that, and carry the answer back. Every mark in this section is won or lost in the reduction, not in the trigonometry.
 
-## The core method
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### The core method
 
 **Nothing in this section needs three-dimensional trigonometry.** It needs two-dimensional trigonometry applied twice, with the right triangle each time.
 
@@ -27,7 +31,9 @@ Section 2.5 at Higher level asks for lengths and angles that no flat diagram sho
 
 Candidates who stop after step 2 with a plausible-looking number lose marks in a way that feels like a calculator error. It is not; it is an unfinished reduction.
 
-## Resolution into components
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Resolution into components
 
 The idea that makes three dimensions tractable: any length in a solid can be broken into components along perpendicular directions, and the components can be recombined with Pythagoras.
 
@@ -37,7 +43,8 @@ The idea that makes three dimensions tractable: any length in a solid can be bro
 
 **Angle of elevation and depression** are the same angle measured from opposite directions. At the top of a vertical structure the elevation angle equals the depression angle from the structure to the same point on the ground. Draw it and the equality is obvious; students who treat them as different invent a variable for no reason.
 
-## Worked pattern: two-position problem
+
+#### Worked pattern: two-position problem
 
 A standard Higher-level setup: the angle of elevation of the top of a building from a point, then from a point a known distance further away.
 
@@ -49,7 +56,8 @@ A standard Higher-level setup: the angle of elevation of the top of a building f
 
 Candidates lose this question by writing step 3 without substituting, then treating the two heights as if they were equal numbers to be equated directly without first expressing both in terms of one variable. Equating *x* tan *θ*₁ with (x + *d*) tan *θ*₂ is legitimate; introducing *h* and then failing to eliminate it is not.
 
-## Vectors at Higher level
+
+#### Vectors at Higher level
 
 Vectors are the algebraic route into three dimensions and the syllabus assesses them alongside the geometry.
 
@@ -60,7 +68,9 @@ Vectors are the algebraic route into three dimensions and the syllabus assesses 
 
 A question that hands you three coordinates and asks for the angle between two lines is a vector question wearing a geometry costume. Convert the points to position vectors, subtract to get the direction vectors, then take the dot product.
 
-## Frequent errors
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Frequent errors
 
 1. **Pythagoras applied once where it is needed twice.** The cuboid diagonal is the canonical case.
 2. **Angle of elevation and depression treated as different quantities.**

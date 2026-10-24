@@ -16,7 +16,11 @@ diagramPrompt: "Educational diagram comparing an arithmetic sequence with a geom
 
 Section 4.4 is one of the highest-yield sections in the whole paper: the formulas are few, the pattern recognition is quick once you can do it reliably, and the questions are routine. Candidates who lose marks here do so on identification and notation rather than on the mathematics.
 
-## Naming the sequence first
+---
+
+### 🟢 Lite — Quick Review (1h–1d)
+
+#### Naming the sequence first
 
 Every sequence question begins with a decision, and the decision is worth a mark.
 
@@ -28,7 +32,8 @@ The check that settles it in one step: **divide consecutive terms by each other*
 
 Watch for the case designed to catch you: a sequence whose *ratio* is constant but which starts with a zero or contains a sign change, and a sequence whose terms happen to look arithmetic for the first three and then diverge. Read four or five terms before committing.
 
-## Arithmetic sequences
+
+#### Arithmetic sequences
 
 **General (nth) term:** *uₙ* = *a* + (*n* − 1)*d*, where *a* is the first term and *d* is the common difference.
 
@@ -41,7 +46,9 @@ The second form is quicker when the question hands you *a* and *l*. The first is
 
 **Determining which term a value is.** Solve for *n* in the general term. Two things to handle: *n* must be a **positive whole number**, and when the question asks "which term is the first to exceed…", you must check the neighbouring term to confirm you have genuinely crossed the threshold rather than merely reached it.
 
-## Geometric sequences
+### 🟡 Standard — Regular Study (2d–2mo)
+
+#### Geometric sequences
 
 **General term:** *uₙ* = *a rⁿ⁻¹*.
 
@@ -52,7 +59,8 @@ The *r* = 1 case is separate and the exam checks whether you know it: if *r* = 1
 
 **Sum to infinity** (available only when |*r*| < 1): *S*∞ = *a* ÷ (1 − *r*). The condition matters — if |*r*| ≥ 1 the series diverges and there is no sum to infinity. Stating the condition alongside the answer is the mark that candidates forget.
 
-## Sigma notation
+
+#### Sigma notation
 
 The same sums written with Σ. If the question asks you to write a series in sigma notation:
 
@@ -63,13 +71,16 @@ The same sums written with Σ. If the question asks you to write a series in sig
 
 Converting sigma notation into a calculation is the same task in reverse: identify *a*, *d* or *r*, and *n*, and use the formulas.
 
-## Recurrence and higher-order patterns
+
+#### Recurrence and higher-order patterns
 
 Sequences defined by a rule rather than a formula — "each term is the previous term plus its position" — are assessed by generating terms until the pattern stabilises, then identifying the arithmetic or geometric structure in the sequence you generated. Generating four or five terms reliably is the whole skill.
 
 Higher-order difference questions ask for the *n*th term of a sequence whose differences form a pattern. Where second differences are constant, the sequence is quadratic and *uₙ* = *an*² + *bn* + *c* with *a* = ½ × (second difference). Being able to derive that from three consecutive terms is worth doing once, carefully.
 
-## Where marks are lost
+### 🔴 Deep Dive — Mastery & Edge Cases (3mo–2yr)
+
+#### Where marks are lost
 
 1. **The (*n* − 1)** in the arithmetic general term, and the (*n* − 1) exponent in the geometric one. Both produce answers that are correct for the first term and wrong for every later one.
 2. **Applying the geometric sum to infinity when |*r*| ≥ 1.** The series does not converge; the answer is that it diverges.
